@@ -436,7 +436,7 @@ const ENTITIES = [
       thresh: "Eligibility: >10²⁶ FLOPs cumulative compute + >$500M revenue + >$100M compute investment. The Mar 2026 chapter amendments aligned the revenue/compute thresholds with California SB 53 instead of the original training-cost-only definition.",
       mit: "Safeguards against critical harm — frontier safety frameworks must address mitigation of catastrophic and large-scale risks. Mirrors SB 53's framework-level approach.",
       timing: "72-hour incident reporting (tighter than SB 53's 15 days). Lifecycle reporting expectations to be specified in DFS regulations.",
-      acct: "Department of Financial Services oversight office (the first sectoral AI regulator at state level), AG enforcement, and a public registry of frontier developer frameworks.",
+      acct: "Department of Financial Services oversight office — the first US state-level body with dedicated authority over frontier general-purpose AI developers (sectoral AI regulators like the Colorado Division of Insurance, which has overseen insurance-sector algorithms since 2023, predate it). Plus AG enforcement and a public registry of frontier developer frameworks.",
       update: "DFS regulations expected; like SB 53, frontier developers must keep their published frameworks current as capabilities evolve."
     } },
   { id: 'tx-raiga', link: 'https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149I.pdf', name: 'Texas TRAIGA', layer: 3, jur: 'uss', pow: 3, status: 'active',
@@ -559,15 +559,15 @@ const ENTITIES = [
     } },
   { id: 'xai-rmf', link: 'https://x.ai/safety', name: 'xAI Risk Mgmt Framework', layer: 5, jur: 'co', pow: 1, status: 'active',
     desc: 'Published Feb 2025 after delay. Thinner than peers. xAI suing Colorado over AI Act.',
-    context: "Quantitative-benchmark approach to capability evaluation (chosen benchmarks rather than red-lined capability thresholds), with internal review processes. METR's cross-lab analysis flagged the lack of pre-defined thresholds and limited halting commitments as the framework's biggest gaps. xAI's litigation against Colorado SB 24-205 makes it the most visible lab opponent of state-level AI regulation in the US.",
+    context: "Quantitative-benchmark approach to capability evaluation (chosen benchmarks rather than red-lined capability thresholds), with internal review processes. Independent reviews of frontier risk-management frameworks have flagged the narrow scope of risk tolerances and limited halting commitments as gaps. xAI's litigation against Colorado SB 24-205 makes it the most visible lab opponent of state-level AI regulation in the US.",
     cov: {
-      thresh: "Quantitative-benchmark approach — chosen benchmarks rather than red-lined capability thresholds. METR's cross-lab analysis identified the lack of pre-defined capability thresholds as the framework's biggest gap.",
+      thresh: "Quantitative-benchmark approach — emphasises specific benchmark scores (e.g., bio/chem answer rates) rather than red-lined capability thresholds. Independent reviews of frontier risk-management frameworks have flagged the narrow scope and absence of well-defined risk tolerances as gaps.",
       eval: "Benchmark-driven evaluations; methodology disclosed but lighter than peers. External evaluator participation limited compared with RSP, Preparedness, or FSF.",
       elicit: "Some adversarial testing built into evaluation; specifics not heavily disclosed. Among the thinnest elicitation regimes in published lab frameworks.",
       timing: "Pre-deployment evaluation only; ongoing monitoring or re-evaluation triggers not heavily specified. Less comprehensive lifecycle coverage than peers.",
       sec: "Some security commitments documented; specifics not fully disclosed. Generally thinner on weight-security than peers.",
       mit: "Some deployment safeguards described but discretionary. Less granular by capability level than RSP or Preparedness.",
-      halt: "Limited halting commitments — METR's analysis flagged the lack of clear pause triggers as a gap. Distinguishes xAI from Meta's explicit critical-risk halt.",
+      halt: "Limited halting commitments — independent analyses have flagged the absence of clear pause triggers. Distinguishes xAI from Meta's explicit critical-risk halt.",
       acct: "Limited external accountability; internal review processes. xAI's litigation against Colorado SB 24-205 makes it the most visible lab opponent of state-level AI regulation.",
       update: "Framework released after delay (Feb 2025); revision schedule not publicly committed."
     } },
@@ -618,7 +618,7 @@ const ENTITIES = [
     context: "Researches whether frontier models will scheme — strategically deceive evaluators, exfiltrate, or sandbag during testing. Published the 2024 paper that brought scheming evaluations into mainstream lab practice; findings flagged in the Feb 2026 Intl AI Safety Report sandbagging discussion. Influence is methodological rather than scaled: a small lab whose evaluation approach has been adopted across the field.",
     cov: {
       eval: "Specialised evaluations focused on deceptive alignment, scheming, and sandbagging. Findings flagged in the Feb 2026 Intl AI Safety Report sandbagging discussion.",
-      elicit: "Pioneered scheming-detection methodology — testing whether models strategically deceive evaluators, exfiltrate, or sandbag during testing. Approach now adopted across lab frameworks (notably FSF v2)."
+      elicit: "Established the dominant external methodology for scheming detection — controlled stress-tests for whether models strategically deceive evaluators, exfiltrate, or sandbag. The conceptual frame (deceptive alignment, mesa-optimisation) predates Apollo, but their 2024 paper was the inflection point that brought scheming evaluations into mainstream lab practice — cited as input to GDM's FSF v2, used in OpenAI's o1 system card and Preparedness v2, and referenced in Anthropic's Claude system cards."
     } },
   { id: 'averi', link: 'https://www.averi.org/', name: 'AVERI', layer: 6, jur: 'co', pow: 1, status: 'active',
     desc: 'AI Verification and Evaluation Research Institute (Jan 2026, Brundage). Targets the auditing-capacity bottleneck.',
