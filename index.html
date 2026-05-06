@@ -213,7 +213,7 @@
   </section>
   <section class="band">
     <div class="band-lbl" title="US state laws acting where federal regulation is absent or rolled back. Several have penalty regimes; the federal government is actively challenging them via the DOJ AI Litigation Task Force.">
-      <div class="ord">Layer 3</div><h2>Sub-national</h2><p>US states filling the federal gap</p>
+      <div class="ord">Layer 3</div><h2>Sub-national</h2><p>US states acting where federal regulation is absent</p>
     </div>
     <div class="chips" data-band="3"></div>
   </section>
@@ -239,7 +239,7 @@
   <div class="detail empty" id="detail">Click any mechanism to see what it does, which of the nine elements it covers, and how it connects.</div>
 
   <aside class="gap" id="gap-panel">
-    <h3 id="gap-title">Where the teeth aren't</h3>
+    <h3 id="gap-title">What no binding rule reaches yet</h3>
     <p id="gap-body">Mandatory third-party auditing, compute KYC, statutory incident reporting beyond California and (from 2027) New York, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet. Filter by any category above to see which layer of the stack actually covers it.</p>
   </aside>
 
@@ -305,7 +305,7 @@ const ENTITIES = [
     cov: { mit: 'high-level safety/security principles', acct: 'transparency and accountability principles', update: 'periodic review built in' } },
   { id: 'coe-ai', link: 'https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence', name: 'CoE AI Convention', layer: 1, jur: 'mu', pow: 3, status: 'phasing',
     desc: 'First binding international AI treaty (Sept 2024). Signatories include EU, UK, US, Japan; ratification slow.',
-    context: "Covers AI used by public authorities and (with carve-outs) by private actors; obliges signatories to ensure rights to redress, transparency, and lifecycle risk management. Significantly weakened in negotiation — private-sector obligations were softened to win US/UK signatures, and ratification has stalled in most parliaments. The first AI treaty with binding force, even if its bite has been negotiated down.",
+    context: "Covers AI used by public authorities and (with carve-outs) by private actors; obliges signatories to ensure rights to redress, transparency, and lifecycle risk management. Significantly weakened in negotiation — private-sector obligations were softened to win US/UK signatures, and ratification has stalled in most parliaments. The first AI treaty with binding force, even if its substantive obligations were narrowed during negotiation.",
     cov: { mit: 'risk management obligations', acct: 'independent oversight, redress', update: 'periodic review' } },
   { id: 'unesco', link: 'https://www.unesco.org/en/artificial-intelligence/recommendation-ethics', name: 'UNESCO AI Recommendation', layer: 1, jur: 'mu', pow: 1, status: 'active',
     desc: '2021 recommendation. 194 member states.',
@@ -314,7 +314,7 @@ const ENTITIES = [
 
   { id: 'eu-aia', link: 'https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng', name: 'EU AI Act', layer: 2, jur: 'eu', pow: 4, status: 'phasing',
     desc: 'In force Aug 2024. GPAI obligations Aug 2025. Most provisions apply Aug 2026; high-risk system rules Aug 2027. Penalties up to €35M or 7% global revenue.',
-    context: "Tiers AI by risk: prohibited practices, high-risk systems (conformity assessments, fundamental-rights impact assessments, registration), and GPAI models (transparency, copyright). GPAI above 10²⁵ FLOPs faces additional systemic-risk obligations — evaluations, incident reporting, cybersecurity. Its 10²⁵ threshold is a notch below the 10²⁶ used by recent US state laws, so more models fall into systemic-risk obligations under EU rules than under California's.",
+    context: "Tiers AI by risk: prohibited practices, high-risk systems (conformity assessments, fundamental-rights impact assessments, registration), and GPAI models (transparency, copyright). GPAI above 10²⁵ FLOPs faces additional systemic-risk obligations — evaluations, incident reporting, cybersecurity. Its 10²⁵ threshold is lower than the 10²⁶ used by recent US state laws, so more models fall into systemic-risk obligations under EU rules than under California's.",
     cov: { thresh: '10²⁵ FLOPs systemic-risk threshold', eval: 'required for GPAI with systemic risk', elicit: 'adversarial testing required', timing: 'pre-market and post-market monitoring', sec: 'cybersecurity protections required for weights', mit: 'content marking, refusals, transparency', acct: 'incident reporting to AI Office', update: 'CoP and standards revisable' } },
   { id: 'us-eo14179', link: 'https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence', name: 'US EO 14179', layer: 2, jur: 'us', pow: 3, status: 'active',
     desc: 'Trump (Jan 2025) replaced Biden EO 14110. Rescinded mandatory red-teaming and pre-deployment reporting.',
@@ -326,11 +326,11 @@ const ENTITIES = [
     cov: { acct: 'aligns federal funding with anti-regulation stance' } },
   { id: 'us-preempt', link: 'https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence', name: 'US preemption EO', layer: 2, jur: 'us', pow: 3, status: 'active',
     desc: 'EO 14365 (Dec 11 2025). DOJ AI Litigation Task Force to challenge state AI laws. DOJ first intervened in xAI v. Colorado on Apr 24, 2026.',
-    context: "Directs DOJ to challenge state AI laws as Commerce Clause violations or as preempted by federal law. Pairs the Action Plan's funding lever (carrots) with litigation pressure (sticks). Whether the Task Force's challenges hold up will determine whether the federal-vs-state contest gets resolved through courts or stays politically contested.",
+    context: "Directs DOJ to challenge state AI laws as Commerce Clause violations or as preempted by federal law. Pairs the Action Plan's funding lever with parallel litigation pressure. Whether the Task Force's challenges hold up will determine whether the federal-vs-state contest gets resolved through courts or stays politically contested.",
     cov: { acct: 'DOJ enforcement against state AI oversight' } },
   { id: 'cn-genai', link: 'https://www.chinalawtranslate.com/en/generative-ai-interim/', name: 'China GenAI Measures', layer: 2, jur: 'cn', pow: 4, status: 'active',
     desc: 'CAC Interim Measures for Generative AI (Aug 2023). Binding, with concrete enforcement.',
-    context: "Requires algorithm registration with the Cyberspace Administration of China before public deployment, security assessment of training data, and content moderation aligned with Chinese law. Foreign-trained models can serve Chinese users only via licensed domestic intermediaries. Enforcement is real (multiple firms have had services suspended) but operates as much through industrial policy as through fines.",
+    context: "Requires algorithm registration with the Cyberspace Administration of China before public deployment, security assessment of training data, and content moderation aligned with Chinese law. Foreign-trained models can serve Chinese users only via licensed domestic intermediaries. Enforcement is active — multiple firms have had services suspended — but operates as much through industrial policy as through fines.",
     cov: { timing: 'pre-deployment security assessment', mit: 'content moderation, training-data labelling', acct: 'algorithm registration with CAC' } },
   { id: 'cn-ai-law', name: 'China AI Law', layer: 2, jur: 'cn', pow: 2, status: 'proposed',
     desc: 'Comprehensive AI law in drafting at NPC. Compute thresholds debated.',
@@ -346,7 +346,7 @@ const ENTITIES = [
     cov: { thresh: '10²⁶ FLOPs for "high-performance"', eval: 'risk management plan required', timing: 'lifecycle reporting to MSIT', mit: 'mandatory generative-AI labelling', acct: 'notification duties; AI Safety Research Institute' } },
   { id: 'jp-ai', link: 'https://www.whitecase.com/insight-alert/japans-first-ai-legislation-becomes-law-focus-promoting-research-and-development-no', name: 'Japan AI Promotion Act', layer: 2, jur: 'as', pow: 2, status: 'active',
     desc: 'May 2025. Light-touch, sectoral, no compute thresholds.',
-    context: "Establishes the AI Strategic Headquarters under the Cabinet Office to coordinate sectoral guidance. Deliberately avoids compute thresholds, mandatory pre-deployment testing, and fines — Japan's bet is that voluntary cooperation between developers and government produces faster adoption than the EU's prescriptive approach. The Hiroshima Process commitments substitute for binding rules at the firm level.",
+    context: "Establishes the AI Strategic Headquarters under the Cabinet Office to coordinate sectoral guidance. Deliberately avoids compute thresholds, mandatory pre-deployment testing, and fines — The approach assumes that voluntary cooperation between developers and government produces faster adoption than the EU's prescriptive route. The Hiroshima Process commitments substitute for binding rules at the firm level.",
     cov: { mit: 'sectoral guidance on deployment', acct: 'sectoral oversight, no central regulator' } },
 
   { id: 'ca-sb53', link: 'https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53', name: 'California SB 53', layer: 3, jur: 'uss', pow: 4, status: 'active',
@@ -355,7 +355,7 @@ const ENTITIES = [
     cov: { thresh: '10²⁶ FLOPs + $500M revenue eligibility', mit: 'frameworks must address risk mitigation', timing: '15-day incident reporting; annual transparency', acct: 'published frameworks, transparency, whistleblower', update: 'frameworks must be kept updated' } },
   { id: 'co-aia', link: 'https://leg.colorado.gov/bills/sb24-205', name: 'Colorado AI Act', layer: 3, jur: 'uss', pow: 4, status: 'phasing',
     desc: 'First broad US state AI law. Pushed to Jun 30, 2026; federal court paused enforcement Apr 27, 2026.',
-    context: "Targets algorithmic discrimination in 'high-risk AI systems' used for consequential decisions (employment, housing, lending) — broader than SB 53's frontier-only focus. Requires impact assessments, notice to affected individuals, and AG enforcement. Currently the marquee target of the federal preemption fight: xAI sued, DOJ intervened, court has paused enforcement pending the constitutional challenge.",
+    context: "Targets algorithmic discrimination in 'high-risk AI systems' used for consequential decisions (employment, housing, lending) — broader than SB 53's frontier-only focus. Requires impact assessments, notice to affected individuals, and AG enforcement. Currently the principal target of federal preemption efforts: xAI sued, DOJ intervened, and the court has paused enforcement pending the constitutional challenge.",
     cov: { mit: 'algorithmic discrimination duties', timing: 'annual reviews', acct: 'AG enforcement; impact assessment publication', update: 'compliance program updates required' } },
   { id: 'ny-raise', link: 'https://www.nysenate.gov/legislation/bills/2025/S6953/amendment/B', name: 'NY RAISE Act', layer: 3, jur: 'uss', pow: 4, status: 'phasing',
     desc: 'Hochul signed Dec 19, 2025; chapter amendments Mar 27, 2026 aligned with SB 53. Effective Jan 1, 2027. Penalties $1M / $3M.',
@@ -363,12 +363,12 @@ const ENTITIES = [
     cov: { thresh: '>10²⁶ FLOPs + >$500M revenue + >$100M compute', mit: 'safeguards against critical harm', timing: '72-hour incident reporting', acct: 'DFS oversight office, AG enforcement', update: 'DFS regulations expected' } },
   { id: 'tx-raiga', link: 'https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149I.pdf', name: 'Texas TRAIGA', layer: 3, jur: 'uss', pow: 3, status: 'active',
     desc: 'Texas Responsible AI Governance Act, Jun 2025. Narrower than Colorado.',
-    context: "Focuses on specific deployment prohibitions — social scoring, manipulation, certain government uses — rather than horizontal frontier-developer obligations. AG-enforced civil penalties; no compute or revenue threshold. The first red-state AI law and a counterweight to the 'blue states regulating' framing of SB 53/RAISE/Colorado.",
+    context: "Focuses on specific deployment prohibitions — social scoring, manipulation, certain government uses — rather than horizontal frontier-developer obligations. AG-enforced civil penalties; no compute or revenue threshold. The first AI law passed in a Republican-controlled state, complicating the narrative that AI regulation is purely a Democratic priority.",
     cov: { mit: 'specific deployment prohibitions (e.g., social scoring)', acct: 'AG enforcement' } },
 
   { id: 'seoul-commit', link: 'https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024', name: 'Seoul commitments', layer: 4, jur: 'mu', pow: 1, status: 'active',
     desc: 'May 2024. 16 frontier firms committed to publish safety frameworks. Catalyst for the published-framework norm.',
-    context: "First time a globally diverse set of frontier firms (US, UK, China, UAE, Korea) publicly committed to publishing capability thresholds and the actions they would take if those thresholds were crossed. Voluntary, with no enforcement. But the publish-or-be-named pressure created the norm that California SB 53 and NY RAISE later codified into law.",
+    context: "First time a globally diverse set of frontier firms (US, UK, China, UAE, Korea) publicly committed to publishing capability thresholds and the actions they would take if those thresholds were crossed. Voluntary, with no enforcement. But the resulting public pressure created the norm that California SB 53 and NY RAISE later codified into law.",
     cov: { thresh: 'commitment to publish capability thresholds', eval: 'commitment to evaluate against thresholds', halt: 'commitment to not deploy at thresholds', acct: 'publication = accountability' } },
   { id: 'hiroshima', link: 'https://www.soumu.go.jp/hiroshimaaiprocess/en/index.html', name: 'Hiroshima Process', layer: 4, jur: 'mu', pow: 1, status: 'active',
     desc: 'G7 Code of Conduct (2023). 11-point framework. Implementation reporting added 2024.',
@@ -380,7 +380,7 @@ const ENTITIES = [
     cov: { thresh: 'safety chapter calls for thresholds', eval: 'required for systemic-risk models', elicit: 'red-teaming/adversarial testing', sec: 'model security obligations', mit: 'deployment mitigations', halt: 'halting conditions for systemic risk', acct: 'transparency obligations', update: 'periodic CoP revisions' } },
   { id: 'fmf', link: 'https://www.frontiermodelforum.org/', name: 'Frontier Model Forum', layer: 4, jur: 'co', pow: 1, status: 'active',
     desc: 'Industry body (Anthropic, Google, Microsoft, OpenAI; Amazon, Meta added). Coordinates safety research.',
-    context: "Funds safety research grants, coordinates evaluation methodology between member labs, and convenes shared technical forums. Doesn't impose obligations on members or speak with one voice in policy debates. Critiqued as a self-regulatory cartel by some and as too thin by others; the substance is in the research outputs, not the political coordination.",
+    context: "Funds safety research grants, coordinates evaluation methodology between member labs, and convenes shared technical forums. Doesn't impose obligations on members or speak with one voice in policy debates. Some critics argue it is too closely held by its member labs; others that its remit is too narrow to drive policy change. The substantive contribution is in the research outputs, not the political coordination.",
     cov: { eval: 'coordinated practice on evaluations', acct: 'industry coordination on safety practice' } },
   { id: 'delhi-commit', link: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2230201&reg=3&lang=1', name: 'Delhi commitments', layer: 4, jur: 'mu', pow: 1, status: 'active',
     desc: 'New Delhi Frontier AI Impact Commitments (Feb 2026). 13 frontier developers; broader than Seoul.',
@@ -409,7 +409,7 @@ const ENTITIES = [
     cov: { thresh: 'high-risk and critical-risk tiers', eval: 'evaluations against tiers', elicit: 'adversarial testing', timing: 'pre-deployment', sec: 'security measures by tier', mit: 'deployment mitigations', halt: 'commits to halting at critical-risk', acct: 'internal review (thinner external)', update: 'released 2025; revision schedule unclear' } },
   { id: 'xai-rmf', link: 'https://x.ai/safety', name: 'xAI Risk Mgmt Framework', layer: 5, jur: 'co', pow: 1, status: 'active',
     desc: 'Published Feb 2025 after delay. Thinner than peers. xAI suing Colorado over AI Act.',
-    context: "Quantitative-benchmark approach to capability evaluation (chosen benchmarks rather than red-lined capability thresholds), with internal review processes. METR's cross-lab analysis flagged the lack of pre-defined thresholds and limited halting commitments as the framework's biggest gaps. xAI's litigation against Colorado SB 24-205 makes it the leading lab opponent of state-level AI regulation in the US.",
+    context: "Quantitative-benchmark approach to capability evaluation (chosen benchmarks rather than red-lined capability thresholds), with internal review processes. METR's cross-lab analysis flagged the lack of pre-defined thresholds and limited halting commitments as the framework's biggest gaps. xAI's litigation against Colorado SB 24-205 makes it the most visible lab opponent of state-level AI regulation in the US.",
     cov: { thresh: 'quantitative benchmarks (no clear pre-defined per critics)', eval: 'benchmark-driven evaluations', elicit: 'some adversarial testing', timing: 'pre-deployment', sec: 'some security commitments', mit: 'some deployment safeguards', halt: 'limited halting commitments', acct: 'limited external accountability', update: 'released after delay' } },
 
   { id: 'eu-aio', link: 'https://digital-strategy.ec.europa.eu/en/policies/ai-office', name: 'EU AI Office', layer: 6, jur: 'eu', pow: 4, status: 'active',
@@ -524,11 +524,11 @@ const GAP_SUMMARIES = {
     body: 'Most mechanisms touch evaluations in some way, but mandatory third-party evaluation of frontier models is rare. The EU AI Act requires it for systemic-risk GPAI. Korea\'s Framework Act requires risk management plans. Everywhere else, evaluations happen because labs publish them, AISIs request them under voluntary access agreements, or independent evaluators (METR, Apollo) do them. The published-framework norm carries the load.'
   },
   elicit: {
-    title: 'Capability elicitation is an evaluator job',
-    body: 'Almost no statute requires it; only the EU AI Act and the GPAI Code do, indirectly through adversarial-testing language. The actual elicitation work — surfacing sandbagging, deceptive behaviour, scheming, jailbreaks — happens at UK AISI, METR, Apollo, and inside the labs themselves. If those organisations stopped doing it, no binding regulation would notice.'
+    title: 'Capability elicitation sits with evaluators, not regulators',
+    body: 'Almost no statute requires it; only the EU AI Act and the GPAI Code do, indirectly through adversarial-testing language. The actual elicitation work — surfacing sandbagging, deceptive behaviour, scheming, jailbreaks — happens at UK AISI, METR, Apollo, and inside the labs themselves. If those organisations stopped, no binding regulation would compensate.'
   },
   timing: {
-    title: 'Pre-deployment yes, post-deployment patchy',
+    title: 'Pre-deployment is widely required; post-deployment is sparse',
     body: 'Pre-deployment timing is the easy part: the EU AI Act, China\'s GenAI Measures, Korea\'s Framework Act, and the lab frameworks all require it. Post-deployment monitoring and incident reporting are sparser — California SB 53 (15 days), NY RAISE (72 hours), Korea (lifecycle reporting), and the EU AI Office\'s post-market monitoring are the binding instances. Outside those four, no statutory incident reporting for frontier models exists.'
   },
   sec: {
@@ -537,10 +537,10 @@ const GAP_SUMMARIES = {
   },
   mit: {
     title: 'The most-covered category, and the most ambiguous',
-    body: 'Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discrimination duties. The category is broad enough to absorb very different obligations, from China\'s content moderation to Colorado\'s algorithmic-discrimination duties to Anthropic\'s ASL deployment safeguards. Strong coverage here doesn\'t mean strong frontier-safety coverage; it means many regulators have figured out how to write deployment rules.'
+    body: 'Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discrimination duties. The category is broad enough to absorb very different obligations, from China\'s content moderation to Colorado\'s algorithmic-discrimination duties to Anthropic\'s ASL deployment safeguards. Strong coverage here doesn\'t mean strong frontier-safety coverage; it means many regulators have established deployment rules.'
   },
   halt: {
-    title: 'Almost nobody can make a frontier developer stop',
+    title: 'Few mechanisms can compel a frontier developer to halt',
     body: 'Conditions for halting are the rarest column in the matrix. The EU AI Office can order recall (Aug 2026 onwards). The GPAI Code calls for halting at systemic-risk thresholds. Seoul commitments asked labs to commit to it. Every lab framework includes it. That\'s essentially the whole list. No US state, no other national statute, no other multilateral instrument can compel a frontier developer to pause.'
   },
   acct: {
@@ -615,7 +615,7 @@ function updateGapPanel() {
     titleEl.textContent = GAP_SUMMARIES[activeCat].title;
     bodyEl.textContent = GAP_SUMMARIES[activeCat].body;
   } else {
-    titleEl.textContent = "Where the teeth aren't";
+    titleEl.textContent = "What no binding rule reaches yet";
     bodyEl.textContent = "Mandatory third-party auditing, compute KYC, statutory incident reporting beyond California and (from 2027) New York, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet. Filter by any category above to see which layer of the stack actually covers it.";
   }
 }
