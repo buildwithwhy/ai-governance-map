@@ -1,0 +1,34 @@
+# Frontier AI Governance Map
+
+> Interactive map of frontier AI governance covering six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter. 6 May 2026 snapshot; 39 mechanisms across the stack with primary-source links, descriptions, and connections.
+
+By Yuyu Shen — buildwithwhy@gmail.com
+Web version: https://ai-governance-map.buildwithwhy.com
+
+## Documents
+
+- [Full content as markdown](https://ai-governance-map.buildwithwhy.com/llms-full.txt) — every mechanism with description, context, primary source, coverage notes, and connections (39 mechanisms, 57 relationships)
+- [Web version](https://ai-governance-map.buildwithwhy.com) — interactive HTML
+
+## Conceptual structure
+
+**Layers** organise by *who acts*:
+
+- Layer 1 — International: Multilateral norms and summits
+- Layer 2 — National regulation: Statutes, executive orders, agencies
+- Layer 3 — Sub-national: US states acting where federal regulation is absent
+- Layer 4 — Industry voluntary: Cross-firm commitments and codes
+- Layer 5 — Corporate self-governance: Frontier safety frameworks at each lab
+- Layer 6 — Infrastructure: Regulators, AISIs, evaluators, compute controls
+
+**Coverage categories** (METR's nine common elements, applied as orthogonal filter):
+
+- Capability thresholds: Levels at which obligations or risks trigger
+- Model evaluations: Tests assessing model capabilities and risks
+- Capability elicitation: Surfacing the full capabilities of a model
+- Timing & frequency: When evaluations and obligations apply
+- Weight security: Protecting model weights from theft
+- Deployment mitigations: Refusals, monitoring, content controls
+- Conditions for halting: When to pause development or deployment
+- Accountability: Oversight, transparency, reporting
+- Updating policies: How policies get revised over time
