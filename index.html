@@ -52,6 +52,8 @@
   .hero h1 { font-family: var(--font-serif); font-weight: 400; font-size: clamp(40px, 6vw, 64px); line-height: 1.05; letter-spacing: -0.01em; margin: 0 0 18px; }
   .hero h1 em { font-style: italic; color: var(--text-2); }
   .hero .deck { font-size: 17px; line-height: 1.5; color: var(--text-2); max-width: 660px; margin: 0; }
+  .hero .deck-note { font-size: 14px; line-height: 1.55; color: var(--text-3); max-width: 660px; margin: 12px 0 0; padding: 10px 14px; background: var(--bg-soft); border-radius: var(--radius); border-left: 2px solid var(--border-2); }
+  .hero .deck-note em { color: var(--text-1); font-style: italic; font-family: var(--font-serif); }
 
   .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border-1); border: 0.5px solid var(--border-1); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 28px; }
   .stat { background: var(--bg-card); padding: 18px; }
@@ -78,6 +80,7 @@
   .cov-chip.on .ct { opacity: 0.85; }
 
   .band { display: grid; grid-template-columns: 160px 1fr; gap: 20px; padding: 20px 0; border-top: 0.5px solid var(--border-1); align-items: start; }
+  .band-lbl[title] { cursor: help; }
   .band:first-of-type { border-top: 0.5px solid var(--border-2); }
   .band-lbl .ord { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-3); margin-bottom: 4px; }
   .band-lbl h2 { font-family: var(--font-serif); font-weight: 400; font-size: 22px; line-height: 1.1; margin: 0 0 4px; }
@@ -126,7 +129,10 @@
   .detail h3 { font-family: var(--font-serif); font-weight: 400; font-size: 28px; line-height: 1.1; margin: 0 0 10px; }
   .detail .meta { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
   .detail .meta span { font-family: var(--font-mono); font-size: 11px; padding: 3px 9px; border-radius: var(--radius); background: var(--bg-soft); color: var(--text-2); letter-spacing: 0.02em; }
-  .detail .desc { font-size: 15px; line-height: 1.6; margin: 0 0 16px; }
+  .detail .desc { font-size: 15px; line-height: 1.6; margin: 0 0 10px; }
+  .detail .src-link { margin: 0 0 16px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.02em; }
+  .detail .src-link a { color: var(--text-2); text-decoration: none; border-bottom: 0.5px solid var(--border-2); padding-bottom: 1px; }
+  .detail .src-link a:hover { color: var(--text-1); border-bottom-color: var(--border-3); }
   .lbl-mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-3); margin-bottom: 10px; }
   .cov-section { margin-top: 12px; padding-top: 14px; border-top: 0.5px solid var(--border-1); }
   .cov-list { display: grid; gap: 6px; }
@@ -165,6 +171,7 @@
     <div class="kicker">A teaching map · interactive · two views</div>
     <h1>How frontier AI is <em>actually</em> governed today.</h1>
     <p class="deck">Six layers across the rows, METR's nine common elements as an orthogonal filter. Click a layer chip to see what it does and how it connects. Click a coverage category to see which mechanisms address it — and which don't.</p>
+    <p class="deck-note">The map organises by <em>who acts</em>, not <em>what they regulate</em>: the EU AI Act sits in Layer 2 (statute), the EU AI Office in Layer 6 (the institution enforcing it). Hover any layer label for a fuller definition.</p>
   </header>
 
   <div class="stats" role="list">
@@ -192,27 +199,39 @@
   </aside>
 
   <section class="band">
-    <div class="band-lbl"><div class="ord">Layer 1</div><h2>International</h2><p>Multilateral norms and summits</p></div>
+    <div class="band-lbl" title="Multilateral norms, treaties, and summit declarations. Sets shared expectations across jurisdictions but rarely imposes direct obligations on labs. Includes the AISI Network even though its members are national institutions.">
+      <div class="ord">Layer 1</div><h2>International</h2><p>Multilateral norms and summits</p>
+    </div>
     <div class="chips" data-band="1"></div>
   </section>
   <section class="band">
-    <div class="band-lbl"><div class="ord">Layer 2</div><h2>National regulation</h2><p>Statutes, executive orders, agencies</p></div>
+    <div class="band-lbl" title="The laws themselves — statutes, executive orders, framework acts. The institutions that implement and enforce them sit in Layer 6.">
+      <div class="ord">Layer 2</div><h2>National regulation</h2><p>Statutes, executive orders, agencies</p>
+    </div>
     <div class="chips" data-band="2"></div>
   </section>
   <section class="band">
-    <div class="band-lbl"><div class="ord">Layer 3</div><h2>Sub-national</h2><p>US states filling the federal gap</p></div>
+    <div class="band-lbl" title="US state laws acting where federal regulation is absent or rolled back. Several have penalty regimes; the federal government is actively challenging them via the DOJ AI Litigation Task Force.">
+      <div class="ord">Layer 3</div><h2>Sub-national</h2><p>US states filling the federal gap</p>
+    </div>
     <div class="chips" data-band="3"></div>
   </section>
   <section class="band">
-    <div class="band-lbl"><div class="ord">Layer 4</div><h2>Industry voluntary</h2><p>Cross-firm commitments and codes</p></div>
+    <div class="band-lbl" title="Cross-firm and multistakeholder commitments and codes of practice. Norm-setting; no direct penalties unless adopted into Layer 2 statute or Layer 5 lab policy.">
+      <div class="ord">Layer 4</div><h2>Industry voluntary</h2><p>Cross-firm commitments and codes</p>
+    </div>
     <div class="chips" data-band="4"></div>
   </section>
   <section class="band">
-    <div class="band-lbl"><div class="ord">Layer 5</div><h2>Corporate self-governance</h2><p>Frontier safety frameworks at each lab</p></div>
+    <div class="band-lbl" title="Each frontier lab's published safety framework — capability thresholds, evaluations, mitigations. Voluntary; enforceable only against the firm itself, by its board or by reputational pressure.">
+      <div class="ord">Layer 5</div><h2>Corporate self-governance</h2><p>Frontier safety frameworks at each lab</p>
+    </div>
     <div class="chips" data-band="5"></div>
   </section>
   <section class="band">
-    <div class="band-lbl"><div class="ord">Layer 6</div><h2>Infrastructure</h2><p>Regulators, AISIs, evaluators, compute controls</p></div>
+    <div class="band-lbl" title="Regulators, AISIs, third-party evaluators, and compute controls — the institutions and capacity that make the other layers operative. Includes national bodies like the EU AI Office, UK AISI, NIST/CAISI that enforce Layer 2 statutes.">
+      <div class="ord">Layer 6</div><h2>Infrastructure</h2><p>Regulators, AISIs, evaluators, compute controls</p>
+    </div>
     <div class="chips" data-band="6"></div>
   </section>
 
@@ -267,126 +286,126 @@ const CATEGORIES = [
 ];
 
 const ENTITIES = [
-  { id: 'aisr', name: 'Intl AI Safety Report', layer: 1, jur: 'mu', pow: 1, status: 'active',
+  { id: 'aisr', link: 'https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai', name: 'Intl AI Safety Report', layer: 1, jur: 'mu', pow: 1, status: 'active',
     desc: 'Bengio-chaired scientific synthesis. Feb 2026 edition flagged emerging "sandbagging" — models underperforming during safety tests.',
     cov: { thresh: 'synthesizes evidence on where thresholds should sit', eval: 'establishes the science of frontier evaluation', elicit: 'flagged sandbagging as elicitation challenge' } },
-  { id: 'aisi-net', name: 'AISI Network', layer: 1, jur: 'mu', pow: 2, status: 'active',
-    desc: 'Members: UK, US/CAISI, EU AI Office, Japan, Singapore, South Korea, Canada, France INESIA, Australia, Kenya. Renamed in 2025 to "International Network for Advanced AI Measurement, Evaluation and Science."',
+  { id: 'aisi-net', link: 'https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua', name: 'AISI Network', layer: 1, jur: 'mu', pow: 2, status: 'active',
+    desc: 'Members: UK, US/CAISI, EU AI Office, Japan, Singapore, South Korea, Canada, France INESIA, Australia, Kenya. Renamed Dec 2025 (San Diego convening) to "International Network for Advanced AI Measurement, Evaluation and Science."',
     cov: { eval: 'coordinated joint testing methodology', elicit: 'shared elicitation techniques', timing: 'pre-deployment evaluation coordination', acct: 'multilateral information sharing' } },
-  { id: 'ai-summits', name: 'AI summit series', layer: 1, jur: 'mu', pow: 1, status: 'active',
-    desc: 'Bletchley → Seoul → Paris (US, UK refused to sign) → New Delhi (Feb 2026, "Impact"; 89-92 signed) → Geneva (2027).',
+  { id: 'ai-summits', link: 'https://impact.indiaai.gov.in/', name: 'AI summit series', layer: 1, jur: 'mu', pow: 1, status: 'active',
+    desc: 'Bletchley → Seoul → Paris (US, UK refused to sign) → New Delhi (Feb 2026, "Impact"; ~92 countries/IOs signed the Declaration; 13 firms signed the Frontier AI Impact Commitments) → Geneva (2027); UAE 2028.',
     cov: { thresh: 'Seoul declaration asked labs to publish thresholds', acct: 'public commitments are accountability', update: 'iterative summit cycle revises commitments' } },
-  { id: 'oecd', name: 'OECD AI Principles', layer: 1, jur: 'mu', pow: 1, status: 'active',
+  { id: 'oecd', link: 'https://oecd.ai/en/ai-principles', name: 'OECD AI Principles', layer: 1, jur: 'mu', pow: 1, status: 'active',
     desc: '2019, updated 2024. 47 countries.',
     cov: { mit: 'high-level safety/security principles', acct: 'transparency and accountability principles', update: 'periodic review built in' } },
-  { id: 'coe-ai', name: 'CoE AI Convention', layer: 1, jur: 'mu', pow: 3, status: 'phasing',
+  { id: 'coe-ai', link: 'https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence', name: 'CoE AI Convention', layer: 1, jur: 'mu', pow: 3, status: 'phasing',
     desc: 'First binding international AI treaty (Sept 2024). Signatories include EU, UK, US, Japan; ratification slow.',
     cov: { mit: 'risk management obligations', acct: 'independent oversight, redress', update: 'periodic review' } },
-  { id: 'unesco', name: 'UNESCO AI Recommendation', layer: 1, jur: 'mu', pow: 1, status: 'active',
+  { id: 'unesco', link: 'https://www.unesco.org/en/artificial-intelligence/recommendation-ethics', name: 'UNESCO AI Recommendation', layer: 1, jur: 'mu', pow: 1, status: 'active',
     desc: '2021 recommendation. 194 member states.',
     cov: { mit: 'high-level mitigation principles', acct: 'transparency principles' } },
 
-  { id: 'eu-aia', name: 'EU AI Act', layer: 2, jur: 'eu', pow: 4, status: 'phasing',
-    desc: 'In force Aug 2024. GPAI obligations Aug 2025. Full application Aug 2026. Penalties up to €35M or 7% global revenue.',
+  { id: 'eu-aia', link: 'https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng', name: 'EU AI Act', layer: 2, jur: 'eu', pow: 4, status: 'phasing',
+    desc: 'In force Aug 2024. GPAI obligations Aug 2025. Most provisions apply Aug 2026; high-risk system rules Aug 2027. Penalties up to €35M or 7% global revenue.',
     cov: { thresh: '10²⁵ FLOPs systemic-risk threshold', eval: 'required for GPAI with systemic risk', elicit: 'adversarial testing required', timing: 'pre-market and post-market monitoring', sec: 'cybersecurity protections required for weights', mit: 'content marking, refusals, transparency', acct: 'incident reporting to AI Office', update: 'CoP and standards revisable' } },
-  { id: 'us-eo14179', name: 'US EO 14179', layer: 2, jur: 'us', pow: 3, status: 'active',
+  { id: 'us-eo14179', link: 'https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence', name: 'US EO 14179', layer: 2, jur: 'us', pow: 3, status: 'active',
     desc: 'Trump (Jan 2025) replaced Biden EO 14110. Rescinded mandatory red-teaming and pre-deployment reporting.',
     cov: {} },
-  { id: 'us-action', name: 'US AI Action Plan', layer: 2, jur: 'us', pow: 3, status: 'active',
+  { id: 'us-action', link: 'https://www.ai.gov/action-plan', name: 'US AI Action Plan', layer: 2, jur: 'us', pow: 3, status: 'active',
     desc: 'Jul 2025. Limits federal funding to states with "burdensome" AI regulations.',
     cov: { acct: 'aligns federal funding with anti-regulation stance' } },
-  { id: 'us-preempt', name: 'US preemption EO', layer: 2, jur: 'us', pow: 3, status: 'active',
+  { id: 'us-preempt', link: 'https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence', name: 'US preemption EO', layer: 2, jur: 'us', pow: 3, status: 'active',
     desc: 'EO 14365 (Dec 11 2025). DOJ AI Litigation Task Force to challenge state AI laws. DOJ first intervened in xAI v. Colorado on Apr 24, 2026.',
     cov: { acct: 'DOJ enforcement against state AI oversight' } },
-  { id: 'cn-genai', name: 'China GenAI Measures', layer: 2, jur: 'cn', pow: 4, status: 'active',
+  { id: 'cn-genai', link: 'https://www.chinalawtranslate.com/en/generative-ai-interim/', name: 'China GenAI Measures', layer: 2, jur: 'cn', pow: 4, status: 'active',
     desc: 'CAC Interim Measures for Generative AI (Aug 2023). Binding, with concrete enforcement.',
     cov: { timing: 'pre-deployment security assessment', mit: 'content moderation, training-data labelling', acct: 'algorithm registration with CAC' } },
   { id: 'cn-ai-law', name: 'China AI Law', layer: 2, jur: 'cn', pow: 2, status: 'proposed',
     desc: 'Comprehensive AI law in drafting at NPC. Compute thresholds debated.',
     cov: { thresh: 'compute thresholds debated in drafting', eval: 'expected risk assessments', mit: 'expected mitigation duties', acct: 'expected oversight expansion' } },
-  { id: 'uk-bill', name: 'UK AI Bill', layer: 2, jur: 'uk', pow: 2, status: 'proposed',
+  { id: 'uk-bill', link: 'https://bills.parliament.uk/bills/3942', name: 'UK AI Bill', layer: 2, jur: 'uk', pow: 2, status: 'proposed',
     desc: 'Labour government has signalled binding rules; bill has slipped repeatedly.',
     cov: { thresh: 'would target most powerful frontier models', eval: 'would put AISI on statutory footing', acct: 'proposed binding rules and oversight' } },
-  { id: 'kr-ai', name: 'Korea AI Framework Act', layer: 2, jur: 'as', pow: 4, status: 'phasing',
-    desc: 'AI Basic Act. In force Jan 22, 2026. One-year grace period — penalties (capped ~$21k) begin 2027.',
+  { id: 'kr-ai', link: 'https://aibasicact.kr/', name: 'Korea AI Framework Act', layer: 2, jur: 'as', pow: 4, status: 'phasing',
+    desc: 'AI Basic Act. In force Jan 22, 2026. One-year grace period — penalties (capped ~$21k per violation) begin Jan 22, 2027.',
     cov: { thresh: '10²⁶ FLOPs for "high-performance"', eval: 'risk management plan required', timing: 'lifecycle reporting to MSIT', mit: 'mandatory generative-AI labelling', acct: 'notification duties; AI Safety Research Institute' } },
-  { id: 'jp-ai', name: 'Japan AI Promotion Act', layer: 2, jur: 'as', pow: 2, status: 'active',
+  { id: 'jp-ai', link: 'https://www.whitecase.com/insight-alert/japans-first-ai-legislation-becomes-law-focus-promoting-research-and-development-no', name: 'Japan AI Promotion Act', layer: 2, jur: 'as', pow: 2, status: 'active',
     desc: 'May 2025. Light-touch, sectoral, no compute thresholds.',
     cov: { mit: 'sectoral guidance on deployment', acct: 'sectoral oversight, no central regulator' } },
 
-  { id: 'ca-sb53', name: 'California SB 53', layer: 3, jur: 'uss', pow: 4, status: 'active',
+  { id: 'ca-sb53', link: 'https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53', name: 'California SB 53', layer: 3, jur: 'uss', pow: 4, status: 'active',
     desc: 'Transparency in Frontier AI Act. Effective Jan 1, 2026. >10²⁶ FLOPs, >$500M revenue. Penalties up to $1M/violation.',
     cov: { thresh: '10²⁶ FLOPs + $500M revenue eligibility', mit: 'frameworks must address risk mitigation', timing: '15-day incident reporting; annual transparency', acct: 'published frameworks, transparency, whistleblower', update: 'frameworks must be kept updated' } },
-  { id: 'co-aia', name: 'Colorado AI Act', layer: 3, jur: 'uss', pow: 4, status: 'phasing',
+  { id: 'co-aia', link: 'https://leg.colorado.gov/bills/sb24-205', name: 'Colorado AI Act', layer: 3, jur: 'uss', pow: 4, status: 'phasing',
     desc: 'First broad US state AI law. Pushed to Jun 30, 2026; federal court paused enforcement Apr 27, 2026.',
     cov: { mit: 'algorithmic discrimination duties', timing: 'annual reviews', acct: 'AG enforcement; impact assessment publication', update: 'compliance program updates required' } },
-  { id: 'ny-raise', name: 'NY RAISE Act', layer: 3, jur: 'uss', pow: 4, status: 'phasing',
+  { id: 'ny-raise', link: 'https://www.nysenate.gov/legislation/bills/2025/S6953/amendment/B', name: 'NY RAISE Act', layer: 3, jur: 'uss', pow: 4, status: 'phasing',
     desc: 'Hochul signed Dec 19, 2025; chapter amendments Mar 27, 2026 aligned with SB 53. Effective Jan 1, 2027. Penalties $1M / $3M.',
     cov: { thresh: '>10²⁶ FLOPs + >$500M revenue + >$100M compute', mit: 'safeguards against critical harm', timing: '72-hour incident reporting', acct: 'DFS oversight office, AG enforcement', update: 'DFS regulations expected' } },
-  { id: 'tx-raiga', name: 'Texas TRAIGA', layer: 3, jur: 'uss', pow: 3, status: 'active',
+  { id: 'tx-raiga', link: 'https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149I.pdf', name: 'Texas TRAIGA', layer: 3, jur: 'uss', pow: 3, status: 'active',
     desc: 'Texas Responsible AI Governance Act, Jun 2025. Narrower than Colorado.',
     cov: { mit: 'specific deployment prohibitions (e.g., social scoring)', acct: 'AG enforcement' } },
 
-  { id: 'seoul-commit', name: 'Seoul commitments', layer: 4, jur: 'mu', pow: 1, status: 'active',
+  { id: 'seoul-commit', link: 'https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024', name: 'Seoul commitments', layer: 4, jur: 'mu', pow: 1, status: 'active',
     desc: 'May 2024. 16 frontier firms committed to publish safety frameworks. Catalyst for the published-framework norm.',
     cov: { thresh: 'commitment to publish capability thresholds', eval: 'commitment to evaluate against thresholds', halt: 'commitment to not deploy at thresholds', acct: 'publication = accountability' } },
-  { id: 'hiroshima', name: 'Hiroshima Process', layer: 4, jur: 'mu', pow: 1, status: 'active',
+  { id: 'hiroshima', link: 'https://www.soumu.go.jp/hiroshimaaiprocess/en/index.html', name: 'Hiroshima Process', layer: 4, jur: 'mu', pow: 1, status: 'active',
     desc: 'G7 Code of Conduct (2023). 11-point framework. Implementation reporting added 2024.',
     cov: { eval: 'risk identification', sec: 'information security for AI systems', mit: 'safeguards on outputs', acct: 'transparency, content authentication', update: 'implementation reporting added 2024' } },
-  { id: 'gpai-cop', name: 'EU GPAI Code of Practice', layer: 4, jur: 'eu', pow: 2, status: 'active',
+  { id: 'gpai-cop', link: 'https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai', name: 'EU GPAI Code of Practice', layer: 4, jur: 'eu', pow: 2, status: 'active',
     desc: 'Voluntary route to demonstrate EU AI Act compliance. Anthropic, OpenAI, Google, Microsoft signed all chapters. Meta declined. xAI signed safety only.',
     cov: { thresh: 'safety chapter calls for thresholds', eval: 'required for systemic-risk models', elicit: 'red-teaming/adversarial testing', sec: 'model security obligations', mit: 'deployment mitigations', halt: 'halting conditions for systemic risk', acct: 'transparency obligations', update: 'periodic CoP revisions' } },
-  { id: 'fmf', name: 'Frontier Model Forum', layer: 4, jur: 'co', pow: 1, status: 'active',
+  { id: 'fmf', link: 'https://www.frontiermodelforum.org/', name: 'Frontier Model Forum', layer: 4, jur: 'co', pow: 1, status: 'active',
     desc: 'Industry body (Anthropic, Google, Microsoft, OpenAI; Amazon, Meta added). Coordinates safety research.',
     cov: { eval: 'coordinated practice on evaluations', acct: 'industry coordination on safety practice' } },
-  { id: 'delhi-commit', name: 'Delhi commitments', layer: 4, jur: 'mu', pow: 1, status: 'active',
+  { id: 'delhi-commit', link: 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2230201&reg=3&lang=1', name: 'Delhi commitments', layer: 4, jur: 'mu', pow: 1, status: 'active',
     desc: 'New Delhi Frontier AI Impact Commitments (Feb 2026). 13 frontier developers; broader than Seoul.',
     cov: { mit: 'inclusive deployment alongside risk', acct: 'public commitments, broader signatory base' } },
-  { id: 'pai', name: 'Partnership on AI', layer: 4, jur: 'co', pow: 1, status: 'active',
+  { id: 'pai', link: 'https://partnershiponai.org/', name: 'Partnership on AI', layer: 4, jur: 'co', pow: 1, status: 'active',
     desc: 'Multistakeholder org (2016). Less central to frontier debate; norms work on synthetic media and labour.',
     cov: { mit: 'synthetic media practices', acct: 'multistakeholder governance' } },
 
-  { id: 'rsp', name: 'Anthropic RSP', layer: 5, jur: 'co', pow: 1, status: 'active',
+  { id: 'rsp', link: 'https://www.anthropic.com/responsible-scaling-policy', name: 'Anthropic RSP', layer: 5, jur: 'co', pow: 1, status: 'active',
     desc: 'Responsible Scaling Policy. AI Safety Levels. Capability thresholds trigger required safeguards. Updated ~4× since 2023.',
     cov: { thresh: 'AI Safety Levels (ASL) trigger graduated safeguards', eval: 'pre-deployment evaluations at each ASL', elicit: 'capability elicitation in evaluations', timing: 'pre-training, pre-deployment, ongoing', sec: 'weight-security tier per ASL', mit: 'deployment safeguards by ASL', halt: 'pause if mitigations insufficient', acct: 'board oversight, public publication', update: 'RSP updated ~4× since 2023' } },
-  { id: 'prep', name: 'OpenAI Preparedness', layer: 5, jur: 'co', pow: 1, status: 'active',
+  { id: 'prep', link: 'https://openai.com/index/updating-our-preparedness-framework/', name: 'OpenAI Preparedness', layer: 5, jur: 'co', pow: 1, status: 'active',
     desc: 'Preparedness Framework. Tracked categories (cyber, CBRN, autonomy, persuasion). 2025 revisions tightened bio thresholds.',
     cov: { thresh: 'tracked categories with risk levels', eval: 'evaluations against tracked categories', elicit: 'capability elicitation in evaluations', timing: 'pre-deployment + ongoing', sec: 'weight security by risk level', mit: 'deployment safeguards by risk', halt: 'high/critical risk gates deployment', acct: 'Safety Advisory Group oversight', update: 'updated 2024, 2025' } },
-  { id: 'fsf', name: 'GDM Frontier Safety Framework', layer: 5, jur: 'co', pow: 1, status: 'active',
+  { id: 'fsf', link: 'https://deepmind.google/blog/strengthening-our-frontier-safety-framework/', name: 'GDM Frontier Safety Framework', layer: 5, jur: 'co', pow: 1, status: 'active',
     desc: 'Critical Capability Levels and mitigations. v2 added explicit deceptive-alignment evaluations.',
     cov: { thresh: 'Critical Capability Levels (CCLs)', eval: 'evaluations against CCLs', elicit: 'includes deceptive-alignment evaluations', timing: 'periodic evaluations', sec: 'security mitigations per CCL', mit: 'deployment mitigations per CCL', halt: 'halts at critical levels until mitigations', acct: 'internal review processes', update: 'v2 added new evaluation types' } },
-  { id: 'meta-faif', name: 'Meta Frontier AI Framework', layer: 5, jur: 'co', pow: 1, status: 'active',
+  { id: 'meta-faif', link: 'https://ai.meta.com/static-resource/meta-frontier-ai-framework/', name: 'Meta Frontier AI Framework', layer: 5, jur: 'co', pow: 1, status: 'active',
     desc: 'Released Feb 2025 after pressure. High/critical-risk tiers. Did not sign EU GPAI Code.',
     cov: { thresh: 'high-risk and critical-risk tiers', eval: 'evaluations against tiers', elicit: 'adversarial testing', timing: 'pre-deployment', sec: 'security measures by tier', mit: 'deployment mitigations', halt: 'commits to halting at critical-risk', acct: 'internal review (thinner external)', update: 'released 2025; revision schedule unclear' } },
-  { id: 'xai-rmf', name: 'xAI Risk Mgmt Framework', layer: 5, jur: 'co', pow: 1, status: 'active',
+  { id: 'xai-rmf', link: 'https://x.ai/safety', name: 'xAI Risk Mgmt Framework', layer: 5, jur: 'co', pow: 1, status: 'active',
     desc: 'Published Feb 2025 after delay. Thinner than peers. xAI suing Colorado over AI Act.',
     cov: { thresh: 'quantitative benchmarks (no clear pre-defined per critics)', eval: 'benchmark-driven evaluations', elicit: 'some adversarial testing', timing: 'pre-deployment', sec: 'some security commitments', mit: 'some deployment safeguards', halt: 'limited halting commitments', acct: 'limited external accountability', update: 'released after delay' } },
 
-  { id: 'eu-aio', name: 'EU AI Office', layer: 6, jur: 'eu', pow: 4, status: 'active',
-    desc: 'Operational Aug 2025. Within DG CNECT. Full enforcement powers Aug 2026.',
+  { id: 'eu-aio', link: 'https://digital-strategy.ec.europa.eu/en/policies/ai-office', name: 'EU AI Office', layer: 6, jur: 'eu', pow: 4, status: 'active',
+    desc: 'Established Jan 2024 within DG CNECT. GPAI enforcement role Aug 2025; full enforcement Aug 2026.',
     cov: { eval: 'can request evaluations from providers', timing: 'post-market monitoring', mit: 'can order model recall, mitigations', halt: 'recall power = halt mechanism', acct: 'information requests, scientific panel' } },
-  { id: 'uk-aisi', name: 'UK AISI', layer: 6, jur: 'uk', pow: 2, status: 'active',
+  { id: 'uk-aisi', link: 'https://www.aisi.gov.uk/', name: 'UK AISI', layer: 6, jur: 'uk', pow: 2, status: 'active',
     desc: 'Renamed UK AI Security Institute (Feb 2025). 30+ frontier models tested.',
     cov: { eval: 'pre-deployment testing of frontier models', elicit: 'red-teaming, jailbreaking research', timing: 'pre-deployment access agreements' } },
-  { id: 'caisi', name: 'US CAISI', layer: 6, jur: 'us', pow: 2, status: 'active',
+  { id: 'caisi', link: 'https://www.nist.gov/caisi', name: 'US CAISI', layer: 6, jur: 'us', pow: 2, status: 'active',
     desc: 'Renamed from US AISI in Jun 2025. Within NIST. Mission rewritten to drop "safety" framing.',
     cov: { eval: 'standards work; reduced direct testing', acct: 'standards-setting via NIST' } },
-  { id: 'other-aisis', name: 'Other national AISIs', layer: 6, jur: 'as', pow: 2, status: 'active',
+  { id: 'other-aisis', link: 'https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua', name: 'Other national AISIs', layer: 6, jur: 'as', pow: 2, status: 'active',
     desc: 'Singapore (DTC + AI Verify), Japan (J-AISI), France (INESIA), Korea, Canada, Australia, Kenya, India (IndiaAISI).',
     cov: { eval: 'national-level frontier model testing', elicit: 'various evaluation methodologies', timing: 'pre-deployment access in some' } },
-  { id: 'metr', name: 'METR', layer: 6, jur: 'co', pow: 1, status: 'active',
+  { id: 'metr', link: 'https://metr.org/', name: 'METR', layer: 6, jur: 'co', pow: 1, status: 'active',
     desc: 'Independent evaluator. Authors the "Common Elements" analysis itself.',
     cov: { thresh: 'maintains threshold catalogue across labs', eval: 'independent capability evaluations', elicit: 'specializes in autonomous-task elicitation' } },
-  { id: 'apollo', name: 'Apollo Research', layer: 6, jur: 'co', pow: 1, status: 'active',
+  { id: 'apollo', link: 'https://www.apolloresearch.ai/', name: 'Apollo Research', layer: 6, jur: 'co', pow: 1, status: 'active',
     desc: 'Independent evaluator focused on deceptive alignment. Findings shaped lab eval suites and Intl AI Safety Report.',
     cov: { eval: 'specialized evaluations', elicit: 'deceptive alignment, scheming detection' } },
-  { id: 'averi', name: 'AVERI', layer: 6, jur: 'co', pow: 1, status: 'active',
+  { id: 'averi', link: 'https://www.averi.org/', name: 'AVERI', layer: 6, jur: 'co', pow: 1, status: 'active',
     desc: 'AI Verification and Evaluation Research Institute (Jan 2026, Brundage). Targets the auditing-capacity bottleneck.',
     cov: { eval: 'third-party verification capacity', acct: 'independent verification mechanism' } },
-  { id: 'bis', name: 'US BIS export controls', layer: 6, jur: 'us', pow: 4, status: 'active',
+  { id: 'bis', link: 'https://www.bis.gov/', name: 'US BIS export controls', layer: 6, jur: 'us', pow: 4, status: 'active',
     desc: 'Bureau of Industry and Security chip export rules (2022, 2023, 2024). Most consequential single piece — shapes who can train at the frontier.',
     cov: { thresh: 'compute thresholds for export licenses', sec: 'restricts adversaries from training-frontier-capable hardware (adjacent to weight security)' } },
-  { id: 'nist-rmf', name: 'NIST AI RMF', layer: 6, jur: 'us', pow: 2, status: 'active',
+  { id: 'nist-rmf', link: 'https://www.nist.gov/itl/ai-risk-management-framework', name: 'NIST AI RMF', layer: 6, jur: 'us', pow: 2, status: 'active',
     desc: 'NIST AI Risk Management Framework (2023, GenAI Profile 2024). De facto global reference.',
     cov: { mit: 'risk management framework', acct: 'transparency principles, govern function', update: 'lifecycle approach' } }
 ];
@@ -615,6 +634,7 @@ function applyState() {
       <span>Layer ${e.layer}</span>
     </div>
     <p class="desc">${e.desc}</p>
+    ${e.link ? `<p class="src-link"><a href="${e.link}" target="_blank" rel="noopener noreferrer">→ Primary source</a></p>` : ''}
     ${covHTML}
     ${connHTML}
   `;
