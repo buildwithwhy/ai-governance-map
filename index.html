@@ -71,6 +71,8 @@
   .cov-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 10px; margin-bottom: 6px; }
   .cov-head h2 { font-family: var(--font-serif); font-weight: 400; font-size: 22px; margin: 0; color: var(--text-info); }
   .cov-head .src { font-family: var(--font-mono); font-size: 11px; color: var(--text-info); opacity: 0.7; }
+  .cov-head .src a { color: inherit; text-decoration: none; border-bottom: 0.5px solid currentColor; padding-bottom: 1px; }
+  .cov-head .src a:hover { opacity: 1; }
   .cov-intro { font-size: 13px; color: var(--text-info); margin: 0 0 14px; line-height: 1.55; opacity: 0.9; }
   .cov-chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
   .cov-chip { font-family: var(--font-sans); font-size: 12px; padding: 6px 11px; border: 0.5px solid var(--border-2); background: var(--bg-card); border-radius: var(--radius); cursor: pointer; color: var(--text-1); display: inline-flex; align-items: center; gap: 6px; }
@@ -193,7 +195,7 @@
   <aside class="cov-row">
     <div class="cov-head">
       <h2>Filter by coverage</h2>
-      <span class="src">METR's 9 common elements · Dec 2025</span>
+      <span class="src"><a href="https://metr.org/common-elements" target="_blank" rel="noopener noreferrer">METR's 9 common elements ↗</a> · Dec 2025</span>
     </div>
     <p class="cov-intro">METR's framework taxonomy applied across the regulatory stack — what aspects of frontier safety does each mechanism actually address? Click any category to dim everything that doesn't cover it. The empty cells are as informative as the filled ones.</p>
     <div class="cov-chips" id="cov-chips"></div>
