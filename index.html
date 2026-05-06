@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frontier AI governance, mapped — May 2026</title>
+<meta name="description" content="An interactive map of frontier AI governance with layered and orthogonal views. May 2026.">
+<meta property="og:title" content="Frontier AI governance, mapped">
+<meta property="og:description" content="Six layers, nine coverage categories, May 2026.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Frontier AI governance, mapped">
+<meta name="twitter:description" content="Six layers, nine coverage categories, May 2026.">
+<meta name="twitter:image" content="/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg-page: #FBFAF7; --bg-card: #FFFFFF; --bg-soft: #F1EFE8;
+    --bg-warn: #FAEEDA; --bg-info: #E6F1FB;
+    --text-1: #1A1A19; --text-2: #5F5E5A; --text-3: #888780;
+    --text-warn: #633806; --text-info: #0C447C;
+    --border-1: rgba(26,26,25,0.08); --border-2: rgba(26,26,25,0.18); --border-3: rgba(26,26,25,0.32);
+    --radius: 8px; --radius-lg: 12px;
+    --font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+    --font-serif: 'Instrument Serif', ui-serif, Georgia, serif;
+    --font-mono: 'Geist Mono', ui-monospace, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-page: #16161A; --bg-card: #1E1E22; --bg-soft: #2C2C2A;
+      --bg-warn: #412402; --bg-info: #042C53;
+      --text-1: #EDEBE2; --text-2: #B4B2A9; --text-3: #888780;
+      --text-warn: #FAC775; --text-info: #B5D4F4;
+      --border-1: rgba(255,255,250,0.08); --border-2: rgba(255,255,250,0.16); --border-3: rgba(255,255,250,0.28);
+    }
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { font-family: var(--font-sans); background: var(--bg-page); color: var(--text-1);
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; line-height: 1.55; font-size: 15px; }
+  .sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+  .page { max-width: 980px; margin: 0 auto; padding: clamp(20px, 5vw, 56px) clamp(20px, 4vw, 40px) 80px; }
+
+  .topbar { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 0.5px solid var(--border-1); padding-bottom: 14px; margin-bottom: 36px; font-size: 12px; color: var(--text-3); font-family: var(--font-mono); letter-spacing: 0.02em; }
+  .hero { margin-bottom: 36px; }
+  .hero .kicker { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-3); margin-bottom: 14px; }
+  .hero h1 { font-family: var(--font-serif); font-weight: 400; font-size: clamp(40px, 6vw, 64px); line-height: 1.05; letter-spacing: -0.01em; margin: 0 0 18px; }
+  .hero h1 em { font-style: italic; color: var(--text-2); }
+  .hero .deck { font-size: 17px; line-height: 1.5; color: var(--text-2); max-width: 660px; margin: 0; }
+
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border-1); border: 0.5px solid var(--border-1); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 28px; }
+  .stat { background: var(--bg-card); padding: 18px; }
+  .stat .num { font-family: var(--font-serif); font-size: 36px; line-height: 1; margin-bottom: 6px; }
+  .stat .lbl { font-size: 11px; color: var(--text-2); letter-spacing: 0.02em; }
+  @media (max-width: 640px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+
+  .controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 18px; padding: 10px 14px; background: var(--bg-card); border: 0.5px solid var(--border-1); border-radius: var(--radius); }
+  .controls .label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-3); margin-right: 4px; }
+  .btn { font-family: var(--font-sans); font-size: 13px; padding: 6px 12px; border: 0.5px solid var(--border-2); background: transparent; border-radius: var(--radius); cursor: pointer; color: var(--text-2); transition: all 0.15s; }
+  .btn:hover { border-color: var(--border-3); color: var(--text-1); }
+  .btn.on { background: var(--text-1); color: var(--bg-card); border-color: var(--text-1); }
+
+  .cov-row { margin: 0 0 28px; padding: 18px 22px; background: var(--bg-info); border-radius: var(--radius-lg); border-left: 3px solid var(--text-info); }
+  .cov-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 10px; margin-bottom: 6px; }
+  .cov-head h2 { font-family: var(--font-serif); font-weight: 400; font-size: 22px; margin: 0; color: var(--text-info); }
+  .cov-head .src { font-family: var(--font-mono); font-size: 11px; color: var(--text-info); opacity: 0.7; }
+  .cov-intro { font-size: 13px; color: var(--text-info); margin: 0 0 14px; line-height: 1.55; opacity: 0.9; }
+  .cov-chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .cov-chip { font-family: var(--font-sans); font-size: 12px; padding: 6px 11px; border: 0.5px solid var(--border-2); background: var(--bg-card); border-radius: var(--radius); cursor: pointer; color: var(--text-1); display: inline-flex; align-items: center; gap: 6px; }
+  .cov-chip:hover { border-color: var(--border-3); }
+  .cov-chip.on { background: var(--text-1); color: var(--bg-card); border-color: var(--text-1); }
+  .cov-chip .ct { font-size: 10px; opacity: 0.65; font-variant-numeric: tabular-nums; }
+  .cov-chip.on .ct { opacity: 0.85; }
+
+  .band { display: grid; grid-template-columns: 160px 1fr; gap: 20px; padding: 20px 0; border-top: 0.5px solid var(--border-1); align-items: start; }
+  .band:first-of-type { border-top: 0.5px solid var(--border-2); }
+  .band-lbl .ord { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-3); margin-bottom: 4px; }
+  .band-lbl h2 { font-family: var(--font-serif); font-weight: 400; font-size: 22px; line-height: 1.1; margin: 0 0 4px; }
+  .band-lbl p { font-size: 12px; color: var(--text-2); margin: 0; line-height: 1.4; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  @media (max-width: 720px) { .band { grid-template-columns: 1fr; gap: 12px; } }
+
+  .chip { font-family: var(--font-sans); font-size: 13px; font-weight: 500; padding: 6px 11px; border-radius: var(--radius); cursor: pointer; border: 0.5px solid transparent; line-height: 1.3; transition: opacity 0.2s; user-select: none; }
+  .chip:hover { border-color: var(--border-3); }
+  .chip.sel { border-color: var(--text-1) !important; border-width: 1px; }
+  .chip.related { box-shadow: 0 0 0 1px var(--text-2); }
+  .chip.dim { opacity: 0.18; }
+  .chip.s-revoked { text-decoration: line-through; opacity: 0.55; }
+  .chip.s-proposed::after { content: " ·"; opacity: 0.5; }
+  .chip.s-phasing::before { content: "▸ "; opacity: 0.5; font-size: 0.85em; }
+
+  .j-us  { background: #E6F1FB; color: #0C447C; }
+  .j-uss { background: #FAEEDA; color: #633806; }
+  .j-eu  { background: #EEEDFE; color: #3C3489; }
+  .j-uk  { background: #FAECE7; color: #712B13; }
+  .j-cn  { background: #FCEBEB; color: #791F1F; }
+  .j-as  { background: #EAF3DE; color: #27500A; }
+  .j-mu  { background: #F1EFE8; color: #444441; }
+  .j-co  { background: #E1F5EE; color: #085041; }
+  .p-1 { background: #F1EFE8; color: #5F5E5A; }
+  .p-2 { background: #FAEEDA; color: #633806; }
+  .p-3 { background: #FAECE7; color: #712B13; }
+  .p-4 { background: #B5D4F4; color: #042C53; }
+  @media (prefers-color-scheme: dark) {
+    .j-us  { background: #042C53; color: #B5D4F4; }
+    .j-uss { background: #412402; color: #FAC775; }
+    .j-eu  { background: #26215C; color: #CECBF6; }
+    .j-uk  { background: #4A1B0C; color: #F5C4B3; }
+    .j-cn  { background: #501313; color: #F7C1C1; }
+    .j-as  { background: #173404; color: #C0DD97; }
+    .j-mu  { background: #2C2C2A; color: #D3D1C7; }
+    .j-co  { background: #04342C; color: #9FE1CB; }
+    .p-1 { background: #2C2C2A; color: #D3D1C7; }
+    .p-2 { background: #412402; color: #FAC775; }
+    .p-3 { background: #4A1B0C; color: #F5C4B3; }
+    .p-4 { background: #042C53; color: #B5D4F4; }
+  }
+
+  .detail { margin-top: 28px; background: var(--bg-card); border: 0.5px solid var(--border-1); border-radius: var(--radius-lg); padding: 22px 26px; min-height: 140px; }
+  .detail.empty { color: var(--text-3); font-size: 13px; text-align: center; display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); letter-spacing: 0.02em; }
+  .detail h3 { font-family: var(--font-serif); font-weight: 400; font-size: 28px; line-height: 1.1; margin: 0 0 10px; }
+  .detail .meta { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+  .detail .meta span { font-family: var(--font-mono); font-size: 11px; padding: 3px 9px; border-radius: var(--radius); background: var(--bg-soft); color: var(--text-2); letter-spacing: 0.02em; }
+  .detail .desc { font-size: 15px; line-height: 1.6; margin: 0 0 16px; }
+  .lbl-mono { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-3); margin-bottom: 10px; }
+  .cov-section { margin-top: 12px; padding-top: 14px; border-top: 0.5px solid var(--border-1); }
+  .cov-list { display: grid; gap: 6px; }
+  .cov-item { font-size: 13px; line-height: 1.55; }
+  .cov-item .nm { font-weight: 500; color: var(--text-1); margin-right: 8px; }
+  .cov-item .nt { color: var(--text-2); }
+  .cov-empty { font-size: 13px; color: var(--text-3); font-style: italic; line-height: 1.55; }
+  .conn-section { margin-top: 12px; padding-top: 14px; border-top: 0.5px solid var(--border-1); }
+  .conn-row { padding: 8px 0; border-top: 0.5px dashed var(--border-1); line-height: 1.55; }
+  .conn-row:first-child { border-top: none; padding-top: 0; }
+  .conn-row .other { font-size: 13px; font-weight: 500; color: var(--text-1); cursor: pointer; margin-right: 10px; }
+  .conn-row .other:hover { text-decoration: underline; }
+  .conn-row .rel { font-size: 13px; color: var(--text-2); }
+
+  .gap { margin-top: 28px; padding: 22px 26px; background: var(--bg-warn); border-radius: var(--radius-lg); border-left: 3px solid var(--text-warn); }
+  .gap h3 { font-family: var(--font-serif); font-weight: 400; font-size: 22px; margin: 0 0 8px; color: var(--text-warn); }
+  .gap p { font-size: 14px; color: var(--text-warn); margin: 0; line-height: 1.55; opacity: 0.9; }
+  .legend { margin-top: 32px; padding-top: 18px; border-top: 0.5px solid var(--border-1); font-size: 12px; color: var(--text-2); }
+  .legend-row { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin-bottom: 8px; }
+  .legend .grp { display: flex; gap: 6px; align-items: center; }
+  .legend .sw { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+  footer { margin-top: 56px; padding-top: 24px; border-top: 0.5px solid var(--border-1); font-size: 12px; color: var(--text-3); line-height: 1.7; }
+  footer p { margin: 0 0 4px; }
+</style>
+</head>
+<body>
+
+<main class="page">
+
+  <div class="topbar">
+    <span>Frontier AI governance map</span>
+    <span>Updated May 2026</span>
+  </div>
+
+  <header class="hero">
+    <div class="kicker">A teaching map · interactive · two views</div>
+    <h1>How frontier AI is <em>actually</em> governed today.</h1>
+    <p class="deck">Six layers across the rows, METR's nine common elements as an orthogonal filter. Click a layer chip to see what it does and how it connects. Click a coverage category to see which mechanisms address it — and which don't.</p>
+  </header>
+
+  <div class="stats" role="list">
+    <div class="stat" role="listitem"><div class="num">39</div><div class="lbl">mechanisms mapped</div></div>
+    <div class="stat" role="listitem"><div class="num">17</div><div class="lbl">voluntary or norm-only</div></div>
+    <div class="stat" role="listitem"><div class="num">8</div><div class="lbl">binding with penalties</div></div>
+    <div class="stat" role="listitem"><div class="num">9</div><div class="lbl">coverage categories</div></div>
+  </div>
+
+  <div class="controls">
+    <span class="label">Color</span>
+    <button class="btn on" data-lens="jur">By jurisdiction</button>
+    <button class="btn" data-lens="pow">By enforceability</button>
+    <span style="flex:1"></span>
+    <button class="btn" data-action="reset">Clear all</button>
+  </div>
+
+  <aside class="cov-row">
+    <div class="cov-head">
+      <h2>Filter by coverage</h2>
+      <span class="src">METR's 9 common elements · Dec 2025</span>
+    </div>
+    <p class="cov-intro">METR's framework taxonomy applied across the regulatory stack — what aspects of frontier safety does each mechanism actually address? Click any category to dim everything that doesn't cover it. The empty cells are as informative as the filled ones.</p>
+    <div class="cov-chips" id="cov-chips"></div>
+  </aside>
+
+  <section class="band">
+    <div class="band-lbl"><div class="ord">Layer 1</div><h2>International</h2><p>Multilateral norms and summits</p></div>
+    <div class="chips" data-band="1"></div>
+  </section>
+  <section class="band">
+    <div class="band-lbl"><div class="ord">Layer 2</div><h2>National regulation</h2><p>Statutes, executive orders, agencies</p></div>
+    <div class="chips" data-band="2"></div>
+  </section>
+  <section class="band">
+    <div class="band-lbl"><div class="ord">Layer 3</div><h2>Sub-national</h2><p>US states filling the federal gap</p></div>
+    <div class="chips" data-band="3"></div>
+  </section>
+  <section class="band">
+    <div class="band-lbl"><div class="ord">Layer 4</div><h2>Industry voluntary</h2><p>Cross-firm commitments and codes</p></div>
+    <div class="chips" data-band="4"></div>
+  </section>
+  <section class="band">
+    <div class="band-lbl"><div class="ord">Layer 5</div><h2>Corporate self-governance</h2><p>Frontier safety frameworks at each lab</p></div>
+    <div class="chips" data-band="5"></div>
+  </section>
+  <section class="band">
+    <div class="band-lbl"><div class="ord">Layer 6</div><h2>Infrastructure</h2><p>Regulators, AISIs, evaluators, compute controls</p></div>
+    <div class="chips" data-band="6"></div>
+  </section>
+
+  <div class="detail empty" id="detail">Click any mechanism to see what it does, which of the nine elements it covers, and how it connects.</div>
+
+  <aside class="gap" id="gap-panel">
+    <h3 id="gap-title">Where the teeth aren't</h3>
+    <p id="gap-body">Mandatory third-party auditing, compute KYC, statutory incident reporting beyond California and (from 2027) New York, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet. Filter by any category above to see which layer of the stack actually covers it.</p>
+  </aside>
+
+  <div class="legend">
+    <div class="legend-row" id="leg-jur">
+      <span class="grp"><span class="sw j-us"></span>US fed</span>
+      <span class="grp"><span class="sw j-uss"></span>US state</span>
+      <span class="grp"><span class="sw j-eu"></span>EU</span>
+      <span class="grp"><span class="sw j-uk"></span>UK</span>
+      <span class="grp"><span class="sw j-cn"></span>China</span>
+      <span class="grp"><span class="sw j-as"></span>Other Asia</span>
+      <span class="grp"><span class="sw j-mu"></span>Multilateral</span>
+      <span class="grp"><span class="sw j-co"></span>Corporate</span>
+    </div>
+    <div class="legend-row" id="leg-pow" style="display:none">
+      <span class="grp"><span class="sw p-1"></span>Voluntary</span>
+      <span class="grp"><span class="sw p-2"></span>Soft / advisory</span>
+      <span class="grp"><span class="sw p-3"></span>Hard law, weak enforcement</span>
+      <span class="grp"><span class="sw p-4"></span>Binding with penalties</span>
+    </div>
+    <div class="legend-row">
+      <span class="grp"><span style="opacity:.5">▸</span>phasing in</span>
+      <span class="grp"><span style="opacity:.5">·</span>proposed</span>
+    </div>
+  </div>
+
+  <footer>
+    <p>Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, California SB 53 / TFAIA, NY RAISE Act (signed Dec 19 2025; chapter amendments Mar 27 2026; effective Jan 1 2027), Trump Executive Orders 14179 and 14365, Korea AI Basic Act (in force Jan 22 2026), India AI Impact Summit New Delhi Declaration.</p>
+    <p>The orthogonal coverage analysis applies METR's nine elements (originally a taxonomy of corporate safety frameworks) to the full set of mechanisms. Some mappings are stretches — flagged in the per-entity notes. Built as a teaching artefact. Errors are mine.</p>
+  </footer>
+
+</main>
+
+<script>
+const CATEGORIES = [
+  { id: 'thresh', name: 'Capability thresholds', desc: 'Levels at which obligations or risks trigger' },
+  { id: 'eval',   name: 'Model evaluations',     desc: 'Tests assessing model capabilities and risks' },
+  { id: 'elicit', name: 'Capability elicitation', desc: 'Surfacing the full capabilities of a model' },
+  { id: 'timing', name: 'Timing & frequency',    desc: 'When evaluations and obligations apply' },
+  { id: 'sec',    name: 'Weight security',       desc: 'Protecting model weights from theft' },
+  { id: 'mit',    name: 'Deployment mitigations', desc: 'Refusals, monitoring, content controls' },
+  { id: 'halt',   name: 'Conditions for halting', desc: 'When to pause development or deployment' },
+  { id: 'acct',   name: 'Accountability',        desc: 'Oversight, transparency, reporting' },
+  { id: 'update', name: 'Updating policies',     desc: 'How policies get revised over time' }
+];
+
+const ENTITIES = [
+  { id: 'aisr', name: 'Intl AI Safety Report', layer: 1, jur: 'mu', pow: 1, status: 'active',
+    desc: 'Bengio-chaired scientific synthesis. Feb 2026 edition flagged emerging "sandbagging" — models underperforming during safety tests.',
+    cov: { thresh: 'synthesizes evidence on where thresholds should sit', eval: 'establishes the science of frontier evaluation', elicit: 'flagged sandbagging as elicitation challenge' } },
+  { id: 'aisi-net', name: 'AISI Network', layer: 1, jur: 'mu', pow: 2, status: 'active',
+    desc: 'Members: UK, US/CAISI, EU AI Office, Japan, Singapore, South Korea, Canada, France INESIA, Australia, Kenya. Renamed in 2025 to "International Network for Advanced AI Measurement, Evaluation and Science."',
+    cov: { eval: 'coordinated joint testing methodology', elicit: 'shared elicitation techniques', timing: 'pre-deployment evaluation coordination', acct: 'multilateral information sharing' } },
+  { id: 'ai-summits', name: 'AI summit series', layer: 1, jur: 'mu', pow: 1, status: 'active',
+    desc: 'Bletchley → Seoul → Paris (US, UK refused to sign) → New Delhi (Feb 2026, "Impact"; 89-92 signed) → Geneva (2027).',
+    cov: { thresh: 'Seoul declaration asked labs to publish thresholds', acct: 'public commitments are accountability', update: 'iterative summit cycle revises commitments' } },
+  { id: 'oecd', name: 'OECD AI Principles', layer: 1, jur: 'mu', pow: 1, status: 'active',
+    desc: '2019, updated 2024. 47 countries.',
+    cov: { mit: 'high-level safety/security principles', acct: 'transparency and accountability principles', update: 'periodic review built in' } },
+  { id: 'coe-ai', name: 'CoE AI Convention', layer: 1, jur: 'mu', pow: 3, status: 'phasing',
+    desc: 'First binding international AI treaty (Sept 2024). Signatories include EU, UK, US, Japan; ratification slow.',
+    cov: { mit: 'risk management obligations', acct: 'independent oversight, redress', update: 'periodic review' } },
+  { id: 'unesco', name: 'UNESCO AI Recommendation', layer: 1, jur: 'mu', pow: 1, status: 'active',
+    desc: '2021 recommendation. 194 member states.',
+    cov: { mit: 'high-level mitigation principles', acct: 'transparency principles' } },
+
+  { id: 'eu-aia', name: 'EU AI Act', layer: 2, jur: 'eu', pow: 4, status: 'phasing',
+    desc: 'In force Aug 2024. GPAI obligations Aug 2025. Full application Aug 2026. Penalties up to €35M or 7% global revenue.',
+    cov: { thresh: '10²⁵ FLOPs systemic-risk threshold', eval: 'required for GPAI with systemic risk', elicit: 'adversarial testing required', timing: 'pre-market and post-market monitoring', sec: 'cybersecurity protections required for weights', mit: 'content marking, refusals, transparency', acct: 'incident reporting to AI Office', update: 'CoP and standards revisable' } },
+  { id: 'us-eo14179', name: 'US EO 14179', layer: 2, jur: 'us', pow: 3, status: 'active',
+    desc: 'Trump (Jan 2025) replaced Biden EO 14110. Rescinded mandatory red-teaming and pre-deployment reporting.',
+    cov: {} },
+  { id: 'us-action', name: 'US AI Action Plan', layer: 2, jur: 'us', pow: 3, status: 'active',
+    desc: 'Jul 2025. Limits federal funding to states with "burdensome" AI regulations.',
+    cov: { acct: 'aligns federal funding with anti-regulation stance' } },
+  { id: 'us-preempt', name: 'US preemption EO', layer: 2, jur: 'us', pow: 3, status: 'active',
+    desc: 'EO 14365 (Dec 11 2025). DOJ AI Litigation Task Force to challenge state AI laws. DOJ first intervened in xAI v. Colorado on Apr 24, 2026.',
+    cov: { acct: 'DOJ enforcement against state AI oversight' } },
+  { id: 'cn-genai', name: 'China GenAI Measures', layer: 2, jur: 'cn', pow: 4, status: 'active',
+    desc: 'CAC Interim Measures for Generative AI (Aug 2023). Binding, with concrete enforcement.',
+    cov: { timing: 'pre-deployment security assessment', mit: 'content moderation, training-data labelling', acct: 'algorithm registration with CAC' } },
+  { id: 'cn-ai-law', name: 'China AI Law', layer: 2, jur: 'cn', pow: 2, status: 'proposed',
+    desc: 'Comprehensive AI law in drafting at NPC. Compute thresholds debated.',
+    cov: { thresh: 'compute thresholds debated in drafting', eval: 'expected risk assessments', mit: 'expected mitigation duties', acct: 'expected oversight expansion' } },
+  { id: 'uk-bill', name: 'UK AI Bill', layer: 2, jur: 'uk', pow: 2, status: 'proposed',
+    desc: 'Labour government has signalled binding rules; bill has slipped repeatedly.',
+    cov: { thresh: 'would target most powerful frontier models', eval: 'would put AISI on statutory footing', acct: 'proposed binding rules and oversight' } },
+  { id: 'kr-ai', name: 'Korea AI Framework Act', layer: 2, jur: 'as', pow: 4, status: 'phasing',
+    desc: 'AI Basic Act. In force Jan 22, 2026. One-year grace period — penalties (capped ~$21k) begin 2027.',
+    cov: { thresh: '10²⁶ FLOPs for "high-performance"', eval: 'risk management plan required', timing: 'lifecycle reporting to MSIT', mit: 'mandatory generative-AI labelling', acct: 'notification duties; AI Safety Research Institute' } },
+  { id: 'jp-ai', name: 'Japan AI Promotion Act', layer: 2, jur: 'as', pow: 2, status: 'active',
+    desc: 'May 2025. Light-touch, sectoral, no compute thresholds.',
+    cov: { mit: 'sectoral guidance on deployment', acct: 'sectoral oversight, no central regulator' } },
+
+  { id: 'ca-sb53', name: 'California SB 53', layer: 3, jur: 'uss', pow: 4, status: 'active',
+    desc: 'Transparency in Frontier AI Act. Effective Jan 1, 2026. >10²⁶ FLOPs, >$500M revenue. Penalties up to $1M/violation.',
+    cov: { thresh: '10²⁶ FLOPs + $500M revenue eligibility', mit: 'frameworks must address risk mitigation', timing: '15-day incident reporting; annual transparency', acct: 'published frameworks, transparency, whistleblower', update: 'frameworks must be kept updated' } },
+  { id: 'co-aia', name: 'Colorado AI Act', layer: 3, jur: 'uss', pow: 4, status: 'phasing',
+    desc: 'First broad US state AI law. Pushed to Jun 30, 2026; federal court paused enforcement Apr 27, 2026.',
+    cov: { mit: 'algorithmic discrimination duties', timing: 'annual reviews', acct: 'AG enforcement; impact assessment publication', update: 'compliance program updates required' } },
+  { id: 'ny-raise', name: 'NY RAISE Act', layer: 3, jur: 'uss', pow: 4, status: 'phasing',
+    desc: 'Hochul signed Dec 19, 2025; chapter amendments Mar 27, 2026 aligned with SB 53. Effective Jan 1, 2027. Penalties $1M / $3M.',
+    cov: { thresh: '>10²⁶ FLOPs + >$500M revenue + >$100M compute', mit: 'safeguards against critical harm', timing: '72-hour incident reporting', acct: 'DFS oversight office, AG enforcement', update: 'DFS regulations expected' } },
+  { id: 'tx-raiga', name: 'Texas TRAIGA', layer: 3, jur: 'uss', pow: 3, status: 'active',
+    desc: 'Texas Responsible AI Governance Act, Jun 2025. Narrower than Colorado.',
+    cov: { mit: 'specific deployment prohibitions (e.g., social scoring)', acct: 'AG enforcement' } },
+
+  { id: 'seoul-commit', name: 'Seoul commitments', layer: 4, jur: 'mu', pow: 1, status: 'active',
+    desc: 'May 2024. 16 frontier firms committed to publish safety frameworks. Catalyst for the published-framework norm.',
+    cov: { thresh: 'commitment to publish capability thresholds', eval: 'commitment to evaluate against thresholds', halt: 'commitment to not deploy at thresholds', acct: 'publication = accountability' } },
+  { id: 'hiroshima', name: 'Hiroshima Process', layer: 4, jur: 'mu', pow: 1, status: 'active',
+    desc: 'G7 Code of Conduct (2023). 11-point framework. Implementation reporting added 2024.',
+    cov: { eval: 'risk identification', sec: 'information security for AI systems', mit: 'safeguards on outputs', acct: 'transparency, content authentication', update: 'implementation reporting added 2024' } },
+  { id: 'gpai-cop', name: 'EU GPAI Code of Practice', layer: 4, jur: 'eu', pow: 2, status: 'active',
+    desc: 'Voluntary route to demonstrate EU AI Act compliance. Anthropic, OpenAI, Google, Microsoft signed all chapters. Meta declined. xAI signed safety only.',
+    cov: { thresh: 'safety chapter calls for thresholds', eval: 'required for systemic-risk models', elicit: 'red-teaming/adversarial testing', sec: 'model security obligations', mit: 'deployment mitigations', halt: 'halting conditions for systemic risk', acct: 'transparency obligations', update: 'periodic CoP revisions' } },
+  { id: 'fmf', name: 'Frontier Model Forum', layer: 4, jur: 'co', pow: 1, status: 'active',
+    desc: 'Industry body (Anthropic, Google, Microsoft, OpenAI; Amazon, Meta added). Coordinates safety research.',
+    cov: { eval: 'coordinated practice on evaluations', acct: 'industry coordination on safety practice' } },
+  { id: 'delhi-commit', name: 'Delhi commitments', layer: 4, jur: 'mu', pow: 1, status: 'active',
+    desc: 'New Delhi Frontier AI Impact Commitments (Feb 2026). 13 frontier developers; broader than Seoul.',
+    cov: { mit: 'inclusive deployment alongside risk', acct: 'public commitments, broader signatory base' } },
+  { id: 'pai', name: 'Partnership on AI', layer: 4, jur: 'co', pow: 1, status: 'active',
+    desc: 'Multistakeholder org (2016). Less central to frontier debate; norms work on synthetic media and labour.',
+    cov: { mit: 'synthetic media practices', acct: 'multistakeholder governance' } },
+
+  { id: 'rsp', name: 'Anthropic RSP', layer: 5, jur: 'co', pow: 1, status: 'active',
+    desc: 'Responsible Scaling Policy. AI Safety Levels. Capability thresholds trigger required safeguards. Updated ~4× since 2023.',
+    cov: { thresh: 'AI Safety Levels (ASL) trigger graduated safeguards', eval: 'pre-deployment evaluations at each ASL', elicit: 'capability elicitation in evaluations', timing: 'pre-training, pre-deployment, ongoing', sec: 'weight-security tier per ASL', mit: 'deployment safeguards by ASL', halt: 'pause if mitigations insufficient', acct: 'board oversight, public publication', update: 'RSP updated ~4× since 2023' } },
+  { id: 'prep', name: 'OpenAI Preparedness', layer: 5, jur: 'co', pow: 1, status: 'active',
+    desc: 'Preparedness Framework. Tracked categories (cyber, CBRN, autonomy, persuasion). 2025 revisions tightened bio thresholds.',
+    cov: { thresh: 'tracked categories with risk levels', eval: 'evaluations against tracked categories', elicit: 'capability elicitation in evaluations', timing: 'pre-deployment + ongoing', sec: 'weight security by risk level', mit: 'deployment safeguards by risk', halt: 'high/critical risk gates deployment', acct: 'Safety Advisory Group oversight', update: 'updated 2024, 2025' } },
+  { id: 'fsf', name: 'GDM Frontier Safety Framework', layer: 5, jur: 'co', pow: 1, status: 'active',
+    desc: 'Critical Capability Levels and mitigations. v2 added explicit deceptive-alignment evaluations.',
+    cov: { thresh: 'Critical Capability Levels (CCLs)', eval: 'evaluations against CCLs', elicit: 'includes deceptive-alignment evaluations', timing: 'periodic evaluations', sec: 'security mitigations per CCL', mit: 'deployment mitigations per CCL', halt: 'halts at critical levels until mitigations', acct: 'internal review processes', update: 'v2 added new evaluation types' } },
+  { id: 'meta-faif', name: 'Meta Frontier AI Framework', layer: 5, jur: 'co', pow: 1, status: 'active',
+    desc: 'Released Feb 2025 after pressure. High/critical-risk tiers. Did not sign EU GPAI Code.',
+    cov: { thresh: 'high-risk and critical-risk tiers', eval: 'evaluations against tiers', elicit: 'adversarial testing', timing: 'pre-deployment', sec: 'security measures by tier', mit: 'deployment mitigations', halt: 'commits to halting at critical-risk', acct: 'internal review (thinner external)', update: 'released 2025; revision schedule unclear' } },
+  { id: 'xai-rmf', name: 'xAI Risk Mgmt Framework', layer: 5, jur: 'co', pow: 1, status: 'active',
+    desc: 'Published Feb 2025 after delay. Thinner than peers. xAI suing Colorado over AI Act.',
+    cov: { thresh: 'quantitative benchmarks (no clear pre-defined per critics)', eval: 'benchmark-driven evaluations', elicit: 'some adversarial testing', timing: 'pre-deployment', sec: 'some security commitments', mit: 'some deployment safeguards', halt: 'limited halting commitments', acct: 'limited external accountability', update: 'released after delay' } },
+
+  { id: 'eu-aio', name: 'EU AI Office', layer: 6, jur: 'eu', pow: 4, status: 'active',
+    desc: 'Operational Aug 2025. Within DG CNECT. Full enforcement powers Aug 2026.',
+    cov: { eval: 'can request evaluations from providers', timing: 'post-market monitoring', mit: 'can order model recall, mitigations', halt: 'recall power = halt mechanism', acct: 'information requests, scientific panel' } },
+  { id: 'uk-aisi', name: 'UK AISI', layer: 6, jur: 'uk', pow: 2, status: 'active',
+    desc: 'Renamed UK AI Security Institute (Feb 2025). 30+ frontier models tested.',
+    cov: { eval: 'pre-deployment testing of frontier models', elicit: 'red-teaming, jailbreaking research', timing: 'pre-deployment access agreements' } },
+  { id: 'caisi', name: 'US CAISI', layer: 6, jur: 'us', pow: 2, status: 'active',
+    desc: 'Renamed from US AISI in Jun 2025. Within NIST. Mission rewritten to drop "safety" framing.',
+    cov: { eval: 'standards work; reduced direct testing', acct: 'standards-setting via NIST' } },
+  { id: 'other-aisis', name: 'Other national AISIs', layer: 6, jur: 'as', pow: 2, status: 'active',
+    desc: 'Singapore (DTC + AI Verify), Japan (J-AISI), France (INESIA), Korea, Canada, Australia, Kenya, India (IndiaAISI).',
+    cov: { eval: 'national-level frontier model testing', elicit: 'various evaluation methodologies', timing: 'pre-deployment access in some' } },
+  { id: 'metr', name: 'METR', layer: 6, jur: 'co', pow: 1, status: 'active',
+    desc: 'Independent evaluator. Authors the "Common Elements" analysis itself.',
+    cov: { thresh: 'maintains threshold catalogue across labs', eval: 'independent capability evaluations', elicit: 'specializes in autonomous-task elicitation' } },
+  { id: 'apollo', name: 'Apollo Research', layer: 6, jur: 'co', pow: 1, status: 'active',
+    desc: 'Independent evaluator focused on deceptive alignment. Findings shaped lab eval suites and Intl AI Safety Report.',
+    cov: { eval: 'specialized evaluations', elicit: 'deceptive alignment, scheming detection' } },
+  { id: 'averi', name: 'AVERI', layer: 6, jur: 'co', pow: 1, status: 'active',
+    desc: 'AI Verification and Evaluation Research Institute (Jan 2026, Brundage). Targets the auditing-capacity bottleneck.',
+    cov: { eval: 'third-party verification capacity', acct: 'independent verification mechanism' } },
+  { id: 'bis', name: 'US BIS export controls', layer: 6, jur: 'us', pow: 4, status: 'active',
+    desc: 'Bureau of Industry and Security chip export rules (2022, 2023, 2024). Most consequential single piece — shapes who can train at the frontier.',
+    cov: { thresh: 'compute thresholds for export licenses', sec: 'restricts adversaries from training-frontier-capable hardware (adjacent to weight security)' } },
+  { id: 'nist-rmf', name: 'NIST AI RMF', layer: 6, jur: 'us', pow: 2, status: 'active',
+    desc: 'NIST AI Risk Management Framework (2023, GenAI Profile 2024). De facto global reference.',
+    cov: { mit: 'risk management framework', acct: 'transparency principles, govern function', update: 'lifecycle approach' } }
+];
+
+const EDGES = [
+  { a: 'aisr', b: 'ai-summits', rel: 'AISR is the scientific input to summit declarations' },
+  { a: 'aisr', b: 'aisi-net', rel: 'AISIs contribute evidence; AISR shapes priorities' },
+  { a: 'aisr', b: 'metr', rel: 'METR contributes capability evidence to AISR' },
+  { a: 'aisr', b: 'apollo', rel: 'Apollo contributes scheming evidence to AISR' },
+  { a: 'aisi-net', b: 'uk-aisi', rel: 'UK AISI is a founding network member' },
+  { a: 'aisi-net', b: 'caisi', rel: 'CAISI represents the US in the network' },
+  { a: 'aisi-net', b: 'eu-aio', rel: "EU AI Office's Safety Unit is part of the network" },
+  { a: 'aisi-net', b: 'other-aisis', rel: 'Singapore, Japan, France, Korea, Canada, Australia, Kenya, India participate' },
+  { a: 'aisi-net', b: 'ai-summits', rel: 'Network was launched at the May 2024 Seoul summit' },
+  { a: 'ai-summits', b: 'seoul-commit', rel: 'Seoul commitments came out of the 2024 summit' },
+  { a: 'ai-summits', b: 'delhi-commit', rel: 'Delhi commitments came out of the Feb 2026 summit' },
+  { a: 'oecd', b: 'hiroshima', rel: 'OECD principles inform the G7 Hiroshima Code' },
+  { a: 'coe-ai', b: 'eu-aia', rel: 'CoE Convention is the international treaty layer above EU AI Act' },
+  { a: 'coe-ai', b: 'uk-bill', rel: 'CoE Convention shapes UK AI Bill drafting' },
+  { a: 'us-eo14179', b: 'us-action', rel: 'EO 14179 ordered the Jul 2025 AI Action Plan' },
+  { a: 'us-eo14179', b: 'us-preempt', rel: 'Trump EO sequence — preemption builds on EO 14179' },
+  { a: 'us-eo14179', b: 'caisi', rel: 'EO led to AISI rename to CAISI in Jun 2025' },
+  { a: 'us-action', b: 'us-preempt', rel: 'Action Plan called for preemption of state laws' },
+  { a: 'cn-genai', b: 'cn-ai-law', rel: 'GenAI Measures will be folded into the AI Law' },
+  { a: 'uk-bill', b: 'uk-aisi', rel: 'AI Bill would put AISI on a statutory footing' },
+  { a: 'us-preempt', b: 'ca-sb53', rel: 'Preemption EO targets SB 53; DOJ task force can challenge' },
+  { a: 'us-preempt', b: 'co-aia', rel: 'DOJ intervened in xAI v. Colorado Apr 24, 2026' },
+  { a: 'us-preempt', b: 'ny-raise', rel: 'Preemption EO targets RAISE Act' },
+  { a: 'eu-aia', b: 'eu-aio', rel: 'EU AI Office is the regulator implementing EU AI Act' },
+  { a: 'ca-sb53', b: 'rsp', rel: 'SB 53 codifies the published-framework norm Anthropic exemplified' },
+  { a: 'ca-sb53', b: 'prep', rel: 'SB 53 codifies the published-framework norm OpenAI exemplified' },
+  { a: 'ca-sb53', b: 'fsf', rel: 'SB 53 codifies the published-framework norm DeepMind exemplified' },
+  { a: 'ca-sb53', b: 'meta-faif', rel: "SB 53 covers Meta's framework" },
+  { a: 'ny-raise', b: 'ca-sb53', rel: 'RAISE Act amendments aligned thresholds with SB 53' },
+  { a: 'seoul-commit', b: 'rsp', rel: "Seoul commitments triggered RSP's first public version" },
+  { a: 'seoul-commit', b: 'prep', rel: 'Seoul commitments triggered the Preparedness Framework' },
+  { a: 'seoul-commit', b: 'fsf', rel: 'Seoul commitments triggered the Frontier Safety Framework' },
+  { a: 'seoul-commit', b: 'meta-faif', rel: "Meta's framework followed Seoul (delayed)" },
+  { a: 'seoul-commit', b: 'xai-rmf', rel: "xAI's framework followed Seoul (delayed, thinner)" },
+  { a: 'gpai-cop', b: 'eu-aia', rel: 'GPAI Code is the voluntary route to EU AI Act compliance' },
+  { a: 'gpai-cop', b: 'rsp', rel: 'Anthropic signed all three chapters' },
+  { a: 'gpai-cop', b: 'prep', rel: 'OpenAI signed all three chapters' },
+  { a: 'gpai-cop', b: 'fsf', rel: 'Google signed all three chapters' },
+  { a: 'gpai-cop', b: 'meta-faif', rel: 'Meta declined to sign' },
+  { a: 'gpai-cop', b: 'xai-rmf', rel: 'xAI signed only the safety chapter' },
+  { a: 'gpai-cop', b: 'eu-aio', rel: 'EU AI Office runs and oversees the CoP' },
+  { a: 'hiroshima', b: 'jp-ai', rel: 'Japan champions Hiroshima Process; Promotion Act reflects same approach' },
+  { a: 'fmf', b: 'rsp', rel: 'Anthropic is an FMF founding member' },
+  { a: 'fmf', b: 'prep', rel: 'OpenAI is an FMF founding member' },
+  { a: 'fmf', b: 'fsf', rel: 'Google is an FMF founding member' },
+  { a: 'fmf', b: 'meta-faif', rel: 'Meta later joined FMF' },
+  { a: 'metr', b: 'rsp', rel: 'METR conducts capability evaluations for Anthropic' },
+  { a: 'metr', b: 'prep', rel: 'METR conducts capability evaluations for OpenAI' },
+  { a: 'metr', b: 'fsf', rel: 'METR conducts capability evaluations for DeepMind' },
+  { a: 'apollo', b: 'rsp', rel: 'Apollo evaluates Anthropic models for scheming' },
+  { a: 'apollo', b: 'fsf', rel: 'Apollo evaluates DeepMind models for scheming' },
+  { a: 'uk-aisi', b: 'rsp', rel: 'UK AISI tested Anthropic models pre-deployment' },
+  { a: 'uk-aisi', b: 'prep', rel: 'UK AISI tested OpenAI models pre-deployment' },
+  { a: 'uk-aisi', b: 'fsf', rel: 'UK AISI tested DeepMind models pre-deployment' },
+  { a: 'caisi', b: 'nist-rmf', rel: 'CAISI sits within NIST alongside the AI RMF' },
+  { a: 'averi', b: 'metr', rel: "AVERI builds on METR's evaluation work" },
+  { a: 'averi', b: 'apollo', rel: "AVERI builds on Apollo's evaluation work" }
+];
+
+const JUR_LABEL = { us:'US Federal', uss:'US State', eu:'European Union', uk:'United Kingdom', cn:'China', as:'Asia (other)', mu:'Multilateral', co:'Corporate / global' };
+const POW_LABEL = { 1:'Voluntary', 2:'Soft / advisory', 3:'Hard law, weak enforcement', 4:'Binding with penalties' };
+const STATUS_LABEL = { active:'In force', phasing:'Phasing in', proposed:'Proposed', revoked:'Revoked' };
+
+const GAP_SUMMARIES = {
+  thresh: {
+    title: 'Who actually sets the thresholds',
+    body: 'Capability thresholds appear across the stack, but they\'re defined in two very different ways. The labs set capability thresholds (CBRN, cyber, autonomous replication, AI R&D); the binding regulations set eligibility thresholds (10²⁵ or 10²⁶ FLOPs plus revenue floors). These are not the same thing — the regulatory thresholds answer who is covered, the lab thresholds answer when to stop. No binding instrument yet sets the second kind.'
+  },
+  eval: {
+    title: 'Evaluations everywhere, mandates almost nowhere',
+    body: 'Most mechanisms touch evaluations in some way, but mandatory third-party evaluation of frontier models is rare. The EU AI Act requires it for systemic-risk GPAI. Korea\'s Framework Act requires risk management plans. Everywhere else, evaluations happen because labs publish them, AISIs request them under voluntary access agreements, or independent evaluators (METR, Apollo) do them. The published-framework norm carries the load.'
+  },
+  elicit: {
+    title: 'Capability elicitation is an evaluator job',
+    body: 'Almost no statute requires it; only the EU AI Act and the GPAI Code do, indirectly through adversarial-testing language. The actual elicitation work — surfacing sandbagging, deceptive behaviour, scheming, jailbreaks — happens at UK AISI, METR, Apollo, and inside the labs themselves. If those organisations stopped doing it, no binding regulation would notice.'
+  },
+  timing: {
+    title: 'Pre-deployment yes, post-deployment patchy',
+    body: 'Pre-deployment timing is the easy part: the EU AI Act, China\'s GenAI Measures, Korea\'s Framework Act, and the lab frameworks all require it. Post-deployment monitoring and incident reporting are sparser — California SB 53 (15 days), NY RAISE (72 hours), Korea (lifecycle reporting), and the EU AI Office\'s post-market monitoring are the binding instances. Outside those four, no statutory incident reporting for frontier models exists.'
+  },
+  sec: {
+    title: 'Weight security is mostly self-imposed',
+    body: 'The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tiers — but they impose those on themselves. BIS export controls touch the adjacent question of who can access frontier-capable hardware. No US state, no UK statute, and no other binding instrument covers weight security directly.'
+  },
+  mit: {
+    title: 'The most-covered category, and the most ambiguous',
+    body: 'Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discrimination duties. The category is broad enough to absorb very different obligations, from China\'s content moderation to Colorado\'s algorithmic-discrimination duties to Anthropic\'s ASL deployment safeguards. Strong coverage here doesn\'t mean strong frontier-safety coverage; it means many regulators have figured out how to write deployment rules.'
+  },
+  halt: {
+    title: 'Almost nobody can make a frontier developer stop',
+    body: 'Conditions for halting are the rarest column in the matrix. The EU AI Office can order recall (Aug 2026 onwards). The GPAI Code calls for halting at systemic-risk thresholds. Seoul commitments asked labs to commit to it. Every lab framework includes it. That\'s essentially the whole list. No US state, no other national statute, no other multilateral instrument can compel a frontier developer to pause.'
+  },
+  acct: {
+    title: 'The well-populated column — but not all accountability is equal',
+    body: 'Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) to industry coordination (FMF) to soft transparency principles (OECD, UNESCO). The Trump preemption EO and AI Action Plan also fill this column, but in the negative direction — limiting state oversight rather than expanding accountability. Read carefully: a filled cell here can mean very different things.'
+  },
+  update: {
+    title: 'Most policies don\'t update themselves',
+    body: 'The EU AI Act revises through its Code of Practice. California SB 53 requires labs to keep their published frameworks current. NIST AI RMF, the OECD principles, and the CoE Convention have built-in review. Lab frameworks revise as labs choose. Outside these, most binding instruments lock in a snapshot — a problem given how fast capabilities are moving.'
+  }
+};
+
+let lens = 'jur';
+let selected = null;
+let activeCat = null;
+
+function chipClass(e) {
+  const baseColor = lens === 'jur' ? `j-${e.jur}` : `p-${e.pow}`;
+  const status = e.status !== 'active' ? `s-${e.status}` : '';
+  return `chip ${baseColor} ${status}`.trim();
+}
+function getConnections(id) {
+  return EDGES.filter(e => e.a === id || e.b === id).map(e => ({ otherId: e.a === id ? e.b : e.a, rel: e.rel }));
+}
+function catCount(catId) {
+  return ENTITIES.filter(e => e.cov && e.cov[catId]).length;
+}
+function renderCovChips() {
+  const c = document.getElementById('cov-chips');
+  c.innerHTML = '';
+  CATEGORIES.forEach(cat => {
+    const b = document.createElement('button');
+    b.className = 'cov-chip' + (activeCat === cat.id ? ' on' : '');
+    b.dataset.cat = cat.id;
+    b.title = cat.desc;
+    b.innerHTML = `${cat.name} <span class="ct">${catCount(cat.id)}</span>`;
+    b.addEventListener('click', () => {
+      activeCat = (activeCat === cat.id) ? null : cat.id;
+      renderCovChips();
+      applyState();
+    });
+    c.appendChild(b);
+  });
+}
+function render() {
+  for (let l = 1; l <= 6; l++) {
+    const band = document.querySelector(`[data-band="${l}"]`);
+    if (!band) continue;
+    band.innerHTML = '';
+    ENTITIES.filter(e => e.layer === l).forEach(e => {
+      const ch = document.createElement('span');
+      ch.className = chipClass(e);
+      ch.dataset.id = e.id;
+      ch.textContent = e.name;
+      ch.setAttribute('role', 'button');
+      ch.setAttribute('tabindex', '0');
+      ch.addEventListener('click', () => select(e.id));
+      ch.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); select(e.id); } });
+      band.appendChild(ch);
+    });
+  }
+  document.getElementById('leg-jur').style.display = lens === 'jur' ? '' : 'none';
+  document.getElementById('leg-pow').style.display = lens === 'pow' ? '' : 'none';
+  renderCovChips();
+  applyState();
+}
+function select(id) { selected = (selected === id) ? null : id; applyState(); }
+function updateGapPanel() {
+  const titleEl = document.getElementById('gap-title');
+  const bodyEl = document.getElementById('gap-body');
+  if (activeCat && GAP_SUMMARIES[activeCat]) {
+    titleEl.textContent = GAP_SUMMARIES[activeCat].title;
+    bodyEl.textContent = GAP_SUMMARIES[activeCat].body;
+  } else {
+    titleEl.textContent = "Where the teeth aren't";
+    bodyEl.textContent = "Mandatory third-party auditing, compute KYC, statutory incident reporting beyond California and (from 2027) New York, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet. Filter by any category above to see which layer of the stack actually covers it.";
+  }
+}
+function applyState() {
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('sel', 'related', 'dim'));
+  if (activeCat) {
+    document.querySelectorAll('.chip').forEach(c => {
+      const e = ENTITIES.find(x => x.id === c.dataset.id);
+      if (!e || !e.cov || !e.cov[activeCat]) c.classList.add('dim');
+    });
+  }
+  updateGapPanel();
+  const detail = document.getElementById('detail');
+  if (!selected) {
+    detail.className = 'detail empty';
+    detail.textContent = activeCat ?
+      `Filtered by "${CATEGORIES.find(c => c.id === activeCat).name}" — ${catCount(activeCat)} mechanisms cover it. Click any chip to see details.` :
+      'Click any mechanism to see what it does, which of the nine elements it covers, and how it connects.';
+    return;
+  }
+  const e = ENTITIES.find(x => x.id === selected);
+  if (!e) return;
+  const conns = getConnections(e.id);
+  const relatedIds = new Set(conns.map(c => c.otherId));
+  document.querySelectorAll('.chip').forEach(c => {
+    if (c.dataset.id === selected) { c.classList.add('sel'); c.classList.remove('dim'); }
+    else if (relatedIds.has(c.dataset.id) && (!activeCat || (ENTITIES.find(x => x.id === c.dataset.id)?.cov?.[activeCat]))) c.classList.add('related');
+  });
+  const covEntries = Object.entries(e.cov || {});
+  const covHTML = covEntries.length ? `
+    <div class="cov-section">
+      <div class="lbl-mono">Covers (${covEntries.length} of 9)</div>
+      <div class="cov-list">
+        ${covEntries.map(([catId, note]) => {
+          const cat = CATEGORIES.find(c => c.id === catId);
+          return `<div class="cov-item"><span class="nm">${cat.name}</span><span class="nt">${note}</span></div>`;
+        }).join('')}
+      </div>
+    </div>` : `<div class="cov-section"><div class="lbl-mono">Covers</div><div class="cov-empty">This mechanism doesn't directly impose obligations across the nine elements — it operates at a meta level (e.g., rescinds prior rules, coordinates funding, or limits other regulators).</div></div>`;
+  const connHTML = conns.length ? `
+    <div class="conn-section">
+      <div class="lbl-mono">How it connects (${conns.length})</div>
+      ${conns.map(c => {
+        const other = ENTITIES.find(x => x.id === c.otherId);
+        if (!other) return '';
+        return `<div class="conn-row"><span class="other" data-nav="${other.id}">→ ${other.name}</span><span class="rel">${c.rel}</span></div>`;
+      }).join('')}
+    </div>` : '';
+  detail.className = 'detail';
+  detail.innerHTML = `
+    <h3>${e.name}</h3>
+    <div class="meta">
+      <span>${JUR_LABEL[e.jur]}</span>
+      <span>${POW_LABEL[e.pow]}</span>
+      <span>${STATUS_LABEL[e.status]}</span>
+      <span>Layer ${e.layer}</span>
+    </div>
+    <p class="desc">${e.desc}</p>
+    ${covHTML}
+    ${connHTML}
+  `;
+  detail.querySelectorAll('[data-nav]').forEach(el => el.addEventListener('click', () => select(el.dataset.nav)));
+  detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+document.querySelectorAll('[data-lens]').forEach(b => {
+  b.addEventListener('click', () => {
+    lens = b.dataset.lens;
+    document.querySelectorAll('[data-lens]').forEach(x => x.classList.toggle('on', x === b));
+    render();
+  });
+});
+document.querySelector('[data-action="reset"]').addEventListener('click', () => {
+  selected = null; activeCat = null;
+  renderCovChips(); applyState();
+});
+render();
+</script>
+
+<script defer src="/_vercel/insights/script.js"></script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+
+</body>
+</html>
