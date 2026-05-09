@@ -32,12 +32,16 @@ const LAYERS = {
 };
 
 const SITE_URL = 'https://ai-governance-map.buildwithwhy.com';
-const UPDATED = '6 May 2026';
+const AUTHOR_SITE = 'https://buildwithwhy.com';
+const AUTHOR_EMAIL = 'buildwithwhy@gmail.com';
+const UPDATED = '9 May 2026';
 
 // ---- llms-full.txt ---------------------------------------------------------
 let full = '';
 full += `# Frontier AI Governance Map\n\n`;
-full += `By Yuyu Shen — buildwithwhy@gmail.com\n`;
+full += `By Yuyu Shen\n`;
+full += `Personal site: ${AUTHOR_SITE}\n`;
+full += `Contact: ${AUTHOR_EMAIL}\n`;
 full += `Web version: ${SITE_URL}\n`;
 full += `Updated: ${UPDATED}\n\n`;
 
@@ -117,7 +121,9 @@ fs.writeFileSync(path.join(ROOT, 'llms-full.txt'), full);
 let llms = '';
 llms += `# Frontier AI Governance Map\n\n`;
 llms += `> Interactive map of frontier AI governance covering six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter. ${UPDATED} snapshot; ${ENTITIES.length} mechanisms across the stack with primary-source links, descriptions, and connections.\n\n`;
-llms += `By Yuyu Shen — buildwithwhy@gmail.com\n`;
+llms += `By Yuyu Shen\n`;
+llms += `Personal site: ${AUTHOR_SITE}\n`;
+llms += `Contact: ${AUTHOR_EMAIL}\n`;
 llms += `Web version: ${SITE_URL}\n\n`;
 
 llms += `## Documents\n\n`;

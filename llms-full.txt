@@ -1,8 +1,10 @@
 # Frontier AI Governance Map
 
-By Yuyu Shen — buildwithwhy@gmail.com
+By Yuyu Shen
+Personal site: https://buildwithwhy.com
+Contact: buildwithwhy@gmail.com
 Web version: https://ai-governance-map.buildwithwhy.com
-Updated: 6 May 2026
+Updated: 9 May 2026
 
 ## Overview
 
