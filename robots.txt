@@ -29,3 +29,5 @@ Allow: /
 
 User-agent: CCBot
 Allow: /
+
+Sitemap: https://ai-governance-map.buildwithwhy.com/sitemap.xml
