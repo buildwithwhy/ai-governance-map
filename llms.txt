@@ -1,6 +1,6 @@
 # Frontier AI Governance Map
 
-> Interactive map of frontier AI governance covering six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter. 6 June 2026 snapshot; 40 mechanisms across the stack with primary-source links, descriptions, and connections.
+> Interactive map of frontier AI governance covering six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter. 6 June 2026 snapshot; 42 mechanisms across the stack with primary-source links, descriptions, and connections.
 
 By Yuyu Shen
 Personal site: https://buildwithwhy.com
@@ -9,7 +9,7 @@ Web version: https://ai-governance-map.buildwithwhy.com
 
 ## Documents
 
-- [Full content as markdown](https://ai-governance-map.buildwithwhy.com/llms-full.txt) — every mechanism with description, context, primary source, coverage notes, and connections (40 mechanisms, 60 relationships)
+- [Full content as markdown](https://ai-governance-map.buildwithwhy.com/llms-full.txt) — every mechanism with description, context, primary source, coverage notes, and connections (42 mechanisms, 64 relationships)
 - [Web version](https://ai-governance-map.buildwithwhy.com) — interactive HTML
 
 ## Conceptual structure

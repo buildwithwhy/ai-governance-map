@@ -14,9 +14,9 @@
     "email": "buildwithwhy@gmail.com"
   },
   "stats": {
-    "mechanisms": 40,
-    "edges": 60,
-    "voluntary_or_norm_only": 17,
+    "mechanisms": 42,
+    "edges": 64,
+    "voluntary_or_norm_only": 19,
     "binding_with_penalties": 7,
     "categories": 9,
     "layers": 6
@@ -922,6 +922,47 @@
       }
     },
     {
+      "id": "cais",
+      "name": "Center for AI Safety",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "co",
+      "jurisdiction_name": "Corporate / global",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.safe.ai/",
+      "description": "Independent AI safety nonprofit (501(c)(3)), founded 2022 by Dan Hendrycks. Authored the May 2023 \"Statement on AI Risk\" signed by hundreds of AI leaders.",
+      "context": "Field-building NGO running widely-used safety benchmarks (MMLU, Humanity's Last Exam, WMDP weapons-of-mass-destruction proxy), research grants, and policy advocacy. The May 2023 'Statement on AI Risk' — a one-sentence declaration that mitigating extinction risk from AI should be a global priority — was signed by leading lab CEOs (Altman, Hassabis, Amodei) and shaped the 2023-2024 AI-risk discourse. In June 2026 expanded leadership with former xAI engineer Devin Kim as President and established the Frontier Security Institute as a DC-based national-security affiliate.",
+      "coverage": {
+        "eval": "Hosts and publishes safety benchmarks (MMLU, Humanity's Last Exam, WMDP) that feed into lab framework evaluations and AISI testing.",
+        "elicit": "WMDP and adjacent benchmarks operationalise capability elicitation for biorisk and cyber-misuse scenarios.",
+        "acct": "May 2023 Statement on AI Risk created a high-profile accountability moment; ongoing field-building, policy advocacy, and grant-making across the AI safety ecosystem.",
+        "update": "Benchmarks revised as evaluation methodology matures; new ones (HLE, WMDP) added through 2024-2026."
+      }
+    },
+    {
+      "id": "fsi",
+      "name": "Frontier Security Institute",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "co",
+      "jurisdiction_name": "Corporate / global",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://frontiersecurityinstitute.org/",
+      "description": "CAIS affiliate launched June 2, 2026 in Washington, DC. Translates between frontier AI developers and the US national-security enterprise.",
+      "context": "Sits between frontier labs and US national-security institutions — the Pentagon, intelligence community, and Congress. Led by Executive Director Ike Harris (former US Navy / SecDef policy advisor), COO Jeremy Pelter (former Acting Commerce Secretary), and research director Aaron Frank (former RAND). Three named focus areas: securing advanced model weights, how national-security operators test and use frontier models, and AI's effect on geopolitical stability. Distinct from third-party evaluators (METR, Apollo, AVERI) — FSI does policy and applied security work rather than technical model evaluations.",
+      "coverage": {
+        "sec": "Securing advanced AI model weights against state-actor exfiltration is one of FSI's three named focus areas — bridges lab weight-security commitments and US national-security review.",
+        "eval": "Researches how national-security operators test and use frontier models, including pre-deployment risk evaluation in classified settings.",
+        "acct": "Policy translation between frontier labs and US national-security institutions; aims to make lab safety commitments legible to national-security review processes."
+      }
+    },
+    {
       "id": "bis",
       "name": "US BIS export controls",
       "layer": 6,
@@ -1261,6 +1302,26 @@
       "from": "averi",
       "to": "apollo",
       "relationship": "AVERI builds on Apollo's evaluation work"
+    },
+    {
+      "from": "cais",
+      "to": "fsi",
+      "relationship": "FSI is CAIS's DC-based national-security affiliate"
+    },
+    {
+      "from": "fsi",
+      "to": "caisi",
+      "relationship": "Both work on national-security review of frontier models"
+    },
+    {
+      "from": "fsi",
+      "to": "us-frontier-access-eo",
+      "relationship": "FSI's policy translation aligns with the EO's national-security review framework"
+    },
+    {
+      "from": "cais",
+      "to": "aisr",
+      "relationship": "CAIS's 2023 Statement on AI Risk shaped the discourse the AISR formalises"
     }
   ]
 }

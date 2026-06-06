@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Frontier AI Governance Map — AI Regulatory Tracker</title>
-<meta name="description" content="Interactive map of 40 frontier AI governance mechanisms across six layers — international, national, sub-national, voluntary, lab, infrastructure — using METR's nine common elements.">
+<meta name="description" content="Interactive map of 42 frontier AI governance mechanisms across six layers — international, national, sub-national, voluntary, lab, infrastructure — using METR's nine common elements.">
 
 <link rel="canonical" href="https://ai-governance-map.buildwithwhy.com/">
 
 <meta property="og:title" content="Frontier AI Governance Map — AI Regulatory Tracker">
-<meta property="og:description" content="Interactive map of 40 frontier AI governance mechanisms across six layers and METR's nine common elements.">
+<meta property="og:description" content="Interactive map of 42 frontier AI governance mechanisms across six layers and METR's nine common elements.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ai-governance-map.buildwithwhy.com/">
 <meta property="og:image" content="https://ai-governance-map.buildwithwhy.com/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Frontier AI Governance Map — AI Regulatory Tracker">
-<meta name="twitter:description" content="Interactive map of 40 frontier AI governance mechanisms across six layers and METR's nine common elements.">
+<meta name="twitter:description" content="Interactive map of 42 frontier AI governance mechanisms across six layers and METR's nine common elements.">
 <meta name="twitter:image" content="https://ai-governance-map.buildwithwhy.com/og.png">
 
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -30,7 +30,7 @@
   "@type": "Dataset",
   "name": "Frontier AI Governance Map",
   "alternateName": "AI Regulatory Tracker",
-  "description": "Interactive map of 40 frontier AI governance mechanisms across six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter.",
+  "description": "Interactive map of 42 frontier AI governance mechanisms across six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter.",
   "url": "https://ai-governance-map.buildwithwhy.com/",
   "sameAs": "https://github.com/buildwithwhy/ai-governance-map",
   "dateModified": "2026-06-06",
@@ -348,8 +348,8 @@
   </noscript>
 
   <div class="stats" role="list">
-    <div class="stat" role="listitem"><div class="num">40</div><div class="lbl">mechanisms mapped</div></div>
-    <div class="stat" role="listitem"><div class="num">17</div><div class="lbl">voluntary or norm-only</div></div>
+    <div class="stat" role="listitem"><div class="num">42</div><div class="lbl">mechanisms mapped</div></div>
+    <div class="stat" role="listitem"><div class="num">19</div><div class="lbl">voluntary or norm-only</div></div>
     <div class="stat" role="listitem"><div class="num">7</div><div class="lbl">binding with penalties</div></div>
     <div class="stat" role="listitem"><div class="num">9</div><div class="lbl">coverage categories</div></div>
   </div>
@@ -805,6 +805,23 @@ const ENTITIES = [
       eval: "Third-party verification capacity for AI assurance — analogous to safety integrity levels in other industries. Aimed at the bottleneck the EU AI Act exposes: more obligations to verify than independent auditors qualified to verify them.",
       acct: "Independent verification mechanism for frontier AI assurance. Builds on METR and Apollo evaluation work; targets regulatory infrastructure rather than direct lab evaluation."
     } },
+  { id: 'cais', link: 'https://www.safe.ai/', name: 'Center for AI Safety', layer: 6, jur: 'co', pow: 1, status: 'active',
+    desc: 'Independent AI safety nonprofit (501(c)(3)), founded 2022 by Dan Hendrycks. Authored the May 2023 "Statement on AI Risk" signed by hundreds of AI leaders.',
+    context: "Field-building NGO running widely-used safety benchmarks (MMLU, Humanity's Last Exam, WMDP weapons-of-mass-destruction proxy), research grants, and policy advocacy. The May 2023 'Statement on AI Risk' — a one-sentence declaration that mitigating extinction risk from AI should be a global priority — was signed by leading lab CEOs (Altman, Hassabis, Amodei) and shaped the 2023-2024 AI-risk discourse. In June 2026 expanded leadership with former xAI engineer Devin Kim as President and established the Frontier Security Institute as a DC-based national-security affiliate.",
+    cov: {
+      eval: "Hosts and publishes safety benchmarks (MMLU, Humanity's Last Exam, WMDP) that feed into lab framework evaluations and AISI testing.",
+      elicit: "WMDP and adjacent benchmarks operationalise capability elicitation for biorisk and cyber-misuse scenarios.",
+      acct: "May 2023 Statement on AI Risk created a high-profile accountability moment; ongoing field-building, policy advocacy, and grant-making across the AI safety ecosystem.",
+      update: "Benchmarks revised as evaluation methodology matures; new ones (HLE, WMDP) added through 2024-2026."
+    } },
+  { id: 'fsi', link: 'https://frontiersecurityinstitute.org/', name: 'Frontier Security Institute', layer: 6, jur: 'co', pow: 1, status: 'active',
+    desc: 'CAIS affiliate launched June 2, 2026 in Washington, DC. Translates between frontier AI developers and the US national-security enterprise.',
+    context: "Sits between frontier labs and US national-security institutions — the Pentagon, intelligence community, and Congress. Led by Executive Director Ike Harris (former US Navy / SecDef policy advisor), COO Jeremy Pelter (former Acting Commerce Secretary), and research director Aaron Frank (former RAND). Three named focus areas: securing advanced model weights, how national-security operators test and use frontier models, and AI's effect on geopolitical stability. Distinct from third-party evaluators (METR, Apollo, AVERI) — FSI does policy and applied security work rather than technical model evaluations.",
+    cov: {
+      sec: "Securing advanced AI model weights against state-actor exfiltration is one of FSI's three named focus areas — bridges lab weight-security commitments and US national-security review.",
+      eval: "Researches how national-security operators test and use frontier models, including pre-deployment risk evaluation in classified settings.",
+      acct: "Policy translation between frontier labs and US national-security institutions; aims to make lab safety commitments legible to national-security review processes."
+    } },
   { id: 'bis', link: 'https://www.bis.gov/', name: 'US BIS export controls', layer: 6, jur: 'us', pow: 4, status: 'active',
     desc: 'Bureau of Industry and Security chip export rules (2022, 2023, 2024). Most consequential single piece — shapes who can train at the frontier.',
     context: "Successive rules tightened export-licence requirements for advanced compute (GPUs, fabrication tools, lithography) to China and other concerns; the 2024 update added compute-tier thresholds tied to model-training scale. May 31, 2026 guidance closed a key loophole by confirming the ultimate-parent-company test applies — any subsidiary worldwide whose ultimate parent is in the restricted countries list needs a US license. Operates outside the safety-regulation framing — its lever is who can build frontier models at all, not what they must do once built. The single most consequential piece of US AI policy by impact, even though it isn't framed as 'AI regulation.'",
@@ -882,7 +899,11 @@ const EDGES = [
   { a: 'uk-aisi', b: 'fsf', rel: 'UK AISI tested DeepMind models pre-deployment' },
   { a: 'caisi', b: 'nist-rmf', rel: 'CAISI sits within NIST alongside the AI RMF' },
   { a: 'averi', b: 'metr', rel: "AVERI builds on METR's evaluation work" },
-  { a: 'averi', b: 'apollo', rel: "AVERI builds on Apollo's evaluation work" }
+  { a: 'averi', b: 'apollo', rel: "AVERI builds on Apollo's evaluation work" },
+  { a: 'cais', b: 'fsi', rel: 'FSI is CAIS\'s DC-based national-security affiliate' },
+  { a: 'fsi', b: 'caisi', rel: 'Both work on national-security review of frontier models' },
+  { a: 'fsi', b: 'us-frontier-access-eo', rel: "FSI's policy translation aligns with the EO's national-security review framework" },
+  { a: 'cais', b: 'aisr', rel: "CAIS's 2023 Statement on AI Risk shaped the discourse the AISR formalises" }
 ];
 
 const JUR_LABEL = { us:'US Federal', uss:'US State', eu:'European Union', uk:'United Kingdom', cn:'China', as:'Asia (other)', mu:'Multilateral', co:'Corporate / global' };
