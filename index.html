@@ -210,6 +210,11 @@
   .topbar a:hover { opacity: 1; }
   .topbar-action { background: none; border: none; padding: 0; margin: 0; font: inherit; color: inherit; letter-spacing: inherit; cursor: pointer; border-bottom: 0.5px solid currentColor; opacity: 0.85; }
   .topbar-action:hover { opacity: 1; }
+  .share-wrapper { position: relative; display: inline-block; }
+  .share-menu { position: absolute; top: 100%; right: 0; margin-top: 8px; background: var(--bg-card); border: 0.5px solid var(--border-2); border-radius: var(--radius); padding: 6px; z-index: 20; display: flex; flex-direction: column; gap: 2px; min-width: 150px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .share-menu[hidden] { display: none; }
+  .share-menu a, .share-menu button { display: block; padding: 7px 12px; font-family: var(--font-mono); font-size: 12px; color: var(--text-2); text-decoration: none; border-radius: 4px; cursor: pointer; background: none; border: none; text-align: left; letter-spacing: 0.02em; }
+  .share-menu a:hover, .share-menu button:hover { background: var(--bg-soft); color: var(--text-1); }
   .hero { margin-bottom: 36px; }
   .hero .kicker { font-family: var(--font-mono); font-size: 11px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-3); margin: 0 0 14px; }
   .hero .hero-headline { font-family: var(--font-serif); font-weight: 400; font-size: clamp(40px, 6vw, 64px); line-height: 1.05; letter-spacing: -0.01em; margin: 0 0 18px; color: var(--text-1); }
@@ -330,7 +335,7 @@
 
   <div class="topbar">
     <span>By Yuyu Shen · <a href="https://buildwithwhy.com" target="_blank" rel="author noopener noreferrer">buildwithwhy.com</a></span>
-    <span><button class="topbar-action" data-action="copy-link" type="button">Copy link</button> · Updated <time datetime="2026-06-06">6 June 2026</time></span>
+    <span><span class="share-wrapper"><button class="topbar-action" data-action="share" type="button" aria-haspopup="menu" aria-expanded="false">Share</button><div class="share-menu" id="share-menu" role="menu" hidden></div></span> · <button class="topbar-action" data-action="copy-link" type="button">Copy link</button> · Updated <time datetime="2026-06-06">6 June 2026</time></span>
   </div>
 
   <header class="hero">
@@ -1175,6 +1180,51 @@ document.querySelector('[data-action="copy-link"]').addEventListener('click', as
   }
   setTimeout(() => { btn.textContent = original; }, 1500);
 });
+
+(function setupShare() {
+  const url = 'https://ai-governance-map.buildwithwhy.com/';
+  const title = 'Frontier AI Governance Map';
+  const text = 'Frontier AI Governance Map — interactive tracker of 49 mechanisms across 6 layers and METR\'s 9 common elements.';
+  const u = encodeURIComponent(url);
+  const t = encodeURIComponent(text);
+  const ti = encodeURIComponent(title);
+  const menu = document.getElementById('share-menu');
+  const btn = document.querySelector('[data-action="share"]');
+  const links = [];
+  if (typeof navigator.share === 'function') {
+    links.push({ label: 'Native share…', action: 'native' });
+  }
+  links.push(
+    { label: 'X (Twitter)',  href: `https://x.com/intent/tweet?text=${t}&url=${u}` },
+    { label: 'LinkedIn',     href: `https://www.linkedin.com/sharing/share-offsite/?url=${u}` },
+    { label: 'Bluesky',      href: `https://bsky.app/intent/compose?text=${t}%20${u}` },
+    { label: 'Email',        href: `mailto:?subject=${ti}&body=${t}%20${u}` },
+  );
+  menu.innerHTML = links.map(l => l.action === 'native'
+    ? `<button type="button" data-share-action="native">${l.label}</button>`
+    : `<a href="${l.href}" target="_blank" rel="noopener noreferrer">${l.label}</a>`
+  ).join('');
+  const closeMenu = () => { menu.hidden = true; btn.setAttribute('aria-expanded', 'false'); };
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const open = menu.hidden;
+    menu.hidden = !open;
+    btn.setAttribute('aria-expanded', String(open));
+  });
+  menu.addEventListener('click', async (e) => {
+    const nativeBtn = e.target.closest('[data-share-action="native"]');
+    if (nativeBtn) {
+      try { await navigator.share({ title, text, url }); } catch {}
+      closeMenu();
+      return;
+    }
+    if (e.target.tagName === 'A') closeMenu();
+  });
+  document.addEventListener('click', (e) => {
+    if (!menu.contains(e.target) && e.target !== btn) closeMenu();
+  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMenu(); });
+})();
 render();
 </script>
 
