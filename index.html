@@ -250,7 +250,37 @@
   .cov-chip.on .ct { opacity: 0.85; }
 
   .band { display: grid; grid-template-columns: 160px 1fr; gap: 20px; padding: 20px 0; border-top: 0.5px solid var(--border-1); align-items: start; }
-  .band-lbl[title] { cursor: help; }
+  .band-lbl { position: relative; }
+  .band-lbl[data-tooltip] { cursor: help; }
+  .band-lbl[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    width: max-content;
+    max-width: min(360px, calc(100vw - 40px));
+    padding: 12px 14px;
+    background: var(--bg-card);
+    border: 0.5px solid var(--border-2);
+    border-radius: var(--radius-lg);
+    font-family: var(--font-sans);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.55;
+    color: var(--text-2);
+    letter-spacing: 0;
+    text-transform: none;
+    white-space: normal;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    z-index: 30;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease-in 0.25s;
+  }
+  .band-lbl[data-tooltip]:hover::after,
+  .band-lbl[data-tooltip]:focus-within::after {
+    opacity: 1;
+  }
   .band:first-of-type { border-top: 0.5px solid var(--border-2); }
   .band-lbl .ord { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-3); margin-bottom: 4px; }
   .band-lbl h2 { font-family: var(--font-serif); font-weight: 400; font-size: 22px; line-height: 1.1; margin: 0 0 4px; }
@@ -377,37 +407,37 @@
   </aside>
 
   <section class="band">
-    <div class="band-lbl" title="Multilateral norms, treaties, and summit declarations. Sets shared expectations across jurisdictions but rarely imposes direct obligations on labs. Includes the AISI Network even though its members are national institutions.">
+    <div class="band-lbl" data-tooltip="Multilateral norms, treaties, and summit declarations. Sets shared expectations across jurisdictions but rarely imposes direct obligations on labs. Includes the AISI Network even though its members are national institutions." aria-label="Multilateral norms, treaties, and summit declarations. Sets shared expectations across jurisdictions but rarely imposes direct obligations on labs. Includes the AISI Network even though its members are national institutions.">
       <div class="ord">Layer 1</div><h2>International</h2><p>Multilateral norms and summits</p>
     </div>
     <div class="chips" data-band="1"></div>
   </section>
   <section class="band">
-    <div class="band-lbl" title="The laws themselves — statutes, executive orders, framework acts. The institutions that implement and enforce them sit in Layer 4.">
+    <div class="band-lbl" data-tooltip="The laws themselves — statutes, executive orders, framework acts. The institutions that implement and enforce them sit in Layer 4." aria-label="The laws themselves — statutes, executive orders, framework acts. The institutions that implement and enforce them sit in Layer 4.">
       <div class="ord">Layer 2</div><h2>National regulation</h2><p>Statutes, executive orders, agencies</p>
     </div>
     <div class="chips" data-band="2"></div>
   </section>
   <section class="band">
-    <div class="band-lbl" title="US state laws acting where federal regulation is absent or rolled back. Several have penalty regimes; the federal government is actively challenging them via the DOJ AI Litigation Task Force.">
+    <div class="band-lbl" data-tooltip="US state laws acting where federal regulation is absent or rolled back. Several have penalty regimes; the federal government is actively challenging them via the DOJ AI Litigation Task Force." aria-label="US state laws acting where federal regulation is absent or rolled back. Several have penalty regimes; the federal government is actively challenging them via the DOJ AI Litigation Task Force.">
       <div class="ord">Layer 3</div><h2>Sub-national</h2><p>US states acting where federal regulation is absent</p>
     </div>
     <div class="chips" data-band="3"></div>
   </section>
   <section class="band">
-    <div class="band-lbl" title="Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying general or sectoral law to AI (Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries), and compute controls (BIS). This is the catch-all for who enforces or shapes AI behavior — distinct from Layer 2/3, which are the AI-specific laws themselves.">
+    <div class="band-lbl" data-tooltip="Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying general or sectoral law to AI (Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries), and compute controls (BIS). This is the catch-all for who enforces or shapes AI behavior — distinct from Layer 2/3, which are the AI-specific laws themselves." aria-label="Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying general or sectoral law to AI (Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries), and compute controls (BIS). This is the catch-all for who enforces or shapes AI behavior — distinct from Layer 2/3, which are the AI-specific laws themselves.">
       <div class="ord">Layer 4</div><h2>Infrastructure</h2><p>Regulators, AISIs, evaluators, compute controls</p>
     </div>
     <div class="chips" data-band="4"></div>
   </section>
   <section class="band">
-    <div class="band-lbl" title="Cross-firm and multistakeholder commitments and codes of practice. Norm-setting; no direct penalties unless adopted into Layer 2 statute or Layer 6 lab policy.">
+    <div class="band-lbl" data-tooltip="Cross-firm and multistakeholder commitments and codes of practice. Norm-setting; no direct penalties unless adopted into Layer 2 statute or Layer 6 lab policy." aria-label="Cross-firm and multistakeholder commitments and codes of practice. Norm-setting; no direct penalties unless adopted into Layer 2 statute or Layer 6 lab policy.">
       <div class="ord">Layer 5</div><h2>Industry voluntary</h2><p>Cross-firm commitments and codes</p>
     </div>
     <div class="chips" data-band="5"></div>
   </section>
   <section class="band">
-    <div class="band-lbl" title="Each frontier lab's published safety framework — capability thresholds, evaluations, mitigations. Voluntary; enforceable only against the firm itself, by its board or by reputational pressure.">
+    <div class="band-lbl" data-tooltip="Each frontier lab's published safety framework — capability thresholds, evaluations, mitigations. Voluntary; enforceable only against the firm itself, by its board or by reputational pressure." aria-label="Each frontier lab's published safety framework — capability thresholds, evaluations, mitigations. Voluntary; enforceable only against the firm itself, by its board or by reputational pressure.">
       <div class="ord">Layer 6</div><h2>Corporate self-governance</h2><p>Frontier safety frameworks at each lab</p>
     </div>
     <div class="chips" data-band="6"></div>
