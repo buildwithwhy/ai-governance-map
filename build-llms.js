@@ -34,7 +34,7 @@ const LAYERS = {
 const SITE_URL = 'https://ai-governance-map.buildwithwhy.com';
 const AUTHOR_SITE = 'https://buildwithwhy.com';
 const AUTHOR_EMAIL = 'buildwithwhy@gmail.com';
-const UPDATED = '9 May 2026';
+const UPDATED = '6 June 2026';
 
 // ---- llms-full.txt ---------------------------------------------------------
 let full = '';
@@ -52,7 +52,7 @@ full += `The map organises by *who acts*, not *what they regulate*: the EU AI Ac
 full += `## Stats\n\n`;
 const counts = { voluntary: 0, binding: 0 };
 for (const e of ENTITIES) {
-  if (e.pow <= 2) counts.voluntary++;
+  if (e.pow === 1) counts.voluntary++;
   if (e.pow === 4) counts.binding++;
 }
 full += `- ${ENTITIES.length} mechanisms mapped\n`;
@@ -148,8 +148,8 @@ const data = {
   $schema: 'https://ai-governance-map.buildwithwhy.com/data.schema.json',
   name: 'Frontier AI Governance Map',
   description: 'Interactive map of frontier AI governance: 39 mechanisms across six layers, with METR\'s nine common elements as an orthogonal filter.',
-  version: '2026.05.09',
-  updated: '2026-05-09',
+  version: '2026.06.06',
+  updated: '2026-06-06',
   url: SITE_URL,
   repository: 'https://github.com/buildwithwhy/ai-governance-map',
   license: 'CC-BY-4.0',
@@ -162,7 +162,7 @@ const data = {
   stats: {
     mechanisms: ENTITIES.length,
     edges: EDGES.length,
-    voluntary_or_norm_only: ENTITIES.filter(e => e.pow <= 2).length,
+    voluntary_or_norm_only: ENTITIES.filter(e => e.pow === 1).length,
     binding_with_penalties: ENTITIES.filter(e => e.pow === 4).length,
     categories: CATEGORIES.length,
     layers: 6,

@@ -4,7 +4,7 @@ By Yuyu Shen
 Personal site: https://buildwithwhy.com
 Contact: buildwithwhy@gmail.com
 Web version: https://ai-governance-map.buildwithwhy.com
-Updated: 9 May 2026
+Updated: 6 June 2026
 
 ## Overview
 
@@ -14,9 +14,9 @@ The map organises by *who acts*, not *what they regulate*: the EU AI Act sits in
 
 ## Stats
 
-- 39 mechanisms mapped
-- 26 voluntary or norm-only
-- 8 binding with penalties
+- 40 mechanisms mapped
+- 17 voluntary or norm-only
+- 7 binding with penalties
 - 9 coverage categories
 
 ## Layers
@@ -238,6 +238,7 @@ Frames AI policy as removing regulatory barriers to American leadership; ordered
 **Connections:**
 
 - → US AI Action Plan: EO 14179 ordered the Jul 2025 AI Action Plan
+- → US Frontier AI Access EO: Marks shift from prior deregulation-only EO posture
 - → US preemption EO: Trump EO sequence — preemption builds on EO 14179
 - → US CAISI: EO led to AISI rename to CAISI in Jun 2025
 
@@ -287,6 +288,31 @@ Directs DOJ to challenge state AI laws as Commerce Clause violations or as preem
 - → California SB 53: Preemption EO targets SB 53; DOJ task force can challenge
 - → Colorado AI Act: DOJ intervened in xAI v. Colorado Apr 24, 2026
 - → NY RAISE Act: Preemption EO targets RAISE Act
+
+---
+
+#### US Frontier AI Access EO
+
+- Jurisdiction: US Federal
+- Enforceability: Hard law, weak enforcement
+- Status: In force
+- Primary source: https://www.npr.org/2026/06/02/nx-s1-5844347/ai-safety-trump-executive-order
+
+EO signed June 2, 2026. Directs federal agencies to establish a framework for voluntary pre-release access (up to 30 days) by frontier-model developers for national-security review.
+
+Marks a notable shift in the Trump administration's posture — from deregulation (EO 14179) and state preemption (EO 14365) toward asking for federal access to pre-release frontier models. The 30-day voluntary window mirrors the access agreements UK AISI uses; CAISI is positioned to administer reviews. Whether the framework results in a meaningful national-security review process or remains nominal will depend on developer participation.
+
+**Coverage:**
+
+- *Model evaluations*: Pre-release access (up to 30 days) could enable systematic federal evaluation of frontier models if developers participate.
+- *Timing & frequency*: 30-day pre-release window; voluntary participation.
+- *Accountability*: Federal review mechanism for national-security risks. Departs from prior administration's deregulatory-only posture.
+
+**Connections:**
+
+- → US EO 14179: Marks shift from prior deregulation-only EO posture
+- → US CAISI: EO designates CAISI to administer national-security reviews
+- → UK AISI: 30-day access model mirrors UK AISI voluntary access agreements
 
 ---
 
@@ -438,20 +464,19 @@ Requires 'large frontier developers' to publish a frontier safety framework, rep
 #### Colorado AI Act
 
 - Jurisdiction: US State
-- Enforceability: Binding with penalties
+- Enforceability: Hard law, weak enforcement
 - Status: Phasing in
-- Primary source: https://leg.colorado.gov/bills/sb24-205
+- Primary source: https://leg.colorado.gov/bills/sb26-189
 
-First broad US state AI law. Pushed to Jun 30, 2026; federal court paused enforcement Apr 27, 2026.
+SB 24-205 (the original Colorado AI Act) was repealed and replaced by SB 26-189, signed May 14, 2026. The new law is a narrower transparency/consumer-disclosure framework, effective Jan 1, 2027.
 
-Targets algorithmic discrimination in 'high-risk AI systems' used for consequential decisions (employment, housing, lending) — broader than SB 53's frontier-only focus. Requires impact assessments, notice to affected individuals, and AG enforcement. Currently the principal target of federal preemption efforts: xAI sued, DOJ intervened, and the court has paused enforcement pending the constitutional challenge.
+The original Colorado AI Act would have imposed duty-of-care and algorithmic-impact-assessment duties on developers and deployers of 'high-risk AI systems' for consequential decisions. After federal preemption pressure (xAI litigation, DOJ intervention, April 27 court stay), Colorado repealed the law and replaced it with SB 26-189 — a narrower regime requiring consumer disclosure when AI is used in consequential decisions, without the impact-assessment, duty-of-care, or risk-management obligations of the original. Marks a retreat from the comprehensive state-AI-regulation template.
 
 **Coverage:**
 
-- *Timing & frequency*: Annual reviews of high-risk AI systems for algorithmic discrimination, plus impact assessments before deployment in new contexts. Lifecycle approach rather than incident-driven.
-- *Deployment mitigations*: Algorithmic discrimination duties: developers and deployers of high-risk AI systems must take reasonable care to prevent algorithmic discrimination in consequential decisions (employment, housing, lending, etc.). Broader than SB 53's frontier-only focus.
-- *Accountability*: AG enforcement; impact assessments must be made available to the AG; affected individuals must be notified when consequential decisions involve AI. Federal preemption challenge currently has enforcement paused.
-- *Updating policies*: Compliance programs must be updated as AI systems and use cases evolve. The lifecycle obligation is one of the strongest accountability levers in any US state AI law.
+- *Timing & frequency*: Effective Jan 1, 2027 (the original SB 24-205 was repealed before reaching its enforcement date). No lifecycle-review obligation.
+- *Deployment mitigations*: Narrower than the original SB 24-205: SB 26-189 requires consumer disclosure when AI is used in consequential decisions but drops the duty of care and impact-assessment regime that drew the federal preemption challenge.
+- *Accountability*: AG enforcement of disclosure obligations only; the duty-of-care and impact-assessment regime that defined the original Colorado AI Act is gone.
 
 **Connections:**
 
@@ -543,7 +568,7 @@ First time a globally diverse set of frontier firms (US, UK, China, UAE, Korea) 
 
 G7 Code of Conduct (2023). 11-point framework. Implementation reporting added 2024.
 
-G7 code covering risk identification, information security, transparency, content authentication, and incident response. Voluntary, but uniquely structured: signatories submit annual implementation reports monitored by the OECD. Sits beside the Seoul commitments as one of the two main multilateral voluntary frameworks; lags Seoul on capability thresholds but is firmer on operational practice.
+G7 code covering risk identification, information security, transparency, content authentication, and incident response. Voluntary, but uniquely structured: signatories submit annual implementation reports monitored by the OECD. Sits beside the Seoul commitments as one of the two main multilateral voluntary frameworks; lags Seoul on capability thresholds but is firmer on operational practice. May 2026 OECD launched the streamlined HAIP Reporting Framework v2.0 at the G7 Digital Ministerial — broadens participation to SMEs, with 50+ companies pledged.
 
 **Coverage:**
 
@@ -668,7 +693,7 @@ Member-driven org with academics, NGOs, media, and tech firms; produces guidance
 - Status: In force
 - Primary source: https://www.anthropic.com/responsible-scaling-policy
 
-Responsible Scaling Policy. AI Safety Levels. Capability thresholds trigger required safeguards. Updated ~4× since 2023.
+Responsible Scaling Policy (v3.0, Feb 2026). AI Safety Levels. Capability thresholds trigger required safeguards. Updated ~4× since 2023.
 
 Defines AI Safety Levels (ASLs) — currently up to ASL-3 — each tied to specific capability evaluations and mandatory safeguards: weight-security tiers, deployment mitigations, model-autonomy controls. The original published framework that set the template for the field; commitments include not deploying at a given ASL until the corresponding mitigations are in place. Subjected to detailed external scrutiny in EU GPAI Code drafting and California SB 53.
 
@@ -705,7 +730,7 @@ Defines AI Safety Levels (ASLs) — currently up to ASL-3 — each tied to speci
 
 Preparedness Framework. Tracked categories (cyber, CBRN, autonomy, persuasion). 2025 revisions tightened bio thresholds.
 
-Tracks four risk categories (cyber, CBRN, autonomy, persuasion) at low/medium/high/critical levels; deployment requires reaching specific thresholds and implementing graduated mitigations. Decisions reviewed by an internal Safety Advisory Group that escalates to the board. The 2025 revisions reframed the persuasion category and lowered the bio-risk threshold after CBRN evaluation findings.
+Tracks four risk categories (cyber, CBRN, autonomy, persuasion) at low/medium/high/critical levels; deployment requires reaching specific thresholds and implementing graduated mitigations. Decisions reviewed by an internal Safety Advisory Group that escalates to the board. The 2025 revisions reframed the persuasion category and lowered the bio-risk threshold after CBRN evaluation findings. May 2026 added a separate Frontier Governance Framework mapping OpenAI's safety practices to California SB 53 and the EU GPAI Code — a companion governance layer alongside the Preparedness Framework.
 
 **Coverage:**
 
@@ -737,7 +762,7 @@ Tracks four risk categories (cyber, CBRN, autonomy, persuasion) at low/medium/hi
 - Status: In force
 - Primary source: https://deepmind.google/blog/strengthening-our-frontier-safety-framework/
 
-Critical Capability Levels and mitigations. v2 added explicit deceptive-alignment evaluations.
+Critical Capability Levels and mitigations. v3 (April 2026) is the current version; v2 (2024) added explicit deceptive-alignment evaluations.
 
 Defines Critical Capability Levels (CCLs) across cyber-offence, biorisk, ML R&D, and deceptive-alignment domains; each CCL maps to concrete security and deployment mitigations. v2 (2024) added explicit deceptive-alignment evaluations after Apollo Research findings; subsequent updates extended the autonomous-task evaluation strand. Less prescriptive than Anthropic's RSP on halting commitments — relies more on internal review than published red-lines.
 
@@ -751,7 +776,7 @@ Defines Critical Capability Levels (CCLs) across cyber-offence, biorisk, ML R&D,
 - *Deployment mitigations*: Deployment mitigations per CCL include monitoring, refusals, and agentic controls. The mitigation set scales with the model's capability assessment.
 - *Conditions for halting*: Halts at critical levels are committed pending mitigation review — but the halting trigger is less prescriptive than Anthropic's RSP, relying more on internal review than published red-lines.
 - *Accountability*: Internal review processes; less external accountability surface than Anthropic's RSP. The framework is published but evaluation results are released selectively.
-- *Updating policies*: v2 added new evaluation types (deceptive alignment); subsequent updates extended the autonomous-task evaluation strand. Update cadence not as formalised as RSP.
+- *Updating policies*: v2 (2024) added deceptive-alignment evaluations after Apollo Research findings; v3 (April 2026) extended the autonomous-task evaluation strand. Update cadence less formalised than Anthropic's RSP.
 
 **Connections:**
 
@@ -770,9 +795,9 @@ Defines Critical Capability Levels (CCLs) across cyber-offence, biorisk, ML R&D,
 - Jurisdiction: Corporate / global
 - Enforceability: Voluntary
 - Status: In force
-- Primary source: https://ai.meta.com/static-resource/meta-frontier-ai-framework/
+- Primary source: https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2/
 
-Released Feb 2025 after pressure. High/critical-risk tiers. Did not sign EU GPAI Code.
+Released Feb 2025 as Frontier AI Framework; renamed Advanced AI Scaling Framework with the April 2026 v2 update. High/critical-risk tiers. Did not sign EU GPAI Code.
 
 Two-tier risk classification: high-risk released with mitigations, critical-risk not released at all until mitigations reduce the risk to high. Explicit commitment not to ship critical-risk models — the headline differentiator with xAI's framework. The only major US lab to refuse the EU GPAI Code, putting Meta's compliance route under the AI Act in question.
 
@@ -865,7 +890,7 @@ Coordinates AI Act implementation across member states, enforces GPAI obligation
 
 Renamed UK AI Security Institute (Feb 2025). 30+ frontier models tested.
 
-Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. Without the UK AI Bill, its access remains voluntary — labs could withdraw.
+Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. Without the UK AI Bill, its access remains voluntary — labs could withdraw. The inaugural Frontier AI Trends Report (May 2026) draws on two years of evaluating 30+ frontier models.
 
 **Coverage:**
 
@@ -876,6 +901,7 @@ Conducts pre-deployment evaluations of frontier models under voluntary access ag
 **Connections:**
 
 - → AISI Network: UK AISI is a founding network member
+- → US Frontier AI Access EO: 30-day access model mirrors UK AISI voluntary access agreements
 - → UK AI Bill: AI Bill would put AISI on a statutory footing
 - → Anthropic RSP: UK AISI tested Anthropic models pre-deployment
 - → OpenAI Preparedness: UK AISI tested OpenAI models pre-deployment
@@ -890,18 +916,19 @@ Conducts pre-deployment evaluations of frontier models under voluntary access ag
 - Status: In force
 - Primary source: https://www.nist.gov/caisi
 
-Renamed from US AISI in Jun 2025. Within NIST. Mission rewritten to drop "safety" framing.
+Renamed from US AISI in Jun 2025. Within NIST. Mission rewritten to drop "safety" framing, but active pre-deployment testing capacity returned in 2026.
 
-Reframed as the Center for AI Standards and Innovation; work has shifted toward technical standards-setting (model evaluation methodology, benchmarking) and away from direct frontier-model testing. Major reduction from the AISI mandate of pre-deployment access agreements with major labs. In practice US frontier evaluation has migrated toward third-party evaluators (METR, Apollo, AVERI) for the testing capacity CAISI no longer prioritises.
+Reframed as the Center for AI Standards and Innovation; standards-setting (model evaluation methodology, benchmarking) initially supplanted direct frontier-model testing. But May 2026 brought a partial reversal: CAISI published a DeepSeek V4 Pro evaluation and announced new pre-deployment testing agreements with Google DeepMind, Microsoft, and xAI. Now operates as a hybrid — selective frontier testing alongside standards work, complementing third-party evaluators (METR, Apollo, AVERI).
 
 **Coverage:**
 
-- *Model evaluations*: Standards work via NIST (model evaluation methodology, benchmarking) — direct frontier-model testing has been reduced under the post-rename mission. The shift has moved testing capacity to third-party evaluators (METR, Apollo, AVERI).
+- *Model evaluations*: Standards work via NIST (model evaluation methodology, benchmarking) plus selective frontier testing — published a DeepSeek V4 Pro evaluation in May 2026 and holds new pre-deployment testing agreements with Google DeepMind, Microsoft, and xAI.
 - *Accountability*: Standards-setting via NIST functions as soft accountability — published methodologies are widely adopted but carry no enforcement. Direct evaluation accountability has migrated outside the agency.
 
 **Connections:**
 
 - → AISI Network: CAISI represents the US in the network
+- → US Frontier AI Access EO: EO designates CAISI to administer national-security reviews
 - → US EO 14179: EO led to AISI rename to CAISI in Jun 2025
 - → NIST AI RMF: CAISI sits within NIST alongside the AI RMF
 
@@ -939,7 +966,7 @@ Capacity varies substantially: Singapore's DTC + AI Verify package is the most o
 
 Independent evaluator. Authors the "Common Elements" analysis itself.
 
-Specialises in autonomous-task evaluation — measuring how long, how reliably, and how independently a model can complete real software-engineering, research, or operational tasks. Maintains the cross-lab catalogue of capability thresholds that the orthogonal view of this map uses. The 'common elements' analysis is the conceptual taxonomy that surfaced the gaps between lab frameworks.
+Specialises in autonomous-task evaluation — measuring how long, how reliably, and how independently a model can complete real software-engineering, research, or operational tasks. Maintains the cross-lab catalogue of capability thresholds that the orthogonal view of this map uses. The 'common elements' analysis is the conceptual taxonomy that surfaced the gaps between lab frameworks. May 2026 Frontier Risk Report introduced entity-based assessments — evaluating internal-use risks across Anthropic, Google, Meta, and OpenAI as a new modality alongside model-evaluation work.
 
 **Coverage:**
 
@@ -1014,7 +1041,7 @@ AI Verification and Evaluation Research Institute (Jan 2026, Brundage). Targets 
 
 Bureau of Industry and Security chip export rules (2022, 2023, 2024). Most consequential single piece — shapes who can train at the frontier.
 
-Successive rules tightened export-licence requirements for advanced compute (GPUs, fabrication tools, lithography) to China and other concerns; the 2024 update added compute-tier thresholds tied to model-training scale. Operates outside the safety-regulation framing — its lever is who can build frontier models at all, not what they must do once built. The single most consequential piece of US AI policy by impact, even though it isn't framed as 'AI regulation.'
+Successive rules tightened export-licence requirements for advanced compute (GPUs, fabrication tools, lithography) to China and other concerns; the 2024 update added compute-tier thresholds tied to model-training scale. May 31, 2026 guidance closed a key loophole by confirming the ultimate-parent-company test applies — any subsidiary worldwide whose ultimate parent is in the restricted countries list needs a US license. Operates outside the safety-regulation framing — its lever is who can build frontier models at all, not what they must do once built. The single most consequential piece of US AI policy by impact, even though it isn't framed as 'AI regulation.'
 
 **Coverage:**
 
