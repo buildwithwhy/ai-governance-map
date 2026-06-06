@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Frontier AI Governance Map — AI Regulatory Tracker</title>
-<meta name="description" content="Interactive map of 47 frontier AI governance mechanisms across six layers — international, national, sub-national, voluntary, lab, infrastructure — using METR's nine common elements.">
+<meta name="description" content="Interactive map of 49 frontier AI governance mechanisms across six layers — international, national, sub-national, voluntary, lab, infrastructure — using METR's nine common elements.">
 
 <link rel="canonical" href="https://ai-governance-map.buildwithwhy.com/">
 
 <meta property="og:title" content="Frontier AI Governance Map — AI Regulatory Tracker">
-<meta property="og:description" content="Interactive map of 47 frontier AI governance mechanisms across six layers and METR's nine common elements.">
+<meta property="og:description" content="Interactive map of 49 frontier AI governance mechanisms across six layers and METR's nine common elements.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ai-governance-map.buildwithwhy.com/">
 <meta property="og:image" content="https://ai-governance-map.buildwithwhy.com/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Frontier AI Governance Map — AI Regulatory Tracker">
-<meta name="twitter:description" content="Interactive map of 47 frontier AI governance mechanisms across six layers and METR's nine common elements.">
+<meta name="twitter:description" content="Interactive map of 49 frontier AI governance mechanisms across six layers and METR's nine common elements.">
 <meta name="twitter:image" content="https://ai-governance-map.buildwithwhy.com/og.png">
 
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -30,7 +30,7 @@
   "@type": "Dataset",
   "name": "Frontier AI Governance Map",
   "alternateName": "AI Regulatory Tracker",
-  "description": "Interactive map of 47 frontier AI governance mechanisms across six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter.",
+  "description": "Interactive map of 49 frontier AI governance mechanisms across six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter.",
   "url": "https://ai-governance-map.buildwithwhy.com/",
   "sameAs": "https://github.com/buildwithwhy/ai-governance-map",
   "dateModified": "2026-06-06",
@@ -348,7 +348,7 @@
   </noscript>
 
   <div class="stats" role="list">
-    <div class="stat" role="listitem"><div class="num">47</div><div class="lbl">mechanisms mapped</div></div>
+    <div class="stat" role="listitem"><div class="num">49</div><div class="lbl">mechanisms mapped</div></div>
     <div class="stat" role="listitem"><div class="num">19</div><div class="lbl">voluntary or norm-only</div></div>
     <div class="stat" role="listitem"><div class="num">11</div><div class="lbl">binding with penalties</div></div>
     <div class="stat" role="listitem"><div class="num">9</div><div class="lbl">coverage categories</div></div>
@@ -863,6 +863,23 @@ const ENTITIES = [
       acct: "Carrier attestations to the Division of Insurance; sectoral oversight under existing insurance regulatory authority.",
       update: "Periodic guidance updates; framework adopted as template by other state insurance regulators via NAIC Model Bulletin."
     } },
+  { id: 'imda', link: 'https://www.imda.gov.sg/how-we-can-help/ai-governance', name: 'Singapore IMDA', layer: 6, jur: 'as', pow: 3, status: 'active',
+    desc: "Info-communications Media Development Authority — Singapore's main AI governance body. Manages AI Verify and the Model AI Governance Framework.",
+    context: "Originally a telecoms and media regulator; now Singapore's primary AI governance body. Published the Model AI Governance Framework (2019, updated for GenAI in 2024) and operates AI Verify, a standardised testing toolkit adopted by major labs and adapted as a regional template. Convenes the AI Verify Foundation as a multistakeholder body. The Veritas Initiative (with MAS) provides sectoral guidance for financial-services AI. Singapore's approach emphasises voluntary frameworks plus strong testing infrastructure — a template increasingly referenced across ASEAN.",
+    cov: {
+      eval: "AI Verify provides a standardised public testing toolkit adopted by major labs; results feed into both regulator and developer assessments.",
+      mit: "Model AI Governance Framework sets voluntary deployment expectations on transparency, fairness, accountability, and human oversight — applied across sectors via sectoral adaptations.",
+      acct: "AI Verify Foundation provides multistakeholder accountability; Veritas Initiative gives sectoral oversight for finance.",
+      update: "Model framework revised for GenAI in 2024; AI Verify continually updated as evaluation methodology matures."
+    } },
+  { id: 'jp-sectors', link: 'https://www.meti.go.jp/english/policy/mono_info_service/connected_industries/ai_governance.html', name: 'Japan sectoral AI regulators', layer: 6, jur: 'as', pow: 2, status: 'active',
+    desc: "Sectoral AI guidance from Japan's ministry regulators (METI, FSA, MHLW, MIC) under the AI Promotion Act framework. Soft guidance rather than binding rules.",
+    context: "Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) issues the AI Guidelines for Business and developer-facing principles; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7.",
+    cov: {
+      mit: "Sectoral guidance varies by ministry but generally focuses on transparency, explainability, human oversight, and risk management in domain-specific contexts.",
+      acct: "Sectoral oversight via existing ministry powers; no central AI regulator. Coordination through the AI Strategic Headquarters.",
+      update: "METI's AI Guidelines for Business updated periodically; FSA risk management framework revised as the GenAI landscape evolves."
+    } },
   { id: 'bis', link: 'https://www.bis.gov/', name: 'US BIS export controls', layer: 6, jur: 'us', pow: 4, status: 'active',
     desc: 'Bureau of Industry and Security chip export rules (2022, 2023, 2024). Most consequential single piece — shapes who can train at the frontier.',
     context: "Successive rules tightened export-licence requirements for advanced compute (GPUs, fabrication tools, lithography) to China and other concerns; the 2024 update added compute-tier thresholds tied to model-training scale. May 31, 2026 guidance closed a key loophole by confirming the ultimate-parent-company test applies — any subsidiary worldwide whose ultimate parent is in the restricted countries list needs a US license. Operates outside the safety-regulation framing — its lever is who can build frontier models at all, not what they must do once built. The single most consequential piece of US AI policy by impact, even though it isn't framed as 'AI regulation.'",
@@ -955,7 +972,13 @@ const EDGES = [
   { a: 'us-ftc', b: 'us-preempt', rel: "FTC's AI enforcement operates in tension with DOJ Task Force's preemption challenges" },
   { a: 'au-esafety', b: 'other-aisis', rel: 'Australia also participates in the AISI Network' },
   { a: 'co-doi', b: 'co-aia', rel: 'Same state, different focus — DOI sectoral framework predates the AI Act' },
-  { a: 'co-doi', b: 'ny-raise', rel: "Colorado DOI precedent informed NY RAISE's DFS office model" }
+  { a: 'co-doi', b: 'ny-raise', rel: "Colorado DOI precedent informed NY RAISE's DFS office model" },
+  { a: 'imda', b: 'other-aisis', rel: "IMDA hosts Singapore's DTC + AI Verify AISI-equivalent work" },
+  { a: 'imda', b: 'hiroshima', rel: 'Singapore endorses Hiroshima Process voluntary norms' },
+  { a: 'imda', b: 'jp-sectors', rel: 'Parallel light-touch sector-driven Asia-Pacific AI governance approach' },
+  { a: 'jp-sectors', b: 'jp-ai', rel: 'Sectoral implementation under the AI Promotion Act framework' },
+  { a: 'jp-sectors', b: 'hiroshima', rel: "Japan's sectoral approach embeds Hiroshima Process principles" },
+  { a: 'jp-sectors', b: 'other-aisis', rel: "J-AISI is Japan's central institute alongside sectoral ministries" }
 ];
 
 const JUR_LABEL = { us:'US Federal', uss:'US State', eu:'European Union', uk:'United Kingdom', cn:'China', as:'Asia (other)', mu:'Multilateral', co:'Corporate / global' };

@@ -14,7 +14,7 @@ The map organises by *who acts*, not *what they regulate*: the EU AI Act sits in
 
 ## Stats
 
-- 47 mechanisms mapped
+- 49 mechanisms mapped
 - 19 voluntary or norm-only
 - 11 binding with penalties
 - 9 coverage categories
@@ -433,6 +433,7 @@ Establishes the AI Strategic Headquarters under the Cabinet Office to coordinate
 **Connections:**
 
 - → Hiroshima Process: Japan champions Hiroshima Process; Promotion Act reflects same approach
+- → Japan sectoral AI regulators: Sectoral implementation under the AI Promotion Act framework
 
 ---
 
@@ -591,6 +592,8 @@ G7 code covering risk identification, information security, transparency, conten
 
 - → OECD AI Principles: OECD principles inform the G7 Hiroshima Code
 - → Japan AI Promotion Act: Japan champions Hiroshima Process; Promotion Act reflects same approach
+- → Singapore IMDA: Singapore endorses Hiroshima Process voluntary norms
+- → Japan sectoral AI regulators: Japan's sectoral approach embeds Hiroshima Process principles
 
 ---
 
@@ -967,6 +970,8 @@ Capacity varies substantially: Singapore's DTC + AI Verify package is the most o
 
 - → AISI Network: Singapore, Japan, France, Korea, Canada, Australia, Kenya, India participate
 - → Australia eSafety Commissioner: Australia also participates in the AISI Network
+- → Singapore IMDA: IMDA hosts Singapore's DTC + AI Verify AISI-equivalent work
+- → Japan sectoral AI regulators: J-AISI is Japan's central institute alongside sectoral ministries
 
 ---
 
@@ -1215,6 +1220,58 @@ Predates every comprehensive US state AI law. Requires insurance carriers to imp
 
 - → Colorado AI Act: Same state, different focus — DOI sectoral framework predates the AI Act
 - → NY RAISE Act: Colorado DOI precedent informed NY RAISE's DFS office model
+
+---
+
+#### Singapore IMDA
+
+- Jurisdiction: Asia (other)
+- Enforceability: Hard law, weak enforcement
+- Status: In force
+- Primary source: https://www.imda.gov.sg/how-we-can-help/ai-governance
+
+Info-communications Media Development Authority — Singapore's main AI governance body. Manages AI Verify and the Model AI Governance Framework.
+
+Originally a telecoms and media regulator; now Singapore's primary AI governance body. Published the Model AI Governance Framework (2019, updated for GenAI in 2024) and operates AI Verify, a standardised testing toolkit adopted by major labs and adapted as a regional template. Convenes the AI Verify Foundation as a multistakeholder body. The Veritas Initiative (with MAS) provides sectoral guidance for financial-services AI. Singapore's approach emphasises voluntary frameworks plus strong testing infrastructure — a template increasingly referenced across ASEAN.
+
+**Coverage:**
+
+- *Model evaluations*: AI Verify provides a standardised public testing toolkit adopted by major labs; results feed into both regulator and developer assessments.
+- *Deployment mitigations*: Model AI Governance Framework sets voluntary deployment expectations on transparency, fairness, accountability, and human oversight — applied across sectors via sectoral adaptations.
+- *Accountability*: AI Verify Foundation provides multistakeholder accountability; Veritas Initiative gives sectoral oversight for finance.
+- *Updating policies*: Model framework revised for GenAI in 2024; AI Verify continually updated as evaluation methodology matures.
+
+**Connections:**
+
+- → Other national AISIs: IMDA hosts Singapore's DTC + AI Verify AISI-equivalent work
+- → Hiroshima Process: Singapore endorses Hiroshima Process voluntary norms
+- → Japan sectoral AI regulators: Parallel light-touch sector-driven Asia-Pacific AI governance approach
+
+---
+
+#### Japan sectoral AI regulators
+
+- Jurisdiction: Asia (other)
+- Enforceability: Soft / advisory
+- Status: In force
+- Primary source: https://www.meti.go.jp/english/policy/mono_info_service/connected_industries/ai_governance.html
+
+Sectoral AI guidance from Japan's ministry regulators (METI, FSA, MHLW, MIC) under the AI Promotion Act framework. Soft guidance rather than binding rules.
+
+Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) issues the AI Guidelines for Business and developer-facing principles; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7.
+
+**Coverage:**
+
+- *Deployment mitigations*: Sectoral guidance varies by ministry but generally focuses on transparency, explainability, human oversight, and risk management in domain-specific contexts.
+- *Accountability*: Sectoral oversight via existing ministry powers; no central AI regulator. Coordination through the AI Strategic Headquarters.
+- *Updating policies*: METI's AI Guidelines for Business updated periodically; FSA risk management framework revised as the GenAI landscape evolves.
+
+**Connections:**
+
+- → Singapore IMDA: Parallel light-touch sector-driven Asia-Pacific AI governance approach
+- → Japan AI Promotion Act: Sectoral implementation under the AI Promotion Act framework
+- → Hiroshima Process: Japan's sectoral approach embeds Hiroshima Process principles
+- → Other national AISIs: J-AISI is Japan's central institute alongside sectoral ministries
 
 ---
 

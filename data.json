@@ -14,8 +14,8 @@
     "email": "buildwithwhy@gmail.com"
   },
   "stats": {
-    "mechanisms": 47,
-    "edges": 75,
+    "mechanisms": 49,
+    "edges": 81,
     "voluntary_or_norm_only": 19,
     "binding_with_penalties": 11,
     "categories": 9,
@@ -1064,6 +1064,47 @@
       }
     },
     {
+      "id": "imda",
+      "name": "Singapore IMDA",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "as",
+      "jurisdiction_name": "Asia (other)",
+      "enforceability": 3,
+      "enforceability_name": "Hard law, weak enforcement",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.imda.gov.sg/how-we-can-help/ai-governance",
+      "description": "Info-communications Media Development Authority — Singapore's main AI governance body. Manages AI Verify and the Model AI Governance Framework.",
+      "context": "Originally a telecoms and media regulator; now Singapore's primary AI governance body. Published the Model AI Governance Framework (2019, updated for GenAI in 2024) and operates AI Verify, a standardised testing toolkit adopted by major labs and adapted as a regional template. Convenes the AI Verify Foundation as a multistakeholder body. The Veritas Initiative (with MAS) provides sectoral guidance for financial-services AI. Singapore's approach emphasises voluntary frameworks plus strong testing infrastructure — a template increasingly referenced across ASEAN.",
+      "coverage": {
+        "eval": "AI Verify provides a standardised public testing toolkit adopted by major labs; results feed into both regulator and developer assessments.",
+        "mit": "Model AI Governance Framework sets voluntary deployment expectations on transparency, fairness, accountability, and human oversight — applied across sectors via sectoral adaptations.",
+        "acct": "AI Verify Foundation provides multistakeholder accountability; Veritas Initiative gives sectoral oversight for finance.",
+        "update": "Model framework revised for GenAI in 2024; AI Verify continually updated as evaluation methodology matures."
+      }
+    },
+    {
+      "id": "jp-sectors",
+      "name": "Japan sectoral AI regulators",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "as",
+      "jurisdiction_name": "Asia (other)",
+      "enforceability": 2,
+      "enforceability_name": "Soft / advisory",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.meti.go.jp/english/policy/mono_info_service/connected_industries/ai_governance.html",
+      "description": "Sectoral AI guidance from Japan's ministry regulators (METI, FSA, MHLW, MIC) under the AI Promotion Act framework. Soft guidance rather than binding rules.",
+      "context": "Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) issues the AI Guidelines for Business and developer-facing principles; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7.",
+      "coverage": {
+        "mit": "Sectoral guidance varies by ministry but generally focuses on transparency, explainability, human oversight, and risk management in domain-specific contexts.",
+        "acct": "Sectoral oversight via existing ministry powers; no central AI regulator. Coordination through the AI Strategic Headquarters.",
+        "update": "METI's AI Guidelines for Business updated periodically; FSA risk management framework revised as the GenAI landscape evolves."
+      }
+    },
+    {
       "id": "bis",
       "name": "US BIS export controls",
       "layer": 6,
@@ -1478,6 +1519,36 @@
       "from": "co-doi",
       "to": "ny-raise",
       "relationship": "Colorado DOI precedent informed NY RAISE's DFS office model"
+    },
+    {
+      "from": "imda",
+      "to": "other-aisis",
+      "relationship": "IMDA hosts Singapore's DTC + AI Verify AISI-equivalent work"
+    },
+    {
+      "from": "imda",
+      "to": "hiroshima",
+      "relationship": "Singapore endorses Hiroshima Process voluntary norms"
+    },
+    {
+      "from": "imda",
+      "to": "jp-sectors",
+      "relationship": "Parallel light-touch sector-driven Asia-Pacific AI governance approach"
+    },
+    {
+      "from": "jp-sectors",
+      "to": "jp-ai",
+      "relationship": "Sectoral implementation under the AI Promotion Act framework"
+    },
+    {
+      "from": "jp-sectors",
+      "to": "hiroshima",
+      "relationship": "Japan's sectoral approach embeds Hiroshima Process principles"
+    },
+    {
+      "from": "jp-sectors",
+      "to": "other-aisis",
+      "relationship": "J-AISI is Japan's central institute alongside sectoral ministries"
     }
   ]
 }
