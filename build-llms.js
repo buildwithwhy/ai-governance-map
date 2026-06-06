@@ -142,4 +142,56 @@ for (const cat of CATEGORIES) {
 
 fs.writeFileSync(path.join(ROOT, 'llms.txt'), llms);
 
-console.log(`wrote llms.txt (${llms.length} chars) and llms-full.txt (${full.length} chars)`);
+// ---- data.json -------------------------------------------------------------
+// Machine-readable export for AI agents and downstream tooling.
+const data = {
+  $schema: 'https://ai-governance-map.buildwithwhy.com/data.schema.json',
+  name: 'Frontier AI Governance Map',
+  description: 'Interactive map of frontier AI governance: 39 mechanisms across six layers, with METR\'s nine common elements as an orthogonal filter.',
+  version: '2026.05.09',
+  updated: '2026-05-09',
+  url: SITE_URL,
+  repository: 'https://github.com/buildwithwhy/ai-governance-map',
+  license: 'CC-BY-4.0',
+  citation: 'https://metr.org/common-elements',
+  creator: {
+    name: 'Yuyu Shen',
+    url: AUTHOR_SITE,
+    email: AUTHOR_EMAIL,
+  },
+  stats: {
+    mechanisms: ENTITIES.length,
+    edges: EDGES.length,
+    voluntary_or_norm_only: ENTITIES.filter(e => e.pow <= 2).length,
+    binding_with_penalties: ENTITIES.filter(e => e.pow === 4).length,
+    categories: CATEGORIES.length,
+    layers: 6,
+  },
+  layers: Object.entries(LAYERS).map(([n, l]) => ({ number: Number(n), name: l.name, description: l.desc })),
+  categories: CATEGORIES.map(c => ({ id: c.id, name: c.name, description: c.desc })),
+  labels: {
+    jurisdiction: JUR_LABEL,
+    enforceability: POW_LABEL,
+    status: STATUS_LABEL,
+  },
+  entities: ENTITIES.map(e => ({
+    id: e.id,
+    name: e.name,
+    layer: e.layer,
+    layer_name: LAYERS[e.layer].name,
+    jurisdiction: e.jur,
+    jurisdiction_name: JUR_LABEL[e.jur],
+    enforceability: e.pow,
+    enforceability_name: POW_LABEL[e.pow],
+    status: e.status,
+    status_name: STATUS_LABEL[e.status],
+    primary_source: e.link || null,
+    description: e.desc,
+    context: e.context || null,
+    coverage: e.cov || {},
+  })),
+  edges: EDGES.map(edge => ({ from: edge.a, to: edge.b, relationship: edge.rel })),
+};
+fs.writeFileSync(path.join(ROOT, 'data.json'), JSON.stringify(data, null, 2));
+
+console.log(`wrote llms.txt (${llms.length} chars), llms-full.txt (${full.length} chars), data.json (${JSON.stringify(data).length} chars)`);

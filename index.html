@@ -21,6 +21,7 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="alternate" type="text/markdown" href="/llms-full.txt" title="Full content as markdown">
+<link rel="alternate" type="application/json" href="/data.json" title="Machine-readable data">
 <link rel="author" href="https://buildwithwhy.com">
 
 <script type="application/ld+json">
@@ -28,12 +29,16 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "name": "Frontier AI Governance Map",
+  "alternateName": "AI Regulatory Tracker",
   "description": "Interactive map of 39 frontier AI governance mechanisms across six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter.",
   "url": "https://ai-governance-map.buildwithwhy.com/",
+  "sameAs": "https://github.com/buildwithwhy/ai-governance-map",
   "dateModified": "2026-05-09",
+  "version": "2026.05.09",
   "inLanguage": "en",
   "isAccessibleForFree": true,
-  "keywords": "AI governance, frontier AI, AI regulation, AI safety, EU AI Act, AISI, METR common elements, AI policy, AI compliance",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": "AI governance, frontier AI, AI regulation, AI safety, EU AI Act, AISI, METR common elements, AI policy, AI compliance, Anthropic RSP, OpenAI Preparedness Framework, California SB 53, NY RAISE Act, Korea AI Basic Act, China GenAI Measures",
   "creator": {
     "@type": "Person",
     "name": "Yuyu Shen",
@@ -45,16 +50,124 @@
     "name": "Build with Why",
     "url": "https://buildwithwhy.com"
   },
+  "citation": "https://metr.org/common-elements",
+  "temporalCoverage": "2019-01-01/2027-12-31",
+  "spatialCoverage": [
+    { "@type": "Place", "name": "European Union" },
+    { "@type": "Place", "name": "United States" },
+    { "@type": "Place", "name": "United Kingdom" },
+    { "@type": "Place", "name": "China" },
+    { "@type": "Place", "name": "Japan" },
+    { "@type": "Place", "name": "South Korea" },
+    { "@type": "Place", "name": "India" },
+    { "@type": "Place", "name": "Singapore" },
+    { "@type": "Place", "name": "France" },
+    { "@type": "Place", "name": "Canada" },
+    { "@type": "Place", "name": "Australia" },
+    { "@type": "Place", "name": "Kenya" }
+  ],
+  "variableMeasured": [
+    { "@type": "PropertyValue", "name": "Capability thresholds", "description": "Levels at which obligations or risks trigger" },
+    { "@type": "PropertyValue", "name": "Model evaluations", "description": "Tests assessing model capabilities and risks" },
+    { "@type": "PropertyValue", "name": "Capability elicitation", "description": "Surfacing the full capabilities of a model" },
+    { "@type": "PropertyValue", "name": "Timing & frequency", "description": "When evaluations and obligations apply" },
+    { "@type": "PropertyValue", "name": "Weight security", "description": "Protecting model weights from theft" },
+    { "@type": "PropertyValue", "name": "Deployment mitigations", "description": "Refusals, monitoring, content controls" },
+    { "@type": "PropertyValue", "name": "Conditions for halting", "description": "When to pause development or deployment" },
+    { "@type": "PropertyValue", "name": "Accountability", "description": "Oversight, transparency, reporting" },
+    { "@type": "PropertyValue", "name": "Updating policies", "description": "How policies get revised over time" }
+  ],
   "distribution": [
     {
       "@type": "DataDownload",
+      "name": "Full content as markdown",
       "encodingFormat": "text/markdown",
       "contentUrl": "https://ai-governance-map.buildwithwhy.com/llms-full.txt"
     },
     {
       "@type": "DataDownload",
+      "name": "Summary as markdown (llms.txt)",
       "encodingFormat": "text/markdown",
       "contentUrl": "https://ai-governance-map.buildwithwhy.com/llms.txt"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Machine-readable JSON",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://ai-governance-map.buildwithwhy.com/data.json"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is METR's common elements framework?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "METR's 'Common Elements of Frontier AI Safety Policies' (Dec 2025) is a taxonomy of nine elements that frontier AI safety frameworks address: capability thresholds, model evaluations, capability elicitation, timing and frequency, weight security, deployment mitigations, conditions for halting, accountability, and updating policies. This map applies the taxonomy as an orthogonal filter across the full regulatory stack — not only corporate frameworks but international, national, and sub-national instruments as well."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which AI laws are binding with penalties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eight binding instruments in this map carry penalty regimes: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation), the Colorado AI Act, the NY RAISE Act ($1M/$3M), Texas TRAIGA, and US BIS export controls. Most are phasing in; several face active federal preemption challenges in the United States."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the EU AI Act require for systemic-risk GPAI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face additional obligations under Article 55 of Regulation (EU) 2024/1689: model evaluations including adversarial testing, incident reporting to the EU AI Office, cybersecurity protections for model weights, and transparency documentation. Implementation detail is delegated to the EU GPAI Code of Practice and harmonised standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is California SB 53 different from the NY RAISE Act?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both target large frontier developers (>10²⁶ FLOPs, >$500M revenue) and require published safety frameworks. California SB 53 requires 15-day incident reporting and AG enforcement; the NY RAISE Act requires 72-hour incident reporting with oversight by a dedicated Department of Financial Services office plus AG enforcement, and uses tiered $1M/$3M penalties. NY's March 2026 chapter amendments aligned its eligibility thresholds with SB 53's revenue-based approach."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the EU AI Office do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI obligations — a centralised role unique within EU regulatory architecture. It can request models from providers, order recalls, impose fines up to €35M or 7% of global revenue, and runs the Scientific Panel of independent experts advising on systemic risk. Full enforcement powers activate in August 2026."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which AI labs have published frontier safety frameworks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Five major labs have published frontier safety frameworks at Layer 5 of this map: Anthropic (Responsible Scaling Policy, with AI Safety Levels), OpenAI (Preparedness Framework, with a category × level matrix across cyber, CBRN, autonomy, and persuasion), Google DeepMind (Frontier Safety Framework, with Critical Capability Levels), Meta (Frontier AI Framework, with high/critical-risk tiers), and xAI (Risk Management Framework, with quantitative benchmarks). All are voluntary and revisable by the lab itself."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is sandbagging in AI safety?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sandbagging is when an AI model intentionally underperforms during safety evaluations — strategically scoring lower than its true capability so as to avoid triggering safeguards or to behave differently when deployed. The February 2026 International AI Safety Report formally flagged sandbagging as an emerging capability-elicitation challenge, building on Apollo Research's scheming-detection methodology adopted across Google DeepMind's Frontier Safety Framework v2, OpenAI's o1 system card, and Anthropic's Claude evaluations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between Layer 2 and Layer 6 in the map?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executive orders, China's GenAI Measures, or Korea's AI Basic Act. Layer 6 covers the institutions that implement and enforce them — regulators, AI safety institutes, third-party evaluators, and compute controls — such as the EU AI Office (which enforces the EU AI Act), the UK AISI, US CAISI/NIST, METR, Apollo Research, and AVERI. The map deliberately separates 'what the law is' from 'who enforces it.'"
+      }
     }
   ]
 }
@@ -328,7 +441,7 @@
   <footer>
     <p>Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, California SB 53 / TFAIA, NY RAISE Act (signed Dec 19 2025; chapter amendments Mar 27 2026; effective Jan 1 2027), Trump Executive Orders 14179 and 14365, Korea AI Basic Act (in force Jan 22 2026), India AI Impact Summit New Delhi Declaration.</p>
     <p>The orthogonal coverage analysis applies METR's nine elements (originally a taxonomy of corporate safety frameworks) to the full set of mechanisms. Some mappings are stretches — flagged in the per-entity notes. Errors are mine.</p>
-    <p>Available as markdown: <a href="/llms.txt" style="color: inherit; border-bottom: 0.5px solid currentColor;">llms.txt</a> · <a href="/llms-full.txt" style="color: inherit; border-bottom: 0.5px solid currentColor;">llms-full.txt</a></p>
+    <p>Machine-readable: <a href="/llms.txt" style="color: inherit; border-bottom: 0.5px solid currentColor;">llms.txt</a> · <a href="/llms-full.txt" style="color: inherit; border-bottom: 0.5px solid currentColor;">llms-full.txt</a> · <a href="/data.json" style="color: inherit; border-bottom: 0.5px solid currentColor;">data.json</a> · <a href="https://github.com/buildwithwhy/ai-governance-map" target="_blank" rel="noopener noreferrer" style="color: inherit; border-bottom: 0.5px solid currentColor;">source on GitHub</a></p>
   </footer>
 
 </main>

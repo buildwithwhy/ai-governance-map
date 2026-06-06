@@ -1,0 +1,1232 @@
+{
+  "$schema": "https://ai-governance-map.buildwithwhy.com/data.schema.json",
+  "name": "Frontier AI Governance Map",
+  "description": "Interactive map of frontier AI governance: 39 mechanisms across six layers, with METR's nine common elements as an orthogonal filter.",
+  "version": "2026.05.09",
+  "updated": "2026-05-09",
+  "url": "https://ai-governance-map.buildwithwhy.com",
+  "repository": "https://github.com/buildwithwhy/ai-governance-map",
+  "license": "CC-BY-4.0",
+  "citation": "https://metr.org/common-elements",
+  "creator": {
+    "name": "Yuyu Shen",
+    "url": "https://buildwithwhy.com",
+    "email": "buildwithwhy@gmail.com"
+  },
+  "stats": {
+    "mechanisms": 39,
+    "edges": 57,
+    "voluntary_or_norm_only": 26,
+    "binding_with_penalties": 8,
+    "categories": 9,
+    "layers": 6
+  },
+  "layers": [
+    {
+      "number": 1,
+      "name": "International",
+      "description": "Multilateral norms and summits"
+    },
+    {
+      "number": 2,
+      "name": "National regulation",
+      "description": "Statutes, executive orders, agencies"
+    },
+    {
+      "number": 3,
+      "name": "Sub-national",
+      "description": "US states acting where federal regulation is absent"
+    },
+    {
+      "number": 4,
+      "name": "Industry voluntary",
+      "description": "Cross-firm commitments and codes"
+    },
+    {
+      "number": 5,
+      "name": "Corporate self-governance",
+      "description": "Frontier safety frameworks at each lab"
+    },
+    {
+      "number": 6,
+      "name": "Infrastructure",
+      "description": "Regulators, AISIs, evaluators, compute controls"
+    }
+  ],
+  "categories": [
+    {
+      "id": "thresh",
+      "name": "Capability thresholds",
+      "description": "Levels at which obligations or risks trigger"
+    },
+    {
+      "id": "eval",
+      "name": "Model evaluations",
+      "description": "Tests assessing model capabilities and risks"
+    },
+    {
+      "id": "elicit",
+      "name": "Capability elicitation",
+      "description": "Surfacing the full capabilities of a model"
+    },
+    {
+      "id": "timing",
+      "name": "Timing & frequency",
+      "description": "When evaluations and obligations apply"
+    },
+    {
+      "id": "sec",
+      "name": "Weight security",
+      "description": "Protecting model weights from theft"
+    },
+    {
+      "id": "mit",
+      "name": "Deployment mitigations",
+      "description": "Refusals, monitoring, content controls"
+    },
+    {
+      "id": "halt",
+      "name": "Conditions for halting",
+      "description": "When to pause development or deployment"
+    },
+    {
+      "id": "acct",
+      "name": "Accountability",
+      "description": "Oversight, transparency, reporting"
+    },
+    {
+      "id": "update",
+      "name": "Updating policies",
+      "description": "How policies get revised over time"
+    }
+  ],
+  "labels": {
+    "jurisdiction": {
+      "us": "US Federal",
+      "uss": "US State",
+      "eu": "European Union",
+      "uk": "United Kingdom",
+      "cn": "China",
+      "as": "Asia (other)",
+      "mu": "Multilateral",
+      "co": "Corporate / global"
+    },
+    "enforceability": {
+      "1": "Voluntary",
+      "2": "Soft / advisory",
+      "3": "Hard law, weak enforcement",
+      "4": "Binding with penalties"
+    },
+    "status": {
+      "active": "In force",
+      "phasing": "Phasing in",
+      "proposed": "Proposed",
+      "revoked": "Revoked"
+    }
+  },
+  "entities": [
+    {
+      "id": "aisr",
+      "name": "Intl AI Safety Report",
+      "layer": 1,
+      "layer_name": "International",
+      "jurisdiction": "mu",
+      "jurisdiction_name": "Multilateral",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai",
+      "description": "Bengio-chaired scientific synthesis. Feb 2026 edition flagged emerging \"sandbagging\" — models underperforming during safety tests.",
+      "context": "Closest thing the field has to an IPCC for AI: yearly synthesis of the evidence base, drawing on AISIs and academic researchers, commissioned at Bletchley (2023). Doesn't make policy recommendations — its job is to give policymakers a defensible read on what frontier models can do and which risks are credible enough to act on.",
+      "coverage": {
+        "thresh": "Doesn't set thresholds itself, but synthesises the empirical evidence on what capability levels appear, when, and how reliably. The risk catalogue is the closest thing to a shared baseline that policymakers can cite when proposing thresholds.",
+        "eval": "Establishes the science of frontier evaluation by summarising methods, gaps, and reliability findings across the AISI Network and academic researchers. Functions as the field's annual literature review on what evaluations can and cannot tell us.",
+        "elicit": "The Feb 2026 edition formally flagged sandbagging — models intentionally underperforming during safety tests — as a credible elicitation challenge. Earlier editions documented similar gaps in red-teaming methodology."
+      }
+    },
+    {
+      "id": "aisi-net",
+      "name": "AISI Network",
+      "layer": 1,
+      "layer_name": "International",
+      "jurisdiction": "mu",
+      "jurisdiction_name": "Multilateral",
+      "enforceability": 2,
+      "enforceability_name": "Soft / advisory",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "description": "Members: UK, US/CAISI, EU AI Office, Japan, Singapore, South Korea, Canada, France INESIA, Australia, Kenya. Renamed Dec 2025 (San Diego convening) to \"International Network for Advanced AI Measurement, Evaluation and Science.\"",
+      "context": "Coordinates joint testing methodology, shared evaluation benchmarks, and information exchange between national institutes — designed to avoid every country re-running the same evaluations from scratch. The 'safety → measurement, evaluation and science' rename in Dec 2025 mirrored the broader US shift away from safety framing toward standards/science.",
+      "coverage": {
+        "eval": "Coordinates a shared methodology for frontier-model evaluations across member institutes so that findings travel across borders. Without it, each AISI would re-run the same benchmarks in isolation.",
+        "elicit": "Pools elicitation techniques (prompting strategies, agentic scaffolding, jailbreaks) so that what one institute discovers is available to others. Most useful for catching sandbagging or capability gaps that single-institute testing might miss.",
+        "timing": "Coordinates pre-deployment evaluation access between members and frontier labs, so a model evaluated by one AISI doesn't need to be re-tested from scratch by another.",
+        "acct": "Multilateral information-sharing channel for evaluation results and emerging safety concerns. Provides accountability through peer institutes rather than through enforcement."
+      }
+    },
+    {
+      "id": "ai-summits",
+      "name": "AI summit series",
+      "layer": 1,
+      "layer_name": "International",
+      "jurisdiction": "mu",
+      "jurisdiction_name": "Multilateral",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://impact.indiaai.gov.in/",
+      "description": "Bletchley → Seoul → Paris (US, UK refused to sign) → New Delhi (Feb 2026, \"Impact\"; ~92 countries/IOs signed the Declaration; 13 firms signed the Frontier AI Impact Commitments) → Geneva (2027); UAE 2028.",
+      "context": "The main forum for forging cross-jurisdictional norms — each summit produces a declaration plus, increasingly, voluntary firm commitments. The framing has tilted with each host: Bletchley centred existential risk, Seoul institutionalised lab commitments, Paris pivoted to 'action' and industrial strategy, Delhi to 'impact' and inclusion. Geneva 2027 is the next test of whether the safety-vs-action divide can be re-bridged.",
+      "coverage": {
+        "thresh": "The Seoul Frontier AI Safety Commitments (2024) asked signatory firms to publish capability thresholds and the actions they would take if those thresholds were crossed — not threshold-setting by the summit itself, but the catalyst for the lab-published norm.",
+        "acct": "The summit declarations and accompanying firm commitments operate as accountability through public statement. Compliance is monitored only by reputational pressure and by the count of signatories at successor summits.",
+        "update": "Each summit cycle revises and extends the commitments — Seoul institutionalised lab safety frameworks, Paris pivoted to industrial action, Delhi added impact and inclusion. The cadence itself is the update mechanism."
+      }
+    },
+    {
+      "id": "oecd",
+      "name": "OECD AI Principles",
+      "layer": 1,
+      "layer_name": "International",
+      "jurisdiction": "mu",
+      "jurisdiction_name": "Multilateral",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://oecd.ai/en/ai-principles",
+      "description": "2019, updated 2024. 47 countries.",
+      "context": "Five values-based principles (inclusive growth, human-centred, transparency, robustness, accountability) plus five policy recommendations. Non-binding but the de facto reference point — adopted by the G20 and embedded in many national strategies. The 2024 update sharpened the safety/security language in response to generative AI.",
+      "coverage": {
+        "mit": "The Principles include high-level safety, security, and robustness expectations applied across the AI lifecycle. Concrete deployment rules are left to national implementations.",
+        "acct": "Transparency, explainability, and accountability are three of the five values-based principles. Adopting countries are encouraged to embed them in domestic frameworks rather than report on them.",
+        "update": "Periodic review built into the OECD process; the 2024 update sharpened the safety/security language in response to generative AI."
+      }
+    },
+    {
+      "id": "coe-ai",
+      "name": "CoE AI Convention",
+      "layer": 1,
+      "layer_name": "International",
+      "jurisdiction": "mu",
+      "jurisdiction_name": "Multilateral",
+      "enforceability": 3,
+      "enforceability_name": "Hard law, weak enforcement",
+      "status": "phasing",
+      "status_name": "Phasing in",
+      "primary_source": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+      "description": "First binding international AI treaty (Sept 2024). Signatories include EU, UK, US, Japan; ratification slow.",
+      "context": "Covers AI used by public authorities and (with carve-outs) by private actors; obliges signatories to ensure rights to redress, transparency, and lifecycle risk management. Significantly weakened in negotiation — private-sector obligations were softened to win US/UK signatures, and ratification has stalled in most parliaments. The first AI treaty with binding force, even if its substantive obligations were narrowed during negotiation.",
+      "coverage": {
+        "mit": "Signatories must ensure risk management throughout the AI lifecycle for systems used by public authorities, with significantly softened obligations for the private sector. The substantive duties are written at the framework level — implementation is left to domestic law.",
+        "acct": "Independent oversight bodies and rights to redress for those affected by AI decisions; the substantive teeth depend on whether signatories transpose these into binding domestic mechanisms.",
+        "update": "Periodic review by the conference of parties; in practice ratification has slowed to a crawl, so the implementation surface is still tiny."
+      }
+    },
+    {
+      "id": "unesco",
+      "name": "UNESCO AI Recommendation",
+      "layer": 1,
+      "layer_name": "International",
+      "jurisdiction": "mu",
+      "jurisdiction_name": "Multilateral",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+      "description": "2021 recommendation. 194 member states.",
+      "context": "First global standard-setting instrument on AI ethics, organised around 11 policy actions (data governance, environment, gender, health, etc.). Non-binding. Most influential in low- and middle-income jurisdictions outside the OECD process; provides reference text for many national AI ethics charters.",
+      "coverage": {
+        "mit": "Eleven policy actions covering data governance, environment, health, gender, etc. — high-level mitigation principles rather than specific obligations. Most influential in jurisdictions outside the OECD process that lean on UNESCO text for their own AI ethics charters.",
+        "acct": "Transparency and human oversight are core principles, but the recommendation imposes no reporting or audit obligations. Implementation is monitored by UNESCO's Readiness Assessment Methodology."
+      }
+    },
+    {
+      "id": "eu-aia",
+      "name": "EU AI Act",
+      "layer": 2,
+      "layer_name": "National regulation",
+      "jurisdiction": "eu",
+      "jurisdiction_name": "European Union",
+      "enforceability": 4,
+      "enforceability_name": "Binding with penalties",
+      "status": "phasing",
+      "status_name": "Phasing in",
+      "primary_source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "description": "In force Aug 2024. GPAI obligations Aug 2025. Most provisions apply Aug 2026; high-risk system rules Aug 2027. Penalties up to €35M or 7% global revenue.",
+      "context": "Tiers AI by risk: prohibited practices, high-risk systems (conformity assessments, fundamental-rights impact assessments, registration), and GPAI models (transparency, copyright). GPAI above 10²⁵ FLOPs faces additional systemic-risk obligations — evaluations, incident reporting, cybersecurity. Its 10²⁵ threshold is lower than the 10²⁶ used by recent US state laws, so more models fall into systemic-risk obligations under EU rules than under California's.",
+      "coverage": {
+        "thresh": "GPAI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face additional obligations. Lower than the 10²⁶ used by California SB 53 and NY RAISE — more EU models meet the threshold than US-state ones.",
+        "eval": "GPAI providers with systemic-risk models must conduct model evaluations using state-of-the-art protocols, including adversarial testing. The Code of Practice operationalises this through specific procedures.",
+        "elicit": "Adversarial testing is required for systemic-risk GPAI; the Code of Practice goes further, mandating red-teaming with capability elicitation techniques.",
+        "timing": "Both pre-market obligations (conformity assessments for high-risk; transparency for GPAI) and post-market monitoring duties under the AI Office. The first regulation to formally split the lifecycle this way.",
+        "sec": "Cybersecurity protections for model weights are mandatory for systemic-risk GPAI under Article 55. Implementation detail is delegated to the Code of Practice and harmonised standards.",
+        "mit": "A layered set of obligations: prohibited practices (banned), high-risk obligations (impact assessments, registration), GPAI duties (transparency, content marking), and additional systemic-risk mitigations. The most comprehensive deployment-mitigation regime in any binding instrument.",
+        "acct": "Mandatory incident reporting to the EU AI Office for systemic-risk GPAI; market-surveillance authorities handle high-risk systems. The Office can request models, order recalls, and impose fines up to €35M / 7% global revenue.",
+        "update": "The Code of Practice and harmonised standards are revisable as the field changes; the underlying regulation is amendable through ordinary EU legislative procedure (slower)."
+      }
+    },
+    {
+      "id": "us-eo14179",
+      "name": "US EO 14179",
+      "layer": 2,
+      "layer_name": "National regulation",
+      "jurisdiction": "us",
+      "jurisdiction_name": "US Federal",
+      "enforceability": 3,
+      "enforceability_name": "Hard law, weak enforcement",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
+      "description": "Trump (Jan 2025) replaced Biden EO 14110. Rescinded mandatory red-teaming and pre-deployment reporting.",
+      "context": "Frames AI policy as removing regulatory barriers to American leadership; ordered the AI Action Plan within 180 days. Withdrew the safety-focused infrastructure of the prior administration — voluntary commitments, mandatory red-teaming, pre-deployment reporting. Marks the federal turn away from safety-oriented governance toward an industrial-policy framing.",
+      "coverage": {}
+    },
+    {
+      "id": "us-action",
+      "name": "US AI Action Plan",
+      "layer": 2,
+      "layer_name": "National regulation",
+      "jurisdiction": "us",
+      "jurisdiction_name": "US Federal",
+      "enforceability": 3,
+      "enforceability_name": "Hard law, weak enforcement",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.ai.gov/action-plan",
+      "description": "Jul 2025. Limits federal funding to states with \"burdensome\" AI regulations.",
+      "context": "Dozens of federal actions across innovation, infrastructure, and international policy. The centrepiece is regulatory removal — directing OMB to flag or restrict federal funding to states whose AI laws inhibit deployment. Also pushes export of the US AI stack abroad, expanded compute infrastructure, and federal procurement levers.",
+      "coverage": {
+        "acct": "Directs OMB to flag and restrict federal funding to states whose AI laws inhibit deployment — accountability runs in the opposite direction from typical Layer 2 statutes, restraining state-level AI oversight rather than expanding federal oversight of frontier developers."
+      }
+    },
+    {
+      "id": "us-preempt",
+      "name": "US preemption EO",
+      "layer": 2,
+      "layer_name": "National regulation",
+      "jurisdiction": "us",
+      "jurisdiction_name": "US Federal",
+      "enforceability": 3,
+      "enforceability_name": "Hard law, weak enforcement",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence",
+      "description": "EO 14365 (Dec 11 2025). DOJ AI Litigation Task Force to challenge state AI laws. DOJ first intervened in xAI v. Colorado on Apr 24, 2026.",
+      "context": "Directs DOJ to challenge state AI laws as Commerce Clause violations or as preempted by federal law. Pairs the Action Plan's funding lever with parallel litigation pressure. Whether the Task Force's challenges hold up will determine whether the federal-vs-state contest gets resolved through courts or stays politically contested.",
+      "coverage": {
+        "acct": "DOJ AI Litigation Task Force is empowered to challenge state AI laws as Commerce Clause violations or as preempted by federal law. Accountability here is restraint of state-level oversight rather than substantive frontier-AI accountability."
+      }
+    },
+    {
+      "id": "cn-genai",
+      "name": "China GenAI Measures",
+      "layer": 2,
+      "layer_name": "National regulation",
+      "jurisdiction": "cn",
+      "jurisdiction_name": "China",
+      "enforceability": 4,
+      "enforceability_name": "Binding with penalties",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.chinalawtranslate.com/en/generative-ai-interim/",
+      "description": "CAC Interim Measures for Generative AI (Aug 2023). Binding, with concrete enforcement.",
+      "context": "Requires algorithm registration with the Cyberspace Administration of China before public deployment, security assessment of training data, and content moderation aligned with Chinese law. Foreign-trained models can serve Chinese users only via licensed domestic intermediaries. Enforcement is active — multiple firms have had services suspended — but operates as much through industrial policy as through fines.",
+      "coverage": {
+        "timing": "Pre-deployment security assessment is mandatory for any generative AI service offered to the Chinese public; the Cyberspace Administration of China reviews training data, model behaviour, and content controls before approval.",
+        "mit": "Content moderation aligned with Chinese law (including political-content rules), training-data security assessment, and labelling of AI-generated outputs are required. Concrete deployment rules with active enforcement — multiple firms have had services suspended.",
+        "acct": "Algorithm registration with the Cyberspace Administration is mandatory before public deployment. The CAC maintains a public registry of approved algorithms; foreign-trained models can serve Chinese users only via licensed domestic intermediaries."
+      }
+    },
+    {
+      "id": "cn-ai-law",
+      "name": "China AI Law",
+      "layer": 2,
+      "layer_name": "National regulation",
+      "jurisdiction": "cn",
+      "jurisdiction_name": "China",
+      "enforceability": 2,
+      "enforceability_name": "Soft / advisory",
+      "status": "proposed",
+      "status_name": "Proposed",
+      "primary_source": null,
+      "description": "Comprehensive AI law in drafting at NPC. Compute thresholds debated.",
+      "context": "Would consolidate the patchwork of CAC measures (recommendation algorithms, deep synthesis, generative AI) into a single statute; competing proposals from MOST and CAIC have circulated. The 2025 NPC plan dropped it from preparatory items, so near-term action looks unlikely; in the meantime China is regulating frontier issues through narrower instruments — cybersecurity-law amendments, draft rules on humanlike interactive AI.",
+      "coverage": {
+        "thresh": "Compute thresholds have featured in competing draft proposals from MOST and CAIC; the eventual statute is expected to set capability or compute thresholds, but specifics aren't fixed.",
+        "eval": "Drafts have signalled risk assessment obligations for high-impact AI systems; details are still being negotiated within the NPC process.",
+        "mit": "Drafts have proposed mitigation duties layered on top of the existing CAC measures, but specifics depend on which competing proposal prevails.",
+        "acct": "Drafts envisage centralised oversight expansion — consolidating algorithm registration, deep-synthesis rules, and generative-AI rules under one statute. Whether this strengthens or duplicates current CAC powers is open."
+      }
+    },
+    {
+      "id": "uk-bill",
+      "name": "UK AI Bill",
+      "layer": 2,
+      "layer_name": "National regulation",
+      "jurisdiction": "uk",
+      "jurisdiction_name": "United Kingdom",
+      "enforceability": 2,
+      "enforceability_name": "Soft / advisory",
+      "status": "proposed",
+      "status_name": "Proposed",
+      "primary_source": "https://bills.parliament.uk/bills/3942",
+      "description": "Labour government has signalled binding rules; bill has slipped repeatedly.",
+      "context": "Would put the UK AI Security Institute on a statutory footing with information-gathering powers, and create binding rules for the most powerful frontier models. Successive missed introduction dates reflect tension between Labour's growth agenda and its safety commitments. Until passed, the UK relies on AISI's pre-deployment access agreements with frontier labs — voluntary and revocable.",
+      "coverage": {
+        "thresh": "If passed, would target the most powerful frontier models — drafts have referenced cumulative compute or comparable capability indicators. Specifics are still under negotiation.",
+        "eval": "Would put the UK AI Security Institute on a statutory footing with information-gathering powers, including access to models and pre-deployment evaluations. Currently AISI's access is voluntary and revocable.",
+        "acct": "Would create binding rules and enforcement mechanisms for frontier developers, replacing the current voluntary memoranda. Until enacted, the UK relies on reputational pressure."
+      }
+    },
+    {
+      "id": "kr-ai",
+      "name": "Korea AI Framework Act",
+      "layer": 2,
+      "layer_name": "National regulation",
+      "jurisdiction": "as",
+      "jurisdiction_name": "Asia (other)",
+      "enforceability": 4,
+      "enforceability_name": "Binding with penalties",
+      "status": "phasing",
+      "status_name": "Phasing in",
+      "primary_source": "https://aibasicact.kr/",
+      "description": "AI Basic Act. In force Jan 22, 2026. One-year grace period — penalties (capped ~$21k per violation) begin Jan 22, 2027.",
+      "context": "Korea's first horizontal AI law: tiered obligations on high-impact AI and high-performance AI (≥10²⁶ FLOPs), risk management plans, lifecycle reporting to MSIT, mandatory generative-AI labelling, and a state AI Safety Research Institute. Penalty caps are deliberately low — the Act emphasises guidance over deterrence, mirroring Japan's approach and contrasting with the EU's prescriptive route.",
+      "coverage": {
+        "thresh": "Defines high-performance AI as cumulative compute ≥10²⁶ FLOPs (matching California SB 53 and NY RAISE, higher than the EU AI Act's 10²⁵). High-impact AI is defined separately by use-case rather than compute.",
+        "eval": "Risk management plans are required for high-impact and high-performance AI — provider-led evaluations covering safety, fairness, and transparency. Less prescriptive than the EU AI Act on methodology.",
+        "timing": "Lifecycle reporting to MSIT throughout development and deployment; implementing decrees specify cadence. Less burdensome in practice than the EU's pre-market conformity assessment.",
+        "mit": "Mandatory generative-AI labelling, transparency duties, and obligations to inform users about AI involvement. The most concrete deployment obligations sit at the user-facing end.",
+        "acct": "Notification duties to MSIT, oversight by the new AI Safety Research Institute, and user complaint mechanisms. Enforcement teeth deliberately weak — penalty caps ~$21k per violation."
+      }
+    },
+    {
+      "id": "jp-ai",
+      "name": "Japan AI Promotion Act",
+      "layer": 2,
+      "layer_name": "National regulation",
+      "jurisdiction": "as",
+      "jurisdiction_name": "Asia (other)",
+      "enforceability": 2,
+      "enforceability_name": "Soft / advisory",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.whitecase.com/insight-alert/japans-first-ai-legislation-becomes-law-focus-promoting-research-and-development-no",
+      "description": "May 2025. Light-touch, sectoral, no compute thresholds.",
+      "context": "Establishes the AI Strategic Headquarters under the Cabinet Office to coordinate sectoral guidance. Deliberately avoids compute thresholds, mandatory pre-deployment testing, and fines — The approach assumes that voluntary cooperation between developers and government produces faster adoption than the EU's prescriptive route. The Hiroshima Process commitments substitute for binding rules at the firm level.",
+      "coverage": {
+        "mit": "Sectoral guidance issued by the AI Strategic Headquarters under the Cabinet Office, with each sector regulator translating high-level principles into industry-specific expectations. No horizontal deployment rules.",
+        "acct": "Sectoral oversight without a central regulator; coordination runs through the AI Strategic Headquarters. The act deliberately avoids fines, mandatory pre-deployment testing, or compute thresholds."
+      }
+    },
+    {
+      "id": "ca-sb53",
+      "name": "California SB 53",
+      "layer": 3,
+      "layer_name": "Sub-national",
+      "jurisdiction": "uss",
+      "jurisdiction_name": "US State",
+      "enforceability": 4,
+      "enforceability_name": "Binding with penalties",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
+      "description": "Transparency in Frontier AI Act. Effective Jan 1, 2026. >10²⁶ FLOPs, >$500M revenue. Penalties up to $1M/violation.",
+      "context": "Requires 'large frontier developers' to publish a frontier safety framework, report critical safety incidents within 15 days, and submit annual transparency reports. Whistleblower protections for employees flagging safety issues. The first US state law to codify the published-framework norm — explicitly anchors against Layer 5 lab frameworks rather than reinventing obligations.",
+      "coverage": {
+        "thresh": "Eligibility for the law's obligations: cumulative compute >10²⁶ FLOPs and revenue >$500M. Below these thresholds developers are exempt — the law explicitly targets the largest frontier developers, anchoring against Anthropic, OpenAI, Google, Microsoft, Meta, and xAI.",
+        "mit": "Frontier safety frameworks must address how the developer identifies and mitigates risks, including pre-deployment evaluations and deployment safeguards. Substantive obligations are framework-level — what the framework must contain, not which specific mitigations to use.",
+        "timing": "Critical safety incidents must be reported within 15 days; annual transparency reports are required. The 15-day window is the tightest in any US state law.",
+        "acct": "Frameworks must be published and kept current; transparency reports go to the AG; whistleblower protections cover employees flagging safety issues. Codifies the published-framework norm into binding state law.",
+        "update": "Frameworks must be kept updated as capabilities and risks evolve. The update obligation makes the law a moving target rather than a snapshot."
+      }
+    },
+    {
+      "id": "co-aia",
+      "name": "Colorado AI Act",
+      "layer": 3,
+      "layer_name": "Sub-national",
+      "jurisdiction": "uss",
+      "jurisdiction_name": "US State",
+      "enforceability": 4,
+      "enforceability_name": "Binding with penalties",
+      "status": "phasing",
+      "status_name": "Phasing in",
+      "primary_source": "https://leg.colorado.gov/bills/sb24-205",
+      "description": "First broad US state AI law. Pushed to Jun 30, 2026; federal court paused enforcement Apr 27, 2026.",
+      "context": "Targets algorithmic discrimination in 'high-risk AI systems' used for consequential decisions (employment, housing, lending) — broader than SB 53's frontier-only focus. Requires impact assessments, notice to affected individuals, and AG enforcement. Currently the principal target of federal preemption efforts: xAI sued, DOJ intervened, and the court has paused enforcement pending the constitutional challenge.",
+      "coverage": {
+        "mit": "Algorithmic discrimination duties: developers and deployers of high-risk AI systems must take reasonable care to prevent algorithmic discrimination in consequential decisions (employment, housing, lending, etc.). Broader than SB 53's frontier-only focus.",
+        "timing": "Annual reviews of high-risk AI systems for algorithmic discrimination, plus impact assessments before deployment in new contexts. Lifecycle approach rather than incident-driven.",
+        "acct": "AG enforcement; impact assessments must be made available to the AG; affected individuals must be notified when consequential decisions involve AI. Federal preemption challenge currently has enforcement paused.",
+        "update": "Compliance programs must be updated as AI systems and use cases evolve. The lifecycle obligation is one of the strongest accountability levers in any US state AI law."
+      }
+    },
+    {
+      "id": "ny-raise",
+      "name": "NY RAISE Act",
+      "layer": 3,
+      "layer_name": "Sub-national",
+      "jurisdiction": "uss",
+      "jurisdiction_name": "US State",
+      "enforceability": 4,
+      "enforceability_name": "Binding with penalties",
+      "status": "phasing",
+      "status_name": "Phasing in",
+      "primary_source": "https://www.nysenate.gov/legislation/bills/2025/S6953/amendment/B",
+      "description": "Hochul signed Dec 19, 2025; chapter amendments Mar 27, 2026 aligned with SB 53. Effective Jan 1, 2027. Penalties $1M / $3M.",
+      "context": "Mirrors SB 53's structure — published safety frameworks, 72-hour incident reporting, oversight by a dedicated office at the Department of Financial Services. The Mar 2026 chapter amendments adopted SB 53's >$500M revenue threshold instead of the original training-cost threshold, and softened original penalty levels. Together with SB 53, establishes a dual-coast template that federal preemption hasn't yet dislodged.",
+      "coverage": {
+        "thresh": "Eligibility: >10²⁶ FLOPs cumulative compute + >$500M revenue + >$100M compute investment. The Mar 2026 chapter amendments aligned the revenue/compute thresholds with California SB 53 instead of the original training-cost-only definition.",
+        "mit": "Safeguards against critical harm — frontier safety frameworks must address mitigation of catastrophic and large-scale risks. Mirrors SB 53's framework-level approach.",
+        "timing": "72-hour incident reporting (tighter than SB 53's 15 days). Lifecycle reporting expectations to be specified in DFS regulations.",
+        "acct": "Department of Financial Services oversight office — the first US state-level body with dedicated authority over frontier general-purpose AI developers (sectoral AI regulators like the Colorado Division of Insurance, which has overseen insurance-sector algorithms since 2023, predate it). Plus AG enforcement and a public registry of frontier developer frameworks.",
+        "update": "DFS regulations expected; like SB 53, frontier developers must keep their published frameworks current as capabilities evolve."
+      }
+    },
+    {
+      "id": "tx-raiga",
+      "name": "Texas TRAIGA",
+      "layer": 3,
+      "layer_name": "Sub-national",
+      "jurisdiction": "uss",
+      "jurisdiction_name": "US State",
+      "enforceability": 3,
+      "enforceability_name": "Hard law, weak enforcement",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149I.pdf",
+      "description": "Texas Responsible AI Governance Act, Jun 2025. Narrower than Colorado.",
+      "context": "Focuses on specific deployment prohibitions — social scoring, manipulation, certain government uses — rather than horizontal frontier-developer obligations. AG-enforced civil penalties; no compute or revenue threshold. The first AI law passed in a Republican-controlled state, complicating the narrative that AI regulation is purely a Democratic priority.",
+      "coverage": {
+        "mit": "Specific deployment prohibitions including social scoring by government, manipulative AI practices, and certain government uses (biometric identification, etc.). Narrower scope than Colorado's algorithmic-discrimination duties — targets specific harms rather than horizontal obligations.",
+        "acct": "AG enforcement through civil penalties; no central oversight office or impact-assessment regime. The accountability mechanism is purely reactive, triggered by complaints."
+      }
+    },
+    {
+      "id": "seoul-commit",
+      "name": "Seoul commitments",
+      "layer": 4,
+      "layer_name": "Industry voluntary",
+      "jurisdiction": "mu",
+      "jurisdiction_name": "Multilateral",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+      "description": "May 2024. 16 frontier firms committed to publish safety frameworks. Catalyst for the published-framework norm.",
+      "context": "First time a globally diverse set of frontier firms (US, UK, China, UAE, Korea) publicly committed to publishing capability thresholds and the actions they would take if those thresholds were crossed. Voluntary, with no enforcement. But the resulting public pressure created the norm that California SB 53 and NY RAISE later codified into law.",
+      "coverage": {
+        "thresh": "First time a globally diverse set of frontier firms publicly committed to publishing capability thresholds and the actions they would take if those thresholds were crossed. The catalyst for what became the lab-published-framework norm.",
+        "eval": "Signatories committed to evaluate models against their published thresholds before deployment, using both internal and (where possible) external evaluators. Voluntary; no enforcement.",
+        "halt": "Signatories committed not to develop or deploy models at thresholds where mitigations are insufficient — an explicit halting commitment, voluntarily made by 16 frontier firms across the US, UK, China, UAE, and Korea.",
+        "acct": "Publication of capability thresholds and halting conditions creates accountability through public statement; 16 firms signed in May 2024. No enforcement; reputational pressure is the only sanction."
+      }
+    },
+    {
+      "id": "hiroshima",
+      "name": "Hiroshima Process",
+      "layer": 4,
+      "layer_name": "Industry voluntary",
+      "jurisdiction": "mu",
+      "jurisdiction_name": "Multilateral",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.soumu.go.jp/hiroshimaaiprocess/en/index.html",
+      "description": "G7 Code of Conduct (2023). 11-point framework. Implementation reporting added 2024.",
+      "context": "G7 code covering risk identification, information security, transparency, content authentication, and incident response. Voluntary, but uniquely structured: signatories submit annual implementation reports monitored by the OECD. Sits beside the Seoul commitments as one of the two main multilateral voluntary frameworks; lags Seoul on capability thresholds but is firmer on operational practice.",
+      "coverage": {
+        "eval": "Risk identification and management throughout the AI lifecycle is one of the 11 points; signatories report annually on how they apply it. Less prescriptive than Seoul or the EU GPAI Code on specific evaluation methodology.",
+        "sec": "Information security for AI systems is one of the 11 points, including protections for training data, model weights, and deployment infrastructure. Voluntary.",
+        "mit": "Safeguards on outputs (content authentication, anti-misuse measures, alignment with rule of law) cover deployment-mitigation territory at a high level. The 11 points constitute soft norms, not specific obligations.",
+        "acct": "Transparency, content authentication, and incident response are core to the code; signatories submit annual implementation reports monitored by the OECD. Uniquely structured for a voluntary code — soft accountability with documentation.",
+        "update": "Implementation reporting added in 2024 strengthened the code's update mechanism, allowing the OECD to track how signatories' practices evolve."
+      }
+    },
+    {
+      "id": "gpai-cop",
+      "name": "EU GPAI Code of Practice",
+      "layer": 4,
+      "layer_name": "Industry voluntary",
+      "jurisdiction": "eu",
+      "jurisdiction_name": "European Union",
+      "enforceability": 2,
+      "enforceability_name": "Soft / advisory",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+      "description": "Voluntary route to demonstrate EU AI Act compliance. Anthropic, OpenAI, Google, Microsoft signed all chapters. Meta declined. xAI signed safety only.",
+      "context": "Three chapters — transparency, copyright, and safety/security (the last applies only to GPAI with systemic risk). Drafted by independent experts under the AI Office; final version published Jul 2025. Signing isn't legally required, but it's the only vetted route to demonstrate AI Act GPAI compliance, so Meta's refusal makes its compliance posture under the AI Act an open question.",
+      "coverage": {
+        "thresh": "The safety/security chapter calls for capability thresholds tied to systemic risks, mirroring the EU AI Act's 10²⁵ FLOPs trigger. Concrete threshold-setting is left to signatory firms.",
+        "eval": "Required for systemic-risk GPAI models; methodology specified in the code with reference to state-of-the-art evaluation practices. Functions as the operational bridge between EU AI Act language and lab implementation.",
+        "elicit": "Red-teaming and adversarial testing are mandated by the safety chapter, including access for external evaluators where appropriate. Among the strongest elicitation requirements in any non-binding instrument.",
+        "sec": "Model security obligations cover weight protection, secure deployment infrastructure, and supply-chain controls. Bridges Article 55 of the EU AI Act with concrete operational expectations.",
+        "mit": "Deployment mitigations include content marking, refusals, and user-facing transparency. The transparency chapter (separate from safety) governs documentation duties.",
+        "halt": "The safety chapter calls for halting conditions tied to systemic-risk thresholds — a rare formal halt-and-pause mechanism in any non-binding instrument.",
+        "acct": "Transparency obligations extend to model documentation, training-data summaries, and copyright disclosures. Signatories report annually; non-signatories must demonstrate AI Act compliance through other means.",
+        "update": "Periodic Code of Practice revisions handled by independent experts under the AI Office. The Code is the operational layer that updates faster than the underlying regulation."
+      }
+    },
+    {
+      "id": "fmf",
+      "name": "Frontier Model Forum",
+      "layer": 4,
+      "layer_name": "Industry voluntary",
+      "jurisdiction": "co",
+      "jurisdiction_name": "Corporate / global",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.frontiermodelforum.org/",
+      "description": "Industry body (Anthropic, Google, Microsoft, OpenAI; Amazon, Meta added). Coordinates safety research.",
+      "context": "Funds safety research grants, coordinates evaluation methodology between member labs, and convenes shared technical forums. Doesn't impose obligations on members or speak with one voice in policy debates. Some critics argue it is too closely held by its member labs; others that its remit is too narrow to drive policy change. The substantive contribution is in the research outputs, not the political coordination.",
+      "coverage": {
+        "eval": "Coordinates evaluation methodology between member labs (Anthropic, Google, Microsoft, OpenAI, Amazon, Meta) and funds external safety research. Output is methodological alignment rather than enforced obligation.",
+        "acct": "Industry coordination on safety practice — funds research grants, convenes shared technical forums, publishes cross-lab perspectives. Doesn't speak with one voice in policy debates or impose obligations on members."
+      }
+    },
+    {
+      "id": "delhi-commit",
+      "name": "Delhi commitments",
+      "layer": 4,
+      "layer_name": "Industry voluntary",
+      "jurisdiction": "mu",
+      "jurisdiction_name": "Multilateral",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2230201&reg=3&lang=1",
+      "description": "New Delhi Frontier AI Impact Commitments (Feb 2026). 13 frontier developers; broader than Seoul.",
+      "context": "Extends the Seoul template to cover beneficial use cases — energy efficiency, healthcare, public services — alongside risk obligations. Signatory base broader than Seoul (added Indian and global-south firms) but commitments are weaker on concrete capability thresholds. Reflects the Delhi summit's 'impact' rather than 'safety' framing.",
+      "coverage": {
+        "mit": "Inclusive deployment alongside risk obligations — signatories commit to consider beneficial use cases (energy, healthcare, public services) as well as risk mitigation. Reflects the Delhi summit's 'impact' rather than safety framing.",
+        "acct": "Public commitments by 13 frontier developers, including Indian and global-south firms not represented in Seoul. Broader signatory base, weaker on concrete capability thresholds than Seoul."
+      }
+    },
+    {
+      "id": "pai",
+      "name": "Partnership on AI",
+      "layer": 4,
+      "layer_name": "Industry voluntary",
+      "jurisdiction": "co",
+      "jurisdiction_name": "Corporate / global",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://partnershiponai.org/",
+      "description": "Multistakeholder org (2016). Less central to frontier debate; norms work on synthetic media and labour.",
+      "context": "Member-driven org with academics, NGOs, media, and tech firms; produces guidance on synthetic media disclosure, AI in journalism, AI workforce impacts. Pre-dates the frontier-AI debate and hasn't fully repositioned to it. Most influential as a multistakeholder venue for non-technical issues that frontier-only forums (FMF, AISI Network) skip.",
+      "coverage": {
+        "mit": "Synthetic media practices (disclosure standards, journalism guidelines) are PAI's most concrete output. Most influential outside the frontier-AI debate, where FMF and AISI Network are central.",
+        "acct": "Multistakeholder governance with members from academia, NGOs, media, and tech firms. Soft accountability through guidance documents rather than commitments or oversight."
+      }
+    },
+    {
+      "id": "rsp",
+      "name": "Anthropic RSP",
+      "layer": 5,
+      "layer_name": "Corporate self-governance",
+      "jurisdiction": "co",
+      "jurisdiction_name": "Corporate / global",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.anthropic.com/responsible-scaling-policy",
+      "description": "Responsible Scaling Policy. AI Safety Levels. Capability thresholds trigger required safeguards. Updated ~4× since 2023.",
+      "context": "Defines AI Safety Levels (ASLs) — currently up to ASL-3 — each tied to specific capability evaluations and mandatory safeguards: weight-security tiers, deployment mitigations, model-autonomy controls. The original published framework that set the template for the field; commitments include not deploying at a given ASL until the corresponding mitigations are in place. Subjected to detailed external scrutiny in EU GPAI Code drafting and California SB 53.",
+      "coverage": {
+        "thresh": "AI Safety Levels (ASL-1, 2, 3, currently up to ASL-3) trigger graduated safeguards as capabilities cross specified evaluations. The original published framework that set the threshold-and-tier template; SB 53 codifies the underlying norm.",
+        "eval": "Pre-deployment evaluations at each ASL covering CBRN, cyber, autonomous-replication, and AI R&D capabilities. Methodology updated as evaluations mature and external evaluator findings come in.",
+        "elicit": "Capability elicitation built into evaluation protocols, including adversarial scaffolding, agentic deployment, and external red-teaming. METR and UK AISI participate in elicitation work.",
+        "timing": "Evaluations run pre-training, pre-deployment, and during ongoing operation; thresholds re-checked as capabilities scale. Among the most comprehensive timing regimes in any framework.",
+        "sec": "Weight-security tier rises with each ASL — ASL-3 mandates substantially stronger protections against insider threat, exfiltration, and supply-chain attacks. Tied directly to the model's capability profile.",
+        "mit": "Deployment safeguards by ASL include refusal training, monitoring, abuse detection, and (at higher ASLs) deployment-environment controls. Specific safeguards published for each tier.",
+        "halt": "Anthropic commits to pause development or deployment if mitigations are insufficient for the model's ASL. The halting commitment is the most operationally specific in any lab framework.",
+        "acct": "Board oversight (Long-Term Benefit Trust); public publication of the framework, evaluation results, and any escalations. Subjected to external scrutiny in EU GPAI Code drafting and California SB 53.",
+        "update": "RSP updated ~4× since 2023, formalising new evaluations, refining ASL definitions, and incorporating external evaluator findings. The update cadence itself is part of the published commitment."
+      }
+    },
+    {
+      "id": "prep",
+      "name": "OpenAI Preparedness",
+      "layer": 5,
+      "layer_name": "Corporate self-governance",
+      "jurisdiction": "co",
+      "jurisdiction_name": "Corporate / global",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://openai.com/index/updating-our-preparedness-framework/",
+      "description": "Preparedness Framework. Tracked categories (cyber, CBRN, autonomy, persuasion). 2025 revisions tightened bio thresholds.",
+      "context": "Tracks four risk categories (cyber, CBRN, autonomy, persuasion) at low/medium/high/critical levels; deployment requires reaching specific thresholds and implementing graduated mitigations. Decisions reviewed by an internal Safety Advisory Group that escalates to the board. The 2025 revisions reframed the persuasion category and lowered the bio-risk threshold after CBRN evaluation findings.",
+      "coverage": {
+        "thresh": "Tracks four risk categories (cyber, CBRN, autonomy, persuasion) at low/medium/high/critical levels; deployment requires specific thresholds and graduated mitigations. Different threshold structure from Anthropic's ASLs — category × level matrix rather than single-axis tier.",
+        "eval": "Evaluations against tracked categories run pre-deployment and ongoing; methodology disclosed in the framework and updated 2024–2025. External evaluators (METR, Apollo) participate.",
+        "elicit": "Capability elicitation through adversarial scaffolding, red-teaming, and agentic deployment is built into the evaluation protocols. Apollo's scheming research has shaped the autonomy category specifically.",
+        "timing": "Pre-deployment plus ongoing monitoring; the framework defines points at which re-evaluation is triggered (capability changes, deployment expansion, etc.).",
+        "sec": "Weight security obligations scale with risk level; high/critical-risk models trigger enhanced protections. Specific tier definitions disclosed in the framework.",
+        "mit": "Deployment safeguards graduated by risk level — refusals, monitoring, agentic controls, deployment-environment restrictions. Critical-risk gates production deployment outright.",
+        "halt": "High and critical risk levels gate deployment; OpenAI commits not to ship at those levels until mitigations reduce risk to medium or below. Explicit halting commitment subject to internal Safety Advisory Group review.",
+        "acct": "Internal Safety Advisory Group reviews evaluations and escalates to the board for high/critical-risk decisions. External transparency is through the published framework rather than reporting to a regulator.",
+        "update": "Framework updated in 2024 and 2025; the 2025 revision reframed the persuasion category and lowered the bio-risk threshold after CBRN evaluation findings."
+      }
+    },
+    {
+      "id": "fsf",
+      "name": "GDM Frontier Safety Framework",
+      "layer": 5,
+      "layer_name": "Corporate self-governance",
+      "jurisdiction": "co",
+      "jurisdiction_name": "Corporate / global",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/",
+      "description": "Critical Capability Levels and mitigations. v2 added explicit deceptive-alignment evaluations.",
+      "context": "Defines Critical Capability Levels (CCLs) across cyber-offence, biorisk, ML R&D, and deceptive-alignment domains; each CCL maps to concrete security and deployment mitigations. v2 (2024) added explicit deceptive-alignment evaluations after Apollo Research findings; subsequent updates extended the autonomous-task evaluation strand. Less prescriptive than Anthropic's RSP on halting commitments — relies more on internal review than published red-lines.",
+      "coverage": {
+        "thresh": "Critical Capability Levels (CCLs) defined across cyber-offence, biorisk, ML R&D, and deceptive-alignment domains. Capability-tier framing — somewhere between Anthropic's ASLs and OpenAI's category × level matrix.",
+        "eval": "Evaluations against CCLs run pre-deployment and periodically; methodology published in the framework. External evaluators participate, including UK AISI.",
+        "elicit": "v2 (2024) added explicit deceptive-alignment evaluations after Apollo Research findings — among the first lab frameworks to formally adopt scheming evaluations as a capability-elicitation strand.",
+        "timing": "Evaluations run periodically rather than at strict pre-training/pre-deployment milestones. Less granular timing structure than Anthropic's RSP.",
+        "sec": "Security mitigations per CCL — protections scale with the capability profile. Specifics published in the framework but less granular than Anthropic's tier system.",
+        "mit": "Deployment mitigations per CCL include monitoring, refusals, and agentic controls. The mitigation set scales with the model's capability assessment.",
+        "halt": "Halts at critical levels are committed pending mitigation review — but the halting trigger is less prescriptive than Anthropic's RSP, relying more on internal review than published red-lines.",
+        "acct": "Internal review processes; less external accountability surface than Anthropic's RSP. The framework is published but evaluation results are released selectively.",
+        "update": "v2 added new evaluation types (deceptive alignment); subsequent updates extended the autonomous-task evaluation strand. Update cadence not as formalised as RSP."
+      }
+    },
+    {
+      "id": "meta-faif",
+      "name": "Meta Frontier AI Framework",
+      "layer": 5,
+      "layer_name": "Corporate self-governance",
+      "jurisdiction": "co",
+      "jurisdiction_name": "Corporate / global",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://ai.meta.com/static-resource/meta-frontier-ai-framework/",
+      "description": "Released Feb 2025 after pressure. High/critical-risk tiers. Did not sign EU GPAI Code.",
+      "context": "Two-tier risk classification: high-risk released with mitigations, critical-risk not released at all until mitigations reduce the risk to high. Explicit commitment not to ship critical-risk models — the headline differentiator with xAI's framework. The only major US lab to refuse the EU GPAI Code, putting Meta's compliance route under the AI Act in question.",
+      "coverage": {
+        "thresh": "Two-tier classification — high-risk (released with mitigations) and critical-risk (not released until mitigations reduce risk to high). Coarser than Anthropic's ASLs or OpenAI's category × level matrix.",
+        "eval": "Evaluations against the two risk tiers; less methodological detail published than peers. External evaluator participation limited.",
+        "elicit": "Adversarial testing performed pre-deployment; specifics not heavily disclosed. Less developed than the elicitation work in RSP, Preparedness, or FSF.",
+        "timing": "Pre-deployment evaluation; ongoing monitoring at the tier level. Update cadence and trigger conditions not heavily specified.",
+        "sec": "Security measures by tier; specifics not fully disclosed. Generally thinner on weight-security commitments than Anthropic or Google DeepMind.",
+        "mit": "Deployment mitigations layered onto release — high-risk models ship with mitigations; critical-risk models don't ship at all. Mitigation specifics discretionary.",
+        "halt": "Explicit commitment not to ship critical-risk models — the headline differentiator from xAI's framework. Halting trigger tied to the binary tier rather than graduated capabilities.",
+        "acct": "Internal review; thinner external accountability surface than peers. Refused to sign the EU GPAI Code, putting Meta's compliance route under the AI Act in question.",
+        "update": "Released Feb 2025 after pressure; revision schedule not publicly committed. Among the slowest-evolving lab frameworks."
+      }
+    },
+    {
+      "id": "xai-rmf",
+      "name": "xAI Risk Mgmt Framework",
+      "layer": 5,
+      "layer_name": "Corporate self-governance",
+      "jurisdiction": "co",
+      "jurisdiction_name": "Corporate / global",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://x.ai/safety",
+      "description": "Published Feb 2025 after delay. Thinner than peers. xAI suing Colorado over AI Act.",
+      "context": "Quantitative-benchmark approach to capability evaluation (chosen benchmarks rather than red-lined capability thresholds), with internal review processes. Independent reviews of frontier risk-management frameworks have flagged the narrow scope of risk tolerances and limited halting commitments as gaps. xAI's litigation against Colorado SB 24-205 makes it the most visible lab opponent of state-level AI regulation in the US.",
+      "coverage": {
+        "thresh": "Quantitative-benchmark approach — emphasises specific benchmark scores (e.g., bio/chem answer rates) rather than red-lined capability thresholds. Independent reviews of frontier risk-management frameworks have flagged the narrow scope and absence of well-defined risk tolerances as gaps.",
+        "eval": "Benchmark-driven evaluations; methodology disclosed but lighter than peers. External evaluator participation limited compared with RSP, Preparedness, or FSF.",
+        "elicit": "Some adversarial testing built into evaluation; specifics not heavily disclosed. Among the thinnest elicitation regimes in published lab frameworks.",
+        "timing": "Pre-deployment evaluation only; ongoing monitoring or re-evaluation triggers not heavily specified. Less comprehensive lifecycle coverage than peers.",
+        "sec": "Some security commitments documented; specifics not fully disclosed. Generally thinner on weight-security than peers.",
+        "mit": "Some deployment safeguards described but discretionary. Less granular by capability level than RSP or Preparedness.",
+        "halt": "Limited halting commitments — independent analyses have flagged the absence of clear pause triggers. Distinguishes xAI from Meta's explicit critical-risk halt.",
+        "acct": "Limited external accountability; internal review processes. xAI's litigation against Colorado SB 24-205 makes it the most visible lab opponent of state-level AI regulation.",
+        "update": "Framework released after delay (Feb 2025); revision schedule not publicly committed."
+      }
+    },
+    {
+      "id": "eu-aio",
+      "name": "EU AI Office",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "eu",
+      "jurisdiction_name": "European Union",
+      "enforceability": 4,
+      "enforceability_name": "Binding with penalties",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+      "description": "Established Jan 2024 within DG CNECT. GPAI enforcement role Aug 2025; full enforcement Aug 2026.",
+      "context": "Coordinates AI Act implementation across member states, enforces GPAI obligations directly (a centralised role unique within EU regulatory architecture), and runs the Scientific Panel that advises on systemic risk. Can request models from providers, order recalls, and impose fines. Effectively the EU's frontier-AI regulator; partner of the AISI Network despite being an EU body rather than a national one.",
+      "coverage": {
+        "eval": "Can request evaluations from GPAI providers, including pre-deployment access for systemic-risk models. The Scientific Panel of independent experts advises on what to request and how to interpret results.",
+        "timing": "Post-market monitoring is a core function; the Office tracks deployed models for emerging risks and incidents reported by providers. The first cross-border post-market AI regulator.",
+        "mit": "Can order model recall, mitigations, or temporary restrictions on systemic-risk GPAI. Mitigation orders flow from incident reports, evaluation findings, or scientific panel advice.",
+        "halt": "Recall power functions as a halt mechanism — the Office can require a provider to withdraw a model from the EU market until mitigations are implemented (Aug 2026 onwards).",
+        "acct": "Information requests, scientific panel oversight, and direct enforcement of GPAI obligations. Centralised regulatory authority unique within EU architecture — most enforcement runs through national authorities, but GPAI sits with the Office."
+      }
+    },
+    {
+      "id": "uk-aisi",
+      "name": "UK AISI",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "uk",
+      "jurisdiction_name": "United Kingdom",
+      "enforceability": 2,
+      "enforceability_name": "Soft / advisory",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.aisi.gov.uk/",
+      "description": "Renamed UK AI Security Institute (Feb 2025). 30+ frontier models tested.",
+      "context": "Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. Without the UK AI Bill, its access remains voluntary — labs could withdraw.",
+      "coverage": {
+        "eval": "Pre-deployment testing of frontier models under voluntary access agreements with major labs. 30+ models tested; among the most active national-level frontier evaluators.",
+        "elicit": "Red-teaming, jailbreaking research, and capability elicitation are core to AISI's published outputs. Methodologies often adopted by other AISIs and lab frameworks.",
+        "timing": "Pre-deployment access agreements provide testing windows before public release; agreements are voluntary and revocable, so coverage depends on continued lab cooperation."
+      }
+    },
+    {
+      "id": "caisi",
+      "name": "US CAISI",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "us",
+      "jurisdiction_name": "US Federal",
+      "enforceability": 2,
+      "enforceability_name": "Soft / advisory",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.nist.gov/caisi",
+      "description": "Renamed from US AISI in Jun 2025. Within NIST. Mission rewritten to drop \"safety\" framing.",
+      "context": "Reframed as the Center for AI Standards and Innovation; work has shifted toward technical standards-setting (model evaluation methodology, benchmarking) and away from direct frontier-model testing. Major reduction from the AISI mandate of pre-deployment access agreements with major labs. In practice US frontier evaluation has migrated toward third-party evaluators (METR, Apollo, AVERI) for the testing capacity CAISI no longer prioritises.",
+      "coverage": {
+        "eval": "Standards work via NIST (model evaluation methodology, benchmarking) — direct frontier-model testing has been reduced under the post-rename mission. The shift has moved testing capacity to third-party evaluators (METR, Apollo, AVERI).",
+        "acct": "Standards-setting via NIST functions as soft accountability — published methodologies are widely adopted but carry no enforcement. Direct evaluation accountability has migrated outside the agency."
+      }
+    },
+    {
+      "id": "other-aisis",
+      "name": "Other national AISIs",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "as",
+      "jurisdiction_name": "Asia (other)",
+      "enforceability": 2,
+      "enforceability_name": "Soft / advisory",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "description": "Singapore (DTC + AI Verify), Japan (J-AISI), France (INESIA), Korea, Canada, Australia, Kenya, India (IndiaAISI).",
+      "context": "Capacity varies substantially: Singapore's DTC + AI Verify package is the most operational (active testing); France's INESIA hosts EU-wide evaluation tooling; J-AISI focuses on standards alignment; Indian and African AISIs are still scaling. Coordinated through the AISI Network, which provides distribution; the substantive testing capacity is concentrated in UK/US/Singapore.",
+      "coverage": {
+        "eval": "National-level frontier model testing varies substantially: Singapore's DTC + AI Verify package is the most operational; J-AISI focuses on standards alignment; INESIA hosts EU-wide tooling. India and Africa are still scaling.",
+        "elicit": "Various elicitation methodologies in use, often shared through the AISI Network. Capacity concentrated in UK/US/Singapore; other members benefit from network distribution.",
+        "timing": "Pre-deployment access agreements vary by member — Singapore and Japan have working arrangements with regional labs; most other members rely on AISI Network sharing."
+      }
+    },
+    {
+      "id": "metr",
+      "name": "METR",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "co",
+      "jurisdiction_name": "Corporate / global",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://metr.org/",
+      "description": "Independent evaluator. Authors the \"Common Elements\" analysis itself.",
+      "context": "Specialises in autonomous-task evaluation — measuring how long, how reliably, and how independently a model can complete real software-engineering, research, or operational tasks. Maintains the cross-lab catalogue of capability thresholds that the orthogonal view of this map uses. The 'common elements' analysis is the conceptual taxonomy that surfaced the gaps between lab frameworks.",
+      "coverage": {
+        "thresh": "Maintains the cross-lab catalogue of capability thresholds that the orthogonal view of this map uses. The Common Elements analysis identified gaps and inconsistencies between lab frameworks that prompted SB 53 and EU GPAI Code drafting.",
+        "eval": "Independent capability evaluations conducted under access agreements with frontier labs (Anthropic, OpenAI, Google DeepMind). Specialises in autonomous-task evaluation — measuring how long, how reliably, and how independently a model can complete real tasks.",
+        "elicit": "Specialises in autonomous-task elicitation — agentic scaffolding, long-horizon task completion, and capability discovery in real software-engineering and research workflows. Distinct from Apollo's scheming-detection focus."
+      }
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo Research",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "co",
+      "jurisdiction_name": "Corporate / global",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.apolloresearch.ai/",
+      "description": "Independent evaluator focused on deceptive alignment. Findings shaped lab eval suites and Intl AI Safety Report.",
+      "context": "Researches whether frontier models will scheme — strategically deceive evaluators, exfiltrate, or sandbag during testing. Published the 2024 paper that brought scheming evaluations into mainstream lab practice; findings flagged in the Feb 2026 Intl AI Safety Report sandbagging discussion. Influence is methodological rather than scaled: a small lab whose evaluation approach has been adopted across the field.",
+      "coverage": {
+        "eval": "Specialised evaluations focused on deceptive alignment, scheming, and sandbagging. Findings flagged in the Feb 2026 Intl AI Safety Report sandbagging discussion.",
+        "elicit": "Established the dominant external methodology for scheming detection — controlled stress-tests for whether models strategically deceive evaluators, exfiltrate, or sandbag. The conceptual frame (deceptive alignment, mesa-optimisation) predates Apollo, but their 2024 paper was the inflection point that brought scheming evaluations into mainstream lab practice — cited as input to GDM's FSF v2, used in OpenAI's o1 system card and Preparedness v2, and referenced in Anthropic's Claude system cards."
+      }
+    },
+    {
+      "id": "averi",
+      "name": "AVERI",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "co",
+      "jurisdiction_name": "Corporate / global",
+      "enforceability": 1,
+      "enforceability_name": "Voluntary",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.averi.org/",
+      "description": "AI Verification and Evaluation Research Institute (Jan 2026, Brundage). Targets the auditing-capacity bottleneck.",
+      "context": "501(c)(3) launched Jan 15, 2026 by Miles Brundage (formerly OpenAI policy lead). Published an 'AI Assurance Levels' framework on launch — analogous to safety integrity levels in other industries — designed to give regulators and labs a shared scaffold for third-party auditing. Aimed squarely at the bottleneck the EU AI Act exposes: there are far more obligations to verify than independent auditors qualified to verify them.",
+      "coverage": {
+        "eval": "Third-party verification capacity for AI assurance — analogous to safety integrity levels in other industries. Aimed at the bottleneck the EU AI Act exposes: more obligations to verify than independent auditors qualified to verify them.",
+        "acct": "Independent verification mechanism for frontier AI assurance. Builds on METR and Apollo evaluation work; targets regulatory infrastructure rather than direct lab evaluation."
+      }
+    },
+    {
+      "id": "bis",
+      "name": "US BIS export controls",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "us",
+      "jurisdiction_name": "US Federal",
+      "enforceability": 4,
+      "enforceability_name": "Binding with penalties",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.bis.gov/",
+      "description": "Bureau of Industry and Security chip export rules (2022, 2023, 2024). Most consequential single piece — shapes who can train at the frontier.",
+      "context": "Successive rules tightened export-licence requirements for advanced compute (GPUs, fabrication tools, lithography) to China and other concerns; the 2024 update added compute-tier thresholds tied to model-training scale. Operates outside the safety-regulation framing — its lever is who can build frontier models at all, not what they must do once built. The single most consequential piece of US AI policy by impact, even though it isn't framed as 'AI regulation.'",
+      "coverage": {
+        "thresh": "Compute thresholds tied to model-training scale govern export-licence requirements for advanced GPUs, fabrication tools, and lithography. The 2024 update introduced an explicit framework tying export controls to AI capability.",
+        "sec": "Restricts adversaries from training-frontier-capable hardware — adjacent to but distinct from weight security. The lever is who can build frontier models at all, not what they must do once built."
+      }
+    },
+    {
+      "id": "nist-rmf",
+      "name": "NIST AI RMF",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "us",
+      "jurisdiction_name": "US Federal",
+      "enforceability": 2,
+      "enforceability_name": "Soft / advisory",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "description": "NIST AI Risk Management Framework (2023, GenAI Profile 2024). De facto global reference.",
+      "context": "Voluntary framework structured around four functions — Govern, Map, Measure, Manage — applied across the AI lifecycle. Embedded into procurement, agency policy, and corporate compliance programs even outside the US. Doesn't impose obligations itself but is referenced by sector regulators (financial, healthcare) and informs the EU GPAI Code structure.",
+      "coverage": {
+        "mit": "Risk management framework structured around four functions — Govern, Map, Measure, Manage — applied across the AI lifecycle. Voluntary but referenced by sector regulators (financial, healthcare) and embedded in procurement and corporate compliance programs.",
+        "acct": "Transparency principles and the Govern function provide soft accountability scaffolding. Doesn't impose obligations itself; informs the EU GPAI Code structure.",
+        "update": "Lifecycle approach with built-in iteration; the 2024 GenAI Profile extended the framework to generative AI without changing the core structure."
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "aisr",
+      "to": "ai-summits",
+      "relationship": "AISR is the scientific input to summit declarations"
+    },
+    {
+      "from": "aisr",
+      "to": "aisi-net",
+      "relationship": "AISIs contribute evidence; AISR shapes priorities"
+    },
+    {
+      "from": "aisr",
+      "to": "metr",
+      "relationship": "METR contributes capability evidence to AISR"
+    },
+    {
+      "from": "aisr",
+      "to": "apollo",
+      "relationship": "Apollo contributes scheming evidence to AISR"
+    },
+    {
+      "from": "aisi-net",
+      "to": "uk-aisi",
+      "relationship": "UK AISI is a founding network member"
+    },
+    {
+      "from": "aisi-net",
+      "to": "caisi",
+      "relationship": "CAISI represents the US in the network"
+    },
+    {
+      "from": "aisi-net",
+      "to": "eu-aio",
+      "relationship": "EU AI Office's Safety Unit is part of the network"
+    },
+    {
+      "from": "aisi-net",
+      "to": "other-aisis",
+      "relationship": "Singapore, Japan, France, Korea, Canada, Australia, Kenya, India participate"
+    },
+    {
+      "from": "aisi-net",
+      "to": "ai-summits",
+      "relationship": "Network was launched at the May 2024 Seoul summit"
+    },
+    {
+      "from": "ai-summits",
+      "to": "seoul-commit",
+      "relationship": "Seoul commitments came out of the 2024 summit"
+    },
+    {
+      "from": "ai-summits",
+      "to": "delhi-commit",
+      "relationship": "Delhi commitments came out of the Feb 2026 summit"
+    },
+    {
+      "from": "oecd",
+      "to": "hiroshima",
+      "relationship": "OECD principles inform the G7 Hiroshima Code"
+    },
+    {
+      "from": "coe-ai",
+      "to": "eu-aia",
+      "relationship": "CoE Convention is the international treaty layer above EU AI Act"
+    },
+    {
+      "from": "coe-ai",
+      "to": "uk-bill",
+      "relationship": "CoE Convention shapes UK AI Bill drafting"
+    },
+    {
+      "from": "us-eo14179",
+      "to": "us-action",
+      "relationship": "EO 14179 ordered the Jul 2025 AI Action Plan"
+    },
+    {
+      "from": "us-eo14179",
+      "to": "us-preempt",
+      "relationship": "Trump EO sequence — preemption builds on EO 14179"
+    },
+    {
+      "from": "us-eo14179",
+      "to": "caisi",
+      "relationship": "EO led to AISI rename to CAISI in Jun 2025"
+    },
+    {
+      "from": "us-action",
+      "to": "us-preempt",
+      "relationship": "Action Plan called for preemption of state laws"
+    },
+    {
+      "from": "cn-genai",
+      "to": "cn-ai-law",
+      "relationship": "GenAI Measures will be folded into the AI Law"
+    },
+    {
+      "from": "uk-bill",
+      "to": "uk-aisi",
+      "relationship": "AI Bill would put AISI on a statutory footing"
+    },
+    {
+      "from": "us-preempt",
+      "to": "ca-sb53",
+      "relationship": "Preemption EO targets SB 53; DOJ task force can challenge"
+    },
+    {
+      "from": "us-preempt",
+      "to": "co-aia",
+      "relationship": "DOJ intervened in xAI v. Colorado Apr 24, 2026"
+    },
+    {
+      "from": "us-preempt",
+      "to": "ny-raise",
+      "relationship": "Preemption EO targets RAISE Act"
+    },
+    {
+      "from": "eu-aia",
+      "to": "eu-aio",
+      "relationship": "EU AI Office is the regulator implementing EU AI Act"
+    },
+    {
+      "from": "ca-sb53",
+      "to": "rsp",
+      "relationship": "SB 53 codifies the published-framework norm Anthropic exemplified"
+    },
+    {
+      "from": "ca-sb53",
+      "to": "prep",
+      "relationship": "SB 53 codifies the published-framework norm OpenAI exemplified"
+    },
+    {
+      "from": "ca-sb53",
+      "to": "fsf",
+      "relationship": "SB 53 codifies the published-framework norm DeepMind exemplified"
+    },
+    {
+      "from": "ca-sb53",
+      "to": "meta-faif",
+      "relationship": "SB 53 covers Meta's framework"
+    },
+    {
+      "from": "ny-raise",
+      "to": "ca-sb53",
+      "relationship": "RAISE Act amendments aligned thresholds with SB 53"
+    },
+    {
+      "from": "seoul-commit",
+      "to": "rsp",
+      "relationship": "Seoul commitments triggered RSP's first public version"
+    },
+    {
+      "from": "seoul-commit",
+      "to": "prep",
+      "relationship": "Seoul commitments triggered the Preparedness Framework"
+    },
+    {
+      "from": "seoul-commit",
+      "to": "fsf",
+      "relationship": "Seoul commitments triggered the Frontier Safety Framework"
+    },
+    {
+      "from": "seoul-commit",
+      "to": "meta-faif",
+      "relationship": "Meta's framework followed Seoul (delayed)"
+    },
+    {
+      "from": "seoul-commit",
+      "to": "xai-rmf",
+      "relationship": "xAI's framework followed Seoul (delayed, thinner)"
+    },
+    {
+      "from": "gpai-cop",
+      "to": "eu-aia",
+      "relationship": "GPAI Code is the voluntary route to EU AI Act compliance"
+    },
+    {
+      "from": "gpai-cop",
+      "to": "rsp",
+      "relationship": "Anthropic signed all three chapters"
+    },
+    {
+      "from": "gpai-cop",
+      "to": "prep",
+      "relationship": "OpenAI signed all three chapters"
+    },
+    {
+      "from": "gpai-cop",
+      "to": "fsf",
+      "relationship": "Google signed all three chapters"
+    },
+    {
+      "from": "gpai-cop",
+      "to": "meta-faif",
+      "relationship": "Meta declined to sign"
+    },
+    {
+      "from": "gpai-cop",
+      "to": "xai-rmf",
+      "relationship": "xAI signed only the safety chapter"
+    },
+    {
+      "from": "gpai-cop",
+      "to": "eu-aio",
+      "relationship": "EU AI Office runs and oversees the CoP"
+    },
+    {
+      "from": "hiroshima",
+      "to": "jp-ai",
+      "relationship": "Japan champions Hiroshima Process; Promotion Act reflects same approach"
+    },
+    {
+      "from": "fmf",
+      "to": "rsp",
+      "relationship": "Anthropic is an FMF founding member"
+    },
+    {
+      "from": "fmf",
+      "to": "prep",
+      "relationship": "OpenAI is an FMF founding member"
+    },
+    {
+      "from": "fmf",
+      "to": "fsf",
+      "relationship": "Google is an FMF founding member"
+    },
+    {
+      "from": "fmf",
+      "to": "meta-faif",
+      "relationship": "Meta later joined FMF"
+    },
+    {
+      "from": "metr",
+      "to": "rsp",
+      "relationship": "METR conducts capability evaluations for Anthropic"
+    },
+    {
+      "from": "metr",
+      "to": "prep",
+      "relationship": "METR conducts capability evaluations for OpenAI"
+    },
+    {
+      "from": "metr",
+      "to": "fsf",
+      "relationship": "METR conducts capability evaluations for DeepMind"
+    },
+    {
+      "from": "apollo",
+      "to": "rsp",
+      "relationship": "Apollo evaluates Anthropic models for scheming"
+    },
+    {
+      "from": "apollo",
+      "to": "fsf",
+      "relationship": "Apollo evaluates DeepMind models for scheming"
+    },
+    {
+      "from": "uk-aisi",
+      "to": "rsp",
+      "relationship": "UK AISI tested Anthropic models pre-deployment"
+    },
+    {
+      "from": "uk-aisi",
+      "to": "prep",
+      "relationship": "UK AISI tested OpenAI models pre-deployment"
+    },
+    {
+      "from": "uk-aisi",
+      "to": "fsf",
+      "relationship": "UK AISI tested DeepMind models pre-deployment"
+    },
+    {
+      "from": "caisi",
+      "to": "nist-rmf",
+      "relationship": "CAISI sits within NIST alongside the AI RMF"
+    },
+    {
+      "from": "averi",
+      "to": "metr",
+      "relationship": "AVERI builds on METR's evaluation work"
+    },
+    {
+      "from": "averi",
+      "to": "apollo",
+      "relationship": "AVERI builds on Apollo's evaluation work"
+    }
+  ]
+}
