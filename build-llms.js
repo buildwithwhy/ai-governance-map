@@ -26,9 +26,9 @@ const LAYERS = {
   1: { name: 'International', desc: 'Multilateral norms and summits' },
   2: { name: 'National regulation', desc: 'Statutes, executive orders, agencies' },
   3: { name: 'Sub-national', desc: 'US states acting where federal regulation is absent' },
-  4: { name: 'Industry voluntary', desc: 'Cross-firm commitments and codes' },
-  5: { name: 'Corporate self-governance', desc: 'Frontier safety frameworks at each lab' },
-  6: { name: 'Infrastructure', desc: 'Regulators, AISIs, evaluators, compute controls' },
+  4: { name: 'Infrastructure', desc: 'Regulators, AISIs, evaluators, compute controls' },
+  5: { name: 'Industry voluntary', desc: 'Cross-firm commitments and codes' },
+  6: { name: 'Corporate self-governance', desc: 'Frontier safety frameworks at each lab' },
 };
 
 const SITE_URL = 'https://ai-governance-map.buildwithwhy.com';
@@ -47,7 +47,7 @@ full += `Updated: ${UPDATED}\n\n`;
 
 full += `## Overview\n\n`;
 full += `An interactive map of frontier AI governance: six layers across the rows, METR's nine common elements as an orthogonal filter. Each mechanism is mapped to its layer (who acts) and to which of METR's elements it covers (what it addresses). The empty cells of the orthogonal coverage view are as informative as the filled ones.\n\n`;
-full += `The map organises by *who acts*, not *what they regulate*: the EU AI Act sits in Layer 2 (statute), the EU AI Office in Layer 6 (the institution enforcing it).\n\n`;
+full += `The map organises by *who acts*, not *what they regulate*: the EU AI Act sits in Layer 2 (statute), the EU AI Office in Layer 4 (the institution enforcing it).\n\n`;
 
 full += `## Stats\n\n`;
 const counts = { voluntary: 0, binding: 0 };

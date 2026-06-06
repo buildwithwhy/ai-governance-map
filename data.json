@@ -39,18 +39,18 @@
     },
     {
       "number": 4,
+      "name": "Infrastructure",
+      "description": "Regulators, AISIs, evaluators, compute controls"
+    },
+    {
+      "number": 5,
       "name": "Industry voluntary",
       "description": "Cross-firm commitments and codes"
     },
     {
-      "number": 5,
+      "number": 6,
       "name": "Corporate self-governance",
       "description": "Frontier safety frameworks at each lab"
-    },
-    {
-      "number": 6,
-      "name": "Infrastructure",
-      "description": "Regulators, AISIs, evaluators, compute controls"
     }
   ],
   "categories": [
@@ -457,7 +457,7 @@
       "status_name": "In force",
       "primary_source": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
       "description": "Transparency in Frontier AI Act. Effective Jan 1, 2026. >10²⁶ FLOPs, >$500M revenue. Penalties up to $1M/violation.",
-      "context": "Requires 'large frontier developers' to publish a frontier safety framework, report critical safety incidents within 15 days, and submit annual transparency reports. Whistleblower protections for employees flagging safety issues. The first US state law to codify the published-framework norm — explicitly anchors against Layer 5 lab frameworks rather than reinventing obligations.",
+      "context": "Requires 'large frontier developers' to publish a frontier safety framework, report critical safety incidents within 15 days, and submit annual transparency reports. Whistleblower protections for employees flagging safety issues. The first US state law to codify the published-framework norm — explicitly anchors against Layer 6 lab frameworks rather than reinventing obligations.",
       "coverage": {
         "thresh": "Eligibility for the law's obligations: cumulative compute >10²⁶ FLOPs and revenue >$500M. Below these thresholds developers are exempt — the law explicitly targets the largest frontier developers, anchoring against Anthropic, OpenAI, Google, Microsoft, Meta, and xAI.",
         "mit": "Frontier safety frameworks must address how the developer identifies and mitigates risks, including pre-deployment evaluations and deployment safeguards. Substantive obligations are framework-level — what the framework must contain, not which specific mitigations to use.",
@@ -530,7 +530,7 @@
     {
       "id": "seoul-commit",
       "name": "Seoul commitments",
-      "layer": 4,
+      "layer": 5,
       "layer_name": "Industry voluntary",
       "jurisdiction": "mu",
       "jurisdiction_name": "Multilateral",
@@ -551,7 +551,7 @@
     {
       "id": "hiroshima",
       "name": "Hiroshima Process",
-      "layer": 4,
+      "layer": 5,
       "layer_name": "Industry voluntary",
       "jurisdiction": "mu",
       "jurisdiction_name": "Multilateral",
@@ -573,7 +573,7 @@
     {
       "id": "gpai-cop",
       "name": "EU GPAI Code of Practice",
-      "layer": 4,
+      "layer": 5,
       "layer_name": "Industry voluntary",
       "jurisdiction": "eu",
       "jurisdiction_name": "European Union",
@@ -598,7 +598,7 @@
     {
       "id": "fmf",
       "name": "Frontier Model Forum",
-      "layer": 4,
+      "layer": 5,
       "layer_name": "Industry voluntary",
       "jurisdiction": "co",
       "jurisdiction_name": "Corporate / global",
@@ -617,7 +617,7 @@
     {
       "id": "delhi-commit",
       "name": "Delhi commitments",
-      "layer": 4,
+      "layer": 5,
       "layer_name": "Industry voluntary",
       "jurisdiction": "mu",
       "jurisdiction_name": "Multilateral",
@@ -636,7 +636,7 @@
     {
       "id": "pai",
       "name": "Partnership on AI",
-      "layer": 4,
+      "layer": 5,
       "layer_name": "Industry voluntary",
       "jurisdiction": "co",
       "jurisdiction_name": "Corporate / global",
@@ -655,7 +655,7 @@
     {
       "id": "rsp",
       "name": "Anthropic RSP",
-      "layer": 5,
+      "layer": 6,
       "layer_name": "Corporate self-governance",
       "jurisdiction": "co",
       "jurisdiction_name": "Corporate / global",
@@ -681,7 +681,7 @@
     {
       "id": "prep",
       "name": "OpenAI Preparedness",
-      "layer": 5,
+      "layer": 6,
       "layer_name": "Corporate self-governance",
       "jurisdiction": "co",
       "jurisdiction_name": "Corporate / global",
@@ -707,7 +707,7 @@
     {
       "id": "fsf",
       "name": "GDM Frontier Safety Framework",
-      "layer": 5,
+      "layer": 6,
       "layer_name": "Corporate self-governance",
       "jurisdiction": "co",
       "jurisdiction_name": "Corporate / global",
@@ -733,7 +733,7 @@
     {
       "id": "meta-faif",
       "name": "Meta Frontier AI Framework",
-      "layer": 5,
+      "layer": 6,
       "layer_name": "Corporate self-governance",
       "jurisdiction": "co",
       "jurisdiction_name": "Corporate / global",
@@ -759,7 +759,7 @@
     {
       "id": "xai-rmf",
       "name": "xAI Risk Mgmt Framework",
-      "layer": 5,
+      "layer": 6,
       "layer_name": "Corporate self-governance",
       "jurisdiction": "co",
       "jurisdiction_name": "Corporate / global",
@@ -785,7 +785,7 @@
     {
       "id": "eu-aio",
       "name": "EU AI Office",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "eu",
       "jurisdiction_name": "European Union",
@@ -807,7 +807,7 @@
     {
       "id": "uk-aisi",
       "name": "UK AISI",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "uk",
       "jurisdiction_name": "United Kingdom",
@@ -827,7 +827,7 @@
     {
       "id": "caisi",
       "name": "US CAISI",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "us",
       "jurisdiction_name": "US Federal",
@@ -846,7 +846,7 @@
     {
       "id": "other-aisis",
       "name": "Other national AISIs",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "as",
       "jurisdiction_name": "Asia (other)",
@@ -866,7 +866,7 @@
     {
       "id": "metr",
       "name": "METR",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "co",
       "jurisdiction_name": "Corporate / global",
@@ -886,7 +886,7 @@
     {
       "id": "apollo",
       "name": "Apollo Research",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "co",
       "jurisdiction_name": "Corporate / global",
@@ -905,7 +905,7 @@
     {
       "id": "averi",
       "name": "AVERI",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "co",
       "jurisdiction_name": "Corporate / global",
@@ -924,7 +924,7 @@
     {
       "id": "cais",
       "name": "Center for AI Safety",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "co",
       "jurisdiction_name": "Corporate / global",
@@ -945,7 +945,7 @@
     {
       "id": "fsi",
       "name": "Frontier Security Institute",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "co",
       "jurisdiction_name": "Corporate / global",
@@ -965,7 +965,7 @@
     {
       "id": "uk-ofcom",
       "name": "UK Ofcom",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "uk",
       "jurisdiction_name": "United Kingdom",
@@ -985,7 +985,7 @@
     {
       "id": "uk-ico",
       "name": "UK ICO",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "uk",
       "jurisdiction_name": "United Kingdom",
@@ -1005,7 +1005,7 @@
     {
       "id": "us-ftc",
       "name": "US FTC",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "us",
       "jurisdiction_name": "US Federal",
@@ -1025,7 +1025,7 @@
     {
       "id": "au-esafety",
       "name": "Australia eSafety Commissioner",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "as",
       "jurisdiction_name": "Asia (other)",
@@ -1045,7 +1045,7 @@
     {
       "id": "co-doi",
       "name": "Colorado Division of Insurance",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "uss",
       "jurisdiction_name": "US State",
@@ -1066,7 +1066,7 @@
     {
       "id": "imda",
       "name": "Singapore IMDA",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "as",
       "jurisdiction_name": "Asia (other)",
@@ -1087,7 +1087,7 @@
     {
       "id": "jp-sectors",
       "name": "Japan sectoral AI regulators",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "as",
       "jurisdiction_name": "Asia (other)",
@@ -1107,7 +1107,7 @@
     {
       "id": "bis",
       "name": "US BIS export controls",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "us",
       "jurisdiction_name": "US Federal",
@@ -1126,7 +1126,7 @@
     {
       "id": "nist-rmf",
       "name": "NIST AI RMF",
-      "layer": 6,
+      "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "us",
       "jurisdiction_name": "US Federal",

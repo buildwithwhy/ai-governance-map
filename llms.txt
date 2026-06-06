@@ -19,9 +19,9 @@ Web version: https://ai-governance-map.buildwithwhy.com
 - Layer 1 — International: Multilateral norms and summits
 - Layer 2 — National regulation: Statutes, executive orders, agencies
 - Layer 3 — Sub-national: US states acting where federal regulation is absent
-- Layer 4 — Industry voluntary: Cross-firm commitments and codes
-- Layer 5 — Corporate self-governance: Frontier safety frameworks at each lab
-- Layer 6 — Infrastructure: Regulators, AISIs, evaluators, compute controls
+- Layer 4 — Infrastructure: Regulators, AISIs, evaluators, compute controls
+- Layer 5 — Industry voluntary: Cross-firm commitments and codes
+- Layer 6 — Corporate self-governance: Frontier safety frameworks at each lab
 
 **Coverage categories** (METR's nine common elements, applied as orthogonal filter):
 

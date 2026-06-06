@@ -27,9 +27,9 @@ assignees: ''
 - [ ] Layer 1 — International (multilateral norms and summits)
 - [ ] Layer 2 — National regulation (statutes, executive orders, agencies)
 - [ ] Layer 3 — Sub-national (US states acting where federal regulation is absent)
-- [ ] Layer 4 — Industry voluntary (cross-firm commitments and codes)
-- [ ] Layer 5 — Corporate self-governance (frontier safety frameworks at each lab)
-- [ ] Layer 6 — Infrastructure (regulators, AISIs, evaluators, compute controls)
+- [ ] Layer 4 — Infrastructure (regulators, AISIs, evaluators, compute controls)
+- [ ] Layer 5 — Industry voluntary (cross-firm commitments and codes)
+- [ ] Layer 6 — Corporate self-governance (frontier safety frameworks at each lab)
 
 ## What should change
 
