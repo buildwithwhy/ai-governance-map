@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Frontier AI Governance Map — AI Regulatory Tracker</title>
-<meta name="description" content="Interactive map of 42 frontier AI governance mechanisms across six layers — international, national, sub-national, voluntary, lab, infrastructure — using METR's nine common elements.">
+<meta name="description" content="Interactive map of 47 frontier AI governance mechanisms across six layers — international, national, sub-national, voluntary, lab, infrastructure — using METR's nine common elements.">
 
 <link rel="canonical" href="https://ai-governance-map.buildwithwhy.com/">
 
 <meta property="og:title" content="Frontier AI Governance Map — AI Regulatory Tracker">
-<meta property="og:description" content="Interactive map of 42 frontier AI governance mechanisms across six layers and METR's nine common elements.">
+<meta property="og:description" content="Interactive map of 47 frontier AI governance mechanisms across six layers and METR's nine common elements.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ai-governance-map.buildwithwhy.com/">
 <meta property="og:image" content="https://ai-governance-map.buildwithwhy.com/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Frontier AI Governance Map — AI Regulatory Tracker">
-<meta name="twitter:description" content="Interactive map of 42 frontier AI governance mechanisms across six layers and METR's nine common elements.">
+<meta name="twitter:description" content="Interactive map of 47 frontier AI governance mechanisms across six layers and METR's nine common elements.">
 <meta name="twitter:image" content="https://ai-governance-map.buildwithwhy.com/og.png">
 
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -30,7 +30,7 @@
   "@type": "Dataset",
   "name": "Frontier AI Governance Map",
   "alternateName": "AI Regulatory Tracker",
-  "description": "Interactive map of 42 frontier AI governance mechanisms across six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter.",
+  "description": "Interactive map of 47 frontier AI governance mechanisms across six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter.",
   "url": "https://ai-governance-map.buildwithwhy.com/",
   "sameAs": "https://github.com/buildwithwhy/ai-governance-map",
   "dateModified": "2026-06-06",
@@ -348,9 +348,9 @@
   </noscript>
 
   <div class="stats" role="list">
-    <div class="stat" role="listitem"><div class="num">42</div><div class="lbl">mechanisms mapped</div></div>
+    <div class="stat" role="listitem"><div class="num">47</div><div class="lbl">mechanisms mapped</div></div>
     <div class="stat" role="listitem"><div class="num">19</div><div class="lbl">voluntary or norm-only</div></div>
-    <div class="stat" role="listitem"><div class="num">7</div><div class="lbl">binding with penalties</div></div>
+    <div class="stat" role="listitem"><div class="num">11</div><div class="lbl">binding with penalties</div></div>
     <div class="stat" role="listitem"><div class="num">9</div><div class="lbl">coverage categories</div></div>
   </div>
 
@@ -822,6 +822,47 @@ const ENTITIES = [
       eval: "Researches how national-security operators test and use frontier models, including pre-deployment risk evaluation in classified settings.",
       acct: "Policy translation between frontier labs and US national-security institutions; aims to make lab safety commitments legible to national-security review processes."
     } },
+  { id: 'uk-ofcom', link: 'https://www.ofcom.org.uk/online-safety', name: 'UK Ofcom', layer: 6, jur: 'uk', pow: 4, status: 'active',
+    desc: 'Communications regulator with AI-specific enforcement authority under the Online Safety Act 2023. Fines up to £18M or 10% of global revenue.',
+    context: "Originally telecoms and broadcasting regulator; the Online Safety Act 2023 added enforcement authority over AI-generated harmful content (deepfakes, non-consensual intimate imagery, CSAM, fraud) on Category 1 services. The Illegal Content Codes of Practice (2025) include AI-specific provisions for image-generation safeguards and content authentication. Shapes how labs ship image/video generators into the UK market, even though it doesn't target frontier developers directly.",
+    cov: {
+      timing: "Post-deployment monitoring of online services, with takedown obligations for AI-generated illegal content.",
+      mit: "Codes of Practice require content authentication, age verification, and safeguards on AI-generated harmful content for in-scope services.",
+      acct: "Ofcom can issue fines up to £18M or 10% of global revenue, plus business-disruption orders. Among the most enforceable AI-content regimes in any common-law jurisdiction."
+    } },
+  { id: 'uk-ico', link: 'https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/', name: 'UK ICO', layer: 6, jur: 'uk', pow: 4, status: 'active',
+    desc: "Information Commissioner's Office — data protection regulator with binding AI guidance under UK GDPR. Fines up to £17.5M or 4% of global revenue.",
+    context: "Regulates how organisations train on, deploy, and explain AI under UK GDPR. The AI Auditing Framework (2020, updated 2023) and the Guidance on AI and Data Protection set binding expectations for lawful basis, fairness, transparency, and Data Protection Impact Assessments for AI systems. Has investigated Clearview AI, Snap My AI, and others — operates as the UK's de facto frontier-AI privacy regulator alongside any future AISI statutory mandate.",
+    cov: {
+      eval: "Data Protection Impact Assessments are required for high-risk AI processing; the AI Auditing Framework specifies evaluation methodology.",
+      mit: "Binding guidance on fairness, transparency, lawful basis, and explainability for AI deployments touching personal data.",
+      acct: "Investigations and fines up to £17.5M or 4% of global revenue; operates as the UK's privacy-rights regulator for AI."
+    } },
+  { id: 'us-ftc', link: 'https://www.ftc.gov/business-guidance/blog/ai-tools-and-related-products-services', name: 'US FTC', layer: 6, jur: 'us', pow: 3, status: 'active',
+    desc: 'Federal Trade Commission enforces consumer-protection law against deceptive or unfair AI practices under Section 5. No AI-specific statutory authority.',
+    context: "Active enforcement against deceptive AI claims and harmful AI deployments under existing consumer-protection authority. Operation AI Comply (Sept 2024) brought five cases against AI hype, fake reviews, and unsubstantiated claims; the Rite Aid biometric AI case (2024) banned facial recognition use for five years. Less direct frontier-developer relevance than the EU AI Office, but shapes deployment practice through enforcement signals. Operates in some tension with the DOJ Litigation Task Force — DOJ challenges state AI rules while FTC enforces federal consumer law against AI.",
+    cov: {
+      mit: "Enforcement against deceptive AI claims, fake reviews, harmful AI deployments, and biometric-AI misuse.",
+      acct: "Section 5 enforcement; consent decrees with operational restrictions (e.g., the Rite Aid five-year facial-recognition ban).",
+      update: "AI enforcement priorities published in FTC business guidance and AI-specific blog posts."
+    } },
+  { id: 'au-esafety', link: 'https://www.esafety.gov.au/industry/codes', name: 'Australia eSafety Commissioner', layer: 6, jur: 'as', pow: 4, status: 'active',
+    desc: "World's first online safety regulator (established 2015), with AI-specific enforcement authority under the Online Safety Act 2021.",
+    context: "Issues binding industry Codes and Standards (including for AI-generated content) under the Online Safety Act 2021. The 2024 Industry Standards mandate proactive safeguards against AI-generated CSAM and pro-terror material from Designated Internet Services. Takedown powers, civil penalties up to AUD 782,500 per contravention, and business-disruption orders. The leading non-EU model for AI-content regulation with binding effect; influences regulatory templates in the Five Eyes and broader Asia-Pacific.",
+    cov: {
+      timing: "Proactive obligations to prevent AI-generated illegal content at design and deployment stages, not just reactive takedowns.",
+      mit: "Industry Standards mandate safeguards on AI-generated illegal content (CSAM, pro-terror material) for Designated Internet Services.",
+      acct: "Civil penalties up to AUD 782,500 per contravention; takedown notices; service-disruption orders."
+    } },
+  { id: 'co-doi', link: 'https://doi.colorado.gov/category/ai', name: 'Colorado Division of Insurance', layer: 6, jur: 'uss', pow: 4, status: 'active',
+    desc: 'First US state-level sectoral AI regulator. Regulation 10-1-1 (effective Nov 14, 2023) governs algorithm and predictive-model use by insurance carriers.',
+    context: "Predates every comprehensive US state AI law. Requires insurance carriers to implement an algorithm and predictive-model governance framework, conduct bias testing, document model assumptions, and submit attestations — applied to life insurance first, then expanded to private passenger auto. Followed by similar adoptions in other states via the NAIC Model Bulletin on AI (Dec 2023). The historical anchor that complicates 'first sectoral AI regulator' claims about later state laws like NY RAISE's DFS office.",
+    cov: {
+      eval: "Algorithm governance framework with mandatory bias testing and documented model assumptions for in-scope insurance lines.",
+      mit: "Risk management framework for predictive models used in insurance underwriting, including data-source review and outcome monitoring.",
+      acct: "Carrier attestations to the Division of Insurance; sectoral oversight under existing insurance regulatory authority.",
+      update: "Periodic guidance updates; framework adopted as template by other state insurance regulators via NAIC Model Bulletin."
+    } },
   { id: 'bis', link: 'https://www.bis.gov/', name: 'US BIS export controls', layer: 6, jur: 'us', pow: 4, status: 'active',
     desc: 'Bureau of Industry and Security chip export rules (2022, 2023, 2024). Most consequential single piece — shapes who can train at the frontier.',
     context: "Successive rules tightened export-licence requirements for advanced compute (GPUs, fabrication tools, lithography) to China and other concerns; the 2024 update added compute-tier thresholds tied to model-training scale. May 31, 2026 guidance closed a key loophole by confirming the ultimate-parent-company test applies — any subsidiary worldwide whose ultimate parent is in the restricted countries list needs a US license. Operates outside the safety-regulation framing — its lever is who can build frontier models at all, not what they must do once built. The single most consequential piece of US AI policy by impact, even though it isn't framed as 'AI regulation.'",
@@ -903,7 +944,18 @@ const EDGES = [
   { a: 'cais', b: 'fsi', rel: 'FSI is CAIS\'s DC-based national-security affiliate' },
   { a: 'fsi', b: 'caisi', rel: 'Both work on national-security review of frontier models' },
   { a: 'fsi', b: 'us-frontier-access-eo', rel: "FSI's policy translation aligns with the EO's national-security review framework" },
-  { a: 'cais', b: 'aisr', rel: "CAIS's 2023 Statement on AI Risk shaped the discourse the AISR formalises" }
+  { a: 'cais', b: 'aisr', rel: "CAIS's 2023 Statement on AI Risk shaped the discourse the AISR formalises" },
+  { a: 'uk-ofcom', b: 'uk-aisi', rel: 'Complementary UK AI institutions — Ofcom on content, AISI on capabilities' },
+  { a: 'uk-ofcom', b: 'uk-bill', rel: 'UK AI Bill would clarify the boundary between Ofcom (content) and AISI (frontier)' },
+  { a: 'uk-ofcom', b: 'au-esafety', rel: 'Parallel online-safety regulators with AI-specific authority' },
+  { a: 'uk-ico', b: 'uk-aisi', rel: 'Complementary UK AI regulators — ICO on data, AISI on capabilities' },
+  { a: 'uk-ico', b: 'uk-bill', rel: "UK AI Bill would clarify ICO's role alongside AISI" },
+  { a: 'uk-ico', b: 'eu-aia', rel: 'UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards' },
+  { a: 'us-ftc', b: 'us-action', rel: 'FTC operates alongside the Action Plan, enforcing federal consumer law on AI' },
+  { a: 'us-ftc', b: 'us-preempt', rel: "FTC's AI enforcement operates in tension with DOJ Task Force's preemption challenges" },
+  { a: 'au-esafety', b: 'other-aisis', rel: 'Australia also participates in the AISI Network' },
+  { a: 'co-doi', b: 'co-aia', rel: 'Same state, different focus — DOI sectoral framework predates the AI Act' },
+  { a: 'co-doi', b: 'ny-raise', rel: "Colorado DOI precedent informed NY RAISE's DFS office model" }
 ];
 
 const JUR_LABEL = { us:'US Federal', uss:'US State', eu:'European Union', uk:'United Kingdom', cn:'China', as:'Asia (other)', mu:'Multilateral', co:'Corporate / global' };

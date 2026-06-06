@@ -14,10 +14,10 @@
     "email": "buildwithwhy@gmail.com"
   },
   "stats": {
-    "mechanisms": 42,
-    "edges": 64,
+    "mechanisms": 47,
+    "edges": 75,
     "voluntary_or_norm_only": 19,
-    "binding_with_penalties": 7,
+    "binding_with_penalties": 11,
     "categories": 9,
     "layers": 6
   },
@@ -963,6 +963,107 @@
       }
     },
     {
+      "id": "uk-ofcom",
+      "name": "UK Ofcom",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "uk",
+      "jurisdiction_name": "United Kingdom",
+      "enforceability": 4,
+      "enforceability_name": "Binding with penalties",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.ofcom.org.uk/online-safety",
+      "description": "Communications regulator with AI-specific enforcement authority under the Online Safety Act 2023. Fines up to £18M or 10% of global revenue.",
+      "context": "Originally telecoms and broadcasting regulator; the Online Safety Act 2023 added enforcement authority over AI-generated harmful content (deepfakes, non-consensual intimate imagery, CSAM, fraud) on Category 1 services. The Illegal Content Codes of Practice (2025) include AI-specific provisions for image-generation safeguards and content authentication. Shapes how labs ship image/video generators into the UK market, even though it doesn't target frontier developers directly.",
+      "coverage": {
+        "timing": "Post-deployment monitoring of online services, with takedown obligations for AI-generated illegal content.",
+        "mit": "Codes of Practice require content authentication, age verification, and safeguards on AI-generated harmful content for in-scope services.",
+        "acct": "Ofcom can issue fines up to £18M or 10% of global revenue, plus business-disruption orders. Among the most enforceable AI-content regimes in any common-law jurisdiction."
+      }
+    },
+    {
+      "id": "uk-ico",
+      "name": "UK ICO",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "uk",
+      "jurisdiction_name": "United Kingdom",
+      "enforceability": 4,
+      "enforceability_name": "Binding with penalties",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/",
+      "description": "Information Commissioner's Office — data protection regulator with binding AI guidance under UK GDPR. Fines up to £17.5M or 4% of global revenue.",
+      "context": "Regulates how organisations train on, deploy, and explain AI under UK GDPR. The AI Auditing Framework (2020, updated 2023) and the Guidance on AI and Data Protection set binding expectations for lawful basis, fairness, transparency, and Data Protection Impact Assessments for AI systems. Has investigated Clearview AI, Snap My AI, and others — operates as the UK's de facto frontier-AI privacy regulator alongside any future AISI statutory mandate.",
+      "coverage": {
+        "eval": "Data Protection Impact Assessments are required for high-risk AI processing; the AI Auditing Framework specifies evaluation methodology.",
+        "mit": "Binding guidance on fairness, transparency, lawful basis, and explainability for AI deployments touching personal data.",
+        "acct": "Investigations and fines up to £17.5M or 4% of global revenue; operates as the UK's privacy-rights regulator for AI."
+      }
+    },
+    {
+      "id": "us-ftc",
+      "name": "US FTC",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "us",
+      "jurisdiction_name": "US Federal",
+      "enforceability": 3,
+      "enforceability_name": "Hard law, weak enforcement",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.ftc.gov/business-guidance/blog/ai-tools-and-related-products-services",
+      "description": "Federal Trade Commission enforces consumer-protection law against deceptive or unfair AI practices under Section 5. No AI-specific statutory authority.",
+      "context": "Active enforcement against deceptive AI claims and harmful AI deployments under existing consumer-protection authority. Operation AI Comply (Sept 2024) brought five cases against AI hype, fake reviews, and unsubstantiated claims; the Rite Aid biometric AI case (2024) banned facial recognition use for five years. Less direct frontier-developer relevance than the EU AI Office, but shapes deployment practice through enforcement signals. Operates in some tension with the DOJ Litigation Task Force — DOJ challenges state AI rules while FTC enforces federal consumer law against AI.",
+      "coverage": {
+        "mit": "Enforcement against deceptive AI claims, fake reviews, harmful AI deployments, and biometric-AI misuse.",
+        "acct": "Section 5 enforcement; consent decrees with operational restrictions (e.g., the Rite Aid five-year facial-recognition ban).",
+        "update": "AI enforcement priorities published in FTC business guidance and AI-specific blog posts."
+      }
+    },
+    {
+      "id": "au-esafety",
+      "name": "Australia eSafety Commissioner",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "as",
+      "jurisdiction_name": "Asia (other)",
+      "enforceability": 4,
+      "enforceability_name": "Binding with penalties",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://www.esafety.gov.au/industry/codes",
+      "description": "World's first online safety regulator (established 2015), with AI-specific enforcement authority under the Online Safety Act 2021.",
+      "context": "Issues binding industry Codes and Standards (including for AI-generated content) under the Online Safety Act 2021. The 2024 Industry Standards mandate proactive safeguards against AI-generated CSAM and pro-terror material from Designated Internet Services. Takedown powers, civil penalties up to AUD 782,500 per contravention, and business-disruption orders. The leading non-EU model for AI-content regulation with binding effect; influences regulatory templates in the Five Eyes and broader Asia-Pacific.",
+      "coverage": {
+        "timing": "Proactive obligations to prevent AI-generated illegal content at design and deployment stages, not just reactive takedowns.",
+        "mit": "Industry Standards mandate safeguards on AI-generated illegal content (CSAM, pro-terror material) for Designated Internet Services.",
+        "acct": "Civil penalties up to AUD 782,500 per contravention; takedown notices; service-disruption orders."
+      }
+    },
+    {
+      "id": "co-doi",
+      "name": "Colorado Division of Insurance",
+      "layer": 6,
+      "layer_name": "Infrastructure",
+      "jurisdiction": "uss",
+      "jurisdiction_name": "US State",
+      "enforceability": 4,
+      "enforceability_name": "Binding with penalties",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://doi.colorado.gov/category/ai",
+      "description": "First US state-level sectoral AI regulator. Regulation 10-1-1 (effective Nov 14, 2023) governs algorithm and predictive-model use by insurance carriers.",
+      "context": "Predates every comprehensive US state AI law. Requires insurance carriers to implement an algorithm and predictive-model governance framework, conduct bias testing, document model assumptions, and submit attestations — applied to life insurance first, then expanded to private passenger auto. Followed by similar adoptions in other states via the NAIC Model Bulletin on AI (Dec 2023). The historical anchor that complicates 'first sectoral AI regulator' claims about later state laws like NY RAISE's DFS office.",
+      "coverage": {
+        "eval": "Algorithm governance framework with mandatory bias testing and documented model assumptions for in-scope insurance lines.",
+        "mit": "Risk management framework for predictive models used in insurance underwriting, including data-source review and outcome monitoring.",
+        "acct": "Carrier attestations to the Division of Insurance; sectoral oversight under existing insurance regulatory authority.",
+        "update": "Periodic guidance updates; framework adopted as template by other state insurance regulators via NAIC Model Bulletin."
+      }
+    },
+    {
       "id": "bis",
       "name": "US BIS export controls",
       "layer": 6,
@@ -1322,6 +1423,61 @@
       "from": "cais",
       "to": "aisr",
       "relationship": "CAIS's 2023 Statement on AI Risk shaped the discourse the AISR formalises"
+    },
+    {
+      "from": "uk-ofcom",
+      "to": "uk-aisi",
+      "relationship": "Complementary UK AI institutions — Ofcom on content, AISI on capabilities"
+    },
+    {
+      "from": "uk-ofcom",
+      "to": "uk-bill",
+      "relationship": "UK AI Bill would clarify the boundary between Ofcom (content) and AISI (frontier)"
+    },
+    {
+      "from": "uk-ofcom",
+      "to": "au-esafety",
+      "relationship": "Parallel online-safety regulators with AI-specific authority"
+    },
+    {
+      "from": "uk-ico",
+      "to": "uk-aisi",
+      "relationship": "Complementary UK AI regulators — ICO on data, AISI on capabilities"
+    },
+    {
+      "from": "uk-ico",
+      "to": "uk-bill",
+      "relationship": "UK AI Bill would clarify ICO's role alongside AISI"
+    },
+    {
+      "from": "uk-ico",
+      "to": "eu-aia",
+      "relationship": "UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards"
+    },
+    {
+      "from": "us-ftc",
+      "to": "us-action",
+      "relationship": "FTC operates alongside the Action Plan, enforcing federal consumer law on AI"
+    },
+    {
+      "from": "us-ftc",
+      "to": "us-preempt",
+      "relationship": "FTC's AI enforcement operates in tension with DOJ Task Force's preemption challenges"
+    },
+    {
+      "from": "au-esafety",
+      "to": "other-aisis",
+      "relationship": "Australia also participates in the AISI Network"
+    },
+    {
+      "from": "co-doi",
+      "to": "co-aia",
+      "relationship": "Same state, different focus — DOI sectoral framework predates the AI Act"
+    },
+    {
+      "from": "co-doi",
+      "to": "ny-raise",
+      "relationship": "Colorado DOI precedent informed NY RAISE's DFS office model"
     }
   ]
 }

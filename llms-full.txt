@@ -14,9 +14,9 @@ The map organises by *who acts*, not *what they regulate*: the EU AI Act sits in
 
 ## Stats
 
-- 42 mechanisms mapped
+- 47 mechanisms mapped
 - 19 voluntary or norm-only
-- 7 binding with penalties
+- 11 binding with penalties
 - 9 coverage categories
 
 ## Layers
@@ -222,6 +222,7 @@ Tiers AI by risk: prohibited practices, high-risk systems (conformity assessment
 - → CoE AI Convention: CoE Convention is the international treaty layer above EU AI Act
 - → EU AI Office: EU AI Office is the regulator implementing EU AI Act
 - → EU GPAI Code of Practice: GPAI Code is the voluntary route to EU AI Act compliance
+- → UK ICO: UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards
 
 ---
 
@@ -264,6 +265,7 @@ Dozens of federal actions across innovation, infrastructure, and international p
 
 - → US EO 14179: EO 14179 ordered the Jul 2025 AI Action Plan
 - → US preemption EO: Action Plan called for preemption of state laws
+- → US FTC: FTC operates alongside the Action Plan, enforcing federal consumer law on AI
 
 ---
 
@@ -289,6 +291,7 @@ Directs DOJ to challenge state AI laws as Commerce Clause violations or as preem
 - → California SB 53: Preemption EO targets SB 53; DOJ task force can challenge
 - → Colorado AI Act: DOJ intervened in xAI v. Colorado Apr 24, 2026
 - → NY RAISE Act: Preemption EO targets RAISE Act
+- → US FTC: FTC's AI enforcement operates in tension with DOJ Task Force's preemption challenges
 
 ---
 
@@ -385,6 +388,8 @@ Would put the UK AI Security Institute on a statutory footing with information-g
 
 - → CoE AI Convention: CoE Convention shapes UK AI Bill drafting
 - → UK AISI: AI Bill would put AISI on a statutory footing
+- → UK Ofcom: UK AI Bill would clarify the boundary between Ofcom (content) and AISI (frontier)
+- → UK ICO: UK AI Bill would clarify ICO's role alongside AISI
 
 ---
 
@@ -483,6 +488,7 @@ The original Colorado AI Act would have imposed duty-of-care and algorithmic-imp
 **Connections:**
 
 - → US preemption EO: DOJ intervened in xAI v. Colorado Apr 24, 2026
+- → Colorado Division of Insurance: Same state, different focus — DOI sectoral framework predates the AI Act
 
 ---
 
@@ -509,6 +515,7 @@ Mirrors SB 53's structure — published safety frameworks, 72-hour incident repo
 
 - → US preemption EO: Preemption EO targets RAISE Act
 - → California SB 53: RAISE Act amendments aligned thresholds with SB 53
+- → Colorado Division of Insurance: Colorado DOI precedent informed NY RAISE's DFS office model
 
 ---
 
@@ -908,6 +915,8 @@ Conducts pre-deployment evaluations of frontier models under voluntary access ag
 - → Anthropic RSP: UK AISI tested Anthropic models pre-deployment
 - → OpenAI Preparedness: UK AISI tested OpenAI models pre-deployment
 - → GDM Frontier Safety Framework: UK AISI tested DeepMind models pre-deployment
+- → UK Ofcom: Complementary UK AI institutions — Ofcom on content, AISI on capabilities
+- → UK ICO: Complementary UK AI regulators — ICO on data, AISI on capabilities
 
 ---
 
@@ -957,6 +966,7 @@ Capacity varies substantially: Singapore's DTC + AI Verify package is the most o
 **Connections:**
 
 - → AISI Network: Singapore, Japan, France, Korea, Canada, Australia, Kenya, India participate
+- → Australia eSafety Commissioner: Australia also participates in the AISI Network
 
 ---
 
@@ -1082,6 +1092,129 @@ Sits between frontier labs and US national-security institutions — the Pentago
 - → Center for AI Safety: FSI is CAIS's DC-based national-security affiliate
 - → US CAISI: Both work on national-security review of frontier models
 - → US Frontier AI Access EO: FSI's policy translation aligns with the EO's national-security review framework
+
+---
+
+#### UK Ofcom
+
+- Jurisdiction: United Kingdom
+- Enforceability: Binding with penalties
+- Status: In force
+- Primary source: https://www.ofcom.org.uk/online-safety
+
+Communications regulator with AI-specific enforcement authority under the Online Safety Act 2023. Fines up to £18M or 10% of global revenue.
+
+Originally telecoms and broadcasting regulator; the Online Safety Act 2023 added enforcement authority over AI-generated harmful content (deepfakes, non-consensual intimate imagery, CSAM, fraud) on Category 1 services. The Illegal Content Codes of Practice (2025) include AI-specific provisions for image-generation safeguards and content authentication. Shapes how labs ship image/video generators into the UK market, even though it doesn't target frontier developers directly.
+
+**Coverage:**
+
+- *Timing & frequency*: Post-deployment monitoring of online services, with takedown obligations for AI-generated illegal content.
+- *Deployment mitigations*: Codes of Practice require content authentication, age verification, and safeguards on AI-generated harmful content for in-scope services.
+- *Accountability*: Ofcom can issue fines up to £18M or 10% of global revenue, plus business-disruption orders. Among the most enforceable AI-content regimes in any common-law jurisdiction.
+
+**Connections:**
+
+- → UK AISI: Complementary UK AI institutions — Ofcom on content, AISI on capabilities
+- → UK AI Bill: UK AI Bill would clarify the boundary between Ofcom (content) and AISI (frontier)
+- → Australia eSafety Commissioner: Parallel online-safety regulators with AI-specific authority
+
+---
+
+#### UK ICO
+
+- Jurisdiction: United Kingdom
+- Enforceability: Binding with penalties
+- Status: In force
+- Primary source: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/
+
+Information Commissioner's Office — data protection regulator with binding AI guidance under UK GDPR. Fines up to £17.5M or 4% of global revenue.
+
+Regulates how organisations train on, deploy, and explain AI under UK GDPR. The AI Auditing Framework (2020, updated 2023) and the Guidance on AI and Data Protection set binding expectations for lawful basis, fairness, transparency, and Data Protection Impact Assessments for AI systems. Has investigated Clearview AI, Snap My AI, and others — operates as the UK's de facto frontier-AI privacy regulator alongside any future AISI statutory mandate.
+
+**Coverage:**
+
+- *Model evaluations*: Data Protection Impact Assessments are required for high-risk AI processing; the AI Auditing Framework specifies evaluation methodology.
+- *Deployment mitigations*: Binding guidance on fairness, transparency, lawful basis, and explainability for AI deployments touching personal data.
+- *Accountability*: Investigations and fines up to £17.5M or 4% of global revenue; operates as the UK's privacy-rights regulator for AI.
+
+**Connections:**
+
+- → UK AISI: Complementary UK AI regulators — ICO on data, AISI on capabilities
+- → UK AI Bill: UK AI Bill would clarify ICO's role alongside AISI
+- → EU AI Act: UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards
+
+---
+
+#### US FTC
+
+- Jurisdiction: US Federal
+- Enforceability: Hard law, weak enforcement
+- Status: In force
+- Primary source: https://www.ftc.gov/business-guidance/blog/ai-tools-and-related-products-services
+
+Federal Trade Commission enforces consumer-protection law against deceptive or unfair AI practices under Section 5. No AI-specific statutory authority.
+
+Active enforcement against deceptive AI claims and harmful AI deployments under existing consumer-protection authority. Operation AI Comply (Sept 2024) brought five cases against AI hype, fake reviews, and unsubstantiated claims; the Rite Aid biometric AI case (2024) banned facial recognition use for five years. Less direct frontier-developer relevance than the EU AI Office, but shapes deployment practice through enforcement signals. Operates in some tension with the DOJ Litigation Task Force — DOJ challenges state AI rules while FTC enforces federal consumer law against AI.
+
+**Coverage:**
+
+- *Deployment mitigations*: Enforcement against deceptive AI claims, fake reviews, harmful AI deployments, and biometric-AI misuse.
+- *Accountability*: Section 5 enforcement; consent decrees with operational restrictions (e.g., the Rite Aid five-year facial-recognition ban).
+- *Updating policies*: AI enforcement priorities published in FTC business guidance and AI-specific blog posts.
+
+**Connections:**
+
+- → US AI Action Plan: FTC operates alongside the Action Plan, enforcing federal consumer law on AI
+- → US preemption EO: FTC's AI enforcement operates in tension with DOJ Task Force's preemption challenges
+
+---
+
+#### Australia eSafety Commissioner
+
+- Jurisdiction: Asia (other)
+- Enforceability: Binding with penalties
+- Status: In force
+- Primary source: https://www.esafety.gov.au/industry/codes
+
+World's first online safety regulator (established 2015), with AI-specific enforcement authority under the Online Safety Act 2021.
+
+Issues binding industry Codes and Standards (including for AI-generated content) under the Online Safety Act 2021. The 2024 Industry Standards mandate proactive safeguards against AI-generated CSAM and pro-terror material from Designated Internet Services. Takedown powers, civil penalties up to AUD 782,500 per contravention, and business-disruption orders. The leading non-EU model for AI-content regulation with binding effect; influences regulatory templates in the Five Eyes and broader Asia-Pacific.
+
+**Coverage:**
+
+- *Timing & frequency*: Proactive obligations to prevent AI-generated illegal content at design and deployment stages, not just reactive takedowns.
+- *Deployment mitigations*: Industry Standards mandate safeguards on AI-generated illegal content (CSAM, pro-terror material) for Designated Internet Services.
+- *Accountability*: Civil penalties up to AUD 782,500 per contravention; takedown notices; service-disruption orders.
+
+**Connections:**
+
+- → UK Ofcom: Parallel online-safety regulators with AI-specific authority
+- → Other national AISIs: Australia also participates in the AISI Network
+
+---
+
+#### Colorado Division of Insurance
+
+- Jurisdiction: US State
+- Enforceability: Binding with penalties
+- Status: In force
+- Primary source: https://doi.colorado.gov/category/ai
+
+First US state-level sectoral AI regulator. Regulation 10-1-1 (effective Nov 14, 2023) governs algorithm and predictive-model use by insurance carriers.
+
+Predates every comprehensive US state AI law. Requires insurance carriers to implement an algorithm and predictive-model governance framework, conduct bias testing, document model assumptions, and submit attestations — applied to life insurance first, then expanded to private passenger auto. Followed by similar adoptions in other states via the NAIC Model Bulletin on AI (Dec 2023). The historical anchor that complicates 'first sectoral AI regulator' claims about later state laws like NY RAISE's DFS office.
+
+**Coverage:**
+
+- *Model evaluations*: Algorithm governance framework with mandatory bias testing and documented model assumptions for in-scope insurance lines.
+- *Deployment mitigations*: Risk management framework for predictive models used in insurance underwriting, including data-source review and outcome monitoring.
+- *Accountability*: Carrier attestations to the Division of Insurance; sectoral oversight under existing insurance regulatory authority.
+- *Updating policies*: Periodic guidance updates; framework adopted as template by other state insurance regulators via NAIC Model Bulletin.
+
+**Connections:**
+
+- → Colorado AI Act: Same state, different focus — DOI sectoral framework predates the AI Act
+- → NY RAISE Act: Colorado DOI precedent informed NY RAISE's DFS office model
 
 ---
 
