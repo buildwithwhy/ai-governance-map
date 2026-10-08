@@ -183,6 +183,10 @@ function buildInventory(root = REPO) {
   }
   for (const [id, text] of Object.entries(staticTexts(map.src))) narrative.push([id, 'page-text', text]);
   for (const c of map.categories) narrative.push([`category:${c.id}`, 'category-definition', `${c.name}: ${c.desc}`]);
+  for (const name of ['JUR_LABEL', 'POW_LABEL', 'STATUS_LABEL']) {
+    const m = map.src.match(new RegExp(`const ${name} = (\\{[^\\n]*\\});`));
+    if (m) add(`label:${name.split('_')[0].toLowerCase()}`, 'label', eval(`(${m[1]})`));
+  }
   const mentioned = text => map.entities.filter(e => mentions(text, aliasesFor(e, extra))).map(e => e.id);
   for (const [id, kind, text] of narrative) add(id, kind, text, mentioned(text));
   // Entry text that mentions *other* entries also depends on them.

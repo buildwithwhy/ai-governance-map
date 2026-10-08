@@ -174,10 +174,12 @@ function targetsOf(changes) {
   const t = [];
   for (const c of changes) {
     if (c.op === 'set_field') t.push(['desc', 'context'].includes(c.field) ? `entry:${c.entity}:${c.field}` : `entry:${c.entity}`);
-    else if (c.op === 'set_cov') t.push(`entry:${c.entity}:cov:${c.cat}`, `entry:${c.entity}:cov`);
-    else if (c.op === 'add_entity') t.push(`new:${c.entity.id}`);
+    else if (c.op === 'set_cov') {
+      t.push(`entry:${c.entity}:cov:${c.cat}`);
+      if (c.from === null || c.to === null) t.push(`entry:${c.entity}:cov`);
+    } else if (c.op === 'add_entity') t.push(`new:${c.entity.id}`);
     else if (/edge/.test(c.op)) t.push(`edge:${c.a}|${c.b}`);
-    else if (c.op === 'replace_text') t.push(`file:${c.file}`);
+    else if (c.op === 'replace_text') t.push(`text:${c.file}:${L.hash(c.from)}`);
   }
   return [...new Set(t)];
 }
