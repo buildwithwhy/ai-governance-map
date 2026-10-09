@@ -133,12 +133,12 @@
       "limits": "The policy text itself was not read. Other labs were not searched; that is outside this trial."
     }
   ],
-  "usage": null,
+  "usage": "Not measured per run. The platform's session total was $12.34 (input 90k, output 182k, cache-read 17.6M tokens) as of 9 Oct; that covers all workflow design, tooling and research in this session since 8 Oct, not this run alone.",
   "highlights": [
-    "**Blocked by network policy.** Every EU, US federal and Chinese primary source was unreachable; only anthropic.com loaded. The EU AI Act, EU GPAI Code, US Frontier AI Access EO and China AI Law could not be verified, and stay as they are.",
-    "**Anthropic RSP was out of date.** The current version is v3.4 (8 Jul 2026), not v3.0, and the map missed the 2026 accountability additions (Risk Reports, external review, new LTBT powers). The Seoul → RSP connection had the chronology reversed.",
-    "**Internal fixes:** data.json said 39 mechanisms (actually 49). The FAQ conflated binding laws with binding mechanisms. Australia was labelled 'Asia (other)'. The Layer 2 subtitle said 'agencies'.",
-    "**Leads awaiting source access (unverified):** the EU Digital Omnibus may have moved high-risk deadlines to Dec 2027 / Aug 2028; the Frontier AI Access EO may be voluntary, with the NSA rather than CAISI designating models; China's AI Law still has no verifiable source.",
-    "**Your decisions:** P-0001 to P-0009 accepted on 9 Oct. P-0010 (RSP v3 ASL and pause wording) stays open until the policy text is readable."
+    "**Source access is still the blocker.** The environment's network policy blocks every EU, US federal, US state, UK and Chinese government site and the RSP v3.4 PDF; only www.anthropic.com loads. Nothing that depends on those sources is verified, and those proposals sit in §B.",
+    "**Verified externally:** the RSP version history (v3.4, 8 Jul 2026; eight revisions since v1.0), its 2026 accountability additions, and that RSP v1.0 (Sep 2023) predates the Seoul commitments.",
+    "**Internal consistency only:** the data.json count, the FAQ list of binding laws, the 'Asia (other)' label, the Layer 2 subtitle and the date wording. These check the map against itself, not against the world.",
+    "**Held as a group:** the RSP version update (P-0005) is not applied with only the version changed, because the retained ASL and threshold wording is unverified. Its two companion edits wait with it so the entry stays coherent.",
+    "**Revised after your review:** P-0002 narrowed to internal consistency (v2, needs your decision); P-0009 reattributed to Anthropic and held for source access (v2); P-0003's approval clarified as covering only the label (other-aisis is now P-0011)."
   ]
 }

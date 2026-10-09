@@ -258,16 +258,10 @@ function writeDerived(root, { date } = {}) {
   return [...changed];
 }
 
-// ---- conflict rule (RUBRIC §7a) ---------------------------------------------------
-// When evidence conflicts, nothing is accepted or marked verified until the
-// conflict is resolved by either
-//   (1) a double check: every contradicting source re-read (fresh passage from a
-//       successful fetch) and found, on re-reading, not to contradict; or
-//   (2) a third source: an accessible source, with a recorded passage, from a host
-//       independent of every source on either side of the conflict.
-// Publisher domain (registrable domain), so www-cdn.anthropic.com and
-// anthropic.com, or eur-lex.europa.eu and digital-strategy.ec.europa.eu,
-// count as one source family when judging independence.
+// ---- evidence rules (RUBRIC §7, §7a) -----------------------------------------------
+// Publisher domain (registrable domain). Used only as a *signal* about
+// independence, never as proof: one publisher can use several domains and
+// several publishers can share one (e.g. gov.uk).
 function hostOf(url) {
   let h;
   try { h = new URL(url).hostname.toLowerCase().replace(/^www\./, ''); } catch { return String(url); }
@@ -276,23 +270,98 @@ function hostOf(url) {
   return p.slice(twoLevel ? -3 : -2).join('.');
 }
 const fetchedOk = s => !!s && s.fetches.length > 0 && s.fetches[s.fetches.length - 1].status === 'ok';
+// The underlying account a source repeats (its own id unless `derived_from` is
+// recorded, e.g. several articles summarising one press release).
+const accountsOf = (id, db) => new Set([id, ...((db.sources[id] && db.sources[id].derived_from) || [])]);
+const shareAccount = (a, b, db) => [...accountsOf(a, db)].some(x => accountsOf(b, db).has(x));
 
-function conflictStatus(evidence, db) {
-  const src = id => db.sources[id];
-  const against = evidence.filter(e => e.stance === 'contradicts' && e.role !== 'tiebreak');
-  if (!against.length) return { conflict: false, resolved: true };
-  const rechecked = against.every(a => evidence.some(e => e.role === 'recheck' && e.source === a.source
-    && e.stance !== 'contradicts' && e.passage && e.passage !== a.passage && fetchedOk(src(e.source))));
-  if (rechecked) return { conflict: true, resolved: true, how: `double check: ${[...new Set(against.map(a => a.source))].join(', ')} re-read and no longer contradict` };
-  const sideHosts = new Set(evidence.filter(e => e.role !== 'tiebreak').map(e => hostOf(src(e.source)?.url)));
-  const third = evidence.filter(e => e.role === 'tiebreak' && e.passage && fetchedOk(src(e.source)) && !sideHosts.has(hostOf(src(e.source).url)));
-  if (third.some(e => e.stance === 'contradicts')) return { conflict: true, resolved: false, reason: `third source ${third.find(e => e.stance === 'contradicts').source} contradicts the proposal — revise or reject it` };
-  if (third.length) return { conflict: true, resolved: true, how: `third independent source ${third.map(e => e.source).join(', ')}` };
-  return { conflict: true, resolved: false, reason: `conflicting evidence (${against.map(a => a.source).join(', ')}) — needs a double check of the contradicting source(s) or a third independent source` };
+// A conflict is resolved only by a recorded resolution that names the specific
+// disagreement, a basis, inspected passages and an explanation. A third source
+// does not settle anything just by existing.
+const RESOLUTION_BASES = {
+  'authoritative-text': 'the authoritative (official/legal) text settles it',
+  'correction-or-superseding-version': 'a documented correction or superseding version',
+  'different-date': 'the sources describe different dates or versions',
+  'different-scope': 'the sources describe different scopes',
+  'different-definition': 'the sources use different definitions',
+  'misreading-on-recheck': 'on re-reading, the source does not say what it was taken to say',
+};
+function validateResolution(r, sides, db) {
+  const problems = []; const signals = [];
+  if (!r) return { problems: ['no resolution recorded'], signals };
+  if (!r.disagreement) problems.push('state the specific disagreement');
+  if (!r.explanation) problems.push('explain why the evidence resolves it');
+  if (!RESOLUTION_BASES[r.basis]) problems.push(`basis must be one of: ${Object.keys(RESOLUTION_BASES).join(', ')}`);
+  const ev = r.evidence || [];
+  if (!ev.length) problems.push('cite the inspected passages that resolve it');
+  for (const e of ev) {
+    const s = db.sources[e.source];
+    if (!s) { problems.push(`unknown source ${e.source}`); continue; }
+    if (!fetchedOk(s)) problems.push(`${e.source} was not retrieved successfully`);
+    if (!e.passage || !s.passages.some(p => p.id === e.passage)) problems.push(`${e.source}: cite a recorded passage`);
+  }
+  const evSources = [...new Set(ev.map(e => e.source))];
+  if (r.basis === 'authoritative-text' && !evSources.some(id => db.sources[id] && db.sources[id].type === 'primary')) problems.push('authoritative-text needs a primary (official) source');
+  if (/^different-/.test(r.basis || '') && evSources.length < 2) problems.push(`${r.basis} needs passages from the sources on each side`);
+  if (r.basis === 'misreading-on-recheck') {
+    for (const side of sides.filter(x => x.stance === 'contradicts')) {
+      if (!ev.some(e => e.source === side.source && e.passage !== side.passage)) problems.push(`re-read ${side.source} and cite the fresh passage`);
+    }
+  }
+  // Signals, not gates: shared publisher domain or shared underlying account.
+  const sideIds = [...new Set(sides.map(x => x.source))];
+  for (const id of evSources) {
+    for (const side of sideIds) {
+      if (id === side) continue;
+      if (db.sources[id] && db.sources[side] && hostOf(db.sources[id].url) === hostOf(db.sources[side].url)) signals.push(`${id} and ${side} share publisher domain ${hostOf(db.sources[id].url)}`);
+      if (shareAccount(id, side, db)) signals.push(`${id} and ${side} repeat the same underlying account`);
+    }
+  }
+  return { problems, signals };
+}
+function corroborationSignals(evidence, db) {
+  const sup = [...new Set(evidence.filter(e => e.stance !== 'contradicts').map(e => e.source))];
+  const out = [];
+  for (let i = 0; i < sup.length; i++) for (let j = i + 1; j < sup.length; j++) {
+    if (shareAccount(sup[i], sup[j], db)) out.push(`${sup[i]} and ${sup[j]} repeat the same underlying account — not independent corroboration`);
+  }
+  return out;
+}
+// ver: a proposal version (evidence + optional conflict_resolution).
+function conflictStatus(ver, db) {
+  const evidence = ver.evidence || [];
+  const against = evidence.filter(e => e.stance === 'contradicts');
+  const signals = corroborationSignals(evidence, db);
+  if (!against.length) return { conflict: false, resolved: true, signals };
+  const { problems, signals: rs } = validateResolution(ver.conflict_resolution, evidence, db);
+  const resolved = !problems.length;
+  return {
+    conflict: true, resolved, signals: [...signals, ...rs],
+    basis: resolved ? ver.conflict_resolution.basis : null,
+    reason: resolved ? null : `conflicting evidence (${[...new Set(against.map(a => a.source))].join(', ')}): ${problems.join('; ')}`,
+  };
+}
+
+// Evidence status is separate from the editorial decision. Only these statuses
+// let an accepted proposal be applied without an explicit maintainer override.
+const EVIDENCE_STATUSES = {
+  'verified': 'Verified against inspected external sources',
+  'internal-consistency': 'Internal consistency only (the map checked against itself)',
+  'needs-research': 'Further research required',
+  'needs-source-access': 'Source access required',
+  'disputed': 'Disputed (unresolved conflicting evidence)',
+};
+const APPLICABLE = new Set(['verified', 'internal-consistency']);
+function evidenceStatus(p, db) {
+  const ver = p.versions[p.versions.length - 1];
+  const r = p.research || {};
+  const cs = conflictStatus(ver, db);
+  if (!cs.resolved) return { status: 'disputed', missing: [cs.reason, ...(r.missing || [])], signals: cs.signals };
+  return { status: r.status || 'needs-research', missing: r.missing || (r.status ? [] : ['evidence status not yet assessed']), signals: cs.signals, note: r.note || null };
 }
 
 module.exports = {
-  hostOf, fetchedOk, conflictStatus,
+  hostOf, fetchedOk, conflictStatus, validateResolution, RESOLUTION_BASES, EVIDENCE_STATUSES, APPLICABLE, evidenceStatus,
   REPO, RESEARCH, isPublished, hash, stable, readJSON, writeJSON, today, norm, longDate,
   skipString, matchClose, props, literal, jsString,
   readIndex, loadMap, entitySpan, staticTexts, ldBlocks,

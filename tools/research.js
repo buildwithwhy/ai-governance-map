@@ -7,20 +7,27 @@
 //   run start RUN --label TEXT [--partial] [--entries a,b] [--scope TEXT]
 //   run discovery RUN FILE.json            append a discovery log entry
 //   run highlights RUN FILE.json           summary bullets (JSON array of strings) shown first in the report
+//   run usage RUN --text TEXT                usage/cost note (from get_session where available)
 //   run finish RUN [--usage TEXT]
 //   source fetch URL [--type primary|secondary|repo] [--title T] [--publisher P] [--run RUN]
 //   source add URL --status ok|blocked|error --via webfetch|manual|repo [--type ..] [--title ..] [--run RUN]
 //   source passage SID --locator TEXT --text TEXT
 //   source dates SID key=YYYY-MM-DD ...     (published, adopted, signed, in_force, applies_from, effective, ...)
+//   source derived SID --from S-x[,S-y]     SID repeats the account of S-x (e.g. reporting one press release)
 //   check RUN --items ID[,ID|entry:X:*] --outcome changed|no_change|unresolved|inaccessible
 //         [--sources S-1,S-2] [--proposals P-1] --note TEXT
-//         [--conflicting S-1,S-2]   (with unresolved: sources that disagree)
-//         [--tiebreak S-3 | --recheck]  (required to close an item with a recorded conflict)
+//         [--missing "what remains missing"]   (required with unresolved | inaccessible)
+//         [--conflicting S-1,S-2 --disagreement TEXT]   (with unresolved)
+//         [--resolution FILE.json]   (required to close an item with an open conflict; RUBRIC §7a)
 //   propose FILE.json [--run RUN]           new proposal (deduplicated against the ledger)
 //   revise PID FILE.json [--run RUN] [--reopen]
 //   decide PID accept|reject|defer --version N [--note TEXT] [--until YYYY-MM-DD]
-//         [--override-conflict "reason"]   maintainer's explicit call on an unresolved conflict
+//         [--override "reason"]   maintainer publishes despite unverified/disputed evidence;
+//                                 the evidence status is NOT changed by this
+//   status PID --status verified|internal-consistency|needs-research|needs-source-access
+//         [--missing "a | b"] [--linked P-x,P-y] [--apply-together P-x,P-y] [--note TEXT]
 //   edit PID FILE.json --note TEXT          maintainer-authored wording; recorded as accepted
+//   note PID --text TEXT                    append a clarification to the recorded decision
 //   list [--status S] | show PID
 //   report RUN                              write research/runs/RUN/report.md
 const fs = require('fs');
@@ -156,31 +163,29 @@ function recordCheck(run, o) {
     if (!ok.length) die(`outcome '${o.outcome}' needs at least one source that was actually retrieved (status ok). A blocked source is not a successful check — use --outcome inaccessible.`);
   }
   if (o.outcome === 'changed' && !list(o.proposals).length) die('outcome changed needs --proposals');
-  const entry = { run, date: L.today(), outcome: o.outcome, sources: srcIds, proposals: list(o.proposals), note: o.note };
+  if (['unresolved', 'inaccessible'].includes(o.outcome) && !o.missing) die('--missing is required: state exactly what evidence remains missing after the attempts made');
+  const scope = srcIds.length && srcIds.every(sid => db.sources[sid].type === 'repo') ? 'internal' : 'external';
+  const entry = { run, date: L.today(), outcome: o.outcome, scope, sources: srcIds, proposals: list(o.proposals), note: o.note, missing: o.missing || null };
   if (o.conflicting) {
     if (o.outcome !== 'unresolved') die('--conflicting goes with --outcome unresolved');
     const c = list(o.conflicting);
     for (const sid of c) if (!db.sources[sid]) die(`unknown source ${sid}`);
     if (c.length < 2) die('--conflicting needs the (at least two) sources that disagree');
-    entry.conflict = { sources: c, at: now() };
+    if (!o.disagreement) die('--disagreement is required: state the specific point on which the sources disagree');
+    entry.conflict = { sources: c, disagreement: o.disagreement, at: now() };
   }
   const prior = checks().items;
   if (['changed', 'no_change'].includes(o.outcome)) {
-    // An item with an open conflict needs a double check or a third source to close.
-    const open = items.map(id => prior[id]?.last_attempt?.conflict).filter(c => c && !c.resolved);
+    // An item with an open conflict can only close with a recorded resolution (RUBRIC §7a).
+    const open = items.map(id => prior[id]?.last_attempt?.conflict).filter(Boolean);
     for (const c of open) {
-      if (o.tiebreak) {
-        const t = db.sources[o.tiebreak] || die(`unknown source ${o.tiebreak}`);
-        const sides = new Set(c.sources.map(s => L.hostOf(db.sources[s].url)));
-        if (!accessible(t)) die(`tiebreak ${o.tiebreak} was not retrieved successfully`);
-        if (sides.has(L.hostOf(t.url))) die(`tiebreak ${o.tiebreak} is from the same host as a conflicting source; a third source must be independent`);
-        if (!srcIds.includes(o.tiebreak)) srcIds.push(o.tiebreak);
-        entry.conflict_resolved = { how: 'third source', source: o.tiebreak, conflict: c.sources };
-      } else if (o.recheck) {
-        const stale = c.sources.filter(s => !db.sources[s].fetches.some(f => f.status === 'ok' && f.at > c.at));
-        if (stale.length) die(`double check incomplete: ${stale.join(', ')} not successfully re-fetched since the conflict was recorded (${c.at})`);
-        entry.conflict_resolved = { how: 'double check', conflict: c.sources };
-      } else die(`these items have an open conflict (${c.sources.join(' vs ')}): re-read the conflicting sources (--recheck) or add a third independent source (--tiebreak S-x)`);
+      if (!o.resolution) die(`open conflict on these items (${c.sources.join(' vs ')}: ${c.disagreement}). Record a resolution with --resolution FILE.json (RUBRIC §7a).`);
+      const r = L.readJSON(o.resolution);
+      const { problems, signals } = L.validateResolution(r, c.sources.map(x => ({ source: x, stance: 'contradicts' })), db);
+      if (problems.length) die(`resolution not sufficient: ${problems.join('; ')}`);
+      for (const e of r.evidence) if (!srcIds.includes(e.source)) srcIds.push(e.source);
+      entry.conflict_resolved = { conflict: c, ...r, signals };
+      if (signals.length) console.log(`signals: ${signals.join('; ')}`);
     }
   }
   const all = checks(); const per = L.readJSON(F.runChecks(run), {});
@@ -237,8 +242,6 @@ function makeVersion(input, v, run, author) {
   for (const ev of input.evidence || []) {
     if (!ev.source || !db.sources[ev.source]) die(`evidence source must be a registered S-id (got ${ev.source})`);
     if (ev.stance && !['supports', 'contradicts'].includes(ev.stance)) die(`evidence stance must be supports|contradicts`);
-    if (ev.role && !['recheck', 'tiebreak'].includes(ev.role)) die(`evidence role must be recheck|tiebreak`);
-    if (ev.role && !ev.passage) die(`${ev.role} evidence needs a recorded passage`);
   }
   return {
     v, created: now(), run: run || null, author,
@@ -246,6 +249,7 @@ function makeVersion(input, v, run, author) {
     changes, why: input.why || null, rationale: input.rationale || null, evidence: input.evidence || [],
     uncertainty: input.uncertainty || null, confidence: input.confidence || null,
     question: input.question || null, knock_on_notes: input.knock_on_notes || {},
+    unverified_carryover: input.unverified_carryover || [], conflict_resolution: input.conflict_resolution || null,
     knock_on: knockOn(changes), hash: changeHash(changes),
   };
 }
@@ -264,10 +268,34 @@ function propose(file, o) {
   db.proposals.push({
     id, fingerprint: fp, targets: targetsOf(ver.changes), resolves_checks: input.resolves_checks || [],
     versions: [ver], decision: { status: 'pending', v: null, hash: null, date: null, note: null }, decision_log: [], applied: null,
+    research: researchFrom(input, {}),
   });
   L.writeJSON(F.ledger, db);
   console.log(`${id} v1 created (${ver.kind}, change-hash ${ver.hash})`);
   if (overlap.length) console.log(`warning: overlaps open proposal(s) ${overlap.map(p => p.id).join(', ')} on the same target`);
+}
+// Evidence status lives beside, not inside, the editorial decision.
+function researchFrom(input, prev) {
+  const r = { ...prev };
+  if (input.research_status) {
+    if (!L.EVIDENCE_STATUSES[input.research_status] || input.research_status === 'disputed') die(`research_status must be one of ${Object.keys(L.EVIDENCE_STATUSES).filter(x => x !== 'disputed').join('|')} (disputed is derived from the evidence)`);
+    r.status = input.research_status;
+  }
+  for (const k of ['missing', 'linked', 'apply_together', 'research_note']) if (input[k] !== undefined) r[k === 'research_note' ? 'note' : k] = input[k];
+  if (r.status && !L.APPLICABLE.has(r.status) && !(r.missing || []).length) die(`research_status ${r.status} needs 'missing': what exactly remains to be found`);
+  r.updated = L.today();
+  return r;
+}
+function setStatus(id, o) {
+  const db = ledger(); const p = getP(db, id);
+  const input = { research_status: o.status };
+  if (o.missing) input.missing = String(o.missing).split('|').map(x => x.trim()).filter(Boolean);
+  if (o.linked) input.linked = list(o.linked);
+  if (o['apply-together']) input.apply_together = list(o['apply-together']);
+  if (o.note) input.research_note = o.note;
+  p.research = researchFrom(input, p.research || {});
+  L.writeJSON(F.ledger, db);
+  console.log(`${id} evidence status: ${p.research.status}${(p.research.missing || []).length ? ` — missing: ${p.research.missing.join('; ')}` : ''}`);
 }
 function getP(db, id) { return db.proposals.find(p => p.id === id) || die(`no proposal ${id}`); }
 function logDecision(p) { if (p.decision.status !== 'pending' || p.decision.note) p.decision_log.push({ ...p.decision }); }
@@ -282,6 +310,7 @@ function revise(id, file, o, author = 'claude') {
   p.fingerprint = fingerprint(ver.changes);
   p.targets = targetsOf(ver.changes);
   if (input.resolves_checks) p.resolves_checks = input.resolves_checks;
+  p.research = researchFrom(L.readJSON(file), p.research || {});
   const substantive = ver.hash !== prev.hash;
   if (author === 'claude' && (substantive || o.reopen) && p.decision.status !== 'pending') {
     logDecision(p);
@@ -293,13 +322,18 @@ function revise(id, file, o, author = 'claude') {
   console.log(`${id} v${ver.v} (${substantive ? 'substantive: change-hash ' + ver.hash : 'non-substantive'}) — decision: ${p.decision.status}`);
   return [db, p, ver];
 }
-// RUBRIC §7a: conflicting evidence blocks acceptance until double-checked or
-// settled by a third independent source, unless the maintainer overrides with a reason.
-function conflictGate(ver, accepting, o) {
-  const st = L.conflictStatus(ver.evidence, sources());
-  if (!accepting || st.resolved) return null;
-  if (typeof o['override-conflict'] === 'string') return o['override-conflict'];
-  die(`cannot accept: ${st.reason}. Record the double check or third source with 'revise', or pass --override-conflict "<maintainer's reason>".`);
+// Editorial acceptance is separate from evidence status. A disputed proposal
+// (unresolved conflict) cannot be accepted without an explicit maintainer
+// override; other unverified statuses can be accepted but are held from apply.
+// An override never changes the evidence status.
+function evidenceGate(p, ver, accepting, o) {
+  if (!accepting) return null;
+  const tmp = { ...p, versions: [...p.versions.filter(x => x.v !== ver.v), ver] };
+  const st = L.evidenceStatus(tmp, sources());
+  const override = typeof o.override === 'string' ? o.override : typeof o['override-conflict'] === 'string' ? o['override-conflict'] : null;
+  if (st.status === 'disputed' && !override) die(`cannot accept: ${st.missing[0]}. Resolve it (RUBRIC §7a) or pass --override "<maintainer's reason>" (evidence stays disputed).`);
+  if (!L.APPLICABLE.has(st.status)) console.log(`note: evidence status is '${st.status}'; ${override ? 'maintainer override recorded — will apply, evidence status unchanged' : 'accepted editorially but held from apply until the evidence status is verified or internal-consistency'}`);
+  return override;
 }
 function decide(id, action, o) {
   const map = { accept: 'accepted', reject: 'rejected', defer: 'deferred', withdraw: 'withdrawn', supersede: 'superseded' };
@@ -310,18 +344,18 @@ function decide(id, action, o) {
   if (!v) die('--version is required: decisions bind to an exact proposal version');
   if (v !== cur.v) die(`${id} is now at v${cur.v}; the decision was given for v${v}. Show the maintainer v${cur.v} before recording it.`);
   if (action === 'accept' && !cur.changes.length) die(`${id} has no changes to apply (flag/question). Record the answer with --note and 'defer', 'reject' or 'withdraw', or revise it into a concrete change.`);
-  const override = conflictGate(cur, action === 'accept', o);
+  const override = evidenceGate(p, cur, action === 'accept', o);
   logDecision(p);
-  p.decision = { status: map[action], v: cur.v, hash: cur.hash, date: L.today(), note: o.note || null, revisit_after: o.until || null, edited: false, ...(override ? { conflict_override: override } : {}) };
+  p.decision = { status: map[action], v: cur.v, hash: cur.hash, date: L.today(), note: o.note || null, revisit_after: o.until || null, edited: false, ...(override ? { override } : {}) };
   L.writeJSON(F.ledger, db);
   console.log(`${id} v${cur.v} → ${map[action]}${o.until ? ` (revisit after ${o.until})` : ''}`);
 }
 function edit(id, file, o) {
-  const input = { ...latest(getP(ledger(), id)), ...L.readJSON(file) };
-  const override = conflictGate(input, true, o);
+  const p0 = getP(ledger(), id);
+  const override = evidenceGate(p0, { ...latest(p0), ...L.readJSON(file) }, true, o);
   const [db, p, ver] = revise(id, file, o, 'user');
   logDecision(p);
-  p.decision = { status: 'accepted', v: ver.v, hash: ver.hash, date: L.today(), note: o.note || 'edited by maintainer', revisit_after: null, edited: true, ...(override ? { conflict_override: override } : {}) };
+  p.decision = { status: 'accepted', v: ver.v, hash: ver.hash, date: L.today(), note: o.note || 'edited by maintainer', revisit_after: null, edited: true, ...(override ? { override } : {}) };
   L.writeJSON(F.ledger, db);
   console.log(`${id} v${ver.v} (maintainer edit) → accepted`);
 }
@@ -337,9 +371,10 @@ function runCmd(sub, id, o, extra) {
   }
   if (!run) die(`no run ${id}`);
   if (sub === 'discovery') { run.discovery.push(L.readJSON(extra)); L.writeJSON(f, run); return console.log('discovery log appended'); }
+  if (sub === 'usage') { run.usage = o.text || die('--text required'); L.writeJSON(f, run); return console.log('usage recorded'); }
   if (sub === 'highlights') { run.highlights = L.readJSON(extra); L.writeJSON(f, run); return console.log(`${run.highlights.length} highlight(s) set`); }
   if (sub === 'finish') { run.finished_at = now(); run.usage = o.usage || null; L.writeJSON(f, run); return console.log(`run ${id} finished`); }
-  die('run start|discovery|highlights|finish');
+  die('run start|discovery|highlights|usage|finish');
 }
 
 // ---- report --------------------------------------------------------------------------
@@ -382,19 +417,30 @@ function renderEvidence(ev, db) {
 function renderProposal(p, inv, db) {
   const v = latest(p);
   const d = p.decision;
+  const ev = L.evidenceStatus(p, db);
   const out = [`### ${p.id} v${v.v} — ${v.title}`, '',
-    `\`${v.kind}\` · confidence: ${v.confidence || '—'} · change-hash \`${v.hash}\` · decision: **${d.status}**${d.status !== 'pending' ? ` (v${d.v}, ${d.date})` : ''}${d.revisit_after ? ` · revisit after ${d.revisit_after}` : ''}`, ''];
+    `\`${v.kind === 'flag' ? 'question' : v.kind}\` · evidence: **${L.EVIDENCE_STATUSES[ev.status]}** · decision: **${d.status}**${d.status !== 'pending' ? ` (v${d.v}, ${d.date})` : ''}${d.override ? ' · maintainer override (evidence status unchanged)' : ''}${d.revisit_after ? ` · revisit after ${d.revisit_after}` : ''} · confidence: ${v.confidence || '—'} · change-hash \`${v.hash}\``, ''];
   if (p.versions.length > 1) {
     const prev = p.versions[p.versions.length - 2];
-    out.push(`_Revised from v${prev.v} (${prev.hash === v.hash ? 'same change wording; evidence/notes updated' : 'wording changed'})._`, '');
+    out.push(`_Revised from v${prev.v}: ${prev.hash === v.hash ? 'same change wording, so an existing approval carries over' : 'wording changed, so it needs a fresh decision'}._`, '');
   }
+  if (ev.missing.length) out.push(`**Still missing:** ${ev.missing.join('; ')}`, '');
+  if ((p.research || {}).linked?.length) out.push(`**Linked:** ${p.research.linked.join(', ')}`, '');
+  if ((p.research || {}).apply_together?.length) out.push(`**Applied together with:** ${p.research.apply_together.filter(x => x !== p.id).join(', ')}`, '');
   if (v.changes.length) out.push('**Change**', '', ...v.changes.map(c => renderChange(c, inv)));
   if (v.question) out.push(`**Question for you:** ${v.question}`, '');
   if (v.why) out.push(`**Why it matters:** ${v.why}`, '');
   if (v.rationale) out.push(`**Reasoning:** ${v.rationale}`, '');
   if (v.evidence.length) out.push('**Evidence**', '', ...v.evidence.map(e => renderEvidence(e, db)), '');
-  const cs = L.conflictStatus(v.evidence, db);
-  if (cs.conflict) out.push(cs.resolved ? `**Conflicting evidence — resolved** by ${cs.how}.` : `**⚠ Conflicting evidence — not resolved:** ${cs.reason}. Cannot be accepted until then.`, '');
+  if ((v.unverified_carryover || []).length) out.push(`**Carried over unchanged, not re-verified:** ${v.unverified_carryover.join('; ')}`, '');
+  const cs = L.conflictStatus(v, db);
+  if (cs.conflict) {
+    const r = v.conflict_resolution;
+    out.push(cs.resolved
+      ? `**Conflicting evidence — resolved (${L.RESOLUTION_BASES[r.basis]}).** Disagreement: ${r.disagreement}. Why resolved: ${r.explanation}`
+      : `**⚠ Conflicting evidence — not resolved:** ${cs.reason}.`, '');
+  }
+  if (cs.signals.length) out.push(`**Independence signals:** ${cs.signals.join('; ')}`, '');
   if (v.uncertainty) out.push(`**Uncertainty:** ${v.uncertainty}`, '');
   const ko = v.knock_on.filter(i => !i.startsWith('entry:') || v.knock_on_notes[i]);
   const koEntries = v.knock_on.filter(i => i.startsWith('entry:') && !v.knock_on_notes[i]);
@@ -407,86 +453,122 @@ function renderProposal(p, inv, db) {
     if (koEntries.length) out.push(`- Entry text that mentions the affected entries: ${koEntries.map(i => `\`${i}\``).join(', ')}`);
     out.push('');
   }
-  if (p.decision_log.length) out.push(`_History:_ ${p.decision_log.map(x => `${x.status}${x.v ? ` v${x.v}` : ''} ${x.date || ''}${x.note ? ` (${x.note})` : ''}`).join('; ')}`, '');
+  if (p.decision_log.length) out.push(`_Decision history:_ ${p.decision_log.map(x => `${x.status}${x.v ? ` v${x.v}` : ''} ${x.date || ''}${x.note ? ` (${x.note})` : ''}`).join('; ')}`, '');
   return out.join('\n');
 }
+
+// Which of the four report buckets a proposal belongs to.
+function bucketOf(p, db, heldIds, today) {
+  if (p.applied) return 'applied';
+  const d = p.decision;
+  if (['rejected', 'withdrawn', 'superseded'].includes(d.status)) return 'closed';
+  if (d.status === 'deferred' && d.revisit_after && d.revisit_after > today) return 'closed';
+  const ev = L.evidenceStatus(p, db);
+  const ready = L.APPLICABLE.has(ev.status);
+  if (d.status === 'accepted') return heldIds.has(p.id) ? 'research' : 'awaiting-apply';
+  return ready ? 'decide' : 'research';
+}
+
 function report(id) {
   const run = L.readJSON(F.run(id)) || die(`no run ${id}`);
   const inv = L.buildInventory();
   const db = sources(); const lg = ledger(); const all = checks();
   const per = L.readJSON(F.runChecks(id), {});
   const today = L.today();
-  const open = lg.proposals.filter(p => !p.applied && (p.decision.status === 'pending' || (p.decision.status === 'deferred' && (!p.decision.revisit_after || p.decision.revisit_after <= today))));
-  const changes = open.filter(p => latest(p).kind === 'change');
-  const additions = open.filter(p => latest(p).kind === 'addition');
-  const flags = open.filter(p => latest(p).kind === 'flag');
-  const decided = lg.proposals.filter(p => p.decision.status !== 'pending' && !(open.includes(p)));
+  const { held } = require('./apply').eligibility(lg, db);
+  const heldIds = new Set(held.map(h => h.id));
+  const heldWhy = Object.fromEntries(held.map(h => [h.id, h.reason]));
+  const B = { decide: [], research: [], 'awaiting-apply': [], applied: [], closed: [] };
+  for (const p of lg.proposals) B[bucketOf(p, db, heldIds, today)].push(p);
+
   const runIds = Object.keys(per);
-  const counts = {}; for (const r of Object.values(per)) counts[r.outcome] = (counts[r.outcome] || 0) + 1;
+  const recs = runIds.map(i => per[i]);
+  const cnt = (f) => recs.filter(f).length;
+  const ok = r => ['changed', 'no_change'].includes(r.outcome);
+  const extOk = cnt(r => r.scope !== 'internal' && ok(r));
+  const intOk = cnt(r => r.scope === 'internal' && ok(r));
+  const inacc = cnt(r => r.outcome === 'inaccessible');
+  const unres = cnt(r => r.outcome === 'unresolved');
   const total = inv.items.length;
-  const everOk = inv.items.filter(i => all.items[i.id]?.last_success).length;
-  const okCurrent = inv.items.filter(i => all.items[i.id]?.last_success?.hash === i.hash).length;
+  const everExt = inv.items.filter(i => all.items[i.id]?.last_success && all.items[i.id].last_success.scope !== 'internal').length;
   const elapsed = run.finished_at ? Math.round((Date.parse(run.finished_at) - Date.parse(run.started_at)) / 60000) : null;
-  const usedSources = [...new Set(Object.values(per).flatMap(r => r.sources))];
+  const usedSources = [...new Set(recs.flatMap(r => r.sources))];
   const failures = usedSources.filter(s => db.sources[s] && !accessible(db.sources[s]));
   const entriesInRun = [...new Set(runIds.filter(i => i.startsWith('entry:')).map(i => i.split(':')[1]))];
   const contentDate = (L.contentDates().find(d => d.kind === 'iso') || {}).value;
-
-  const appliedP = lg.proposals.filter(p => p.applied);
-  const awaitingApply = decided.filter(p => p.decision.status === 'accepted' && !p.applied);
-  const st = k => decided.filter(p => p.decision.status === k).length;
-  const typeOf = p => (latest(p).kind === 'flag' ? 'question' : latest(p).kind);
   const cell = t => String(t).replace(/\|/g, '\\|');
-  const conflictMark = p => (L.conflictStatus(latest(p).evidence, db).resolved ? '' : ' ⚠ conflict');
+  const typeOf = p => (latest(p).kind === 'flag' ? 'question' : latest(p).kind);
+  const evOf = p => L.evidenceStatus(p, db);
 
   const o = [];
   o.push(`# Review report — ${run.label}`, '');
-  if (run.partial) o.push(`> **PARTIAL RUN.** ${entriesInRun.length} of ${inv.map.entities.length} entries checked. This is not a baseline audit; everything else is *not checked*.`, '');
+  if (run.partial) o.push(`> **PARTIAL RUN.** ${entriesInRun.length} of ${inv.map.entities.length} entries attempted. This is not a baseline audit; everything else is *not checked*.`, '');
 
   o.push('## Summary', '');
   for (const h of run.highlights || []) o.push(`- ${h}`);
   if ((run.highlights || []).length) o.push('');
-  o.push(
-    `- **Checked:** ${runIds.length} items across ${entriesInRun.length} of ${inv.map.entities.length} entries. ${Object.entries(counts).map(([k, v]) => `${OUTCOMES[k]}: ${v}`).join(' · ') || '—'}.`,
-    `- **Proposals:** ${open.length} awaiting your decision · ${awaitingApply.length} accepted, not yet applied · ${appliedP.length} applied · ${st('rejected')} rejected · ${st('deferred')} deferred.`,
-    `- **Sources:** ${usedSources.length} used, ${failures.length} could not be retrieved${failures.length ? ' (see §2)' : ''}.`,
-    `- **Map:** content last updated ${contentDate}. ${everOk} of ${total} inventory items have ever been successfully checked (${okCurrent} against their current text).`,
-    `- **Run:** \`${run.id}\` · ${run.started_at} → ${run.finished_at ? `${run.finished_at} (${elapsed} min)` : 'not finished'} · usage/cost: ${run.usage || 'not available in this session'}.`, '');
+  o.push('| | |', '|---|---|',
+    `| Attempted | ${runIds.length} items across ${entriesInRun.length} entries |`,
+    `| Verified against external sources | ${extOk} (change supported: ${cnt(r => r.scope !== 'internal' && r.outcome === 'changed')}, no material change: ${cnt(r => r.scope !== 'internal' && r.outcome === 'no_change')}) |`,
+    `| Internal consistency checks passed or fixed | ${intOk} (the map checked against itself, not against outside sources) |`,
+    `| Not verified | ${inacc + unres} (source inaccessible: ${inacc}, unresolved: ${unres}) |`,
+    `| Sources | ${usedSources.length} used, ${failures.length} not retrieved |`,
+    `| Proposals | ready for your decision: ${B.decide.length} · research/access required: ${B.research.length} · accepted, awaiting application: ${B['awaiting-apply'].length} · applied: ${B.applied.length} · closed/deferred: ${B.closed.length} |`,
+    `| Whole map | ${everExt} of ${total} inventory items have ever been verified against external sources. The map's public content date (${contentDate}) marks the latest applied release, not a full audit. |`,
+    `| Run | \`${run.id}\` · ${run.started_at} → ${run.finished_at ? `${run.finished_at} (${elapsed} min)` : 'not finished'} · usage/cost: ${run.usage || 'not recorded'} |`, '');
 
-  o.push('## Decisions', '', '### Awaiting your decision', '');
-  if (open.length) {
-    o.push('| ID | Ver | Type | Proposal | Confidence |', '|---|---|---|---|---|');
-    for (const p of [...changes, ...additions, ...flags]) o.push(`| ${p.id} | v${latest(p).v} | ${typeOf(p)}${conflictMark(p)} | ${cell(latest(p).title)} | ${latest(p).confidence || '—'} |`);
-    o.push('', 'Reply in conversation, e.g. “accept P-0002 v1”, “edit P-0003: use …”, “reject P-0004 — reason”, “defer P-0005 until 2026-12-01”. Decisions bind to the version shown; a substantive revision comes back for renewed approval. Details in §1.', '');
-  } else o.push('_Nothing awaiting a decision._', '');
-  o.push('### Decided', '');
-  if (decided.length) {
-    o.push('| ID | Ver | Decision | Date | Status | Proposal |', '|---|---|---|---|---|---|');
-    for (const p of decided) {
-      const d = p.decision;
-      const status = p.applied ? `applied (${p.applied.manifest.split('/').pop()})` : d.status === 'accepted' ? 'awaiting apply' : d.revisit_after ? `revisit after ${d.revisit_after}` : '—';
-      o.push(`| ${p.id} | v${d.v ?? '—'} | ${d.status}${d.edited ? ' (your edit)' : ''}${d.conflict_override ? ' (conflict override)' : ''} | ${d.date || '—'} | ${status} | ${cell(latest(p).title)} |`);
+  o.push('## A. Ready for your decision', '');
+  if (B.decide.length) {
+    o.push('| ID | Ver | Type | Proposal | Evidence |', '|---|---|---|---|---|');
+    for (const p of B.decide) o.push(`| ${p.id} | v${latest(p).v} | ${typeOf(p)} | ${cell(latest(p).title)} | ${evOf(p).status} |`);
+    o.push('', 'Reply in conversation, e.g. “accept P-0002 v2”, “edit P-0011: …”, “reject P-0012 — reason”, “defer …”. Decisions bind to the version shown. Full details in §1.', '');
+  } else o.push('_Nothing ready for a decision._', '');
+
+  o.push('## B. Further research or source access required', '', '_No editorial decision is needed for these until the evidence is in._', '');
+  if (B.research.length) {
+    o.push('| ID | Ver | Decision so far | Proposal | Status | What is missing |', '|---|---|---|---|---|---|');
+    for (const p of B.research) {
+      const ev = evOf(p);
+      const why = heldWhy[p.id] && !ev.missing.length ? heldWhy[p.id] : ev.missing.join('; ');
+      o.push(`| ${p.id} | v${latest(p).v} | ${p.decision.status}${p.decision.status === 'accepted' ? ` v${p.decision.v} (held)` : ''} | ${cell(latest(p).title)} | ${ev.status} | ${cell(heldWhy[p.id] && L.APPLICABLE.has(ev.status) ? heldWhy[p.id] : why)} |`);
     }
     o.push('');
-  } else o.push('_None yet._', '');
+  } else o.push('_None._', '');
 
-  o.push('## 1. Proposal details — awaiting decision', '');
-  if (!open.length) o.push('_None._', '');
-  for (const [label, ps] of [['Changes to existing items', changes], ['New candidates', additions], ['Questions requiring your judgment', flags]]) {
-    if (!ps.length) continue;
-    o.push(`### ${label}`, '', ps.map(p => renderProposal(p, inv, db)).join('\n---\n\n'), '');
+  o.push('## C. Accepted and awaiting application', '');
+  if (B['awaiting-apply'].length) {
+    o.push('| ID | Ver | Accepted | Proposal | Evidence |', '|---|---|---|---|---|');
+    for (const p of B['awaiting-apply']) o.push(`| ${p.id} | v${p.decision.v} | ${p.decision.date}${p.decision.override ? ' (override)' : ''} | ${cell(latest(p).title)} | ${evOf(p).status} |`);
+    o.push('');
+  } else o.push('_None._', '');
+
+  o.push('## D. Applied', '');
+  if (B.applied.length) {
+    o.push('| ID | Ver | Applied | Manifest | Proposal |', '|---|---|---|---|---|');
+    for (const p of B.applied) o.push(`| ${p.id} | v${p.decision.v} | ${p.applied.date} | ${p.applied.manifest.split('/').pop()} | ${cell(latest(p).title)} |`);
+    o.push('');
+  } else o.push('_Nothing applied yet._', '');
+  if (B.closed.length) {
+    o.push('**Closed or deferred:** ' + B.closed.map(p => `${p.id} (${p.decision.status}${p.decision.revisit_after ? ` until ${p.decision.revisit_after}` : ''})`).join(', '), '');
+  }
+
+  o.push('## 1. Proposal details', '');
+  for (const [label, key] of [['Ready for your decision', 'decide'], ['Research or source access required', 'research'], ['Accepted, awaiting application', 'awaiting-apply'], ['Applied', 'applied'], ['Closed or deferred', 'closed']]) {
+    if (!B[key].length) continue;
+    o.push(`### ${label}`, '', B[key].map(p => renderProposal(p, inv, db)).join('\n---\n\n'), '');
   }
 
   const unresolved = runIds.filter(i => ['unresolved', 'inaccessible'].includes(per[i].outcome));
-  o.push('## 2. Unresolved items and failures', '');
-  if (!unresolved.length && !failures.length) o.push('_None._', '');
+  o.push('## 2. Attempted checks that did not verify', '');
+  if (!unresolved.length) o.push('_None._', '');
   const groups = {};
   for (const i of unresolved) { const k = `${per[i].outcome}|${per[i].note}|${per[i].sources.join(',')}`; (groups[k] = groups[k] || []).push(i); }
   for (const [k, items] of Object.entries(groups)) {
     const [outcome, note, srcs] = k.split('|');
+    const r = per[items[0]];
     o.push(`- **${OUTCOMES[outcome]}** — ${items.length} item(s): ${items.map(i => `\`${i}\``).join(', ')}`, `  ${note}`);
-    const cf = per[items[0]].conflict;
-    if (cf) o.push(`  **Conflict:** ${cf.sources.join(' vs ')} — next step: double check these sources, then consult a third independent source if they still disagree.`);
+    if (r.missing) o.push(`  **Still missing:** ${r.missing}`);
+    if (r.conflict) o.push(`  **Conflict:** ${r.conflict.sources.join(' vs ')} on “${r.conflict.disagreement}” — needs a recorded resolution (RUBRIC §7a).`);
     for (const s of list(srcs)) { const src = db.sources[s]; const f = lastFetch(src) || {}; o.push(`  - ${s} <${src.url}> — ${f.status || 'not fetched'}${f.http ? ` HTTP ${f.http}` : ''} on ${f.date || '—'}`); }
   }
   o.push('');
@@ -498,31 +580,34 @@ function report(id) {
     if (d.queries?.length) o.push(`Searches: ${d.queries.map(x => `“${x}”`).join('; ')}`, '');
     if (d.candidates?.length) {
       o.push('| Candidate | Result | Reason | Sources |', '|---|---|---|---|');
-      for (const c of d.candidates) o.push(`| ${c.name} | ${c.result}${c.proposal ? ` (${c.proposal})` : ''} | ${c.reason} | ${(c.sources || []).join(', ')} |`);
+      for (const c of d.candidates) o.push(`| ${cell(c.name)} | ${cell(c.result)}${c.proposal ? ` (${c.proposal})` : ''} | ${cell(c.reason)} | ${(c.sources || []).join(', ')} |`);
       o.push('');
     }
     if (d.limits) o.push(`_Limits:_ ${d.limits}`, '');
   }
 
-  o.push('## 4. Proposal details — decided (audit trail)', '');
-  o.push(decided.length ? decided.map(p => renderProposal(p, inv, db)).join('\n---\n\n') : '_None yet._', '');
-
-  o.push('## Appendix A — checked, no material change', '');
-  const nochange = runIds.filter(i => per[i].outcome === 'no_change');
-  if (!nochange.length) o.push('_None._', '');
-  const byNote = {};
-  for (const i of nochange) { const k = `${per[i].note}|${per[i].sources.join(',')}`; (byNote[k] = byNote[k] || []).push(i); }
-  for (const [k, items] of Object.entries(byNote)) {
-    const [note, srcs] = k.split('|');
-    o.push(`- ${items.map(i => `\`${i}\``).join(', ')}`, `  ${note} — sources: ${list(srcs).map(s => `${s} <${db.sources[s].url}>`).join('; ')}`);
-  }
-  o.push('', '## Appendix B — not checked in this run', '');
+  const succ = (scope) => runIds.filter(i => ok(per[i]) && (per[i].scope === 'internal') === (scope === 'internal'));
+  const listChecks = ids => {
+    const byNote = {};
+    for (const i of ids) { const k = `${per[i].outcome}|${per[i].note}|${per[i].sources.join(',')}`; (byNote[k] = byNote[k] || []).push(i); }
+    for (const [k, items] of Object.entries(byNote)) {
+      const [outcome, note, srcs] = k.split('|');
+      o.push(`- ${items.map(i => `\`${i}\``).join(', ')} — _${OUTCOMES[outcome]}_`, `  ${note} — sources: ${list(srcs).map(s => `${s} <${db.sources[s].url}>`).join('; ')}`);
+    }
+    if (!ids.length) o.push('_None._');
+    o.push('');
+  };
+  o.push('## Appendix A — successful external checks', '');
+  listChecks(succ('external'));
+  o.push('## Appendix B — internal consistency checks', '', '_These compare the map with itself (counts, labels, generated files, cross-references). They do not verify facts about the world._', '');
+  listChecks(succ('internal'));
+  o.push('## Appendix C — not checked in this run', '');
   const notChecked = inv.map.entities.filter(e => !entriesInRun.includes(e.id)).map(e => e.id);
   o.push(`Entries (${notChecked.length}): ${notChecked.map(i => `\`${i}\``).join(', ') || '—'}`, '');
   const otherKinds = inv.items.filter(i => !i.id.startsWith('entry:') && !per[i.id]).map(i => i.id);
   o.push(`Other inventory items not checked (${otherKinds.length}): connections, gap summaries, FAQ answers, page text and category definitions not listed above.`, '');
-  o.push('## Appendix C — sources used', '');
-  for (const s of usedSources) { const src = db.sources[s]; const f = lastFetch(src) || {}; o.push(`- ${s} ${src.title || ''} <${src.url}> — ${src.type || 'source'} · ${f.status || 'not fetched'} ${f.date || ''}${f.sha256 ? ` · sha256:${f.sha256}` : ''}`); }
+  o.push('## Appendix D — sources used', '');
+  for (const s of usedSources) { const src = db.sources[s]; const f = lastFetch(src) || {}; o.push(`- ${s} ${src.title || ''} <${src.url}> — ${src.type || 'source'} · ${f.status || 'not fetched'} ${f.date || ''}${f.sha256 ? ` · sha256:${f.sha256}` : ''}${src.derived_from ? ` · repeats ${src.derived_from.join(', ')}` : ''}`); }
   const text = o.join('\n') + '\n';
   fs.writeFileSync(F.report(id), text);
   console.log(text);
@@ -556,17 +641,30 @@ function main() {
         s.passages.push({ id: pid, locator: o.locator, text: o.text, retrieved: lastFetch(s).date });
         L.writeJSON(F.sources, db); return console.log(pid);
       }
+      if (sub === 'derived') {
+        const db = sources(); const s = db.sources[a] || die(`no source ${a}`);
+        for (const x of list(o.from)) if (!db.sources[x]) die(`no source ${x}`);
+        s.derived_from = [...new Set([...(s.derived_from || []), ...list(o.from)])];
+        L.writeJSON(F.sources, db); return console.log(`${a} derived from ${s.derived_from.join(', ')}`);
+      }
       if (sub === 'dates') {
         const db = sources(); const s = db.sources[a] || die(`no source ${a}`);
         for (const kv of pos.slice(2)) { const [k, v] = kv.split('='); s.dates[k] = v; }
         L.writeJSON(F.sources, db); return console.log(JSON.stringify(s.dates));
       }
-      return die('source fetch|add|passage|dates');
+      return die('source fetch|add|passage|dates|derived');
     }
     case 'check': return recordCheck(pos[0], o);
     case 'propose': return propose(pos[0], o);
     case 'revise': return revise(pos[0], pos[1], o);
     case 'decide': return decide(pos[0], pos[1], o);
+    case 'status': return setStatus(pos[0], o);
+    case 'note': {
+      const db = ledger(); const p = getP(db, pos[0]);
+      if (!o.text) die('--text required');
+      p.decision.note = [p.decision.note, o.text].filter(Boolean).join(' — ');
+      L.writeJSON(F.ledger, db); return console.log(`${p.id} decision note: ${p.decision.note}`);
+    }
     case 'edit': return edit(pos[0], pos[1], o);
     case 'list': {
       for (const p of ledger().proposals.filter(x => !o.status || x.decision.status === o.status)) {

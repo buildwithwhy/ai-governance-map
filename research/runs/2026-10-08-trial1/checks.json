@@ -9,7 +9,9 @@
     ],
     "proposals": [],
     "note": "Commission AI Act page and EUR-Lex text both blocked by the environment's network policy; nothing about the EU AI Act could be checked against a source.",
-    "hash": "d0bbc0793b91"
+    "hash": "d0bbc0793b91",
+    "scope": "external",
+    "missing": "Official text of Regulation (EU) 2024/1689 as amended (EUR-Lex), and of the reported amending Regulation (EU) 2026/1744, plus the Commission AI Act page. All blocked by the environment network policy."
   },
   "entry:eu-aia:desc": {
     "run": "2026-10-08-trial1",
@@ -24,7 +26,9 @@
     ],
     "proposals": [],
     "note": "LEAD (unverified): search results say the 'Digital Omnibus on AI', Regulation (EU) 2026/1744, entered into force 27 Jul 2026 and moved Annex III high-risk application to 2 Dec 2027 and Annex I to 2 Aug 2028. The map says 'high-risk system rules Aug 2027'. Secondary reports disagree on Article 50 timing. None of these pages could be opened; primary sources blocked. No proposal until the Official Journal text is inspected.",
-    "hash": "16c78674ded7"
+    "hash": "16c78674ded7",
+    "scope": "external",
+    "missing": "Official text of Regulation (EU) 2024/1689 as amended (EUR-Lex), and of the reported amending Regulation (EU) 2026/1744, plus the Commission AI Act page. All blocked by the environment network policy."
   },
   "entry:eu-aia:context": {
     "run": "2026-10-08-trial1",
@@ -36,7 +40,9 @@
     ],
     "proposals": [],
     "note": "Commission AI Act page and EUR-Lex text both blocked by the environment's network policy; nothing about the EU AI Act could be checked against a source.",
-    "hash": "17be873e9bdb"
+    "hash": "17be873e9bdb",
+    "scope": "external",
+    "missing": "Official text of Regulation (EU) 2024/1689 as amended (EUR-Lex), and of the reported amending Regulation (EU) 2026/1744, plus the Commission AI Act page. All blocked by the environment network policy."
   },
   "entry:eu-aia:cov": {
     "run": "2026-10-08-trial1",
@@ -48,7 +54,9 @@
     ],
     "proposals": [],
     "note": "Commission AI Act page and EUR-Lex text both blocked by the environment's network policy; nothing about the EU AI Act could be checked against a source.",
-    "hash": "c49a5fcd8f89"
+    "hash": "c49a5fcd8f89",
+    "scope": "external",
+    "missing": "Official text of Regulation (EU) 2024/1689 as amended (EUR-Lex), and of the reported amending Regulation (EU) 2026/1744, plus the Commission AI Act page. All blocked by the environment network policy."
   },
   "entry:eu-aia:cov:thresh": {
     "run": "2026-10-08-trial1",
@@ -60,7 +68,9 @@
     ],
     "proposals": [],
     "note": "Commission AI Act page and EUR-Lex text both blocked by the environment's network policy; nothing about the EU AI Act could be checked against a source.",
-    "hash": "72f727d071e2"
+    "hash": "72f727d071e2",
+    "scope": "external",
+    "missing": "Official text of Regulation (EU) 2024/1689 as amended (EUR-Lex), and of the reported amending Regulation (EU) 2026/1744, plus the Commission AI Act page. All blocked by the environment network policy."
   },
   "entry:eu-aia:cov:eval": {
     "run": "2026-10-08-trial1",
@@ -72,7 +82,9 @@
     ],
     "proposals": [],
     "note": "Commission AI Act page and EUR-Lex text both blocked by the environment's network policy; nothing about the EU AI Act could be checked against a source.",
-    "hash": "455143b4ff2d"
+    "hash": "455143b4ff2d",
+    "scope": "external",
+    "missing": "Official text of Regulation (EU) 2024/1689 as amended (EUR-Lex), and of the reported amending Regulation (EU) 2026/1744, plus the Commission AI Act page. All blocked by the environment network policy."
   },
   "entry:eu-aia:cov:elicit": {
     "run": "2026-10-08-trial1",
@@ -84,7 +96,9 @@
     ],
     "proposals": [],
     "note": "Commission AI Act page and EUR-Lex text both blocked by the environment's network policy; nothing about the EU AI Act could be checked against a source.",
-    "hash": "3696da97c597"
+    "hash": "3696da97c597",
+    "scope": "external",
+    "missing": "Official text of Regulation (EU) 2024/1689 as amended (EUR-Lex), and of the reported amending Regulation (EU) 2026/1744, plus the Commission AI Act page. All blocked by the environment network policy."
   },
   "entry:eu-aia:cov:timing": {
     "run": "2026-10-08-trial1",
@@ -99,7 +113,9 @@
     ],
     "proposals": [],
     "note": "LEAD (unverified): search results say the 'Digital Omnibus on AI', Regulation (EU) 2026/1744, entered into force 27 Jul 2026 and moved Annex III high-risk application to 2 Dec 2027 and Annex I to 2 Aug 2028. The map says 'high-risk system rules Aug 2027'. Secondary reports disagree on Article 50 timing. None of these pages could be opened; primary sources blocked. No proposal until the Official Journal text is inspected.",
-    "hash": "7e028ca3cb91"
+    "hash": "7e028ca3cb91",
+    "scope": "external",
+    "missing": "Official text of Regulation (EU) 2024/1689 as amended (EUR-Lex), and of the reported amending Regulation (EU) 2026/1744, plus the Commission AI Act page. All blocked by the environment network policy."
   },
   "entry:eu-aia:cov:sec": {
     "run": "2026-10-08-trial1",
@@ -111,7 +127,9 @@
     ],
     "proposals": [],
     "note": "Commission AI Act page and EUR-Lex text both blocked by the environment's network policy; nothing about the EU AI Act could be checked against a source.",
-    "hash": "4003d23bd686"
+    "hash": "4003d23bd686",
+    "scope": "external",
+    "missing": "Official text of Regulation (EU) 2024/1689 as amended (EUR-Lex), and of the reported amending Regulation (EU) 2026/1744, plus the Commission AI Act page. All blocked by the environment network policy."
   },
   "entry:eu-aia:cov:mit": {
     "run": "2026-10-08-trial1",
@@ -123,7 +141,9 @@
     ],
     "proposals": [],
     "note": "Commission AI Act page and EUR-Lex text both blocked by the environment's network policy; nothing about the EU AI Act could be checked against a source.",
-    "hash": "47d31e228cae"
+    "hash": "47d31e228cae",
+    "scope": "external",
+    "missing": "Official text of Regulation (EU) 2024/1689 as amended (EUR-Lex), and of the reported amending Regulation (EU) 2026/1744, plus the Commission AI Act page. All blocked by the environment network policy."
   },
   "entry:eu-aia:cov:acct": {
     "run": "2026-10-08-trial1",
@@ -135,7 +155,9 @@
     ],
     "proposals": [],
     "note": "Commission AI Act page and EUR-Lex text both blocked by the environment's network policy; nothing about the EU AI Act could be checked against a source.",
-    "hash": "241914cfbce1"
+    "hash": "241914cfbce1",
+    "scope": "external",
+    "missing": "Official text of Regulation (EU) 2024/1689 as amended (EUR-Lex), and of the reported amending Regulation (EU) 2026/1744, plus the Commission AI Act page. All blocked by the environment network policy."
   },
   "entry:eu-aia:cov:update": {
     "run": "2026-10-08-trial1",
@@ -147,7 +169,9 @@
     ],
     "proposals": [],
     "note": "Commission AI Act page and EUR-Lex text both blocked by the environment's network policy; nothing about the EU AI Act could be checked against a source.",
-    "hash": "df20f40ea132"
+    "hash": "df20f40ea132",
+    "scope": "external",
+    "missing": "Official text of Regulation (EU) 2024/1689 as amended (EUR-Lex), and of the reported amending Regulation (EU) 2026/1744, plus the Commission AI Act page. All blocked by the environment network policy."
   },
   "entry:gpai-cop": {
     "run": "2026-10-08-trial1",
@@ -159,7 +183,9 @@
     ],
     "proposals": [],
     "note": "Commission Code page blocked. Leads from search only: signatory list reportedly updated 23 Apr 2026; AI Office 'Signatory Taskforce' first met 30 Jan 2026; GPAI enforcement powers from 2 Aug 2026. Current map signatory statements (Anthropic/OpenAI/Google all three chapters, xAI safety chapter only, Meta declined) are consistent with search snippets but unverified.",
-    "hash": "56e1400f1527"
+    "hash": "56e1400f1527",
+    "scope": "external",
+    "missing": "The Commission's Code of Practice page and current signatory list (digital-strategy.ec.europa.eu). Blocked."
   },
   "entry:gpai-cop:desc": {
     "run": "2026-10-08-trial1",
@@ -171,7 +197,9 @@
     ],
     "proposals": [],
     "note": "Commission Code page blocked. Leads from search only: signatory list reportedly updated 23 Apr 2026; AI Office 'Signatory Taskforce' first met 30 Jan 2026; GPAI enforcement powers from 2 Aug 2026. Current map signatory statements (Anthropic/OpenAI/Google all three chapters, xAI safety chapter only, Meta declined) are consistent with search snippets but unverified.",
-    "hash": "6f333f8c7a6d"
+    "hash": "6f333f8c7a6d",
+    "scope": "external",
+    "missing": "The Commission's Code of Practice page and current signatory list (digital-strategy.ec.europa.eu). Blocked."
   },
   "entry:gpai-cop:context": {
     "run": "2026-10-08-trial1",
@@ -183,7 +211,9 @@
     ],
     "proposals": [],
     "note": "Commission Code page blocked. Leads from search only: signatory list reportedly updated 23 Apr 2026; AI Office 'Signatory Taskforce' first met 30 Jan 2026; GPAI enforcement powers from 2 Aug 2026. Current map signatory statements (Anthropic/OpenAI/Google all three chapters, xAI safety chapter only, Meta declined) are consistent with search snippets but unverified.",
-    "hash": "7293388e3e6d"
+    "hash": "7293388e3e6d",
+    "scope": "external",
+    "missing": "The Commission's Code of Practice page and current signatory list (digital-strategy.ec.europa.eu). Blocked."
   },
   "entry:gpai-cop:cov": {
     "run": "2026-10-08-trial1",
@@ -195,7 +225,9 @@
     ],
     "proposals": [],
     "note": "Commission Code page blocked. Leads from search only: signatory list reportedly updated 23 Apr 2026; AI Office 'Signatory Taskforce' first met 30 Jan 2026; GPAI enforcement powers from 2 Aug 2026. Current map signatory statements (Anthropic/OpenAI/Google all three chapters, xAI safety chapter only, Meta declined) are consistent with search snippets but unverified.",
-    "hash": "387fa8bed03a"
+    "hash": "387fa8bed03a",
+    "scope": "external",
+    "missing": "The Commission's Code of Practice page and current signatory list (digital-strategy.ec.europa.eu). Blocked."
   },
   "entry:gpai-cop:cov:thresh": {
     "run": "2026-10-08-trial1",
@@ -207,7 +239,9 @@
     ],
     "proposals": [],
     "note": "Commission Code page blocked. Leads from search only: signatory list reportedly updated 23 Apr 2026; AI Office 'Signatory Taskforce' first met 30 Jan 2026; GPAI enforcement powers from 2 Aug 2026. Current map signatory statements (Anthropic/OpenAI/Google all three chapters, xAI safety chapter only, Meta declined) are consistent with search snippets but unverified.",
-    "hash": "8b0bad03f317"
+    "hash": "8b0bad03f317",
+    "scope": "external",
+    "missing": "The Commission's Code of Practice page and current signatory list (digital-strategy.ec.europa.eu). Blocked."
   },
   "entry:gpai-cop:cov:eval": {
     "run": "2026-10-08-trial1",
@@ -219,7 +253,9 @@
     ],
     "proposals": [],
     "note": "Commission Code page blocked. Leads from search only: signatory list reportedly updated 23 Apr 2026; AI Office 'Signatory Taskforce' first met 30 Jan 2026; GPAI enforcement powers from 2 Aug 2026. Current map signatory statements (Anthropic/OpenAI/Google all three chapters, xAI safety chapter only, Meta declined) are consistent with search snippets but unverified.",
-    "hash": "70805d672dd8"
+    "hash": "70805d672dd8",
+    "scope": "external",
+    "missing": "The Commission's Code of Practice page and current signatory list (digital-strategy.ec.europa.eu). Blocked."
   },
   "entry:gpai-cop:cov:elicit": {
     "run": "2026-10-08-trial1",
@@ -231,7 +267,9 @@
     ],
     "proposals": [],
     "note": "Commission Code page blocked. Leads from search only: signatory list reportedly updated 23 Apr 2026; AI Office 'Signatory Taskforce' first met 30 Jan 2026; GPAI enforcement powers from 2 Aug 2026. Current map signatory statements (Anthropic/OpenAI/Google all three chapters, xAI safety chapter only, Meta declined) are consistent with search snippets but unverified.",
-    "hash": "bfa698bef607"
+    "hash": "bfa698bef607",
+    "scope": "external",
+    "missing": "The Commission's Code of Practice page and current signatory list (digital-strategy.ec.europa.eu). Blocked."
   },
   "entry:gpai-cop:cov:sec": {
     "run": "2026-10-08-trial1",
@@ -243,7 +281,9 @@
     ],
     "proposals": [],
     "note": "Commission Code page blocked. Leads from search only: signatory list reportedly updated 23 Apr 2026; AI Office 'Signatory Taskforce' first met 30 Jan 2026; GPAI enforcement powers from 2 Aug 2026. Current map signatory statements (Anthropic/OpenAI/Google all three chapters, xAI safety chapter only, Meta declined) are consistent with search snippets but unverified.",
-    "hash": "3ddd73b40acc"
+    "hash": "3ddd73b40acc",
+    "scope": "external",
+    "missing": "The Commission's Code of Practice page and current signatory list (digital-strategy.ec.europa.eu). Blocked."
   },
   "entry:gpai-cop:cov:mit": {
     "run": "2026-10-08-trial1",
@@ -255,7 +295,9 @@
     ],
     "proposals": [],
     "note": "Commission Code page blocked. Leads from search only: signatory list reportedly updated 23 Apr 2026; AI Office 'Signatory Taskforce' first met 30 Jan 2026; GPAI enforcement powers from 2 Aug 2026. Current map signatory statements (Anthropic/OpenAI/Google all three chapters, xAI safety chapter only, Meta declined) are consistent with search snippets but unverified.",
-    "hash": "04d00259f317"
+    "hash": "04d00259f317",
+    "scope": "external",
+    "missing": "The Commission's Code of Practice page and current signatory list (digital-strategy.ec.europa.eu). Blocked."
   },
   "entry:gpai-cop:cov:halt": {
     "run": "2026-10-08-trial1",
@@ -267,7 +309,9 @@
     ],
     "proposals": [],
     "note": "Commission Code page blocked. Leads from search only: signatory list reportedly updated 23 Apr 2026; AI Office 'Signatory Taskforce' first met 30 Jan 2026; GPAI enforcement powers from 2 Aug 2026. Current map signatory statements (Anthropic/OpenAI/Google all three chapters, xAI safety chapter only, Meta declined) are consistent with search snippets but unverified.",
-    "hash": "78fcf6684530"
+    "hash": "78fcf6684530",
+    "scope": "external",
+    "missing": "The Commission's Code of Practice page and current signatory list (digital-strategy.ec.europa.eu). Blocked."
   },
   "entry:gpai-cop:cov:acct": {
     "run": "2026-10-08-trial1",
@@ -279,7 +323,9 @@
     ],
     "proposals": [],
     "note": "Commission Code page blocked. Leads from search only: signatory list reportedly updated 23 Apr 2026; AI Office 'Signatory Taskforce' first met 30 Jan 2026; GPAI enforcement powers from 2 Aug 2026. Current map signatory statements (Anthropic/OpenAI/Google all three chapters, xAI safety chapter only, Meta declined) are consistent with search snippets but unverified.",
-    "hash": "c0eb5600e3f2"
+    "hash": "c0eb5600e3f2",
+    "scope": "external",
+    "missing": "The Commission's Code of Practice page and current signatory list (digital-strategy.ec.europa.eu). Blocked."
   },
   "entry:gpai-cop:cov:update": {
     "run": "2026-10-08-trial1",
@@ -291,7 +337,9 @@
     ],
     "proposals": [],
     "note": "Commission Code page blocked. Leads from search only: signatory list reportedly updated 23 Apr 2026; AI Office 'Signatory Taskforce' first met 30 Jan 2026; GPAI enforcement powers from 2 Aug 2026. Current map signatory statements (Anthropic/OpenAI/Google all three chapters, xAI safety chapter only, Meta declined) are consistent with search snippets but unverified.",
-    "hash": "00cbbbd3ada3"
+    "hash": "00cbbbd3ada3",
+    "scope": "external",
+    "missing": "The Commission's Code of Practice page and current signatory list (digital-strategy.ec.europa.eu). Blocked."
   },
   "entry:us-frontier-access-eo": {
     "run": "2026-10-08-trial1",
@@ -306,7 +354,9 @@
     ],
     "proposals": [],
     "note": "LEAD (unverified, partly conflicting with the map): search results describe the order as 'Promoting Advanced Artificial Intelligence Innovation and Security' (signed 2 Jun 2026, published 5 Jun), a VOLUNTARY pre-release framework (up to 30 days), with models designated by the NSA Director via a classified cyber benchmark. The search summary found no CAISI role in the order text, which conflicts with the connection 'EO designates CAISI to administer national-security reviews'. A separate report says CAISI was told to pause public model reports. Candidate replacement link: govinfo DCPD-202600376 (unopened).",
-    "hash": "b8fbb57fdce1"
+    "hash": "b8fbb57fdce1",
+    "scope": "external",
+    "missing": "The official EO text (govinfo DCPD-202600376 / Federal Register / whitehouse.gov), to confirm title, voluntary vs mandatory scope, the designating agency and any CAISI role. All blocked."
   },
   "entry:us-frontier-access-eo:desc": {
     "run": "2026-10-08-trial1",
@@ -321,7 +371,9 @@
     ],
     "proposals": [],
     "note": "LEAD (unverified, partly conflicting with the map): search results describe the order as 'Promoting Advanced Artificial Intelligence Innovation and Security' (signed 2 Jun 2026, published 5 Jun), a VOLUNTARY pre-release framework (up to 30 days), with models designated by the NSA Director via a classified cyber benchmark. The search summary found no CAISI role in the order text, which conflicts with the connection 'EO designates CAISI to administer national-security reviews'. A separate report says CAISI was told to pause public model reports. Candidate replacement link: govinfo DCPD-202600376 (unopened).",
-    "hash": "b9aa25859ec7"
+    "hash": "b9aa25859ec7",
+    "scope": "external",
+    "missing": "The official EO text (govinfo DCPD-202600376 / Federal Register / whitehouse.gov), to confirm title, voluntary vs mandatory scope, the designating agency and any CAISI role. All blocked."
   },
   "entry:us-frontier-access-eo:context": {
     "run": "2026-10-08-trial1",
@@ -334,7 +386,9 @@
     ],
     "proposals": [],
     "note": "The map's only source is an NPR article (secondary), and it is blocked. The official text (govinfo DCPD-202600376) and whitehouse.gov are blocked too.",
-    "hash": "7be7426ebf0f"
+    "hash": "7be7426ebf0f",
+    "scope": "external",
+    "missing": "The official EO text (govinfo DCPD-202600376 / Federal Register / whitehouse.gov), to confirm title, voluntary vs mandatory scope, the designating agency and any CAISI role. All blocked."
   },
   "entry:us-frontier-access-eo:cov": {
     "run": "2026-10-08-trial1",
@@ -347,7 +401,9 @@
     ],
     "proposals": [],
     "note": "The map's only source is an NPR article (secondary), and it is blocked. The official text (govinfo DCPD-202600376) and whitehouse.gov are blocked too.",
-    "hash": "c8c5d5b80b3a"
+    "hash": "c8c5d5b80b3a",
+    "scope": "external",
+    "missing": "The official EO text (govinfo DCPD-202600376 / Federal Register / whitehouse.gov), to confirm title, voluntary vs mandatory scope, the designating agency and any CAISI role. All blocked."
   },
   "entry:us-frontier-access-eo:cov:eval": {
     "run": "2026-10-08-trial1",
@@ -360,7 +416,9 @@
     ],
     "proposals": [],
     "note": "The map's only source is an NPR article (secondary), and it is blocked. The official text (govinfo DCPD-202600376) and whitehouse.gov are blocked too.",
-    "hash": "56dc69d3b590"
+    "hash": "56dc69d3b590",
+    "scope": "external",
+    "missing": "The official EO text (govinfo DCPD-202600376 / Federal Register / whitehouse.gov), to confirm title, voluntary vs mandatory scope, the designating agency and any CAISI role. All blocked."
   },
   "entry:us-frontier-access-eo:cov:timing": {
     "run": "2026-10-08-trial1",
@@ -373,7 +431,9 @@
     ],
     "proposals": [],
     "note": "The map's only source is an NPR article (secondary), and it is blocked. The official text (govinfo DCPD-202600376) and whitehouse.gov are blocked too.",
-    "hash": "09fc0b70a682"
+    "hash": "09fc0b70a682",
+    "scope": "external",
+    "missing": "The official EO text (govinfo DCPD-202600376 / Federal Register / whitehouse.gov), to confirm title, voluntary vs mandatory scope, the designating agency and any CAISI role. All blocked."
   },
   "entry:us-frontier-access-eo:cov:acct": {
     "run": "2026-10-08-trial1",
@@ -386,7 +446,9 @@
     ],
     "proposals": [],
     "note": "The map's only source is an NPR article (secondary), and it is blocked. The official text (govinfo DCPD-202600376) and whitehouse.gov are blocked too.",
-    "hash": "435a362f1078"
+    "hash": "435a362f1078",
+    "scope": "external",
+    "missing": "The official EO text (govinfo DCPD-202600376 / Federal Register / whitehouse.gov), to confirm title, voluntary vs mandatory scope, the designating agency and any CAISI role. All blocked."
   },
   "edge:us-frontier-access-eo|caisi": {
     "run": "2026-10-08-trial1",
@@ -401,7 +463,9 @@
     ],
     "proposals": [],
     "note": "LEAD (unverified, partly conflicting with the map): search results describe the order as 'Promoting Advanced Artificial Intelligence Innovation and Security' (signed 2 Jun 2026, published 5 Jun), a VOLUNTARY pre-release framework (up to 30 days), with models designated by the NSA Director via a classified cyber benchmark. The search summary found no CAISI role in the order text, which conflicts with the connection 'EO designates CAISI to administer national-security reviews'. A separate report says CAISI was told to pause public model reports. Candidate replacement link: govinfo DCPD-202600376 (unopened).",
-    "hash": "01147966ae08"
+    "hash": "01147966ae08",
+    "scope": "external",
+    "missing": "The official EO text (govinfo DCPD-202600376 / Federal Register / whitehouse.gov), to confirm title, voluntary vs mandatory scope, the designating agency and any CAISI role. All blocked."
   },
   "entry:cn-ai-law": {
     "run": "2026-10-08-trial1",
@@ -416,7 +480,9 @@
     ],
     "proposals": [],
     "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-    "hash": "d813e984ffe0"
+    "hash": "d813e984ffe0",
+    "scope": "external",
+    "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
   },
   "entry:cn-ai-law:desc": {
     "run": "2026-10-08-trial1",
@@ -431,7 +497,9 @@
     ],
     "proposals": [],
     "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-    "hash": "34a050fe8e75"
+    "hash": "34a050fe8e75",
+    "scope": "external",
+    "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
   },
   "entry:cn-ai-law:context": {
     "run": "2026-10-08-trial1",
@@ -446,7 +514,9 @@
     ],
     "proposals": [],
     "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-    "hash": "2bab2d606776"
+    "hash": "2bab2d606776",
+    "scope": "external",
+    "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
   },
   "entry:cn-ai-law:cov": {
     "run": "2026-10-08-trial1",
@@ -461,7 +531,9 @@
     ],
     "proposals": [],
     "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-    "hash": "40799a4adcc2"
+    "hash": "40799a4adcc2",
+    "scope": "external",
+    "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
   },
   "entry:cn-ai-law:cov:thresh": {
     "run": "2026-10-08-trial1",
@@ -476,7 +548,9 @@
     ],
     "proposals": [],
     "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-    "hash": "a8883e838ea0"
+    "hash": "a8883e838ea0",
+    "scope": "external",
+    "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
   },
   "entry:cn-ai-law:cov:eval": {
     "run": "2026-10-08-trial1",
@@ -491,7 +565,9 @@
     ],
     "proposals": [],
     "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-    "hash": "04c30c9fd3b6"
+    "hash": "04c30c9fd3b6",
+    "scope": "external",
+    "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
   },
   "entry:cn-ai-law:cov:mit": {
     "run": "2026-10-08-trial1",
@@ -506,7 +582,9 @@
     ],
     "proposals": [],
     "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-    "hash": "d07c43ddd6bb"
+    "hash": "d07c43ddd6bb",
+    "scope": "external",
+    "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
   },
   "entry:cn-ai-law:cov:acct": {
     "run": "2026-10-08-trial1",
@@ -521,7 +599,9 @@
     ],
     "proposals": [],
     "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-    "hash": "c24ef1bddf6c"
+    "hash": "c24ef1bddf6c",
+    "scope": "external",
+    "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
   },
   "entry:rsp": {
     "run": "2026-10-08-trial1",
@@ -533,7 +613,8 @@
     ],
     "proposals": [],
     "note": "Link resolves (HTTP 200) and is still the policy's home page; still described by Anthropic as 'the voluntary framework' (pow 1); active; Layer 6 / co unchanged.",
-    "hash": "c34ff006ab2e"
+    "hash": "c34ff006ab2e",
+    "scope": "external"
   },
   "entry:rsp:desc": {
     "run": "2026-10-08-trial1",
@@ -546,7 +627,8 @@
       "P-0005"
     ],
     "note": "Version and revision count outdated.",
-    "hash": "0284d8263c02"
+    "hash": "0284d8263c02",
+    "scope": "external"
   },
   "entry:rsp:cov:update": {
     "run": "2026-10-08-trial1",
@@ -559,7 +641,8 @@
       "P-0006"
     ],
     "note": "Revision count outdated; added change-log commitment.",
-    "hash": "532038c395f5"
+    "hash": "532038c395f5",
+    "scope": "external"
   },
   "entry:rsp:cov:acct": {
     "run": "2026-10-08-trial1",
@@ -573,7 +656,8 @@
       "P-0007"
     ],
     "note": "2026 accountability mechanisms missing.",
-    "hash": "030ff8eeded4"
+    "hash": "030ff8eeded4",
+    "scope": "external"
   },
   "edge:seoul-commit|rsp": {
     "run": "2026-10-08-trial1",
@@ -586,7 +670,8 @@
       "P-0008"
     ],
     "note": "Chronology reversed: RSP v1.0 (Sep 2023) predates Seoul (May 2024).",
-    "hash": "1b33ae0488ae"
+    "hash": "1b33ae0488ae",
+    "scope": "external"
   },
   "edge:ca-sb53|rsp": {
     "run": "2026-10-08-trial1",
@@ -597,7 +682,8 @@
     ],
     "proposals": [],
     "note": "Anthropic states SB 53 requires published frameworks and that it addresses them via its Frontier Compliance Framework (S-0007#4); consistent with the connection.",
-    "hash": "7d2c7d8e1f13"
+    "hash": "7d2c7d8e1f13",
+    "scope": "external"
   },
   "entry:rsp:context": {
     "run": "2026-10-08-trial1",
@@ -612,7 +698,9 @@
     ],
     "proposals": [],
     "note": "Accessible pages signal a v3 restructuring (two tiers of mitigations; non-binding roadmap goals; pause 'even if not required'; threat-model framing). The policy text that would settle ASL and pause wording is blocked. See flag P-0010.",
-    "hash": "b16336253ba0"
+    "hash": "b16336253ba0",
+    "scope": "external",
+    "missing": "The RSP v3.4 policy text (www-cdn.anthropic.com PDF), especially Appendix A, Appendix B and the main sections on capability thresholds, safeguards and pausing. Blocked."
   },
   "entry:rsp:cov:thresh": {
     "run": "2026-10-08-trial1",
@@ -627,7 +715,9 @@
     ],
     "proposals": [],
     "note": "Accessible pages signal a v3 restructuring (two tiers of mitigations; non-binding roadmap goals; pause 'even if not required'; threat-model framing). The policy text that would settle ASL and pause wording is blocked. See flag P-0010.",
-    "hash": "dfc90f0eebc6"
+    "hash": "dfc90f0eebc6",
+    "scope": "external",
+    "missing": "The RSP v3.4 policy text (www-cdn.anthropic.com PDF), especially Appendix A, Appendix B and the main sections on capability thresholds, safeguards and pausing. Blocked."
   },
   "entry:rsp:cov:sec": {
     "run": "2026-10-08-trial1",
@@ -642,7 +732,9 @@
     ],
     "proposals": [],
     "note": "Accessible pages signal a v3 restructuring (two tiers of mitigations; non-binding roadmap goals; pause 'even if not required'; threat-model framing). The policy text that would settle ASL and pause wording is blocked. See flag P-0010.",
-    "hash": "ffa81bc1c37f"
+    "hash": "ffa81bc1c37f",
+    "scope": "external",
+    "missing": "The RSP v3.4 policy text (www-cdn.anthropic.com PDF), especially Appendix A, Appendix B and the main sections on capability thresholds, safeguards and pausing. Blocked."
   },
   "entry:rsp:cov:mit": {
     "run": "2026-10-08-trial1",
@@ -657,7 +749,9 @@
     ],
     "proposals": [],
     "note": "Accessible pages signal a v3 restructuring (two tiers of mitigations; non-binding roadmap goals; pause 'even if not required'; threat-model framing). The policy text that would settle ASL and pause wording is blocked. See flag P-0010.",
-    "hash": "414873c40605"
+    "hash": "414873c40605",
+    "scope": "external",
+    "missing": "The RSP v3.4 policy text (www-cdn.anthropic.com PDF), especially Appendix A, Appendix B and the main sections on capability thresholds, safeguards and pausing. Blocked."
   },
   "entry:rsp:cov:halt": {
     "run": "2026-10-08-trial1",
@@ -672,7 +766,9 @@
     ],
     "proposals": [],
     "note": "Accessible pages signal a v3 restructuring (two tiers of mitigations; non-binding roadmap goals; pause 'even if not required'; threat-model framing). The policy text that would settle ASL and pause wording is blocked. See flag P-0010.",
-    "hash": "d4e6782c6601"
+    "hash": "d4e6782c6601",
+    "scope": "external",
+    "missing": "The RSP v3.4 policy text (www-cdn.anthropic.com PDF), especially Appendix A, Appendix B and the main sections on capability thresholds, safeguards and pausing. Blocked."
   },
   "entry:rsp:cov": {
     "run": "2026-10-08-trial1",
@@ -684,7 +780,9 @@
     ],
     "proposals": [],
     "note": "Claims about evaluation methods, elicitation (incl. METR and UK AISI participation) and timing need the policy text and system cards; policy PDF and HTML both blocked.",
-    "hash": "0495c7c8cd4d"
+    "hash": "0495c7c8cd4d",
+    "scope": "external",
+    "missing": "The RSP v3.4 policy text (www-cdn.anthropic.com PDF), especially Appendix A, Appendix B and the main sections on capability thresholds, safeguards and pausing. Blocked."
   },
   "entry:rsp:cov:eval": {
     "run": "2026-10-08-trial1",
@@ -696,7 +794,9 @@
     ],
     "proposals": [],
     "note": "Claims about evaluation methods, elicitation (incl. METR and UK AISI participation) and timing need the policy text and system cards; policy PDF and HTML both blocked.",
-    "hash": "51de77529627"
+    "hash": "51de77529627",
+    "scope": "external",
+    "missing": "The RSP v3.4 policy text (www-cdn.anthropic.com PDF), especially Appendix A, Appendix B and the main sections on capability thresholds, safeguards and pausing. Blocked."
   },
   "entry:rsp:cov:elicit": {
     "run": "2026-10-08-trial1",
@@ -708,7 +808,9 @@
     ],
     "proposals": [],
     "note": "Claims about evaluation methods, elicitation (incl. METR and UK AISI participation) and timing need the policy text and system cards; policy PDF and HTML both blocked.",
-    "hash": "8785fc0c0100"
+    "hash": "8785fc0c0100",
+    "scope": "external",
+    "missing": "The RSP v3.4 policy text (www-cdn.anthropic.com PDF), especially Appendix A, Appendix B and the main sections on capability thresholds, safeguards and pausing. Blocked."
   },
   "entry:rsp:cov:timing": {
     "run": "2026-10-08-trial1",
@@ -720,7 +822,9 @@
     ],
     "proposals": [],
     "note": "Claims about evaluation methods, elicitation (incl. METR and UK AISI participation) and timing need the policy text and system cards; policy PDF and HTML both blocked.",
-    "hash": "12000808d4c1"
+    "hash": "12000808d4c1",
+    "scope": "external",
+    "missing": "The RSP v3.4 policy text (www-cdn.anthropic.com PDF), especially Appendix A, Appendix B and the main sections on capability thresholds, safeguards and pausing. Blocked."
   },
   "derived:counts": {
     "run": "2026-10-08-trial1",
@@ -733,7 +837,8 @@
       "P-0001"
     ],
     "note": "check.js: all hand-maintained counts in index.html match the data (49/19/11/9); data.json's description says 39 (hardcoded in build-llms.js).",
-    "hash": "0fc52ae30257"
+    "hash": "0fc52ae30257",
+    "scope": "internal"
   },
   "derived:generated": {
     "run": "2026-10-08-trial1",
@@ -744,7 +849,8 @@
     ],
     "proposals": [],
     "note": "check.js: llms.txt, llms-full.txt and data.json are identical to a fresh build; all 11 content-date sites agree (2026-06-06).",
-    "hash": "6bd36e09fa00"
+    "hash": "6bd36e09fa00",
+    "scope": "internal"
   },
   "derived:dates": {
     "run": "2026-10-08-trial1",
@@ -755,7 +861,8 @@
     ],
     "proposals": [],
     "note": "check.js: llms.txt, llms-full.txt and data.json are identical to a fresh build; all 11 content-date sites agree (2026-06-06).",
-    "hash": "7fe6ecb120a1"
+    "hash": "7fe6ecb120a1",
+    "scope": "internal"
   },
   "faq:which-ai-laws-are-binding-with-penalties": {
     "run": "2026-10-08-trial1",
@@ -768,7 +875,8 @@
       "P-0002"
     ],
     "note": "Internal inconsistency with pow classifications and the stats tile.",
-    "hash": "8d48081676f8"
+    "hash": "8d48081676f8",
+    "scope": "internal"
   },
   "label:jur": {
     "run": "2026-10-08-trial1",
@@ -781,7 +889,8 @@
       "P-0003"
     ],
     "note": "'Asia (other)' applied to Australia.",
-    "hash": "2910499eda79"
+    "hash": "2910499eda79",
+    "scope": "internal"
   },
   "text:layer-2:subtitle": {
     "run": "2026-10-08-trial1",
@@ -794,7 +903,8 @@
       "P-0004"
     ],
     "note": "Subtitle contradicts the Layer 2 tooltip and FAQ.",
-    "hash": "5ddd3e22187e"
+    "hash": "5ddd3e22187e",
+    "scope": "internal"
   },
   "text:layer-2:tooltip": {
     "run": "2026-10-08-trial1",
@@ -805,7 +915,8 @@
     ],
     "proposals": [],
     "note": "Internally consistent with the layer rule (RUBRIC §2); their external facts were not checked.",
-    "hash": "6c4786521ba4"
+    "hash": "6c4786521ba4",
+    "scope": "internal"
   },
   "faq:what-is-the-difference-between-layer-2-and-layer": {
     "run": "2026-10-08-trial1",
@@ -816,6 +927,7 @@
     ],
     "proposals": [],
     "note": "Internally consistent with the layer rule (RUBRIC §2); their external facts were not checked.",
-    "hash": "0c57d0596832"
+    "hash": "0c57d0596832",
+    "scope": "internal"
   }
 }

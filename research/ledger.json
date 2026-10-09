@@ -1,5 +1,5 @@
 {
-  "next": 11,
+  "next": 13,
   "proposals": [
     {
       "id": "P-0001",
@@ -53,11 +53,16 @@
         "edited": false
       },
       "decision_log": [],
-      "applied": null
+      "applied": null,
+      "research": {
+        "status": "internal-consistency",
+        "note": "Repo evidence only: generator hardcode vs entry count.",
+        "updated": "2026-10-09"
+      }
     },
     {
       "id": "P-0002",
-      "fingerprint": "eaeab09d0924",
+      "fingerprint": "1da216833d74",
       "targets": [
         "text:index.html:3a18c0187f6b"
       ],
@@ -95,19 +100,72 @@
           },
           "knock_on": [],
           "hash": "f1314dccf8ec"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-09T15:18:41Z",
+          "run": "2026-10-08-trial1",
+          "author": "claude",
+          "title": "FAQ: align 'binding laws' with the map's own classifications (internal consistency only)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "Eight binding instruments in this map carry penalty regimes: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation), the Colorado AI Act, the NY RAISE Act ($1M/$3M), Texas TRAIGA, and US BIS export controls. Most are phasing in; several face active federal preemption challenges in the United States.",
+              "to": "Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation) and the NY RAISE Act ($1M/$3M). Most are phasing in; several face active federal preemption challenges in the United States. The map's wider count of mechanisms that are binding with penalties also includes US BIS export controls and five regulators: the EU AI Office, UK Ofcom, the UK ICO, Australia's eSafety Commissioner and the Colorado Division of Insurance. The map classes the Colorado AI Act and Texas TRAIGA as hard law with weak enforcement, so they are not counted here."
+            }
+          ],
+          "why": "The FAQ says eight binding instruments and names Colorado and Texas, while the map classes both as pow 3 and its stats tile counts 11 pow-4 mechanisms. Search engines and LLMs ingest this FAQ.",
+          "rationale": "Narrowed from v1. The edit now only aligns the FAQ's list and count with the map's own enforceability classifications and stats tile. It no longer characterises any statute: v1 called Colorado and Texas 'binding statutes' and described the regulators as 'enforcing binding law', both legal claims I had not verified. The penalty figures, 'Most are phasing in' and the preemption sentence are carried over word for word from the current FAQ.",
+          "evidence": [
+            {
+              "source": "S-0027",
+              "passage": "S-0027#2",
+              "supports": "The FAQ list versus the pow values and stats tile"
+            }
+          ],
+          "uncertainty": "This is an internal consistency fix. It does not verify the legal status, enforcement or penalties of any law named. Those need the official texts and are queued for the baseline audit. If the baseline finds Colorado or Texas should be pow 4, both the classification and this answer would change.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "text:layer-3:tooltip": "says 'Several have penalty regimes' about US state laws — consistent with either option, no change proposed"
+          },
+          "unverified_carryover": [
+            "Penalty figures (EU €35M/7%, Korea ~$21k, California $1M, New York $1M/$3M)",
+            "'Most are phasing in' (consistent with the map's status fields, not externally checked)",
+            "'several face active federal preemption challenges'"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "e33b70d35be3"
         }
       ],
       "decision": {
-        "status": "accepted",
-        "v": 1,
-        "hash": "f1314dccf8ec",
+        "status": "pending",
+        "v": null,
+        "hash": null,
         "date": "2026-10-09",
-        "note": "Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'",
-        "revisit_after": null,
-        "edited": false
+        "note": "v2: wording changed — needs renewed approval"
       },
-      "decision_log": [],
-      "applied": null
+      "decision_log": [
+        {
+          "status": "accepted",
+          "v": 1,
+          "hash": "f1314dccf8ec",
+          "date": "2026-10-09",
+          "note": "Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'",
+          "revisit_after": null,
+          "edited": false
+        }
+      ],
+      "applied": null,
+      "research": {
+        "status": "internal-consistency",
+        "missing": [],
+        "note": "Verified: the FAQ list against pow values and the stats tile (repo). Not verified: legal status, enforcement and penalties (external; blocked this run).",
+        "updated": "2026-10-09"
+      }
     },
     {
       "id": "P-0003",
@@ -161,19 +219,69 @@
           "knock_on_notes": {},
           "knock_on": [],
           "hash": "d6753348364d"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-09T15:18:42Z",
+          "run": "2026-10-08-trial1",
+          "author": "claude",
+          "title": "Relabel jurisdiction code `as` from 'Asia (other)' to 'Asia-Pacific (other)'",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "as:'Asia (other)'",
+              "to": "as:'Asia-Pacific (other)'"
+            },
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "<span class=\"sw j-as\"></span>Other Asia</span>",
+              "to": "<span class=\"sw j-as\"></span>Other Asia-Pacific</span>"
+            },
+            {
+              "op": "replace_text",
+              "file": "build-llms.js",
+              "from": "as:'Asia (other)'",
+              "to": "as:'Asia-Pacific (other)'"
+            }
+          ],
+          "why": "Australia's eSafety Commissioner is coloured and described as 'Asia (other)'. That label also appears in llms-full.txt and data.json for every `as` entry.",
+          "rationale": "A label-only change. The code `as`, its colour, the lens and all filtering behaviour stay as they are, and no entry moves.",
+          "evidence": [
+            {
+              "source": "S-0027",
+              "passage": "S-0027#3",
+              "supports": "au-esafety and other-aisis use `as`"
+            }
+          ],
+          "uncertainty": "None on the facts. This proposal changes only the label. It does not decide how `other-aisis` (a multi-country entry including France, Canada and Kenya) should be classified; that question is tracked separately as P-0011.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "d6753348364d"
         }
       ],
       "decision": {
         "status": "accepted",
-        "v": 1,
+        "v": 2,
         "hash": "d6753348364d",
         "date": "2026-10-09",
-        "note": "Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'",
+        "note": "Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified' — Clarified 2026-10-09 at the maintainer's request: this acceptance covers the label change only and does not endorse the classification of the multi-country other-aisis entry, which remains open as P-0011.",
         "revisit_after": null,
         "edited": false
       },
       "decision_log": [],
-      "applied": null
+      "applied": null,
+      "research": {
+        "status": "internal-consistency",
+        "missing": [],
+        "updated": "2026-10-09"
+      }
     },
     {
       "id": "P-0004",
@@ -232,7 +340,12 @@
         "edited": false
       },
       "decision_log": [],
-      "applied": null
+      "applied": null,
+      "research": {
+        "status": "internal-consistency",
+        "note": "Repo evidence only: subtitle vs the Layer 2 tooltip and FAQ.",
+        "updated": "2026-10-09"
+      }
     },
     {
       "id": "P-0005",
@@ -308,11 +421,80 @@
             "faq:what-is-sandbagging-in-ai-safety"
           ],
           "hash": "727ae2c001cc"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-09T15:18:42Z",
+          "run": "2026-10-08-trial1",
+          "author": "claude",
+          "title": "Anthropic RSP: current version is v3.4 (Jul 2026), revised 8× since v1.0",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "rsp",
+              "field": "desc",
+              "from": "Responsible Scaling Policy (v3.0, Feb 2026). AI Safety Levels. Capability thresholds trigger required safeguards. Updated ~4× since 2023.",
+              "to": "Responsible Scaling Policy (v3.4, effective Jul 2026; rewritten as v3.0 in Feb 2026). AI Safety Levels. Capability thresholds trigger required safeguards. Revised 8× since v1.0 (Sep 2023)."
+            }
+          ],
+          "why": "The map names v3.0 (Feb 2026), but v3.1 (2 Apr), v3.2 (29 Apr) and v3.3 (26 May 2026) were already in effect when the June snapshot was published, and v3.4 followed on 8 Jul 2026. The map also says '~4×' where the version history shows eight revisions.",
+          "rationale": "Anthropic's policy page lists versions 1.0, 2.0, 2.1, 2.2, 3.0, 3.1, 3.2, 3.3 and 3.4, with effective dates.",
+          "evidence": [
+            {
+              "source": "S-0005",
+              "passage": "S-0005#1",
+              "supports": "Version list and effective dates"
+            },
+            {
+              "source": "S-0005",
+              "passage": "S-0005#4",
+              "supports": "v3.0 was a comprehensive rewrite"
+            }
+          ],
+          "uncertainty": "The retained phrases 'AI Safety Levels. Capability thresholds trigger required safeguards.' are not verified against v3.4. Updating only the version number would make them look freshly checked, so this proposal is held until the v3.4 text is read and the description is revised coherently with P-0010.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "faq:which-ai-labs-have-published-frontier-safety-fra": "describes the RSP as 'with AI Safety Levels' — depends on P-0010"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:prep:cov:thresh",
+            "entry:fsf:context",
+            "entry:fsf:cov:thresh",
+            "entry:fsf:cov:timing",
+            "entry:fsf:cov:sec",
+            "entry:fsf:cov:halt",
+            "entry:fsf:cov:acct",
+            "entry:fsf:cov:update",
+            "entry:meta-faif:cov:thresh",
+            "entry:meta-faif:cov:sec",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "edge:ca-sb53|rsp",
+            "edge:seoul-commit|rsp",
+            "edge:gpai-cop|rsp",
+            "edge:fmf|rsp",
+            "edge:metr|rsp",
+            "edge:apollo|rsp",
+            "edge:uk-aisi|rsp",
+            "gap:mit",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety"
+          ],
+          "hash": "727ae2c001cc"
         }
       ],
       "decision": {
         "status": "accepted",
-        "v": 1,
+        "v": 2,
         "hash": "727ae2c001cc",
         "date": "2026-10-09",
         "note": "Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'",
@@ -320,7 +502,22 @@
         "edited": false
       },
       "decision_log": [],
-      "applied": null
+      "applied": null,
+      "research": {
+        "status": "needs-source-access",
+        "missing": [
+          "RSP v3.4 policy text (www-cdn.anthropic.com PDF, blocked): Appendix A, Appendix B and the main sections on capability thresholds, safeguards and pausing, to verify or revise the retained 'AI Safety Levels / thresholds trigger required safeguards' wording"
+        ],
+        "linked": [
+          "P-0010"
+        ],
+        "apply_together": [
+          "P-0005",
+          "P-0006",
+          "P-0007"
+        ],
+        "updated": "2026-10-09"
+      }
     },
     {
       "id": "P-0006",
@@ -411,7 +608,17 @@
         "edited": false
       },
       "decision_log": [],
-      "applied": null
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "apply_together": [
+          "P-0005",
+          "P-0006",
+          "P-0007"
+        ],
+        "note": "Verified from Anthropic's version list and update log. Held with P-0005 so the RSP entry is not left internally inconsistent (desc v3.0 vs notes v3.4).",
+        "updated": "2026-10-09"
+      }
     },
     {
       "id": "P-0007",
@@ -502,7 +709,17 @@
         "edited": false
       },
       "decision_log": [],
-      "applied": null
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "apply_together": [
+          "P-0005",
+          "P-0006",
+          "P-0007"
+        ],
+        "note": "Verified from Anthropic's v3 announcement and RSP page. Held with P-0005.",
+        "updated": "2026-10-09"
+      }
     },
     {
       "id": "P-0008",
@@ -600,11 +817,16 @@
         "edited": false
       },
       "decision_log": [],
-      "applied": null
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "note": "Chronology verified externally (RSP v1.0 effective 19 Sep 2023, S-0005). The clause about what Seoul asked signatories to do restates the map's existing seoul-commit / ai-summits text (internal consistency), not re-verified externally.",
+        "updated": "2026-10-09"
+      }
     },
     {
       "id": "P-0009",
-      "fingerprint": "7ac0fa213b89",
+      "fingerprint": "8e8a087f8ae4",
       "targets": [
         "edge:ny-raise|rsp"
       ],
@@ -681,19 +903,109 @@
             "faq:what-is-sandbagging-in-ai-safety"
           ],
           "hash": "992a91c1e8d9"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-09T15:18:42Z",
+          "run": "2026-10-08-trial1",
+          "author": "claude",
+          "title": "New connection NY RAISE ↔ Anthropic RSP: Anthropic's stated compliance route (attributed)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "add_edge",
+              "a": "ny-raise",
+              "b": "rsp",
+              "rel": "Anthropic describes RAISE as requiring a published risk framework and says it addresses this through public documentation including its Frontier Compliance Framework"
+            }
+          ],
+          "why": "The map connects SB 53 and the EU Code to the RSP but not RAISE, although Anthropic names all three as requirements it addresses. Found in Layer 6 discovery.",
+          "rationale": "Revised from v1. The relationship is now attributed entirely to Anthropic, matching its statement. v1 asserted RAISE's legal requirement in the map's own voice, which had not been checked against the statute.",
+          "evidence": [
+            {
+              "source": "S-0007",
+              "passage": "S-0007#4",
+              "supports": "Anthropic lists SB 53, RAISE and the EU Codes of Practice as requirements it addresses via its Frontier Compliance Framework"
+            }
+          ],
+          "uncertainty": "Two things are unverified. (1) Whether the Frontier Compliance Framework is part of, derived from, or separate from the RSP: this decides whether the connection belongs on the RSP entry. (2) What RAISE actually requires, and from when, per the official text.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:cov:thresh",
+            "entry:kr-ai:cov:thresh",
+            "entry:seoul-commit:context",
+            "entry:co-doi:context",
+            "edge:us-preempt|ny-raise",
+            "edge:ny-raise|ca-sb53",
+            "edge:co-doi|ny-raise",
+            "gap:timing",
+            "gap:acct",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:how-is-california-sb-53-different-from-the-ny-ra",
+            "text:footer-sources",
+            "text:gap-default",
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:prep:cov:thresh",
+            "entry:fsf:context",
+            "entry:fsf:cov:thresh",
+            "entry:fsf:cov:timing",
+            "entry:fsf:cov:sec",
+            "entry:fsf:cov:halt",
+            "entry:fsf:cov:acct",
+            "entry:fsf:cov:update",
+            "entry:meta-faif:cov:thresh",
+            "entry:meta-faif:cov:sec",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "edge:ca-sb53|rsp",
+            "edge:seoul-commit|rsp",
+            "edge:gpai-cop|rsp",
+            "edge:fmf|rsp",
+            "edge:metr|rsp",
+            "edge:apollo|rsp",
+            "edge:uk-aisi|rsp",
+            "gap:mit",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety"
+          ],
+          "hash": "0b3ff44dfb2d"
         }
       ],
       "decision": {
-        "status": "accepted",
-        "v": 1,
-        "hash": "992a91c1e8d9",
+        "status": "pending",
+        "v": null,
+        "hash": null,
         "date": "2026-10-09",
-        "note": "Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'",
-        "revisit_after": null,
-        "edited": false
+        "note": "v2: wording changed — needs renewed approval"
       },
-      "decision_log": [],
-      "applied": null
+      "decision_log": [
+        {
+          "status": "accepted",
+          "v": 1,
+          "hash": "992a91c1e8d9",
+          "date": "2026-10-09",
+          "note": "Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'",
+          "revisit_after": null,
+          "edited": false
+        }
+      ],
+      "applied": null,
+      "research": {
+        "status": "needs-source-access",
+        "missing": [
+          "Anthropic Frontier Compliance Framework document (trust.anthropic.com, blocked): its relationship to the RSP",
+          "RAISE Act official text (nysenate.gov S6953-B and chapter amendment, blocked): the framework-publication requirement and effective date"
+        ],
+        "updated": "2026-10-09"
+      }
     },
     {
       "id": "P-0010",
@@ -739,6 +1051,47 @@
           "knock_on_notes": {},
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-09T15:18:42Z",
+          "run": "2026-10-08-trial1",
+          "author": "claude",
+          "title": "Anthropic RSP v3 restructuring: ASL and pause wording may be outdated",
+          "kind": "flag",
+          "changes": [],
+          "why": "Several RSP statements may describe the pre-v3 policy. They feed the FAQ answer on lab frameworks and the halting and deployment-mitigation gap summaries ('Every lab framework includes it').",
+          "rationale": "The accessible sources show the following. (1) v3 'outlines two sets of mitigations': those Anthropic plans to pursue regardless of others (company commitments), and an industry-wide capabilities-to-mitigations map (industry recommendations). (2) The Frontier Safety Roadmap contains 'public goals', not 'hard commitments'. (3) v3.1 clarifies that Anthropic 'remain[s] free to take measures such as pausing … even if not required by the RSP'. That wording implies the RSP still requires pausing in some circumstances, so it must not be read as removing pause commitments. (4) v3-era model reports describe RSP 'threat models' such as CB-2. (5) Anthropic reports activating ASL-3 safeguards in May 2025 (implementation evidence). The map says 'currently up to ASL-3', 'Anthropic commits to pause development or deployment if mitigations are insufficient', and 'Capability thresholds trigger required safeguards'.",
+          "evidence": [
+            {
+              "source": "S-0007",
+              "passage": "S-0007#1",
+              "supports": "Two-tier structure"
+            },
+            {
+              "source": "S-0005",
+              "passage": "S-0005#3",
+              "supports": "Pausing clarification"
+            },
+            {
+              "source": "S-0011",
+              "passage": "S-0011#1",
+              "supports": "Threat-model framing"
+            },
+            {
+              "source": "S-0007",
+              "passage": "S-0007#3",
+              "supports": "ASL-3 safeguards activated May 2025 (implementation)"
+            }
+          ],
+          "uncertainty": "Only the policy text can show what v3.4 requires. Do not infer that pause commitments were removed.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
         }
       ],
       "decision": {
@@ -749,7 +1102,136 @@
         "note": null
       },
       "decision_log": [],
-      "applied": null
+      "applied": null,
+      "research": {
+        "status": "needs-source-access",
+        "missing": [
+          "RSP v3.4 policy text (www-cdn.anthropic.com PDF, blocked): Appendix A, Appendix B and the main sections on capability thresholds, required safeguards, existing safeguards and pausing. Then propose coherent revisions to rsp desc, context, cov.thresh, cov.sec, cov.mit and cov.halt, and the dependent gap summaries (gap:halt, gap:mit) and FAQ (labs)"
+        ],
+        "linked": [
+          "P-0005"
+        ],
+        "updated": "2026-10-09"
+      }
+    },
+    {
+      "id": "P-0011",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-09T15:18:43Z",
+          "run": "2026-10-08-trial1",
+          "author": "claude",
+          "title": "Classification of `other-aisis` (multi-country AISI entry) is unresolved",
+          "kind": "flag",
+          "changes": [],
+          "why": "`other-aisis` covers Singapore, Japan, France, Korea, Canada, Australia, Kenya and India but uses `as` (Asia-Pacific (other)). That is inaccurate for France, Canada and Kenya under either label. Accepting the P-0003 label change did not settle this.",
+          "rationale": "Internal classification question; no external facts involved.",
+          "evidence": [
+            {
+              "source": "S-0027",
+              "passage": "S-0027#3",
+              "supports": "other-aisis members and jur code"
+            }
+          ],
+          "uncertainty": "None on the facts; this is a judgment call.",
+          "confidence": null,
+          "question": "Choose one: (a) leave `as`, accepting the imprecision; (b) move it to `mu` (Multilateral), which changes this chip's colour and puts it in the Multilateral legend group; (c) split it into per-country entries later (larger change, and SCOPE B1 says these countries are not monitored nationally).",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "internal-consistency",
+        "missing": [],
+        "updated": "2026-10-09"
+      }
+    },
+    {
+      "id": "P-0012",
+      "fingerprint": "b874d675e701",
+      "targets": [
+        "text:index.html:2106fe6c8010",
+        "text:build-llms.js:efbafedd7833",
+        "text:build-llms.js:e23c5147a936"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-09T15:18:43Z",
+          "run": "2026-10-08-trial1",
+          "author": "claude",
+          "title": "Make the public date say 'content updated', not imply a full audit",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "· Updated <time",
+              "to": "· Content updated <time"
+            },
+            {
+              "op": "replace_text",
+              "file": "build-llms.js",
+              "from": "${UPDATED} snapshot; ${ENTITIES.length} mechanisms",
+              "to": "content last updated ${UPDATED} (entries are re-verified on a rolling basis, not all at once); ${ENTITIES.length} mechanisms"
+            },
+            {
+              "op": "replace_text",
+              "file": "build-llms.js",
+              "from": "full += `Updated: ${UPDATED}\\n\\n`;",
+              "to": "full += `Content updated: ${UPDATED} (entries are re-verified on a rolling basis, not all at once)\\n\\n`;"
+            }
+          ],
+          "why": "Applying this release moves the public date to the release date. 'Updated' on the page and 'snapshot' in llms.txt would suggest the whole map was re-audited on that date, but this release re-checked only a few entries.",
+          "rationale": "Wording-only change. The date mechanics are unchanged (the derived date still marks the latest applied content release).",
+          "evidence": [
+            {
+              "source": "S-0027",
+              "passage": "S-0027#5",
+              "supports": "Where the public date is stated and how it is worded"
+            }
+          ],
+          "uncertainty": "None on the facts; the wording is a style choice.",
+          "confidence": null,
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "0c071f106ecd"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "internal-consistency",
+        "missing": [],
+        "updated": "2026-10-09"
+      }
     }
   ]
 }

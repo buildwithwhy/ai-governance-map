@@ -610,6 +610,12 @@
           "locator": "index.html Layer 2 band vs tooltip and FAQ",
           "text": "Subtitle: 'Statutes, executive orders, agencies'. Tooltip: 'The laws themselves — statutes, executive orders, framework acts. The institutions that implement and enforce them sit in Layer 4.' No Layer 2 entry is an agency.",
           "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0027#5",
+          "locator": "index.html topbar; build-llms.js llms.txt/llms-full.txt headers",
+          "text": "Topbar: 'Updated <time datetime=\"2026-06-06\">6 June 2026</time>'. llms.txt: '${UPDATED} snapshot; …'. llms-full.txt: 'Updated: ${UPDATED}'. The date is set by the content-update process for the whole file.",
+          "retrieved": "2026-10-08"
         }
       ]
     }

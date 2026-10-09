@@ -169,6 +169,35 @@ function approvedVersion(p) {
   return v && v.hash === d.hash ? v : null;
 }
 
+// Applicable = accepted at an exact version, with an evidence status that allows
+// publication (or an explicit maintainer override, which leaves the evidence
+// status unchanged), and every proposal it must be applied together with also
+// applicable.
+function eligibility(ledger, srcDb) {
+  const byId = Object.fromEntries(ledger.proposals.map(p => [p.id, p]));
+  const own = p => {
+    if (p.applied) return 'already applied';
+    const v = approvedVersion(p);
+    if (!v) return p.decision.status === 'accepted' ? 'approval does not match the current version' : `decision: ${p.decision.status}`;
+    if (!v.changes.length) return 'no changes';
+    const st = L.evidenceStatus(p, srcDb);
+    if (!L.APPLICABLE.has(st.status) && !p.decision.override) return `evidence status ${st.status}${st.missing.length ? ` (missing: ${st.missing.join('; ')})` : ''}`;
+    return null;
+  };
+  const eligible = []; const held = [];
+  for (const p of ledger.proposals) {
+    if (p.applied || !approvedVersion(p)) continue;
+    let reason = own(p);
+    if (!reason) {
+      const group = ((p.research || {}).apply_together || []).filter(id => id !== p.id);
+      const blocker = group.find(id => byId[id] && !byId[id].applied && own(byId[id]));
+      if (blocker) reason = `held with ${blocker} (applied together; ${blocker} is not yet eligible)`;
+    }
+    (reason ? held : eligible).push(reason ? { id: p.id, reason } : p);
+  }
+  return { eligible, held };
+}
+
 function build(root) { execFileSync(process.execPath, ['build-llms.js'], { cwd: root, stdio: 'pipe' }); }
 
 function replay(manifestFile, root) {
@@ -197,13 +226,10 @@ function main() {
   const date = opt('--date') || L.today();
   const dry = args.includes('--dry-run');
   const ledger = L.readJSON(ledgerPath(root), { proposals: [] });
-  const todo = ledger.proposals.filter(p => !p.applied && approvedVersion(p) && approvedVersion(p).changes.length);
   const srcDb = L.readJSON(path.join(root, 'research', 'sources.json'), { sources: {} });
-  for (const p of todo) {
-    const st = L.conflictStatus(approvedVersion(p).evidence, srcDb);
-    if (!st.resolved && !p.decision.conflict_override) throw new Error(`${p.id}: ${st.reason} (RUBRIC §7a)`);
-  }
-  if (!todo.length) return console.log('nothing approved to apply');
+  const { eligible: todo, held } = eligibility(ledger, srcDb);
+  for (const h of held) console.log(`held: ${h.id} — ${h.reason}`);
+  if (!todo.length) return console.log('nothing eligible to apply');
   console.log(`applying ${todo.length} proposal(s): ${todo.map(p => `${p.id} v${p.decision.v}`).join(', ')}`);
   if (dry) return;
 
@@ -215,7 +241,7 @@ function main() {
   for (let n = 2; fs.existsSync(path.join(root, name)); n++) name = `research/applied/${date}-${n}.json`;
   L.writeJSON(path.join(root, name), {
     date, base_commit: head,
-    proposals: todo.map(p => ({ id: p.id, v: p.decision.v, hash: p.decision.hash })),
+    proposals: todo.map(p => ({ id: p.id, v: p.decision.v, hash: p.decision.hash, evidence_status: L.evidenceStatus(p, srcDb).status, ...(p.decision.override ? { maintainer_override: p.decision.override } : {}) })),
   });
   for (const p of todo) p.applied = { manifest: name, date };
   L.writeJSON(ledgerPath(root), ledger);
@@ -226,4 +252,4 @@ function main() {
 if (require.main === module) {
   try { main(); } catch (e) { console.error('apply failed:', e.message); process.exit(1); }
 }
-module.exports = { applyOps, approvedVersion, serializeEntity };
+module.exports = { applyOps, approvedVersion, serializeEntity, eligibility };

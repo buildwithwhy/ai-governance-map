@@ -10,6 +10,8 @@ This is how Claude carries out a research run and records decisions. The command
 
 ## 1. Start
 
+Record the session's cumulative `usage.cost_usd` from `get_session` (claude-code-remote) at the start and end. Record the difference with `run usage <run> --text "…"`; it is approximate, because the platform updates the figure between turns.
+
 ```
 node tools/research.js run start <YYYY-MM-DD[-label]> --label "<label>" [--partial --entries a,b,c]
 ```
@@ -26,7 +28,8 @@ Work through each entry, plus the connections, narrative items and categories it
    `check <run> --items entry:eu-aia:* --outcome no_change|changed|unresolved|inaccessible --sources S-1,S-2 --note "<what was compared>" [--proposals P-x]`
    - A blocked source is recorded as `inaccessible`, never as `no_change`; the tool refuses otherwise.
    - Secondary-only evidence of a change → `unresolved`, with the lead described in the note.
-   - Sources disagree → `unresolved --conflicting S-a,S-b`. Then **double check**: re-fetch and re-read both. If they still disagree, find a **third independent source** (different publisher, ideally the primary text). Close with `--recheck` or `--tiebreak S-c` (RUBRIC §7a).
+   - Sources disagree → `unresolved --conflicting S-a,S-b --disagreement "<what each says>" --missing "<what would settle it>"`. Investigate further: authoritative text, a correction or superseding version, or whether the sources concern different dates, scopes or definitions. Close only with `--resolution FILE.json` (RUBRIC §7a). Record shared underlying accounts with `source derived`.
+   - Missing or ambiguous evidence → make reasonable further attempts, then `unresolved --missing "<exactly what is missing>"`.
 4. For a supported change, write the proposal JSON and run `propose <file> --run <run>`:
    ```json
    {
@@ -35,10 +38,14 @@ Work through each entry, plus the connections, narrative items and categories it
      "why": "why it matters", "rationale": "…", "uncertainty": "…", "confidence": "high|medium|low",
      "evidence": [{"source": "S-0003", "passage": "S-0003#2", "stance": "supports", "supports": "…"},
                   {"source": "S-0009", "passage": "S-0009#1", "stance": "contradicts"},
-                  {"source": "S-0012", "passage": "S-0012#1", "role": "tiebreak", "stance": "supports"}],
+                  {"source": "S-0012", "passage": "S-0012#1"}],
      "knock_on_notes": {"gap:halt": "needs change — see P-0009", "faq:what-does-the-eu-ai-office-do": "checked, still accurate"},
      "question": "only for flags / judgment calls",
-     "resolves_checks": ["data-description-count"]
+     "resolves_checks": ["data-description-count"],
+     "research_status": "verified|internal-consistency|needs-research|needs-source-access",
+     "missing": ["exactly what remains missing"], "linked": ["P-0010"], "apply_together": ["P-0005", "P-0006"],
+     "unverified_carryover": ["text restated unchanged and not re-verified"],
+     "conflict_resolution": {"disagreement": "…", "basis": "authoritative-text|correction-or-superseding-version|different-date|different-scope|different-definition|misreading-on-recheck", "evidence": [{"source": "S-0012", "passage": "S-0012#1"}], "explanation": "…"}
    }
    ```
    Ops: `set_field` (link, name, layer, jur, pow, status, desc, context), `set_cov` (cat; `to: null` removes), `add_entity`, `add_edge` / `set_edge` / `remove_edge`, `replace_text` (file, exact `from`, `count`). Every `from` must equal the current text; the tool dry-runs the edit and rejects stale or ambiguous ones.
@@ -73,7 +80,7 @@ The maintainer replies in plain language. Map each reply to one command, always 
 | "edit P-0005: say X" | write the changes with their wording → `edit P-0005 <file> --note "…"` (accepted as their version) |
 | an answer to a question/flag | record it with `decide … defer\|reject\|withdraw --note "<answer>"`, or revise the flag into a concrete change and show it again |
 
-If a proposal has unresolved conflicting evidence, the tool refuses acceptance. Do the double check or find a third source, revise the proposal and show it again. Use `--override-conflict "<their reason>"` only if the maintainer explicitly overrides. If a proposal was revised after they saw it, the tool refuses the decision. Show the new version first. Read the result back to the maintainer: ID, version, new status.
+Set each proposal's evidence status (`status PID --status … --missing "…"` or `research_status` in the proposal file); it is separate from the decision. Only verified or internal-consistency proposals go to the maintainer for a decision. A disputed proposal can be accepted only with an explicit `--override "<their reason>"`, and the override never changes its evidence status. If a proposal was revised after they saw it, the tool refuses the decision. Show the new version first. Read the result back to the maintainer: ID, version, new status. Use `note PID --text` to record clarifications of what a decision covers.
 
 ## 6. Apply (second PR)
 

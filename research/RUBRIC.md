@@ -66,19 +66,45 @@ When recording dates, always distinguish: **proposed/introduced → adopted (pas
 - A source that could not be retrieved (blocked, 4xx/5xx, timeout) **cannot** support a successful outcome; the tooling refuses it.
 - An unchanged page shows only that this page is unchanged. It does not show that nothing new exists elsewhere. Discovery is a separate step.
 
-### 7a. Conflicting evidence: double check, then a third source
+### 7a. Conflicting, missing or ambiguous evidence
 
-When sources disagree, or a source contradicts a proposal, nothing is accepted, applied or marked verified until the conflict is resolved in one of two ways:
+**Conflicts.** When sources disagree, or a source contradicts a proposal, the evidence status is *disputed*. A disputed claim cannot be accepted (without an explicit override), applied or marked verified until a resolution is recorded. A third source does **not** settle a conflict just by existing or by coming from a different publisher. The resolution must state:
 
-1. **Double check.** Re-fetch and re-read every contradicting source, and record a fresh passage. If on re-reading it does not actually contradict (a misreading, an outdated page, a different provision), record it as `role: "recheck"` evidence.
-2. **Third source.** If the conflict stands, consult a third source that is **independent of both sides**: a different publisher, preferably the primary legal text or the issuing body. Record it as `role: "tiebreak"` with a passage. If the third source contradicts the proposal, the proposal is revised or rejected, not accepted.
+- **the specific disagreement** (what each side says);
+- **the basis**, which must be one of:
+  - **authoritative text:** the official or legal text settles it; needs a primary source passage.
+  - **correction or superseding version:** a documented correction, erratum or later version.
+  - **different date, scope or definition:** the sources are about different versions, provisions or definitions, so they don't actually conflict; needs passages from each side.
+  - **misreading on recheck:** on re-reading, the contradicting source doesn't say what it was taken to say; needs a fresh passage from that source.
+- **the inspected passages** that establish it;
+- **an explanation** of why those passages resolve the disagreement.
+
+**Independence signals, not proofs.** Publisher domain and shared underlying accounts (`source derived S-x --from S-y`, e.g. several articles summarising one press release or one news report) are reported as signals. Two sources repeating one account count as a single piece of corroboration. Domain checks never resolve or validate anything by themselves.
+
+**Missing or ambiguous evidence** gets the same treatment. Make reasonable further attempts: official text, the issuing body, a later version. If it still can't be settled, keep the item *unresolved* and record exactly what is missing (`--missing` is required for unresolved and inaccessible outcomes, and `missing` for proposals that are not verified).
 
 How the tools enforce it:
-- Evidence carries `stance: supports|contradicts`.
-- `decide … accept` and maintainer `edit` refuse a proposal with an unresolved conflict, and `apply.js` refuses to apply one.
-- At item level, `check --outcome unresolved --conflicting S-a,S-b` records the disagreement. The item can only be closed later with `--recheck` (both sources successfully re-fetched since the conflict) or `--tiebreak S-c` (accessible, independent).
-- Independence is enforced by publisher domain, so `anthropic.com` and `www-cdn.anthropic.com` count as one source. This is a floor, not the whole test: two publishers on one shared government domain, or one publisher with several domains, still need judgment, and the report names the sources so you can see.
-- The maintainer may override with a stated reason (`--override-conflict "…"`). The override is stored with the decision.
+- `stance: contradicts` on evidence plus `conflict_resolution` on the proposal version.
+- At item level: `check --outcome unresolved --conflicting S-a,S-b --disagreement "…" --missing "…"`, closed only with `--resolution FILE.json`.
+
+### 7b. Evidence status is separate from editorial approval
+
+Every proposal has an **evidence status**, which is the research side:
+
+| Status | Meaning |
+|---|---|
+| Verified | Verified against inspected external sources |
+| Internal consistency | The map checked against itself only (counts, labels, classifications, cross-references); no claim about the world is verified |
+| Needs research | Evidence missing or ambiguous |
+| Needs source access | The deciding source could not be retrieved |
+| Disputed | Unresolved conflicting evidence (derived automatically) |
+
+It also has an **editorial decision**, which is the maintainer's: pending, accepted, rejected or deferred.
+
+- Only *verified* or *internal-consistency* proposals are ready for a decision and can be applied. Proposals that need research or source access don't ask the maintainer for a decision.
+- An accepted proposal whose evidence weakens is held, not applied. So is one that must be applied together with a held proposal (`apply_together`), for example several edits that would leave one entry internally inconsistent if published separately.
+- A maintainer **override** (`decide … --override "reason"`) allows publication but **never changes the evidence status**. The report, ledger and apply manifest keep showing it as disputed or unverified.
+- Text that a proposal carries over unchanged is listed as `unverified_carryover`, so restating it does not make it look newly verified.
 
 ## 8. Check outcomes
 
@@ -86,16 +112,18 @@ How the tools enforce it:
 |---|---|
 | Change supported | An inspected source supports a change; a proposal ID is attached |
 | No material change found in the checked sources | Inspected sources match the current text. This says nothing beyond those sources |
-| Unresolved or conflicting evidence | Sources disagree, are secondary-only, or are ambiguous |
+| Unresolved or conflicting evidence | Sources disagree, are secondary-only, or are ambiguous; what is missing is recorded |
 | Source inaccessible | The needed source could not be retrieved |
 | Not checked | Not attempted in this run (implicit) |
+
+Each check is tagged **internal** (repo evidence only: the map against itself) or **external** (outside sources). The report counts them separately and keeps *attempted* separate from *successfully verified*.
 
 ## 9. Proposals and approval
 
 - Each proposal has a stable ID (`P-0001`), numbered versions, and a change-hash over its exact edits.
 - Decisions (accept, reject, defer, or edit, which means the maintainer's wording is accepted) bind to a version and its change-hash. A revision that changes the edits is **substantive** and resets the decision to pending. A revision that only updates evidence or notes keeps an existing approval.
 - Rejected proposals are not re-raised unless new evidence exists (`revise --reopen`). Deferred ones return on their revisit date.
-- `apply.js` applies only the approved version. `check.js --guard` proves that the published files equal base + approved edits + permitted derived updates (counts, content dates, generated files). The guard checks consistency, not research correctness.
+- `apply.js` applies only the approved version, and only when the evidence status allows it (§7b). `check.js --guard` proves that the published files equal base + approved edits + permitted derived updates (counts, content dates, generated files). The guard checks consistency, not research correctness.
 
 ## 10. Dates on the map
 
