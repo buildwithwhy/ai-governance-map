@@ -6,6 +6,7 @@
 //   inventory [--entry ID] | deps ENTITY
 //   run start RUN --label TEXT [--partial] [--entries a,b] [--scope TEXT]
 //   run discovery RUN FILE.json            append a discovery log entry
+//   run highlights RUN FILE.json           summary bullets (JSON array of strings) shown first in the report
 //   run finish RUN [--usage TEXT]
 //   source fetch URL [--type primary|secondary|repo] [--title T] [--publisher P] [--run RUN]
 //   source add URL --status ok|blocked|error --via webfetch|manual|repo [--type ..] [--title ..] [--run RUN]
@@ -336,8 +337,9 @@ function runCmd(sub, id, o, extra) {
   }
   if (!run) die(`no run ${id}`);
   if (sub === 'discovery') { run.discovery.push(L.readJSON(extra)); L.writeJSON(f, run); return console.log('discovery log appended'); }
+  if (sub === 'highlights') { run.highlights = L.readJSON(extra); L.writeJSON(f, run); return console.log(`${run.highlights.length} highlight(s) set`); }
   if (sub === 'finish') { run.finished_at = now(); run.usage = o.usage || null; L.writeJSON(f, run); return console.log(`run ${id} finished`); }
-  die('run start|discovery|finish');
+  die('run start|discovery|highlights|finish');
 }
 
 // ---- report --------------------------------------------------------------------------
@@ -430,27 +432,53 @@ function report(id) {
   const entriesInRun = [...new Set(runIds.filter(i => i.startsWith('entry:')).map(i => i.split(':')[1]))];
   const contentDate = (L.contentDates().find(d => d.kind === 'iso') || {}).value;
 
+  const appliedP = lg.proposals.filter(p => p.applied);
+  const awaitingApply = decided.filter(p => p.decision.status === 'accepted' && !p.applied);
+  const st = k => decided.filter(p => p.decision.status === k).length;
+  const typeOf = p => (latest(p).kind === 'flag' ? 'question' : latest(p).kind);
+  const cell = t => String(t).replace(/\|/g, '\\|');
+  const conflictMark = p => (L.conflictStatus(latest(p).evidence, db).resolved ? '' : ' ⚠ conflict');
+
   const o = [];
   o.push(`# Review report — ${run.label}`, '');
-  if (run.partial) o.push(`> **PARTIAL RUN.** This run checked ${entriesInRun.length} of ${inv.map.entities.length} entries. It is not a baseline audit, and entries outside its scope are *not checked*.`, '');
-  o.push('| | |', '|---|---|',
-    `| Run | \`${run.id}\` · started ${run.started_at} · ${run.finished_at ? `finished ${run.finished_at} (${elapsed} min)` : 'not finished'} |`,
-    `| Usage / cost | ${run.usage || 'Not available in this session (Claude Code does not expose token usage or cost to the agent).'} |`,
-    `| Map content last updated (published) | ${contentDate} |`,
-    `| This run | ${runIds.length} inventory items attempted across ${entriesInRun.length} entries · ${Object.entries(counts).map(([k, v]) => `${OUTCOMES[k]}: ${v}`).join(' · ') || '—'} |`,
-    `| Whole map | ${total} inventory items · successfully checked at least once: ${everOk} · checked against the current text: ${okCurrent} · never successfully checked: ${total - everOk} |`,
-    `| Decisions needed | ${changes.length} change(s) · ${additions.length} new candidate(s) · ${flags.length} question(s) |`, '');
-  o.push('**How to respond:** reply in conversation, e.g. “accept P-0002 v1”, “edit P-0003: use …”, “reject P-0004 — reason”, “defer P-0005 until 2026-12-01”. Decisions bind to the version number shown; if a proposal is revised substantively it comes back for renewed approval.', '');
+  if (run.partial) o.push(`> **PARTIAL RUN.** ${entriesInRun.length} of ${inv.map.entities.length} entries checked. This is not a baseline audit; everything else is *not checked*.`, '');
 
-  o.push('## 1. Proposed changes', '');
-  o.push(changes.length ? changes.map(p => renderProposal(p, inv, db)).join('\n---\n\n') : '_None._', '');
-  o.push('## 2. New candidates', '');
-  o.push(additions.length ? additions.map(p => renderProposal(p, inv, db)).join('\n---\n\n') : '_None proposed for addition in this run (see the discovery log for candidates screened)._', '');
-  o.push('## 3. Questions requiring your judgment', '');
-  o.push(flags.length ? flags.map(p => renderProposal(p, inv, db)).join('\n---\n\n') : '_None._', '');
+  o.push('## Summary', '');
+  for (const h of run.highlights || []) o.push(`- ${h}`);
+  if ((run.highlights || []).length) o.push('');
+  o.push(
+    `- **Checked:** ${runIds.length} items across ${entriesInRun.length} of ${inv.map.entities.length} entries. ${Object.entries(counts).map(([k, v]) => `${OUTCOMES[k]}: ${v}`).join(' · ') || '—'}.`,
+    `- **Proposals:** ${open.length} awaiting your decision · ${awaitingApply.length} accepted, not yet applied · ${appliedP.length} applied · ${st('rejected')} rejected · ${st('deferred')} deferred.`,
+    `- **Sources:** ${usedSources.length} used, ${failures.length} could not be retrieved${failures.length ? ' (see §2)' : ''}.`,
+    `- **Map:** content last updated ${contentDate}. ${everOk} of ${total} inventory items have ever been successfully checked (${okCurrent} against their current text).`,
+    `- **Run:** \`${run.id}\` · ${run.started_at} → ${run.finished_at ? `${run.finished_at} (${elapsed} min)` : 'not finished'} · usage/cost: ${run.usage || 'not available in this session'}.`, '');
+
+  o.push('## Decisions', '', '### Awaiting your decision', '');
+  if (open.length) {
+    o.push('| ID | Ver | Type | Proposal | Confidence |', '|---|---|---|---|---|');
+    for (const p of [...changes, ...additions, ...flags]) o.push(`| ${p.id} | v${latest(p).v} | ${typeOf(p)}${conflictMark(p)} | ${cell(latest(p).title)} | ${latest(p).confidence || '—'} |`);
+    o.push('', 'Reply in conversation, e.g. “accept P-0002 v1”, “edit P-0003: use …”, “reject P-0004 — reason”, “defer P-0005 until 2026-12-01”. Decisions bind to the version shown; a substantive revision comes back for renewed approval. Details in §1.', '');
+  } else o.push('_Nothing awaiting a decision._', '');
+  o.push('### Decided', '');
+  if (decided.length) {
+    o.push('| ID | Ver | Decision | Date | Status | Proposal |', '|---|---|---|---|---|---|');
+    for (const p of decided) {
+      const d = p.decision;
+      const status = p.applied ? `applied (${p.applied.manifest.split('/').pop()})` : d.status === 'accepted' ? 'awaiting apply' : d.revisit_after ? `revisit after ${d.revisit_after}` : '—';
+      o.push(`| ${p.id} | v${d.v ?? '—'} | ${d.status}${d.edited ? ' (your edit)' : ''}${d.conflict_override ? ' (conflict override)' : ''} | ${d.date || '—'} | ${status} | ${cell(latest(p).title)} |`);
+    }
+    o.push('');
+  } else o.push('_None yet._', '');
+
+  o.push('## 1. Proposal details — awaiting decision', '');
+  if (!open.length) o.push('_None._', '');
+  for (const [label, ps] of [['Changes to existing items', changes], ['New candidates', additions], ['Questions requiring your judgment', flags]]) {
+    if (!ps.length) continue;
+    o.push(`### ${label}`, '', ps.map(p => renderProposal(p, inv, db)).join('\n---\n\n'), '');
+  }
 
   const unresolved = runIds.filter(i => ['unresolved', 'inaccessible'].includes(per[i].outcome));
-  o.push('## 4. Unresolved items and failures', '');
+  o.push('## 2. Unresolved items and failures', '');
   if (!unresolved.length && !failures.length) o.push('_None._', '');
   const groups = {};
   for (const i of unresolved) { const k = `${per[i].outcome}|${per[i].note}|${per[i].sources.join(',')}`; (groups[k] = groups[k] || []).push(i); }
@@ -463,7 +491,7 @@ function report(id) {
   }
   o.push('');
 
-  o.push('## 5. Discovery log', '');
+  o.push('## 3. Discovery log', '');
   if (!run.discovery.length) o.push('_No discovery searches in this run._', '');
   for (const d of run.discovery) {
     o.push(`### ${d.area}`, '', d.summary || '', '');
@@ -476,8 +504,8 @@ function report(id) {
     if (d.limits) o.push(`_Limits:_ ${d.limits}`, '');
   }
 
-  o.push('## 6. Decisions on record', '');
-  o.push(decided.length ? decided.map(p => `- **${p.id}** v${p.decision.v ?? '—'} ${latest(p).title} — ${p.decision.status}${p.decision.edited ? ' (maintainer edit)' : ''}${p.decision.revisit_after ? `, revisit after ${p.decision.revisit_after}` : ''}${p.applied ? `, applied in ${p.applied.manifest}` : ''}${p.decision.note ? ` — “${p.decision.note}”` : ''}`).join('\n') : '_None yet._', '');
+  o.push('## 4. Proposal details — decided (audit trail)', '');
+  o.push(decided.length ? decided.map(p => renderProposal(p, inv, db)).join('\n---\n\n') : '_None yet._', '');
 
   o.push('## Appendix A — checked, no material change', '');
   const nochange = runIds.filter(i => per[i].outcome === 'no_change');

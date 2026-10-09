@@ -1,0 +1,617 @@
+{
+  "next": 28,
+  "sources": {
+    "S-0001": {
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "title": null,
+      "publisher": null,
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:01:01Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "blocked",
+          "error": "curl: (56) CONNECT tunnel failed, response 403"
+        }
+      ],
+      "passages": []
+    },
+    "S-0002": {
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "title": null,
+      "publisher": null,
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:01:01Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "blocked",
+          "error": "curl: (56) CONNECT tunnel failed, response 403"
+        }
+      ],
+      "passages": []
+    },
+    "S-0003": {
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+      "title": null,
+      "publisher": null,
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:01:02Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "blocked",
+          "error": "curl: (56) CONNECT tunnel failed, response 403"
+        }
+      ],
+      "passages": []
+    },
+    "S-0004": {
+      "url": "https://www.npr.org/2026/06/02/nx-s1-5844347/ai-safety-trump-executive-order",
+      "title": null,
+      "publisher": "NPR",
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:01:02Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "blocked",
+          "error": "curl: (56) CONNECT tunnel failed, response 403"
+        },
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:01:07Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "blocked",
+          "error": "curl: (56) CONNECT tunnel failed, response 403"
+        }
+      ],
+      "passages": []
+    },
+    "S-0005": {
+      "url": "https://www.anthropic.com/responsible-scaling-policy",
+      "title": null,
+      "publisher": null,
+      "type": "primary",
+      "dates": {
+        "page_updated": "2026-08-14",
+        "current_version_effective": "2026-07-08",
+        "first_version_effective": "2023-09-19"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:01:02Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/responsible-scaling-policy",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "6ee2872c0a4b0ba2",
+          "bytes": 181373
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0005#1",
+          "locator": "Current and Prior Versions",
+          "text": "Version 3.4 and redline (effective July 8, 2026) · Version 3.3 (effective May 26, 2026) · Version 3.2 (effective April 29, 2026) · Version 3.1 (effective April 2, 2026) · Version 3.0 (effective February 24, 2026) · Version 2.2 (effective May 14, 2025) · Version 2.1 (effective March 31, 2025) · Version 2.0 (effective October 15, 2024) · Version 1.0 (effective September 19, 2023)",
+          "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0005#2",
+          "locator": "Update log, April 29, 2026",
+          "text": "Version 3.2 of our RSP authorizes the LTBT to request external review of Risk Reports, gives the LTBT the power to approve our selection of external reviewers, and formalizes a requirement that we provide the LTBT with regular briefings.",
+          "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0005#3",
+          "locator": "Update log, April 2, 2026 (v3.1)",
+          "text": "We now clarify that, even if not required by the RSP, we remain free to take measures such as pausing the development of our AI systems in any circumstances in which we deem them appropriate.",
+          "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0005#4",
+          "locator": "Update log, February 24, 2026 / April 2, 2026",
+          "text": "Version 3.0 is a comprehensive rewrite of the RSP. … [changes] will be logged both on this page and in a changelog in the policy document itself.",
+          "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0005#5",
+          "locator": "Risk Reports",
+          "text": "Redacted Risk Report August 2026 · Redacted Risk Report February 2026",
+          "retrieved": "2026-10-08"
+        }
+      ]
+    },
+    "S-0006": {
+      "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf",
+      "title": null,
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:01:20Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "blocked",
+          "error": "curl: (56) CONNECT tunnel failed, response 403"
+        }
+      ],
+      "passages": []
+    },
+    "S-0007": {
+      "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+      "title": null,
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {
+        "published": "2026-02-24"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:01:20Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "6ac980f3969230aa",
+          "bytes": 151517
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0007#1",
+          "locator": "1. Separating our plans as a company from our recommendations for the industry",
+          "text": "Our RSP now outlines two sets of mitigations: first, the mitigations that we plan to pursue regardless of what others do; and second, an ambitious capabilities-to-mitigations map that, we believe, would help adequately manage the risks from advanced AI if implemented across the AI industry.",
+          "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0007#2",
+          "locator": "3. Risk Reports and external review",
+          "text": "Risk Reports will be published online (with some redactions) every 3-6 months. The new RSP also requires external review of Risk Reports in certain circumstances. … Although our current models do not yet require external review, we are already running pilots",
+          "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0007#3",
+          "locator": "Assessing our theory of change",
+          "text": "We activated ASL-3 safeguards for relevant models in May 2025",
+          "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0007#4",
+          "locator": "Assessing our theory of change",
+          "text": "governments … (for example in California with SB 53, in New York with the RAISE Act, and with the EU AI Act's Codes of Practice) start to require frontier AI developers to create and publish frameworks … requirements Anthropic addresses through public documentation including its Frontier Compliance Framework.",
+          "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0007#5",
+          "locator": "Opening paragraph",
+          "text": "We're releasing the third version of our Responsible Scaling Policy (RSP), the voluntary framework we use to mitigate catastrophic risks from AI systems.",
+          "retrieved": "2026-10-08"
+        }
+      ]
+    },
+    "S-0008": {
+      "url": "https://www.anthropic.com/responsible-scaling-policy/rsp-v3-0",
+      "title": "Responsible Scaling Policy v3.0 (HTML)",
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:01:37Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "blocked",
+          "error": "curl: (56) CONNECT tunnel failed, response 403"
+        }
+      ],
+      "passages": []
+    },
+    "S-0009": {
+      "url": "https://www.anthropic.com/responsible-scaling-policy/roadmap",
+      "title": "Frontier Safety Roadmap",
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:01:38Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/responsible-scaling-policy/roadmap",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "8b722d979b5b1108",
+          "bytes": 194350
+        }
+      ],
+      "passages": []
+    },
+    "S-0010": {
+      "url": "https://trust.anthropic.com/resources?s=eorilovp4wxk38nxbi7k3&name=anthropic-frontier-compliance-framework",
+      "title": "Anthropic Frontier Compliance Framework (Trust Center)",
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:02:03Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "blocked",
+          "error": "curl: (56) CONNECT tunnel failed, response 403"
+        }
+      ],
+      "passages": []
+    },
+    "S-0011": {
+      "url": "https://www.anthropic.com/transparency",
+      "title": "Anthropic Transparency Hub",
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:02:03Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/transparency",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "e1099cac8ad23939",
+          "bytes": 933728
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0011#1",
+          "locator": "Model reports, Claude Opus 4.7 — RSP evaluations",
+          "text": "Chemical and biological weapons threat model 2 (CB-2) covers models that can significantly help moderately resourced expert-backed teams create and deploy chemical or biological weapons …",
+          "retrieved": "2026-10-08"
+        }
+      ]
+    },
+    "S-0012": {
+      "url": "https://www.govinfo.gov/content/pkg/DCPD-202600376/html/DCPD-202600376.htm",
+      "title": null,
+      "publisher": null,
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:02:59Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "blocked",
+          "error": "curl: (56) CONNECT tunnel failed, response 403"
+        }
+      ],
+      "passages": []
+    },
+    "S-0013": {
+      "url": "https://www.federalregister.gov/",
+      "title": null,
+      "publisher": null,
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:02:59Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "blocked",
+          "error": "curl: (56) CONNECT tunnel failed, response 403"
+        }
+      ],
+      "passages": []
+    },
+    "S-0014": {
+      "url": "http://www.npc.gov.cn/",
+      "title": null,
+      "publisher": null,
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:00Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "http_403",
+          "http": 403,
+          "final_url": "http://www.npc.gov.cn/",
+          "content_type": "text/plain"
+        }
+      ],
+      "passages": []
+    },
+    "S-0015": {
+      "url": "https://www.gov.cn/",
+      "title": null,
+      "publisher": null,
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:00Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "blocked",
+          "error": "curl: (56) CONNECT tunnel failed, response 403"
+        }
+      ],
+      "passages": []
+    },
+    "S-0016": {
+      "url": "https://www.whitehouse.gov/presidential-actions/",
+      "title": null,
+      "publisher": null,
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:00Z",
+          "run": "2026-10-08-trial1",
+          "via": "curl",
+          "status": "blocked",
+          "error": "curl: (56) CONNECT tunnel failed, response 403"
+        }
+      ],
+      "passages": []
+    },
+    "S-0017": {
+      "url": "https://www.lewissilkin.com/insights/2026/07/27/the-digital-omnibus-on-ai-enters-into-force-today-102nedo",
+      "title": "Lewis Silkin: Digital Omnibus on AI enters into force",
+      "publisher": null,
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:23Z",
+          "run": "2026-10-08-trial1",
+          "via": "websearch",
+          "status": "search_result_only",
+          "note": "Seen only as a web-search result; page not opened (egress blocked)"
+        }
+      ],
+      "passages": []
+    },
+    "S-0018": {
+      "url": "https://www.addleshawgoddard.com/en/insights/insights-briefings/2026/technology/eu-ai-act-ai-omnibus-formally-adopted/",
+      "title": "Addleshaw Goddard: AI Omnibus formally adopted",
+      "publisher": null,
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:24Z",
+          "run": "2026-10-08-trial1",
+          "via": "websearch",
+          "status": "search_result_only",
+          "note": "Seen only as a web-search result; page not opened (egress blocked)"
+        }
+      ],
+      "passages": []
+    },
+    "S-0019": {
+      "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement",
+      "title": "Gibson Dunn: EU AI Act Omnibus agreement",
+      "publisher": null,
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:24Z",
+          "run": "2026-10-08-trial1",
+          "via": "websearch",
+          "status": "search_result_only",
+          "note": "Seen only as a web-search result; page not opened (egress blocked)"
+        }
+      ],
+      "passages": []
+    },
+    "S-0020": {
+      "url": "https://www.lw.com/en/insights/2026/06/president-trump-signs-executive-order-establishing-ai-cybersecurity-and-frontier-model-framework",
+      "title": "Latham & Watkins: EO establishing AI cybersecurity and frontier model framework",
+      "publisher": null,
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:24Z",
+          "run": "2026-10-08-trial1",
+          "via": "websearch",
+          "status": "search_result_only",
+          "note": "Seen only as a web-search result; page not opened (egress blocked)"
+        }
+      ],
+      "passages": []
+    },
+    "S-0021": {
+      "url": "https://finsights.cooley.com/ai-executive-order-creates-voluntary-framework-for-frontier-models-advances-critical-infrastructure-cybersecurity/",
+      "title": "Cooley: AI EO creates voluntary framework for frontier models",
+      "publisher": null,
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:24Z",
+          "run": "2026-10-08-trial1",
+          "via": "websearch",
+          "status": "search_result_only",
+          "note": "Seen only as a web-search result; page not opened (egress blocked)"
+        }
+      ],
+      "passages": []
+    },
+    "S-0022": {
+      "url": "https://aiweekly.co/alerts/white-house-tells-caisi-to-halt-public-ai-model-reports",
+      "title": "AI Weekly: White House tells CAISI to halt public AI model reports",
+      "publisher": null,
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:24Z",
+          "run": "2026-10-08-trial1",
+          "via": "websearch",
+          "status": "search_result_only",
+          "note": "Seen only as a web-search result; page not opened (egress blocked)"
+        }
+      ],
+      "passages": []
+    },
+    "S-0023": {
+      "url": "https://www.chinaiplawupdate.com/?p=4093",
+      "title": "China IP Law Update: State Council 2026 Legislative Work Plan",
+      "publisher": null,
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:24Z",
+          "run": "2026-10-08-trial1",
+          "via": "websearch",
+          "status": "search_result_only",
+          "note": "Seen only as a web-search result; page not opened (egress blocked)"
+        }
+      ],
+      "passages": []
+    },
+    "S-0024": {
+      "url": "https://www.akingump.com/en/insights/ai-law-and-regulation-tracker/China's-Legislative-Plan-for-AI-Law",
+      "title": "Akin Gump: China's legislative plan for AI law",
+      "publisher": null,
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:24Z",
+          "run": "2026-10-08-trial1",
+          "via": "websearch",
+          "status": "search_result_only",
+          "note": "Seen only as a web-search result; page not opened (egress blocked)"
+        }
+      ],
+      "passages": []
+    },
+    "S-0025": {
+      "url": "https://www.caixinglobal.com/2025-10-29/china-amends-cybersecurity-law-to-add-first-ever-ai-clause-102376988.html",
+      "title": "Caixin: China amends Cybersecurity Law to add first AI clause",
+      "publisher": null,
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:24Z",
+          "run": "2026-10-08-trial1",
+          "via": "websearch",
+          "status": "search_result_only",
+          "note": "Seen only as a web-search result; page not opened (egress blocked)"
+        }
+      ],
+      "passages": []
+    },
+    "S-0026": {
+      "url": "https://casrai.org/guides/eu-ai-act-gpai-code-of-practice",
+      "title": "CASRAI: GPAI Code of Practice guide",
+      "publisher": null,
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:24Z",
+          "run": "2026-10-08-trial1",
+          "via": "websearch",
+          "status": "search_result_only",
+          "note": "Seen only as a web-search result; page not opened (egress blocked)"
+        }
+      ],
+      "passages": []
+    },
+    "S-0027": {
+      "url": "https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56",
+      "title": "Map repository at f9d3e56 (index.html, build-llms.js, data.json)",
+      "publisher": null,
+      "type": "repo",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-08",
+          "at": "2026-10-08T17:03:24Z",
+          "run": "2026-10-08-trial1",
+          "via": "repo",
+          "status": "ok",
+          "note": null
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0027#1",
+          "locator": "build-llms.js line 150",
+          "text": "description: 'Interactive map of frontier AI governance: 39 mechanisms across six layers, …' — while ENTITIES has 49 entries; data.json therefore says 39.",
+          "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0027#2",
+          "locator": "index.html FAQ JSON-LD vs stats block",
+          "text": "FAQ: 'Eight binding instruments in this map carry penalty regimes: … the Colorado AI Act, … Texas TRAIGA, and US BIS export controls.' Stats tile: 11 'binding with penalties' (= entries with pow 4). co-aia and tx-raiga have pow 3; pow-4 entries also include eu-aio, uk-ofcom, uk-ico, au-esafety, co-doi.",
+          "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0027#3",
+          "locator": "index.html JUR_LABEL / au-esafety / other-aisis",
+          "text": "JUR_LABEL as: 'Asia (other)'. au-esafety (Australia eSafety Commissioner) has jur 'as'. other-aisis (desc: 'Singapore …, Japan …, France (INESIA), Korea, Canada, Australia, Kenya, India') has jur 'as'.",
+          "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0027#4",
+          "locator": "index.html Layer 2 band vs tooltip and FAQ",
+          "text": "Subtitle: 'Statutes, executive orders, agencies'. Tooltip: 'The laws themselves — statutes, executive orders, framework acts. The institutions that implement and enforce them sit in Layer 4.' No Layer 2 entry is an agency.",
+          "retrieved": "2026-10-08"
+        }
+      ]
+    }
+  }
+}

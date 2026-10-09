@@ -57,7 +57,7 @@ Out-of-scope finds of significance become `addition` proposals labelled "outside
 
 ## 4. Report
 
-`run finish <run> [--usage "<tokens/cost if known>"]`, then `report <run>`. The report leads with decisions needed and puts unchanged checks in an appendix. Show it to the maintainer in the session.
+Write 3–6 plain-language highlights (key findings, blockers, decisions needed) with `run highlights <run> <file.json>`. Then run `run finish <run> [--usage "<tokens/cost if known>"]` and `report <run>`. The report opens with the summary and a decisions table (awaiting, then decided), followed by full proposal details. Unresolved items, the discovery log, decided-proposal details and the appendices come after. The report leads with decisions needed and puts unchanged checks in an appendix. Show it to the maintainer in the session.
 
 **Visibility:** the GitHub repo and its branches may be public, and so may preview deployments. Until the maintainer has approved the public audit format, do not push run outputs (`ledger.json`, `sources.json`, `checks.json`, `runs/`).
 
