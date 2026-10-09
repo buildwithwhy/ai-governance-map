@@ -26,13 +26,16 @@ Work through each entry, plus the connections, narrative items and categories it
    `check <run> --items entry:eu-aia:* --outcome no_change|changed|unresolved|inaccessible --sources S-1,S-2 --note "<what was compared>" [--proposals P-x]`
    - A blocked source is recorded as `inaccessible`, never as `no_change`; the tool refuses otherwise.
    - Secondary-only evidence of a change → `unresolved`, with the lead described in the note.
+   - Sources disagree → `unresolved --conflicting S-a,S-b`. Then **double check**: re-fetch and re-read both. If they still disagree, find a **third independent source** (different publisher, ideally the primary text). Close with `--recheck` or `--tiebreak S-c` (RUBRIC §7a).
 4. For a supported change, write the proposal JSON and run `propose <file> --run <run>`:
    ```json
    {
      "title": "…", "kind": "change|addition|flag",
      "changes": [{"op": "set_field", "entity": "eu-aia", "field": "desc", "from": "<exact current>", "to": "<proposed>"}],
      "why": "why it matters", "rationale": "…", "uncertainty": "…", "confidence": "high|medium|low",
-     "evidence": [{"source": "S-0003", "passage": "S-0003#2", "supports": "…"}],
+     "evidence": [{"source": "S-0003", "passage": "S-0003#2", "stance": "supports", "supports": "…"},
+                  {"source": "S-0009", "passage": "S-0009#1", "stance": "contradicts"},
+                  {"source": "S-0012", "passage": "S-0012#1", "role": "tiebreak", "stance": "supports"}],
      "knock_on_notes": {"gap:halt": "needs change — see P-0009", "faq:what-does-the-eu-ai-office-do": "checked, still accurate"},
      "question": "only for flags / judgment calls",
      "resolves_checks": ["data-description-count"]
@@ -70,7 +73,7 @@ The maintainer replies in plain language. Map each reply to one command, always 
 | "edit P-0005: say X" | write the changes with their wording → `edit P-0005 <file> --note "…"` (accepted as their version) |
 | an answer to a question/flag | record it with `decide … defer\|reject\|withdraw --note "<answer>"`, or revise the flag into a concrete change and show it again |
 
-If a proposal was revised after they saw it, the tool refuses the decision. Show the new version first. Read the result back to the maintainer: ID, version, new status.
+If a proposal has unresolved conflicting evidence, the tool refuses acceptance. Do the double check or find a third source, revise the proposal and show it again. Use `--override-conflict "<their reason>"` only if the maintainer explicitly overrides. If a proposal was revised after they saw it, the tool refuses the decision. Show the new version first. Read the result back to the maintainer: ID, version, new status.
 
 ## 6. Apply (second PR)
 

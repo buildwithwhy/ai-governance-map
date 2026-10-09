@@ -198,6 +198,11 @@ function main() {
   const dry = args.includes('--dry-run');
   const ledger = L.readJSON(ledgerPath(root), { proposals: [] });
   const todo = ledger.proposals.filter(p => !p.applied && approvedVersion(p) && approvedVersion(p).changes.length);
+  const srcDb = L.readJSON(path.join(root, 'research', 'sources.json'), { sources: {} });
+  for (const p of todo) {
+    const st = L.conflictStatus(approvedVersion(p).evidence, srcDb);
+    if (!st.resolved && !p.decision.conflict_override) throw new Error(`${p.id}: ${st.reason} (RUBRIC §7a)`);
+  }
   if (!todo.length) return console.log('nothing approved to apply');
   console.log(`applying ${todo.length} proposal(s): ${todo.map(p => `${p.id} v${p.decision.v}`).join(', ')}`);
   if (dry) return;

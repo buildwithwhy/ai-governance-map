@@ -66,6 +66,20 @@ When recording dates, always distinguish: **proposed/introduced → adopted (pas
 - A source that could not be retrieved (blocked, 4xx/5xx, timeout) **cannot** support a successful outcome; the tooling refuses it.
 - An unchanged page shows only that this page is unchanged. It does not show that nothing new exists elsewhere. Discovery is a separate step.
 
+### 7a. Conflicting evidence: double check, then a third source
+
+When sources disagree, or a source contradicts a proposal, nothing is accepted, applied or marked verified until the conflict is resolved in one of two ways:
+
+1. **Double check.** Re-fetch and re-read every contradicting source, and record a fresh passage. If on re-reading it does not actually contradict (a misreading, an outdated page, a different provision), record it as `role: "recheck"` evidence.
+2. **Third source.** If the conflict stands, consult a third source that is **independent of both sides**: a different publisher, preferably the primary legal text or the issuing body. Record it as `role: "tiebreak"` with a passage. If the third source contradicts the proposal, the proposal is revised or rejected, not accepted.
+
+How the tools enforce it:
+- Evidence carries `stance: supports|contradicts`.
+- `decide … accept` and maintainer `edit` refuse a proposal with an unresolved conflict, and `apply.js` refuses to apply one.
+- At item level, `check --outcome unresolved --conflicting S-a,S-b` records the disagreement. The item can only be closed later with `--recheck` (both sources successfully re-fetched since the conflict) or `--tiebreak S-c` (accessible, independent).
+- Independence is enforced by publisher domain, so `anthropic.com` and `www-cdn.anthropic.com` count as one source. This is a floor, not the whole test: two publishers on one shared government domain, or one publisher with several domains, still need judgment, and the report names the sources so you can see.
+- The maintainer may override with a stated reason (`--override-conflict "…"`). The override is stored with the decision.
+
 ## 8. Check outcomes
 
 | Outcome | Meaning |

@@ -13,9 +13,12 @@
 //   source dates SID key=YYYY-MM-DD ...     (published, adopted, signed, in_force, applies_from, effective, ...)
 //   check RUN --items ID[,ID|entry:X:*] --outcome changed|no_change|unresolved|inaccessible
 //         [--sources S-1,S-2] [--proposals P-1] --note TEXT
+//         [--conflicting S-1,S-2]   (with unresolved: sources that disagree)
+//         [--tiebreak S-3 | --recheck]  (required to close an item with a recorded conflict)
 //   propose FILE.json [--run RUN]           new proposal (deduplicated against the ledger)
 //   revise PID FILE.json [--run RUN] [--reopen]
 //   decide PID accept|reject|defer --version N [--note TEXT] [--until YYYY-MM-DD]
+//         [--override-conflict "reason"]   maintainer's explicit call on an unresolved conflict
 //   edit PID FILE.json --note TEXT          maintainer-authored wording; recorded as accepted
 //   list [--status S] | show PID
 //   report RUN                              write research/runs/RUN/report.md
@@ -153,6 +156,32 @@ function recordCheck(run, o) {
   }
   if (o.outcome === 'changed' && !list(o.proposals).length) die('outcome changed needs --proposals');
   const entry = { run, date: L.today(), outcome: o.outcome, sources: srcIds, proposals: list(o.proposals), note: o.note };
+  if (o.conflicting) {
+    if (o.outcome !== 'unresolved') die('--conflicting goes with --outcome unresolved');
+    const c = list(o.conflicting);
+    for (const sid of c) if (!db.sources[sid]) die(`unknown source ${sid}`);
+    if (c.length < 2) die('--conflicting needs the (at least two) sources that disagree');
+    entry.conflict = { sources: c, at: now() };
+  }
+  const prior = checks().items;
+  if (['changed', 'no_change'].includes(o.outcome)) {
+    // An item with an open conflict needs a double check or a third source to close.
+    const open = items.map(id => prior[id]?.last_attempt?.conflict).filter(c => c && !c.resolved);
+    for (const c of open) {
+      if (o.tiebreak) {
+        const t = db.sources[o.tiebreak] || die(`unknown source ${o.tiebreak}`);
+        const sides = new Set(c.sources.map(s => L.hostOf(db.sources[s].url)));
+        if (!accessible(t)) die(`tiebreak ${o.tiebreak} was not retrieved successfully`);
+        if (sides.has(L.hostOf(t.url))) die(`tiebreak ${o.tiebreak} is from the same host as a conflicting source; a third source must be independent`);
+        if (!srcIds.includes(o.tiebreak)) srcIds.push(o.tiebreak);
+        entry.conflict_resolved = { how: 'third source', source: o.tiebreak, conflict: c.sources };
+      } else if (o.recheck) {
+        const stale = c.sources.filter(s => !db.sources[s].fetches.some(f => f.status === 'ok' && f.at > c.at));
+        if (stale.length) die(`double check incomplete: ${stale.join(', ')} not successfully re-fetched since the conflict was recorded (${c.at})`);
+        entry.conflict_resolved = { how: 'double check', conflict: c.sources };
+      } else die(`these items have an open conflict (${c.sources.join(' vs ')}): re-read the conflicting sources (--recheck) or add a third independent source (--tiebreak S-x)`);
+    }
+  }
   const all = checks(); const per = L.readJSON(F.runChecks(run), {});
   for (const id of items) {
     const rec = { ...entry, hash: inv.byId[id].hash };
@@ -203,7 +232,13 @@ function knockOn(changes) {
 function makeVersion(input, v, run, author) {
   const changes = input.changes || [];
   if (changes.length) validateChanges(changes);
-  for (const ev of input.evidence || []) if (ev.source && !ev.source.startsWith('S-')) die(`evidence source must be a registered S-id (got ${ev.source})`);
+  const db = sources();
+  for (const ev of input.evidence || []) {
+    if (!ev.source || !db.sources[ev.source]) die(`evidence source must be a registered S-id (got ${ev.source})`);
+    if (ev.stance && !['supports', 'contradicts'].includes(ev.stance)) die(`evidence stance must be supports|contradicts`);
+    if (ev.role && !['recheck', 'tiebreak'].includes(ev.role)) die(`evidence role must be recheck|tiebreak`);
+    if (ev.role && !ev.passage) die(`${ev.role} evidence needs a recorded passage`);
+  }
   return {
     v, created: now(), run: run || null, author,
     title: input.title, kind: input.kind || (changes.some(c => c.op === 'add_entity') ? 'addition' : changes.length ? 'change' : 'flag'),
@@ -257,6 +292,14 @@ function revise(id, file, o, author = 'claude') {
   console.log(`${id} v${ver.v} (${substantive ? 'substantive: change-hash ' + ver.hash : 'non-substantive'}) — decision: ${p.decision.status}`);
   return [db, p, ver];
 }
+// RUBRIC §7a: conflicting evidence blocks acceptance until double-checked or
+// settled by a third independent source, unless the maintainer overrides with a reason.
+function conflictGate(ver, accepting, o) {
+  const st = L.conflictStatus(ver.evidence, sources());
+  if (!accepting || st.resolved) return null;
+  if (typeof o['override-conflict'] === 'string') return o['override-conflict'];
+  die(`cannot accept: ${st.reason}. Record the double check or third source with 'revise', or pass --override-conflict "<maintainer's reason>".`);
+}
 function decide(id, action, o) {
   const map = { accept: 'accepted', reject: 'rejected', defer: 'deferred', withdraw: 'withdrawn', supersede: 'superseded' };
   if (!map[action]) die('action must be accept|reject|defer|withdraw|supersede');
@@ -266,15 +309,18 @@ function decide(id, action, o) {
   if (!v) die('--version is required: decisions bind to an exact proposal version');
   if (v !== cur.v) die(`${id} is now at v${cur.v}; the decision was given for v${v}. Show the maintainer v${cur.v} before recording it.`);
   if (action === 'accept' && !cur.changes.length) die(`${id} has no changes to apply (flag/question). Record the answer with --note and 'defer', 'reject' or 'withdraw', or revise it into a concrete change.`);
+  const override = conflictGate(cur, action === 'accept', o);
   logDecision(p);
-  p.decision = { status: map[action], v: cur.v, hash: cur.hash, date: L.today(), note: o.note || null, revisit_after: o.until || null, edited: false };
+  p.decision = { status: map[action], v: cur.v, hash: cur.hash, date: L.today(), note: o.note || null, revisit_after: o.until || null, edited: false, ...(override ? { conflict_override: override } : {}) };
   L.writeJSON(F.ledger, db);
   console.log(`${id} v${cur.v} → ${map[action]}${o.until ? ` (revisit after ${o.until})` : ''}`);
 }
 function edit(id, file, o) {
+  const input = { ...latest(getP(ledger(), id)), ...L.readJSON(file) };
+  const override = conflictGate(input, true, o);
   const [db, p, ver] = revise(id, file, o, 'user');
   logDecision(p);
-  p.decision = { status: 'accepted', v: ver.v, hash: ver.hash, date: L.today(), note: o.note || 'edited by maintainer', revisit_after: null, edited: true };
+  p.decision = { status: 'accepted', v: ver.v, hash: ver.hash, date: L.today(), note: o.note || 'edited by maintainer', revisit_after: null, edited: true, ...(override ? { conflict_override: override } : {}) };
   L.writeJSON(F.ledger, db);
   console.log(`${id} v${ver.v} (maintainer edit) → accepted`);
 }
@@ -345,6 +391,8 @@ function renderProposal(p, inv, db) {
   if (v.why) out.push(`**Why it matters:** ${v.why}`, '');
   if (v.rationale) out.push(`**Reasoning:** ${v.rationale}`, '');
   if (v.evidence.length) out.push('**Evidence**', '', ...v.evidence.map(e => renderEvidence(e, db)), '');
+  const cs = L.conflictStatus(v.evidence, db);
+  if (cs.conflict) out.push(cs.resolved ? `**Conflicting evidence — resolved** by ${cs.how}.` : `**⚠ Conflicting evidence — not resolved:** ${cs.reason}. Cannot be accepted until then.`, '');
   if (v.uncertainty) out.push(`**Uncertainty:** ${v.uncertainty}`, '');
   const ko = v.knock_on.filter(i => !i.startsWith('entry:') || v.knock_on_notes[i]);
   const koEntries = v.knock_on.filter(i => i.startsWith('entry:') && !v.knock_on_notes[i]);
@@ -409,6 +457,8 @@ function report(id) {
   for (const [k, items] of Object.entries(groups)) {
     const [outcome, note, srcs] = k.split('|');
     o.push(`- **${OUTCOMES[outcome]}** — ${items.length} item(s): ${items.map(i => `\`${i}\``).join(', ')}`, `  ${note}`);
+    const cf = per[items[0]].conflict;
+    if (cf) o.push(`  **Conflict:** ${cf.sources.join(' vs ')} — next step: double check these sources, then consult a third independent source if they still disagree.`);
     for (const s of list(srcs)) { const src = db.sources[s]; const f = lastFetch(src) || {}; o.push(`  - ${s} <${src.url}> — ${f.status || 'not fetched'}${f.http ? ` HTTP ${f.http}` : ''} on ${f.date || '—'}`); }
   }
   o.push('');

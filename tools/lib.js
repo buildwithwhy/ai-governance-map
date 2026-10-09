@@ -258,7 +258,41 @@ function writeDerived(root, { date } = {}) {
   return [...changed];
 }
 
+// ---- conflict rule (RUBRIC §7a) ---------------------------------------------------
+// When evidence conflicts, nothing is accepted or marked verified until the
+// conflict is resolved by either
+//   (1) a double check: every contradicting source re-read (fresh passage from a
+//       successful fetch) and found, on re-reading, not to contradict; or
+//   (2) a third source: an accessible source, with a recorded passage, from a host
+//       independent of every source on either side of the conflict.
+// Publisher domain (registrable domain), so www-cdn.anthropic.com and
+// anthropic.com, or eur-lex.europa.eu and digital-strategy.ec.europa.eu,
+// count as one source family when judging independence.
+function hostOf(url) {
+  let h;
+  try { h = new URL(url).hostname.toLowerCase().replace(/^www\./, ''); } catch { return String(url); }
+  const p = h.split('.');
+  const twoLevel = p.length > 2 && /^[a-z]{2}$/.test(p[p.length - 1]) && /^(co|com|gov|org|ac|edu|net|go|or|ne|gob|govt)$/.test(p[p.length - 2]);
+  return p.slice(twoLevel ? -3 : -2).join('.');
+}
+const fetchedOk = s => !!s && s.fetches.length > 0 && s.fetches[s.fetches.length - 1].status === 'ok';
+
+function conflictStatus(evidence, db) {
+  const src = id => db.sources[id];
+  const against = evidence.filter(e => e.stance === 'contradicts' && e.role !== 'tiebreak');
+  if (!against.length) return { conflict: false, resolved: true };
+  const rechecked = against.every(a => evidence.some(e => e.role === 'recheck' && e.source === a.source
+    && e.stance !== 'contradicts' && e.passage && e.passage !== a.passage && fetchedOk(src(e.source))));
+  if (rechecked) return { conflict: true, resolved: true, how: `double check: ${[...new Set(against.map(a => a.source))].join(', ')} re-read and no longer contradict` };
+  const sideHosts = new Set(evidence.filter(e => e.role !== 'tiebreak').map(e => hostOf(src(e.source)?.url)));
+  const third = evidence.filter(e => e.role === 'tiebreak' && e.passage && fetchedOk(src(e.source)) && !sideHosts.has(hostOf(src(e.source).url)));
+  if (third.some(e => e.stance === 'contradicts')) return { conflict: true, resolved: false, reason: `third source ${third.find(e => e.stance === 'contradicts').source} contradicts the proposal — revise or reject it` };
+  if (third.length) return { conflict: true, resolved: true, how: `third independent source ${third.map(e => e.source).join(', ')}` };
+  return { conflict: true, resolved: false, reason: `conflicting evidence (${against.map(a => a.source).join(', ')}) — needs a double check of the contradicting source(s) or a third independent source` };
+}
+
 module.exports = {
+  hostOf, fetchedOk, conflictStatus,
   REPO, RESEARCH, isPublished, hash, stable, readJSON, writeJSON, today, norm, longDate,
   skipString, matchClose, props, literal, jsString,
   readIndex, loadMap, entitySpan, staticTexts, ldBlocks,
