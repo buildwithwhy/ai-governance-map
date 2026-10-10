@@ -42,7 +42,7 @@ Codes: `us` US federal, `uss` US state, `eu`, `uk`, `cn`, `as` Asia (other), `mu
 | 3 | Hard law, weak enforcement | Legally binding instrument whose obligations on AI developers have limited or indirect enforcement (EOs directing agencies, statutes with narrow remedies, treaties without domestic transposition) |
 | 4 | Binding with penalties | Statute, regulation or regulator able to impose penalties on AI developers or deployers |
 
-**Terms.** "Binding mechanisms" (the stats tile) means every entry with `pow: 4`, including regulators and export controls. "Binding laws" means L2/L3 statutes or regulations with `pow: 4`. These are not the same set, so prose must say which it means. **(open)** The FAQ currently lists the Colorado AI Act and Texas TRAIGA as penalty-bearing laws while classifying both as `pow: 3`.
+**Terms.** "Binding mechanisms" (the stats tile) means every entry with `pow: 4`, including regulators and export controls. "Binding laws" means L2/L3 statutes or regulations with `pow: 4`. These are not the same set, so prose must say which it means. **Resolved 2026-10-10 (maintainer):** the test for pow 4 is whether the statute makes penalties available against developers or deployers, not their breadth. The Colorado ADMT Act and Texas TRAIGA are pow 4. Government-issued voluntary codes (EU codes, G7 Hiroshima Code) are pow 2; policy documents of recommended actions (US AI Action Plan) are pow 2.
 
 ## 5. Status
 

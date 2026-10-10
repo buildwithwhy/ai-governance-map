@@ -62,7 +62,7 @@ function respondForm(p, v) {
   const letters = v.changes.length ? [] : [...new Set([...(v.question || '').matchAll(/\(([a-e])\)/g)].map(m => m[1]))];
   const choices = v.changes.length
     ? [['accept', 'Yes, accept'], ['accept-with-changes', 'Accept with changes'], ['reject', 'Reject'], ['defer', 'Defer'], ['other', 'Other']]
-    : [...letters.map(l => [`option-${l}`, `Option ${l}`]), ['recommendation', 'Go with your recommendation'], ['other', 'Other answer'], ['defer', 'Defer']];
+    : [...letters.map(l => [`option-${l}`, `Option ${l}`]), ...(/recommend/i.test(`${v.question || ''} ${v.rationale || ''}`) ? [['recommendation', 'Go with your recommendation']] : []), ['other', 'Other answer'], ['defer', 'Defer']];
   const key = `${p.id}-v${v.v}`;
   return `<form class="respond" data-key="${esc(key)}" data-pid="${esc(p.id)}" data-ver="${v.v}" data-hash="${esc(v.hash)}">
     <fieldset><legend>Your response to ${esc(p.id)} v${v.v}</legend>

@@ -1,5 +1,5 @@
 {
-  "next": 120,
+  "next": 121,
   "proposals": [
     {
       "id": "P-0001",
@@ -11433,8 +11433,10 @@
     },
     {
       "id": "P-0084",
-      "fingerprint": "4f53cda18c2b",
-      "targets": [],
+      "fingerprint": "51eeae3f7b24",
+      "targets": [
+        "entry:co-doi:desc"
+      ],
       "resolves_checks": [],
       "versions": [
         {
@@ -11484,6 +11486,56 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T22:07:56Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Colorado Division of Insurance: keep on the map, and say plainly that it regulates insurers, not AI model developers",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "co-doi",
+              "field": "desc",
+              "from": "First US state-level sectoral AI regulator. Regulation 10-1-1 (effective Nov 14, 2023) governs algorithm and predictive-model use by insurance carriers.",
+              "to": "First US state-level sectoral AI regulator. Regulation 10-1-1 (effective Nov 14, 2023) governs algorithm and predictive-model use by insurance carriers; it applies to insurers as deployers, not to AI model developers."
+            }
+          ],
+          "why": "SCOPE §C asks the baseline audit to raise this inclusion question; RUBRIC §1 requires a material bearing on frontier/GPAI governance, which here is only indirect.",
+          "rationale": "The question had no stated recommendation, so this is mine: keep the entry (it anchors the ny-raise accountability note and both connections) and make its contextual role explicit in one clause, as the question's middle option suggested. The facts are from the Division's page (S-0258#2, S-0258#3).",
+          "evidence": [
+            {
+              "source": "S-0258",
+              "passage": "S-0258#2",
+              "stance": "supports",
+              "supports": "holds insurers accountable for testing their systems"
+            },
+            {
+              "source": "S-0258",
+              "passage": "S-0258#3",
+              "stance": "supports",
+              "supports": "duties fall on insurers"
+            }
+          ],
+          "uncertainty": "If you prefer removal, say so; removing an entry needs a small tool addition (no remove-entry operation exists yet).",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "edge:co-doi|ny-raise": "causal claim not verifiable",
+            "edge:co-doi|co-aia": "checked, accurate"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ny-raise:cov:acct",
+            "edge:co-doi|co-aia",
+            "edge:co-doi|ny-raise",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "6cc9fa4857b7"
         }
       ],
       "decision": {
@@ -11591,8 +11643,11 @@
     },
     {
       "id": "P-0086",
-      "fingerprint": "4f53cda18c2b",
-      "targets": [],
+      "fingerprint": "4564f850f011",
+      "targets": [
+        "entry:jp-sectors:desc",
+        "entry:jp-sectors:context"
+      ],
       "resolves_checks": [],
       "versions": [
         {
@@ -11654,6 +11709,65 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T22:07:56Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Japan sectoral AI regulators: keep, anchored on the MIC/METI AI Guidelines for Business",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "jp-sectors",
+              "field": "desc",
+              "from": "Sectoral AI guidance from Japan's ministry regulators (METI, FSA, MHLW, MIC) under the AI Promotion Act framework. Soft guidance rather than binding rules.",
+              "to": "Sectoral AI guidance from Japan's ministries under the AI Promotion Act framework, anchored by the MIC/METI AI Guidelines for Business (v1.2, Mar 2026), which call themselves soft law without legally binding force."
+            },
+            {
+              "op": "set_field",
+              "entity": "jp-sectors",
+              "field": "context",
+              "from": "Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) issues the AI Guidelines for Business and developer-facing principles; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7.",
+              "to": "Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) and MIC jointly issue the AI Guidelines for Business, the main cross-sector instrument; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7."
+            }
+          ],
+          "why": "RUBRIC §1 requires an identifiable instrument and an attributable actor; an aggregate of ministries satisfies neither cleanly. SCOPE §C asks for this to be raised.",
+          "rationale": "The question had no stated recommendation, so this is mine: keep the entry but anchor it on the one specific, citable instrument (the question's middle option), and correct the context that credited the Guidelines to METI alone. From the Guidelines' cover and preface (S-0267#1, S-0267#2).",
+          "evidence": [
+            {
+              "source": "S-0267",
+              "passage": "S-0267#1",
+              "stance": "supports",
+              "supports": "issued jointly by MIC and METI, v1.2, 31 Mar 2026"
+            },
+            {
+              "source": "S-0267",
+              "passage": "S-0267#2",
+              "stance": "supports",
+              "supports": "soft law without legally binding force"
+            }
+          ],
+          "uncertainty": "The FSA and MHLW roles in the context are carried over, not verified.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "edge:jp-sectors|jp-ai": "checked, accurate",
+            "edge:jp-sectors|hiroshima": "checked, accurate"
+          },
+          "unverified_carryover": [
+            "FSA and MHLW roles in the context"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:imda|jp-sectors",
+            "edge:jp-sectors|jp-ai",
+            "edge:jp-sectors|hiroshima",
+            "edge:jp-sectors|other-aisis",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "e20ae5962285"
         }
       ],
       "decision": {
@@ -12693,8 +12807,11 @@
     },
     {
       "id": "P-0097",
-      "fingerprint": "4f53cda18c2b",
-      "targets": [],
+      "fingerprint": "b1d093ebd7e3",
+      "targets": [
+        "entry:eu-aia:cov:halt",
+        "entry:eu-aia:cov"
+      ],
       "resolves_checks": [],
       "versions": [
         {
@@ -12722,6 +12839,78 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T22:07:56Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "EU AI Act: add a halt note for the AI Office's power to restrict, withdraw or recall a GPAI model (Art. 93(1)(c))",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "eu-aia",
+              "cat": "halt",
+              "from": null,
+              "to": "The AI Office can require a GPAI provider to restrict a model's availability, withdraw it or recall it (Art. 93(1)(c)) — a regulator-imposed halt rather than a developer's own commitment."
+            }
+          ],
+          "why": "The coverage set drives the coverage matrix and gap summaries.",
+          "rationale": "You chose option (a) (add a halt note). This is the drafted wording, from Art. 93(1)(c).",
+          "evidence": [
+            {
+              "source": "S-0002",
+              "passage": "S-0002#4",
+              "stance": "supports",
+              "supports": "restrict, withdraw or recall the model"
+            }
+          ],
+          "uncertainty": "Depends on how the map applies METR's halt element to regulators.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:kr-ai:cov:thresh",
+            "entry:kr-ai:cov:eval",
+            "entry:ca-sb53:desc",
+            "entry:co-aia:desc",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:acct",
+            "entry:gpai-cop:desc",
+            "entry:gpai-cop:context",
+            "entry:gpai-cop:cov:thresh",
+            "entry:gpai-cop:cov:eval",
+            "entry:gpai-cop:cov:sec",
+            "entry:gpai-cop:cov:acct",
+            "entry:eu-genai-code:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:xai-rmf:desc",
+            "entry:eu-aio:context",
+            "entry:averi:context",
+            "entry:averi:cov:eval",
+            "edge:coe-ai|eu-aia",
+            "edge:eu-aia|eu-aio",
+            "edge:gpai-cop|eu-aia",
+            "edge:uk-ico|eu-aia",
+            "edge:eu-genai-code|eu-aia",
+            "gap:eval",
+            "gap:elicit",
+            "gap:timing",
+            "gap:sec",
+            "gap:acct",
+            "gap:update",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris",
+            "faq:what-does-the-eu-ai-office-do",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-3:tooltip",
+            "text:footer-sources"
+          ],
+          "hash": "5e1d11c077a6"
         }
       ],
       "decision": {
@@ -13125,6 +13314,47 @@
           "uncertainty": "Inclusion is the maintainer's call.",
           "confidence": "medium",
           "question": "RUBRIC §1 admits proposed laws only as formally introduced bills or announced legislative programmes with a public text or consultation. The UK frontier-AI bill had neither, and the 2026 King's Speech dropped it. Options: (a) keep as 'proposed' but rewrite context and coverage notes as a lapsed commitment; (b) mark status 'revoked' (withdrawn) with a short history; (c) remove the entry and move the history into uk-aisi's context (recommended if the maintainer applies §1 strictly). The context and the thresh/eval/acct notes describe drafts and a statutory AISI that no official document sets out.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T22:07:56Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "UK AI Bill: remove the entry, or keep it marked as a lapsed commitment?",
+          "kind": "flag",
+          "changes": [],
+          "why": "The entry presents an inactive, textless proposal as a live bill.",
+          "rationale": "Removal is the stricter reading of RUBRIC §1 (no bill or consultation text was ever published). Keeping it as withdrawn preserves the history for readers who look for it. The four connections all say what the bill 'would' do, so either option changes them.",
+          "evidence": [
+            {
+              "source": "S-0286",
+              "passage": "S-0286#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0287",
+              "passage": "S-0287#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0288",
+              "passage": "S-0288#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0289",
+              "passage": "S-0289#1",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "Inclusion is the maintainer's call.",
+          "confidence": "medium",
+          "question": "You chose the recommendation, which was conditional: (c) remove the entry if the inclusion rule is applied strictly. Please confirm one: (a) remove the entry and its four connections (CoE Convention, UK AISI, Ofcom, ICO), moving a one-line history into the UK AISI entry; I would add a remove-entry operation to the tools and show you the exact edits; (b) keep it, with status 'revoked' (withdrawn), and rewrite its context and notes as a lapsed 2024 commitment.",
           "knock_on_notes": {},
           "unverified_carryover": [],
           "conflict_resolution": null,
@@ -15079,6 +15309,86 @@
       "research": {
         "status": "verified",
         "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0120",
+      "fingerprint": "5d46408166c8",
+      "targets": [
+        "text:index.html:116ff856f841"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T22:07:56Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "FAQ 'Which AI laws are binding with penalties?': update for Colorado and Texas (pow 4) and the Illinois Act",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation) and the NY RAISE Act ($1M/$3M). Most are phasing in; the two US state laws face a federal preemption push under EO 14365, which set up a DOJ task force to challenge state AI laws. The map's wider count of mechanisms that are binding with penalties also includes US BIS export controls and five regulators: the EU AI Office, UK Ofcom, the UK ICO, Australia's eSafety Commissioner and the Colorado Division of Insurance. The map classes the Colorado AI Act and Texas TRAIGA as hard law with weak enforcement, so they are not counted here.",
+              "count": 1,
+              "to": "Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation), the NY RAISE Act ($1M/$3M), the Illinois AI Safety Measures Act ($1M/$3M), the Colorado ADMT Act and Texas TRAIGA (up to $200,000 per uncurable violation). Most are phasing in; the US state laws face a federal preemption push under EO 14365, which set up a DOJ task force to challenge state AI laws. The map's wider count of mechanisms that are binding with penalties also includes US BIS export controls and five regulators: the EU AI Office, UK Ofcom, the UK ICO, Australia's eSafety Commissioner and the Colorado Division of Insurance."
+            }
+          ],
+          "why": "Your decisions changed the facts this answer summarises: Colorado and Texas are now classed as binding with penalties (P-0062, P-0063), Colorado's entry is renamed (P-0064), and the Illinois Act was added (P-0066). The answer still says five laws and that Colorado and Texas are excluded.",
+          "rationale": "Lists the eight Layer 2–3 entries the map now classes pow 4 (eu-aia, cn-genai, kr-ai, ca-sb53, ny-raise, il-aisma, co-aia, tx-raiga). New penalty figures: Illinois §25(a) (S-0170#11) and Texas §552.105(a) (S-0165#6). Other figures and the regulator list are carried over from the current answer. 'the two US state laws' becomes 'the US state laws', since five are now listed.",
+          "evidence": [
+            {
+              "source": "S-0170",
+              "passage": "S-0170#11",
+              "stance": "supports",
+              "supports": "Illinois penalties up to $1M first violation"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#6",
+              "stance": "supports",
+              "supports": "TRAIGA up to $200,000 per uncurable violation"
+            },
+            {
+              "source": "S-0301",
+              "passage": "S-0301#1",
+              "supports": "map classifications"
+            }
+          ],
+          "uncertainty": "Colorado's penalty amount is set by the Colorado Consumer Protection Act, not the ADMT statute, so no figure is given. The ICO is now the Information Commission but is still branded ICO; kept as 'the UK ICO'.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "text:layer-3:tooltip": "checked: still accurate"
+          },
+          "unverified_carryover": [
+            "EU, Korea, California and New York penalty figures (verified in their entries' checks, restated here)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "7cdb4c9bf20c"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0062",
+          "P-0063",
+          "P-0064",
+          "P-0066"
+        ],
         "updated": "2026-10-10"
       }
     }

@@ -75,3 +75,5 @@ Existing general regulators and general AI instruments are retained. The tier re
 ## Change log
 
 - 2026-10-08: initial scope drafted from the data and the maintainer's decisions. The maintainer has not yet confirmed the B1 boundary or the B2 rule for other US states.
+- 2026-10-10: baseline audit flags answered by the maintainer on the review page. co-aia and tx-raiga stay contextual (co-aia renamed "Colorado ADMT Act"); us-eo14179 stays contextual; co-doi and jp-sectors are kept, with rewording proposed (P-0084 v2, P-0086 v2) for review; UK AI Bill inclusion awaits a final choice (P-0101 v2). Lab compliance frameworks stay inside each L6 entry until RAISE applies (revisit Jan 2027, P-0043).
+
