@@ -93,6 +93,100 @@
           "reason": "Seen only in search results. If confirmed, it is implementation of ny-raise, not a new mechanism. Check in the baseline audit."
         }
       ]
+    },
+    {
+      "area": "EU (jurisdiction, B1) — retest of trial-1 leads with official sources",
+      "summary": "All trial-1 EU leads were checked against official sources: the Official Journal, EUR-Lex and Commission pages, read by a research subagent and re-checked by Claude. The Digital Omnibus is confirmed. The Article 50 transparency code is adopted and is a candidate new entry, raised to the maintainer but not drafted.",
+      "queries": [
+        "EUR-Lex OJ L 2026/1744 and CELEX 32026R1744",
+        "digital-strategy.ec.europa.eu: AI Act page, enforcement framework page, GPAI Code page (signatories), AI Office page",
+        "Commission pages on the code of practice on transparency of AI-generated content (policy page, 10 Jun 2026 news, 9 Jul 2026 adequacy opinion, 31 Jul 2026 signatories news)",
+        "GPAI Code Safety and Security chapter PDF"
+      ],
+      "limits": "EUR-Lex served empty HTTP 202 responses after the first retrievals (a website-side throttle, not the environment). The consolidated AI Act text was not retrieved. Items listed on the Commission AI Act page but not opened: the EU Action Plan on Cybersecurity and AI (7 Jul 2026), the AI Office frontier expert findings (15 Jul 2026) and the Scientific Panel special meeting (5 Oct 2026).",
+      "candidates": [
+        {
+          "name": "Digital Omnibus on AI — Regulation (EU) 2026/1744 (in force 27 Jul 2026)",
+          "result": "update to existing entry (eu-aia)",
+          "reason": "Moves high-risk application dates. Also adds AI Office powers, which are relevant to eu-aio in the baseline audit.",
+          "proposal": "P-0016",
+          "sources": [
+            "S-0041",
+            "S-0043"
+          ]
+        },
+        {
+          "name": "AI Office GPAI enforcement powers from 2 Aug 2026; GPAI fine cap €15M/3%",
+          "result": "update to existing entries (eu-aia, FAQ)",
+          "reason": "The map overstated the cap and used the future tense.",
+          "proposal": "P-0017",
+          "sources": [
+            "S-0002",
+            "S-0043"
+          ]
+        },
+        {
+          "name": "Code of Practice on Transparency of AI-generated Content (Art 50; final 10 Jun 2026; Commission adequacy 8 Jul 2026; AI Board 9 Jul 2026)",
+          "result": "proposed coverage addition — not drafted; maintainer decision needed",
+          "reason": "Meets RUBRIC §1: an identifiable text, material to GPAI and generative AI providers, attributable to the Commission and AI Office. It would sit in Layer 5 (voluntary code), like gpai-cop. Anthropic, Google, Meta, Microsoft and OpenAI are reported Section 1 signatories (Commission news, 31 Jul 2026, read by the subagent only). Not drafted because a new entry needs layer, pow, coverage notes and connections decided together.",
+          "sources": [
+            "S-0045",
+            "S-0046"
+          ]
+        },
+        {
+          "name": "Commission guidelines on Article 50 (Jul 2026)",
+          "result": "lead — context for the code above",
+          "reason": "Interpretive guidance, not a separate mechanism."
+        },
+        {
+          "name": "AI Office GPAI Code 'Signatory Taskforce'",
+          "result": "screened out as a separate entry",
+          "reason": "Implementation forum of gpai-cop (unchanged from trial 1)."
+        }
+      ]
+    },
+    {
+      "area": "US federal (B1) — Frontier AI EO and CAISI (retest)",
+      "summary": "Read EO 14409 in the Federal Register (govinfo PDF and FR API). The map's description of it as a CAISI-administered national-security review is wrong; corrected in P-0014 and P-0015. Found in passing: NIST has renamed CAISI to CAISSI.",
+      "queries": [
+        "govinfo DCPD-202600376 and FR Doc. 2026-11415",
+        "Federal Register API documents/2026-11415.json",
+        "whitehouse.gov EO 14409 page and fact sheet (subagent)",
+        "nist.gov/caisi",
+        "Federal Register search for later EOs amending 14409 (subagent)"
+      ],
+      "limits": "federalregister.gov HTML pages and commerce.gov serve website bot challenges. The reported White House instruction for CAISI to halt public reports has no executive-branch source; a congressional letter only relays press reports. Implementation of the EO (benchmark, framework, clearinghouse) was not found.",
+      "candidates": [
+        {
+          "name": "EO 14409 (2 Jun 2026)",
+          "result": "update to existing entry (us-frontier-access-eo)",
+          "reason": "Official text differs materially from the map.",
+          "proposal": "P-0014",
+          "sources": [
+            "S-0038",
+            "S-0039"
+          ]
+        },
+        {
+          "name": "CAISI renamed CAISSI (Center for Advancing Innovation and Standards for Super Intelligence), page modified 30 Sep 2026",
+          "result": "lead — update to existing entry (caisi); outside this trial",
+          "reason": "Follows EO 14434 (29 Sep 2026) on 'Super Intelligence' terminology, per the subagent. Queue for the baseline audit.",
+          "sources": [
+            "S-0040"
+          ]
+        },
+        {
+          "name": "EO 14434 'Inaugurating the Era of Super Intelligence' (29 Sep 2026)",
+          "result": "lead — screen in the baseline audit",
+          "reason": "Read by the subagent only. A terminology order; whether it is material under RUBRIC §1 is undecided."
+        },
+        {
+          "name": "Reported halt of CAISI public model reports",
+          "result": "lead — no primary source",
+          "reason": "NIST published CAISI assessments in Jul and Sep 2026, so a blanket halt is not supported."
+        }
+      ]
     }
   ],
   "usage": null

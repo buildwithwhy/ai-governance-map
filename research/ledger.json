@@ -1,5 +1,5 @@
 {
-  "next": 14,
+  "next": 19,
   "proposals": [
     {
       "id": "P-0001",
@@ -1901,6 +1901,649 @@
           "P-0010",
           "P-0013"
         ],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0014",
+      "fingerprint": "ec5d5934149d",
+      "targets": [
+        "entry:us-frontier-access-eo",
+        "entry:us-frontier-access-eo:desc",
+        "entry:us-frontier-access-eo:context",
+        "entry:us-frontier-access-eo:cov:eval",
+        "entry:us-frontier-access-eo:cov:timing",
+        "entry:us-frontier-access-eo:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T16:44:39Z",
+          "run": "2026-10-10-trial1b",
+          "author": "claude",
+          "title": "US Frontier AI Access EO: describe EO 14409 from its official text (voluntary cyber-capability access; NSA, Treasury and CISA lead, not CAISI)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "us-frontier-access-eo",
+              "field": "link",
+              "from": "https://www.npr.org/2026/06/02/nx-s1-5844347/ai-safety-trump-executive-order",
+              "to": "https://www.federalregister.gov/documents/2026/06/05/2026-11415/promoting-advanced-artificial-intelligence-innovation-and-security"
+            },
+            {
+              "op": "set_field",
+              "entity": "us-frontier-access-eo",
+              "field": "desc",
+              "from": "EO signed June 2, 2026. Directs federal agencies to establish a framework for voluntary pre-release access (up to 30 days) by frontier-model developers for national-security review.",
+              "to": "EO 14409, signed June 2, 2026. Directs Treasury, NSA and CISA to design a voluntary framework under which developers may give the government access to 'covered frontier models' (designated by the NSA Director via a classified cyber benchmark) for up to 30 days before release to other trusted partners. Rules out mandatory licensing or preclearance."
+            },
+            {
+              "op": "set_field",
+              "entity": "us-frontier-access-eo",
+              "field": "context",
+              "from": "Marks a notable shift in the Trump administration's posture — from deregulation (EO 14179) and state preemption (EO 14365) toward asking for federal access to pre-release frontier models. The 30-day voluntary window mirrors the access agreements UK AISI uses; CAISI is positioned to administer reviews. Whether the framework results in a meaningful national-security review process or remains nominal will depend on developer participation.",
+              "to": "Marks a notable shift in the Trump administration's posture — from deregulation (EO 14179) and state preemption (EO 14365) toward asking for federal access to pre-release frontier models, though the order itself is scoped to cyber capabilities and rejects 'overly burdensome regulation'. The 30-day voluntary window mirrors the access agreements UK AISI uses. NSA, Treasury and CISA lead; CAISI is not named and NIST is only consulted. Whether the framework results in meaningful federal access will depend on developer participation."
+            },
+            {
+              "op": "set_cov",
+              "entity": "us-frontier-access-eo",
+              "cat": "eval",
+              "from": "Pre-release access (up to 30 days) could enable systematic federal evaluation of frontier models if developers participate.",
+              "to": "Voluntary early access (up to 30 days) to models the NSA designates through a classified cyber-capability benchmark; scoped to cyber capabilities, not general safety evaluation."
+            },
+            {
+              "op": "set_cov",
+              "entity": "us-frontier-access-eo",
+              "cat": "timing",
+              "from": "30-day pre-release window; voluntary participation.",
+              "to": "Benchmark and framework due within 60 days of the order; access window up to 30 days before release to other trusted partners; participation voluntary."
+            },
+            {
+              "op": "set_cov",
+              "entity": "us-frontier-access-eo",
+              "cat": "acct",
+              "from": "Federal review mechanism for national-security risks. Departs from prior administration's deregulatory-only posture.",
+              "to": "Creates no approval or preclearance power (§3(c)) and no enforceable rights (§5(c)). Also directs a Treasury-led AI cybersecurity clearinghouse and a DOJ enforcement priority on AI-enabled computer crime."
+            }
+          ],
+          "why": "The entry's only source is a news article. On the official text, two of its claims are wrong. CAISI does not administer reviews (it is not named; NSA, Treasury and CISA lead, and the NSA Director designates covered models). The order creates no 'review': it sets up voluntary access and expressly rules out preclearance. It also scopes access to cyber capabilities, which the map omits.",
+          "rationale": "All new facts come from the Federal Register text, EO 14409, 91 FR 34565 (S-0038), and its FR API record (S-0039): number, title, signing and publication dates, §3 roles, §3(a) classified cyber benchmark and NSA designation, §3(b) voluntary framework and up-to-30-day access before release to other trusted partners, §3(c) no licensing or preclearance, §2(d) clearinghouse, §4 DOJ priority, §5(c) no enforceable rights. The link moves from NPR to the Federal Register document page, matching the map's other EO entries. The context keeps the map's 'notable shift' analysis and the UK AISI comparison (both carried over), adds that the order itself frames things as reducing regulation (§1), and replaces 'CAISI is positioned to administer reviews'.",
+          "evidence": [
+            {
+              "source": "S-0038",
+              "passage": "S-0038#1",
+              "stance": "supports",
+              "supports": "EO number, title, date; §1 deregulatory framing"
+            },
+            {
+              "source": "S-0039",
+              "passage": "S-0039#1",
+              "stance": "supports",
+              "supports": "FR citation and dates; no corrections"
+            },
+            {
+              "source": "S-0038",
+              "passage": "S-0038#2",
+              "stance": "supports",
+              "supports": "Lead and consulted agencies"
+            },
+            {
+              "source": "S-0038",
+              "passage": "S-0038#3",
+              "stance": "supports",
+              "supports": "Classified cyber benchmark; NSA Director designates"
+            },
+            {
+              "source": "S-0038",
+              "passage": "S-0038#4",
+              "stance": "supports",
+              "supports": "Voluntary framework; up to 30 days before release to other trusted partners"
+            },
+            {
+              "source": "S-0038",
+              "passage": "S-0038#5",
+              "stance": "supports",
+              "supports": "No licensing or preclearance"
+            },
+            {
+              "source": "S-0038",
+              "passage": "S-0038#6",
+              "stance": "supports",
+              "supports": "Clearinghouse"
+            },
+            {
+              "source": "S-0038",
+              "passage": "S-0038#7",
+              "stance": "supports",
+              "supports": "DOJ priority; no enforceable rights"
+            },
+            {
+              "source": "S-0038",
+              "passage": "S-0038#8",
+              "stance": "supports",
+              "supports": "CAISI not named; NIST consulted only"
+            },
+            {
+              "source": "S-0004",
+              "passage": "S-0004#1",
+              "stance": "contradicts"
+            }
+          ],
+          "uncertainty": "Whether the benchmark, framework or clearinghouse has been delivered was not checked; no official announcement was found. pow 3 (hard law, weak enforcement) is unchanged. It fits an EO that binds agencies but is voluntary for developers, but that classification is a rubric question for the baseline. The name 'US Frontier AI Access EO' is an informal label and is unchanged.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "edge:us-frontier-access-eo|caisi": "contradicted: see P-0015",
+            "edge:fsi|us-frontier-access-eo": "says 'the EO's national-security review framework'; the order has no review framework. fsi was not checked; raise in the baseline audit",
+            "edge:us-frontier-access-eo|uk-aisi": "not checked (UK AISI sources not read)",
+            "edge:us-frontier-access-eo|us-eo14179": "map analysis; unchanged",
+            "entry:caisi": "lead: NIST's page now names it CAISSI ('Center for Advancing Innovation and Standards for Super Intelligence', page modified 30 Sep 2026, S-0040). The entry is outside this trial; queued for the baseline audit"
+          },
+          "unverified_carryover": [
+            "'Marks a notable shift in the Trump administration's posture — from deregulation (EO 14179) and state preemption (EO 14365)': the map's own analysis; the White House frames the order as continuity",
+            "'The 30-day voluntary window mirrors the access agreements UK AISI uses': not checked against UK AISI sources"
+          ],
+          "conflict_resolution": {
+            "disagreement": "NPR (the map's current source) says companies would submit models for the government to 'test up to 30 days before releasing them to the public', and calls this a 'review'. The order says developers may give access 'for a period of up to 30 days before they plan to release such models to other trusted partners'. It does not use the word 'review', and it rules out any preclearance.",
+            "basis": "authoritative-text",
+            "evidence": [
+              {
+                "source": "S-0038",
+                "passage": "S-0038#4"
+              },
+              {
+                "source": "S-0038",
+                "passage": "S-0038#5"
+              },
+              {
+                "source": "S-0038",
+                "passage": "S-0038#8"
+              }
+            ],
+            "explanation": "The Federal Register text is the legal instrument (91 FR 34565). NPR paraphrases it. Where they differ, on the release reference point and the 'review' framing, the order's own wording governs."
+          },
+          "knock_on": [
+            "edge:us-frontier-access-eo|us-eo14179",
+            "edge:us-frontier-access-eo|caisi",
+            "edge:us-frontier-access-eo|uk-aisi",
+            "edge:fsi|us-frontier-access-eo"
+          ],
+          "hash": "acf23d9552f9"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0015"
+        ],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0015",
+      "fingerprint": "8c5bafd2aa45",
+      "targets": [
+        "edge:us-frontier-access-eo|caisi"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T16:44:39Z",
+          "run": "2026-10-10-trial1b",
+          "author": "claude",
+          "title": "Remove connection US Frontier AI Access EO ↔ CAISI: the order does not name CAISI",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "remove_edge",
+              "a": "us-frontier-access-eo",
+              "b": "caisi",
+              "from": "EO designates CAISI to administer national-security reviews"
+            }
+          ],
+          "why": "The connection says 'EO designates CAISI to administer national-security reviews'. EO 14409 does not mention CAISI, and it creates no review. NIST appears once, as one of several agencies consulted by Treasury, NSA and CISA.",
+          "rationale": "Removal rather than rewording: NIST is consulted, but there is no CAISI-specific relationship to describe. If you would rather keep a link, an accurate alternative is: 'EO 14409 consults NIST (CAISI's parent) on the NSA-led cyber benchmark and access framework; CAISI is not named'.",
+          "evidence": [
+            {
+              "source": "S-0038",
+              "passage": "S-0038#8",
+              "stance": "supports",
+              "supports": "CAISI not named; NIST consulted only"
+            },
+            {
+              "source": "S-0038",
+              "passage": "S-0038#2",
+              "stance": "supports",
+              "supports": "Roles under §3"
+            }
+          ],
+          "uncertainty": "Agencies may still involve CAISI in implementation. Nothing official was found on that, and NIST's CAISSI page does not mention the order.",
+          "confidence": "high",
+          "question": "Remove the connection (recommended), or keep it with the alternative wording in the reasoning?",
+          "knock_on_notes": {
+            "edge:fsi|caisi": "not checked"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:us-frontier-access-eo|us-eo14179",
+            "edge:us-frontier-access-eo|uk-aisi",
+            "edge:fsi|us-frontier-access-eo",
+            "entry:aisi-net:desc",
+            "entry:us-frontier-access-eo:context",
+            "entry:uk-aisi:context",
+            "edge:aisi-net|caisi",
+            "edge:us-eo14179|caisi",
+            "edge:caisi|nist-rmf",
+            "edge:fsi|caisi",
+            "faq:what-is-the-difference-between-layer-2-and-layer"
+          ],
+          "hash": "17f88ce20310"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0014"
+        ],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0016",
+      "fingerprint": "2992ff43e7f9",
+      "targets": [
+        "entry:eu-aia:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T16:47:21Z",
+          "run": "2026-10-10-trial1b",
+          "author": "claude",
+          "title": "EU AI Act: high-risk application dates moved by the Digital Omnibus (Reg. 2026/1744)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "eu-aia",
+              "field": "desc",
+              "from": "In force Aug 2024. GPAI obligations Aug 2025. Most provisions apply Aug 2026; high-risk system rules Aug 2027. Penalties up to €35M or 7% global revenue.",
+              "to": "In force Aug 2024. GPAI obligations Aug 2025. Most provisions apply Aug 2026; the 2026 Digital Omnibus (Reg. 2026/1744) moved high-risk rules to Dec 2027 (Annex III) and Aug 2028 (Annex I). Penalties up to €35M or 7% global revenue."
+            }
+          ],
+          "why": "The map says high-risk rules apply in Aug 2027. Regulation (EU) 2026/1744, in force since 27 Jul 2026, set 2 Dec 2027 for Annex III systems and 2 Aug 2028 for Annex I systems. Even before that, 'Aug 2027' applied only to Annex I.",
+          "rationale": "The dates come from the Official Journal text of 2026/1744: Art 1(40)(b), replacing AI Act Art 113(c), and Art 4 for entry into force. The Commission's enforcement page agrees. The other clauses were checked and are unchanged. In force Aug 2024 and GPAI obligations Aug 2025 come from AI Act Art 113 (original OJ). Most provisions apply Aug 2026 is the general date, per Omnibus recital 40. €35M/7% is the top penalty tier (Art 99(3)), which the Commission's penalties passage confirms.",
+          "evidence": [
+            {
+              "source": "S-0041",
+              "passage": "S-0041#2",
+              "stance": "supports",
+              "supports": "New high-risk dates"
+            },
+            {
+              "source": "S-0041",
+              "passage": "S-0041#1",
+              "stance": "supports",
+              "supports": "Regulation number, title, date"
+            },
+            {
+              "source": "S-0041",
+              "passage": "S-0041#3",
+              "stance": "supports",
+              "supports": "Entry into force"
+            },
+            {
+              "source": "S-0041",
+              "passage": "S-0041#4",
+              "stance": "supports",
+              "supports": "General application date 2 Aug 2026"
+            },
+            {
+              "source": "S-0043",
+              "passage": "S-0043#1",
+              "stance": "supports",
+              "supports": "€35M/7% is the highest tier"
+            }
+          ],
+          "uncertainty": "The Omnibus OJ text was read from a copy fetched (HTTP 200) earlier the same day. Later EUR-Lex requests returned empty HTTP 202 responses, and the fetch is recorded as such. The Commission enforcement page (S-0043) independently states the same Annex III and Annex I dates. The Omnibus also brought forward new prohibitions (nudification apps, CSAM) from 2 Dec 2026; these are not added, to keep the edit minimal.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:eu-aia:cov:timing": "no dates; still accurate",
+            "gap:halt": "'EU AI Office can order recall (Aug 2026 onwards)' consistent with S-0043#2",
+            "text:gap-default": "not affected"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": {
+            "disagreement": "Trial 1 recorded that secondary reports disagreed on Article 50 timing after the Omnibus.",
+            "basis": "authoritative-text",
+            "evidence": [
+              {
+                "source": "S-0041",
+                "passage": "S-0041#4"
+              },
+              {
+                "source": "S-0043",
+                "passage": "S-0043#2"
+              }
+            ],
+            "explanation": "The Omnibus leaves the general application date (2 Aug 2026), which governs Article 50, unchanged (recital 40). It adds only a 2 Dec 2026 deadline for Art 50(2) marking by systems already on the market. The map's 'Most provisions apply Aug 2026' therefore stands, and this proposal does not touch Article 50."
+          },
+          "knock_on": [
+            "entry:kr-ai:cov:thresh",
+            "entry:kr-ai:cov:eval",
+            "entry:ca-sb53:desc",
+            "entry:co-aia:desc",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:acct",
+            "entry:gpai-cop:desc",
+            "entry:gpai-cop:context",
+            "entry:gpai-cop:cov:thresh",
+            "entry:gpai-cop:cov:eval",
+            "entry:gpai-cop:cov:sec",
+            "entry:gpai-cop:cov:acct",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:xai-rmf:desc",
+            "entry:eu-aio:context",
+            "entry:averi:context",
+            "entry:averi:cov:eval",
+            "edge:coe-ai|eu-aia",
+            "edge:eu-aia|eu-aio",
+            "edge:gpai-cop|eu-aia",
+            "edge:uk-ico|eu-aia",
+            "gap:eval",
+            "gap:elicit",
+            "gap:timing",
+            "gap:sec",
+            "gap:acct",
+            "gap:update",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris",
+            "faq:what-does-the-eu-ai-office-do",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:footer-sources"
+          ],
+          "hash": "51eb7ca184a5"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0017",
+      "fingerprint": "cc2f55e3cc6e",
+      "targets": [
+        "entry:eu-aia:cov:acct",
+        "text:index.html:930a32264c25"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T16:47:21Z",
+          "run": "2026-10-10-trial1b",
+          "author": "claude",
+          "title": "EU AI Office: GPAI fines are capped at €15M or 3%, not €35M or 7%; enforcement powers apply since Aug 2026",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "eu-aia",
+              "cat": "acct",
+              "from": "Mandatory incident reporting to the EU AI Office for systemic-risk GPAI; market-surveillance authorities handle high-risk systems. The Office can request models, order recalls, and impose fines up to €35M / 7% global revenue.",
+              "to": "Mandatory incident reporting to the EU AI Office for systemic-risk GPAI; market-surveillance authorities handle high-risk systems. The Office can request models, order recalls, and fine GPAI providers up to €15M / 3% global revenue."
+            },
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "impose fines up to €35M or 7% of global revenue, and runs the Scientific Panel of independent experts advising on systemic risk. Full enforcement powers activate in August 2026.",
+              "to": "fine GPAI providers up to €15M or 3% of global revenue, and runs the Scientific Panel of independent experts advising on systemic risk. Its enforcement powers have applied since August 2026.",
+              "count": 1
+            }
+          ],
+          "why": "Both the eu-aia accountability note and the FAQ answer on the AI Office give the AI Office a fine ceiling of €35M or 7%. That ceiling is for prohibited practices. Fines on GPAI model providers, which the Office enforces, are capped at €15M or 3% (Art 101). The FAQ also still says powers 'activate in August 2026', a date that has passed.",
+          "rationale": "From AI Act Art 101(1) (original OJ text, S-0002) and the Commission's enforcement page (S-0043): '€35 million or 7%' for prohibited practices; 'Other breaches, including of the obligations for GPAI models … up to €15 million or 3%'; powers 'apply from 2 August 2026'. The Omnibus (Art 75c(4)) now lets the Office use the Art 99 tiers for AI systems under its new Art 75(1) competence. The highest of those tiers (€35M/7%) is still for prohibited practices only, so 'GPAI providers … €15M / 3%' is the accurate general statement. 'Established January 2024 within DG CNECT' and the Scientific Panel are carried over.",
+          "evidence": [
+            {
+              "source": "S-0002",
+              "passage": "S-0002#1",
+              "stance": "supports",
+              "supports": "Art 101(1) GPAI fine cap"
+            },
+            {
+              "source": "S-0043",
+              "passage": "S-0043#1",
+              "stance": "supports",
+              "supports": "Fine tiers"
+            },
+            {
+              "source": "S-0043",
+              "passage": "S-0043#2",
+              "stance": "supports",
+              "supports": "Powers apply from 2 Aug 2026"
+            },
+            {
+              "source": "S-0041",
+              "passage": "S-0041#6",
+              "stance": "supports",
+              "supports": "Omnibus: Art 99(3)-(7) penalties for AI systems under the Office's new competence"
+            },
+            {
+              "source": "S-0041",
+              "passage": "S-0041#5"
+            }
+          ],
+          "uncertainty": "After the Omnibus, the Office can also fine certain AI systems (those built on a provider's own GPAI model, and those in very large online platforms) under the Art 99 tiers. A fuller description of its new powers belongs to the eu-aio entry, which is outside this trial.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "faq:which-ai-laws-are-binding-with-penalties": "'EU AI Act (up to €35M or 7%)' is the Act's top tier and is accurate",
+            "entry:eu-aio": "lead: the Omnibus adds exclusive AI Office competence over AI systems built on a provider's own GPAI model and AI in VLOPs/VLOSEs (S-0041#5); eu-aio context omits this. Baseline audit"
+          },
+          "unverified_carryover": [
+            "FAQ: 'established January 2024 within DG CNECT', 'a centralised role unique within EU regulatory architecture', 'runs the Scientific Panel'"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:kr-ai:cov:thresh",
+            "entry:kr-ai:cov:eval",
+            "entry:ca-sb53:desc",
+            "entry:co-aia:desc",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:acct",
+            "entry:gpai-cop:desc",
+            "entry:gpai-cop:context",
+            "entry:gpai-cop:cov:thresh",
+            "entry:gpai-cop:cov:eval",
+            "entry:gpai-cop:cov:sec",
+            "entry:gpai-cop:cov:acct",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:xai-rmf:desc",
+            "entry:eu-aio:context",
+            "entry:averi:context",
+            "entry:averi:cov:eval",
+            "edge:coe-ai|eu-aia",
+            "edge:eu-aia|eu-aio",
+            "edge:gpai-cop|eu-aia",
+            "edge:uk-ico|eu-aia",
+            "gap:eval",
+            "gap:elicit",
+            "gap:timing",
+            "gap:sec",
+            "gap:acct",
+            "gap:update",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris",
+            "faq:what-does-the-eu-ai-office-do",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:footer-sources"
+          ],
+          "hash": "b77b6d4a1d68"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0018",
+      "fingerprint": "c36a68424397",
+      "targets": [
+        "entry:gpai-cop:cov:acct",
+        "entry:gpai-cop:cov:mit"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T16:47:21Z",
+          "run": "2026-10-10-trial1b",
+          "author": "claude",
+          "title": "EU GPAI Code: Model Reports every six months, not annual; content marking is not in the GPAI Code",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "gpai-cop",
+              "cat": "acct",
+              "from": "Transparency obligations extend to model documentation, training-data summaries, and copyright disclosures. Signatories report annually; non-signatories must demonstrate AI Act compliance through other means.",
+              "to": "Transparency obligations extend to model documentation, training-data summaries, and copyright disclosures. Safety signatories update Model Reports to the AI Office at least every six months for their most capable models; non-signatories must demonstrate AI Act compliance through other means."
+            },
+            {
+              "op": "set_cov",
+              "entity": "gpai-cop",
+              "cat": "mit",
+              "from": "Deployment mitigations include content marking, refusals, and user-facing transparency. The transparency chapter (separate from safety) governs documentation duties.",
+              "to": "Deployment mitigations include input/output filtering, refusals, and staged access. The transparency chapter (separate from safety) governs documentation duties; marking AI-generated content falls under a separate Article 50 code."
+            }
+          ],
+          "why": "The map says Code signatories 'report annually'. The Safety and Security chapter requires updated Model Reports to the AI Office at least every six months for a signatory's most capable models. The mitigations note also lists content marking, which the GPAI Code does not require. Marking is an AI Act Article 50 duty, with its own code of practice.",
+          "rationale": "From the Safety and Security chapter PDF (S-0044): Measure 7.6 (six-monthly Model Reports) and Measure 5.1 (listed safety mitigations: filtering, refusals, staged access; no marking measure). Watermarks appear only as a post-market monitoring technique. The Article 50 code is described on the Commission's page (S-0045). 'User-facing transparency' is dropped from the mitigations note because nothing inspected supports it as a GPAI Code mitigation.",
+          "evidence": [
+            {
+              "source": "S-0044",
+              "passage": "S-0044#1",
+              "stance": "supports",
+              "supports": "Six-monthly Model Reports"
+            },
+            {
+              "source": "S-0044",
+              "passage": "S-0044#2",
+              "stance": "supports",
+              "supports": "Safety mitigations listed; no content marking"
+            },
+            {
+              "source": "S-0045",
+              "passage": "S-0045#1",
+              "stance": "supports",
+              "supports": "Marking/labelling has a separate Article 50 code"
+            }
+          ],
+          "uncertainty": "'Training-data summaries' come from the Commission's Art 53 template rather than the Code itself; carried over. The signatory statements in desc were checked against the Commission list (S-0003#1) and stand. 'Meta declined' is consistent with Meta's absence from the list, but no primary Meta statement was read. Note that Meta did sign the separate Article 50 code.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:gpai-cop:desc": "checked against S-0003#1 (7 Oct 2026): Anthropic, OpenAI, Google, Microsoft listed; xAI Safety and Security only; Meta absent. Accurate; 'declined' not separately verified",
+            "entry:gpai-cop:cov:thresh": "'mirroring the EU AI Act's 10²⁵ FLOPs trigger' is loose: the Code asks signatories to define risk tiers (Measure 4.1); baseline audit",
+            "entry:gpai-cop:cov:halt": "consistent with Measure 4.2 (proceed only if systemic risk acceptable; restrict, withdraw or recall as necessary); not quoted here"
+          },
+          "unverified_carryover": [
+            "acct: 'training-data summaries, and copyright disclosures' (Transparency and Copyright chapters not read)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:cov:eval",
+            "entry:eu-aia:cov:elicit",
+            "entry:eu-aia:cov:sec",
+            "entry:eu-aia:cov:update",
+            "entry:hiroshima:cov:eval",
+            "entry:rsp:context",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:meta-faif:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:metr:cov:thresh",
+            "entry:nist-rmf:context",
+            "entry:nist-rmf:cov:acct",
+            "edge:gpai-cop|eu-aia",
+            "edge:gpai-cop|rsp",
+            "edge:gpai-cop|prep",
+            "edge:gpai-cop|fsf",
+            "edge:gpai-cop|meta-faif",
+            "edge:gpai-cop|xai-rmf",
+            "edge:gpai-cop|eu-aio",
+            "gap:elicit",
+            "gap:sec",
+            "gap:halt",
+            "gap:update",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris"
+          ],
+          "hash": "57c427d2479d"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
         "updated": "2026-10-10"
       }
     }

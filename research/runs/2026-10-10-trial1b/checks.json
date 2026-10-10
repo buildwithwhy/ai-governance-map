@@ -288,5 +288,565 @@
     "note": "Both halves verified: RSP v1.0 effective 19 Sep 2023; Seoul commitments published 21 May 2024 and asked signatories (incl. Anthropic) to publish a safety framework.",
     "missing": null,
     "hash": "1b33ae0488ae"
+  },
+  "entry:eu-aia:desc": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0041",
+      "S-0043",
+      "S-0002"
+    ],
+    "proposals": [
+      "P-0016"
+    ],
+    "note": "High-risk dates moved by Reg. 2026/1744 to 2 Dec 2027 (Annex III) and 2 Aug 2028 (Annex I). Other clauses verified (Art 113; €35M/7% top tier).",
+    "missing": null,
+    "hash": "16c78674ded7"
+  },
+  "entry:eu-aia:cov:acct": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0043",
+      "S-0041"
+    ],
+    "proposals": [
+      "P-0017"
+    ],
+    "note": "GPAI fine cap is €15M/3% (Art 101), not €35M/7%; enforcement powers apply since 2 Aug 2026. Incident reporting (Art 55(1)(c)) and recall (Art 93(1)(c)) verified.",
+    "missing": null,
+    "hash": "241914cfbce1"
+  },
+  "faq:what-does-the-eu-ai-office-do": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0043",
+      "S-0041"
+    ],
+    "proposals": [
+      "P-0017"
+    ],
+    "note": "GPAI fine cap is €15M/3% (Art 101), not €35M/7%; enforcement powers apply since 2 Aug 2026. Incident reporting (Art 55(1)(c)) and recall (Art 93(1)(c)) verified.",
+    "missing": null,
+    "hash": "a20daa01f6a4"
+  },
+  "entry:eu-aia": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0001",
+      "S-0043"
+    ],
+    "proposals": [],
+    "note": "Link (Commission AI Act page), L2/eu/pow 4/phasing consistent with the Act. 10^25 presumption (Art 51(2)); evaluation incl. adversarial testing (Art 55(1)(a)); cybersecurity (Art 55(1)(d)). The comparison with the 10^26 US state thresholds was not re-checked here.",
+    "missing": null,
+    "hash": "d0bbc0793b91"
+  },
+  "entry:eu-aia:cov:thresh": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0001",
+      "S-0043"
+    ],
+    "proposals": [],
+    "note": "Link (Commission AI Act page), L2/eu/pow 4/phasing consistent with the Act. 10^25 presumption (Art 51(2)); evaluation incl. adversarial testing (Art 55(1)(a)); cybersecurity (Art 55(1)(d)). The comparison with the 10^26 US state thresholds was not re-checked here.",
+    "missing": null,
+    "hash": "72f727d071e2"
+  },
+  "entry:eu-aia:cov:eval": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0001",
+      "S-0043"
+    ],
+    "proposals": [],
+    "note": "Link (Commission AI Act page), L2/eu/pow 4/phasing consistent with the Act. 10^25 presumption (Art 51(2)); evaluation incl. adversarial testing (Art 55(1)(a)); cybersecurity (Art 55(1)(d)). The comparison with the 10^26 US state thresholds was not re-checked here.",
+    "missing": null,
+    "hash": "455143b4ff2d"
+  },
+  "entry:eu-aia:cov:elicit": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0001",
+      "S-0043"
+    ],
+    "proposals": [],
+    "note": "Link (Commission AI Act page), L2/eu/pow 4/phasing consistent with the Act. 10^25 presumption (Art 51(2)); evaluation incl. adversarial testing (Art 55(1)(a)); cybersecurity (Art 55(1)(d)). The comparison with the 10^26 US state thresholds was not re-checked here.",
+    "missing": null,
+    "hash": "3696da97c597"
+  },
+  "entry:eu-aia:cov:sec": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0001",
+      "S-0043"
+    ],
+    "proposals": [],
+    "note": "Link (Commission AI Act page), L2/eu/pow 4/phasing consistent with the Act. 10^25 presumption (Art 51(2)); evaluation incl. adversarial testing (Art 55(1)(a)); cybersecurity (Art 55(1)(d)). The comparison with the 10^26 US state thresholds was not re-checked here.",
+    "missing": null,
+    "hash": "4003d23bd686"
+  },
+  "entry:eu-aia:context": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "Factual core consistent with the Act, but not every clause verified. cov.mit attributes content marking to GPAI duties, whereas marking is an Art 50 duty on generative AI systems (lead). Comparative claims ('most comprehensive', 'first regulation to split the lifecycle') not checked.",
+    "missing": "Clause-by-clause check of context and cov.mit against Arts 6–49, 50 and 53; evidence for the comparative claims. Queued for the baseline audit",
+    "hash": "17be873e9bdb"
+  },
+  "entry:eu-aia:cov:mit": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "Factual core consistent with the Act, but not every clause verified. cov.mit attributes content marking to GPAI duties, whereas marking is an Art 50 duty on generative AI systems (lead). Comparative claims ('most comprehensive', 'first regulation to split the lifecycle') not checked.",
+    "missing": "Clause-by-clause check of context and cov.mit against Arts 6–49, 50 and 53; evidence for the comparative claims. Queued for the baseline audit",
+    "hash": "47d31e228cae"
+  },
+  "entry:eu-aia:cov:timing": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "Factual core consistent with the Act, but not every clause verified. cov.mit attributes content marking to GPAI duties, whereas marking is an Art 50 duty on generative AI systems (lead). Comparative claims ('most comprehensive', 'first regulation to split the lifecycle') not checked.",
+    "missing": "Clause-by-clause check of context and cov.mit against Arts 6–49, 50 and 53; evidence for the comparative claims. Queued for the baseline audit",
+    "hash": "7e028ca3cb91"
+  },
+  "entry:eu-aia:cov:update": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "Factual core consistent with the Act, but not every clause verified. cov.mit attributes content marking to GPAI duties, whereas marking is an Art 50 duty on generative AI systems (lead). Comparative claims ('most comprehensive', 'first regulation to split the lifecycle') not checked.",
+    "missing": "Clause-by-clause check of context and cov.mit against Arts 6–49, 50 and 53; evidence for the comparative claims. Queued for the baseline audit",
+    "hash": "df20f40ea132"
+  },
+  "entry:gpai-cop:cov:acct": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0044",
+      "S-0045"
+    ],
+    "proposals": [
+      "P-0018"
+    ],
+    "note": "Model Reports at least every six months (Measure 7.6), not annually; content marking is not a GPAI Code mitigation (Measure 5.1); it falls under the separate Art 50 code.",
+    "missing": null,
+    "hash": "c0eb5600e3f2"
+  },
+  "entry:gpai-cop:cov:mit": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0044",
+      "S-0045"
+    ],
+    "proposals": [
+      "P-0018"
+    ],
+    "note": "Model Reports at least every six months (Measure 7.6), not annually; content marking is not a GPAI Code mitigation (Measure 5.1); it falls under the separate Art 50 code.",
+    "missing": null,
+    "hash": "04d00259f317"
+  },
+  "entry:gpai-cop": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Signatory list (7 Oct 2026): Anthropic, OpenAI, Google, Microsoft on the main list; xAI Safety and Security chapter only. Halting matches Measure 4.2. 'Meta declined' and the meta-faif edge: Meta is absent from the list; no Meta statement read.",
+    "missing": null,
+    "hash": "56e1400f1527"
+  },
+  "entry:gpai-cop:desc": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Signatory list (7 Oct 2026): Anthropic, OpenAI, Google, Microsoft on the main list; xAI Safety and Security chapter only. Halting matches Measure 4.2. 'Meta declined' and the meta-faif edge: Meta is absent from the list; no Meta statement read.",
+    "missing": null,
+    "hash": "6f333f8c7a6d"
+  },
+  "entry:gpai-cop:cov:halt": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Signatory list (7 Oct 2026): Anthropic, OpenAI, Google, Microsoft on the main list; xAI Safety and Security chapter only. Halting matches Measure 4.2. 'Meta declined' and the meta-faif edge: Meta is absent from the list; no Meta statement read.",
+    "missing": null,
+    "hash": "78fcf6684530"
+  },
+  "edge:gpai-cop|rsp": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Signatory list (7 Oct 2026): Anthropic, OpenAI, Google, Microsoft on the main list; xAI Safety and Security chapter only. Halting matches Measure 4.2. 'Meta declined' and the meta-faif edge: Meta is absent from the list; no Meta statement read.",
+    "missing": null,
+    "hash": "ba7596888c1b"
+  },
+  "edge:gpai-cop|prep": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Signatory list (7 Oct 2026): Anthropic, OpenAI, Google, Microsoft on the main list; xAI Safety and Security chapter only. Halting matches Measure 4.2. 'Meta declined' and the meta-faif edge: Meta is absent from the list; no Meta statement read.",
+    "missing": null,
+    "hash": "470ee18b7ff5"
+  },
+  "edge:gpai-cop|fsf": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Signatory list (7 Oct 2026): Anthropic, OpenAI, Google, Microsoft on the main list; xAI Safety and Security chapter only. Halting matches Measure 4.2. 'Meta declined' and the meta-faif edge: Meta is absent from the list; no Meta statement read.",
+    "missing": null,
+    "hash": "898b60d2f8fa"
+  },
+  "edge:gpai-cop|xai-rmf": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Signatory list (7 Oct 2026): Anthropic, OpenAI, Google, Microsoft on the main list; xAI Safety and Security chapter only. Halting matches Measure 4.2. 'Meta declined' and the meta-faif edge: Meta is absent from the list; no Meta statement read.",
+    "missing": null,
+    "hash": "6ee4614d2d8c"
+  },
+  "entry:gpai-cop:context": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Consistent in substance with the Safety and Security chapter (evaluations, elicitation, weight security), but not checked clause by clause. cov.thresh 'mirroring the 10^25 trigger' is loose: the Code has signatory-defined risk tiers (Measure 4.1).",
+    "missing": "Clause-by-clause check against the three Code chapters; a primary Meta statement on declining to sign; the Code's update cadence. Queued for the baseline audit",
+    "hash": "7293388e3e6d"
+  },
+  "entry:gpai-cop:cov:thresh": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Consistent in substance with the Safety and Security chapter (evaluations, elicitation, weight security), but not checked clause by clause. cov.thresh 'mirroring the 10^25 trigger' is loose: the Code has signatory-defined risk tiers (Measure 4.1).",
+    "missing": "Clause-by-clause check against the three Code chapters; a primary Meta statement on declining to sign; the Code's update cadence. Queued for the baseline audit",
+    "hash": "8b0bad03f317"
+  },
+  "entry:gpai-cop:cov:eval": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Consistent in substance with the Safety and Security chapter (evaluations, elicitation, weight security), but not checked clause by clause. cov.thresh 'mirroring the 10^25 trigger' is loose: the Code has signatory-defined risk tiers (Measure 4.1).",
+    "missing": "Clause-by-clause check against the three Code chapters; a primary Meta statement on declining to sign; the Code's update cadence. Queued for the baseline audit",
+    "hash": "70805d672dd8"
+  },
+  "entry:gpai-cop:cov:elicit": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Consistent in substance with the Safety and Security chapter (evaluations, elicitation, weight security), but not checked clause by clause. cov.thresh 'mirroring the 10^25 trigger' is loose: the Code has signatory-defined risk tiers (Measure 4.1).",
+    "missing": "Clause-by-clause check against the three Code chapters; a primary Meta statement on declining to sign; the Code's update cadence. Queued for the baseline audit",
+    "hash": "bfa698bef607"
+  },
+  "entry:gpai-cop:cov:sec": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Consistent in substance with the Safety and Security chapter (evaluations, elicitation, weight security), but not checked clause by clause. cov.thresh 'mirroring the 10^25 trigger' is loose: the Code has signatory-defined risk tiers (Measure 4.1).",
+    "missing": "Clause-by-clause check against the three Code chapters; a primary Meta statement on declining to sign; the Code's update cadence. Queued for the baseline audit",
+    "hash": "3ddd73b40acc"
+  },
+  "entry:gpai-cop:cov:update": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Consistent in substance with the Safety and Security chapter (evaluations, elicitation, weight security), but not checked clause by clause. cov.thresh 'mirroring the 10^25 trigger' is loose: the Code has signatory-defined risk tiers (Measure 4.1).",
+    "missing": "Clause-by-clause check against the three Code chapters; a primary Meta statement on declining to sign; the Code's update cadence. Queued for the baseline audit",
+    "hash": "00cbbbd3ada3"
+  },
+  "edge:gpai-cop|meta-faif": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Consistent in substance with the Safety and Security chapter (evaluations, elicitation, weight security), but not checked clause by clause. cov.thresh 'mirroring the 10^25 trigger' is loose: the Code has signatory-defined risk tiers (Measure 4.1).",
+    "missing": "Clause-by-clause check against the three Code chapters; a primary Meta statement on declining to sign; the Code's update cadence. Queued for the baseline audit",
+    "hash": "a2974d8b260a"
+  },
+  "entry:us-frontier-access-eo": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0038",
+      "S-0039"
+    ],
+    "proposals": [
+      "P-0014"
+    ],
+    "note": "Official text EO 14409 (91 FR 34565): voluntary cyber-capability access framework, NSA designates covered models, Treasury/NSA/CISA lead, no preclearance, CAISI not named. Link changed from NPR to the Federal Register.",
+    "missing": null,
+    "hash": "b8fbb57fdce1"
+  },
+  "entry:us-frontier-access-eo:desc": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0038",
+      "S-0039"
+    ],
+    "proposals": [
+      "P-0014"
+    ],
+    "note": "Official text EO 14409 (91 FR 34565): voluntary cyber-capability access framework, NSA designates covered models, Treasury/NSA/CISA lead, no preclearance, CAISI not named. Link changed from NPR to the Federal Register.",
+    "missing": null,
+    "hash": "b9aa25859ec7"
+  },
+  "entry:us-frontier-access-eo:context": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0038",
+      "S-0039"
+    ],
+    "proposals": [
+      "P-0014"
+    ],
+    "note": "Official text EO 14409 (91 FR 34565): voluntary cyber-capability access framework, NSA designates covered models, Treasury/NSA/CISA lead, no preclearance, CAISI not named. Link changed from NPR to the Federal Register.",
+    "missing": null,
+    "hash": "7be7426ebf0f"
+  },
+  "entry:us-frontier-access-eo:cov:eval": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0038",
+      "S-0039"
+    ],
+    "proposals": [
+      "P-0014"
+    ],
+    "note": "Official text EO 14409 (91 FR 34565): voluntary cyber-capability access framework, NSA designates covered models, Treasury/NSA/CISA lead, no preclearance, CAISI not named. Link changed from NPR to the Federal Register.",
+    "missing": null,
+    "hash": "56dc69d3b590"
+  },
+  "entry:us-frontier-access-eo:cov:timing": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0038",
+      "S-0039"
+    ],
+    "proposals": [
+      "P-0014"
+    ],
+    "note": "Official text EO 14409 (91 FR 34565): voluntary cyber-capability access framework, NSA designates covered models, Treasury/NSA/CISA lead, no preclearance, CAISI not named. Link changed from NPR to the Federal Register.",
+    "missing": null,
+    "hash": "09fc0b70a682"
+  },
+  "entry:us-frontier-access-eo:cov:acct": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0038",
+      "S-0039"
+    ],
+    "proposals": [
+      "P-0014"
+    ],
+    "note": "Official text EO 14409 (91 FR 34565): voluntary cyber-capability access framework, NSA designates covered models, Treasury/NSA/CISA lead, no preclearance, CAISI not named. Link changed from NPR to the Federal Register.",
+    "missing": null,
+    "hash": "435a362f1078"
+  },
+  "edge:us-frontier-access-eo|caisi": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0038"
+    ],
+    "proposals": [
+      "P-0015"
+    ],
+    "note": "Contradicted: the order does not name CAISI; NIST is consulted only.",
+    "missing": null,
+    "hash": "01147966ae08"
+  },
+  "edge:us-frontier-access-eo|uk-aisi": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0038"
+    ],
+    "proposals": [],
+    "note": "The order does not mention UK AISI or FSI and frames itself as deregulatory (§1). The FSI edge's 'national-security review framework' has no basis in the order.",
+    "missing": "UK AISI access-agreement sources; FSI publications. Queued for the baseline audit",
+    "hash": "a8f0e4979268"
+  },
+  "edge:fsi|us-frontier-access-eo": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0038"
+    ],
+    "proposals": [],
+    "note": "The order does not mention UK AISI or FSI and frames itself as deregulatory (§1). The FSI edge's 'national-security review framework' has no basis in the order.",
+    "missing": "UK AISI access-agreement sources; FSI publications. Queued for the baseline audit",
+    "hash": "70e118ff2b81"
+  },
+  "edge:us-frontier-access-eo|us-eo14179": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0038"
+    ],
+    "proposals": [],
+    "note": "The order does not mention UK AISI or FSI and frames itself as deregulatory (§1). The FSI edge's 'national-security review framework' has no basis in the order.",
+    "missing": "UK AISI access-agreement sources; FSI publications. Queued for the baseline audit",
+    "hash": "f652f61f07b8"
   }
 }

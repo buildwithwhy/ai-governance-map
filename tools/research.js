@@ -93,6 +93,7 @@ const accessible = s => !!lastFetch(s) && lastFetch(s).status === 'ok';
 const accessLabel = f => !f || !f.status ? 'not fetched'
   : f.status === 'blocked' ? 'blocked by the environment network policy'
   : f.status === 'site_blocked' ? 'refused by the website (bot challenge)'
+  : f.status === 'empty_response' || f.status === 'http_202' ? 'website returned no content (retry later or use another official copy)'
   : /^http_/.test(f.status) ? `refused by the website (HTTP ${f.status.slice(5)})`
   : f.status === 'ok' ? `ok${f.via && f.via !== 'curl' ? ` via ${f.via}` : ''}` : f.status;
 
@@ -116,7 +117,9 @@ function fetchSource(url, o) {
       '-o', raw, '-w', '%{http_code}\t%{url_effective}\t%{content_type}', url], { stdio: ['ignore', 'pipe', 'pipe'] }).toString();
     const [code, finalUrl, ctype] = out.split('\t');
     fetch.http = Number(code); fetch.final_url = finalUrl; fetch.content_type = ctype;
-    fetch.status = fetch.http >= 200 && fetch.http < 300 ? 'ok' : `http_${code}`;
+    fetch.status = fetch.http >= 200 && fetch.http < 300 && fetch.http !== 202 ? 'ok' : `http_${code}`;
+    // An empty body (e.g. EUR-Lex's HTTP 202 "accepted, try later") is not a retrieved source.
+    if (fetch.status === 'ok' && (!fs.existsSync(raw) || fs.statSync(raw).size === 0)) fetch.status = 'empty_response';
     // A website's own bot challenge (e.g. Cloudflare) is not an environment denial; record it as such.
     if (fetch.status !== 'ok' && fs.existsSync(raw) && /Just a moment\.\.\.|cf-chl|challenge-platform/.test(fs.readFileSync(raw, 'utf8').slice(0, 20000))) {
       fetch.status = 'site_blocked'; fetch.note = 'website bot challenge (Cloudflare); the environment allowed the connection';
