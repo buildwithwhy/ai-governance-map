@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-10",
+  "base_commit": "f895273852b7317caab07bddb746384823ec0cc4",
+  "proposals": [
+    {
+      "id": "P-0002",
+      "v": 2,
+      "hash": "e33b70d35be3",
+      "evidence_status": "internal-consistency"
+    },
+    {
+      "id": "P-0011",
+      "v": 2,
+      "hash": "c13b04d4b97b",
+      "evidence_status": "internal-consistency"
+    },
+    {
+      "id": "P-0020",
+      "v": 1,
+      "hash": "410d595a202b",
+      "evidence_status": "verified"
+    }
+  ]
+}

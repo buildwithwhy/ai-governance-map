@@ -145,11 +145,13 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": "2026-10-09",
-        "note": "v2: wording changed — needs renewed approval"
+        "status": "accepted",
+        "v": 2,
+        "hash": "e33b70d35be3",
+        "date": "2026-10-10",
+        "note": "Maintainer in conversation, 2026-10-10: 'P0002: accept'.",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [
         {
@@ -160,9 +162,19 @@
           "note": "Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'",
           "revisit_after": null,
           "edited": false
+        },
+        {
+          "status": "pending",
+          "v": null,
+          "hash": null,
+          "date": "2026-10-09",
+          "note": "v2: wording changed — needs renewed approval"
         }
       ],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-3.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "internal-consistency",
         "missing": [],
@@ -1697,8 +1709,10 @@
     },
     {
       "id": "P-0011",
-      "fingerprint": "4f53cda18c2b",
-      "targets": [],
+      "fingerprint": "cd239d76d0ca",
+      "targets": [
+        "entry:other-aisis"
+      ],
       "resolves_checks": [],
       "versions": [
         {
@@ -1726,21 +1740,72 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T17:46:12Z",
+          "run": null,
+          "author": "user",
+          "title": "Classify `other-aisis` as Multilateral, kept in Layer 4 like UK AISI",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "other-aisis",
+              "field": "jur",
+              "from": "as",
+              "to": "mu"
+            }
+          ],
+          "why": "other-aisis groups the national AI safety institutes of Singapore, Japan, France, Korea, Canada, Australia, Kenya and India. 'Asia-Pacific (other)' is wrong for France, Canada and Kenya.",
+          "rationale": "Maintainer's choice (option b), 'make it the same as UK AISI': jurisdiction becomes Multilateral, while the entry stays in Layer 4 (Infrastructure) with pow 2 and status active, matching uk-aisi. It does not move to Layer 1 with the AISI Network. Its colour and legend group change to Multilateral; no new code is needed.",
+          "evidence": [
+            {
+              "source": "S-0027",
+              "passage": "S-0027#3",
+              "stance": "supports",
+              "supports": "other-aisis members and current jur code"
+            }
+          ],
+          "uncertainty": "Internal classification only; no external facts involved.",
+          "confidence": null,
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:aisr:context",
+            "entry:aisi-net:context",
+            "entry:uk-aisi:cov:elicit",
+            "edge:aisi-net|other-aisis",
+            "edge:au-esafety|other-aisis",
+            "edge:imda|other-aisis",
+            "edge:jp-sectors|other-aisis",
+            "gap:eval",
+            "text:layer-4:tooltip",
+            "text:layer-4:subtitle"
+          ],
+          "hash": "c13b04d4b97b"
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 2,
+        "hash": "c13b04d4b97b",
+        "date": "2026-10-10",
+        "note": "Maintainer in conversation, 2026-10-10: 'P0011 B, make it the same as UK AISI' — jur mu (Multilateral), kept in Layer 4 like uk-aisi.",
+        "revisit_after": null,
+        "edited": true
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-3.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "internal-consistency",
         "missing": [],
-        "updated": "2026-10-09"
+        "updated": "2026-10-10"
       }
     },
     {
@@ -2997,14 +3062,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "410d595a202b",
+        "date": "2026-10-10",
+        "note": "Maintainer in conversation, 2026-10-10: 'P0020, accept' (as drafted, without the optional extra connections).",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-3.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],

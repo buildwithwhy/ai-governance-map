@@ -14,7 +14,7 @@ The map organises by *who acts*, not *what they regulate*: the EU AI Act sits in
 
 ## Stats
 
-- 49 mechanisms mapped
+- 50 mechanisms mapped
 - 19 voluntary or norm-only
 - 11 binding with penalties
 - 9 coverage categories
@@ -223,6 +223,7 @@ Tiers AI by risk: prohibited practices, high-risk systems (conformity assessment
 - → EU AI Office: EU AI Office is the regulator implementing EU AI Act
 - → EU GPAI Code of Practice: GPAI Code is the voluntary route to EU AI Act compliance
 - → UK ICO: UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards
+- → EU AI-generated content code: Code implements the AI Act's Article 50 marking and labelling duties
 
 ---
 
@@ -565,6 +566,7 @@ Coordinates AI Act implementation across member states, enforces GPAI obligation
 - → AISI Network: EU AI Office's Safety Unit is part of the network
 - → EU AI Act: EU AI Office is the regulator implementing EU AI Act
 - → EU GPAI Code of Practice: EU AI Office runs and oversees the CoP
+- → EU AI-generated content code: AI Office facilitated the drafting by independent experts
 
 ---
 
@@ -625,7 +627,7 @@ Reframed as the Center for AI Standards and Innovation; standards-setting (model
 
 #### Other national AISIs
 
-- Jurisdiction: Asia-Pacific (other)
+- Jurisdiction: Multilateral
 - Enforceability: Soft / advisory
 - Status: In force
 - Primary source: https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua
@@ -1080,6 +1082,30 @@ Three chapters — transparency, copyright, and safety/security (the last applie
 - → Meta Frontier AI Framework: Meta declined to sign
 - → xAI Risk Mgmt Framework: xAI signed only the safety chapter
 - → EU AI Office: EU AI Office runs and oversees the CoP
+
+---
+
+#### EU AI-generated content code
+
+- Jurisdiction: European Union
+- Enforceability: Soft / advisory
+- Status: In force
+- Primary source: https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content
+
+Voluntary code (final Jun 2026) for the AI Act's Article 50 duties to mark and label AI-generated content; the Commission and AI Board found it adequate in Jul 2026. Anthropic, Google, Meta, Microsoft and OpenAI signed the provider section.
+
+Two sections: providers commit to machine-readable marking (digitally signed metadata plus imperceptible watermarks) and free detection tools; deployers commit to labelling deepfakes and AI-generated text on matters of public interest. Drafted by independent experts under the AI Office, like the GPAI Code, it gives signatories a recognised route to show compliance with duties that apply from Aug 2026; others must show adequate alternatives to national market-surveillance authorities. Unlike the GPAI Code, Meta signed it.
+
+**Coverage:**
+
+- *Timing & frequency*: The underlying Article 50 duties apply from 2 Aug 2026; generative systems already on the market before then have until 2 Dec 2026 for machine-readable marking.
+- *Deployment mitigations*: Providers mark outputs with signed metadata and imperceptible watermarks so they are detectable as AI-generated; deployers label deepfakes and AI-generated text published on matters of public interest. Aimed at deception and misinformation, not catastrophic risk.
+- *Accountability*: Signatories must offer detection tools free of charge to users, authorities, researchers and media. Adherence is not conclusive proof of compliance; non-signatories must demonstrate adequate alternatives to market-surveillance authorities.
+
+**Connections:**
+
+- → EU AI Act: Code implements the AI Act's Article 50 marking and labelling duties
+- → EU AI Office: AI Office facilitated the drafting by independent experts
 
 ---
 

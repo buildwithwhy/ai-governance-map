@@ -1,7 +1,7 @@
 {
   "$schema": "https://ai-governance-map.buildwithwhy.com/data.schema.json",
   "name": "Frontier AI Governance Map",
-  "description": "Interactive map of frontier AI governance: 49 mechanisms across six layers, with METR's nine common elements as an orthogonal filter.",
+  "description": "Interactive map of frontier AI governance: 50 mechanisms across six layers, with METR's nine common elements as an orthogonal filter.",
   "version": "2026.10.10",
   "updated": "2026-10-10",
   "url": "https://ai-governance-map.buildwithwhy.com",
@@ -14,8 +14,8 @@
     "email": "buildwithwhy@gmail.com"
   },
   "stats": {
-    "mechanisms": 49,
-    "edges": 81,
+    "mechanisms": 50,
+    "edges": 83,
     "voluntary_or_norm_only": 19,
     "binding_with_penalties": 11,
     "categories": 9,
@@ -596,6 +596,26 @@
       }
     },
     {
+      "id": "eu-genai-code",
+      "name": "EU AI-generated content code",
+      "layer": 5,
+      "layer_name": "Industry voluntary",
+      "jurisdiction": "eu",
+      "jurisdiction_name": "European Union",
+      "enforceability": 2,
+      "enforceability_name": "Soft / advisory",
+      "status": "active",
+      "status_name": "In force",
+      "primary_source": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
+      "description": "Voluntary code (final Jun 2026) for the AI Act's Article 50 duties to mark and label AI-generated content; the Commission and AI Board found it adequate in Jul 2026. Anthropic, Google, Meta, Microsoft and OpenAI signed the provider section.",
+      "context": "Two sections: providers commit to machine-readable marking (digitally signed metadata plus imperceptible watermarks) and free detection tools; deployers commit to labelling deepfakes and AI-generated text on matters of public interest. Drafted by independent experts under the AI Office, like the GPAI Code, it gives signatories a recognised route to show compliance with duties that apply from Aug 2026; others must show adequate alternatives to national market-surveillance authorities. Unlike the GPAI Code, Meta signed it.",
+      "coverage": {
+        "timing": "The underlying Article 50 duties apply from 2 Aug 2026; generative systems already on the market before then have until 2 Dec 2026 for machine-readable marking.",
+        "mit": "Providers mark outputs with signed metadata and imperceptible watermarks so they are detectable as AI-generated; deployers label deepfakes and AI-generated text published on matters of public interest. Aimed at deception and misinformation, not catastrophic risk.",
+        "acct": "Signatories must offer detection tools free of charge to users, authorities, researchers and media. Adherence is not conclusive proof of compliance; non-signatories must demonstrate adequate alternatives to market-surveillance authorities."
+      }
+    },
+    {
       "id": "fmf",
       "name": "Frontier Model Forum",
       "layer": 5,
@@ -848,8 +868,8 @@
       "name": "Other national AISIs",
       "layer": 4,
       "layer_name": "Infrastructure",
-      "jurisdiction": "as",
-      "jurisdiction_name": "Asia-Pacific (other)",
+      "jurisdiction": "mu",
+      "jurisdiction_name": "Multilateral",
       "enforceability": 2,
       "enforceability_name": "Soft / advisory",
       "status": "active",
@@ -1549,6 +1569,16 @@
       "from": "ny-raise",
       "to": "rsp",
       "relationship": "RAISE requires a published frontier AI framework from Jan 2027; Anthropic says it addresses such requirements with documents including its Frontier Compliance Framework, which is separate from the RSP"
+    },
+    {
+      "from": "eu-genai-code",
+      "to": "eu-aia",
+      "relationship": "Code implements the AI Act's Article 50 marking and labelling duties"
+    },
+    {
+      "from": "eu-aio",
+      "to": "eu-genai-code",
+      "relationship": "AI Office facilitated the drafting by independent experts"
     }
   ]
 }

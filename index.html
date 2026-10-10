@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Frontier AI Governance Map — AI Regulatory Tracker</title>
-<meta name="description" content="Interactive map of 49 frontier AI governance mechanisms across six layers — international, national, sub-national, voluntary, lab, infrastructure — using METR's nine common elements.">
+<meta name="description" content="Interactive map of 50 frontier AI governance mechanisms across six layers — international, national, sub-national, voluntary, lab, infrastructure — using METR's nine common elements.">
 
 <link rel="canonical" href="https://ai-governance-map.buildwithwhy.com/">
 
 <meta property="og:title" content="Frontier AI Governance Map — AI Regulatory Tracker">
-<meta property="og:description" content="Interactive map of 49 frontier AI governance mechanisms across six layers and METR's nine common elements.">
+<meta property="og:description" content="Interactive map of 50 frontier AI governance mechanisms across six layers and METR's nine common elements.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ai-governance-map.buildwithwhy.com/">
 <meta property="og:image" content="https://ai-governance-map.buildwithwhy.com/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Frontier AI Governance Map — AI Regulatory Tracker">
-<meta name="twitter:description" content="Interactive map of 49 frontier AI governance mechanisms across six layers and METR's nine common elements.">
+<meta name="twitter:description" content="Interactive map of 50 frontier AI governance mechanisms across six layers and METR's nine common elements.">
 <meta name="twitter:image" content="https://ai-governance-map.buildwithwhy.com/og.png">
 
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -30,7 +30,7 @@
   "@type": "Dataset",
   "name": "Frontier AI Governance Map",
   "alternateName": "AI Regulatory Tracker",
-  "description": "Interactive map of 49 frontier AI governance mechanisms across six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter.",
+  "description": "Interactive map of 50 frontier AI governance mechanisms across six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter.",
   "url": "https://ai-governance-map.buildwithwhy.com/",
   "sameAs": "https://github.com/buildwithwhy/ai-governance-map",
   "dateModified": "2026-10-10",
@@ -118,7 +118,7 @@
       "name": "Which AI laws are binding with penalties?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Eight binding instruments in this map carry penalty regimes: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation), the Colorado AI Act, the NY RAISE Act ($1M/$3M), Texas TRAIGA, and US BIS export controls. Most are phasing in; several face active federal preemption challenges in the United States."
+        "text": "Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation) and the NY RAISE Act ($1M/$3M). Most are phasing in; several face active federal preemption challenges in the United States. The map's wider count of mechanisms that are binding with penalties also includes US BIS export controls and five regulators: the EU AI Office, UK Ofcom, the UK ICO, Australia's eSafety Commissioner and the Colorado Division of Insurance. The map classes the Colorado AI Act and Texas TRAIGA as hard law with weak enforcement, so they are not counted here."
       }
     },
     {
@@ -383,7 +383,7 @@
   </noscript>
 
   <div class="stats" role="list">
-    <div class="stat" role="listitem"><div class="num">49</div><div class="lbl">mechanisms mapped</div></div>
+    <div class="stat" role="listitem"><div class="num">50</div><div class="lbl">mechanisms mapped</div></div>
     <div class="stat" role="listitem"><div class="num">19</div><div class="lbl">voluntary or norm-only</div></div>
     <div class="stat" role="listitem"><div class="num">11</div><div class="lbl">binding with penalties</div></div>
     <div class="stat" role="listitem"><div class="num">9</div><div class="lbl">coverage categories</div></div>
@@ -693,6 +693,14 @@ const ENTITIES = [
       acct: "Transparency obligations extend to model documentation, training-data summaries, and copyright disclosures. Safety signatories update Model Reports to the AI Office at least every six months for their most capable models; non-signatories must demonstrate AI Act compliance through other means.",
       update: "Periodic Code of Practice revisions handled by independent experts under the AI Office. The Code is the operational layer that updates faster than the underlying regulation."
     } },
+  { id: 'eu-genai-code', link: 'https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content', name: 'EU AI-generated content code', layer: 5, jur: 'eu', pow: 2, status: 'active',
+    desc: "Voluntary code (final Jun 2026) for the AI Act's Article 50 duties to mark and label AI-generated content; the Commission and AI Board found it adequate in Jul 2026. Anthropic, Google, Meta, Microsoft and OpenAI signed the provider section.",
+    context: "Two sections: providers commit to machine-readable marking (digitally signed metadata plus imperceptible watermarks) and free detection tools; deployers commit to labelling deepfakes and AI-generated text on matters of public interest. Drafted by independent experts under the AI Office, like the GPAI Code, it gives signatories a recognised route to show compliance with duties that apply from Aug 2026; others must show adequate alternatives to national market-surveillance authorities. Unlike the GPAI Code, Meta signed it.",
+    cov: {
+      timing: "The underlying Article 50 duties apply from 2 Aug 2026; generative systems already on the market before then have until 2 Dec 2026 for machine-readable marking.",
+      mit: "Providers mark outputs with signed metadata and imperceptible watermarks so they are detectable as AI-generated; deployers label deepfakes and AI-generated text published on matters of public interest. Aimed at deception and misinformation, not catastrophic risk.",
+      acct: "Signatories must offer detection tools free of charge to users, authorities, researchers and media. Adherence is not conclusive proof of compliance; non-signatories must demonstrate adequate alternatives to market-surveillance authorities."
+    } },
   { id: 'fmf', link: 'https://www.frontiermodelforum.org/', name: 'Frontier Model Forum', layer: 5, jur: 'co', pow: 1, status: 'active',
     desc: 'Industry body (Anthropic, Google, Microsoft, OpenAI; Amazon, Meta added). Coordinates safety research.',
     context: "Funds safety research grants, coordinates evaluation methodology between member labs, and convenes shared technical forums. Doesn't impose obligations on members or speak with one voice in policy debates. Some critics argue it is too closely held by its member labs; others that its remit is too narrow to drive policy change. The substantive contribution is in the research outputs, not the political coordination.",
@@ -811,7 +819,7 @@ const ENTITIES = [
       eval: "Standards work via NIST (model evaluation methodology, benchmarking) plus selective frontier testing — published a DeepSeek V4 Pro evaluation in May 2026 and holds new pre-deployment testing agreements with Google DeepMind, Microsoft, and xAI.",
       acct: "Standards-setting via NIST functions as soft accountability — published methodologies are widely adopted but carry no enforcement. Direct evaluation accountability has migrated outside the agency."
     } },
-  { id: 'other-aisis', link: 'https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua', name: 'Other national AISIs', layer: 4, jur: 'as', pow: 2, status: 'active',
+  { id: 'other-aisis', link: 'https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua', name: 'Other national AISIs', layer: 4, jur: 'mu', pow: 2, status: 'active',
     desc: 'Singapore (DTC + AI Verify), Japan (J-AISI), France (INESIA), Korea, Canada, Australia, Kenya, India (IndiaAISI).',
     context: "Capacity varies substantially: Singapore's DTC + AI Verify package is the most operational (active testing); France's INESIA hosts EU-wide evaluation tooling; J-AISI focuses on standards alignment; Indian and African AISIs are still scaling. Coordinated through the AISI Network, which provides distribution; the substantive testing capacity is concentrated in UK/US/Singapore.",
     cov: {
@@ -1014,7 +1022,9 @@ const EDGES = [
   { a: 'jp-sectors', b: 'jp-ai', rel: 'Sectoral implementation under the AI Promotion Act framework' },
   { a: 'jp-sectors', b: 'hiroshima', rel: "Japan's sectoral approach embeds Hiroshima Process principles" },
   { a: 'jp-sectors', b: 'other-aisis', rel: "J-AISI is Japan's central institute alongside sectoral ministries" },
-  { a: 'ny-raise', b: 'rsp', rel: 'RAISE requires a published frontier AI framework from Jan 2027; Anthropic says it addresses such requirements with documents including its Frontier Compliance Framework, which is separate from the RSP' }
+  { a: 'ny-raise', b: 'rsp', rel: 'RAISE requires a published frontier AI framework from Jan 2027; Anthropic says it addresses such requirements with documents including its Frontier Compliance Framework, which is separate from the RSP' },
+  { a: 'eu-genai-code', b: 'eu-aia', rel: 'Code implements the AI Act\'s Article 50 marking and labelling duties' },
+  { a: 'eu-aio', b: 'eu-genai-code', rel: 'AI Office facilitated the drafting by independent experts' }
 ];
 
 const JUR_LABEL = { us:'US Federal', uss:'US State', eu:'European Union', uk:'United Kingdom', cn:'China', as:'Asia-Pacific (other)', mu:'Multilateral', co:'Corporate / global' };
