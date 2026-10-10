@@ -230,6 +230,36 @@
           "locator": "Art. 7(1)",
           "text": "The Commission is empowered to adopt delegated acts in accordance with Article 97 to amend Annex III by adding or modifying use-cases of high-risk AI systems",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#23",
+          "locator": "Art. 55(1), chapeau",
+          "text": "In addition to the obligations listed in Articles 53 and 54, providers of general-purpose AI models with systemic risk shall:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#24",
+          "locator": "Art. 55(1)(b)",
+          "text": "assess and mitigate possible systemic risks at Union level, including their sources, that may stem from the development, the placing on the market, or the use of general-purpose AI models with systemic risk;",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#25",
+          "locator": "Recital 114",
+          "text": "including conducting and documenting adversarial testing of models, also, as appropriate, through internal or independent external testing.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#26",
+          "locator": "Annex XI, Section 2, point 2",
+          "text": "Where applicable, a detailed description of the measures put in place for the purpose of conducting internal and/or external adversarial testing (e.g. red teaming), model adaptations, including alignment and fine-tuning.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#27",
+          "locator": "Annex XI, Section 2, heading",
+          "text": "Additional information to be provided by providers of general-purpose AI models with systemic risk",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -1610,6 +1640,12 @@
           "id": "S-0033#18",
           "locator": "Whole text (searched)",
           "text": "[Observation, not a quotation] Searched the chapter amendment for an independent or third-party audit requirement: none. §1421(1)(e) requires the framework to describe how the developer uses third parties to assess catastrophic risks, but no audit is mandated.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#19",
+          "locator": "§2, new GBL §1421(1)(g)",
+          "text": "(g) cybersecurity practices to secure unreleased model weights from",
           "retrieved": "2026-10-10"
         }
       ]
@@ -6821,6 +6857,12 @@
           "locator": "preamble",
           "text": "This non-exhaustive list of actions is discussed and elaborated as a living document to build on the existing OECD AI Principles in response to the recent developments in advanced AI systems",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0137#2",
+          "locator": "Action 6",
+          "text": "These may include securing model weights and, algorithms, servers, and datasets",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -7125,6 +7167,12 @@
           "id": "S-0143#5",
           "locator": "Monitoring",
           "text": "Recommendation for which monitoring the Executive Board is responsible",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0143#6",
+          "locator": "Section III.2, para 37 (Transparency and explainability)",
+          "text": "The transparency and explainability of AI systems are often essential preconditions to ensure the respect, protection and promotion of human rights, fundamental freedoms and ethical principles.",
           "retrieved": "2026-10-10"
         }
       ]
@@ -7529,6 +7577,24 @@
           "id": "S-0150#17",
           "locator": "Whole chaptered text (searched)",
           "text": "[Observation, not a quotation] Searched the chaptered text for an independent or third-party audit requirement: none. Large frontier developers must describe how they use third parties to assess catastrophic risks in their framework (§22757.12(a)(5)), but no audit is mandated.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#18",
+          "locator": "BPC §22757.12(a)(7)",
+          "text": "(7) Cybersecurity practices to secure unreleased model weights from unauthorized modification or transfer by internal or external parties.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#19",
+          "locator": "BPC §22757.12(a)(2)",
+          "text": "(2) Defining and assessing thresholds used by the large frontier developer to identify and assess whether a frontier model has capabilities that could pose a catastrophic risk, which may include multiple-tiered thresholds.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#20",
+          "locator": "BPC §22757.12(e)(1)(B)",
+          "text": "(B) A large frontier developer shall not make a materially false or misleading statement about its implementation of, or compliance with, its frontier AI framework.",
           "retrieved": "2026-10-10"
         }
       ]
@@ -8466,6 +8532,18 @@
           "id": "S-0170#13",
           "locator": "Section 99",
           "text": "This Act takes effect January 1, 2027.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#14",
+          "locator": "Section 10(a)(7)",
+          "text": "(7) cybersecurity practices to secure unreleased model weights from unauthorized modification or transfer by internal or external parties;",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#15",
+          "locator": "Section 25(a)",
+          "text": "fails to have a third party perform an independent audit of compliance as required by subsection (d) of Section 10",
           "retrieved": "2026-10-10"
         }
       ]
@@ -9757,7 +9835,9 @@
       "title": "Common Elements of Frontier AI Safety Policies",
       "publisher": "METR",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "published": "2025-12-16"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
@@ -9783,6 +9863,90 @@
           "id": "S-0204#2",
           "locator": "intro",
           "text": "This concept was initially introduced by METR in 2023",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#3",
+          "locator": "page header",
+          "text": "December 16, 2025",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#4",
+          "locator": "Introduction, list of components",
+          "text": "This page analyzes the common elements between these policies. These components are:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#5",
+          "locator": "Introduction, components list",
+          "text": "Capability Thresholds: Thresholds at which specific AI capabilities would pose severe risk and require new mitigations.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#6",
+          "locator": "Introduction, components list",
+          "text": "Model Weight Security: Information security measures that will be taken to prevent model weight access by unauthorized actors.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#7",
+          "locator": "Introduction, components list",
+          "text": "Model Deployment Mitigations: Access and model-level measures applied to prevent the unauthorized use of a model’s dangerous capabilities.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#8",
+          "locator": "Introduction, components list",
+          "text": "Conditions for Halting Deployment Plans: Commitments to stop deploying models if the AI capabilities of concern emerge before the appropriate mitigations can be put in place.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#9",
+          "locator": "Introduction, components list",
+          "text": "Conditions for Halting Development Plans: Commitments to halt model development if capabilities of concern emerge before the appropriate mitigations can be put in place.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#10",
+          "locator": "Introduction, components list",
+          "text": "Full Capability Elicitation During Evaluations: Intentions to perform model evaluations in a way that does not underestimate the full capabilities of the model.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#11",
+          "locator": "Introduction, components list",
+          "text": "Timing and Frequency of Evaluations: Concrete timelines outlining when and how often evaluations must be performed – e.g. before deployment, during training, and after deployment.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#12",
+          "locator": "Introduction, components list",
+          "text": "Accountability: Intentions to implement both internal and external oversight mechanisms designed to encourage adequate execution of the frontier safety policy.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#13",
+          "locator": "Introduction, components list",
+          "text": "Updating Policies Over Time: Intentions to update the policy periodically, with protocols detailing how this will be done.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#14",
+          "locator": "Accountability section, intro",
+          "text": "Beyond internal governance, accountability extends externally through external scrutiny measures and transparency measures.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#15",
+          "locator": "Summary",
+          "text": "The policies also outline commitments to conduct model evaluations assessing whether models are approaching capability thresholds that could enable severe or catastrophic harm.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#16",
+          "locator": "Introduction, components list and Table 1",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The nine components listed (and the nine rows of Table 1) are: capability thresholds, model weight security, deployment mitigations, conditions for halting deployment plans, conditions for halting development plans, capability elicitation, evaluation timing/frequency, accountability, updating policies. 'Model evaluations' is not a separate component; halting appears as two.",
           "retrieved": "2026-10-10"
         }
       ]
@@ -11030,6 +11194,12 @@
           "id": "S-0237#2",
           "locator": "Executive Summary",
           "text": "The Framework is intended to be voluntary, rights-preserving, non-sector-specific, and use-case agnostic",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0237#3",
+          "locator": "front matter, Update Schedule and Versions",
+          "text": "a review with formal input from the AI community is expected to take place no later than 2028.",
           "retrieved": "2026-10-10"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "next": 107,
+  "next": 120,
   "proposals": [
     {
       "id": "P-0001",
@@ -12908,6 +12908,1239 @@
             "text:layer-3:tooltip"
           ],
           "hash": "6daabe7d9e6e"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0107",
+      "fingerprint": "9a3ab591961e",
+      "targets": [
+        "text:index.html:be507835fdfd",
+        "text:index.html:b6941f37f010",
+        "text:index.html:6a9cdb7367b4"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:51:55Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "METR's nine elements are not the map's nine categories: say the categories are adapted",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "is a taxonomy of nine elements that frontier AI safety frameworks address: capability thresholds, model evaluations, capability elicitation, timing and frequency, weight security, deployment mitigations, conditions for halting, accountability, and updating policies. This map applies the taxonomy as an orthogonal filter",
+              "to": "identifies nine elements that frontier AI safety policies share: capability thresholds, model weight security, deployment mitigations, conditions for halting deployment, conditions for halting development, full capability elicitation during evaluations, timing and frequency of evaluations, accountability, and updating policies over time. This map adapts them into nine coverage categories — merging the two halting conditions and adding model evaluations as a category of its own — and applies them as an orthogonal filter"
+            },
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "The orthogonal coverage analysis applies METR's nine elements (originally a taxonomy of corporate safety frameworks) to the full set of mechanisms.",
+              "to": "The orthogonal coverage analysis applies nine categories adapted from METR's common elements (originally a taxonomy of corporate safety frameworks) to the full set of mechanisms."
+            },
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "applied across METR's nine common elements of frontier AI safety policies.</p>",
+              "to": "applied across nine categories adapted from METR's common elements of frontier AI safety policies.</p>"
+            }
+          ],
+          "why": "The FAQ tells readers (and LLMs that ingest the JSON-LD) that METR's taxonomy consists of the map's nine categories. METR's own list differs: it has two halting elements and no separate 'model evaluations' element. Citing METR for a list it does not contain misattributes the map's own design choice.",
+          "rationale": "METR's Dec 2025 page lists its nine components verbatim (metr-ce#thresh … #update): halting appears twice (deployment, development) and evaluations are discussed inside the other elements (metr-ce#eval) rather than listed. The map's categories therefore adapt METR's list. The edits keep the existing wording and add 'adapted'.",
+          "evidence": [
+            {
+              "source": "S-0204",
+              "passage": "S-0204#4",
+              "stance": "supports",
+              "supports": "METR introduces its list of components"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#8",
+              "stance": "supports",
+              "supports": "halting deployment is its own element"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#9",
+              "stance": "supports",
+              "supports": "halting development is its own element"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#10",
+              "stance": "supports",
+              "supports": "elicitation element wording"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#11",
+              "stance": "supports",
+              "supports": "timing element wording"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#16",
+              "stance": "supports",
+              "supports": "no separate model-evaluations element"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#15",
+              "stance": "supports",
+              "supports": "evaluations are discussed within the elements"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#3",
+              "stance": "supports",
+              "supports": "Dec 2025 edition"
+            }
+          ],
+          "uncertainty": "Whether to rename categories is left alone; only the attribution changes. The cov-intro ('METR's framework taxonomy applied…'), the coverage header link text ('METR's 9 common elements') and build-llms.js ('METR's nine common elements as an orthogonal filter') use the same shorthand and are not changed here; the generated llms files follow build-llms.js.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "text:intro": "needs change — included here",
+            "text:footer-note": "needs change — included here",
+            "category:eval": "see flag category-defs"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "163b36ea9a1c"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0108",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:51:55Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Category definitions for thresholds, timing, mitigations (and evaluations) depart from METR's meaning",
+          "kind": "flag",
+          "changes": [],
+          "why": "The category definitions are the page's description of what each filter means; where they diverge from METR while citing METR, readers may take the map's broader categories for METR's.",
+          "rationale": "Compared each map definition with METR's component definition (metr-ce). Elicitation, weight security, halting, accountability (METR includes transparency, metr-ce#acct2) and updating match in meaning; thresholds, timing and mitigations are broadened; evaluations is the map's own addition.",
+          "evidence": [
+            {
+              "source": "S-0204",
+              "passage": "S-0204#5",
+              "stance": "supports",
+              "supports": "METR's threshold definition is capability-based"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#11",
+              "stance": "supports",
+              "supports": "METR's timing element is about evaluations and their frequency"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#7",
+              "stance": "supports",
+              "supports": "METR's mitigation definition"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#16",
+              "stance": "supports",
+              "supports": "evaluations not a separate element"
+            }
+          ],
+          "uncertainty": "The broadening is deliberate (gap:thresh contrasts eligibility and capability thresholds), so this is a framing choice, not a factual error.",
+          "confidence": "medium",
+          "question": "METR defines capability thresholds as 'Thresholds at which specific AI capabilities would pose severe risk and require new mitigations'; the map says 'Levels at which obligations or risks trigger', which also takes in regulatory eligibility thresholds (compute, revenue). METR's timing element is 'when and how often evaluations must be performed'; the map says 'When evaluations and obligations apply'. METR's deployment mitigations are 'access and model-level measures applied to prevent the unauthorized use of a model's dangerous capabilities'; the map says 'Refusals, monitoring, content controls'. 'Model evaluations' is not one of METR's nine. Options: (a) keep the map's broader definitions and say they are adapted (pairs with metr-taxonomy; recommended); (b) restore METR's meaning, e.g. thresh 'Capability levels that pose severe risk and require new mitigations', timing 'When and how often evaluations are performed', mit 'Access and model-level measures that prevent misuse of dangerous capabilities' — then coverage notes that rely on the broader meaning (e.g. compute-eligibility thresholds under thresh, obligation timing under timing, content moderation under mit) become stretches to mark; (c) METR wording plus a short adaptation note, e.g. thresh 'Capability levels that pose severe risk and require new mitigations (here also regulatory compute thresholds)'.",
+          "knock_on_notes": {
+            "faq:what-is-metr-s-common-elements-framework": "see metr-taxonomy"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0109",
+      "fingerprint": "f865dd15d4ae",
+      "targets": [
+        "text:index.html:627c7f93e561"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:51:55Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Thresholds gap: no current lab framework tracks autonomous replication; revenue floors apply only to the US state laws",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "The labs set capability thresholds (CBRN, cyber, autonomous replication, AI R&D); the binding regulations set eligibility thresholds (10²⁵ or 10²⁶ FLOPs plus revenue floors).",
+              "to": "The labs set capability thresholds (CBRN, cyber, AI R&D, loss of control); the binding regulations set eligibility thresholds (10²⁵ or 10²⁶ FLOPs, plus a $500M revenue floor for the main US state duties)."
+            }
+          ],
+          "why": "The example list describes the lab frameworks of 2023–24. OpenAI moved autonomous replication to an untracked research category in v2, and the current Anthropic, Google DeepMind, Meta and xAI frameworks do not use it, while loss of control/misalignment now appears in most. 'Plus revenue floors' implies the EU AI Act has one; it does not.",
+          "rationale": "Current domains: Anthropic RSP v3.4 rows (S-0006#5: chem/bio, misaligned AI in high-stakes settings, automated R&D); OpenAI v2 tracks bio/chem, cyber, AI self-improvement and lists Autonomous Replication and Adaptation among Research Categories (S-0095#2, S-0095#4); GDM v3.1 CBRN, cyber, harmful manipulation, ML R&D and misalignment (S-0102#3, S-0102#7); Meta v2 chem/bio, cyber, loss of control (S-0107#2); xAI CBRN, cyber, loss of control, harmful manipulation (S-0108#2). EU presumption is compute only (S-0002#10); the $500M floor is in SB 53 (S-0150#4) and RAISE (S-0033#9) for large frontier developers, while SB 53's 10²⁶ tier alone triggers transparency and incident duties (P-0057).",
+          "evidence": [
+            {
+              "source": "S-0006",
+              "passage": "S-0006#5",
+              "stance": "supports",
+              "supports": "Anthropic threshold rows"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#2",
+              "stance": "supports",
+              "supports": "OpenAI tracked categories"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#4",
+              "stance": "supports",
+              "supports": "autonomous replication is a research category"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#3",
+              "stance": "supports",
+              "supports": "GDM risk domains"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#2",
+              "stance": "supports",
+              "supports": "Meta domains incl. loss of control"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#2",
+              "stance": "supports",
+              "supports": "xAI domains incl. loss of control"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#10",
+              "stance": "supports",
+              "supports": "EU presumption is compute-only"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#4",
+              "stance": "supports",
+              "supports": "SB 53 revenue floor"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#9",
+              "stance": "supports",
+              "supports": "RAISE revenue floor"
+            }
+          ],
+          "uncertainty": "Korea's decree adds capability and risk criteria to its 10²⁶ threshold (P-0102), still an eligibility test; not spelled out to keep the sentence short.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "gap:thresh": "P-0037, P-0038, P-0039, P-0041 (lab framework versions) and P-0057, P-0102 (eligibility tiers) are the entry proposals this text now matches"
+          },
+          "unverified_carryover": [
+            "No binding instrument yet sets the second kind (analytic; SB 53 §22757.12(a)(2) obliges developers to define their own thresholds but sets none)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "1588fd0a78f9"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0037",
+          "P-0038",
+          "P-0039",
+          "P-0041",
+          "P-0057",
+          "P-0102"
+        ],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0110",
+      "fingerprint": "f8fe04d53891",
+      "targets": [
+        "text:index.html:8705af79042b"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:51:55Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Evaluations gap: the AI Act requires evaluation with adversarial testing, not third-party evaluation; the GPAI Code adds external evaluation",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "The EU AI Act requires it for systemic-risk GPAI.",
+              "to": "The EU AI Act requires model evaluations with adversarial testing for systemic-risk GPAI, but external testing only as appropriate; the GPAI Code goes further and calls for independent external evaluation."
+            }
+          ],
+          "why": "'It' refers to mandatory third-party evaluation; Article 55 does not mandate third-party evaluation, so the sentence overstates the one binding example the gap gives.",
+          "rationale": "Art. 55(1)(a) requires model evaluation including adversarial testing (S-0002#14); recital 114 says this happens 'as appropriate, through internal or independent external testing' (eu-aia#rec114); Annex XI asks systemic-risk providers to describe 'internal and/or external' adversarial testing. The GPAI Code (non-binding) requires independent external evaluations unless exceptions apply (S-0044#8).",
+          "evidence": [
+            {
+              "source": "S-0002",
+              "passage": "S-0002#14",
+              "stance": "supports",
+              "supports": "Art. 55(1)(a) evaluation duty"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#25",
+              "stance": "supports",
+              "supports": "external testing only as appropriate"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#26",
+              "stance": "supports",
+              "supports": "internal and/or external adversarial testing"
+            },
+            {
+              "source": "S-0044",
+              "passage": "S-0044#8",
+              "stance": "supports",
+              "supports": "GPAI Code external evaluation"
+            }
+          ],
+          "uncertainty": "The AI Office could expect external testing in practice through the Code; the Act's text does not require it.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "gap:eval": "consistent with P-0031 (GPAI Code external evaluation)"
+          },
+          "unverified_carryover": [
+            "Korea's Framework Act requires risk management plans",
+            "Everywhere else, evaluations happen because labs publish them, AISIs request them under voluntary access agreements, or independent evaluators (METR, Apollo) do them."
+          ],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "9448ef802fa7"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0031"
+        ],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0111",
+      "fingerprint": "1a0d2c3b3463",
+      "targets": [
+        "text:index.html:7948f43d34a3"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:51:56Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Elicitation gap: the GPAI Code requires elicitation explicitly, and it is not a statute",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "Almost no statute requires it; only the EU AI Act and the GPAI Code do, indirectly through adversarial-testing language.",
+              "to": "Almost no statute requires it: the EU AI Act does only indirectly, through adversarial-testing language, while the non-binding GPAI Code explicitly requires state-of-the-art elicitation."
+            }
+          ],
+          "why": "The text calls the GPAI Code a statute and says it reaches elicitation only indirectly. The Code's safety chapter has an explicit elicitation requirement (Appendix 3.2), which pending P-0031 records in the gpai-cop entry.",
+          "rationale": "S-0044#7: 'model evaluations are conducted with at least a state-of-the-art level of model elicitation'. Art. 55(1)(a) mentions only adversarial testing (S-0002#14). The GPAI Code is classed pow 2 (soft) on the map.",
+          "evidence": [
+            {
+              "source": "S-0044",
+              "passage": "S-0044#7",
+              "stance": "supports",
+              "supports": "explicit elicitation requirement"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#14",
+              "stance": "supports",
+              "supports": "AI Act speaks only of adversarial testing"
+            }
+          ],
+          "uncertainty": "none material",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "gap:elicit": "matches P-0031 (gpai-cop.elicit)"
+          },
+          "unverified_carryover": [
+            "If those organisations stopped, no binding regulation would compensate (analytic)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "7e6efeffbb57"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0031"
+        ],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0112",
+      "fingerprint": "2f4b1f25e0af",
+      "targets": [
+        "text:index.html:91397c2a6457"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:51:56Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Timing gap: Illinois adds 72-hour incident reporting from 2027; the EU duty is GPAI serious-incident reporting, not AI Office post-market monitoring",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "California SB 53 (15 days), NY RAISE (72 hours), Korea (lifecycle reporting), and the EU AI Office\\'s post-market monitoring are the binding instances. Outside those four, no statutory incident reporting for frontier models exists.",
+              "to": "California SB 53 (15 days), NY RAISE and Illinois (72 hours, from 2027), Korea (lifecycle reporting), and the EU AI Act\\'s serious-incident reporting for systemic-risk GPAI are the binding instances. Outside these, no statutory incident reporting for frontier models exists."
+            }
+          ],
+          "why": "'Outside those four' is no longer true: Illinois's Artificial Intelligence Safety Measures Act (signed Jul 2026) requires 72-hour critical-incident reports. And post-market monitoring under the AI Act is a high-risk-system duty overseen by market surveillance authorities; the GPAI instance is serious-incident reporting to the AI Office.",
+          "rationale": "Illinois §15(c) 72-hour reporting (S-0170#9), Act effective 1 Jan 2027 (S-0170#13); RAISE 72 hours (S-0033#5); SB 53 15 days (S-0150#10); AI Act Art. 55(1)(c) serious-incident reporting to the AI Office (S-0002#15) versus Art. 72 post-market monitoring for high-risk providers (S-0002#18); Korea Art. 32 lifecycle risk management with results submitted to MSIT (S-0293#6, S-0293#7).",
+          "evidence": [
+            {
+              "source": "S-0170",
+              "passage": "S-0170#9",
+              "stance": "supports",
+              "supports": "Illinois 72-hour reports"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#13",
+              "stance": "supports",
+              "supports": "Illinois Act effective 2027"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#5",
+              "stance": "supports",
+              "supports": "RAISE 72 hours"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#10",
+              "stance": "supports",
+              "supports": "SB 53 15 days"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#15",
+              "stance": "supports",
+              "supports": "GPAI serious-incident reporting"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#18",
+              "stance": "supports",
+              "supports": "post-market monitoring is a high-risk duty"
+            },
+            {
+              "source": "S-0293",
+              "passage": "S-0293#7",
+              "stance": "supports",
+              "supports": "Korea results submitted to MSIT"
+            }
+          ],
+          "uncertainty": "Illinois appears on the map only if P-0066 is accepted; the fact stands either way.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "gap:timing": "consistent with P-0066 (Illinois), P-0095 (eu-aia.timing), P-0055 (SB 53 timing)"
+          },
+          "unverified_carryover": [
+            "Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab frameworks all require it (China's security assessment applies only to services with public-opinion attributes, see P-0099)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "2aaeeca36448"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0055",
+          "P-0066",
+          "P-0095",
+          "P-0099"
+        ],
+        "apply_together": [
+          "P-0066"
+        ],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0113",
+      "fingerprint": "e5b7006d846a",
+      "targets": [
+        "text:index.html:3cb470fc0b27"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:51:56Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Weight-security gap: SB 53 (and RAISE, Illinois) require frameworks to cover securing unreleased model weights",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "BIS export controls touch the adjacent question of who can access frontier-capable hardware. No US state, no UK statute, and no other binding instrument covers weight security directly.",
+              "to": "California SB 53 requires the published frameworks of large frontier developers to describe how they secure unreleased model weights, and NY RAISE (2027) and Illinois (2028) copy that duty, but none sets a security level. BIS export controls touch the adjacent question of who can access frontier-capable hardware. No UK statute and no other binding instrument covers weight security directly."
+            }
+          ],
+          "why": "The text says no US state covers weight security. SB 53, in force since Jan 2026, makes 'cybersecurity practices to secure unreleased model weights' a required part of each large frontier developer's framework, which the developer must comply with; RAISE and Illinois use the same wording.",
+          "rationale": "SB 53 §22757.12(a)(7) (sb53#a7) within the framework duty to write, implement and comply (S-0150#5); RAISE §1421(1)(g) (raise#g; effective 1 Jan 2027, S-0033#3); Illinois §10(a)(7) (il#a7; framework duty from 1 Jan 2028, S-0170#5). None prescribes a security level.",
+          "evidence": [
+            {
+              "source": "S-0150",
+              "passage": "S-0150#18",
+              "stance": "supports",
+              "supports": "SB 53 weight-security framework element"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#5",
+              "stance": "supports",
+              "supports": "framework must be implemented and complied with"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#19",
+              "stance": "supports",
+              "supports": "RAISE same element"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#3",
+              "stance": "supports",
+              "supports": "RAISE effective 2027"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#14",
+              "stance": "supports",
+              "supports": "Illinois same element"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#5",
+              "stance": "supports",
+              "supports": "Illinois framework duty from 2028"
+            }
+          ],
+          "uncertainty": "Whether a 'describe your practices' duty counts as covering weight security 'directly' is a judgment; the statutes do make it a compliance obligation. The map's ca-sb53 and ny-raise entries carry no 'sec' coverage note; adding one is an entry decision not proposed here.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "gap:sec": "P-0023 would add a Seoul 'sec' note (voluntary); not reflected in the binding-instrument sentence. P-0075 (BIS model-weight rule unenforced) is consistent with 'adjacent question'."
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "982394064686"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0023",
+          "P-0075"
+        ],
+        "apply_together": [
+          "P-0066"
+        ],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0114",
+      "fingerprint": "648282b28562",
+      "targets": [
+        "text:index.html:89779e27b7e7"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:51:56Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Halting gap: China can order services suspended; lab halting commitments have weakened (Anthropic, Meta)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "The EU AI Office can order recall (Aug 2026 onwards). The GPAI Code calls for halting at systemic-risk thresholds. Seoul commitments asked labs to commit to it. Every lab framework includes it. That\\'s essentially the whole list. No US state, no other national statute, no other multilateral instrument can compel a frontier developer to pause.",
+              "to": "The EU AI Office can order recall (Aug 2026 onwards). China\\'s GenAI Measures let regulators order a non-compliant service suspended. The GPAI Code calls for halting at systemic-risk thresholds. Seoul commitments asked labs to commit to it. Every lab framework includes halting conditions, though several have weakened: Anthropic ties its delay commitments to what competitors do, and Meta\\'s v2 replaced \"stop\" with \"develop with mitigations\". That\\'s essentially the whole list. No US state, and no other frontier-specific statute or multilateral instrument, can compel a frontier developer to pause."
+            }
+          ],
+          "why": "The map's own China entry says firms have had services suspended, and Art. 21 of the GenAI Measures provides for ordering suspension — a compelled pause the gap says does not exist. 'Every lab framework includes it' no longer conveys that Anthropic's RSP v3 made delays competitor-dependent and Meta's v2 dropped 'stop'.",
+          "rationale": "S-0290#6 (Art. 21: ordered to suspend the relevant services); EU recall power S-0002#20, enforcement from 2 Aug 2026 S-0280#1; GPAI Code Measure 4.2 (S-0044#3); Seoul commitment IV (S-0034#8); RSP v3.4 Appendix A (S-0006#12); Meta v2 change log (S-0107#5); OpenAI v2 Critical halt (S-0095#6).",
+          "evidence": [
+            {
+              "source": "S-0290",
+              "passage": "S-0290#6",
+              "stance": "supports",
+              "supports": "China suspension orders"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#20",
+              "stance": "supports",
+              "supports": "EU recall power"
+            },
+            {
+              "source": "S-0280",
+              "passage": "S-0280#1",
+              "stance": "supports",
+              "supports": "enforcement from Aug 2026"
+            },
+            {
+              "source": "S-0044",
+              "passage": "S-0044#3",
+              "stance": "supports",
+              "supports": "GPAI Code proceed-only-if-acceptable"
+            },
+            {
+              "source": "S-0034",
+              "passage": "S-0034#8",
+              "stance": "supports",
+              "supports": "Seoul halting commitment"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#12",
+              "stance": "supports",
+              "supports": "Anthropic competitor-dependent delays"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#5",
+              "stance": "supports",
+              "supports": "Meta stop -> develop with mitigations"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#6",
+              "stance": "supports",
+              "supports": "OpenAI still halts at Critical"
+            },
+            {
+              "source": "S-0152",
+              "passage": "S-0152#4",
+              "stance": "supports",
+              "supports": "California kill switch only recommended"
+            }
+          ],
+          "uncertainty": "General online-safety laws (UK Online Safety Act service-restriction orders, Australia's Online Safety Act) and Korea's Art. 40(3) order to stop a violation can also cut off a service; the rewrite scopes the closing sentence to frontier-specific instruments rather than list them. California's EO N-9-26 only asks for recommendations on a kill switch (S-0152#4).",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "gap:halt": "consistent with P-0039 (Meta v2), P-0041 (xAI), P-0038 (GDM), P-0037 (OpenAI), P-0022 (Seoul) and P-0097 (eu-aia halt flag)"
+          },
+          "unverified_carryover": [
+            "Conditions for halting are the rarest column in the matrix (internal count: 8 entries carry halt notes)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "5a144464f807"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0022",
+          "P-0037",
+          "P-0038",
+          "P-0039",
+          "P-0041",
+          "P-0097"
+        ],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0115",
+      "fingerprint": "0fd9656d4bbd",
+      "targets": [
+        "text:index.html:7bd023417c67"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:51:56Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Update gap: the AI Act also revises by delegated act (10²⁵ threshold, Annex III)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "The EU AI Act revises through its Code of Practice.",
+              "to": "The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold."
+            }
+          ],
+          "why": "The Code of Practice does not amend the Act; the Act's own update mechanism is the Commission's power to amend the compute threshold (and the Annex III list) by delegated act, as pending P-0096 records in the eu-aia entry.",
+          "rationale": "Art. 51(3) delegated acts to amend thresholds (S-0002#11); Art. 7(1) Annex III (S-0002#22); Art. 56(8) review of codes (S-0002#17).",
+          "evidence": [
+            {
+              "source": "S-0002",
+              "passage": "S-0002#11",
+              "stance": "supports",
+              "supports": "threshold amendable by delegated act"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#17",
+              "stance": "supports",
+              "supports": "codes reviewed and adapted"
+            }
+          ],
+          "uncertainty": "none material",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "gap:update": "matches P-0096 (eu-aia.update) and P-0033 (GPAI Code review every two years)"
+          },
+          "unverified_carryover": [
+            "Lab frameworks revise as labs choose",
+            "Outside these, most binding instruments lock in a snapshot (analytic)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "2bf71e87f683"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0033",
+          "P-0096"
+        ],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0116",
+      "fingerprint": "514abeb92c6c",
+      "targets": [
+        "text:index.html:24de7951f5a9"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:51:56Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Default gap text: Illinois enacted mandatory third-party audits (2028) and incident reporting; the EU AI Act already requires GPAI incident reporting",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "Mandatory third-party auditing, compute KYC, statutory incident reporting beyond California and (from 2027) New York, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet.",
+              "to": "Compute KYC, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet. Mandatory third-party auditing of frontier developers is enacted only in Illinois (from 2028), and statutory incident reporting for frontier models only in the EU, California, and (from 2027) New York and Illinois.",
+              "count": 2
+            }
+          ],
+          "why": "This is the panel's default text. Two of its 'binding nowhere' items are now binding law: Illinois requires large frontier developers to retain a third party for an annual independent compliance audit (from 2028) and to report critical incidents within 72 hours (from 2027); and the EU AI Act has required serious-incident reporting from systemic-risk GPAI providers since Aug 2025, which the map's own gap:acct names.",
+          "rationale": "Illinois Act §25(a) penalises failure to have a third party perform an independent audit under §10(d) (il#audit, S-0170#8), §15(c) 72-hour reports (S-0170#9), effective 1 Jan 2027 (S-0170#13); AI Act Art. 55(1)(c) (S-0002#15). No audit duty in SB 53 or RAISE (S-0150#17, S-0033#18).",
+          "evidence": [
+            {
+              "source": "S-0170",
+              "passage": "S-0170#15",
+              "stance": "supports",
+              "supports": "Illinois audit duty enforced by penalty"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#8",
+              "stance": "supports",
+              "supports": "annual independent audit from 2028"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#9",
+              "stance": "supports",
+              "supports": "72-hour reports"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#13",
+              "stance": "supports",
+              "supports": "effective 2027"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#15",
+              "stance": "supports",
+              "supports": "EU incident reporting"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#17",
+              "stance": "supports",
+              "supports": "no audit duty in SB 53"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#18",
+              "stance": "supports",
+              "supports": "no audit duty in RAISE"
+            }
+          ],
+          "uncertainty": "Liability, compute KYC and verification regimes were not re-verified (see carryover); the EU Product Liability Directive 2024/2853, which covers software, may bear on 'liability rules'. EU notified-body conformity assessment for some high-risk AI systems is third-party, hence 'of frontier developers'.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "text:gap-default": "depends on facts behind P-0066 (Illinois entry); the edit stands on the statute either way"
+          },
+          "unverified_carryover": [
+            "Compute KYC, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet."
+          ],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "fd07cdbf6d23"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0066"
+        ],
+        "apply_together": [
+          "P-0066"
+        ],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0117",
+      "fingerprint": "a3318893def8",
+      "targets": [
+        "text:index.html:3729550dc6a6"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:51:57Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Binding-laws FAQ: no federal preemption challenge to SB 53 or RAISE is documented",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "Most are phasing in; several face active federal preemption challenges in the United States.",
+              "to": "Most are phasing in; the two US state laws face a federal preemption push under EO 14365, which set up a DOJ task force to challenge state AI laws."
+            }
+          ],
+          "why": "Only two of the five laws are American (SB 53, RAISE), so 'several' cannot be right, and no federal challenge to either is documented: EO 14365 names only Colorado's law, and DOJ's one action (intervening in xAI v. Colorado) rests on equal protection and concerns a law the FAQ excludes.",
+          "rationale": "EO 14365 §3 creates the Task Force to challenge state AI laws (S-0239#5; set up Jan 9 2026, S-0273#2) and names no California or New York law (S-0239#8). DOJ's Colorado intervention: equal protection, no Task Force citation (S-0111#6, S-0111#8).",
+          "evidence": [
+            {
+              "source": "S-0239",
+              "passage": "S-0239#5",
+              "stance": "supports",
+              "supports": "Task Force mandate"
+            },
+            {
+              "source": "S-0239",
+              "passage": "S-0239#8",
+              "stance": "supports",
+              "supports": "EO names only Colorado"
+            },
+            {
+              "source": "S-0273",
+              "passage": "S-0273#2",
+              "stance": "supports",
+              "supports": "Task Force established"
+            },
+            {
+              "source": "S-0111",
+              "passage": "S-0111#6",
+              "stance": "supports",
+              "supports": "DOJ Colorado claim is equal protection"
+            },
+            {
+              "source": "S-0111",
+              "passage": "S-0111#8",
+              "stance": "supports",
+              "supports": "release does not cite the Task Force"
+            }
+          ],
+          "uncertainty": "Absence of a challenge is shown only for the sources searched (EO text, DOJ release); secondary commentary (not evidence) reported no Task Force filings as of mid-2026.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "faq:which-ai-laws-are-binding-with-penalties": "other facts checked; if P-0066 (Illinois, $1M/$3M) is accepted the count of binding laws becomes six; P-0062/P-0063 could move Colorado/TRAIGA to pow 4 and invalidate the last sentence; P-0079 (ICO → Information Commission) leaves 'UK ICO' acceptable"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "c60b8952a553"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0062",
+          "P-0063",
+          "P-0066",
+          "P-0079"
+        ],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0118",
+      "fingerprint": "c7bc92e29cde",
+      "targets": [
+        "text:index.html:34e838933a78"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:51:57Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Layer 3 tooltip: the DOJ Task Force has no documented challenge; DOJ's Colorado intervention is separate",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "Several have penalty regimes; the federal government is actively challenging them via the DOJ AI Litigation Task Force.",
+              "to": "Several have penalty regimes; EO 14365 set up a DOJ AI Litigation Task Force to challenge them, and DOJ intervened in xAI's suit against Colorado's original AI Act.",
+              "count": 2
+            }
+          ],
+          "why": "The tooltip presents the Task Force as actively litigating. The one documented federal action is DOJ's intervention in xAI v. Colorado, brought by the Civil and Civil Rights Divisions on equal-protection grounds without reference to the Task Force; Colorado has since replaced that law.",
+          "rationale": "S-0239#5 and S-0273#2 (Task Force mandate and creation); S-0111#5, S-0111#6, S-0111#8 (intervention, grounds, no Task Force mention); P-0058/P-0093 record the repeal and the intervention.",
+          "evidence": [
+            {
+              "source": "S-0239",
+              "passage": "S-0239#5",
+              "stance": "supports",
+              "supports": "Task Force mandate"
+            },
+            {
+              "source": "S-0273",
+              "passage": "S-0273#2",
+              "stance": "supports",
+              "supports": "Task Force established"
+            },
+            {
+              "source": "S-0111",
+              "passage": "S-0111#5",
+              "stance": "supports",
+              "supports": "DOJ intervened in xAI suit"
+            },
+            {
+              "source": "S-0111",
+              "passage": "S-0111#8",
+              "stance": "supports",
+              "supports": "no Task Force reference"
+            }
+          ],
+          "uncertainty": "Same absence caveat as faq-binding-preempt.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "text:layer-3:tooltip": "consistent with P-0093 (us-preempt.desc) and P-0058 (Colorado repeal)"
+          },
+          "unverified_carryover": [
+            "US state laws acting where federal regulation is absent or rolled back (framing)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "23deb4138b60"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0058",
+          "P-0093"
+        ],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0119",
+      "fingerprint": "759f8b22e68f",
+      "targets": [
+        "text:index.html:f14bf66a0f10"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:51:57Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "EU systemic-risk FAQ: Article 55 includes systemic-risk assessment and mitigation; documentation is Article 53/Annex XI",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "additional obligations under Article 55 of Regulation (EU) 2024/1689: model evaluations including adversarial testing, incident reporting to the EU AI Office, cybersecurity protections for model weights, and transparency documentation.",
+              "to": "additional obligations under Article 55 of Regulation (EU) 2024/1689: model evaluations including adversarial testing, assessment and mitigation of systemic risks, serious-incident reporting to the EU AI Office, and cybersecurity protection for the model and its physical infrastructure. Their technical documentation must also cover evaluation strategies and adversarial testing (Annex XI)."
+            }
+          ],
+          "why": "The answer omits the core Article 55 duty — assessing and mitigating systemic risks — and attributes 'transparency documentation' to Article 55, which applies 'in addition to the obligations listed in Articles 53 and 54'. Readers asking what the Act requires get an incomplete list.",
+          "rationale": "Art. 55(1)(a)–(d) (S-0002#14, eu-aia#a55b, S-0002#15, S-0002#16) and its chapeau (eu-aia#a55chap); extra documentation for systemic-risk models in Annex XI Section 2 (eu-aia#annex11h, eu-aia#annex11). The Digital Omnibus (Reg. 2026/1744) does not amend Article 55 (its text searched for 'systemic risk': no match).",
+          "evidence": [
+            {
+              "source": "S-0002",
+              "passage": "S-0002#23",
+              "stance": "supports",
+              "supports": "Art. 55 is in addition to Arts. 53/54"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#24",
+              "stance": "supports",
+              "supports": "risk assessment and mitigation"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#14",
+              "stance": "supports",
+              "supports": "evaluation with adversarial testing"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#15",
+              "stance": "supports",
+              "supports": "serious-incident reporting"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#16",
+              "stance": "supports",
+              "supports": "cybersecurity for model and infrastructure"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#27",
+              "stance": "supports",
+              "supports": "additional documentation for systemic-risk models"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#26",
+              "stance": "supports",
+              "supports": "documentation of adversarial testing"
+            }
+          ],
+          "uncertainty": "none material",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris": "10²⁵ presumption checked (S-0002#10)"
+          },
+          "unverified_carryover": [
+            "Implementation detail is delegated to the EU GPAI Code of Practice and harmonised standards. (Art. 55(2): providers may rely on codes until a harmonised standard is published)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "03ed90917840"
         }
       ],
       "decision": {
