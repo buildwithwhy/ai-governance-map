@@ -1,5 +1,5 @@
 {
-  "next": 150,
+  "next": 174,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -518,7 +518,7 @@
     },
     "S-0007": {
       "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
-      "title": null,
+      "title": "Anthropic: Responsible Scaling Policy v3 announcement",
       "publisher": "Anthropic",
       "type": "primary",
       "dates": {
@@ -548,6 +548,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "c8b8dc0af0d989ce",
           "bytes": 151460
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:31Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "68c3f21044d0d360",
+          "bytes": 151443
         }
       ],
       "passages": [
@@ -585,6 +597,12 @@
           "id": "S-0007#6",
           "locator": "Assessing our theory of change (re-fetched 2026-10-10)",
           "text": "We've seen governments around the world (for example in California with SB 53, in New York with the RAISE Act, and with the EU AI Act's Codes of Practice) start to require frontier AI developers to create and publish frameworks for assessing and managing catastrophic risks—requirements Anthropic addresses through public documentation including its Frontier Compliance Framework.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0007#7",
+          "locator": "Body",
+          "text": "in New York with the RAISE Act, and with the EU AI Act’s Codes of Practice) start to require frontier AI developers to create and publish frameworks for assessing and managing catastrophic risks—requirements Anthropic addresses through public documentation including its Frontier Compliance Framework.",
           "retrieved": "2026-10-10"
         }
       ]
@@ -1162,8 +1180,8 @@
     },
     "S-0030": {
       "url": "https://www.anthropic.com/news/compliance-framework-SB53",
-      "title": "Anthropic: Our framework for complying with California SB 53",
-      "publisher": null,
+      "title": "Anthropic: Our compliance framework for California's SB 53",
+      "publisher": "Anthropic",
       "type": "primary",
       "dates": {
         "published": "2025-12-19"
@@ -1180,6 +1198,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "c597ebef2d2bfb9f",
           "bytes": 117439
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:32Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/news/compliance-framework-SB53",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "c597ebef2d2bfb9f",
+          "bytes": 117439
         }
       ],
       "passages": [
@@ -1188,16 +1218,23 @@
           "locator": "What's in our Frontier Compliance Framework",
           "text": "Moving forward, the FCF will serve as our compliance framework for SB 53 and other regulatory requirements. The RSP will remain our voluntary safety policy, reflecting what we believe best practices should be as the AI landscape evolves, even when that goes beyond or otherwise differs from current regulatory requirements.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0030#2",
+          "locator": "Body",
+          "text": "Moving forward, the FCF will serve as our compliance framework for SB 53 and other regulatory requirements. The RSP will remain our voluntary safety policy",
+          "retrieved": "2026-10-10"
         }
       ]
     },
     "S-0031": {
       "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S06953&term=2025&Summary=Y&Actions=Y&Text=Y",
-      "title": "NY Assembly: S06953 (RAISE Act) summary, actions and text",
+      "title": "NY Assembly: S06953 (RAISE Act, Chapter 699 of 2025) summary, actions and text",
       "publisher": "New York State Assembly",
       "type": "primary",
       "dates": {
-        "signed": "2025-12-19"
+        "signed": "2025-12-19",
+        "adopted": "2025-12-19"
       },
       "fetches": [
         {
@@ -1211,6 +1248,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "49d259d01b107eee",
           "bytes": 36109
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:19Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S06953&term=2025&Summary=Y&Actions=Y&Text=Y",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "2e8a6cf3aff05811",
+          "bytes": 36108
         }
       ],
       "passages": [
@@ -1218,6 +1267,36 @@
           "id": "S-0031#1",
           "locator": "Actions",
           "text": "12/19/2025 SIGNED CHAP.699",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0031#2",
+          "locator": "Actions",
+          "text": "12/19/2025SIGNED CHAP.699",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0031#3",
+          "locator": "S6953-B, GBL §1420(6)(a)",
+          "text": "an artificial intelligence model trained using greater than",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0031#4",
+          "locator": "S6953-B, GBL §1420(6)(a)",
+          "text": "the compute cost of which exceeds one hundred million dollars",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0031#5",
+          "locator": "S6953-B, GBL §1420(9)",
+          "text": "\"Large developer\" means a person that has trained at least one frontier model and has spent over one hundred million dollars in compute costs in aggregate in training frontier models.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0031#6",
+          "locator": "S6953-B, GBL §1422(1)(a)",
+          "text": "a civil penalty in an amount not exceeding ten million dollars for a first violation and in an amount not exceeding thirty million dollars for any subsequent violation.",
           "retrieved": "2026-10-10"
         }
       ]
@@ -1246,12 +1325,13 @@
     },
     "S-0033": {
       "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08828&term=2025&Summary=Y&Actions=Y&Text=Y",
-      "title": "NY Assembly: S08828 (RAISE Act chapter amendment) summary, actions and text",
+      "title": "NY Assembly: S08828 (RAISE Act chapter amendment, Chapter 96 of 2026) summary, actions and text",
       "publisher": "New York State Assembly",
       "type": "primary",
       "dates": {
         "signed": "2026-03-27",
-        "effective": "2027-01-01"
+        "effective": "2027-01-01",
+        "adopted": "2026-03-27"
       },
       "fetches": [
         {
@@ -1264,6 +1344,18 @@
           "final_url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08828&term=2025&Summary=Y&Actions=Y&Text=Y",
           "content_type": "text/html; charset=utf-8",
           "sha256": "fff361ca0b91342f",
+          "bytes": 54941
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:17Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08828&term=2025&Summary=Y&Actions=Y&Text=Y",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "b0a467c6f9d7ea64",
           "bytes": 54941
         }
       ],
@@ -1296,6 +1388,84 @@
           "id": "S-0033#5",
           "locator": "§2, new GBL §1422(3)(a)",
           "text": "a frontier developer shall report any critical safety incident pertaining to one or more of its frontier models to the office within seventy-two hours from a determination that a critical safety incident has occurred",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#6",
+          "locator": "Actions",
+          "text": "03/27/2026SIGNED CHAP.96",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#7",
+          "locator": "§2, new GBL §1420(9)(a)",
+          "text": "\"Frontier model\" means a foundation model that was trained using a quantity of computing power greater than",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#8",
+          "locator": "§2, new GBL §1420(9)(b)",
+          "text": "shall include computing for the original training run and for any subsequent fine-tuning, reinforcement learning, or other material modifications the developer applies to a preceding foundation model.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#9",
+          "locator": "§2, new GBL §1420(10)",
+          "text": "\"Large frontier developer\" means a frontier developer that together with its affiliates collectively had annual gross revenues in excess of five hundred million dollars in the preceding calendar year.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#10",
+          "locator": "§2, new GBL §1420(16)",
+          "text": "\"Office\" means an office within the department of financial services, which shall report to the superintendent of financial services and is tasked with implementation of this article.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#11",
+          "locator": "§2, new GBL §1421(2)(a)",
+          "text": "A large frontier developer shall review and, as appropriate, update its frontier AI framework at least once per year.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#12",
+          "locator": "§2, new GBL §1428(1)",
+          "text": "no large frontier developer may develop, deploy, or operate a frontier model, in whole or in part in New York state, without having a current disclosure statement filed with the office and paying the required share.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#13",
+          "locator": "§2, new GBL §1428(6)",
+          "text": "The office shall maintain and publish a list of large frontier developers who have filed disclosure statements, however such publication shall not include the contact information",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#14",
+          "locator": "§2, new GBL §1429",
+          "text": "The office is hereby authorized to adopt rules and regulations to implement the provisions of this article as needed.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#15",
+          "locator": "§2, new GBL §1429",
+          "text": "the office may consider additional reporting or publication requirements for information to facilitate safety and transparency, including but not limited to, post-critical safety incident information, sharing plans and protocols, and the transmission of frontier AI frameworks to the office.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#16",
+          "locator": "§3 (amending §3 of Chapter 699 of 2025)",
+          "text": "This act shall take effect [on the ninetieth day after it shall have become a law] January 1, 2027.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#17",
+          "locator": "§2, new GBL §1421(1)",
+          "text": "A large frontier developer shall write, implement, comply with, and clearly and conspicuously publish on its internet website a frontier AI framework",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#18",
+          "locator": "Whole text (searched)",
+          "text": "[Observation, not a quotation] Searched the chapter amendment for an independent or third-party audit requirement: none. §1421(1)(e) requires the framework to describe how the developer uses third parties to assess catastrophic risks, but no audit is mandated.",
           "retrieved": "2026-10-10"
         }
       ]
@@ -5070,6 +5240,12 @@
           "locator": "Press release body",
           "text": "The statute, Colorado SB24-205, requires AI “developers” and “deployers” to satisfy certain disclosure, reporting, and prevention requirements",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0111#3",
+          "locator": "Body",
+          "text": "The Justice Department moved to intervene in a lawsuit filed by artificial intelligence company xAI, challenging a new Colorado law that prohibits so-called “algorithmic discrimination.”",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -6838,6 +7014,1175 @@
           "id": "S-0149#1",
           "locator": "page body",
           "text": "The 4th UNESCO Global Forum on the Ethics of Artificial Intelligence (GFEAI 2026) will take place from 14 to 17 September 2026 in Riyadh, Saudi Arabia.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0150": {
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
+      "title": "SB-53 Artificial intelligence models: large developers (Chapter 138, Statutes of 2025), chaptered text",
+      "publisher": "California Legislative Information",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-09-29",
+        "published": "2025-09-29"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:13Z",
+          "run": "2026-10-10-baseline",
+          "via": "headless Chromium (Playwright) through the session proxy; leginfo.legislature.ca.gov serves a Cloudflare challenge to curl and to repeat automated fetches",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "a35daf8be0ae472f",
+          "bytes": 135421
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0150#1",
+          "locator": "Chapter header",
+          "text": "Approved by Governor September 29, 2025. Filed with Secretary of State September 29, 2025.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#2",
+          "locator": "BPC §22757.11(i)(1)",
+          "text": "“Frontier model” means a foundation model that was trained using a quantity of computing power greater than 10^26 integer or floating-point operations.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#3",
+          "locator": "BPC §22757.11(i)(2)",
+          "text": "The quantity of computing power described in paragraph (1) shall include computing for the original training run and for any subsequent fine-tuning, reinforcement learning, or other material modifications the developer applies to a preceding foundation model.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#4",
+          "locator": "BPC §22757.11(j)",
+          "text": "frontier developer” means a frontier developer that together with its affiliates collectively had annual gross revenues in excess of five hundred million dollars ($500,000,000) in the preceding calendar year.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#5",
+          "locator": "BPC §22757.12(a)",
+          "text": "A large frontier developer shall write, implement, comply with, and clearly and conspicuously publish on its internet website a frontier AI framework that applies to the large frontier developer’s frontier models",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#6",
+          "locator": "BPC §22757.12(a)(3)–(4)",
+          "text": "(3) Applying mitigations to address the potential for catastrophic risks based on the results of assessments undertaken pursuant to paragraph (2). (4) Reviewing assessments and adequacy of mitigations as part of the decision to deploy a frontier model or use it extensively internally.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#7",
+          "locator": "BPC §22757.12(b)(1)–(2)",
+          "text": "A large frontier developer shall review and, as appropriate, update its frontier AI framework at least once per year. (2) If a large frontier developer makes a material modification to its frontier AI framework, the large frontier developer shall clearly and conspicuously publish the modified frontier AI framework and a justification for that modification within 30 days.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#8",
+          "locator": "BPC §22757.12(c)(1)",
+          "text": "Before, or concurrently with, deploying a new frontier model or a substantially modified version of an existing frontier model, a frontier developer shall clearly and conspicuously publish on its internet website a transparency report containing all of the following:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#9",
+          "locator": "BPC §22757.12(d)",
+          "text": "A large frontier developer shall transmit to the Office of Emergency Services a summary of any assessment of catastrophic risk resulting from internal use of its frontier models every three months",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#10",
+          "locator": "BPC §22757.13(c)(1)",
+          "text": "a frontier developer shall report any critical safety incident pertaining to one or more of its frontier models to the Office of Emergency Services within 15 days of discovering the critical safety incident.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#11",
+          "locator": "BPC §22757.13(c)(2)",
+          "text": "If a frontier developer discovers that a critical safety incident poses an imminent risk of death or serious physical injury, the frontier developer shall disclose that incident within 24 hours to an authority",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#12",
+          "locator": "BPC §22757.15(a)",
+          "text": "A large frontier developer that fails to publish or transmit a compliant document required to be published or transmitted under this chapter … shall be subject to a civil penalty in an amount dependent upon the severity of the violation that does not exceed one million dollars ($1,000,000) per violation.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#13",
+          "locator": "BPC §22757.15(b)",
+          "text": "A civil penalty described in this section shall be recovered in a civil action brought only by the Attorney General.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#14",
+          "locator": "Legislative Counsel's Digest",
+          "text": "prohibit a frontier developer from making, adopting, enforcing, or entering into a rule, regulation, policy, or contract that prevents a covered employee, as defined, from disclosing, or retaliates against a covered employee for disclosing, information to the Attorney General",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#15",
+          "locator": "Gov. Code §11546.8(a) and Digest",
+          "text": "There is hereby established within the Government Operations Agency a consortium that shall develop, pursuant to this section, a framework for the creation of a public cloud computing cluster to be known as “CalCompute.”",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#16",
+          "locator": "Legislative Counsel's Digest (CalCompute)",
+          "text": "The bill would make those provisions operative only upon an appropriation in a budget act, or other measure, for its purposes.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#17",
+          "locator": "Whole chaptered text (searched)",
+          "text": "[Observation, not a quotation] Searched the chaptered text for an independent or third-party audit requirement: none. Large frontier developers must describe how they use third parties to assess catastrophic risks in their framework (§22757.12(a)(5)), but no audit is mandated.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0151": {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&sectionNum=SEC.%208.&article=IV",
+      "title": "California Constitution, Article IV, Section 8",
+      "publisher": "California Legislative Information",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:14Z",
+          "run": "2026-10-10-baseline",
+          "via": "headless Chromium (Playwright) through the session proxy; leginfo.legislature.ca.gov serves a Cloudflare challenge to curl and to repeat automated fetches",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "f36359706a6d364c",
+          "bytes": 165433
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0151#1",
+          "locator": "Art. IV §8(c)(1)",
+          "text": "a statute enacted at a regular session shall go into effect on January 1 next following a 90-day period from the date of enactment of the statute",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0152": {
+      "url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf",
+      "title": "Executive Order N-9-26 (AI safety and security)",
+      "publisher": "Governor of California",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-09-18",
+        "effective": "2026-09-18"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:14Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf",
+          "content_type": "application/pdf",
+          "sha256": "ea398613db19dd4e",
+          "bytes": 161419
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0152#1",
+          "locator": "Recitals",
+          "text": "I signed first-in-the-nation legislation, Senate Bill 53, addressing frontier AI trust and safety, which built on the recommendations included in the report released by the AI researchers and experts earlier that year and established baseline requirements for deploying safe, secure, and trustworthy artificial intelligence, which took effect this year",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0152#2",
+          "locator": "Order ¶1",
+          "text": "No later than May 1, 2027, the Government Operations Agency shall complete the requirements of Section 8898.1 of the Government Code and develop application requirements, procedures, and criteria for independent verification organizations",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0152#3",
+          "locator": "Order ¶3",
+          "text": "The Government Operations Agency, in consultation with the Governor’s Office of Emergency Services, shall, no later than November 16, 2026, submit to my office recommendations, developed in consultation with national experts, addressing the technical feasibility and potential efficacy of amendments to existing state laws regarding AI safety and security",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0152#4",
+          "locator": "Order ¶3(a), (c)",
+          "text": "Requiring that all large frontier developers embed designated independent verification organizations onsite in their labs to conduct periodic audits and evaluations. … Requiring the creation of a “kill switch” for frontier models",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0153": {
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB813",
+      "title": "SB-813 Independent verification organizations (Chapter 179, Statutes of 2026)",
+      "publisher": "California Legislative Information",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-09-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:15Z",
+          "run": "2026-10-10-baseline",
+          "via": "headless Chromium (Playwright) through the session proxy; leginfo.legislature.ca.gov serves a Cloudflare challenge to curl and to repeat automated fetches",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "6b41416d67d3f0bd",
+          "bytes": 91911
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0153#1",
+          "locator": "Chapter header",
+          "text": "Approved by Governor September 09, 2026.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0153#2",
+          "locator": "Gov. Code §8898(e)",
+          "text": "“Independent verification organization” or “IVO” means an AI auditor that is designated by the agency as having demonstrated expertise in assessing the risks posed by an AI system or model",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0153#3",
+          "locator": "Gov. Code §8898.1",
+          "text": "On or before January 1, 2028, the agency shall do all of the following: (a) Develop application requirements for designation as an IVO",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0154": {
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1405",
+      "title": "AB-1405 Artificial intelligence: auditors: registration (Chapter 178, Statutes of 2026)",
+      "publisher": "California Legislative Information",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-09-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:16Z",
+          "run": "2026-10-10-baseline",
+          "via": "headless Chromium (Playwright) through the session proxy; leginfo.legislature.ca.gov serves a Cloudflare challenge to curl and to repeat automated fetches",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "3e863d16984d5baa",
+          "bytes": 100471
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0154#1",
+          "locator": "Chapter header",
+          "text": "Approved by Governor September 09, 2026.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0154#2",
+          "locator": "Legislative Counsel's Digest",
+          "text": "This bill would require the Government Operations Agency to, no later than January 1, 2029, establish an AI Auditor Registry on the agency’s internet website allowing AI auditors to register with the agency",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0155": {
+      "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+      "title": "Governor Newsom issues executive order to accelerate independent oversight and advance the creation of an AI kill switch",
+      "publisher": "Office of the Governor of California",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-18"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:16Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "6bc2829a609c5554",
+          "bytes": 307402
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0155#1",
+          "locator": "Decisive action to strengthen AI oversight",
+          "text": "Last week, Governor Newsom signed legislation creating first-in-the-nation safeguards and accountability measures to strengthen California’s nation-leading framework.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0156": {
+      "url": "https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/",
+      "title": "California's nation-leading AI framework just got stronger: Governor Newsom signs more first-in-the-nation worker protections and more",
+      "publisher": "Office of the Governor of California",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-30"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:16Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "37e7f0d9da001ba5",
+          "bytes": 324762
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0156#1",
+          "locator": "List of signed bills",
+          "text": "AB 2713 by Assemblymember Buffy Wicks (D-Oakland) — California AI Transparency Act: system provenance data.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0156#2",
+          "locator": "List of signed bills",
+          "text": "SB 947 by Senator Jerry McNerney (D-Pleasanton) — Employment: automated decision systems.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0157": {
+      "url": "https://www.governor.ny.gov/news/ai-safety-governor-hochul-announces-next-steps-regulate-major-ai-developers-and-protect-new",
+      "title": "AI Safety: Governor Hochul Announces Next Steps to Regulate Major AI Developers and Protect New Yorkers",
+      "publisher": "Office of the Governor of New York",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-21"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:20Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.governor.ny.gov/news/ai-safety-governor-hochul-announces-next-steps-regulate-major-ai-developers-and-protect-new",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "0f70c65349e951e2",
+          "bytes": 60271
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0157#1",
+          "locator": "Opening",
+          "text": "Starting in November, New York will direct large frontier AI developers to register with the State and prepare for compliance with strict requirements on transparency, safety, and incident reporting as prescribed by the RAISE Act.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0157#2",
+          "locator": "Opening",
+          "text": "Beginning January 2027, AI companies will be required to comply with those strict standards and provide regular reporting to the state’s new Office of Digital Innovation, Governance, Integrity and Trust (DIGIT) established within the New York State Department of Financial Services (DFS).",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0157#3",
+          "locator": "RAISE Act requirements",
+          "text": "Register with DIGIT, file a disclosure statement at least every other year, starting January 1, 2027, and pay assessments.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0158": {
+      "url": "https://ag.ny.gov/press-release/2026/industry-alert-attorney-general-james-urges-workers-knowledge-unsafe-ai",
+      "title": "Industry Alert: Attorney General James Urges Workers With Knowledge of Unsafe AI Development to File Whistleblower Complaints",
+      "publisher": "Office of the New York Attorney General",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-17"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:20Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://ag.ny.gov/press-release/2026/industry-alert-attorney-general-james-urges-workers-knowledge-unsafe-ai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "1f31a1570fd88b5d",
+          "bytes": 46642
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0158#1",
+          "locator": "Body",
+          "text": "goes into effect on January 1, 2027 and requires large AI developers to publicly disclose their safety measures and swiftly report security and safety incidents.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0159": {
+      "url": "https://leg.colorado.gov/bills/sb26-189",
+      "title": "SB26-189 Automated Decision-Making Technology (bill page)",
+      "publisher": "Colorado General Assembly",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-05-14",
+        "effective": "2027-01-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:21Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl with browser User-Agent and Accept headers; leg.colorado.gov answers HTTP 406 to the research fetcher's User-Agent",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "625cc9a4b25a8d50",
+          "bytes": 123414
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0159#1",
+          "locator": "Bill Summary",
+          "text": "The act repeals and reenacts those provisions with new requirements regarding the use of automated decision-making technology in consequential decisions.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0159#2",
+          "locator": "Bill Summary",
+          "text": "starting January 1, 2027, to provide a deployer of a covered ADMT (deployer) with technical documentation describing the covered ADMT's intended uses, categories of training data, known limitations, and instructions for appropriate use and human review.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0159#3",
+          "locator": "Bill Summary",
+          "text": "The attorney general is directed to enforce the act through the 'Colorado Consumer Protection Act', and a violation of the act is deemed a deceptive trade practice.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0159#4",
+          "locator": "Bill history",
+          "text": "05/14/2026 Governor Governor Signed",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0160": {
+      "url": "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download",
+      "title": "Session Laws of Colorado 2026, Chapter 131 (SB 26-189)",
+      "publisher": "Colorado General Assembly",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-05-14",
+        "effective": "2027-01-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:21Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download",
+          "content_type": "application/pdf",
+          "sha256": "cba54050dcbe4b4d",
+          "bytes": 142316
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0160#1",
+          "locator": "Section 1",
+          "text": "In Colorado Revised Statutes, repeal and reenact, with amendments, part 17 of article 1 of title 6 as follows:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#2",
+          "locator": "CRS 6-1-1702(1)",
+          "text": "ON AND AFTER JANUARY 1, 2027, A DEVELOPER SHALL MAKE AVAILABLE TO EACH DEPLOYER OF A COVERED ADMT DEVELOPED BY THE DEVELOPER",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#3",
+          "locator": "CRS 6-1-1704(1)",
+          "text": "THE DEPLOYER SHALL PROVIDE A CLEAR AND CONSPICUOUS NOTICE TO A CONSUMER THAT THE DEPLOYER USED OR WILL USE A COVERED ADMT IN A CONSEQUENTIAL DECISION AFFECTING THE CONSUMER",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#4",
+          "locator": "CRS 6-1-1704(3)",
+          "text": "IF A DEPLOYER USES A COVERED ADMT TO MATERIALLY INFLUENCE A CONSEQUENTIAL DECISION THAT RESULTS IN AN ADVERSE OUTCOME FOR A CONSUMER, THE DEPLOYER SHALL PROVIDE WITHIN THIRTY DAYS AFTER MAKING THE DECISION",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#5",
+          "locator": "CRS 6-1-1705(1)(a)(II)",
+          "text": "AN OPPORTUNITY FOR MEANINGFUL HUMAN REVIEW AND RECONSIDERATION OF THE CONSEQUENTIAL DECISION, TO THE EXTENT COMMERCIALLY REASONABLE.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#6",
+          "locator": "CRS 6-1-1706(1)(b)",
+          "text": "VIOLATIONS OF THE DISCLOSURE REQUIREMENTS AND CONSUMER RIGHTS DESCRIBED IN SECTIONS 6-1-1702, 6-1-1703, 6-1-1704, AND 6-1-1705 ARE ENFORCEABLE EXCLUSIVELY BY THE ATTORNEY GENERAL",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#7",
+          "locator": "CRS 6-1-1706(2)(a)",
+          "text": "A VIOLATION OF THIS PART 17 IS A DECEPTIVE TRADE PRACTICE AND IS SUBJECT TO THE PROVISIONS OF THE \"COLORADO CONSUMER PROTECTION ACT\"",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#8",
+          "locator": "CRS 6-1-1706(3)(b)–(c)",
+          "text": "IF THE DEVELOPER OR DEPLOYER FAILS TO CURE A VIOLATION WITHIN SIXTY … DAYS AFTER RECEIPT OF A NOTICE OF VIOLATION, THE ATTORNEY GENERAL MAY BRING AN ACTION PURSUANT TO THIS SECTION.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#9",
+          "locator": "CRS 6-1-1706(3)(c)",
+          "text": "IF THE ATTORNEY GENERAL FINDS AND CAN DEMONSTRATE THAT A DEVELOPER OR DEPLOYER KNOWINGLY VIOLATED THIS PART 17 OR A DEVELOPER OR DEPLOYER REPEATEDLY VIOLATED THIS PART 17, THE ATTORNEY GENERAL IS NOT REQUIRED TO PROVIDE A CURE PERIOD BEFORE SEEKING PENALTIES OR OTHER RELIEF.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#10",
+          "locator": "CRS 6-1-1706(3)(f)",
+          "text": "THIS SUBSECTION (3) IS REPEALED, EFFECTIVE JANUARY 1, 2030.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#11",
+          "locator": "CRS 6-1-1706(4)",
+          "text": "NOTHING IN THIS PART 17 CREATES A NEW PRIVATE RIGHT OF ACTION.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#12",
+          "locator": "CRS 6-1-1704(4)(b)",
+          "text": "ON OR BEFORE JANUARY 1, 2027, THE ATTORNEY GENERAL SHALL ADOPT RULES TO CLARIFY AND IMPLEMENT THE POST-ADVERSE OUTCOME DISCLOSURE REQUIREMENTS",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#13",
+          "locator": "Section 5",
+          "text": "Except as otherwise provided in subsection (2) of this section, this act takes effect January 1, 2027.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#14",
+          "locator": "Section 5(3) and approval",
+          "text": "This act applies to consequential decisions made on or after January 1, 2027.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#15",
+          "locator": "Whole session law (searched)",
+          "text": "[Observation, not a quotation] Searched the text of Chapter 131 for \"impact assessment\", \"reasonable care\", \"risk management\" and \"algorithmic discrimination\": none appears. The reenacted part 17 contains no duty of care, impact-assessment or risk-management-program requirement.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0161": {
+      "url": "https://leg.colorado.gov/bills/sb25b-004",
+      "title": "SB25B-004 Increase Transparency for Algorithmic Systems (bill page)",
+      "publisher": "Colorado General Assembly",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-08-28",
+        "effective": "2025-11-25"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:23Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl with browser User-Agent and Accept headers; leg.colorado.gov answers HTTP 406 to the research fetcher's User-Agent",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "baf13696580bcbc8",
+          "bytes": 131822
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0161#1",
+          "locator": "Bill Summary",
+          "text": "The act extends the effective date of the requirements of Senate Bill 24-205 to June 30, 2026.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0162": {
+      "url": "https://leg.colorado.gov/bills/sb24-205",
+      "title": "SB24-205 Consumer Protections for Artificial Intelligence (bill page)",
+      "publisher": "Colorado General Assembly",
+      "type": "primary",
+      "dates": {
+        "adopted": "2024-05-17"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:23Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl with browser User-Agent and Accept headers; leg.colorado.gov answers HTTP 406 to the research fetcher's User-Agent",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "0753795f0a3980d3",
+          "bytes": 116074
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0162#1",
+          "locator": "Bill Summary",
+          "text": "On and after February 1, 2026, the act requires a developer of a high-risk artificial intelligence system (high-risk system) to use reasonable care to protect consumers from any known or reasonably foreseeable risks of algorithmic discrimination in the high-risk system.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0162#2",
+          "locator": "Bill Summary",
+          "text": "Implementing a risk management policy and program for the high-risk system; Completing an impact assessment of the high-risk system;",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0163": {
+      "url": "https://www.courtlistener.com/docket/73171074/x-ai-llc-v-weiser/",
+      "title": "X. AI LLC v. Weiser, No. 1:26-cv-01515 (D. Colo.), docket (RECAP mirror of the PACER docket)",
+      "publisher": "CourtListener / Free Law Project (court docket entries)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-04-27"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:23Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.courtlistener.com/docket/73171074/x-ai-llc-v-weiser/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "9cded69c6fe600fd",
+          "bytes": 152737
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0163#1",
+          "locator": "ECF No. 24, Minute Order, 27 Apr 2026",
+          "text": "The defendant shall not initiate enforcement, including but not limited to the initiation of an investigation, for alleged violations of SB24-205 (or any legislation replacing or amending SB24-205 enacted during this legislative session)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0163#2",
+          "locator": "ECF No. 24",
+          "text": "xAI shall submit a motion for preliminary injunction and, if necessary, file an amended complaint, within 28 days after final adoption of rulemaking implementing SB24-205 or any legislation that may replace or amend SB24-205.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0164": {
+      "url": "https://coag.gov/ai/",
+      "title": "Colorado Automated Decision-Making Technology & Chatbot Safety Rulemaking",
+      "publisher": "Colorado Attorney General (Department of Law)",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:24Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://coag.gov/ai/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "8101d2d3cfe3dd42",
+          "bytes": 69307
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0164#1",
+          "locator": "Rulemaking",
+          "text": "On August 11, 2026, the DOL filed the Automated Decision-Making Technology & Conversational Artificial Intelligence Service rules (docx) (the “ADMT and Chatbot Safety Rules”) with the Secretary of State.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0164#2",
+          "locator": "Rulemaking",
+          "text": "You may submit written comments using the comment form below through October 26, 2026.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0164#3",
+          "locator": "Overview",
+          "text": "House Bill 26-1263 was signed into law on July 1, 2026 and goes effect January 1, 2027.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0165": {
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149F.pdf",
+      "title": "H.B. No. 149 (89th Legislature), enrolled text (Texas Responsible Artificial Intelligence Governance Act)",
+      "publisher": "Texas Legislature Online",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-06-22",
+        "effective": "2026-01-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:25Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149F.pdf",
+          "content_type": "application/pdf",
+          "sha256": "85dabe34dc99c02e",
+          "bytes": 191805
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0165#1",
+          "locator": "Bus. & Com. Code §552.052",
+          "text": "not develop or deploy an artificial intelligence system in a manner that intentionally aims to incite or encourage a person to:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0165#2",
+          "locator": "Bus. & Com. Code §552.053",
+          "text": "not use or deploy an artificial intelligence system that evaluates or classifies a natural person or group of natural persons based on",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0165#3",
+          "locator": "Bus. & Com. Code §552.101(a)",
+          "text": "general has exclusive authority to enforce this chapter, except to the extent provided by Section 552.106.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0165#4",
+          "locator": "Bus. & Com. Code §552.103(a)",
+          "text": "If the attorney general receives a complaint through the online mechanism under Section 552.102 alleging a violation of this chapter, the attorney general may issue a civil investigative demand",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0165#5",
+          "locator": "Bus. & Com. Code §552.105(a)",
+          "text": "violates this chapter and does not cure the violation under Section 552.104 is liable to this state for a civil penalty in an amount of:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0165#6",
+          "locator": "Bus. & Com. Code §552.105(a)(2)–(3)",
+          "text": "uncurable, not less than $80,000 and not more than $200,000; and",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0165#7",
+          "locator": "Bus. & Com. Code §552.105(a)(3)",
+          "text": "and not more than $40,000 for each day the violation continues.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0165#8",
+          "locator": "Gov. Code §554.103",
+          "text": "adopt rules or promulgate guidance that is binding for any entity;",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0165#9",
+          "locator": "Section 10",
+          "text": "This Act takes effect January 1, 2026.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0166": {
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
+      "title": "Texas Legislature Online: History, H.B. 149 (89R)",
+      "publisher": "Texas Legislature Online",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-06-22",
+        "effective": "2026-01-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:26Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "a8eb8eb5eda2c00f",
+          "bytes": 86763
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0166#1",
+          "locator": "Last Action",
+          "text": "06/22/2025 E Effective on 1/1/26",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0166#2",
+          "locator": "Caption Text",
+          "text": "Relating to regulation of the use of artificial intelligence systems in this state; providing civil penalties.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0167": {
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149I.pdf",
+      "title": "H.B. No. 149 (89th Legislature), introduced text",
+      "publisher": "Texas Legislature Online",
+      "type": "primary",
+      "dates": {
+        "published": "2025-03-14"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:27Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149I.pdf",
+          "content_type": "application/pdf",
+          "sha256": "510db2fbf6563a2a",
+          "bytes": 182572
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0167#1",
+          "locator": "Page 1 heading",
+          "text": "A BILL TO BE ENTITLED",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0167#2",
+          "locator": "Introduced §551.056 heading",
+          "text": "POLITICAL VIEWPOINT DISCRIMINATION",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0167#3",
+          "locator": "Section structure (compared)",
+          "text": "[Observation, not a quotation] The introduced text numbers the prohibitions as Chapter 551 and includes provisions (e.g. §551.056 political viewpoint discrimination, §551.108 consumer rights and remedies) that the enrolled text (HB00149F) does not contain; the enrolled chapter is 552.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0168": {
+      "url": "https://le.utah.gov/~2024/bills/static/SB0149.html",
+      "title": "Utah S.B. 149 (2024 General Session) Artificial Intelligence Amendments",
+      "publisher": "Utah State Legislature",
+      "type": "primary",
+      "dates": {
+        "adopted": "2024-03-13"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:28Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl with a CA file = session CA bundle + the issuing intermediate fetched from the certificate's AIA URL (the site omits its intermediate, so default verification fails); chain verified to a trusted root",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "02db4dfb7fcc9c53",
+          "bytes": 48574
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0168#1",
+          "locator": "Bill heading",
+          "text": "S.B. 149 Artificial Intelligence Amendments",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0168#2",
+          "locator": "Information",
+          "text": "Last Action: 13 Mar 2024, Governor Signed",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0169": {
+      "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=315&GAID=18&DocTypeID=SB&SessionID=114",
+      "title": "Illinois General Assembly: Bill Status of SB 315 (104th GA)",
+      "publisher": "Illinois General Assembly",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-07-06",
+        "effective": "2027-01-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:28Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl with a CA file = session CA bundle + the issuing intermediate fetched from the certificate's AIA URL (the site omits its intermediate, so default verification fails); chain verified to a trusted root",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "cf733752caa614dd",
+          "bytes": 181269
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0169#1",
+          "locator": "Actions",
+          "text": "Governor Approved 7/06/2026 Senate Effective Date January 1, 2027",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0169#2",
+          "locator": "Actions",
+          "text": "Public Act . . . . . . . . . 104-0538",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0170": {
+      "url": "https://www.ilga.gov/Documents/Legislation/PublicActs/104/PDF/104-0538.pdf",
+      "title": "Illinois Public Act 104-0538 (SB 315 enrolled): Artificial Intelligence Safety Measures Act",
+      "publisher": "Illinois General Assembly",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-07-06",
+        "effective": "2027-01-01",
+        "applies_from": "2028-01-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:28Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl with a CA file = session CA bundle + the issuing intermediate fetched from the certificate's AIA URL (the site omits its intermediate, so default verification fails); chain verified to a trusted root",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "f10cd7d854d5a6e1",
+          "bytes": 219503
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0170#1",
+          "locator": "Section 1",
+          "text": "This Act may be cited as the Artificial Intelligence Safety Measures Act.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#2",
+          "locator": "Section 5, \"Frontier model\"",
+          "text": "means a foundation model that was trained using a quantity of computing power greater than",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#3",
+          "locator": "Section 5, \"Large frontier developer\"",
+          "text": "that, together with its affiliates, collectively had annual gross revenues in excess of $500,000,000 in the preceding calendar year.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#4",
+          "locator": "Section 5, \"Agency\"",
+          "text": "\"Agency\" means the Illinois Emergency Management Agency",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#5",
+          "locator": "Section 10(a)",
+          "text": "Beginning January 1, 2028, a large frontier developer … shall write, implement, comply with, and clearly and conspicuously publish on its website a frontier AI framework",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#6",
+          "locator": "Section 10(b)(1)",
+          "text": "A large frontier developer shall review and, as appropriate, update its frontier AI framework at least once per year.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#7",
+          "locator": "Section 10(c)(1)",
+          "text": "Before, or concurrently with, deploying a new frontier model or a substantially modified version of an existing frontier model, a frontier developer shall clearly and conspicuously publish on its website a transparency report",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#8",
+          "locator": "Section 10(d)",
+          "text": "Beginning on January 1, 2028 or 90 days after a developer first qualifies as a large frontier developer, whichever is later, a large frontier developer shall annually retain a third party to perform an independent audit of compliance with the requirements of this Section.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#9",
+          "locator": "Section 15(c)",
+          "text": "the Agency and the Attorney General within 72 hours of the frontier developer learning facts sufficient to establish a reasonable belief that a critical safety incident has occurred.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#10",
+          "locator": "Section 18(a)",
+          "text": "beginning January 1, 2027, no large frontier developer may develop, deploy, or operate a frontier model, in whole or in part in this State, without having a current disclosure statement filed with the Agency and paying the required fee.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#11",
+          "locator": "Section 25(a)",
+          "text": "shall be subject to a civil penalty in an amount dependent upon the severity of the violation that does not exceed $1,000,000 for the first violation. For a subsequent violation, the civil penalty may not exceed $3,000,000 per violation.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#12",
+          "locator": "Section 25(b)",
+          "text": "A civil penalty described in this Section shall be recovered in a civil action brought exclusively by the Attorney General.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#13",
+          "locator": "Section 99",
+          "text": "This Act takes effect January 1, 2027.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0171": {
+      "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&which_year=2026&bill_num=5",
+      "title": "Connecticut General Assembly: Bill status, SB 5 (2026)",
+      "publisher": "Connecticut General Assembly",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-05-27"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:30Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl with a CA file = session CA bundle + the issuing intermediate fetched from the certificate's AIA URL (the site omits its intermediate, so default verification fails); chain verified to a trusted root",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "4c8ab4a63b540ca1",
+          "bytes": 80813
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0171#1",
+          "locator": "Bill History",
+          "text": "5/27/2026 Signed by the Governor",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0171#2",
+          "locator": "Bill History",
+          "text": "Public Act 26-15",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0172": {
+      "url": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00015-R00SB-00005-PA.PDF",
+      "title": "Connecticut Public Act No. 26-15, An Act Concerning Online Safety",
+      "publisher": "Connecticut General Assembly",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-05-27",
+        "effective": "2026-10-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:30Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl with a CA file = session CA bundle + the issuing intermediate fetched from the certificate's AIA URL (the site omits its intermediate, so default verification fails); chain verified to a trusted root",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "98052c119778bff6",
+          "bytes": 362657
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0172#1",
+          "locator": "Sec. 2(a)(8)",
+          "text": "\"Frontier developer\" means any person doing business in the state who intends to train, initiates the training of or trains a foundation model",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0172#2",
+          "locator": "Sec. 2(b)",
+          "text": "No frontier developer shall make, adopt, enforce or enter into any rule, regulation, policy or contract that provides that:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0172#3",
+          "locator": "Sec. 2(e)",
+          "text": "shall be liable to the state for a civil penalty in an amount that does not exceed one thousand dollars per violation.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0173": {
+      "url": "https://www.legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4668",
+      "title": "Michigan Legislature: House Bill 4668 of 2025 (history)",
+      "publisher": "Michigan Legislature",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:28:30Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4668",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "762daa01a640f45b",
+          "bytes": 30411
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0173#1",
+          "locator": "History (latest entry)",
+          "text": "re-referred to Committee on Communications and Technology",
           "retrieved": "2026-10-10"
         }
       ]

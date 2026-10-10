@@ -1,5 +1,5 @@
 {
-  "next": 55,
+  "next": 67,
   "proposals": [
     {
       "id": "P-0001",
@@ -7434,6 +7434,1340 @@
             "text:layer-1:tooltip"
           ],
           "hash": "c6ae155f8cbc"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0055",
+      "fingerprint": "b5fd256dd57e",
+      "targets": [
+        "entry:ca-sb53:context",
+        "entry:ca-sb53:cov:timing"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:28:32Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "SB 53: transparency reports are per deployment, not annual; 15-day window is not the tightest state window",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "ca-sb53",
+              "field": "context",
+              "from": "Requires 'large frontier developers' to publish a frontier safety framework, report critical safety incidents within 15 days, and submit annual transparency reports. Whistleblower protections for employees flagging safety issues. The first US state law to codify the published-framework norm — explicitly anchors against Layer 6 lab frameworks rather than reinventing obligations.",
+              "to": "Requires 'large frontier developers' to publish a frontier safety framework, report critical safety incidents within 15 days, and publish transparency reports when deploying new or substantially modified frontier models. Whistleblower protections for employees flagging safety issues. The first US state law to codify the published-framework norm — explicitly anchors against Layer 6 lab frameworks rather than reinventing obligations."
+            },
+            {
+              "op": "set_cov",
+              "entity": "ca-sb53",
+              "cat": "timing",
+              "from": "Critical safety incidents must be reported within 15 days; annual transparency reports are required. The 15-day window is the tightest in any US state law.",
+              "to": "Critical safety incidents must be reported to the Office of Emergency Services within 15 days (24 hours to an appropriate authority if there is an imminent risk of death or serious injury). Transparency reports are due before or with each new or substantially modified frontier model; frameworks are reviewed at least annually; internal-use risk summaries go to OES every three months. NY RAISE's 72-hour window is tighter."
+            }
+          ],
+          "why": "Readers are told SB 53 requires annual transparency reports and has the tightest incident window of any state law; the statute ties transparency reports to deployments, and New York RAISE (72 hours) and Illinois (72 hours) are tighter.",
+          "rationale": "BPC §22757.12(c)(1) requires a transparency report \"before, or concurrently with, deploying\" a new or substantially modified frontier model; §22757.12(b)(1) sets the annual framework review; §22757.12(d) the three-monthly internal-use summaries; §22757.13(c)(1)–(2) the 15-day and 24-hour incident windows. RAISE §1422(3)(a) sets 72 hours, so 15 days is not the tightest; the map's own ny-raise timing note already says RAISE is tighter.",
+          "evidence": [
+            {
+              "source": "S-0150",
+              "passage": "S-0150#8",
+              "stance": "supports",
+              "supports": "transparency reports are tied to deployment of new or substantially modified models"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#7",
+              "stance": "supports",
+              "supports": "framework review at least once per year"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#9",
+              "stance": "supports",
+              "supports": "three-monthly internal-use risk summaries to OES"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#10",
+              "stance": "supports",
+              "supports": "15-day incident reporting to OES"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#11",
+              "stance": "supports",
+              "supports": "24-hour disclosure for imminent risk of death or serious injury"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#5",
+              "stance": "supports",
+              "supports": "RAISE sets a 72-hour window, tighter than 15 days"
+            }
+          ],
+          "uncertainty": "None on the statutory text. The sentence about RAISE compares two enacted texts.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:ny-raise:cov:timing": "checked, still accurate (72 hours, tighter than SB 53)",
+            "entry:ca-sb53:cov:acct": "needs change — see ca-sb53-acct"
+          },
+          "unverified_carryover": [
+            "The first US state law to codify the published-framework norm — explicitly anchors against Layer 6 lab frameworks rather than reinventing obligations."
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:context",
+            "entry:eu-aia:cov:thresh",
+            "entry:kr-ai:cov:thresh",
+            "entry:ny-raise:desc",
+            "entry:ny-raise:context",
+            "entry:ny-raise:cov:thresh",
+            "entry:ny-raise:cov:mit",
+            "entry:ny-raise:cov:timing",
+            "entry:ny-raise:cov:update",
+            "entry:seoul-commit:context",
+            "entry:rsp:context",
+            "entry:rsp:cov:thresh",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:metr:cov:thresh",
+            "edge:us-preempt|ca-sb53",
+            "edge:ca-sb53|rsp",
+            "edge:ca-sb53|prep",
+            "edge:ca-sb53|fsf",
+            "edge:ca-sb53|meta-faif",
+            "edge:ny-raise|ca-sb53",
+            "gap:timing",
+            "gap:acct",
+            "gap:update",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:how-is-california-sb-53-different-from-the-ny-ra",
+            "text:footer-sources",
+            "text:gap-default"
+          ],
+          "hash": "2ba1127e8f08"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0056",
+      "fingerprint": "3270fcdb152a",
+      "targets": [
+        "entry:ca-sb53:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:28:32Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "SB 53: transparency reports are published, not sent to the AG; incident reports go to OES",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "ca-sb53",
+              "cat": "acct",
+              "from": "Frameworks must be published and kept current; transparency reports go to the AG; whistleblower protections cover employees flagging safety issues. Codifies the published-framework norm into binding state law.",
+              "to": "Frameworks and transparency reports must be published on the developer's website; incident reports and internal-use risk summaries go to the Office of Emergency Services; the AG brings civil-penalty actions and receives whistleblower disclosures. Codifies the published-framework norm into binding state law."
+            }
+          ],
+          "why": "The note sends readers to the wrong institution: SB 53 transparency reports are public website documents and incident reports go to Cal OES; the AG enforces penalties.",
+          "rationale": "§22757.12(a) and (c)(1) require publication on the developer's website; §22757.12(d) and §22757.13(c)(1) route internal-use summaries and incident reports to the Office of Emergency Services; §22757.15(b) reserves penalty actions to the AG; the Labor Code chapter protects disclosures to the AG.",
+          "evidence": [
+            {
+              "source": "S-0150",
+              "passage": "S-0150#5",
+              "stance": "supports",
+              "supports": "frameworks published on the developer website"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#8",
+              "stance": "supports",
+              "supports": "transparency reports published on the developer website"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#9",
+              "stance": "supports",
+              "supports": "internal-use summaries go to OES"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#10",
+              "stance": "supports",
+              "supports": "incident reports go to OES"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#13",
+              "stance": "supports",
+              "supports": "AG alone brings civil-penalty actions"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#14",
+              "stance": "supports",
+              "supports": "whistleblower disclosures to the AG are protected"
+            }
+          ],
+          "uncertainty": "None on the text.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "Codifies the published-framework norm into binding state law."
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:context",
+            "entry:eu-aia:cov:thresh",
+            "entry:kr-ai:cov:thresh",
+            "entry:ny-raise:desc",
+            "entry:ny-raise:context",
+            "entry:ny-raise:cov:thresh",
+            "entry:ny-raise:cov:mit",
+            "entry:ny-raise:cov:timing",
+            "entry:ny-raise:cov:update",
+            "entry:seoul-commit:context",
+            "entry:rsp:context",
+            "entry:rsp:cov:thresh",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:metr:cov:thresh",
+            "edge:us-preempt|ca-sb53",
+            "edge:ca-sb53|rsp",
+            "edge:ca-sb53|prep",
+            "edge:ca-sb53|fsf",
+            "edge:ca-sb53|meta-faif",
+            "edge:ny-raise|ca-sb53",
+            "gap:timing",
+            "gap:acct",
+            "gap:update",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:how-is-california-sb-53-different-from-the-ny-ra",
+            "text:footer-sources",
+            "text:gap-default"
+          ],
+          "hash": "277b7a82c5d5"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0057",
+      "fingerprint": "223ea374c4bc",
+      "targets": [
+        "entry:ca-sb53:cov:thresh"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:28:32Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "SB 53 thresholds are tiered: 10²⁶ FLOPs alone triggers transparency and incident duties",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "ca-sb53",
+              "cat": "thresh",
+              "from": "Eligibility for the law's obligations: cumulative compute >10²⁶ FLOPs and revenue >$500M. Below these thresholds developers are exempt — the law explicitly targets the largest frontier developers, anchoring against Anthropic, OpenAI, Google, Microsoft, Meta, and xAI.",
+              "to": "Two tiers: 'frontier developers' (training compute >10²⁶ FLOPs, including fine-tuning) must publish transparency reports and report critical safety incidents; 'large frontier developers' (also >$500M revenue) carry the framework, risk-summary and civil-penalty provisions. Developers below 10²⁶ FLOPs are exempt — the law targets the largest frontier developers, anchoring against Anthropic, OpenAI, Google, Microsoft, Meta, and xAI."
+            }
+          ],
+          "why": "The note says developers below the $500M revenue threshold are exempt; the statute imposes transparency-report and incident-reporting duties on every frontier developer above 10²⁶ FLOPs regardless of revenue.",
+          "rationale": "§22757.11(i) defines frontier model by >10²⁶ operations including fine-tuning; (j) adds the $500M revenue test only for large frontier developers. §22757.12(c)(1) (transparency reports) and §22757.13(c)(1) (incidents) apply to \"a frontier developer\"; §22757.12(a) (framework), (d) (internal-use summaries) and §22757.15 (penalties) apply to \"a large frontier developer\".",
+          "evidence": [
+            {
+              "source": "S-0150",
+              "passage": "S-0150#2",
+              "stance": "supports",
+              "supports": "compute threshold"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#3",
+              "stance": "supports",
+              "supports": "compute includes fine-tuning and later modifications"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#4",
+              "stance": "supports",
+              "supports": "revenue threshold defines large frontier developers only"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#8",
+              "stance": "supports",
+              "supports": "transparency reports apply to all frontier developers"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#10",
+              "stance": "supports",
+              "supports": "incident reporting applies to all frontier developers"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#12",
+              "stance": "supports",
+              "supports": "civil penalty applies to large frontier developers"
+            }
+          ],
+          "uncertainty": "The named-company list is the existing analytic claim, kept unchanged.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "anchoring against Anthropic, OpenAI, Google, Microsoft, Meta, and xAI"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:context",
+            "entry:eu-aia:cov:thresh",
+            "entry:kr-ai:cov:thresh",
+            "entry:ny-raise:desc",
+            "entry:ny-raise:context",
+            "entry:ny-raise:cov:thresh",
+            "entry:ny-raise:cov:mit",
+            "entry:ny-raise:cov:timing",
+            "entry:ny-raise:cov:update",
+            "entry:seoul-commit:context",
+            "entry:rsp:context",
+            "entry:rsp:cov:thresh",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:metr:cov:thresh",
+            "edge:us-preempt|ca-sb53",
+            "edge:ca-sb53|rsp",
+            "edge:ca-sb53|prep",
+            "edge:ca-sb53|fsf",
+            "edge:ca-sb53|meta-faif",
+            "edge:ny-raise|ca-sb53",
+            "gap:timing",
+            "gap:acct",
+            "gap:update",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:how-is-california-sb-53-different-from-the-ny-ra",
+            "text:footer-sources",
+            "text:gap-default"
+          ],
+          "hash": "0dd9c49e33f5"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0058",
+      "fingerprint": "7ac07254e7f0",
+      "targets": [
+        "entry:co-aia:context",
+        "entry:co-aia:cov:mit",
+        "entry:co-aia:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:28:33Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Colorado SB 26-189 is more than consumer disclosure: developer documentation, human review rights, AG enforcement of rights",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "co-aia",
+              "field": "context",
+              "from": "The original Colorado AI Act would have imposed duty-of-care and algorithmic-impact-assessment duties on developers and deployers of 'high-risk AI systems' for consequential decisions. After federal preemption pressure (xAI litigation, DOJ intervention, April 27 court stay), Colorado repealed the law and replaced it with SB 26-189 — a narrower regime requiring consumer disclosure when AI is used in consequential decisions, without the impact-assessment, duty-of-care, or risk-management obligations of the original. Marks a retreat from the comprehensive state-AI-regulation template.",
+              "to": "The original Colorado AI Act would have imposed duty-of-care and algorithmic-impact-assessment duties on developers and deployers of 'high-risk AI systems' for consequential decisions. After federal preemption pressure (xAI litigation, DOJ intervention, April 27 court stay), Colorado repealed the law and replaced it with SB 26-189 — a narrower regime of developer documentation, consumer notice, post-adverse-decision explanations and rights to correction and human review when automated decision-making technology is used in consequential decisions, without the impact-assessment, duty-of-care, or risk-management obligations of the original. Marks a retreat from the comprehensive state-AI-regulation template."
+            },
+            {
+              "op": "set_cov",
+              "entity": "co-aia",
+              "cat": "mit",
+              "from": "Narrower than the original SB 24-205: SB 26-189 requires consumer disclosure when AI is used in consequential decisions but drops the duty of care and impact-assessment regime that drew the federal preemption challenge.",
+              "to": "Narrower than the original SB 24-205: SB 26-189 requires developer documentation, consumer notice, post-adverse-decision explanations and human review on request when automated decision-making technology is used in consequential decisions, but drops the duty of care and impact-assessment regime that drew the federal preemption challenge."
+            },
+            {
+              "op": "set_cov",
+              "entity": "co-aia",
+              "cat": "acct",
+              "from": "AG enforcement of disclosure obligations only; the duty-of-care and impact-assessment regime that defined the original Colorado AI Act is gone.",
+              "to": "AG enforcement of the disclosure duties and consumer rights as deceptive trade practices (60-day cure notice until 2030); no private right of action. The duty-of-care and impact-assessment regime that defined the original Colorado AI Act is gone."
+            }
+          ],
+          "why": "The entry presents SB 26-189 as disclosure-only. The enacted text also obliges developers to document covered systems for deployers and gives consumers correction and human-review rights, which the AG enforces as deceptive trade practices; that matters for the pow classification question.",
+          "rationale": "Chapter 131 (session law) §6-1-1702 (developer documentation), §6-1-1704(1),(3) (notice; 30-day adverse-outcome explanation), §6-1-1705(1)(a)(II) (human review), §6-1-1706(1)(b),(2)(a),(3) (AG-exclusive enforcement of disclosure requirements and consumer rights; deceptive trade practice; 60-day cure, repealed 2030), §6-1-1706(4) (no private right). The repeal of impact assessment, duty of care and risk management is confirmed by their absence from the reenacted part 17.",
+          "evidence": [
+            {
+              "source": "S-0160",
+              "passage": "S-0160#1",
+              "stance": "supports",
+              "supports": "repeal and reenactment of part 17"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#2",
+              "stance": "supports",
+              "supports": "developer documentation duty"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#3",
+              "stance": "supports",
+              "supports": "consumer notice"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#4",
+              "stance": "supports",
+              "supports": "post-adverse-outcome explanation"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#5",
+              "stance": "supports",
+              "supports": "human review and reconsideration right"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#6",
+              "stance": "supports",
+              "supports": "AG enforces disclosure requirements and consumer rights"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#7",
+              "stance": "supports",
+              "supports": "deceptive trade practice"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#8",
+              "stance": "supports",
+              "supports": "60-day cure"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#10",
+              "stance": "supports",
+              "supports": "cure subsection repealed 1 Jan 2030"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#11",
+              "stance": "supports",
+              "supports": "no private right of action"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#15",
+              "stance": "supports",
+              "supports": "no impact assessment, duty of care or risk-management program"
+            },
+            {
+              "source": "S-0159",
+              "passage": "S-0159#2",
+              "stance": "supports",
+              "supports": "official summary of developer documentation duty"
+            },
+            {
+              "source": "S-0163",
+              "passage": "S-0163#1",
+              "stance": "supports",
+              "supports": "27 Apr 2026 order barring enforcement"
+            },
+            {
+              "source": "S-0111",
+              "passage": "S-0111#3",
+              "stance": "supports",
+              "supports": "DOJ intervention"
+            }
+          ],
+          "uncertainty": "Causal framing (\"after federal preemption pressure\") and \"retreat\" are analytic; the litigation facts are confirmed by the docket and DOJ release.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:co-aia:desc": "checked, still accurate (\"narrower transparency/consumer-disclosure framework\" is a fair summary)",
+            "entry:co-aia": "pow question raised separately — see co-aia-pow"
+          },
+          "unverified_carryover": [
+            "After federal preemption pressure (xAI litigation, DOJ intervention, April 27 court stay), Colorado repealed the law",
+            "Marks a retreat from the comprehensive state-AI-regulation template.",
+            "that drew the federal preemption challenge"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:tx-raiga:cov:mit",
+            "edge:us-preempt|co-aia",
+            "edge:co-doi|co-aia",
+            "gap:mit",
+            "faq:which-ai-laws-are-binding-with-penalties"
+          ],
+          "hash": "586ce0d51cc7"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0059",
+      "fingerprint": "5bf4bf4a94c9",
+      "targets": [
+        "entry:ny-raise:cov:thresh"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:28:33Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "RAISE thresholds after Chapter 96: no $100M compute test remains",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "ny-raise",
+              "cat": "thresh",
+              "from": "Eligibility: >10²⁶ FLOPs cumulative compute + >$500M revenue + >$100M compute investment. The Mar 2026 chapter amendments aligned the revenue/compute thresholds with California SB 53 instead of the original training-cost-only definition.",
+              "to": "Eligibility: >10²⁶ FLOPs training compute (including fine-tuning) + >$500M annual revenue. The Mar 2026 chapter amendments aligned the thresholds with California SB 53, replacing the original $100M compute-cost tests."
+            }
+          ],
+          "why": "The note lists a \">$100M compute investment\" criterion that the chapter amendment removed; developers reading it would misjudge whether they are covered.",
+          "rationale": "Chapter 96 of 2026 (S8828) repeals and re-adds Article 44-B: \"frontier model\" is >10²⁶ operations including fine-tuning, and \"large frontier developer\" adds only the $500M revenue test. The $100M figures appear only in the original S6953-B definitions (frontier-model compute cost; large developer aggregate compute spend).",
+          "evidence": [
+            {
+              "source": "S-0033",
+              "passage": "S-0033#7",
+              "stance": "supports",
+              "supports": "compute threshold"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#8",
+              "stance": "supports",
+              "supports": "compute includes fine-tuning"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#9",
+              "stance": "supports",
+              "supports": "revenue threshold"
+            },
+            {
+              "source": "S-0031",
+              "passage": "S-0031#4",
+              "stance": "supports",
+              "supports": "original $100M compute-cost test"
+            },
+            {
+              "source": "S-0031",
+              "passage": "S-0031#5",
+              "stance": "supports",
+              "supports": "original $100M aggregate compute-spend test"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#4",
+              "stance": "supports",
+              "supports": "same $500M test as SB 53"
+            }
+          ],
+          "uncertainty": "None.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:cov:thresh",
+            "entry:kr-ai:cov:thresh",
+            "entry:seoul-commit:context",
+            "entry:co-doi:context",
+            "edge:us-preempt|ny-raise",
+            "edge:ny-raise|ca-sb53",
+            "edge:co-doi|ny-raise",
+            "edge:ny-raise|rsp",
+            "gap:timing",
+            "gap:acct",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:how-is-california-sb-53-different-from-the-ny-ra",
+            "text:footer-sources",
+            "text:gap-default"
+          ],
+          "hash": "9aaee452fd3c"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0060",
+      "fingerprint": "e563554c820b",
+      "targets": [
+        "entry:ny-raise:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:28:33Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "RAISE: the office publishes a list of registered developers, not a registry of frameworks; office named DIGIT",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "ny-raise",
+              "cat": "acct",
+              "from": "Department of Financial Services oversight office — the first US state-level body with dedicated authority over frontier general-purpose AI developers (sectoral AI regulators like the Colorado Division of Insurance, which has overseen insurance-sector algorithms since 2023, predate it). Plus AG enforcement and a public registry of frontier developer frameworks.",
+              "to": "Department of Financial Services oversight office (DIGIT) — the first US state-level body with dedicated authority over frontier general-purpose AI developers (sectoral AI regulators like the Colorado Division of Insurance, which has overseen insurance-sector algorithms since 2023, predate it). Plus AG enforcement and a published list of large frontier developers that have filed disclosure statements."
+            }
+          ],
+          "why": "The statute does not create a public registry of frameworks: developers publish frameworks on their own websites and the office publishes a list of developers that have filed disclosure statements. The state named the office DIGIT in Sep 2026.",
+          "rationale": "GBL §1421(1) (frameworks on the developer's website), §1428(1),(6) (disclosure statements; office publishes a list of filers), §1429 (office may consider requiring transmission of frameworks to it, so none is required now). The Governor's 21 Sep 2026 release names the office DIGIT within DFS and says registration starts in November 2026.",
+          "evidence": [
+            {
+              "source": "S-0033",
+              "passage": "S-0033#17",
+              "stance": "supports",
+              "supports": "frameworks are published on developer websites"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#12",
+              "stance": "supports",
+              "supports": "disclosure statements filed with the office"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#13",
+              "stance": "supports",
+              "supports": "office publishes a list of filers"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#15",
+              "stance": "supports",
+              "supports": "transmission of frameworks to the office is only an option for future rules"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#10",
+              "stance": "supports",
+              "supports": "office within DFS"
+            },
+            {
+              "source": "S-0157",
+              "passage": "S-0157#2",
+              "stance": "supports",
+              "supports": "office named DIGIT"
+            },
+            {
+              "source": "S-0157",
+              "passage": "S-0157#1",
+              "stance": "supports",
+              "supports": "registration from November 2026"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#4",
+              "stance": "supports",
+              "supports": "AG enforcement"
+            }
+          ],
+          "uncertainty": "The \"first US state-level body\" claim is comparative and was not verified.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "the first US state-level body with dedicated authority over frontier general-purpose AI developers (sectoral AI regulators like the Colorado Division of Insurance, which has overseen insurance-sector algorithms since 2023, predate it)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:cov:thresh",
+            "entry:kr-ai:cov:thresh",
+            "entry:seoul-commit:context",
+            "entry:co-doi:context",
+            "edge:us-preempt|ny-raise",
+            "edge:ny-raise|ca-sb53",
+            "edge:co-doi|ny-raise",
+            "edge:ny-raise|rsp",
+            "gap:timing",
+            "gap:acct",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:how-is-california-sb-53-different-from-the-ny-ra",
+            "text:footer-sources",
+            "text:gap-default"
+          ],
+          "hash": "aacca920f0a7"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0061",
+      "fingerprint": "94933ec2d02e",
+      "targets": [
+        "entry:tx-raiga"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:28:33Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "TRAIGA link points to the introduced bill, not the enacted text",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "tx-raiga",
+              "field": "link",
+              "from": "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149I.pdf",
+              "to": "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149F.pdf"
+            }
+          ],
+          "why": "The linked PDF is the introduced version of HB 149, which differs from the law (different chapter numbering, provisions such as political-viewpoint discrimination and consumer remedies that were dropped). Readers checking penalties or prohibitions should land on the enrolled text.",
+          "rationale": "TLO serves the enrolled text as HB00149F.pdf (signed 22 Jun 2025, effective 1 Jan 2026 per the TLO history); HB00149I.pdf is headed \"A BILL TO BE ENTITLED\" and contains provisions absent from the enrolled text.",
+          "evidence": [
+            {
+              "source": "S-0167",
+              "passage": "S-0167#1",
+              "stance": "supports",
+              "supports": "linked file is the introduced bill"
+            },
+            {
+              "source": "S-0167",
+              "passage": "S-0167#2",
+              "stance": "supports",
+              "supports": "introduced text contains a provision absent from the law"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#9",
+              "stance": "supports",
+              "supports": "enrolled text with the effective date"
+            },
+            {
+              "source": "S-0166",
+              "passage": "S-0166#1",
+              "stance": "supports",
+              "supports": "signed and effective dates"
+            }
+          ],
+          "uncertainty": "None.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "faq:which-ai-laws-are-binding-with-penalties"
+          ],
+          "hash": "b015e456c09a"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0062",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:28:33Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Colorado SB 26-189 carries AG-enforced civil penalties against developers and deployers: pow 3 or 4?",
+          "kind": "flag",
+          "changes": [],
+          "why": "The FAQ lists Colorado as penalty-bearing while the entry is pow 3 (RUBRIC §4 open item).",
+          "rationale": "Session law Chapter 131 §6-1-1706(1)–(3) and §2 (adding CRS 6-1-105(1)(uuuu)).",
+          "evidence": [
+            {
+              "source": "S-0160",
+              "passage": "S-0160#7",
+              "stance": "supports",
+              "supports": "violation is a deceptive trade practice under the CCPA"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#9",
+              "stance": "supports",
+              "supports": "AG may seek penalties against developers or deployers"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#6",
+              "stance": "supports",
+              "supports": "AG-exclusive enforcement"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#13",
+              "stance": "supports",
+              "supports": "effective 1 Jan 2027"
+            }
+          ],
+          "uncertainty": "The CCPA penalty amounts (CRS 6-1-112) were not retrieved; the session law itself refers to penalties and civil penalties.",
+          "confidence": "medium",
+          "question": "SB 26-189 makes any violation a deceptive trade practice under the Colorado Consumer Protection Act, enforceable by the AG against developers and deployers, and refers to civil penalties (cure notice may be skipped for knowing or repeated violations \"before seeking penalties\"). RUBRIC §4 gives pow 4 to a statute able to impose penalties on developers or deployers. Options: (a) raise co-aia to pow 4 (consistent with ca-sb53/ny-raise and with the FAQ's penalty-bearing list); (b) keep pow 3 because obligations are narrow (disclosure and consumer rights, 60-day cure until 2030, no private right) and the law is not yet in force (1 Jan 2027) — then reword the FAQ; (c) keep pow 3 until the AG rules (due by 1 Jan 2027) are final. Recommendation: (a), since the rubric test is the availability of penalties, not their breadth.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0063",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:28:33Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "TRAIGA carries AG-enforced civil penalties up to $200,000 per violation against developers and deployers: pow 3 or 4?",
+          "kind": "flag",
+          "changes": [],
+          "why": "The FAQ lists Texas as penalty-bearing while the entry is pow 3 (RUBRIC §4 open item).",
+          "rationale": "Enrolled HB 149, Bus. & Com. Code §§552.052, 552.101, 552.104–552.106; Section 10 effective date.",
+          "evidence": [
+            {
+              "source": "S-0165",
+              "passage": "S-0165#1",
+              "stance": "supports",
+              "supports": "prohibition reaches developers and deployers"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#5",
+              "stance": "supports",
+              "supports": "civil penalty liability"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#6",
+              "stance": "supports",
+              "supports": "penalty amounts for uncurable violations"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#7",
+              "stance": "supports",
+              "supports": "daily penalties"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#3",
+              "stance": "supports",
+              "supports": "AG enforcement"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#9",
+              "stance": "supports",
+              "supports": "in force 1 Jan 2026"
+            }
+          ],
+          "uncertainty": "Classification judgment.",
+          "confidence": "medium",
+          "question": "TRAIGA (in force since 1 Jan 2026) lets the AG recover civil penalties of $10,000–12,000 per curable violation, $80,000–200,000 per uncurable violation and $2,000–40,000 per day for continuing violations from \"a person\" who violates the chapter, including persons who \"develop or deploy\" AI for prohibited purposes (after a 60-day cure notice); licensing agencies may add sanctions up to $100,000. RUBRIC §4 gives pow 4 to a statute able to impose penalties on developers or deployers. Options: (a) raise tx-raiga to pow 4; (b) keep pow 3 as a \"statute with narrow remedies\" (intent-based prohibitions, cure period, rebuttable presumption of reasonable care, no liability for undeployed systems) and reword the FAQ. Recommendation: (a) on the rubric's wording; (b) is defensible only if the maintainer reads \"weak enforcement\" to cover narrow, intent-based prohibitions.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0064",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:28:33Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "SCOPE §C: keep co-aia (now an ADMT consumer-protection statute) as a contextual entry?",
+          "kind": "flag",
+          "changes": [],
+          "why": "SCOPE §C asks the baseline audit to raise co-aia as a question.",
+          "rationale": "Bill page and session law: title \"Automated Decision-Making Technology\"; obligations attach to covered ADMT in consequential decisions; AG rulemaking page uses \"ADMT Act\".",
+          "evidence": [
+            {
+              "source": "S-0159",
+              "passage": "S-0159#1",
+              "stance": "supports",
+              "supports": "repeal and reenactment around ADMT in consequential decisions"
+            },
+            {
+              "source": "S-0164",
+              "passage": "S-0164#1",
+              "stance": "supports",
+              "supports": "AG implementing rules under way"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#15",
+              "stance": "supports",
+              "supports": "no frontier-specific duties"
+            }
+          ],
+          "uncertainty": "Inclusion is a maintainer decision.",
+          "confidence": "medium",
+          "question": "After SB 26-189 the Colorado entry is an automated-decision-making-technology statute: it reaches frontier/GPAI developers only when their systems are used to materially influence consequential decisions (education, employment, housing, lending, insurance, health care, government services), and it has no frontier-specific provision. Options: (a) keep as contextual (current tier) and rename to \"Colorado ADMT Act\" to match the enacted title used by the AG; (b) keep the name; (c) remove from the map. Recommendation: (a) — it remains the principal US state ADMT law that GPAI deployers must meet, and the AG calls it the ADMT Act.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0065",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:28:33Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "SCOPE §C: keep tx-raiga as a contextual entry?",
+          "kind": "flag",
+          "changes": [],
+          "why": "SCOPE §C asks the baseline audit to raise tx-raiga as a question.",
+          "rationale": "Enrolled HB 149 §§552.052–552.057, 553, 554.",
+          "evidence": [
+            {
+              "source": "S-0165",
+              "passage": "S-0165#1",
+              "stance": "supports",
+              "supports": "prohibition reaches developers and deployers of any AI system"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#2",
+              "stance": "supports",
+              "supports": "government social-scoring prohibition"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#8",
+              "stance": "supports",
+              "supports": "council has no binding authority"
+            }
+          ],
+          "uncertainty": "Inclusion is a maintainer decision.",
+          "confidence": "medium",
+          "question": "TRAIGA has no compute or revenue threshold and no frontier-specific duties; it prohibits a short list of intentional uses (manipulation to self-harm/crime, government social scoring, certain biometric capture, constitutional-rights infringement, intentional discrimination, sexual content involving minors) and creates a sandbox and an advisory council. Options: (a) keep as contextual (current tier); (b) remove. Recommendation: (a) — its developer/deployer prohibitions apply to GPAI systems offered in Texas and it is the main Republican-state comparator.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0066",
+      "fingerprint": "fb5e29d6aee4",
+      "targets": [
+        "new:il-aisma",
+        "edge:il-aisma|ca-sb53",
+        "edge:il-aisma|ny-raise"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:28:33Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Add Illinois Artificial Intelligence Safety Measures Act (SB 315, Public Act 104-0538)",
+          "kind": "addition",
+          "changes": [
+            {
+              "op": "add_entity",
+              "after": "ny-raise",
+              "entity": {
+                "id": "il-aisma",
+                "name": "Illinois AI Safety Measures Act",
+                "layer": 3,
+                "jur": "uss",
+                "pow": 4,
+                "status": "phasing",
+                "link": "https://www.ilga.gov/legislation/PublicActs/View/104-0538",
+                "desc": "SB 315 (Public Act 104-0538), signed Jul 6, 2026. Effective Jan 1, 2027; framework and annual independent-audit duties from Jan 1, 2028. >10²⁶ FLOPs, >$500M revenue. Penalties $1M / $3M.",
+                "context": "Third state frontier-AI statute, built on the SB 53 / RAISE template: large frontier developers publish a frontier AI framework, file disclosure statements, and report critical safety incidents to the Illinois Emergency Management Agency and the AG within 72 hours; all frontier developers publish transparency reports at deployment. Unlike SB 53 and RAISE, it requires large frontier developers to retain an independent third-party auditor every year. AG enforcement only.",
+                "cov": {
+                  "thresh": "Frontier developers: training compute >10²⁶ FLOPs (including fine-tuning). Large frontier developers: also >$500M annual revenue, matching SB 53 and RAISE.",
+                  "timing": "Critical safety incidents reported to the Illinois Emergency Management Agency and the AG within 72 hours; transparency reports before or with each new or substantially modified frontier model.",
+                  "acct": "Annual independent third-party audit of framework compliance from 2028, with a published summary; disclosure statements filed with the Agency from 2027; AG-only civil penalties up to $1M first / $3M subsequent.",
+                  "update": "Frameworks reviewed at least annually; material modifications published with a justification within 30 days."
+                }
+              }
+            },
+            {
+              "op": "add_edge",
+              "a": "il-aisma",
+              "b": "ca-sb53",
+              "rel": "Illinois Act adopts SB 53's compute and revenue thresholds and framework contents"
+            },
+            {
+              "op": "add_edge",
+              "a": "il-aisma",
+              "b": "ny-raise",
+              "rel": "Illinois Act shares RAISE's 72-hour incident window, disclosure statements and $1M / $3M penalties"
+            }
+          ],
+          "why": "A third US state enacted a frontier-AI statute on the SB 53 / RAISE model after the map snapshot, adding the first statutory annual third-party audit duty for frontier developers. It falls squarely in SCOPE B2 (other-state frontier statute enacted).",
+          "rationale": "ILGA bill status: Governor approved 7/06/2026, effective 1 Jan 2027, Public Act 104-0538. Public Act text: §1 title; §5 definitions (10²⁶ operations incl. fine-tuning; $500M; Agency = IEMA); §10(a) framework from 1 Jan 2028; §10(b) annual review, 30-day publication; §10(c) transparency reports; §10(d) annual independent audit from 2028; §15(c) 72-hour reporting to the Agency and AG; §18 disclosure statements from 2027; §25 penalties, AG-only; §99 effective date. Absence of audit duties in SB 53 and RAISE confirmed by searching both texts.",
+          "evidence": [
+            {
+              "source": "S-0169",
+              "passage": "S-0169#1",
+              "stance": "supports",
+              "supports": "signed 6 Jul 2026, effective 1 Jan 2027"
+            },
+            {
+              "source": "S-0169",
+              "passage": "S-0169#2",
+              "stance": "supports",
+              "supports": "Public Act number"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#1",
+              "stance": "supports",
+              "supports": "short title"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#2",
+              "stance": "supports",
+              "supports": "compute threshold"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#3",
+              "stance": "supports",
+              "supports": "revenue threshold"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#4",
+              "stance": "supports",
+              "supports": "Agency is IEMA"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#5",
+              "stance": "supports",
+              "supports": "framework from 2028"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#6",
+              "stance": "supports",
+              "supports": "annual review"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#7",
+              "stance": "supports",
+              "supports": "transparency reports at deployment"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#8",
+              "stance": "supports",
+              "supports": "annual independent audit"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#9",
+              "stance": "supports",
+              "supports": "72-hour reporting to Agency and AG"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#10",
+              "stance": "supports",
+              "supports": "disclosure statements from 2027"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#11",
+              "stance": "supports",
+              "supports": "$1M / $3M penalties"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#12",
+              "stance": "supports",
+              "supports": "AG-only enforcement"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#13",
+              "stance": "supports",
+              "supports": "effective date"
+            },
+            {
+              "source": "S-0150",
+              "passage": "S-0150#17",
+              "stance": "supports",
+              "supports": "SB 53 has no audit mandate"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#18",
+              "stance": "supports",
+              "supports": "RAISE has no audit mandate"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#5",
+              "stance": "supports",
+              "supports": "RAISE 72-hour window (edge)"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#4",
+              "stance": "supports",
+              "supports": "RAISE $1M / $3M (edge)"
+            }
+          ],
+          "uncertainty": "Layer, jur and pow follow the ca-sb53 / ny-raise precedent; status \"phasing\" follows ny-raise (adopted, obligations from 2027–2028). The audit-summary publication detail (§10(d)(4)) was read but not quoted.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:context",
+            "entry:eu-aia:cov:thresh",
+            "entry:kr-ai:cov:thresh",
+            "entry:ny-raise:desc",
+            "entry:ny-raise:context",
+            "entry:ny-raise:cov:thresh",
+            "entry:ny-raise:cov:mit",
+            "entry:ny-raise:cov:timing",
+            "entry:ny-raise:cov:update",
+            "entry:seoul-commit:context",
+            "entry:rsp:context",
+            "entry:rsp:cov:thresh",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:metr:cov:thresh",
+            "edge:us-preempt|ca-sb53",
+            "edge:ca-sb53|rsp",
+            "edge:ca-sb53|prep",
+            "edge:ca-sb53|fsf",
+            "edge:ca-sb53|meta-faif",
+            "edge:ny-raise|ca-sb53",
+            "gap:timing",
+            "gap:acct",
+            "gap:update",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:how-is-california-sb-53-different-from-the-ny-ra",
+            "text:footer-sources",
+            "text:gap-default",
+            "entry:co-doi:context",
+            "edge:us-preempt|ny-raise",
+            "edge:co-doi|ny-raise",
+            "edge:ny-raise|rsp"
+          ],
+          "hash": "9322fdc8b110"
         }
       ],
       "decision": {

@@ -357,6 +357,168 @@
           ]
         }
       ]
+    },
+    {
+      "area": "B2 California",
+      "summary": "No amendment to SB 53 (BPC §22757.10ff) found. New since June 2026: SB 813 (Ch. 179) and AB 1405 (Ch. 178), signed 9 Sep 2026, create a GovOps framework for designating independent verification organizations (by 1 Jan 2028) and an AI auditor registry (by 1 Jan 2029); EO N-9-26 (18 Sep 2026) accelerates SB 813 to 1 May 2027 and orders recommendations by 16 Nov 2026 on embedding IVOs in large frontier developers, independent verification of SB 53 documents, a frontier-model \"kill switch\" and loss-of-control incidents. Other AI bills signed 30 Sep 2026 (SB 947 employment ADS, AB 2713 provenance, health-care AI) are not frontier-specific. No AG enforcement action under SB 53 and no CalCompute appropriation found.",
+      "queries": [
+        "Newsom signs AI bills September 2026 frontier AI legislation signed vetoed",
+        "gov.ca.gov executive order N- 2026 artificial intelligence frontier safety",
+        "Cal OES critical safety incident reporting frontier developer SB 53 mechanism",
+        "CalCompute consortium 2026 appointed members Government Operations Agency budget appropriation",
+        "Bonta Transparency in Frontier Artificial Intelligence Act enforcement 2026",
+        "gov.ca.gov site search \"artificial intelligence\" and \"executive order N-9-26\""
+      ],
+      "limits": "leginfo.legislature.ca.gov read only through headless Chromium; Cal OES and AG pages not searched directly for SB 53 guidance; CalCompute status from search only.",
+      "candidates": [
+        {
+          "name": "EO N-9-26 (California AI safety EO, 18 Sep 2026)",
+          "result": "update to existing entry",
+          "reason": "Executive process aimed at amending SB 53 (recommendations due 16 Nov 2026); no new binding duty yet. Worth a context line on ca-sb53 once recommendations or a bill exist.",
+          "sources": [
+            "S-0152"
+          ]
+        },
+        {
+          "name": "SB 813 (2026) California AI Safety Independent Verification Organizations",
+          "result": "screened out",
+          "reason": "Creates a GovOps designation scheme for auditors; imposes no duty on developers. Revisit as a possible Layer 4 entry when GovOps designates IVOs or if the EO recommendations make IVO verification mandatory.",
+          "sources": [
+            "S-0153",
+            "S-0155"
+          ]
+        },
+        {
+          "name": "AB 1405 (2026) AI Auditor Registry",
+          "result": "screened out",
+          "reason": "General AI-auditor registration from 2029; not frontier-specific.",
+          "sources": [
+            "S-0154"
+          ]
+        },
+        {
+          "name": "SB 947, AB 2713 and other AI bills signed 30 Sep 2026",
+          "result": "screened out",
+          "reason": "Employment ADS, provenance, health-care and likeness laws; not material to frontier/GPAI governance at the map's level of detail.",
+          "sources": [
+            "S-0156"
+          ]
+        },
+        {
+          "name": "CalCompute (SB 53 §3)",
+          "result": "screened out",
+          "reason": "Operative only upon appropriation; no appropriation found; not mentioned on the map.",
+          "sources": [
+            "S-0150"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "B2 Colorado",
+      "summary": "SB 26-189 (already on the map) confirmed. AG filed proposed ADMT and chatbot rules on 11 Aug 2026; comments close 26 Oct 2026 (rules due by 1 Jan 2027). xAI v. Weiser remains stayed under the 27 Apr 2026 order; xAI must move for a PI within 28 days of final rules. HB 26-1263 Chatbot Safety Act signed 1 Jul 2026 (effective 1 Jan 2027).",
+      "queries": [
+        "xAI lawsuit Colorado AI Act stay April 2026 DOJ statement of interest",
+        "Colorado attorney general rulemaking automated decision-making technology SB 26-189 proposed rules 2026",
+        "SB 26-189 SB 24-205 June 30 2026 gap enforcement stay Colorado"
+      ],
+      "limits": "Proposed rule text (docx) not read; CRS 6-1-112 penalty amounts not retrieved.",
+      "candidates": [
+        {
+          "name": "Colorado AG ADMT rules (proposed 11 Aug 2026)",
+          "result": "update to existing entry",
+          "reason": "Implementing rules for co-aia; add once adopted (the adoption date also triggers xAI's PI deadline).",
+          "sources": [
+            "S-0164",
+            "S-0163"
+          ]
+        },
+        {
+          "name": "Colorado HB 26-1263 Chatbot Safety Act",
+          "result": "screened out",
+          "reason": "Companion/conversational AI consumer-protection statute (age estimation, disclosure, self-harm protocols, annual AG reports); applies to GPAI chatbots but is a child-safety measure outside the map's frontier focus. Maintainer may consider it with similar chatbot laws.",
+          "sources": [
+            "S-0164"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "B2 New York",
+      "summary": "RAISE office named DIGIT within DFS; registration of large frontier developers starts November 2026; deputy director appointed (Governor, 21 Sep 2026). AG whistleblower alert (17 Sep 2026). No further amendment to Article 44-B found; June 2026 legislative AI package (chatbots, data-center moratorium) reportedly awaiting the Governor and not frontier-specific.",
+      "queries": [
+        "DFS RAISE Act frontier developer disclosure statement registration office 2026",
+        "dfs.ny.gov frontier AI RAISE Act office large frontier developer disclosure (restricted to ny.gov domains)",
+        "New York legislature passed artificial intelligence bill June 2026 Hochul signed AI law 2026"
+      ],
+      "limits": "dfs.ny.gov and nysenate.gov serve Cloudflare challenges (curl and headless Chromium); DFS registration guidance and any DIGIT regulations not read. The \"Sep 2026 registration\" lead is in fact a Sep 2026 announcement of registration starting in November.",
+      "candidates": [
+        {
+          "name": "DIGIT office and November 2026 registration",
+          "result": "update to existing entry",
+          "reason": "Folded into ny-raise-acct (office name); registration timing could be added to ny-raise once DFS guidance is readable.",
+          "proposal": "P-0060",
+          "sources": [
+            "S-0157"
+          ]
+        },
+        {
+          "name": "NY June 2026 AI bills (companion chatbots for minors, data-center moratorium, AI hiring data)",
+          "result": "screened out",
+          "reason": "Not frontier-specific; status from secondary sources only.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "area": "B2 Texas",
+      "summary": "TRAIGA effective 1 Jan 2026 confirmed from the enrolled text and TLO history; penalties $10k–$200k per violation plus daily penalties. No 2026 amendment or TRAIGA enforcement action found.",
+      "queries": [
+        "Paxton TRAIGA enforcement action 2026 Texas Responsible Artificial Intelligence Governance Act civil investigative demand"
+      ],
+      "limits": "Texas AG TRAIGA complaint page not retrieved.",
+      "candidates": []
+    },
+    {
+      "area": "B2 other US states (frontier/GPAI statutes only)",
+      "summary": "Illinois enacted the Artificial Intelligence Safety Measures Act (SB 315, P.A. 104-0538, signed 6 Jul 2026): proposed as an addition. Connecticut P.A. 26-15 (SB 5, signed 27 May 2026) includes frontier-developer whistleblower provisions (§2, effective 1 Oct 2026) using SB 53's 10^26 / $500M definitions. Michigan HB 4668 has not passed. No other enacted or passed frontier statute found.",
+      "queries": [
+        "Illinois frontier AI safety law signed Pritzker 2026 large frontier developer",
+        "state frontier AI safety bill passed legislature 2026 RAISE SB 53 analogue Michigan Massachusetts New Jersey Pennsylvania",
+        "\"frontier\" AI bill signed governor August 2026 OR September 2026 state legislature catastrophic risk developers",
+        "Michigan AI Safety and Security Transparency Act HB 4668 2026 passed",
+        "2026 state legislature passes frontier model safety bill \"large frontier developer\""
+      ],
+      "limits": "Search-led; no systematic sweep of all 50 legislatures. ilga.gov, cga.ct.gov and le.utah.gov omit TLS intermediates; read with the AIA-fetched intermediate added to the CA file.",
+      "candidates": [
+        {
+          "name": "Illinois Artificial Intelligence Safety Measures Act (P.A. 104-0538)",
+          "result": "proposed",
+          "reason": "Enacted frontier statute on the SB 53/RAISE model with a first-of-its-kind annual audit duty.",
+          "proposal": "P-0066",
+          "sources": [
+            "S-0169",
+            "S-0170"
+          ]
+        },
+        {
+          "name": "Connecticut P.A. 26-15 §2 (frontier-developer whistleblower protections)",
+          "result": "screened out",
+          "reason": "Whistleblower-only analogue of part of SB 53 inside an omnibus online-safety act, signed 27 May 2026 (just before the snapshot), penalty $1,000 per violation. Maintainer may want it as a short L3 entry or a mention in ca-sb53 context.",
+          "sources": [
+            "S-0171",
+            "S-0172"
+          ]
+        },
+        {
+          "name": "Michigan HB 4668 (AI Safety and Security Transparency Act)",
+          "result": "screened out",
+          "reason": "Still in committee (re-referred 19 Mar 2026).",
+          "sources": [
+            "S-0173"
+          ]
+        }
+      ]
     }
   ],
   "usage": null

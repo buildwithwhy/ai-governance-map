@@ -7652,6 +7652,1001 @@
         "missing": "UNESCO Executive Board monitoring documents showing whether Member States must submit periodic implementation reports. If they must, 'imposes no reporting obligations' would be wrong.",
         "hash": "0eeddf2f01fc"
       }
+    },
+    "entry:ca-sb53": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0150",
+          "S-0151",
+          "S-0152"
+        ],
+        "proposals": [],
+        "note": "Chaptered SB 53 (Ch. 138, approved 29 Sep 2025) read via headless Chromium: Transparency in Frontier AI Act; >10^26 operations; $500M revenue (large frontier developers); penalty up to $1M per violation, AG only. No effective-date clause, so Cal. Const. art. IV §8(c)(1) gives 1 Jan 2026; EO N-9-26 (18 Sep 2026) confirms SB 53 \"took effect this year\". Link is the official chaptered text; pow 4 and status active consistent. No 2026 amendment to BPC §22757.10ff found.",
+        "missing": null,
+        "hash": "6267c81912d4"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0150",
+          "S-0151",
+          "S-0152"
+        ],
+        "proposals": [],
+        "note": "Chaptered SB 53 (Ch. 138, approved 29 Sep 2025) read via headless Chromium: Transparency in Frontier AI Act; >10^26 operations; $500M revenue (large frontier developers); penalty up to $1M per violation, AG only. No effective-date clause, so Cal. Const. art. IV §8(c)(1) gives 1 Jan 2026; EO N-9-26 (18 Sep 2026) confirms SB 53 \"took effect this year\". Link is the official chaptered text; pow 4 and status active consistent. No 2026 amendment to BPC §22757.10ff found.",
+        "missing": null,
+        "hash": "6267c81912d4"
+      }
+    },
+    "entry:ca-sb53:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0150",
+          "S-0151",
+          "S-0152"
+        ],
+        "proposals": [],
+        "note": "Chaptered SB 53 (Ch. 138, approved 29 Sep 2025) read via headless Chromium: Transparency in Frontier AI Act; >10^26 operations; $500M revenue (large frontier developers); penalty up to $1M per violation, AG only. No effective-date clause, so Cal. Const. art. IV §8(c)(1) gives 1 Jan 2026; EO N-9-26 (18 Sep 2026) confirms SB 53 \"took effect this year\". Link is the official chaptered text; pow 4 and status active consistent. No 2026 amendment to BPC §22757.10ff found.",
+        "missing": null,
+        "hash": "44113d9950d1"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0150",
+          "S-0151",
+          "S-0152"
+        ],
+        "proposals": [],
+        "note": "Chaptered SB 53 (Ch. 138, approved 29 Sep 2025) read via headless Chromium: Transparency in Frontier AI Act; >10^26 operations; $500M revenue (large frontier developers); penalty up to $1M per violation, AG only. No effective-date clause, so Cal. Const. art. IV §8(c)(1) gives 1 Jan 2026; EO N-9-26 (18 Sep 2026) confirms SB 53 \"took effect this year\". Link is the official chaptered text; pow 4 and status active consistent. No 2026 amendment to BPC §22757.10ff found.",
+        "missing": null,
+        "hash": "44113d9950d1"
+      }
+    },
+    "entry:ca-sb53:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0150",
+          "S-0033"
+        ],
+        "proposals": [
+          "P-0055"
+        ],
+        "note": "Transparency reports are due at each new/substantially modified deployment (§22757.12(c)), not annually; 15 days is not the tightest state window (RAISE 72 hours). Context otherwise accurate (framework publication, 15-day reporting, whistleblower protections); the closing analytic sentence is carried over unverified.",
+        "missing": null,
+        "hash": "a6ba6f13a611"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0150",
+          "S-0033"
+        ],
+        "proposals": [
+          "P-0055"
+        ],
+        "note": "Transparency reports are due at each new/substantially modified deployment (§22757.12(c)), not annually; 15 days is not the tightest state window (RAISE 72 hours). Context otherwise accurate (framework publication, 15-day reporting, whistleblower protections); the closing analytic sentence is carried over unverified.",
+        "missing": null,
+        "hash": "a6ba6f13a611"
+      }
+    },
+    "entry:ca-sb53:cov:timing": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0150",
+          "S-0033"
+        ],
+        "proposals": [
+          "P-0055"
+        ],
+        "note": "Transparency reports are due at each new/substantially modified deployment (§22757.12(c)), not annually; 15 days is not the tightest state window (RAISE 72 hours). Context otherwise accurate (framework publication, 15-day reporting, whistleblower protections); the closing analytic sentence is carried over unverified.",
+        "missing": null,
+        "hash": "e8cdfbe4eb0a"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0150",
+          "S-0033"
+        ],
+        "proposals": [
+          "P-0055"
+        ],
+        "note": "Transparency reports are due at each new/substantially modified deployment (§22757.12(c)), not annually; 15 days is not the tightest state window (RAISE 72 hours). Context otherwise accurate (framework publication, 15-day reporting, whistleblower protections); the closing analytic sentence is carried over unverified.",
+        "missing": null,
+        "hash": "e8cdfbe4eb0a"
+      }
+    },
+    "entry:ca-sb53:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0150"
+        ],
+        "proposals": [
+          "P-0056"
+        ],
+        "note": "Transparency reports are published, not sent to the AG; incident and internal-use reports go to Cal OES; AG enforces penalties.",
+        "missing": null,
+        "hash": "576bd959f558"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0150"
+        ],
+        "proposals": [
+          "P-0056"
+        ],
+        "note": "Transparency reports are published, not sent to the AG; incident and internal-use reports go to Cal OES; AG enforces penalties.",
+        "missing": null,
+        "hash": "576bd959f558"
+      }
+    },
+    "entry:ca-sb53:cov:thresh": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0150"
+        ],
+        "proposals": [
+          "P-0057"
+        ],
+        "note": "Thresholds are tiered: transparency and incident duties attach at 10^26 FLOPs regardless of revenue.",
+        "missing": null,
+        "hash": "3dc8773b032f"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0150"
+        ],
+        "proposals": [
+          "P-0057"
+        ],
+        "note": "Thresholds are tiered: transparency and incident duties attach at 10^26 FLOPs regardless of revenue.",
+        "missing": null,
+        "hash": "3dc8773b032f"
+      }
+    },
+    "entry:ca-sb53:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0150"
+        ],
+        "proposals": [],
+        "note": "Framework must address thresholds, mitigations and review of mitigations before deployment (§22757.12(a)(2)–(4)); annual review and 30-day publication of material modifications (§22757.12(b)). Coverage set (acct, mit, thresh, timing, update) is supported by the text.",
+        "missing": null,
+        "hash": "eb5f7934d3b4"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0150"
+        ],
+        "proposals": [],
+        "note": "Framework must address thresholds, mitigations and review of mitigations before deployment (§22757.12(a)(2)–(4)); annual review and 30-day publication of material modifications (§22757.12(b)). Coverage set (acct, mit, thresh, timing, update) is supported by the text.",
+        "missing": null,
+        "hash": "eb5f7934d3b4"
+      }
+    },
+    "entry:ca-sb53:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0150"
+        ],
+        "proposals": [],
+        "note": "Framework must address thresholds, mitigations and review of mitigations before deployment (§22757.12(a)(2)–(4)); annual review and 30-day publication of material modifications (§22757.12(b)). Coverage set (acct, mit, thresh, timing, update) is supported by the text.",
+        "missing": null,
+        "hash": "d17d2ddd8a06"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0150"
+        ],
+        "proposals": [],
+        "note": "Framework must address thresholds, mitigations and review of mitigations before deployment (§22757.12(a)(2)–(4)); annual review and 30-day publication of material modifications (§22757.12(b)). Coverage set (acct, mit, thresh, timing, update) is supported by the text.",
+        "missing": null,
+        "hash": "d17d2ddd8a06"
+      }
+    },
+    "entry:ca-sb53:cov:update": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0150"
+        ],
+        "proposals": [],
+        "note": "Framework must address thresholds, mitigations and review of mitigations before deployment (§22757.12(a)(2)–(4)); annual review and 30-day publication of material modifications (§22757.12(b)). Coverage set (acct, mit, thresh, timing, update) is supported by the text.",
+        "missing": null,
+        "hash": "0fff76228379"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0150"
+        ],
+        "proposals": [],
+        "note": "Framework must address thresholds, mitigations and review of mitigations before deployment (§22757.12(a)(2)–(4)); annual review and 30-day publication of material modifications (§22757.12(b)). Coverage set (acct, mit, thresh, timing, update) is supported by the text.",
+        "missing": null,
+        "hash": "0fff76228379"
+      }
+    },
+    "edge:ca-sb53|prep": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0150"
+        ],
+        "proposals": [],
+        "note": "SB 53 requires large frontier developers to publish frontier AI frameworks (confirmed). Whether OpenAI, Google DeepMind and Meta exemplified the norm, or publish SB 53 frameworks that \"cover\" their lab frameworks, was not checked here (Layer 6 sources belong to the L6 group).",
+        "missing": "comparative/analytic claim; not verifiable from sources. For meta-faif: a Meta publication stating that its Frontier AI Framework (or another document) is its SB 53 frontier AI framework.",
+        "hash": "7a526de38237"
+      }
+    },
+    "edge:ca-sb53|fsf": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0150"
+        ],
+        "proposals": [],
+        "note": "SB 53 requires large frontier developers to publish frontier AI frameworks (confirmed). Whether OpenAI, Google DeepMind and Meta exemplified the norm, or publish SB 53 frameworks that \"cover\" their lab frameworks, was not checked here (Layer 6 sources belong to the L6 group).",
+        "missing": "comparative/analytic claim; not verifiable from sources. For meta-faif: a Meta publication stating that its Frontier AI Framework (or another document) is its SB 53 frontier AI framework.",
+        "hash": "ef72ba77c746"
+      }
+    },
+    "edge:ca-sb53|meta-faif": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0150"
+        ],
+        "proposals": [],
+        "note": "SB 53 requires large frontier developers to publish frontier AI frameworks (confirmed). Whether OpenAI, Google DeepMind and Meta exemplified the norm, or publish SB 53 frameworks that \"cover\" their lab frameworks, was not checked here (Layer 6 sources belong to the L6 group).",
+        "missing": "comparative/analytic claim; not verifiable from sources. For meta-faif: a Meta publication stating that its Frontier AI Framework (or another document) is its SB 53 frontier AI framework.",
+        "hash": "ce4d64e9e84b"
+      }
+    },
+    "edge:ny-raise|ca-sb53": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0031",
+          "S-0150"
+        ],
+        "proposals": [],
+        "note": "Chapter 96 of 2026 replaced RAISE's $100M compute-cost tests with SB 53's definitions (>10^26 operations incl. fine-tuning; $500M revenue), word for word.",
+        "missing": null,
+        "hash": "6fe9e28e9952"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0031",
+          "S-0150"
+        ],
+        "proposals": [],
+        "note": "Chapter 96 of 2026 replaced RAISE's $100M compute-cost tests with SB 53's definitions (>10^26 operations incl. fine-tuning; $500M revenue), word for word.",
+        "missing": null,
+        "hash": "6fe9e28e9952"
+      }
+    },
+    "edge:ny-raise|rsp": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0007",
+          "S-0030"
+        ],
+        "proposals": [],
+        "note": "RAISE framework duty (GBL §1421(1)) takes effect 1 Jan 2027 (Ch. 96 §3). Anthropic's RSP v3 announcement names the RAISE Act among requirements it addresses through documentation including its Frontier Compliance Framework; its SB 53 post says the RSP remains a separate voluntary policy.",
+        "missing": null,
+        "hash": "e4beae709135"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0007",
+          "S-0030"
+        ],
+        "proposals": [],
+        "note": "RAISE framework duty (GBL §1421(1)) takes effect 1 Jan 2027 (Ch. 96 §3). Anthropic's RSP v3 announcement names the RAISE Act among requirements it addresses through documentation including its Frontier Compliance Framework; its SB 53 post says the RSP remains a separate voluntary policy.",
+        "missing": null,
+        "hash": "e4beae709135"
+      }
+    },
+    "entry:co-aia": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0159",
+          "S-0160"
+        ],
+        "proposals": [
+          "P-0062",
+          "P-0064"
+        ],
+        "note": "Link (official bill page) works in a browser; name, layer, jur and status (adopted 14 May 2026, applies from 1 Jan 2027) consistent. pow 3 is questionable: violations are deceptive trade practices with AG-sought penalties against developers and deployers — raised as a flag. The enacted title is \"Automated Decision-Making Technology\" (see co-aia-tier).",
+        "missing": "Maintainer decision on pow (co-aia-pow) and naming/tier (co-aia-tier).",
+        "hash": "35651d112574"
+      }
+    },
+    "entry:co-aia:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0159",
+          "S-0160"
+        ],
+        "proposals": [],
+        "note": "SB 26-189 repeals and reenacts part 17 (SB 24-205), signed 14 May 2026, takes effect 1 Jan 2027 (§5). \"Narrower transparency/consumer-disclosure framework\" is a fair summary. Coverage set acct/mit/timing supported.",
+        "missing": null,
+        "hash": "9aeb5babcd4a"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0159",
+          "S-0160"
+        ],
+        "proposals": [],
+        "note": "SB 26-189 repeals and reenacts part 17 (SB 24-205), signed 14 May 2026, takes effect 1 Jan 2027 (§5). \"Narrower transparency/consumer-disclosure framework\" is a fair summary. Coverage set acct/mit/timing supported.",
+        "missing": null,
+        "hash": "9aeb5babcd4a"
+      }
+    },
+    "entry:co-aia:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0159",
+          "S-0160"
+        ],
+        "proposals": [],
+        "note": "SB 26-189 repeals and reenacts part 17 (SB 24-205), signed 14 May 2026, takes effect 1 Jan 2027 (§5). \"Narrower transparency/consumer-disclosure framework\" is a fair summary. Coverage set acct/mit/timing supported.",
+        "missing": null,
+        "hash": "0c2f7bd0c8b7"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0159",
+          "S-0160"
+        ],
+        "proposals": [],
+        "note": "SB 26-189 repeals and reenacts part 17 (SB 24-205), signed 14 May 2026, takes effect 1 Jan 2027 (§5). \"Narrower transparency/consumer-disclosure framework\" is a fair summary. Coverage set acct/mit/timing supported.",
+        "missing": null,
+        "hash": "0c2f7bd0c8b7"
+      }
+    },
+    "entry:co-aia:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0160",
+          "S-0159",
+          "S-0163",
+          "S-0111",
+          "S-0162"
+        ],
+        "proposals": [
+          "P-0058"
+        ],
+        "note": "Litigation facts confirmed: xAI v. Weiser (D. Colo., filed 9 Apr 2026), DOJ intervention (24 Apr), magistrate minute order of 27 Apr 2026 barring enforcement of SB 24-205 or replacement legislation pending a PI ruling. Original law's duty of care and impact assessments confirmed. The new law is broader than consumer disclosure (developer documentation, correction and human-review rights) and the AG enforces rights as well as disclosures.",
+        "missing": null,
+        "hash": "30e36c4b346b"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0160",
+          "S-0159",
+          "S-0163",
+          "S-0111",
+          "S-0162"
+        ],
+        "proposals": [
+          "P-0058"
+        ],
+        "note": "Litigation facts confirmed: xAI v. Weiser (D. Colo., filed 9 Apr 2026), DOJ intervention (24 Apr), magistrate minute order of 27 Apr 2026 barring enforcement of SB 24-205 or replacement legislation pending a PI ruling. Original law's duty of care and impact assessments confirmed. The new law is broader than consumer disclosure (developer documentation, correction and human-review rights) and the AG enforces rights as well as disclosures.",
+        "missing": null,
+        "hash": "30e36c4b346b"
+      }
+    },
+    "entry:co-aia:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0160",
+          "S-0159",
+          "S-0163",
+          "S-0111",
+          "S-0162"
+        ],
+        "proposals": [
+          "P-0058"
+        ],
+        "note": "Litigation facts confirmed: xAI v. Weiser (D. Colo., filed 9 Apr 2026), DOJ intervention (24 Apr), magistrate minute order of 27 Apr 2026 barring enforcement of SB 24-205 or replacement legislation pending a PI ruling. Original law's duty of care and impact assessments confirmed. The new law is broader than consumer disclosure (developer documentation, correction and human-review rights) and the AG enforces rights as well as disclosures.",
+        "missing": null,
+        "hash": "f04a61613a25"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0160",
+          "S-0159",
+          "S-0163",
+          "S-0111",
+          "S-0162"
+        ],
+        "proposals": [
+          "P-0058"
+        ],
+        "note": "Litigation facts confirmed: xAI v. Weiser (D. Colo., filed 9 Apr 2026), DOJ intervention (24 Apr), magistrate minute order of 27 Apr 2026 barring enforcement of SB 24-205 or replacement legislation pending a PI ruling. Original law's duty of care and impact assessments confirmed. The new law is broader than consumer disclosure (developer documentation, correction and human-review rights) and the AG enforces rights as well as disclosures.",
+        "missing": null,
+        "hash": "f04a61613a25"
+      }
+    },
+    "entry:co-aia:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0160",
+          "S-0159",
+          "S-0163",
+          "S-0111",
+          "S-0162"
+        ],
+        "proposals": [
+          "P-0058"
+        ],
+        "note": "Litigation facts confirmed: xAI v. Weiser (D. Colo., filed 9 Apr 2026), DOJ intervention (24 Apr), magistrate minute order of 27 Apr 2026 barring enforcement of SB 24-205 or replacement legislation pending a PI ruling. Original law's duty of care and impact assessments confirmed. The new law is broader than consumer disclosure (developer documentation, correction and human-review rights) and the AG enforces rights as well as disclosures.",
+        "missing": null,
+        "hash": "6963bbe65688"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0160",
+          "S-0159",
+          "S-0163",
+          "S-0111",
+          "S-0162"
+        ],
+        "proposals": [
+          "P-0058"
+        ],
+        "note": "Litigation facts confirmed: xAI v. Weiser (D. Colo., filed 9 Apr 2026), DOJ intervention (24 Apr), magistrate minute order of 27 Apr 2026 barring enforcement of SB 24-205 or replacement legislation pending a PI ruling. Original law's duty of care and impact assessments confirmed. The new law is broader than consumer disclosure (developer documentation, correction and human-review rights) and the AG enforces rights as well as disclosures.",
+        "missing": null,
+        "hash": "6963bbe65688"
+      }
+    },
+    "entry:co-aia:cov:timing": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0160",
+          "S-0161",
+          "S-0163"
+        ],
+        "proposals": [],
+        "note": "Effective 1 Jan 2027 confirmed; no lifecycle-review duty found. SB 25B-004 had moved SB 24-205's start to 30 Jun 2026; SB 26-189 was signed 14 May 2026, but its repeal-and-reenactment (§1) takes effect only on 1 Jan 2027 (§5(1)), and enforcement of SB 24-205 was barred by the 27 Apr 2026 court order. Whether SB 24-205's obligations formally applied from 30 Jun to 31 Dec 2026 is not settled by these texts.",
+        "missing": "An official statement (AG, legislative staff, court) on the status of SB 24-205 between 30 Jun 2026 and 1 Jan 2027; if none, reword to \"SB 26-189 was enacted before the original 30 Jun 2026 start date, and a court order barred enforcement of SB 24-205\".",
+        "hash": "5624f484aa49"
+      }
+    },
+    "entry:ny-raise": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0031",
+          "S-0033",
+          "S-0157"
+        ],
+        "proposals": [],
+        "note": "Name, layer, jur, pow 4 ($1M/$3M AG penalties; office may levy $1,000/day for missing disclosures) and status phasing (adopted; effective 1 Jan 2027; registration from Nov 2026) consistent. The linked nysenate.gov page (S6953-B) serves a Cloudflare challenge to curl and headless Chromium, so the link itself was not opened; nyassembly.gov confirms S6953-B is the bill signed as Chapter 699.",
+        "missing": null,
+        "hash": "174aa4418123"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0031",
+          "S-0033",
+          "S-0157"
+        ],
+        "proposals": [],
+        "note": "Name, layer, jur, pow 4 ($1M/$3M AG penalties; office may levy $1,000/day for missing disclosures) and status phasing (adopted; effective 1 Jan 2027; registration from Nov 2026) consistent. The linked nysenate.gov page (S6953-B) serves a Cloudflare challenge to curl and headless Chromium, so the link itself was not opened; nyassembly.gov confirms S6953-B is the bill signed as Chapter 699.",
+        "missing": null,
+        "hash": "174aa4418123"
+      }
+    },
+    "entry:ny-raise:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0031",
+          "S-0157"
+        ],
+        "proposals": [],
+        "note": "Framework publication, 72-hour reporting and the DFS office (named DIGIT, Sep 2026) confirmed; thresholds now match SB 53; penalties cut from $10M/$30M to $1M/$3M. Framework must address mitigations for catastrophic risks (§1421(1)(c)); annual review (§1421(2)); office rulemaking authority (§1429). The context's closing sentence is framing; RAISE remains scheduled for 1 Jan 2027.",
+        "missing": null,
+        "hash": "24c8c84abe7c"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0031",
+          "S-0157"
+        ],
+        "proposals": [],
+        "note": "Framework publication, 72-hour reporting and the DFS office (named DIGIT, Sep 2026) confirmed; thresholds now match SB 53; penalties cut from $10M/$30M to $1M/$3M. Framework must address mitigations for catastrophic risks (§1421(1)(c)); annual review (§1421(2)); office rulemaking authority (§1429). The context's closing sentence is framing; RAISE remains scheduled for 1 Jan 2027.",
+        "missing": null,
+        "hash": "24c8c84abe7c"
+      }
+    },
+    "entry:ny-raise:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0031",
+          "S-0157"
+        ],
+        "proposals": [],
+        "note": "Framework publication, 72-hour reporting and the DFS office (named DIGIT, Sep 2026) confirmed; thresholds now match SB 53; penalties cut from $10M/$30M to $1M/$3M. Framework must address mitigations for catastrophic risks (§1421(1)(c)); annual review (§1421(2)); office rulemaking authority (§1429). The context's closing sentence is framing; RAISE remains scheduled for 1 Jan 2027.",
+        "missing": null,
+        "hash": "eb5f7934d3b4"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0031",
+          "S-0157"
+        ],
+        "proposals": [],
+        "note": "Framework publication, 72-hour reporting and the DFS office (named DIGIT, Sep 2026) confirmed; thresholds now match SB 53; penalties cut from $10M/$30M to $1M/$3M. Framework must address mitigations for catastrophic risks (§1421(1)(c)); annual review (§1421(2)); office rulemaking authority (§1429). The context's closing sentence is framing; RAISE remains scheduled for 1 Jan 2027.",
+        "missing": null,
+        "hash": "eb5f7934d3b4"
+      }
+    },
+    "entry:ny-raise:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0031",
+          "S-0157"
+        ],
+        "proposals": [],
+        "note": "Framework publication, 72-hour reporting and the DFS office (named DIGIT, Sep 2026) confirmed; thresholds now match SB 53; penalties cut from $10M/$30M to $1M/$3M. Framework must address mitigations for catastrophic risks (§1421(1)(c)); annual review (§1421(2)); office rulemaking authority (§1429). The context's closing sentence is framing; RAISE remains scheduled for 1 Jan 2027.",
+        "missing": null,
+        "hash": "d3370a5de7bd"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0031",
+          "S-0157"
+        ],
+        "proposals": [],
+        "note": "Framework publication, 72-hour reporting and the DFS office (named DIGIT, Sep 2026) confirmed; thresholds now match SB 53; penalties cut from $10M/$30M to $1M/$3M. Framework must address mitigations for catastrophic risks (§1421(1)(c)); annual review (§1421(2)); office rulemaking authority (§1429). The context's closing sentence is framing; RAISE remains scheduled for 1 Jan 2027.",
+        "missing": null,
+        "hash": "d3370a5de7bd"
+      }
+    },
+    "entry:ny-raise:cov:update": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0031",
+          "S-0157"
+        ],
+        "proposals": [],
+        "note": "Framework publication, 72-hour reporting and the DFS office (named DIGIT, Sep 2026) confirmed; thresholds now match SB 53; penalties cut from $10M/$30M to $1M/$3M. Framework must address mitigations for catastrophic risks (§1421(1)(c)); annual review (§1421(2)); office rulemaking authority (§1429). The context's closing sentence is framing; RAISE remains scheduled for 1 Jan 2027.",
+        "missing": null,
+        "hash": "88fd7e301a72"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0031",
+          "S-0157"
+        ],
+        "proposals": [],
+        "note": "Framework publication, 72-hour reporting and the DFS office (named DIGIT, Sep 2026) confirmed; thresholds now match SB 53; penalties cut from $10M/$30M to $1M/$3M. Framework must address mitigations for catastrophic risks (§1421(1)(c)); annual review (§1421(2)); office rulemaking authority (§1429). The context's closing sentence is framing; RAISE remains scheduled for 1 Jan 2027.",
+        "missing": null,
+        "hash": "88fd7e301a72"
+      }
+    },
+    "entry:ny-raise:cov:thresh": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0031"
+        ],
+        "proposals": [
+          "P-0059"
+        ],
+        "note": "No $100M compute test survives Chapter 96.",
+        "missing": null,
+        "hash": "8947d1867830"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0031"
+        ],
+        "proposals": [
+          "P-0059"
+        ],
+        "note": "No $100M compute test survives Chapter 96.",
+        "missing": null,
+        "hash": "8947d1867830"
+      }
+    },
+    "entry:ny-raise:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0157"
+        ],
+        "proposals": [
+          "P-0060"
+        ],
+        "note": "Office publishes a list of developers that filed disclosure statements, not a registry of frameworks; office named DIGIT.",
+        "missing": null,
+        "hash": "1ef67e153a88"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0033",
+          "S-0157"
+        ],
+        "proposals": [
+          "P-0060"
+        ],
+        "note": "Office publishes a list of developers that filed disclosure statements, not a registry of frameworks; office named DIGIT.",
+        "missing": null,
+        "hash": "1ef67e153a88"
+      }
+    },
+    "entry:tx-raiga": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0165",
+          "S-0167",
+          "S-0166"
+        ],
+        "proposals": [
+          "P-0061",
+          "P-0063",
+          "P-0065"
+        ],
+        "note": "Link is the introduced bill; enrolled text is HB00149F.pdf. pow 3 is questionable given penalties up to $200,000 per violation against developers/deployers — flag. Status active correct (effective 1 Jan 2026).",
+        "missing": null,
+        "hash": "bfc18a8cac04"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0165",
+          "S-0167",
+          "S-0166"
+        ],
+        "proposals": [
+          "P-0061",
+          "P-0063",
+          "P-0065"
+        ],
+        "note": "Link is the introduced bill; enrolled text is HB00149F.pdf. pow 3 is questionable given penalties up to $200,000 per violation against developers/deployers — flag. Status active correct (effective 1 Jan 2026).",
+        "missing": null,
+        "hash": "bfc18a8cac04"
+      }
+    },
+    "entry:tx-raiga:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0166",
+          "S-0165"
+        ],
+        "proposals": [],
+        "note": "Signed 22 Jun 2025 (TLO history); effective 1 Jan 2026. \"Narrower than Colorado\" compares with a Colorado law since repealed and reenacted.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "a78058d6e30c"
+      }
+    },
+    "entry:tx-raiga:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0165",
+          "S-0168"
+        ],
+        "proposals": [],
+        "note": "Prohibitions (manipulation, government social scoring, government biometric capture), AG civil penalties and absence of thresholds confirmed. \"The first AI law passed in a Republican-controlled state\" looks wrong: Utah S.B. 149 (2024) \"Artificial Intelligence Amendments\" was signed 13 Mar 2024, a year before TRAIGA.",
+        "missing": "A primary source on the party control of the 2024 Utah Legislature (or the maintainer's acceptance of common knowledge) to support replacing \"The first AI law passed\" with \"An AI law passed\".",
+        "hash": "8313fba153ce"
+      }
+    },
+    "entry:tx-raiga:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0165",
+          "S-0162"
+        ],
+        "proposals": [],
+        "note": "Enrolled HB 149: intent-based prohibitions (§§552.052–552.057), government social scoring and biometric capture; original SB 24-205 imposed a reasonable-care duty, so \"narrower than Colorado's algorithmic-discrimination duties\" holds against that text. AG-exclusive enforcement triggered by complaints through an online mechanism (§552.103), civil penalties (§552.105); the Texas AI Council cannot issue binding rules (§554.103).",
+        "missing": null,
+        "hash": "f2c1e9b2c10d"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0165",
+          "S-0162"
+        ],
+        "proposals": [],
+        "note": "Enrolled HB 149: intent-based prohibitions (§§552.052–552.057), government social scoring and biometric capture; original SB 24-205 imposed a reasonable-care duty, so \"narrower than Colorado's algorithmic-discrimination duties\" holds against that text. AG-exclusive enforcement triggered by complaints through an online mechanism (§552.103), civil penalties (§552.105); the Texas AI Council cannot issue binding rules (§554.103).",
+        "missing": null,
+        "hash": "f2c1e9b2c10d"
+      }
+    },
+    "entry:tx-raiga:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0165",
+          "S-0162"
+        ],
+        "proposals": [],
+        "note": "Enrolled HB 149: intent-based prohibitions (§§552.052–552.057), government social scoring and biometric capture; original SB 24-205 imposed a reasonable-care duty, so \"narrower than Colorado's algorithmic-discrimination duties\" holds against that text. AG-exclusive enforcement triggered by complaints through an online mechanism (§552.103), civil penalties (§552.105); the Texas AI Council cannot issue binding rules (§554.103).",
+        "missing": null,
+        "hash": "c30e27652366"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0165",
+          "S-0162"
+        ],
+        "proposals": [],
+        "note": "Enrolled HB 149: intent-based prohibitions (§§552.052–552.057), government social scoring and biometric capture; original SB 24-205 imposed a reasonable-care duty, so \"narrower than Colorado's algorithmic-discrimination duties\" holds against that text. AG-exclusive enforcement triggered by complaints through an online mechanism (§552.103), civil penalties (§552.105); the Texas AI Council cannot issue binding rules (§554.103).",
+        "missing": null,
+        "hash": "c30e27652366"
+      }
+    },
+    "entry:tx-raiga:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0165",
+          "S-0162"
+        ],
+        "proposals": [],
+        "note": "Enrolled HB 149: intent-based prohibitions (§§552.052–552.057), government social scoring and biometric capture; original SB 24-205 imposed a reasonable-care duty, so \"narrower than Colorado's algorithmic-discrimination duties\" holds against that text. AG-exclusive enforcement triggered by complaints through an online mechanism (§552.103), civil penalties (§552.105); the Texas AI Council cannot issue binding rules (§554.103).",
+        "missing": null,
+        "hash": "05dcbe2221a3"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0165",
+          "S-0162"
+        ],
+        "proposals": [],
+        "note": "Enrolled HB 149: intent-based prohibitions (§§552.052–552.057), government social scoring and biometric capture; original SB 24-205 imposed a reasonable-care duty, so \"narrower than Colorado's algorithmic-discrimination duties\" holds against that text. AG-exclusive enforcement triggered by complaints through an online mechanism (§552.103), civil penalties (§552.105); the Texas AI Council cannot issue binding rules (§554.103).",
+        "missing": null,
+        "hash": "05dcbe2221a3"
+      }
     }
   }
 }
