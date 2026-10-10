@@ -6109,6 +6109,1549 @@
         "missing": "An Anthropic or Apollo statement of Apollo testing of an Anthropic model after Feb 2026.",
         "hash": "4853c9d1d91d"
       }
+    },
+    "entry:aisr": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0117",
+          "S-0118"
+        ],
+        "proposals": [
+          "P-0044"
+        ],
+        "note": "Name, layer, jur, pow and status are consistent with the report series. The link opens the May 2024 interim-report page on GOV.UK, which now points to internationalaisafetyreport.org. Proposed link update.",
+        "missing": null,
+        "hash": "187768c5e162"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0117",
+          "S-0118"
+        ],
+        "proposals": [
+          "P-0044"
+        ],
+        "note": "Name, layer, jur, pow and status are consistent with the report series. The link opens the May 2024 interim-report page on GOV.UK, which now points to internationalaisafetyreport.org. Proposed link update.",
+        "missing": null,
+        "hash": "187768c5e162"
+      }
+    },
+    "entry:aisr:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121",
+          "S-0120",
+          "S-0119"
+        ],
+        "proposals": [],
+        "note": "The 2026 Report (published 3 Feb 2026, led by Yoshua Bengio) states that models 'can underperform during evaluations … a pattern termed ‘sandbagging’ that has been observed in experiments'. Its glossary defines sandbagging. The 2025 Report never uses the term, so 'emerging' is fair.",
+        "missing": null,
+        "hash": "524c8c58a049"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121",
+          "S-0120",
+          "S-0119"
+        ],
+        "proposals": [],
+        "note": "The 2026 Report (published 3 Feb 2026, led by Yoshua Bengio) states that models 'can underperform during evaluations … a pattern termed ‘sandbagging’ that has been observed in experiments'. Its glossary defines sandbagging. The 2025 Report never uses the term, so 'emerging' is fair.",
+        "missing": null,
+        "hash": "524c8c58a049"
+      }
+    },
+    "entry:aisr:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0119",
+          "S-0121",
+          "S-0120"
+        ],
+        "proposals": [],
+        "note": "Factual core verified: Bletchley mandate (30 nations, 2023); annual reports in Jan 2025 and Feb 2026 after a May 2024 interim report; 'does not make specific policy recommendations'; UK AISI secretariat. The 'closest thing to an IPCC for AI' framing is analytic.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "4c08693e4561"
+      }
+    },
+    "entry:aisr:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121",
+          "S-0119"
+        ],
+        "proposals": [],
+        "note": "The report synthesises evidence on capabilities and risks without recommending policy ('does not make specific policy recommendations'). §3.1 sets out the main limitations of evaluation and testing methods. The thresh, eval and elicit notes describe this accurately; the 'literature review' and 'baseline' phrasing is characterisation.",
+        "missing": null,
+        "hash": "6f4a7cb3c475"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121",
+          "S-0119"
+        ],
+        "proposals": [],
+        "note": "The report synthesises evidence on capabilities and risks without recommending policy ('does not make specific policy recommendations'). §3.1 sets out the main limitations of evaluation and testing methods. The thresh, eval and elicit notes describe this accurately; the 'literature review' and 'baseline' phrasing is characterisation.",
+        "missing": null,
+        "hash": "6f4a7cb3c475"
+      }
+    },
+    "entry:aisr:cov:thresh": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121",
+          "S-0119"
+        ],
+        "proposals": [],
+        "note": "The report synthesises evidence on capabilities and risks without recommending policy ('does not make specific policy recommendations'). §3.1 sets out the main limitations of evaluation and testing methods. The thresh, eval and elicit notes describe this accurately; the 'literature review' and 'baseline' phrasing is characterisation.",
+        "missing": null,
+        "hash": "527168e89c84"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121",
+          "S-0119"
+        ],
+        "proposals": [],
+        "note": "The report synthesises evidence on capabilities and risks without recommending policy ('does not make specific policy recommendations'). §3.1 sets out the main limitations of evaluation and testing methods. The thresh, eval and elicit notes describe this accurately; the 'literature review' and 'baseline' phrasing is characterisation.",
+        "missing": null,
+        "hash": "527168e89c84"
+      }
+    },
+    "entry:aisr:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121",
+          "S-0119"
+        ],
+        "proposals": [],
+        "note": "The report synthesises evidence on capabilities and risks without recommending policy ('does not make specific policy recommendations'). §3.1 sets out the main limitations of evaluation and testing methods. The thresh, eval and elicit notes describe this accurately; the 'literature review' and 'baseline' phrasing is characterisation.",
+        "missing": null,
+        "hash": "fc6e9133aa3e"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121",
+          "S-0119"
+        ],
+        "proposals": [],
+        "note": "The report synthesises evidence on capabilities and risks without recommending policy ('does not make specific policy recommendations'). §3.1 sets out the main limitations of evaluation and testing methods. The thresh, eval and elicit notes describe this accurately; the 'literature review' and 'baseline' phrasing is characterisation.",
+        "missing": null,
+        "hash": "fc6e9133aa3e"
+      }
+    },
+    "entry:aisr:cov:elicit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121",
+          "S-0122"
+        ],
+        "proposals": [],
+        "note": "The 2026 edition names sandbagging as an evaluation limitation. The 2025 edition questions whether red-teaming 'can produce reliable and reproducible results', which supports 'earlier editions documented similar gaps in red-teaming methodology'.",
+        "missing": null,
+        "hash": "a05d641a308c"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121",
+          "S-0122"
+        ],
+        "proposals": [],
+        "note": "The 2026 edition names sandbagging as an evaluation limitation. The 2025 edition questions whether red-teaming 'can produce reliable and reproducible results', which supports 'earlier editions documented similar gaps in red-teaming methodology'.",
+        "missing": null,
+        "hash": "a05d641a308c"
+      }
+    },
+    "edge:aisr|ai-summits": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0119",
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "Each edition was timed to a summit: interim before Seoul 2024, 2025 Report before the France AI Action Summit, 2026 Report before the India AI Impact Summit, where it was showcased. The mandate came from Bletchley 2023.",
+        "missing": null,
+        "hash": "a6a52fc70efd"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0119",
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "Each edition was timed to a summit: interim before Seoul 2024, 2025 Report before the France AI Action Summit, 2026 Report before the India AI Impact Summit, where it was showcased. The mandate came from Bletchley 2023.",
+        "missing": null,
+        "hash": "a6a52fc70efd"
+      }
+    },
+    "edge:aisr|aisi-net": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0119",
+          "S-0121",
+          "S-0127"
+        ],
+        "proposals": [],
+        "note": "The secretariat sits in UK AISI, and the report cites UK AISI evaluations (e.g. Fig 2.13). In the Seoul Statement of Intent, the network's founders state their intention to leverage 'assessments such as the International AI Safety Report' to guide and align policies.",
+        "missing": null,
+        "hash": "d29fa8289562"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0119",
+          "S-0121",
+          "S-0127"
+        ],
+        "proposals": [],
+        "note": "The secretariat sits in UK AISI, and the report cites UK AISI evaluations (e.g. Fig 2.13). In the Seoul Statement of Intent, the network's founders state their intention to leverage 'assessments such as the International AI Safety Report' to guide and align policies.",
+        "missing": null,
+        "hash": "d29fa8289562"
+      }
+    },
+    "edge:aisr|metr": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "The 2026 Report cites METR's 'Measuring AI Ability to Complete Long Tasks' and several other METR evaluations in its capability chapters.",
+        "missing": null,
+        "hash": "0a5773b1b7c1"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "The 2026 Report cites METR's 'Measuring AI Ability to Complete Long Tasks' and several other METR evaluations in its capability chapters.",
+        "missing": null,
+        "hash": "0a5773b1b7c1"
+      }
+    },
+    "edge:aisr|apollo": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "The 2026 Report cites Apollo Research's 'Frontier Models Are Capable of In-Context Scheming', and an Apollo Research researcher is in its Writing Group.",
+        "missing": null,
+        "hash": "94f96d3e6da1"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "The 2026 Report cites Apollo Research's 'Frontier Models Are Capable of In-Context Scheming', and an Apollo Research researcher is in its Writing Group.",
+        "missing": null,
+        "hash": "94f96d3e6da1"
+      }
+    },
+    "entry:aisi-net": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0124",
+          "S-0128"
+        ],
+        "proposals": [
+          "P-0046"
+        ],
+        "note": "Link (GOV.UK Dec 2025 release) works and supports the entry. Layer, jur, pow and status are fine. The label 'AISI Network' predates the Dec 2025 rename (NAAIMES); raised as a labelling question.",
+        "missing": null,
+        "hash": "e838c87c530d"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0124",
+          "S-0128"
+        ],
+        "proposals": [
+          "P-0046"
+        ],
+        "note": "Link (GOV.UK Dec 2025 release) works and supports the entry. Layer, jur, pow and status are fine. The label 'AISI Network' predates the Dec 2025 rename (NAAIMES); raised as a labelling question.",
+        "missing": null,
+        "hash": "e838c87c530d"
+      }
+    },
+    "entry:aisi-net:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0124",
+          "S-0125",
+          "S-0126"
+        ],
+        "proposals": [
+          "P-0045"
+        ],
+        "note": "The ten-member list and the Dec 2025 San Diego rename are confirmed. Proposed additions: NAAIMES short name, UK Network Coordinator role, Jul 2026 first best-practice guidance.",
+        "missing": null,
+        "hash": "1796b5ecc128"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0124",
+          "S-0125",
+          "S-0126"
+        ],
+        "proposals": [
+          "P-0045"
+        ],
+        "note": "The ten-member list and the Dec 2025 San Diego rename are confirmed. Proposed additions: NAAIMES short name, UK Network Coordinator role, Jul 2026 first best-practice guidance.",
+        "missing": null,
+        "hash": "1796b5ecc128"
+      }
+    },
+    "entry:aisi-net:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0126"
+        ],
+        "proposals": [],
+        "note": "Factual core verified: the network exchanges knowledge on evaluation to align best practice, and the rename happened in Dec 2025. NIST frames CAISI's participation in line with America's AI Action Plan. 'Mirrored the broader US shift away from safety framing' is interpretive.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "ff16cdae86b2"
+      }
+    },
+    "entry:aisi-net:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0125",
+          "S-0124",
+          "S-0123"
+        ],
+        "proposals": [],
+        "note": "The Jul 2026 best-practice guidance and the GOV.UK release show the network developing shared evaluation methodology and comparability between evaluations.",
+        "missing": null,
+        "hash": "e0e8e36df0b5"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0125",
+          "S-0124",
+          "S-0123"
+        ],
+        "proposals": [],
+        "note": "The Jul 2026 best-practice guidance and the GOV.UK release show the network developing shared evaluation methodology and comparability between evaluations.",
+        "missing": null,
+        "hash": "e0e8e36df0b5"
+      }
+    },
+    "entry:aisi-net:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0128",
+          "S-0127"
+        ],
+        "proposals": [],
+        "note": "Knowledge exchange on evaluation (GOV.UK); the EU AI Office describes joint situational awareness and incident communication channels through NAAIMES; the Seoul intent covers sharing information about models and safety incidents. No enforcement role.",
+        "missing": null,
+        "hash": "794cdf301c8b"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0128",
+          "S-0127"
+        ],
+        "proposals": [],
+        "note": "Knowledge exchange on evaluation (GOV.UK); the EU AI Office describes joint situational awareness and incident communication channels through NAAIMES; the Seoul intent covers sharing information about models and safety incidents. No enforcement role.",
+        "missing": null,
+        "hash": "794cdf301c8b"
+      }
+    },
+    "entry:aisi-net:cov:elicit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0125",
+          "S-0124"
+        ],
+        "proposals": [],
+        "note": "Capability elicitation is a core topic of the network's first guidance (C.1.2). The specific examples in the note (jailbreaks, agentic scaffolding) were not seen.",
+        "missing": "A network source showing pooled jailbreak or agentic-scaffolding techniques. The Jul 2026 guidance covers capability elicitation in automated evaluations, but explicitly excludes red-team testing and agentic evaluations.",
+        "hash": "750c3ad0c3fd"
+      }
+    },
+    "entry:aisi-net:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0124",
+          "S-0125",
+          "S-0126"
+        ],
+        "proposals": [],
+        "note": "The acct, elicit and eval assignments are supported. The timing assignment and its note are not supported by any network document inspected.",
+        "missing": "Any primary source showing the network coordinating pre-deployment evaluation access between members and labs. Its published work (Dec 2025 to Jul 2026) concerns measurement science and best practice for third-party evaluators.",
+        "hash": "49edbe901212"
+      }
+    },
+    "entry:aisi-net:cov:timing": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0124",
+          "S-0125",
+          "S-0126"
+        ],
+        "proposals": [],
+        "note": "The acct, elicit and eval assignments are supported. The timing assignment and its note are not supported by any network document inspected.",
+        "missing": "Any primary source showing the network coordinating pre-deployment evaluation access between members and labs. Its published work (Dec 2025 to Jul 2026) concerns measurement science and best practice for third-party evaluators.",
+        "hash": "a495a212ad24"
+      }
+    },
+    "edge:aisi-net|uk-aisi": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0127"
+        ],
+        "proposals": [],
+        "note": "The UK is a member from establishment in Nov 2024 (and a Seoul signatory), and has been Network Coordinator since Dec 2025.",
+        "missing": null,
+        "hash": "182d0d435f5b"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0127"
+        ],
+        "proposals": [],
+        "note": "The UK is a member from establishment in Nov 2024 (and a Seoul signatory), and has been Network Coordinator since Dec 2025.",
+        "missing": null,
+        "hash": "182d0d435f5b"
+      }
+    },
+    "edge:aisi-net|caisi": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0126"
+        ],
+        "proposals": [],
+        "note": "NIST describes CAISI's participation in the network and its role advocating US interests there.",
+        "missing": null,
+        "hash": "8cddfde18927"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0126"
+        ],
+        "proposals": [],
+        "note": "NIST describes CAISI's participation in the network and its role advocating US interests there.",
+        "missing": null,
+        "hash": "8cddfde18927"
+      }
+    },
+    "edge:aisi-net|eu-aio": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0128"
+        ],
+        "proposals": [],
+        "note": "The Commission confirms the AI Office collaborates through NAAIMES. The unit-level detail ('Safety Unit') was not seen.",
+        "missing": "A source naming the AI Office's safety unit specifically as the EU's network participant.",
+        "hash": "c619c42ce0fc"
+      }
+    },
+    "edge:aisi-net|other-aisis": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0124",
+          "S-0125",
+          "S-0123"
+        ],
+        "proposals": [
+          "P-0047"
+        ],
+        "note": "The member lists from Dec 2025 and Jul 2026 contain ten members and do not include India.",
+        "missing": null,
+        "hash": "b2ef492b45aa"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0124",
+          "S-0125",
+          "S-0123"
+        ],
+        "proposals": [
+          "P-0047"
+        ],
+        "note": "The member lists from Dec 2025 and Jul 2026 contain ten members and do not include India.",
+        "missing": null,
+        "hash": "b2ef492b45aa"
+      }
+    },
+    "edge:aisi-net|ai-summits": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0127",
+          "S-0123",
+          "S-0126"
+        ],
+        "proposals": [
+          "P-0048"
+        ],
+        "note": "Seoul (May 2024) stated an ambition to develop the network. UK, NIST and the network date its establishment to Nov 2024.",
+        "missing": null,
+        "hash": "a4fa896c5fc4"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0127",
+          "S-0123",
+          "S-0126"
+        ],
+        "proposals": [
+          "P-0048"
+        ],
+        "note": "Seoul (May 2024) stated an ambition to develop the network. UK, NIST and the network date its establishment to Nov 2024.",
+        "missing": null,
+        "hash": "a4fa896c5fc4"
+      }
+    },
+    "entry:ai-summits": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0129",
+          "S-0130"
+        ],
+        "proposals": [],
+        "note": "The link (India AI Impact Summit site) is live. Name, layer, jur, pow and status fit a voluntary summit series.",
+        "missing": null,
+        "hash": "a1ddfd11dfc6"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0129",
+          "S-0130"
+        ],
+        "proposals": [],
+        "note": "The link (India AI Impact Summit site) is live. Name, layer, jur, pow and status fit a voluntary summit series.",
+        "missing": null,
+        "hash": "a1ddfd11dfc6"
+      }
+    },
+    "entry:ai-summits:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0132",
+          "S-0130",
+          "S-0131",
+          "S-0068",
+          "S-0133",
+          "S-0134",
+          "S-0069"
+        ],
+        "proposals": [],
+        "note": "Verified: the Paris statement's signatory list lacks the UK and US; the New Delhi Declaration was endorsed by 92 countries/IOs as of 5 Mar 2026 (PIB release 2231208, updated; an earlier PIB release of 24 Feb said 91); Geneva hosts on 21–22 Jun 2027; the UAE hosts in 2028 (and co-chairs 2027). '13 firms signed': the official commitments text lists 13 signee organisations as of 23 Feb 2026 (S-0069, recorded by the Layer 5 batch).",
+        "missing": null,
+        "hash": "feaa04d0605f"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0132",
+          "S-0130",
+          "S-0131",
+          "S-0068",
+          "S-0133",
+          "S-0134",
+          "S-0069"
+        ],
+        "proposals": [],
+        "note": "Verified: the Paris statement's signatory list lacks the UK and US; the New Delhi Declaration was endorsed by 92 countries/IOs as of 5 Mar 2026 (PIB release 2231208, updated; an earlier PIB release of 24 Feb said 91); Geneva hosts on 21–22 Jun 2027; the UAE hosts in 2028 (and co-chairs 2027). '13 firms signed': the official commitments text lists 13 signee organisations as of 23 Feb 2026 (S-0069, recorded by the Layer 5 batch).",
+        "missing": null,
+        "hash": "feaa04d0605f"
+      }
+    },
+    "entry:ai-summits:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0034",
+          "S-0132",
+          "S-0130",
+          "S-0133"
+        ],
+        "proposals": [],
+        "note": "Factual core verified. Seoul commitments were voluntary and tied to publishing frameworks by the France summit. The Delhi Declaration promotes 'voluntary, non-binding frameworks'. Geneva 2027 is the next (fifth) summit. The characterisations of each host's framing, and 'monitored only by reputational pressure', are interpretive.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "4a7130c99186"
+      }
+    },
+    "entry:ai-summits:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0034",
+          "S-0132",
+          "S-0130",
+          "S-0133"
+        ],
+        "proposals": [],
+        "note": "Factual core verified. Seoul commitments were voluntary and tied to publishing frameworks by the France summit. The Delhi Declaration promotes 'voluntary, non-binding frameworks'. Geneva 2027 is the next (fifth) summit. The characterisations of each host's framing, and 'monitored only by reputational pressure', are interpretive.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "040ba1c12443"
+      }
+    },
+    "entry:ai-summits:cov:update": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0034",
+          "S-0132",
+          "S-0130",
+          "S-0133"
+        ],
+        "proposals": [],
+        "note": "Factual core verified. Seoul commitments were voluntary and tied to publishing frameworks by the France summit. The Delhi Declaration promotes 'voluntary, non-binding frameworks'. Geneva 2027 is the next (fifth) summit. The characterisations of each host's framing, and 'monitored only by reputational pressure', are interpretive.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "f59dc95c2fe7"
+      }
+    },
+    "entry:ai-summits:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0034"
+        ],
+        "proposals": [],
+        "note": "The Seoul Frontier AI Safety Commitments ask signatories to set out thresholds at which severe risks would be deemed intolerable and to publish safety frameworks. The summit itself sets no thresholds.",
+        "missing": null,
+        "hash": "cb4096651cf7"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0034"
+        ],
+        "proposals": [],
+        "note": "The Seoul Frontier AI Safety Commitments ask signatories to set out thresholds at which severe risks would be deemed intolerable and to publish safety frameworks. The summit itself sets no thresholds.",
+        "missing": null,
+        "hash": "cb4096651cf7"
+      }
+    },
+    "entry:ai-summits:cov:thresh": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0034"
+        ],
+        "proposals": [],
+        "note": "The Seoul Frontier AI Safety Commitments ask signatories to set out thresholds at which severe risks would be deemed intolerable and to publish safety frameworks. The summit itself sets no thresholds.",
+        "missing": null,
+        "hash": "d2b6ee059646"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0034"
+        ],
+        "proposals": [],
+        "note": "The Seoul Frontier AI Safety Commitments ask signatories to set out thresholds at which severe risks would be deemed intolerable and to publish safety frameworks. The summit itself sets no thresholds.",
+        "missing": null,
+        "hash": "d2b6ee059646"
+      }
+    },
+    "edge:ai-summits|seoul-commit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0034"
+        ],
+        "proposals": [],
+        "note": "The commitments are titled 'Frontier AI Safety Commitments, AI Seoul Summit 2024'.",
+        "missing": null,
+        "hash": "c926fe3cfba0"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0034"
+        ],
+        "proposals": [],
+        "note": "The commitments are titled 'Frontier AI Safety Commitments, AI Seoul Summit 2024'.",
+        "missing": null,
+        "hash": "c926fe3cfba0"
+      }
+    },
+    "edge:ai-summits|delhi-commit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0068"
+        ],
+        "proposals": [],
+        "note": "The commitments were announced at the opening ceremony of the India AI Impact Summit 2026 as 'a landmark outcome of the summit'.",
+        "missing": null,
+        "hash": "2842240f8c41"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0068"
+        ],
+        "proposals": [],
+        "note": "The commitments were announced at the opening ceremony of the India AI Impact Summit 2026 as 'a landmark outcome of the summit'.",
+        "missing": null,
+        "hash": "2842240f8c41"
+      }
+    },
+    "entry:oecd": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0135",
+          "S-0136"
+        ],
+        "proposals": [],
+        "note": "The link works. Non-binding OECD Council Recommendation, active, amended 2024.",
+        "missing": null,
+        "hash": "d6d3408ef984"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0135",
+          "S-0136"
+        ],
+        "proposals": [],
+        "note": "The link works. Non-binding OECD Council Recommendation, active, amended 2024.",
+        "missing": null,
+        "hash": "d6d3408ef984"
+      }
+    },
+    "entry:oecd:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0136",
+          "S-0135"
+        ],
+        "proposals": [
+          "P-0049"
+        ],
+        "note": "'2019, updated 2024' is confirmed (adopted 22/05/2019, amended 03/05/2024). The official register lists 50 countries plus the EU; the OECD.AI summary's '47' is stale.",
+        "missing": null,
+        "hash": "68e8ab02bd1d"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0136",
+          "S-0135"
+        ],
+        "proposals": [
+          "P-0049"
+        ],
+        "note": "'2019, updated 2024' is confirmed (adopted 22/05/2019, amended 03/05/2024). The official register lists 50 countries plus the EU; the OECD.AI summary's '47' is stale.",
+        "missing": null,
+        "hash": "68e8ab02bd1d"
+      }
+    },
+    "entry:oecd:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0135",
+          "S-0136"
+        ],
+        "proposals": [],
+        "note": "Five values-based principles and five recommendations confirmed; G20 AI Principles drawn from them; the definition is used by the EU, CoE, US and UN. The 2024 revision added safety language (override/decommission). Principle 1.4: robust, secure and safe throughout the lifecycle. Reporting to Council five years after adoption and regularly thereafter.",
+        "missing": null,
+        "hash": "f2fa6a0eef1d"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0135",
+          "S-0136"
+        ],
+        "proposals": [],
+        "note": "Five values-based principles and five recommendations confirmed; G20 AI Principles drawn from them; the definition is used by the EU, CoE, US and UN. The 2024 revision added safety language (override/decommission). Principle 1.4: robust, secure and safe throughout the lifecycle. Reporting to Council five years after adoption and regularly thereafter.",
+        "missing": null,
+        "hash": "f2fa6a0eef1d"
+      }
+    },
+    "entry:oecd:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0135",
+          "S-0136"
+        ],
+        "proposals": [],
+        "note": "Five values-based principles and five recommendations confirmed; G20 AI Principles drawn from them; the definition is used by the EU, CoE, US and UN. The 2024 revision added safety language (override/decommission). Principle 1.4: robust, secure and safe throughout the lifecycle. Reporting to Council five years after adoption and regularly thereafter.",
+        "missing": null,
+        "hash": "404315679482"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0135",
+          "S-0136"
+        ],
+        "proposals": [],
+        "note": "Five values-based principles and five recommendations confirmed; G20 AI Principles drawn from them; the definition is used by the EU, CoE, US and UN. The 2024 revision added safety language (override/decommission). Principle 1.4: robust, secure and safe throughout the lifecycle. Reporting to Council five years after adoption and regularly thereafter.",
+        "missing": null,
+        "hash": "404315679482"
+      }
+    },
+    "entry:oecd:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0135",
+          "S-0136"
+        ],
+        "proposals": [],
+        "note": "Five values-based principles and five recommendations confirmed; G20 AI Principles drawn from them; the definition is used by the EU, CoE, US and UN. The 2024 revision added safety language (override/decommission). Principle 1.4: robust, secure and safe throughout the lifecycle. Reporting to Council five years after adoption and regularly thereafter.",
+        "missing": null,
+        "hash": "c6cf9d19d6c0"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0135",
+          "S-0136"
+        ],
+        "proposals": [],
+        "note": "Five values-based principles and five recommendations confirmed; G20 AI Principles drawn from them; the definition is used by the EU, CoE, US and UN. The 2024 revision added safety language (override/decommission). Principle 1.4: robust, secure and safe throughout the lifecycle. Reporting to Council five years after adoption and regularly thereafter.",
+        "missing": null,
+        "hash": "c6cf9d19d6c0"
+      }
+    },
+    "entry:oecd:cov:update": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0135",
+          "S-0136"
+        ],
+        "proposals": [],
+        "note": "Five values-based principles and five recommendations confirmed; G20 AI Principles drawn from them; the definition is used by the EU, CoE, US and UN. The 2024 revision added safety language (override/decommission). Principle 1.4: robust, secure and safe throughout the lifecycle. Reporting to Council five years after adoption and regularly thereafter.",
+        "missing": null,
+        "hash": "0273de859c51"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0135",
+          "S-0136"
+        ],
+        "proposals": [],
+        "note": "Five values-based principles and five recommendations confirmed; G20 AI Principles drawn from them; the definition is used by the EU, CoE, US and UN. The 2024 revision added safety language (override/decommission). Principle 1.4: robust, secure and safe throughout the lifecycle. Reporting to Council five years after adoption and regularly thereafter.",
+        "missing": null,
+        "hash": "0273de859c51"
+      }
+    },
+    "entry:oecd:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0136",
+          "S-0135"
+        ],
+        "proposals": [
+          "P-0050"
+        ],
+        "note": "'Transparency and explainability' is one principle; with accountability that is two of five, not three.",
+        "missing": null,
+        "hash": "682e6dd80e05"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0136",
+          "S-0135"
+        ],
+        "proposals": [
+          "P-0050"
+        ],
+        "note": "'Transparency and explainability' is one principle; with accountability that is two of five, not three.",
+        "missing": null,
+        "hash": "682e6dd80e05"
+      }
+    },
+    "edge:oecd|hiroshima": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0137"
+        ],
+        "proposals": [],
+        "note": "The Hiroshima Code of Conduct says it is elaborated 'to build on the existing OECD AI Principles'.",
+        "missing": null,
+        "hash": "c9356409b3ea"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0137"
+        ],
+        "proposals": [],
+        "note": "The Hiroshima Code of Conduct says it is elaborated 'to build on the existing OECD AI Principles'.",
+        "missing": null,
+        "hash": "c9356409b3ea"
+      }
+    },
+    "entry:coe-ai": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0139",
+          "S-0140"
+        ],
+        "proposals": [
+          "P-0052"
+        ],
+        "note": "The link works (rendered via headless Chromium). pow 3 fits a treaty without domestic transposition. Status 'phasing' conflicts with RUBRIC §5 because the Convention is not in force; raised as a classification question.",
+        "missing": null,
+        "hash": "1aaa5992d745"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0139",
+          "S-0140"
+        ],
+        "proposals": [
+          "P-0052"
+        ],
+        "note": "The link works (rendered via headless Chromium). pow 3 fits a treaty without domestic transposition. Status 'phasing' conflicts with RUBRIC §5 because the Convention is not in force; raised as a classification question.",
+        "missing": null,
+        "hash": "1aaa5992d745"
+      }
+    },
+    "entry:coe-ai:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0139",
+          "S-0140",
+          "S-0141"
+        ],
+        "proposals": [
+          "P-0051"
+        ],
+        "note": "'First binding international AI treaty (Sept 2024)' and the signatories (EU, UK, US, Japan) are confirmed. New: the EU concluded it (Council Decision 21 Apr 2026) and is the sole Party; the Convention is not yet in force (Art. 30(3)).",
+        "missing": null,
+        "hash": "75bad2f29ac5"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0139",
+          "S-0140",
+          "S-0141"
+        ],
+        "proposals": [
+          "P-0051"
+        ],
+        "note": "'First binding international AI treaty (Sept 2024)' and the signatories (EU, UK, US, Japan) are confirmed. New: the EU concluded it (Council Decision 21 Apr 2026) and is the sole Party; the Convention is not yet in force (Art. 30(3)).",
+        "missing": null,
+        "hash": "75bad2f29ac5"
+      }
+    },
+    "entry:coe-ai:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0139",
+          "S-0140"
+        ],
+        "proposals": [],
+        "note": "Factual core verified: covers public authorities and (via a choice of two modalities) private actors; requires remedies, transparency/notice and iterative risk and impact management. The claims that obligations were 'weakened… to win US/UK signatures', and the 'stalled in most parliaments' framing, are interpretive (only the EU has ratified).",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "7db8bb8d0610"
+      }
+    },
+    "entry:coe-ai:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0140",
+          "S-0139"
+        ],
+        "proposals": [],
+        "note": "Art. 3(1)(a)-(b): full application to public authorities, with a softer 'address risks' duty for private actors. Art. 16: risk and impact management. Art. 14: remedies. Art. 26: independent oversight mechanisms. Art. 23: Conference of the Parties. Only one Party so far.",
+        "missing": null,
+        "hash": "404315679482"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0140",
+          "S-0139"
+        ],
+        "proposals": [],
+        "note": "Art. 3(1)(a)-(b): full application to public authorities, with a softer 'address risks' duty for private actors. Art. 16: risk and impact management. Art. 14: remedies. Art. 26: independent oversight mechanisms. Art. 23: Conference of the Parties. Only one Party so far.",
+        "missing": null,
+        "hash": "404315679482"
+      }
+    },
+    "entry:coe-ai:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0140",
+          "S-0139"
+        ],
+        "proposals": [],
+        "note": "Art. 3(1)(a)-(b): full application to public authorities, with a softer 'address risks' duty for private actors. Art. 16: risk and impact management. Art. 14: remedies. Art. 26: independent oversight mechanisms. Art. 23: Conference of the Parties. Only one Party so far.",
+        "missing": null,
+        "hash": "c4e971d90f7c"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0140",
+          "S-0139"
+        ],
+        "proposals": [],
+        "note": "Art. 3(1)(a)-(b): full application to public authorities, with a softer 'address risks' duty for private actors. Art. 16: risk and impact management. Art. 14: remedies. Art. 26: independent oversight mechanisms. Art. 23: Conference of the Parties. Only one Party so far.",
+        "missing": null,
+        "hash": "c4e971d90f7c"
+      }
+    },
+    "entry:coe-ai:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0140",
+          "S-0139"
+        ],
+        "proposals": [],
+        "note": "Art. 3(1)(a)-(b): full application to public authorities, with a softer 'address risks' duty for private actors. Art. 16: risk and impact management. Art. 14: remedies. Art. 26: independent oversight mechanisms. Art. 23: Conference of the Parties. Only one Party so far.",
+        "missing": null,
+        "hash": "dc81072ea9b3"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0140",
+          "S-0139"
+        ],
+        "proposals": [],
+        "note": "Art. 3(1)(a)-(b): full application to public authorities, with a softer 'address risks' duty for private actors. Art. 16: risk and impact management. Art. 14: remedies. Art. 26: independent oversight mechanisms. Art. 23: Conference of the Parties. Only one Party so far.",
+        "missing": null,
+        "hash": "dc81072ea9b3"
+      }
+    },
+    "entry:coe-ai:cov:update": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0140",
+          "S-0139"
+        ],
+        "proposals": [],
+        "note": "Art. 3(1)(a)-(b): full application to public authorities, with a softer 'address risks' duty for private actors. Art. 16: risk and impact management. Art. 14: remedies. Art. 26: independent oversight mechanisms. Art. 23: Conference of the Parties. Only one Party so far.",
+        "missing": null,
+        "hash": "1e6665fa2dde"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0140",
+          "S-0139"
+        ],
+        "proposals": [],
+        "note": "Art. 3(1)(a)-(b): full application to public authorities, with a softer 'address risks' duty for private actors. Art. 16: risk and impact management. Art. 14: remedies. Art. 26: independent oversight mechanisms. Art. 23: Conference of the Parties. Only one Party so far.",
+        "missing": null,
+        "hash": "1e6665fa2dde"
+      }
+    },
+    "edge:coe-ai|eu-aia": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0141"
+        ],
+        "proposals": [],
+        "note": "Council Decision (EU) 2026/1080 Art. 3: the Convention 'shall be implemented in the Union exclusively through Regulation (EU) 2024/1689'.",
+        "missing": null,
+        "hash": "eefe6dae0f84"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0141"
+        ],
+        "proposals": [],
+        "note": "Council Decision (EU) 2026/1080 Art. 3: the Convention 'shall be implemented in the Union exclusively through Regulation (EU) 2024/1689'.",
+        "missing": null,
+        "hash": "eefe6dae0f84"
+      }
+    },
+    "edge:coe-ai|uk-bill": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0139"
+        ],
+        "proposals": [],
+        "note": "UK signature is confirmed on the CoE page. No primary source ties the UK AI Bill to the Convention.",
+        "missing": "A UK government source linking AI Bill drafting to the Convention (e.g. a ratification plan or explanatory memorandum). None was found; the UK has signed but not ratified.",
+        "hash": "dea4f6b08b97"
+      }
+    },
+    "entry:unesco": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0142",
+          "S-0143"
+        ],
+        "proposals": [],
+        "note": "The link works. A non-binding UNESCO Recommendation, active.",
+        "missing": null,
+        "hash": "65494de7aeba"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0142",
+          "S-0143"
+        ],
+        "proposals": [],
+        "note": "The link works. A non-binding UNESCO Recommendation, active.",
+        "missing": null,
+        "hash": "65494de7aeba"
+      }
+    },
+    "entry:unesco:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0142",
+          "S-0143"
+        ],
+        "proposals": [
+          "P-0053"
+        ],
+        "note": "UNESCO says 193 Member States adopted it in Nov 2021 (23 Nov 2021).",
+        "missing": null,
+        "hash": "3882bf792c54"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0142",
+          "S-0143"
+        ],
+        "proposals": [
+          "P-0053"
+        ],
+        "note": "UNESCO says 193 Member States adopted it in Nov 2021 (23 Nov 2021).",
+        "missing": null,
+        "hash": "3882bf792c54"
+      }
+    },
+    "entry:unesco:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0142",
+          "S-0143"
+        ],
+        "proposals": [],
+        "note": "Factual core verified: first global standard on AI ethics; eleven policy areas (Policy Area 11 is the last) operationalising the principles. 'Most influential in low- and middle-income jurisdictions' is interpretive.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "8b6e33668045"
+      }
+    },
+    "entry:unesco:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0142",
+          "S-0143"
+        ],
+        "proposals": [],
+        "note": "Factual core verified: first global standard on AI ethics; eleven policy areas (Policy Area 11 is the last) operationalising the principles. 'Most influential in low- and middle-income jurisdictions' is interpretive.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "1c0552612eae"
+      }
+    },
+    "entry:unesco:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0143"
+        ],
+        "proposals": [],
+        "note": "acct (principles on oversight and transparency; monitoring section V) and mit (policy actions) are apt assignments.",
+        "missing": null,
+        "hash": "f2c1e9b2c10d"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0143"
+        ],
+        "proposals": [],
+        "note": "acct (principles on oversight and transparency; monitoring section V) and mit (policy actions) are apt assignments.",
+        "missing": null,
+        "hash": "f2c1e9b2c10d"
+      }
+    },
+    "entry:unesco:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0143",
+          "S-0142"
+        ],
+        "proposals": [],
+        "note": "Transparency and human oversight are core principles (verified). Para 131(b) provides for a readiness assessment methodology. The legal-affairs page lists this as a Recommendation 'for which monitoring the Executive Board is responsible'.",
+        "missing": "UNESCO Executive Board monitoring documents showing whether Member States must submit periodic implementation reports. If they must, 'imposes no reporting obligations' would be wrong.",
+        "hash": "0eeddf2f01fc"
+      }
     }
   }
 }

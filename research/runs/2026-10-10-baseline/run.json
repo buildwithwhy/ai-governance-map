@@ -235,6 +235,128 @@
           ]
         }
       ]
+    },
+    {
+      "area": "B3 multilateral bodies and processes (L1): AISR, AISI Network/NAAIMES, AI summit series, OECD (incl. HAIP), Council of Europe, UNESCO; UN bodies as proposed additions",
+      "summary": "Since June 2026: the network issued its first best-practice guidance (Jul 2026). No new AISR publication after 3 Feb 2026. Geneva summit fixed for 21–22 Jun 2027 with Fabiola Gianotti as delegate; UAE co-chairs 2027 and hosts 2028. Delhi Declaration reached 92 endorsers. OECD AI Recommendation gained Cambodia and Croatia (May 2026). EU concluded the CoE Convention (Apr/May 2026), but it is not in force. UNESCO Global Forum (Riyadh, Sep 2026) produced no new instrument. UN Scientific Panel issued its Preliminary Report (1 Jul 2026) and a loss-of-control brief (21 Sep 2026); first Global Dialogue held Jul 2026. Drafted one addition (UN Panel & Dialogue).",
+      "queries": [
+        "\"International Network for Advanced AI Measurement, Evaluation and Science\" 2026",
+        "AI Impact Summit New Delhi Declaration signatories countries mea.gov.in",
+        "\"New Delhi Declaration on AI Impact\" 92 signatories joins",
+        "Switzerland host AI summit Geneva 2027 Federal Council announcement admin.ch",
+        "UAE to host AI summit 2028 announced New Delhi",
+        "wam.ae UAE host Artificial Intelligence Summit 2028",
+        "OECD AI 2026 new recommendation OR guidance OR framework general-purpose AI July August September 2026",
+        "OECD Hiroshima AI Process reporting framework 2026 reports published second cycle",
+        "Council of Europe Framework Convention Artificial Intelligence ratification 2026 European Union deposits instrument entry into force",
+        "UK government Framework Convention artificial intelligence ratification legislation",
+        "UNESCO AI ethics 2026 Global Forum Ethics of AI outcome new instrument",
+        "Global Dialogue on AI Governance Geneva July 2026 co-chairs summary Independent International Scientific Panel first report",
+        "\"New Delhi Frontier AI Impact Commitments\" signatories list text"
+      ],
+      "limits": "Several sources were unavailable. CoE Treaty Office chart (CETS 225): the JavaScript bundle is refused even in headless Chromium, so the ratification status relies on the CoE AI convention page plus EUR-Lex. admin.ch / fdfa.admin.ch press releases: HTTP 403 (BAKOM page used instead). genevaaisummit.ch and transparency.oecd.ai: proxy CONNECT 502. oecd.org publication pages: Cloudflare challenge. mofa.go.jp PDF: 403 (soumu.go.jp copy used). The full AISR 2026 PDF is over 1 MB of text, which overflows the validator's pdftotext buffer, so the official online HTML version was used.",
+      "candidates": [
+        {
+          "name": "UN Independent International Scientific Panel on AI + Global Dialogue on AI Governance (A/RES/79/325)",
+          "result": "proposed",
+          "reason": "Adopted UNGA mandate; Panel issued Preliminary Report (1 Jul 2026) and thematic brief on AI agents/loss of control (21 Sep 2026); first Dialogue Geneva 6–7 Jul 2026. Direct bearing on frontier governance.",
+          "proposal": "P-0054",
+          "sources": [
+            "S-0144",
+            "S-0145",
+            "S-0146",
+            "S-0147",
+            "S-0148"
+          ]
+        },
+        {
+          "name": "NAAIMES Best Practice: Automated Evaluation of Large Language Models (Jul 2026)",
+          "result": "update to existing entry",
+          "reason": "First jointly agreed network instrument, for third-party evaluators; folded into aisi-net desc rather than a new entry.",
+          "proposal": "P-0045",
+          "sources": [
+            "S-0125",
+            "S-0124"
+          ]
+        },
+        {
+          "name": "NAAIMES consensus areas and open questions on automated evaluations (Feb 2026)",
+          "result": "update to existing entry",
+          "reason": "Preliminary consensus document that preceded the Jul 2026 guidance; no separate entry needed.",
+          "sources": [
+            "S-0126"
+          ]
+        },
+        {
+          "name": "International AI Safety Report: new publications since Jun 2026",
+          "result": "screened out",
+          "reason": "None. The publications page lists nothing after 3 Feb 2026. The UK supports the secretariat until a 'long-term international home' is established; Bengio remains Chair through 2026.",
+          "sources": [
+            "S-0120",
+            "S-0119"
+          ]
+        },
+        {
+          "name": "Geneva AI Summit 2027 (21–22 Jun 2027; theme 'Bridging Innovation and Trust'; Gianotti delegate) and UAE 2028 / co-chair 2027",
+          "result": "update to existing entry",
+          "reason": "Confirms the map's 'Geneva (2027); UAE 2028'; no edit needed. UAE co-chairing 2027 could be added if wanted.",
+          "sources": [
+            "S-0133",
+            "S-0134"
+          ]
+        },
+        {
+          "name": "New Delhi Declaration endorsements (92 as of 5 Mar 2026)",
+          "result": "update to existing entry",
+          "reason": "Consistent with '~92' on the map; US and UK endorsed.",
+          "sources": [
+            "S-0130",
+            "S-0131"
+          ]
+        },
+        {
+          "name": "OECD AI Recommendation new adherents (Cambodia, Croatia, 15 May 2026)",
+          "result": "update to existing entry",
+          "reason": "Count change.",
+          "proposal": "P-0049",
+          "sources": [
+            "S-0136"
+          ]
+        },
+        {
+          "name": "OECD Due Diligence Guidance for Responsible AI (reported Feb 2026)",
+          "result": "lead — source inaccessible",
+          "reason": "oecd.org serves a Cloudflare challenge to curl and headless Chromium. Reported by secondary sources as voluntary guidance supporting the OECD MNE Guidelines and AI Principles across the AI value chain; predates the June 2026 window and is contextual. Maintainer may wish to consider it as an OECD instrument.",
+          "sources": []
+        },
+        {
+          "name": "HAIP Reporting Framework (OECD): next cycle",
+          "result": "update to existing entry",
+          "reason": "No new instrument since v2.0 (May 2026, already on the map under hiroshima). Submissions due 30 Sep 2026 feed the next review. Note for the hiroshima owner: OECD says the Reporting Framework launched 7 Feb 2025, whereas the hiroshima desc says 'Implementation reporting added 2024'.",
+          "sources": [
+            "S-0138"
+          ]
+        },
+        {
+          "name": "EU conclusion of the CoE AI Convention (Council Decision (EU) 2026/1080; OJ 13 May 2026)",
+          "result": "update to existing entry",
+          "reason": "First and only Party; the Convention is still not in force.",
+          "proposal": "P-0051",
+          "sources": [
+            "S-0141",
+            "S-0140",
+            "S-0139"
+          ]
+        },
+        {
+          "name": "UNESCO 4th Global Forum on the Ethics of AI (Riyadh, 14–17 Sep 2026)",
+          "result": "screened out",
+          "reason": "Forum on implementing the 2021 Recommendation. Reported co-chairs' ministerial statement, but no adopted instrument with a frontier/GPAI bearing.",
+          "sources": [
+            "S-0149"
+          ]
+        }
+      ]
     }
   ],
   "usage": null

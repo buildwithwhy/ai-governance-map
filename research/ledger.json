@@ -1,5 +1,5 @@
 {
-  "next": 44,
+  "next": 55,
   "proposals": [
     {
       "id": "P-0001",
@@ -3621,7 +3621,7 @@
     },
     {
       "id": "P-0026",
-      "fingerprint": "9ef53492b853",
+      "fingerprint": "cb0c68957037",
       "targets": [
         "entry:delhi-commit:desc",
         "entry:delhi-commit:context",
@@ -3749,6 +3749,124 @@
             "edge:ai-summits|delhi-commit"
           ],
           "hash": "5edefa29490f"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T18:27:08Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Delhi commitments: two commitments on usage data and multilingual evaluation; no risk obligations; 13 signatories, fewer than Seoul",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "delhi-commit",
+              "field": "desc",
+              "from": "New Delhi Frontier AI Impact Commitments (Feb 2026). 13 frontier developers; broader than Seoul.",
+              "to": "New Delhi Frontier AI Impact Commitments (Feb 2026). 13 signatories, including four India-based developers; commitments on AI-usage data and multilingual evaluation."
+            },
+            {
+              "op": "set_field",
+              "entity": "delhi-commit",
+              "field": "context",
+              "from": "Extends the Seoul template to cover beneficial use cases — energy efficiency, healthcare, public services — alongside risk obligations. Signatory base broader than Seoul (added Indian and global-south firms) but commitments are weaker on concrete capability thresholds. Reflects the Delhi summit's 'impact' rather than 'safety' framing.",
+              "to": "Unlike Seoul, contains no thresholds or risk-mitigation commitments. Signatories commit to publish, by the next AI Summit, statistics from anonymised usage data to inform policy on jobs and skills, and to evaluate multilingual capabilities with local ecosystems; progress is to be reported through mechanisms such as the Hiroshima AI Process Reporting Framework. Adds India-based developers (including Sarvam AI and BharatGen) not in Seoul. Reflects the Delhi summit's 'impact' rather than 'safety' framing."
+            },
+            {
+              "op": "set_cov",
+              "entity": "delhi-commit",
+              "cat": "mit",
+              "from": "Inclusive deployment alongside risk obligations — signatories commit to consider beneficial use cases (energy, healthcare, public services) as well as risk mitigation. Reflects the Delhi summit's 'impact' rather than safety framing.",
+              "to": null
+            },
+            {
+              "op": "set_cov",
+              "entity": "delhi-commit",
+              "cat": "eval",
+              "from": null,
+              "to": "Signatories commit to evaluate multilingual capabilities on a subset of languages and cultural contexts and to collaborate with local ecosystems on evaluations for under-represented languages. A stretch: about performance across languages, not dangerous capabilities."
+            },
+            {
+              "op": "set_cov",
+              "entity": "delhi-commit",
+              "cat": "acct",
+              "from": "Public commitments by 13 frontier developers, including Indian and global-south firms not represented in Seoul. Broader signatory base, weaker on concrete capability thresholds than Seoul.",
+              "to": "Public commitments by 13 signatories, including India-based developers not in Seoul (including Sarvam AI and BharatGen). Signatories commit to publish usage statistics by the next summit and, where practicable, to report progress through the Hiroshima AI Process Reporting Framework. No enforcement."
+            }
+          ],
+          "why": "The entry describes commitments the text does not contain. The two-page text has two commitments: publish usage statistics and strengthen multilingual evaluation. There are no risk obligations and nothing on energy, healthcare or public services. With 13 signatories it is smaller than Seoul (20), not broader.",
+          "rationale": "Text and signee list (as on 23 Feb 2026) from the summit's outcome document (delhi#p1–p6; observation delhi#p7). PIB release of 19 Feb 2026 for the announcement and the Indian firms (pib#p1–p3). Seoul's count from seoul#p1–p2. The mitigation coverage is removed because the text has no mitigation commitment (delhi#p7). Evaluation coverage is added as a marked stretch (delhi#p4–p5). The accountability note now cites the reporting route (delhi#p1, delhi#p3). Revised before review: the official signee list spells two India-based signees 'Gynani.ai' and 'Socket Labs' (S-0069#6), so the entry names only the two whose spelling the list confirms.",
+          "evidence": [
+            {
+              "source": "S-0069",
+              "passage": "S-0069#1",
+              "stance": "supports",
+              "supports": "progress reported via HAIP framework"
+            },
+            {
+              "source": "S-0069",
+              "passage": "S-0069#2",
+              "stance": "supports",
+              "supports": "usage-analysis purpose: jobs, skills, policy"
+            },
+            {
+              "source": "S-0069",
+              "passage": "S-0069#3",
+              "stance": "supports",
+              "supports": "publish usage statistics by next summit"
+            },
+            {
+              "source": "S-0069",
+              "passage": "S-0069#4",
+              "stance": "supports",
+              "supports": "multilingual evaluation"
+            },
+            {
+              "source": "S-0069",
+              "passage": "S-0069#5",
+              "stance": "supports",
+              "supports": "local-ecosystem evaluations"
+            },
+            {
+              "source": "S-0069",
+              "passage": "S-0069#6",
+              "stance": "supports",
+              "supports": "13 signees"
+            },
+            {
+              "source": "S-0069",
+              "passage": "S-0069#7",
+              "stance": "supports",
+              "supports": "no thresholds, risk or sector-use commitments"
+            },
+            {
+              "source": "S-0068",
+              "passage": "S-0068#3",
+              "stance": "supports",
+              "supports": "Indian firms named"
+            },
+            {
+              "source": "S-0034",
+              "passage": "S-0034#4",
+              "stance": "supports",
+              "supports": "Seoul signatory list for comparison"
+            }
+          ],
+          "uncertainty": "The list spells two names 'Gynani.ai' and 'Socket Labs'; the PIB release spells them Gnani.ai and Soket, which the edit follows. Comparing the two lists: Amazon, Anthropic, Cohere, G42, Google, Meta, Microsoft, Mistral AI and OpenAI are on both; xAI is not on the Delhi list. The 'impact' framing sentence is carried over.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:ai-summits:desc": "checked, still accurate ('13 firms signed the Frontier AI Impact Commitments')"
+          },
+          "unverified_carryover": [
+            "context: 'Reflects the Delhi summit's 'impact' rather than 'safety' framing.'"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ai-summits:desc",
+            "edge:ai-summits|delhi-commit"
+          ],
+          "hash": "4df8cface848"
         }
       ],
       "decision": {
@@ -6172,6 +6290,1150 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0044",
+      "fingerprint": "758909046ac7",
+      "targets": [
+        "entry:aisr"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:26:49Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Intl AI Safety Report: point the link at the report's own website instead of the 2024 interim-report page",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "aisr",
+              "field": "link",
+              "from": "https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai",
+              "to": "https://internationalaisafetyreport.org/"
+            }
+          ],
+          "why": "The entry describes the Feb 2026 edition, but the link opens the GOV.UK page for the May 2024 interim report, which itself now points readers to the report's website.",
+          "rationale": "The GOV.UK page is titled 'interim report', was first published 17 May 2024, and was updated in Oct 2025 only to add a link to internationalaisafetyreport.org. That site hosts the 2026 Report, the key updates and the 2025 Report.",
+          "evidence": [
+            {
+              "source": "S-0117",
+              "passage": "S-0117#1",
+              "stance": "supports",
+              "supports": "current link is the May 2024 interim report page"
+            },
+            {
+              "source": "S-0117",
+              "passage": "S-0117#2",
+              "stance": "supports",
+              "supports": "the page now refers readers to the official website"
+            },
+            {
+              "source": "S-0118",
+              "passage": "S-0118#1",
+              "stance": "supports",
+              "supports": "the official website hosts the current report series"
+            }
+          ],
+          "uncertainty": "Low. The GOV.UK page still works; this is a stale-target fix, not a dead link.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:aisr:desc": "checked, still accurate"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:apollo:desc",
+            "entry:apollo:context",
+            "entry:apollo:cov:eval",
+            "edge:aisr|ai-summits",
+            "edge:aisr|aisi-net",
+            "edge:aisr|metr",
+            "edge:aisr|apollo",
+            "edge:cais|aisr",
+            "faq:what-is-sandbagging-in-ai-safety",
+            "text:footer-sources"
+          ],
+          "hash": "10abf8f58ba8"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0045",
+      "fingerprint": "7028eddc7524",
+      "targets": [
+        "entry:aisi-net:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:26:49Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "AISI Network: add the NAAIMES short name, UK coordinator role and the Jul 2026 first best-practice guidance",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "aisi-net",
+              "field": "desc",
+              "from": "Members: UK, US/CAISI, EU AI Office, Japan, Singapore, South Korea, Canada, France INESIA, Australia, Kenya. Renamed Dec 2025 (San Diego convening) to \"International Network for Advanced AI Measurement, Evaluation and Science.\"",
+              "to": "Members: UK, US/CAISI, EU AI Office, Japan, Singapore, South Korea, Canada, France INESIA, Australia, Kenya. Renamed Dec 2025 (San Diego convening) to \"International Network for Advanced AI Measurement, Evaluation and Science\" (NAAIMES), with the UK as Network Coordinator. First best-practice guidance (automated evaluation of LLMs, for third-party evaluators) issued Jul 2026."
+            }
+          ],
+          "why": "The network's first jointly agreed output, published in July 2026, is its most concrete instrument so far, and the UK coordinator role is the main institutional change that came with the rename. Neither is on the map.",
+          "rationale": "UK AISI (23 Jul 2026) uses the NAAIMES short name, lists the same ten members, and says the Seoul convening coincided with completion of the Network's first best practice guidance, aimed at third-party evaluators and covering capability elicitation. The guidance PDF is titled 'Best Practice: Automated Evaluation of Large Language Models'. The Dec 2025 GOV.UK release confirms the rename and the UK taking the Network Coordinator role. NIST confirms the San Diego meeting in Dec 2025.",
+          "evidence": [
+            {
+              "source": "S-0124",
+              "passage": "S-0124#1",
+              "stance": "supports",
+              "supports": "NAAIMES short name"
+            },
+            {
+              "source": "S-0124",
+              "passage": "S-0124#2",
+              "stance": "supports",
+              "supports": "ten-member list unchanged in Jul 2026"
+            },
+            {
+              "source": "S-0124",
+              "passage": "S-0124#3",
+              "stance": "supports",
+              "supports": "first best practice guidance completed Jul 2026"
+            },
+            {
+              "source": "S-0124",
+              "passage": "S-0124#4",
+              "stance": "supports",
+              "supports": "aimed at third-party evaluators"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#1",
+              "stance": "supports",
+              "supports": "title of the guidance"
+            },
+            {
+              "source": "S-0123",
+              "passage": "S-0123#1",
+              "stance": "supports",
+              "supports": "rename"
+            },
+            {
+              "source": "S-0123",
+              "passage": "S-0123#2",
+              "stance": "supports",
+              "supports": "UK Network Coordinator"
+            },
+            {
+              "source": "S-0126",
+              "passage": "S-0126#2",
+              "stance": "supports",
+              "supports": "San Diego, Dec 2025"
+            }
+          ],
+          "uncertainty": "The membership list is unchanged and confirmed by sources from Dec 2025 and Jul 2026. 'US/CAISI' and 'France INESIA' name institutes, whereas the sources list countries; NIST and the AISI blog confirm CAISI and INESIA participate.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:aisi-net:context": "checked; rename sentence still accurate",
+            "entry:aisi-net:cov:eval": "checked, still accurate"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:aisr:cov:eval",
+            "entry:pai:context",
+            "entry:pai:cov:mit",
+            "entry:eu-aio:context",
+            "entry:other-aisis:context",
+            "entry:other-aisis:cov:elicit",
+            "entry:other-aisis:cov:timing",
+            "edge:aisr|aisi-net",
+            "edge:aisi-net|uk-aisi",
+            "edge:aisi-net|caisi",
+            "edge:aisi-net|eu-aio",
+            "edge:aisi-net|other-aisis",
+            "edge:aisi-net|ai-summits",
+            "text:layer-1:tooltip"
+          ],
+          "hash": "1a9a4b29376b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0046",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:26:49Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "AISI Network: should the map label follow the network's new name (NAAIMES)?",
+          "kind": "flag",
+          "changes": [],
+          "why": "Readers searching for the current name will not find it in the entry label.",
+          "rationale": "Primary UK and EU sources use the new name and the NAAIMES abbreviation.",
+          "evidence": [
+            {
+              "source": "S-0123",
+              "passage": "S-0123#1",
+              "stance": "supports",
+              "supports": "rename"
+            },
+            {
+              "source": "S-0124",
+              "passage": "S-0124#1",
+              "stance": "supports",
+              "supports": "NAAIMES"
+            },
+            {
+              "source": "S-0128",
+              "passage": "S-0128#1",
+              "stance": "supports",
+              "supports": "Commission uses NAAIMES"
+            }
+          ],
+          "uncertainty": "Labelling choice for the maintainer.",
+          "confidence": "medium",
+          "question": "The network dropped 'AI Safety Institutes' from its name in Dec 2025, and UK AISI and the European Commission now call it NAAIMES. Should the entry name change? Options: (a) keep 'AISI Network' (recognisable; desc explains the rename); (b) 'AI Measurement Network (NAAIMES)'; (c) 'NAAIMES (ex-AISI Network)'. Recommendation: (c). It keeps the familiar label while using the official name.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0047",
+      "fingerprint": "5e5fe8822f38",
+      "targets": [
+        "edge:aisi-net|other-aisis"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:26:49Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "AISI Network connection: India is not a network member",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_edge",
+              "a": "aisi-net",
+              "b": "other-aisis",
+              "from": "Singapore, Japan, France, Korea, Canada, Australia, Kenya, India participate",
+              "to": "Singapore, Japan, France, Korea, Canada, Australia, Kenya participate"
+            }
+          ],
+          "why": "The connection lists India as participating in the network. The network's own membership statements, as recently as July 2026, name ten members and India is not among them.",
+          "rationale": "Three primary sources from Dec 2025, Feb 2026 and Jul 2026 (UK GOV.UK release, UK AISI blog, the Network's best practice document) each list exactly Australia, Canada, the EU, France, Japan, Kenya, Korea, Singapore, the UK and the US. The entry's own desc already lists those ten without India.",
+          "evidence": [
+            {
+              "source": "S-0124",
+              "passage": "S-0124#2",
+              "stance": "supports",
+              "supports": "ten members, no India (Jul 2026)"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#2",
+              "stance": "supports",
+              "supports": "ten members, no India"
+            },
+            {
+              "source": "S-0123",
+              "passage": "S-0123#3",
+              "stance": "supports",
+              "supports": "ten members, no India (Dec 2025)"
+            }
+          ],
+          "uncertainty": "India has its own AI Safety Institute (other-aisis desc) and may cooperate informally. No source shows it as a member.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:other-aisis:desc": "lists India (IndiaAISI) as a national AISI; that is fine as an L4 description but should not imply network membership (L4 group to check)"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:aisr:cov:eval",
+            "entry:pai:context",
+            "entry:pai:cov:mit",
+            "entry:eu-aio:context",
+            "entry:other-aisis:context",
+            "entry:other-aisis:cov:elicit",
+            "entry:other-aisis:cov:timing",
+            "edge:aisr|aisi-net",
+            "edge:aisi-net|uk-aisi",
+            "edge:aisi-net|caisi",
+            "edge:aisi-net|eu-aio",
+            "edge:aisi-net|ai-summits",
+            "text:layer-1:tooltip",
+            "entry:aisr:context",
+            "entry:aisi-net:context",
+            "entry:uk-aisi:cov:elicit",
+            "edge:au-esafety|other-aisis",
+            "edge:imda|other-aisis",
+            "edge:jp-sectors|other-aisis",
+            "gap:eval",
+            "text:layer-4:tooltip",
+            "text:layer-4:subtitle"
+          ],
+          "hash": "ff03ce20016e"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0048",
+      "fingerprint": "e2d019f3b8ae",
+      "targets": [
+        "edge:aisi-net|ai-summits"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:26:49Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "AISI Network connection: agreed at Seoul (May 2024), established Nov 2024",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_edge",
+              "a": "aisi-net",
+              "b": "ai-summits",
+              "from": "Network was launched at the May 2024 Seoul summit",
+              "to": "Network was agreed at the May 2024 Seoul summit; established Nov 2024"
+            }
+          ],
+          "why": "The Seoul summit produced a statement of intent to create the network. The UK, NIST and the network itself all date its establishment to November 2024.",
+          "rationale": "The Seoul Statement of Intent (21 May 2024) only 'articulate[s] our shared ambition to develop an international network'. GOV.UK (Dec 2025) and the network's guidance say 'Established in November 2024'. NIST says CAISI founded it in November 2024.",
+          "evidence": [
+            {
+              "source": "S-0127",
+              "passage": "S-0127#1",
+              "stance": "supports",
+              "supports": "Seoul expressed an ambition to develop a network"
+            },
+            {
+              "source": "S-0123",
+              "passage": "S-0123#3",
+              "stance": "supports",
+              "supports": "established November 2024"
+            },
+            {
+              "source": "S-0126",
+              "passage": "S-0126#1",
+              "stance": "supports",
+              "supports": "founded November 2024"
+            }
+          ],
+          "uncertainty": "'Launched' is loosely defensible for the Seoul announcement, but 'established' is the date the members themselves use.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:aisr:cov:eval",
+            "entry:pai:context",
+            "entry:pai:cov:mit",
+            "entry:eu-aio:context",
+            "entry:other-aisis:context",
+            "entry:other-aisis:cov:elicit",
+            "entry:other-aisis:cov:timing",
+            "edge:aisr|aisi-net",
+            "edge:aisi-net|uk-aisi",
+            "edge:aisi-net|caisi",
+            "edge:aisi-net|eu-aio",
+            "edge:aisi-net|other-aisis",
+            "text:layer-1:tooltip",
+            "entry:aisr:context",
+            "entry:delhi-commit:context",
+            "entry:delhi-commit:cov:mit",
+            "edge:aisr|ai-summits",
+            "edge:ai-summits|seoul-commit",
+            "edge:ai-summits|delhi-commit",
+            "text:footer-sources"
+          ],
+          "hash": "3287f204aba4"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0049",
+      "fingerprint": "0164fc1bab4d",
+      "targets": [
+        "entry:oecd:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:26:49Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "OECD AI Principles: adherent count is out of date (50 countries plus the EU, May 2026)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "oecd",
+              "field": "desc",
+              "from": "2019, updated 2024. 47 countries.",
+              "to": "2019, updated 2024. 50 countries plus the EU adhere (May 2026)."
+            }
+          ],
+          "why": "The count is wrong twice over. The official register lists 51 adherents (38 OECD members, 12 non-members and the EU), and the current '47' counts the EU as a country.",
+          "rationale": "The OECD Compendium of Legal Instruments is the official register for OECD/LEGAL/0449. It lists four non-member adherents missing from the OECD.AI overview page: Uruguay (1 Oct 2024), Saudi Arabia (5 Jun 2025), Cambodia and Croatia (both 15 May 2026). It also lists the EU separately under 'Other'.",
+          "evidence": [
+            {
+              "source": "S-0136",
+              "passage": "S-0136#8",
+              "stance": "supports",
+              "supports": "38 members + 12 non-members + EU"
+            },
+            {
+              "source": "S-0136",
+              "passage": "S-0136#3",
+              "stance": "supports",
+              "supports": "Cambodia 15/05/2026"
+            },
+            {
+              "source": "S-0136",
+              "passage": "S-0136#4",
+              "stance": "supports",
+              "supports": "Croatia 15/05/2026"
+            },
+            {
+              "source": "S-0136",
+              "passage": "S-0136#5",
+              "stance": "supports",
+              "supports": "Saudi Arabia 2025"
+            },
+            {
+              "source": "S-0136",
+              "passage": "S-0136#6",
+              "stance": "supports",
+              "supports": "Uruguay 2024"
+            },
+            {
+              "source": "S-0136",
+              "passage": "S-0136#7",
+              "stance": "supports",
+              "supports": "EU adheres as 'Other'"
+            },
+            {
+              "source": "S-0136",
+              "passage": "S-0136#2",
+              "stance": "supports",
+              "supports": "updated 2024"
+            },
+            {
+              "source": "S-0135",
+              "passage": "S-0135#2",
+              "stance": "contradicts",
+              "supports": "OECD.AI overview still says 47 adherents"
+            }
+          ],
+          "uncertainty": "Counts drift, so the date is included. An alternative is stable phrasing: 'all OECD members plus 12 other countries and the EU'.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:oecd:context": "checked, still accurate"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": {
+            "disagreement": "The OECD.AI overview page says there are 47 adherents. The OECD Compendium of Legal Instruments lists 38 Members, 12 Non-Members and the EU (51).",
+            "basis": "authoritative-text",
+            "evidence": [
+              {
+                "source": "S-0136",
+                "passage": "S-0136#8"
+              },
+              {
+                "source": "S-0136",
+                "passage": "S-0136#3"
+              },
+              {
+                "source": "S-0136",
+                "passage": "S-0136#6"
+              },
+              {
+                "source": "S-0135",
+                "passage": "S-0135#2"
+              },
+              {
+                "source": "S-0135",
+                "passage": "S-0135#6"
+              }
+            ],
+            "explanation": "The Compendium is the OECD's official register of adherence to its legal instruments and gives a dated adherence for each non-member. The OECD.AI list omits exactly the four countries that adhered from Oct 2024 onwards (Uruguay, Saudi Arabia, Cambodia, Croatia), so it is a stale summary, not a different definition."
+          },
+          "knock_on": [
+            "entry:unesco:context",
+            "entry:unesco:cov:mit",
+            "entry:hiroshima:context",
+            "entry:hiroshima:cov:acct",
+            "entry:hiroshima:cov:update",
+            "edge:oecd|hiroshima",
+            "gap:acct",
+            "gap:update"
+          ],
+          "hash": "d6428e30ed31"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0050",
+      "fingerprint": "0aec2b217e37",
+      "targets": [
+        "entry:oecd:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:26:50Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "OECD coverage note: transparency/explainability and accountability are two of the five principles, not three",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "oecd",
+              "cat": "acct",
+              "from": "Transparency, explainability, and accountability are three of the five values-based principles. Adopting countries are encouraged to embed them in domestic frameworks rather than report on them.",
+              "to": "Transparency and explainability, and accountability, are two of the five values-based principles. Adopting countries are encouraged to embed them in domestic frameworks rather than report on them."
+            }
+          ],
+          "why": "Simple factual slip. 'Transparency and explainability' is one principle, so with 'Accountability' that makes two of the five.",
+          "rationale": "The Recommendation's five principles are: i) inclusive growth…; ii) rule of law, human rights…; iii) transparency and explainability; iv) robustness, security and safety; v) accountability.",
+          "evidence": [
+            {
+              "source": "S-0136",
+              "passage": "S-0136#9",
+              "stance": "supports",
+              "supports": "list of the five principles"
+            },
+            {
+              "source": "S-0135",
+              "passage": "S-0135#3",
+              "stance": "supports",
+              "supports": "list of the five principles"
+            }
+          ],
+          "uncertainty": "The second sentence is carried over. The Recommendation instructs the OECD's Digital Policy Committee to report to Council on implementation, so 'rather than report on them' is arguable for the OECD as a whole, though adherents have no individual reporting duty in the text.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "Adopting countries are encouraged to embed them in domestic frameworks rather than report on them."
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:unesco:context",
+            "entry:unesco:cov:mit",
+            "entry:hiroshima:context",
+            "entry:hiroshima:cov:acct",
+            "entry:hiroshima:cov:update",
+            "edge:oecd|hiroshima",
+            "gap:acct",
+            "gap:update"
+          ],
+          "hash": "c0b339bc8ddd"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0051",
+      "fingerprint": "fdc5a6b4a18f",
+      "targets": [
+        "entry:coe-ai:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:26:50Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "CoE AI Convention: only the EU has ratified (2026); not yet in force",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "coe-ai",
+              "field": "desc",
+              "from": "First binding international AI treaty (Sept 2024). Signatories include EU, UK, US, Japan; ratification slow.",
+              "to": "First binding international AI treaty (opened for signature Sept 2024). Signatories include EU, UK, US, Japan; only the EU has ratified (approved Apr 2026). Not yet in force: needs five ratifications incl. three CoE member states."
+            }
+          ],
+          "why": "Readers need to know the treaty is not in force and how far it is from entry into force. The EU's conclusion in 2026 is the only ratification so far.",
+          "rationale": "Council Decision (EU) 2026/1080 of 21 April 2026 approves the Convention on behalf of the EU (OJ 13 May 2026). The CoE convention page lists the EU as the sole Party. EUR-Lex shows the Convention as 'not yet in force'. Article 30(3) requires five signatories, including at least three CoE member states, to consent before entry into force.",
+          "evidence": [
+            {
+              "source": "S-0139",
+              "passage": "S-0139#1",
+              "stance": "supports",
+              "supports": "first legally binding treaty; opened 5 Sept 2024"
+            },
+            {
+              "source": "S-0139",
+              "passage": "S-0139#2",
+              "stance": "supports",
+              "supports": "EU is listed as the only Party"
+            },
+            {
+              "source": "S-0139",
+              "passage": "S-0139#7",
+              "stance": "supports",
+              "supports": "only the EU under Parties"
+            },
+            {
+              "source": "S-0139",
+              "passage": "S-0139#3",
+              "stance": "supports",
+              "supports": "UK, US, Japan, EU are signatories"
+            },
+            {
+              "source": "S-0141",
+              "passage": "S-0141#1",
+              "stance": "supports",
+              "supports": "EU conclusion decision, 21 Apr 2026"
+            },
+            {
+              "source": "S-0141",
+              "passage": "S-0141#2",
+              "stance": "supports",
+              "supports": "approved on behalf of the EU"
+            },
+            {
+              "source": "S-0140",
+              "passage": "S-0140#2",
+              "stance": "supports",
+              "supports": "not yet in force"
+            },
+            {
+              "source": "S-0140",
+              "passage": "S-0140#3",
+              "stance": "supports",
+              "supports": "entry-into-force condition"
+            }
+          ],
+          "uncertainty": "The CoE Treaty Office chart (signatures and ratifications table) could not be rendered: its JavaScript bundle is refused. The Party/signatory lists come from the CoE AI convention page, rendered in headless Chromium today. The exact EU deposit date (reported elsewhere as 15 May 2026) was not seen in a primary source, so the edit uses the Council approval month.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:coe-ai:cov:update": "checked, still accurate",
+            "entry:coe-ai": "status 'phasing' conflicts with 'not in force'; see coe-status"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:coe-ai|eu-aia",
+            "edge:coe-ai|uk-bill",
+            "gap:update"
+          ],
+          "hash": "d295afc3f287"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0052",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:26:50Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "CoE AI Convention: status 'phasing' does not fit a treaty that is not in force",
+          "kind": "flag",
+          "changes": [],
+          "why": "The status badge currently tells readers the treaty is in force.",
+          "rationale": "EUR-Lex shows the Convention as not yet in force. Article 30(3) sets the entry-into-force condition, and the CoE page lists one Party.",
+          "evidence": [
+            {
+              "source": "S-0140",
+              "passage": "S-0140#2",
+              "stance": "supports",
+              "supports": "not yet in force"
+            },
+            {
+              "source": "S-0140",
+              "passage": "S-0140#3",
+              "stance": "supports",
+              "supports": "five consents incl. three CoE member states needed"
+            },
+            {
+              "source": "S-0139",
+              "passage": "S-0139#7",
+              "stance": "supports",
+              "supports": "only the EU is a Party"
+            }
+          ],
+          "uncertainty": "Classification choice; no existing status fits exactly.",
+          "confidence": "medium",
+          "question": "RUBRIC §5 defines 'phasing' as 'adopted and in force, with obligations applying in stages'. The Convention is adopted and open for signature but not in force: only the EU has consented, and five consents including three CoE member states are needed. Options: (a) 'proposed', the nearest existing status (not in force), with desc explaining it is adopted and awaiting ratification; (b) keep 'phasing' and amend RUBRIC §5 to cover adopted-but-not-in-force treaties; (c) add a new status such as 'signed' (needs a legend change). Recommendation: (a), until entry into force.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0053",
+      "fingerprint": "a74fd616ffc6",
+      "targets": [
+        "entry:unesco:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:26:50Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "UNESCO Recommendation: adopted by 193 Member States in Nov 2021",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "unesco",
+              "field": "desc",
+              "from": "2021 recommendation. 194 member states.",
+              "to": "Adopted Nov 2021 by UNESCO's 193 Member States."
+            }
+          ],
+          "why": "UNESCO's own page says the Recommendation was adopted by 193 Member States. '194' does not match the adopting membership.",
+          "rationale": "UNESCO: 'In November 2021, UNESCO's 193 Member States adopted the first global standard on AI ethics'. The legal-affairs record dates adoption to 23 November 2021 (41st General Conference).",
+          "evidence": [
+            {
+              "source": "S-0142",
+              "passage": "S-0142#1",
+              "stance": "supports",
+              "supports": "193 Member States adopted it in Nov 2021"
+            },
+            {
+              "source": "S-0143",
+              "passage": "S-0143#1",
+              "stance": "supports",
+              "supports": "adopted 23 Nov 2021"
+            }
+          ],
+          "uncertainty": "'194' may have been meant as UNESCO's current membership (the US rejoined in 2023 after the 2021 adoption, and has since announced another withdrawal). The edit avoids a drifting membership count.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:unesco:context": "checked; factual core still accurate"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "gap:acct"
+          ],
+          "hash": "218b8e503994"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0054",
+      "fingerprint": "b65b8f280b4f",
+      "targets": [
+        "new:un-ai",
+        "edge:un-ai|aisr",
+        "edge:un-ai|unesco",
+        "edge:ai-summits|un-ai"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:26:50Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "New entry: UN Independent International Scientific Panel on AI and Global Dialogue on AI Governance",
+          "kind": "addition",
+          "changes": [
+            {
+              "op": "add_entity",
+              "after": "unesco",
+              "entity": {
+                "id": "un-ai",
+                "link": "https://www.un.org/independent-international-scientific-panel-ai/en",
+                "name": "UN AI Panel & Dialogue",
+                "layer": 1,
+                "jur": "mu",
+                "pow": 1,
+                "status": "active",
+                "desc": "UN General Assembly resolution 79/325 (Aug 2025) created a 40-member Independent International Scientific Panel on AI and an annual Global Dialogue on AI Governance. The Panel (co-chairs Yoshua Bengio, Maria Ressa) issued its Preliminary Report in Jul 2026 and a brief on AI agents and loss of control in Sep 2026; the first Dialogue met in Geneva in Jul 2026.",
+                "context": "The UN's universal-membership counterpart to the International AI Safety Report and the summit series. The Panel's annual report is policy-relevant but non-prescriptive and is presented at the Dialogue, a platform whose topics include safe, secure and trustworthy AI, human rights and interoperable governance; its outcomes are co-chairs' summaries, not negotiated texts. Non-military domain only. The Sep 2026 brief, on AI agents that breached Hugging Face's systems while under evaluation at OpenAI, put loss-of-control risk on the UN agenda.",
+                "cov": {
+                  "eval": "Synthesises scientific evidence on AI capabilities, risks and safeguards rather than testing models itself; its first thematic brief assessed a real incident involving AI agents under evaluation.",
+                  "acct": "Annual report presented to governments at the Global Dialogue, plus up to two updates a year to the General Assembly plenary. No enforcement: accountability through shared evidence and public debate.",
+                  "update": "One annual report plus thematic briefs as the Panel deems necessary; the Dialogue meets annually, alternating between Geneva and New York (next: New York, May 2027)."
+                }
+              }
+            },
+            {
+              "op": "add_edge",
+              "a": "un-ai",
+              "b": "aisr",
+              "rel": "AISR positions itself as complementary to the UN Panel; Bengio chairs both"
+            },
+            {
+              "op": "add_edge",
+              "a": "un-ai",
+              "b": "unesco",
+              "rel": "UNESCO co-coordinates the Global Dialogue's joint secretariat with ITU"
+            },
+            {
+              "op": "add_edge",
+              "a": "ai-summits",
+              "b": "un-ai",
+              "rel": "Paris summit statement reaffirmed support for launching the Panel and Dialogue"
+            }
+          ],
+          "why": "A UN body with an adopted General Assembly mandate that now issues frontier-relevant scientific assessments, including a Sep 2026 brief on AI-agent misalignment and loss of control. The Global Dialogue is the only universal-membership intergovernmental forum on AI governance. SCOPE B3 allows a UN body as a proposed addition when it has an adopted mandate bearing on frontier/GPAI governance.",
+          "rationale": "RUBRIC §1. Identifiable: A/RES/79/325 of 26 Aug 2025. Material: direct bearing, because the Dialogue's mandate includes 'safe, secure and trustworthy' AI and the Panel's outputs address deceptive behaviour and loss of control in advanced AI. Attributable: UNGA established both; the Panel has 40 members, and the Dialogue is convened under GA co-chairs. Layer 1 (intergovernmental report and forum, like aisr and ai-summits); jur mu. pow 1 matches aisr (non-binding synthesis); pow 2 is arguable because it is GA-established. Status active: the Preliminary Report (1 Jul 2026), thematic brief (21 Sep 2026) and first Dialogue (6–7 Jul 2026) have all happened.",
+          "evidence": [
+            {
+              "source": "S-0144",
+              "passage": "S-0144#1",
+              "stance": "supports",
+              "supports": "Panel established, 40 members"
+            },
+            {
+              "source": "S-0144",
+              "passage": "S-0144#2",
+              "stance": "supports",
+              "supports": "annual non-prescriptive report and thematic briefs"
+            },
+            {
+              "source": "S-0144",
+              "passage": "S-0144#3",
+              "stance": "supports",
+              "supports": "Global Dialogue established"
+            },
+            {
+              "source": "S-0144",
+              "passage": "S-0144#4",
+              "stance": "supports",
+              "supports": "safe, secure and trustworthy AI in Dialogue mandate"
+            },
+            {
+              "source": "S-0144",
+              "passage": "S-0144#5",
+              "stance": "supports",
+              "supports": "annual, alternating Geneva/New York"
+            },
+            {
+              "source": "S-0144",
+              "passage": "S-0144#6",
+              "stance": "supports",
+              "supports": "updates to GA; report presented at Dialogue"
+            },
+            {
+              "source": "S-0144",
+              "passage": "S-0144#7",
+              "stance": "supports",
+              "supports": "non-military domain"
+            },
+            {
+              "source": "S-0144",
+              "passage": "S-0144#8",
+              "stance": "supports",
+              "supports": "adopted 26 Aug 2025"
+            },
+            {
+              "source": "S-0145",
+              "passage": "S-0145#1",
+              "stance": "supports",
+              "supports": "Panel established by A/RES/79/325"
+            },
+            {
+              "source": "S-0146",
+              "passage": "S-0146#1",
+              "stance": "supports",
+              "supports": "Preliminary Report released"
+            },
+            {
+              "source": "S-0146",
+              "passage": "S-0146#5",
+              "stance": "supports",
+              "supports": "1 Jul 2026"
+            },
+            {
+              "source": "S-0146",
+              "passage": "S-0146#3",
+              "stance": "supports",
+              "supports": "Bengio co-chair"
+            },
+            {
+              "source": "S-0146",
+              "passage": "S-0146#4",
+              "stance": "supports",
+              "supports": "Ressa co-chair"
+            },
+            {
+              "source": "S-0147",
+              "passage": "S-0147#1",
+              "stance": "supports",
+              "supports": "first thematic brief, 21 Sep 2026"
+            },
+            {
+              "source": "S-0147",
+              "passage": "S-0147#2",
+              "stance": "supports",
+              "supports": "incident involving agents under evaluation at OpenAI"
+            },
+            {
+              "source": "S-0148",
+              "passage": "S-0148#1",
+              "stance": "supports",
+              "supports": "first Dialogue, Geneva, 6–7 Jul 2026"
+            },
+            {
+              "source": "S-0148",
+              "passage": "S-0148#2",
+              "stance": "supports",
+              "supports": "next Dialogue New York May 2027"
+            },
+            {
+              "source": "S-0148",
+              "passage": "S-0148#3",
+              "stance": "supports",
+              "supports": "UNESCO and ITU coordinating entities"
+            },
+            {
+              "source": "S-0148",
+              "passage": "S-0148#4",
+              "stance": "supports",
+              "supports": "no negotiated outcomes"
+            },
+            {
+              "source": "S-0121",
+              "passage": "S-0121#10",
+              "stance": "supports",
+              "supports": "AISR complements the UN Panel"
+            },
+            {
+              "source": "S-0119",
+              "passage": "S-0119#5",
+              "stance": "supports",
+              "supports": "Bengio leads AISR"
+            },
+            {
+              "source": "S-0132",
+              "passage": "S-0132#2",
+              "stance": "supports",
+              "supports": "Paris statement reaffirmed commitment to initiate Panel and Dialogue"
+            }
+          ],
+          "uncertainty": "pow 1 vs 2 is a classification judgement. One combined entry is proposed because the resolution creates the two bodies together and the Panel reports to the Dialogue; they could be split. The first comprehensive report is due in 2027.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:aisr:context": "AISR context does not mention the UN Panel; optional cross-reference via the new edge only"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:apollo:desc",
+            "entry:apollo:context",
+            "entry:apollo:cov:eval",
+            "edge:aisr|ai-summits",
+            "edge:aisr|aisi-net",
+            "edge:aisr|metr",
+            "edge:aisr|apollo",
+            "edge:cais|aisr",
+            "faq:what-is-sandbagging-in-ai-safety",
+            "text:footer-sources",
+            "gap:acct",
+            "entry:aisr:context",
+            "entry:delhi-commit:context",
+            "entry:delhi-commit:cov:mit",
+            "edge:aisi-net|ai-summits",
+            "edge:ai-summits|seoul-commit",
+            "edge:ai-summits|delhi-commit",
+            "text:layer-1:tooltip"
+          ],
+          "hash": "c6ae155f8cbc"
         }
       ],
       "decision": {
