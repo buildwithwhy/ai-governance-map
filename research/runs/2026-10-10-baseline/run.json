@@ -897,6 +897,254 @@
           ]
         }
       ]
+    },
+    {
+      "area": "United States (federal)",
+      "summary": "Two significant items. EO 14434 (29 Sep 2026) is a terminology order. H.R. 9925, the FRONTIER Act (23 Jul 2026), is a bipartisan frontier-AI bill with state preemption and is proposed as a new entry. Many narrower AI bills were introduced. EO 14365 implementation: an FTC proposed policy statement (Jul 2026, secondary only); the Commerce §4 evaluation was not found.",
+      "queries": [
+        "Federal Register API: executive orders published since 2026-05-01",
+        "Federal Register API: presidential documents containing 'artificial intelligence' since 2026-05-15",
+        "govinfo bulk data BILLS 119th Congress 2nd session (hr, s): titles mentioning AI/artificial intelligence/frontier/superintelligence since 2026-06-01",
+        "WebSearch: AI Litigation Task Force lawsuit 2026",
+        "WebSearch: Commerce evaluation of state AI laws EO 14365 published",
+        "WebSearch: federal AI preemption bill introduced July-September 2026",
+        "WebSearch: White House legislative recommendation national AI framework 2026",
+        "WebSearch: FTC policy statement AI truthful outputs EO 14365"
+      ],
+      "limits": "congress.gov and its API refused (Cloudflare / DEMO_KEY rate limit), so committee status is unknown. Bill discovery used govinfo bulk XML for bill text. commerce.gov and ftc.gov press pages could not be retrieved.",
+      "candidates": [
+        {
+          "name": "EO 14434 Inaugurating the Era of Super Intelligence (29 Sep 2026, 91 FR 63129)",
+          "result": "screened out",
+          "reason": "RUBRIC §1 'material' fails: it only mandates 'Super Intelligence'/'SI' terminology in executive-branch documents and asks for legislative definition language. Same definition as 15 U.S.C. 9401(3); no change to how AI is developed, evaluated or deployed.",
+          "sources": [
+            "S-0175",
+            "S-0276"
+          ]
+        },
+        {
+          "name": "EO 14421 bulk-power system emergency (26 Aug 2026) and other EOs Jun-Oct 2026",
+          "result": "screened out",
+          "reason": "Mentions AI only as a driver of electricity demand; other EOs in the list are unrelated (EO 14427 DPA delegations has no AI text).",
+          "sources": [
+            "S-0276"
+          ]
+        },
+        {
+          "name": "H.R. 9925 FRONTIER Act (Obernolte, Trahan et al., 23 Jul 2026)",
+          "result": "proposed",
+          "reason": "Formally introduced, bipartisan, frontier-specific (>10^26 FLOPs) with audits, incident reporting, licensed verifiers, emergency halt orders and preemption of state frontier laws.",
+          "proposal": "P-0106",
+          "sources": [
+            "S-0277"
+          ]
+        },
+        {
+          "name": "Ban Artificial Superintelligence Act of 2026 (S. 5493 Sanders, 23 Sep 2026; H.R. 10538 Casar, 24 Sep 2026)",
+          "result": "screened out",
+          "reason": "Formally introduced and frontier-relevant (would create a Department of AI regulating advanced systems), but minority-party bills with no co-sponsors across the aisle. Logged for the maintainer; not drafted under 'clearly significant only'.",
+          "sources": [
+            "S-0278"
+          ]
+        },
+        {
+          "name": "Other AI bills introduced Jun-Oct 2026 (e.g. S. 5576 AI Risk Management and Security Act (Warner: AI Safety Board), S. 5061 Secure AI Development Act, H.R. 9917 AI Kill Switch Act, H.R. 10180 Self-Improving AI Monitoring Act, H.R. 9477 AI Incident Reporting Act, H.R. 9333 AI Flaw Reporting and Security Enhancement Act)",
+          "result": "screened out",
+          "reason": "Titles found in govinfo bulk data; narrower or single-sponsor bills without evidence of movement. Not opened in full; logged as candidates.",
+          "sources": []
+        },
+        {
+          "name": "White House 'National Policy Framework for AI' legislative recommendations (20 Mar 2026)",
+          "result": "screened out",
+          "reason": "Non-binding recommendations to Congress under EO 14365 §8; predates the June 2026 snapshot. Primary not opened (secondary reporting only); could be noted in us-preempt context.",
+          "sources": []
+        },
+        {
+          "name": "FTC proposed policy statement 'Suppression of Accuracy in AI Systems' (Jul 2026, under EO 14365 §7)",
+          "result": "lead — source inaccessible",
+          "reason": "Secondary reports say the FTC published a proposed statement (comments to 31 Jul 2026) asserting implied preemption of Colorado's law. ftc.gov returned 404 to curl. Relevant to us-ftc (L4) and us-preempt.",
+          "sources": []
+        },
+        {
+          "name": "Commerce §4 evaluation of state AI laws / NTIA BEAD policy notice (EO 14365 §§4-5)",
+          "result": "lead — source inaccessible",
+          "reason": "Due 11 Mar 2026. Secondary reports (Mar 2026) say it was delayed; no official copy found. commerce.gov refuses automated clients. Bears on the SB 53 / RAISE edges.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "area": "European Union",
+      "summary": "No new AI law since June 2026. The Digital Omnibus (Reg. 2026/1744) entered into force 27 Jul 2026 (already applied via P-0016). AI Act enforcement began 2 Aug 2026; the Commission issued Article 50 transparency guidelines (Jul 2026). The Scientific Panel is investigating 'loss-of-control incidents' (9 Oct 2026), a lead for eu-aio.",
+      "queries": [
+        "Commission AI Act policy page (digital-strategy.ec.europa.eu) latest news",
+        "WebSearch: AI Act implementing act OR delegated act OR guidelines adopted July-September 2026",
+        "EUR-Lex retries for Reg. 2024/1689 (HTTP 202)"
+      ],
+      "limits": "EUR-Lex returned empty 202 responses, so no new OJ search was possible. Commission guidance pages were read from the policy page only.",
+      "candidates": [
+        {
+          "name": "Digital Omnibus on AI, Reg. (EU) 2026/1744 — entry into force 27 Jul 2026",
+          "result": "update to existing entry",
+          "reason": "Already reflected in eu-aia desc (P-0016).",
+          "sources": [
+            "S-0001"
+          ]
+        },
+        {
+          "name": "Commission guidelines on Article 50 transparency obligations (20 Jul 2026)",
+          "result": "screened out",
+          "reason": "Non-binding Commission guidance implementing an existing provision; relates to eu-genai-code and eu-aio rather than a new L2 instrument.",
+          "sources": [
+            "S-0001"
+          ]
+        },
+        {
+          "name": "AI Act enforcement start, 2 Aug 2026",
+          "result": "update to existing entry",
+          "reason": "Consistent with eu-aia and eu-aio (AI Office enforcement powers apply since Aug 2026).",
+          "sources": [
+            "S-0280"
+          ]
+        },
+        {
+          "name": "Scientific Panel special meeting on 'recent loss-of-control incidents' (9 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Lead for the L4 group (eu-aio / scientific panel): first public reference to an AI Office-panel inquiry into frontier incidents. Not an L2 instrument.",
+          "sources": [
+            "S-0281"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "United Kingdom",
+      "summary": "No AI bill. The 13 May 2026 King's Speech dropped frontier-AI legislation; AI appears only as sandboxes in a Regulating for Growth Bill (not yet introduced). Lord Holmes's AI (Regulation) Bill [HL] (the map's link) was not carried over. A Labour backbencher introduced an Artificial Superintelligence Bill (session 2026-27).",
+      "queries": [
+        "UK Parliament Bills API: search 'artificial intelligence', 'superintelligence', 'frontier', 'Regulating for Growth'",
+        "GOV.UK search API: King's Speech 2026; statutory footing AI Security Institute",
+        "WebSearch: King's Speech May 2026 artificial intelligence bill"
+      ],
+      "limits": "bills.parliament.uk HTML and the Lords Library briefing refuse automated clients; the Bills API was used instead.",
+      "candidates": [
+        {
+          "name": "King's Speech 2026: no AI bill; Regulating for Growth Bill with AI sandboxes",
+          "result": "update to existing entry",
+          "reason": "Changes uk-bill (programme lapsed).",
+          "proposal": "P-0100",
+          "sources": [
+            "S-0287",
+            "S-0288"
+          ]
+        },
+        {
+          "name": "Regulating for Growth Bill",
+          "result": "screened out",
+          "reason": "Announced but not introduced as of 2026-10-10 (Bills API search returns nothing); general regulatory-sandbox powers, not AI-specific governance.",
+          "sources": [
+            "S-0288"
+          ]
+        },
+        {
+          "name": "Artificial Superintelligence Bill (bill 4288, Alex Sobel MP, Labour; second reading listed 13 Nov 2026)",
+          "result": "screened out",
+          "reason": "Formally introduced private member's bill to prohibit artificial superintelligence; backbench bill with little prospect. Logged for the maintainer; not drafted.",
+          "sources": [
+            "S-0285"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "China",
+      "summary": "No new national AI law. The CAC keeps publishing generative AI filing lists (latest attachment Aug 2026). On 3 Jul 2026 it re-consulted on a revised Internet Information Services Measures with an AI chapter. Humanlike interactive AI measures (in force Jul 2026) are already mentioned in cn-ai-law.",
+      "queries": [
+        "CAC: 生成式人工智能服务已备案信息公告",
+        "WebSearch: 国家网信办 2026年 人工智能 管理办法 征求意见稿",
+        "WebSearch: 国家互联网信息办公室令 2026年 人工智能 OR 算法"
+      ],
+      "limits": "cac.gov.cn pages load intermittently; the NPC search was not repeated (cn-ai-law already verified today).",
+      "candidates": [
+        {
+          "name": "Draft revised Internet Information Services Measures (second consultation, 3 Jul 2026; comments to 2 Aug 2026)",
+          "result": "screened out",
+          "reason": "General internet-services regulation (State Council level) with an 'intelligent information services' chapter; still a draft. Could be mentioned in cn-genai or cn-ai-law context if adopted.",
+          "sources": [
+            "S-0292"
+          ]
+        },
+        {
+          "name": "CAC generative AI filing lists through Aug 2026",
+          "result": "update to existing entry",
+          "reason": "Supports the cn-genai acct correction (filings, not approvals).",
+          "proposal": "P-0099",
+          "sources": [
+            "S-0291"
+          ]
+        },
+        {
+          "name": "Interim Measures for Humanlike Interactive AI Services (CAC Order, in force 15 Jul 2026)",
+          "result": "screened out",
+          "reason": "Already referenced in cn-ai-law context (verified today); a separate entry is possible but it governs companion and humanlike chat services rather than frontier development.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "area": "South Korea",
+      "summary": "The AI Basic Act entered into force 22 Jan 2026 together with its Enforcement Decree (Presidential Decree No. 36053). The decree sets the 10^26 FLOPs safety threshold with two further criteria. A partial amendment (Act No. 21311, 20 Jan 2026) is fully in force from 21 Jul 2026 but does not touch the frontier provisions.",
+      "queries": [
+        "law.go.kr: 인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 and 시행령 (current texts)",
+        "WebSearch: 과기정통부 인공지능기본법 과태료 계도기간"
+      ],
+      "limits": "MSIT press releases on the fine-guidance period were not retrieved; only press reports were found.",
+      "candidates": [
+        {
+          "name": "Enforcement Decree (Presidential Decree No. 36053, in force 22 Jan 2026; amended Jul and Aug 2026)",
+          "result": "update to existing entry",
+          "reason": "Sets the Art. 32 threshold (≥10^26 FLOPs + state-of-the-art + broad serious risk).",
+          "proposal": "P-0102",
+          "sources": [
+            "S-0294"
+          ]
+        },
+        {
+          "name": "Partial amendment, Act No. 21311 (20 Jan 2026; parts in force 21 Jul 2026)",
+          "result": "update to existing entry",
+          "reason": "Amends promotion provisions and adds a vulnerable-groups clause to impact assessment (Art. 35(1)); no change to safety, transparency or fine provisions. No map edit needed.",
+          "sources": [
+            "S-0293"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Japan",
+      "summary": "No new binding law. The AI Strategic HQ adopted AI guidelines under Art. 13 (19 Dec 2025), and the Cabinet adopted the AI Basic Plan (23 Dec 2025, revised 14 Jul 2026).",
+      "queries": [
+        "Cabinet Office AI strategy pages (www8.cao.go.jp/cstp/ai/)",
+        "e-Gov law data for Act No. 53 of 2025"
+      ],
+      "limits": "The guideline and plan PDFs were not read in full.",
+      "candidates": [
+        {
+          "name": "AI guidelines under Art. 13 (HQ decision 19 Dec 2025)",
+          "result": "update to existing entry",
+          "reason": "Supports the jp-ai mit correction.",
+          "proposal": "P-0105",
+          "sources": [
+            "S-0299"
+          ]
+        },
+        {
+          "name": "AI Basic Plan, second edition (Cabinet decision 14 Jul 2026)",
+          "result": "screened out",
+          "reason": "A government policy plan under Art. 18, not a binding instrument; could be mentioned in jp-ai context.",
+          "sources": [
+            "S-0300"
+          ]
+        }
+      ]
     }
   ],
   "usage": null

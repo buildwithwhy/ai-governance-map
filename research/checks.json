@@ -70,34 +70,49 @@
     },
     "entry:eu-aia:context": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
+        "run": "2026-10-10-baseline",
         "date": "2026-10-10",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0002",
-          "S-0041"
+          "S-0002"
         ],
         "proposals": [],
-        "note": "Factual core consistent with the Act, but not every clause verified. cov.mit attributes content marking to GPAI duties, whereas marking is an Art 50 duty on generative AI systems (lead). Comparative claims ('most comprehensive', 'first regulation to split the lifecycle') not checked.",
-        "missing": "Clause-by-clause check of context and cov.mit against Arts 6–49, 50 and 53; evidence for the comparative claims. Queued for the baseline audit",
+        "note": "EU facts verified against the OJ text: prohibited practices (Art. 5), high-risk conformity assessment (Art. 16(f)/43), FRIA (Art. 27), registration (Art. 49), GPAI documentation and copyright (Art. 53), 10^25 presumption (Art. 51(2)), evaluations, incident reporting and cybersecurity (Art. 55(1)(a),(c),(d)).",
+        "missing": "The comparison with California's 10^26 threshold was not re-checked: leginfo.legislature.ca.gov refuses automated clients (Cloudflare). It also contains a comparative claim ('more models fall into…') that sources cannot verify.",
         "hash": "17be873e9bdb"
       }
     },
     "entry:eu-aia:cov": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
-        "outcome": "inaccessible",
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
         "sources": [
-          "S-0001",
           "S-0002"
         ],
-        "proposals": [],
-        "note": "Commission AI Act page and EUR-Lex text both blocked by the environment's network policy; nothing about the EU AI Act could be checked against a source.",
-        "hash": "c49a5fcd8f89",
+        "proposals": [
+          "P-0097"
+        ],
+        "note": "Each listed element has a textual basis: thresh Art. 51(2)-(3); eval and elicit Art. 55(1)(a) adversarial testing; timing Art. 16(f), Art. 72; sec Art. 55(1)(d); mit Arts. 5, 50; acct Art. 55(1)(c), Art. 93; update Art. 51(3), Art. 56(8). Whether to add 'halt' (Art. 93(1)(c)) is raised as a flag.",
+        "missing": null,
+        "hash": "c49a5fcd8f89"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
         "scope": "external",
-        "missing": "Official text of Regulation (EU) 2024/1689 as amended (EUR-Lex), and of the reported amending Regulation (EU) 2026/1744, plus the Commission AI Act page. All blocked by the environment network policy."
+        "sources": [
+          "S-0002"
+        ],
+        "proposals": [
+          "P-0097"
+        ],
+        "note": "Each listed element has a textual basis: thresh Art. 51(2)-(3); eval and elicit Art. 55(1)(a) adversarial testing; timing Art. 16(f), Art. 72; sec Art. 55(1)(d); mit Arts. 5, 50; acct Art. 55(1)(c), Art. 93; update Art. 51(3), Art. 56(8). Whether to add 'halt' (Art. 93(1)(c)) is raised as a flag.",
+        "missing": null,
+        "hash": "c49a5fcd8f89"
       }
     },
     "entry:eu-aia:cov:thresh": {
@@ -198,17 +213,33 @@
     },
     "entry:eu-aia:cov:timing": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
+        "run": "2026-10-10-baseline",
         "date": "2026-10-10",
-        "outcome": "unresolved",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0002",
-          "S-0041"
+          "S-0002"
         ],
-        "proposals": [],
-        "note": "Factual core consistent with the Act, but not every clause verified. cov.mit attributes content marking to GPAI duties, whereas marking is an Art 50 duty on generative AI systems (lead). Comparative claims ('most comprehensive', 'first regulation to split the lifecycle') not checked.",
-        "missing": "Clause-by-clause check of context and cov.mit against Arts 6–49, 50 and 53; evidence for the comparative claims. Queued for the baseline audit",
+        "proposals": [
+          "P-0095"
+        ],
+        "note": "Post-market monitoring (Art. 72) is a high-risk provider duty; the AI Office's exclusive powers cover GPAI (Art. 88). 'First regulation to…' is analytic and carried over.",
+        "missing": null,
+        "hash": "7e028ca3cb91"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0002"
+        ],
+        "proposals": [
+          "P-0095"
+        ],
+        "note": "Post-market monitoring (Art. 72) is a high-risk provider duty; the AI Office's exclusive powers cover GPAI (Art. 88). 'First regulation to…' is analytic and carried over.",
+        "missing": null,
         "hash": "7e028ca3cb91"
       }
     },
@@ -246,17 +277,33 @@
     },
     "entry:eu-aia:cov:mit": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
+        "run": "2026-10-10-baseline",
         "date": "2026-10-10",
-        "outcome": "unresolved",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0002",
-          "S-0041"
+          "S-0002"
         ],
-        "proposals": [],
-        "note": "Factual core consistent with the Act, but not every clause verified. cov.mit attributes content marking to GPAI duties, whereas marking is an Art 50 duty on generative AI systems (lead). Comparative claims ('most comprehensive', 'first regulation to split the lifecycle') not checked.",
-        "missing": "Clause-by-clause check of context and cov.mit against Arts 6–49, 50 and 53; evidence for the comparative claims. Queued for the baseline audit",
+        "proposals": [
+          "P-0094"
+        ],
+        "note": "Content marking is Art. 50(2) (generative AI systems), not a GPAI duty (Art. 53: documentation, copyright).",
+        "missing": null,
+        "hash": "47d31e228cae"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0002"
+        ],
+        "proposals": [
+          "P-0094"
+        ],
+        "note": "Content marking is Art. 50(2) (generative AI systems), not a GPAI duty (Art. 53: documentation, copyright).",
+        "missing": null,
         "hash": "47d31e228cae"
       }
     },
@@ -298,17 +345,33 @@
     },
     "entry:eu-aia:cov:update": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
+        "run": "2026-10-10-baseline",
         "date": "2026-10-10",
-        "outcome": "unresolved",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0002",
-          "S-0041"
+          "S-0002"
         ],
-        "proposals": [],
-        "note": "Factual core consistent with the Act, but not every clause verified. cov.mit attributes content marking to GPAI duties, whereas marking is an Art 50 duty on generative AI systems (lead). Comparative claims ('most comprehensive', 'first regulation to split the lifecycle') not checked.",
-        "missing": "Clause-by-clause check of context and cov.mit against Arts 6–49, 50 and 53; evidence for the comparative claims. Queued for the baseline audit",
+        "proposals": [
+          "P-0096"
+        ],
+        "note": "Codes reviewable (Art. 56(8)); the Commission can amend the thresholds (Art. 51(3)) and Annex III (Art. 7(1)) by delegated act, which the note omits.",
+        "missing": null,
+        "hash": "df20f40ea132"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0002"
+        ],
+        "proposals": [
+          "P-0096"
+        ],
+        "note": "Codes reviewable (Art. 56(8)); the Commission can amend the thresholds (Art. 51(3)) and Annex III (Art. 7(1)) by delegated act, which the note omits.",
+        "missing": null,
         "hash": "df20f40ea132"
       }
     },
@@ -788,19 +851,30 @@
     },
     "entry:us-frontier-access-eo:cov": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
-        "outcome": "inaccessible",
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
         "sources": [
-          "S-0004",
-          "S-0012",
-          "S-0016"
+          "S-0038"
         ],
         "proposals": [],
-        "note": "The map's only source is an NPR article (secondary), and it is blocked. The official text (govinfo DCPD-202600376) and whitehouse.gov are blocked too.",
-        "hash": "c8c5d5b80b3a",
+        "note": "eval (voluntary access up to 30 days, §3(b)(ii)), timing (deadlines and the 30-day window) and acct (no licensing or preclearance, §3(c)) all appear in the order.",
+        "missing": null,
+        "hash": "c8c5d5b80b3a"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
         "scope": "external",
-        "missing": "The official EO text (govinfo DCPD-202600376 / Federal Register / whitehouse.gov), to confirm title, voluntary vs mandatory scope, the designating agency and any CAISI role. All blocked."
+        "sources": [
+          "S-0038"
+        ],
+        "proposals": [],
+        "note": "eval (voluntary access up to 30 days, §3(b)(ii)), timing (deadlines and the 30-day window) and acct (no licensing or preclearance, §3(c)) all appear in the order.",
+        "missing": null,
+        "hash": "c8c5d5b80b3a"
       }
     },
     "entry:us-frontier-access-eo:cov:eval": {
@@ -2359,7 +2433,7 @@
     },
     "edge:us-frontier-access-eo|uk-aisi": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
+        "run": "2026-10-10-baseline",
         "date": "2026-10-10",
         "outcome": "unresolved",
         "scope": "external",
@@ -2367,8 +2441,8 @@
           "S-0038"
         ],
         "proposals": [],
-        "note": "The order does not mention UK AISI or FSI and frames itself as deregulatory (§1). The FSI edge's 'national-security review framework' has no basis in the order.",
-        "missing": "UK AISI access-agreement sources; FSI publications. Queued for the baseline audit",
+        "note": "EO 14409 provides voluntary access up to 30 days before release to other trusted partners.",
+        "missing": "The terms of UK AISI's pre-deployment access agreements (duration, voluntariness) from an official UK source, and the comparison itself, which is analytic.",
         "hash": "a8f0e4979268"
       }
     },
@@ -2408,7 +2482,7 @@
     },
     "edge:us-frontier-access-eo|us-eo14179": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
+        "run": "2026-10-10-baseline",
         "date": "2026-10-10",
         "outcome": "unresolved",
         "scope": "external",
@@ -2416,8 +2490,8 @@
           "S-0038"
         ],
         "proposals": [],
-        "note": "The order does not mention UK AISI or FSI and frames itself as deregulatory (§1). The FSI edge's 'national-security review framework' has no basis in the order.",
-        "missing": "UK AISI access-agreement sources; FSI publications. Queued for the baseline audit",
+        "note": "EO 14409 still frames itself against 'overly burdensome regulation' (§1) while creating a voluntary pre-release access framework (§3).",
+        "missing": "comparative/analytic claim; not verifiable from sources",
         "hash": "f652f61f07b8"
       }
     },
@@ -12936,6 +13010,1507 @@
         "note": "Guidelines v1.2 reference the AI Promotion Act and its Art. 13 guideline, embed the Hiroshima guiding principles (Part 2 D), and are maintained with IPA/J-AISI as joint secretariat.",
         "missing": null,
         "hash": "a3a9f36a443e"
+      }
+    },
+    "edge:eu-aia|eu-aio": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0002",
+          "S-0280"
+        ],
+        "proposals": [],
+        "note": "Art. 3(47) defines the AI Office as the Commission's implementation and supervision function; Art. 88(1) entrusts it with Chapter V enforcement; the Commission confirms that the AI Office and national authorities enforce from 2 Aug 2026.",
+        "missing": null,
+        "hash": "eb2b153bffda"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0002",
+          "S-0280"
+        ],
+        "proposals": [],
+        "note": "Art. 3(47) defines the AI Office as the Commission's implementation and supervision function; Art. 88(1) entrusts it with Chapter V enforcement; the Commission confirms that the AI Office and national authorities enforce from 2 Aug 2026.",
+        "missing": null,
+        "hash": "eb2b153bffda"
+      }
+    },
+    "entry:us-eo14179": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0270",
+          "S-0239"
+        ],
+        "proposals": [
+          "P-0088"
+        ],
+        "note": "Name, layer, jur and pow 3 (an EO directing agencies) fit. Status active: EO 14365 (Dec 2025) cites EO 14179 as operative policy. The link is the official Federal Register document page for FR Doc. 2025-02172 (federalregister.gov HTML refuses automated clients; the GPO PDF of the same document was inspected). The SCOPE §C tier question is raised as a flag.",
+        "missing": null,
+        "hash": "1dd2a70a248b"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0270",
+          "S-0239"
+        ],
+        "proposals": [
+          "P-0088"
+        ],
+        "note": "Name, layer, jur and pow 3 (an EO directing agencies) fit. Status active: EO 14365 (Dec 2025) cites EO 14179 as operative policy. The link is the official Federal Register document page for FR Doc. 2025-02172 (federalregister.gov HTML refuses automated clients; the GPO PDF of the same document was inspected). The SCOPE §C tier question is raised as a flag.",
+        "missing": null,
+        "hash": "1dd2a70a248b"
+      }
+    },
+    "entry:us-eo14179:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0270",
+          "S-0271",
+          "S-0272"
+        ],
+        "proposals": [
+          "P-0087"
+        ],
+        "note": "EO 14148 revoked EO 14110. EO 14179 ordered review and rescission of actions taken under it (§5) and the Action Plan within 180 days (§4); it never mentions red-teaming, reporting or voluntary commitments.",
+        "missing": null,
+        "hash": "6541bf2f882b"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0270",
+          "S-0271",
+          "S-0272"
+        ],
+        "proposals": [
+          "P-0087"
+        ],
+        "note": "EO 14148 revoked EO 14110. EO 14179 ordered review and rescission of actions taken under it (§5) and the Action Plan within 180 days (§4); it never mentions red-teaming, reporting or voluntary commitments.",
+        "missing": null,
+        "hash": "6541bf2f882b"
+      }
+    },
+    "entry:us-eo14179:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0270",
+          "S-0271",
+          "S-0272"
+        ],
+        "proposals": [
+          "P-0087"
+        ],
+        "note": "EO 14148 revoked EO 14110. EO 14179 ordered review and rescission of actions taken under it (§5) and the Action Plan within 180 days (§4); it never mentions red-teaming, reporting or voluntary commitments.",
+        "missing": null,
+        "hash": "387693b6493a"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0270",
+          "S-0271",
+          "S-0272"
+        ],
+        "proposals": [
+          "P-0087"
+        ],
+        "note": "EO 14148 revoked EO 14110. EO 14179 ordered review and rescission of actions taken under it (§5) and the Action Plan within 180 days (§4); it never mentions red-teaming, reporting or voluntary commitments.",
+        "missing": null,
+        "hash": "387693b6493a"
+      }
+    },
+    "entry:us-eo14179:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0270"
+        ],
+        "proposals": [],
+        "note": "Empty coverage set is consistent with the order: it contains only policy, an action-plan directive and a review of EO 14110 actions; none maps to a METR element.",
+        "missing": null,
+        "hash": "4f53cda18c2b"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0270"
+        ],
+        "proposals": [],
+        "note": "Empty coverage set is consistent with the order: it contains only policy, an action-plan directive and a review of EO 14110 actions; none maps to a METR element.",
+        "missing": null,
+        "hash": "4f53cda18c2b"
+      }
+    },
+    "edge:us-eo14179|us-action": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0270",
+          "S-0274"
+        ],
+        "proposals": [],
+        "note": "EO 14179 §4(a) ordered an action plan within 180 days; the Plan is dated July 2025.",
+        "missing": null,
+        "hash": "1c1792f52f1e"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0270",
+          "S-0274"
+        ],
+        "proposals": [],
+        "note": "EO 14179 §4(a) ordered an action plan within 180 days; the Plan is dated July 2025.",
+        "missing": null,
+        "hash": "1c1792f52f1e"
+      }
+    },
+    "edge:us-eo14179|us-preempt": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0239"
+        ],
+        "proposals": [],
+        "note": "EO 14365 §1 explicitly builds on EO 14179.",
+        "missing": null,
+        "hash": "5407bb337ef4"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0239"
+        ],
+        "proposals": [],
+        "note": "EO 14365 §1 explicitly builds on EO 14179.",
+        "missing": null,
+        "hash": "5407bb337ef4"
+      }
+    },
+    "edge:us-eo14179|caisi": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "inaccessible",
+        "scope": "external",
+        "sources": [
+          "S-0279"
+        ],
+        "proposals": [],
+        "note": "The causal claim (EO 14179 led to the June 2025 AISI→CAISI rename) needs the Commerce Secretary's June 2025 statement. commerce.gov returns a Cloudflare bot challenge to curl and headless Chromium, and the Wayback copy reset.",
+        "missing": "Commerce's June 2025 statement on transforming US AISI into CAISI (commerce.gov), to see whether it ties the change to EO 14179 or only to the administration's policy generally.",
+        "hash": "b43ca7c5c9b5"
+      }
+    },
+    "entry:us-action": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0275",
+          "S-0274"
+        ],
+        "proposals": [
+          "P-0089",
+          "P-0091"
+        ],
+        "note": "Link ai.gov/action-plan returns HTTP 404. pow 3 is questionable for a non-binding plan (flag). Name, layer, jur and status unchanged.",
+        "missing": null,
+        "hash": "0e3ffb8316b3"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0275",
+          "S-0274"
+        ],
+        "proposals": [
+          "P-0089",
+          "P-0091"
+        ],
+        "note": "Link ai.gov/action-plan returns HTTP 404. pow 3 is questionable for a non-binding plan (flag). Name, layer, jur and status unchanged.",
+        "missing": null,
+        "hash": "0e3ffb8316b3"
+      }
+    },
+    "entry:us-action:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0274"
+        ],
+        "proposals": [
+          "P-0090"
+        ],
+        "note": "July 2025 confirmed; the Plan recommends funding limits rather than imposing them.",
+        "missing": null,
+        "hash": "81a8b8bc3eb4"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0274"
+        ],
+        "proposals": [
+          "P-0090"
+        ],
+        "note": "July 2025 confirmed; the Plan recommends funding limits rather than imposing them.",
+        "missing": null,
+        "hash": "81a8b8bc3eb4"
+      }
+    },
+    "entry:us-action:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0274"
+        ],
+        "proposals": [],
+        "note": "Three pillars (innovation, infrastructure, international diplomacy and security), OMB-led funding conditions on state AI regulatory climate, full-stack AI export packages, and procurement guidelines for frontier LLM contracts all appear in the Plan. 'Flag or restrict' is a fair paraphrase of 'consider … and limit funding'. The acct note is consistent.",
+        "missing": null,
+        "hash": "ba2f53ef7a51"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0274"
+        ],
+        "proposals": [],
+        "note": "Three pillars (innovation, infrastructure, international diplomacy and security), OMB-led funding conditions on state AI regulatory climate, full-stack AI export packages, and procurement guidelines for frontier LLM contracts all appear in the Plan. 'Flag or restrict' is a fair paraphrase of 'consider … and limit funding'. The acct note is consistent.",
+        "missing": null,
+        "hash": "ba2f53ef7a51"
+      }
+    },
+    "entry:us-action:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0274"
+        ],
+        "proposals": [],
+        "note": "Three pillars (innovation, infrastructure, international diplomacy and security), OMB-led funding conditions on state AI regulatory climate, full-stack AI export packages, and procurement guidelines for frontier LLM contracts all appear in the Plan. 'Flag or restrict' is a fair paraphrase of 'consider … and limit funding'. The acct note is consistent.",
+        "missing": null,
+        "hash": "0be6170a9851"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0274"
+        ],
+        "proposals": [],
+        "note": "Three pillars (innovation, infrastructure, international diplomacy and security), OMB-led funding conditions on state AI regulatory climate, full-stack AI export packages, and procurement guidelines for frontier LLM contracts all appear in the Plan. 'Flag or restrict' is a fair paraphrase of 'consider … and limit funding'. The acct note is consistent.",
+        "missing": null,
+        "hash": "0be6170a9851"
+      }
+    },
+    "entry:us-action:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0274"
+        ],
+        "proposals": [],
+        "note": "Three pillars (innovation, infrastructure, international diplomacy and security), OMB-led funding conditions on state AI regulatory climate, full-stack AI export packages, and procurement guidelines for frontier LLM contracts all appear in the Plan. 'Flag or restrict' is a fair paraphrase of 'consider … and limit funding'. The acct note is consistent.",
+        "missing": null,
+        "hash": "c570dc3a649a"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0274"
+        ],
+        "proposals": [],
+        "note": "Three pillars (innovation, infrastructure, international diplomacy and security), OMB-led funding conditions on state AI regulatory climate, full-stack AI export packages, and procurement guidelines for frontier LLM contracts all appear in the Plan. 'Flag or restrict' is a fair paraphrase of 'consider … and limit funding'. The acct note is consistent.",
+        "missing": null,
+        "hash": "c570dc3a649a"
+      }
+    },
+    "edge:us-action|us-preempt": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0274",
+          "S-0239"
+        ],
+        "proposals": [
+          "P-0092"
+        ],
+        "note": "The Plan never mentions preemption and says the federal government should not interfere with prudent state laws.",
+        "missing": null,
+        "hash": "dca007829b38"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0274",
+          "S-0239"
+        ],
+        "proposals": [
+          "P-0092"
+        ],
+        "note": "The Plan never mentions preemption and says the federal government should not interfere with prudent state laws.",
+        "missing": null,
+        "hash": "dca007829b38"
+      }
+    },
+    "entry:us-preempt": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0239"
+        ],
+        "proposals": [],
+        "note": "EO 14365, FR Doc. 2025-23092 (90 FR 58499, 16 Dec 2025); pow 3 and status active fit an EO directing agencies. The link is the official FR page for that document.",
+        "missing": null,
+        "hash": "d0c11f78fc35"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0239"
+        ],
+        "proposals": [],
+        "note": "EO 14365, FR Doc. 2025-23092 (90 FR 58499, 16 Dec 2025); pow 3 and status active fit an EO directing agencies. The link is the official FR page for that document.",
+        "missing": null,
+        "hash": "d0c11f78fc35"
+      }
+    },
+    "entry:us-preempt:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0239",
+          "S-0273",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0093"
+        ],
+        "note": "Date, Task Force and the 24 Apr 2026 intervention are confirmed. 'First' cannot be verified, and the intervention rests on equal protection without citing the Task Force.",
+        "missing": null,
+        "hash": "19f402fd6d91"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0239",
+          "S-0273",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0093"
+        ],
+        "note": "Date, Task Force and the 24 Apr 2026 intervention are confirmed. 'First' cannot be verified, and the intervention rests on equal protection without citing the Task Force.",
+        "missing": null,
+        "hash": "19f402fd6d91"
+      }
+    },
+    "entry:us-preempt:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0239",
+          "S-0273"
+        ],
+        "proposals": [],
+        "note": "§3 directs the Task Force to challenge state laws as unconstitutional regulation of interstate commerce or as preempted; §5 adds BEAD funding conditions, consistent with 'pairs the funding lever with litigation'. The final sentence of context is forward-looking framing, not a checkable fact. The AG memo of 9 Jan 2026 confirms the Task Force.",
+        "missing": null,
+        "hash": "063f566a9780"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0239",
+          "S-0273"
+        ],
+        "proposals": [],
+        "note": "§3 directs the Task Force to challenge state laws as unconstitutional regulation of interstate commerce or as preempted; §5 adds BEAD funding conditions, consistent with 'pairs the funding lever with litigation'. The final sentence of context is forward-looking framing, not a checkable fact. The AG memo of 9 Jan 2026 confirms the Task Force.",
+        "missing": null,
+        "hash": "063f566a9780"
+      }
+    },
+    "entry:us-preempt:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0239",
+          "S-0273"
+        ],
+        "proposals": [],
+        "note": "§3 directs the Task Force to challenge state laws as unconstitutional regulation of interstate commerce or as preempted; §5 adds BEAD funding conditions, consistent with 'pairs the funding lever with litigation'. The final sentence of context is forward-looking framing, not a checkable fact. The AG memo of 9 Jan 2026 confirms the Task Force.",
+        "missing": null,
+        "hash": "0be6170a9851"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0239",
+          "S-0273"
+        ],
+        "proposals": [],
+        "note": "§3 directs the Task Force to challenge state laws as unconstitutional regulation of interstate commerce or as preempted; §5 adds BEAD funding conditions, consistent with 'pairs the funding lever with litigation'. The final sentence of context is forward-looking framing, not a checkable fact. The AG memo of 9 Jan 2026 confirms the Task Force.",
+        "missing": null,
+        "hash": "0be6170a9851"
+      }
+    },
+    "entry:us-preempt:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0239",
+          "S-0273"
+        ],
+        "proposals": [],
+        "note": "§3 directs the Task Force to challenge state laws as unconstitutional regulation of interstate commerce or as preempted; §5 adds BEAD funding conditions, consistent with 'pairs the funding lever with litigation'. The final sentence of context is forward-looking framing, not a checkable fact. The AG memo of 9 Jan 2026 confirms the Task Force.",
+        "missing": null,
+        "hash": "185b38b1a00f"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0239",
+          "S-0273"
+        ],
+        "proposals": [],
+        "note": "§3 directs the Task Force to challenge state laws as unconstitutional regulation of interstate commerce or as preempted; §5 adds BEAD funding conditions, consistent with 'pairs the funding lever with litigation'. The final sentence of context is forward-looking framing, not a checkable fact. The AG memo of 9 Jan 2026 confirms the Task Force.",
+        "missing": null,
+        "hash": "185b38b1a00f"
+      }
+    },
+    "edge:us-preempt|co-aia": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0111"
+        ],
+        "proposals": [],
+        "note": "DOJ moved to intervene in xAI's suit against Colorado SB24-205 on 24 Apr 2026.",
+        "missing": null,
+        "hash": "1417ac5c59d8"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0111"
+        ],
+        "proposals": [],
+        "note": "DOJ moved to intervene in xAI's suit against Colorado SB24-205 on 24 Apr 2026.",
+        "missing": null,
+        "hash": "1417ac5c59d8"
+      }
+    },
+    "edge:us-preempt|ca-sb53": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0239"
+        ],
+        "proposals": [],
+        "note": "The EO names only Colorado's law. §4 targets state laws that 'compel AI developers or deployers to disclose or report information', a category SB 53 and RAISE may fall in, but neither is named.",
+        "missing": "The Commerce §4 evaluation of state AI laws (due 11 Mar 2026): whether it has been published and whether it names SB 53 or RAISE. Secondary reports from March 2026 say it was not yet released; no official copy found.",
+        "hash": "6d63cc66405d"
+      }
+    },
+    "edge:us-preempt|ny-raise": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0239"
+        ],
+        "proposals": [],
+        "note": "The EO names only Colorado's law. §4 targets state laws that 'compel AI developers or deployers to disclose or report information', a category SB 53 and RAISE may fall in, but neither is named.",
+        "missing": "The Commerce §4 evaluation of state AI laws (due 11 Mar 2026): whether it has been published and whether it names SB 53 or RAISE. Secondary reports from March 2026 say it was not yet released; no official copy found.",
+        "hash": "7368ec885b91"
+      }
+    },
+    "entry:cn-genai": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0290"
+        ],
+        "proposals": [
+          "P-0098"
+        ],
+        "note": "Name, layer, jur, pow 4 and status active fit (binding CAC Order No. 15, in force 15 Aug 2023, penalties up to suspension under Art. 21). The link is an unofficial translation; the official CAC text is proposed.",
+        "missing": null,
+        "hash": "306105c49ae8"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0290"
+        ],
+        "proposals": [
+          "P-0098"
+        ],
+        "note": "Name, layer, jur, pow 4 and status active fit (binding CAC Order No. 15, in force 15 Aug 2023, penalties up to suspension under Art. 21). The link is an unofficial translation; the official CAC text is proposed.",
+        "missing": null,
+        "hash": "306105c49ae8"
+      }
+    },
+    "entry:cn-genai:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0290"
+        ],
+        "proposals": [],
+        "note": "Interim Measures, Order No. 15, in force 15 Aug 2023; binding, with enforcement provisions (Art. 21: penalties under existing laws, warnings, orders to correct, suspension). Enforcement practice is not separately evidenced.",
+        "missing": null,
+        "hash": "d51e1c7c00c7"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0290"
+        ],
+        "proposals": [],
+        "note": "Interim Measures, Order No. 15, in force 15 Aug 2023; binding, with enforcement provisions (Art. 21: penalties under existing laws, warnings, orders to correct, suspension). Enforcement practice is not separately evidenced.",
+        "missing": null,
+        "hash": "d51e1c7c00c7"
+      }
+    },
+    "entry:cn-genai:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0290",
+          "S-0291"
+        ],
+        "proposals": [
+          "P-0099"
+        ],
+        "note": "Art. 17 limits the security assessment and algorithm filing to services with public-opinion or mobilisation capacity. There is no training-data 'security assessment' and no licensed-intermediary rule in the Measures. The CAC publishes filings, not approvals.",
+        "missing": null,
+        "hash": "8231a476545e"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0290",
+          "S-0291"
+        ],
+        "proposals": [
+          "P-0099"
+        ],
+        "note": "Art. 17 limits the security assessment and algorithm filing to services with public-opinion or mobilisation capacity. There is no training-data 'security assessment' and no licensed-intermediary rule in the Measures. The CAC publishes filings, not approvals.",
+        "missing": null,
+        "hash": "8231a476545e"
+      }
+    },
+    "entry:cn-genai:cov:timing": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0290",
+          "S-0291"
+        ],
+        "proposals": [
+          "P-0099"
+        ],
+        "note": "Art. 17 limits the security assessment and algorithm filing to services with public-opinion or mobilisation capacity. There is no training-data 'security assessment' and no licensed-intermediary rule in the Measures. The CAC publishes filings, not approvals.",
+        "missing": null,
+        "hash": "49712cbc973f"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0290",
+          "S-0291"
+        ],
+        "proposals": [
+          "P-0099"
+        ],
+        "note": "Art. 17 limits the security assessment and algorithm filing to services with public-opinion or mobilisation capacity. There is no training-data 'security assessment' and no licensed-intermediary rule in the Measures. The CAC publishes filings, not approvals.",
+        "missing": null,
+        "hash": "49712cbc973f"
+      }
+    },
+    "entry:cn-genai:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0290",
+          "S-0291"
+        ],
+        "proposals": [
+          "P-0099"
+        ],
+        "note": "Art. 17 limits the security assessment and algorithm filing to services with public-opinion or mobilisation capacity. There is no training-data 'security assessment' and no licensed-intermediary rule in the Measures. The CAC publishes filings, not approvals.",
+        "missing": null,
+        "hash": "fbfaf5b1efa7"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0290",
+          "S-0291"
+        ],
+        "proposals": [
+          "P-0099"
+        ],
+        "note": "Art. 17 limits the security assessment and algorithm filing to services with public-opinion or mobilisation capacity. There is no training-data 'security assessment' and no licensed-intermediary rule in the Measures. The CAC publishes filings, not approvals.",
+        "missing": null,
+        "hash": "fbfaf5b1efa7"
+      }
+    },
+    "entry:cn-genai:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0290",
+          "S-0291"
+        ],
+        "proposals": [
+          "P-0099"
+        ],
+        "note": "Art. 17 limits the security assessment and algorithm filing to services with public-opinion or mobilisation capacity. There is no training-data 'security assessment' and no licensed-intermediary rule in the Measures. The CAC publishes filings, not approvals.",
+        "missing": null,
+        "hash": "e7cce3a76ff8"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0290",
+          "S-0291"
+        ],
+        "proposals": [
+          "P-0099"
+        ],
+        "note": "Art. 17 limits the security assessment and algorithm filing to services with public-opinion or mobilisation capacity. There is no training-data 'security assessment' and no licensed-intermediary rule in the Measures. The CAC publishes filings, not approvals.",
+        "missing": null,
+        "hash": "e7cce3a76ff8"
+      }
+    },
+    "entry:cn-genai:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0290",
+          "S-0291"
+        ],
+        "proposals": [],
+        "note": "acct (filing, published lists), mit (content rules, labelling, Arts. 4, 12, 14) and timing (Art. 17 assessment and filing) each have a basis in the text.",
+        "missing": null,
+        "hash": "0c2f7bd0c8b7"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0290",
+          "S-0291"
+        ],
+        "proposals": [],
+        "note": "acct (filing, published lists), mit (content rules, labelling, Arts. 4, 12, 14) and timing (Art. 17 assessment and filing) each have a basis in the text.",
+        "missing": null,
+        "hash": "0c2f7bd0c8b7"
+      }
+    },
+    "entry:uk-bill": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0282",
+          "S-0283",
+          "S-0284",
+          "S-0289",
+          "S-0286",
+          "S-0287",
+          "S-0288"
+        ],
+        "proposals": [
+          "P-0100",
+          "P-0101"
+        ],
+        "note": "The linked bill 3942 is a Conservative peer's private member's bill: first reading only (4 Mar 2025), not carried over. No government AI bill has been introduced, and the 2026 King's Speech announced none.",
+        "missing": null,
+        "hash": "12310de847c4"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0282",
+          "S-0283",
+          "S-0284",
+          "S-0289",
+          "S-0286",
+          "S-0287",
+          "S-0288"
+        ],
+        "proposals": [
+          "P-0100",
+          "P-0101"
+        ],
+        "note": "The linked bill 3942 is a Conservative peer's private member's bill: first reading only (4 Mar 2025), not carried over. No government AI bill has been introduced, and the 2026 King's Speech announced none.",
+        "missing": null,
+        "hash": "12310de847c4"
+      }
+    },
+    "entry:uk-bill:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0282",
+          "S-0283",
+          "S-0284",
+          "S-0289",
+          "S-0286",
+          "S-0287",
+          "S-0288"
+        ],
+        "proposals": [
+          "P-0100",
+          "P-0101"
+        ],
+        "note": "The linked bill 3942 is a Conservative peer's private member's bill: first reading only (4 Mar 2025), not carried over. No government AI bill has been introduced, and the 2026 King's Speech announced none.",
+        "missing": null,
+        "hash": "f278ef36bb9e"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0282",
+          "S-0283",
+          "S-0284",
+          "S-0289",
+          "S-0286",
+          "S-0287",
+          "S-0288"
+        ],
+        "proposals": [
+          "P-0100",
+          "P-0101"
+        ],
+        "note": "The linked bill 3942 is a Conservative peer's private member's bill: first reading only (4 Mar 2025), not carried over. No government AI bill has been introduced, and the 2026 King's Speech announced none.",
+        "missing": null,
+        "hash": "f278ef36bb9e"
+      }
+    },
+    "entry:uk-bill:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0286",
+          "S-0287",
+          "S-0288"
+        ],
+        "proposals": [
+          "P-0101"
+        ],
+        "note": "The only official text is the 2024 commitment to 'place requirements on those working to develop the most powerful artificial intelligence models'. Neither King's Speech nor the 2024/2026 briefing notes mention a statutory AISI, information-gathering powers or compute thresholds. 'Drafts have referenced cumulative compute' cannot be checked because no draft is public.",
+        "missing": "Any official UK text (bill, consultation or ministerial statement on gov.uk or in Hansard) setting out a statutory AISI, information-gathering powers or compute-based thresholds. The government's programme appears to have lapsed (see flag).",
+        "hash": "15671ec97ae3"
+      }
+    },
+    "entry:uk-bill:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0286",
+          "S-0287",
+          "S-0288"
+        ],
+        "proposals": [
+          "P-0101"
+        ],
+        "note": "The only official text is the 2024 commitment to 'place requirements on those working to develop the most powerful artificial intelligence models'. Neither King's Speech nor the 2024/2026 briefing notes mention a statutory AISI, information-gathering powers or compute thresholds. 'Drafts have referenced cumulative compute' cannot be checked because no draft is public.",
+        "missing": "Any official UK text (bill, consultation or ministerial statement on gov.uk or in Hansard) setting out a statutory AISI, information-gathering powers or compute-based thresholds. The government's programme appears to have lapsed (see flag).",
+        "hash": "3c0bb12795fb"
+      }
+    },
+    "entry:uk-bill:cov:thresh": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0286",
+          "S-0287",
+          "S-0288"
+        ],
+        "proposals": [
+          "P-0101"
+        ],
+        "note": "The only official text is the 2024 commitment to 'place requirements on those working to develop the most powerful artificial intelligence models'. Neither King's Speech nor the 2024/2026 briefing notes mention a statutory AISI, information-gathering powers or compute thresholds. 'Drafts have referenced cumulative compute' cannot be checked because no draft is public.",
+        "missing": "Any official UK text (bill, consultation or ministerial statement on gov.uk or in Hansard) setting out a statutory AISI, information-gathering powers or compute-based thresholds. The government's programme appears to have lapsed (see flag).",
+        "hash": "994f807d1e77"
+      }
+    },
+    "entry:uk-bill:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0286",
+          "S-0287",
+          "S-0288"
+        ],
+        "proposals": [
+          "P-0101"
+        ],
+        "note": "The only official text is the 2024 commitment to 'place requirements on those working to develop the most powerful artificial intelligence models'. Neither King's Speech nor the 2024/2026 briefing notes mention a statutory AISI, information-gathering powers or compute thresholds. 'Drafts have referenced cumulative compute' cannot be checked because no draft is public.",
+        "missing": "Any official UK text (bill, consultation or ministerial statement on gov.uk or in Hansard) setting out a statutory AISI, information-gathering powers or compute-based thresholds. The government's programme appears to have lapsed (see flag).",
+        "hash": "38359e643fef"
+      }
+    },
+    "entry:uk-bill:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0286",
+          "S-0287",
+          "S-0288"
+        ],
+        "proposals": [
+          "P-0101"
+        ],
+        "note": "The only official text is the 2024 commitment to 'place requirements on those working to develop the most powerful artificial intelligence models'. Neither King's Speech nor the 2024/2026 briefing notes mention a statutory AISI, information-gathering powers or compute thresholds. 'Drafts have referenced cumulative compute' cannot be checked because no draft is public.",
+        "missing": "Any official UK text (bill, consultation or ministerial statement on gov.uk or in Hansard) setting out a statutory AISI, information-gathering powers or compute-based thresholds. The government's programme appears to have lapsed (see flag).",
+        "hash": "92fa94788a5e"
+      }
+    },
+    "edge:uk-bill|uk-aisi": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0286",
+          "S-0288"
+        ],
+        "proposals": [],
+        "note": "No official document inspected says the AI Bill would put AISI on a statutory footing.",
+        "missing": "An official UK government statement proposing a statutory footing for AISI (e.g. a ministerial statement in Hansard).",
+        "hash": "3c5f74ed2196"
+      }
+    },
+    "entry:kr-ai": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0293",
+          "S-0295"
+        ],
+        "proposals": [],
+        "note": "Act in force 22 Jan 2026 with obligations and fines applying in stages in practice; pow 4 (administrative fines, Art. 43) and status phasing fit. The link is an explorer site produced by Korea AISI and the Future of Life Institute, with English and Korean text; the official text is on law.go.kr.",
+        "missing": null,
+        "hash": "732fb4e7ae8f"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0293",
+          "S-0295"
+        ],
+        "proposals": [],
+        "note": "Act in force 22 Jan 2026 with obligations and fines applying in stages in practice; pow 4 (administrative fines, Art. 43) and status phasing fit. The link is an explorer site produced by Korea AISI and the Future of Life Institute, with English and Korean text; the official text is on law.go.kr.",
+        "missing": null,
+        "hash": "732fb4e7ae8f"
+      }
+    },
+    "entry:kr-ai:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0293"
+        ],
+        "proposals": [],
+        "note": "Confirmed: in force 22 Jan 2026 (Addenda Art. 1; Act No. 20676 of 21 Jan 2025) and fines up to KRW 30M (~$21k) (Art. 43). Neither the Act nor the Enforcement Decree contains a grace period; 'penalties begin Jan 22, 2027' rests on MSIT's announced policy. Press reports say MSIT promised a fine-guidance period of 'at least one year', i.e. possibly longer.",
+        "missing": "MSIT's official press release or notice setting the fine-guidance (계도) period and its end date (msit.go.kr or korea.kr).",
+        "hash": "493d91827642"
+      }
+    },
+    "entry:kr-ai:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0293",
+          "S-0294"
+        ],
+        "proposals": [
+          "P-0102"
+        ],
+        "note": "Decree Art. 24 requires ≥10^26 FLOPs plus state-of-the-art technology and broad, serious risk (all three).",
+        "missing": null,
+        "hash": "ec363e9efb89"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0293",
+          "S-0294"
+        ],
+        "proposals": [
+          "P-0102"
+        ],
+        "note": "Decree Art. 24 requires ≥10^26 FLOPs plus state-of-the-art technology and broad, serious risk (all three).",
+        "missing": null,
+        "hash": "ec363e9efb89"
+      }
+    },
+    "entry:kr-ai:cov:thresh": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0293",
+          "S-0294"
+        ],
+        "proposals": [
+          "P-0102"
+        ],
+        "note": "Decree Art. 24 requires ≥10^26 FLOPs plus state-of-the-art technology and broad, serious risk (all three).",
+        "missing": null,
+        "hash": "3b9ba18ad029"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0293",
+          "S-0294"
+        ],
+        "proposals": [
+          "P-0102"
+        ],
+        "note": "Decree Art. 24 requires ≥10^26 FLOPs plus state-of-the-art technology and broad, serious risk (all three).",
+        "missing": null,
+        "hash": "3b9ba18ad029"
+      }
+    },
+    "entry:kr-ai:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0293"
+        ],
+        "proposals": [],
+        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "missing": null,
+        "hash": "b8dc66a9e1bf"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0293"
+        ],
+        "proposals": [],
+        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "missing": null,
+        "hash": "b8dc66a9e1bf"
+      }
+    },
+    "entry:kr-ai:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0293"
+        ],
+        "proposals": [],
+        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "missing": null,
+        "hash": "4ed113b4c0e4"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0293"
+        ],
+        "proposals": [],
+        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "missing": null,
+        "hash": "4ed113b4c0e4"
+      }
+    },
+    "entry:kr-ai:cov:timing": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0293"
+        ],
+        "proposals": [],
+        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "missing": null,
+        "hash": "0d1c4d32e252"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0293"
+        ],
+        "proposals": [],
+        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "missing": null,
+        "hash": "0d1c4d32e252"
+      }
+    },
+    "entry:kr-ai:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0293"
+        ],
+        "proposals": [],
+        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "missing": null,
+        "hash": "99d38ade80b8"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0293"
+        ],
+        "proposals": [],
+        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "missing": null,
+        "hash": "99d38ade80b8"
+      }
+    },
+    "entry:kr-ai:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0293"
+        ],
+        "proposals": [
+          "P-0103"
+        ],
+        "note": "Oversight is MSIT's (Art. 40); the Institute supports (Art. 12).",
+        "missing": null,
+        "hash": "f3b9f3a56a6b"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0293"
+        ],
+        "proposals": [
+          "P-0103"
+        ],
+        "note": "Oversight is MSIT's (Art. 40); the Institute supports (Art. 12).",
+        "missing": null,
+        "hash": "f3b9f3a56a6b"
+      }
+    },
+    "entry:jp-ai": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0296",
+          "S-0297"
+        ],
+        "proposals": [
+          "P-0104"
+        ],
+        "note": "Name, layer, jur, pow 2 (no penalties) and status active (fully in force 1 Sep 2025) fit; the link is a law-firm alert, so the official Cabinet Office page is proposed.",
+        "missing": null,
+        "hash": "7f51e8e294ef"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0296",
+          "S-0297"
+        ],
+        "proposals": [
+          "P-0104"
+        ],
+        "note": "Name, layer, jur, pow 2 (no penalties) and status active (fully in force 1 Sep 2025) fit; the link is a law-firm alert, so the official Cabinet Office page is proposed.",
+        "missing": null,
+        "hash": "7f51e8e294ef"
+      }
+    },
+    "entry:jp-ai:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0296",
+          "S-0298",
+          "S-0297"
+        ],
+        "proposals": [],
+        "note": "Enacted 28 May 2025 (promulgated 4 Jun 2025). No compute thresholds, mandatory testing or penalties appear in the Act. The AI Strategic HQ is placed in the Cabinet, with affairs handled by the Cabinet Office (Arts. 19, 26). Business duties are limited to cooperation (Art. 7) and government guidance or advice (Art. 16), consistent with 'no central regulator' and 'light-touch'.",
+        "missing": null,
+        "hash": "606217903670"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0296",
+          "S-0298",
+          "S-0297"
+        ],
+        "proposals": [],
+        "note": "Enacted 28 May 2025 (promulgated 4 Jun 2025). No compute thresholds, mandatory testing or penalties appear in the Act. The AI Strategic HQ is placed in the Cabinet, with affairs handled by the Cabinet Office (Arts. 19, 26). Business duties are limited to cooperation (Art. 7) and government guidance or advice (Art. 16), consistent with 'no central regulator' and 'light-touch'.",
+        "missing": null,
+        "hash": "606217903670"
+      }
+    },
+    "entry:jp-ai:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0296",
+          "S-0298",
+          "S-0297"
+        ],
+        "proposals": [],
+        "note": "Enacted 28 May 2025 (promulgated 4 Jun 2025). No compute thresholds, mandatory testing or penalties appear in the Act. The AI Strategic HQ is placed in the Cabinet, with affairs handled by the Cabinet Office (Arts. 19, 26). Business duties are limited to cooperation (Art. 7) and government guidance or advice (Art. 16), consistent with 'no central regulator' and 'light-touch'.",
+        "missing": null,
+        "hash": "f2c1e9b2c10d"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0296",
+          "S-0298",
+          "S-0297"
+        ],
+        "proposals": [],
+        "note": "Enacted 28 May 2025 (promulgated 4 Jun 2025). No compute thresholds, mandatory testing or penalties appear in the Act. The AI Strategic HQ is placed in the Cabinet, with affairs handled by the Cabinet Office (Arts. 19, 26). Business duties are limited to cooperation (Art. 7) and government guidance or advice (Art. 16), consistent with 'no central regulator' and 'light-touch'.",
+        "missing": null,
+        "hash": "f2c1e9b2c10d"
+      }
+    },
+    "entry:jp-ai:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0296",
+          "S-0298",
+          "S-0297"
+        ],
+        "proposals": [],
+        "note": "Enacted 28 May 2025 (promulgated 4 Jun 2025). No compute thresholds, mandatory testing or penalties appear in the Act. The AI Strategic HQ is placed in the Cabinet, with affairs handled by the Cabinet Office (Arts. 19, 26). Business duties are limited to cooperation (Art. 7) and government guidance or advice (Art. 16), consistent with 'no central regulator' and 'light-touch'.",
+        "missing": null,
+        "hash": "a6cf89732201"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0296",
+          "S-0298",
+          "S-0297"
+        ],
+        "proposals": [],
+        "note": "Enacted 28 May 2025 (promulgated 4 Jun 2025). No compute thresholds, mandatory testing or penalties appear in the Act. The AI Strategic HQ is placed in the Cabinet, with affairs handled by the Cabinet Office (Arts. 19, 26). Business duties are limited to cooperation (Art. 7) and government guidance or advice (Art. 16), consistent with 'no central regulator' and 'light-touch'.",
+        "missing": null,
+        "hash": "a6cf89732201"
+      }
+    },
+    "entry:jp-ai:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0296",
+          "S-0297"
+        ],
+        "proposals": [],
+        "note": "Facts verified: the HQ is established (Art. 19; affairs in the Cabinet Office, Art. 26); no thresholds, mandatory testing or fines.",
+        "missing": "comparative/analytic claim; not verifiable from sources (the approach's assumptions and 'Hiroshima commitments substitute for binding rules')",
+        "hash": "7483d53f9bb1"
+      }
+    },
+    "entry:jp-ai:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0296",
+          "S-0299"
+        ],
+        "proposals": [
+          "P-0105"
+        ],
+        "note": "The HQ adopted cross-cutting Art. 13 guidelines (19 Dec 2025); sectoral guidance comes from ministries.",
+        "missing": null,
+        "hash": "ce8d62345a3d"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0296",
+          "S-0299"
+        ],
+        "proposals": [
+          "P-0105"
+        ],
+        "note": "The HQ adopted cross-cutting Art. 13 guidelines (19 Dec 2025); sectoral guidance comes from ministries.",
+        "missing": null,
+        "hash": "ce8d62345a3d"
       }
     }
   }

@@ -1,10 +1,10 @@
 {
-  "next": 270,
+  "next": 301,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-      "title": null,
-      "publisher": null,
+      "title": "European Commission: AI Act policy page (last update 3 Aug 2026)",
+      "publisher": "European Commission, DG CONNECT",
       "type": "primary",
       "dates": {},
       "fetches": [
@@ -27,18 +27,44 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "c428cd019cea5360",
           "bytes": 92000
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:42Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "bd8dc84037e812f2",
+          "bytes": 91982
         }
       ],
-      "passages": []
+      "passages": [
+        {
+          "id": "S-0001#1",
+          "locator": "Application timeline",
+          "text": "This legislative proposal (dubbed as the ' AI Omnibus ') was adopted on 19 November 2025, a political agreement was reached on 7 May 2026 and entered into force on 27 July 2026",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0001#2",
+          "locator": "Latest news",
+          "text": "Guidelines on transparency obligations for prov",
+          "retrieved": "2026-10-10"
+        }
+      ]
     },
     "S-0002": {
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "title": null,
-      "publisher": null,
+      "title": "Regulation (EU) 2024/1689 (AI Act), Official Journal",
+      "publisher": "EUR-Lex (Publications Office of the EU)",
       "type": "primary",
       "dates": {
         "adopted": "2024-06-13",
-        "published": "2024-07-12"
+        "published": "2024-07-12",
+        "in_force": "2024-08-01"
       },
       "fetches": [
         {
@@ -58,6 +84,16 @@
           "http": 200,
           "final_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
           "content_type": "text/html; charset=UTF-8",
+          "sha256": "6bce305a8318b9db",
+          "bytes": 1534743
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:37Z",
+          "run": "2026-10-10-baseline",
+          "via": "EUR-Lex returned empty HTTP 202 on three attempts on 2026-10-10; this is the byte-identical copy (sha256 6bce305a8318b9db…) fetched by curl earlier on 2026-10-10 in run 2026-10-10-trial1b and held in research/.cache",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
           "sha256": "6bce305a8318b9db",
           "bytes": 1534743
         }
@@ -85,6 +121,114 @@
           "id": "S-0002#4",
           "locator": "Art 93(1)(c)",
           "text": "restrict the making available on the market, withdraw or recall the model.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#5",
+          "locator": "Art. 5(1)",
+          "text": "The following AI practices shall be prohibited:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#6",
+          "locator": "Art. 16(f)",
+          "text": "ensure that the high-risk AI system undergoes the relevant conformity assessment procedure as referred to in Article 43, prior to its being placed on the market or put into service;",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#7",
+          "locator": "Art. 27(1)",
+          "text": "shall perform an assessment of the impact on fundamental rights that the use of such system may produce.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#8",
+          "locator": "Art. 49(1)",
+          "text": "Before placing on the market or putting into service a high-risk AI system listed in Annex III, with the exception of high-risk AI systems referred to in point 2 of Annex III, the provider or, where applicable, the authorised representative shall register themselves and their system in the EU database referred to in Article 71.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#9",
+          "locator": "Art. 50(2)",
+          "text": "Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#10",
+          "locator": "Art. 51(2)",
+          "text": "A general-purpose AI model shall be presumed to have high impact capabilities pursuant to paragraph 1, point (a), when the cumulative amount of computation used for its training measured in floating point operations is greater than 10 25 .",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#11",
+          "locator": "Art. 51(3)",
+          "text": "The Commission shall adopt delegated acts in accordance with Article 97 to amend the thresholds listed in paragraphs 1 and 2 of this Article, as well as to supplement benchmarks and indicators in light of evolving technological developments",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#12",
+          "locator": "Art. 53(1)(a)",
+          "text": "draw up and keep up-to-date the technical documentation of the model, including its training and testing process and the results of its evaluation",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#13",
+          "locator": "Art. 53(1)(c)",
+          "text": "put in place a policy to comply with Union law on copyright and related rights",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#14",
+          "locator": "Art. 55(1)(a)",
+          "text": "perform model evaluation in accordance with standardised protocols and tools reflecting the state of the art, including conducting and documenting adversarial testing of the model with a view to identifying and mitigating systemic risks;",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#15",
+          "locator": "Art. 55(1)(c)",
+          "text": "keep track of, document, and report, without undue delay, to the AI Office and, as appropriate, to national competent authorities, relevant information about serious incidents and possible corrective measures to address them;",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#16",
+          "locator": "Art. 55(1)(d)",
+          "text": "ensure an adequate level of cybersecurity protection for the general-purpose AI model with systemic risk and the physical infrastructure of the model.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#17",
+          "locator": "Art. 56(8)",
+          "text": "The AI Office shall, as appropriate, also encourage and facilitate the review and adaptation of the codes of practice, in particular in light of emerging standards.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#18",
+          "locator": "Art. 72(1)",
+          "text": "Providers shall establish and document a post-market monitoring system in a manner that is proportionate to the nature of the AI technologies and the risks of the high-risk AI system.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#19",
+          "locator": "Art. 88(1)",
+          "text": "The Commission shall have exclusive powers to supervise and enforce Chapter V, taking into account the procedural guarantees under Article 94. The Commission shall entrust the implementation of these tasks to the AI Office",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#20",
+          "locator": "Art. 93(1)(c)",
+          "text": "restrict the making available on the market, withdraw or recall the model.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#21",
+          "locator": "Art. 3(47)",
+          "text": "‘AI Office’ means the Commission’s function of contributing to the implementation, monitoring and supervision of AI systems and general-purpose AI models, and AI governance",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#22",
+          "locator": "Art. 7(1)",
+          "text": "The Commission is empowered to adopt delegated acts in accordance with Article 97 to amend Annex III by adding or modifying use-cases of high-risk AI systems",
           "retrieved": "2026-10-10"
         }
       ]
@@ -1814,6 +1958,18 @@
           "id": "S-0038#12",
           "locator": "Sec. 3(c)",
           "text": "Nothing in this section shall be construed to authorize the creation of a mandatory governmental licensing, preclearance, or permitting requirement",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0038#13",
+          "locator": "Sec. 1",
+          "text": "because we refuse to stifle this innovation with overly burdensome regulation.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0038#14",
+          "locator": "Sec. 3(b)(ii)",
+          "text": "provide the Federal Government with access to covered frontier models, subject to appropriate confidentiality, cybersecurity, insider-risk, and intellectual-property protection, use, and nondisclosure requirements, for a period of up to 30 days before they plan to release such models to other trusted partners",
           "retrieved": "2026-10-10"
         }
       ]
@@ -5395,6 +5551,36 @@
           "locator": "Body",
           "text": "The Justice Department moved to intervene in a lawsuit filed by artificial intelligence company xAI, challenging a new Colorado law that prohibits so-called “algorithmic discrimination.”",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0111#4",
+          "locator": "dateline",
+          "text": "Friday, April 24, 2026",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0111#5",
+          "locator": "para. 1",
+          "text": "The Justice Department moved to intervene in a lawsuit filed by artificial intelligence company xAI, challenging a new Colorado law that prohibits so-called “algorithmic discrimination.”",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0111#6",
+          "locator": "para. 2",
+          "text": "The Justice Department alleges that the Colorado law violates the Equal Protection Clause of the Fourteenth Amendment by requiring AI companies to prevent unintentional disparate impact",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0111#7",
+          "locator": "components",
+          "text": "Components Civil Division Civil Rights Division Press Release Number: 26-399",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0111#8",
+          "locator": "whole release",
+          "text": "[Observation, not a quotation] Searched the release for 'Task Force', 'Executive Order' and '14365': none appear. The release is issued by the Civil Division and Civil Rights Division and rests on the Equal Protection Clause, not the Commerce Clause or preemption.",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -8486,6 +8672,18 @@
           "locator": "Sec. 2(a)",
           "text": "executive departments and agencies (agencies) shall use ‘‘Super Intelligence’’ and ‘‘SI’’ in place of ‘‘Artificial Intelligence’’ and ‘‘AI’’ in official correspondence, public communications, websites, reports, policy documents, and other non-statutory documents within the executive branch.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0175#4",
+          "locator": "Sec. 3(a)",
+          "text": "the terms ‘‘Super Intelligence’’ and ‘‘SI’’ mean the technologies and systems encompassed by the term ‘‘artificial intelligence’’ as defined in section 9401(3) of title 15, United States Code.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0175#5",
+          "locator": "Sec. 2(b)",
+          "text": "Nothing in this section requires the alteration of previously issued regulations, Presidential actions, contracts, grants, or other historical documents.",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -10950,6 +11148,42 @@
           "locator": "Sec. 7",
           "text": "That policy statement must explain the circumstances under which State laws that require alterations to the truthful outputs of AI models are preempted by the Federal Trade Commission Act’s prohibition on engaging in deceptive acts or practices affecting commerce.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0239#3",
+          "locator": "Sec. 1",
+          "text": "Pursuant to Executive Order 14179 of January 23, 2025 (Removing Barriers to American Leadership in Artificial Intelligence), I revoked my predecessor’s attempt to paralyze this industry and directed my Administration to remove barriers to United States AI leadership.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0239#4",
+          "locator": "Sec. 1",
+          "text": "For example, a new Colorado law banning ‘‘algorithmic discrimination’’ may even force AI models to produce false results in order to avoid a ‘‘differential treatment or impact’’ on protected groups.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0239#5",
+          "locator": "Sec. 3",
+          "text": "the Attorney General shall establish an AI Litigation Task Force (Task Force) whose sole responsibility shall be to challenge State AI laws inconsistent with the policy set forth in section 2 of this order, including on grounds that such laws unconstitutionally regulate interstate commerce, are preempted by existing Federal regulations, or are otherwise unlawful",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0239#6",
+          "locator": "Sec. 4",
+          "text": "That evaluation of State AI laws shall, at a minimum, identify laws that require AI models to alter their truthful outputs, or that may compel AI developers or deployers to disclose or report information in a manner that would violate the First Amendment or any other provision of the Constitution.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0239#7",
+          "locator": "Sec. 5(a)",
+          "text": "That Policy Notice must provide that States with onerous AI laws identified pursuant to section 4 of this order are ineligible for non-deployment funds, to the maximum extent allowed by Federal law.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0239#8",
+          "locator": "whole order (Secs. 1-9)",
+          "text": "[Observation, not a quotation] Searched the full text for 'California', 'New York', 'SB 53', 'RAISE' and 'frontier': none appear. Colorado's law is the only state law the order names.",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -12129,6 +12363,1455 @@
           "id": "S-0269#2",
           "locator": "error page body",
           "text": "The page may have been moved or deleted.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0270": {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02172.pdf",
+      "title": "Executive Order 14179, Removing Barriers to American Leadership in Artificial Intelligence (90 FR 8741)",
+      "publisher": "Federal Register (GPO govinfo)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-01-23",
+        "published": "2025-01-31",
+        "effective": "2025-01-23"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:28Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02172.pdf",
+          "content_type": "application/pdf",
+          "sha256": "332b46f8cf4f4e7e",
+          "bytes": 183764
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0270#1",
+          "locator": "Sec. 1",
+          "text": "This order revokes certain existing AI policies and directives that act as barriers to American AI innovation, clearing a path for the United States to act decisively to retain global leadership in artificial intelligence.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0270#2",
+          "locator": "Sec. 4(a)",
+          "text": "Within 180 days of this order, the Assistant to the President for Science and Technology (APST), the Special Advisor for AI and Crypto, and the Assistant to the President for National Security Affairs (APNSA) … shall develop and submit to the President an action plan to achieve the policy set forth in section 2 of this order.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0270#3",
+          "locator": "Sec. 5(a)",
+          "text": "shall immediately review, in coordination with the heads of all agencies as they deem relevant, all policies, directives, regulations, orders, and other actions taken pursuant to the revoked Executive Order 14110 of October 30, 2023",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0270#4",
+          "locator": "Sec. 5(a)",
+          "text": "the heads of agencies shall, as appropriate and consistent with applicable law, suspend, revise, or rescind such actions, or propose suspending, revising, or rescinding such actions.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0270#5",
+          "locator": "whole order (Secs. 1-6)",
+          "text": "[Observation, not a quotation] Searched the full text of EO 14179 for 'red-team', 'report', 'voluntary' and 'commitment': the order contains none of them. It does not itself revoke EO 14110 (it refers to 'the revoked Executive Order 14110') and does not mention the 2023 voluntary commitments.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0270#6",
+          "locator": "heading",
+          "text": "Executive Order 14179 of January 23, 2025",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0271": {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-01-28/pdf/2025-01901.pdf",
+      "title": "Executive Order 14148, Initial Rescissions of Harmful Executive Orders and Actions (90 FR 8237)",
+      "publisher": "Federal Register (GPO govinfo)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-01-20",
+        "published": "2025-01-28"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:29Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-28/pdf/2025-01901.pdf",
+          "content_type": "application/pdf",
+          "sha256": "d658f5158a27f6d4",
+          "bytes": 202383
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0271#1",
+          "locator": "heading",
+          "text": "Executive Order 14148 of January 20, 2025",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0271#2",
+          "locator": "Sec. 2",
+          "text": "Sec. 2. Revocation of Orders and Actions. The following executive actions are hereby revoked:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0271#3",
+          "locator": "Sec. 2(ggg)",
+          "text": "(ggg) Executive Order 14110 of October 30, 2023 (Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence).",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0272": {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-11-01/pdf/2023-24283.pdf",
+      "title": "Executive Order 14110, Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence (88 FR 75191)",
+      "publisher": "Federal Register (GPO govinfo)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2023-10-30",
+        "published": "2023-11-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:29Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2023-11-01/pdf/2023-24283.pdf",
+          "content_type": "application/pdf",
+          "sha256": "46739dfc1af25696",
+          "bytes": 437813
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0272#1",
+          "locator": "Sec. 4.2(a)(i)",
+          "text": "the Secretary of Commerce shall require: (i) Companies developing or demonstrating an intent to develop potential dual-use foundation models to provide the Federal Government, on an ongoing basis, with information, reports, or records regarding the following:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0272#2",
+          "locator": "Sec. 4.2(a)(i)(C)",
+          "text": "(C) the results of any developed dual-use foundation model’s performance in relevant AI red-team testing based on guidance developed by NIST",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0273": {
+      "url": "https://www.justice.gov/ag/media/1422986/dl",
+      "title": "Attorney General memorandum: Artificial Intelligence Litigation Task Force (9 Jan 2026)",
+      "publisher": "US Department of Justice",
+      "type": "primary",
+      "dates": {
+        "published": "2026-01-09",
+        "adopted": "2026-01-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:30Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.justice.gov/ag/media/1422986/dl",
+          "content_type": "application/pdf",
+          "sha256": "efb3455943cb6c4e",
+          "bytes": 104807
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0273#1",
+          "locator": "p. 1, date line",
+          "text": "January 9, 2026",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0273#2",
+          "locator": "p. 1, para. 1",
+          "text": "Consistent with that policy, I am hereby \"establish[ing] an AI Litigation Task Force (Task Force) whose sole responsibility shall be to challenge State AI laws inconsistent with the policy.\"",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0274": {
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+      "title": "Winning the Race: America's AI Action Plan (July 2025)",
+      "publisher": "The White House",
+      "type": "primary",
+      "dates": {
+        "published": "2025-07-23"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:31Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+          "content_type": "application/pdf",
+          "sha256": "91d56ab3ddefe43f",
+          "bytes": 521617
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0274#1",
+          "locator": "cover",
+          "text": "Winning the Race AMERICA’S AI ACTION PLAN JULY 2025",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0274#2",
+          "locator": "Pillar I, Remove Red Tape and Onerous Regulation",
+          "text": "The Federal government should not allow AI-related Federal funding to be directed toward states with burdensome AI regulations that waste these funds, but should also not interfere with states’ rights to pass prudent laws that are not unduly restrictive to innovation.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0274#3",
+          "locator": "Pillar I, Recommended Policy Actions",
+          "text": "Led by OMB, work with Federal agencies that have AI-related discretionary funding programs to ensure, consistent with applicable law, that they consider a state’s AI regulatory climate when making funding decisions and limit funding if the state’s AI regulatory regimes may hinder the effectiveness of that funding or award.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0274#4",
+          "locator": "Table of contents",
+          "text": "Pillar I: Accelerate AI Innovation … Pillar II: Build American AI Infrastructure … Pillar III: Lead in International AI Diplomacy and Security … Export American AI to Allies and Partners",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0274#5",
+          "locator": "Pillar I, Ensure that Frontier AI Protects Free Speech",
+          "text": "Update Federal procurement guidelines to ensure that the government only contracts",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0274#6",
+          "locator": "Pillar III, Export American AI to Allies and Partners",
+          "text": "industry consortia for full-stack AI export packages",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0274#7",
+          "locator": "whole plan",
+          "text": "[Observation, not a quotation] Searched the full text for 'preempt' and 'moratorium': neither appears. On state laws the Plan recommends funding conditions and an FCC review, and says the federal government should not interfere with prudent state laws.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0274#8",
+          "locator": "Introduction",
+          "text": "including rescinding Biden Executive Order 14110 on AI that foreshadowed an onerous regulatory regime.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0275": {
+      "url": "https://www.ai.gov/action-plan",
+      "title": "ai.gov/action-plan (current map link) — HTTP 404 'Page Not Found'",
+      "publisher": "ai.gov (The White House)",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:33Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl and headless Chromium on 2026-10-10 both returned HTTP 404; the saved file is the 404 page body. The ai.gov home page now presents 'SI GOV' (Super Intelligence) branding.",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "2bb393def4d22585",
+          "bytes": 40465
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0275#1",
+          "locator": "page body",
+          "text": "Page Not Found The page you are looking for doesn't exist or has traveled to the future.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0276": {
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bpresidential_document_type%5D=executive_order&conditions%5Bpublication_date%5D%5Bgte%5D=2026-05-01&per_page=100&fields%5B%5D=document_number&fields%5B%5D=executive_order_number&fields%5B%5D=title&fields%5B%5D=signing_date&fields%5B%5D=publication_date&fields%5B%5D=citation&fields%5B%5D=pdf_url",
+      "title": "Federal Register API: executive orders published since 1 May 2026 (EO 14402-14435)",
+      "publisher": "Federal Register",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:33Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bpresidential_document_type%5D=executive_order&conditions%5Bpublication_date%5D%5Bgte%5D=2026-05-01&per_page=100&fields%5B%5D=document_number&fields%5B%5D=executive_order_number&fields%5B%5D=title&fields%5B%5D=signing_date&fields%5B%5D=publication_date&fields%5B%5D=citation&fields%5B%5D=pdf_url",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "119d70ca499a1947",
+          "bytes": 10722
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0276#1",
+          "locator": "results (EO 14434)",
+          "text": "Inaugurating the Era of Super Intelligence",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0277": {
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9925ih/html/BILLS-119hr9925ih.htm",
+      "title": "H.R. 9925 (119th Congress), FRONTIER Act — Introduced in House",
+      "publisher": "US House of Representatives (GPO govinfo)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-07-23"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:34Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9925ih/html/BILLS-119hr9925ih.htm",
+          "content_type": "text/html",
+          "sha256": "1cb2203f39667e6d",
+          "bytes": 99395
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0277#1",
+          "locator": "caption",
+          "text": "July 23, 2026 Mr. Obernolte (for himself, Mrs. Trahan, Mrs. Houchin, Mr. Peters, Mr. Scott Franklin of Florida, and Mr. Subramanyam) introduced the following bill",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#2",
+          "locator": "Sec. 1",
+          "text": "This Act may be cited as the Frontier Risk Oversight, National Transparency, Independent Evaluation, and Reporting Act or the FRONTIER Act",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#3",
+          "locator": "Sec. 2(12)",
+          "text": "The term frontier model means a foundation model that was trained using a quantity of computing power greater than 10^26 integer or floating-point operations.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#4",
+          "locator": "Sec. 2(15)",
+          "text": "a frontier developer that, together with its affiliates, collectively, during the preceding 36-month period, determined as of the first day of each calendar month, both— (A) had gross revenues in excess of $50,000,000; and (B) incurred not less than $1,000,000,000 in AI-related development expenditures.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#5",
+          "locator": "Sec. 2(21)",
+          "text": "The term Under Secretary means the Under Secretary of Commerce for AI Security, who shall be appointed by the Secretary.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#6",
+          "locator": "Sec. 2(22)",
+          "text": "(A) had gross revenues in excess of $5,000,000,000; and (B) incurred not less than $10,000,000,000 in AI-related development expenditures.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#7",
+          "locator": "Sec. 4(a)",
+          "text": "a large frontier developer shall write, implement, comply with, and clearly and conspicuously publish on a publicly available website of such developer a frontier AI framework",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#8",
+          "locator": "Sec. 4(c)",
+          "text": "and annually thereafter, a large frontier developer shall retain a third party to perform an independent audit of compliance with the frontier AI framework of such developer",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#9",
+          "locator": "Sec. 4(h)(1)",
+          "text": "not later than 72 hours after a frontier developer learns facts sufficient to establish a reasonable belief that a critical safety incident has occurred with respect to a frontier model of such developer, such developer shall submit through the mechanism established under subsection (g)(1) a report on such incident.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#10",
+          "locator": "Sec. 4 civil penalty",
+          "text": "A frontier developer that violates this section shall be subject to a civil penalty of not more than $1,000,000 per violation.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#11",
+          "locator": "Sec. 5(b)",
+          "text": "a very large frontier developer shall retain an independent verification organization that has been licensed pursuant to the regulations prescribed under subsection (c) of section 3 to perform ongoing assessment of the adequacy of the very large frontier developer’s frontier AI framework",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#12",
+          "locator": "Sec. 8(a)(1)",
+          "text": "The Secretary may issue an emergency order suspending or restricting a frontier developer’s development, deployment, or internal use of a frontier model upon finding that such development, deployment, or internal use of that model presents an imminent catastrophic risk.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#13",
+          "locator": "Sec. 9(b)",
+          "text": "no State or political subdivision of a State may adopt or enforce any law, regulation, order, or other requirement that imposes new substantive obligations on artificial intelligence developers with respect to any Covered Subject Area.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#14",
+          "locator": "Sec. 9(a)",
+          "text": "Frontier ai risk transparency … Frontier ai third-party auditing and independent verification … Frontier ai incident reporting",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#15",
+          "locator": "Sec. 4(a)(2)(G)",
+          "text": "Cybersecurity to secure nonpublic model weights from unauthorized modification or transfer.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#16",
+          "locator": "Sec. 4(d)(1)",
+          "text": "Before, or concurrently with, deploying a frontier model that is new or includes a substantial modification, the frontier developer of such model shall publish on a publicly available website of such developer a report on such model",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#17",
+          "locator": "Sec. 3(b)(3)",
+          "text": "The Under Secretary shall review the regulations issued under this subsection not less frequently than once every year",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#18",
+          "locator": "Sec. 9(c)(2)",
+          "text": "regulate the use or deployment of AI systems by deployers or users, including via consumer protection, civil rights, contract, criminal, or privacy laws, provided that no substantive obligations are imposed on developers",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#19",
+          "locator": "Sec. 4(h)(2)",
+          "text": "Not later than 24 hours after a frontier developer discovers a critical safety incident that poses an imminent risk of death or serious physical injury, such developer shall report such incident to a law enforcement agency with jurisdiction over such incident.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#20",
+          "locator": "Sec. 4(b)(2)",
+          "text": "If a large frontier developer makes a material modification to the frontier AI framework of such developer published pursuant to subsection (a), not later than 30 days after the date of such modification, such developer shall publish on a publicly available website a justification for such modification.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#21",
+          "locator": "Sec. 4(c)(4)(B)",
+          "text": "transmit a copy of the redacted report to the Under Secretary, the Attorney General, and opted-in State Attorneys General.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#22",
+          "locator": "Sec. 4 civil penalty (3)(A)",
+          "text": "A State Attorney General who has opted in under subsection (i) may bring an action to collect a civil penalty under paragraph (1)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#23",
+          "locator": "Sec. 2(7)(A)",
+          "text": "Unauthorized access to, modification of, or exfiltration of, the model weights of a frontier model.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#24",
+          "locator": "Sec. 4(a)(2)(B)-(D)",
+          "text": "(B) Identifying risk thresholds utilized by such developer to assess whether each such model has a capability that could pose a catastrophic risk. (C) Assessing whether, based upon such thresholds, each model has a capability that could pose a catastrophic risk.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#25",
+          "locator": "Sec. 4(b)(1)",
+          "text": "Not less frequently than annually after a large frontier developer publishes a frontier AI framework pursuant to subsection (a), such developer shall carry out the following: (A) Review and, if such developer determines appropriate, update such framework.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#26",
+          "locator": "Sec. 5(b)",
+          "text": "All assessment, monitoring, reporting, and corrective action obligations under this section shall apply to catastrophic risks arising from a very large frontier developer’s internal use of frontier models",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#27",
+          "locator": "Sec. 9(c)(3)-(4)",
+          "text": "specifically relating to the protection of minors from harms arising from the use of AI systems … governing the procurement or use of AI systems by State governments.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0277#28",
+          "locator": "Sec. 4(a)(2)(D)",
+          "text": "(D) Reviewing the results of such assessment and such mitigation to determine— (i) whether to deploy such model; and (ii) whether to internally utilize such model.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0278": {
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-119s5493is/html/BILLS-119s5493is.htm",
+      "title": "S. 5493 (119th Congress), Ban Artificial Superintelligence Act of 2026 — Introduced in Senate",
+      "publisher": "US Senate (GPO govinfo)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-23"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:36Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/BILLS-119s5493is/html/BILLS-119s5493is.htm",
+          "content_type": "text/html",
+          "sha256": "b648b313f1874d50",
+          "bytes": 23350
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0278#1",
+          "locator": "caption",
+          "text": "Mr. Sanders introduced the following bill; which was read twice and referred to the Committee on Commerce, Science, and Transportation",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0278#2",
+          "locator": "long title",
+          "text": "To establish the Department of Artificial Intelligence and to provide for the regulation of advanced artificial intelligence systems, and for other purposes.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0279": {
+      "url": "https://www.commerce.gov/news/press-releases/2025/06/statement-us-secretary-commerce-howard-lutnick-transforming-us-ai",
+      "title": "Statement of U.S. Secretary of Commerce Howard Lutnick on Transforming the U.S. AI Safety Institute into CAISI (Jun 2025)",
+      "publisher": "US Department of Commerce",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:37Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "site_blocked",
+          "http": 403,
+          "final_url": "https://www.commerce.gov/news/press-releases/2025/06/statement-us-secretary-commerce-howard-lutnick-transforming-us-ai",
+          "content_type": "text/html; charset=UTF-8",
+          "note": "website bot challenge (Cloudflare); the environment allowed the connection"
+        }
+      ],
+      "passages": []
+    },
+    "S-0280": {
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August (31 Jul 2026)",
+      "publisher": "European Commission",
+      "type": "primary",
+      "dates": {
+        "published": "2026-07-31"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:42Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "05dc291f08c57ab7",
+          "bytes": 50632
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0280#1",
+          "locator": "para. 1",
+          "text": "From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0281": {
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks",
+      "title": "Commission holds special meeting of Scientific panel on frontier AI safety and risks (9 Oct 2026)",
+      "publisher": "European Commission",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:43Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "15890ecf00dbe022",
+          "bytes": 49724
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0281#1",
+          "locator": "para. 1",
+          "text": "The panel has been investigating recent loss-of-control incidents, and together with the Commission’s AI Office, has worked on a set of questions for the companies that developed the models involved.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0282": {
+      "url": "https://bills-api.parliament.uk/api/v1/Bills/3942",
+      "title": "UK Parliament Bills API: Artificial Intelligence (Regulation) Bill [HL] (bill 3942)",
+      "publisher": "UK Parliament",
+      "type": "primary",
+      "dates": {
+        "published": "2025-03-04"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:43Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://bills-api.parliament.uk/api/v1/Bills/3942",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "a5bb030634bc5d6f",
+          "bytes": 1100
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0282#1",
+          "locator": "shortTitle",
+          "text": "Artificial Intelligence (Regulation) Bill [HL]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0282#2",
+          "locator": "sponsors",
+          "text": "Lord Holmes of Richmond",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0282#3",
+          "locator": "sponsors.party",
+          "text": "\"party\":\"Conservative\"",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0282#4",
+          "locator": "includedSessionIds",
+          "text": "includedSessionIds 39",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0282#5",
+          "locator": "currentStage",
+          "text": "\"description\":\"1st reading\"",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0283": {
+      "url": "https://bills-api.parliament.uk/api/v1/Bills/3942/Stages",
+      "title": "UK Parliament Bills API: stages of bill 3942",
+      "publisher": "UK Parliament",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:45Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://bills-api.parliament.uk/api/v1/Bills/3942/Stages",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "8ebdb2dd238beff4",
+          "bytes": 270
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0283#1",
+          "locator": "items",
+          "text": "\"totalResults\":1",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0283#2",
+          "locator": "items[0]",
+          "text": "\"description\":\"1st reading\",\"abbreviation\":\"1R\",\"house\":\"Lords\"",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0284": {
+      "url": "https://bills-api.parliament.uk/api/v1/Bills/4035",
+      "title": "UK Parliament Bills API: Cyber Security and Resilience (Network and Information Systems) Bill (bill 4035, carried over)",
+      "publisher": "UK Parliament",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:48Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://bills-api.parliament.uk/api/v1/Bills/4035",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "17c3f089ea9f8473",
+          "bytes": 1907
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0284#1",
+          "locator": "includedSessionIds",
+          "text": "includedSessionIds 39, 40",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0285": {
+      "url": "https://bills-api.parliament.uk/api/v1/Bills/4288",
+      "title": "UK Parliament Bills API: Artificial Superintelligence Bill (bill 4288)",
+      "publisher": "UK Parliament",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:49Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://bills-api.parliament.uk/api/v1/Bills/4288",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "7736f57146d097e7",
+          "bytes": 1214
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0285#1",
+          "locator": "longTitle",
+          "text": "A Bill to make provision to prohibit the development, deployment and operation of artificial superintelligence systems; to establish monitoring and control powers in respect of such systems; and for connected purposes.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0285#2",
+          "locator": "sponsors",
+          "text": "Alex Sobel",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0286": {
+      "url": "https://www.gov.uk/government/speeches/the-kings-speech-2024",
+      "title": "The King's Speech 2024 (17 Jul 2024)",
+      "publisher": "UK Government (Prime Minister's Office)",
+      "type": "primary",
+      "dates": {
+        "published": "2024-07-17"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:51Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/speeches/the-kings-speech-2024",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "076298927b73a3ff",
+          "bytes": 83219
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0286#1",
+          "locator": "speech text",
+          "text": "It will seek to establish the appropriate legislation to place requirements on those working to develop the most powerful artificial intelligence models.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0287": {
+      "url": "https://www.gov.uk/government/speeches/the-kings-speech-2026",
+      "title": "The King's Speech 2026 (13 May 2026)",
+      "publisher": "UK Government (Prime Minister's Office)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-05-13"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:51Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/speeches/the-kings-speech-2026",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "bc6fda553ef61ab0",
+          "bytes": 79771
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0287#1",
+          "locator": "speech text",
+          "text": "Legislation will be introduced to tackle late payments [Small Business Protections (Late Payments) Bill] and to reduce the burden of unnecessary regulation through innovation [Regulating for Growth Bill].",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0287#2",
+          "locator": "whole speech",
+          "text": "[Observation, not a quotation] Searched the speech for 'artificial intelligence', 'AI' and 'AI Security Institute': none appear; no AI bill is announced.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0288": {
+      "url": "https://assets.publishing.service.gov.uk/media/6a18713db95db968c8f3bbfd/The_King_s_Speech_2026_-_background_briefing_notes.pdf",
+      "title": "The King's Speech 2026: background briefing notes",
+      "publisher": "UK Government (Prime Minister's Office)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-05-28"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:52Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://assets.publishing.service.gov.uk/media/6a18713db95db968c8f3bbfd/The_King_s_Speech_2026_-_background_briefing_notes.pdf",
+          "content_type": "application/pdf",
+          "sha256": "f17c81e91842fc1c",
+          "bytes": 1315202
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0288#1",
+          "locator": "Regulating for Growth Bill, p. 31",
+          "text": "Exploring cross-cutting AI sandboxes, enabling responsible testing and adoption of AI-enabled products and services across multiple sectors where existing regulatory frameworks currently slow innovation.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0288#2",
+          "locator": "whole document",
+          "text": "[Observation, not a quotation] Searched the briefing notes for a frontier-AI or AI Security Institute bill: none is listed. AI appears in the Regulating for Growth Bill (sandboxes) and in background to the cyber bill.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0289": {
+      "url": "https://bills-api.parliament.uk/api/v1/Bills?SearchTerm=artificial%20intelligence&SortOrder=DateUpdatedDescending&Take=30",
+      "title": "UK Parliament Bills API: search 'artificial intelligence'",
+      "publisher": "UK Parliament",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:34:53Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://bills-api.parliament.uk/api/v1/Bills?SearchTerm=artificial%20intelligence&SortOrder=DateUpdatedDescending&Take=30",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "14d9123e81123bb0",
+          "bytes": 1729
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0289#1",
+          "locator": "totalResults",
+          "text": "\"totalResults\":3",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0290": {
+      "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "title": "生成式人工智能服务管理暂行办法 (Interim Measures for the Management of Generative AI Services), CAC et al. Order No. 15",
+      "publisher": "Cyberspace Administration of China",
+      "type": "primary",
+      "dates": {
+        "adopted": "2023-07-10",
+        "published": "2023-07-13",
+        "in_force": "2023-08-15"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:35:00Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "7fae988c064dde72",
+          "bytes": 29431
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0290#1",
+          "locator": "preamble (Order No. 15)",
+          "text": "令 第15号 《生成式人工智能服务管理暂行办法》已经2023年5月23日国家互联网信息办公室2023年第12次室务会会议审议通过 … 现予公布，自2023年8月15日起施行。 [Order No. 15: the Measures … are hereby promulgated and take effect on 15 August 2023.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0290#2",
+          "locator": "Art. 17",
+          "text": "第十七条 提供具有舆论属性或者社会动员能力的生成式人工智能服务的，应当按照国家有关规定开展安全评估，并按照《互联网信息服务算法推荐管理规定》履行算法备案和变更、注销备案手续。 [Providers of generative AI services with public-opinion attributes or social-mobilisation capacity shall carry out security assessments under relevant national rules and complete algorithm filing, modification and cancellation procedures under the Algorithmic Recommendation Provisions.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0290#3",
+          "locator": "Art. 7",
+          "text": "第七条 生成式人工智能服务提供者（以下称提供者）应当依法开展预训练、优化训练等训练数据处理活动，遵守以下规定： （一）使用具有合法来源的数据和基础模型； [Providers shall carry out pre-training, fine-tuning and other training-data processing lawfully and: (1) use data and foundation models from lawful sources;]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0290#4",
+          "locator": "Art. 12",
+          "text": "第十二条 提供者应当按照《互联网信息服务深度合成管理规定》对图片、视频等生成内容进行标识。 [Providers shall label generated images, videos and other content in accordance with the Deep Synthesis Provisions.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0290#5",
+          "locator": "Art. 20",
+          "text": "第二十条 对来源于中华人民共和国境外向境内提供生成式人工智能服务不符合法律、行政法规和本办法规定的，国家网信部门应当通知有关机构采取技术措施和其他必要措施予以处置。 [Where generative AI services provided into China from outside China do not comply …, the national cyberspace department shall notify the relevant bodies to take technical and other necessary measures.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0290#6",
+          "locator": "Art. 21",
+          "text": "拒不改正或者情节严重的，责令暂停提供相关服务。 [Where a provider refuses to correct or the circumstances are serious, it shall be ordered to suspend the relevant services.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0290#7",
+          "locator": "Art. 4(1)",
+          "text": "（一）坚持社会主义核心价值观，不得生成煽动颠覆国家政权、推翻社会主义制度 [(1) uphold the core socialist values; do not generate content inciting subversion of state power or overthrow of the socialist system]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0290#8",
+          "locator": "whole Measures (Arts. 1-24)",
+          "text": "[Observation, not a quotation] Searched the Measures for any requirement that foreign or offshore models reach Chinese users through licensed domestic intermediaries: there is none. Art. 20 (blocking of non-compliant offshore services) and Art. 23 (foreign investment must comply with foreign-investment law) are the only provisions on foreign services.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0290#9",
+          "locator": "Art. 14",
+          "text": "提供者发现违法内容的，应当及时采取停止生成、停止传输、消除等处置措施 [Where providers discover illegal content, they shall promptly stop its generation and transmission, remove it …]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0291": {
+      "url": "https://www.cac.gov.cn/2024-04/02/c_1713729983803145.htm",
+      "title": "国家互联网信息办公室关于发布生成式人工智能服务已备案信息的公告 (CAC announcement publishing filed generative AI services; attachments to Aug 2026)",
+      "publisher": "Cyberspace Administration of China",
+      "type": "primary",
+      "dates": {
+        "published": "2024-04-02"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:35:04Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.cac.gov.cn/2024-04/02/c_1713729983803145.htm",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "4716f7fe0e5e6cf8",
+          "bytes": 21844
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0291#1",
+          "locator": "announcement text",
+          "text": "网信部门会同相关部门按照《生成式人工智能服务管理暂行办法》要求，有序开展生成式人工智能服务备案工作，现将已备案信息予以公告。 [Cyberspace departments, with relevant departments, are carrying out filing of generative AI services under the Interim Measures and hereby publish the filed information.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0291#2",
+          "locator": "announcement text",
+          "text": "已上线的生成式人工智能应用或功能，应在显著位置或产品详情页面公示所使用已备案生成式人工智能服务情况，注明模型名称及备案号。 [Generative AI applications or features already online shall display, prominently or on the product details page, the filed generative AI service they use, with the model name and filing number.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0291#3",
+          "locator": "attachments",
+          "text": "附件13： 生成式人工智能服务已备案和已登记信息（2026年8月） [Attachment 13: filed and registered generative AI services (August 2026)]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0292": {
+      "url": "https://www.cac.gov.cn/2026-07/03/c_1784822399677167.htm",
+      "title": "CAC notice: second public consultation on the Internet Information Services Measures (revised draft), 3 Jul 2026",
+      "publisher": "Cyberspace Administration of China",
+      "type": "primary",
+      "dates": {
+        "published": "2026-07-03"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:35:06Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.cac.gov.cn/2026-07/03/c_1784822399677167.htm",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "3ff4044e294bdeb3",
+          "bytes": 102280
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0292#1",
+          "locator": "notice",
+          "text": "国家互联网信息办公室关于《互联网信息服务管理办法（修订草案征求意见稿）》再次公开征求意见的通知 [CAC notice on a second public consultation on the draft revised Internet Information Services Measures]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0292#2",
+          "locator": "notice",
+          "text": "意见反馈截止日期为2026年8月2日。 [Comments due 2 August 2026.]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0293": {
+      "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=282791&chrClsCd=010202&urlMode=lsInfoP&efYd=20260721&ancYnChk=0",
+      "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 (Framework Act on the Development of AI and Establishment of a Foundation for Trust), current text [in force 21 Jul 2026, Act No. 21311]",
+      "publisher": "Korea Ministry of Government Legislation (law.go.kr)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-01-21",
+        "in_force": "2026-01-22"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:35:08Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=282791&chrClsCd=010202&urlMode=lsInfoP&efYd=20260721&ancYnChk=0",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "3f7b939448a49d49",
+          "bytes": 148773
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0293#1",
+          "locator": "header",
+          "text": "시행 2026. 7. 21. … 법률 제21311호, 2026. 1. 20., 일부개정 [In force 21 Jul 2026; Act No. 21311 of 20 Jan 2026, partial amendment]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0293#2",
+          "locator": "Addenda (Act No. 20676, 2025. 1. 21.) Art. 1",
+          "text": "제1조(시행일) 이 법은 공포 후 1년이 경과한 날부터 시행한다. [Art. 1 (Effective date) This Act takes effect one year after promulgation.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0293#3",
+          "locator": "Addenda (Act No. 21311) ",
+          "text": "이 법은 2026년 1월 22일부터 시행한다. [This Act takes effect on 22 January 2026.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0293#4",
+          "locator": "Art. 12(1)",
+          "text": "과학기술정보통신부장관은 … 인공지능안전연구소(이하 “안전연구소”라 한다)를 운영할 수 있다. [The Minister of Science and ICT … may operate an AI Safety Research Institute.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0293#5",
+          "locator": "Art. 31(2)",
+          "text": "인공지능사업자는 생성형 인공지능 또는 이를 이용한 제품 또는 서비스를 제공하는 경우 그 결과물이 생성형 인공지능에 의하여 생성되었다는 사실을 표시하여야 한다. [AI business operators providing generative AI … shall indicate that the output was generated by generative AI.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0293#6",
+          "locator": "Art. 32(1)-(2)",
+          "text": "인공지능사업자는 학습에 사용된 누적 연산량이 대통령령 으로 정하는 기준 이상인 인공지능시스템의 안전성을 확보하기 위하여 다음 각 호의 사항을 이행하여야 한다. 1. 인공지능 수명주기 전반에 걸친 위험의 식별ㆍ평가 및 완화 [For AI systems whose cumulative training compute is at or above the standard set by Presidential Decree, operators shall: 1. identify, assess and mitigate risks across the AI lifecycle]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0293#7",
+          "locator": "Art. 32(2)",
+          "text": "인공지능사업자는 제1항 각 호에 따른 사항의 이행 결과를 과학기술정보통신부장관에게 제출하여야 한다. [Operators shall submit the results of implementing paragraph 1 to the Minister of Science and ICT.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0293#8",
+          "locator": "Art. 34(1)",
+          "text": "1. 위험관리방안의 수립ㆍ운영 [1. establishing and operating a risk management plan]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0293#9",
+          "locator": "Art. 40(1)2",
+          "text": "2. 제31조 제2항 ㆍ제3항, 제32조 제1항 ㆍ제2항 또는 제34조 제1항 의 위반에 대한 신고를 받거나 민원이 접수된 경우 [2. where a report or complaint of a violation of Art. 31(2)-(3), 32(1)-(2) or 34(1) is received]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0293#10",
+          "locator": "Art. 40(3)",
+          "text": "과학기술정보통신부장관은 제1항 및 제2항에 따른 조사 결과 인공지능사업자가 이 법을 위반한 사실이 있다고 인정되면 인공지능사업자에게 해당 위반행위의 중지나 시정을 위하여 필요한 조치를 명할 수 있다. [If the investigation finds a violation, the Minister may order the measures needed to stop or correct it.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0293#11",
+          "locator": "Art. 43(1)",
+          "text": "다음 각 호의 어느 하나에 해당하는 자에게는 3천만원 이하의 과태료를 부과한다. [An administrative fine of up to KRW 30 million is imposed on any of the following.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0293#12",
+          "locator": "Art. 12(2)",
+          "text": "6. 제32조 에 따른 인공지능시스템의 안전성 확보에 관한 지원 [6. support for securing the safety of AI systems under Art. 32]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0293#13",
+          "locator": "whole Act incl. Addenda",
+          "text": "[Observation, not a quotation] Searched the Act and all Addenda for a grace period or deferred start of fines (계도, 유예, 2027): none. Fines under Art. 43 apply from entry into force on 22 Jan 2026 as a matter of law.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0294": {
+      "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=288781&chrClsCd=010202&urlMode=lsInfoP&efYd=20260820&ancYnChk=0",
+      "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 시행령 (Enforcement Decree), current text",
+      "publisher": "Korea Ministry of Government Legislation (law.go.kr)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-01-21",
+        "in_force": "2026-01-22"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:35:11Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=288781&chrClsCd=010202&urlMode=lsInfoP&efYd=20260820&ancYnChk=0",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "e4f6e7627e4e186b",
+          "bytes": 202786
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0294#1",
+          "locator": "Art. 24(1)",
+          "text": "법 제32조 제1항 에서 “대통령령으로 정하는 기준 이상인 인공지능시스템”이란 다음 각 호의 기준을 모두 충족하는 인공지능시스템을 말한다. 1. 학습에 사용된 누적 연산량이 10의 26승 부동소수점연산 이상일 것 [An AI system 'at or above the standard set by Presidential Decree' under Art. 32(1) of the Act means one meeting all of the following: 1. cumulative training compute of 10^26 floating-point operations or more]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0294#2",
+          "locator": "Art. 24(1)2-3",
+          "text": "2. 인공지능기술의 발전 수준을 고려할 때 현재 인공지능시스템에 활용되는 인공지능기술 중 최첨단의 인공지능기술을 적용하여 구성ㆍ운영되고 있을 것 3. 인공지능시스템의 위험도가 사람의 생명, 신체의 안전 및 기본권에 광범위하고 중대한 영향을 미칠 우려가 있을 것 [2. it is built and operated with the most advanced AI technology currently in use; 3. its risk may have broad and serious effects on human life, physical safety and fundamental rights]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0294#3",
+          "locator": "Addenda (Presidential Decree No. 36053, 2026. 1. 21.) Art. 1",
+          "text": "제1조(시행일) 이 영은 2026년 1월 22일부터 시행한다. [This Decree takes effect on 22 January 2026.]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0295": {
+      "url": "https://aibasicact.kr/about",
+      "title": "About the Korea AI Basic Act Explorer (current map link's site)",
+      "publisher": "Future of Life Institute and Korea AISI",
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:35:13Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://aibasicact.kr/about/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "899817a4ca78b4fd",
+          "bytes": 24577
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0295#1",
+          "locator": "Who produced this website?",
+          "text": "This explorer was developed by the Korea AISI and the Future of Life Institute",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0296": {
+      "url": "https://laws.e-gov.go.jp/api/1/lawdata/507AC0000000053",
+      "title": "人工知能関連技術の研究開発及び活用の推進に関する法律 (Act on Promotion of Research, Development and Utilisation of AI-Related Technologies), Act No. 53 of 2025 — e-Gov law data",
+      "publisher": "e-Gov (Digital Agency, Government of Japan)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-05-28",
+        "published": "2025-06-04",
+        "in_force": "2025-06-04",
+        "applies_from": "2025-09-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:35:14Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://laws.e-gov.go.jp/api/1/lawdata/507AC0000000053",
+          "content_type": "text/xml;charset=UTF-8",
+          "sha256": "bffd0a067fdeba03",
+          "bytes": 35652
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0296#1",
+          "locator": "Art. 19",
+          "text": "人工知能関連技術の研究開発及び活用の推進に関する施策を総合的かつ計画的に推進するため、内閣に、人工知能戦略本部（以下「本部」という。）を置く。 [The AI Strategic Headquarters is established in the Cabinet.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0296#2",
+          "locator": "Art. 26",
+          "text": "本部に関する事務は、内閣府において処理する。 [The Headquarters' affairs are handled by the Cabinet Office.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0296#3",
+          "locator": "Art. 13",
+          "text": "国は、人工知能関連技術の研究開発及び活用の適正な実施を図るため、国際的な規範の趣旨に即した指針の整備その他の必要な施策を講ずるものとする。 [The State shall develop guidelines consistent with international norms … to ensure appropriate R&D and use of AI.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0296#4",
+          "locator": "Art. 16",
+          "text": "その結果に基づいて、研究開発機関、活用事業者その他の者に対する指導、助言、情報の提供その他の必要な措置を講ずるものとする。 [Based on the results, the State shall give guidance, advice and information to research bodies, businesses and others.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0296#5",
+          "locator": "whole Act (Arts. 1-28, Supplementary Provisions)",
+          "text": "[Observation, not a quotation] Searched the Act for penalties (罰則, 過料, 罰金), compute thresholds (演算) and mandatory pre-deployment testing: none. The Act has no penalty chapter; Art. 7 obliges businesses only to cooperate with government measures.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0296#6",
+          "locator": "Art. 7",
+          "text": "第四条の規定に基づき国が実施する施策及び第五条の規定に基づき地方公共団体が実施する施策に協力しなければならない。 [Businesses must cooperate with measures implemented by the State and local governments.]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0297": {
+      "url": "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html",
+      "title": "Cabinet Office: AI Act (人工知能関連技術の研究開発及び活用の推進に関する法律) page",
+      "publisher": "Cabinet Office, Government of Japan",
+      "type": "primary",
+      "dates": {
+        "published": "2025-06-04"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:35:16Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html",
+          "content_type": "text/html",
+          "sha256": "05380a580a25a965",
+          "bytes": 6708
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0297#1",
+          "locator": "概要",
+          "text": "令和7年6月4日にＡＩ法が公布・一部施行され、９月１日にはＡＩ戦略本部の設置に係る規定等も含め、全面施行されました。 [The AI Act was promulgated and partly entered into force on 4 June 2025 and fully entered into force, including the AI Strategic Headquarters provisions, on 1 September.]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0298": {
+      "url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou.pdf",
+      "title": "Cabinet Office: Overview of the AI Act (概要)",
+      "publisher": "Cabinet Office, Government of Japan",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:35:17Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou.pdf",
+          "content_type": "application/pdf",
+          "sha256": "4fce096214cd7b83",
+          "bytes": 404701
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0298#1",
+          "locator": "header",
+          "text": "成立：令和７年５月28日 [Enacted: 28 May 2025]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0299": {
+      "url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html",
+      "title": "Cabinet Office: Guidelines for ensuring appropriateness of AI R&D and use (AI指針), AI Strategic HQ decision 19 Dec 2025",
+      "publisher": "Cabinet Office, Government of Japan",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-12-19"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:35:20Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html",
+          "content_type": "text/html",
+          "sha256": "d7063b78ba624cc7",
+          "bytes": 32886
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0299#1",
+          "locator": "page header",
+          "text": "人工知能関連技術の研究開発及び活用の適正性確保に関する指針 令和7年12月19日 本部決定 [Guidelines on ensuring appropriateness of AI R&D and use — decided by the Headquarters on 19 Dec 2025]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0299#2",
+          "locator": "ministry guidelines list, no. 1",
+          "text": "AI事業者ガイドライン [AI Business Guidelines]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0300": {
+      "url": "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html",
+      "title": "Cabinet Office: AI Basic Plan (人工知能基本計画), Cabinet decisions of 23 Dec 2025 and 14 Jul 2026",
+      "publisher": "Cabinet Office, Government of Japan",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-07-14"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:35:21Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html",
+          "content_type": "text/html",
+          "sha256": "129b63a8cf205cbc",
+          "bytes": 12843
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0300#1",
+          "locator": "page",
+          "text": "人工知能基本計画 令和８年７月14日 閣議決定 [AI Basic Plan, Cabinet decision of 14 July 2026]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0300#2",
+          "locator": "past plans",
+          "text": "令和7年12月23日 閣議決定 [Cabinet decision of 23 Dec 2025]",
           "retrieved": "2026-10-10"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "next": 87,
+  "next": 107,
   "proposals": [
     {
       "id": "P-0001",
@@ -10927,6 +10927,1987 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0087",
+      "fingerprint": "b5959e2b3f8f",
+      "targets": [
+        "entry:us-eo14179:desc",
+        "entry:us-eo14179:context"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:23Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "US EO 14179: it followed EO 14148's revocation of EO 14110 and ordered rescission of actions under it; it did not itself rescind red-teaming, reporting or voluntary commitments",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "us-eo14179",
+              "field": "desc",
+              "from": "Trump (Jan 2025) replaced Biden EO 14110. Rescinded mandatory red-teaming and pre-deployment reporting.",
+              "to": "Trump (Jan 23, 2025). Issued after EO 14148 revoked Biden EO 14110, whose reporting duties covered red-team results for dual-use foundation models; orders agencies to suspend, revise or rescind actions taken under EO 14110."
+            },
+            {
+              "op": "set_field",
+              "entity": "us-eo14179",
+              "field": "context",
+              "from": "Frames AI policy as removing regulatory barriers to American leadership; ordered the AI Action Plan within 180 days. Withdrew the safety-focused infrastructure of the prior administration — voluntary commitments, mandatory red-teaming, pre-deployment reporting. Marks the federal turn away from safety-oriented governance toward an industrial-policy framing.",
+              "to": "Frames AI policy as removing regulatory barriers to American leadership; ordered the AI Action Plan within 180 days. Ordered review and rescission of the safety-focused measures taken under EO 14110, such as reporting of red-team results for dual-use foundation models. Marks the federal turn away from safety-oriented governance toward an industrial-policy framing."
+            }
+          ],
+          "why": "Readers take the entry to say EO 14179 itself rescinded mandatory red-teaming, pre-deployment reporting and the voluntary commitments. The revocation of EO 14110 was done by EO 14148 three days earlier. EO 14110 required reporting of red-team results, not red-teaming as such. The 2023 voluntary commitments were never part of either order.",
+          "rationale": "EO 14148 §2(ggg) revokes EO 14110. EO 14179 refers to 'the revoked Executive Order 14110' and orders agencies to suspend, revise or rescind actions taken under it (§5(a)). EO 14110 §4.2(a)(i)(C) required companies to report red-team test results. EO 14179 never mentions red-teaming, reporting or voluntary commitments.",
+          "evidence": [
+            {
+              "source": "S-0270",
+              "passage": "S-0270#6",
+              "stance": "supports",
+              "supports": "date Jan 23, 2025"
+            },
+            {
+              "source": "S-0270",
+              "passage": "S-0270#3",
+              "stance": "supports",
+              "supports": "EO 14110 already revoked; orders review"
+            },
+            {
+              "source": "S-0270",
+              "passage": "S-0270#4",
+              "stance": "supports",
+              "supports": "suspend, revise or rescind actions"
+            },
+            {
+              "source": "S-0270",
+              "passage": "S-0270#5",
+              "stance": "supports",
+              "supports": "no mention of red-teaming, reporting or voluntary commitments"
+            },
+            {
+              "source": "S-0271",
+              "passage": "S-0271#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0271",
+              "passage": "S-0271#3",
+              "stance": "supports",
+              "supports": "EO 14148 revoked EO 14110"
+            },
+            {
+              "source": "S-0272",
+              "passage": "S-0272#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0272",
+              "passage": "S-0272#2",
+              "stance": "supports",
+              "supports": "the reporting duty covered red-team results"
+            }
+          ],
+          "uncertainty": "'Replaced' in the current desc is loose rather than wrong. The proposal names the revoking order precisely.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "edge:us-eo14179|us-action": "checked, still accurate",
+            "edge:us-eo14179|us-preempt": "checked, still accurate",
+            "entry:us-eo14179:cov": "checked, still accurate (empty)"
+          },
+          "unverified_carryover": [
+            "Marks the federal turn away from safety-oriented governance toward an industrial-policy framing."
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:us-frontier-access-eo:context",
+            "edge:us-eo14179|us-action",
+            "edge:us-frontier-access-eo|us-eo14179",
+            "edge:us-eo14179|us-preempt",
+            "edge:us-eo14179|caisi",
+            "text:footer-sources"
+          ],
+          "hash": "f6834f86db5f"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0088",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:23Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "SCOPE §C flag: is US EO 14179 a direct or contextual mechanism?",
+          "kind": "flag",
+          "changes": [],
+          "why": "SCOPE §C asks the baseline audit to raise this tier question.",
+          "rationale": "The order text is general (§§1-5). Its frontier relevance runs through the EO 14110 actions it orders reviewed.",
+          "evidence": [
+            {
+              "source": "S-0270",
+              "passage": "S-0270#3",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0270",
+              "passage": "S-0270#5",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0272",
+              "passage": "S-0272#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0271",
+              "passage": "S-0271#3",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "A classification judgment; the facts are settled.",
+          "confidence": "medium",
+          "question": "EO 14179 is tiered 'contextual'. Its only operative provisions are an AI Action Plan order (§4) and a review of actions taken under the already-revoked EO 14110 (§5), whose frontier-model reporting was revoked by EO 14148. Options: (a) keep contextual, since the order itself has no frontier-specific provisions (recommended); (b) re-tier as direct, because §5 is aimed at unwinding EO 14110's frontier-model measures; (c) also consider adding EO 14148 as the instrument that revoked EO 14110.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0089",
+      "fingerprint": "41192730d9e3",
+      "targets": [
+        "entry:us-action"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:23Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "US AI Action Plan: map link ai.gov/action-plan is dead (HTTP 404); use the White House PDF",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "us-action",
+              "field": "link",
+              "from": "https://www.ai.gov/action-plan",
+              "to": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf"
+            }
+          ],
+          "why": "The current link returns 'Page Not Found'. ai.gov now carries 'SI GOV' (Super Intelligence) branding.",
+          "rationale": "curl and headless Chromium both got HTTP 404 from ai.gov/action-plan on 2026-10-10. The White House-hosted PDF is the plan itself.",
+          "evidence": [
+            {
+              "source": "S-0275",
+              "passage": "S-0275#1",
+              "stance": "supports",
+              "supports": "current link is dead"
+            },
+            {
+              "source": "S-0274",
+              "passage": "S-0274#1",
+              "stance": "supports",
+              "supports": "the plan at the proposed URL"
+            }
+          ],
+          "uncertainty": "ai.gov may restore the page, but the PDF is the stable primary document.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:us-eo14179:context",
+            "entry:us-preempt:context",
+            "edge:us-eo14179|us-action",
+            "edge:us-action|us-preempt",
+            "edge:us-ftc|us-action",
+            "gap:acct"
+          ],
+          "hash": "aa1358a3a2de"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0090",
+      "fingerprint": "b4691f6c3268",
+      "targets": [
+        "entry:us-action:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:23Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "US AI Action Plan: it calls for limiting federal funding to states with burdensome AI rules; it does not itself limit funding",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "us-action",
+              "field": "desc",
+              "from": "Jul 2025. Limits federal funding to states with \"burdensome\" AI regulations.",
+              "to": "Jul 2025. Calls for limiting federal AI funding to states with \"burdensome\" AI regulations."
+            }
+          ],
+          "why": "The Plan is a set of recommended policy actions, not an instrument that limits funding by itself.",
+          "rationale": "The Plan says the federal government 'should not allow AI-related Federal funding to be directed toward states with burdensome AI regulations'. It asks OMB to work with agencies so that they consider a state's AI regulatory climate and limit funding where warranted.",
+          "evidence": [
+            {
+              "source": "S-0274",
+              "passage": "S-0274#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0274",
+              "passage": "S-0274#3",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0274",
+              "passage": "S-0274#1",
+              "stance": "supports",
+              "supports": "July 2025"
+            }
+          ],
+          "uncertainty": "A wording precision; the substance is unchanged.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:us-action:cov:acct": "checked, still accurate ('directs OMB' matches the recommended action)"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:us-eo14179:context",
+            "entry:us-preempt:context",
+            "edge:us-eo14179|us-action",
+            "edge:us-action|us-preempt",
+            "edge:us-ftc|us-action",
+            "gap:acct"
+          ],
+          "hash": "451f1691d03d"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0091",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:23Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Classification flag: is the AI Action Plan pow 3 (hard law) or pow 2 (soft/advisory)?",
+          "kind": "flag",
+          "changes": [],
+          "why": "The enforceability colour and the 'binding mechanisms' counts depend on pow.",
+          "rationale": "The Plan's operative content is framed as recommended policy actions led by named agencies, with no legal force of its own.",
+          "evidence": [
+            {
+              "source": "S-0274",
+              "passage": "S-0274#3",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0274",
+              "passage": "S-0274#2",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "Classification judgment for the maintainer.",
+          "confidence": "medium",
+          "question": "RUBRIC §4 defines pow 3 as a 'legally binding instrument'. The AI Action Plan is a White House policy document of 'Recommended Policy Actions', not an executive order or regulation. Options: (a) set pow 2, as a government-issued but non-binding instrument (recommended); (b) keep pow 3, treating it as executive direction to agencies comparable to an EO.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0092",
+      "fingerprint": "a3da2a417938",
+      "targets": [
+        "edge:us-action|us-preempt"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:23Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Connection Action Plan ↔ preemption EO: the Plan did not call for preemption",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_edge",
+              "a": "us-action",
+              "b": "us-preempt",
+              "from": "Action Plan called for preemption of state laws",
+              "to": "EO 14365 adds litigation and BEAD-funding conditions to the Action Plan's state-funding lever; the Plan did not call for preemption"
+            }
+          ],
+          "why": "The current connection says the Action Plan called for preemption of state laws. Its text never mentions preemption. It says the federal government should not interfere with prudent state laws.",
+          "rationale": "The Plan's only state-law measures are funding conditions and an FCC review. EO 14365 then created the DOJ task force (§3) and BEAD conditions (§5).",
+          "evidence": [
+            {
+              "source": "S-0274",
+              "passage": "S-0274#7",
+              "stance": "supports",
+              "supports": "no 'preempt' in the Plan"
+            },
+            {
+              "source": "S-0274",
+              "passage": "S-0274#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0274",
+              "passage": "S-0274#3",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0239",
+              "passage": "S-0239#5",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0239",
+              "passage": "S-0239#7",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "Low.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:us-eo14179:context",
+            "entry:us-preempt:context",
+            "edge:us-eo14179|us-action",
+            "edge:us-ftc|us-action",
+            "gap:acct",
+            "entry:us-frontier-access-eo:context",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:mit",
+            "entry:ny-raise:context",
+            "edge:us-eo14179|us-preempt",
+            "edge:us-preempt|ca-sb53",
+            "edge:us-preempt|co-aia",
+            "edge:us-preempt|ny-raise",
+            "edge:us-ftc|us-preempt",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-3:tooltip",
+            "text:footer-sources"
+          ],
+          "hash": "baf9aefab374"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0093",
+      "fingerprint": "0eafc43dd291",
+      "targets": [
+        "entry:us-preempt:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:23Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "US preemption EO: Task Force set up Jan 9, 2026; DOJ's Colorado intervention rested on equal protection and does not cite the Task Force",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "us-preempt",
+              "field": "desc",
+              "from": "EO 14365 (Dec 11 2025). DOJ AI Litigation Task Force to challenge state AI laws. DOJ first intervened in xAI v. Colorado on Apr 24, 2026.",
+              "to": "EO 14365 (Dec 11 2025). DOJ AI Litigation Task Force (set up Jan 9, 2026) to challenge state AI laws. DOJ moved to intervene in xAI v. Colorado on Apr 24, 2026, on equal-protection grounds."
+            }
+          ],
+          "why": "As written, the desc implies the Task Force's first action was the Colorado intervention. 'First' cannot be verified. DOJ's release names neither the Task Force nor the EO, and argues equal protection rather than the EO's commerce-clause or preemption theories.",
+          "rationale": "The AG memo of 9 Jan 2026 established the Task Force. The DOJ release of 24 Apr 2026 says DOJ 'moved to intervene', alleging an Equal Protection violation. It was issued by the Civil and Civil Rights Divisions.",
+          "evidence": [
+            {
+              "source": "S-0239",
+              "passage": "S-0239#5",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0273",
+              "passage": "S-0273#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0273",
+              "passage": "S-0273#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0111",
+              "passage": "S-0111#4",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0111",
+              "passage": "S-0111#5",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0111",
+              "passage": "S-0111#6",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0111",
+              "passage": "S-0111#8",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "The intervention may still have been coordinated with the Task Force; the public record does not say.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "edge:us-preempt|co-aia": "checked, still accurate",
+            "entry:co-aia:context": "mentions DOJ intervention; not re-checked here (L3)"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:us-frontier-access-eo:context",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:mit",
+            "entry:ny-raise:context",
+            "edge:us-eo14179|us-preempt",
+            "edge:us-action|us-preempt",
+            "edge:us-preempt|ca-sb53",
+            "edge:us-preempt|co-aia",
+            "edge:us-preempt|ny-raise",
+            "edge:us-ftc|us-preempt",
+            "gap:acct",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-3:tooltip",
+            "text:footer-sources"
+          ],
+          "hash": "8eab6c2d5541"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0094",
+      "fingerprint": "cb31b86ae96b",
+      "targets": [
+        "entry:eu-aia:cov:mit"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:24Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "EU AI Act · Mitigations: content marking is an Article 50 duty, not a GPAI duty",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "eu-aia",
+              "cat": "mit",
+              "from": "A layered set of obligations: prohibited practices (banned), high-risk obligations (impact assessments, registration), GPAI duties (transparency, content marking), and additional systemic-risk mitigations. The most comprehensive deployment-mitigation regime in any binding instrument.",
+              "to": "A layered set of obligations: prohibited practices (banned), high-risk obligations (impact assessments, registration), GPAI duties (transparency, copyright), Article 50 marking of AI-generated content, and additional systemic-risk mitigations. The most comprehensive deployment-mitigation regime in any binding instrument."
+            }
+          ],
+          "why": "Marking AI-generated content falls on providers of generative AI systems under Article 50(2), which the map now covers as eu-genai-code. The GPAI chapter's duties are documentation and copyright. The same correction was made to gpai-cop in P-0018.",
+          "rationale": "Art. 50(2) imposes machine-readable marking on providers of AI systems generating synthetic content. Art. 53(1) GPAI duties are technical documentation and a copyright policy.",
+          "evidence": [
+            {
+              "source": "S-0002",
+              "passage": "S-0002#9",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#12",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#13",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#5",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#7",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#8",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "Low.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "The most comprehensive deployment-mitigation regime in any binding instrument."
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:kr-ai:cov:thresh",
+            "entry:kr-ai:cov:eval",
+            "entry:ca-sb53:desc",
+            "entry:co-aia:desc",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:acct",
+            "entry:gpai-cop:desc",
+            "entry:gpai-cop:context",
+            "entry:gpai-cop:cov:thresh",
+            "entry:gpai-cop:cov:eval",
+            "entry:gpai-cop:cov:sec",
+            "entry:gpai-cop:cov:acct",
+            "entry:eu-genai-code:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:xai-rmf:desc",
+            "entry:eu-aio:context",
+            "entry:averi:context",
+            "entry:averi:cov:eval",
+            "edge:coe-ai|eu-aia",
+            "edge:eu-aia|eu-aio",
+            "edge:gpai-cop|eu-aia",
+            "edge:uk-ico|eu-aia",
+            "edge:eu-genai-code|eu-aia",
+            "gap:eval",
+            "gap:elicit",
+            "gap:timing",
+            "gap:sec",
+            "gap:acct",
+            "gap:update",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris",
+            "faq:what-does-the-eu-ai-office-do",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:footer-sources"
+          ],
+          "hash": "637628364333"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0095",
+      "fingerprint": "c196520fe91e",
+      "targets": [
+        "entry:eu-aia:cov:timing"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:24Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "EU AI Act · Timing: post-market monitoring is a high-risk provider duty overseen by market surveillance; the AI Office supervises GPAI",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "eu-aia",
+              "cat": "timing",
+              "from": "Both pre-market obligations (conformity assessments for high-risk; transparency for GPAI) and post-market monitoring duties under the AI Office. The first regulation to formally split the lifecycle this way.",
+              "to": "Both pre-market obligations (conformity assessments for high-risk; transparency for GPAI) and post-market duties (post-market monitoring for high-risk systems; AI Office supervision of GPAI models). The first regulation to formally split the lifecycle this way."
+            }
+          ],
+          "why": "The note places post-market monitoring 'under the AI Office'. Art. 72 post-market monitoring applies to high-risk providers. The AI Office's exclusive powers cover Chapter V (GPAI).",
+          "rationale": "Art. 72(1) requires providers of high-risk systems to run post-market monitoring. Art. 88(1) gives the Commission, through the AI Office, exclusive powers over Chapter V.",
+          "evidence": [
+            {
+              "source": "S-0002",
+              "passage": "S-0002#6",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#18",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#19",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#12",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "Low.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "The first regulation to formally split the lifecycle this way."
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:kr-ai:cov:thresh",
+            "entry:kr-ai:cov:eval",
+            "entry:ca-sb53:desc",
+            "entry:co-aia:desc",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:acct",
+            "entry:gpai-cop:desc",
+            "entry:gpai-cop:context",
+            "entry:gpai-cop:cov:thresh",
+            "entry:gpai-cop:cov:eval",
+            "entry:gpai-cop:cov:sec",
+            "entry:gpai-cop:cov:acct",
+            "entry:eu-genai-code:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:xai-rmf:desc",
+            "entry:eu-aio:context",
+            "entry:averi:context",
+            "entry:averi:cov:eval",
+            "edge:coe-ai|eu-aia",
+            "edge:eu-aia|eu-aio",
+            "edge:gpai-cop|eu-aia",
+            "edge:uk-ico|eu-aia",
+            "edge:eu-genai-code|eu-aia",
+            "gap:eval",
+            "gap:elicit",
+            "gap:timing",
+            "gap:sec",
+            "gap:acct",
+            "gap:update",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris",
+            "faq:what-does-the-eu-ai-office-do",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:footer-sources"
+          ],
+          "hash": "c712ee536fae"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0096",
+      "fingerprint": "99c8e2ab9653",
+      "targets": [
+        "entry:eu-aia:cov:update"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:24Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "EU AI Act · Updating: the Commission can revise the 10²⁵ threshold and the Annex III list by delegated act",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "eu-aia",
+              "cat": "update",
+              "from": "The Code of Practice and harmonised standards are revisable as the field changes; the underlying regulation is amendable through ordinary EU legislative procedure (slower).",
+              "to": "The Code of Practice and harmonised standards are revisable as the field changes, and the Commission can update the 10²⁵ threshold and the Annex III high-risk list by delegated act; other changes to the regulation go through ordinary EU legislative procedure (slower)."
+            }
+          ],
+          "why": "Read for the METR 'updating' element, the note suggests the regulation changes only through ordinary legislation. The Act has a faster built-in route for its key threshold and high-risk list.",
+          "rationale": "Art. 51(3) obliges the Commission to adopt delegated acts amending the systemic-risk thresholds as technology evolves. Art. 7(1) lets it amend Annex III. Art. 56(8) provides for review of the codes.",
+          "evidence": [
+            {
+              "source": "S-0002",
+              "passage": "S-0002#11",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#22",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#17",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "Whether this omission is material enough to change is a judgment.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:kr-ai:cov:thresh",
+            "entry:kr-ai:cov:eval",
+            "entry:ca-sb53:desc",
+            "entry:co-aia:desc",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:acct",
+            "entry:gpai-cop:desc",
+            "entry:gpai-cop:context",
+            "entry:gpai-cop:cov:thresh",
+            "entry:gpai-cop:cov:eval",
+            "entry:gpai-cop:cov:sec",
+            "entry:gpai-cop:cov:acct",
+            "entry:eu-genai-code:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:xai-rmf:desc",
+            "entry:eu-aio:context",
+            "entry:averi:context",
+            "entry:averi:cov:eval",
+            "edge:coe-ai|eu-aia",
+            "edge:eu-aia|eu-aio",
+            "edge:gpai-cop|eu-aia",
+            "edge:uk-ico|eu-aia",
+            "edge:eu-genai-code|eu-aia",
+            "gap:eval",
+            "gap:elicit",
+            "gap:timing",
+            "gap:sec",
+            "gap:acct",
+            "gap:update",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris",
+            "faq:what-does-the-eu-ai-office-do",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:footer-sources"
+          ],
+          "hash": "1adb65412c0a"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0097",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:24Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Coverage flag: should the EU AI Act carry a 'halt' note (AI Office power to restrict, withdraw or recall a GPAI model)?",
+          "kind": "flag",
+          "changes": [],
+          "why": "The coverage set drives the coverage matrix and gap summaries.",
+          "rationale": "Art. 93(1)(c) is a binding power to stop a model being made available.",
+          "evidence": [
+            {
+              "source": "S-0002",
+              "passage": "S-0002#20",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "Depends on how the map applies METR's halt element to regulators.",
+          "confidence": "medium",
+          "question": "Art. 93(1)(c) lets the Commission (AI Office) require a GPAI provider to restrict the model's availability, withdraw it or recall it. The eu-aia acct note already mentions recalls, but 'halt' is not in the coverage set. Options: (a) add a halt note citing Art. 93(1)(c) as a regulator-imposed halt (recommended); (b) leave as is, since METR's halt element concerns developer-side halting conditions.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0098",
+      "fingerprint": "95defca00e33",
+      "targets": [
+        "entry:cn-genai"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:24Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "China GenAI Measures: link the official CAC text instead of a third-party translation",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "cn-genai",
+              "field": "link",
+              "from": "https://www.chinalawtranslate.com/en/generative-ai-interim/",
+              "to": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+            }
+          ],
+          "why": "The official promulgated text is the authoritative source; the current link is an unofficial English translation.",
+          "rationale": "The CAC page carries Order No. 15 and the full Measures.",
+          "evidence": [
+            {
+              "source": "S-0290",
+              "passage": "S-0290#1",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "English readers lose the translation; the maintainer may prefer to keep it in context.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:cn-genai|cn-ai-law",
+            "gap:timing",
+            "gap:mit",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-is-the-difference-between-layer-2-and-layer"
+          ],
+          "hash": "2140b1a735ef"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0099",
+      "fingerprint": "7040658fa8c1",
+      "targets": [
+        "entry:cn-genai:context",
+        "entry:cn-genai:cov:timing",
+        "entry:cn-genai:cov:mit",
+        "entry:cn-genai:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:24Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "China GenAI Measures: security assessment and algorithm filing apply only to services with public-opinion or mobilisation capacity; no 'licensed intermediary' rule; the CAC publishes filings, not approvals",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "cn-genai",
+              "field": "context",
+              "from": "Requires algorithm registration with the Cyberspace Administration of China before public deployment, security assessment of training data, and content moderation aligned with Chinese law. Foreign-trained models can serve Chinese users only via licensed domestic intermediaries. Enforcement is active — multiple firms have had services suspended — but operates as much through industrial policy as through fines.",
+              "to": "Services with public-opinion attributes or social-mobilisation capacity must undergo a security assessment and file their algorithms with the Cyberspace Administration of China; all providers must use lawfully sourced training data and moderate content in line with Chinese law. Non-compliant services offered from outside China can be blocked. Enforcement is active — multiple firms have had services suspended — but operates as much through industrial policy as through fines."
+            },
+            {
+              "op": "set_cov",
+              "entity": "cn-genai",
+              "cat": "timing",
+              "from": "Pre-deployment security assessment is mandatory for any generative AI service offered to the Chinese public; the Cyberspace Administration of China reviews training data, model behaviour, and content controls before approval.",
+              "to": "Services with public-opinion attributes or social-mobilisation capacity must undergo a security assessment under national rules and complete algorithm filing with the Cyberspace Administration of China (Art. 17); apps built on them must display the filing number."
+            },
+            {
+              "op": "set_cov",
+              "entity": "cn-genai",
+              "cat": "mit",
+              "from": "Content moderation aligned with Chinese law (including political-content rules), training-data security assessment, and labelling of AI-generated outputs are required. Concrete deployment rules with active enforcement — multiple firms have had services suspended.",
+              "to": "Content moderation aligned with Chinese law (including political-content rules), training-data rules (lawful sources, IP, consent, quality), and labelling of AI-generated outputs are required. Concrete deployment rules with active enforcement — multiple firms have had services suspended."
+            },
+            {
+              "op": "set_cov",
+              "entity": "cn-genai",
+              "cat": "acct",
+              "from": "Algorithm registration with the Cyberspace Administration is mandatory before public deployment. The CAC maintains a public registry of approved algorithms; foreign-trained models can serve Chinese users only via licensed domestic intermediaries.",
+              "to": "Services with public-opinion attributes or social-mobilisation capacity must file their algorithms with the Cyberspace Administration (Art. 17); the CAC publishes lists of filed generative AI services. Non-compliant services offered from outside China can be blocked (Art. 20)."
+            }
+          ],
+          "why": "The entry says a security assessment and registration are required for every public generative AI service, and that foreign models need licensed domestic intermediaries. Art. 17 limits both duties to services with public-opinion attributes or social-mobilisation capacity. The Measures contain no intermediary rule. The CAC registry lists filings, not approvals.",
+          "rationale": "Art. 17 sets the scope. Art. 7 covers training-data duties (lawful sources, IP, consent, quality), not a training-data security assessment. Art. 12 requires labelling. Art. 20 provides for blocking non-compliant offshore services. The CAC's announcement publishes 'filed' (已备案) services and requires apps to display the filing number.",
+          "evidence": [
+            {
+              "source": "S-0290",
+              "passage": "S-0290#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0290",
+              "passage": "S-0290#3",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0290",
+              "passage": "S-0290#4",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0290",
+              "passage": "S-0290#5",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0290",
+              "passage": "S-0290#8",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0290",
+              "passage": "S-0290#7",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0290",
+              "passage": "S-0290#9",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0291",
+              "passage": "S-0291#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0291",
+              "passage": "S-0291#2",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "In practice the CAC applies filing broadly to public-facing models, and the TC260 standard used in filing includes training-data security checks. The proposal states the legal text.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:cn-genai:desc": "checked, still accurate",
+            "entry:cn-ai-law:context": "not affected"
+          },
+          "unverified_carryover": [
+            "Enforcement is active — multiple firms have had services suspended — but operates as much through industrial policy as through fines.",
+            "Concrete deployment rules with active enforcement — multiple firms have had services suspended."
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:cn-genai|cn-ai-law",
+            "gap:timing",
+            "gap:mit",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-is-the-difference-between-layer-2-and-layer"
+          ],
+          "hash": "14d0eb043724"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0100",
+      "fingerprint": "56ee0918bbfb",
+      "targets": [
+        "entry:uk-bill:desc",
+        "entry:uk-bill"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:24Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "UK AI Bill: no government bill was ever introduced, the 2026 King's Speech dropped it, and the map links a Conservative peer's private member's bill",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "uk-bill",
+              "field": "desc",
+              "from": "Labour government has signalled binding rules; bill has slipped repeatedly.",
+              "to": "The 2024 King's Speech promised legislation on developers of the most powerful AI models; no government bill was introduced, and the May 2026 King's Speech announced none."
+            },
+            {
+              "op": "set_field",
+              "entity": "uk-bill",
+              "field": "link",
+              "from": "https://bills.parliament.uk/bills/3942",
+              "to": "https://www.gov.uk/government/speeches/the-kings-speech-2024"
+            }
+          ],
+          "why": "Bill 3942 is Lord Holmes's Artificial Intelligence (Regulation) Bill [HL], a Conservative private member's bill. It had only a first reading (4 Mar 2025) and was not carried into the 2026-27 session. The government's own bill was never introduced, and the 13 May 2026 King's Speech does not include it.",
+          "rationale": "The 2024 King's Speech text contains the commitment. The Bills API shows bill 3942's sponsor and its single stage in session 39 only (a carried-over bill shows sessions 39 and 40). A search for 'artificial intelligence' finds no government bill. The 2026 speech and briefing notes mention AI only as sandboxes in a Regulating for Growth Bill.",
+          "evidence": [
+            {
+              "source": "S-0286",
+              "passage": "S-0286#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0282",
+              "passage": "S-0282#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0282",
+              "passage": "S-0282#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0282",
+              "passage": "S-0282#3",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0282",
+              "passage": "S-0282#4",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0283",
+              "passage": "S-0283#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0284",
+              "passage": "S-0284#1",
+              "stance": "supports",
+              "supports": "carried-over bills list both sessions"
+            },
+            {
+              "source": "S-0289",
+              "passage": "S-0289#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0287",
+              "passage": "S-0287#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0287",
+              "passage": "S-0287#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0288",
+              "passage": "S-0288#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0288",
+              "passage": "S-0288#2",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "Ministers may still promise frontier legislation later; nothing official is public.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:uk-bill:context": "needs change — see uk-bill-inclusion",
+            "edge:uk-bill|uk-aisi": "unresolved — no official text proposes a statutory AISI"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:uk-aisi:context",
+            "edge:coe-ai|uk-bill",
+            "edge:uk-bill|uk-aisi",
+            "edge:uk-ofcom|uk-bill",
+            "edge:uk-ico|uk-bill",
+            "gap:sec"
+          ],
+          "hash": "195985bc6c05"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0101",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:24Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Inclusion flag: should 'UK AI Bill' stay on the map as a proposed law?",
+          "kind": "flag",
+          "changes": [],
+          "why": "The entry presents an inactive, textless proposal as a live bill.",
+          "rationale": "See uk-bill-status for the evidence.",
+          "evidence": [
+            {
+              "source": "S-0286",
+              "passage": "S-0286#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0287",
+              "passage": "S-0287#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0288",
+              "passage": "S-0288#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0289",
+              "passage": "S-0289#1",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "Inclusion is the maintainer's call.",
+          "confidence": "medium",
+          "question": "RUBRIC §1 admits proposed laws only as formally introduced bills or announced legislative programmes with a public text or consultation. The UK frontier-AI bill had neither, and the 2026 King's Speech dropped it. Options: (a) keep as 'proposed' but rewrite context and coverage notes as a lapsed commitment; (b) mark status 'revoked' (withdrawn) with a short history; (c) remove the entry and move the history into uk-aisi's context (recommended if the maintainer applies §1 strictly). The context and the thresh/eval/acct notes describe drafts and a statutory AISI that no official document sets out.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0102",
+      "fingerprint": "a3fae3773511",
+      "targets": [
+        "entry:kr-ai:cov:thresh",
+        "entry:kr-ai:context"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:24Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Korea AI Basic Act: the Enforcement Decree adds capability and risk criteria to the 10²⁶ FLOPs threshold",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "kr-ai",
+              "cat": "thresh",
+              "from": "Defines high-performance AI as cumulative compute ≥10²⁶ FLOPs (matching California SB 53 and NY RAISE, higher than the EU AI Act's 10²⁵). High-impact AI is defined separately by use-case rather than compute.",
+              "to": "The Act's safety duties (Art. 32) cover systems above a compute threshold set by decree. The Enforcement Decree (Art. 24, in force Jan 22, 2026) requires cumulative compute ≥10²⁶ FLOPs (matching California SB 53 and NY RAISE, higher than the EU AI Act's 10²⁵) plus state-of-the-art technology and risks with broad, serious effects on life, safety and fundamental rights. High-impact AI is defined separately by use-case rather than compute."
+            },
+            {
+              "op": "set_field",
+              "entity": "kr-ai",
+              "field": "context",
+              "from": "Korea's first horizontal AI law: tiered obligations on high-impact AI and high-performance AI (≥10²⁶ FLOPs), risk management plans, lifecycle reporting to MSIT, mandatory generative-AI labelling, and a state AI Safety Research Institute. Penalty caps are deliberately low — the Act emphasises guidance over deterrence, mirroring Japan's approach and contrasting with the EU's prescriptive route.",
+              "to": "Korea's first horizontal AI law: tiered obligations on high-impact AI and high-performance AI (≥10²⁶ FLOPs plus capability and risk criteria), risk management plans, lifecycle reporting to MSIT, mandatory generative-AI labelling, and a state AI Safety Research Institute. Penalty caps are deliberately low — the Act emphasises guidance over deterrence, mirroring Japan's approach and contrasting with the EU's prescriptive route."
+            }
+          ],
+          "why": "Compute alone does not trigger the duties. The decree's three criteria are cumulative, so fewer models are covered than a pure 10²⁶ test would suggest.",
+          "rationale": "Act Art. 32(1) delegates the compute standard to Presidential Decree. Decree Art. 24(1) requires all of: ≥10^26 FLOPs, most-advanced technology, and broad, serious risk. Decree Addenda Art. 1 sets entry into force on 22 Jan 2026.",
+          "evidence": [
+            {
+              "source": "S-0293",
+              "passage": "S-0293#6",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0294",
+              "passage": "S-0294#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0294",
+              "passage": "S-0294#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0294",
+              "passage": "S-0294#3",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "MSIT's notice on how compute is calculated (Decree Art. 24(2)) was not inspected.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "matching California SB 53 and NY RAISE",
+            "Penalty caps are deliberately low — the Act emphasises guidance over deterrence, mirroring Japan's approach and contrasting with the EU's prescriptive route."
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:aisi-net:desc",
+            "entry:seoul-commit:context",
+            "entry:seoul-commit:cov:halt",
+            "entry:other-aisis:desc",
+            "gap:eval",
+            "gap:timing",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:footer-sources"
+          ],
+          "hash": "c79e8d76e97c"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0103",
+      "fingerprint": "5d5e352a6bb9",
+      "targets": [
+        "entry:kr-ai:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:25Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Korea AI Basic Act · Accountability: oversight sits with MSIT; the AI Safety Research Institute supports rather than oversees",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "kr-ai",
+              "cat": "acct",
+              "from": "Notification duties to MSIT, oversight by the new AI Safety Research Institute, and user complaint mechanisms. Enforcement teeth deliberately weak — penalty caps ~$21k per violation.",
+              "to": "Safety-duty results go to MSIT, which can investigate (including on reports or complaints) and order violations stopped or corrected (Art. 40); the AI Safety Research Institute supports safety work rather than overseeing it. Enforcement teeth deliberately weak — fines capped at ₩30M (~$21k) (Art. 43)."
+            }
+          ],
+          "why": "The note credits the AI Safety Research Institute with oversight. Under the Act the Institute is a research and support body that MSIT 'may operate'. Investigation and corrective orders belong to MSIT.",
+          "rationale": "Art. 12 lists the Institute's tasks: research, standards, international cooperation and support for Art. 32 safety. Art. 32(2) requires results to be submitted to MSIT. Art. 40 gives MSIT investigation (triggered by findings, reports or complaints) and stop or correct orders. Art. 43 caps fines at KRW 30M.",
+          "evidence": [
+            {
+              "source": "S-0293",
+              "passage": "S-0293#4",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0293",
+              "passage": "S-0293#12",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0293",
+              "passage": "S-0293#7",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0293",
+              "passage": "S-0293#9",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0293",
+              "passage": "S-0293#10",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0293",
+              "passage": "S-0293#11",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "Low.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "Enforcement teeth deliberately weak"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:aisi-net:desc",
+            "entry:seoul-commit:context",
+            "entry:seoul-commit:cov:halt",
+            "entry:other-aisis:desc",
+            "gap:eval",
+            "gap:timing",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:footer-sources"
+          ],
+          "hash": "d9b58cda6cc1"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0104",
+      "fingerprint": "e7403548e1f1",
+      "targets": [
+        "entry:jp-ai"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:25Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Japan AI Promotion Act: link the Cabinet Office page instead of a law-firm alert",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "jp-ai",
+              "field": "link",
+              "from": "https://www.whitecase.com/insight-alert/japans-first-ai-legislation-becomes-law-focus-promoting-research-and-development-no",
+              "to": "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html"
+            }
+          ],
+          "why": "The current link is a White & Case client alert. The government page links the official text on e-Gov and gives the promulgation and entry-into-force dates.",
+          "rationale": "The Cabinet Office page states promulgation on 4 Jun 2025 and full entry into force on 1 Sep 2025, and links the e-Gov text.",
+          "evidence": [
+            {
+              "source": "S-0297",
+              "passage": "S-0297#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0296",
+              "passage": "S-0296#1",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "Japanese-language page (it links an English overview).",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:jp-sectors:desc",
+            "edge:hiroshima|jp-ai",
+            "edge:jp-sectors|jp-ai"
+          ],
+          "hash": "d1f463114414"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0105",
+      "fingerprint": "72b0ac7fe1b5",
+      "targets": [
+        "entry:jp-ai:cov:mit"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:25Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Japan AI Promotion Act · Mitigations: the HQ adopted cross-cutting AI guidelines (Dec 2025); sectoral guidance comes from ministries",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "jp-ai",
+              "cat": "mit",
+              "from": "Sectoral guidance issued by the AI Strategic Headquarters under the Cabinet Office, with each sector regulator translating high-level principles into industry-specific expectations. No horizontal deployment rules.",
+              "to": "Non-binding AI guidelines under Art. 13, adopted by the AI Strategic Headquarters in Dec 2025, alongside ministries' own sectoral guidance (e.g. the AI Business Guidelines), with each sector regulator translating high-level principles into industry-specific expectations. No binding deployment rules."
+            }
+          ],
+          "why": "The note says the AI Strategic HQ issues sectoral guidance. What the HQ actually adopted is a single cross-cutting guideline under Art. 13. Sector-specific guidance comes from individual ministries.",
+          "rationale": "Art. 13 requires guidelines consistent with international norms. The Cabinet Office page shows the HQ's decision of 19 Dec 2025 and lists ministry guidelines such as the AI Business Guidelines.",
+          "evidence": [
+            {
+              "source": "S-0296",
+              "passage": "S-0296#3",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0299",
+              "passage": "S-0299#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0299",
+              "passage": "S-0299#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0296",
+              "passage": "S-0296#5",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "The guidelines themselves were not read in full.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "with each sector regulator translating high-level principles into industry-specific expectations"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:jp-sectors:desc",
+            "edge:hiroshima|jp-ai",
+            "edge:jp-sectors|jp-ai"
+          ],
+          "hash": "da3b932bc24e"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0106",
+      "fingerprint": "8dd4943c1347",
+      "targets": [
+        "new:us-frontier-act",
+        "edge:us-frontier-act|ca-sb53",
+        "edge:us-frontier-act|ny-raise",
+        "edge:us-frontier-act|us-preempt"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:35:25Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "New entry: US FRONTIER Act (H.R. 9925), a bipartisan federal frontier-AI bill with state preemption",
+          "kind": "addition",
+          "changes": [
+            {
+              "op": "add_entity",
+              "after": "us-frontier-access-eo",
+              "entity": {
+                "id": "us-frontier-act",
+                "name": "US FRONTIER Act",
+                "layer": 2,
+                "jur": "us",
+                "pow": 2,
+                "status": "proposed",
+                "link": "https://www.govinfo.gov/content/pkg/BILLS-119hr9925ih/html/BILLS-119hr9925ih.htm",
+                "desc": "H.R. 9925, bipartisan House bill introduced Jul 23, 2026 (Obernolte, Trahan). Frontier models >10²⁶ FLOPs: published frameworks, annual third-party audits, 72-hour incident reports, licensed verifiers for the largest developers; up to $1M per violation. Would preempt state frontier-transparency, audit and incident-reporting rules.",
+                "context": "Would create a federal frontier-AI regime under a new Commerce Under Secretary for AI Security. Large frontier developers would have to publish, follow and annually audit a frontier AI framework and publish a transparency report at each deployment. Very large ones would also retain a licensed independent verification organization. The Commerce Secretary could order a halt to development or deployment that presents an imminent catastrophic risk. The preemption clause covers the ground of state laws such as SB 53 and RAISE (frontier risk transparency, third-party auditing, incident reporting) but leaves deployment, child-safety and state-procurement rules to the states. It is a congressional route to the national standard EO 14365 calls for, with binding duties the EO does not create.",
+                "cov": {
+                  "thresh": "Frontier models trained with >10²⁶ FLOPs. Obligations scale with developer size: large (>$50M revenue and ≥$1B AI development spending over 36 months) and very large (>$5B and ≥$10B).",
+                  "eval": "Annual independent compliance audits for large frontier developers. Very large developers retain a licensed independent verification organization for ongoing assessment of their framework, risk monitoring and mitigations, including internal use.",
+                  "timing": "Transparency report before or at deployment of each new or substantially modified frontier model. Critical safety incidents reported within 72 hours (24 hours to law enforcement for imminent risk to life).",
+                  "mit": "Frontier AI frameworks must set risk thresholds, assess each model against them and decide on deployment and internal use; minimum framework requirements are set by regulation.",
+                  "sec": "Frameworks must cover cybersecurity for non-public model weights; weight exfiltration is a reportable critical safety incident.",
+                  "halt": "The Commerce Secretary may issue emergency orders suspending or restricting development, deployment or internal use of a frontier model that presents an imminent catastrophic risk.",
+                  "acct": "Audit reports go to the Under Secretary, the Attorney General and opted-in state attorneys general. Civil penalties up to $1M per violation, enforced by the Attorney General and opted-in state AGs.",
+                  "update": "Frameworks reviewed at least annually, with a justification published within 30 days of any material change; framework regulations reviewed yearly."
+                }
+              }
+            },
+            {
+              "op": "add_edge",
+              "a": "us-frontier-act",
+              "b": "ca-sb53",
+              "rel": "Would preempt state frontier-transparency, audit and incident-reporting duties such as SB 53's"
+            },
+            {
+              "op": "add_edge",
+              "a": "us-frontier-act",
+              "b": "ny-raise",
+              "rel": "Would preempt state frontier-transparency, audit and incident-reporting duties such as RAISE's"
+            },
+            {
+              "op": "add_edge",
+              "a": "us-frontier-act",
+              "b": "us-preempt",
+              "rel": "Legislative route to the preemptive national standard EO 14365 calls for"
+            }
+          ],
+          "why": "This is the first bipartisan federal bill to impose frontier-specific safety duties: frameworks, audits, incident reporting, licensed verifiers and emergency halt orders. It would also preempt the state laws the map tracks (SB 53, RAISE). As a formally introduced bill it qualifies as 'proposed' under RUBRIC §1. It was introduced after the map's June snapshot.",
+          "rationale": "Every element is taken from the introduced text on govinfo: sponsors and date, definitions (§2), framework, audit, transparency and incident duties (§4), licensed verifiers (§5), emergency orders (§8) and preemption (§9).",
+          "evidence": [
+            {
+              "source": "S-0277",
+              "passage": "S-0277#1",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#2",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#3",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#4",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#5",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#6",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#7",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#8",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#9",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#10",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#11",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#12",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#13",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#14",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#15",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#16",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#17",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#18",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#19",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#20",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#21",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#22",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#23",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#24",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#25",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#26",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#27",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0277",
+              "passage": "S-0277#28",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0239",
+              "passage": "S-0239#5",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "Introduced only. The bulk data held no later version as of 2026-10-10, and committee status could not be checked because congress.gov refuses automated clients. Calling it 'a congressional route to the national standard EO 14365 calls for' is analysis, not a stated purpose of the bill.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "SB 53 and RAISE contain transparency, audit or incident-reporting duties (relies on the ca-sb53 and ny-raise entries, not re-checked here)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:context",
+            "entry:eu-aia:cov:thresh",
+            "entry:kr-ai:cov:thresh",
+            "entry:ny-raise:desc",
+            "entry:ny-raise:context",
+            "entry:ny-raise:cov:thresh",
+            "entry:ny-raise:cov:mit",
+            "entry:ny-raise:cov:timing",
+            "entry:ny-raise:cov:update",
+            "entry:seoul-commit:context",
+            "entry:rsp:context",
+            "entry:rsp:cov:thresh",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:metr:cov:thresh",
+            "edge:us-preempt|ca-sb53",
+            "edge:ca-sb53|rsp",
+            "edge:ca-sb53|prep",
+            "edge:ca-sb53|fsf",
+            "edge:ca-sb53|meta-faif",
+            "edge:ny-raise|ca-sb53",
+            "gap:timing",
+            "gap:acct",
+            "gap:update",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:how-is-california-sb-53-different-from-the-ny-ra",
+            "text:footer-sources",
+            "text:gap-default",
+            "entry:co-doi:context",
+            "edge:us-preempt|ny-raise",
+            "edge:co-doi|ny-raise",
+            "edge:ny-raise|rsp",
+            "entry:us-frontier-access-eo:context",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:mit",
+            "edge:us-eo14179|us-preempt",
+            "edge:us-action|us-preempt",
+            "edge:us-preempt|co-aia",
+            "edge:us-ftc|us-preempt",
+            "text:layer-3:tooltip"
+          ],
+          "hash": "6daabe7d9e6e"
         }
       ],
       "decision": {
