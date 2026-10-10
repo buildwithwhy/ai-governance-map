@@ -1,0 +1,546 @@
+{
+  "date": "2026-10-10",
+  "base_commit": "f02b7bbb33b23ed9b2a6956d892994b89711f69b",
+  "proposals": [
+    {
+      "id": "P-0021",
+      "v": 1,
+      "hash": "9e2fdacfc181",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0022",
+      "v": 1,
+      "hash": "273f77107a21",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0023",
+      "v": 1,
+      "hash": "b097362a5c6a",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0024",
+      "v": 1,
+      "hash": "7977adf3c66d",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0025",
+      "v": 1,
+      "hash": "98c6e7464851",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0026",
+      "v": 2,
+      "hash": "4df8cface848",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0027",
+      "v": 1,
+      "hash": "78a81616acbd",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0028",
+      "v": 1,
+      "hash": "2d85b3833933",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0029",
+      "v": 2,
+      "hash": "9c903e73ed8d",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0030",
+      "v": 1,
+      "hash": "05ee601223d9",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0031",
+      "v": 1,
+      "hash": "657d0302f0b6",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0032",
+      "v": 1,
+      "hash": "9454839f9d87",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0033",
+      "v": 1,
+      "hash": "97572f8681e4",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0034",
+      "v": 1,
+      "hash": "76c4d1d07371",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0035",
+      "v": 1,
+      "hash": "f47abdfa0ef3",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0036",
+      "v": 1,
+      "hash": "8056409cfae7",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0037",
+      "v": 1,
+      "hash": "99247eeda875",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0038",
+      "v": 1,
+      "hash": "321c05de044e",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0039",
+      "v": 1,
+      "hash": "3102d059d08f",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0040",
+      "v": 1,
+      "hash": "98f0300559a3",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0041",
+      "v": 1,
+      "hash": "875995b9d69d",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0042",
+      "v": 1,
+      "hash": "801c52150b87",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0044",
+      "v": 1,
+      "hash": "10abf8f58ba8",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0045",
+      "v": 1,
+      "hash": "1a9a4b29376b",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0046",
+      "v": 2,
+      "hash": "9dd4d4694ed1",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0047",
+      "v": 1,
+      "hash": "ff03ce20016e",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0048",
+      "v": 1,
+      "hash": "3287f204aba4",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0049",
+      "v": 1,
+      "hash": "d6428e30ed31",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0050",
+      "v": 1,
+      "hash": "c0b339bc8ddd",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0051",
+      "v": 1,
+      "hash": "d295afc3f287",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0052",
+      "v": 2,
+      "hash": "c3c1856c609b",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0053",
+      "v": 1,
+      "hash": "218b8e503994",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0054",
+      "v": 1,
+      "hash": "c6ae155f8cbc",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0055",
+      "v": 1,
+      "hash": "2ba1127e8f08",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0056",
+      "v": 1,
+      "hash": "277b7a82c5d5",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0057",
+      "v": 1,
+      "hash": "0dd9c49e33f5",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0058",
+      "v": 1,
+      "hash": "586ce0d51cc7",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0059",
+      "v": 1,
+      "hash": "9aaee452fd3c",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0060",
+      "v": 1,
+      "hash": "aacca920f0a7",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0061",
+      "v": 1,
+      "hash": "b015e456c09a",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0062",
+      "v": 2,
+      "hash": "c61a2e1ba936",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0063",
+      "v": 2,
+      "hash": "b3b981c7bfe5",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0064",
+      "v": 2,
+      "hash": "2eb64ac42de3",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0066",
+      "v": 1,
+      "hash": "9322fdc8b110",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0067",
+      "v": 1,
+      "hash": "1f91b5b7f6e0",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0068",
+      "v": 1,
+      "hash": "7f1353879f01",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0069",
+      "v": 1,
+      "hash": "edfec968e17d",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0071",
+      "v": 1,
+      "hash": "65b2c397aac3",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0072",
+      "v": 1,
+      "hash": "b561c3ab763e",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0073",
+      "v": 1,
+      "hash": "fe72e219c70e",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0074",
+      "v": 1,
+      "hash": "ac4586604a08",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0075",
+      "v": 1,
+      "hash": "cd4946bd9666",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0076",
+      "v": 1,
+      "hash": "05220ce3c02f",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0077",
+      "v": 1,
+      "hash": "fcbb7ff547d9",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0078",
+      "v": 1,
+      "hash": "543cf0f9fd2f",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0079",
+      "v": 1,
+      "hash": "b47850e348ec",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0080",
+      "v": 1,
+      "hash": "611d6be567ae",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0081",
+      "v": 1,
+      "hash": "b7e17942c574",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0082",
+      "v": 1,
+      "hash": "37dac8b48154",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0083",
+      "v": 1,
+      "hash": "cb6bb8cd4d7d",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0085",
+      "v": 1,
+      "hash": "3a501bdd3657",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0087",
+      "v": 1,
+      "hash": "f6834f86db5f",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0089",
+      "v": 1,
+      "hash": "aa1358a3a2de",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0090",
+      "v": 1,
+      "hash": "451f1691d03d",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0091",
+      "v": 2,
+      "hash": "2fb93add3707",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0092",
+      "v": 1,
+      "hash": "baf9aefab374",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0093",
+      "v": 1,
+      "hash": "8eab6c2d5541",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0094",
+      "v": 1,
+      "hash": "637628364333",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0095",
+      "v": 1,
+      "hash": "c712ee536fae",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0096",
+      "v": 1,
+      "hash": "1adb65412c0a",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0098",
+      "v": 1,
+      "hash": "2140b1a735ef",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0099",
+      "v": 1,
+      "hash": "14d0eb043724",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0100",
+      "v": 1,
+      "hash": "195985bc6c05",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0102",
+      "v": 1,
+      "hash": "c79e8d76e97c",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0103",
+      "v": 1,
+      "hash": "d9b58cda6cc1",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0104",
+      "v": 1,
+      "hash": "d1f463114414",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0105",
+      "v": 1,
+      "hash": "da3b932bc24e",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0106",
+      "v": 1,
+      "hash": "6daabe7d9e6e",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0107",
+      "v": 1,
+      "hash": "163b36ea9a1c",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0109",
+      "v": 1,
+      "hash": "1588fd0a78f9",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0110",
+      "v": 1,
+      "hash": "9448ef802fa7",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0111",
+      "v": 1,
+      "hash": "7e6efeffbb57",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0112",
+      "v": 1,
+      "hash": "2aaeeca36448",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0113",
+      "v": 1,
+      "hash": "982394064686",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0114",
+      "v": 1,
+      "hash": "5a144464f807",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0115",
+      "v": 1,
+      "hash": "2bf71e87f683",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0116",
+      "v": 1,
+      "hash": "fd07cdbf6d23",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0117",
+      "v": 1,
+      "hash": "c60b8952a553",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0118",
+      "v": 1,
+      "hash": "23deb4138b60",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0119",
+      "v": 1,
+      "hash": "03ed90917840",
+      "evidence_status": "verified"
+    }
+  ]
+}

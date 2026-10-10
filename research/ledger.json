@@ -3166,14 +3166,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "9e2fdacfc181",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:10.639Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -3272,14 +3277,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "273f77107a21",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:14.079Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -3363,14 +3373,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "b097362a5c6a",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:16.713Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -3499,14 +3514,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "7977adf3c66d",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:19.522Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -3605,14 +3625,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "98c6e7464851",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:21.864Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -3870,14 +3895,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 2,
+        "hash": "4df8cface848",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:25.506Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -3975,14 +4005,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "78a81616acbd",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:27.911Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -4063,14 +4098,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "2d85b3833933",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:30.880Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -4079,8 +4119,10 @@
     },
     {
       "id": "P-0029",
-      "fingerprint": "4f53cda18c2b",
-      "targets": [],
+      "fingerprint": "2206bd3dc811",
+      "targets": [
+        "entry:hiroshima"
+      ],
       "resolves_checks": [],
       "versions": [
         {
@@ -4121,17 +4163,77 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T22:06:31Z",
+          "run": null,
+          "author": "user",
+          "title": "Hiroshima Process: pow 2 (government-issued voluntary code), kept in Layer 5",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "hiroshima",
+              "field": "pow",
+              "from": 1,
+              "to": 2
+            }
+          ],
+          "why": "The Hiroshima Code of Conduct is issued by G7 governments as voluntary guidance for organisations, not a cross-firm pledge. RUBRIC §4 puts 'voluntary government codes' at pow 2, and the two EU codes in Layer 5 are pow 2; Hiroshima is pow 1. RUBRIC §2 also puts 'multilateral principles' in Layer 1.",
+          "rationale": "Maintainer chose option (b): consistent with the EU GPAI and AI-generated content codes (RUBRIC §4, voluntary government codes = pow 2).",
+          "evidence": [
+            {
+              "source": "S-0070",
+              "passage": "S-0070#2",
+              "stance": "supports",
+              "supports": "G7-agreed framework"
+            },
+            {
+              "source": "S-0072",
+              "passage": "S-0072#8",
+              "stance": "supports",
+              "supports": "voluntary guidance for organisations"
+            },
+            {
+              "source": "S-0074",
+              "passage": "S-0074#2",
+              "stance": "supports",
+              "supports": "OECD monitors application"
+            }
+          ],
+          "uncertainty": "A classification choice, not a factual error.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:jp-ai:context",
+            "entry:jp-sectors:context",
+            "edge:oecd|hiroshima",
+            "edge:hiroshima|jp-ai",
+            "edge:imda|hiroshima",
+            "edge:jp-sectors|hiroshima",
+            "gap:sec"
+          ],
+          "hash": "9c903e73ed8d"
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 2,
+        "hash": "9c903e73ed8d",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10: 'Go with your recommendation' — option (b): Layer 5, pow 2.",
+        "revisit_after": null,
+        "edited": true
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -4229,14 +4331,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "05ee601223d9",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:36.714Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -4330,14 +4437,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "657d0302f0b6",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:39.781Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -4435,14 +4547,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "9454839f9d87",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:42.896Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -4536,14 +4653,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "97572f8681e4",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:45.573Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -4636,14 +4758,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "76c4d1d07371",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:48.105Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -4750,14 +4877,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "f47abdfa0ef3",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:52.187Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -4818,14 +4950,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "8056409cfae7",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:55.238Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -5222,14 +5359,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "99247eeda875",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:08.346Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -5539,14 +5681,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "321c05de044e",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:13.688Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -5817,14 +5964,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "3102d059d08f",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:18.153Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -5897,14 +6049,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "98f0300559a3",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:20.645Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -6136,14 +6293,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "875995b9d69d",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:26.104Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -6220,14 +6382,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "801c52150b87",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:28.879Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -6293,11 +6460,13 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "deferred",
+        "v": 1,
+        "hash": "4f53cda18c2b",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10: 'Go with your recommendation' — (a) keep noting compliance frameworks in each L6 entry's context; revisit when RAISE applies.",
+        "revisit_after": "2027-01-15",
+        "edited": false
       },
       "decision_log": [],
       "applied": null,
@@ -6377,14 +6546,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "10abf8f58ba8",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T18:56:25.014Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -6496,14 +6670,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "1a9a4b29376b",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T18:56:36.162Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -6512,8 +6691,10 @@
     },
     {
       "id": "P-0046",
-      "fingerprint": "4f53cda18c2b",
-      "targets": [],
+      "fingerprint": "791730c2c2e5",
+      "targets": [
+        "entry:aisi-net"
+      ],
       "resolves_checks": [],
       "versions": [
         {
@@ -6554,17 +6735,84 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T22:06:31Z",
+          "run": null,
+          "author": "user",
+          "title": "AISI Network: label 'NAAIMES (ex-AISI Network)'",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "aisi-net",
+              "field": "name",
+              "from": "AISI Network",
+              "to": "NAAIMES (ex-AISI Network)"
+            }
+          ],
+          "why": "Readers searching for the current name will not find it in the entry label.",
+          "rationale": "Maintainer chose option (c): official name with the familiar label.",
+          "evidence": [
+            {
+              "source": "S-0123",
+              "passage": "S-0123#1",
+              "stance": "supports",
+              "supports": "rename"
+            },
+            {
+              "source": "S-0124",
+              "passage": "S-0124#1",
+              "stance": "supports",
+              "supports": "NAAIMES"
+            },
+            {
+              "source": "S-0128",
+              "passage": "S-0128#1",
+              "stance": "supports",
+              "supports": "Commission uses NAAIMES"
+            }
+          ],
+          "uncertainty": "Labelling choice for the maintainer.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:aisr:cov:eval",
+            "entry:pai:context",
+            "entry:pai:cov:mit",
+            "entry:eu-aio:context",
+            "entry:other-aisis:context",
+            "entry:other-aisis:cov:elicit",
+            "entry:other-aisis:cov:timing",
+            "edge:aisr|aisi-net",
+            "edge:aisi-net|uk-aisi",
+            "edge:aisi-net|caisi",
+            "edge:aisi-net|eu-aio",
+            "edge:aisi-net|other-aisis",
+            "edge:aisi-net|ai-summits",
+            "text:layer-1:tooltip"
+          ],
+          "hash": "9dd4d4694ed1"
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 2,
+        "hash": "9dd4d4694ed1",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10: 'Option c'.",
+        "revisit_after": null,
+        "edited": true
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -6653,14 +6901,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "ff03ce20016e",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T18:57:08.948Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -6745,14 +6998,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "3287f204aba4",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T18:57:18.680Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -6883,14 +7141,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "d6428e30ed31",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T18:57:24.696Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -6959,14 +7222,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "c0b339bc8ddd",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T18:57:58.982Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -7067,14 +7335,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "d295afc3f287",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T18:58:02.906Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -7083,8 +7356,10 @@
     },
     {
       "id": "P-0052",
-      "fingerprint": "4f53cda18c2b",
-      "targets": [],
+      "fingerprint": "ac0f97c68186",
+      "targets": [
+        "entry:coe-ai"
+      ],
       "resolves_checks": [],
       "versions": [
         {
@@ -7125,17 +7400,73 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T22:06:31Z",
+          "run": null,
+          "author": "user",
+          "title": "CoE AI Convention: status 'proposed' until entry into force",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "coe-ai",
+              "field": "status",
+              "from": "phasing",
+              "to": "proposed"
+            }
+          ],
+          "why": "The status badge currently tells readers the treaty is in force.",
+          "rationale": "Maintainer chose option (a): not in force; desc (P-0050) explains it is adopted and awaiting ratification.",
+          "evidence": [
+            {
+              "source": "S-0140",
+              "passage": "S-0140#2",
+              "stance": "supports",
+              "supports": "not yet in force"
+            },
+            {
+              "source": "S-0140",
+              "passage": "S-0140#3",
+              "stance": "supports",
+              "supports": "five consents incl. three CoE member states needed"
+            },
+            {
+              "source": "S-0139",
+              "passage": "S-0139#7",
+              "stance": "supports",
+              "supports": "only the EU is a Party"
+            }
+          ],
+          "uncertainty": "Classification choice; no existing status fits exactly.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:coe-ai|eu-aia",
+            "edge:coe-ai|uk-bill",
+            "gap:update"
+          ],
+          "hash": "c3c1856c609b"
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 2,
+        "hash": "c3c1856c609b",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10: 'Option a'.",
+        "revisit_after": null,
+        "edited": true
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -7197,14 +7528,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "218b8e503994",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:57:34.909Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -7437,14 +7773,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "c6ae155f8cbc",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:57:40.856Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -7568,14 +7909,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "2ba1127e8f08",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:59.100Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -7688,14 +8034,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "277b7a82c5d5",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:00:03.540Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -7808,14 +8159,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "0dd9c49e33f5",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:00:07.058Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -7974,14 +8330,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "586ce0d51cc7",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:00:12.300Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -8078,14 +8439,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "9aaee452fd3c",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:00:15.465Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -8196,14 +8562,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "aacca920f0a7",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:00:18.142Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -8275,14 +8646,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "b015e456c09a",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:00:21.383Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -8291,8 +8667,10 @@
     },
     {
       "id": "P-0062",
-      "fingerprint": "4f53cda18c2b",
-      "targets": [],
+      "fingerprint": "e2e880c39929",
+      "targets": [
+        "entry:co-aia"
+      ],
       "resolves_checks": [],
       "versions": [
         {
@@ -8339,17 +8717,81 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T22:06:31Z",
+          "run": null,
+          "author": "user",
+          "title": "Colorado ADMT Act: pow 4 (AG-enforced civil penalties)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "co-aia",
+              "field": "pow",
+              "from": 3,
+              "to": 4
+            }
+          ],
+          "why": "The FAQ lists Colorado as penalty-bearing while the entry is pow 3 (RUBRIC §4 open item).",
+          "rationale": "Maintainer chose option (a): RUBRIC §4 turns on the availability of penalties against developers or deployers.",
+          "evidence": [
+            {
+              "source": "S-0160",
+              "passage": "S-0160#7",
+              "stance": "supports",
+              "supports": "violation is a deceptive trade practice under the CCPA"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#9",
+              "stance": "supports",
+              "supports": "AG may seek penalties against developers or deployers"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#6",
+              "stance": "supports",
+              "supports": "AG-exclusive enforcement"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#13",
+              "stance": "supports",
+              "supports": "effective 1 Jan 2027"
+            }
+          ],
+          "uncertainty": "The CCPA penalty amounts (CRS 6-1-112) were not retrieved; the session law itself refers to penalties and civil penalties.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:tx-raiga:cov:mit",
+            "edge:us-preempt|co-aia",
+            "edge:co-doi|co-aia",
+            "gap:mit",
+            "faq:which-ai-laws-are-binding-with-penalties"
+          ],
+          "hash": "c61a2e1ba936"
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 2,
+        "hash": "c61a2e1ba936",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10: 'Go with your recommendation' — option (a): pow 4.",
+        "revisit_after": null,
+        "edited": true
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -8358,8 +8800,10 @@
     },
     {
       "id": "P-0063",
-      "fingerprint": "4f53cda18c2b",
-      "targets": [],
+      "fingerprint": "47cc865a5f58",
+      "targets": [
+        "entry:tx-raiga"
+      ],
       "resolves_checks": [],
       "versions": [
         {
@@ -8418,17 +8862,89 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T22:06:31Z",
+          "run": null,
+          "author": "user",
+          "title": "Texas TRAIGA: pow 4 (AG-enforced civil penalties)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "tx-raiga",
+              "field": "pow",
+              "from": 3,
+              "to": 4
+            }
+          ],
+          "why": "The FAQ lists Texas as penalty-bearing while the entry is pow 3 (RUBRIC §4 open item).",
+          "rationale": "Maintainer chose option (a) on the rubric's wording.",
+          "evidence": [
+            {
+              "source": "S-0165",
+              "passage": "S-0165#1",
+              "stance": "supports",
+              "supports": "prohibition reaches developers and deployers"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#5",
+              "stance": "supports",
+              "supports": "civil penalty liability"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#6",
+              "stance": "supports",
+              "supports": "penalty amounts for uncurable violations"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#7",
+              "stance": "supports",
+              "supports": "daily penalties"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#3",
+              "stance": "supports",
+              "supports": "AG enforcement"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#9",
+              "stance": "supports",
+              "supports": "in force 1 Jan 2026"
+            }
+          ],
+          "uncertainty": "Classification judgment.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "faq:which-ai-laws-are-binding-with-penalties"
+          ],
+          "hash": "b3b981c7bfe5"
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 2,
+        "hash": "b3b981c7bfe5",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10: 'Go with your recommendation' — option (a): pow 4.",
+        "revisit_after": null,
+        "edited": true
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -8437,8 +8953,10 @@
     },
     {
       "id": "P-0064",
-      "fingerprint": "4f53cda18c2b",
-      "targets": [],
+      "fingerprint": "361d251bc912",
+      "targets": [
+        "entry:co-aia"
+      ],
       "resolves_checks": [],
       "versions": [
         {
@@ -8479,17 +8997,75 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T22:06:32Z",
+          "run": null,
+          "author": "user",
+          "title": "Colorado entry: keep as contextual; rename 'Colorado ADMT Act'",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "co-aia",
+              "field": "name",
+              "from": "Colorado AI Act",
+              "to": "Colorado ADMT Act"
+            }
+          ],
+          "why": "SCOPE §C asks the baseline audit to raise co-aia as a question.",
+          "rationale": "Maintainer chose option (a): keep as contextual (SCOPE §C unchanged) and use the enacted title the AG uses.",
+          "evidence": [
+            {
+              "source": "S-0159",
+              "passage": "S-0159#1",
+              "stance": "supports",
+              "supports": "repeal and reenactment around ADMT in consequential decisions"
+            },
+            {
+              "source": "S-0164",
+              "passage": "S-0164#1",
+              "stance": "supports",
+              "supports": "AG implementing rules under way"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#15",
+              "stance": "supports",
+              "supports": "no frontier-specific duties"
+            }
+          ],
+          "uncertainty": "Inclusion is a maintainer decision.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:tx-raiga:cov:mit",
+            "edge:us-preempt|co-aia",
+            "edge:co-doi|co-aia",
+            "gap:mit",
+            "faq:which-ai-laws-are-binding-with-penalties"
+          ],
+          "hash": "2eb64ac42de3"
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 2,
+        "hash": "2eb64ac42de3",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10: 'Go with your recommendation' — option (a): keep contextual, rename.",
+        "revisit_after": null,
+        "edited": true
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -8543,11 +9119,13 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "withdrawn",
+        "v": 1,
+        "hash": "4f53cda18c2b",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10: 'Go with your recommendation' — (a) keep tx-raiga as contextual. No change.",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
       "applied": null,
@@ -8771,14 +9349,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "9322fdc8b110",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:00:46.516Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -8944,14 +9527,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "1f91b5b7f6e0",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:00:50.182Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -9048,14 +9636,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "7f1353879f01",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:00:54.016Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -9161,14 +9754,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "edfec968e17d",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:00:57.215Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -9279,11 +9877,13 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "withdrawn",
+        "v": 2,
+        "hash": "4f53cda18c2b",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10: 'Go with your recommendation' — (a) keep 'US CAISI'; the relabel is recorded in desc (P-0069). Revisit if NIST or Commerce formally announce the new name.",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
       "applied": null,
@@ -9401,14 +10001,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "65b2c397aac3",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:04.081Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -9519,14 +10124,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "b561c3ab763e",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:07.466Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -9605,14 +10215,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "fe72e219c70e",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:09.941Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -9692,14 +10307,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "ac4586604a08",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:13.289Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -9850,14 +10470,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "cd4946bd9666",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:17.274Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -9934,14 +10559,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "05220ce3c02f",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:22.936Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -10060,14 +10690,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "fcbb7ff547d9",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:27.634Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -10219,14 +10854,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "543cf0f9fd2f",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:31.369Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -10361,14 +11001,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "b47850e348ec",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:34.702Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -10457,14 +11102,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "611d6be567ae",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:40.918Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -10539,14 +11189,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "b7e17942c574",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:44.036Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -10668,14 +11323,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "37dac8b48154",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:48.336Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -10752,14 +11412,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "cb6bb8cd4d7d",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:50.827Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -10905,14 +11570,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "3a501bdd3657",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:01:57.498Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -11107,14 +11777,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "f6834f86db5f",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:57:46.272Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -11170,11 +11845,13 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "withdrawn",
+        "v": 1,
+        "hash": "4f53cda18c2b",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10: 'Option a' — keep us-eo14179 contextual. No change.",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
       "applied": null,
@@ -11242,14 +11919,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "aa1358a3a2de",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:58:07.797Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -11320,14 +12002,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "451f1691d03d",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:58:14.202Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -11336,8 +12023,10 @@
     },
     {
       "id": "P-0091",
-      "fingerprint": "4f53cda18c2b",
-      "targets": [],
+      "fingerprint": "af4e7f99f403",
+      "targets": [
+        "entry:us-action"
+      ],
       "resolves_checks": [],
       "versions": [
         {
@@ -11370,17 +12059,68 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T22:06:32Z",
+          "run": null,
+          "author": "user",
+          "title": "US AI Action Plan: pow 2 (non-binding policy document)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "us-action",
+              "field": "pow",
+              "from": 3,
+              "to": 2
+            }
+          ],
+          "why": "The enforceability colour and the 'binding mechanisms' counts depend on pow.",
+          "rationale": "Maintainer chose option (a): a White House policy document of recommended actions, not a legally binding instrument.",
+          "evidence": [
+            {
+              "source": "S-0274",
+              "passage": "S-0274#3",
+              "stance": "supports"
+            },
+            {
+              "source": "S-0274",
+              "passage": "S-0274#2",
+              "stance": "supports"
+            }
+          ],
+          "uncertainty": "Classification judgment for the maintainer.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:us-eo14179:context",
+            "entry:us-preempt:context",
+            "edge:us-eo14179|us-action",
+            "edge:us-action|us-preempt",
+            "edge:us-ftc|us-action",
+            "gap:acct"
+          ],
+          "hash": "2fb93add3707"
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 2,
+        "hash": "2fb93add3707",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10: 'Go with your recommendation' — option (a): pow 2.",
+        "revisit_after": null,
+        "edited": true
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -11470,14 +12210,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "baf9aefab374",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:00.566Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -11576,14 +12321,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "8eab6c2d5541",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:07.243Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -11697,14 +12447,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "637628364333",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:10.426Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -11808,14 +12563,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "c712ee536fae",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:13.593Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -11912,14 +12672,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "1adb65412c0a",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:16.509Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -12024,14 +12789,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "2140b1a735ef",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:25.296Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -12158,14 +12928,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "14d0eb043724",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:29.712Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -12290,14 +13065,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "195985bc6c05",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:32.896Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -12447,14 +13227,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "c79e8d76e97c",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:39.246Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -12542,14 +13327,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "d9b58cda6cc1",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:41.588Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -12609,14 +13399,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "d1f463114414",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:45.488Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -12688,14 +13483,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "da3b932bc24e",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:48.259Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -12968,14 +13768,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "6daabe7d9e6e",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:52.842Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -13086,14 +13891,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "163b36ea9a1c",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:02:07.973Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -13155,11 +13965,13 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "withdrawn",
+        "v": 1,
+        "hash": "4f53cda18c2b",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10: 'Go with your recommendation' — (a) keep the map's broader category definitions, stated as adapted from METR (P-0107). No change.",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
       "applied": null,
@@ -13265,14 +14077,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "1588fd0a78f9",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:38.721Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -13354,14 +14171,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "9448ef802fa7",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:41.732Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -13425,14 +14247,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "7e6efeffbb57",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:43.549Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -13526,14 +14353,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "2aaeeca36448",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:45.957Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -13625,14 +14457,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "982394064686",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:48.166Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -13742,14 +14579,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "5a144464f807",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:51.133Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -13819,14 +14661,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "2bf71e87f683",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:53.533Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -13922,14 +14769,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "fd07cdbf6d23",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T21:59:55.600Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -14012,14 +14864,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "c60b8952a553",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:55.982Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -14099,14 +14956,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "23deb4138b60",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:03:58.474Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -14201,14 +15063,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "03ed90917840",
+        "date": "2026-10-10",
+        "note": "Review page response 2026-10-10T22:04:01.708Z: 'Yes, accept'",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-4.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
