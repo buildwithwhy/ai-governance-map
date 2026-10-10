@@ -98,3 +98,18 @@ On a branch from `main`:
 1. `node tools/apply.js --date <YYYY-MM-DD>` applies only accepted, unapplied proposals at their approved version, updates the derived counts and dates, runs `build-llms.js`, and writes a manifest to `research/applied/`.
 2. `node tools/check.js --guard origin/main` must pass. It replays the manifest onto `main` and requires byte-identical published files.
 3. Open the PR. Never merge it yourself; the maintainer merges, and Vercel deploys.
+
+## 7. Weekly run (after the baseline audit)
+
+A weekly run is lighter than the baseline. It does not re-audit every item each week; it keeps every item re-verified on a rolling basis, re-checks anything whose source changed, and searches for new mechanisms. It runs in a fresh cloud session started by a scheduled routine.
+
+1. **Set up.** If the repository is not checked out, attach `buildwithwhy/ai-governance-map` with `add_repo` and clone it. Work on the session's designated branch, based on `origin/main`. If an earlier weekly PR is still open, base the branch on that PR's head instead, so its unmerged research record is not lost. Check §0 preconditions.
+2. **Read responses first.** Read the review page's `responses` collection (§5) and record any answers that match current proposal versions; apply what was accepted (§6).
+3. **Start the run.** `run start <YYYY-MM-DD>-weekly --label "Weekly audit <date>" --partial`.
+4. **Changed sources.** Re-fetch every source used by an item's last successful check (`source fetch`); the tool reports `content changed since last fetch`. Re-verify every item whose source changed.
+5. **Rolling re-verification.** Re-verify the items with the oldest last successful external check, about one eighth of the inventory each week, so that every item is re-verified at least every eight weeks. Items never verified, or verified only internally, go first.
+6. **Discovery.** Search every SCOPE list B cell for mechanisms and significant changes since the previous run (§3).
+7. **Fan out and ingest.** Use one research subagent per layer when the work is large. Subagents write batches (the shape in `tools/ingest.js`) and pre-check them with `ingest FILE --validate`. Claude reviews each batch, then records it with `ingest FILE --run RUN`, one batch at a time. Every quoted passage must appear in the retrieved text; approximate matches are checked by hand before anything relies on them.
+8. **Report and publish.** Write highlights, finish the run, `report <run> --html`, and republish the review page to its stable URL (§4). The content date on the map changes only if accepted edits are applied.
+9. **PR.** Commit the research record (and any applied, accepted edits) and open or update one PR for the week. Never merge it, and do not deploy.
+10. **Tell the maintainer** in the session what changed, what needs a decision, and give the review page link.
