@@ -1,5 +1,5 @@
 {
-  "next": 95,
+  "next": 117,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -185,6 +185,24 @@
           "locator": "Page footer",
           "text": "Last update 7 October 2026",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0003#10",
+          "locator": "Signatories of the code of practice",
+          "text": "Some signatories may not appear immediately, but we are making sure to continuously update the list as signatures are confirmed.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0003#11",
+          "locator": "Signatories of the code of practice",
+          "text": "In addition, xAI signed up to the Safety and Security Chapter",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0003#12",
+          "locator": "Signatories of the code of practice",
+          "text": "[Observation, not a quotation] The signatory list (22 providers, including Amazon, Anthropic, Google, Microsoft and OpenAI) does not include Meta.",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -235,8 +253,8 @@
     },
     "S-0005": {
       "url": "https://www.anthropic.com/responsible-scaling-policy",
-      "title": null,
-      "publisher": null,
+      "title": "Responsible Scaling Policy (version history)",
+      "publisher": "Anthropic",
       "type": "primary",
       "dates": {
         "page_updated": "2026-08-14",
@@ -260,6 +278,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T16:29:15Z",
           "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/responsible-scaling-policy",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "2fce0fcd715d43e0",
+          "bytes": 181873
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:19Z",
+          "run": "2026-10-10-baseline",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -299,16 +329,29 @@
           "locator": "Risk Reports",
           "text": "Redacted Risk Report August 2026 · Redacted Risk Report February 2026",
           "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0005#6",
+          "locator": "Current and Prior Versions",
+          "text": "Version 3.4 and redline (effective July 8, 2026)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0005#7",
+          "locator": "Introduction",
+          "text": "In September 2023, we released the first version of our Responsible Scaling Policy (RSP).",
+          "retrieved": "2026-10-10"
         }
       ]
     },
     "S-0006": {
       "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf",
-      "title": "Anthropic Responsible Scaling Policy v3.4 (PDF)",
+      "title": "Responsible Scaling Policy, Version 3.4",
       "publisher": "Anthropic",
       "type": "primary",
       "dates": {
-        "effective": "2026-07-08"
+        "effective": "2026-07-08",
+        "in_force": "2026-07-08"
       },
       "fetches": [
         {
@@ -323,6 +366,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T16:29:13Z",
           "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf",
+          "content_type": "application/pdf",
+          "sha256": "6247b9e4001fd342",
+          "bytes": 304755
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:18Z",
+          "run": "2026-10-10-baseline",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -445,6 +500,18 @@
           "id": "S-0006#19",
           "locator": "Introduction, first sentence",
           "text": "Our Responsible Scaling Policy (RSP) is our voluntary framework for managing catastrophic risks from advanced AI systems.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#20",
+          "locator": "Cover",
+          "text": "Effective July 8, 2026",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#21",
+          "locator": "§3 Risk Reports, required contents item 3",
+          "text": "capability and alignment evaluations (conducted internally and by external parties as appropriate)",
           "retrieved": "2026-10-10"
         }
       ]
@@ -1346,6 +1413,12 @@
           "locator": "Footnote 3",
           "text": "Thresholds can be defined using model capabilities, estimates of risk, implemented safeguards, deployment contexts and/or other relevant risk factors.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#14",
+          "locator": "Preamble",
+          "text": "demonstrate how they have achieved this by publishing a safety framework focused on severe risks by the upcoming AI Summit in France.",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -1400,6 +1473,12 @@
           "id": "S-0035#3",
           "locator": "Show all updates",
           "text": "7 February 2025 Additional organisations added to the existing list who have agreed to the Frontier AI Safety Commitments.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0035#4",
+          "locator": "Publication metadata",
+          "text": "Published: 21 May 2024",
           "retrieved": "2026-10-10"
         }
       ]
@@ -2452,6 +2531,24 @@
           "locator": "Cover, date",
           "text": "December 18, 2023",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0062#4",
+          "locator": "Cover page",
+          "text": "December 18, 2023",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0062#5",
+          "locator": "Introduction, Establishing safety baselines",
+          "text": "Only models with a post-mitigation score of \"medium\" or below can be deployed.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0062#6",
+          "locator": "Tracked Risk Categories, Persuasion",
+          "text": "Persuasion is focused on risks related to convincing people to change their beliefs",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -2498,7 +2595,8 @@
       "publisher": "Meta",
       "type": "primary",
       "dates": {
-        "published": "2025-02-03"
+        "published": "2025-02-03",
+        "effective": "2026-04-20"
       },
       "fetches": [
         {
@@ -2524,6 +2622,12 @@
         {
           "id": "S-0064#2",
           "locator": "Para 1",
+          "text": "Today, we’re sharing our Frontier AI Framework, which outlines our consideration of risk in our model-release decisions, in line with the commitment we made at last year’s global AI Seoul Summit.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0064#3",
+          "locator": "Takeaways",
           "text": "Today, we’re sharing our Frontier AI Framework, which outlines our consideration of risk in our model-release decisions, in line with the commitment we made at last year’s global AI Seoul Summit.",
           "retrieved": "2026-10-10"
         }
@@ -2554,6 +2658,12 @@
           "id": "S-0065#1",
           "locator": "Intro",
           "text": "from February 6 to 11, 2025, Paris hosted numerous events aimed at strengthening international action towards artificial intelligence serving the general interest.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0065#2",
+          "locator": "Introduction",
+          "text": "from February 6 to 11, 2025, Paris hosted numerous events aimed at strengthening international action towards artificial intelligence",
           "retrieved": "2026-10-10"
         }
       ]
@@ -2592,6 +2702,24 @@
           "locator": "Intro",
           "text": "This is the first draft iteration of xAI’s risk management framework that we expect to apply to future models not currently in development. We plan to release an updated version of this policy within three months.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0066#3",
+          "locator": "Opening paragraph",
+          "text": "This is the first draft iteration of xAI’s risk management framework that we expect to apply to future models not currently in development.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0066#4",
+          "locator": "Opening paragraph",
+          "text": "We plan to release an updated version of this policy within three months.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0066#5",
+          "locator": "PDF metadata",
+          "text": "[Observation, not a quotation] The PDF carries no date in its text; its URL and document title metadata read \"2025.02.20 xAI Risk Management Framework Draft\" (creation date 21 Feb 2025).",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -2622,6 +2750,18 @@
           "id": "S-0067#1",
           "locator": "Header",
           "text": "xAI Risk Management Framework Last updated: August 20, 2025",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0067#2",
+          "locator": "Title",
+          "text": "Last updated: August 20, 2025",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0067#3",
+          "locator": "Loss of control, Thresholds",
+          "text": "Our risk acceptance criteria for system deployment is maintaining a dishonesty rate of less than 1 out of 2 on MASK.",
           "retrieved": "2026-10-10"
         }
       ]
@@ -3705,6 +3845,1391 @@
           "id": "S-0094#2",
           "locator": "Press conference",
           "text": "we will therefore continue working in the various ministerial formats required to finalize certain points, such as the one I just mentioned on AI and digital technology.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0095": {
+      "url": "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf",
+      "title": "Preparedness Framework, Version 2",
+      "publisher": "OpenAI",
+      "type": "primary",
+      "dates": {
+        "published": "2025-04-15"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:24:48Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf",
+          "content_type": "application/pdf",
+          "sha256": "fae6e4cc6f7212a0",
+          "bytes": 170399
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0095#1",
+          "locator": "Title page",
+          "text": "Version 2. Last updated: 15th April, 2025",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#2",
+          "locator": "Appendix A Change log, item 4 (p.14)",
+          "text": "Update the Tracked Categories of frontier capability accordingly, focusing on biological and chemical capability, cybersecurity, and AI self-improvement. Going forward we will handle risks related to persuasion outside the Preparedness Framework",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#3",
+          "locator": "Appendix A Change log, item 2 (p.14)",
+          "text": "we are removing terms “low” and “medium” from the Framework, because those levels were not operationally involved in the execution of our Preparedness work.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#4",
+          "locator": "Appendix A Change log, item 5 (p.14)",
+          "text": "These include Long-range Autonomy, Sandbagging, Autonomous Replication and Adaptation, Undermining Safeguards, and Nuclear and Radiological.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#5",
+          "locator": "§1 Introduction (p.3)",
+          "text": "We do not deploy models that reach a High capability threshold until the associated risks that they pose are sufficiently minimized. If a model under development reaches a Critical capability threshold, we also require safeguards to sufficiently minimize the associated risks during development, irrespective of deployment plans.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#6",
+          "locator": "Table 1, Tracked Categories, Critical rows, safeguard guidelines (pp.5–6)",
+          "text": "Until we have specified … safeguards and security … controls that would meet … a Critical standard, halt … further development",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#7",
+          "locator": "§1 Introduction (p.3)",
+          "text": "OpenAI Leadership can approve or reject these recommendations, and our Board’s Safety and Security Committee provides oversight of these decisions.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#8",
+          "locator": "Appendix B Decision-making practices (p.15)",
+          "text": "The Safety and Security Committee (SSC) of the OpenAI Board of Directors (Board) will be given visibility into processes, and can review decisions and otherwise require reports and information from OpenAI Leadership as necessary to fulfill the Board’s oversight role. Where necessary, the Board may reverse a decision",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#9",
+          "locator": "Appendix B Decision-making practices (p.15)",
+          "text": "Making all final decisions, including accepting any residual risks and making deployment go/no-go decisions, informed by SAG’s recommendations.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#10",
+          "locator": "Appendix B, Updates to the Preparedness Framework (p.15)",
+          "text": "We will review and potentially update the Preparedness Framework for continued sufficiency at least once a year.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#11",
+          "locator": "§3.1 Evaluation approach (p.8)",
+          "text": "Our evaluations are intended to approximate the full capability that the adversary contemplated by our threat model could extract from the deployment candidate model, including by using the highest-capability tier of system settings, using a version of the model that has a negligible rate of safety-based refusals",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#12",
+          "locator": "§3.1 Evaluation approach (p.8)",
+          "text": "and with the best presently-available scaffolds.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#13",
+          "locator": "§3.1 Evaluation approach (p.8)",
+          "text": "doing finetuning if the weights will be released",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#14",
+          "locator": "§3.1 Evaluation approach (p.8)",
+          "text": "we regard any one-time capability elicitation in a frontier model as a lower bound, rather than a ceiling, on capabilities that may emerge in real world use and misuse.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#15",
+          "locator": "§3.1 Evaluation approach (p.8)",
+          "text": "Scalable Evaluations: automated evaluations designed to measure proxies that approximate whether a capability threshold has been crossed.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#16",
+          "locator": "§3.1 Evaluation approach (p.8)",
+          "text": "Deep Dives: designed to provide additional evidence validating the scalable evaluations’ findings on whether a capability threshold has been crossed.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#17",
+          "locator": "§3.3 Capability threshold determinations (p.9)",
+          "text": "Prior to deployment, every covered model undergoes the suite of Scalable Evaluations.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#18",
+          "locator": "§3.2 Testing scope (p.9)",
+          "text": "any significant change in the deployment conditions of an existing model (e.g., enabling finetuning, releasing weights, or significant new features) that makes the existing Capabilities Report or Safeguards Report no longer reasonably applicable",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#19",
+          "locator": "§4.1 Safeguard selection (p.10)",
+          "text": "We consider separate safeguards for two of the main ways in which risks can be realized: a malicious user, who can leverage the model to cause the severe harm, and a misaligned model, which autonomously causes the harm.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#20",
+          "locator": "§4.2 Safeguard sufficiency (p.10)",
+          "text": "We compile the information on the planned safeguards needed to minimize the risk of severe harm into a Safeguards Report.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#21",
+          "locator": "§4.3 Marginal risk (p.12)",
+          "text": "If we are able to rigorously confirm that such a scenario has occurred, then we could adjust accordingly the level of safeguards that we require in that capability area, but only if:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#22",
+          "locator": "§4.3 Marginal risk (p.12)",
+          "text": "we publicly acknowledge that we are making the adjustment",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#23",
+          "locator": "Appendix C.3 Security controls (p.20)",
+          "text": "We will require the following practices for High capability models:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#24",
+          "locator": "§4.4 (p.12)",
+          "text": "We do not currently possess any models that have Critical levels of capability, and we expect to further update this Preparedness Framework before reaching such a level with any model.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#25",
+          "locator": "§5.2 Transparency and external participation (p.12)",
+          "text": "We will release information about our Preparedness Framework results in order to facilitate public awareness of the state of frontier AI capabilities for major deployments.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#26",
+          "locator": "Appendix A Change log (pp.14–15)",
+          "text": "[Observation, not a quotation] Searched the twelve-item v2 change log and Table 1 for any lowering or tightening of the biological threshold: none is described. The change log records that persuasion left the framework and nuclear/radiological became a Research Category; it says nothing about bio thresholds being lowered after CBRN findings.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0096": {
+      "url": "https://openai.com/index/updating-our-preparedness-framework/",
+      "title": "Our updated Preparedness Framework",
+      "publisher": "OpenAI",
+      "type": "primary",
+      "dates": {
+        "published": "2025-04-15"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:24:51Z",
+          "run": "2026-10-10-baseline",
+          "via": "headless Chromium (openai.com returns a Cloudflare 403 to curl); rendered DOM saved",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "05a8a7fd70f6b652",
+          "bytes": 353336
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0096#1",
+          "locator": "Clarified capability levels",
+          "text": "We’ve streamlined levels to two clear thresholds that map to specific operational commitments: High capability, which could amplify existing pathways to severe harm, and Critical capability, which could introduce unprecedented new pathways to severe harm.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0096#2",
+          "locator": "Sharper capability categories",
+          "text": "Persuasion risks will be handled outside the Preparedness Framework, including via our Model Spec",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0097": {
+      "url": "https://openai.com/index/path-to-astra/",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "publisher": "OpenAI",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:24:52Z",
+          "run": "2026-10-10-baseline",
+          "via": "headless Chromium (openai.com returns a Cloudflare 403 to curl); rendered DOM saved",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "6acc093f7ae4631f",
+          "bytes": 529228
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0097#1",
+          "locator": "Opening paragraph",
+          "text": "We now believe Astra meets the Critical cybersecurity capability threshold under our Preparedness Framework",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0097#2",
+          "locator": "Opening paragraph",
+          "text": "It is the first model we are designating at this level, and requires stronger safeguards during development and before release.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0097#3",
+          "locator": "Safeguards required for critical capabilities",
+          "text": "we paused certain frontier training (including certain training for Astra) for two weeks after the OpenAI-Hugging Face incident in order to harden our training infrastructure",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0097#4",
+          "locator": "Whole page",
+          "text": "[Observation, not a quotation] Both links labelled \"Preparedness Framework\" on this 1 Sep 2026 post point to the April 2025 v2 announcement (openai.com/index/updating-our-preparedness-framework/); the post names no newer version.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0098": {
+      "url": "https://deploymentsafety.openai.com/gpt-6-astra/gpt-6-astra.pdf",
+      "title": "GPT-6 Astra System Card",
+      "publisher": "OpenAI",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-03"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:24:52Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://deploymentsafety.openai.com/gpt-6-astra/gpt-6-astra.pdf",
+          "content_type": "application/pdf",
+          "sha256": "77ff1e8aaf7018c7",
+          "bytes": 15779035
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0098#1",
+          "locator": "§1 Safety Overview",
+          "text": "Astra is our first model to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0098#2",
+          "locator": "§8.8 External Evaluations for Alignment – UK AISI",
+          "text": "UK AISI developed a new Out of Scope Supply Chain Attack evaluation",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0098#3",
+          "locator": "§8.8.1 External Evaluations for Alignment - Apollo Research",
+          "text": "Apollo Research evaluated a near-final, representative version of Astra for propensities related to strategic deception and sabotage",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0098#4",
+          "locator": "§10.1 Capabilities Assessment",
+          "text": "For the evaluations below, we tested a variety of elicitation methods, including scaffolding and prompting where relevant.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0098#5",
+          "locator": "Safeguards Report summary",
+          "text": "The internal report informed our Safety Advisory Group’s recommendation",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0099": {
+      "url": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf",
+      "title": "GPT-5.6 System Card",
+      "publisher": "OpenAI",
+      "type": "primary",
+      "dates": {
+        "published": "2026-07-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:24:54Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf",
+          "content_type": "application/pdf",
+          "sha256": "aa8073bcfa154491",
+          "bytes": 4430565
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0099#1",
+          "locator": "§9.1.3.6 External Evaluations for AI Self Improvement – METR",
+          "text": "METR evaluated GPT-5.6 Sol on its Time Horizon 1.1 software-task suite",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0100": {
+      "url": "https://cdn.openai.com/pdf/e37d949b-8c9f-4d76-b99e-4272f4631a7e/openai-frontier-governance-framework.pdf",
+      "title": "Frontier Governance Framework",
+      "publisher": "OpenAI",
+      "type": "primary",
+      "dates": {
+        "published": "2026-05-28"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:24:55Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cdn.openai.com/pdf/e37d949b-8c9f-4d76-b99e-4272f4631a7e/openai-frontier-governance-framework.pdf",
+          "content_type": "application/pdf",
+          "sha256": "33e4e118b24d5678",
+          "bytes": 6136955
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0100#1",
+          "locator": "§1 Introduction (p.1)",
+          "text": "Under California’s Transparency in Frontier AI Act (TFAIA), this FGF is our Frontier AI Framework",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0100#2",
+          "locator": "§1 Introduction (p.1)",
+          "text": "Under the European Union’s General-Purpose AI Code of Practice (the EU CoP), this FGF serves as our publicly available summary of OpenAI’s Safety & Security Framework",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0100#3",
+          "locator": "§1 Introduction (p.2)",
+          "text": "The FGF overlaps in some areas with our existing Preparedness Framework (PF).",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0100#4",
+          "locator": "§2.6 External reporting (p.13)",
+          "text": "If an incident is determined to be reportable, we will gather relevant information from the investigation and remediation phase for reporting to appropriate authorities within the required deadlines.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0101": {
+      "url": "https://openai.com/index/openai-frontier-governance-framework/",
+      "title": "OpenAI’s Frontier Governance Framework",
+      "publisher": "OpenAI",
+      "type": "primary",
+      "dates": {
+        "published": "2026-05-28"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:24:57Z",
+          "run": "2026-10-10-baseline",
+          "via": "headless Chromium (openai.com returns a Cloudflare 403 to curl); rendered DOM saved",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "6702279dd5b54011",
+          "bytes": 383857
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0101#1",
+          "locator": "Body",
+          "text": "Today we’re publishing OpenAI’s Frontier Governance Framework which explains how our safety and security practices align with emerging legal requirements",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0101#2",
+          "locator": "Body",
+          "text": "The Preparedness Framework remains the foundation for how we define and operationalize our approach to managing the most serious risks from advanced AI systems",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0102": {
+      "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/strengthening-our-frontier-safety-framework/frontier-safety-framework_3-1.pdf",
+      "title": "Frontier Safety Framework, Version 3.1",
+      "publisher": "Google DeepMind",
+      "type": "primary",
+      "dates": {
+        "published": "2026-04-17"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:24:57Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/strengthening-our-frontier-safety-framework/frontier-safety-framework_3-1.pdf",
+          "content_type": "application/pdf",
+          "sha256": "ad10d2d240e0d557",
+          "bytes": 447155
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0102#1",
+          "locator": "Cover",
+          "text": "Published: April 17, 2026",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#2",
+          "locator": "§5.3 Past Updates and Changes",
+          "text": "Version 3.0 (September 22, 2025) … Version 2.0 (February 4, 2025) … Version 1.0 (May 17, 2024)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#3",
+          "locator": "§1.3.1 Risk Identification",
+          "text": "we have identified risk domains where, based on early research, we have determined significant or severe risks may be most likely to arise from future models: CBRN, cyber, harmful manipulation, as well as machine learning R&D and misalignment.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#4",
+          "locator": "§1.2 Critical Capability Levels and Tracked Capability Levels",
+          "text": "TCLs are meant to capture significant risks that may manifest at a lower capability threshold than our CCLs",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#5",
+          "locator": "§1.2",
+          "text": "We identify TCLs for CBRN risk, as well as ML R&D and misalignment risks.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#6",
+          "locator": "§3.2.1 Stealth and Situational Awareness Tracked Capability Level",
+          "text": "Stealth and Situational Awareness TCL: The instrumental reasoning abilities of the model enable enough situational awareness",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#7",
+          "locator": "§5.3, Version 3.1 changes",
+          "text": "Incorporated the previous exploratory Misalignment risk domain into a combined ML R&D and Misalignment risk domain",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#8",
+          "locator": "§5.3, Version 3.1 changes",
+          "text": "Outlined enhanced level of security for CBRN, Cyber and Harmful Manipulation CCLs to Security Level 2+ to protect against non-state actors and insider threats.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#9",
+          "locator": "Table 3.2.2.a ML R&D CCLs and Security Mitigations",
+          "text": "ML R&D acceleration level 1: Security level [3]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#10",
+          "locator": "Table 3.2.2.a ML R&D CCLs and Security Mitigations",
+          "text": "We recommend Security level [4] for this capability threshold, but emphasize that this must be taken on by the frontier AI field as a whole.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#11",
+          "locator": "§2.1.1 Security Mitigations",
+          "text": "We use security levels to indicate security goals/principles in line with the corresponding level in the RAND model weight security framework.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#12",
+          "locator": "§2.2 Misuse Capability Levels",
+          "text": "which reflects our assessment of the minimum appropriate level of security the field of frontier AI should apply to models reaching each CCL",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#13",
+          "locator": "§1.3.2 Inherent Risk Assessment",
+          "text": "We conduct a critical capability assessment prior to the first external deployment",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#14",
+          "locator": "§1.3.2 Inherent Risk Assessment",
+          "text": "we conduct material capability change assessments on various checkpoints upon the completion of a post-training run.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#15",
+          "locator": "§1.3.2 Inherent Risk Assessment",
+          "text": "For CCLs, we define “alert thresholds,” which may draw on evaluation results, expert assessments, and other sources of information; that are designed to flag when a CCL may be reached before a critical capability assessment is conducted again.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#16",
+          "locator": "§1.3.2 Inherent Risk Assessment",
+          "text": "In our evaluations, we seek to apply appropriate scaffolding, inference compute, and other augmentations to also assess the capabilities of systems that will likely be produced with the model",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#17",
+          "locator": "§2.1.2 Deployment Mitigations, step 2",
+          "text": "external deployments of a model take place only after the appropriate governance function determines the residual risk to be acceptable (including a safety case where a CCL has been reached).",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#18",
+          "locator": "§3.1.2 Deployment Mitigations, step 2",
+          "text": "external deployments and high-risk internal deployments of a model take place only after the appropriate governance function determines the residual risk to be acceptable",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#19",
+          "locator": "§1.3.5 Risk Acceptance Determination (misuse T/CCL)",
+          "text": "This is required only for external deployment, not internal deployment or further development.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#20",
+          "locator": "Full text of v3.1",
+          "text": "[Observation, not a quotation] Searched the full v3.1 text for \"halt\", \"pause\", \"on hold\" and \"stop\": none occurs. Its gates are written as conditions on external and high-risk internal deployment (§§1.3.5, 2.1.2, 3.1.2).",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#21",
+          "locator": "§2.1.2 Deployment Mitigations, step 1a",
+          "text": "which may include measures such as safety post-training, monitoring and analysis, account moderation, jailbreak detection and patching, user verification, and bug bounties",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#22",
+          "locator": "§3.1.2 Deployment Mitigations, step 1a",
+          "text": "which may include measures such as limiting affordances, monitoring and escalation, auditing, and alignment training",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#23",
+          "locator": "§5.1 Updates",
+          "text": "The Frontier Safety Framework will be reviewed at least once a year",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#24",
+          "locator": "§4.1 Governance structure",
+          "text": "This includes legal, compliance, and safety reviews with escalation procedures to ensure appropriate oversight.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#25",
+          "locator": "§5.2 Disclosures",
+          "text": "If we assess that a model has reached a CCL that poses an unmitigated and material risk to overall public safety, we aim to share relevant information with appropriate government authorities",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0103": {
+      "url": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/",
+      "title": "Strengthening our Frontier Safety Framework",
+      "publisher": "Google DeepMind",
+      "type": "primary",
+      "dates": {
+        "published": "2025-09-22",
+        "effective": "2026-04-17"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:00Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/",
+          "content_type": "text/html",
+          "sha256": "82f185c596dfecbb",
+          "bytes": 144958
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0103#1",
+          "locator": "Body",
+          "text": "Today, we’re publishing the third iteration of our Frontier Safety Framework (FSF)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0103#2",
+          "locator": "Addressing the risks of harmful manipulation",
+          "text": "With this update, we’re introducing a Critical Capability Level (CCL)* focused on harmful manipulation",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0103#3",
+          "locator": "FSF 3.1: Introducing tracked capability levels",
+          "text": "As of April 17, 2026, we are adding Tracked Capability Levels (TCLs) in certain domains to our Frontier Safety Framework",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0104": {
+      "url": "https://deepmind.google/blog/updating-the-frontier-safety-framework/",
+      "title": "Updating the Frontier Safety Framework",
+      "publisher": "Google DeepMind",
+      "type": "primary",
+      "dates": {
+        "published": "2025-02-04"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:00Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://deepmind.google/blog/updating-the-frontier-safety-framework/",
+          "content_type": "text/html",
+          "sha256": "54734c1555907e9b",
+          "bytes": 143473
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0104#1",
+          "locator": "Byline",
+          "text": "February 4, 2025",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0104#2",
+          "locator": "Key updates",
+          "text": "Outlining an industry leading approach to deceptive alignment risk",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0104#3",
+          "locator": "Approach to Deceptive Alignment Risk",
+          "text": "An initial approach to this question focuses on detecting when models might develop a baseline instrumental reasoning ability letting them undermine human control unless safeguards are in place.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0104#4",
+          "locator": "Conclusion",
+          "text": "The Seoul Frontier AI Safety Commitments marked an important step towards this collective effort",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0104#5",
+          "locator": "Whole post",
+          "text": "[Observation, not a quotation] The February 2025 post introducing the deceptive-alignment approach does not mention Apollo Research or attribute the change to any external findings.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0105": {
+      "url": "https://deepmind.google/blog/introducing-the-frontier-safety-framework/",
+      "title": "Introducing the Frontier Safety Framework",
+      "publisher": "Google DeepMind",
+      "type": "primary",
+      "dates": {
+        "published": "2024-05-17"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:01Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://deepmind.google/blog/introducing-the-frontier-safety-framework/",
+          "content_type": "text/html",
+          "sha256": "a7d8a87115148057",
+          "bytes": 143294
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0105#1",
+          "locator": "Byline",
+          "text": "May 17, 2024",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0105#2",
+          "locator": "Body",
+          "text": "Today, we are introducing our Frontier Safety Framework",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0105#3",
+          "locator": "Risk domains and mitigation levels",
+          "text": "Our initial set of Critical Capability Levels is based on investigation of four domains: autonomy, biosecurity, cybersecurity, and machine learning research and development (R&D).",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0106": {
+      "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-7_flash_fsf_report.pdf",
+      "title": "Gemini 3.7 Flash Frontier Safety Framework Report",
+      "publisher": "Google DeepMind",
+      "type": "primary",
+      "dates": {
+        "published": "2026-08"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:02Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-7_flash_fsf_report.pdf",
+          "content_type": "application/pdf",
+          "sha256": "f0eec853b7371aac",
+          "bytes": 1782007
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0106#1",
+          "locator": "p.1",
+          "text": "We released our Frontier Safety Framework (FSF) (v1) in May 2024 and updated it in February 2025 (v2), September 2025 (v3) and April 2026 (v3.1).",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0106#2",
+          "locator": "External Safety Testing",
+          "text": "We work with a set of specialist independent groups to help assess and identify areas for improvement in our model safety",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0106#3",
+          "locator": "ML R&D and misalignment threat models",
+          "text": "external advisors from the UK AI Security Institute (UK AISI) and Redwood Research",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0106#4",
+          "locator": "Elicitation",
+          "text": "For domains requiring complex, agentic action, such as cyber, misalignment and ML R&D, we equip the model with state-of-the-art scaffolding and affordances",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0107": {
+      "url": "https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2/",
+      "title": "Advanced AI Scaling Framework, Version 2",
+      "publisher": "Meta",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-04-07"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:03Z",
+          "run": "2026-10-10-baseline",
+          "via": "headless Chromium download (ai.meta.com returns HTTP 400 to curl)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "d87aa9bf00456ec7",
+          "bytes": 668289
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0107#1",
+          "locator": "§1.1 Scope",
+          "text": "This is the second iteration of our Advanced AI Scaling Framework (previously titled the Frontier AI Framework). We will review it at least annually",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#2",
+          "locator": "Introduction",
+          "text": "The Framework currently focuses on catastrophic risks in three areas: Chemical & Biological, Cybersecurity, and Loss of Control.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#3",
+          "locator": "Appendix II Change log",
+          "text": "February 3, 2025 (Frontier AI Framework)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#4",
+          "locator": "Appendix II Change log",
+          "text": "April 7, 2026 (Advanced AI Scaling Framework v2.0)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#5",
+          "locator": "Appendix II Change log, April 7, 2026",
+          "text": "Critical threshold changed from \"Stop\" to \"Develop with Mitigations.\" High threshold measure changed from \"Do not release\" to \"Deploy with mitigations.\"",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#6",
+          "locator": "Appendix II Change log, April 7, 2026",
+          "text": "All thresholds now permit proceeding with sufficient mitigations validated to reduce risk to moderate or lower",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#7",
+          "locator": "Appendix II Change log, April 7, 2026",
+          "text": "Added Loss of Control as a risk domain",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#8",
+          "locator": "§3.3 Risk Thresholds",
+          "text": "Should either scenario arise, we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#9",
+          "locator": "§3.3 Risk Thresholds",
+          "text": "Frontier AI that meets the high or critical risk threshold requires additional mitigations before deployment or before additional development respectively.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#10",
+          "locator": "§2.2 Transparency (preparedness reports)",
+          "text": "We report risk assessments for the model in plausible deployment contexts (critical, high, or moderate or lower)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#11",
+          "locator": "§1.1 Scope",
+          "text": "We define our thresholds based on the extent to which Frontier AI would substantially contribute to the execution of any of the threat scenarios we have identified as being potentially sufficient to produce a catastrophic outcome.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#12",
+          "locator": "§2.3 Accountability",
+          "text": "Meta’s Chief AI Officer oversees the design, implementation, and operation of the entire evaluation and mitigation process.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#13",
+          "locator": "§2.3 Accountability",
+          "text": "with model deployment following appropriate consultation with relevant teams and with the approval of the Chief AI Officer",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#14",
+          "locator": "§2.3 Accountability",
+          "text": "Meta’s Board of Directors provides oversight of the company’s product and regulatory compliance",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#15",
+          "locator": "§2.3.1 Reporting",
+          "text": "Meta maintains a comprehensive whistleblower and complaint policy",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#16",
+          "locator": "§2.2 Transparency",
+          "text": "We will publish a preparedness report for each closed or open Frontier AI release",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#17",
+          "locator": "§2.2 Transparency",
+          "text": "Preparedness reports will describe evaluation results in line with best practices as well as evaluation methodology, including details about elicitation, time and resources spent, and access given to internal and external evaluators.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#18",
+          "locator": "§2.2 Transparency",
+          "text": "We conduct risk assessments and assign risk thresholds with maximum elicitation in mind, capturing the upper bound of risk by evaluating the model as part of a system with scaffolding and tooling available for the proposed deployment scenario.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#19",
+          "locator": "§2.2 Transparency, report triggers",
+          "text": "Release of new Frontier AI that has been pre-trained from scratch.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#20",
+          "locator": "§2.2 Transparency, report triggers",
+          "text": "Release of one of our existing released models with significant changes that materially increase capabilities in preparedness-relevant domains.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#21",
+          "locator": "§2.2 Transparency",
+          "text": "Prior to controlled deployments",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#22",
+          "locator": "§2.1.1 Anticipate",
+          "text": "Host workshops with experts, including external subject matter experts where relevant, to identify new catastrophic outcomes and/or threat scenarios.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#23",
+          "locator": "§3.3 Risk Thresholds",
+          "text": "the security measures required to prevent unauthorized access or misuse, including strictly scoping down access to model weights, are functionally incompatible with continued active development",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0108": {
+      "url": "https://media.x.ai/v1/website/xai-frontier-artificial-intelligence-framework-30-june-2026-99c40684.pdf",
+      "title": "xAI Frontier Artificial Intelligence Framework (effective 30 June 2026)",
+      "publisher": "xAI",
+      "type": "primary",
+      "dates": {
+        "effective": "2026-06-30"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:06Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://media.x.ai/v1/website/xai-frontier-artificial-intelligence-framework-30-june-2026-99c40684.pdf",
+          "content_type": "application/pdf",
+          "sha256": "2c3c6313bd2fb6ee",
+          "bytes": 203142
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0108#1",
+          "locator": "Title",
+          "text": "Effective Date: 30 June 2026",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#2",
+          "locator": "§2.1 Risk Identification",
+          "text": "Early analysis[2] has established four primary risk domains where significant or severe outcomes are most likely to emerge in current and future systems: CBRN Risks, Offensive Cybersecurity Risks, Loss of Control Risks and Harmful Manipulation Risks.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#3",
+          "locator": "§2.1, footnote 2",
+          "text": "Following the Safety and Security Chapter of the General-Purpose AI Code of Practice developed under the EU AI",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#4",
+          "locator": "§2 Risk Management Framework",
+          "text": "xAI applies its risk management process, as appropriate, throughout the entire model lifecycle",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#5",
+          "locator": "§2 Risk Management Framework",
+          "text": "xAI will conduct a full systemic risk assessment and mitigation process of our frontier models at least once a year.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#6",
+          "locator": "§2 Risk Management Framework",
+          "text": "These trigger points may include (1) the release of an updated model, (2) in the event of a serious incident",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#7",
+          "locator": "§2.3 Systemic risk acceptance determination",
+          "text": "In assessing whether to accept residual risk, we review the risk tiers for each systemic risk category and incorporate appropriate safety margins.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#8",
+          "locator": "§2.3 Systemic risk acceptance determination",
+          "text": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#9",
+          "locator": "§3 Incident reporting",
+          "text": "If we determine that allowing a system to continue running would materially and unjustifiably increase the likelihood of a risk, we may temporarily fully shut down the relevant system until we have developed a more targeted response.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#10",
+          "locator": "§2.1(c)",
+          "text": "xAI utilizes a set of benchmarks to evaluate its models for cyber capabilities, cyber refusals and detection of malicious intent.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#11",
+          "locator": "§2.2 Systemic risk analysis",
+          "text": "which may include Q&A sets, task-based evaluations, benchmarks, red-teaming and other methods of adversarial testing, human uplift studies",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#12",
+          "locator": "§2.4 Security mitigations",
+          "text": "xAI will maintain a documented Security Goal that identifies the threat actors against which mitigations are designed to protect against",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#13",
+          "locator": "§2.3 Safety mitigations",
+          "text": "Thus, xAI may change its approach from that listed above in order to make additional improvements.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#14",
+          "locator": "§1 Introduction",
+          "text": "We will review this Framework periodically, and expect significant changes as the capabilities of our models expand.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#15",
+          "locator": "§4 Governance",
+          "text": "xAI’s internal governance practices include managing risks across the lifecycle of our models and ongoing legal and compliance reviews to ensure that risk management functions adhere to this FAIF.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#16",
+          "locator": "Full text",
+          "text": "[Observation, not a quotation] Searched the June 2026 edition for numeric acceptance criteria (\"1 out of\", percentages, MASK, answer rate): none appears. It also has no change log and does not mention California or the TFAIA.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0109": {
+      "url": "https://data.x.ai/2025-12-31-xai-frontier-artificial-intelligence-framework.pdf",
+      "title": "xAI Frontier Artificial Intelligence Framework (Dec 2025)",
+      "publisher": "xAI",
+      "type": "primary",
+      "dates": {
+        "published": "2025-12-30"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:07Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://data.x.ai/2025-12-31-xai-frontier-artificial-intelligence-framework.pdf",
+          "content_type": "application/pdf",
+          "sha256": "aa01669c19fca50c",
+          "bytes": 251686
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0109#1",
+          "locator": "Title",
+          "text": "Last updated: December 30, 2025",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0109#2",
+          "locator": "Introduction",
+          "text": "This FAIF complies with California's Transparency in Frontier Artificial Intelligence Act",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0109#3",
+          "locator": "Malicious use, Thresholds",
+          "text": "Our risk acceptance criteria for system deployment is maintaining an answer rate of less than 1 out of 20 on restricted queries.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0110": {
+      "url": "https://x.ai/safety",
+      "title": "Safety at SpaceXAI",
+      "publisher": "xAI (SpaceXAI LLC)",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:08Z",
+          "run": "2026-10-10-baseline",
+          "via": "headless Chromium (x.ai returns a Cloudflare 403 to curl)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "c70daa74037a3fd7",
+          "bytes": 349133
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0110#1",
+          "locator": "Transparency",
+          "text": "We publish model cards, safety evaluations, and our Frontier AI Framework to keep the community informed.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0110#2",
+          "locator": "Frontier AI Framework button",
+          "text": "[Observation, not a quotation] The page’s \"Frontier AI Framework\" link points to the 30 June 2026 edition (media.x.ai/…/xai-frontier-artificial-intelligence-framework-30-june-2026-99c40684.pdf).",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0111": {
+      "url": "https://www.justice.gov/opa/pr/justice-department-intervenes-xai-lawsuit-challenging-colorados-algorithmic-discrimination",
+      "title": "Justice Department Intervenes in xAI lawsuit Challenging Colorado’s ‘Algorithmic Discrimination’ Law",
+      "publisher": "U.S. Department of Justice",
+      "type": "primary",
+      "dates": {
+        "published": "2026-04-24"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:08Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.justice.gov/opa/pr/justice-department-intervenes-xai-lawsuit-challenging-colorados-algorithmic-discrimination",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "890416a5e8c1b8e9",
+          "bytes": 91152
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0111#1",
+          "locator": "Press release body",
+          "text": "AI company xAI filed a lawsuit challenging the statute on April 9.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0111#2",
+          "locator": "Press release body",
+          "text": "The statute, Colorado SB24-205, requires AI “developers” and “deployers” to satisfy certain disclosure, reporting, and prevention requirements",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0112": {
+      "url": "https://www.anthropic.com/claude-opus-5-5-system-card",
+      "title": "Claude Opus 5.5 System Card",
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:08Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+          "content_type": "application/pdf",
+          "sha256": "7311c9c6bbb16d01",
+          "bytes": 17795106
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0112#1",
+          "locator": "§2.3.6 External testing",
+          "text": "We conducted pre-deployment testing of Claude Opus 5.5’s capabilities with METR, focusing on capabilities relevant to the automation of AI R&D.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0112#2",
+          "locator": "§2.1.1 Risk Reports and updates to our risk assessments",
+          "text": "Throughout this process, we draw on evidence from automated evaluations, uplift trials, third-party expert red teaming, and third-party assessments.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0112#3",
+          "locator": "§2.2.5 Conclusions",
+          "text": "are carefully curated to maximally elicit specific model capabilities",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0112#4",
+          "locator": "§2.2 (Long-Form Virology Tasks)",
+          "text": "require helpful-only variants for maximum elicitation",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0113": {
+      "url": "https://www.anthropic.com/claude-opus-5-system-card",
+      "title": "Claude Opus 5 System Card",
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {
+        "published": "2026-07"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:12Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/ceaf5c7ff2783855203fde8208ec311252dced5b/Claude%20Opus%205%20System%20Card.pdf",
+          "content_type": "application/pdf",
+          "sha256": "0950dae1ba6b341e",
+          "bytes": 16281258
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0113#1",
+          "locator": "§3.3.6 Testing from the UK AI Security Institute (UK AISI)",
+          "text": "We shared an earlier snapshot of Claude Opus 5 with the UK AI Security Institute (UK AISI) for open-ended testing, at their discretion, of cyber capabilities.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0113#2",
+          "locator": "§6.4.8 External testing from the UK AI Security Institute (UK AISI)",
+          "text": "we shared a pre-release snapshot of Opus 5 with the UK AI Security Institute (UK AISI) for open-ended testing, at their discretion, of behaviors or risk factors related to misalignment.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0114": {
+      "url": "https://www.anthropic.com/claude-opus-4-6-system-card",
+      "title": "Claude Opus 4.6 System Card",
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {
+        "published": "2026-02"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:15Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd/Claude%20Opus%204.6%20System%20Card.pdf",
+          "content_type": "application/pdf",
+          "sha256": "4db67c6b6aea0a87",
+          "bytes": 13208951
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0114#1",
+          "locator": "§6.2.7 External testing from Apollo Research",
+          "text": "engagement with Apollo Research on testing for alignment risk did not yield conclusive results.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0114#2",
+          "locator": "§6.2.7 External testing from Apollo Research",
+          "text": "was given access to an early checkpoint of Claude Opus 4.6 on January 24th and an additional checkpoint on January 26th.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0114#3",
+          "locator": "Later system cards",
+          "text": "[Observation, not a quotation] Apollo Research is not mentioned in the later system cards for Claude Opus 4.7, Opus 4.8, Sonnet 5, Fable 5 and Mythos 5, Opus 5, Fable 5.1 and Mythos 5.1, or Opus 5.5 (text searched for \"Apollo\").",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0115": {
+      "url": "https://blog.google/outreach-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/",
+      "title": "Anthropic, Google, Microsoft and OpenAI launch Frontier Model Forum",
+      "publisher": "Google (joint announcement)",
+      "type": "primary",
+      "dates": {
+        "published": "2023-07-26"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:19Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "74beba7b3f9e73cf",
+          "bytes": 974790
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0115#1",
+          "locator": "Joint announcement",
+          "text": "Today, Anthropic, Google, Microsoft and OpenAI are announcing the formation of the Frontier Model Forum, a new industry body focused on ensuring safe and responsible development of frontier AI models.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0116": {
+      "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Frontier-Governance-Framework-Feb-2026.pdf",
+      "title": "Frontier Governance Framework (February 2026)",
+      "publisher": "Microsoft",
+      "type": "primary",
+      "dates": {
+        "published": "2026-02"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:25:20Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Frontier-Governance-Framework-Feb-2026.pdf",
+          "content_type": "application/pdf",
+          "sha256": "3282e4fc65a84420",
+          "bytes": 831043
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0116#1",
+          "locator": "§3 Evaluation and assessment (p.4)",
+          "text": "A leading indicator assessment is run on any model that is in scope for frontier model requirements under applicable laws, such as the EU AI Act, California’s Transparency in Frontier AI Act (TFAIA), and New York’s Responsible AI Safety and Education (RAISE) Act.",
           "retrieved": "2026-10-10"
         }
       ]

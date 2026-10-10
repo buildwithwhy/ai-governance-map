@@ -113,6 +113,128 @@
           ]
         }
       ]
+    },
+    {
+      "area": "B4 labs (Layer 6): Anthropic, OpenAI, Google DeepMind, Meta, xAI — new framework versions since Jun 2026, SB 53 / RAISE / EU Code compliance frameworks, governance-body changes",
+      "summary": "No lab issued a new safety-framework version after June 2026 except xAI (FAIF effective 30 Jun 2026). But three entries described superseded versions: OpenAI's entry described the 2023 beta (v2 Apr 2025 is current); DeepMind's misdated v2/v3 (v3.1 Apr 2026 is current); Meta's missed v2's change from \"stop\" to \"develop with mitigations\". OpenAI designated GPT-6 Astra its first Critical (cyber) model on 1–3 Sep 2026 and paused some training for two weeks. Compliance documents: OpenAI's FGF (28 May 2026) is its TFAIA framework and EU Code summary; xAI's Dec 2025 edition claimed TFAIA compliance but the Jun 2026 edition is silent on it; no Google or Meta SB 53 document found. Anthropic RSP v3.4 remains current (page updated 14 Aug 2026 with the Aug 2026 Risk Report).",
+      "queries": [
+        "OpenAI Preparedness Framework version 3 2026 (web search)",
+        "openai.com/news/?tags=framework (headless browser)",
+        "OpenAI \"Frontier Governance Framework\" SB 53 (web search) → openai.com/index/openai-frontier-governance-framework/ and FGF PDF",
+        "openai.com/index/path-to-astra/; deploymentsafety.openai.com GPT-6 Astra and GPT-5.6 system cards",
+        "Google DeepMind Frontier Safety Framework 2026 update version (web search); deepmind.google/frontier-safety/ and FSF v3.1 PDF",
+        "Google \"Frontier AI Framework\" TFAIA / SB 53 Gemini (two web searches)",
+        "Google DeepMind August 2026 leadership change (web search) → blog.google \"The next chapter of our AI momentum\"",
+        "about.fb.com/news/2025/02/meta-approach-frontier-ai/ and Meta AASF v2 PDF",
+        "x.ai/safety (headless browser); xAI FAIF Jun 2026, Dec 2025, RMF Aug 2025, draft Feb 2025",
+        "xAI lawsuit Colorado SB 24-205 (web search) → justice.gov press release",
+        "anthropic.com/responsible-scaling-policy; anthropic.com/system-cards (Opus 4.6–5.5, Fable 5/5.1)",
+        "EC GPAI Code signatory list",
+        "vorplabs.com frontier framework inventory (lead list only)",
+        "Microsoft Frontier Governance Framework Feb 2026 PDF"
+      ],
+      "limits": "trust.anthropic.com was not re-opened (FCF handled earlier today). Google Responsibility & Safety hub and Gemini model cards were not read, so a Google SB 53 framework or UK AISI pre-deployment testing of Gemini may exist unseen. Meta preparedness reports and the Midas Project critique of OpenAI's FGF use were not read. CourtListener was rate-limited, so the xAI v. Weiser docket status (reported stay, Apr 2026) is secondary-only.",
+      "candidates": [
+        {
+          "name": "OpenAI Preparedness Framework v2 (15 Apr 2025) as current version",
+          "result": "update to existing entry",
+          "reason": "Entry described the 2023 beta.",
+          "proposal": "P-0037",
+          "sources": [
+            "S-0095",
+            "S-0062"
+          ]
+        },
+        {
+          "name": "GPT-6 Astra designated Critical (cyber) under the Preparedness Framework (Sep 2026); training paused two weeks after the Hugging Face incident",
+          "result": "update to existing entry",
+          "reason": "First Critical designation by any lab under its own framework; recorded in prep context as implementation evidence.",
+          "proposal": "P-0037",
+          "sources": [
+            "S-0097",
+            "S-0098"
+          ]
+        },
+        {
+          "name": "OpenAI Frontier Governance Framework (28 May 2026)",
+          "result": "update to existing entry",
+          "reason": "Already noted in prep context (verified); separate entry is a maintainer question.",
+          "proposal": "P-0043",
+          "sources": [
+            "S-0100",
+            "S-0101"
+          ]
+        },
+        {
+          "name": "Google DeepMind FSF v3.1 (17 Apr 2026)",
+          "result": "update to existing entry",
+          "reason": "Entry misdated versions and described superseded domains/halting.",
+          "proposal": "P-0038",
+          "sources": [
+            "S-0102",
+            "S-0103"
+          ]
+        },
+        {
+          "name": "Google SB 53 frontier AI framework",
+          "result": "screened out",
+          "reason": "No Google document identifying itself as its TFAIA framework found; FSF v3.1 does not mention TFAIA (it cites Anthropic's SB 53 post in a footnote).",
+          "sources": [
+            "S-0102"
+          ]
+        },
+        {
+          "name": "Google DeepMind leadership change (5 Aug 2026: Hassabis to chair, Kavukcuoglu SVP)",
+          "result": "screened out",
+          "reason": "Corporate leadership change; Google's memo does not change FSF governance. A Time report that safety/policy teams moved into Google corporate is secondary-only (lead).",
+          "sources": []
+        },
+        {
+          "name": "Meta Advanced AI Scaling Framework v2 (7 Apr 2026)",
+          "result": "update to existing entry",
+          "reason": "Critical threshold changed from stop to develop-with-mitigations; rename.",
+          "proposal": "P-0039",
+          "sources": [
+            "S-0107"
+          ]
+        },
+        {
+          "name": "xAI Frontier AI Framework (effective 30 Jun 2026)",
+          "result": "update to existing entry",
+          "reason": "New edition without changelog; numeric criteria and TFAIA statement no longer in text.",
+          "proposal": "P-0041",
+          "sources": [
+            "S-0108",
+            "S-0109"
+          ]
+        },
+        {
+          "name": "xAI v. Weiser (D. Colo. 1:26-cv-01515, filed 9 Apr 2026; DOJ intervened 24 Apr 2026)",
+          "result": "update to existing entry",
+          "reason": "Confirms xai-rmf desc; reported stay is secondary-only; Colorado law status is for L3.",
+          "proposal": "P-0041",
+          "sources": [
+            "S-0111"
+          ]
+        },
+        {
+          "name": "Anthropic RSP v3.4 / Aug 2026 Risk Report",
+          "result": "screened out",
+          "reason": "No version after v3.4 (8 Jul 2026); already reflected in rsp entry today.",
+          "sources": [
+            "S-0005"
+          ]
+        },
+        {
+          "name": "Microsoft Frontier Governance Framework (Feb 2026; names TFAIA and RAISE)",
+          "result": "screened out",
+          "reason": "Developer outside B4 and not new since June 2026; noted for the compliance-frameworks question. Amazon (Feb 2025) and other developers in the vorplabs inventory were not opened as nothing indicated they are newly in scope.",
+          "proposal": "P-0043",
+          "sources": [
+            "S-0116"
+          ]
+        }
+      ]
     }
   ],
   "usage": null

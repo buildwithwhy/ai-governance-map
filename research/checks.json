@@ -1693,18 +1693,36 @@
     },
     "entry:rsp:cov": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
-        "outcome": "inaccessible",
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
         "sources": [
+          "S-0112",
+          "S-0113",
           "S-0006",
-          "S-0008"
+          "S-0005"
         ],
         "proposals": [],
-        "note": "Claims about evaluation methods, elicitation (incl. METR and UK AISI participation) and timing need the policy text and system cards; policy PDF and HTML both blocked.",
-        "hash": "0495c7c8cd4d",
+        "note": "RSP v3.4 (effective 8 Jul 2026) is still current per the version list; it requires capability and alignment evaluations \"conducted internally and by external parties as appropriate\". The Claude Opus 5.5 system card (Sep 2026) describes maximum-elicitation evaluations (helpful-only variants), third-party expert red teaming and pre-deployment testing with METR; the Opus 5 card (Jul 2026) records UK AISI open-ended testing of pre-release snapshots (cyber ranges, misalignment). All nine coverage categories remain applicable. The specific phrase \"adversarial scaffolding\" is a summary, not RSP wording.",
+        "missing": null,
+        "hash": "0495c7c8cd4d"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
         "scope": "external",
-        "missing": "The RSP v3.4 policy text (www-cdn.anthropic.com PDF), especially Appendix A, Appendix B and the main sections on capability thresholds, safeguards and pausing. Blocked."
+        "sources": [
+          "S-0112",
+          "S-0113",
+          "S-0006",
+          "S-0005"
+        ],
+        "proposals": [],
+        "note": "RSP v3.4 (effective 8 Jul 2026) is still current per the version list; it requires capability and alignment evaluations \"conducted internally and by external parties as appropriate\". The Claude Opus 5.5 system card (Sep 2026) describes maximum-elicitation evaluations (helpful-only variants), third-party expert red teaming and pre-deployment testing with METR; the Opus 5 card (Jul 2026) records UK AISI open-ended testing of pre-release snapshots (cyber ranges, misalignment). All nine coverage categories remain applicable. The specific phrase \"adversarial scaffolding\" is a summary, not RSP wording.",
+        "missing": null,
+        "hash": "0495c7c8cd4d"
       }
     },
     "entry:rsp:cov:eval": {
@@ -1747,16 +1765,35 @@
     },
     "entry:rsp:cov:elicit": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
+        "run": "2026-10-10-baseline",
         "date": "2026-10-10",
-        "outcome": "unresolved",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0006"
+          "S-0112",
+          "S-0113",
+          "S-0006",
+          "S-0005"
         ],
         "proposals": [],
-        "note": "The v3.4 policy text does not describe elicitation methods or name METR or UK AISI. External evaluation appears only generally ('internally and by external parties as appropriate', §3.3).",
-        "missing": "System cards or Risk Reports (Feb/Aug 2026) describing elicitation methods and METR/UK AISI participation; queued for the baseline audit",
+        "note": "RSP v3.4 (effective 8 Jul 2026) is still current per the version list; it requires capability and alignment evaluations \"conducted internally and by external parties as appropriate\". The Claude Opus 5.5 system card (Sep 2026) describes maximum-elicitation evaluations (helpful-only variants), third-party expert red teaming and pre-deployment testing with METR; the Opus 5 card (Jul 2026) records UK AISI open-ended testing of pre-release snapshots (cyber ranges, misalignment). All nine coverage categories remain applicable. The specific phrase \"adversarial scaffolding\" is a summary, not RSP wording.",
+        "missing": null,
+        "hash": "8785fc0c0100"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0112",
+          "S-0113",
+          "S-0006",
+          "S-0005"
+        ],
+        "proposals": [],
+        "note": "RSP v3.4 (effective 8 Jul 2026) is still current per the version list; it requires capability and alignment evaluations \"conducted internally and by external parties as appropriate\". The Claude Opus 5.5 system card (Sep 2026) describes maximum-elicitation evaluations (helpful-only variants), third-party expert red teaming and pre-deployment testing with METR; the Opus 5 card (Jul 2026) records UK AISI open-ended testing of pre-release snapshots (cyber ranges, misalignment). All nine coverage categories remain applicable. The specific phrase \"adversarial scaffolding\" is a summary, not RSP wording.",
+        "missing": null,
         "hash": "8785fc0c0100"
       }
     },
@@ -4200,6 +4237,1877 @@
         "note": "Membership mix confirmed. 'Hasn't fully repositioned' leaves out the 2023 foundation-model guidance and the 2026 provider-tracking report.",
         "missing": null,
         "hash": "6d1b95d2759c"
+      }
+    },
+    "entry:prep": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0096",
+          "S-0095",
+          "S-0097"
+        ],
+        "proposals": [],
+        "note": "Link renders (headless browser) the 15 Apr 2025 v2 announcement, which links the v2 PDF; OpenAI's Sep 2026 Astra post still links this page as \"our Preparedness Framework\". Name, layer, jur co, pow 1 (voluntary) and status active fit.",
+        "missing": null,
+        "hash": "fd99d88a9840"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0096",
+          "S-0095",
+          "S-0097"
+        ],
+        "proposals": [],
+        "note": "Link renders (headless browser) the 15 Apr 2025 v2 announcement, which links the v2 PDF; OpenAI's Sep 2026 Astra post still links this page as \"our Preparedness Framework\". Name, layer, jur co, pow 1 (voluntary) and status active fit.",
+        "missing": null,
+        "hash": "fd99d88a9840"
+      }
+    },
+    "entry:prep:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "62796f2e75fe"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "62796f2e75fe"
+      }
+    },
+    "entry:prep:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "56ccebe1418d"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "56ccebe1418d"
+      }
+    },
+    "entry:prep:cov:thresh": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "927dd9e9459b"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "927dd9e9459b"
+      }
+    },
+    "entry:prep:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "6ba8b6e81900"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "6ba8b6e81900"
+      }
+    },
+    "entry:prep:cov:elicit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "8ff33c4fccbe"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "8ff33c4fccbe"
+      }
+    },
+    "entry:prep:cov:sec": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "6b25bbebd1ba"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "6b25bbebd1ba"
+      }
+    },
+    "entry:prep:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "1134a1b7a0f1"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "1134a1b7a0f1"
+      }
+    },
+    "entry:prep:cov:halt": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "5b9bd49c7e75"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "5b9bd49c7e75"
+      }
+    },
+    "entry:prep:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "c8b689c47405"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "c8b689c47405"
+      }
+    },
+    "entry:prep:cov:update": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "e53eb2bc92f3"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0062",
+          "S-0096",
+          "S-0097",
+          "S-0098",
+          "S-0099",
+          "S-0100",
+          "S-0101"
+        ],
+        "proposals": [
+          "P-0037"
+        ],
+        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "missing": null,
+        "hash": "e53eb2bc92f3"
+      }
+    },
+    "entry:prep:cov:timing": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0095"
+        ],
+        "proposals": [],
+        "note": "v2 §3.2 defines covered deployments (new frontier models, frontier-advancing agentic systems, significant changes in deployment conditions, unexpectedly capable updates) and §3.3 requires Scalable Evaluations before deployment; §4.2 commits to review safeguards if evidence shows they are not working. Coverage set still applies to all nine categories.",
+        "missing": null,
+        "hash": "7300a0d890f2"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0095"
+        ],
+        "proposals": [],
+        "note": "v2 §3.2 defines covered deployments (new frontier models, frontier-advancing agentic systems, significant changes in deployment conditions, unexpectedly capable updates) and §3.3 requires Scalable Evaluations before deployment; §4.2 commits to review safeguards if evidence shows they are not working. Coverage set still applies to all nine categories.",
+        "missing": null,
+        "hash": "7300a0d890f2"
+      }
+    },
+    "entry:prep:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0095"
+        ],
+        "proposals": [],
+        "note": "v2 §3.2 defines covered deployments (new frontier models, frontier-advancing agentic systems, significant changes in deployment conditions, unexpectedly capable updates) and §3.3 requires Scalable Evaluations before deployment; §4.2 commits to review safeguards if evidence shows they are not working. Coverage set still applies to all nine categories.",
+        "missing": null,
+        "hash": "0495c7c8cd4d"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0095"
+        ],
+        "proposals": [],
+        "note": "v2 §3.2 defines covered deployments (new frontier models, frontier-advancing agentic systems, significant changes in deployment conditions, unexpectedly capable updates) and §3.3 requires Scalable Evaluations before deployment; §4.2 commits to review safeguards if evidence shows they are not working. Coverage set still applies to all nine categories.",
+        "missing": null,
+        "hash": "0495c7c8cd4d"
+      }
+    },
+    "entry:fsf": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0103",
+          "S-0102"
+        ],
+        "proposals": [],
+        "note": "Link is the Sep 2025 v3 post, updated 17 Apr 2026 for v3.1 and linking the v3.1 PDF. Name, layer, jur, pow, status fit.",
+        "missing": null,
+        "hash": "a09bce6c6aab"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0103",
+          "S-0102"
+        ],
+        "proposals": [],
+        "note": "Link is the Sep 2025 v3 post, updated 17 Apr 2026 for v3.1 and linking the v3.1 PDF. Name, layer, jur, pow, status fit.",
+        "missing": null,
+        "hash": "a09bce6c6aab"
+      }
+    },
+    "entry:fsf:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "3b7e23f17be5"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "3b7e23f17be5"
+      }
+    },
+    "entry:fsf:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "a5b74d157146"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "a5b74d157146"
+      }
+    },
+    "entry:fsf:cov:thresh": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "c7578d8ddb2c"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "c7578d8ddb2c"
+      }
+    },
+    "entry:fsf:cov:elicit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "b327313758b6"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "b327313758b6"
+      }
+    },
+    "entry:fsf:cov:timing": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "6395ab5047d1"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "6395ab5047d1"
+      }
+    },
+    "entry:fsf:cov:sec": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "b2dd1db4d596"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "b2dd1db4d596"
+      }
+    },
+    "entry:fsf:cov:halt": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "8796a706655f"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "8796a706655f"
+      }
+    },
+    "entry:fsf:cov:update": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "3ca4cd074e5e"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0103",
+          "S-0104",
+          "S-0105",
+          "S-0106"
+        ],
+        "proposals": [
+          "P-0038"
+        ],
+        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "missing": null,
+        "hash": "3ca4cd074e5e"
+      }
+    },
+    "entry:fsf:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0102"
+        ],
+        "proposals": [],
+        "note": "v3.1 deployment mitigations include safety post-training, monitoring, account moderation, jailbreak detection, user verification (misuse) and limiting affordances, monitoring/escalation, auditing, alignment training (ML R&D), scaled to the T/CCL reached. All nine coverage categories still apply.",
+        "missing": null,
+        "hash": "c1cff29dd6f6"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0102"
+        ],
+        "proposals": [],
+        "note": "v3.1 deployment mitigations include safety post-training, monitoring, account moderation, jailbreak detection, user verification (misuse) and limiting affordances, monitoring/escalation, auditing, alignment training (ML R&D), scaled to the T/CCL reached. All nine coverage categories still apply.",
+        "missing": null,
+        "hash": "c1cff29dd6f6"
+      }
+    },
+    "entry:fsf:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0102"
+        ],
+        "proposals": [],
+        "note": "v3.1 deployment mitigations include safety post-training, monitoring, account moderation, jailbreak detection, user verification (misuse) and limiting affordances, monitoring/escalation, auditing, alignment training (ML R&D), scaled to the T/CCL reached. All nine coverage categories still apply.",
+        "missing": null,
+        "hash": "0495c7c8cd4d"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0102"
+        ],
+        "proposals": [],
+        "note": "v3.1 deployment mitigations include safety post-training, monitoring, account moderation, jailbreak detection, user verification (misuse) and limiting affordances, monitoring/escalation, auditing, alignment training (ML R&D), scaled to the T/CCL reached. All nine coverage categories still apply.",
+        "missing": null,
+        "hash": "0495c7c8cd4d"
+      }
+    },
+    "entry:fsf:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0106"
+        ],
+        "proposals": [],
+        "note": "Pre-deployment and between-cycle evaluation and published methodology are supported by v3.1 §1.3.2 and the Gemini 3.7 Flash FSF report (Aug 2026). That report says independent external groups test models but names none as evaluators; it names UK AISI only as an external adviser on ML R&D/misalignment threat models.",
+        "missing": "A Google/DeepMind or UK AISI source naming UK AISI as a pre-deployment evaluator of Gemini models (not checked: Gemini model cards).",
+        "hash": "76de18c939f0"
+      }
+    },
+    "entry:fsf:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0102",
+          "S-0106"
+        ],
+        "proposals": [],
+        "note": "Factual core supported: v3.1 §4.1 describes internal legal, compliance and safety reviews with escalation; §5.2 commits to aim to share information with governments at an unmitigated CCL; per-model FSF reports are published. \"Less external accountability surface than Anthropic's RSP\" and \"released selectively\" are comparative.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "57b68d55d6cc"
+      }
+    },
+    "entry:meta-faif": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0064"
+        ],
+        "proposals": [
+          "P-0040"
+        ],
+        "note": "Link opens the v2 PDF (via browser; ai.meta.com rejects curl). Layer, jur, pow, status fit; the name uses the pre-v2 title.",
+        "missing": null,
+        "hash": "a0fddb19a576"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0064"
+        ],
+        "proposals": [
+          "P-0040"
+        ],
+        "note": "Link opens the v2 PDF (via browser; ai.meta.com rejects curl). Layer, jur, pow, status fit; the name uses the pre-v2 title.",
+        "missing": null,
+        "hash": "a0fddb19a576"
+      }
+    },
+    "entry:meta-faif:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [],
+        "note": "v1 3 Feb 2025; renamed Advanced AI Scaling Framework in v2 dated 7 Apr 2026; thresholds include high and critical (plus moderate or lower); Meta is absent from the EC signatory list.",
+        "missing": null,
+        "hash": "72788a5e6bba"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [],
+        "note": "v1 3 Feb 2025; renamed Advanced AI Scaling Framework in v2 dated 7 Apr 2026; thresholds include high and critical (plus moderate or lower); Meta is absent from the EC signatory list.",
+        "missing": null,
+        "hash": "72788a5e6bba"
+      }
+    },
+    "entry:meta-faif:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "72402800e289"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "72402800e289"
+      }
+    },
+    "entry:meta-faif:cov:thresh": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "c9d08a54a0ba"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "c9d08a54a0ba"
+      }
+    },
+    "entry:meta-faif:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "d99506de3332"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "d99506de3332"
+      }
+    },
+    "entry:meta-faif:cov:elicit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "9ce4964a2912"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "9ce4964a2912"
+      }
+    },
+    "entry:meta-faif:cov:timing": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "7d90f8cb4d2b"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "7d90f8cb4d2b"
+      }
+    },
+    "entry:meta-faif:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "33666e76d1fc"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "33666e76d1fc"
+      }
+    },
+    "entry:meta-faif:cov:halt": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "986124b600c2"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "986124b600c2"
+      }
+    },
+    "entry:meta-faif:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "902633874405"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "902633874405"
+      }
+    },
+    "entry:meta-faif:cov:update": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "cfeeaf1ca806"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0107",
+          "S-0003"
+        ],
+        "proposals": [
+          "P-0039"
+        ],
+        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "missing": null,
+        "hash": "cfeeaf1ca806"
+      }
+    },
+    "entry:meta-faif:cov:sec": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0107"
+        ],
+        "proposals": [],
+        "note": "Factual core supported: v2 ties heightened access controls and anti-exfiltration protections to the high and critical thresholds and says strict weight-access scoping is incompatible with active development; specifics are not detailed. \"Thinner … than Anthropic or Google DeepMind\" is comparative.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "dcc8ed31e1b8"
+      }
+    },
+    "entry:meta-faif:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0107"
+        ],
+        "proposals": [],
+        "note": "v2 still addresses all nine categories (thresholds, evaluation, elicitation, timing triggers, security, mitigations, development/deployment conditions, governance, annual review).",
+        "missing": null,
+        "hash": "0495c7c8cd4d"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0107"
+        ],
+        "proposals": [],
+        "note": "v2 still addresses all nine categories (thresholds, evaluation, elicitation, timing triggers, security, mitigations, development/deployment conditions, governance, annual review).",
+        "missing": null,
+        "hash": "0495c7c8cd4d"
+      }
+    },
+    "entry:xai-rmf": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0110",
+          "S-0108",
+          "S-0109"
+        ],
+        "proposals": [
+          "P-0042"
+        ],
+        "note": "Link x.ai/safety renders (browser) and links the 30 Jun 2026 Frontier AI Framework; name still uses the superseded \"Risk Management Framework\" title. Layer, jur, pow, status fit. The site footer now reads \"SpaceXAI LLC\"; the framework itself names xAI LLC.",
+        "missing": null,
+        "hash": "525fb1a5d9fb"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0110",
+          "S-0108",
+          "S-0109"
+        ],
+        "proposals": [
+          "P-0042"
+        ],
+        "note": "Link x.ai/safety renders (browser) and links the 30 Jun 2026 Frontier AI Framework; name still uses the superseded \"Risk Management Framework\" title. Layer, jur, pow, status fit. The site footer now reads \"SpaceXAI LLC\"; the framework itself names xAI LLC.",
+        "missing": null,
+        "hash": "525fb1a5d9fb"
+      }
+    },
+    "entry:xai-rmf:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0066",
+          "S-0067",
+          "S-0109",
+          "S-0108",
+          "S-0110",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0041"
+        ],
+        "note": "Feb 2025 was a draft; final RMF Aug 2025, renamed Dec 2025, current edition 30 Jun 2026 (EU Code structure, four domains, lifecycle and annual assessment, proceed-only-if-acceptable commitment, no numeric criteria). Colorado lawsuit confirmed by DOJ (filed 9 Apr 2026). The halt note's comparison with Meta is outdated.",
+        "missing": null,
+        "hash": "9106fb29ae24"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0066",
+          "S-0067",
+          "S-0109",
+          "S-0108",
+          "S-0110",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0041"
+        ],
+        "note": "Feb 2025 was a draft; final RMF Aug 2025, renamed Dec 2025, current edition 30 Jun 2026 (EU Code structure, four domains, lifecycle and annual assessment, proceed-only-if-acceptable commitment, no numeric criteria). Colorado lawsuit confirmed by DOJ (filed 9 Apr 2026). The halt note's comparison with Meta is outdated.",
+        "missing": null,
+        "hash": "9106fb29ae24"
+      }
+    },
+    "entry:xai-rmf:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0066",
+          "S-0067",
+          "S-0109",
+          "S-0108",
+          "S-0110",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0041"
+        ],
+        "note": "Feb 2025 was a draft; final RMF Aug 2025, renamed Dec 2025, current edition 30 Jun 2026 (EU Code structure, four domains, lifecycle and annual assessment, proceed-only-if-acceptable commitment, no numeric criteria). Colorado lawsuit confirmed by DOJ (filed 9 Apr 2026). The halt note's comparison with Meta is outdated.",
+        "missing": null,
+        "hash": "b28ea47cdac4"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0066",
+          "S-0067",
+          "S-0109",
+          "S-0108",
+          "S-0110",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0041"
+        ],
+        "note": "Feb 2025 was a draft; final RMF Aug 2025, renamed Dec 2025, current edition 30 Jun 2026 (EU Code structure, four domains, lifecycle and annual assessment, proceed-only-if-acceptable commitment, no numeric criteria). Colorado lawsuit confirmed by DOJ (filed 9 Apr 2026). The halt note's comparison with Meta is outdated.",
+        "missing": null,
+        "hash": "b28ea47cdac4"
+      }
+    },
+    "entry:xai-rmf:cov:thresh": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0066",
+          "S-0067",
+          "S-0109",
+          "S-0108",
+          "S-0110",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0041"
+        ],
+        "note": "Feb 2025 was a draft; final RMF Aug 2025, renamed Dec 2025, current edition 30 Jun 2026 (EU Code structure, four domains, lifecycle and annual assessment, proceed-only-if-acceptable commitment, no numeric criteria). Colorado lawsuit confirmed by DOJ (filed 9 Apr 2026). The halt note's comparison with Meta is outdated.",
+        "missing": null,
+        "hash": "f8b766712405"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0066",
+          "S-0067",
+          "S-0109",
+          "S-0108",
+          "S-0110",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0041"
+        ],
+        "note": "Feb 2025 was a draft; final RMF Aug 2025, renamed Dec 2025, current edition 30 Jun 2026 (EU Code structure, four domains, lifecycle and annual assessment, proceed-only-if-acceptable commitment, no numeric criteria). Colorado lawsuit confirmed by DOJ (filed 9 Apr 2026). The halt note's comparison with Meta is outdated.",
+        "missing": null,
+        "hash": "f8b766712405"
+      }
+    },
+    "entry:xai-rmf:cov:timing": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0066",
+          "S-0067",
+          "S-0109",
+          "S-0108",
+          "S-0110",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0041"
+        ],
+        "note": "Feb 2025 was a draft; final RMF Aug 2025, renamed Dec 2025, current edition 30 Jun 2026 (EU Code structure, four domains, lifecycle and annual assessment, proceed-only-if-acceptable commitment, no numeric criteria). Colorado lawsuit confirmed by DOJ (filed 9 Apr 2026). The halt note's comparison with Meta is outdated.",
+        "missing": null,
+        "hash": "93c06e0a4aee"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0066",
+          "S-0067",
+          "S-0109",
+          "S-0108",
+          "S-0110",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0041"
+        ],
+        "note": "Feb 2025 was a draft; final RMF Aug 2025, renamed Dec 2025, current edition 30 Jun 2026 (EU Code structure, four domains, lifecycle and annual assessment, proceed-only-if-acceptable commitment, no numeric criteria). Colorado lawsuit confirmed by DOJ (filed 9 Apr 2026). The halt note's comparison with Meta is outdated.",
+        "missing": null,
+        "hash": "93c06e0a4aee"
+      }
+    },
+    "entry:xai-rmf:cov:halt": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0066",
+          "S-0067",
+          "S-0109",
+          "S-0108",
+          "S-0110",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0041"
+        ],
+        "note": "Feb 2025 was a draft; final RMF Aug 2025, renamed Dec 2025, current edition 30 Jun 2026 (EU Code structure, four domains, lifecycle and annual assessment, proceed-only-if-acceptable commitment, no numeric criteria). Colorado lawsuit confirmed by DOJ (filed 9 Apr 2026). The halt note's comparison with Meta is outdated.",
+        "missing": null,
+        "hash": "9314f17f3790"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0066",
+          "S-0067",
+          "S-0109",
+          "S-0108",
+          "S-0110",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0041"
+        ],
+        "note": "Feb 2025 was a draft; final RMF Aug 2025, renamed Dec 2025, current edition 30 Jun 2026 (EU Code structure, four domains, lifecycle and annual assessment, proceed-only-if-acceptable commitment, no numeric criteria). Colorado lawsuit confirmed by DOJ (filed 9 Apr 2026). The halt note's comparison with Meta is outdated.",
+        "missing": null,
+        "hash": "9314f17f3790"
+      }
+    },
+    "entry:xai-rmf:cov:update": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0066",
+          "S-0067",
+          "S-0109",
+          "S-0108",
+          "S-0110",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0041"
+        ],
+        "note": "Feb 2025 was a draft; final RMF Aug 2025, renamed Dec 2025, current edition 30 Jun 2026 (EU Code structure, four domains, lifecycle and annual assessment, proceed-only-if-acceptable commitment, no numeric criteria). Colorado lawsuit confirmed by DOJ (filed 9 Apr 2026). The halt note's comparison with Meta is outdated.",
+        "missing": null,
+        "hash": "6acec80d0d14"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0066",
+          "S-0067",
+          "S-0109",
+          "S-0108",
+          "S-0110",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0041"
+        ],
+        "note": "Feb 2025 was a draft; final RMF Aug 2025, renamed Dec 2025, current edition 30 Jun 2026 (EU Code structure, four domains, lifecycle and annual assessment, proceed-only-if-acceptable commitment, no numeric criteria). Colorado lawsuit confirmed by DOJ (filed 9 Apr 2026). The halt note's comparison with Meta is outdated.",
+        "missing": null,
+        "hash": "6acec80d0d14"
+      }
+    },
+    "entry:xai-rmf:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0108",
+          "S-0111",
+          "S-0003"
+        ],
+        "proposals": [],
+        "note": "Factual cores supported by the Jun 2026 edition: benchmark use and red-teaming/adversarial testing (§2.1–2.2); documented Security Goal, NIST 800-171-based controls, weight encryption (§2.4); safety training, system prompts, filters, with xAI free to change its approach (§2.3); internal legal/compliance reviews (§4); the Colorado suit (DOJ). Each note's main claim (\"lighter than peers\", \"among the thinnest\", \"thinner on weight-security\", \"less granular\", \"limited external accountability\", \"most visible opponent\") is comparative. xAI is also a signatory of the EU Code's Safety and Security Chapter.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "656e65a22635"
+      }
+    },
+    "entry:xai-rmf:cov:elicit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0108",
+          "S-0111",
+          "S-0003"
+        ],
+        "proposals": [],
+        "note": "Factual cores supported by the Jun 2026 edition: benchmark use and red-teaming/adversarial testing (§2.1–2.2); documented Security Goal, NIST 800-171-based controls, weight encryption (§2.4); safety training, system prompts, filters, with xAI free to change its approach (§2.3); internal legal/compliance reviews (§4); the Colorado suit (DOJ). Each note's main claim (\"lighter than peers\", \"among the thinnest\", \"thinner on weight-security\", \"less granular\", \"limited external accountability\", \"most visible opponent\") is comparative. xAI is also a signatory of the EU Code's Safety and Security Chapter.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "e67c087401d2"
+      }
+    },
+    "entry:xai-rmf:cov:sec": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0108",
+          "S-0111",
+          "S-0003"
+        ],
+        "proposals": [],
+        "note": "Factual cores supported by the Jun 2026 edition: benchmark use and red-teaming/adversarial testing (§2.1–2.2); documented Security Goal, NIST 800-171-based controls, weight encryption (§2.4); safety training, system prompts, filters, with xAI free to change its approach (§2.3); internal legal/compliance reviews (§4); the Colorado suit (DOJ). Each note's main claim (\"lighter than peers\", \"among the thinnest\", \"thinner on weight-security\", \"less granular\", \"limited external accountability\", \"most visible opponent\") is comparative. xAI is also a signatory of the EU Code's Safety and Security Chapter.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "9bbcfbb80e86"
+      }
+    },
+    "entry:xai-rmf:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0108",
+          "S-0111",
+          "S-0003"
+        ],
+        "proposals": [],
+        "note": "Factual cores supported by the Jun 2026 edition: benchmark use and red-teaming/adversarial testing (§2.1–2.2); documented Security Goal, NIST 800-171-based controls, weight encryption (§2.4); safety training, system prompts, filters, with xAI free to change its approach (§2.3); internal legal/compliance reviews (§4); the Colorado suit (DOJ). Each note's main claim (\"lighter than peers\", \"among the thinnest\", \"thinner on weight-security\", \"less granular\", \"limited external accountability\", \"most visible opponent\") is comparative. xAI is also a signatory of the EU Code's Safety and Security Chapter.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "9800ccaa897a"
+      }
+    },
+    "entry:xai-rmf:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0108",
+          "S-0111",
+          "S-0003"
+        ],
+        "proposals": [],
+        "note": "Factual cores supported by the Jun 2026 edition: benchmark use and red-teaming/adversarial testing (§2.1–2.2); documented Security Goal, NIST 800-171-based controls, weight encryption (§2.4); safety training, system prompts, filters, with xAI free to change its approach (§2.3); internal legal/compliance reviews (§4); the Colorado suit (DOJ). Each note's main claim (\"lighter than peers\", \"among the thinnest\", \"thinner on weight-security\", \"less granular\", \"limited external accountability\", \"most visible opponent\") is comparative. xAI is also a signatory of the EU Code's Safety and Security Chapter.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "defaae83ae69"
+      }
+    },
+    "entry:xai-rmf:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0108"
+        ],
+        "proposals": [],
+        "note": "The Jun 2026 edition still touches all nine categories.",
+        "missing": null,
+        "hash": "0495c7c8cd4d"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0108"
+        ],
+        "proposals": [],
+        "note": "The Jun 2026 edition still touches all nine categories.",
+        "missing": null,
+        "hash": "0495c7c8cd4d"
+      }
+    },
+    "edge:metr|rsp": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0112"
+        ],
+        "proposals": [],
+        "note": "Opus 5.5 system card (Sep 2026): pre-deployment capability testing with METR (AI R&D automation).",
+        "missing": null,
+        "hash": "1ecdc328c50f"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0112"
+        ],
+        "proposals": [],
+        "note": "Opus 5.5 system card (Sep 2026): pre-deployment capability testing with METR (AI R&D automation).",
+        "missing": null,
+        "hash": "1ecdc328c50f"
+      }
+    },
+    "edge:uk-aisi|rsp": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0113"
+        ],
+        "proposals": [],
+        "note": "Opus 5 system card (Jul 2026): UK AISI given an earlier/pre-release snapshot for cyber and misalignment testing.",
+        "missing": null,
+        "hash": "5de8d07556b8"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0113"
+        ],
+        "proposals": [],
+        "note": "Opus 5 system card (Jul 2026): UK AISI given an earlier/pre-release snapshot for cyber and misalignment testing.",
+        "missing": null,
+        "hash": "5de8d07556b8"
+      }
+    },
+    "edge:apollo|rsp": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0114"
+        ],
+        "proposals": [],
+        "note": "Apollo tested Claude Opus 4.6 checkpoints (Jan 2026) for alignment risk but gave no formal assessment because of evaluation awareness; seven later Anthropic system cards (through Opus 5.5, Sep 2026) do not mention Apollo. The relationship existed; whether it continues is not shown.",
+        "missing": "An Anthropic or Apollo statement of Apollo testing of an Anthropic model after Feb 2026.",
+        "hash": "4853c9d1d91d"
       }
     }
   }

@@ -1,5 +1,5 @@
 {
-  "next": 37,
+  "next": 44,
   "proposals": [
     {
       "id": "P-0001",
@@ -4697,6 +4697,1481 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "8056409cfae7"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0037",
+      "fingerprint": "424f091bf05a",
+      "targets": [
+        "entry:prep:desc",
+        "entry:prep:context",
+        "entry:prep:cov:thresh",
+        "entry:prep:cov:eval",
+        "entry:prep:cov:elicit",
+        "entry:prep:cov:sec",
+        "entry:prep:cov:mit",
+        "entry:prep:cov:halt",
+        "entry:prep:cov:acct",
+        "entry:prep:cov:update"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:25:21Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "OpenAI Preparedness: describe v2 (Apr 2025), not the 2023 beta",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "prep",
+              "field": "desc",
+              "from": "Preparedness Framework. Tracked categories (cyber, CBRN, autonomy, persuasion). 2025 revisions tightened bio thresholds.",
+              "to": "Preparedness Framework v2 (Apr 2025). Tracked categories (bio/chem, cyber, AI self-improvement) with High and Critical thresholds; persuasion moved out of the framework."
+            },
+            {
+              "op": "set_field",
+              "entity": "prep",
+              "field": "context",
+              "from": "Tracks four risk categories (cyber, CBRN, autonomy, persuasion) at low/medium/high/critical levels; deployment requires reaching specific thresholds and implementing graduated mitigations. Decisions reviewed by an internal Safety Advisory Group that escalates to the board. The 2025 revisions reframed the persuasion category and lowered the bio-risk threshold after CBRN evaluation findings. May 2026 added a separate Frontier Governance Framework mapping OpenAI's safety practices to California SB 53 and the EU GPAI Code — a companion governance layer alongside the Preparedness Framework.",
+              "to": "Tracks three categories (biological and chemical, cybersecurity, AI self-improvement) against High and Critical capability thresholds; Research Categories (e.g. long-range autonomy, sandbagging, nuclear and radiological) are studied but not yet tracked. High capability requires safeguards that sufficiently minimise severe risk before deployment; Critical also requires them during development. An internal Safety Advisory Group recommends, OpenAI Leadership decides, and the board's Safety and Security Committee oversees. In September 2026 OpenAI designated GPT-6 Astra its first model at the Critical cybersecurity level. May 2026 added a separate Frontier Governance Framework mapping OpenAI's safety practices to California SB 53 and the EU GPAI Code — a companion governance layer alongside the Preparedness Framework."
+            },
+            {
+              "op": "set_cov",
+              "entity": "prep",
+              "cat": "thresh",
+              "from": "Tracks four risk categories (cyber, CBRN, autonomy, persuasion) at low/medium/high/critical levels; deployment requires specific thresholds and graduated mitigations. Different threshold structure from Anthropic's ASLs — category × level matrix rather than single-axis tier.",
+              "to": "Three Tracked Categories (bio/chem, cyber, AI self-improvement), each with High and Critical capability thresholds; v2 dropped the low and medium levels. Different threshold structure from Anthropic's ASLs — category × level matrix rather than single-axis tier."
+            },
+            {
+              "op": "set_cov",
+              "entity": "prep",
+              "cat": "eval",
+              "from": "Evaluations against tracked categories run pre-deployment and ongoing; methodology disclosed in the framework and updated 2024–2025. External evaluators (METR, Apollo) participate.",
+              "to": "Automated scalable evaluations on every covered model before deployment, validated by expert-led deep dives; methodology set out in the framework (v2, 2025). External evaluators (METR, Apollo, UK AISI) participate."
+            },
+            {
+              "op": "set_cov",
+              "entity": "prep",
+              "cat": "elicit",
+              "from": "Capability elicitation through adversarial scaffolding, red-teaming, and agentic deployment is built into the evaluation protocols. Apollo's scheming research has shaped the autonomy category specifically.",
+              "to": "Evaluations aim to approximate the high end of elicitation by threat actors — highest-capability settings, a model variant with negligible safety refusals, the best available scaffolds, fine-tuning if weights will be released — and treat results as a lower bound. Sandbagging is a Research Category."
+            },
+            {
+              "op": "set_cov",
+              "entity": "prep",
+              "cat": "sec",
+              "from": "Weight security obligations scale with risk level; high/critical-risk models trigger enhanced protections. Specific tier definitions disclosed in the framework.",
+              "to": "Security controls meeting a High standard (threat modelling, defence in depth, access management and related practices) are required for High-capability models; the framework says a Critical standard is still to be specified."
+            },
+            {
+              "op": "set_cov",
+              "entity": "prep",
+              "cat": "mit",
+              "from": "Deployment safeguards graduated by risk level — refusals, monitoring, agentic controls, deployment-environment restrictions. Critical-risk gates production deployment outright.",
+              "to": "Safeguards against malicious users (refusal training, usage monitoring, trust-based access) and against misaligned models (alignment, oversight, restricted system architecture), documented in Safeguards Reports. High-capability models deploy only once safeguards sufficiently minimise severe risk."
+            },
+            {
+              "op": "set_cov",
+              "entity": "prep",
+              "cat": "halt",
+              "from": "High and critical risk levels gate deployment; OpenAI commits not to ship at those levels until mitigations reduce risk to medium or below. Explicit halting commitment subject to internal Safety Advisory Group review.",
+              "to": "Commits not to deploy High-capability models until safeguards sufficiently minimise the associated severe risk, and for Critical capability to halt further development until safeguards and security controls meeting a Critical standard are specified. May adjust safeguards if a rival ships a comparable system without them, but only with public acknowledgement and while staying more protective."
+            },
+            {
+              "op": "set_cov",
+              "entity": "prep",
+              "cat": "acct",
+              "from": "Internal Safety Advisory Group reviews evaluations and escalates to the board for high/critical-risk decisions. External transparency is through the published framework rather than reporting to a regulator.",
+              "to": "Safety Advisory Group reviews Capabilities and Safeguards Reports and recommends; OpenAI Leadership makes final decisions, overseen by the board's Safety and Security Committee, which can reverse them. Results are published with system cards; the separate Frontier Governance Framework covers incident reporting to authorities under SB 53 and the EU Code."
+            },
+            {
+              "op": "set_cov",
+              "entity": "prep",
+              "cat": "update",
+              "from": "Framework updated in 2024 and 2025; the 2025 revision reframed the persuasion category and lowered the bio-risk threshold after CBRN evaluation findings.",
+              "to": "Beta Dec 2023; v2 Apr 2025 dropped persuasion and the low/medium levels, split model autonomy and added Research Categories. Commits to review the framework at least once a year."
+            }
+          ],
+          "why": "The entry describes the December 2023 beta (four categories including persuasion, low-to-critical scale, \"medium or below\" deployment rule, board escalation). OpenAI replaced it in April 2025; readers comparing labs get OpenAI's current commitments wrong, including its halting language and governance. Astra (Sep 2026) is the first model OpenAI designated Critical.",
+          "rationale": "Preparedness Framework v2 (still the version OpenAI links from its Sep 2026 Astra post and system card) sets three Tracked Categories, High/Critical thresholds, moves persuasion out, commits to halt further development at Critical until a Critical standard exists, and sets SAG → Leadership → board SSC governance. The beta is the source of the current wording. The \"2025 revisions tightened/lowered bio thresholds\" claim has no support in v2's change log. Evaluator participation comes from the GPT-5.6 (METR) and GPT-6 Astra (Apollo, UK AISI) system cards.",
+          "evidence": [
+            {
+              "source": "S-0095",
+              "passage": "S-0095#1",
+              "stance": "supports",
+              "supports": "v2 dated 15 Apr 2025"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#2",
+              "stance": "supports",
+              "supports": "three Tracked Categories; persuasion out"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#3",
+              "stance": "supports",
+              "supports": "low/medium levels removed"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#4",
+              "stance": "supports",
+              "supports": "Research Categories"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#5",
+              "stance": "supports",
+              "supports": "High/Critical gating"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#6",
+              "stance": "supports",
+              "supports": "Critical: halt further development"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#7",
+              "stance": "supports",
+              "supports": "SAG → Leadership → SSC"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#8",
+              "stance": "supports",
+              "supports": "SSC may reverse"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#9",
+              "stance": "supports",
+              "supports": "Leadership makes final decisions"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#10",
+              "stance": "supports",
+              "supports": "annual review"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#11",
+              "stance": "supports",
+              "supports": "elicitation approach"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#12",
+              "stance": "supports",
+              "supports": "best scaffolds"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#13",
+              "stance": "supports",
+              "supports": "fine-tuning if weights released"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#14",
+              "stance": "supports",
+              "supports": "lower bound"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#15",
+              "stance": "supports",
+              "supports": "scalable evaluations"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#16",
+              "stance": "supports",
+              "supports": "deep dives"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#17",
+              "stance": "supports",
+              "supports": "every covered model before deployment"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#19",
+              "stance": "supports",
+              "supports": "malicious-user and misaligned-model safeguards"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#20",
+              "stance": "supports",
+              "supports": "Safeguards Reports"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#21",
+              "stance": "supports",
+              "supports": "marginal-risk adjustment"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#22",
+              "stance": "supports",
+              "supports": "public acknowledgement"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#23",
+              "stance": "supports",
+              "supports": "High security standard"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#24",
+              "stance": "supports",
+              "supports": "Critical standard still to come"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#25",
+              "stance": "supports",
+              "supports": "public disclosure of results"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#26",
+              "stance": "supports",
+              "supports": "no bio-threshold change recorded"
+            },
+            {
+              "source": "S-0062",
+              "passage": "S-0062#4",
+              "stance": "supports",
+              "supports": "beta 18 Dec 2023"
+            },
+            {
+              "source": "S-0062",
+              "passage": "S-0062#5",
+              "stance": "supports",
+              "supports": "source of the current \"medium or below\" wording"
+            },
+            {
+              "source": "S-0062",
+              "passage": "S-0062#6",
+              "stance": "supports",
+              "supports": "persuasion was a beta category"
+            },
+            {
+              "source": "S-0096",
+              "passage": "S-0096#1",
+              "stance": "supports",
+              "supports": "two thresholds"
+            },
+            {
+              "source": "S-0096",
+              "passage": "S-0096#2",
+              "stance": "supports",
+              "supports": "persuasion handled outside"
+            },
+            {
+              "source": "S-0097",
+              "passage": "S-0097#1",
+              "stance": "supports",
+              "supports": "Astra meets Critical cyber"
+            },
+            {
+              "source": "S-0097",
+              "passage": "S-0097#2",
+              "stance": "supports",
+              "supports": "first model at this level"
+            },
+            {
+              "source": "S-0097",
+              "passage": "S-0097#4",
+              "stance": "supports",
+              "supports": "v2 still referenced"
+            },
+            {
+              "source": "S-0098",
+              "passage": "S-0098#1",
+              "stance": "supports",
+              "supports": "Astra Critical cyber"
+            },
+            {
+              "source": "S-0098",
+              "passage": "S-0098#2",
+              "stance": "supports",
+              "supports": "UK AISI evaluated"
+            },
+            {
+              "source": "S-0098",
+              "passage": "S-0098#3",
+              "stance": "supports",
+              "supports": "Apollo evaluated"
+            },
+            {
+              "source": "S-0098",
+              "passage": "S-0098#4",
+              "stance": "supports",
+              "supports": "scaffolding in elicitation"
+            },
+            {
+              "source": "S-0099",
+              "passage": "S-0099#1",
+              "stance": "supports",
+              "supports": "METR evaluated GPT-5.6"
+            },
+            {
+              "source": "S-0100",
+              "passage": "S-0100#1",
+              "stance": "supports",
+              "supports": "FGF is TFAIA framework"
+            },
+            {
+              "source": "S-0100",
+              "passage": "S-0100#2",
+              "stance": "supports",
+              "supports": "FGF is EU CoP summary"
+            },
+            {
+              "source": "S-0100",
+              "passage": "S-0100#4",
+              "stance": "supports",
+              "supports": "incident reporting to authorities"
+            },
+            {
+              "source": "S-0101",
+              "passage": "S-0101#1",
+              "stance": "supports",
+              "supports": "FGF published 28 May 2026"
+            }
+          ],
+          "uncertainty": "v2 has no public successor as of 10 Oct 2026 (checked OpenAI's framework-tagged news list and the Astra post/card); OpenAI said in v2 it expected to update the framework before reaching Critical, so a v3 may follow. The Astra designation is OpenAI's own assessment.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:prep:cov:timing": "checked against v2 §3.2, still accurate",
+            "edge:seoul-commit|prep": "needs change — see seoul-prep",
+            "edge:ca-sb53|prep": "not checked here (L3); FGF confirms it is OpenAI's TFAIA framework"
+          },
+          "unverified_carryover": [
+            "\"Different threshold structure from Anthropic's ASLs — category × level matrix rather than single-axis tier\" (comparative; RSP v3 now uses ASLs only for safeguards)",
+            "FGF sentence in context (checked against the FGF; kept verbatim)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:eu-genai-code:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:fsf:cov:thresh",
+            "entry:meta-faif:cov:thresh",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "entry:averi:context",
+            "edge:ca-sb53|prep",
+            "edge:seoul-commit|prep",
+            "edge:gpai-cop|prep",
+            "edge:fmf|prep",
+            "edge:metr|prep",
+            "edge:uk-aisi|prep",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety"
+          ],
+          "hash": "99247eeda875"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0038",
+      "fingerprint": "4eae138df95b",
+      "targets": [
+        "entry:fsf:desc",
+        "entry:fsf:context",
+        "entry:fsf:cov:thresh",
+        "entry:fsf:cov:elicit",
+        "entry:fsf:cov:timing",
+        "entry:fsf:cov:sec",
+        "entry:fsf:cov:halt",
+        "entry:fsf:cov:update"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:25:21Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "GDM Frontier Safety Framework: correct versions and describe v3.1",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "fsf",
+              "field": "desc",
+              "from": "Critical Capability Levels and mitigations. v3 (April 2026) is the current version; v2 (2024) added explicit deceptive-alignment evaluations.",
+              "to": "Critical Capability Levels and mitigations. v3.1 (17 Apr 2026) is the current version and added lower Tracked Capability Levels; v2 (Feb 2025) added a deceptive-alignment approach."
+            },
+            {
+              "op": "set_field",
+              "entity": "fsf",
+              "field": "context",
+              "from": "Defines Critical Capability Levels (CCLs) across cyber-offence, biorisk, ML R&D, and deceptive-alignment domains; each CCL maps to concrete security and deployment mitigations. v2 (2024) added explicit deceptive-alignment evaluations after Apollo Research findings; subsequent updates extended the autonomous-task evaluation strand. Less prescriptive than Anthropic's RSP on halting commitments — relies more on internal review than published red-lines.",
+              "to": "Defines Critical Capability Levels (CCLs) in CBRN, cyber, harmful manipulation and ML R&D, with lower Tracked Capability Levels (TCLs) for CBRN and for misalignment (stealth and situational awareness); each CCL carries a recommended security level and a deployment-mitigation process that needs a safety case. v2 (Feb 2025) added a deceptive-alignment approach; v3 (Sep 2025) added harmful manipulation; v3.1 (Apr 2026) folded misalignment into a combined ML R&D and misalignment domain. Less prescriptive than Anthropic's RSP on halting commitments — relies more on internal review than published red-lines."
+            },
+            {
+              "op": "set_cov",
+              "entity": "fsf",
+              "cat": "thresh",
+              "from": "Critical Capability Levels (CCLs) defined across cyber-offence, biorisk, ML R&D, and deceptive-alignment domains. Capability-tier framing — somewhere between Anthropic's ASLs and OpenAI's category × level matrix.",
+              "to": "Critical Capability Levels (CCLs) in CBRN, cyber, harmful manipulation and ML R&D, plus lower Tracked Capability Levels (CBRN; stealth and situational awareness) added in v3.1. Capability-tier framing — somewhere between Anthropic's ASLs and OpenAI's category × level matrix."
+            },
+            {
+              "op": "set_cov",
+              "entity": "fsf",
+              "cat": "elicit",
+              "from": "v2 (2024) added explicit deceptive-alignment evaluations after Apollo Research findings — among the first lab frameworks to formally adopt scheming evaluations as a capability-elicitation strand.",
+              "to": "Evaluations apply scaffolding, inference compute and other augmentations to assess the systems likely to be built on the model; per-model FSF reports describe agentic scaffolding and sandbagging checks. v2 (Feb 2025) added instrumental-reasoning (deceptive-alignment) levels, now the stealth and situational awareness TCL."
+            },
+            {
+              "op": "set_cov",
+              "entity": "fsf",
+              "cat": "timing",
+              "from": "Evaluations run periodically rather than at strict pre-training/pre-deployment milestones. Less granular timing structure than Anthropic's RSP.",
+              "to": "Critical capability assessment before a model's first external deployment; material-capability-change assessments on checkpoints after post-training runs decide whether later versions need a new one. Alert thresholds flag approach to a CCL between assessments."
+            },
+            {
+              "op": "set_cov",
+              "entity": "fsf",
+              "cat": "sec",
+              "from": "Security mitigations per CCL — protections scale with the capability profile. Specifics published in the framework but less granular than Anthropic's tier system.",
+              "to": "Recommended security level per CCL, aligned with RAND levels: Security Level 2+ (SL2 plus insider-threat and non-state-actor measures) for CBRN, cyber and harmful manipulation; SL3 and SL4 for the ML R&D CCLs. Framed as the minimum the field should apply."
+            },
+            {
+              "op": "set_cov",
+              "entity": "fsf",
+              "cat": "halt",
+              "from": "Halts at critical levels are committed pending mitigation review — but the halting trigger is less prescriptive than Anthropic's RSP, relying more on internal review than published red-lines.",
+              "to": "Commits that external deployments (and, for ML R&D and misalignment levels, high-risk internal deployments) proceed only after a governance function finds residual risk acceptable, with a safety case once a CCL is reached; for misuse levels this applies to external deployment, not further development. Relies more on internal review than published red-lines."
+            },
+            {
+              "op": "set_cov",
+              "entity": "fsf",
+              "cat": "update",
+              "from": "v2 (2024) added deceptive-alignment evaluations after Apollo Research findings; v3 (April 2026) extended the autonomous-task evaluation strand. Update cadence less formalised than Anthropic's RSP.",
+              "to": "v1 May 2024; v2 Feb 2025 (security levels, deceptive-alignment approach); v3 Sep 2025 (harmful manipulation, ML R&D protocols); v3.1 Apr 2026 (TCLs, SL2+, governance section). Commits to review at least once a year."
+            }
+          ],
+          "why": "The entry dates v2 to 2024 and calls the April 2026 text \"v3\"; v3 was September 2025 and April 2026 is v3.1. It lists a biorisk/deceptive-alignment domain set that no longer exists, attributes v2 to Apollo findings with no support, and describes a halting commitment and timing structure that v3.1 does not contain.",
+          "rationale": "FSF v3.1 (17 Apr 2026) lists its version history, its four risk domains, TCLs, security levels, pre-first-deployment assessments, and deployment gates. DeepMind's Feb 2025 post introduces the deceptive-alignment approach without mentioning Apollo. v3.1 contains no \"halt\", \"pause\", \"on hold\" or \"stop\"; its gates are deployment conditions, written here as commitments.",
+          "evidence": [
+            {
+              "source": "S-0102",
+              "passage": "S-0102#1",
+              "stance": "supports",
+              "supports": "v3.1 date"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#2",
+              "stance": "supports",
+              "supports": "version history"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#3",
+              "stance": "supports",
+              "supports": "risk domains"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#4",
+              "stance": "supports",
+              "supports": "TCLs"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#5",
+              "stance": "supports",
+              "supports": "TCL domains"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#6",
+              "stance": "supports",
+              "supports": "stealth TCL"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#7",
+              "stance": "supports",
+              "supports": "misalignment merged"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#8",
+              "stance": "supports",
+              "supports": "SL2+"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#9",
+              "stance": "supports",
+              "supports": "SL3"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#10",
+              "stance": "supports",
+              "supports": "SL4"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#11",
+              "stance": "supports",
+              "supports": "RAND alignment"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#12",
+              "stance": "supports",
+              "supports": "minimum for field"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#13",
+              "stance": "supports",
+              "supports": "pre-first-deployment assessment"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#14",
+              "stance": "supports",
+              "supports": "material capability change assessments"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#15",
+              "stance": "supports",
+              "supports": "alert thresholds"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#16",
+              "stance": "supports",
+              "supports": "scaffolding/augmentations"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#17",
+              "stance": "supports",
+              "supports": "external deployment gate"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#18",
+              "stance": "supports",
+              "supports": "high-risk internal deployment gate"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#19",
+              "stance": "supports",
+              "supports": "not further development"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#20",
+              "stance": "supports",
+              "supports": "no halt language"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#23",
+              "stance": "supports",
+              "supports": "annual review"
+            },
+            {
+              "source": "S-0103",
+              "passage": "S-0103#1",
+              "stance": "supports",
+              "supports": "v3 Sep 2025"
+            },
+            {
+              "source": "S-0103",
+              "passage": "S-0103#2",
+              "stance": "supports",
+              "supports": "harmful manipulation added in v3"
+            },
+            {
+              "source": "S-0103",
+              "passage": "S-0103#3",
+              "stance": "supports",
+              "supports": "v3.1 Apr 2026"
+            },
+            {
+              "source": "S-0104",
+              "passage": "S-0104#1",
+              "stance": "supports",
+              "supports": "v2 Feb 2025"
+            },
+            {
+              "source": "S-0104",
+              "passage": "S-0104#2",
+              "stance": "supports",
+              "supports": "deceptive alignment in v2"
+            },
+            {
+              "source": "S-0104",
+              "passage": "S-0104#3",
+              "stance": "supports",
+              "supports": "instrumental reasoning"
+            },
+            {
+              "source": "S-0104",
+              "passage": "S-0104#5",
+              "stance": "supports",
+              "supports": "no Apollo attribution"
+            },
+            {
+              "source": "S-0105",
+              "passage": "S-0105#1",
+              "stance": "supports",
+              "supports": "v1 May 2024"
+            },
+            {
+              "source": "S-0106",
+              "passage": "S-0106#1",
+              "stance": "supports",
+              "supports": "DeepMind's own version history"
+            },
+            {
+              "source": "S-0106",
+              "passage": "S-0106#4",
+              "stance": "supports",
+              "supports": "agentic scaffolding in reports"
+            }
+          ],
+          "uncertainty": "The \"less prescriptive than Anthropic's RSP\" characterisation is carried over and analytic. Whether the Feb 2025 deceptive-alignment approach drew on Apollo research is not shown either way; the text simply drops the claim.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:fsf:cov:mit": "checked, still accurate",
+            "entry:fsf:cov:eval": "unresolved (UK AISI role)",
+            "edge:seoul-commit|fsf": "needs change — see seoul-fsf"
+          },
+          "unverified_carryover": [
+            "\"Less prescriptive than Anthropic's RSP on halting commitments — relies more on internal review than published red-lines\" (analytic)",
+            "\"Capability-tier framing — somewhere between Anthropic's ASLs and OpenAI's category × level matrix\" (analytic)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ca-sb53:context",
+            "entry:meta-faif:cov:sec",
+            "entry:caisi:context",
+            "entry:caisi:cov:eval",
+            "entry:metr:cov:eval",
+            "edge:ca-sb53|fsf",
+            "edge:seoul-commit|fsf",
+            "edge:gpai-cop|fsf",
+            "edge:fmf|fsf",
+            "edge:metr|fsf",
+            "edge:apollo|fsf",
+            "edge:uk-aisi|fsf",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety"
+          ],
+          "hash": "321c05de044e"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0039",
+      "fingerprint": "4868f18d8027",
+      "targets": [
+        "entry:meta-faif:context",
+        "entry:meta-faif:cov:thresh",
+        "entry:meta-faif:cov:eval",
+        "entry:meta-faif:cov:elicit",
+        "entry:meta-faif:cov:timing",
+        "entry:meta-faif:cov:mit",
+        "entry:meta-faif:cov:halt",
+        "entry:meta-faif:cov:acct",
+        "entry:meta-faif:cov:update"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:25:21Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Meta framework: describe v2 thresholds and the change from \"stop\" to \"develop with mitigations\"",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "meta-faif",
+              "field": "context",
+              "from": "Two-tier risk classification: high-risk released with mitigations, critical-risk not released at all until mitigations reduce the risk to high. Explicit commitment not to ship critical-risk models — the headline differentiator with xAI's framework. The only major US lab to refuse the EU GPAI Code, putting Meta's compliance route under the AI Act in question.",
+              "to": "Risk thresholds (critical, high, moderate or lower) across chemical and biological, cyber and, since v2, loss of control. v2 replaced \"stop\" at the critical threshold with \"develop with mitigations\": Meta commits to deploy high- or critical-threshold models only once validated mitigations reduce risk to that of a moderate-or-lower model, and to continue developing a critical-threshold model only if catastrophic risks are within acceptable levels. The only major US lab to refuse the EU GPAI Code, putting Meta's compliance route under the AI Act in question."
+            },
+            {
+              "op": "set_cov",
+              "entity": "meta-faif",
+              "cat": "thresh",
+              "from": "Two-tier classification — high-risk (released with mitigations) and critical-risk (not released until mitigations reduce risk to high). Coarser than Anthropic's ASLs or OpenAI's category × level matrix.",
+              "to": "Three thresholds — critical, high, moderate or lower — set by whether a model would substantially contribute to a threat scenario for a catastrophic outcome in chemical and biological, cyber or loss-of-control risk. Coarser than Anthropic's ASLs or OpenAI's category × level matrix."
+            },
+            {
+              "op": "set_cov",
+              "entity": "meta-faif",
+              "cat": "eval",
+              "from": "Evaluations against the two risk tiers; less methodological detail published than peers. External evaluator participation limited.",
+              "to": "Risk assessments against the thresholds before release, with a published preparedness report for each closed or open Frontier AI release describing evaluations, methodology and evaluator access. External experts join threat modelling where relevant."
+            },
+            {
+              "op": "set_cov",
+              "entity": "meta-faif",
+              "cat": "elicit",
+              "from": "Adversarial testing performed pre-deployment; specifics not heavily disclosed. Less developed than the elicitation work in RSP, Preparedness, or FSF.",
+              "to": "Commits to assess with maximum elicitation in mind — evaluating the model as part of a system with the scaffolding and tooling available for the proposed deployment — to capture the upper bound of risk."
+            },
+            {
+              "op": "set_cov",
+              "entity": "meta-faif",
+              "cat": "timing",
+              "from": "Pre-deployment evaluation; ongoing monitoring at the tier level. Update cadence and trigger conditions not heavily specified.",
+              "to": "Assessments during development and before release; a new preparedness report is triggered by a newly pre-trained model, a large compute increase or changes that materially increase relevant capabilities, with preliminary assessments before controlled deployments."
+            },
+            {
+              "op": "set_cov",
+              "entity": "meta-faif",
+              "cat": "mit",
+              "from": "Deployment mitigations layered onto release — high-risk models ship with mitigations; critical-risk models don't ship at all. Mitigation specifics discretionary.",
+              "to": "Mitigations required before deployment at the high threshold and before further development at the critical threshold, validated to reduce risk to moderate or lower; specific measures adapt to each scenario."
+            },
+            {
+              "op": "set_cov",
+              "entity": "meta-faif",
+              "cat": "halt",
+              "from": "Explicit commitment not to ship critical-risk models — the headline differentiator from xAI's framework. Halting trigger tied to the binary tier rather than graduated capabilities.",
+              "to": "v2 (Apr 2026) changed the critical threshold from \"stop\" to \"develop with mitigations\": Meta commits to continue development only if catastrophic risks are within acceptable levels and to deploy only after validated mitigations reduce risk to moderate or lower."
+            },
+            {
+              "op": "set_cov",
+              "entity": "meta-faif",
+              "cat": "acct",
+              "from": "Internal review; thinner external accountability surface than peers. Refused to sign the EU GPAI Code, putting Meta's compliance route under the AI Act in question.",
+              "to": "Chief AI Officer oversees the process and approves deployments, supported by a Director of Alignment and Risk; the Board oversees regulatory compliance; preparedness reports are published per release, with whistleblower and non-compliance reporting. Refused to sign the EU GPAI Code, putting Meta's compliance route under the AI Act in question."
+            },
+            {
+              "op": "set_cov",
+              "entity": "meta-faif",
+              "cat": "update",
+              "from": "Released Feb 2025 after pressure; revision schedule not publicly committed. Among the slowest-evolving lab frameworks.",
+              "to": "Released Feb 2025; v2 (Apr 2026) renamed it Advanced AI Scaling Framework and revised thresholds, domains and governance. Commits to review at least annually."
+            }
+          ],
+          "why": "The entry still describes \"critical-risk not released at all\" as Meta's headline commitment. Meta's v2 (7 Apr 2026) explicitly changed the critical measure from \"Stop\" to \"Develop with Mitigations\", added loss of control and named accountable officers, so the map overstates Meta's halting commitment and understates its new transparency commitments.",
+          "rationale": "Meta's v2 PDF (linked from the map entry) has a change log recording each change, the three-threshold table, the development and deployment conditions, the governance roles, preparedness-report triggers, maximum-elicitation language and the annual review commitment. The EC signatory list still omits Meta.",
+          "evidence": [
+            {
+              "source": "S-0107",
+              "passage": "S-0107#1",
+              "stance": "supports",
+              "supports": "second iteration; annual review"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#2",
+              "stance": "supports",
+              "supports": "three risk areas"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#4",
+              "stance": "supports",
+              "supports": "v2 date"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#5",
+              "stance": "supports",
+              "supports": "stop → develop with mitigations"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#6",
+              "stance": "supports",
+              "supports": "all thresholds allow proceeding with mitigations"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#7",
+              "stance": "supports",
+              "supports": "loss of control added"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#8",
+              "stance": "supports",
+              "supports": "development condition"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#9",
+              "stance": "supports",
+              "supports": "deployment/development mitigations"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#10",
+              "stance": "supports",
+              "supports": "three thresholds"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#11",
+              "stance": "supports",
+              "supports": "substantially contribute"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#12",
+              "stance": "supports",
+              "supports": "CAIO oversight"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#13",
+              "stance": "supports",
+              "supports": "CAIO approval"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#14",
+              "stance": "supports",
+              "supports": "Board oversight"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#15",
+              "stance": "supports",
+              "supports": "whistleblower policy"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#16",
+              "stance": "supports",
+              "supports": "preparedness reports"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#17",
+              "stance": "supports",
+              "supports": "methodology disclosure"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#18",
+              "stance": "supports",
+              "supports": "maximum elicitation"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#19",
+              "stance": "supports",
+              "supports": "report trigger"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#20",
+              "stance": "supports",
+              "supports": "capability trigger"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#21",
+              "stance": "supports",
+              "supports": "controlled deployments"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#22",
+              "stance": "supports",
+              "supports": "external experts in threat modelling"
+            },
+            {
+              "source": "S-0003",
+              "passage": "S-0003#12",
+              "stance": "supports",
+              "supports": "Meta not a signatory"
+            },
+            {
+              "source": "S-0003",
+              "passage": "S-0003#11",
+              "stance": "supports",
+              "supports": "xAI partial"
+            }
+          ],
+          "uncertainty": "The \"only major US lab to refuse\" and \"coarser than\" phrases are carried over and analytic; xAI signed only the Safety and Security Chapter. Even v1 framed critical as stop-development rather than \"not released until risk reduced to high\", so the current text was inaccurate before v2.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:meta-faif:desc": "checked, still accurate",
+            "entry:meta-faif:cov:sec": "unresolved (comparative)",
+            "entry:xai-rmf:cov:halt": "needs change — its comparison with \"Meta's explicit critical-risk halt\" is outdated; see xai-faif",
+            "edge:seoul-commit|meta-faif": "needs change — see seoul-meta"
+          },
+          "unverified_carryover": [
+            "\"The only major US lab to refuse the EU GPAI Code, putting Meta's compliance route under the AI Act in question\" (Meta's absence from the list verified; \"only\" and the consequence are analytic)",
+            "\"Coarser than Anthropic's ASLs or OpenAI's category × level matrix\" (analytic)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:gpai-cop:context",
+            "entry:eu-genai-code:desc",
+            "entry:eu-genai-code:context",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:xai-rmf:cov:halt",
+            "entry:metr:context",
+            "edge:ca-sb53|meta-faif",
+            "edge:seoul-commit|meta-faif",
+            "edge:gpai-cop|meta-faif",
+            "edge:fmf|meta-faif",
+            "faq:which-ai-labs-have-published-frontier-safety-fra"
+          ],
+          "hash": "3102d059d08f"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0040",
+      "fingerprint": "09525a6415d7",
+      "targets": [
+        "entry:meta-faif"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:25:21Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Rename the Meta entry to its current title",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "meta-faif",
+              "field": "name",
+              "from": "Meta Frontier AI Framework",
+              "to": "Meta Advanced AI Scaling Framework"
+            }
+          ],
+          "why": "The map's link opens a document titled \"Advanced AI Scaling Framework\"; the entry name still uses the superseded title, which the desc already says was renamed.",
+          "rationale": "Meta's v2 states it was previously titled the Frontier AI Framework and its change log records the rename.",
+          "evidence": [
+            {
+              "source": "S-0107",
+              "passage": "S-0107#1",
+              "stance": "supports",
+              "supports": "previously titled the Frontier AI Framework"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#4",
+              "stance": "supports",
+              "supports": "v2 date"
+            }
+          ],
+          "uncertainty": "Purely a naming choice; the entity id meta-faif can stay.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:gpai-cop:context",
+            "entry:eu-genai-code:desc",
+            "entry:eu-genai-code:context",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:xai-rmf:cov:halt",
+            "entry:metr:context",
+            "edge:ca-sb53|meta-faif",
+            "edge:seoul-commit|meta-faif",
+            "edge:gpai-cop|meta-faif",
+            "edge:fmf|meta-faif",
+            "faq:which-ai-labs-have-published-frontier-safety-fra"
+          ],
+          "hash": "98f0300559a3"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0041",
+      "fingerprint": "fa1d87b7620f",
+      "targets": [
+        "entry:xai-rmf:desc",
+        "entry:xai-rmf:context",
+        "entry:xai-rmf:cov:thresh",
+        "entry:xai-rmf:cov:timing",
+        "entry:xai-rmf:cov:halt",
+        "entry:xai-rmf:cov:update"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:25:21Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "xAI framework: current edition (30 Jun 2026), lifecycle timing and acceptance commitment",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "xai-rmf",
+              "field": "desc",
+              "from": "Published Feb 2025 after delay. Thinner than peers. xAI suing Colorado over AI Act.",
+              "to": "Draft Feb 2025; final Risk Management Framework Aug 2025, renamed Frontier AI Framework Dec 2025; current edition effective 30 Jun 2026. Thinner than peers. xAI suing Colorado over AI Act."
+            },
+            {
+              "op": "set_field",
+              "entity": "xai-rmf",
+              "field": "context",
+              "from": "Quantitative-benchmark approach to capability evaluation (chosen benchmarks rather than red-lined capability thresholds), with internal review processes. Independent reviews of frontier risk-management frameworks have flagged the narrow scope of risk tolerances and limited halting commitments as gaps. xAI's litigation against Colorado SB 24-205 makes it the most visible lab opponent of state-level AI regulation in the US.",
+              "to": "Earlier editions set benchmark-based acceptance criteria (e.g. answering under 1 in 20 restricted bio/chem queries; MASK dishonesty under 1 in 2); the 30 Jun 2026 edition is restructured along the EU GPAI Code's Safety and Security Chapter, covering CBRN, offensive cyber, loss of control and harmful manipulation, and states no numeric criteria. Independent reviews of frontier risk-management frameworks have flagged the narrow scope of risk tolerances and limited halting commitments as gaps. xAI's litigation against Colorado SB 24-205 makes it the most visible lab opponent of state-level AI regulation in the US."
+            },
+            {
+              "op": "set_cov",
+              "entity": "xai-rmf",
+              "cat": "thresh",
+              "from": "Quantitative-benchmark approach — emphasises specific benchmark scores (e.g., bio/chem answer rates) rather than red-lined capability thresholds. Independent reviews of frontier risk-management frameworks have flagged the narrow scope and absence of well-defined risk tolerances as gaps.",
+              "to": "Risk acceptance by reviewing systemic-risk tiers per domain (CBRN, offensive cyber, loss of control, harmful manipulation) using public and internal benchmarks; the Jun 2026 edition states no numeric criteria, where earlier editions set benchmark limits such as answering under 1 in 20 restricted bio/chem queries. Independent reviews of frontier risk-management frameworks have flagged the narrow scope and absence of well-defined risk tolerances as gaps."
+            },
+            {
+              "op": "set_cov",
+              "entity": "xai-rmf",
+              "cat": "timing",
+              "from": "Pre-deployment evaluation only; ongoing monitoring or re-evaluation triggers not heavily specified. Less comprehensive lifecycle coverage than peers.",
+              "to": "Risk management across the model lifecycle, including post-market monitoring; a full systemic risk assessment at least yearly, with smaller evaluations at triggers such as an updated model, a serious incident or materially increased risk."
+            },
+            {
+              "op": "set_cov",
+              "entity": "xai-rmf",
+              "cat": "halt",
+              "from": "Limited halting commitments — independent analyses have flagged the absence of clear pause triggers. Distinguishes xAI from Meta's explicit critical-risk halt.",
+              "to": "Commits to proceed with development, market release or use only if systemic risks are determined acceptable, and may temporarily shut down a system during an incident; defines no capability-specific pause triggers. Independent analyses have flagged the absence of clear pause triggers."
+            },
+            {
+              "op": "set_cov",
+              "entity": "xai-rmf",
+              "cat": "update",
+              "from": "Framework released after delay (Feb 2025); revision schedule not publicly committed.",
+              "to": "Draft Feb 2025 promised an update within three months; final RMF Aug 2025, renamed Frontier AI Framework Dec 2025 and revised again Jun 2026 without a published change log. Commits to periodic review."
+            }
+          ],
+          "why": "The entry dates xAI's framework to February 2025 (a draft) and describes only its benchmark-threshold approach. xAI has since issued three editions; the current one (effective 30 Jun 2026) follows the EU Code's Safety and Security Chapter, adds lifecycle and annual-assessment commitments, and drops the numeric criteria. The halt note also compares xAI with a Meta \"critical-risk halt\" that Meta revised in April 2026.",
+          "rationale": "The four xAI PDFs (Feb 2025 draft, Aug 2025 RMF, Dec 2025 FAIF, Jun 2026 FAIF) and the x.ai/safety page show the sequence and current text; the DOJ press release confirms xAI sued over SB24-205 on 9 Apr 2026.",
+          "evidence": [
+            {
+              "source": "S-0066",
+              "passage": "S-0066#3",
+              "stance": "supports",
+              "supports": "draft"
+            },
+            {
+              "source": "S-0066",
+              "passage": "S-0066#4",
+              "stance": "supports",
+              "supports": "update promised within three months"
+            },
+            {
+              "source": "S-0066",
+              "passage": "S-0066#5",
+              "stance": "supports",
+              "supports": "draft dated 20 Feb 2025"
+            },
+            {
+              "source": "S-0067",
+              "passage": "S-0067#2",
+              "stance": "supports",
+              "supports": "final RMF Aug 2025"
+            },
+            {
+              "source": "S-0067",
+              "passage": "S-0067#3",
+              "stance": "supports",
+              "supports": "MASK criterion"
+            },
+            {
+              "source": "S-0109",
+              "passage": "S-0109#1",
+              "stance": "supports",
+              "supports": "Dec 2025 FAIF"
+            },
+            {
+              "source": "S-0109",
+              "passage": "S-0109#3",
+              "stance": "supports",
+              "supports": "bio/chem criterion"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#1",
+              "stance": "supports",
+              "supports": "current edition 30 Jun 2026"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#2",
+              "stance": "supports",
+              "supports": "four domains"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#3",
+              "stance": "supports",
+              "supports": "EU Code structure"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#7",
+              "stance": "supports",
+              "supports": "risk tiers"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#16",
+              "stance": "supports",
+              "supports": "no numeric criteria; no change log"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#4",
+              "stance": "supports",
+              "supports": "lifecycle"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#5",
+              "stance": "supports",
+              "supports": "yearly assessment"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#6",
+              "stance": "supports",
+              "supports": "trigger points"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#8",
+              "stance": "supports",
+              "supports": "proceed-only-if-acceptable commitment"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#9",
+              "stance": "supports",
+              "supports": "incident shutdown"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#14",
+              "stance": "supports",
+              "supports": "periodic review"
+            },
+            {
+              "source": "S-0110",
+              "passage": "S-0110#2",
+              "stance": "supports",
+              "supports": "site links the Jun 2026 edition"
+            },
+            {
+              "source": "S-0111",
+              "passage": "S-0111#1",
+              "stance": "supports",
+              "supports": "xAI sued 9 Apr 2026"
+            },
+            {
+              "source": "S-0111",
+              "passage": "S-0111#2",
+              "stance": "supports",
+              "supports": "statute is SB24-205"
+            }
+          ],
+          "uncertainty": "\"Thinner than peers\", the independent-review sentences and \"most visible lab opponent\" are carried over and not checked. The Dec 2025 edition said it complies with the TFAIA; the Jun 2026 edition does not mention the TFAIA — recorded here, not interpreted. The litigation was reportedly stayed in late April 2026 (secondary sources only).",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:xai-rmf:cov:eval": "unresolved (comparative)",
+            "entry:xai-rmf:cov:acct": "unresolved (comparative)"
+          },
+          "unverified_carryover": [
+            "\"Thinner than peers\" (analytic)",
+            "\"Independent reviews of frontier risk-management frameworks have flagged …\" sentences (secondary claims, not checked)",
+            "\"most visible lab opponent of state-level AI regulation in the US\" (analytic)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:us-preempt:desc",
+            "entry:ca-sb53:cov:thresh",
+            "entry:co-aia:context",
+            "entry:gpai-cop:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:halt",
+            "entry:caisi:context",
+            "entry:caisi:cov:eval",
+            "entry:cais:context",
+            "edge:seoul-commit|xai-rmf",
+            "edge:gpai-cop|xai-rmf",
+            "faq:which-ai-labs-have-published-frontier-safety-fra"
+          ],
+          "hash": "875995b9d69d"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0042",
+      "fingerprint": "1f4db3f9f66f",
+      "targets": [
+        "entry:xai-rmf"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:25:21Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Rename the xAI entry to its current title",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "xai-rmf",
+              "field": "name",
+              "from": "xAI Risk Mgmt Framework",
+              "to": "xAI Frontier AI Framework"
+            }
+          ],
+          "why": "xAI renamed its Risk Management Framework the Frontier Artificial Intelligence Framework in December 2025, and x.ai/safety links only the \"Frontier AI Framework\".",
+          "rationale": "The Dec 2025 and Jun 2026 editions are titled \"xAI Frontier Artificial Intelligence Framework\" and call themselves the FAIF; the site links that document.",
+          "evidence": [
+            {
+              "source": "S-0108",
+              "passage": "S-0108#1",
+              "stance": "supports",
+              "supports": "current titled edition"
+            },
+            {
+              "source": "S-0109",
+              "passage": "S-0109#1",
+              "stance": "supports",
+              "supports": "renamed edition Dec 2025"
+            },
+            {
+              "source": "S-0110",
+              "passage": "S-0110#1",
+              "stance": "supports",
+              "supports": "site calls it the Frontier AI Framework"
+            }
+          ],
+          "uncertainty": "Naming only; entity id xai-rmf can stay.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:us-preempt:desc",
+            "entry:ca-sb53:cov:thresh",
+            "entry:co-aia:context",
+            "entry:gpai-cop:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:halt",
+            "entry:caisi:context",
+            "entry:caisi:cov:eval",
+            "entry:cais:context",
+            "edge:seoul-commit|xai-rmf",
+            "edge:gpai-cop|xai-rmf",
+            "faq:which-ai-labs-have-published-frontier-safety-fra"
+          ],
+          "hash": "801c52150b87"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0043",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:25:21Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Should lab compliance frameworks (SB 53 / EU Code) get their own entries?",
+          "kind": "flag",
+          "changes": [],
+          "why": "These documents are legally binding under SB 53 in a way the voluntary frameworks are not, which bears on pow and on the ca-sb53 connections.",
+          "rationale": "Primary texts show the dual-document pattern at OpenAI; Anthropic's FCF was recorded earlier today.",
+          "evidence": [
+            {
+              "source": "S-0100",
+              "passage": "S-0100#1",
+              "stance": "supports",
+              "supports": "FGF is OpenAI's TFAIA framework"
+            },
+            {
+              "source": "S-0100",
+              "passage": "S-0100#3",
+              "stance": "supports",
+              "supports": "FGF is separate from the PF"
+            },
+            {
+              "source": "S-0109",
+              "passage": "S-0109#2",
+              "stance": "supports",
+              "supports": "xAI Dec 2025 TFAIA claim"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#16",
+              "stance": "supports",
+              "supports": "Jun 2026 edition silent on TFAIA"
+            },
+            {
+              "source": "S-0116",
+              "passage": "S-0116#1",
+              "stance": "supports",
+              "supports": "Microsoft names SB 53 and RAISE"
+            }
+          ],
+          "uncertainty": "Classification choice for the maintainer.",
+          "confidence": "medium",
+          "question": "OpenAI (Frontier Governance Framework, May 2026) and Anthropic (Frontier Compliance Framework) now publish compliance documents that are their statutory TFAIA frameworks and EU Code summaries, separate from their safety frameworks; xAI's Dec 2025 edition claimed TFAIA compliance but its Jun 2026 edition does not mention it; Microsoft's Feb 2026 framework names SB 53 and RAISE. Options: (a) keep noting them in each L6 entry's context (current practice); (b) add them as separate L6 entries; (c) add one cross-lab note under ca-sb53. Recommendation: (a) for now, revisit when RAISE applies (Jan 2027).",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
         }
       ],
       "decision": {
