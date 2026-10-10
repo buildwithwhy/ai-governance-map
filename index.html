@@ -142,7 +142,7 @@
       "name": "What does the EU AI Office do?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI obligations — a centralised role unique within EU regulatory architecture. It can request models from providers, order recalls, impose fines up to €35M or 7% of global revenue, and runs the Scientific Panel of independent experts advising on systemic risk. Full enforcement powers activate in August 2026."
+        "text": "The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI obligations — a centralised role unique within EU regulatory architecture. It can request models from providers, order recalls, fine GPAI providers up to €15M or 3% of global revenue, and runs the Scientific Panel of independent experts advising on systemic risk. Its enforcement powers have applied since August 2026."
       }
     },
     {
@@ -150,7 +150,7 @@
       "name": "Which AI labs have published frontier safety frameworks?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Five major labs have published frontier safety frameworks at Layer 6 of this map: Anthropic (Responsible Scaling Policy, with AI Safety Levels), OpenAI (Preparedness Framework, with a category × level matrix across cyber, CBRN, autonomy, and persuasion), Google DeepMind (Frontier Safety Framework, with Critical Capability Levels), Meta (Frontier AI Framework, with high/critical-risk tiers), and xAI (Risk Management Framework, with quantitative benchmarks). All are voluntary and revisable by the lab itself."
+        "text": "Five major labs have published frontier safety frameworks at Layer 6 of this map: Anthropic (Responsible Scaling Policy, with capability thresholds and periodic Risk Reports), OpenAI (Preparedness Framework, with a category × level matrix across cyber, CBRN, autonomy, and persuasion), Google DeepMind (Frontier Safety Framework, with Critical Capability Levels), Meta (Frontier AI Framework, with high/critical-risk tiers), and xAI (Risk Management Framework, with quantitative benchmarks). All are voluntary and revisable by the lab itself."
       }
     },
     {
@@ -365,7 +365,7 @@
 
   <div class="topbar">
     <span>By Yuyu Shen · <a href="https://buildwithwhy.com" target="_blank" rel="author noopener noreferrer">buildwithwhy.com</a></span>
-    <span><span class="share-wrapper"><button class="topbar-action" data-action="share" type="button" aria-haspopup="menu" aria-expanded="false">Share</button><div class="share-menu" id="share-menu" role="menu" hidden></div></span> · <button class="topbar-action" data-action="copy-link" type="button">Copy link</button> · Updated <time datetime="2026-10-10">10 October 2026</time></span>
+    <span><span class="share-wrapper"><button class="topbar-action" data-action="share" type="button" aria-haspopup="menu" aria-expanded="false">Share</button><div class="share-menu" id="share-menu" role="menu" hidden></div></span> · <button class="topbar-action" data-action="copy-link" type="button">Copy link</button> · Content updated <time datetime="2026-10-10">10 October 2026</time></span>
   </div>
 
   <header class="hero">
@@ -546,7 +546,7 @@ const ENTITIES = [
     } },
 
   { id: 'eu-aia', link: 'https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng', name: 'EU AI Act', layer: 2, jur: 'eu', pow: 4, status: 'phasing',
-    desc: 'In force Aug 2024. GPAI obligations Aug 2025. Most provisions apply Aug 2026; high-risk system rules Aug 2027. Penalties up to €35M or 7% global revenue.',
+    desc: 'In force Aug 2024. GPAI obligations Aug 2025. Most provisions apply Aug 2026; the 2026 Digital Omnibus (Reg. 2026/1744) moved high-risk rules to Dec 2027 (Annex III) and Aug 2028 (Annex I). Penalties up to €35M or 7% global revenue.',
     context: "Tiers AI by risk: prohibited practices, high-risk systems (conformity assessments, fundamental-rights impact assessments, registration), and GPAI models (transparency, copyright). GPAI above 10²⁵ FLOPs faces additional systemic-risk obligations — evaluations, incident reporting, cybersecurity. Its 10²⁵ threshold is lower than the 10²⁶ used by recent US state laws, so more models fall into systemic-risk obligations under EU rules than under California's.",
     cov: {
       thresh: "GPAI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face additional obligations. Lower than the 10²⁶ used by California SB 53 and NY RAISE — more EU models meet the threshold than US-state ones.",
@@ -555,7 +555,7 @@ const ENTITIES = [
       timing: "Both pre-market obligations (conformity assessments for high-risk; transparency for GPAI) and post-market monitoring duties under the AI Office. The first regulation to formally split the lifecycle this way.",
       sec: "Cybersecurity protections for model weights are mandatory for systemic-risk GPAI under Article 55. Implementation detail is delegated to the Code of Practice and harmonised standards.",
       mit: "A layered set of obligations: prohibited practices (banned), high-risk obligations (impact assessments, registration), GPAI duties (transparency, content marking), and additional systemic-risk mitigations. The most comprehensive deployment-mitigation regime in any binding instrument.",
-      acct: "Mandatory incident reporting to the EU AI Office for systemic-risk GPAI; market-surveillance authorities handle high-risk systems. The Office can request models, order recalls, and impose fines up to €35M / 7% global revenue.",
+      acct: "Mandatory incident reporting to the EU AI Office for systemic-risk GPAI; market-surveillance authorities handle high-risk systems. The Office can request models, order recalls, and fine GPAI providers up to €15M / 3% global revenue.",
       update: "The Code of Practice and harmonised standards are revisable as the field changes; the underlying regulation is amendable through ordinary EU legislative procedure (slower)."
     } },
   { id: 'us-eo14179', link: 'https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence', name: 'US EO 14179', layer: 2, jur: 'us', pow: 3, status: 'active',
@@ -574,13 +574,13 @@ const ENTITIES = [
     cov: {
       acct: "DOJ AI Litigation Task Force is empowered to challenge state AI laws as Commerce Clause violations or as preempted by federal law. Accountability here is restraint of state-level oversight rather than substantive frontier-AI accountability."
     } },
-  { id: 'us-frontier-access-eo', link: 'https://www.npr.org/2026/06/02/nx-s1-5844347/ai-safety-trump-executive-order', name: 'US Frontier AI Access EO', layer: 2, jur: 'us', pow: 3, status: 'active',
-    desc: 'EO signed June 2, 2026. Directs federal agencies to establish a framework for voluntary pre-release access (up to 30 days) by frontier-model developers for national-security review.',
-    context: "Marks a notable shift in the Trump administration's posture — from deregulation (EO 14179) and state preemption (EO 14365) toward asking for federal access to pre-release frontier models. The 30-day voluntary window mirrors the access agreements UK AISI uses; CAISI is positioned to administer reviews. Whether the framework results in a meaningful national-security review process or remains nominal will depend on developer participation.",
+  { id: 'us-frontier-access-eo', link: 'https://www.federalregister.gov/documents/2026/06/05/2026-11415/promoting-advanced-artificial-intelligence-innovation-and-security', name: 'US Frontier AI Access EO', layer: 2, jur: 'us', pow: 3, status: 'active',
+    desc: 'EO 14409, signed June 2, 2026. Directs Treasury, NSA and CISA to design a voluntary framework under which developers may give the government access to \'covered frontier models\' (designated by the NSA Director via a classified cyber benchmark) for up to 30 days before release to other trusted partners. Rules out mandatory licensing or preclearance.',
+    context: "Marks a notable shift in the Trump administration's posture — from deregulation (EO 14179) and state preemption (EO 14365) toward asking for federal access to pre-release frontier models, though the order itself is scoped to cyber capabilities and rejects 'overly burdensome regulation'. The 30-day voluntary window mirrors the access agreements UK AISI uses. NSA, Treasury and CISA lead; CAISI is not named and NIST is only consulted. Whether the framework results in meaningful federal access will depend on developer participation.",
     cov: {
-      eval: "Pre-release access (up to 30 days) could enable systematic federal evaluation of frontier models if developers participate.",
-      timing: "30-day pre-release window; voluntary participation.",
-      acct: "Federal review mechanism for national-security risks. Departs from prior administration's deregulatory-only posture."
+      eval: "Voluntary early access (up to 30 days) to models the NSA designates through a classified cyber-capability benchmark; scoped to cyber capabilities, not general safety evaluation.",
+      timing: "Benchmark and framework due within 60 days of the order; access window up to 30 days before release to other trusted partners; participation voluntary.",
+      acct: "Creates no approval or preclearance power (§3(c)) and no enforceable rights (§5(c)). Also directs a Treasury-led AI cybersecurity clearinghouse and a DOJ enforcement priority on AI-enabled computer crime."
     } },
   { id: 'cn-genai', link: 'https://www.chinalawtranslate.com/en/generative-ai-interim/', name: 'China GenAI Measures', layer: 2, jur: 'cn', pow: 4, status: 'active',
     desc: 'CAC Interim Measures for Generative AI (Aug 2023). Binding, with concrete enforcement.',
@@ -590,14 +590,14 @@ const ENTITIES = [
       mit: "Content moderation aligned with Chinese law (including political-content rules), training-data security assessment, and labelling of AI-generated outputs are required. Concrete deployment rules with active enforcement — multiple firms have had services suspended.",
       acct: "Algorithm registration with the Cyberspace Administration is mandatory before public deployment. The CAC maintains a public registry of approved algorithms; foreign-trained models can serve Chinese users only via licensed domestic intermediaries."
     } },
-  { id: 'cn-ai-law', name: 'China AI Law', layer: 2, jur: 'cn', pow: 2, status: 'proposed',
-    desc: 'Comprehensive AI law in drafting at NPC. Compute thresholds debated.',
-    context: "Would consolidate the patchwork of CAC measures (recommendation algorithms, deep synthesis, generative AI) into a single statute; competing proposals from MOST and CAIC have circulated. The 2025 NPC plan dropped it from preparatory items, so near-term action looks unlikely; in the meantime China is regulating frontier issues through narrower instruments — cybersecurity-law amendments, draft rules on humanlike interactive AI.",
+  { id: 'cn-ai-law', link: 'http://www.npc.gov.cn/npc/c2/c30834/202605/P020260511309265804880.pdf', name: 'China AI Law', layer: 2, jur: 'cn', pow: 2, status: 'proposed',
+    desc: 'Comprehensive AI legislation at the planning stage: an unscheduled preparatory item in the NPC Standing Committee\'s 2025 and 2026 legislative plans; the State Council\'s 2026 plan calls for accelerating it. No draft has been submitted.',
+    context: "Could consolidate the patchwork of CAC measures (recommendation algorithms, deep synthesis, generative AI) into a single statute. The State Council dropped a named AI Law draft from its 2025 plan, then in May 2026 called for accelerating 'comprehensive legislation'; MOST-led drafting of a framework text was under way in late 2025. In the meantime China regulates frontier issues through narrower instruments — a Cybersecurity Law AI article (in force Jan 2026) and CAC rules on humanlike interactive AI (in force Jul 2026).",
     cov: {
-      thresh: "Compute thresholds have featured in competing draft proposals from MOST and CAIC; the eventual statute is expected to set capability or compute thresholds, but specifics aren't fixed.",
-      eval: "Drafts have signalled risk assessment obligations for high-impact AI systems; details are still being negotiated within the NPC process.",
-      mit: "Drafts have proposed mitigation duties layered on top of the existing CAC measures, but specifics depend on which competing proposal prevails.",
-      acct: "Drafts envisage centralised oversight expansion — consolidating algorithm registration, deep-synthesis rules, and generative-AI rules under one statute. Whether this strengthens or duplicates current CAC powers is open."
+      thresh: "No official draft has been published, so thresholds are not yet defined.",
+      eval: "No official draft has been published, so evaluation duties are not yet defined.",
+      mit: "No official draft has been published, so mitigation duties are not yet defined.",
+      acct: "No official draft has been published, so the oversight structure is not yet defined. Drafting is ministry-led (MOST and others) ahead of any NPC Standing Committee reading."
     } },
   { id: 'uk-bill', link: 'https://bills.parliament.uk/bills/3942', name: 'UK AI Bill', layer: 2, jur: 'uk', pow: 2, status: 'proposed',
     desc: 'Labour government has signalled binding rules; bill has slipped repeatedly.',
@@ -688,9 +688,9 @@ const ENTITIES = [
       eval: "Required for systemic-risk GPAI models; methodology specified in the code with reference to state-of-the-art evaluation practices. Functions as the operational bridge between EU AI Act language and lab implementation.",
       elicit: "Red-teaming and adversarial testing are mandated by the safety chapter, including access for external evaluators where appropriate. Among the strongest elicitation requirements in any non-binding instrument.",
       sec: "Model security obligations cover weight protection, secure deployment infrastructure, and supply-chain controls. Bridges Article 55 of the EU AI Act with concrete operational expectations.",
-      mit: "Deployment mitigations include content marking, refusals, and user-facing transparency. The transparency chapter (separate from safety) governs documentation duties.",
+      mit: "Deployment mitigations include input/output filtering, refusals, and staged access. The transparency chapter (separate from safety) governs documentation duties; marking AI-generated content falls under a separate Article 50 code.",
       halt: "The safety chapter calls for halting conditions tied to systemic-risk thresholds — a rare formal halt-and-pause mechanism in any non-binding instrument.",
-      acct: "Transparency obligations extend to model documentation, training-data summaries, and copyright disclosures. Signatories report annually; non-signatories must demonstrate AI Act compliance through other means.",
+      acct: "Transparency obligations extend to model documentation, training-data summaries, and copyright disclosures. Safety signatories update Model Reports to the AI Office at least every six months for their most capable models; non-signatories must demonstrate AI Act compliance through other means.",
       update: "Periodic Code of Practice revisions handled by independent experts under the AI Office. The Code is the operational layer that updates faster than the underlying regulation."
     } },
   { id: 'fmf', link: 'https://www.frontiermodelforum.org/', name: 'Frontier Model Forum', layer: 5, jur: 'co', pow: 1, status: 'active',
@@ -716,18 +716,18 @@ const ENTITIES = [
     } },
 
   { id: 'rsp', link: 'https://www.anthropic.com/responsible-scaling-policy', name: 'Anthropic RSP', layer: 6, jur: 'co', pow: 1, status: 'active',
-    desc: 'Responsible Scaling Policy (v3.0, Feb 2026). AI Safety Levels. Capability thresholds trigger required safeguards. Updated ~4× since 2023.',
-    context: "Defines AI Safety Levels (ASLs) — currently up to ASL-3 — each tied to specific capability evaluations and mandatory safeguards: weight-security tiers, deployment mitigations, model-autonomy controls. The original published framework that set the template for the field; commitments include not deploying at a given ASL until the corresponding mitigations are in place. Subjected to detailed external scrutiny in EU GPAI Code drafting and California SB 53.",
+    desc: 'Responsible Scaling Policy (v3.4, effective Jul 2026; rewritten as v3.0 in Feb 2026). Maps capability thresholds to Anthropic\'s planned safeguards and to recommended industry-wide safeguards. Revised 8× since v1.0 (Sep 2023).',
+    context: "Since v3.0 (Feb 2026) the policy separates Anthropic's own plans from more ambitious industry-wide recommendations, which Anthropic says it cannot commit to follow unilaterally. ASLs now label only the safeguards kept for current models (ASL-3). It adds a Frontier Safety Roadmap of public goals (not hard commitments) and Risk Reports every 3–6 months. The original published framework that set the template for the field. Anthropic's documents for California SB 53 and the EU GPAI Code are a separate Frontier Compliance Framework; the RSP remains its voluntary policy.",
     cov: {
-      thresh: "AI Safety Levels (ASL-1, 2, 3, currently up to ASL-3) trigger graduated safeguards as capabilities cross specified evaluations. The original published framework that set the threshold-and-tier template; SB 53 codifies the underlying norm.",
-      eval: "Pre-deployment evaluations at each ASL covering CBRN, cyber, autonomous-replication, and AI R&D capabilities. Methodology updated as evaluations mature and external evaluator findings come in.",
+      thresh: "Four capability thresholds (non-novel and novel chemical/biological weapons, misaligned AI in high-stakes settings, automated R&D), each mapped to Anthropic's planned mitigations and to recommended industry-wide mitigations. The original published framework that set the threshold-and-tier template; SB 53 codifies the underlying norm.",
+      eval: "Risk Reports must present capability and alignment evaluations for each threat model, run internally and by external parties as appropriate. Since v3.0 the policy does not pre-specify which evaluations show that a threshold has been crossed.",
       elicit: "Capability elicitation built into evaluation protocols, including adversarial scaffolding, agentic deployment, and external red-teaming. METR and UK AISI participate in elicitation work.",
-      timing: "Evaluations run pre-training, pre-deployment, and during ongoing operation; thresholds re-checked as capabilities scale. Among the most comprehensive timing regimes in any framework.",
-      sec: "Weight-security tier rises with each ASL — ASL-3 mandates substantially stronger protections against insider threat, exfiltration, and supply-chain attacks. Tied directly to the model's capability profile.",
-      mit: "Deployment safeguards by ASL include refusal training, monitoring, abuse detection, and (at higher ASLs) deployment-environment controls. Specific safeguards published for each tier.",
-      halt: "Anthropic commits to pause development or deployment if mitigations are insufficient for the model's ASL. The halting commitment is the most operationally specific in any lab framework.",
-      acct: "Board oversight (Long-Term Benefit Trust); public publication of the framework, evaluation results, and any escalations. Subjected to external scrutiny in EU GPAI Code drafting and California SB 53.",
-      update: "RSP updated ~4× since 2023, formalising new evaluations, refining ASL definitions, and incorporating external evaluator findings. The update cadence itself is part of the published commitment."
+      timing: "Risk Reports every 3–6 months cover all publicly deployed models and certain internally deployed ones. Off-cycle risk analyses are due when a significantly more capable model is publicly deployed, and within 30 days of identifying a higher-risk internal model.",
+      sec: "Anthropic commits to maintain or improve the ASL-3 security controls it applies to current models, and plans 'moonshot' security R&D for the automated R&D threshold. The security roughly in line with RAND SL4 that it recommends industry-wide at higher thresholds is not a unilateral commitment.",
+      mit: "Current ASL-3 deployment protections include classifier guards, access controls for trusted users, red-teaming, bug bounties and threat intelligence. For higher thresholds v3 no longer lists required controls; it recommends that developers make a strong argument that risks are contained.",
+      halt: "Since v3.0, Anthropic commits to delay development and deployment in two competitor-dependent scenarios. If it has a significant lead with a highly capable model, it delays until it has a strong argument that catastrophic risk is contained. If all competitors with such models can make that argument, it delays until it matches their risk-reduction posture. Earlier versions committed not to train or deploy models without adequate safeguards, whatever other developers did. Anthropic says it would strongly consider pausing in other cases too.",
+      acct: "Board oversight (Long-Term Benefit Trust); public publication of the framework, evaluation results, and any escalations. Since v3.0 (Feb 2026) Anthropic commits to publishing redacted Risk Reports every 3–6 months (published Feb and Aug 2026), with external review in certain circumstances; v3.2 (Apr 2026) lets the LTBT request external review and approve the choice of reviewers. Subjected to external scrutiny in EU GPAI Code drafting and California SB 53.",
+      update: "Revised eight times since v1.0 (Sep 2023), most recently v3.4 (Jul 2026); v3.0 (Feb 2026) was a comprehensive rewrite, and later updates revised capability thresholds (v3.3, v3.4) and LTBT oversight (v3.2). Anthropic commits to logging every change on the policy page and in a changelog in the policy document."
     } },
   { id: 'prep', link: 'https://openai.com/index/updating-our-preparedness-framework/', name: 'OpenAI Preparedness', layer: 6, jur: 'co', pow: 1, status: 'active',
     desc: 'Preparedness Framework. Tracked categories (cyber, CBRN, autonomy, persuasion). 2025 revisions tightened bio thresholds.',
@@ -950,12 +950,11 @@ const EDGES = [
   { a: 'coe-ai', b: 'uk-bill', rel: 'CoE Convention shapes UK AI Bill drafting' },
   { a: 'us-eo14179', b: 'us-action', rel: 'EO 14179 ordered the Jul 2025 AI Action Plan' },
   { a: 'us-frontier-access-eo', b: 'us-eo14179', rel: 'Marks shift from prior deregulation-only EO posture' },
-  { a: 'us-frontier-access-eo', b: 'caisi', rel: 'EO designates CAISI to administer national-security reviews' },
   { a: 'us-frontier-access-eo', b: 'uk-aisi', rel: '30-day access model mirrors UK AISI voluntary access agreements' },
   { a: 'us-eo14179', b: 'us-preempt', rel: 'Trump EO sequence — preemption builds on EO 14179' },
   { a: 'us-eo14179', b: 'caisi', rel: 'EO led to AISI rename to CAISI in Jun 2025' },
   { a: 'us-action', b: 'us-preempt', rel: 'Action Plan called for preemption of state laws' },
-  { a: 'cn-genai', b: 'cn-ai-law', rel: 'GenAI Measures will be folded into the AI Law' },
+  { a: 'cn-genai', b: 'cn-ai-law', rel: 'GenAI Measures could be consolidated into a comprehensive AI law' },
   { a: 'uk-bill', b: 'uk-aisi', rel: 'AI Bill would put AISI on a statutory footing' },
   { a: 'us-preempt', b: 'ca-sb53', rel: 'Preemption EO targets SB 53; DOJ task force can challenge' },
   { a: 'us-preempt', b: 'co-aia', rel: 'DOJ intervened in xAI v. Colorado Apr 24, 2026' },
@@ -1014,7 +1013,8 @@ const EDGES = [
   { a: 'imda', b: 'jp-sectors', rel: 'Parallel light-touch sector-driven Asia-Pacific AI governance approach' },
   { a: 'jp-sectors', b: 'jp-ai', rel: 'Sectoral implementation under the AI Promotion Act framework' },
   { a: 'jp-sectors', b: 'hiroshima', rel: "Japan's sectoral approach embeds Hiroshima Process principles" },
-  { a: 'jp-sectors', b: 'other-aisis', rel: "J-AISI is Japan's central institute alongside sectoral ministries" }
+  { a: 'jp-sectors', b: 'other-aisis', rel: "J-AISI is Japan's central institute alongside sectoral ministries" },
+  { a: 'ny-raise', b: 'rsp', rel: 'RAISE requires a published frontier AI framework from Jan 2027; Anthropic says it addresses such requirements with documents including its Frontier Compliance Framework, which is separate from the RSP' }
 ];
 
 const JUR_LABEL = { us:'US Federal', uss:'US State', eu:'European Union', uk:'United Kingdom', cn:'China', as:'Asia-Pacific (other)', mu:'Multilateral', co:'Corporate / global' };

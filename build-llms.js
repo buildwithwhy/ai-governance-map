@@ -43,7 +43,7 @@ full += `By Yuyu Shen\n`;
 full += `Personal site: ${AUTHOR_SITE}\n`;
 full += `Contact: ${AUTHOR_EMAIL}\n`;
 full += `Web version: ${SITE_URL}\n`;
-full += `Updated: ${UPDATED}\n\n`;
+full += `Content updated: ${UPDATED} (entries are re-verified on a rolling basis, not all at once)\n\n`;
 
 full += `## Overview\n\n`;
 full += `An interactive map of frontier AI governance: six layers across the rows, METR's nine common elements as an orthogonal filter. Each mechanism is mapped to its layer (who acts) and to which of METR's elements it covers (what it addresses). The empty cells of the orthogonal coverage view are as informative as the filled ones.\n\n`;
@@ -120,7 +120,7 @@ fs.writeFileSync(path.join(ROOT, 'llms-full.txt'), full);
 // ---- llms.txt --------------------------------------------------------------
 let llms = '';
 llms += `# Frontier AI Governance Map\n\n`;
-llms += `> Interactive map of frontier AI governance covering six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter. ${UPDATED} snapshot; ${ENTITIES.length} mechanisms across the stack with primary-source links, descriptions, and connections.\n\n`;
+llms += `> Interactive map of frontier AI governance covering six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter. content last updated ${UPDATED} (entries are re-verified on a rolling basis, not all at once); ${ENTITIES.length} mechanisms across the stack with primary-source links, descriptions, and connections.\n\n`;
 llms += `By Yuyu Shen\n`;
 llms += `Personal site: ${AUTHOR_SITE}\n`;
 llms += `Contact: ${AUTHOR_EMAIL}\n`;

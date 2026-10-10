@@ -593,11 +593,13 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
+        "status": "accepted",
+        "v": 3,
+        "hash": "d15839389f3d",
         "date": "2026-10-10",
-        "note": "v3: wording changed — needs renewed approval"
+        "note": "Maintainer in conversation, 2026-10-10, on the RSP group: 'Go with your suggestion' (accept P-0005 v3, P-0010 v3 and P-0013 v1 as worded).",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [
         {
@@ -608,9 +610,19 @@
           "note": "Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'",
           "revisit_after": null,
           "edited": false
+        },
+        {
+          "status": "pending",
+          "v": null,
+          "hash": null,
+          "date": "2026-10-10",
+          "note": "v3: wording changed — needs renewed approval"
         }
       ],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-2.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -718,7 +730,10 @@
         "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-2.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "apply_together": [
@@ -821,7 +836,10 @@
         "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-2.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "apply_together": [
@@ -1307,11 +1325,13 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": "2026-10-09",
-        "note": "v2: wording changed — needs renewed approval"
+        "status": "accepted",
+        "v": 3,
+        "hash": "8d3b104ef303",
+        "date": "2026-10-10",
+        "note": "Maintainer in conversation, 2026-10-10: 'Let's do the most accurate based on current information.' Claude judged v3 the most accurate option on current evidence: it states RAISE's requirement from the statute and attributes the compliance route to Anthropic, naming the FCF as separate from the RSP. A more detailed rewording would be a new version needing fresh review.",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [
         {
@@ -1322,9 +1342,19 @@
           "note": "Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'",
           "revisit_after": null,
           "edited": false
+        },
+        {
+          "status": "pending",
+          "v": null,
+          "hash": null,
+          "date": "2026-10-09",
+          "note": "v2: wording changed — needs renewed approval"
         }
       ],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-2.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -1635,14 +1665,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 3,
+        "hash": "92f0d8ad0842",
+        "date": "2026-10-10",
+        "note": "Maintainer in conversation, 2026-10-10, on the RSP group: 'Go with your suggestion' (accept P-0005 v3, P-0010 v3 and P-0013 v1 as worded).",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-2.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -1765,14 +1800,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "0c071f106ecd",
+        "date": "2026-10-10",
+        "note": "Maintainer in conversation, 2026-10-10: '1, yes' (decide P-0012 before merging).",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-2.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "internal-consistency",
         "missing": [],
@@ -1891,14 +1931,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "fbf2ed18a3d5",
+        "date": "2026-10-10",
+        "note": "Maintainer in conversation, 2026-10-10, on the RSP group: 'Go with your suggestion' (accept P-0005 v3, P-0010 v3 and P-0013 v1 as worded).",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-2.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -2086,14 +2131,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "acf23d9552f9",
+        "date": "2026-10-10",
+        "note": "Maintainer in conversation, 2026-10-10: 'Accept your recommendation' (P-0014; remove the CAISI connection, P-0015).",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-2.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -2167,14 +2217,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "17f88ce20310",
+        "date": "2026-10-10",
+        "note": "Maintainer in conversation, 2026-10-10: 'Accept your recommendation' (P-0014; remove the CAISI connection, P-0015).",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-2.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -2305,14 +2360,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "51eb7ca184a5",
+        "date": "2026-10-10",
+        "note": "Maintainer in conversation, 2026-10-10: '5. Agree'.",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-2.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -2433,14 +2493,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "b77b6d4a1d68",
+        "date": "2026-10-10",
+        "note": "Maintainer in conversation, 2026-10-10: '5. Agree'.",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-2.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -2545,14 +2610,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "57c427d2479d",
+        "date": "2026-10-10",
+        "note": "Maintainer in conversation, 2026-10-10: '5. Agree'.",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-2.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -2741,14 +2811,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "abfbe2e7035a",
+        "date": "2026-10-10",
+        "note": "Maintainer in conversation, 2026-10-10: '6. Agree'.",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10-2.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "missing": [],

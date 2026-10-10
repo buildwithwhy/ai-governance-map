@@ -1,6 +1,6 @@
 # Frontier AI Governance Map
 
-> Interactive map of frontier AI governance covering six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter. 10 October 2026 snapshot; 49 mechanisms across the stack with primary-source links, descriptions, and connections.
+> Interactive map of frontier AI governance covering six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter. content last updated 10 October 2026 (entries are re-verified on a rolling basis, not all at once); 49 mechanisms across the stack with primary-source links, descriptions, and connections.
 
 By Yuyu Shen
 Personal site: https://buildwithwhy.com

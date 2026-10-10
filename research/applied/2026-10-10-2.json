@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-10",
+  "base_commit": "8fc834b0a86ba91b278602b80960de10435d2e54",
+  "proposals": [
+    {
+      "id": "P-0005",
+      "v": 3,
+      "hash": "d15839389f3d",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0006",
+      "v": 1,
+      "hash": "abad9e4a9415",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0007",
+      "v": 1,
+      "hash": "43032f62a608",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0009",
+      "v": 3,
+      "hash": "8d3b104ef303",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0010",
+      "v": 3,
+      "hash": "92f0d8ad0842",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0012",
+      "v": 1,
+      "hash": "0c071f106ecd",
+      "evidence_status": "internal-consistency"
+    },
+    {
+      "id": "P-0013",
+      "v": 1,
+      "hash": "fbf2ed18a3d5",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0014",
+      "v": 1,
+      "hash": "acf23d9552f9",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0015",
+      "v": 1,
+      "hash": "17f88ce20310",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0016",
+      "v": 1,
+      "hash": "51eb7ca184a5",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0017",
+      "v": 1,
+      "hash": "b77b6d4a1d68",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0018",
+      "v": 1,
+      "hash": "57c427d2479d",
+      "evidence_status": "verified"
+    },
+    {
+      "id": "P-0019",
+      "v": 1,
+      "hash": "abfbe2e7035a",
+      "evidence_status": "verified"
+    }
+  ]
+}
