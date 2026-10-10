@@ -30,6 +30,7 @@
 //   status PID --status verified|internal-consistency|needs-research|needs-source-access
 //         [--missing "a | b"] [--linked P-x,P-y] [--apply-together P-x,P-y] [--note TEXT]
 //   edit PID FILE.json --note TEXT          maintainer-authored wording; recorded as accepted
+//   choose PID --option KEY --version N [--note TEXT]   apply the drafted option the maintainer picked
 //   note PID --text TEXT                    append a clarification to the recorded decision
 //   list [--status S] | show PID
 //   report RUN                              write research/runs/RUN/report.md
@@ -257,6 +258,16 @@ function knockOn(changes) {
 function makeVersion(input, v, run, author) {
   const changes = input.changes || [];
   if (changes.length) validateChanges(changes);
+  // A question may carry drafted options: [{key, label, changes}], with `recommended` naming one.
+  // Choosing an option (`choose`) applies exactly its changes, so the answer needs no follow-up.
+  const options = input.options && input.options.length ? input.options : null;
+  if (options) {
+    for (const op of options) {
+      if (!op.key || !op.label || !Array.isArray(op.changes)) die('each option needs key, label and changes ([] for "keep as is")');
+      if (op.changes.length) validateChanges(op.changes);
+    }
+    if (input.recommended && !options.some(op => op.key === input.recommended)) die(`recommended option '${input.recommended}' is not among the options`);
+  }
   const db = sources();
   for (const ev of input.evidence || []) {
     if (!ev.source || !db.sources[ev.source]) die(`evidence source must be a registered S-id (got ${ev.source})`);
@@ -269,7 +280,8 @@ function makeVersion(input, v, run, author) {
     uncertainty: input.uncertainty || null, confidence: input.confidence || null,
     question: input.question || null, knock_on_notes: input.knock_on_notes || {},
     unverified_carryover: input.unverified_carryover || [], conflict_resolution: input.conflict_resolution || null,
-    knock_on: knockOn(changes), hash: changeHash(changes),
+    options, recommended: options ? input.recommended || null : null,
+    knock_on: knockOn(changes.length ? changes : (options || []).flatMap(op => op.changes)), hash: options ? changeHash({ changes, options }) : changeHash(changes),
   };
 }
 const latest = p => p.versions[p.versions.length - 1];
@@ -369,6 +381,20 @@ function decide(id, action, o) {
   L.writeJSON(F.ledger, db);
   console.log(`${id} v${cur.v} → ${map[action]}${o.until ? ` (revisit after ${o.until})` : ''}`);
 }
+// The maintainer picked option `o.option` of a question at version `o.version`:
+// record its drafted changes as their edit (accepted), or close the question if
+// the option changes nothing.
+function choose(id, o) {
+  const db = ledger(); const p = getP(db, id); const cur = latest(p);
+  if (Number(o.version) !== cur.v) die(`${id} is now at v${cur.v}; the choice was made for v${o.version}`);
+  const opt = (cur.options || []).find(x => x.key === o.option) || die(`${id} v${cur.v} has no drafted option '${o.option}'`);
+  const note = o.note || `chose option ${opt.key}: ${opt.label}`;
+  if (!opt.changes.length) return decide(id, 'withdraw', { version: cur.v, note: `${note} (no change)` });
+  const f = path.join(require('os').tmpdir(), `choose-${id}-${Date.now()}.json`);
+  fs.writeFileSync(f, JSON.stringify({ title: `${cur.title.replace(/\?$/, '')} — option ${opt.key}: ${opt.label}`, kind: 'change', changes: opt.changes, options: null, recommended: null, question: null,
+    rationale: `${cur.rationale || ''} Maintainer chose option ${opt.key}${cur.recommended === opt.key ? ' (the recommended option)' : ''}.`.trim() }));
+  return edit(id, f, { note });
+}
 function edit(id, file, o) {
   const p0 = getP(ledger(), id);
   const override = evidenceGate(p0, { ...latest(p0), ...L.readJSON(file) }, true, o);
@@ -411,6 +437,7 @@ function renderChange(c, inv) {
   else if (c.op === 'set_edge') cur(`connection \`${c.a}\` ↔ \`${c.b}\``, c.from, c.to);
   else if (c.op === 'add_edge') cur(`new connection \`${c.a}\` ↔ \`${c.b}\``, null, c.rel);
   else if (c.op === 'remove_edge') cur(`remove connection \`${c.a}\` ↔ \`${c.b}\``, inv.byId[`edge:${c.a}|${c.b}`]?.value, null);
+  else if (c.op === 'remove_entity') cur(`remove entry \`${c.entity}\``, c.from, null);
   else if (c.op === 'replace_text') cur(`\`${c.file}\`${c.count > 1 ? ` (${c.count} occurrences)` : ''}`, c.from, c.to);
   else if (c.op === 'add_entity') {
     const e = c.entity;
@@ -701,6 +728,7 @@ function main() {
       L.writeJSON(F.ledger, db); return console.log(`${p.id} decision note: ${p.decision.note}`);
     }
     case 'edit': return edit(pos[0], pos[1], o);
+    case 'choose': return choose(pos[0], o);
     case 'list': {
       for (const p of ledger().proposals.filter(x => !o.status || x.decision.status === o.status)) {
         const v = latest(p); console.log(`${p.id} v${v.v} [${p.decision.status}${p.applied ? ', applied' : ''}] ${v.kind}: ${v.title}`);

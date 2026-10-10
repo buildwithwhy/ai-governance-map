@@ -26,7 +26,7 @@
 | P-0084 | v2 | change | Colorado Division of Insurance: keep on the map, and say plainly that it regulates insurers, not AI model developers | verified |
 | P-0086 | v2 | change | Japan sectoral AI regulators: keep, anchored on the MIC/METI AI Guidelines for Business | verified |
 | P-0097 | v2 | change | EU AI Act: add a halt note for the AI Office's power to restrict, withdraw or recall a GPAI model (Art. 93(1)(c)) | verified |
-| P-0101 | v2 | question | UK AI Bill: remove the entry, or keep it marked as a lapsed commitment? | verified |
+| P-0101 | v3 | question | UK AI Bill: remove the entry, or keep it as a lapsed commitment? | verified |
 | P-0120 | v1 | change | FAQ 'Which AI laws are binding with penalties?': update for Colorado and Texas (pow 4) and the Illinois Act | verified |
 
 Reply in conversation, e.g. “accept P-0002 v2”, “edit P-0011: …”, “reject P-0012 — reason”, “defer …”. Decisions bind to the version shown. Full details in §1.
@@ -325,17 +325,17 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 
 ---
 
-### P-0101 v2 — UK AI Bill: remove the entry, or keep it marked as a lapsed commitment?
+### P-0101 v3 — UK AI Bill: remove the entry, or keep it as a lapsed commitment?
 
-`question` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: medium · change-hash `4f53cda18c2b`
+`question` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: medium · change-hash `4e56a494e697`
 
-_Revised from v1: same change wording, so an existing approval carries over._
+_Revised from v2: wording changed, so it needs a fresh decision._
 
-**Question for you:** You chose the recommendation, which was conditional: (c) remove the entry if the inclusion rule is applied strictly. Please confirm one: (a) remove the entry and its four connections (CoE Convention, UK AISI, Ofcom, ICO), moving a one-line history into the UK AISI entry; I would add a remove-entry operation to the tools and show you the exact edits; (b) keep it, with status 'revoked' (withdrawn), and rewrite its context and notes as a lapsed 2024 commitment.
+**Question for you:** No government bill or consultation text was ever published, and the May 2026 King's Speech announced none. Choose: (a) remove the entry and its four connections, adding a one-line history to the UK AISI entry; (b) keep it, marked withdrawn (status 'revoked'), with its context and notes rewritten as a lapsed 2024 commitment, the speculative 'would clarify' connections removed and the AISI connection reworded.
 
 **Why it matters:** The entry presents an inactive, textless proposal as a live bill.
 
-**Reasoning:** Removal is the stricter reading of RUBRIC §1 (no bill or consultation text was ever published). Keeping it as withdrawn preserves the history for readers who look for it. The four connections all say what the bill 'would' do, so either option changes them.
+**Reasoning:** (a) applies RUBRIC §1 strictly: a proposed law needs a formally introduced bill or a programme with public text or consultation, and there is neither. (b) keeps the history visible as its own entry. Both remove the unverified 'would clarify' connections; under (b) the AISI connection is reworded as an expectation. Evidence: King's Speech 2024 (S-0286#1), King's Speech 2026 and briefing notes (S-0287#2, S-0288#2), and Lord Holmes's private member's bill stalled at first reading (S-0282#2, S-0283#2).
 
 **Evidence**
 
@@ -343,20 +343,49 @@ _Revised from v1: same change wording, so an existing approval carries over._
   primary · retrieved 2026-10-10 · access: ok · published 2024-07-17
   speech text:
   > It will seek to establish the appropriate legislation to place requirements on those working to develop the most powerful artificial intelligence models.
+  _Supports:_ 2024 promise
 - **S-0287** The King's Speech 2026 (13 May 2026) — <https://www.gov.uk/government/speeches/the-kings-speech-2026>
   primary · retrieved 2026-10-10 · access: ok · published 2026-05-13
   whole speech:
   > [Observation, not a quotation] Searched the speech for 'artificial intelligence', 'AI' and 'AI Security Institute': none appear; no AI bill is announced.
+  _Supports:_ no AI bill in the 2026 speech
 - **S-0288** The King's Speech 2026: background briefing notes — <https://assets.publishing.service.gov.uk/media/6a18713db95db968c8f3bbfd/The_King_s_Speech_2026_-_background_briefing_notes.pdf>
   primary · retrieved 2026-10-10 · access: ok · published 2026-05-28
   whole document:
   > [Observation, not a quotation] Searched the briefing notes for a frontier-AI or AI Security Institute bill: none is listed. AI appears in the Regulating for Growth Bill (sandboxes) and in background to the cyber bill.
-- **S-0289** UK Parliament Bills API: search 'artificial intelligence' — <https://bills-api.parliament.uk/api/v1/Bills?SearchTerm=artificial%20intelligence&SortOrder=DateUpdatedDescending&Take=30>
+  _Supports:_ no frontier-AI bill in the briefing notes
+- **S-0282** UK Parliament Bills API: Artificial Intelligence (Regulation) Bill [HL] (bill 3942) — <https://bills-api.parliament.uk/api/v1/Bills/3942>
+  primary · retrieved 2026-10-10 · access: ok · published 2025-03-04
+  sponsors:
+  > Lord Holmes of Richmond
+  _Supports:_ the linked bill was a private member's bill
+- **S-0283** UK Parliament Bills API: stages of bill 3942 — <https://bills-api.parliament.uk/api/v1/Bills/3942/Stages>
   primary · retrieved 2026-10-10 · access: ok
-  totalResults:
-  > "totalResults":3
+  items[0]:
+  > "description":"1st reading","abbreviation":"1R","house":"Lords"
+  _Supports:_ it stalled at first reading
 
-**Uncertainty:** Inclusion is the maintainer's call.
+**Uncertainty:** Removing the entry lowers the mechanism count by one; the derived counts update automatically.
+
+**May need reconsideration if accepted**
+
+- `edge:coe-ai|eu-aia`: CoE Convention is the international treaty layer above EU AI Act
+- `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
+- `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
+- `edge:aisi-net|uk-aisi`: UK AISI is a founding network member
+- `edge:us-frontier-access-eo|uk-aisi`: 30-day access model mirrors UK AISI voluntary access agreements
+- `edge:uk-aisi|rsp`: UK AISI tested Anthropic models pre-deployment
+- `edge:uk-aisi|prep`: UK AISI tested OpenAI models pre-deployment
+- `edge:uk-aisi|fsf`: UK AISI tested DeepMind models pre-deployment
+- `edge:uk-ofcom|uk-aisi`: Complementary UK AI institutions — Ofcom on content, AISI on capabilities
+- `edge:uk-ico|uk-aisi`: Complementary UK AI regulators — ICO on data, AISI on capabilities
+- `gap:elicit`: Capability elicitation sits with evaluators, not regulators — Almost no statute requires it: the EU AI Act does only indirectly, through adversarial-testing language, while the no…
+- `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
+- `edge:uk-ofcom|au-esafety`: Parallel online-safety regulators with AI-specific authority
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
+- `edge:uk-ico|eu-aia`: UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards
+- Entry text that mentions the affected entries: `entry:us-frontier-access-eo:context`, `entry:rsp:cov:elicit`, `entry:prep:cov:eval`, `entry:fsf:cov:eval`
 
 ---
 

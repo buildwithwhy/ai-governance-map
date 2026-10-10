@@ -226,7 +226,18 @@ function validate(file) {
     evOk(p.evidence, w);
     if (p.conflict_resolution) evOk(p.conflict_resolution.evidence, `${w} resolution`);
     if ((p.changes || []).length) { try { Rz.validateChanges(p.changes); } catch (e) { errs.push(`${w}: ${e.message}`); } }
-    else if (!p.question) errs.push(`${w}: a proposal without changes must ask a question`);
+    else {
+      // A question must be answerable in one step: drafted options, each with its exact edits, and a recommendation.
+      if (!p.question) errs.push(`${w}: a proposal without changes must ask a question`);
+      const opts = p.options || [];
+      if (opts.length < 2) errs.push(`${w}: a question needs at least two drafted options [{key, label, changes}] ("keep as is" = changes [])`);
+      for (const op of opts) {
+        if (!op.key || !op.label || !Array.isArray(op.changes)) errs.push(`${w}: option needs key, label and changes`);
+        else if (op.changes.length) { try { Rz.validateChanges(op.changes); } catch (e) { errs.push(`${w} option ${op.key}: ${e.message}`); } }
+      }
+      if (!p.recommended || !opts.some(op => op.key === p.recommended)) errs.push(`${w}: name the recommended option in "recommended"`);
+    }
+    if ((p.linked || []).length && !(p.changes || []).length && !(p.options || []).length) warns.push(`${w}: linked but carries no edits`);
   }
   const OUT = ['changed', 'no_change', 'unresolved', 'inaccessible'];
   for (const c of batch.checks || []) {

@@ -26,6 +26,7 @@ function changeLabel(c) {
   if (c.op === 'add_edge') return [`${c.a} ↔ ${c.b}`, 'new connection'];
   if (c.op === 'remove_edge') return [`${c.a} ↔ ${c.b}`, 'remove connection'];
   if (c.op === 'replace_text') return [c.file, c.count > 1 ? `page text (${c.count}×)` : 'page text'];
+  if (c.op === 'remove_entity') return [c.entity, 'remove entry'];
   return [c.entity?.id || '', c.op];
 }
 function renderChange(c, inv) {
@@ -38,7 +39,7 @@ function renderChange(c, inv) {
   }
   const [target, what] = changeLabel(c);
   const from = c.op === 'remove_edge' ? inv.byId[`edge:${c.a}|${c.b}`]?.value ?? c.from : c.op === 'add_edge' ? null : c.from;
-  const to = c.op === 'add_edge' ? c.rel : c.op === 'remove_edge' ? null : c.to;
+  const to = c.op === 'add_edge' ? c.rel : ['remove_edge', 'remove_entity'].includes(c.op) ? null : c.to;
   return `<div class="change"><div class="change-head"><code>${esc(target)}</code><span>${esc(what)}</span></div>
     <div class="diff"><div class="was"><span class="diff-label">Now</span>${from == null || from === '' ? '<p class="absent">(absent)</p>' : `<p>${esc(fmtVal(from))}</p>`}</div>
     <div class="will"><span class="diff-label">Proposed</span>${to == null ? '<p class="absent">(removed)</p>' : `<p>${esc(fmtVal(to))}</p>`}</div></div></div>`;
@@ -60,7 +61,8 @@ function renderEvidence(ev, db) {
 // read back by Claude with the ArtifactData tool (RUNBOOK §5).
 function respondForm(p, v) {
   const letters = v.changes.length ? [] : [...new Set([...(v.question || '').matchAll(/\(([a-e])\)/g)].map(m => m[1]))];
-  const choices = v.changes.length
+  const choices = v.options ? [...v.options.map(op => [`option-${op.key}`, `Option ${op.key}: ${op.label}${v.recommended === op.key ? ' (recommended)' : ''}`]), ['other', 'Other answer'], ['defer', 'Defer']]
+    : v.changes.length
     ? [['accept', 'Yes, accept'], ['accept-with-changes', 'Accept with changes'], ['reject', 'Reject'], ['defer', 'Defer'], ['other', 'Other']]
     : [...letters.map(l => [`option-${l}`, `Option ${l}`]), ...(/recommend/i.test(`${v.question || ''} ${v.rationale || ''}`) ? [['recommendation', 'Go with your recommendation']] : []), ['other', 'Other answer'], ['defer', 'Defer']];
   const key = `${p.id}-v${v.v}`;
@@ -105,6 +107,7 @@ function renderProposal(p, inv, db, ctx) {
     <p class="status-line">${esc(decided)}${p.applied ? ` · applied ${esc(p.applied.date)} (${esc(p.applied.manifest.split('/').pop())})` : ''}</p>
     ${v.question ? `<p class="question"><strong>Question for you:</strong> ${md(v.question)}</p>` : ''}
     ${ctx.reply && changeHtml ? `<div class="prop-change">${changeHtml}</div>` : ''}
+    ${ctx.reply && v.options ? `<div class="prop-change"><h4>Options</h4>${v.options.map(op => `<div class="opt"><p class="opt-head"><strong>Option ${esc(op.key)}</strong> ${md(op.label)}${v.recommended === op.key ? ' <span class="chip chip-good">recommended</span>' : ''}</p>${op.changes.length ? op.changes.map(c => renderChange(c, inv)).join('') : '<p class="small muted">No change to the map.</p>'}</div>`).join('')}</div>` : ''}
     ${ctx.reply ? respondForm(p, v) : ''}
     <details${ctx.open ? ' open' : ''}><summary>${ctx.reply ? 'Why, evidence and sources' : 'Details, evidence and exact wording'}</summary><div class="prop-body">${parts.join('')}</div></details>
   </article>`;
@@ -318,6 +321,9 @@ button:disabled, textarea:disabled { cursor: not-allowed; }
 .todo-groups { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
 .todo-n { font: 500 12.5px var(--mono); }
 .todo-q-n { font-size: 12.5px; opacity: 0.85; }
+.opt { border-top: 1px solid var(--line); padding-top: 8px; margin-top: 8px; }
+.opt-head { margin: 0 0 6px; font-size: 14px; }
+.send { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 10px; }
 footer { margin-top: 48px; font-size: 12.5px; color: var(--fg3); border-top: 1px solid var(--line); padding-top: 12px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 html { scroll-behavior: smooth; }
@@ -337,7 +343,7 @@ html { scroll-behavior: smooth; }
     <a href="#gaps">Gaps<span class="n">${unres + inacc}</span></a>
     <a href="#discovery">Discovery</a><a href="#sources">Sources</a>
   </nav>
-  ${B.decide.length ? `<aside class="todo" aria-labelledby="todo-h"><h2 id="todo-h">Your decisions (${B.decide.length})</h2>${B.decide.length > 12 ? `<ul class="todo-groups">${decideOrder.map(n => `<li><a href="#${slug(n)}">${esc(groupsOfDecide[n].label)}</a> <span class="todo-n" data-group="${n}">${groupsOfDecide[n].items.length}</span>${groupsOfDecide[n].items.filter(p => !Rz.latest(p).changes.length).length ? ` <span class="todo-q-n">(${groupsOfDecide[n].items.filter(p => !Rz.latest(p).changes.length).length} questions)</span>` : ''}</li>`).join('')}</ul>` : `<ol>${B.decide.map(p => { const v = Rz.latest(p); return `<li><a href="#${esc(p.id)}"><code>${esc(p.id)} v${v.v}</code> ${md(v.title)}</a>${v.question ? `<span class="todo-q">${md(v.question)}</span>` : ''}</li>`; }).join('')}</ol>`}<p class="small"><strong id="r-count">Answered 0 of ${B.decide.length}.</strong> Answer in each card below, then tell Claude in the session: <code>responses ready</code>. You can answer some now and the rest later; each answer is saved and tied to the exact version shown.</p></aside>` : `<aside class="todo"><h2>Your decisions</h2><p>Nothing needs a decision right now.</p></aside>`}
+  ${B.decide.length ? `<aside class="todo" aria-labelledby="todo-h"><h2 id="todo-h">Your decisions (${B.decide.length})</h2>${B.decide.length > 12 ? `<ul class="todo-groups">${decideOrder.map(n => `<li><a href="#${slug(n)}">${esc(groupsOfDecide[n].label)}</a> <span class="todo-n" data-group="${n}">${groupsOfDecide[n].items.length}</span>${groupsOfDecide[n].items.filter(p => !Rz.latest(p).changes.length).length ? ` <span class="todo-q-n">(${groupsOfDecide[n].items.filter(p => !Rz.latest(p).changes.length).length} questions)</span>` : ''}</li>`).join('')}</ul>` : `<ol>${B.decide.map(p => { const v = Rz.latest(p); return `<li><a href="#${esc(p.id)}"><code>${esc(p.id)} v${v.v}</code> ${md(v.title)}</a>${v.question ? `<span class="todo-q">${md(v.question)}</span>` : ''}</li>`; }).join('')}</ol>`}<p class="small"><strong id="r-count">Answered 0 of ${B.decide.length}.</strong> Answer in each card below, then send them to Claude with the button. You can answer some now and the rest later; each answer is saved and tied to the exact version shown.</p><div class="send"><button type="button" id="send-claude" class="r-save" data-run="${esc(run.id)}" disabled>Send my answers to Claude</button><span id="send-status" class="r-status" role="status">Checking whether Claude can receive them…</span></div></aside>` : `<aside class="todo"><h2>Your decisions</h2><p>Nothing needs a decision right now.</p></aside>`}
   <ul class="summary">${(run.highlights || []).map(h => `<li>${md(h)}</li>`).join('')}</ul>
   <div class="stats" role="list">
     <div class="stat" role="listitem"><div class="v">${ids.length}</div><div class="l">items attempted, ${entriesInRun.length} entries</div></div>
@@ -431,6 +437,37 @@ html { scroll-behavior: smooth; }
       count();
     }, function () { offline('The response store stopped responding. Reload the page, or reply in the session.'); });
   }).catch(function () { offline('Saving responses is not available in this view. Reply in the Claude session instead.'); });
+})();
+(function () {
+  // "Send my answers to Claude": posts a page comment sent to Claude, which wakes the
+  // Claude session watching this page. Answers themselves are already saved in the page's store.
+  var btn = document.getElementById('send-claude'); var st = document.getElementById('send-status');
+  if (!btn) return;
+  function say(t, cls) { st.textContent = t; st.className = 'r-status' + (cls ? ' ' + cls : ''); }
+  var fallback = 'Your answers are saved. If the button is unavailable, tell Claude in the session, or the next weekly run will read them first.';
+  if (!window.claude || !window.claude.use) { say(fallback); return; }
+  window.claude.use('comments').then(function (c) {
+    if (!c || !c.sendToClaude || !c.canSendToClaude) { say(fallback); return; }
+    function refresh() {
+      return c.canSendToClaude().then(function (state) {
+        if (state === 'available') { btn.disabled = false; say('Ready to send.'); }
+        else { btn.disabled = true; say(state === 'no_session' ? 'No Claude session is listening right now. ' + fallback : fallback); }
+      }, function () { btn.disabled = true; say(fallback); });
+    }
+    refresh();
+    btn.addEventListener('click', function () {
+      var n = (document.getElementById('r-count') || {}).textContent || '';
+      btn.disabled = true; say('Sending…');
+      c.anchorFor(btn).then(function (anchor) {
+        return c.sendToClaude({ anchor: anchor, text: 'Responses ready on the review page (run ' + btn.dataset.run + '). ' + n + ' Please record them, apply what I accepted, and update the page.' });
+      }).then(function () { say('Sent. Claude will reply in the comment thread and update this page.', 'saved'); }, function (e) {
+        var code = e && e.code;
+        if (code === 'consent_required') { btn.disabled = false; say('Allow the page to comment for you, then press the button again. Your answers are saved either way.', 'err'); }
+        else if (code === 'claude_unavailable') { refresh(); say('Claude could not receive it right now. ' + fallback, 'err'); }
+        else { say('Could not send (' + (code || 'error') + '). ' + fallback, 'err'); }
+      });
+    });
+  }, function () { say(fallback); });
 })();
 </script>
 `;

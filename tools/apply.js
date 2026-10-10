@@ -101,6 +101,20 @@ const OPS = {
     return splice(src, last + 1, last + 1, `,\n  { a: '${op.a}', b: '${op.b}', rel: ${L.jsString(op.rel, "'")} }`);
   },
   set_edge(src, op) { return edgeEdit(src, op, (s, p, old) => splice(s, p.rel.valueStart, p.rel.valueEnd, L.literal(op.to, old))); },
+  // Remove an entry. `from` must equal the entry's current name (staleness guard);
+  // its connections must be removed by remove_edge ops in the same proposal.
+  remove_entity(src, op, map) {
+    const e = map.entities.find(x => x.id === op.entity);
+    if (!e) throw new Error(`entity '${op.entity}' not found`);
+    if (!same(e.name, op.from)) throw new Error(`stale: ${op.entity} name no longer matches 'from'`);
+    const left = map.edges.filter(d => d.a === op.entity || d.b === op.entity);
+    if (left.length) throw new Error(`remove the connections of '${op.entity}' first (${left.map(d => d.a + '|' + d.b).join(', ')})`);
+    const span = mustEntity(src, op.entity);
+    const lineStart = src.lastIndexOf('\n', span.start);
+    if (src[span.end] === ',') return splice(src, lineStart, span.end + 1, '');
+    const prevComma = src.lastIndexOf(',', lineStart);
+    return splice(src, prevComma, span.end, '');
+  },
   remove_edge(src, op) {
     return edgeEdit(src, op, (s, p, old, start, end) => {
       const lineStart = s.lastIndexOf('\n', start);
@@ -156,6 +170,7 @@ function verifyOp(map, op) {
     add_edge: () => edge()?.rel === op.rel,
     set_edge: () => edge()?.rel === op.to,
     remove_edge: () => !edge(),
+    remove_entity: () => !e(op.entity),
   }[op.op]();
   if (!ok) throw new Error(`post-check failed for ${op.op} ${JSON.stringify(op).slice(0, 120)}`);
 }

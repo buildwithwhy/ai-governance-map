@@ -13360,6 +13360,189 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 3,
+          "created": "2026-10-10T22:15:34Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "UK AI Bill: remove the entry, or keep it as a lapsed commitment?",
+          "kind": "flag",
+          "changes": [],
+          "why": "The entry presents an inactive, textless proposal as a live bill.",
+          "rationale": "(a) applies RUBRIC §1 strictly: a proposed law needs a formally introduced bill or a programme with public text or consultation, and there is neither. (b) keeps the history visible as its own entry. Both remove the unverified 'would clarify' connections; under (b) the AISI connection is reworded as an expectation. Evidence: King's Speech 2024 (S-0286#1), King's Speech 2026 and briefing notes (S-0287#2, S-0288#2), and Lord Holmes's private member's bill stalled at first reading (S-0282#2, S-0283#2).",
+          "evidence": [
+            {
+              "source": "S-0286",
+              "passage": "S-0286#1",
+              "stance": "supports",
+              "supports": "2024 promise"
+            },
+            {
+              "source": "S-0287",
+              "passage": "S-0287#2",
+              "stance": "supports",
+              "supports": "no AI bill in the 2026 speech"
+            },
+            {
+              "source": "S-0288",
+              "passage": "S-0288#2",
+              "stance": "supports",
+              "supports": "no frontier-AI bill in the briefing notes"
+            },
+            {
+              "source": "S-0282",
+              "passage": "S-0282#2",
+              "stance": "supports",
+              "supports": "the linked bill was a private member's bill"
+            },
+            {
+              "source": "S-0283",
+              "passage": "S-0283#2",
+              "stance": "supports",
+              "supports": "it stalled at first reading"
+            }
+          ],
+          "uncertainty": "Removing the entry lowers the mechanism count by one; the derived counts update automatically.",
+          "confidence": "medium",
+          "question": "No government bill or consultation text was ever published, and the May 2026 King's Speech announced none. Choose: (a) remove the entry and its four connections, adding a one-line history to the UK AISI entry; (b) keep it, marked withdrawn (status 'revoked'), with its context and notes rewritten as a lapsed 2024 commitment, the speculative 'would clarify' connections removed and the AISI connection reworded.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Remove the entry (history moves to UK AISI)",
+              "changes": [
+                {
+                  "op": "remove_edge",
+                  "a": "coe-ai",
+                  "b": "uk-bill",
+                  "from": "CoE Convention shapes UK AI Bill drafting"
+                },
+                {
+                  "op": "remove_edge",
+                  "a": "uk-bill",
+                  "b": "uk-aisi",
+                  "from": "AI Bill would put AISI on a statutory footing"
+                },
+                {
+                  "op": "remove_edge",
+                  "a": "uk-ofcom",
+                  "b": "uk-bill",
+                  "from": "UK AI Bill would clarify the boundary between Ofcom (content) and AISI (frontier)"
+                },
+                {
+                  "op": "remove_edge",
+                  "a": "uk-ico",
+                  "b": "uk-bill",
+                  "from": "UK AI Bill would clarify ICO's role alongside AISI"
+                },
+                {
+                  "op": "remove_entity",
+                  "entity": "uk-bill",
+                  "from": "UK AI Bill"
+                },
+                {
+                  "op": "set_field",
+                  "entity": "uk-aisi",
+                  "field": "context",
+                  "from": "Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. Without the UK AI Bill, its access remains voluntary — labs could withdraw. The inaugural Frontier AI Trends Report (Dec 2025) draws on two years of evaluating 30+ frontier models.",
+                  "to": "Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. The 2024 King's Speech promised legislation on developers of the most powerful AI models, but no government bill was introduced and the May 2026 King's Speech announced none, so its access remains voluntary — labs could withdraw. The inaugural Frontier AI Trends Report (Dec 2025) draws on two years of evaluating 30+ frontier models."
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Keep it, marked withdrawn",
+              "changes": [
+                {
+                  "op": "set_field",
+                  "entity": "uk-bill",
+                  "field": "status",
+                  "from": "proposed",
+                  "to": "revoked"
+                },
+                {
+                  "op": "set_field",
+                  "entity": "uk-bill",
+                  "field": "context",
+                  "from": "Would put the UK AI Security Institute on a statutory footing with information-gathering powers, and create binding rules for the most powerful frontier models. Successive missed introduction dates reflect tension between Labour's growth agenda and its safety commitments. Until passed, the UK relies on AISI's pre-deployment access agreements with frontier labs — voluntary and revocable.",
+                  "to": "A lapsed commitment: the 2024 King's Speech promised legislation placing requirements on developers of the most powerful AI models, but no government bill or consultation text was published, and the May 2026 King's Speech announced none. The only AI regulation bill introduced was a private member's bill (Lord Holmes), which did not progress. The UK relies on AISI's voluntary pre-deployment access agreements with frontier labs."
+                },
+                {
+                  "op": "set_cov",
+                  "entity": "uk-bill",
+                  "cat": "thresh",
+                  "from": "If passed, would target the most powerful frontier models — drafts have referenced cumulative compute or comparable capability indicators. Specifics are still under negotiation.",
+                  "to": null
+                },
+                {
+                  "op": "set_cov",
+                  "entity": "uk-bill",
+                  "cat": "acct",
+                  "from": "Would create binding rules and enforcement mechanisms for frontier developers, replacing the current voluntary memoranda. Until enacted, the UK relies on reputational pressure.",
+                  "to": null
+                },
+                {
+                  "op": "set_cov",
+                  "entity": "uk-bill",
+                  "cat": "eval",
+                  "from": "Would put the UK AI Security Institute on a statutory footing with information-gathering powers, including access to models and pre-deployment evaluations. Currently AISI's access is voluntary and revocable.",
+                  "to": "The promised statutory footing for AISI never materialised; its model access remains voluntary and revocable."
+                },
+                {
+                  "op": "remove_edge",
+                  "a": "coe-ai",
+                  "b": "uk-bill",
+                  "from": "CoE Convention shapes UK AI Bill drafting"
+                },
+                {
+                  "op": "set_edge",
+                  "a": "uk-bill",
+                  "b": "uk-aisi",
+                  "from": "AI Bill would put AISI on a statutory footing",
+                  "to": "The lapsed bill was expected to put AISI on a statutory footing"
+                },
+                {
+                  "op": "remove_edge",
+                  "a": "uk-ofcom",
+                  "b": "uk-bill",
+                  "from": "UK AI Bill would clarify the boundary between Ofcom (content) and AISI (frontier)"
+                },
+                {
+                  "op": "remove_edge",
+                  "a": "uk-ico",
+                  "b": "uk-bill",
+                  "from": "UK AI Bill would clarify ICO's role alongside AISI"
+                }
+              ]
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "edge:coe-ai|eu-aia",
+            "gap:update",
+            "gap:sec",
+            "entry:us-frontier-access-eo:context",
+            "entry:rsp:cov:elicit",
+            "entry:prep:cov:eval",
+            "entry:fsf:cov:eval",
+            "edge:aisi-net|uk-aisi",
+            "edge:us-frontier-access-eo|uk-aisi",
+            "edge:uk-aisi|rsp",
+            "edge:uk-aisi|prep",
+            "edge:uk-aisi|fsf",
+            "edge:uk-ofcom|uk-aisi",
+            "edge:uk-ico|uk-aisi",
+            "gap:elicit",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "edge:uk-ofcom|au-esafety",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip",
+            "edge:uk-ico|eu-aia"
+          ],
+          "hash": "4e56a494e697"
         }
       ],
       "decision": {
