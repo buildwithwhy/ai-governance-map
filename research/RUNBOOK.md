@@ -101,7 +101,7 @@ On a branch from `main`:
 
 ## 7. Weekly run (after the baseline audit)
 
-A weekly run is lighter than the baseline. It does not re-audit every item each week; it keeps every item re-verified on a rolling basis, re-checks anything whose source changed, and searches for new mechanisms. It runs in a fresh cloud session started by a scheduled routine.
+**Schedule (maintainer decision 2026-10-10):** Mondays 04:50 UK time (`CRON_TZ=Europe/London`), i.e. late Sunday night US Eastern, so the review page is ready for a UK morning and a US Eastern morning alike. A weekly run is lighter than the baseline. It does not re-audit every item each week; it keeps every item re-verified on a rolling basis, re-checks anything whose source changed, and searches for new mechanisms. It runs in a fresh cloud session started by a scheduled routine.
 
 1. **Set up.** If the repository is not checked out, attach `buildwithwhy/ai-governance-map` with `add_repo` and clone it. Work on the session's designated branch, based on `origin/main`. If an earlier weekly PR is still open, base the branch on that PR's head instead, so its unmerged research record is not lost. Check §0 preconditions.
 2. **Read responses first.** Read the review page's `responses` collection (§5) and record any answers that match current proposal versions; apply what was accepted (§6).

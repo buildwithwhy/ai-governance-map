@@ -127,5 +127,5 @@ Each check is tagged **internal** (repo evidence only: the map against itself) o
 
 ## 10. Dates on the map
 
-- **Content updated** (shown on the map) changes only when approved edits are applied.
+- **Content updated** (shown on the map) changes only when approved edits are applied. It is the release date in GMT (UTC), as `tools/apply.js` computes it; maintainer decision 2026-10-10.
 - **Last research attempt** and **last successful check** are tracked per item in `research/checks.json` and never shown as the map's date. An incomplete run cannot make the map look freshly verified.
