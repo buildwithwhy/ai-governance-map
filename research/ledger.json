@@ -1,5 +1,5 @@
 {
-  "next": 67,
+  "next": 75,
   "proposals": [
     {
       "id": "P-0001",
@@ -8768,6 +8768,870 @@
             "edge:ny-raise|rsp"
           ],
           "hash": "9322fdc8b110"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0067",
+      "fingerprint": "b4ae6eb5a6d2",
+      "targets": [
+        "entry:eu-aio:desc",
+        "entry:eu-aio:context"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:29:46Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "EU AI Office: add the Digital Omnibus powers (Reg. 2026/1744, in force 27 Jul 2026)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "eu-aio",
+              "field": "desc",
+              "from": "Established Jan 2024 within DG CNECT. GPAI enforcement role Aug 2025; full enforcement Aug 2026.",
+              "to": "Established Jan 2024 within DG CNECT. GPAI enforcement role Aug 2025; full enforcement Aug 2026. Digital Omnibus (Reg. 2026/1744, in force 27 Jul 2026) adds exclusive supervision of AI systems built on a provider's own GPAI model and of AI in very large online platforms and search engines."
+            },
+            {
+              "op": "set_field",
+              "entity": "eu-aio",
+              "field": "context",
+              "from": "Coordinates AI Act implementation across member states, enforces GPAI obligations directly (a centralised role unique within EU regulatory architecture), and runs the Scientific Panel that advises on systemic risk. Can request models from providers, order recalls, and impose fines. Effectively the EU's frontier-AI regulator; partner of the AISI Network despite being an EU body rather than a national one.",
+              "to": "Coordinates AI Act implementation across member states, enforces GPAI obligations directly (a centralised role unique within EU regulatory architecture), and runs the Scientific Panel that advises on systemic risk. Can request models from providers, order recalls, and impose fines; since the Omnibus it also has market-surveillance powers over the AI systems it supervises, including on-site inspections, binding commitments and fines (new AI Act Arts 75a–75d). Effectively the EU's frontier-AI regulator; partner of the AISI Network despite being an EU body rather than a national one."
+            }
+          ],
+          "why": "The map describes the AI Office as a GPAI-only enforcer. Since 27 July 2026 it is also the exclusive supervisor of GPAI-based AI systems built by the model's own provider (e.g. a lab's own chatbot) and of AI in VLOPs/VLOSEs, with inspection and fining powers. That is a material expansion of the frontier-relevant regulator's remit.",
+          "rationale": "Reg. (EU) 2026/1744 Art. 1(31) replaces AI Act Art. 75(1) to make the AI Office 'exclusively competent' for (a) AI systems based on GPAI models where model and system come from the same provider/undertaking and (b) AI systems that constitute or are integrated into a VLOP/VLOSE (omnibus p3–p5). New Art. 75a(4) gives remote/on-site inspections (p6); Art. 75c(4) penalties (p7); Art. 75b binding commitments. Entry into force on the third day after OJ publication of 24.7.2026 = 27 July 2026 (p2, p8), confirmed by the Commission's AI Office page (ec-aio p2). The Commission's enforcement page summarises the same scope (ec-enforcement p1–p2, p7). Existing desc facts re-checked: Commission Decision of 24 Jan 2024 placing the Office in DG CNECT (aio-decision p1–p2); Chapter V GPAI obligations apply from 2 Aug 2025 (ai-act p6); enforcement powers from 2 Aug 2026 (ec-enforcement p6).",
+          "evidence": [
+            {
+              "source": "S-0041",
+              "passage": "S-0041#10",
+              "stance": "supports",
+              "supports": "exclusive competence"
+            },
+            {
+              "source": "S-0041",
+              "passage": "S-0041#11",
+              "stance": "supports",
+              "supports": "systems built on provider's own GPAI model"
+            },
+            {
+              "source": "S-0041",
+              "passage": "S-0041#12",
+              "stance": "supports",
+              "supports": "AI in VLOPs/VLOSEs"
+            },
+            {
+              "source": "S-0041",
+              "passage": "S-0041#13",
+              "stance": "supports",
+              "supports": "inspections"
+            },
+            {
+              "source": "S-0041",
+              "passage": "S-0041#14",
+              "stance": "supports",
+              "supports": "fines"
+            },
+            {
+              "source": "S-0041",
+              "passage": "S-0041#9",
+              "stance": "supports",
+              "supports": "OJ publication 24.7.2026"
+            },
+            {
+              "source": "S-0041",
+              "passage": "S-0041#15",
+              "stance": "supports",
+              "supports": "entry into force third day after publication"
+            },
+            {
+              "source": "S-0183",
+              "passage": "S-0183#2",
+              "stance": "supports",
+              "supports": "in force 27 July"
+            },
+            {
+              "source": "S-0043",
+              "passage": "S-0043#3",
+              "stance": "supports",
+              "supports": "Commission summary of new scope"
+            },
+            {
+              "source": "S-0043",
+              "passage": "S-0043#4",
+              "stance": "supports",
+              "supports": "Commission summary of new scope"
+            },
+            {
+              "source": "S-0184",
+              "passage": "S-0184#1",
+              "stance": "supports",
+              "supports": "established 24 Jan 2024"
+            },
+            {
+              "source": "S-0184",
+              "passage": "S-0184#2",
+              "stance": "supports",
+              "supports": "within DG CNECT"
+            },
+            {
+              "source": "S-0185",
+              "passage": "S-0185#6",
+              "stance": "supports",
+              "supports": "GPAI chapter applies Aug 2025"
+            },
+            {
+              "source": "S-0043",
+              "passage": "S-0043#8",
+              "stance": "supports",
+              "supports": "enforcement from 2 Aug 2026"
+            }
+          ],
+          "uncertainty": "Some exceptions apply to Art. 75(1)(a) (Annex I products, critical infrastructure, law enforcement/border/financial institutions, justice); the desc omits them for brevity. The Commission page says the omnibus was 'adopted' in June 2026, while the Regulation is dated 8 July 2026 (signature); the proposal avoids an adoption date.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:eu-aio:cov:acct": "checked, still accurate ('most enforcement runs through national authorities' still holds: ec-enforcement p3), though GPAI is no longer the only thing that sits with the Office",
+            "entry:eu-aio:cov:timing": "Art. 75(1a) now also routes serious-incident reports for high-risk systems under the Office's competence to the Office; no change proposed",
+            "entry:eu-aia:desc": "L2 entry may need the omnibus too (other group)"
+          },
+          "unverified_carryover": [
+            "context: 'a centralised role unique within EU regulatory architecture'",
+            "context: 'Effectively the EU's frontier-AI regulator'"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:aisi-net:desc",
+            "entry:eu-aia:cov:timing",
+            "entry:eu-aia:cov:acct",
+            "entry:gpai-cop:context",
+            "entry:gpai-cop:cov:acct",
+            "entry:gpai-cop:cov:update",
+            "entry:eu-genai-code:context",
+            "entry:us-ftc:context",
+            "edge:aisi-net|eu-aio",
+            "edge:eu-aia|eu-aio",
+            "edge:gpai-cop|eu-aio",
+            "edge:eu-aio|eu-genai-code",
+            "gap:timing",
+            "gap:halt",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris",
+            "faq:what-does-the-eu-ai-office-do",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip",
+            "text:footer-sources"
+          ],
+          "hash": "1f91b5b7f6e0"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0068",
+      "fingerprint": "a8d1c27e301a",
+      "targets": [
+        "entry:uk-aisi:context"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:29:46Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "UK AISI: the inaugural Frontier AI Trends Report is dated December 2025, not May 2026",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "uk-aisi",
+              "field": "context",
+              "from": "Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. Without the UK AI Bill, its access remains voluntary — labs could withdraw. The inaugural Frontier AI Trends Report (May 2026) draws on two years of evaluating 30+ frontier models.",
+              "to": "Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. Without the UK AI Bill, its access remains voluntary — labs could withdraw. The inaugural Frontier AI Trends Report (Dec 2025) draws on two years of evaluating 30+ frontier models."
+            }
+          ],
+          "why": "A wrong date for AISI's flagship public output; readers may look for a May 2026 report that does not exist.",
+          "rationale": "The report PDF cover reads 'DECEMBER … Frontier AI Trends Report' with '2025' and is named 'Frontier AI Trends Report - UK AISI 2025'; PDF metadata 15–18 Dec 2025 (aisi-trends-pdf p1–p2). The web version covers models 'released between 2022 and October 2025' (aisi-trends p3) and calls itself AISI's 'first public' assessment (p1). The 30+ figure is confirmed (p2). The AISI blog listing for Feb–Oct 2026 contains no new edition.",
+          "evidence": [
+            {
+              "source": "S-0197",
+              "passage": "S-0197#1",
+              "stance": "supports",
+              "supports": "cover dated December 2025"
+            },
+            {
+              "source": "S-0197",
+              "passage": "S-0197#2",
+              "stance": "supports",
+              "supports": "file name and metadata 2025; no later edition"
+            },
+            {
+              "source": "S-0196",
+              "passage": "S-0196#3",
+              "stance": "supports",
+              "supports": "covers models to Oct 2025"
+            },
+            {
+              "source": "S-0196",
+              "passage": "S-0196#1",
+              "stance": "supports",
+              "supports": "first public assessment"
+            },
+            {
+              "source": "S-0196",
+              "passage": "S-0196#2",
+              "stance": "supports",
+              "supports": "more than 30 frontier systems"
+            }
+          ],
+          "uncertainty": "Low. Only the month changes.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:uk-aisi:desc": "checked, still accurate (rename 14 Feb 2025; 30+ systems)"
+          },
+          "unverified_carryover": [
+            "context: 'narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI'",
+            "context: 'labs could withdraw'"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:us-frontier-access-eo:context",
+            "entry:uk-bill:context",
+            "entry:uk-bill:cov:eval",
+            "entry:rsp:cov:elicit",
+            "entry:fsf:cov:eval",
+            "edge:aisi-net|uk-aisi",
+            "edge:us-frontier-access-eo|uk-aisi",
+            "edge:uk-bill|uk-aisi",
+            "edge:uk-aisi|rsp",
+            "edge:uk-aisi|prep",
+            "edge:uk-aisi|fsf",
+            "edge:uk-ofcom|uk-aisi",
+            "edge:uk-ico|uk-aisi",
+            "gap:elicit",
+            "faq:what-is-the-difference-between-layer-2-and-layer"
+          ],
+          "hash": "7f1353879f01"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0069",
+      "fingerprint": "cf0552507d17",
+      "targets": [
+        "entry:caisi:desc",
+        "entry:caisi"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:29:47Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "US CAISI: NIST now presents it as CAISSI (Center for Advancing Innovation and Standards for Super Intelligence) after EO 14434",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "caisi",
+              "field": "desc",
+              "from": "Renamed from US AISI in Jun 2025. Within NIST. Mission rewritten to drop \"safety\" framing, but active pre-deployment testing capacity returned in 2026.",
+              "to": "Renamed from US AISI in Jun 2025. Within NIST. Mission rewritten to drop \"safety\" framing, but active pre-deployment testing capacity returned in 2026. Relabelled Center for Advancing Innovation and Standards for Super Intelligence (CAISSI) on NIST's site after EO 14434 (29 Sep 2026) replaced \"AI\" with \"Super Intelligence\" in executive-branch usage."
+            },
+            {
+              "op": "set_field",
+              "entity": "caisi",
+              "field": "link",
+              "from": "https://www.nist.gov/caisi",
+              "to": "https://www.nist.gov/caissi"
+            }
+          ],
+          "why": "Readers following the link land on a page titled 'Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)', which the map never mentions. The change follows a presidential order that governs executive-branch terminology, so it is likely to persist.",
+          "rationale": "EO 14434 §1 makes it policy that the executive branch 'shall use the terms Super Intelligence and SI in place of Artificial Intelligence and AI' and §2(a) applies this to agency 'websites' (eo14434 p2–p3; signed 29 Sep 2026, published 2 Oct 2026). NIST's page, modified 30 Sep 2026, is now titled CAISSI and describes the same mission in SI terms, including voluntary agreements with developers and unclassified national-security evaluations (nist-caissi p1–p3, p5). The old /caisi URL redirects to /caissi (p5). The Jun 2025 rename is confirmed by NIST (nist-news p1).",
+          "evidence": [
+            {
+              "source": "S-0175",
+              "passage": "S-0175#2",
+              "stance": "supports",
+              "supports": "policy to use 'Super Intelligence'"
+            },
+            {
+              "source": "S-0175",
+              "passage": "S-0175#3",
+              "stance": "supports",
+              "supports": "applies to agency websites"
+            },
+            {
+              "source": "S-0174",
+              "passage": "S-0174#1",
+              "stance": "supports",
+              "supports": "new name on NIST page"
+            },
+            {
+              "source": "S-0174",
+              "passage": "S-0174#2",
+              "stance": "supports",
+              "supports": "same role, SI terminology"
+            },
+            {
+              "source": "S-0174",
+              "passage": "S-0174#5",
+              "stance": "supports",
+              "supports": "redirect and modification date"
+            },
+            {
+              "source": "S-0176",
+              "passage": "S-0176#1",
+              "stance": "supports",
+              "supports": "Jun 2025 rename"
+            }
+          ],
+          "uncertainty": "NIST has not issued a separate notice of the rename; the link to EO 14434 is inferred from timing and the order's text. NIST news items before 30 Sep 2026 still say 'CAISI'. Whether to relabel the entry name is raised separately (caisi-name-flag).",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "edge:caisi|nist-rmf": "checked, still accurate",
+            "entry:caisi:context": "unresolved: agreements announcement removed from nist.gov",
+            "edge:aisi-net|caisi": "uses 'CAISI'; other group",
+            "edge:us-eo14179|caisi": "uses 'CAISI'; other group"
+          },
+          "unverified_carryover": [
+            "desc: 'Mission rewritten to drop \"safety\" framing, but active pre-deployment testing capacity returned in 2026' (the 2026 pre-deployment claim rests on the 5 May 2026 agreements announcement, which NIST has since removed; see check on entry:caisi:context)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:aisi-net:desc",
+            "entry:us-frontier-access-eo:context",
+            "entry:uk-aisi:context",
+            "edge:aisi-net|caisi",
+            "edge:us-eo14179|caisi",
+            "edge:caisi|nist-rmf",
+            "edge:fsi|caisi",
+            "faq:what-is-the-difference-between-layer-2-and-layer"
+          ],
+          "hash": "edfec968e17d"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0070",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:29:47Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Relabel the entry 'US CAISI' as 'US CAISSI'?",
+          "kind": "flag",
+          "changes": [],
+          "why": "The entry's label no longer matches the official page it links to.",
+          "rationale": "nist-caissi p1–p2 show the new name; nist-kimi p1 and nist-glm53 p1 (Jul–Sep 2026) still use CAISI; eo14434 p3 explains the change as a terminology order for agency websites.",
+          "evidence": [
+            {
+              "source": "S-0174",
+              "passage": "S-0174#1",
+              "stance": "supports",
+              "supports": "new name"
+            },
+            {
+              "source": "S-0175",
+              "passage": "S-0175#3",
+              "stance": "supports",
+              "supports": "terminology order"
+            },
+            {
+              "source": "S-0179",
+              "passage": "S-0179#1",
+              "stance": "contradicts",
+              "supports": "NIST used 'CAISI' until mid-Sep 2026"
+            }
+          ],
+          "uncertainty": "No formal re-establishment notice found, unlike the June 2025 rename.",
+          "confidence": "medium",
+          "question": "NIST's page now names the body 'Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)' following EO 14434's terminology order, while NIST news items, the UK AISI, and the rest of the map still say CAISI. Options: (a) keep 'US CAISI' and record the relabel in desc only (caisi-caissi); (b) rename the entry to 'US CAISSI' and update the nine other mentions of CAISI on the map; (c) use 'US CAISI / CAISSI'. Recommendation: (a) for now, revisit if NIST or Commerce formally announce the new name.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0071",
+      "fingerprint": "97b3a84fcbfa",
+      "targets": [
+        "entry:other-aisis:context",
+        "entry:other-aisis:cov:eval"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:29:47Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Other national AISIs: India is not an AISI Network member; INESIA is a national (not EU-wide) evaluation effort",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "other-aisis",
+              "field": "context",
+              "from": "Capacity varies substantially: Singapore's DTC + AI Verify package is the most operational (active testing); France's INESIA hosts EU-wide evaluation tooling; J-AISI focuses on standards alignment; Indian and African AISIs are still scaling. Coordinated through the AISI Network, which provides distribution; the substantive testing capacity is concentrated in UK/US/Singapore.",
+              "to": "Capacity varies substantially: Singapore's DTC + AI Verify package is the most operational (active testing); France's INESIA (run by DGE and SGDSN with ANSSI, Inria, LNE and PEReN) is building a national evaluation capacity; J-AISI focuses on standards alignment; Indian and African AISIs are still scaling. All but India are members of the AISI Network, which provides distribution; the substantive testing capacity is concentrated in UK/US/Singapore."
+            },
+            {
+              "op": "set_cov",
+              "entity": "other-aisis",
+              "cat": "eval",
+              "from": "National-level frontier model testing varies substantially: Singapore's DTC + AI Verify package is the most operational; J-AISI focuses on standards alignment; INESIA hosts EU-wide tooling. India and Africa are still scaling.",
+              "to": "National-level frontier model testing varies substantially: Singapore's DTC + AI Verify package is the most operational; J-AISI focuses on standards alignment; INESIA is building national evaluation capacity. India and Africa are still scaling."
+            }
+          ],
+          "why": "The entry says all these institutes are coordinated through the AISI Network, but India is not a member; and it credits INESIA with EU-wide tooling that no source describes.",
+          "rationale": "The Network's member list (Dec 2025 GOV.UK release linked from this entry, and the Jul 2026 AISI blog after the Seoul meeting) names Australia, Canada, the EU, France, Japan, Kenya, Korea, Singapore, the UK and the US, not India (govuk-network p1; aisi-seoul p1). India's institute exists (in-aisi p1). INESIA's own 2026–27 roadmap release describes it as led by DGE and SGDSN, federating ANSSI, Inria, LNE and PEReN, to give France a 'sovereign' evaluation capacity (inesia p1–p4).",
+          "evidence": [
+            {
+              "source": "S-0123",
+              "passage": "S-0123#6",
+              "stance": "supports",
+              "supports": "members exclude India"
+            },
+            {
+              "source": "S-0124",
+              "passage": "S-0124#6",
+              "stance": "supports",
+              "supports": "members exclude India (Jul 2026)"
+            },
+            {
+              "source": "S-0192",
+              "passage": "S-0192#1",
+              "stance": "supports",
+              "supports": "IndiaAI Safety Institute exists"
+            },
+            {
+              "source": "S-0188",
+              "passage": "S-0188#1",
+              "stance": "supports",
+              "supports": "DGE/SGDSN lead"
+            },
+            {
+              "source": "S-0188",
+              "passage": "S-0188#2",
+              "stance": "supports",
+              "supports": "national capacity"
+            },
+            {
+              "source": "S-0188",
+              "passage": "S-0188#3",
+              "stance": "supports",
+              "supports": "members ANSSI, Inria, LNE, PEReN"
+            },
+            {
+              "source": "S-0188",
+              "passage": "S-0188#4",
+              "stance": "supports",
+              "supports": "no EU-wide tooling described"
+            }
+          ],
+          "uncertainty": "The 'EU-wide tooling' claim may refer to something not found here (e.g. a project hosted by an INESIA member); absence on the roadmap page does not prove it false. The network has been renamed the International Network for Advanced AI Measurement, Evaluation and Science (govuk-network p2); the proposal keeps the map's 'AISI Network' label, which belongs to the aisi-net entry.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "edge:aisi-net|other-aisis": "lists India among participants; needs the same fix (L1 group)",
+            "entry:other-aisis:cov:elicit": "unchanged; analytic"
+          },
+          "unverified_carryover": [
+            "'Singapore's DTC + AI Verify package is the most operational (active testing)'",
+            "'J-AISI focuses on standards alignment'",
+            "'Indian and African AISIs are still scaling'",
+            "'the substantive testing capacity is concentrated in UK/US/Singapore'"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:aisr:context",
+            "entry:aisi-net:context",
+            "entry:uk-aisi:cov:elicit",
+            "edge:aisi-net|other-aisis",
+            "edge:au-esafety|other-aisis",
+            "edge:imda|other-aisis",
+            "edge:jp-sectors|other-aisis",
+            "gap:eval",
+            "text:layer-4:tooltip",
+            "text:layer-4:subtitle"
+          ],
+          "hash": "65b2c397aac3"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0072",
+      "fingerprint": "84859ec9119d",
+      "targets": [
+        "entry:fsi:context",
+        "entry:fsi:cov:eval"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:29:47Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "FSI: it does offer independent capability evaluations, contrary to 'rather than technical model evaluations'",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "fsi",
+              "field": "context",
+              "from": "Sits between frontier labs and US national-security institutions — the Pentagon, intelligence community, and Congress. Led by Executive Director Ike Harris (former US Navy / SecDef policy advisor), COO Jeremy Pelter (former Acting Commerce Secretary), and research director Aaron Frank (former RAND). Three named focus areas: securing advanced model weights, how national-security operators test and use frontier models, and AI's effect on geopolitical stability. Distinct from third-party evaluators (METR, Apollo, AVERI) — FSI does policy and applied security work rather than technical model evaluations.",
+              "to": "Sits between frontier labs and US national-security institutions — the Pentagon, intelligence community, and Congress. Led by Executive Director Ike Harris (former US Navy / SecDef policy advisor), COO Jeremy Pelter (former Acting Commerce Secretary), and research director Aaron Frank (former RAND). Three named focus areas: securing advanced model weights, how national-security operators test and use frontier models, and AI's effect on geopolitical stability. Unlike general third-party evaluators (METR, Apollo, AVERI), FSI's evaluations are scoped to national-security use cases, alongside policy analysis, wargames and model-security work with the labs."
+            },
+            {
+              "op": "set_cov",
+              "entity": "fsi",
+              "cat": "eval",
+              "from": "Researches how national-security operators test and use frontier models, including pre-deployment risk evaluation in classified settings.",
+              "to": "Offers independent, non-commercial capability assessments scoped to national-security use cases and develops test-and-evaluation criteria for government use of frontier models; standing advisory can include classified-context engagement."
+            }
+          ],
+          "why": "The map tells readers FSI does not do model evaluations; FSI's own site lists independent evaluations among its services for both labs and the national-security community.",
+          "rationale": "FSI's lab page lists '01 Independent evaluation: Non-commercial assessment of frontier model capabilities in the scenarios that matter to national security' (fsi-labs p1–p2); its national-security page lists 'Independent evaluations: Capability assessments scoped to specific national security use cases' and standing advisory with 'classified-context engagement' (fsi-natsec p1–p2); its programmes include T&E frameworks for government use (fsi-work p2). Leadership and focus areas in the rest of the context are confirmed by the CAIS launch release (cais-fsi p2–p5) and FSI team page (fsi-team p1).",
+          "evidence": [
+            {
+              "source": "S-0223",
+              "passage": "S-0223#1",
+              "stance": "supports",
+              "supports": "independent evaluation offered"
+            },
+            {
+              "source": "S-0224",
+              "passage": "S-0224#1",
+              "stance": "supports",
+              "supports": "capability assessments for national-security use cases"
+            },
+            {
+              "source": "S-0224",
+              "passage": "S-0224#2",
+              "stance": "supports",
+              "supports": "classified-context engagement"
+            },
+            {
+              "source": "S-0225",
+              "passage": "S-0225#2",
+              "stance": "supports",
+              "supports": "T&E frameworks"
+            },
+            {
+              "source": "S-0221",
+              "passage": "S-0221#2",
+              "stance": "supports",
+              "supports": "three focus areas"
+            },
+            {
+              "source": "S-0221",
+              "passage": "S-0221#3",
+              "stance": "supports",
+              "supports": "Harris SecDef policy advisor"
+            },
+            {
+              "source": "S-0221",
+              "passage": "S-0221#4",
+              "stance": "supports",
+              "supports": "Pelter Acting Commerce Secretary"
+            },
+            {
+              "source": "S-0221",
+              "passage": "S-0221#5",
+              "stance": "supports",
+              "supports": "Frank former RAND"
+            }
+          ],
+          "uncertainty": "No published FSI evaluation was found yet; the pages describe offered services. The old cov:eval phrase 'pre-deployment risk evaluation in classified settings' is not supported as worded and is replaced.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:fsi:desc": "checked, still accurate",
+            "edge:fsi|caisi": "checked, still accurate"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:cais:context",
+            "edge:cais|fsi",
+            "edge:fsi|caisi",
+            "edge:fsi|us-frontier-access-eo",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "b561c3ab763e"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0073",
+      "fingerprint": "efc552a6ce13",
+      "targets": [
+        "edge:fsi|us-frontier-access-eo"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:29:47Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "FSI ↔ US Frontier AI Access EO: the order creates a voluntary access framework, not a national-security review",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_edge",
+              "a": "fsi",
+              "b": "us-frontier-access-eo",
+              "from": "FSI's policy translation aligns with the EO's national-security review framework",
+              "to": "FSI's lab–national-security translation bears on the EO's voluntary frontier-model access framework"
+            }
+          ],
+          "why": "The connection repeats the framing the map already corrected in the EO entry (P-0014): EO 14409 sets up voluntary, cyber-focused access and expressly rules out preclearance; there is no 'review framework'.",
+          "rationale": "EO 14409 §3(a) creates a classified cyber benchmarking process; §3(b) a 'voluntary framework' through which developers may give the government access to covered frontier models for up to 30 days before release to other trusted partners; §3(c) excludes any mandatory licensing or preclearance (eo14409 p1–p4). FSI describes itself as a translation layer between labs and the National Security Enterprise (cais-fsi p7; fsi-home p1).",
+          "evidence": [
+            {
+              "source": "S-0038",
+              "passage": "S-0038#10",
+              "stance": "supports",
+              "supports": "voluntary framework"
+            },
+            {
+              "source": "S-0038",
+              "passage": "S-0038#11",
+              "stance": "supports",
+              "supports": "access, not review"
+            },
+            {
+              "source": "S-0038",
+              "passage": "S-0038#12",
+              "stance": "supports",
+              "supports": "no preclearance"
+            },
+            {
+              "source": "S-0221",
+              "passage": "S-0221#7",
+              "stance": "supports",
+              "supports": "FSI role"
+            }
+          ],
+          "uncertainty": "The relationship is editorial in either wording; FSI's pages do not mention the order. Removing the connection is a reasonable alternative.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:fsi:cov:acct": "uses 'national-security review processes' generically; left as unresolved (analytic)"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:cais:context",
+            "edge:cais|fsi",
+            "edge:fsi|caisi",
+            "text:layer-4:tooltip",
+            "edge:us-frontier-access-eo|us-eo14179",
+            "edge:us-frontier-access-eo|uk-aisi"
+          ],
+          "hash": "fe72e219c70e"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0074",
+      "fingerprint": "6b7cf9df49cf",
+      "targets": [
+        "entry:averi:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:29:47Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "AVERI: it runs pilot audits and evaluations with labs, not only 'regulatory infrastructure'",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "averi",
+              "cat": "acct",
+              "from": "Independent verification mechanism for frontier AI assurance. Builds on METR and Apollo evaluation work; targets regulatory infrastructure rather than direct lab evaluation.",
+              "to": "Independent verification mechanism for frontier AI assurance. Builds on METR and Apollo evaluation work; develops audit standards and policy requirements, informed by voluntary pilot audits with leading labs (e.g. a 2026 double-blind evaluation of a Gemini model with Google DeepMind)."
+            }
+          ],
+          "why": "The note says AVERI does not do direct lab evaluation; AVERI's stated method is pilot audits with leading companies, and it has published one.",
+          "rationale": "AVERI: 'We conduct pilot audits with leading AI companies' to inform standards, policy and tooling (averi-about p1; averi-home p2). Its first pilot report describes a Jul–Aug 2026 double-blind evaluation of a proprietary model with Google DeepMind, OpenMined and MLCommons (averi-pilot p1). METR and Apollo staff co-authored AVERI's flagship report (averi-flagship p2), consistent with 'builds on'.",
+          "evidence": [
+            {
+              "source": "S-0211",
+              "passage": "S-0211#1",
+              "stance": "supports",
+              "supports": "pilot audits with labs"
+            },
+            {
+              "source": "S-0210",
+              "passage": "S-0210#2",
+              "stance": "supports",
+              "supports": "pilot audits inform standards, policy, tooling"
+            },
+            {
+              "source": "S-0215",
+              "passage": "S-0215#1",
+              "stance": "supports",
+              "supports": "double-blind evaluation with GDM"
+            },
+            {
+              "source": "S-0212",
+              "passage": "S-0212#2",
+              "stance": "supports",
+              "supports": "METR and Apollo co-authors"
+            }
+          ],
+          "uncertainty": "Low on facts; 'builds on' remains an editorial characterisation.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "edge:averi|metr": "checked, consistent",
+            "edge:averi|apollo": "checked, consistent"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:caisi:context",
+            "entry:fsi:context",
+            "edge:averi|metr",
+            "edge:averi|apollo",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "ac4586604a08"
         }
       ],
       "decision": {

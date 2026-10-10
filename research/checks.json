@@ -2374,16 +2374,35 @@
     },
     "edge:fsi|us-frontier-access-eo": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
+        "run": "2026-10-10-baseline",
         "date": "2026-10-10",
-        "outcome": "unresolved",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0038"
+          "S-0038",
+          "S-0221"
         ],
-        "proposals": [],
-        "note": "The order does not mention UK AISI or FSI and frames itself as deregulatory (§1). The FSI edge's 'national-security review framework' has no basis in the order.",
-        "missing": "UK AISI access-agreement sources; FSI publications. Queued for the baseline audit",
+        "proposals": [
+          "P-0073"
+        ],
+        "note": "EO 14409 sets up a voluntary access framework, not a review.",
+        "missing": null,
+        "hash": "70e118ff2b81"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0038",
+          "S-0221"
+        ],
+        "proposals": [
+          "P-0073"
+        ],
+        "note": "EO 14409 sets up a voluntary access framework, not a review.",
+        "missing": null,
         "hash": "70e118ff2b81"
       }
     },
@@ -8646,6 +8665,2127 @@
         "note": "Enrolled HB 149: intent-based prohibitions (§§552.052–552.057), government social scoring and biometric capture; original SB 24-205 imposed a reasonable-care duty, so \"narrower than Colorado's algorithmic-discrimination duties\" holds against that text. AG-exclusive enforcement triggered by complaints through an online mechanism (§552.103), civil penalties (§552.105); the Texas AI Council cannot issue binding rules (§554.103).",
         "missing": null,
         "hash": "05dcbe2221a3"
+      }
+    },
+    "entry:eu-aio": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0183",
+          "S-0185",
+          "S-0043"
+        ],
+        "proposals": [],
+        "note": "Link resolves to the Commission's AI Office page. Layer 4 / eu / pow 4 / active consistent with direct fining powers (ai-act p4; ec-enforcement) and operating status.",
+        "missing": null,
+        "hash": "e4cd39744a47"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0183",
+          "S-0185",
+          "S-0043"
+        ],
+        "proposals": [],
+        "note": "Link resolves to the Commission's AI Office page. Layer 4 / eu / pow 4 / active consistent with direct fining powers (ai-act p4; ec-enforcement) and operating status.",
+        "missing": null,
+        "hash": "e4cd39744a47"
+      }
+    },
+    "entry:eu-aio:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0041",
+          "S-0183",
+          "S-0043",
+          "S-0184",
+          "S-0185"
+        ],
+        "proposals": [
+          "P-0067"
+        ],
+        "note": "Existing facts confirmed (Decision of 24 Jan 2024 in DG CNECT; GPAI chapter from 2 Aug 2025; enforcement from 2 Aug 2026; evaluation, recall and fining powers Arts 92, 93, 101; Scientific Panel and qualified alerts Arts 68, 90; EU is a Network member). The Digital Omnibus powers are missing.",
+        "missing": null,
+        "hash": "a840e00ce05c"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0041",
+          "S-0183",
+          "S-0043",
+          "S-0184",
+          "S-0185"
+        ],
+        "proposals": [
+          "P-0067"
+        ],
+        "note": "Existing facts confirmed (Decision of 24 Jan 2024 in DG CNECT; GPAI chapter from 2 Aug 2025; enforcement from 2 Aug 2026; evaluation, recall and fining powers Arts 92, 93, 101; Scientific Panel and qualified alerts Arts 68, 90; EU is a Network member). The Digital Omnibus powers are missing.",
+        "missing": null,
+        "hash": "a840e00ce05c"
+      }
+    },
+    "entry:eu-aio:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0041",
+          "S-0183",
+          "S-0043",
+          "S-0184",
+          "S-0185"
+        ],
+        "proposals": [
+          "P-0067"
+        ],
+        "note": "Existing facts confirmed (Decision of 24 Jan 2024 in DG CNECT; GPAI chapter from 2 Aug 2025; enforcement from 2 Aug 2026; evaluation, recall and fining powers Arts 92, 93, 101; Scientific Panel and qualified alerts Arts 68, 90; EU is a Network member). The Digital Omnibus powers are missing.",
+        "missing": null,
+        "hash": "a0543808b1b1"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0041",
+          "S-0183",
+          "S-0043",
+          "S-0184",
+          "S-0185"
+        ],
+        "proposals": [
+          "P-0067"
+        ],
+        "note": "Existing facts confirmed (Decision of 24 Jan 2024 in DG CNECT; GPAI chapter from 2 Aug 2025; enforcement from 2 Aug 2026; evaluation, recall and fining powers Arts 92, 93, 101; Scientific Panel and qualified alerts Arts 68, 90; EU is a Network member). The Digital Omnibus powers are missing.",
+        "missing": null,
+        "hash": "a0543808b1b1"
+      }
+    },
+    "entry:eu-aio:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0185",
+          "S-0043",
+          "S-0183"
+        ],
+        "proposals": [],
+        "note": "Art. 93(1) lets the Commission request mitigation measures after an Art. 92 evaluation and to 'restrict … withdraw or recall the model' (ai-act p3); enforcement powers apply from 2 Aug 2026 (ec-enforcement p6). Information requests Art. 91 (p8), panel alerts Art. 90 (p5); national authorities enforce other AI systems (ec-enforcement p3). Coverage set consistent.",
+        "missing": null,
+        "hash": "6204f3003ecd"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0185",
+          "S-0043",
+          "S-0183"
+        ],
+        "proposals": [],
+        "note": "Art. 93(1) lets the Commission request mitigation measures after an Art. 92 evaluation and to 'restrict … withdraw or recall the model' (ai-act p3); enforcement powers apply from 2 Aug 2026 (ec-enforcement p6). Information requests Art. 91 (p8), panel alerts Art. 90 (p5); national authorities enforce other AI systems (ec-enforcement p3). Coverage set consistent.",
+        "missing": null,
+        "hash": "6204f3003ecd"
+      }
+    },
+    "entry:eu-aio:cov:mit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0185",
+          "S-0043",
+          "S-0183"
+        ],
+        "proposals": [],
+        "note": "Art. 93(1) lets the Commission request mitigation measures after an Art. 92 evaluation and to 'restrict … withdraw or recall the model' (ai-act p3); enforcement powers apply from 2 Aug 2026 (ec-enforcement p6). Information requests Art. 91 (p8), panel alerts Art. 90 (p5); national authorities enforce other AI systems (ec-enforcement p3). Coverage set consistent.",
+        "missing": null,
+        "hash": "14e7d6b16219"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0185",
+          "S-0043",
+          "S-0183"
+        ],
+        "proposals": [],
+        "note": "Art. 93(1) lets the Commission request mitigation measures after an Art. 92 evaluation and to 'restrict … withdraw or recall the model' (ai-act p3); enforcement powers apply from 2 Aug 2026 (ec-enforcement p6). Information requests Art. 91 (p8), panel alerts Art. 90 (p5); national authorities enforce other AI systems (ec-enforcement p3). Coverage set consistent.",
+        "missing": null,
+        "hash": "14e7d6b16219"
+      }
+    },
+    "entry:eu-aio:cov:halt": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0185",
+          "S-0043",
+          "S-0183"
+        ],
+        "proposals": [],
+        "note": "Art. 93(1) lets the Commission request mitigation measures after an Art. 92 evaluation and to 'restrict … withdraw or recall the model' (ai-act p3); enforcement powers apply from 2 Aug 2026 (ec-enforcement p6). Information requests Art. 91 (p8), panel alerts Art. 90 (p5); national authorities enforce other AI systems (ec-enforcement p3). Coverage set consistent.",
+        "missing": null,
+        "hash": "e969b48fd533"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0185",
+          "S-0043",
+          "S-0183"
+        ],
+        "proposals": [],
+        "note": "Art. 93(1) lets the Commission request mitigation measures after an Art. 92 evaluation and to 'restrict … withdraw or recall the model' (ai-act p3); enforcement powers apply from 2 Aug 2026 (ec-enforcement p6). Information requests Art. 91 (p8), panel alerts Art. 90 (p5); national authorities enforce other AI systems (ec-enforcement p3). Coverage set consistent.",
+        "missing": null,
+        "hash": "e969b48fd533"
+      }
+    },
+    "entry:eu-aio:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0185",
+          "S-0043",
+          "S-0183"
+        ],
+        "proposals": [],
+        "note": "Art. 93(1) lets the Commission request mitigation measures after an Art. 92 evaluation and to 'restrict … withdraw or recall the model' (ai-act p3); enforcement powers apply from 2 Aug 2026 (ec-enforcement p6). Information requests Art. 91 (p8), panel alerts Art. 90 (p5); national authorities enforce other AI systems (ec-enforcement p3). Coverage set consistent.",
+        "missing": null,
+        "hash": "12329060ca35"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0185",
+          "S-0043",
+          "S-0183"
+        ],
+        "proposals": [],
+        "note": "Art. 93(1) lets the Commission request mitigation measures after an Art. 92 evaluation and to 'restrict … withdraw or recall the model' (ai-act p3); enforcement powers apply from 2 Aug 2026 (ec-enforcement p6). Information requests Art. 91 (p8), panel alerts Art. 90 (p5); national authorities enforce other AI systems (ec-enforcement p3). Coverage set consistent.",
+        "missing": null,
+        "hash": "12329060ca35"
+      }
+    },
+    "entry:eu-aio:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0185",
+          "S-0043"
+        ],
+        "proposals": [],
+        "note": "Art. 92 and the Commission's enforcement page confirm the Office can evaluate GPAI models itself or via appointed experts and request access (ai-act p1–p2; ec-enforcement p4); the panel's advisory role is confirmed (ai-act p5). Neither mentions pre-deployment access (ai-act p9); the note also frames it as 'request evaluations from providers' whereas the Office conducts them.",
+        "missing": "a provision or official text giving the AI Office access to systemic-risk models before they are placed on the market (pre-deployment)",
+        "hash": "b3f33797ea4f"
+      }
+    },
+    "entry:eu-aio:cov:timing": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0185"
+        ],
+        "proposals": [],
+        "note": "Providers must report serious incidents to the AI Office (Art. 55(1)(c), ai-act p7), supporting the post-market monitoring role. 'The first cross-border post-market AI regulator' is a comparative claim.",
+        "missing": "analytic/comparative claim; not verifiable from sources",
+        "hash": "0594b0099038"
+      }
+    },
+    "entry:uk-aisi": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0193",
+          "S-0195",
+          "S-0196"
+        ],
+        "proposals": [],
+        "note": "Link works; AISI is a research organisation within DSIT (pow 2 advisory consistent; King's Speech 2026 adds no statutory powers). Renamed 14 Feb 2025 (aisi-rename p1–p2); 'more than 30 frontier systems' (aisi-trends p2).",
+        "missing": null,
+        "hash": "60e9c68357e5"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0193",
+          "S-0195",
+          "S-0196"
+        ],
+        "proposals": [],
+        "note": "Link works; AISI is a research organisation within DSIT (pow 2 advisory consistent; King's Speech 2026 adds no statutory powers). Renamed 14 Feb 2025 (aisi-rename p1–p2); 'more than 30 frontier systems' (aisi-trends p2).",
+        "missing": null,
+        "hash": "60e9c68357e5"
+      }
+    },
+    "entry:uk-aisi:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0193",
+          "S-0195",
+          "S-0196"
+        ],
+        "proposals": [],
+        "note": "Link works; AISI is a research organisation within DSIT (pow 2 advisory consistent; King's Speech 2026 adds no statutory powers). Renamed 14 Feb 2025 (aisi-rename p1–p2); 'more than 30 frontier systems' (aisi-trends p2).",
+        "missing": null,
+        "hash": "5e4ca85e44f8"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0193",
+          "S-0195",
+          "S-0196"
+        ],
+        "proposals": [],
+        "note": "Link works; AISI is a research organisation within DSIT (pow 2 advisory consistent; King's Speech 2026 adds no statutory powers). Renamed 14 Feb 2025 (aisi-rename p1–p2); 'more than 30 frontier systems' (aisi-trends p2).",
+        "missing": null,
+        "hash": "5e4ca85e44f8"
+      }
+    },
+    "entry:uk-aisi:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0193",
+          "S-0195",
+          "S-0196"
+        ],
+        "proposals": [],
+        "note": "Link works; AISI is a research organisation within DSIT (pow 2 advisory consistent; King's Speech 2026 adds no statutory powers). Renamed 14 Feb 2025 (aisi-rename p1–p2); 'more than 30 frontier systems' (aisi-trends p2).",
+        "missing": null,
+        "hash": "3631c26630b2"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0193",
+          "S-0195",
+          "S-0196"
+        ],
+        "proposals": [],
+        "note": "Link works; AISI is a research organisation within DSIT (pow 2 advisory consistent; King's Speech 2026 adds no statutory powers). Renamed 14 Feb 2025 (aisi-rename p1–p2); 'more than 30 frontier systems' (aisi-trends p2).",
+        "missing": null,
+        "hash": "3631c26630b2"
+      }
+    },
+    "entry:uk-aisi:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0196",
+          "S-0197",
+          "S-0195",
+          "S-0202",
+          "S-0194"
+        ],
+        "proposals": [
+          "P-0068"
+        ],
+        "note": "Trends Report is dated Dec 2025, not May 2026. Pre-deployment testing and lab collaboration confirmed (aisi-about p1–p2); rename focus on chemical/biological weapons and cyber confirmed (aisi-rename p3); no AI bill or AISI statutory footing in the May 2026 King's Speech (kings-speech p2), consistent with 'without the UK AI Bill'.",
+        "missing": null,
+        "hash": "e0997eac0bb5"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0196",
+          "S-0197",
+          "S-0195",
+          "S-0202",
+          "S-0194"
+        ],
+        "proposals": [
+          "P-0068"
+        ],
+        "note": "Trends Report is dated Dec 2025, not May 2026. Pre-deployment testing and lab collaboration confirmed (aisi-about p1–p2); rename focus on chemical/biological weapons and cyber confirmed (aisi-rename p3); no AI bill or AISI statutory footing in the May 2026 King's Speech (kings-speech p2), consistent with 'without the UK AI Bill'.",
+        "missing": null,
+        "hash": "e0997eac0bb5"
+      }
+    },
+    "entry:uk-aisi:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0194",
+          "S-0200",
+          "S-0196",
+          "S-0202"
+        ],
+        "proposals": [],
+        "note": "AISI tests leading systems before public release (aisi-about p1; aisi-gpt6 p1) and has 30+ systems in its data (aisi-trends p2); no statute compels access (kings-speech p2). 'Among the most active national-level frontier evaluators' is comparative; 'voluntary and revocable' access agreements are not published.",
+        "missing": "text or official description of AISI's access agreements showing they are voluntary and revocable; comparative ranking is not verifiable",
+        "hash": "b1e0ae91b8aa"
+      }
+    },
+    "entry:uk-aisi:cov:timing": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0194",
+          "S-0200",
+          "S-0196",
+          "S-0202"
+        ],
+        "proposals": [],
+        "note": "AISI tests leading systems before public release (aisi-about p1; aisi-gpt6 p1) and has 30+ systems in its data (aisi-trends p2); no statute compels access (kings-speech p2). 'Among the most active national-level frontier evaluators' is comparative; 'voluntary and revocable' access agreements are not published.",
+        "missing": "text or official description of AISI's access agreements showing they are voluntary and revocable; comparative ranking is not verifiable",
+        "hash": "eb1683190a3e"
+      }
+    },
+    "entry:uk-aisi:cov:elicit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0196",
+          "S-0124"
+        ],
+        "proposals": [],
+        "note": "Red-teaming, jailbreaking and elicitation are core (aisi-trends lists expert red-teaming; the Network best practice AISI coordinates covers capability elicitation, aisi-seoul p2). 'Methodologies often adopted by other AISIs and lab frameworks' is not shown.",
+        "missing": "analytic/comparative claim; not verifiable from sources",
+        "hash": "82a222da4b49"
+      }
+    },
+    "entry:caisi": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0174",
+          "S-0175",
+          "S-0176"
+        ],
+        "proposals": [
+          "P-0069",
+          "P-0070"
+        ],
+        "note": "Jun 2025 rename and NIST location confirmed (nist-news p1–p2). Link now redirects to /caissi and the page is titled CAISSI after EO 14434.",
+        "missing": null,
+        "hash": "53db29dbf51f"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0174",
+          "S-0175",
+          "S-0176"
+        ],
+        "proposals": [
+          "P-0069",
+          "P-0070"
+        ],
+        "note": "Jun 2025 rename and NIST location confirmed (nist-news p1–p2). Link now redirects to /caissi and the page is titled CAISSI after EO 14434.",
+        "missing": null,
+        "hash": "53db29dbf51f"
+      }
+    },
+    "entry:caisi:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0174",
+          "S-0175",
+          "S-0176"
+        ],
+        "proposals": [
+          "P-0069",
+          "P-0070"
+        ],
+        "note": "Jun 2025 rename and NIST location confirmed (nist-news p1–p2). Link now redirects to /caissi and the page is titled CAISSI after EO 14434.",
+        "missing": null,
+        "hash": "a5cb81cb4af0"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0174",
+          "S-0175",
+          "S-0176"
+        ],
+        "proposals": [
+          "P-0069",
+          "P-0070"
+        ],
+        "note": "Jun 2025 rename and NIST location confirmed (nist-news p1–p2). Link now redirects to /caissi and the page is titled CAISSI after EO 14434.",
+        "missing": null,
+        "hash": "a5cb81cb4af0"
+      }
+    },
+    "entry:caisi:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0174"
+        ],
+        "proposals": [],
+        "note": "Evaluation and standards roles confirmed on the CAISSI page (p2–p3); coverage set consistent.",
+        "missing": null,
+        "hash": "cd02e5419308"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0174"
+        ],
+        "proposals": [],
+        "note": "Evaluation and standards roles confirmed on the CAISSI page (p2–p3); coverage set consistent.",
+        "missing": null,
+        "hash": "cd02e5419308"
+      }
+    },
+    "entry:caisi:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0177",
+          "S-0176",
+          "S-0180",
+          "S-0181",
+          "S-0178",
+          "S-0179",
+          "S-0174"
+        ],
+        "proposals": [],
+        "note": "DeepSeek V4 Pro evaluation published 1 May 2026 is confirmed (nist-dsv4 p1); CAISI kept publishing assessments (GLM-5.2, Kimi K3 jointly with UK AISI, GLM-5.3: nist-kimi p1, nist-glm53 p1). The 5 May 2026 agreements with Google DeepMind, Microsoft and xAI are now attested only by secondary sources (dpa-caisi p1–p2; pymnts-fall p2): the NIST announcement is no longer on nist.gov (nist-news p5). Leadership instability (director Chris Fall resigned Jul 2026, pymnts-fall p1, secondary) not reflected.",
+        "missing": "the official NIST/Commerce announcement of the 5 May 2026 agreements (removed; nist.gov/node/1911491 returns 404) or another official confirmation that the agreements remain in force",
+        "hash": "57fd87a1932c"
+      }
+    },
+    "entry:caisi:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0177",
+          "S-0176",
+          "S-0180",
+          "S-0181",
+          "S-0178",
+          "S-0179",
+          "S-0174"
+        ],
+        "proposals": [],
+        "note": "DeepSeek V4 Pro evaluation published 1 May 2026 is confirmed (nist-dsv4 p1); CAISI kept publishing assessments (GLM-5.2, Kimi K3 jointly with UK AISI, GLM-5.3: nist-kimi p1, nist-glm53 p1). The 5 May 2026 agreements with Google DeepMind, Microsoft and xAI are now attested only by secondary sources (dpa-caisi p1–p2; pymnts-fall p2): the NIST announcement is no longer on nist.gov (nist-news p5). Leadership instability (director Chris Fall resigned Jul 2026, pymnts-fall p1, secondary) not reflected.",
+        "missing": "the official NIST/Commerce announcement of the 5 May 2026 agreements (removed; nist.gov/node/1911491 returns 404) or another official confirmation that the agreements remain in force",
+        "hash": "2ec4947f4aea"
+      }
+    },
+    "entry:caisi:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0174"
+        ],
+        "proposals": [],
+        "note": "Standards role confirmed; 'widely adopted' and 'direct evaluation accountability has migrated outside the agency' are analytic, and the second sits uneasily with CAISSI's stated lead role in national-security evaluations (nist-caissi p3).",
+        "missing": "analytic/comparative claim; not verifiable from sources",
+        "hash": "2d7c1460a6c3"
+      }
+    },
+    "entry:other-aisis": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0123"
+        ],
+        "proposals": [],
+        "note": "Link resolves to the Dec 2025 GOV.UK release on the Network; jur mu matches the multi-country content (P-0011); pow 2 advisory and active consistent.",
+        "missing": null,
+        "hash": "d2f4709cb60c"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0123"
+        ],
+        "proposals": [],
+        "note": "Link resolves to the Dec 2025 GOV.UK release on the Network; jur mu matches the multi-country content (P-0011); pow 2 advisory and active consistent.",
+        "missing": null,
+        "hash": "d2f4709cb60c"
+      }
+    },
+    "entry:other-aisis:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0123"
+        ],
+        "proposals": [],
+        "note": "Link resolves to the Dec 2025 GOV.UK release on the Network; jur mu matches the multi-country content (P-0011); pow 2 advisory and active consistent.",
+        "missing": null,
+        "hash": "3631c26630b2"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0123"
+        ],
+        "proposals": [],
+        "note": "Link resolves to the Dec 2025 GOV.UK release on the Network; jur mu matches the multi-country content (P-0011); pow 2 advisory and active consistent.",
+        "missing": null,
+        "hash": "3631c26630b2"
+      }
+    },
+    "entry:other-aisis:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0186",
+          "S-0187",
+          "S-0188",
+          "S-0189",
+          "S-0190",
+          "S-0191",
+          "S-0192",
+          "S-0123"
+        ],
+        "proposals": [],
+        "note": "Confirmed: Singapore DTC designated as Singapore's AISI (sg-dtc p1); J-AISI (jaisi p1); INESIA (inesia p1, p3); Korea AISI (kr-aisi p1–p2); Canadian AISI (ca-aisi p1); Australian AI Safety Institute (aisi-au p1); Kenya as Network member (govuk-network p1); IndiaAI Safety Institute (in-aisi p1). AI Verify could not be retrieved (aiverify.foundation resets connections; IMDA page is JavaScript-only and timed out in headless Chromium).",
+        "missing": "a retrievable official source for AI Verify (IMDA / AI Verify Foundation)",
+        "hash": "c2f3acc7237b"
+      }
+    },
+    "entry:other-aisis:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0124",
+          "S-0192",
+          "S-0188",
+          "S-0187"
+        ],
+        "proposals": [
+          "P-0071"
+        ],
+        "note": "India is not a Network member; INESIA described as national capacity. J-AISI's evaluation-methods-and-standards focus confirmed (jaisi p1).",
+        "missing": null,
+        "hash": "dc3cb63367c4"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0124",
+          "S-0192",
+          "S-0188",
+          "S-0187"
+        ],
+        "proposals": [
+          "P-0071"
+        ],
+        "note": "India is not a Network member; INESIA described as national capacity. J-AISI's evaluation-methods-and-standards focus confirmed (jaisi p1).",
+        "missing": null,
+        "hash": "dc3cb63367c4"
+      }
+    },
+    "entry:other-aisis:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0124",
+          "S-0192",
+          "S-0188",
+          "S-0187"
+        ],
+        "proposals": [
+          "P-0071"
+        ],
+        "note": "India is not a Network member; INESIA described as national capacity. J-AISI's evaluation-methods-and-standards focus confirmed (jaisi p1).",
+        "missing": null,
+        "hash": "3af6efa02d05"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0123",
+          "S-0124",
+          "S-0192",
+          "S-0188",
+          "S-0187"
+        ],
+        "proposals": [
+          "P-0071"
+        ],
+        "note": "India is not a Network member; INESIA described as national capacity. J-AISI's evaluation-methods-and-standards focus confirmed (jaisi p1).",
+        "missing": null,
+        "hash": "3af6efa02d05"
+      }
+    },
+    "entry:other-aisis:cov:elicit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0124"
+        ],
+        "proposals": [],
+        "note": "Network best practice on capability elicitation confirmed (aisi-seoul p2). Capacity concentration and 'Singapore and Japan have working arrangements with regional labs' were not found in any source.",
+        "missing": "official sources for Singapore/Japan pre-deployment arrangements with labs; capacity comparison is analytic",
+        "hash": "0e4a6792f931"
+      }
+    },
+    "entry:other-aisis:cov:timing": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0124"
+        ],
+        "proposals": [],
+        "note": "Network best practice on capability elicitation confirmed (aisi-seoul p2). Capacity concentration and 'Singapore and Japan have working arrangements with regional labs' were not found in any source.",
+        "missing": "official sources for Singapore/Japan pre-deployment arrangements with labs; capacity comparison is analytic",
+        "hash": "22d60ded0fe1"
+      }
+    },
+    "entry:metr": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0203",
+          "S-0204",
+          "S-0205",
+          "S-0206",
+          "S-0207"
+        ],
+        "proposals": [],
+        "note": "METR authors Common Elements (Dec 2025 version) and keeps a list of company frontier safety policies (metr-home p3–p4; metr-ce p1–p2); autonomous-capability and time-horizon focus (metr-home p2, p5); May 2026 Frontier Risk Report is entity-based, with Anthropic, Google, Meta and OpenAI (metr-frr p1–p2); evaluations under agreements with Anthropic and OpenAI and partnership with Google DeepMind (metr-opus55 p1; metr-gpt56 p1; metr-home p1).",
+        "missing": null,
+        "hash": "e667e22d0991"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0203",
+          "S-0204",
+          "S-0205",
+          "S-0206",
+          "S-0207"
+        ],
+        "proposals": [],
+        "note": "METR authors Common Elements (Dec 2025 version) and keeps a list of company frontier safety policies (metr-home p3–p4; metr-ce p1–p2); autonomous-capability and time-horizon focus (metr-home p2, p5); May 2026 Frontier Risk Report is entity-based, with Anthropic, Google, Meta and OpenAI (metr-frr p1–p2); evaluations under agreements with Anthropic and OpenAI and partnership with Google DeepMind (metr-opus55 p1; metr-gpt56 p1; metr-home p1).",
+        "missing": null,
+        "hash": "e667e22d0991"
+      }
+    },
+    "entry:metr:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0203",
+          "S-0204",
+          "S-0205",
+          "S-0206",
+          "S-0207"
+        ],
+        "proposals": [],
+        "note": "METR authors Common Elements (Dec 2025 version) and keeps a list of company frontier safety policies (metr-home p3–p4; metr-ce p1–p2); autonomous-capability and time-horizon focus (metr-home p2, p5); May 2026 Frontier Risk Report is entity-based, with Anthropic, Google, Meta and OpenAI (metr-frr p1–p2); evaluations under agreements with Anthropic and OpenAI and partnership with Google DeepMind (metr-opus55 p1; metr-gpt56 p1; metr-home p1).",
+        "missing": null,
+        "hash": "fe3d90d27ded"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0203",
+          "S-0204",
+          "S-0205",
+          "S-0206",
+          "S-0207"
+        ],
+        "proposals": [],
+        "note": "METR authors Common Elements (Dec 2025 version) and keeps a list of company frontier safety policies (metr-home p3–p4; metr-ce p1–p2); autonomous-capability and time-horizon focus (metr-home p2, p5); May 2026 Frontier Risk Report is entity-based, with Anthropic, Google, Meta and OpenAI (metr-frr p1–p2); evaluations under agreements with Anthropic and OpenAI and partnership with Google DeepMind (metr-opus55 p1; metr-gpt56 p1; metr-home p1).",
+        "missing": null,
+        "hash": "fe3d90d27ded"
+      }
+    },
+    "entry:metr:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0203",
+          "S-0204",
+          "S-0205",
+          "S-0206",
+          "S-0207"
+        ],
+        "proposals": [],
+        "note": "METR authors Common Elements (Dec 2025 version) and keeps a list of company frontier safety policies (metr-home p3–p4; metr-ce p1–p2); autonomous-capability and time-horizon focus (metr-home p2, p5); May 2026 Frontier Risk Report is entity-based, with Anthropic, Google, Meta and OpenAI (metr-frr p1–p2); evaluations under agreements with Anthropic and OpenAI and partnership with Google DeepMind (metr-opus55 p1; metr-gpt56 p1; metr-home p1).",
+        "missing": null,
+        "hash": "653a94b81675"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0203",
+          "S-0204",
+          "S-0205",
+          "S-0206",
+          "S-0207"
+        ],
+        "proposals": [],
+        "note": "METR authors Common Elements (Dec 2025 version) and keeps a list of company frontier safety policies (metr-home p3–p4; metr-ce p1–p2); autonomous-capability and time-horizon focus (metr-home p2, p5); May 2026 Frontier Risk Report is entity-based, with Anthropic, Google, Meta and OpenAI (metr-frr p1–p2); evaluations under agreements with Anthropic and OpenAI and partnership with Google DeepMind (metr-opus55 p1; metr-gpt56 p1; metr-home p1).",
+        "missing": null,
+        "hash": "653a94b81675"
+      }
+    },
+    "entry:metr:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0203",
+          "S-0204",
+          "S-0205",
+          "S-0206",
+          "S-0207"
+        ],
+        "proposals": [],
+        "note": "METR authors Common Elements (Dec 2025 version) and keeps a list of company frontier safety policies (metr-home p3–p4; metr-ce p1–p2); autonomous-capability and time-horizon focus (metr-home p2, p5); May 2026 Frontier Risk Report is entity-based, with Anthropic, Google, Meta and OpenAI (metr-frr p1–p2); evaluations under agreements with Anthropic and OpenAI and partnership with Google DeepMind (metr-opus55 p1; metr-gpt56 p1; metr-home p1).",
+        "missing": null,
+        "hash": "6f4a7cb3c475"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0203",
+          "S-0204",
+          "S-0205",
+          "S-0206",
+          "S-0207"
+        ],
+        "proposals": [],
+        "note": "METR authors Common Elements (Dec 2025 version) and keeps a list of company frontier safety policies (metr-home p3–p4; metr-ce p1–p2); autonomous-capability and time-horizon focus (metr-home p2, p5); May 2026 Frontier Risk Report is entity-based, with Anthropic, Google, Meta and OpenAI (metr-frr p1–p2); evaluations under agreements with Anthropic and OpenAI and partnership with Google DeepMind (metr-opus55 p1; metr-gpt56 p1; metr-home p1).",
+        "missing": null,
+        "hash": "6f4a7cb3c475"
+      }
+    },
+    "entry:metr:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0203",
+          "S-0204",
+          "S-0205",
+          "S-0206",
+          "S-0207"
+        ],
+        "proposals": [],
+        "note": "METR authors Common Elements (Dec 2025 version) and keeps a list of company frontier safety policies (metr-home p3–p4; metr-ce p1–p2); autonomous-capability and time-horizon focus (metr-home p2, p5); May 2026 Frontier Risk Report is entity-based, with Anthropic, Google, Meta and OpenAI (metr-frr p1–p2); evaluations under agreements with Anthropic and OpenAI and partnership with Google DeepMind (metr-opus55 p1; metr-gpt56 p1; metr-home p1).",
+        "missing": null,
+        "hash": "df124d796186"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0203",
+          "S-0204",
+          "S-0205",
+          "S-0206",
+          "S-0207"
+        ],
+        "proposals": [],
+        "note": "METR authors Common Elements (Dec 2025 version) and keeps a list of company frontier safety policies (metr-home p3–p4; metr-ce p1–p2); autonomous-capability and time-horizon focus (metr-home p2, p5); May 2026 Frontier Risk Report is entity-based, with Anthropic, Google, Meta and OpenAI (metr-frr p1–p2); evaluations under agreements with Anthropic and OpenAI and partnership with Google DeepMind (metr-opus55 p1; metr-gpt56 p1; metr-home p1).",
+        "missing": null,
+        "hash": "df124d796186"
+      }
+    },
+    "entry:metr:cov:elicit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0203",
+          "S-0204",
+          "S-0205",
+          "S-0206",
+          "S-0207"
+        ],
+        "proposals": [],
+        "note": "METR authors Common Elements (Dec 2025 version) and keeps a list of company frontier safety policies (metr-home p3–p4; metr-ce p1–p2); autonomous-capability and time-horizon focus (metr-home p2, p5); May 2026 Frontier Risk Report is entity-based, with Anthropic, Google, Meta and OpenAI (metr-frr p1–p2); evaluations under agreements with Anthropic and OpenAI and partnership with Google DeepMind (metr-opus55 p1; metr-gpt56 p1; metr-home p1).",
+        "missing": null,
+        "hash": "49f1a9f1d606"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0203",
+          "S-0204",
+          "S-0205",
+          "S-0206",
+          "S-0207"
+        ],
+        "proposals": [],
+        "note": "METR authors Common Elements (Dec 2025 version) and keeps a list of company frontier safety policies (metr-home p3–p4; metr-ce p1–p2); autonomous-capability and time-horizon focus (metr-home p2, p5); May 2026 Frontier Risk Report is entity-based, with Anthropic, Google, Meta and OpenAI (metr-frr p1–p2); evaluations under agreements with Anthropic and OpenAI and partnership with Google DeepMind (metr-opus55 p1; metr-gpt56 p1; metr-home p1).",
+        "missing": null,
+        "hash": "49f1a9f1d606"
+      }
+    },
+    "entry:metr:cov:thresh": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0204"
+        ],
+        "proposals": [],
+        "note": "Catalogue and analysis confirmed; METR's Dec 2025 version references the GPAI Code and SB 53, but nothing shows Common Elements 'prompted' their drafting.",
+        "missing": "analytic/comparative claim; not verifiable from sources",
+        "hash": "24cab761402a"
+      }
+    },
+    "edge:metr|prep": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0206",
+          "S-0207",
+          "S-0203",
+          "S-0205"
+        ],
+        "proposals": [],
+        "note": "Predeployment evaluations of Claude Opus 5.5 (Sep 2026) and GPT-5.6 Sol (Jun 2026); Google DeepMind partnership and Google's participation in the Frontier Risk Report, with METR evaluating shared models.",
+        "missing": null,
+        "hash": "d81cec4b00b0"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0206",
+          "S-0207",
+          "S-0203",
+          "S-0205"
+        ],
+        "proposals": [],
+        "note": "Predeployment evaluations of Claude Opus 5.5 (Sep 2026) and GPT-5.6 Sol (Jun 2026); Google DeepMind partnership and Google's participation in the Frontier Risk Report, with METR evaluating shared models.",
+        "missing": null,
+        "hash": "d81cec4b00b0"
+      }
+    },
+    "edge:metr|fsf": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0206",
+          "S-0207",
+          "S-0203",
+          "S-0205"
+        ],
+        "proposals": [],
+        "note": "Predeployment evaluations of Claude Opus 5.5 (Sep 2026) and GPT-5.6 Sol (Jun 2026); Google DeepMind partnership and Google's participation in the Frontier Risk Report, with METR evaluating shared models.",
+        "missing": null,
+        "hash": "edced7b6d107"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0206",
+          "S-0207",
+          "S-0203",
+          "S-0205"
+        ],
+        "proposals": [],
+        "note": "Predeployment evaluations of Claude Opus 5.5 (Sep 2026) and GPT-5.6 Sol (Jun 2026); Google DeepMind partnership and Google's participation in the Frontier Risk Report, with METR evaluating shared models.",
+        "missing": null,
+        "hash": "edced7b6d107"
+      }
+    },
+    "entry:apollo": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0208",
+          "S-0209",
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "Scheming/deception-focused pre-deployment evaluator (apollo-home p1–p2); evaluations for all major labs (apollo-about p3); IASR 2026 sandbagging passage cites the Apollo–OpenAI anti-scheming paper (iasr-2026 p1–p2) and cites Apollo's 2024 in-context scheming paper (p3). Apollo became a PBC in 2026 (apollo-about p5); 'independent evaluator' still fits.",
+        "missing": null,
+        "hash": "769127ca44c5"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0208",
+          "S-0209",
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "Scheming/deception-focused pre-deployment evaluator (apollo-home p1–p2); evaluations for all major labs (apollo-about p3); IASR 2026 sandbagging passage cites the Apollo–OpenAI anti-scheming paper (iasr-2026 p1–p2) and cites Apollo's 2024 in-context scheming paper (p3). Apollo became a PBC in 2026 (apollo-about p5); 'independent evaluator' still fits.",
+        "missing": null,
+        "hash": "769127ca44c5"
+      }
+    },
+    "entry:apollo:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0208",
+          "S-0209",
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "Scheming/deception-focused pre-deployment evaluator (apollo-home p1–p2); evaluations for all major labs (apollo-about p3); IASR 2026 sandbagging passage cites the Apollo–OpenAI anti-scheming paper (iasr-2026 p1–p2) and cites Apollo's 2024 in-context scheming paper (p3). Apollo became a PBC in 2026 (apollo-about p5); 'independent evaluator' still fits.",
+        "missing": null,
+        "hash": "fa3e6e97fdc1"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0208",
+          "S-0209",
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "Scheming/deception-focused pre-deployment evaluator (apollo-home p1–p2); evaluations for all major labs (apollo-about p3); IASR 2026 sandbagging passage cites the Apollo–OpenAI anti-scheming paper (iasr-2026 p1–p2) and cites Apollo's 2024 in-context scheming paper (p3). Apollo became a PBC in 2026 (apollo-about p5); 'independent evaluator' still fits.",
+        "missing": null,
+        "hash": "fa3e6e97fdc1"
+      }
+    },
+    "entry:apollo:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0208",
+          "S-0209",
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "Scheming/deception-focused pre-deployment evaluator (apollo-home p1–p2); evaluations for all major labs (apollo-about p3); IASR 2026 sandbagging passage cites the Apollo–OpenAI anti-scheming paper (iasr-2026 p1–p2) and cites Apollo's 2024 in-context scheming paper (p3). Apollo became a PBC in 2026 (apollo-about p5); 'independent evaluator' still fits.",
+        "missing": null,
+        "hash": "f5f364ef492a"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0208",
+          "S-0209",
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "Scheming/deception-focused pre-deployment evaluator (apollo-home p1–p2); evaluations for all major labs (apollo-about p3); IASR 2026 sandbagging passage cites the Apollo–OpenAI anti-scheming paper (iasr-2026 p1–p2) and cites Apollo's 2024 in-context scheming paper (p3). Apollo became a PBC in 2026 (apollo-about p5); 'independent evaluator' still fits.",
+        "missing": null,
+        "hash": "f5f364ef492a"
+      }
+    },
+    "entry:apollo:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0208",
+          "S-0209",
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "Scheming/deception-focused pre-deployment evaluator (apollo-home p1–p2); evaluations for all major labs (apollo-about p3); IASR 2026 sandbagging passage cites the Apollo–OpenAI anti-scheming paper (iasr-2026 p1–p2) and cites Apollo's 2024 in-context scheming paper (p3). Apollo became a PBC in 2026 (apollo-about p5); 'independent evaluator' still fits.",
+        "missing": null,
+        "hash": "866b92123b68"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0208",
+          "S-0209",
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "Scheming/deception-focused pre-deployment evaluator (apollo-home p1–p2); evaluations for all major labs (apollo-about p3); IASR 2026 sandbagging passage cites the Apollo–OpenAI anti-scheming paper (iasr-2026 p1–p2) and cites Apollo's 2024 in-context scheming paper (p3). Apollo became a PBC in 2026 (apollo-about p5); 'independent evaluator' still fits.",
+        "missing": null,
+        "hash": "866b92123b68"
+      }
+    },
+    "entry:apollo:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0209",
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "2024 in-context scheming paper and o1 pre-deployment testing confirmed (apollo-about p1–p2). Claims that it brought scheming evals into 'mainstream lab practice', is the 'dominant external methodology', and was cited in GDM FSF v2 and Preparedness v2 were not checked against those documents.",
+        "missing": "GDM FSF v2, OpenAI Preparedness Framework v2 and Anthropic system cards showing citations of Apollo; the 'mainstream/dominant' characterisation is analytic",
+        "hash": "672612d6728a"
+      }
+    },
+    "entry:apollo:cov:elicit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0209",
+          "S-0121"
+        ],
+        "proposals": [],
+        "note": "2024 in-context scheming paper and o1 pre-deployment testing confirmed (apollo-about p1–p2). Claims that it brought scheming evals into 'mainstream lab practice', is the 'dominant external methodology', and was cited in GDM FSF v2 and Preparedness v2 were not checked against those documents.",
+        "missing": "GDM FSF v2, OpenAI Preparedness Framework v2 and Anthropic system cards showing citations of Apollo; the 'mainstream/dominant' characterisation is analytic",
+        "hash": "1d79bab2f40c"
+      }
+    },
+    "edge:apollo|fsf": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0209",
+          "S-0208"
+        ],
+        "proposals": [],
+        "note": "Apollo says it 'ran evaluations for all major labs' in 2025 (apollo-about p3) and ran a monitor red-teaming campaign with Anthropic (apollo-home p3), but no inspected source names Apollo as the scheming evaluator of a specific Anthropic or Google DeepMind model (the Gemini 3 Pro FSF report anonymises its external scheming evaluators; the Claude Sonnet 5 system card does not mention Apollo).",
+        "missing": "an Anthropic or Google DeepMind system card / FSF report, or an Apollo publication, naming Apollo as evaluator of their models for scheming",
+        "hash": "753d531d1a1d"
+      }
+    },
+    "edge:uk-aisi|prep": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0176",
+          "S-0200",
+          "S-0202",
+          "S-0201",
+          "S-0194"
+        ],
+        "proposals": [],
+        "note": "Joint US/UK pre-deployment evaluations of Anthropic's upgraded Claude 3.5 Sonnet and OpenAI's o1 (nist-news p3–p4); AISI tested GPT-6 Astra before public release (aisi-gpt6 p1); AISI testing of Anthropic's Mythos (kings-speech p1); Google DeepMind has partnered with AISI since Nov 2023 'to test our most capable models' (gdm-aisi p1) and AISI tests systems before release (aisi-about p1).",
+        "missing": null,
+        "hash": "e76900a331a5"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0176",
+          "S-0200",
+          "S-0202",
+          "S-0201",
+          "S-0194"
+        ],
+        "proposals": [],
+        "note": "Joint US/UK pre-deployment evaluations of Anthropic's upgraded Claude 3.5 Sonnet and OpenAI's o1 (nist-news p3–p4); AISI tested GPT-6 Astra before public release (aisi-gpt6 p1); AISI testing of Anthropic's Mythos (kings-speech p1); Google DeepMind has partnered with AISI since Nov 2023 'to test our most capable models' (gdm-aisi p1) and AISI tests systems before release (aisi-about p1).",
+        "missing": null,
+        "hash": "e76900a331a5"
+      }
+    },
+    "edge:uk-aisi|fsf": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0176",
+          "S-0200",
+          "S-0202",
+          "S-0201",
+          "S-0194"
+        ],
+        "proposals": [],
+        "note": "Joint US/UK pre-deployment evaluations of Anthropic's upgraded Claude 3.5 Sonnet and OpenAI's o1 (nist-news p3–p4); AISI tested GPT-6 Astra before public release (aisi-gpt6 p1); AISI testing of Anthropic's Mythos (kings-speech p1); Google DeepMind has partnered with AISI since Nov 2023 'to test our most capable models' (gdm-aisi p1) and AISI tests systems before release (aisi-about p1).",
+        "missing": null,
+        "hash": "1ad60427651f"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0176",
+          "S-0200",
+          "S-0202",
+          "S-0201",
+          "S-0194"
+        ],
+        "proposals": [],
+        "note": "Joint US/UK pre-deployment evaluations of Anthropic's upgraded Claude 3.5 Sonnet and OpenAI's o1 (nist-news p3–p4); AISI tested GPT-6 Astra before public release (aisi-gpt6 p1); AISI testing of Anthropic's Mythos (kings-speech p1); Google DeepMind has partnered with AISI since Nov 2023 'to test our most capable models' (gdm-aisi p1) and AISI tests systems before release (aisi-about p1).",
+        "missing": null,
+        "hash": "1ad60427651f"
+      }
+    },
+    "edge:caisi|nist-rmf": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0176",
+          "S-0182",
+          "S-0174"
+        ],
+        "proposals": [],
+        "note": "CAISI is at NIST (nist-news p2); the AI RMF is NIST's (nist-airmf p1). Name now CAISSI on NIST's site (see caisi-caissi).",
+        "missing": null,
+        "hash": "e7c5a98efcd1"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0176",
+          "S-0182",
+          "S-0174"
+        ],
+        "proposals": [],
+        "note": "CAISI is at NIST (nist-news p2); the AI RMF is NIST's (nist-airmf p1). Name now CAISSI on NIST's site (see caisi-caissi).",
+        "missing": null,
+        "hash": "e7c5a98efcd1"
+      }
+    },
+    "entry:averi": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0210",
+          "S-0213",
+          "S-0214",
+          "S-0212"
+        ],
+        "proposals": [],
+        "note": "501(c)(3) (averi-home p1); launched 15 Jan 2026 with flagship report (averi-updates p1); Brundage executive director, formerly led OpenAI policy research (averi-team p1–p2); auditing-capacity focus (averi-flagship p3).",
+        "missing": null,
+        "hash": "0d60b8384fb3"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0210",
+          "S-0213",
+          "S-0214",
+          "S-0212"
+        ],
+        "proposals": [],
+        "note": "501(c)(3) (averi-home p1); launched 15 Jan 2026 with flagship report (averi-updates p1); Brundage executive director, formerly led OpenAI policy research (averi-team p1–p2); auditing-capacity focus (averi-flagship p3).",
+        "missing": null,
+        "hash": "0d60b8384fb3"
+      }
+    },
+    "entry:averi:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0210",
+          "S-0213",
+          "S-0214",
+          "S-0212"
+        ],
+        "proposals": [],
+        "note": "501(c)(3) (averi-home p1); launched 15 Jan 2026 with flagship report (averi-updates p1); Brundage executive director, formerly led OpenAI policy research (averi-team p1–p2); auditing-capacity focus (averi-flagship p3).",
+        "missing": null,
+        "hash": "98d4bbcbd51e"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0210",
+          "S-0213",
+          "S-0214",
+          "S-0212"
+        ],
+        "proposals": [],
+        "note": "501(c)(3) (averi-home p1); launched 15 Jan 2026 with flagship report (averi-updates p1); Brundage executive director, formerly led OpenAI policy research (averi-team p1–p2); auditing-capacity focus (averi-flagship p3).",
+        "missing": null,
+        "hash": "98d4bbcbd51e"
+      }
+    },
+    "entry:averi:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0210",
+          "S-0213",
+          "S-0214",
+          "S-0212"
+        ],
+        "proposals": [],
+        "note": "501(c)(3) (averi-home p1); launched 15 Jan 2026 with flagship report (averi-updates p1); Brundage executive director, formerly led OpenAI policy research (averi-team p1–p2); auditing-capacity focus (averi-flagship p3).",
+        "missing": null,
+        "hash": "cd02e5419308"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0210",
+          "S-0213",
+          "S-0214",
+          "S-0212"
+        ],
+        "proposals": [],
+        "note": "501(c)(3) (averi-home p1); launched 15 Jan 2026 with flagship report (averi-updates p1); Brundage executive director, formerly led OpenAI policy research (averi-team p1–p2); auditing-capacity focus (averi-flagship p3).",
+        "missing": null,
+        "hash": "cd02e5419308"
+      }
+    },
+    "entry:averi:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0212",
+          "S-0214",
+          "S-0213"
+        ],
+        "proposals": [],
+        "note": "Launch date, founder, AI Assurance Levels in the launch report and auditing-ecosystem bottleneck confirmed (averi-flagship p1, p3). 'Aimed squarely at the bottleneck the EU AI Act exposes' and the safety-integrity-level analogy are the map's framing; AVERI's texts do not frame it around the EU AI Act.",
+        "missing": "analytic/comparative claim; not verifiable from sources",
+        "hash": "6285b12feb3e"
+      }
+    },
+    "entry:averi:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0212",
+          "S-0214",
+          "S-0213"
+        ],
+        "proposals": [],
+        "note": "Launch date, founder, AI Assurance Levels in the launch report and auditing-ecosystem bottleneck confirmed (averi-flagship p1, p3). 'Aimed squarely at the bottleneck the EU AI Act exposes' and the safety-integrity-level analogy are the map's framing; AVERI's texts do not frame it around the EU AI Act.",
+        "missing": "analytic/comparative claim; not verifiable from sources",
+        "hash": "a8d07cb0554c"
+      }
+    },
+    "entry:averi:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0211",
+          "S-0210",
+          "S-0215",
+          "S-0212"
+        ],
+        "proposals": [
+          "P-0074"
+        ],
+        "note": "AVERI runs pilot audits/evaluations with labs.",
+        "missing": null,
+        "hash": "1647dd762d28"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0211",
+          "S-0210",
+          "S-0215",
+          "S-0212"
+        ],
+        "proposals": [
+          "P-0074"
+        ],
+        "note": "AVERI runs pilot audits/evaluations with labs.",
+        "missing": null,
+        "hash": "1647dd762d28"
+      }
+    },
+    "edge:averi|metr": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0212"
+        ],
+        "proposals": [],
+        "note": "METR and Apollo Research staff co-authored AVERI's launch report (averi-flagship p2), consistent with 'builds on'.",
+        "missing": null,
+        "hash": "edbee1b15bb3"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0212"
+        ],
+        "proposals": [],
+        "note": "METR and Apollo Research staff co-authored AVERI's launch report (averi-flagship p2), consistent with 'builds on'.",
+        "missing": null,
+        "hash": "edbee1b15bb3"
+      }
+    },
+    "edge:averi|apollo": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0212"
+        ],
+        "proposals": [],
+        "note": "METR and Apollo Research staff co-authored AVERI's launch report (averi-flagship p2), consistent with 'builds on'.",
+        "missing": null,
+        "hash": "f1b4f03e21bb"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0212"
+        ],
+        "proposals": [],
+        "note": "METR and Apollo Research staff co-authored AVERI's launch report (averi-flagship p2), consistent with 'builds on'.",
+        "missing": null,
+        "hash": "f1b4f03e21bb"
+      }
+    },
+    "entry:cais": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0216",
+          "S-0218",
+          "S-0220",
+          "S-0219"
+        ],
+        "proposals": [],
+        "note": "WMDP is a proxy for hazardous bio/cyber/chem knowledge (cais-research p3); May 2023 statement, funding/field-building and policy advice (cais-about p1–p3); HLE (Jan 2025) and WMDP (Mar 2024) added within the stated period (cais-research p1–p2).",
+        "missing": null,
+        "hash": "189a3ec17cd4"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0216",
+          "S-0218",
+          "S-0220",
+          "S-0219"
+        ],
+        "proposals": [],
+        "note": "WMDP is a proxy for hazardous bio/cyber/chem knowledge (cais-research p3); May 2023 statement, funding/field-building and policy advice (cais-about p1–p3); HLE (Jan 2025) and WMDP (Mar 2024) added within the stated period (cais-research p1–p2).",
+        "missing": null,
+        "hash": "189a3ec17cd4"
+      }
+    },
+    "entry:cais:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0216",
+          "S-0218",
+          "S-0220",
+          "S-0219"
+        ],
+        "proposals": [],
+        "note": "WMDP is a proxy for hazardous bio/cyber/chem knowledge (cais-research p3); May 2023 statement, funding/field-building and policy advice (cais-about p1–p3); HLE (Jan 2025) and WMDP (Mar 2024) added within the stated period (cais-research p1–p2).",
+        "missing": null,
+        "hash": "ad33250de3ef"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0216",
+          "S-0218",
+          "S-0220",
+          "S-0219"
+        ],
+        "proposals": [],
+        "note": "WMDP is a proxy for hazardous bio/cyber/chem knowledge (cais-research p3); May 2023 statement, funding/field-building and policy advice (cais-about p1–p3); HLE (Jan 2025) and WMDP (Mar 2024) added within the stated period (cais-research p1–p2).",
+        "missing": null,
+        "hash": "ad33250de3ef"
+      }
+    },
+    "entry:cais:cov:elicit": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0216",
+          "S-0218",
+          "S-0220",
+          "S-0219"
+        ],
+        "proposals": [],
+        "note": "WMDP is a proxy for hazardous bio/cyber/chem knowledge (cais-research p3); May 2023 statement, funding/field-building and policy advice (cais-about p1–p3); HLE (Jan 2025) and WMDP (Mar 2024) added within the stated period (cais-research p1–p2).",
+        "missing": null,
+        "hash": "5a757aa546cf"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0216",
+          "S-0218",
+          "S-0220",
+          "S-0219"
+        ],
+        "proposals": [],
+        "note": "WMDP is a proxy for hazardous bio/cyber/chem knowledge (cais-research p3); May 2023 statement, funding/field-building and policy advice (cais-about p1–p3); HLE (Jan 2025) and WMDP (Mar 2024) added within the stated period (cais-research p1–p2).",
+        "missing": null,
+        "hash": "5a757aa546cf"
+      }
+    },
+    "entry:cais:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0216",
+          "S-0218",
+          "S-0220",
+          "S-0219"
+        ],
+        "proposals": [],
+        "note": "WMDP is a proxy for hazardous bio/cyber/chem knowledge (cais-research p3); May 2023 statement, funding/field-building and policy advice (cais-about p1–p3); HLE (Jan 2025) and WMDP (Mar 2024) added within the stated period (cais-research p1–p2).",
+        "missing": null,
+        "hash": "66e8230d1b4f"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0216",
+          "S-0218",
+          "S-0220",
+          "S-0219"
+        ],
+        "proposals": [],
+        "note": "WMDP is a proxy for hazardous bio/cyber/chem knowledge (cais-research p3); May 2023 statement, funding/field-building and policy advice (cais-about p1–p3); HLE (Jan 2025) and WMDP (Mar 2024) added within the stated period (cais-research p1–p2).",
+        "missing": null,
+        "hash": "66e8230d1b4f"
+      }
+    },
+    "entry:cais:cov:update": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0216",
+          "S-0218",
+          "S-0220",
+          "S-0219"
+        ],
+        "proposals": [],
+        "note": "WMDP is a proxy for hazardous bio/cyber/chem knowledge (cais-research p3); May 2023 statement, funding/field-building and policy advice (cais-about p1–p3); HLE (Jan 2025) and WMDP (Mar 2024) added within the stated period (cais-research p1–p2).",
+        "missing": null,
+        "hash": "da7351557e87"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0216",
+          "S-0218",
+          "S-0220",
+          "S-0219"
+        ],
+        "proposals": [],
+        "note": "WMDP is a proxy for hazardous bio/cyber/chem knowledge (cais-research p3); May 2023 statement, funding/field-building and policy advice (cais-about p1–p3); HLE (Jan 2025) and WMDP (Mar 2024) added within the stated period (cais-research p1–p2).",
+        "missing": null,
+        "hash": "da7351557e87"
+      }
+    },
+    "entry:cais:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0217",
+          "S-0218",
+          "S-0216",
+          "S-0220"
+        ],
+        "proposals": [],
+        "note": "501(c)(3) (cais-faq p1); May 2023 Statement signed by >600 experts and public figures (cais-about p1); Hendrycks is Director (cais-home p3). Founding year 2022 and Hendrycks as founder not found on CAIS pages (cais-research p4).",
+        "missing": "a CAIS or official source for the founding year (2022) and founder",
+        "hash": "9ed2fc28931c"
+      }
+    },
+    "entry:cais:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0220",
+          "S-0218",
+          "S-0221",
+          "S-0219"
+        ],
+        "proposals": [],
+        "note": "HLE and WMDP, statement text and lab-CEO signatories, Devin Kim (ex-xAI) as President and FSI as DC-based affiliate (Jun 2026) all confirmed (cais-research p1–p3; cais-statement p1; cais-about p1; cais-fsi p1, p6). MMLU is not presented as a CAIS benchmark on CAIS's site (cais-research p4).",
+        "missing": "a CAIS source presenting MMLU as a CAIS-run benchmark (it predates CAIS as a Hendrycks et al. 2020 paper)",
+        "hash": "c8d715180f17"
+      }
+    },
+    "entry:cais:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0220",
+          "S-0218",
+          "S-0221",
+          "S-0219"
+        ],
+        "proposals": [],
+        "note": "HLE and WMDP, statement text and lab-CEO signatories, Devin Kim (ex-xAI) as President and FSI as DC-based affiliate (Jun 2026) all confirmed (cais-research p1–p3; cais-statement p1; cais-about p1; cais-fsi p1, p6). MMLU is not presented as a CAIS benchmark on CAIS's site (cais-research p4).",
+        "missing": "a CAIS source presenting MMLU as a CAIS-run benchmark (it predates CAIS as a Hendrycks et al. 2020 paper)",
+        "hash": "e1168d3cf893"
+      }
+    },
+    "edge:cais|fsi": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0221",
+          "S-0222"
+        ],
+        "proposals": [],
+        "note": "FSI established by CAIS as a Washington, DC-based organisation; FSI is 'at the Center for AI Safety'.",
+        "missing": null,
+        "hash": "86a04259e223"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0221",
+          "S-0222"
+        ],
+        "proposals": [],
+        "note": "FSI established by CAIS as a Washington, DC-based organisation; FSI is 'at the Center for AI Safety'.",
+        "missing": null,
+        "hash": "86a04259e223"
+      }
+    },
+    "edge:cais|aisr": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0121",
+          "S-0218"
+        ],
+        "proposals": [],
+        "note": "CAIS says its statement shifted the global perspective (cais-about p1), but the IASR 2026 does not cite CAIS or the statement (iasr-2026 p4); the influence is an analytic claim.",
+        "missing": "analytic/comparative claim; not verifiable from sources",
+        "hash": "988800ccb85c"
+      }
+    },
+    "entry:fsi": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0221",
+          "S-0222"
+        ],
+        "proposals": [],
+        "note": "CAIS affiliate established 2 Jun 2026, Washington DC, translation layer to the National Security Enterprise (cais-fsi p1, p7; fsi-home p1). Coverage set consistent.",
+        "missing": null,
+        "hash": "79254352c7ef"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0221",
+          "S-0222"
+        ],
+        "proposals": [],
+        "note": "CAIS affiliate established 2 Jun 2026, Washington DC, translation layer to the National Security Enterprise (cais-fsi p1, p7; fsi-home p1). Coverage set consistent.",
+        "missing": null,
+        "hash": "79254352c7ef"
+      }
+    },
+    "entry:fsi:desc": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0221",
+          "S-0222"
+        ],
+        "proposals": [],
+        "note": "CAIS affiliate established 2 Jun 2026, Washington DC, translation layer to the National Security Enterprise (cais-fsi p1, p7; fsi-home p1). Coverage set consistent.",
+        "missing": null,
+        "hash": "09f31026ad9c"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0221",
+          "S-0222"
+        ],
+        "proposals": [],
+        "note": "CAIS affiliate established 2 Jun 2026, Washington DC, translation layer to the National Security Enterprise (cais-fsi p1, p7; fsi-home p1). Coverage set consistent.",
+        "missing": null,
+        "hash": "09f31026ad9c"
+      }
+    },
+    "entry:fsi:cov": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0221",
+          "S-0222"
+        ],
+        "proposals": [],
+        "note": "CAIS affiliate established 2 Jun 2026, Washington DC, translation layer to the National Security Enterprise (cais-fsi p1, p7; fsi-home p1). Coverage set consistent.",
+        "missing": null,
+        "hash": "a52b95116825"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0221",
+          "S-0222"
+        ],
+        "proposals": [],
+        "note": "CAIS affiliate established 2 Jun 2026, Washington DC, translation layer to the National Security Enterprise (cais-fsi p1, p7; fsi-home p1). Coverage set consistent.",
+        "missing": null,
+        "hash": "a52b95116825"
+      }
+    },
+    "entry:fsi:context": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0223",
+          "S-0224",
+          "S-0225",
+          "S-0221",
+          "S-0226"
+        ],
+        "proposals": [
+          "P-0072"
+        ],
+        "note": "Leadership and three focus areas confirmed; FSI does offer independent evaluations.",
+        "missing": null,
+        "hash": "4eb19b389788"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0223",
+          "S-0224",
+          "S-0225",
+          "S-0221",
+          "S-0226"
+        ],
+        "proposals": [
+          "P-0072"
+        ],
+        "note": "Leadership and three focus areas confirmed; FSI does offer independent evaluations.",
+        "missing": null,
+        "hash": "4eb19b389788"
+      }
+    },
+    "entry:fsi:cov:eval": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0223",
+          "S-0224",
+          "S-0225",
+          "S-0221",
+          "S-0226"
+        ],
+        "proposals": [
+          "P-0072"
+        ],
+        "note": "Leadership and three focus areas confirmed; FSI does offer independent evaluations.",
+        "missing": null,
+        "hash": "93c73e657996"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0223",
+          "S-0224",
+          "S-0225",
+          "S-0221",
+          "S-0226"
+        ],
+        "proposals": [
+          "P-0072"
+        ],
+        "note": "Leadership and three focus areas confirmed; FSI does offer independent evaluations.",
+        "missing": null,
+        "hash": "93c73e657996"
+      }
+    },
+    "entry:fsi:cov:sec": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0225",
+          "S-0222",
+          "S-0221"
+        ],
+        "proposals": [],
+        "note": "Model security (incl. weights, exfiltration, insider threats) is one of three areas and FSI translates between labs and national-security institutions (fsi-work p1; fsi-home p2; cais-fsi p2). 'State-actor', 'bridges lab weight-security commitments and US national-security review' and 'legible to national-security review processes' are the map's framing; FSI speaks of connecting work to existing government authorities.",
+        "missing": "analytic/comparative claim; not verifiable from sources",
+        "hash": "693adc26de35"
+      }
+    },
+    "entry:fsi:cov:acct": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0225",
+          "S-0222",
+          "S-0221"
+        ],
+        "proposals": [],
+        "note": "Model security (incl. weights, exfiltration, insider threats) is one of three areas and FSI translates between labs and national-security institutions (fsi-work p1; fsi-home p2; cais-fsi p2). 'State-actor', 'bridges lab weight-security commitments and US national-security review' and 'legible to national-security review processes' are the map's framing; FSI speaks of connecting work to existing government authorities.",
+        "missing": "analytic/comparative claim; not verifiable from sources",
+        "hash": "f3b640d40b8e"
+      }
+    },
+    "edge:fsi|caisi": {
+      "last_attempt": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0174",
+          "S-0224"
+        ],
+        "proposals": [],
+        "note": "CAISSI leads unclassified national-security evaluations of frontier systems (nist-caissi p3); FSI offers national-security-scoped capability assessments (fsi-natsec p1).",
+        "missing": null,
+        "hash": "84d49d98339e"
+      },
+      "last_success": {
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0174",
+          "S-0224"
+        ],
+        "proposals": [],
+        "note": "CAISSI leads unclassified national-security evaluations of frontier systems (nist-caissi p3); FSI offers national-security-scoped capability assessments (fsi-natsec p1).",
+        "missing": null,
+        "hash": "84d49d98339e"
       }
     }
   }

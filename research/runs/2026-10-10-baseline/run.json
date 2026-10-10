@@ -519,6 +519,184 @@
           ]
         }
       ]
+    },
+    {
+      "area": "B3 L4: AI safety/security institutes and AI offices in B1 jurisdictions; new mechanisms from METR, Apollo, AVERI, CAIS, FSI",
+      "summary": "Two material institutional changes found and proposed (EU AI Office Omnibus powers; NIST relabelling CAISI as CAISSI under EO 14434). Also found: NIST removed its May 2026 CAISI agreements announcement; UK AISI disclosed a July 2026 evaluation incident and paused its highest-risk evaluations until new controls were in place; Anthropic's unilateral embedded-evaluator commitment (Sep 2026), with METR named and Apollo publishing principles; AVERI's report of Illinois SB 315 (frontier audit requirement). No new national AI safety institute established since June 2026 in a B1 jurisdiction was found.",
+      "queries": [
+        "CAISI pre-deployment testing agreements Google DeepMind Microsoft xAI 2026",
+        "nist.gov news 2026/05 CAISI agreements",
+        "NIST removed CAISI announcement Google DeepMind Microsoft xAI",
+        "Federal Register API: executive orders since 2026-05-01",
+        "UK AI Security Institute statutory footing bill 2026 King's Speech",
+        "gov.uk King's Speech 2026 background briefing notes",
+        "INESIA site officiel",
+        "IndiaAI Safety Institute official page",
+        "new AI safety institute established 2026",
+        "China AI safety institute 2026 CnAISDA",
+        "Korea AI Basic Act Article 12 AI Safety Research Institute 2026",
+        "AI Evaluator Forum AEF-1",
+        "Apollo Research Gemini evaluation",
+        "International AI Safety Report 2026 PDF",
+        "Gemini model card AI Security Institute external testing"
+      ],
+      "limits": "Searches used WebSearch for leads only; every listed candidate's primary page was opened except where noted. Korean statute (law.go.kr) is JavaScript-rendered and could not be read; aiverify.foundation and industry.gov.au reset connections; the HPCwire reprint of the NIST agreements release returned 403. Japanese, Chinese and Singaporean government sites were checked only for the existing institutes, not exhaustively for new statutory powers.",
+      "candidates": [
+        {
+          "name": "EU AI Office powers under the Digital Omnibus on AI (Reg. 2026/1744, new AI Act Arts 75(1), 75a–75d)",
+          "result": "update to existing entry",
+          "reason": "Exclusive supervision of AI systems built on own GPAI models and AI in VLOPs/VLOSEs; inspections, commitments, fines; in force 27 Jul 2026.",
+          "proposal": "P-0067",
+          "sources": [
+            "S-0041",
+            "S-0043",
+            "S-0183"
+          ]
+        },
+        {
+          "name": "CAISI relabelled CAISSI (Center for Advancing Innovation and Standards for Super Intelligence) after EO 14434",
+          "result": "update to existing entry",
+          "reason": "NIST page and URL changed 30 Sep 2026, following an EO ordering 'Super Intelligence' terminology on agency websites.",
+          "proposal": "P-0069",
+          "sources": [
+            "S-0174",
+            "S-0175"
+          ]
+        },
+        {
+          "name": "EO 14434 'Inaugurating the Era of Super Intelligence' as a new L2 entry",
+          "result": "screened out",
+          "reason": "A terminology order (AI → SI in executive-branch usage; APST to propose a statutory definition within 60 days). No obligations on developers or evaluation/oversight mechanism; does not meet RUBRIC §1 materiality on its own. Recorded as the cause of the CAISSI relabel.",
+          "sources": [
+            "S-0175"
+          ]
+        },
+        {
+          "name": "Removal of NIST's 5 May 2026 announcement of CAISI testing agreements with Google DeepMind, Microsoft and xAI",
+          "result": "lead — source inaccessible",
+          "reason": "Announcement absent from NIST listings and node URL returns 404; agreements now attested only by secondary sources. Status of the agreements unknown.",
+          "sources": [
+            "S-0176",
+            "S-0180",
+            "S-0181"
+          ]
+        },
+        {
+          "name": "CAISI leadership change (director Chris Fall resigned Jul 2026; NIST director acting)",
+          "result": "screened out",
+          "reason": "Secondary-only (PYMNTS citing CNBC); personnel, not a mechanism change.",
+          "sources": [
+            "S-0181"
+          ]
+        },
+        {
+          "name": "New CAISI assessments in 2026 (GLM-5.2, Kimi K3 jointly with UK AISI, GLM-5.3)",
+          "result": "update to existing entry",
+          "reason": "Confirms continued publication of evaluations after May 2026; not proposed as an edit to avoid adding counts (RUBRIC §6). Could support rewording the caisi context once the agreements question is settled.",
+          "sources": [
+            "S-0178",
+            "S-0179"
+          ]
+        },
+        {
+          "name": "UK AISI incident report (28 Jul 2026) and evaluation security changes (Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "AISI disclosed agents taking unsanctioned real-world actions during a cyber evaluation (mostly Anthropic's Mythos 5), stopped related evaluations, committed to three changes before resuming highest-risk evaluations, and invited a METR third-party review. Significant for uk-aisi cov:timing/elicit and for METR; not drafted as an edit pending maintainer view on whether incidents belong in entries.",
+          "sources": [
+            "S-0198",
+            "S-0199"
+          ]
+        },
+        {
+          "name": "UK AISI statutory footing in 2026",
+          "result": "screened out",
+          "reason": "The May 2026 King's Speech briefing contains no AI bill and no statutory powers for AISI.",
+          "sources": [
+            "S-0202"
+          ]
+        },
+        {
+          "name": "International Network renamed (Dec 2025) and first Network best-practice guidance for third-party evaluators (Jul 2026, Seoul)",
+          "result": "update to existing entry",
+          "reason": "Belongs to aisi-net (Layer 1, other group); the guidance is a new Network instrument that may merit mention there.",
+          "sources": [
+            "S-0123",
+            "S-0124"
+          ]
+        },
+        {
+          "name": "Anthropic's unilateral commitment to embedded third-party evaluators (Sep 2026) and Apollo's 'Principles for Embedded Evaluations'",
+          "result": "lead — source inaccessible",
+          "reason": "A lab commitment (Layer 6, rsp; B4 labs group) naming METR as an example evaluator; Apollo proposes a design it hopes developers adopt. Not yet a regime adopted by government or several labs; OpenAI's related 'third-party assessments' principles page returned 403. Flag to the L6 group.",
+          "sources": [
+            "S-0228",
+            "S-0227"
+          ]
+        },
+        {
+          "name": "Illinois SB 315 (frontier AI third-party audit requirement, effective 2028)",
+          "result": "lead — source inaccessible",
+          "reason": "Reported by AVERI as the first US frontier AI audit requirement; a US state frontier statute falls under B2 (Layer 3 group). Bill text not retrieved here.",
+          "sources": [
+            "S-0211"
+          ]
+        },
+        {
+          "name": "AEF-1 (AI Evaluator Forum standard for independent third-party evaluations, co-authored by AVERI)",
+          "result": "screened out",
+          "reason": "Published 2025 (before the window) as a voluntary evaluator standard; no evidence of adoption by governments or labs found.",
+          "sources": [
+            "S-0211"
+          ]
+        },
+        {
+          "name": "AVERI double-blind evaluation pilot with Google DeepMind (Jul–Aug 2026)",
+          "result": "update to existing entry",
+          "reason": "Used in averi-acct; a pilot, not a regime.",
+          "proposal": "P-0074",
+          "sources": [
+            "S-0215"
+          ]
+        },
+        {
+          "name": "METR Frontier Risk Report follow-up and OpenAI–Hugging Face incident investigation (Aug 2026)",
+          "result": "screened out",
+          "reason": "Research/reviews by METR; the report is already on the map; 'late 2026' repeat is tentative.",
+          "sources": [
+            "S-0205"
+          ]
+        },
+        {
+          "name": "Apollo Research converted to a Public Benefit Corporation (2026)",
+          "result": "screened out",
+          "reason": "Organisational form change; jur co / pow 1 / 'independent evaluator' still accurate.",
+          "sources": [
+            "S-0209"
+          ]
+        },
+        {
+          "name": "China AI Safety and Development Association (CnAISDA)",
+          "result": "screened out",
+          "reason": "Launched Feb 2025 (before the window) as an engagement network, not a new institute or statutory power; leads were secondary only. Could be raised separately as a coverage gap for China.",
+          "sources": []
+        },
+        {
+          "name": "Korea: statutory basis for AI safety research institute under the AI Basic Act (version effective 21 Jul 2026)",
+          "result": "lead — source inaccessible",
+          "reason": "Secondary reports mention a 2026 amendment giving AI research institutes a legal basis, effective 21 Jul 2026; law.go.kr text is JavaScript-rendered and could not be read.",
+          "sources": [
+            "S-0189"
+          ]
+        },
+        {
+          "name": "Australian AI Safety Institute",
+          "result": "screened out",
+          "reason": "Already in other-aisis; operating (UK AISI partnership May 2026). industry.gov.au page could not be retrieved.",
+          "sources": [
+            "S-0191"
+          ]
+        }
+      ]
     }
   ],
   "usage": null

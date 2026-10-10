@@ -1,5 +1,5 @@
 {
-  "next": 174,
+  "next": 229,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -1709,18 +1709,31 @@
     },
     "S-0038": {
       "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-05/pdf/2026-11415.pdf",
-      "title": "Federal Register 91 FR 34565: Executive Order 14409, Promoting Advanced Artificial Intelligence Innovation and Security",
-      "publisher": "Office of the Federal Register (govinfo)",
+      "title": "Executive Order 14409, Promoting Advanced Artificial Intelligence Innovation and Security (91 FR 34565)",
+      "publisher": "Federal Register / govinfo",
       "type": "primary",
       "dates": {
         "signed": "2026-06-02",
-        "published": "2026-06-05"
+        "published": "2026-06-05",
+        "adopted": "2026-06-02"
       },
       "fetches": [
         {
           "date": "2026-10-10",
           "at": "2026-10-10T16:42:57Z",
           "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-05/pdf/2026-11415.pdf",
+          "content_type": "application/pdf",
+          "sha256": "4a25c970947e7234",
+          "bytes": 194548
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:45Z",
+          "run": "2026-10-10-baseline",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -1777,6 +1790,30 @@
           "id": "S-0038#8",
           "locator": "Whole text (searched)",
           "text": "The order does not mention the Center for AI Standards and Innovation (CAISI), 'safety', 'evaluation', 'testing' or 'review'. NIST appears once, as a consulted agency in §3.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0038#9",
+          "locator": "Sec. 3(a)",
+          "text": "develop and maintain a classified benchmarking process to assess the advanced cyber capabilities of AI models",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0038#10",
+          "locator": "Sec. 3(b)",
+          "text": "design a voluntary framework with AI developers through which developers would be able to:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0038#11",
+          "locator": "Sec. 3(b)(ii)",
+          "text": "provide the Federal Government with access to covered frontier models … for a period of up to 30 days before they plan to release such models to other trusted partners",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0038#12",
+          "locator": "Sec. 3(c)",
+          "text": "Nothing in this section shall be construed to authorize the creation of a mandatory governmental licensing, preclearance, or permitting requirement",
           "retrieved": "2026-10-10"
         }
       ]
@@ -1844,8 +1881,8 @@
     },
     "S-0041": {
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202601744",
-      "title": "Regulation (EU) 2026/1744 (Digital Omnibus on AI), Official Journal L series",
-      "publisher": "EUR-Lex",
+      "title": "Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+      "publisher": "Official Journal of the EU (EUR-Lex)",
       "type": "primary",
       "dates": {
         "adopted": "2026-07-08",
@@ -1882,6 +1919,16 @@
           "via": "curl (research subagent, 2026-10-10 ~16:38Z)",
           "status": "ok",
           "note": "HTTP 200, 352,971 bytes, sha256 e88469a1b9e4adf5; text read in full by Claude from that saved copy. Later fetches the same day got empty HTTP 202 responses from EUR-Lex."
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:11Z",
+          "run": "2026-10-10-baseline",
+          "via": "headless Chromium (EUR-Lex returns empty HTTP 202 to curl)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "037b32005832af2c",
+          "bytes": 365413
         }
       ],
       "passages": [
@@ -1926,6 +1973,54 @@
           "locator": "Art 1(39)(b), new AI Act Art 111(4)",
           "text": "Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0041#8",
+          "locator": "title",
+          "text": "REGULATION (EU) 2026/1744 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL … of 8 July 2026",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0041#9",
+          "locator": "OJ header",
+          "text": "Official Journal of the European Union … 2026/1744 … 24.7.2026",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0041#10",
+          "locator": "Art. 1(31)(b), new AI Act Art. 75(1)",
+          "text": "1. The AI Office shall be exclusively competent for the supervision and enforcement of the obligations under this Regulation in relation to the following AI systems:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0041#11",
+          "locator": "Art. 1(31)(b), new AI Act Art. 75(1)(a)",
+          "text": "AI systems based on general-purpose AI models where the model and the system are developed by the same provider, or by providers forming part of the same undertaking as that provider",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0041#12",
+          "locator": "Art. 1(31)(b), new AI Act Art. 75(1)(b)",
+          "text": "AI systems that constitute or that are integrated into a very large online platform or very large online search engine designated in accordance with Regulation (EU) 2022/2065.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0041#13",
+          "locator": "Art. 1(32), new AI Act Art. 75a(4)",
+          "text": "the AI Office may conduct all necessary remote or on-site inspections",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0041#14",
+          "locator": "Art. 1(32), new AI Act Art. 75c(4)",
+          "text": "A decision adopted pursuant to paragraph 1 of this Article may be accompanied by the imposition of penalties in accordance with Article 99(3) to (7)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0041#15",
+          "locator": "Art. 4",
+          "text": "This Regulation shall enter into force on the third day following that of its publication in the Official Journal of the European Union .",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -1963,7 +2058,7 @@
     },
     "S-0043": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
-      "title": "European Commission: The enforcement framework of the AI Act",
+      "title": "The enforcement framework of the AI Act",
       "publisher": "European Commission",
       "type": "primary",
       "dates": {},
@@ -1979,6 +2074,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "a634e53a8e652472",
           "bytes": 62911
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:12Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "99cef75dbaf2458b",
+          "bytes": 62893
         }
       ],
       "passages": [
@@ -1992,6 +2099,48 @@
           "id": "S-0043#2",
           "locator": "Timeline",
           "text": "The enforcement powers of the AI Office and the national competent authorities of the Member States apply from 2 August 2026, when certain provisions of the AI Act become enforceable.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0043#3",
+          "locator": "Which authorities are responsible for enforcement?",
+          "text": "AI systems developed by the same provider – or a provider within the same business group – of the underlying GPAI model",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0043#4",
+          "locator": "Which authorities are responsible for enforcement?",
+          "text": "AI systems integrated into very large online platforms (VLOPS) or very large online search engines (VLOSES) designated under the Digital Services Act (DSA)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0043#5",
+          "locator": "Which authorities are responsible for enforcement?",
+          "text": "The national competent authorities enforce the rules for other AI systems.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0043#6",
+          "locator": "AI Office's enforcement powers",
+          "text": "Perform model evaluations and issue requests for access (RFAs): The AI Office – or independent experts appointed by it – can require providers to grant access to their models in order to conduct evaluations.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0043#7",
+          "locator": "AI Office's enforcement powers",
+          "text": "Request providers to take measures , including, if necessary, restrict the public availability of a model .",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0043#8",
+          "locator": "AI Act's enforcement timeline",
+          "text": "The enforcement powers of the AI Office and the national competent authorities of the Member States apply from 2 August 2026",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0043#9",
+          "locator": "AI Office's enforcement powers",
+          "text": "In the context of AI systems , the AI office can conduct interviews of any person who might have information related to an investigation (and who consents to be interviewed), as well as conduct inspections of providers premises.",
           "retrieved": "2026-10-10"
         }
       ]
@@ -5694,6 +5843,30 @@
           "locator": "Foreword (UK)",
           "text": "I am especially looking forward to the India AI Impact Summit – where this Report will be showcased",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0121#12",
+          "locator": "§ on evaluation limits (sandbagging)",
+          "text": "Finally, models can underperform during evaluations compared to other contexts, a pattern termed ‘sandbagging’ that has been observed in experiments. 722 726 727",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0121#13",
+          "locator": "reference 722",
+          "text": "B. Schoen, E. Nitishinskaya, M. Balesni, … M. Hobbhahn, Stress Testing Deliberative Alignment for Anti-Scheming Training",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0121#14",
+          "locator": "reference 348",
+          "text": "A. Meinke, B. Schoen, J. Scheurer, M. Balesni, R. Shah, M. Hobbhahn, “Frontier Models Are Capable of In-Context Scheming” (Apollo Research, 2024)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0121#15",
+          "locator": "whole document",
+          "text": "[Observation, not a quotation] Searched the full report text (HTML edition) for 'Center for AI Safety', 'CAIS' as an organisation and 'Statement on AI Risk': no match.",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -5786,6 +5959,18 @@
           "locator": "press release, para 5",
           "text": "Since its creation, the Network has exchanged knowledge on AI evaluation and measurement to help countries align on best practices.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0123#6",
+          "locator": "body",
+          "text": "Established in November 2024, the Network brings together Australia, Canada, the European Union, France, Japan, Kenya, the Republic of Korea, Singapore, the United Kingdom and the United States",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0123#7",
+          "locator": "summary bullet",
+          "text": "The International Network of AI Safety Institutes becomes the International Network for Advanced AI Measurement, Evaluation and Science",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -5840,6 +6025,18 @@
           "id": "S-0124#5",
           "locator": "post header",
           "text": "The International Network for Advanced AI Measurement, Evaluation and Science convened in Seoul to continue outlining international best practice. — Jul 23, 2026",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0124#6",
+          "locator": "para 3",
+          "text": "the Network brings together Institutes globally, in Australia, Canada, the European Union, France, Japan, Kenya, the Republic of Korea, Singapore, the United Kingdom and the United States.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0124#7",
+          "locator": "guidance section",
+          "text": "providing specific recommendations to third-party evaluators, such as on capability elicitation",
           "retrieved": "2026-10-10"
         }
       ]
@@ -8183,6 +8380,2087 @@
           "id": "S-0173#1",
           "locator": "History (latest entry)",
           "text": "re-referred to Committee on Communications and Technology",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0174": {
+      "url": "https://www.nist.gov/caissi",
+      "title": "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)",
+      "publisher": "NIST",
+      "type": "primary",
+      "dates": {
+        "effective": "2026-09-30"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:05Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/caissi",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "8f0fff46b33b4c81",
+          "bytes": 90139
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0174#1",
+          "locator": "page title / heading",
+          "text": "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0174#2",
+          "locator": "About",
+          "text": "The Center for Advancing Innovation and Standards for Super Intelligence (CAISSI) will serve as industry’s primary point of contact within the U.S. government to facilitate testing and collaborative research related to harnessing and securing the potential of commercial SI systems.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0174#3",
+          "locator": "About, list item 2",
+          "text": "Establish voluntary agreements with private sector SI developers and evaluators, and lead unclassified evaluations of SI capabilities that may pose risks to national security.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0174#4",
+          "locator": "News and Updates",
+          "text": "CAISI Evaluation of DeepSeek V4 Pro … May 1, 2026",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0174#5",
+          "locator": "HTML head metadata; request URL",
+          "text": "[Observation, not a quotation] The map's link https://www.nist.gov/caisi redirects (HTTP 200 after redirect) to https://www.nist.gov/caissi. The page's article:modified_time meta tag reads 2026-09-30T11:18-04:00, the day after EO 14434 was signed.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0175": {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-02/pdf/2026-20321.pdf",
+      "title": "Executive Order 14434, Inaugurating the Era of Super Intelligence (91 FR 63129)",
+      "publisher": "Federal Register / govinfo",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-09-29",
+        "published": "2026-10-02"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:06Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-02/pdf/2026-20321.pdf",
+          "content_type": "application/pdf",
+          "sha256": "55bf79ad5f80d386",
+          "bytes": 192237
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0175#1",
+          "locator": "heading",
+          "text": "Executive Order 14434 of September 29, 2026 … Inaugurating the Era of Super Intelligence",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0175#2",
+          "locator": "Sec. 1",
+          "text": "It is therefore the policy of my Administration that, to the maximum extent permitted by law, the executive branch shall use the terms ‘‘Super Intelligence’’ and ‘‘SI’’ in place of ‘‘Artificial Intelligence’’ and ‘‘AI’’",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0175#3",
+          "locator": "Sec. 2(a)",
+          "text": "executive departments and agencies (agencies) shall use ‘‘Super Intelligence’’ and ‘‘SI’’ in place of ‘‘Artificial Intelligence’’ and ‘‘AI’’ in official correspondence, public communications, websites, reports, policy documents, and other non-statutory documents within the executive branch.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0176": {
+      "url": "https://www.nist.gov/news-events/news-updates/tag/2810121",
+      "title": "News and Events: Center for AI Standards and Innovation",
+      "publisher": "NIST",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:07Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/news-events/news-updates/tag/2810121",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "903abb2437ee4f17",
+          "bytes": 168916
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0176#1",
+          "locator": "item 'U.S. AI Safety Institute Establishes New U.S. Government Taskforce…' (20 Nov 2024), teaser",
+          "text": "In June 2025, AISI was re-established as the Center for AI Standards and Innovation (CAISI) by Secretary of Commerce Howard Lutnick.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0176#2",
+          "locator": "item 'CAISI Issues Request for Information About Securing AI Agent Systems' (12 Jan 2026)",
+          "text": "The Center for AI Standards and Innovation (CAISI) at the U.S. Department of Commerce’s National Institute of Standards and Technology (NIST) has published a",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0176#3",
+          "locator": "item 'Pre-Deployment Evaluation of OpenAI's o1 Model' (18 Dec 2024)",
+          "text": "Pre-Deployment Evaluation of OpenAI's o1 Model … The U.S. Artificial Intelligence Safety Institute (US AISI) and the UK Artificial Intelligence Safety Institute (UK AISI) conducted a joint pre-deployment",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0176#4",
+          "locator": "item 19 Nov 2024",
+          "text": "Pre-Deployment Evaluation of Anthropic’s Upgraded Claude 3.5 Sonnet",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0176#5",
+          "locator": "whole listing (36 items, page 1 of 2) and nist.gov/node/1911491",
+          "text": "[Observation, not a quotation] The listing shows items dated 1 May 2026 (DeepSeek V4 Pro) and 17 Jul, 23 Jul and 17 Sep 2026 (assessments) but no 5 May 2026 announcement of testing agreements with Google DeepMind, Microsoft or xAI; page 2 has no such item either. The URL search engines give for that announcement, https://www.nist.gov/node/1911491, returns HTTP 404 (checked 10 Oct 2026).",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0177": {
+      "url": "https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro",
+      "title": "CAISI Evaluation of DeepSeek V4 Pro",
+      "publisher": "NIST",
+      "type": "primary",
+      "dates": {
+        "published": "2026-05-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:08Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "a59d4d878573fd83",
+          "bytes": 99370
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0177#1",
+          "locator": "body, first paragraph",
+          "text": "In April 2026, the Center for AI Standards and Innovation (CAISI) evaluated the open-weight AI model DeepSeek V4 Pro (“DeepSeek V4”).",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0178": {
+      "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+      "title": "UK AISI / CAISI Preliminary Assessment of Kimi K3's Cyber Capabilities",
+      "publisher": "NIST",
+      "type": "primary",
+      "dates": {
+        "published": "2026-07-23"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:08Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "1d301d2d603a89d0",
+          "bytes": 92669
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0178#1",
+          "locator": "body, first paragraph",
+          "text": "The UK Artificial Intelligence Security Institute (UK AISI) and the U.S. Center for AI Standards and Innovation (CAISI) (UK AISI / CAISI) conducted a joint evaluation of Moonshot AI’s latest model, Kimi K3",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0179": {
+      "url": "https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities",
+      "title": "CAISI's Assessment of Z.ai's GLM-5.3 Cyber Capabilities",
+      "publisher": "NIST",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-17"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:09Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "4017b4b52eb98afa",
+          "bytes": 92028
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0179#1",
+          "locator": "body, first paragraph",
+          "text": "In CAISI’s assessment of GLM-5.3’s cyber capabilities, the key findings were:",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0180": {
+      "url": "https://digitalpolicyalert.org/event/39699-center-for-ai-standards-and-innovation-signed-frontier-ai-national-security-testing-agreements-with-google-deepmind-microsoft-and-xai",
+      "title": "Center for AI Standards and Innovation signed frontier AI national security testing agreements with Google DeepMind, Microsoft and xAI",
+      "publisher": "Digital Policy Alert",
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:09Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digitalpolicyalert.org/event/39699-center-for-ai-standards-and-innovation-signed-frontier-ai-national-security-testing-agreements-with-google-deepmind-microsoft-and-xai",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "3ab4ae868044ed0e",
+          "bytes": 45466
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0180#1",
+          "locator": "Description",
+          "text": "On 5 May 2026, the Center for AI Standards and Innovation (CAISI) at the National Institute of Standards and Technology (NIST) signed agreements with Google DeepMind, Microsoft, and xAI to conduct pre-deployment evaluations and targeted research on",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0180#2",
+          "locator": "Description, source line",
+          "text": "CAISI Signs Agreements Regarding Frontier AI National Security Testing With Google DeepMind, Microsoft and xAI , US National Institute of Standards and Technology (NIST) (Official)",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0181": {
+      "url": "https://www.pymnts.com/personnel/2026/us-ai-safety-chief-chris-fall-resigns-after-3-months/",
+      "title": "US AI Safety Chief Chris Fall Resigns After 3 Months",
+      "publisher": "PYMNTS",
+      "type": "secondary",
+      "dates": {
+        "published": "2026-07-20"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:10Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.pymnts.com/personnel/2026/us-ai-safety-chief-chris-fall-resigns-after-3-months/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "6145ad6b5a0acaf4",
+          "bytes": 151337
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0181#1",
+          "locator": "para 1",
+          "text": "The head of the U.S.  Center for AI Standards and Innovation (CAISI), Chris Fall, resigned from that role three months after he was selected for it",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0181#2",
+          "locator": "later paragraph",
+          "text": "PYMNTS reported in May that Google DeepMind,  Microsoft  and  xAI signed agreements with CAISI to share their  frontier AI models  with the agency for national security testing before releasing those models to the public.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0182": {
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "title": "AI Risk Management Framework",
+      "publisher": "NIST",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:11Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "c1e3bc0459c50398",
+          "bytes": 93432
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0182#1",
+          "locator": "body",
+          "text": "Led by the Information Technology Laboratory (ITL) AI Program, and in collaboration with the private and public sectors, NIST has developed a framework to better manage risks",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0183": {
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+      "title": "European AI Office",
+      "publisher": "European Commission",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:13Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "c3ec57af6f2b8934",
+          "bytes": 79383
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0183#1",
+          "locator": "intro",
+          "text": "including the ability to conduct evaluations of GPAI models, request information and measures from model providers, and apply sanctions.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0183#2",
+          "locator": "Initiatives promoting the development and adoption of AI",
+          "text": "In June 2026, the 'AI omnibus' (part of the Digital Simplification Package ) was adopted, introducing targeted amendments to the AI Act to ensure the rules remain clear, simple, and innovation-friendly. The amendments entered into force on 27 July.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0183#3",
+          "locator": "Cooperation with institutions, experts and stakeholders",
+          "text": "The Scientific Panel of independent experts ensures a strong link with the scientific community.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0183#4",
+          "locator": "Supporting the AI Act and enforcing general-purpose AI rules",
+          "text": "Requesting providers to take corrective action and, in case of infringement, restrict the public availability of a model and issue direct fines for non-compliance",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0184": {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:C_202401459",
+      "title": "Commission Decision C/2024/1459 establishing the European Artificial Intelligence Office",
+      "publisher": "Official Journal of the EU (EUR-Lex)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2024-01-24",
+        "published": "2024-02-14"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:14Z",
+          "run": "2026-10-10-baseline",
+          "via": "headless Chromium (EUR-Lex returns empty HTTP 202 to curl)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "9f2bdf21dec882dc",
+          "bytes": 53306
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0184#1",
+          "locator": "title",
+          "text": "COMMISSION DECISION … of 24 January 2024 … establishing the European Artificial Intelligence Office",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0184#2",
+          "locator": "Art. 1",
+          "text": "The Office shall be part of the administrative structure of the Directorate-General for Communication Networks, Content and Technology",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0185": {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689",
+      "title": "Regulation (EU) 2024/1689 (AI Act), original OJ text",
+      "publisher": "Official Journal of the EU (EUR-Lex)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2024-06-13",
+        "published": "2024-07-12",
+        "in_force": "2024-08-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:14Z",
+          "run": "2026-10-10-baseline",
+          "via": "headless Chromium (EUR-Lex returns empty HTTP 202 to curl)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "f46a00e99cfa53a9",
+          "bytes": 1318732
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0185#1",
+          "locator": "Art. 92(1)",
+          "text": "The AI Office, after consulting the Board, may conduct evaluations of the general-purpose AI model concerned",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0185#2",
+          "locator": "Art. 92(3)",
+          "text": "the Commission may request access to the general-purpose AI model concerned through APIs or further appropriate technical means and tools, including source code.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0185#3",
+          "locator": "Art. 93(1)(b)–(c)",
+          "text": "implement mitigation measures, where the evaluation carried out in accordance with Article 92 has given rise to serious and substantiated concern of a systemic risk at Union level; … restrict the making available on the market, withdraw or recall the model.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0185#4",
+          "locator": "Art. 101(1)",
+          "text": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0185#5",
+          "locator": "Art. 90(1)",
+          "text": "The scientific panel may provide a qualified alert to the AI Office where it has reason to suspect that:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0185#6",
+          "locator": "Art. 113(b)",
+          "text": "Chapter III Section 4, Chapter V, Chapter VII and Chapter XII and Article 78 shall apply from 2 August 2025, with the exception of Article 101;",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0185#7",
+          "locator": "Art. 55(1)(c)",
+          "text": "keep track of, document, and report, without undue delay, to the AI Office and, as appropriate, to national competent authorities, relevant information about serious incidents and possible corrective measures to address them;",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0185#8",
+          "locator": "Art. 91(1)",
+          "text": "The Commission may request the provider of the general-purpose AI model concerned to provide the documentation drawn up by the provider in accordance with Articles 53 and 55",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0185#9",
+          "locator": "Art. 92 (whole article)",
+          "text": "[Observation, not a quotation] Article 92 lets the AI Office evaluate a general-purpose AI model and request access to it; it does not mention access before the model is placed on the market (pre-deployment).",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0186": {
+      "url": "https://www.ntu.edu.sg/dtc",
+      "title": "Digital Trust Centre",
+      "publisher": "Nanyang Technological University",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:17Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.ntu.edu.sg/dtc",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "41c00541ca0d3e5e",
+          "bytes": 183168
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0186#1",
+          "locator": "news / about",
+          "text": "With the designation of the Digital Trust Centre as Singapore’s AI Safety Institute (AISI), the Singapore AISI will work on addressing the gaps in global AI safety science, leveraging Singapore's work in AI evaluation and testing.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0187": {
+      "url": "https://aisi.go.jp/",
+      "title": "AIセーフティ・インスティテュート (J-AISI)",
+      "publisher": "IPA / J-AISI",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:17Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://aisi.go.jp/",
+          "content_type": "text/html",
+          "sha256": "a3a1eb6afb3970e3",
+          "bytes": 19086
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0187#1",
+          "locator": "home page lead",
+          "text": "ＡＩセーフティ・インスティテュート （ＡＩＳＩ）は、 安全・安心で信頼できるＡＩの実現に向けて、 ＡＩの安全性に関する評価手法や基準の検討・推進を [The AI Safety Institute (AISI) … examines and promotes evaluation methods and standards for AI safety, toward safe, secure and trustworthy AI]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0188": {
+      "url": "https://www.entreprises.gouv.fr/espace-presse/linstitut-national-pour-levaluation-et-la-securite-de-lia-adopte-sa-feuille-de-route",
+      "title": "L'Institut national pour l'évaluation et la sécurité de l'IA adopte sa feuille de route 2026-2027",
+      "publisher": "Direction générale des Entreprises",
+      "type": "primary",
+      "dates": {
+        "published": "2026-02-13"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:18Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.entreprises.gouv.fr/espace-presse/linstitut-national-pour-levaluation-et-la-securite-de-lia-adopte-sa-feuille-de-route",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "a6388c13625cfc0b",
+          "bytes": 50107
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0188#1",
+          "locator": "para 1",
+          "text": "Sous le pilotage conjoint de la Direction générale des Entreprises (DGE) et du Secrétariat général de la défense et de la sécurité nationale (SGDSN), l’Institut national pour l’évaluation et la sécurité de l’IA (INESIA) a adopté sa feuille de route 2026-2027 [Under joint leadership of DGE and SGDSN, INESIA adopted its 2026-2027 roadmap]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0188#2",
+          "locator": "para 2",
+          "text": "doter la France d’une capacité souveraine d’évaluation des systèmes d’IA avancés [give France a sovereign capacity to evaluate advanced AI systems]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0188#3",
+          "locator": "para 3",
+          "text": "Créé en 2025, l’INESIA fédère un écosystème d’acteurs nationaux de premier rang qui associe les compétences de l’ ANSSI , de l’ Inria , du LNE et du PEReN [Created in 2025, INESIA brings together ANSSI, Inria, LNE and PEReN]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0188#4",
+          "locator": "whole page",
+          "text": "[Observation, not a quotation] The roadmap page describes INESIA's work as national ('capacité souveraine', 'capacité nationale'); it does not describe INESIA hosting EU-wide evaluation tooling.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0189": {
+      "url": "https://aisi.re.kr/eng/",
+      "title": "AI Safety Institute (Korea)",
+      "publisher": "Korea AI Safety Institute",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:19Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl --http1.1 (the site resets HTTP/2 connections)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "b8c5cdc4b02a1dd3",
+          "bytes": 19359
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0189#1",
+          "locator": "home page",
+          "text": "researching AI safety and collaborating with AI safety research institutes in major countries.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0189#2",
+          "locator": "home page",
+          "text": "The AI ​​Safety Research Institute consists of three offices (AI Safety Policy and External Cooperation Office, AI Safety Evaluation Office, and AI Safety Research Lab).",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0190": {
+      "url": "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute",
+      "title": "Canadian Artificial Intelligence Safety Institute",
+      "publisher": "Innovation, Science and Economic Development Canada",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:19Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "8d71d9f26ca6cee5",
+          "bytes": 30077
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0190#1",
+          "locator": "intro",
+          "text": "The Canadian Artificial Intelligence Safety Institute (CAISI) is part of the Government of Canada's plan to support the safe and responsible development and deployment of artificial intelligence (AI).",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0191": {
+      "url": "https://www.aisi.gov.uk/blog/deepening-our-partnership-with-the-australian-ai-safety-institute",
+      "title": "Deepening our partnership with the Australian AI Safety Institute",
+      "publisher": "UK AI Security Institute",
+      "type": "primary",
+      "dates": {
+        "published": "2026-05-25"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:20Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog/deepening-our-partnership-with-the-australian-ai-safety-institute",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "7eaeb23f0baf2966",
+          "bytes": 21259
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0191#1",
+          "locator": "title and standfirst",
+          "text": "Deepening our partnership with the Australian AI Safety Institute … An agreement between Institutes to collaborate on best practices in AI evaluation, and share research findings.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0192": {
+      "url": "https://indiaai.gov.in/article/india-takes-the-lead-establishing-the-indiaai-safety-institute-for-responsible-ai-innovation",
+      "title": "India Takes the Lead: Establishing the IndiaAI Safety Institute for Responsible AI Innovation",
+      "publisher": "IndiaAI (MeitY)",
+      "type": "primary",
+      "dates": {
+        "published": "2025-01-31"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:21Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://indiaai.gov.in/article/india-takes-the-lead-establishing-the-indiaai-safety-institute-for-responsible-ai-innovation",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "476d01ff088f53bb",
+          "bytes": 1692024
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0192#1",
+          "locator": "body",
+          "text": "The Hon’ble Minister has announced the setting up of IndiaAI Safety Institute under the Safe and Trusted Pillar of the IndiaAI Mission to address AI risks & Safety Challenges.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0193": {
+      "url": "https://www.aisi.gov.uk/",
+      "title": "The AI Security Institute (AISI)",
+      "publisher": "UK AI Security Institute",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:24Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "d1ff6a24dc9fa34e",
+          "bytes": 29937
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0193#1",
+          "locator": "footer",
+          "text": "The AI Security Institute is a research organisation within the Department of Science, Innovation and Technology.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0194": {
+      "url": "https://www.aisi.gov.uk/about",
+      "title": "About",
+      "publisher": "UK AI Security Institute",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:24Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/about",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "383411ddace4d9a5",
+          "bytes": 23688
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0194#1",
+          "locator": "mission list",
+          "text": "Testing leading AI systems before they are released publicly and collaborating with top AI companies to improve their safety and security;",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0194#2",
+          "locator": "resources list",
+          "text": "Pre-deployment access to leading AI models and close collaborations with AI companies that give us privileged access to their development approaches",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0195": {
+      "url": "https://www.gov.uk/government/news/tackling-ai-security-risks-to-unleash-growth-and-deliver-plan-for-change",
+      "title": "Tackling AI security risks to unleash growth and deliver Plan for Change",
+      "publisher": "DSIT (GOV.UK)",
+      "type": "primary",
+      "dates": {
+        "published": "2025-02-14"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:25Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/news/tackling-ai-security-risks-to-unleash-growth-and-deliver-plan-for-change",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "f5f5623fa7d61a9e",
+          "bytes": 85411
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0195#1",
+          "locator": "standfirst",
+          "text": "UK’s AI Safety Institute becomes ‘UK AI Security Institute’",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0195#2",
+          "locator": "para 1",
+          "text": "will become founding principles of the UK’s approach to the responsible development of artificial intelligence from today (Friday 14 February)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0195#3",
+          "locator": "para 2",
+          "text": "This new name will reflect its focus on serious AI risks with security implications, such as how the technology can be used to develop chemical and biological weapons, how it can be used to carry out cyber-attacks",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0196": {
+      "url": "https://www.aisi.gov.uk/frontier-ai-trends-report",
+      "title": "Frontier AI Trends Report",
+      "publisher": "UK AI Security Institute",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:26Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/frontier-ai-trends-report",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "6292b1bcda7d1efd",
+          "bytes": 119279
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0196#1",
+          "locator": "standfirst",
+          "text": "Our first public, evidence‑based assessment of how the world’s most advanced AI systems are evolving, bringing together results from two years of AISI's frontier model testing.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0196#2",
+          "locator": "Introduction",
+          "text": "Over the past two years, we have conducted extensive research on more than 30 frontier systems, using a range of methods.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0196#3",
+          "locator": "Methodology",
+          "text": "This report focuses on LLMs released between 2022 and October 2025",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0197": {
+      "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6943e6c11cb5bfd8178443f9_Frontier%20AI%20Trends%20Report%20-%20UK%20AISI%202025%20-%20compressed.pdf",
+      "title": "Frontier AI Trends Report (PDF)",
+      "publisher": "UK AI Security Institute",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:26Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6943e6c11cb5bfd8178443f9_Frontier%20AI%20Trends%20Report%20-%20UK%20AISI%202025%20-%20compressed.pdf",
+          "content_type": "application/pdf",
+          "sha256": "6ed147b66f065722",
+          "bytes": 7698704
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0197#1",
+          "locator": "cover",
+          "text": "DECEMBER … Frontier Al Trends Report",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0197#2",
+          "locator": "PDF metadata and file name",
+          "text": "[Observation, not a quotation] The PDF linked from the report page is named 'Frontier AI Trends Report - UK AISI 2025'; its metadata gives CreationDate 15 Dec 2025 and ModDate 18 Dec 2025. The AISI blog listing (Feb–Oct 2026) shows no later edition of the report.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0198": {
+      "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+      "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+      "publisher": "UK AI Security Institute",
+      "type": "primary",
+      "dates": {
+        "published": "2026-08-04"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:27Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "9eeb7df523c10b6a",
+          "bytes": 41426
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0198#1",
+          "locator": "para 2",
+          "text": "On 28 th July 2026, AISI's Security Team detected unusual data transfers leaving our research systems during a routine cyber evaluation.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0198#2",
+          "locator": "What happened",
+          "text": "We declared a security incident, stopped all related evaluations, and disabled internal access to the most capable models.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0199": {
+      "url": "https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities",
+      "title": "Building a more secure environment for evaluating dangerous capabilities",
+      "publisher": "UK AI Security Institute",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:27Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "270f7a2f0ddff8e8",
+          "bytes": 34356
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0199#1",
+          "locator": "para 2",
+          "text": "In our incident report, we committed to three changes before resuming our highest-risk evaluations: tighter controls on internet access, real-time monitoring of evaluations as they run, and reassessing how we design the evaluations themselves",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0200": {
+      "url": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
+      "title": "GPT-6 Astra performs unsanctioned supply-chain attacks in simulations",
+      "publisher": "UK AI Security Institute",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-28"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:28Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "eb62f2fa6d505ac7",
+          "bytes": 38700
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0200#1",
+          "locator": "para 2",
+          "text": "Before its public release, AISI tested whether GPT-6 Astra would engage in this type of unsanctioned cyber activity when prompted to complete a cyber evaluation.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0201": {
+      "url": "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/",
+      "title": "Deepening our partnership with the UK AI Security Institute",
+      "publisher": "Google DeepMind",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:28Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/",
+          "content_type": "text/html",
+          "sha256": "1015b92d0884026c",
+          "bytes": 144790
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0201#1",
+          "locator": "Building on a foundation of collaboration",
+          "text": "This is why we have partnered with the UK AISI since its inception in November 2023 to test our most capable models.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0202": {
+      "url": "https://assets.publishing.service.gov.uk/media/6a046665c0cc74b4523e4d3b/The_King_s_Speech_2026_-_background_briefing_notes.pdf",
+      "title": "The King's Speech 2026: background briefing notes",
+      "publisher": "Prime Minister's Office (GOV.UK)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-05-13"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:29Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://assets.publishing.service.gov.uk/media/6a18713db95db968c8f3bbfd/The_King_s_Speech_2026_-_background_briefing_notes.pdf",
+          "content_type": "application/pdf",
+          "sha256": "f17c81e91842fc1c",
+          "bytes": 1315202
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0202#1",
+          "locator": "Cyber Security and Resilience Bill, Key facts (p. 125)",
+          "text": "In April 2026, AI firm Anthropic announced a new model called Mythos, which testing by DSIT’s AI Security Institute found to be substantially more capable at cyber offence than any model previously assessed.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0202#2",
+          "locator": "whole document",
+          "text": "[Observation, not a quotation] Searched the briefing notes for 'artificial intelligence', 'AI Security' and 'frontier': no bill in the 2026 programme establishes the AI Security Institute in statute, gives it powers, or regulates frontier AI developers; AISI is mentioned only in the Cyber Security and Resilience Bill's key facts.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0203": {
+      "url": "https://metr.org/",
+      "title": "METR",
+      "publisher": "METR",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:30Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "0142820e19cb566c",
+          "bytes": 135713
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0203#1",
+          "locator": "Partnerships",
+          "text": "We have previously partnered with OpenAI , Anthropic , Google DeepMind , Meta and Amazon to pilot frontier risk assessments.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0203#2",
+          "locator": "Featured Research",
+          "text": "Our AI evaluations research focuses on assessing broad autonomous capabilities and the ability of AI systems to accelerate AI R&D.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0203#3",
+          "locator": "Featured Research",
+          "text": "A list of AI companies' frontier safety policies intended to evaluate and manage severe AI risks",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0203#4",
+          "locator": "Featured Research",
+          "text": "An analysis of the shared components across twelve published frontier AI safety policies, including capability thresholds, model weight security, and deployment mitigations",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0203#5",
+          "locator": "Featured Research",
+          "text": "We propose measuring AI performance in terms of the length of tasks AI agents can complete.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0204": {
+      "url": "https://metr.org/common-elements",
+      "title": "Common Elements of Frontier AI Safety Policies",
+      "publisher": "METR",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:31Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/common-elements",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "617c7f059251e722",
+          "bytes": 336600
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0204#1",
+          "locator": "intro",
+          "text": "This December 2025 version contains references to some developers’ updated frontier AI safety policies.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#2",
+          "locator": "intro",
+          "text": "This concept was initially introduced by METR in 2023",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0205": {
+      "url": "https://metr.org/blog/2026-05-19-frontier-risk-report/",
+      "title": "Frontier Risk Report (Feb–Mar 2026)",
+      "publisher": "METR",
+      "type": "primary",
+      "dates": {
+        "published": "2026-05-19"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:32Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/blog/2026-05-19-frontier-risk-report/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "95e82dc44fc80f9a",
+          "bytes": 1944437
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0205#1",
+          "locator": "Summary",
+          "text": "Starting in February 2026, METR conducted a pilot exercise to assess misalignment risks from AI agents used inside frontier AI developers, with participation from Anthropic, Google, Meta, and OpenAI.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0205#2",
+          "locator": "Summary",
+          "text": "This exercise is entity-based rather than model-specific, and is designed to be repeated periodically rather than tied to public releases.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0206": {
+      "url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
+      "title": "Summary of METR's predeployment evaluation of Claude Opus 5.5",
+      "publisher": "METR",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-22"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:33Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "ff3d80e6fc864943",
+          "bytes": 57105
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0206#1",
+          "locator": "title and note",
+          "text": "Summary of METR's predeployment evaluation of Claude Opus 5.5 … This evaluation was conducted under an unpaid agreement for AI R&D assessment.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0207": {
+      "url": "https://metr.org/blog/2026-06-26-gpt-5-6-sol/",
+      "title": "Summary of METR's predeployment evaluation of GPT-5.6 Sol",
+      "publisher": "METR",
+      "type": "primary",
+      "dates": {
+        "published": "2026-06-26"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:33Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/blog/2026-06-26-gpt-5-6-sol/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "1fa204c157e4329f",
+          "bytes": 55421
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0207#1",
+          "locator": "intro",
+          "text": "We conducted an independent external evaluation of GPT-5.6 Sol.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0208": {
+      "url": "https://www.apolloresearch.ai/",
+      "title": "Apollo Research",
+      "publisher": "Apollo Research",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:34Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.apolloresearch.ai/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "709fa20a227dcbf8",
+          "bytes": 307618
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0208#1",
+          "locator": "Science",
+          "text": "We run pre-deployment evaluations of frontier AI systems to detect strategic deception, evaluation awareness, and misaligned behavior.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0208#2",
+          "locator": "hero",
+          "text": "Aligned AI pursues the goals we intend. Scheming AI pursues goals of its own while appearing aligned.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0208#3",
+          "locator": "Monitoring",
+          "text": "Apollo Research ran a pilot monitor campaign for auto mode, Anthropic's monitoring system for Claude Code agents",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0209": {
+      "url": "https://www.apolloresearch.ai/about",
+      "title": "About",
+      "publisher": "Apollo Research",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:34Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.apolloresearch.ai/about",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "8e0ab2316128a6b7",
+          "bytes": 166332
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0209#1",
+          "locator": "2024",
+          "text": "partnered with OpenAI to test their o1 model before public deployment",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0209#2",
+          "locator": "2024",
+          "text": "published the first evidence that frontier models can scheme in context",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0209#3",
+          "locator": "2025",
+          "text": "We ran evaluations for all major labs as well as:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0209#4",
+          "locator": "2025",
+          "text": "partnered with OpenAI to study anti-scheming interventions on frontier models",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0209#5",
+          "locator": "2026",
+          "text": "We are now a Public Benefit Corporation",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0210": {
+      "url": "https://www.averi.org/",
+      "title": "AVERI",
+      "publisher": "AVERI",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:36Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "71279eb3b04603ec",
+          "bytes": 416154
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0210#1",
+          "locator": "footer",
+          "text": "The AI Verification and Evaluation Research Institut e® ( AVERI, which rhymes with bravery) is a 501(c)(3) US-based non-profit organization.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0210#2",
+          "locator": "intro",
+          "text": "We conduct research and carry out pilot audits in order to inform audit standards, policy requirements, and tooling.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0211": {
+      "url": "https://www.averi.org/about",
+      "title": "About",
+      "publisher": "AVERI",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:37Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/about",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "b443ddd599a2f505",
+          "bytes": 204905
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0211#1",
+          "locator": "Pilots",
+          "text": "We conduct pilot audits with leading AI companies and carry out technical and policy research to inform audit design.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0211#2",
+          "locator": "Policy",
+          "text": "we provided feedback on and endorsed the legislation that became SB 315 in Illinois – the first US-based frontier AI audit requirement, which takes effect in 2028.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0211#3",
+          "locator": "Standards",
+          "text": "we coauthored AEF-1 –a standard defining minimum operating conditions for independent third-party evaluations – alongside other members of the AI Evaluator Forum",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0212": {
+      "url": "https://www.averi.org/ourwork/frontier-ai-auditing",
+      "title": "Frontier AI Auditing: Toward Rigorous Third-Party Assessment of Safety and Security Practices at Leading AI Companies",
+      "publisher": "AVERI",
+      "type": "primary",
+      "dates": {
+        "published": "2026-01-15"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:37Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/ourwork/frontier-ai-auditing",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "170444d06a28de08",
+          "bytes": 1005114
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0212#1",
+          "locator": "Executive summary",
+          "text": "We describe four AI Assurance Levels (AALs), the higher levels of which provide greater confidence in audit findings.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0212#2",
+          "locator": "author affiliations",
+          "text": "¹⁰Apollo Research ¹¹University of Cambridge ¹²METR",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0212#3",
+          "locator": "Executive summary",
+          "text": "Growing the ecosystem of audit providers at a rapid pace without compromising quality.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0213": {
+      "url": "https://www.averi.org/updates",
+      "title": "Updates",
+      "publisher": "AVERI",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:38Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/updates",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "c6c43ec4525ab41d",
+          "bytes": 481552
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0213#1",
+          "locator": "press item",
+          "text": "Former OpenAI policy chief creates nonprofit institute, calls for independent safety audits of frontier AI models … January 15, 2026",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0214": {
+      "url": "https://www.averi.org/team",
+      "title": "Team",
+      "publisher": "AVERI",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:38Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/team",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "6973ecdd852abd6a",
+          "bytes": 576705
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0214#1",
+          "locator": "Miles Brundage",
+          "text": "Miles Brundage serves as Executive Director at AVERI",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0214#2",
+          "locator": "Miles Brundage",
+          "text": "Previously, Miles led the Policy Research and AGI Readiness teams at OpenAI",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0215": {
+      "url": "https://www.averi.org/ourwork?tag=Pilot+Reports",
+      "title": "AVERI Pilot Report: The World's First Double-Blind Evaluation of a Proprietary Language Model",
+      "publisher": "AVERI",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:39Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/ourwork?tag=Pilot+Reports",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "72eec02b88853202",
+          "bytes": 185259
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0215#1",
+          "locator": "para 2",
+          "text": "In July and August 2026, AVERI conducted the world’s first double-blind evaluation of a proprietary language model in collaboration with Google DeepMind, OpenMined, and MLCommons.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0216": {
+      "url": "https://www.safe.ai/",
+      "title": "Center for AI Safety (CAIS)",
+      "publisher": "Center for AI Safety",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:39Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://safe.ai/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "8e9456b1af20c991",
+          "bytes": 70031
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0216#1",
+          "locator": "intro",
+          "text": "The Center for AI Safety (CAIS — pronounced 'case') is a San Francisco-based research and field-building nonprofit.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0216#2",
+          "locator": "Our mission",
+          "text": "Our mission is to reduce societal-scale risks associated with AI by conducting safety research, building the field of AI safety researchers, and advocating for safety standards.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0216#3",
+          "locator": "quote attribution",
+          "text": "Dan Hendrycks … Director, Center for AI Safety",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0217": {
+      "url": "https://safe.ai/faq",
+      "title": "FAQ",
+      "publisher": "Center for AI Safety",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:40Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://safe.ai/faq",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "085642fc200b1ec4",
+          "bytes": 54950
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0217#1",
+          "locator": "donations",
+          "text": "The Center for AI Safety is a US federally recognized 501c(3) non-profit organization.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0218": {
+      "url": "https://safe.ai/about",
+      "title": "About us",
+      "publisher": "Center for AI Safety",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:41Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://safe.ai/about",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "dbc96d90a07aa61e",
+          "bytes": 50640
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0218#1",
+          "locator": "highlights",
+          "text": "In May 2023, we released a Statement on AI Risk which was signed by >600 AI experts and public figures, including the CEOs of OpenAI, DeepMind and Anthropic.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0218#2",
+          "locator": "Field-building",
+          "text": "CAIS grows the AI safety research field through funding, research infrastructure, and educational resources.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0218#3",
+          "locator": "Advocacy",
+          "text": "Providing technical expertise to inform policymaking at governmental bodies",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0219": {
+      "url": "https://safe.ai/work/statement-on-ai-extinction-risk",
+      "title": "Statement on AI Risk",
+      "publisher": "Center for AI Safety",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:41Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://safe.ai/work/statement-on-ai-extinction-risk",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "14b9d46d9ad2b419",
+          "bytes": 71888
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0219#1",
+          "locator": "statement",
+          "text": "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0220": {
+      "url": "https://safe.ai/work/research",
+      "title": "CAIS Research",
+      "publisher": "Center for AI Safety",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:42Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://safe.ai/work/research",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "863d9f9ae5c29ac1",
+          "bytes": 125233
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0220#1",
+          "locator": "Humanity's Last Exam",
+          "text": "Humanity's Last Exam … Capability Benchmark … Jan 24, 2025",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0220#2",
+          "locator": "WMDP",
+          "text": "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning … Mar 5, 2024",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0220#3",
+          "locator": "WMDP",
+          "text": "The Weapons of Mass Destruction Proxy (WMDP) benchmark is a dataset of 4,157 multiple-choice questions surrounding hazardous knowledge in Biosecurity, Cybersecurity, and Chemical Security.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0220#4",
+          "locator": "safe.ai home, about, research, FAQ, news",
+          "text": "[Observation, not a quotation] Searched the saved safe.ai pages for 'MMLU', 'Massive Multitask', 'founded' and '2022' as a founding year: no match. ProPublica's IRS record (EIN 88-1751310) gives tax exemption issued Jan. 2023, which does not settle the founding year.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0221": {
+      "url": "https://safe.ai/news/cais-names-former-xai-leader-devin-kim-president-and-establishes-frontier-security-institute-in-major-expansion-of-leadership-and-reach",
+      "title": "CAIS Names Former xAI Leader Devin Kim President and Establishes Frontier Security Institute",
+      "publisher": "Center for AI Safety",
+      "type": "primary",
+      "dates": {
+        "published": "2026-06-02"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:42Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://safe.ai/news/cais-names-former-xai-leader-devin-kim-president-and-establishes-frontier-security-institute-in-major-expansion-of-leadership-and-reach",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "c689aaa01eec2e3e",
+          "bytes": 40301
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0221#1",
+          "locator": "dateline",
+          "text": "SAN FRANCISCO, CA — June 2, 2026 — The Center for AI Safety (CAIS), a nonprofit focused on reducing societal-scale risks from artificial intelligence, today announced the appointment of Devin Kim as its President, as well as the establishment of the Frontier Security Institute (FSI), a new Washington, D.C.-based organization",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0221#2",
+          "locator": "FSI section",
+          "text": "FSI's initial work will focus on AI issues that are unique to the national security use case — from securing advanced AI models, to the way operators test and utilize these systems, to how AI is reshaping geopolitical stability.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0221#3",
+          "locator": "FSI section",
+          "text": "He subsequently served as policy advisor to the Secretary of Defense on China and technology security",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0221#4",
+          "locator": "FSI section",
+          "text": "Pelter brings nearly two decades of federal service, including service as Acting United States Secretary of Commerce.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0221#5",
+          "locator": "FSI section",
+          "text": "Director of Research Aaron B. Frank, Ph.D., a former RAND researcher and computational social scientist",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0221#6",
+          "locator": "Kim section",
+          "text": "Kim joins CAIS from xAI, where as an early employee, he led post-training tooling and research infrastructure for Grok models.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0221#7",
+          "locator": "FSI section",
+          "text": "Based in Washington, D.C., FSI will close the capability gap between frontier AI and the National Security Enterprise — the Pentagon, the Intelligence Community, Congress, and allied institutions.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0222": {
+      "url": "https://frontiersecurityinstitute.org/",
+      "title": "Frontier Security Institute (FSI)",
+      "publisher": "Frontier Security Institute",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:43Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://frontiersecurityinstitute.org/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "4ae2f76c47af0fdc",
+          "bytes": 15962
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0222#1",
+          "locator": "intro",
+          "text": "The Frontier Security Institute , at the Center for AI Safety, provides independent, nonpartisan policy studies and analysis that connect America's defense and intelligence leaders with the AI industry",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0222#2",
+          "locator": "Defend: Model Security",
+          "text": "Protecting U.S. frontier AI from theft, disruption, and adversarial attack.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0223": {
+      "url": "https://frontiersecurityinstitute.org/ai-labs.html",
+      "title": "For Frontier AI Labs",
+      "publisher": "Frontier Security Institute",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:43Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://frontiersecurityinstitute.org/ai-labs",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "d7d6d19f16528b8b",
+          "bytes": 19062
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0223#1",
+          "locator": "01 Independent evaluation",
+          "text": "Non-commercial assessment of frontier model capabilities in the scenarios that matter to national security, produced by an evaluator with no equity in the outcome",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0223#2",
+          "locator": "Work with us",
+          "text": "Evaluations, red-teaming, joint convenings, and technical advisory",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0224": {
+      "url": "https://frontiersecurityinstitute.org/national-security.html",
+      "title": "National Security",
+      "publisher": "Frontier Security Institute",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:44Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://frontiersecurityinstitute.org/national-security",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "fdd829471e0a17d6",
+          "bytes": 10628
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0224#1",
+          "locator": "02 Independent evaluations",
+          "text": "Capability assessments scoped to specific national security use cases, oriented to the acquisition and testing processes already in place.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0224#2",
+          "locator": "05 Standing advisory",
+          "text": "Sustained arrangements for institutions with recurring needs, including classified-context engagement where the work requires it.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0225": {
+      "url": "https://frontiersecurityinstitute.org/our-work.html",
+      "title": "Our Work",
+      "publisher": "Frontier Security Institute",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:44Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://frontiersecurityinstitute.org/our-work",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "3b1986455d4350a1",
+          "bytes": 10940
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0225#1",
+          "locator": "01 Defend",
+          "text": "With the labs, we develop the technical, legal, and operational means to harden models against exfiltration and insider threats",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0225#2",
+          "locator": "02 Adopt",
+          "text": "The frameworks that determine whether an AI-enabled system is fit for a specific government use",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0226": {
+      "url": "https://frontiersecurityinstitute.org/team.html",
+      "title": "Team",
+      "publisher": "Frontier Security Institute",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:45Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://frontiersecurityinstitute.org/team",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "6c039af299f24293",
+          "bytes": 42824
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0226#1",
+          "locator": "Jeremy Pelter",
+          "text": "Former Acting U.S. Secretary of Commerce and Deputy Under Secretary of Commerce for Industry and Security.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0226#2",
+          "locator": "Isaac Harris",
+          "text": "Former U.S. Navy destroyer captain and veteran of the House Select Committee on the CCP.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0227": {
+      "url": "https://www.apolloresearch.ai/blog/principles-for-embedded-evaluations",
+      "title": "Principles for Embedded Evaluations",
+      "publisher": "Apollo Research",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-30"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:46Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.apolloresearch.ai/blog/principles-for-embedded-evaluations",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "1650cca8261accae",
+          "bytes": 208113
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0227#1",
+          "locator": "intro",
+          "text": "In September 2026, leaders of frontier AI companies called for pacing the frontier of AI development, with embedded evaluators as the first step.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0227#2",
+          "locator": "intro",
+          "text": "We then propose a concrete design based on verifying or falsifying developers' safety claims, which we hope developers and evaluators will adopt.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0228": {
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "title": "We must pace the frontier",
+      "publisher": "Dario Amodei",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:29:46Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "62b8af679fe10e5e",
+          "bytes": 59871
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0228#1",
+          "locator": "Embedded Evaluators",
+          "text": "The first step in the three-stage plan, and the one to which Anthropic is unilaterally committing, is embedded evaluators who have employee-like access to verify safety practices and report incidents.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0228#2",
+          "locator": "plan",
+          "text": "Each frontier AI company commits to giving ongoing, employee-like access to a team of embedded third-party evaluators (such as METR )",
           "retrieved": "2026-10-10"
         }
       ]
