@@ -243,6 +243,13 @@ table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
 th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid var(--line); }
 th { font: 500 11.5px var(--mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--fg3); }
 td.num { font-variant-numeric: tabular-nums; white-space: nowrap; } td.bad-t { color: var(--bad-fg); }
+.todo { margin: 22px 0 0; padding: 14px 16px; border-radius: 12px; background: var(--info-bg); color: var(--info-fg); }
+.todo h2 { font: 400 24px/1.2 var(--serif); margin: 0 0 6px; }
+.todo ol { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
+.todo a { color: inherit; font-weight: 500; }
+.todo code { background: color-mix(in srgb, var(--card) 55%, transparent); }
+.todo-q { display: block; font-size: 13.5px; opacity: 0.9; margin-top: 2px; }
+.todo .small { margin: 10px 0 0; }
 footer { margin-top: 48px; font-size: 12.5px; color: var(--fg3); border-top: 1px solid var(--line); padding-top: 12px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 html { scroll-behavior: smooth; }
@@ -262,6 +269,7 @@ html { scroll-behavior: smooth; }
     <a href="#gaps">Gaps<span class="n">${unres + inacc}</span></a>
     <a href="#discovery">Discovery</a><a href="#sources">Sources</a>
   </nav>
+  ${B.decide.length ? `<aside class="todo" aria-labelledby="todo-h"><h2 id="todo-h">Your decisions (${B.decide.length})</h2><ol>${B.decide.map(p => { const v = Rz.latest(p); return `<li><a href="#${esc(p.id)}"><code>${esc(p.id)} v${v.v}</code> ${md(v.title)}</a>${v.question ? `<span class="todo-q">${md(v.question)}</span>` : ''}</li>`; }).join('')}</ol><p class="small">Full wording and evidence are in each card under <a href="#decide">Ready for your decision</a>. Reply in the session, e.g. <code>accept ${esc(B.decide[0].id)} v${Rz.latest(B.decide[0]).v}</code>.</p></aside>` : `<aside class="todo"><h2>Your decisions</h2><p>Nothing needs a decision right now.</p></aside>`}
   <ul class="summary">${(run.highlights || []).map(h => `<li>${md(h)}</li>`).join('')}</ul>
   <div class="stats" role="list">
     <div class="stat" role="listitem"><div class="v">${ids.length}</div><div class="l">items attempted, ${entriesInRun.length} entries</div></div>
@@ -271,7 +279,7 @@ html { scroll-behavior: smooth; }
   </div>
   <div class="coverage"><strong>Whole map:</strong> ${everExt} of ${total} inventory items (${pct}%) have ever been verified against outside sources. The public date (${esc(contentDate)}) marks the latest applied release, not a full audit.<div class="bar" aria-hidden="true"><span style="width:${pct}%"></span></div></div>
 
-  ${section('decide', 'decide', 'Ready for your decision', 'Decisions bind to the version shown. Reply in the session in plain language.', B.decide, () => ({ reply: true }), 'Nothing needs a decision.')}
+  ${section('decide', 'decide', 'Ready for your decision', 'Decisions bind to the version shown. Reply in the session in plain language.', B.decide, () => ({ reply: true, open: true }), 'Nothing needs a decision.')}
   ${section('research', 'research', 'Research or access required', `No editorial decision is needed until the evidence is in.${unres + inacc ? ` Separately, ${unres + inacc} checked items did not verify in this run; they are under <a href="#gaps">Gaps</a>.` : ''}`, B.research, () => ({}), 'No proposals are waiting on evidence.')}
   ${section('awaiting-apply', 'accepted', 'Accepted and awaiting application', '', B['awaiting-apply'], p => ({ held: heldWhy[p.id] }), 'Nothing is waiting to be applied.')}
   ${section('applied', 'applied', 'Applied', 'On the PR branch; the guard reproduces the published diff from these manifests.', B.applied, () => ({}), 'Nothing applied yet.')}
