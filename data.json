@@ -1,9 +1,9 @@
 {
   "$schema": "https://ai-governance-map.buildwithwhy.com/data.schema.json",
   "name": "Frontier AI Governance Map",
-  "description": "Interactive map of frontier AI governance: 39 mechanisms across six layers, with METR's nine common elements as an orthogonal filter.",
-  "version": "2026.06.06",
-  "updated": "2026-06-06",
+  "description": "Interactive map of frontier AI governance: 49 mechanisms across six layers, with METR's nine common elements as an orthogonal filter.",
+  "version": "2026.10.10",
+  "updated": "2026-10-10",
   "url": "https://ai-governance-map.buildwithwhy.com",
   "repository": "https://github.com/buildwithwhy/ai-governance-map",
   "license": "CC-BY-4.0",
@@ -30,7 +30,7 @@
     {
       "number": 2,
       "name": "National regulation",
-      "description": "Statutes, executive orders, agencies"
+      "description": "Statutes, executive orders, framework acts"
     },
     {
       "number": 3,
@@ -107,7 +107,7 @@
       "eu": "European Union",
       "uk": "United Kingdom",
       "cn": "China",
-      "as": "Asia (other)",
+      "as": "Asia-Pacific (other)",
       "mu": "Multilateral",
       "co": "Corporate / global"
     },
@@ -409,7 +409,7 @@
       "layer": 2,
       "layer_name": "National regulation",
       "jurisdiction": "as",
-      "jurisdiction_name": "Asia (other)",
+      "jurisdiction_name": "Asia-Pacific (other)",
       "enforceability": 4,
       "enforceability_name": "Binding with penalties",
       "status": "phasing",
@@ -431,7 +431,7 @@
       "layer": 2,
       "layer_name": "National regulation",
       "jurisdiction": "as",
-      "jurisdiction_name": "Asia (other)",
+      "jurisdiction_name": "Asia-Pacific (other)",
       "enforceability": 2,
       "enforceability_name": "Soft / advisory",
       "status": "active",
@@ -849,7 +849,7 @@
       "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "as",
-      "jurisdiction_name": "Asia (other)",
+      "jurisdiction_name": "Asia-Pacific (other)",
       "enforceability": 2,
       "enforceability_name": "Soft / advisory",
       "status": "active",
@@ -1028,7 +1028,7 @@
       "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "as",
-      "jurisdiction_name": "Asia (other)",
+      "jurisdiction_name": "Asia-Pacific (other)",
       "enforceability": 4,
       "enforceability_name": "Binding with penalties",
       "status": "active",
@@ -1069,7 +1069,7 @@
       "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "as",
-      "jurisdiction_name": "Asia (other)",
+      "jurisdiction_name": "Asia-Pacific (other)",
       "enforceability": 3,
       "enforceability_name": "Hard law, weak enforcement",
       "status": "active",
@@ -1090,7 +1090,7 @@
       "layer": 4,
       "layer_name": "Infrastructure",
       "jurisdiction": "as",
-      "jurisdiction_name": "Asia (other)",
+      "jurisdiction_name": "Asia-Pacific (other)",
       "enforceability": 2,
       "enforceability_name": "Soft / advisory",
       "status": "active",
@@ -1308,7 +1308,7 @@
     {
       "from": "seoul-commit",
       "to": "rsp",
-      "relationship": "Seoul commitments triggered RSP's first public version"
+      "relationship": "RSP's first version (Sep 2023) predates the Seoul commitments, which asked signatories to publish comparable frameworks"
     },
     {
       "from": "seoul-commit",

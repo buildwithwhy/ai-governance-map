@@ -4,7 +4,7 @@ By Yuyu Shen
 Personal site: https://buildwithwhy.com
 Contact: buildwithwhy@gmail.com
 Web version: https://ai-governance-map.buildwithwhy.com
-Updated: 6 June 2026
+Updated: 10 October 2026
 
 ## Overview
 
@@ -22,7 +22,7 @@ The map organises by *who acts*, not *what they regulate*: the EU AI Act sits in
 ## Layers
 
 - **Layer 1 — International**: Multilateral norms and summits
-- **Layer 2 — National regulation**: Statutes, executive orders, agencies
+- **Layer 2 — National regulation**: Statutes, executive orders, framework acts
 - **Layer 3 — Sub-national**: US states acting where federal regulation is absent
 - **Layer 4 — Infrastructure**: Regulators, AISIs, evaluators, compute controls
 - **Layer 5 — Industry voluntary**: Cross-firm commitments and codes
@@ -395,7 +395,7 @@ Would put the UK AI Security Institute on a statutory footing with information-g
 
 #### Korea AI Framework Act
 
-- Jurisdiction: Asia (other)
+- Jurisdiction: Asia-Pacific (other)
 - Enforceability: Binding with penalties
 - Status: Phasing in
 - Primary source: https://aibasicact.kr/
@@ -416,7 +416,7 @@ Korea's first horizontal AI law: tiered obligations on high-impact AI and high-p
 
 #### Japan AI Promotion Act
 
-- Jurisdiction: Asia (other)
+- Jurisdiction: Asia-Pacific (other)
 - Enforceability: Soft / advisory
 - Status: In force
 - Primary source: https://www.whitecase.com/insight-alert/japans-first-ai-legislation-becomes-law-focus-promoting-research-and-development-no
@@ -625,7 +625,7 @@ Reframed as the Center for AI Standards and Innovation; standards-setting (model
 
 #### Other national AISIs
 
-- Jurisdiction: Asia (other)
+- Jurisdiction: Asia-Pacific (other)
 - Enforceability: Soft / advisory
 - Status: In force
 - Primary source: https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua
@@ -850,7 +850,7 @@ Active enforcement against deceptive AI claims and harmful AI deployments under 
 
 #### Australia eSafety Commissioner
 
-- Jurisdiction: Asia (other)
+- Jurisdiction: Asia-Pacific (other)
 - Enforceability: Binding with penalties
 - Status: In force
 - Primary source: https://www.esafety.gov.au/industry/codes
@@ -899,7 +899,7 @@ Predates every comprehensive US state AI law. Requires insurance carriers to imp
 
 #### Singapore IMDA
 
-- Jurisdiction: Asia (other)
+- Jurisdiction: Asia-Pacific (other)
 - Enforceability: Hard law, weak enforcement
 - Status: In force
 - Primary source: https://www.imda.gov.sg/how-we-can-help/ai-governance
@@ -925,7 +925,7 @@ Originally a telecoms and media regulator; now Singapore's primary AI governance
 
 #### Japan sectoral AI regulators
 
-- Jurisdiction: Asia (other)
+- Jurisdiction: Asia-Pacific (other)
 - Enforceability: Soft / advisory
 - Status: In force
 - Primary source: https://www.meti.go.jp/english/policy/mono_info_service/connected_industries/ai_governance.html
@@ -1013,7 +1013,7 @@ First time a globally diverse set of frontier firms (US, UK, China, UAE, Korea) 
 **Connections:**
 
 - → AI summit series: Seoul commitments came out of the 2024 summit
-- → Anthropic RSP: Seoul commitments triggered RSP's first public version
+- → Anthropic RSP: RSP's first version (Sep 2023) predates the Seoul commitments, which asked signatories to publish comparable frameworks
 - → OpenAI Preparedness: Seoul commitments triggered the Preparedness Framework
 - → GDM Frontier Safety Framework: Seoul commitments triggered the Frontier Safety Framework
 - → Meta Frontier AI Framework: Meta's framework followed Seoul (delayed)
@@ -1176,7 +1176,7 @@ Defines AI Safety Levels (ASLs) — currently up to ASL-3 — each tied to speci
 **Connections:**
 
 - → California SB 53: SB 53 codifies the published-framework norm Anthropic exemplified
-- → Seoul commitments: Seoul commitments triggered RSP's first public version
+- → Seoul commitments: RSP's first version (Sep 2023) predates the Seoul commitments, which asked signatories to publish comparable frameworks
 - → EU GPAI Code of Practice: Anthropic signed all three chapters
 - → Frontier Model Forum: Anthropic is an FMF founding member
 - → METR: METR conducts capability evaluations for Anthropic

@@ -19,12 +19,12 @@ const CATEGORIES = extract('CATEGORIES');
 const ENTITIES = extract('ENTITIES');
 const EDGES = extract('EDGES');
 
-const JUR_LABEL = { us:'US Federal', uss:'US State', eu:'European Union', uk:'United Kingdom', cn:'China', as:'Asia (other)', mu:'Multilateral', co:'Corporate / global' };
+const JUR_LABEL = { us:'US Federal', uss:'US State', eu:'European Union', uk:'United Kingdom', cn:'China', as:'Asia-Pacific (other)', mu:'Multilateral', co:'Corporate / global' };
 const POW_LABEL = { 1:'Voluntary', 2:'Soft / advisory', 3:'Hard law, weak enforcement', 4:'Binding with penalties' };
 const STATUS_LABEL = { active:'In force', phasing:'Phasing in', proposed:'Proposed', revoked:'Revoked' };
 const LAYERS = {
   1: { name: 'International', desc: 'Multilateral norms and summits' },
-  2: { name: 'National regulation', desc: 'Statutes, executive orders, agencies' },
+  2: { name: 'National regulation', desc: 'Statutes, executive orders, framework acts' },
   3: { name: 'Sub-national', desc: 'US states acting where federal regulation is absent' },
   4: { name: 'Infrastructure', desc: 'Regulators, AISIs, evaluators, compute controls' },
   5: { name: 'Industry voluntary', desc: 'Cross-firm commitments and codes' },
@@ -34,7 +34,7 @@ const LAYERS = {
 const SITE_URL = 'https://ai-governance-map.buildwithwhy.com';
 const AUTHOR_SITE = 'https://buildwithwhy.com';
 const AUTHOR_EMAIL = 'buildwithwhy@gmail.com';
-const UPDATED = '6 June 2026';
+const UPDATED = '10 October 2026';
 
 // ---- llms-full.txt ---------------------------------------------------------
 let full = '';
@@ -147,9 +147,9 @@ fs.writeFileSync(path.join(ROOT, 'llms.txt'), llms);
 const data = {
   $schema: 'https://ai-governance-map.buildwithwhy.com/data.schema.json',
   name: 'Frontier AI Governance Map',
-  description: 'Interactive map of frontier AI governance: 39 mechanisms across six layers, with METR\'s nine common elements as an orthogonal filter.',
-  version: '2026.06.06',
-  updated: '2026-06-06',
+  description: `Interactive map of frontier AI governance: ${ENTITIES.length} mechanisms across six layers, with METR's nine common elements as an orthogonal filter.`,
+  version: '2026.10.10',
+  updated: '2026-10-10',
   url: SITE_URL,
   repository: 'https://github.com/buildwithwhy/ai-governance-map',
   license: 'CC-BY-4.0',

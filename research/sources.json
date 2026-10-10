@@ -1,5 +1,5 @@
 {
-  "next": 49,
+  "next": 58,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -1203,6 +1203,12 @@
           "locator": "Signatory list",
           "text": "Anthropic [listed among the signatory organisations]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#3",
+          "locator": "Outcome 1, IV",
+          "text": "In the extreme, organisations commit not to develop or deploy a model or system at all, if mitigations cannot be applied to keep risks below the thresholds.",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -1693,6 +1699,290 @@
         }
       ],
       "passages": []
+    },
+    "S-0049": {
+      "url": "http://www.npc.gov.cn/npc/c2/c30834/202605/P020260511309265804880.pdf",
+      "title": "NPCSC 2026 Legislative Work Plan (全国人大常委会2026年度立法工作计划)",
+      "publisher": "NPC Standing Committee",
+      "type": "primary",
+      "dates": {
+        "published": "2026-05-11"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:48:56Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/npc/c2/c30834/202605/P020260511309265804880.pdf",
+          "content_type": "application/pdf",
+          "sha256": "be569073f90700e1",
+          "bytes": 566088
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0049#1",
+          "locator": "Part 2 (三) 预备审议项目 (preparatory review items), p.4–5",
+          "text": "……治理网络暴力和人工智能健康发展等方面的立法项目，由有关方面抓紧开展调研和起草工作，视情安排审议。 [Legislative projects on … governing online violence and the healthy development of AI: relevant parties to step up research and drafting; review to be arranged as circumstances warrant.] AI appears in neither (一) continued review nor (二) first review.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0050": {
+      "url": "http://www.npc.gov.cn/npc/c2/c30834/202505/P020250513550316685290.pdf",
+      "title": "NPCSC 2025 Legislative Work Plan (全国人大常委会2025年度立法工作计划)",
+      "publisher": "NPC Standing Committee",
+      "type": "primary",
+      "dates": {
+        "published": "2025-05-13"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:49:06Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/npc/c2/c30834/202505/P020250513550316685290.pdf",
+          "content_type": "application/pdf",
+          "sha256": "d21df610ee4cc775",
+          "bytes": 537609
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0050#1",
+          "locator": "(三) 预备审议项目, p.4",
+          "text": "……治理网络违法行为和人工智能健康发展等方面的立法项目，由有关方面抓紧开展调研和起草工作，视情安排审议。 [… and the healthy development of AI: relevant parties to step up research and drafting; review as circumstances warrant.]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0051": {
+      "url": "https://www.gov.cn/zhengce/content/202605/content_7068345.htm",
+      "title": "State Council 2026 Legislative Work Plan (国办发〔2026〕14号)",
+      "publisher": "General Office of the State Council",
+      "type": "primary",
+      "dates": {
+        "signed": "2026-05-08",
+        "published": "2026-05-11"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:49:14Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.cn/zhengce/content/202605/content_7068345.htm",
+          "content_type": "text/html",
+          "sha256": "65d04b38730337d3",
+          "bytes": 51825
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0051#1",
+          "locator": "Part 2, science and technology paragraph",
+          "text": "完善人工智能治理，加快推进人工智能健康发展综合性立法 [Improve AI governance; accelerate comprehensive legislation on the healthy development of AI]. The AI item does not use the formula 预备提请全国人大常委会审议…草案 (preparing to submit a draft to the NPCSC) used for other bills in the same paragraph.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0052": {
+      "url": "https://www.gov.cn/gongbao/2025/issue_12066/202505/content_7025478.html",
+      "title": "State Council 2025 Legislative Work Plan (国办发〔2025〕17号), State Council Gazette",
+      "publisher": "General Office of the State Council",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:49:15Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.cn/gongbao/2025/issue_12066/202505/content_7025478.html",
+          "content_type": "text/html",
+          "sha256": "8fd903c6a2eea148",
+          "bytes": 53974
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0052#1",
+          "locator": "Science, education and culture paragraph, final sentence",
+          "text": "推进人工智能健康发展立法工作。 [Advance legislative work on the healthy development of AI.] No named 人工智能法草案 (AI Law draft).",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0053": {
+      "url": "https://www.moj.gov.cn/pub/sfbgw/gwxw/xwyw/202405/t20240509_498554.html",
+      "title": "State Council 2024 Legislative Work Plan (国办发〔2024〕23号), Ministry of Justice copy",
+      "publisher": "Ministry of Justice",
+      "type": "primary",
+      "dates": {
+        "published": "2024-05-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:49:16Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "error",
+          "error": "curl: (47) Maximum (50) redirects followed"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:51:27Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl with cookie jar (research subagent, 2026-10-10 ~16:47Z)",
+          "status": "ok",
+          "note": "Site uses a cookie redirect challenge; plain curl fails. Saved copy 74,149 bytes, sha256 e76acd483647764c, read by Claude. Later retries got TCP resets from the site (proxy log: tunnel closed after TLS hello)."
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0053#1",
+          "locator": "Science, education and culture paragraph",
+          "text": "预备提请全国人大常委会审议……人工智能法草案、商标法修订草案…… [Preparing to submit to the NPCSC … the draft AI Law, the draft revised Trademark Law …]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0054": {
+      "url": "http://www.npc.gov.cn/npc/c2/c30834/202510/t20251028_449048.html",
+      "title": "NPCSC Decision amending the Cybersecurity Law (28 Oct 2025)",
+      "publisher": "NPC Standing Committee",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-10-28",
+        "in_force": "2026-01-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:49:35Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/npc/c2/c30834/202510/t20251028_449048.html",
+          "content_type": "text/html",
+          "sha256": "4ceadbbc782b676d",
+          "bytes": 18335
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0054#1",
+          "locator": "Header; item 3 (new Art. 20); final clause",
+          "text": "（2025年10月28日第十四届全国人民代表大会常务委员会第十八次会议通过）… 增加一条，作为第二十条：'国家支持人工智能基础理论研究……加强风险监测评估和安全监管……' … 本决定自2026年1月1日起施行。 [Adopted 28 Oct 2025; adds Art. 20 on AI incl. risk monitoring, assessment and safety supervision; in force 1 Jan 2026.]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0055": {
+      "url": "https://www.cac.gov.cn/2026-04/17/c_1778166820056328.htm",
+      "title": "CAC: interpretation of the Interim Measures for Humanlike Interactive AI Services",
+      "publisher": "CAC",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:49:37Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.cac.gov.cn/2026-04/17/c_1778166820056328.htm",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "3462578dcf20c152",
+          "bytes": 27087
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0055#1",
+          "locator": "Opening",
+          "text": "近日，国家互联网信息办公室等五部门联合公布《人工智能拟人化互动服务管理暂行办法》 [Recently the CAC and four other departments jointly promulgated the Interim Measures for Humanlike Interactive AI Services]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0056": {
+      "url": "https://www.jswx.gov.cn/zhengce/fagui/202604/t20260410_1322320.shtml",
+      "title": "Interim Measures for Humanlike Interactive AI Services (CAC Order No. 21), Jiangsu Cyberspace Office repost",
+      "publisher": "Jiangsu Cyberspace Administration (repost of CAC)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-04-10",
+        "in_force": "2026-07-15"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:49:40Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "error",
+          "error": "curl: (35) Recv failure: Connection reset by peer"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:51:27Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl (research subagent, 2026-10-10 ~16:44Z)",
+          "status": "ok",
+          "note": "Saved copy 33,561 bytes, sha256 c7ae438093170673, read by Claude. Later retries got TCP resets from the site (proxy log), not an environment denial."
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0056#1",
+          "locator": "CAC Order No. 21, promulgation clause",
+          "text": "《人工智能拟人化互动服务管理暂行办法》……现予公布，自2026年7月15日起施行。……2026年4月10日 [Interim Measures for Humanlike Interactive AI Services … promulgated, effective 15 July 2026 … 10 April 2026]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0057": {
+      "url": "http://www.npc.gov.cn/c2/c30834/202601/W020260105533918736222.pdf",
+      "title": "NPC Education, Science, Culture and Health Committee: report on delegates' motions (3rd Session), Jan 2026",
+      "publisher": "NPC",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:50:56Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/c2/c30834/202601/W020260105533918736222.pdf",
+          "content_type": "application/pdf",
+          "sha256": "35d226b3a46fd515",
+          "bytes": 413856
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0057#1",
+          "locator": "Item 5 (motions for an AI law), p.5",
+          "text": "2025年度立法工作计划将'人工智能健康发展'立法列入预备审议项目。目前，科技部等有关部门正在稳步推进人工智能立法相关工作……开展法律文本框架起草工作。 [The 2025 plan listed 'healthy development of AI' legislation as a preparatory item. MOST and other departments are … drafting a framework legal text.]",
+          "retrieved": "2026-10-10"
+        }
+      ]
     }
   }
 }

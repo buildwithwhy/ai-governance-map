@@ -478,7 +478,8 @@ function bucketOf(p, db, heldIds, today) {
   if (d.status === 'deferred' && d.revisit_after && d.revisit_after > today) return 'closed';
   const ev = L.evidenceStatus(p, db);
   const ready = L.APPLICABLE.has(ev.status);
-  if (d.status === 'accepted') return heldIds.has(p.id) ? 'research' : 'awaiting-apply';
+  // Accepted and verified but held only by its apply-together group: still awaiting application.
+  if (d.status === 'accepted') return heldIds.has(p.id) && !ready ? 'research' : 'awaiting-apply';
   return ready ? 'decide' : 'research';
 }
 
@@ -546,12 +547,13 @@ function report(id) {
       o.push(`| ${p.id} | v${latest(p).v} | ${p.decision.status}${p.decision.status === 'accepted' ? ` v${p.decision.v} (held)` : ''} | ${cell(latest(p).title)} | ${ev.status} | ${cell(heldWhy[p.id] && L.APPLICABLE.has(ev.status) ? heldWhy[p.id] : why)} |`);
     }
     o.push('');
-  } else o.push('_None._', '');
+  } else o.push('_No proposals are waiting on evidence._', '');
+  if (unres + inacc) o.push(`Checked items that did not verify in this run: ${unres} unresolved, ${inacc} source inaccessible. Each is listed in §2 with exactly what is missing; most are queued for the baseline audit.`, '');
 
   o.push('## C. Accepted and awaiting application', '');
   if (B['awaiting-apply'].length) {
     o.push('| ID | Ver | Accepted | Proposal | Evidence |', '|---|---|---|---|---|');
-    for (const p of B['awaiting-apply']) o.push(`| ${p.id} | v${p.decision.v} | ${p.decision.date}${p.decision.override ? ' (override)' : ''} | ${cell(latest(p).title)} | ${evOf(p).status} |`);
+    for (const p of B['awaiting-apply']) o.push(`| ${p.id} | v${p.decision.v} | ${p.decision.date}${p.decision.override ? ' (override)' : ''} | ${cell(latest(p).title)}${heldWhy[p.id] ? ` — **held:** ${cell(heldWhy[p.id])}` : ''} | ${evOf(p).status} |`);
     o.push('');
   } else o.push('_None._', '');
 

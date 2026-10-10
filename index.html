@@ -33,8 +33,8 @@
   "description": "Interactive map of 49 frontier AI governance mechanisms across six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter.",
   "url": "https://ai-governance-map.buildwithwhy.com/",
   "sameAs": "https://github.com/buildwithwhy/ai-governance-map",
-  "dateModified": "2026-06-06",
-  "version": "2026.06.06",
+  "dateModified": "2026-10-10",
+  "version": "2026.10.10",
   "inLanguage": "en",
   "isAccessibleForFree": true,
   "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -365,7 +365,7 @@
 
   <div class="topbar">
     <span>By Yuyu Shen · <a href="https://buildwithwhy.com" target="_blank" rel="author noopener noreferrer">buildwithwhy.com</a></span>
-    <span><span class="share-wrapper"><button class="topbar-action" data-action="share" type="button" aria-haspopup="menu" aria-expanded="false">Share</button><div class="share-menu" id="share-menu" role="menu" hidden></div></span> · <button class="topbar-action" data-action="copy-link" type="button">Copy link</button> · Updated <time datetime="2026-06-06">6 June 2026</time></span>
+    <span><span class="share-wrapper"><button class="topbar-action" data-action="share" type="button" aria-haspopup="menu" aria-expanded="false">Share</button><div class="share-menu" id="share-menu" role="menu" hidden></div></span> · <button class="topbar-action" data-action="copy-link" type="button">Copy link</button> · Updated <time datetime="2026-10-10">10 October 2026</time></span>
   </div>
 
   <header class="hero">
@@ -414,7 +414,7 @@
   </section>
   <section class="band">
     <div class="band-lbl" data-tooltip="The laws themselves — statutes, executive orders, framework acts. The institutions that implement and enforce them sit in Layer 4." aria-label="The laws themselves — statutes, executive orders, framework acts. The institutions that implement and enforce them sit in Layer 4.">
-      <div class="ord">Layer 2</div><h2>National regulation</h2><p>Statutes, executive orders, agencies</p>
+      <div class="ord">Layer 2</div><h2>National regulation</h2><p>Statutes, executive orders, framework acts</p>
     </div>
     <div class="chips" data-band="2"></div>
   </section>
@@ -457,7 +457,7 @@
       <span class="grp"><span class="sw j-eu"></span>EU</span>
       <span class="grp"><span class="sw j-uk"></span>UK</span>
       <span class="grp"><span class="sw j-cn"></span>China</span>
-      <span class="grp"><span class="sw j-as"></span>Other Asia</span>
+      <span class="grp"><span class="sw j-as"></span>Other Asia-Pacific</span>
       <span class="grp"><span class="sw j-mu"></span>Multilateral</span>
       <span class="grp"><span class="sw j-co"></span>Corporate</span>
     </div>
@@ -966,7 +966,7 @@ const EDGES = [
   { a: 'ca-sb53', b: 'fsf', rel: 'SB 53 codifies the published-framework norm DeepMind exemplified' },
   { a: 'ca-sb53', b: 'meta-faif', rel: "SB 53 covers Meta's framework" },
   { a: 'ny-raise', b: 'ca-sb53', rel: 'RAISE Act amendments aligned thresholds with SB 53' },
-  { a: 'seoul-commit', b: 'rsp', rel: "Seoul commitments triggered RSP's first public version" },
+  { a: 'seoul-commit', b: 'rsp', rel: "RSP's first version (Sep 2023) predates the Seoul commitments, which asked signatories to publish comparable frameworks" },
   { a: 'seoul-commit', b: 'prep', rel: 'Seoul commitments triggered the Preparedness Framework' },
   { a: 'seoul-commit', b: 'fsf', rel: 'Seoul commitments triggered the Frontier Safety Framework' },
   { a: 'seoul-commit', b: 'meta-faif', rel: "Meta's framework followed Seoul (delayed)" },
@@ -1017,7 +1017,7 @@ const EDGES = [
   { a: 'jp-sectors', b: 'other-aisis', rel: "J-AISI is Japan's central institute alongside sectoral ministries" }
 ];
 
-const JUR_LABEL = { us:'US Federal', uss:'US State', eu:'European Union', uk:'United Kingdom', cn:'China', as:'Asia (other)', mu:'Multilateral', co:'Corporate / global' };
+const JUR_LABEL = { us:'US Federal', uss:'US State', eu:'European Union', uk:'United Kingdom', cn:'China', as:'Asia-Pacific (other)', mu:'Multilateral', co:'Corporate / global' };
 const POW_LABEL = { 1:'Voluntary', 2:'Soft / advisory', 3:'Hard law, weak enforcement', 4:'Binding with penalties' };
 const STATUS_LABEL = { active:'In force', phasing:'Phasing in', proposed:'Proposed', revoked:'Revoked' };
 

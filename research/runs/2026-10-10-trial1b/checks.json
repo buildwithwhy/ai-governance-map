@@ -848,5 +848,213 @@
     "note": "The order does not mention UK AISI or FSI and frames itself as deregulatory (§1). The FSI edge's 'national-security review framework' has no basis in the order.",
     "missing": "UK AISI access-agreement sources; FSI publications. Queued for the baseline audit",
     "hash": "f652f61f07b8"
+  },
+  "entry:cn-ai-law": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0052",
+      "S-0053",
+      "S-0057",
+      "S-0054",
+      "S-0056"
+    ],
+    "proposals": [
+      "P-0019"
+    ],
+    "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+    "missing": null,
+    "hash": "d813e984ffe0"
+  },
+  "entry:cn-ai-law:desc": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0052",
+      "S-0053",
+      "S-0057",
+      "S-0054",
+      "S-0056"
+    ],
+    "proposals": [
+      "P-0019"
+    ],
+    "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+    "missing": null,
+    "hash": "34a050fe8e75"
+  },
+  "entry:cn-ai-law:context": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0052",
+      "S-0053",
+      "S-0057",
+      "S-0054",
+      "S-0056"
+    ],
+    "proposals": [
+      "P-0019"
+    ],
+    "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+    "missing": null,
+    "hash": "2bab2d606776"
+  },
+  "entry:cn-ai-law:cov": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0052",
+      "S-0053",
+      "S-0057",
+      "S-0054",
+      "S-0056"
+    ],
+    "proposals": [
+      "P-0019"
+    ],
+    "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+    "missing": null,
+    "hash": "40799a4adcc2"
+  },
+  "entry:cn-ai-law:cov:thresh": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0052",
+      "S-0053",
+      "S-0057",
+      "S-0054",
+      "S-0056"
+    ],
+    "proposals": [
+      "P-0019"
+    ],
+    "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+    "missing": null,
+    "hash": "a8883e838ea0"
+  },
+  "entry:cn-ai-law:cov:eval": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0052",
+      "S-0053",
+      "S-0057",
+      "S-0054",
+      "S-0056"
+    ],
+    "proposals": [
+      "P-0019"
+    ],
+    "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+    "missing": null,
+    "hash": "04c30c9fd3b6"
+  },
+  "entry:cn-ai-law:cov:mit": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0052",
+      "S-0053",
+      "S-0057",
+      "S-0054",
+      "S-0056"
+    ],
+    "proposals": [
+      "P-0019"
+    ],
+    "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+    "missing": null,
+    "hash": "d07c43ddd6bb"
+  },
+  "entry:cn-ai-law:cov:acct": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0052",
+      "S-0053",
+      "S-0057",
+      "S-0054",
+      "S-0056"
+    ],
+    "proposals": [
+      "P-0019"
+    ],
+    "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+    "missing": null,
+    "hash": "c24ef1bddf6c"
+  },
+  "edge:cn-genai|cn-ai-law": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0051"
+    ],
+    "proposals": [
+      "P-0019"
+    ],
+    "note": "'will be folded' is not supported by any official text; softened.",
+    "missing": null,
+    "hash": "f914d499f311"
+  },
+  "gap:halt": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0044",
+      "S-0034",
+      "S-0006"
+    ],
+    "proposals": [],
+    "note": "Verified parts: AI Office can order recall (Art 93(1)(c); powers from 2 Aug 2026); GPAI Code proceed-only-if-acceptable (Measure 4.2); Seoul commitment not to develop or deploy in the extreme (Outcome 1 IV). 'Every lab framework includes it': Anthropic's v3 RSP has delay commitments, but only in competitor-dependent scenarios (P-0013); other labs not checked. 'No US state … can compel' not checked.",
+    "missing": "OpenAI, Google DeepMind, Meta and xAI frameworks; US state statutes' remedies. Queued for the baseline audit",
+    "hash": "dda4a44fc8ba"
   }
 }

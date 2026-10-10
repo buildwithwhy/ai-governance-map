@@ -29,9 +29,11 @@ Tools, in `tools/`, have no dependencies beyond Node:
 
 `research/` and `tools/` are excluded from Vercel deployments by `.vercelignore`. That exclusion must still be verified on a real deployment, and the GitHub repository itself is public.
 
-## Current state (2026-10-09)
+## Current state (2026-10-10)
 
-- **Partial trial 1** (`runs/2026-10-08-trial1/report.md`) is complete as far as source access allows. Accepted and eligible: P-0001, P-0003 v2, P-0004, P-0008. Awaiting the maintainer: P-0002 v2, P-0011, P-0012. Held for source access: P-0005–P-0007 (applied together), P-0009 v2, P-0010.
-- **Blocked on:** the environment's network policy, which denies government sites and `www-cdn.anthropic.com`. After it is changed, retest with `node tools/research.js source fetch <url>` for the RSP v3.4 PDF, EUR-Lex, govinfo, nysenate.gov and gov.cn before any broad run.
-- **Then:** read the RSP v3.4 PDF (Appendix A, Appendix B, main sections) and revise P-0005 and P-0010 together. Revisit the blocked trial items (EU AI Act, GPAI Code, Frontier AI Access EO, China AI Law) and P-0009. Regenerate the report, run `tools/apply.js` for eligible proposals on `claude/governance-map-workflow-design-4s2wt7`, check `tools/check.js --guard origin/main`, and open one combined PR. Do not merge it.
-- **Next milestone:** full baseline audit plus scoped discovery, before any recurring schedule.
+- **Trial 1 is complete** (`runs/2026-10-08-trial1/report.md`, then `runs/2026-10-10-trial1b/report.md` after source access was restored). The 2026-10-10 report is the current review.
+- **Source access:** the environment denies nothing. Some websites block automated clients (Cloudflare on nysenate.gov, congress.gov, leginfo, federalregister.gov HTML, commerce.gov; EUR-Lex throttling; intermittent resets on some Chinese sites). Fetches record these as `site_blocked`, `http_202` or `error`, distinct from `blocked` (environment). RUNBOOK §0 lists the official alternatives.
+- **Applied on the PR branch** (manifest `applied/2026-10-10.json`, guard passes): P-0001, P-0003 v2, P-0004, P-0008 v2.
+- **Awaiting the maintainer:** P-0002 v2, P-0011, P-0012 (date wording; decide before merging), the RSP group P-0005 v3 + P-0010 v3 + P-0013 (P-0006 and P-0007 are accepted and held with them), P-0009 v3, P-0014, P-0015, P-0016, P-0017, P-0018, P-0019.
+- **Then:** record decisions, re-run `tools/apply.js` on the same branch, re-check `tools/check.js --guard origin/main`, update the PR. Do not merge or schedule runs.
+- **Next milestone:** full baseline audit plus scoped discovery, before any recurring schedule. Leads queued for it are in the 2026-10-10 report (§2 and §3), e.g. the EU Article 50 transparency code (candidate entry), CAISI's renaming to CAISSI, the AI Office's new Omnibus powers, the OpenAI/DeepMind Seoul chronology, CAC humanlike-AI measures.

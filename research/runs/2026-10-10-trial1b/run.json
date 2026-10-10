@@ -3,7 +3,7 @@
   "label": "Trial 1 completion — source access retest; RSP, RAISE, EU AI Act, GPAI Code, Frontier AI EO, China AI Law",
   "partial": true,
   "started_at": "2026-10-10T16:29:13Z",
-  "finished_at": null,
+  "finished_at": "2026-10-10T16:53:01Z",
   "scope": {
     "entries": [
       "rsp",
@@ -187,7 +187,66 @@
           "reason": "NIST published CAISI assessments in Jul and Sep 2026, so a blanket halt is not supported."
         }
       ]
+    },
+    {
+      "area": "China (B1) — AI Law status and related instruments (retest)",
+      "summary": "With npc.gov.cn and gov.cn reachable, the AI Law status was settled from the NPCSC and State Council legislative plans. Two instruments the map mentions only in passing were confirmed: the Cybersecurity Law AI article (in force 1 Jan 2026) and CAC Order 21 on humanlike interactive AI (in force 15 Jul 2026).",
+      "queries": [
+        "npc.gov.cn NPCSC 2025 and 2026 legislative work plans (PDF)",
+        "gov.cn State Council 2025 and 2026 legislative work plans",
+        "moj.gov.cn State Council 2024 plan",
+        "npc.gov.cn NPCSC decision amending the Cybersecurity Law (28 Oct 2025)",
+        "cac.gov.cn and jswx.gov.cn on the humanlike interactive AI measures",
+        "npc.gov.cn draft-consultation database (subagent)"
+      ],
+      "limits": "flk.npc.gov.cn, cac.gov.cn, jswx.gov.cn and moj.gov.cn intermittently reset connections right after the TLS handshake. The proxy log shows the tunnel closed by the remote end, which is a site or network-path issue, not an environment denial. moj.gov.cn also needs a cookie challenge.",
+      "candidates": [
+        {
+          "name": "Cybersecurity Law amendment, new Art. 20 on AI (in force 1 Jan 2026)",
+          "result": "screened out as a separate entry for now; noted in cn-ai-law context",
+          "reason": "A general promotional and supervisory clause with no specific obligations on developers. It may merit a coverage note on cn-genai or a separate entry in the baseline audit.",
+          "proposal": "P-0019",
+          "sources": [
+            "S-0054"
+          ]
+        },
+        {
+          "name": "Interim Measures for Humanlike Interactive AI Services (CAC Order No. 21; in force 15 Jul 2026)",
+          "result": "lead — possible new entry; maintainer decision",
+          "reason": "A binding CAC regulation on anthropomorphic AI services, comparable in kind to cn-genai. Its bearing on frontier and GPAI governance is contextual (SCOPE §C). Not drafted; raise in the baseline audit.",
+          "sources": [
+            "S-0056",
+            "S-0055"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Source access retest (environment change, 2026-10-10)",
+      "summary": "Retested every host that was blocked in trial 1, plus representative EU, UK, US and Chinese official sources. The environment network policy denied nothing; the agent proxy logged no CONNECT denials for any official host. Where a fetch failed, the website itself refused or dropped the connection. Each row below names the official alternative used.",
+      "queries": [
+        "www-cdn.anthropic.com RSP v3.4 PDF: ok (S-0006)",
+        "anthropic.com rsp-v3-0: ok, serves the v3.0 PDF (S-0008)",
+        "trust.anthropic.com: ok, but a JavaScript app; the FCF PDF needed headless Chromium (S-0010)",
+        "eur-lex.europa.eu: ok at first (S-0002); later empty HTTP 202 responses (throttling) (S-0041/S-0042/S-0047/S-0048)",
+        "digital-strategy.ec.europa.eu, ec.europa.eu: ok (S-0001, S-0003, S-0043–S-0046)",
+        "gov.uk: ok (S-0034, S-0035)",
+        "govinfo.gov: ok (S-0012, S-0038); federalregister.gov API: ok (S-0039); federalregister.gov HTML: bot gate (subagent)",
+        "whitehouse.gov: ok (S-0016)",
+        "nysenate.gov, congress.gov, leginfo.legislature.ca.gov: Cloudflare bot challenge, website-side (S-0028, S-0036, S-0037); nyassembly.gov: ok (S-0031–S-0033)",
+        "commerce.gov: Cloudflare bot challenge (subagent)",
+        "npc.gov.cn, gov.cn: ok (S-0049–S-0052, S-0054, S-0057); flk.npc.gov.cn, cac.gov.cn, jswx.gov.cn, moj.gov.cn: intermittent resets right after TLS (proxy log: closed by remote end); moj.gov.cn also needs a cookie challenge"
+      ],
+      "limits": "Headless Chromium also fails Cloudflare challenges, so nysenate.gov and congress.gov stay unreadable to automated runs. The map's ny-raise link (nysenate.gov) can't be link-checked automatically, though it probably works in a browser.",
+      "candidates": []
     }
   ],
-  "usage": null
+  "usage": "Not measured: get_session does not report cost in this environment. Wall-clock about 1 h 15 min in one session, including three research subagents (≈405k subagent tokens in total).",
+  "highlights": [
+    "**Source access is fixed.** The new environment reaches the RSP PDF, EUR-Lex, the Commission, gov.uk, govinfo, whitehouse.gov, npc.gov.cn and gov.cn, with no environment denials. Some websites still refuse automated clients: nysenate.gov, congress.gov, leginfo, federalregister.gov HTML and commerce.gov serve Cloudflare challenges; EUR-Lex throttles with empty responses; several Chinese sites reset connections intermittently. For each I used another official copy (nyassembly.gov, govinfo PDF, FR API) or a copy retrieved earlier the same day, and the source record says how.",
+    "**The RSP entry describes the pre-2026 policy.** Read in full, RSP v3.4 (and v3.0) replaced the ASL ladder. It now maps four capability thresholds to Anthropic's own plans and to industry-wide recommendations it says it cannot follow unilaterally. ASLs now label only current safeguards. The unconditional pause commitment became delay commitments that apply only in competitor-dependent scenarios. Anthropic's SB 53 and EU Code compliance document is a separate Frontier Compliance Framework, not the RSP. Revised as P-0005 v3 and P-0010 v3, plus new P-0013 (halting). All need your decision.",
+    "**Four other trial entries had factual errors, now proposed (P-0014–P-0019).** The US frontier AI EO is EO 14409, a voluntary cyber-capability access framework led by NSA, Treasury and CISA; it does not name CAISI. The EU high-risk rules moved to Dec 2027 and Aug 2028 (Digital Omnibus, Reg. 2026/1744). The AI Office's GPAI fine cap is €15M/3%, not €35M/7%. GPAI Code Model Reports are six-monthly, not annual. China's AI Law has no draft and is still a preparatory NPC item; the State Council plan, not the NPC plan, dropped the named draft in 2025.",
+    "**Applied on the PR branch:** P-0001, P-0003, P-0004 and P-0008 (Seoul half now verified on gov.uk; wording unchanged, so your approval carries over). The guard reproduces the published diff exactly. Merging moves the public date to 10 Oct 2026 and llms.txt would say '10 October 2026 snapshot'. P-0012 (relabel as 'content updated', pending) is what stops that implying a full audit, so decide it before merging.",
+    "**Coverage is still small:** 6 entries attempted in this completion run. 50 of 511 inventory items have now been verified against external sources at least once (up from 6). The baseline audit remains the next milestone."
+  ]
 }

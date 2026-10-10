@@ -837,154 +837,370 @@
     },
     "entry:cn-ai-law": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
-        "outcome": "unresolved",
-        "sources": [
-          "S-0014",
-          "S-0015",
-          "S-0023",
-          "S-0024",
-          "S-0025"
-        ],
-        "proposals": [],
-        "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-        "hash": "d813e984ffe0",
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
         "scope": "external",
-        "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "d813e984ffe0"
+      },
+      "last_success": {
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "d813e984ffe0"
       }
     },
     "entry:cn-ai-law:desc": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
-        "outcome": "unresolved",
-        "sources": [
-          "S-0014",
-          "S-0015",
-          "S-0023",
-          "S-0024",
-          "S-0025"
-        ],
-        "proposals": [],
-        "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-        "hash": "34a050fe8e75",
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
         "scope": "external",
-        "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "34a050fe8e75"
+      },
+      "last_success": {
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "34a050fe8e75"
       }
     },
     "entry:cn-ai-law:context": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
-        "outcome": "unresolved",
-        "sources": [
-          "S-0014",
-          "S-0015",
-          "S-0023",
-          "S-0024",
-          "S-0025"
-        ],
-        "proposals": [],
-        "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-        "hash": "2bab2d606776",
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
         "scope": "external",
-        "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "2bab2d606776"
+      },
+      "last_success": {
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "2bab2d606776"
       }
     },
     "entry:cn-ai-law:cov": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
-        "outcome": "unresolved",
-        "sources": [
-          "S-0014",
-          "S-0015",
-          "S-0023",
-          "S-0024",
-          "S-0025"
-        ],
-        "proposals": [],
-        "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-        "hash": "40799a4adcc2",
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
         "scope": "external",
-        "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "40799a4adcc2"
+      },
+      "last_success": {
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "40799a4adcc2"
       }
     },
     "entry:cn-ai-law:cov:thresh": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
-        "outcome": "unresolved",
-        "sources": [
-          "S-0014",
-          "S-0015",
-          "S-0023",
-          "S-0024",
-          "S-0025"
-        ],
-        "proposals": [],
-        "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-        "hash": "a8883e838ea0",
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
         "scope": "external",
-        "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "a8883e838ea0"
+      },
+      "last_success": {
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "a8883e838ea0"
       }
     },
     "entry:cn-ai-law:cov:eval": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
-        "outcome": "unresolved",
-        "sources": [
-          "S-0014",
-          "S-0015",
-          "S-0023",
-          "S-0024",
-          "S-0025"
-        ],
-        "proposals": [],
-        "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-        "hash": "04c30c9fd3b6",
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
         "scope": "external",
-        "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "04c30c9fd3b6"
+      },
+      "last_success": {
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "04c30c9fd3b6"
       }
     },
     "entry:cn-ai-law:cov:mit": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
-        "outcome": "unresolved",
-        "sources": [
-          "S-0014",
-          "S-0015",
-          "S-0023",
-          "S-0024",
-          "S-0025"
-        ],
-        "proposals": [],
-        "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-        "hash": "d07c43ddd6bb",
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
         "scope": "external",
-        "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "d07c43ddd6bb"
+      },
+      "last_success": {
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "d07c43ddd6bb"
       }
     },
     "entry:cn-ai-law:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
-        "outcome": "unresolved",
-        "sources": [
-          "S-0014",
-          "S-0015",
-          "S-0023",
-          "S-0024",
-          "S-0025"
-        ],
-        "proposals": [],
-        "note": "MISSING LINK INVESTIGATED; no source assigned and status not changed. Official sites: npc.gov.cn returned HTTP 403, gov.cn blocked. Leads from search only: (1) the State Council 2026 Legislative Work Plan (11 May 2026) reportedly says comprehensive AI legislation will be 'accelerated', without saying whether as an NPC law or a State Council regulation; (2) the March 2026 NPCSC work report reportedly commits to 'step up research' on AI legislation; (3) a Cybersecurity Law amendment adding an AI article reportedly took effect 1 Jan 2026. Item (3) is a possible separate mechanism or context for cn-genai. One secondary page claims a second reading in Q4 2025; it conflicts with the others and is treated as unreliable.",
-        "hash": "c24ef1bddf6c",
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
         "scope": "external",
-        "missing": "An official source for the AI Law status: the NPCSC 2026 legislative work plan (npc.gov.cn, HTTP 403) or the State Council 2026 legislative work plan (gov.cn, blocked). No primary source could be opened, so no link is assigned and the status is unchanged."
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "c24ef1bddf6c"
+      },
+      "last_success": {
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0049",
+          "S-0050",
+          "S-0051",
+          "S-0052",
+          "S-0053",
+          "S-0057",
+          "S-0054",
+          "S-0056"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "missing": null,
+        "hash": "c24ef1bddf6c"
       }
     },
     "entry:rsp": {
@@ -2045,6 +2261,58 @@
         "note": "The order does not mention UK AISI or FSI and frames itself as deregulatory (§1). The FSI edge's 'national-security review framework' has no basis in the order.",
         "missing": "UK AISI access-agreement sources; FSI publications. Queued for the baseline audit",
         "hash": "f652f61f07b8"
+      }
+    },
+    "edge:cn-genai|cn-ai-law": {
+      "last_attempt": {
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0049",
+          "S-0051"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "'will be folded' is not supported by any official text; softened.",
+        "missing": null,
+        "hash": "f914d499f311"
+      },
+      "last_success": {
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0049",
+          "S-0051"
+        ],
+        "proposals": [
+          "P-0019"
+        ],
+        "note": "'will be folded' is not supported by any official text; softened.",
+        "missing": null,
+        "hash": "f914d499f311"
+      }
+    },
+    "gap:halt": {
+      "last_attempt": {
+        "run": "2026-10-10-trial1b",
+        "date": "2026-10-10",
+        "outcome": "unresolved",
+        "scope": "external",
+        "sources": [
+          "S-0002",
+          "S-0044",
+          "S-0034",
+          "S-0006"
+        ],
+        "proposals": [],
+        "note": "Verified parts: AI Office can order recall (Art 93(1)(c); powers from 2 Aug 2026); GPAI Code proceed-only-if-acceptable (Measure 4.2); Seoul commitment not to develop or deploy in the extreme (Outcome 1 IV). 'Every lab framework includes it': Anthropic's v3 RSP has delay commitments, but only in competitor-dependent scenarios (P-0013); other labs not checked. 'No US state … can compel' not checked.",
+        "missing": "OpenAI, Google DeepMind, Meta and xAI frameworks; US state statutes' remedies. Queued for the baseline audit",
+        "hash": "dda4a44fc8ba"
       }
     }
   }

@@ -1,5 +1,5 @@
 {
-  "next": 19,
+  "next": 20,
   "proposals": [
     {
       "id": "P-0001",
@@ -53,7 +53,10 @@
         "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "internal-consistency",
         "note": "Repo evidence only: generator hardcode vs entry count.",
@@ -276,7 +279,10 @@
         "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "internal-consistency",
         "missing": [],
@@ -340,7 +346,10 @@
         "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "internal-consistency",
         "note": "Repo evidence only: subtitle vs the Layer 2 tooltip and FAQ.",
@@ -1019,7 +1028,10 @@
         "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-10.json",
+        "date": "2026-10-10"
+      },
       "research": {
         "status": "verified",
         "note": "Evidence-only revision 2026-10-10: the Seoul half is now verified on gov.uk (S-0034, S-0035). Wording unchanged, so the 2026-10-09 approval carries over.",
@@ -2530,6 +2542,202 @@
             "faq:what-does-the-eu-ai-act-require-for-systemic-ris"
           ],
           "hash": "57c427d2479d"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0019",
+      "fingerprint": "38cfd8753ada",
+      "targets": [
+        "entry:cn-ai-law",
+        "entry:cn-ai-law:desc",
+        "entry:cn-ai-law:context",
+        "entry:cn-ai-law:cov:thresh",
+        "entry:cn-ai-law:cov:eval",
+        "entry:cn-ai-law:cov:mit",
+        "entry:cn-ai-law:cov:acct",
+        "edge:cn-genai|cn-ai-law"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T16:52:07Z",
+          "run": "2026-10-10-trial1b",
+          "author": "claude",
+          "title": "China AI Law: still a preparatory planning item with no draft; correct the '2025 plan dropped it' claim and add an official source link",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "cn-ai-law",
+              "field": "link",
+              "from": null,
+              "to": "http://www.npc.gov.cn/npc/c2/c30834/202605/P020260511309265804880.pdf"
+            },
+            {
+              "op": "set_field",
+              "entity": "cn-ai-law",
+              "field": "desc",
+              "from": "Comprehensive AI law in drafting at NPC. Compute thresholds debated.",
+              "to": "Comprehensive AI legislation at the planning stage: an unscheduled preparatory item in the NPC Standing Committee's 2025 and 2026 legislative plans; the State Council's 2026 plan calls for accelerating it. No draft has been submitted."
+            },
+            {
+              "op": "set_field",
+              "entity": "cn-ai-law",
+              "field": "context",
+              "from": "Would consolidate the patchwork of CAC measures (recommendation algorithms, deep synthesis, generative AI) into a single statute; competing proposals from MOST and CAIC have circulated. The 2025 NPC plan dropped it from preparatory items, so near-term action looks unlikely; in the meantime China is regulating frontier issues through narrower instruments — cybersecurity-law amendments, draft rules on humanlike interactive AI.",
+              "to": "Could consolidate the patchwork of CAC measures (recommendation algorithms, deep synthesis, generative AI) into a single statute. The State Council dropped a named AI Law draft from its 2025 plan, then in May 2026 called for accelerating 'comprehensive legislation'; MOST-led drafting of a framework text was under way in late 2025. In the meantime China regulates frontier issues through narrower instruments — a Cybersecurity Law AI article (in force Jan 2026) and CAC rules on humanlike interactive AI (in force Jul 2026)."
+            },
+            {
+              "op": "set_cov",
+              "entity": "cn-ai-law",
+              "cat": "thresh",
+              "from": "Compute thresholds have featured in competing draft proposals from MOST and CAIC; the eventual statute is expected to set capability or compute thresholds, but specifics aren't fixed.",
+              "to": "No official draft has been published, so thresholds are not yet defined."
+            },
+            {
+              "op": "set_cov",
+              "entity": "cn-ai-law",
+              "cat": "eval",
+              "from": "Drafts have signalled risk assessment obligations for high-impact AI systems; details are still being negotiated within the NPC process.",
+              "to": "No official draft has been published, so evaluation duties are not yet defined."
+            },
+            {
+              "op": "set_cov",
+              "entity": "cn-ai-law",
+              "cat": "mit",
+              "from": "Drafts have proposed mitigation duties layered on top of the existing CAC measures, but specifics depend on which competing proposal prevails.",
+              "to": "No official draft has been published, so mitigation duties are not yet defined."
+            },
+            {
+              "op": "set_cov",
+              "entity": "cn-ai-law",
+              "cat": "acct",
+              "from": "Drafts envisage centralised oversight expansion — consolidating algorithm registration, deep-synthesis rules, and generative-AI rules under one statute. Whether this strengthens or duplicates current CAC powers is open.",
+              "to": "No official draft has been published, so the oversight structure is not yet defined. Drafting is ministry-led (MOST and others) ahead of any NPC Standing Committee reading."
+            },
+            {
+              "op": "set_edge",
+              "a": "cn-genai",
+              "b": "cn-ai-law",
+              "from": "GenAI Measures will be folded into the AI Law",
+              "to": "GenAI Measures could be consolidated into a comprehensive AI law"
+            }
+          ],
+          "why": "The entry has no source link. It says the law is 'in drafting at NPC' and that 'the 2025 NPC plan dropped it from preparatory items', and its coverage notes describe the contents of 'drafts'. Official sources show there is no published draft. AI legislation is still a preparatory (unscheduled) item in the NPC Standing Committee's 2025 and 2026 plans. It was the State Council's plan that dropped a named 'AI Law draft' in 2025, and its 2026 plan calls for accelerating comprehensive legislation. The 'draft rules on humanlike interactive AI' have since been finalised.",
+          "rationale": "Official texts: NPCSC 2026 and 2025 legislative plans (S-0049, S-0050), §(三) preparatory items. State Council plans for 2026 (S-0051), 2025 (S-0052) and 2024 (S-0053, MOJ copy). The NPC committee's Jan 2026 report on AI-law motions (S-0057) covers MOST-led framework drafting. The NPCSC decision amending the Cybersecurity Law adds Art. 20 on AI, adopted 28 Oct 2025 and in force 1 Jan 2026 (S-0054). CAC Order No. 21 on humanlike interactive AI was issued 10 Apr 2026, in force 15 Jul 2026 (S-0056, S-0055). Removed as unsupported: 'Compute thresholds debated', 'competing proposals from MOST and CAIC' (no official source; 'CAIC' is unidentified), the draft-content claims in the coverage notes (no official draft exists), and 'near-term action looks unlikely' (the State Council's 2026 wording is 'accelerate'). The link is the NPCSC 2026 plan PDF, which settles the NPC status. 'Could consolidate…' softens a speculative claim. status 'proposed' and pow 2 are unchanged.",
+          "evidence": [
+            {
+              "source": "S-0049",
+              "passage": "S-0049#1",
+              "stance": "supports",
+              "supports": "2026 NPCSC plan: preparatory item only"
+            },
+            {
+              "source": "S-0050",
+              "passage": "S-0050#1",
+              "stance": "supports",
+              "supports": "2025 NPCSC plan: preparatory item (contradicts the map)"
+            },
+            {
+              "source": "S-0051",
+              "passage": "S-0051#1",
+              "stance": "supports",
+              "supports": "State Council 2026: accelerate comprehensive legislation"
+            },
+            {
+              "source": "S-0052",
+              "passage": "S-0052#1",
+              "stance": "supports",
+              "supports": "State Council 2025: no named draft"
+            },
+            {
+              "source": "S-0053",
+              "passage": "S-0053#1",
+              "stance": "supports",
+              "supports": "State Council 2024: named AI Law draft"
+            },
+            {
+              "source": "S-0057",
+              "passage": "S-0057#1",
+              "stance": "supports",
+              "supports": "MOST-led framework drafting; 2025 preparatory item"
+            },
+            {
+              "source": "S-0054",
+              "passage": "S-0054#1",
+              "stance": "supports",
+              "supports": "Cybersecurity Law Art. 20 on AI, in force 1 Jan 2026"
+            },
+            {
+              "source": "S-0056",
+              "passage": "S-0056#1",
+              "stance": "supports",
+              "supports": "Humanlike interactive AI measures, in force 15 Jul 2026"
+            },
+            {
+              "source": "S-0055",
+              "passage": "S-0055#1",
+              "stance": "supports",
+              "supports": "CAC and four departments promulgated the humanlike measures"
+            }
+          ],
+          "uncertainty": "None of the plans says whether the eventual instrument will be an NPC law or a State Council regulation. Layer 2 and 'proposed' fit either. The MOJ copy of the 2024 State Council plan and the provincial repost of CAC Order 21 were read from copies a research subagent saved. Later direct fetches got connection resets from those sites, and each source record says so. The NPC draft-consultation database (no AI-law draft through 28 Aug 2026) was checked only by the subagent, so 'No draft has been submitted' rests mainly on the 2026 plan listing AI only as a preparatory item.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "edge:cn-genai|cn-ai-law": "changed here ('will be folded' to 'could be consolidated')",
+            "entry:cn-genai:cov:timing": "lead from the subagent: says security assessment is required for any public generative AI service, while Art. 17 limits it to services with public-opinion attributes or social-mobilisation capacity. Outside this trial; baseline audit",
+            "entry:cn-genai": "lead: link is a third-party translation; official CAC text exists at cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+          },
+          "unverified_carryover": [
+            "'Could consolidate the patchwork of CAC measures (recommendation algorithms, deep synthesis, generative AI) into a single statute': softened from 'Would'; not stated in any official source"
+          ],
+          "conflict_resolution": {
+            "disagreement": "The map, and trial-1 secondary leads, say the 2025 NPC plan dropped the AI law from preparatory items. The NPCSC 2025 plan lists 'healthy development of AI' legislation among its preparatory items.",
+            "basis": "different-scope",
+            "evidence": [
+              {
+                "source": "S-0050",
+                "passage": "S-0050#1"
+              },
+              {
+                "source": "S-0053",
+                "passage": "S-0053#1"
+              },
+              {
+                "source": "S-0052",
+                "passage": "S-0052#1"
+              },
+              {
+                "source": "S-0057",
+                "passage": "S-0057#1"
+              }
+            ],
+            "explanation": "The claims concern two different plans. The NPC Standing Committee kept AI legislation as a preparatory item in 2025 (S-0050; confirmed by the NPC committee report, S-0057). The State Council's plan named an 'AI Law draft' for preparatory submission in 2024 (S-0053) and replaced it with general wording in 2025 (S-0052). So 'dropped' is true of the State Council plan only. A trial-1 secondary claim of a second reading in Q4 2025 is not borne out: AI appears in neither the continued-review nor the first-review list of the NPCSC 2026 plan (S-0049)."
+          },
+          "knock_on": [
+            "gap:timing",
+            "gap:mit",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-is-the-difference-between-layer-2-and-layer"
+          ],
+          "hash": "abfbe2e7035a"
         }
       ],
       "decision": {

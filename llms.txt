@@ -1,6 +1,6 @@
 # Frontier AI Governance Map
 
-> Interactive map of frontier AI governance covering six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter. 6 June 2026 snapshot; 49 mechanisms across the stack with primary-source links, descriptions, and connections.
+> Interactive map of frontier AI governance covering six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter. 10 October 2026 snapshot; 49 mechanisms across the stack with primary-source links, descriptions, and connections.
 
 By Yuyu Shen
 Personal site: https://buildwithwhy.com
@@ -17,7 +17,7 @@ Web version: https://ai-governance-map.buildwithwhy.com
 **Layers** organise by *who acts*:
 
 - Layer 1 — International: Multilateral norms and summits
-- Layer 2 — National regulation: Statutes, executive orders, agencies
+- Layer 2 — National regulation: Statutes, executive orders, framework acts
 - Layer 3 — Sub-national: US states acting where federal regulation is absent
 - Layer 4 — Infrastructure: Regulators, AISIs, evaluators, compute controls
 - Layer 5 — Industry voluntary: Cross-firm commitments and codes
