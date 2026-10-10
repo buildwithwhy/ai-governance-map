@@ -135,6 +135,13 @@ function ingest(file, o) {
   const mapEv = (ev, where) => {
     const out = [];
     for (const e of ev || []) {
+      // Evidence may also cite a source and passage already in the registry (S-xxxx, S-xxxx#n).
+      if (/^S-\d{4}$/.test(e.source)) {
+        const rec = L.readJSON(SRC).sources[e.source];
+        if (!rec) throw new Error(`${where}: no registered source ${e.source}`);
+        if (e.passage && !rec.passages.some(x => x.id === e.passage)) throw new Error(`${where}: no registered passage ${e.passage}`);
+        out.push({ ...e }); continue;
+      }
       const k = `${e.source}#${e.passage}`;
       if (e.passage && (badPas.has(k) || !pasId[k])) throw new Error(`${where}: evidence passage ${k} was rejected or is unknown`);
       if (!srcId[e.source]) throw new Error(`${where}: evidence source ${e.source} is unknown`);
@@ -209,7 +216,8 @@ function validate(file) {
       if (texts && !p.observation) { const v = verifyDetail(p.text, texts); if (!v.ok) errs.push(`passage ${s.key}#${p.key} (${p.locator}): ${v.why}`); else if (v.approx) approx.push(`${s.key}#${p.key}`); }
     }
   }
-  const evOk = (ev, where) => { for (const e of ev || []) { if (!srcKeys.has(e.source)) errs.push(`${where}: unknown source key ${e.source}`); if (e.passage && !pasKeys.has(`${e.source}#${e.passage}`)) errs.push(`${where}: unknown passage ${e.source}#${e.passage}`); if (e.stance && !['supports', 'contradicts'].includes(e.stance)) errs.push(`${where}: stance must be supports|contradicts`); } };
+  const reg = L.readJSON(SRC).sources;
+  const evOk = (ev, where) => { for (const e of ev || []) { if (/^S-\d{4}$/.test(e.source)) { if (!reg[e.source]) errs.push(`${where}: no registered source ${e.source}`); else if (e.passage && !reg[e.source].passages.some(x => x.id === e.passage)) errs.push(`${where}: no registered passage ${e.passage}`); continue; } if (!srcKeys.has(e.source)) errs.push(`${where}: unknown source key ${e.source}`); if (e.passage && !pasKeys.has(`${e.source}#${e.passage}`)) errs.push(`${where}: unknown passage ${e.source}#${e.passage}`); if (e.stance && !['supports', 'contradicts'].includes(e.stance)) errs.push(`${where}: stance must be supports|contradicts`); } };
   for (const p of batch.proposals || []) {
     const w = `proposal ${p.key}`;
     if (!p.key || propKeys.has(p.key)) errs.push(`${w}: missing or duplicate key`); propKeys.add(p.key);

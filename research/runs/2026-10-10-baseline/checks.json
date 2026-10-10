@@ -6535,5 +6535,44 @@
     "note": "The HQ adopted cross-cutting Art. 13 guidelines (19 Dec 2025); sectoral guidance comes from ministries.",
     "missing": null,
     "hash": "ce8d62345a3d"
+  },
+  "derived:counts": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0301"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data (50 mechanisms), generated files equal a fresh build, all content-date sites agree (2026-10-10). Internal consistency only.",
+    "missing": null,
+    "hash": "1d4ba0cca699"
+  },
+  "derived:generated": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0301"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data (50 mechanisms), generated files equal a fresh build, all content-date sites agree (2026-10-10). Internal consistency only.",
+    "missing": null,
+    "hash": "6bd36e09fa00"
+  },
+  "derived:dates": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0301"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data (50 mechanisms), generated files equal a fresh build, all content-date sites agree (2026-10-10). Internal consistency only.",
+    "missing": null,
+    "hash": "364580ecc763"
   }
 }

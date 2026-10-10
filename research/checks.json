@@ -1911,84 +1911,86 @@
     },
     "derived:counts": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
-        "outcome": "changed",
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "internal",
         "sources": [
-          "S-0027"
+          "S-0301"
         ],
-        "proposals": [
-          "P-0001"
-        ],
-        "note": "check.js: all hand-maintained counts in index.html match the data (49/19/11/9); data.json's description says 39 (hardcoded in build-llms.js).",
-        "hash": "0fc52ae30257",
-        "scope": "internal"
+        "proposals": [],
+        "note": "check.js: counts match the data (50 mechanisms), generated files equal a fresh build, all content-date sites agree (2026-10-10). Internal consistency only.",
+        "missing": null,
+        "hash": "1d4ba0cca699"
       },
       "last_success": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
-        "outcome": "changed",
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
+        "outcome": "no_change",
+        "scope": "internal",
         "sources": [
-          "S-0027"
+          "S-0301"
         ],
-        "proposals": [
-          "P-0001"
-        ],
-        "note": "check.js: all hand-maintained counts in index.html match the data (49/19/11/9); data.json's description says 39 (hardcoded in build-llms.js).",
-        "hash": "0fc52ae30257",
-        "scope": "internal"
+        "proposals": [],
+        "note": "check.js: counts match the data (50 mechanisms), generated files equal a fresh build, all content-date sites agree (2026-10-10). Internal consistency only.",
+        "missing": null,
+        "hash": "1d4ba0cca699"
       }
     },
     "derived:generated": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
         "outcome": "no_change",
+        "scope": "internal",
         "sources": [
-          "S-0027"
+          "S-0301"
         ],
         "proposals": [],
-        "note": "check.js: llms.txt, llms-full.txt and data.json are identical to a fresh build; all 11 content-date sites agree (2026-06-06).",
-        "hash": "6bd36e09fa00",
-        "scope": "internal"
+        "note": "check.js: counts match the data (50 mechanisms), generated files equal a fresh build, all content-date sites agree (2026-10-10). Internal consistency only.",
+        "missing": null,
+        "hash": "6bd36e09fa00"
       },
       "last_success": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
         "outcome": "no_change",
+        "scope": "internal",
         "sources": [
-          "S-0027"
+          "S-0301"
         ],
         "proposals": [],
-        "note": "check.js: llms.txt, llms-full.txt and data.json are identical to a fresh build; all 11 content-date sites agree (2026-06-06).",
-        "hash": "6bd36e09fa00",
-        "scope": "internal"
+        "note": "check.js: counts match the data (50 mechanisms), generated files equal a fresh build, all content-date sites agree (2026-10-10). Internal consistency only.",
+        "missing": null,
+        "hash": "6bd36e09fa00"
       }
     },
     "derived:dates": {
       "last_attempt": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
         "outcome": "no_change",
+        "scope": "internal",
         "sources": [
-          "S-0027"
+          "S-0301"
         ],
         "proposals": [],
-        "note": "check.js: llms.txt, llms-full.txt and data.json are identical to a fresh build; all 11 content-date sites agree (2026-06-06).",
-        "hash": "7fe6ecb120a1",
-        "scope": "internal"
+        "note": "check.js: counts match the data (50 mechanisms), generated files equal a fresh build, all content-date sites agree (2026-10-10). Internal consistency only.",
+        "missing": null,
+        "hash": "364580ecc763"
       },
       "last_success": {
-        "run": "2026-10-08-trial1",
-        "date": "2026-10-08",
+        "run": "2026-10-10-baseline",
+        "date": "2026-10-10",
         "outcome": "no_change",
+        "scope": "internal",
         "sources": [
-          "S-0027"
+          "S-0301"
         ],
         "proposals": [],
-        "note": "check.js: llms.txt, llms-full.txt and data.json are identical to a fresh build; all 11 content-date sites agree (2026-06-06).",
-        "hash": "7fe6ecb120a1",
-        "scope": "internal"
+        "note": "check.js: counts match the data (50 mechanisms), generated files equal a fresh build, all content-date sites agree (2026-10-10). Internal consistency only.",
+        "missing": null,
+        "hash": "364580ecc763"
       }
     },
     "faq:which-ai-laws-are-binding-with-penalties": {

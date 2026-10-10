@@ -1,5 +1,5 @@
 {
-  "next": 301,
+  "next": 302,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -13812,6 +13812,31 @@
           "id": "S-0300#2",
           "locator": "past plans",
           "text": "令和7年12月23日 閣議決定 [Cabinet decision of 23 Dec 2025]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0301": {
+      "url": "https://github.com/buildwithwhy/ai-governance-map/tree/3599164",
+      "title": "Map repository at 3599164 (index.html, build-llms.js, data.json, sitemap.xml)",
+      "publisher": null,
+      "type": "repo",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:36:26Z",
+          "run": "2026-10-10-baseline",
+          "via": "repo",
+          "status": "ok",
+          "note": null
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0301#1",
+          "locator": "tools/check.js output",
+          "text": "0 error(s), 0 known issue(s), 5 warning(s): hand-maintained counts match the data (50 mechanisms); llms.txt, llms-full.txt and data.json equal a fresh build; all content-date sites agree (2026-10-10).",
           "retrieved": "2026-10-10"
         }
       ]
