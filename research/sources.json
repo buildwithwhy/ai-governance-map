@@ -1,5 +1,5 @@
 {
-  "next": 61,
+  "next": 95,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -91,10 +91,12 @@
     },
     "S-0003": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
-      "title": null,
-      "publisher": null,
+      "title": "European Commission: The General-Purpose AI Code of Practice (signatories)",
+      "publisher": "European Commission",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "published": "2025-07-10"
+      },
       "fetches": [
         {
           "date": "2026-10-08",
@@ -115,6 +117,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "9487c62bc44b4f63",
           "bytes": 60306
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:51Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "5d2909fecdea7f45",
+          "bytes": 60288
         }
       ],
       "passages": [
@@ -122,6 +136,54 @@
           "id": "S-0003#1",
           "locator": "Signatories (page last updated 7 October 2026)",
           "text": "AI Studio Delta, Aleph Alpha, Almawave, Amazon, Anthropic, … Google, IBM, … Microsoft, Mistral AI, … OpenAI, … WRITER. In addition, xAI signed up to the Safety and Security Chapter; this means that it will have to demonstrate compliance with the AI Act's obligations concerning transparency and copyright via alternative adequate means.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0003#2",
+          "locator": "Intro",
+          "text": "The code was published on July 10, 2025 . It is complemented by Commission guidelines on key concepts related to general-purpose AI models. The Commission and the AI Board have confirmed that the code is an adequate voluntary tool for providers of GPAI models to demonstrate compliance with the AI Act.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0003#3",
+          "locator": "Intro",
+          "text": "Following the endorsement, AI model providers who voluntarily sign it can show they comply with the AI Act by adhering to the code.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0003#4",
+          "locator": "Intro",
+          "text": "Signatories of the Code have established the Signatory Taskforce , chaired by the AI Office, to facilitate a coherent application of the Code.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0003#5",
+          "locator": "Chapters",
+          "text": "Below you can download the code, consisting of three separately authored chapters: Transparency, Copyright, and Safety and Security.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0003#6",
+          "locator": "Chapters",
+          "text": "The Chapters on Safety and Security is only relevant to the small number of providers of the most advanced models",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0003#7",
+          "locator": "Signatories of the code of practice",
+          "text": "AI Studio Delta Aleph Alpha Almawave Amazon Anthropic Black Forest Labs Bria AI Cohere Domyn Dweve Fastweb Google IBM LINAGORA Microsoft Mistral AI Open Hippo OpenAI Pleias Reflection AI, Inc. ServiceNow WRITER",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0003#8",
+          "locator": "Signatories of the code of practice",
+          "text": "[Observation, not a quotation] Meta does not appear in the list of signatories (page last updated 7 October 2026); the page gives no reason for any provider's absence.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0003#9",
+          "locator": "Page footer",
+          "text": "Last update 7 October 2026",
           "retrieved": "2026-10-10"
         }
       ]
@@ -1174,9 +1236,12 @@
     "S-0034": {
       "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
       "title": "UK Government: Frontier AI Safety Commitments, AI Seoul Summit 2024",
-      "publisher": "UK DSIT",
+      "publisher": "DSIT (UK)",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "published": "2024-05-21",
+        "effective": "2025-02-07"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
@@ -1188,6 +1253,18 @@
           "final_url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
           "content_type": "text/html; charset=utf-8",
           "sha256": "a090c43f82272068",
+          "bytes": 81551
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:19Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "3cac93ff98e6f616",
           "bytes": 81551
         }
       ],
@@ -1209,13 +1286,73 @@
           "locator": "Outcome 1, IV",
           "text": "In the extreme, organisations commit not to develop or deploy a model or system at all, if mitigations cannot be applied to keep risks below the thresholds.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#4",
+          "locator": "Signatory list (opening)",
+          "text": "The UK and Republic of Korea governments announced that the following organisations have agreed to the Frontier AI Safety Commitments: Amazon Anthropic Cohere Google G42 IBM Inflection AI Meta Microsoft Mistral AI Naver OpenAI Samsung Electronics Technology Innovation Institute xAI Zhipu.ai",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#5",
+          "locator": "Signatory list (additions)",
+          "text": "The following organisations have been added to the existing list: Magic Minimax 01.ai NVIDIA",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#6",
+          "locator": "Preamble",
+          "text": "undertake to develop and deploy their frontier AI models and systems … responsibly, in accordance with the following voluntary commitments, and to demonstrate how they have achieved this by publishing a safety framework focused on severe risks by the upcoming AI Summit in France.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#7",
+          "locator": "Outcome 1, commitment II",
+          "text": "Set out thresholds … at which severe risks posed by a model or system, unless adequately mitigated, would be deemed intolerable. Assess whether these thresholds have been breached, including monitoring how close a model or system is to such a breach.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#8",
+          "locator": "Outcome 1, commitment IV",
+          "text": "In the extreme, organisations commit not to develop or deploy a model or system at all, if mitigations cannot be applied to keep risks below the thresholds.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#9",
+          "locator": "Outcome 1, commitment I",
+          "text": "Assess the risks posed by their frontier models or systems across the AI lifecycle, including before deploying that model or system … They should also consider results from internal and external evaluations as appropriate, such as by independent third-party evaluators, their home governments",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#10",
+          "locator": "Outcome 1, commitment III",
+          "text": "Articulate how risk mitigations will be identified and implemented to keep risks within defined thresholds, including safety and security-related risk mitigations such as modifying system behaviours and implementing robust security controls for unreleased model weights.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#11",
+          "locator": "Outcome 3, commitment VII",
+          "text": "Provide public transparency on the implementation of the above (I-VI), except insofar as doing so would increase risk or divulge sensitive commercial information to a degree disproportionate to the societal benefit.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#12",
+          "locator": "Preamble, best practices",
+          "text": "to invest in cybersecurity and insider threat safeguards to protect proprietary and unreleased model weights",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#13",
+          "locator": "Footnote 3",
+          "text": "Thresholds can be defined using model capabilities, estimates of risk, implemented safeguards, deployment contexts and/or other relevant risk factors.",
+          "retrieved": "2026-10-10"
         }
       ]
     },
     "S-0035": {
       "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024",
       "title": "UK Government: Frontier AI Safety Commitments publication page",
-      "publisher": "UK DSIT",
+      "publisher": "DSIT (UK)",
       "type": "primary",
       "dates": {
         "published": "2024-05-21"
@@ -1232,6 +1369,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "9773b52d78f7d52d",
           "bytes": 68461
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:19Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "63647dad027d9891",
+          "bytes": 68461
         }
       ],
       "passages": [
@@ -1239,6 +1388,18 @@
           "id": "S-0035#1",
           "locator": "Publication metadata",
           "text": "Published: 21 May 2024 … 21 May 2024 First published.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0035#2",
+          "locator": "Updates to this page",
+          "text": "Published: 21 May 2024 Last updated: 7 February 2025",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0035#3",
+          "locator": "Show all updates",
+          "text": "7 February 2025 Additional organisations added to the existing list who have agreed to the Frontier AI Safety Commitments.",
           "retrieved": "2026-10-10"
         }
       ]
@@ -1577,14 +1738,28 @@
     "S-0044": {
       "url": "https://ec.europa.eu/newsroom/dae/redirection/document/118119",
       "title": "GPAI Code of Practice: Safety and Security chapter (Jul 2025)",
-      "publisher": "European Commission",
+      "publisher": "European Commission (AI Office)",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "published": "2025-07-10"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
           "at": "2026-10-10T16:44:54Z",
           "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/118119",
+          "content_type": "/",
+          "sha256": "d879f9b54c6068aa",
+          "bytes": 1050925
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:56Z",
+          "run": "2026-10-10-baseline",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -1611,6 +1786,84 @@
           "id": "S-0044#3",
           "locator": "Commitment 4, Measure 4.2",
           "text": "Signatories will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable (pursuant to Measure 4.1).",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#4",
+          "locator": "Commitment 4, Measure 4.1",
+          "text": "for each identified systemic risk (pursuant to Measure 2.1), at least: (a) define appropriate systemic risk tiers that: (i) are defined in terms of model capabilities, and may additionally incorporate model propensities, risk estimates, and/or other suitable metrics; (ii) are measurable; and (iii) comprise at least one systemic risk tier that has not been reached by the model",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#5",
+          "locator": "Commitment 3, Measure 3.2",
+          "text": "Signatories will conduct at least state-of-the-art model evaluations in the modalities relevant to the systemic risk to assess the model’s capabilities, propensities, affordances, and/or effects, as specified in Appendix 3.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#6",
+          "locator": "Commitment 3, Measure 3.2",
+          "text": "Examples of model evaluation methods are: Q&A sets, task-based evaluations, benchmarks, red-teaming and other methods of adversarial testing, human uplift studies",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#7",
+          "locator": "Appendix 3.2 Model elicitation",
+          "text": "Signatories will ensure that the model evaluations are conducted with at least a state-of-the-art level of model elicitation that elicits the model’s capabilities, propensities, affordances, and/or effects, by using at least state-of-the-art techniques that: (1) minimise the risk of under-elicitation; and (2) minimise the risk of model deception during model evaluations (e.g. sandbagging)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#8",
+          "locator": "Appendix 3.5 Independent external model evaluations",
+          "text": "In addition to internal model evaluations, Signatories will ensure that adequately qualified independent external evaluators conduct model evaluations pursuant to this Appendix 3, with regards to the systemic risk, unless: (1) the model is a similarly safe or safer model pursuant to Appendix 2.2; or (2) Signatories fail to appoint adequately qualified independent external evaluators",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#9",
+          "locator": "Commitment 6",
+          "text": "Signatories commit to implementing an adequate level of cybersecurity protection for their models and their physical infrastructure along the entire model lifecycle",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#10",
+          "locator": "Appendix 4 headings",
+          "text": "Appendix 4.2 Protection of unreleased model parameters",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#11",
+          "locator": "Appendix 4 headings",
+          "text": "Appendix 4.4 Insider threats Signatories will protect against insider threats, including in the form of (self-)exfiltration or sabotage",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#12",
+          "locator": "Appendix 4 (whole)",
+          "text": "[Observation, not a quotation] Searched the chapter text for 'supply' (supply chain, supplier): no match. Appendix 4 covers general security, unreleased model parameters, interface hardening, insider threats and security assurance.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#13",
+          "locator": "Commitment 1, Measure 1.2",
+          "text": "conducting lighter-touch model evaluations that need not adhere to Appendix 3 (e.g. automated evaluations) at appropriate trigger points defined in terms of, e.g. time, training compute, development stages, user access, inference compute, and/or affordances",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#14",
+          "locator": "Commitment 1, Measure 1.1",
+          "text": "Signatories will have confirmed the Framework no later than four weeks after having notified the Commission pursuant to Article 52(1) AI Act and no later than two weeks before placing the model on the market.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#15",
+          "locator": "Commitment 7",
+          "text": "(“Model Report”) before placing a model on the market (as specified in Measures 7.1 to 7.5).",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#16",
+          "locator": "Objectives, A",
+          "text": "To serve as a guiding document for demonstrating compliance with the obligations provided for in Articles 53 and 55 AI Act",
           "retrieved": "2026-10-10"
         }
       ]
@@ -2106,6 +2359,1352 @@
           "id": "S-0060#2",
           "locator": "Section 1, Measure 2.1 and Sub-measure 2.1.x",
           "text": "Signatories will make available a detection solution … to enable deployers, users … end-users exposed to the content, and other legitimate parties (such as competent authorities, independent researchers, civil society and media organisations) to verify whether content has been generated or manipulated by their AI system … Signatories will make the detection solution available free of charge.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0061": {
+      "url": "https://www.gov.uk/government/news/historic-first-as-companies-spanning-north-america-asia-europe-and-middle-east-agree-safety-commitments-on-development-of-ai",
+      "title": "UK Government press release: Historic first as companies spanning North America, Asia, Europe and Middle East agree safety commitments",
+      "publisher": "DSIT / Prime Minister's Office (UK)",
+      "type": "primary",
+      "dates": {
+        "published": "2024-05-21"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:20Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/news/historic-first-as-companies-spanning-north-america-asia-europe-and-middle-east-agree-safety-commitments-on-development-of-ai",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "f2b5ed65f65ca8f4",
+          "bytes": 123307
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0061#1",
+          "locator": "Title",
+          "text": "Historic first as companies spanning North America, Asia, Europe and Middle East agree safety commitments on development of AI",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0061#2",
+          "locator": "Para 1",
+          "text": "New commitments to develop AI safely have been agreed with 16 AI tech companies spanning the globe, including companies from the US, China and the Middle East, marking a world-first on the opening day of the AI Seoul Summit (Tuesday 21 May).",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0061#3",
+          "locator": "Body",
+          "text": "Where they have not done so already, AI tech companies will each publish safety frameworks on how they will measure risks of their frontier AI models",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0061#4",
+          "locator": "Body",
+          "text": "On defining these thresholds, companies will take input from trusted actors including home governments as appropriate, before being released ahead of the AI Action Summit in France in early 2025.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0062": {
+      "url": "https://cdn.openai.com/openai-preparedness-framework-beta.pdf",
+      "title": "OpenAI Preparedness Framework (Beta)",
+      "publisher": "OpenAI",
+      "type": "primary",
+      "dates": {
+        "published": "2023-12-18"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:20Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cdn.openai.com/openai-preparedness-framework-beta.pdf",
+          "content_type": "application/pdf",
+          "sha256": "c84e3a59c7dab251",
+          "bytes": 27448530
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0062#1",
+          "locator": "Cover",
+          "text": "Preparedness Framework (Beta)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0062#2",
+          "locator": "Cover",
+          "text": "we are introducing our Preparedness Framework, a living document describing OpenAI's processes to track, evaluate, forecast, and protect against catastrophic risks posed by increasingly powerful models.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0062#3",
+          "locator": "Cover, date",
+          "text": "December 18, 2023",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0063": {
+      "url": "https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/",
+      "title": "Google DeepMind: Introducing the Frontier Safety Framework",
+      "publisher": "Google DeepMind",
+      "type": "primary",
+      "dates": {
+        "published": "2024-05-17"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:23Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://deepmind.google/blog/introducing-the-frontier-safety-framework/",
+          "content_type": "text/html",
+          "sha256": "a7d8a87115148057",
+          "bytes": 143294
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0063#1",
+          "locator": "Post header",
+          "text": "May 17, 2024 Responsibility & Safety Introducing the Frontier Safety Framework",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0063#2",
+          "locator": "Para 2",
+          "text": "Today, we are introducing our Frontier Safety Framework — a set of protocols for proactively identifying future AI capabilities that could cause severe harm and putting in place mechanisms to detect and mitigate them.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0064": {
+      "url": "https://about.fb.com/news/2025/02/meta-approach-frontier-ai/",
+      "title": "Meta: Our Approach to Frontier AI",
+      "publisher": "Meta",
+      "type": "primary",
+      "dates": {
+        "published": "2025-02-03"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:24Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://about.fb.com/news/2025/02/meta-approach-frontier-ai/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "bd75e541154af227",
+          "bytes": 524170
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0064#1",
+          "locator": "Post date line",
+          "text": "February 3, 2025",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0064#2",
+          "locator": "Para 1",
+          "text": "Today, we’re sharing our Frontier AI Framework, which outlines our consideration of risk in our model-release decisions, in line with the commitment we made at last year’s global AI Seoul Summit.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0065": {
+      "url": "https://www.elysee.fr/en/sommet-pour-l-action-sur-l-ia",
+      "title": "Élysée: AI Action Summit",
+      "publisher": "Présidence de la République (France)",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:29Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.elysee.fr/en/sommet-pour-l-action-sur-l-ia",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "db149b6be91704af",
+          "bytes": 186371
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0065#1",
+          "locator": "Intro",
+          "text": "from February 6 to 11, 2025, Paris hosted numerous events aimed at strengthening international action towards artificial intelligence serving the general interest.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0066": {
+      "url": "https://x.ai/documents/2025.02.20-RMF-Draft.pdf",
+      "title": "xAI Risk Management Framework (Draft)",
+      "publisher": "xAI",
+      "type": "primary",
+      "dates": {
+        "published": "2025-02-20"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:30Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://media.x.ai/v1/website/2025.02.20-rmf-draft-9eaa95cf.pdf",
+          "content_type": "application/pdf",
+          "sha256": "89fafebb73757def",
+          "bytes": 230615
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0066#1",
+          "locator": "Title and intro",
+          "text": "xAI Risk Management Framework (Draft)",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0066#2",
+          "locator": "Intro",
+          "text": "This is the first draft iteration of xAI’s risk management framework that we expect to apply to future models not currently in development. We plan to release an updated version of this policy within three months.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0067": {
+      "url": "https://data.x.ai/2025-08-20-xai-risk-management-framework.pdf",
+      "title": "xAI Risk Management Framework (Aug 2025)",
+      "publisher": "xAI",
+      "type": "primary",
+      "dates": {
+        "published": "2025-08-20"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:31Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://data.x.ai/2025-08-20-xai-risk-management-framework.pdf",
+          "content_type": "application/pdf",
+          "sha256": "39fab200a4b36f14",
+          "bytes": 144214
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0067#1",
+          "locator": "Header",
+          "text": "xAI Risk Management Framework Last updated: August 20, 2025",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0068": {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2230201&reg=3&lang=1",
+      "title": "PIB: India Unveils New Delhi Frontier AI Commitments",
+      "publisher": "Press Information Bureau, Government of India",
+      "type": "primary",
+      "dates": {
+        "published": "2026-02-19"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:31Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2230201&reg=3&lang=1",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "4cf7710bd9608578",
+          "bytes": 108530
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0068#1",
+          "locator": "Date line",
+          "text": "19 FEB 2026 3:08PM by PIB Delhi",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0068#2",
+          "locator": "Para 1",
+          "text": "announced the New Delhi Frontier AI Impact Commitments, a landmark outcome of the summit that brings together leading frontier AI companies and India’s domestic innovators to advance inclusive and responsible artificial intelligence.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0068#3",
+          "locator": "Para 5",
+          "text": "Participating organizations include India-based innovators such as Sarvam, BharatGen, Gnani.ai, and Soket, alongside global frontier AI firms.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0069": {
+      "url": "https://d19ob9sqegt2wc.cloudfront.net/stage/uploads/New_Delhi_Frontier_AI_Impact_Commitments_f81b331b93.pdf",
+      "title": "New Delhi Frontier AI Impact Commitments, India AI Impact Summit 2026 (text)",
+      "publisher": "India AI Impact Summit / MeitY (linked from impact.indiaai.gov.in/outcome-resources)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-02-19"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:33Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://d19ob9sqegt2wc.cloudfront.net/stage/uploads/New_Delhi_Frontier_AI_Impact_Commitments_f81b331b93.pdf",
+          "content_type": "application/pdf",
+          "sha256": "657c0e92ed0b6d12",
+          "bytes": 417897
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0069#1",
+          "locator": "Background, para 2",
+          "text": "To the extent practicable and appropriate, participating organizations will report progress on the New Delhi Frontier AI Impact commitments outlined below through established transparency mechanisms, such as the Hiroshima AI Process Reporting Framework.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0069#2",
+          "locator": "Commitment 1",
+          "text": "building rich measures of where and how AI is diffusing across the global economy helps to (a) shed light on the future of work and human-AI collaboration; (b) support the development of evidence-based policymaking in areas such as workforce development and education",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0069#3",
+          "locator": "Commitment 1, Outcome 1, item 1",
+          "text": "Publish - by the next AI Summit - statistical insights derived from anonymised, aggregated and taxonomized usage data, either directly or (where relevant) through contributions to international efforts.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0069#4",
+          "locator": "Commitment 2, Outcome 2, item 1",
+          "text": "Evaluate multilingual capabilities on a subset of languages and cultural contexts while preserving flexibility on the choice of tools, benchmarks, as well as AI systems prioritised for this work.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0069#5",
+          "locator": "Commitment 2, Outcome 2, item 2",
+          "text": "Collaborate with local ecosystems for the development and application of evaluations for under-represented languages and cultural contexts.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0069#6",
+          "locator": "List of Signees, p. 2",
+          "text": "List of Signees Organisation (as on 23rd February 2026): 1. Amazon 2. Anthropic 3. BharatGen 4. Cohere 5. Google 6. Gynani.ai 7. G42 8. Meta 9. Microsoft 10. Mistral AI 11. OpenAI 12. Sarvam AI 13. Socket Labs",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0069#7",
+          "locator": "Whole document (2 pages)",
+          "text": "[Observation, not a quotation] Read the full text (Background, Commitment 1, Commitment 2, signee list). It contains no capability or risk thresholds, no risk-mitigation, deployment or halting commitments, and no commitments on energy efficiency, healthcare or public services.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0070": {
+      "url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/index.html",
+      "title": "Hiroshima AI Process (home)",
+      "publisher": "Ministry of Internal Affairs and Communications (Japan)",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:34Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/index.html",
+          "content_type": "text/html",
+          "sha256": "60f4489d787004cf",
+          "bytes": 7012
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0070#1",
+          "locator": "About the Hiroshima AI Process",
+          "text": "the Hiroshima AI Process was launched in May 2023, following the Leaders’ direction at the G7 Hiroshima Summit",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0070#2",
+          "locator": "About the Hiroshima AI Process",
+          "text": "the first international framework that includes guiding principles and code of conduct aimed at promoting the safe, secure and trustworthy advanced AI systems, was successfully agreed upon at the G7 Digital & Tech Ministers’ Meeting in December 2023",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0071": {
+      "url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/report.html",
+      "title": "Hiroshima AI Process: Reporting Framework",
+      "publisher": "Ministry of Internal Affairs and Communications (Japan)",
+      "type": "primary",
+      "dates": {
+        "published": "2025-02-07"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:35Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/report.html",
+          "content_type": "text/html",
+          "sha256": "348bf2a18e4c8f01",
+          "bytes": 5192
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0071#1",
+          "locator": "Reporting Framework",
+          "text": "The Reporting Framework, launched on February 7, 2025, is a direct outcome of the G7 Hiroshima AI Process, initiated under the Japanese G7 Presidency in 2023 and further advanced under the Italian G7 Presidency in 2024.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0071#2",
+          "locator": "Reporting Framework",
+          "text": "First responses from 19 companies were published on the OECD website in April, 2025. The responses to the \"Reporting Framework 2.0\" were published on October 2, 2026, with submissions from 31 companies.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0072": {
+      "url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/documents.html",
+      "title": "Hiroshima AI Process: Documents of Achievement (incl. Code of Conduct text)",
+      "publisher": "Ministry of Internal Affairs and Communications (Japan)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2023-10-30"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:37Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/documents.html",
+          "content_type": "text/html",
+          "sha256": "a2ebdff0dba81688",
+          "bytes": 27274
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0072#1",
+          "locator": "2023 (Japan)",
+          "text": "G7 Leaders’ Statement on the Hiroshima AI Process （October 30, 2023）",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0072#2",
+          "locator": "Code of Conduct, action 1",
+          "text": "Take appropriate measures throughout the development of advanced AI systems, including prior to and throughout their deployment and placement on the market, to identify, evaluate, and mitigate risks across the AI lifecycle.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0072#3",
+          "locator": "Code of Conduct, action 4",
+          "text": "Work towards responsible information sharing and reporting of incidents among organizations developing advanced AI systems",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0072#4",
+          "locator": "Code of Conduct, action 6",
+          "text": "Invest in and implement robust security controls, including physical security, cybersecurity and insider threat safeguards across the AI lifecycle.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0072#5",
+          "locator": "Code of Conduct, action 7",
+          "text": "Develop and deploy reliable content authentication and provenance mechanisms, where technically feasible, such as watermarking or other techniques to enable users to identify AI-generated content",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0072#6",
+          "locator": "Code of Conduct, action 11",
+          "text": "11 Implement appropriate data input measures and protections for personal data and intellectual property",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0072#7",
+          "locator": "Code of Conduct, preamble",
+          "text": "This document will be reviewed and updated as necessary, including through ongoing inclusive multistakeholder consultations",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0072#8",
+          "locator": "Code of Conduct, preamble",
+          "text": "will provide voluntary guidance for actions by organizations developing the most advanced AI systems",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0073": {
+      "url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/information.html",
+      "title": "Hiroshima AI Process: News & Updates",
+      "publisher": "Ministry of Internal Affairs and Communications (Japan)",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:38Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/information.html",
+          "content_type": "text/html",
+          "sha256": "c2027ce426c41394",
+          "bytes": 23436
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0073#1",
+          "locator": "2026.07.22",
+          "text": "Cohere Inc. joined the Hiroshima AI Process Friends Group Partners’ Community",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0073#2",
+          "locator": "2026.03.16",
+          "text": "the “Hiroshima AI Process Friends Group Action Plan 2026,” was announced.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0074": {
+      "url": "https://oecd.ai/en/haip-2-launch",
+      "title": "OECD.AI: OECD launches Hiroshima AI Process Reporting Framework 2.0",
+      "publisher": "OECD",
+      "type": "primary",
+      "dates": {
+        "published": "2026-05-28"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:39Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://oecd.ai/en/haip-2-launch",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "3119201fa7d08525",
+          "bytes": 128502
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0074#1",
+          "locator": "Para 1",
+          "text": "On 28 May, the OECD launched version 2.0 of the Hiroshima AI Process (HAIP) Reporting Framework at an event organised by Tech7, on the margins of the G7 Digital and Tech Ministerial Meeting under the French G7 Presidency in Paris.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0074#2",
+          "locator": "Para 2",
+          "text": "this 2.0 version is designed to broaden participation across the AI ecosystem, with a particular focus on small and medium enterprises. It contributes to monitoring the application of the Hiroshima Process International Code of Conduct",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0074#3",
+          "locator": "Organisations committing to submit",
+          "text": "More than 50 organisations have already pledged to complete a HAIP report using the new framework",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0074#4",
+          "locator": "Pledge list (extract)",
+          "text": "AI Cargo Foundation Fayston Preparatory School KYP.ai GmbH Polyson Salesforce",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0074#5",
+          "locator": "How to participate",
+          "text": "Submissions are accepted on a rolling basis, and organisations are invited to update their reports annually.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0074#6",
+          "locator": "Video",
+          "text": "Watch the HAIP 2.0 launch and demonstration (2 June 2026)",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0075": {
+      "url": "https://oecd.ai/en/hiroshima",
+      "title": "OECD.AI: Hiroshima AI Process Reporting Framework",
+      "publisher": "OECD",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:41Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://oecd.ai/en/hiroshima",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "2d8f112a9ff35365",
+          "bytes": 121135
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0075#1",
+          "locator": "Report summary",
+          "text": "Launched in February 2025, the Hiroshima AI Process Reporting Framework is the first international, voluntary tool to help organisations report on their practices compared to the Hiroshima AI Process International Code of Conduct",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0075#2",
+          "locator": "Publications",
+          "text": "Preliminary report from 2024 pilot: Towards a Hiroshima Artificial Intelligence Process Code of Conduct Reporting Framework: Findings from the Pilot (December 2024)",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0076": {
+      "url": "https://www.frontiermodelforum.org/membership/",
+      "title": "Frontier Model Forum: Membership",
+      "publisher": "Frontier Model Forum",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:42Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/membership/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "00ea131405ef4457",
+          "bytes": 86459
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0076#1",
+          "locator": "Membership",
+          "text": "The current members of the FMF are Amazon, Anthropic, Google, Meta, Microsoft, and OpenAI.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0077": {
+      "url": "https://www.frontiermodelforum.org/updates/amazon-and-meta-join-the-frontier-model-forum-to-promote-ai-safety/",
+      "title": "FMF: Amazon and Meta join the Frontier Model Forum to promote AI safety",
+      "publisher": "Frontier Model Forum",
+      "type": "primary",
+      "dates": {
+        "published": "2024-05-20"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:42Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/updates/amazon-and-meta-join-the-frontier-model-forum-to-promote-ai-safety/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "f00d734b0d828cf4",
+          "bytes": 101908
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0077#1",
+          "locator": "Para 2",
+          "text": "Amazon and Meta are joining the Frontier Model Forum and will collaborate alongside founding members Anthropic, Google, Microsoft, and OpenAI to advance AI safety.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0078": {
+      "url": "https://www.frontiermodelforum.org/about-us/",
+      "title": "Frontier Model Forum: About",
+      "publisher": "Frontier Model Forum",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:43Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/about-us/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "11ac422d393c2048",
+          "bytes": 88197
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0078#1",
+          "locator": "Our governance",
+          "text": "The Frontier Model Forum is an industry-supported non-profit 501(c)(6), established in 2023. In line with its mission, the Forum provides public benefits related to AI safety and security and does not engage in lobbying.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0078#2",
+          "locator": "Mandates",
+          "text": "Identify best practices and support standards development for frontier AI safety and security.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0079": {
+      "url": "https://www.frontiermodelforum.org/updates/fmf-announces-first-of-its-kind-information-sharing-agreement/",
+      "title": "FMF Announces First-Of-Its-Kind Information-Sharing Agreement",
+      "publisher": "Frontier Model Forum",
+      "type": "primary",
+      "dates": {
+        "published": "2025-03-28"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:44Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/updates/fmf-announces-first-of-its-kind-information-sharing-agreement/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "04f0cb7a9c7e1f58",
+          "bytes": 101859
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0079#1",
+          "locator": "Para 1",
+          "text": "all of its member firms have signed a first-of-its-kind agreement designed to facilitate information-sharing about threats, vulnerabilities, and capability advances unique to frontier AI.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0079#2",
+          "locator": "Para 3",
+          "text": "this information-sharing is narrowly scoped and intended to manage key risks to national security and public safety, including chemical, biological, radiological, and nuclear (CBRN) and advanced cyber threats.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0080": {
+      "url": "https://www.frontiermodelforum.org/updates/progress-update-fmf-information-sharing-of-frontier-ai-threats-and-vulnerabilities/",
+      "title": "FMF Progress Update: Information Sharing of Frontier AI Threats and Vulnerabilities",
+      "publisher": "Frontier Model Forum",
+      "type": "primary",
+      "dates": {
+        "published": "2026-02-16"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:44Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/updates/progress-update-fmf-information-sharing-of-frontier-ai-threats-and-vulnerabilities/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "8dc4c8d2a76abc6d",
+          "bytes": 107795
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0080#1",
+          "locator": "Para 2",
+          "text": "Last March the FMF announced a first-of-its-kind voluntary agreement that enables signatories to share information about vulnerabilities, threats, and concerning capabilities unique to frontier AI.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0080#2",
+          "locator": "Progress",
+          "text": "We are pleased to report that the member firms of the FMF have successfully shared the covered information above.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0080#3",
+          "locator": "Upcoming priorities",
+          "text": "We intend to pilot voluntary information-sharing with non-FMF parties, starting with other frontier AI companies.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0081": {
+      "url": "https://www.frontiermodelforum.org/updates/announcement-of-new-ai-safety-fund-grantees/",
+      "title": "FMF: Announcement of New AI Safety Fund Grantees",
+      "publisher": "Frontier Model Forum",
+      "type": "primary",
+      "dates": {
+        "published": "2025-12-11"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:45Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/updates/announcement-of-new-ai-safety-fund-grantees/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "2ac4567c874aed78",
+          "bytes": 101941
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0081#1",
+          "locator": "Para 1",
+          "text": "Today we are announcing a new cohort of 11 grantees who have received more than $5 million through the AI Safety Fund (AISF).",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0082": {
+      "url": "https://www.frontiermodelforum.org/publications/",
+      "title": "Frontier Model Forum: Publications",
+      "publisher": "Frontier Model Forum",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:45Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/publications/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "8e9d217a74e2e388",
+          "bytes": 96410
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0082#1",
+          "locator": "Issue Briefs (2026)",
+          "text": "Agents for Cyber Defense . September 21, 2026.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0082#2",
+          "locator": "Issue Briefs (2026)",
+          "text": "Emerging Practices for Multilingual Evaluations for CBRN and Advanced Cyber Risks . July 7, 2026.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0082#3",
+          "locator": "Issue Briefs (2026)",
+          "text": "Information Sharing, Incident Reporting, and Incident Response for Frontier AI Risks . May 12, 2026.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0082#4",
+          "locator": "Public Comments",
+          "text": "FMF Response to the US CAISI Request for Information Regarding Security Considerations of AI Agents . March 9, 2026.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0082#5",
+          "locator": "Public Testimony",
+          "text": "House Homeland Security Subcommittee on Cybersecurity and Infrastructure Protection hearing on “The AI Security Landscape” . June 4, 2026.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0082#6",
+          "locator": "Latest News",
+          "text": "FMF Announces First-Of-Its-Kind Information-Sharing Agreement . March 28. 2025.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0082#7",
+          "locator": "Latest News",
+          "text": "Amazon and Meta join the Frontier Model Forum to promote AI safety . May 20, 2024.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0082#8",
+          "locator": "Latest News",
+          "text": "Introducing the Frontier Model Forum . July 26, 2023.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0082#9",
+          "locator": "Issue Briefs",
+          "text": "Early Best Practices for Frontier AI Safety Evaluations . July 31, 2024.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0083": {
+      "url": "https://partnershiponai.org/anniversary/",
+      "title": "Partnership on AI: Ten-year anniversary timeline",
+      "publisher": "Partnership on AI",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:46Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://partnershiponai.org/anniversary/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "a921355932b7bd12",
+          "bytes": 127968
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0083#1",
+          "locator": "Timeline, Building the Partnership",
+          "text": "2016 PAI founded by five major tech companies —Amazon, Facebook, Google, IBM, and Microsoft—to ensure AI development advances positive outcomes for people and society",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0084": {
+      "url": "https://partnershiponai.org/about/",
+      "title": "Partnership on AI: About",
+      "publisher": "Partnership on AI",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:48Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://partnershiponai.org/about/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "1eced7d594d62b7d",
+          "bytes": 86330
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0084#1",
+          "locator": "About",
+          "text": "Partnership on AI (PAI) is a non-profit partnership of academic, civil society, industry, and media organizations creating solutions so that AI advances positive outcomes for people and society.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0085": {
+      "url": "https://partnershiponai.org/",
+      "title": "Partnership on AI: Home",
+      "publisher": "Partnership on AI",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:49Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://partnershiponai.org/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "b7b63d560cbcda93",
+          "bytes": 191014
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0085#1",
+          "locator": "Featured work",
+          "text": "Guidance for Safe Foundation Model Deployment A framework for model providers to responsibly develop and deploy a range of AI models, promote safety for society, and adapt to evolving capabilities and uses.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0085#2",
+          "locator": "Featured work",
+          "text": "Responsible Practices for Synthetic Media A framework for collective action on how to responsibly develop, create, and share synthetic media.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0085#3",
+          "locator": "Featured work",
+          "text": "Guidelines for AI and Shared Prosperity AI developers, AI users, policymakers, labor organizations, and workers can all help steer AI so its economic benefits are shared by everyone.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0086": {
+      "url": "https://partnershiponai.org/resource/2026-transparency-report-on-foundation-model-impacts/",
+      "title": "PAI: 2026 Transparency Report on Foundation Model Impacts",
+      "publisher": "Partnership on AI",
+      "type": "primary",
+      "dates": {
+        "published": "2026"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:49Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://partnershiponai.org/resource/2026-transparency-report-on-foundation-model-impacts/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "e32dc073717ec69f",
+          "bytes": 86651
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0086#1",
+          "locator": "Intro",
+          "text": "This report measures the progress of 13 organizations in publicly documenting the impacts of their foundation models, drawing on a review of more than 150 papers, articles, websites, and reports. It builds on our 2023 Guidance for Safe Foundation Model Deployment and our 2025 progress-tracking methodology",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0087": {
+      "url": "https://partnershiponai.org/resource/the-observability-gap-in-ai-agents/",
+      "title": "PAI: The Observability Gap in AI Agents",
+      "publisher": "Partnership on AI",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:51Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://partnershiponai.org/resource/the-observability-gap-in-ai-agents/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "72042b070e3c11e8",
+          "bytes": 91462
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0087#1",
+          "locator": "Summary",
+          "text": "The Observability Gap in AI Agents assesses four widely used agent frameworks against six monitoring goals.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0087#2",
+          "locator": "Intro",
+          "text": "In July 2026 an AI agent being tested by OpenAI broke out of its testing environment and attacked Hugging Face’s systems.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0088": {
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-code-practice",
+      "title": "European Commission: Drawing-up a General-Purpose AI Code of Practice",
+      "publisher": "European Commission",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:52Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-code-practice",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "5ae4faad559db87f",
+          "bytes": 59691
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0088#1",
+          "locator": "Intro",
+          "text": "The European AI Office facilitated the drawing-up of the General-Purpose AI Code of Practice . The process was chaired by independent experts",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0089": {
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/questions-and-answers-code-practice-general-purpose-ai",
+      "title": "European Commission: Questions and answers on the Code of Practice for General-Purpose AI",
+      "publisher": "European Commission",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:53Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/questions-and-answers-code-practice-general-purpose-ai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "3736facbf271b779",
+          "bytes": 62263
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0089#1",
+          "locator": "What is the Code",
+          "text": "The AI Act currently presumes that models trained with a cumulative amount of compute greater than 10^25 floating-point operations possess high-impact capabilities.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0089#2",
+          "locator": "Drafting process",
+          "text": "Thirteen independent experts appointed by the AI Office led the drafting process.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0089#3",
+          "locator": "How will the Code be updated?",
+          "text": "The AI Office may facilitate formal updates to the Code in response to technological developments, changes in the risk landscape, or experience with the application of the AI Act rules. The AI Office will review the Code at least every two years, and it may propose a streamlined process for reviews and updates as needed.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0089#4",
+          "locator": "Page footer",
+          "text": "Last update 20 July 2026",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0090": {
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/signing-general-purpose-ai-code-practice",
+      "title": "European Commission: Signing the General-Purpose AI Code of Practice – Q&A",
+      "publisher": "European Commission",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:54Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/signing-general-purpose-ai-code-practice",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "475f113751b5cd72",
+          "bytes": 57023
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0090#1",
+          "locator": "How will the Code be updated?",
+          "text": "In line with the Article 56(8) AI Act, the AI Office shall, as appropriate, encourage and facilitate the review and adaptation of the code.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0090#2",
+          "locator": "How will the Code be updated?",
+          "text": "Any updates to the text of the GPAI Code of Practice will be shared with the signatories for their consideration, and signatories will be invited to sign the updated code.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0091": {
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers",
+      "title": "European Commission: General-Purpose AI Models in the AI Act – Q&A",
+      "publisher": "European Commission",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:54Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "680a84939f01466a",
+          "bytes": 83925
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0091#1",
+          "locator": "Systemic risk",
+          "text": "the AI Act lays down a threshold of 10^ 25 floating-point operations (FLOP) used for training the model (Article 51(1)(a) and (2) AI Act).",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0091#2",
+          "locator": "What is not part of the Code of Practice?",
+          "text": "updating the criteria or thresholds for classifying a general-purpose AI model as a general-purpose AI model with systemic risk (Article 51)",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0092": {
+      "url": "https://digital-strategy.ec.europa.eu/en/pages/signatory-taskforce-gpai-code-practice",
+      "title": "European Commission: Signatory Taskforce of the GPAI Code of Practice",
+      "publisher": "European Commission",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:17:55Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/signatory-taskforce-gpai-code-practice",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "8d536dd46cc0cf15",
+          "bytes": 51539
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0092#1",
+          "locator": "Intro",
+          "text": "have established a Signatory Taskforce to facilitate coherent application of the code. The taskforce is chaired by the AI Office.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0092#2",
+          "locator": "Meetings",
+          "text": "The taskforce will meet at the frequency required to carry out its objectives - at least yearly.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0093": {
+      "url": "https://techcrunch.com/2025/07/18/meta-refuses-to-sign-eus-ai-code-of-practice/",
+      "title": "TechCrunch: Meta refuses to sign EU's AI code of practice",
+      "publisher": "TechCrunch",
+      "type": "secondary",
+      "dates": {
+        "published": "2025-07-18"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:18:00Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://techcrunch.com/2025/07/18/meta-refuses-to-sign-eus-ai-code-of-practice/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "5889d39369580277",
+          "bytes": 233161
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0093#1",
+          "locator": "Para 2",
+          "text": "“Europe is heading down the wrong path on AI,” wrote Meta’s chief global affairs officer Joel Kaplan in a post on LinkedIn. “We have carefully reviewed the European Commission’s Code of Practice for general-purpose AI (GPAI) models and Meta won’t be signing it.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0094": {
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/06/17/g7-summit-in-evian-day-three",
+      "title": "Élysée: G7 Summit in Évian, day three (closing press conference)",
+      "publisher": "Présidence de la République (France)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-06-17"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T18:18:00Z",
+          "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.elysee.fr/en/emmanuel-macron/2026/06/17/g7-summit-in-evian-day-three",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "c84069a22d82bfdb",
+          "bytes": 229513
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0094#1",
+          "locator": "Day three programme",
+          "text": "This was followed by a working lunch on \"Ensuring the safe, rapid and effective deployment of artificial intelligence\", attended by G7 countries, partner countries, and business leaders.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0094#2",
+          "locator": "Press conference",
+          "text": "we will therefore continue working in the various ministerial formats required to finalize certain points, such as the one I just mentioned on AI and digital technology.",
           "retrieved": "2026-10-10"
         }
       ]

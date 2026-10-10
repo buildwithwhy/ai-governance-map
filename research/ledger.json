@@ -1,5 +1,5 @@
 {
-  "next": 21,
+  "next": 37,
   "proposals": [
     {
       "id": "P-0001",
@@ -3075,6 +3075,1639 @@
         "manifest": "research/applied/2026-10-10-3.json",
         "date": "2026-10-10"
       },
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0021",
+      "fingerprint": "248c9fd88f4a",
+      "targets": [
+        "entry:seoul-commit:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:01Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Seoul commitments: four more firms joined in Feb 2025",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "seoul-commit",
+              "field": "desc",
+              "from": "May 2024. 16 frontier firms committed to publish safety frameworks. Catalyst for the published-framework norm.",
+              "to": "May 2024. 16 frontier firms committed to publish safety frameworks; four more joined in Feb 2025. Catalyst for the published-framework norm."
+            }
+          ],
+          "why": "The entry gives only the May 2024 count. The UK Government list now has 20 signatories: Magic, Minimax, 01.ai and NVIDIA were added on 7 Feb 2025.",
+          "rationale": "The commitments page lists the 16 original signatories and a separate 'added' list of four (seoul#p1, seoul#p2). The publication page's change log dates the additions to 7 Feb 2025 (seoulpub#p2). The commitment to publish a framework 'by the upcoming AI Summit in France' is in the preamble (seoul#p3).",
+          "evidence": [
+            {
+              "source": "S-0034",
+              "passage": "S-0034#4",
+              "stance": "supports",
+              "supports": "16 original signatories"
+            },
+            {
+              "source": "S-0034",
+              "passage": "S-0034#5",
+              "stance": "supports",
+              "supports": "four added organisations"
+            },
+            {
+              "source": "S-0035",
+              "passage": "S-0035#3",
+              "stance": "supports",
+              "supports": "additions dated 7 Feb 2025"
+            },
+            {
+              "source": "S-0034",
+              "passage": "S-0034#6",
+              "stance": "supports",
+              "supports": "commitment to publish a safety framework"
+            }
+          ],
+          "uncertainty": "None on the facts. 'Catalyst for the published-framework norm' is an analytic claim, carried over unchanged.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:seoul-commit:cov:acct": "checked, still accurate ('16 firms signed in May 2024')",
+            "entry:ai-summits:desc": "not affected"
+          },
+          "unverified_carryover": [
+            "desc: 'Catalyst for the published-framework norm.'"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ai-summits:desc",
+            "entry:ai-summits:context",
+            "entry:ai-summits:cov:thresh",
+            "entry:ai-summits:cov:update",
+            "entry:hiroshima:context",
+            "entry:hiroshima:cov:eval",
+            "entry:delhi-commit:desc",
+            "entry:delhi-commit:context",
+            "entry:delhi-commit:cov:acct",
+            "edge:ai-summits|seoul-commit",
+            "edge:seoul-commit|rsp",
+            "edge:seoul-commit|prep",
+            "edge:seoul-commit|fsf",
+            "edge:seoul-commit|meta-faif",
+            "edge:seoul-commit|xai-rmf",
+            "gap:halt"
+          ],
+          "hash": "9e2fdacfc181"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0022",
+      "fingerprint": "6e202f8b8900",
+      "targets": [
+        "entry:seoul-commit:context",
+        "entry:seoul-commit:cov:halt"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:01Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Seoul commitments: signatories span North America, Europe, Asia and the Middle East, not the UK",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "seoul-commit",
+              "field": "context",
+              "from": "First time a globally diverse set of frontier firms (US, UK, China, UAE, Korea) publicly committed to publishing capability thresholds and the actions they would take if those thresholds were crossed. Voluntary, with no enforcement. But the resulting public pressure created the norm that California SB 53 and NY RAISE later codified into law.",
+              "to": "First time a globally diverse set of frontier firms (North America, Europe, Asia and the Middle East, including China and the UAE) publicly committed to publishing capability thresholds and the actions they would take if those thresholds were crossed. Voluntary, with no enforcement. But the resulting public pressure created the norm that California SB 53 and NY RAISE later codified into law."
+            },
+            {
+              "op": "set_cov",
+              "entity": "seoul-commit",
+              "cat": "halt",
+              "from": "Signatories committed not to develop or deploy models at thresholds where mitigations are insufficient — an explicit halting commitment, voluntarily made by 16 frontier firms across the US, UK, China, UAE, and Korea.",
+              "to": "Signatories committed not to develop or deploy models at thresholds where mitigations are insufficient — an explicit halting commitment, voluntarily made by 16 frontier firms spanning North America, Europe, Asia and the Middle East."
+            }
+          ],
+          "why": "The map lists the UK among the signatories' home countries. None of the 16 May 2024 signatories is a UK company as named on the list (Google is listed as Google), while Canada (Cohere) and France (Mistral AI) are left out. The UK Government described the group as spanning North America, Asia, Europe and the Middle East.",
+          "rationale": "The UK Government press release title and first paragraph give the regional spread and name the US, China and the Middle East (seoulpr#p1, seoulpr#p2). The signatory list is in seoul#p1. The edit replaces the country list with the government's own regional description.",
+          "evidence": [
+            {
+              "source": "S-0061",
+              "passage": "S-0061#1",
+              "stance": "supports",
+              "supports": "regions named in the title"
+            },
+            {
+              "source": "S-0061",
+              "passage": "S-0061#2",
+              "stance": "supports",
+              "supports": "16 companies including the US, China and the Middle East"
+            },
+            {
+              "source": "S-0034",
+              "passage": "S-0034#4",
+              "stance": "supports",
+              "supports": "signatory list, no UK-named firm"
+            },
+            {
+              "source": "S-0034",
+              "passage": "S-0034#8",
+              "stance": "supports",
+              "supports": "halting commitment wording"
+            }
+          ],
+          "uncertainty": "Assigning each firm a home country relies on general knowledge (e.g. Cohere is Canadian, Mistral French), not on these sources, so the edit uses the government's wording rather than a corrected country list. The SB 53 / RAISE sentence in context is analytic and carried over.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:seoul-commit:cov:thresh": "same 'globally diverse' wording without country list; not affected"
+          },
+          "unverified_carryover": [
+            "context: 'publicly committed to publishing capability thresholds and the actions they would take if those thresholds were crossed. Voluntary, with no enforcement. But the resulting public pressure created the norm that California SB 53 and NY RAISE later codified into law.'"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ai-summits:desc",
+            "entry:ai-summits:context",
+            "entry:ai-summits:cov:thresh",
+            "entry:ai-summits:cov:update",
+            "entry:hiroshima:context",
+            "entry:hiroshima:cov:eval",
+            "entry:delhi-commit:desc",
+            "entry:delhi-commit:context",
+            "entry:delhi-commit:cov:acct",
+            "edge:ai-summits|seoul-commit",
+            "edge:seoul-commit|rsp",
+            "edge:seoul-commit|prep",
+            "edge:seoul-commit|fsf",
+            "edge:seoul-commit|meta-faif",
+            "edge:seoul-commit|xai-rmf",
+            "gap:halt"
+          ],
+          "hash": "273f77107a21"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0023",
+      "fingerprint": "e1fc57955835",
+      "targets": [
+        "entry:seoul-commit:cov:mit",
+        "entry:seoul-commit:cov",
+        "entry:seoul-commit:cov:sec"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:02Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Seoul commitments: coverage omits mitigations and weight security, which commitment III covers",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "seoul-commit",
+              "cat": "mit",
+              "from": null,
+              "to": "Signatories committed to articulate how risk mitigations will be identified and implemented to keep risks within their thresholds, including modifying system behaviours. Each firm sets its own mitigations; voluntary."
+            },
+            {
+              "op": "set_cov",
+              "entity": "seoul-commit",
+              "cat": "sec",
+              "from": null,
+              "to": "Signatories committed to robust security controls for unreleased model weights and affirmed investment in cybersecurity and insider-threat safeguards. No security level is specified; voluntary."
+            }
+          ],
+          "why": "The coverage matrix shows Seoul as silent on mitigations and security, but commitment III and the preamble address both.",
+          "rationale": "Commitment III (seoul#p7) requires articulating mitigations, naming behaviour modification and 'robust security controls for unreleased model weights'; the preamble's best practices include 'cybersecurity and insider threat safeguards to protect proprietary and unreleased model weights' (seoul#p9).",
+          "evidence": [
+            {
+              "source": "S-0034",
+              "passage": "S-0034#10",
+              "stance": "supports",
+              "supports": "mitigation and weight-security commitment"
+            },
+            {
+              "source": "S-0034",
+              "passage": "S-0034#12",
+              "stance": "supports",
+              "supports": "cybersecurity and insider-threat safeguards"
+            }
+          ],
+          "uncertainty": "Whether a high-level commitment earns a coverage mark is a judgment; the maintainer may prefer to mark only elements with specific obligations.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ai-summits:desc",
+            "entry:ai-summits:context",
+            "entry:ai-summits:cov:thresh",
+            "entry:ai-summits:cov:update",
+            "entry:hiroshima:context",
+            "entry:hiroshima:cov:eval",
+            "entry:delhi-commit:desc",
+            "entry:delhi-commit:context",
+            "entry:delhi-commit:cov:acct",
+            "edge:ai-summits|seoul-commit",
+            "edge:seoul-commit|rsp",
+            "edge:seoul-commit|prep",
+            "edge:seoul-commit|fsf",
+            "edge:seoul-commit|meta-faif",
+            "edge:seoul-commit|xai-rmf",
+            "gap:halt"
+          ],
+          "hash": "b097362a5c6a"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0024",
+      "fingerprint": "a43dcfe43586",
+      "targets": [
+        "edge:seoul-commit|prep",
+        "edge:seoul-commit|fsf"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:02Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Seoul ↔ OpenAI and Google frameworks: both frameworks predate the Seoul commitments",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_edge",
+              "a": "seoul-commit",
+              "b": "prep",
+              "from": "Seoul commitments triggered the Preparedness Framework",
+              "to": "Preparedness Framework (beta, Dec 2023) predates the Seoul commitments, which OpenAI signed"
+            },
+            {
+              "op": "set_edge",
+              "a": "seoul-commit",
+              "b": "fsf",
+              "from": "Seoul commitments triggered the Frontier Safety Framework",
+              "to": "Frontier Safety Framework (17 May 2024) was published days before the Seoul commitments, which Google signed"
+            }
+          ],
+          "why": "Both connections say Seoul 'triggered' a framework that already existed: OpenAI's Preparedness Framework (beta) is dated 18 Dec 2023 and Google DeepMind introduced its Frontier Safety Framework on 17 May 2024, four days before the commitments were agreed on 21 May 2024. Same chronology error as the RSP connection fixed by P-0008.",
+          "rationale": "Dates: OpenAI's beta PDF (oaipf#p1, oaipf#p3); DeepMind's post (gdmfsf#p1, gdmfsf#p2); Seoul agreed on 21 May 2024 (seoulpr#p2). The press release also says firms would publish frameworks 'where they have not done so already' (seoulpr#p3). OpenAI and Google are on the signatory list (seoul#p1). Wording follows P-0008.",
+          "evidence": [
+            {
+              "source": "S-0062",
+              "passage": "S-0062#3",
+              "stance": "supports",
+              "supports": "PF beta dated 18 Dec 2023"
+            },
+            {
+              "source": "S-0063",
+              "passage": "S-0063#1",
+              "stance": "supports",
+              "supports": "FSF introduced 17 May 2024"
+            },
+            {
+              "source": "S-0061",
+              "passage": "S-0061#2",
+              "stance": "supports",
+              "supports": "commitments agreed 21 May 2024"
+            },
+            {
+              "source": "S-0061",
+              "passage": "S-0061#3",
+              "stance": "supports",
+              "supports": "frameworks published where not done already"
+            },
+            {
+              "source": "S-0034",
+              "passage": "S-0034#4",
+              "stance": "supports",
+              "supports": "OpenAI and Google signed"
+            }
+          ],
+          "uncertainty": "Google may have timed the FSF for the summit, but none of the sources inspected says Seoul prompted it, so 'triggered' is not supported either way.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "edge:seoul-commit|rsp": "already fixed by P-0008"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ai-summits:desc",
+            "entry:ai-summits:context",
+            "entry:ai-summits:cov:thresh",
+            "entry:ai-summits:cov:update",
+            "entry:hiroshima:context",
+            "entry:hiroshima:cov:eval",
+            "entry:delhi-commit:desc",
+            "entry:delhi-commit:context",
+            "entry:delhi-commit:cov:acct",
+            "edge:ai-summits|seoul-commit",
+            "edge:seoul-commit|rsp",
+            "edge:seoul-commit|meta-faif",
+            "edge:seoul-commit|xai-rmf",
+            "gap:halt",
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:eu-genai-code:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:fsf:cov:thresh",
+            "entry:meta-faif:cov:thresh",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "entry:averi:context",
+            "edge:ca-sb53|prep",
+            "edge:gpai-cop|prep",
+            "edge:fmf|prep",
+            "edge:metr|prep",
+            "edge:uk-aisi|prep",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety",
+            "entry:ca-sb53:context",
+            "entry:meta-faif:cov:sec",
+            "entry:caisi:context",
+            "entry:caisi:cov:eval",
+            "edge:ca-sb53|fsf",
+            "edge:gpai-cop|fsf",
+            "edge:fmf|fsf",
+            "edge:metr|fsf",
+            "edge:apollo|fsf",
+            "edge:uk-aisi|fsf"
+          ],
+          "hash": "7977adf3c66d"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0025",
+      "fingerprint": "a6a4e1fd41eb",
+      "targets": [
+        "edge:seoul-commit|meta-faif"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:02Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Seoul ↔ Meta framework: Meta published before the Paris deadline, not late",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_edge",
+              "a": "seoul-commit",
+              "b": "meta-faif",
+              "from": "Meta's framework followed Seoul (delayed)",
+              "to": "Meta's framework (Feb 2025) answered its Seoul commitment, ahead of the Paris summit deadline"
+            }
+          ],
+          "why": "The connection calls Meta's framework 'delayed'. The Seoul commitments asked for frameworks by the France summit; Meta published on 3 Feb 2025, citing its Seoul commitment, and the Paris summit week ran 6–11 Feb 2025.",
+          "rationale": "Deadline: seoul#p3 ('by the upcoming AI Summit in France'). Meta's post is dated 3 Feb 2025 and ties the framework to its Seoul commitment (metafaif#p1, metafaif#p2). Paris dates: elyseeparis#p1.",
+          "evidence": [
+            {
+              "source": "S-0034",
+              "passage": "S-0034#6",
+              "stance": "supports",
+              "supports": "deadline: the France summit"
+            },
+            {
+              "source": "S-0064",
+              "passage": "S-0064#1",
+              "stance": "supports",
+              "supports": "framework issued under Seoul commitment"
+            },
+            {
+              "source": "S-0064",
+              "passage": "S-0064#2",
+              "stance": "supports",
+              "supports": "dated 3 Feb 2025"
+            },
+            {
+              "source": "S-0065",
+              "passage": "S-0065#1",
+              "stance": "supports",
+              "supports": "summit week 6–11 Feb 2025"
+            }
+          ],
+          "uncertainty": "'Delayed' may have meant later than peers (Anthropic, OpenAI and Google published in 2023–24). If that was the intent, the wording should say so; as written it implies a missed deadline.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ai-summits:desc",
+            "entry:ai-summits:context",
+            "entry:ai-summits:cov:thresh",
+            "entry:ai-summits:cov:update",
+            "entry:hiroshima:context",
+            "entry:hiroshima:cov:eval",
+            "entry:delhi-commit:desc",
+            "entry:delhi-commit:context",
+            "entry:delhi-commit:cov:acct",
+            "edge:ai-summits|seoul-commit",
+            "edge:seoul-commit|rsp",
+            "edge:seoul-commit|prep",
+            "edge:seoul-commit|fsf",
+            "edge:seoul-commit|xai-rmf",
+            "gap:halt",
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:gpai-cop:context",
+            "entry:eu-genai-code:desc",
+            "entry:eu-genai-code:context",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:xai-rmf:cov:halt",
+            "entry:metr:context",
+            "edge:ca-sb53|meta-faif",
+            "edge:gpai-cop|meta-faif",
+            "edge:fmf|meta-faif",
+            "faq:which-ai-labs-have-published-frontier-safety-fra"
+          ],
+          "hash": "98c6e7464851"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0026",
+      "fingerprint": "9ef53492b853",
+      "targets": [
+        "entry:delhi-commit:desc",
+        "entry:delhi-commit:context",
+        "entry:delhi-commit:cov:mit",
+        "entry:delhi-commit:cov",
+        "entry:delhi-commit:cov:eval",
+        "entry:delhi-commit:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:02Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Delhi commitments: two commitments on usage data and multilingual evaluation; no risk obligations; 13 signatories, fewer than Seoul",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "delhi-commit",
+              "field": "desc",
+              "from": "New Delhi Frontier AI Impact Commitments (Feb 2026). 13 frontier developers; broader than Seoul.",
+              "to": "New Delhi Frontier AI Impact Commitments (Feb 2026). 13 signatories, including four India-based developers; commitments on AI-usage data and multilingual evaluation."
+            },
+            {
+              "op": "set_field",
+              "entity": "delhi-commit",
+              "field": "context",
+              "from": "Extends the Seoul template to cover beneficial use cases — energy efficiency, healthcare, public services — alongside risk obligations. Signatory base broader than Seoul (added Indian and global-south firms) but commitments are weaker on concrete capability thresholds. Reflects the Delhi summit's 'impact' rather than 'safety' framing.",
+              "to": "Unlike Seoul, contains no thresholds or risk-mitigation commitments. Signatories commit to publish, by the next AI Summit, statistics from anonymised usage data to inform policy on jobs and skills, and to evaluate multilingual capabilities with local ecosystems; progress is to be reported through mechanisms such as the Hiroshima AI Process Reporting Framework. Adds India-based developers (Sarvam AI, BharatGen, Gnani.ai, Soket) not in Seoul. Reflects the Delhi summit's 'impact' rather than 'safety' framing."
+            },
+            {
+              "op": "set_cov",
+              "entity": "delhi-commit",
+              "cat": "mit",
+              "from": "Inclusive deployment alongside risk obligations — signatories commit to consider beneficial use cases (energy, healthcare, public services) as well as risk mitigation. Reflects the Delhi summit's 'impact' rather than safety framing.",
+              "to": null
+            },
+            {
+              "op": "set_cov",
+              "entity": "delhi-commit",
+              "cat": "eval",
+              "from": null,
+              "to": "Signatories commit to evaluate multilingual capabilities on a subset of languages and cultural contexts and to collaborate with local ecosystems on evaluations for under-represented languages. A stretch: about performance across languages, not dangerous capabilities."
+            },
+            {
+              "op": "set_cov",
+              "entity": "delhi-commit",
+              "cat": "acct",
+              "from": "Public commitments by 13 frontier developers, including Indian and global-south firms not represented in Seoul. Broader signatory base, weaker on concrete capability thresholds than Seoul.",
+              "to": "Public commitments by 13 signatories, including India-based developers not in Seoul (Sarvam AI, BharatGen, Gnani.ai, Soket). Signatories commit to publish usage statistics by the next summit and, where practicable, to report progress through the Hiroshima AI Process Reporting Framework. No enforcement."
+            }
+          ],
+          "why": "The entry describes commitments the text does not contain. The two-page text has two commitments: publish usage statistics and strengthen multilingual evaluation. There are no risk obligations and nothing on energy, healthcare or public services. With 13 signatories it is smaller than Seoul (20), not broader.",
+          "rationale": "Text and signee list (as on 23 Feb 2026) from the summit's outcome document (delhi#p1–p6; observation delhi#p7). PIB release of 19 Feb 2026 for the announcement and the Indian firms (pib#p1–p3). Seoul's count from seoul#p1–p2. The mitigation coverage is removed because the text has no mitigation commitment (delhi#p7). Evaluation coverage is added as a marked stretch (delhi#p4–p5). The accountability note now cites the reporting route (delhi#p1, delhi#p3).",
+          "evidence": [
+            {
+              "source": "S-0069",
+              "passage": "S-0069#1",
+              "stance": "supports",
+              "supports": "progress reported via HAIP framework"
+            },
+            {
+              "source": "S-0069",
+              "passage": "S-0069#2",
+              "stance": "supports",
+              "supports": "usage-analysis purpose: jobs, skills, policy"
+            },
+            {
+              "source": "S-0069",
+              "passage": "S-0069#3",
+              "stance": "supports",
+              "supports": "publish usage statistics by next summit"
+            },
+            {
+              "source": "S-0069",
+              "passage": "S-0069#4",
+              "stance": "supports",
+              "supports": "multilingual evaluation"
+            },
+            {
+              "source": "S-0069",
+              "passage": "S-0069#5",
+              "stance": "supports",
+              "supports": "local-ecosystem evaluations"
+            },
+            {
+              "source": "S-0069",
+              "passage": "S-0069#6",
+              "stance": "supports",
+              "supports": "13 signees"
+            },
+            {
+              "source": "S-0069",
+              "passage": "S-0069#7",
+              "stance": "supports",
+              "supports": "no thresholds, risk or sector-use commitments"
+            },
+            {
+              "source": "S-0068",
+              "passage": "S-0068#3",
+              "stance": "supports",
+              "supports": "Indian firms named"
+            },
+            {
+              "source": "S-0034",
+              "passage": "S-0034#4",
+              "stance": "supports",
+              "supports": "Seoul signatory list for comparison"
+            }
+          ],
+          "uncertainty": "The list spells two names 'Gynani.ai' and 'Socket Labs'; the PIB release spells them Gnani.ai and Soket, which the edit follows. Comparing the two lists: Amazon, Anthropic, Cohere, G42, Google, Meta, Microsoft, Mistral AI and OpenAI are on both; xAI is not on the Delhi list. The 'impact' framing sentence is carried over.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:ai-summits:desc": "checked, still accurate ('13 firms signed the Frontier AI Impact Commitments')"
+          },
+          "unverified_carryover": [
+            "context: 'Reflects the Delhi summit's 'impact' rather than 'safety' framing.'"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ai-summits:desc",
+            "edge:ai-summits|delhi-commit"
+          ],
+          "hash": "5edefa29490f"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0027",
+      "fingerprint": "70d0b43bfb1c",
+      "targets": [
+        "entry:hiroshima:desc",
+        "entry:hiroshima:cov:update"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:02Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Hiroshima Process: the reporting framework launched Feb 2025, not 2024",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "hiroshima",
+              "field": "desc",
+              "from": "G7 Code of Conduct (2023). 11-point framework. Implementation reporting added 2024.",
+              "to": "G7 Code of Conduct (2023). 11-point framework. OECD implementation reporting framework launched Feb 2025; v2.0 May 2026."
+            },
+            {
+              "op": "set_cov",
+              "entity": "hiroshima",
+              "cat": "update",
+              "from": "Implementation reporting added in 2024 strengthened the code's update mechanism, allowing the OECD to track how signatories' practices evolve.",
+              "to": "Implementation reporting (OECD framework launched Feb 2025 after a 2024 pilot; v2.0 May 2026) strengthened the code's update mechanism, allowing the OECD to track how signatories' practices evolve."
+            }
+          ],
+          "why": "The map dates implementation reporting to 2024. The reporting framework launched on 7 Feb 2025; 2024 was the pilot. Version 2.0 followed in May 2026.",
+          "rationale": "Japan's HAIP site gives the 7 Feb 2025 launch (haiprep#p1); OECD.AI says 'Launched in February 2025' and lists the December 2024 pilot report (oecdhaip#p1, oecdhaip#p2). The v2.0 launch is from OECD.AI (haip2#p1, haip2#p6). Code date and 11 actions: haipdocs#p1, haipdocs#p6.",
+          "evidence": [
+            {
+              "source": "S-0071",
+              "passage": "S-0071#1",
+              "stance": "supports",
+              "supports": "launched 7 Feb 2025"
+            },
+            {
+              "source": "S-0075",
+              "passage": "S-0075#1",
+              "stance": "supports",
+              "supports": "launched Feb 2025"
+            },
+            {
+              "source": "S-0075",
+              "passage": "S-0075#2",
+              "stance": "supports",
+              "supports": "2024 was the pilot"
+            },
+            {
+              "source": "S-0074",
+              "passage": "S-0074#1",
+              "stance": "supports",
+              "supports": "v2.0 launched 28 May"
+            },
+            {
+              "source": "S-0074",
+              "passage": "S-0074#6",
+              "stance": "supports",
+              "supports": "year 2026"
+            },
+            {
+              "source": "S-0072",
+              "passage": "S-0072#1",
+              "stance": "supports",
+              "supports": "Code dated Oct 2023"
+            }
+          ],
+          "uncertainty": "None material.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:jp-ai:context",
+            "entry:jp-sectors:context",
+            "edge:oecd|hiroshima",
+            "edge:hiroshima|jp-ai",
+            "edge:imda|hiroshima",
+            "edge:jp-sectors|hiroshima",
+            "gap:sec"
+          ],
+          "hash": "78a81616acbd"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0028",
+      "fingerprint": "43ee6923151c",
+      "targets": [
+        "entry:hiroshima:context"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:02Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Hiroshima Process: v2.0 reports from 31 companies published Oct 2026; 50+ pledges were organisations",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "hiroshima",
+              "field": "context",
+              "from": "G7 code covering risk identification, information security, transparency, content authentication, and incident response. Voluntary, but uniquely structured: signatories submit annual implementation reports monitored by the OECD. Sits beside the Seoul commitments as one of the two main multilateral voluntary frameworks; lags Seoul on capability thresholds but is firmer on operational practice. May 2026 OECD launched the streamlined HAIP Reporting Framework v2.0 at the G7 Digital Ministerial — broadens participation to SMEs, with 50+ companies pledged.",
+              "to": "G7 code covering risk identification, information security, transparency, content authentication, and incident response. Voluntary, but uniquely structured: signatories submit annual implementation reports monitored by the OECD. Sits beside the Seoul commitments as one of the two main multilateral voluntary frameworks; lags Seoul on capability thresholds but is firmer on operational practice. May 2026 OECD launched the streamlined HAIP Reporting Framework v2.0 at the G7 Digital Ministerial — broadens participation to SMEs; 50+ organisations pledged, and v2.0 reports from 31 companies were published Oct 2026."
+            }
+          ],
+          "why": "Japan's HAIP site records that responses to Reporting Framework 2.0 were published on 2 Oct 2026, with submissions from 31 companies. The 50+ pledges on the OECD page come from organisations generally, including a public research body, a transport operator and a school.",
+          "rationale": "haiprep#p2 (31 companies, 2 Oct 2026; 19 companies in Apr 2025); haip2#p3, haip2#p4 (pledge list includes non-companies); haip2#p1 (launch on the margins of the G7 Digital and Tech Ministerial).",
+          "evidence": [
+            {
+              "source": "S-0071",
+              "passage": "S-0071#2",
+              "stance": "supports",
+              "supports": "v2.0 responses: 31 companies, 2 Oct 2026"
+            },
+            {
+              "source": "S-0074",
+              "passage": "S-0074#3",
+              "stance": "supports",
+              "supports": "50+ organisations pledged"
+            },
+            {
+              "source": "S-0074",
+              "passage": "S-0074#4",
+              "stance": "supports",
+              "supports": "pledgers include non-companies"
+            },
+            {
+              "source": "S-0074",
+              "passage": "S-0074#1",
+              "stance": "supports",
+              "supports": "launch at G7 Digital Ministerial margins"
+            }
+          ],
+          "uncertainty": "The OECD transparency portal (transparency.oecd.ai) could not be reached (proxy CONNECT 502), so the 31 reports were not counted directly. The comparison with Seoul ('lags Seoul on capability thresholds but is firmer on operational practice') is analytic and carried over.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "context: 'Sits beside the Seoul commitments as one of the two main multilateral voluntary frameworks; lags Seoul on capability thresholds but is firmer on operational practice.'",
+            "context: 'Voluntary, but uniquely structured: signatories submit annual implementation reports monitored by the OECD.' (checked: organisations are invited to update reports annually, haip2#p5)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:jp-ai:context",
+            "entry:jp-sectors:context",
+            "edge:oecd|hiroshima",
+            "edge:hiroshima|jp-ai",
+            "edge:imda|hiroshima",
+            "edge:jp-sectors|hiroshima",
+            "gap:sec"
+          ],
+          "hash": "2d85b3833933"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0029",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:02Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Hiroshima Process: classify as a G7 government code (pow 2, like the EU codes) or keep pow 1?",
+          "kind": "flag",
+          "changes": [],
+          "why": "The Hiroshima Code of Conduct is issued by G7 governments as voluntary guidance for organisations, not a cross-firm pledge. RUBRIC §4 puts 'voluntary government codes' at pow 2, and the two EU codes in Layer 5 are pow 2; Hiroshima is pow 1. RUBRIC §2 also puts 'multilateral principles' in Layer 1.",
+          "rationale": "The Code was agreed by G7 digital ministers and endorsed by G7 leaders (haipjp#p2, haipdocs#p1). It 'will provide voluntary guidance for actions by organizations developing the most advanced AI systems' (haipdocs#p8). Organisations take part by reporting through the OECD framework (haip2#p2).",
+          "evidence": [
+            {
+              "source": "S-0070",
+              "passage": "S-0070#2",
+              "stance": "supports",
+              "supports": "G7-agreed framework"
+            },
+            {
+              "source": "S-0072",
+              "passage": "S-0072#8",
+              "stance": "supports",
+              "supports": "voluntary guidance for organisations"
+            },
+            {
+              "source": "S-0074",
+              "passage": "S-0074#2",
+              "stance": "supports",
+              "supports": "OECD monitors application"
+            }
+          ],
+          "uncertainty": "A classification choice, not a factual error.",
+          "confidence": "medium",
+          "question": "Options: (a) keep Layer 5, pow 1 (the map treats it as an industry-facing voluntary framework beside Seoul); (b) Layer 5, pow 2, consistent with the EU GPAI and AI-generated content codes (recommended); (c) Layer 1, pow 2, as a multilateral government instrument beside the OECD Principles.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0030",
+      "fingerprint": "dfec74131ff6",
+      "targets": [
+        "entry:gpai-cop:cov:thresh"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:02Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "GPAI Code thresholds: signatories define capability-based risk tiers; the 10^25 FLOP presumption sets scope, not tiers",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "gpai-cop",
+              "cat": "thresh",
+              "from": "The safety/security chapter calls for capability thresholds tied to systemic risks, mirroring the EU AI Act's 10²⁵ FLOPs trigger. Concrete threshold-setting is left to signatory firms.",
+              "to": "The safety/security chapter requires measurable systemic-risk tiers defined in terms of model capabilities for each identified risk (Measure 4.1). The AI Act's 10²⁵ FLOP presumption decides which models the chapter covers, not where the tiers sit; concrete threshold-setting is left to signatory firms."
+            }
+          ],
+          "why": "The note says the Code's thresholds mirror the AI Act's 10^25 FLOP trigger. They do not. The FLOP figure is the Act's presumption of systemic risk, which decides who is covered. The Code's thresholds are capability-based risk tiers that each signatory defines.",
+          "rationale": "Measure 4.1 (gpaiss#p1): tiers 'defined in terms of model capabilities', measurable, at least one not yet reached. The 10^25 FLOP presumption is Article 51 classification (gpaiqa#p1, gpaiactqa#p1). The Code does not address the classification thresholds (gpaiactqa#p2). The last clause of the current note is kept.",
+          "evidence": [
+            {
+              "source": "S-0044",
+              "passage": "S-0044#4",
+              "stance": "supports",
+              "supports": "signatory-defined capability tiers"
+            },
+            {
+              "source": "S-0089",
+              "passage": "S-0089#1",
+              "stance": "supports",
+              "supports": "10^25 FLOP presumption of high-impact capabilities"
+            },
+            {
+              "source": "S-0091",
+              "passage": "S-0091#1",
+              "stance": "supports",
+              "supports": "Art 51 FLOP threshold"
+            },
+            {
+              "source": "S-0091",
+              "passage": "S-0091#2",
+              "stance": "supports",
+              "supports": "Code does not set classification thresholds"
+            }
+          ],
+          "uncertainty": "None material.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:cov:eval",
+            "entry:eu-aia:cov:elicit",
+            "entry:eu-aia:cov:sec",
+            "entry:eu-aia:cov:update",
+            "entry:hiroshima:cov:eval",
+            "entry:eu-genai-code:context",
+            "entry:rsp:context",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:meta-faif:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:metr:cov:thresh",
+            "entry:nist-rmf:context",
+            "entry:nist-rmf:cov:acct",
+            "edge:gpai-cop|eu-aia",
+            "edge:gpai-cop|rsp",
+            "edge:gpai-cop|prep",
+            "edge:gpai-cop|fsf",
+            "edge:gpai-cop|meta-faif",
+            "edge:gpai-cop|xai-rmf",
+            "edge:gpai-cop|eu-aio",
+            "gap:elicit",
+            "gap:sec",
+            "gap:halt",
+            "gap:update",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris"
+          ],
+          "hash": "05ee601223d9"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0031",
+      "fingerprint": "56f80222753a",
+      "targets": [
+        "entry:gpai-cop:cov:elicit"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:03Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "GPAI Code elicitation: state-of-the-art elicitation and external evaluation are required; red-teaming is an example method",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "gpai-cop",
+              "cat": "elicit",
+              "from": "Red-teaming and adversarial testing are mandated by the safety chapter, including access for external evaluators where appropriate. Among the strongest elicitation requirements in any non-binding instrument.",
+              "to": "The safety chapter requires at least state-of-the-art model elicitation to minimise under-elicitation and sandbagging (Appendix 3.2), lists red-teaming among evaluation methods, and requires independent external evaluations unless narrow exceptions apply (Appendix 3.5). Among the strongest elicitation requirements in any non-binding instrument."
+            }
+          ],
+          "why": "The note says red-teaming is mandated and external access applies 'where appropriate'. In the text, elicitation is mandated, red-teaming is one listed example, and external evaluation is the default, with two stated exceptions.",
+          "rationale": "Appendix 3.2 (gpaiss#p4); Measure 3.2 examples (gpaiss#p3); Appendix 3.5 (gpaiss#p5).",
+          "evidence": [
+            {
+              "source": "S-0044",
+              "passage": "S-0044#7",
+              "stance": "supports",
+              "supports": "elicitation mandated"
+            },
+            {
+              "source": "S-0044",
+              "passage": "S-0044#6",
+              "stance": "supports",
+              "supports": "red-teaming listed as example"
+            },
+            {
+              "source": "S-0044",
+              "passage": "S-0044#8",
+              "stance": "supports",
+              "supports": "external evaluations required, with exceptions"
+            }
+          ],
+          "uncertainty": "The final comparative sentence is carried over unverified.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "elicit: 'Among the strongest elicitation requirements in any non-binding instrument.'"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:cov:eval",
+            "entry:eu-aia:cov:elicit",
+            "entry:eu-aia:cov:sec",
+            "entry:eu-aia:cov:update",
+            "entry:hiroshima:cov:eval",
+            "entry:eu-genai-code:context",
+            "entry:rsp:context",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:meta-faif:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:metr:cov:thresh",
+            "entry:nist-rmf:context",
+            "entry:nist-rmf:cov:acct",
+            "edge:gpai-cop|eu-aia",
+            "edge:gpai-cop|rsp",
+            "edge:gpai-cop|prep",
+            "edge:gpai-cop|fsf",
+            "edge:gpai-cop|meta-faif",
+            "edge:gpai-cop|xai-rmf",
+            "edge:gpai-cop|eu-aio",
+            "gap:elicit",
+            "gap:sec",
+            "gap:halt",
+            "gap:update",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris"
+          ],
+          "hash": "657d0302f0b6"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0032",
+      "fingerprint": "3c5c44b2bacf",
+      "targets": [
+        "entry:gpai-cop:cov:sec"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:03Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "GPAI Code security: no supply-chain measures; protections cover weights, interfaces and insider threats",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "gpai-cop",
+              "cat": "sec",
+              "from": "Model security obligations cover weight protection, secure deployment infrastructure, and supply-chain controls. Bridges Article 55 of the EU AI Act with concrete operational expectations.",
+              "to": "Model security obligations cover protection of unreleased model parameters, hardened interfaces, physical infrastructure and insider threats, with external security reviews and red-teaming as assurance (Commitment 6, Appendix 4). Bridges Article 55 of the EU AI Act with concrete operational expectations."
+            }
+          ],
+          "why": "The note lists 'supply-chain controls', which the security chapter does not contain. It also omits insider-threat measures, which have their own appendix.",
+          "rationale": "Commitment 6 (gpaiss#p6); Appendix 4.2 and 4.4 (gpaiss#p7, gpaiss#p8); text search for 'supply' found nothing (gpaiss#p9). Interface hardening and security assurance are Appendix 4.3 and 4.5 (gpaiss#p9).",
+          "evidence": [
+            {
+              "source": "S-0044",
+              "passage": "S-0044#9",
+              "stance": "supports",
+              "supports": "cybersecurity of models and physical infrastructure"
+            },
+            {
+              "source": "S-0044",
+              "passage": "S-0044#10",
+              "stance": "supports",
+              "supports": "unreleased parameter protection"
+            },
+            {
+              "source": "S-0044",
+              "passage": "S-0044#11",
+              "stance": "supports",
+              "supports": "insider threats"
+            },
+            {
+              "source": "S-0044",
+              "passage": "S-0044#12",
+              "stance": "supports",
+              "supports": "no supply-chain measures"
+            }
+          ],
+          "uncertainty": "None material.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:cov:eval",
+            "entry:eu-aia:cov:elicit",
+            "entry:eu-aia:cov:sec",
+            "entry:eu-aia:cov:update",
+            "entry:hiroshima:cov:eval",
+            "entry:eu-genai-code:context",
+            "entry:rsp:context",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:meta-faif:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:metr:cov:thresh",
+            "entry:nist-rmf:context",
+            "entry:nist-rmf:cov:acct",
+            "edge:gpai-cop|eu-aia",
+            "edge:gpai-cop|rsp",
+            "edge:gpai-cop|prep",
+            "edge:gpai-cop|fsf",
+            "edge:gpai-cop|meta-faif",
+            "edge:gpai-cop|xai-rmf",
+            "edge:gpai-cop|eu-aio",
+            "gap:elicit",
+            "gap:sec",
+            "gap:halt",
+            "gap:update",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris"
+          ],
+          "hash": "9454839f9d87"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0033",
+      "fingerprint": "96325709a360",
+      "targets": [
+        "entry:gpai-cop:cov:update"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:03Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "GPAI Code updates: the AI Office reviews the Code at least every two years",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "gpai-cop",
+              "cat": "update",
+              "from": "Periodic Code of Practice revisions handled by independent experts under the AI Office. The Code is the operational layer that updates faster than the underlying regulation.",
+              "to": "The AI Office reviews the Code at least every two years and may facilitate formal updates in response to technology, risk or enforcement experience; signatories are invited to sign updated versions. The Code is the operational layer that updates faster than the underlying regulation."
+            }
+          ],
+          "why": "The note says revisions are 'handled by independent experts under the AI Office'. The Commission says the AI Office reviews the Code at least every two years and facilitates updates. Independent experts drafted the 2025 text; the sources inspected give them no standing role in revisions.",
+          "rationale": "Commission Q&A (gpaiqa#p3, last updated 20 Jul 2026); signing Q&A (gpaisignqa#p1, gpaisignqa#p2). The Code has been unchanged since 10 Jul 2025 (gpaisig#p1).",
+          "evidence": [
+            {
+              "source": "S-0089",
+              "passage": "S-0089#3",
+              "stance": "supports",
+              "supports": "review at least every two years"
+            },
+            {
+              "source": "S-0090",
+              "passage": "S-0090#1",
+              "stance": "supports",
+              "supports": "Art 56(8) review and adaptation"
+            },
+            {
+              "source": "S-0090",
+              "passage": "S-0090#2",
+              "stance": "supports",
+              "supports": "signatories invited to sign updates"
+            }
+          ],
+          "uncertainty": "Whether the Code 'updates faster than the underlying regulation' is analytic; carried over. A future review could again use expert chairs.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "update: 'The Code is the operational layer that updates faster than the underlying regulation.'"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:cov:eval",
+            "entry:eu-aia:cov:elicit",
+            "entry:eu-aia:cov:sec",
+            "entry:eu-aia:cov:update",
+            "entry:hiroshima:cov:eval",
+            "entry:eu-genai-code:context",
+            "entry:rsp:context",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:meta-faif:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:metr:cov:thresh",
+            "entry:nist-rmf:context",
+            "entry:nist-rmf:cov:acct",
+            "edge:gpai-cop|eu-aia",
+            "edge:gpai-cop|rsp",
+            "edge:gpai-cop|prep",
+            "edge:gpai-cop|fsf",
+            "edge:gpai-cop|meta-faif",
+            "edge:gpai-cop|xai-rmf",
+            "edge:gpai-cop|eu-aio",
+            "gap:elicit",
+            "gap:sec",
+            "gap:halt",
+            "gap:update",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris"
+          ],
+          "hash": "97572f8681e4"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0034",
+      "fingerprint": "9a59087dd04b",
+      "targets": [
+        "entry:gpai-cop:cov:timing",
+        "entry:gpai-cop:cov"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:03Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "GPAI Code coverage: add timing (trigger points; Framework and Model Report before market placement)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "gpai-cop",
+              "cat": "timing",
+              "from": null,
+              "to": "Lighter-touch evaluations at trigger points along the lifecycle (Measure 1.2). The Framework is confirmed at least two weeks before market placement, and a Model Report is due before placing a model on the market."
+            }
+          ],
+          "why": "The coverage matrix shows the GPAI Code as silent on evaluation timing. The safety chapter specifies trigger points and pre-market deadlines, and the EU AI Act entry already has timing.",
+          "rationale": "Measure 1.2 trigger points (gpaiss#p10); Framework deadline (gpaiss#p11); Model Report before placing on the market (gpaiss#p12).",
+          "evidence": [
+            {
+              "source": "S-0044",
+              "passage": "S-0044#13",
+              "stance": "supports",
+              "supports": "trigger-point evaluations"
+            },
+            {
+              "source": "S-0044",
+              "passage": "S-0044#14",
+              "stance": "supports",
+              "supports": "Framework confirmed two weeks before market"
+            },
+            {
+              "source": "S-0044",
+              "passage": "S-0044#15",
+              "stance": "supports",
+              "supports": "Model Report before market"
+            }
+          ],
+          "uncertainty": "None material.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:cov:eval",
+            "entry:eu-aia:cov:elicit",
+            "entry:eu-aia:cov:sec",
+            "entry:eu-aia:cov:update",
+            "entry:hiroshima:cov:eval",
+            "entry:eu-genai-code:context",
+            "entry:rsp:context",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:meta-faif:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:metr:cov:thresh",
+            "entry:nist-rmf:context",
+            "entry:nist-rmf:cov:acct",
+            "edge:gpai-cop|eu-aia",
+            "edge:gpai-cop|rsp",
+            "edge:gpai-cop|prep",
+            "edge:gpai-cop|fsf",
+            "edge:gpai-cop|meta-faif",
+            "edge:gpai-cop|xai-rmf",
+            "edge:gpai-cop|eu-aio",
+            "gap:elicit",
+            "gap:sec",
+            "gap:halt",
+            "gap:update",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris"
+          ],
+          "hash": "76c4d1d07371"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0035",
+      "fingerprint": "120d8fd595e5",
+      "targets": [
+        "entry:fmf:context",
+        "entry:fmf:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:03Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "FMF: members signed an information-sharing agreement (Mar 2025); FMF files public comments but does not lobby",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "fmf",
+              "field": "context",
+              "from": "Funds safety research grants, coordinates evaluation methodology between member labs, and convenes shared technical forums. Doesn't impose obligations on members or speak with one voice in policy debates. Some critics argue it is too closely held by its member labs; others that its remit is too narrow to drive policy change. The substantive contribution is in the research outputs, not the political coordination.",
+              "to": "Funds safety research grants, coordinates evaluation methodology between member labs, and convenes shared technical forums. Since Mar 2025 all members have signed a voluntary agreement to share information on frontier-AI vulnerabilities, threats and capabilities of concern; beyond that it imposes no obligations and does not lobby. Some critics argue it is too closely held by its member labs; others that its remit is too narrow to drive policy change. The substantive contribution is in the research outputs, not the political coordination."
+            },
+            {
+              "op": "set_cov",
+              "entity": "fmf",
+              "cat": "acct",
+              "from": "Industry coordination on safety practice — funds research grants, convenes shared technical forums, publishes cross-lab perspectives. Doesn't speak with one voice in policy debates or impose obligations on members.",
+              "to": "Industry coordination on safety practice — funds research grants, convenes shared technical forums, publishes cross-lab perspectives, and runs a members' information-sharing agreement on threats and vulnerabilities (Mar 2025). Does not lobby or impose other obligations on members."
+            }
+          ],
+          "why": "The entry says the FMF imposes no obligations on members. Since March 2025 every member has signed an information-sharing agreement, which the FMF reported in Feb 2026 is in use. This is the forum's one cross-firm commitment. 'Doesn't speak with one voice in policy debates' is also hard to square with its own public comments and congressional testimony; its stated position is that it does not lobby.",
+          "rationale": "Agreement: fmfisa#p1, fmfisa#p2; in use: fmfisp#p1, fmfisp#p2; dated 28 Mar 2025 (fmfpubs#p6). No lobbying: fmfabout#p1. Public comments and testimony in 2026: fmfpubs#p4, fmfpubs#p5. Grants: fmfasf#p1.",
+          "evidence": [
+            {
+              "source": "S-0079",
+              "passage": "S-0079#1",
+              "stance": "supports",
+              "supports": "all members signed"
+            },
+            {
+              "source": "S-0079",
+              "passage": "S-0079#2",
+              "stance": "supports",
+              "supports": "scope: CBRN and cyber"
+            },
+            {
+              "source": "S-0080",
+              "passage": "S-0080#2",
+              "stance": "supports",
+              "supports": "information actually shared"
+            },
+            {
+              "source": "S-0078",
+              "passage": "S-0078#1",
+              "stance": "supports",
+              "supports": "does not lobby"
+            },
+            {
+              "source": "S-0082",
+              "passage": "S-0082#4",
+              "stance": "supports",
+              "supports": "public comment 2026"
+            },
+            {
+              "source": "S-0082",
+              "passage": "S-0082#5",
+              "stance": "supports",
+              "supports": "testimony 2026"
+            },
+            {
+              "source": "S-0081",
+              "passage": "S-0081#1",
+              "stance": "supports",
+              "supports": "grant-making"
+            }
+          ],
+          "uncertainty": "The agreement's text is not public; its scope comes from the FMF's own description.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "context: 'Funds safety research grants, coordinates evaluation methodology between member labs, and convenes shared technical forums.' (grants checked)",
+            "context: 'Some critics argue it is too closely held by its member labs; others that its remit is too narrow to drive policy change. The substantive contribution is in the research outputs, not the political coordination.'"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:pai:context",
+            "entry:pai:cov:mit",
+            "edge:fmf|rsp",
+            "edge:fmf|prep",
+            "edge:fmf|fsf",
+            "edge:fmf|meta-faif",
+            "gap:acct"
+          ],
+          "hash": "f47abdfa0ef3"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0036",
+      "fingerprint": "3317953bcc6f",
+      "targets": [
+        "entry:pai:context"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:18:03Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "PAI: has a foundation-model deployment framework (2023) and a 2026 report tracking providers",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "pai",
+              "field": "context",
+              "from": "Member-driven org with academics, NGOs, media, and tech firms; produces guidance on synthetic media disclosure, AI in journalism, AI workforce impacts. Pre-dates the frontier-AI debate and hasn't fully repositioned to it. Most influential as a multistakeholder venue for non-technical issues that frontier-only forums (FMF, AISI Network) skip.",
+              "to": "Member-driven org with academics, NGOs, media, and tech firms; produces guidance on synthetic media disclosure, AI in journalism, AI workforce impacts. Pre-dates the frontier-AI debate; its frontier-relevant work is the 2023 Guidance for Safe Foundation Model Deployment and a 2026 report tracking 13 organisations' public disclosure of foundation-model impacts. Most influential as a multistakeholder venue for non-technical issues that frontier-only forums (FMF, AISI Network) skip."
+            }
+          ],
+          "why": "The entry says PAI 'hasn't fully repositioned' to frontier AI without mentioning its frontier-model work. That work is the Guidance for Safe Foundation Model Deployment (2023), a framework for model providers, and a 2026 report tracking 13 organisations against it.",
+          "rationale": "The guidance is described on PAI's home page (paihome#p1). The 2026 report covers 13 organisations and builds on the 2023 guidance (paitr#p1).",
+          "evidence": [
+            {
+              "source": "S-0085",
+              "passage": "S-0085#1",
+              "stance": "supports",
+              "supports": "foundation-model deployment guidance"
+            },
+            {
+              "source": "S-0086",
+              "passage": "S-0086#1",
+              "stance": "supports",
+              "supports": "2026 report: 13 organisations, builds on 2023 guidance"
+            }
+          ],
+          "uncertainty": "Whether this amounts to 'repositioning' is a judgment; the edit replaces the judgment with the facts. 'AI in journalism' guidance was not checked and is carried over.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "context: 'produces guidance on synthetic media disclosure, AI in journalism, AI workforce impacts.' (synthetic media and workforce checked: paihome#p2, paihome#p3)",
+            "context: 'Most influential as a multistakeholder venue for non-technical issues that frontier-only forums (FMF, AISI Network) skip.'"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "8056409cfae7"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
       "research": {
         "status": "verified",
         "missing": [],

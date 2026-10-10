@@ -8,6 +8,112 @@
     "entries": [],
     "note": "All inventory items not already verified against external sources on 2026-10-10 (trial 1 completion); those are carried over, not re-fetched. Discovery across SCOPE list B."
   },
-  "discovery": [],
+  "discovery": [
+    {
+      "area": "SCOPE B3: industry and multistakeholder bodies (FMF, PAI, EU codes) and summit/G7 commitments (Seoul, Delhi, Hiroshima/OECD)",
+      "summary": "No new cross-firm commitment or code since June 2026 was found. Updates to existing entries: the HAIP Reporting Framework v2.0 (28 May 2026) and publication of v2.0 reports from 31 companies (2 Oct 2026); the GPAI Code's Signatory Taskforce, chaired by the AI Office (page updated 3 Aug 2026), with the Code itself unchanged since Jul 2025; the FMF information-sharing agreement (Mar 2025, operating), absent from the map. FMF and PAI 2026 outputs are research and guidance, not mechanisms. Seoul signatories unchanged since Feb 2025; Delhi list dated 23 Feb 2026. The G7 Évian summit (15–17 Jun 2026) adopted no AI text; Macron said AI work would be finalised in ministerial formats.",
+      "queries": [
+        "\"New Delhi Frontier AI Impact Commitments\" text signatories",
+        "Frontier Model Forum 2026 new member OR report OR issue brief",
+        "OECD Hiroshima AI Process reporting framework 2.0 launch 2026",
+        "AI companies sign voluntary commitments 2026 frontier safety new pledge July OR August OR September 2026",
+        "G7 Evian summit June 2026 artificial intelligence leaders statement Hiroshima AI Process",
+        "Joel Kaplan Meta \"won't be signing\" EU code of practice general-purpose AI",
+        "partnershiponai.org 2016 founded tenth anniversary",
+        "direct: frontiermodelforum.org publications/feed; partnershiponai.org resources; soumu.go.jp HAIP news; oecd.ai/en/haip-2-launch; digital-strategy.ec.europa.eu GPAI pages; impact.indiaai.gov.in/outcome-resources"
+      ],
+      "limits": "transparency.oecd.ai (individual HAIP reports) unreachable: proxy CONNECT 502. The OECD press release (oecd.org) returned HTTP 403. LinkedIn (Kaplan post) returned HTTP 429. Web search is US-only and thin on post-June 2026 items. Industry commitments announced only by companies, or in non-English venues, may be missed.",
+      "candidates": [
+        {
+          "name": "HAIP Reporting Framework v2.0 and v2.0 reports (31 companies, 2 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Part of the Hiroshima Process entry; context updated.",
+          "proposal": "P-0028",
+          "sources": [
+            "S-0074",
+            "S-0071"
+          ]
+        },
+        {
+          "name": "FMF information-sharing agreement among members (Mar 2025)",
+          "result": "update to existing entry",
+          "reason": "Cross-firm commitment run by FMF; best folded into the fmf entry rather than a new entry.",
+          "proposal": "P-0035",
+          "sources": [
+            "S-0079",
+            "S-0080"
+          ]
+        },
+        {
+          "name": "FMF 2026 issue briefs (multilingual CBRN/cyber evaluations, AI agent security, incident reporting, agents for cyber defense)",
+          "result": "screened out",
+          "reason": "Research and best-practice outputs, not commitments (RUBRIC §1).",
+          "sources": [
+            "S-0082"
+          ]
+        },
+        {
+          "name": "GPAI Code Signatory Taskforce (chaired by the AI Office)",
+          "result": "screened out",
+          "reason": "Implementation forum of an existing code, already covered by the gpai-cop and eu-aio entries and the edge between them; no new obligations.",
+          "sources": [
+            "S-0092",
+            "S-0003"
+          ]
+        },
+        {
+          "name": "GPAI Code revision",
+          "result": "screened out",
+          "reason": "No revised text found. The Code is unchanged since 10 Jul 2025, and the Commission plans review at least every two years.",
+          "sources": [
+            "S-0089",
+            "S-0003"
+          ]
+        },
+        {
+          "name": "PAI 2026 outputs (2026 Transparency Report on Foundation Model Impacts; agent observability and failure-detection reports; draft risk-assessment framework and AI disclosure recommendations, 2026)",
+          "result": "screened out",
+          "reason": "Research and draft guidance from an existing entry; the transparency report informs the pai context proposal.",
+          "proposal": "P-0036",
+          "sources": [
+            "S-0086",
+            "S-0087"
+          ]
+        },
+        {
+          "name": "Hiroshima AI Process Friends Group expansions and Action Plan 2026",
+          "result": "screened out",
+          "reason": "Membership growth of an existing process; no new instrument.",
+          "sources": [
+            "S-0073"
+          ]
+        },
+        {
+          "name": "G7 Évian summit (Jun 2026) AI outcome",
+          "result": "screened out",
+          "reason": "No AI statement adopted; work left to ministerial formats under the French presidency. Re-check before year end.",
+          "sources": [
+            "S-0094"
+          ]
+        },
+        {
+          "name": "Seoul commitments signatory changes since Feb 2025",
+          "result": "screened out",
+          "reason": "GOV.UK page public update still 7 Feb 2025.",
+          "sources": [
+            "S-0035"
+          ]
+        },
+        {
+          "name": "Claimed July 2026 OpenAI test-agent breakout affecting Hugging Face (reported in a PAI report)",
+          "result": "lead — source inaccessible",
+          "reason": "Incident claim, not a mechanism. Pass to the Layer 6 (OpenAI) group for primary-source checking; not verified here.",
+          "sources": [
+            "S-0087"
+          ]
+        }
+      ]
+    }
+  ],
   "usage": null
 }

@@ -160,5 +160,847 @@
     "note": "New entry P-0020, written from these sources today and applied; text matches them.",
     "missing": null,
     "hash": "010edbd5f003"
+  },
+  "entry:seoul-commit": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0034",
+      "S-0035"
+    ],
+    "proposals": [],
+    "note": "Link resolves to the UK Government text of the commitments. Name, Layer 5, mu, pow 1 (voluntary firm commitments) and active status match; the page was last substantively updated on 7 Feb 2025.",
+    "missing": null,
+    "hash": "0766e2a5c95b"
+  },
+  "entry:seoul-commit:desc": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0034",
+      "S-0035"
+    ],
+    "proposals": [
+      "P-0021"
+    ],
+    "note": "16 original signatories confirmed; four more were added on 7 Feb 2025 (20 in total).",
+    "missing": null,
+    "hash": "929af4a09bb7"
+  },
+  "entry:seoul-commit:context": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0034",
+      "S-0061"
+    ],
+    "proposals": [
+      "P-0022"
+    ],
+    "note": "Halting commitment (IV) and voluntary nature confirmed. The UK is not among the signatories' home countries; the government describes them as spanning North America, Asia, Europe and the Middle East. The SB 53 / RAISE causal sentence is analytic.",
+    "missing": null,
+    "hash": "60622a0108bd"
+  },
+  "entry:seoul-commit:cov:halt": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0034",
+      "S-0061"
+    ],
+    "proposals": [
+      "P-0022"
+    ],
+    "note": "Halting commitment (IV) and voluntary nature confirmed. The UK is not among the signatories' home countries; the government describes them as spanning North America, Asia, Europe and the Middle East. The SB 53 / RAISE causal sentence is analytic.",
+    "missing": null,
+    "hash": "083211593b76"
+  },
+  "entry:seoul-commit:cov": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0034"
+    ],
+    "proposals": [
+      "P-0023"
+    ],
+    "note": "acct, eval, halt and thresh are supported; commitment III and the preamble also cover mitigations and weight security, which the set omits.",
+    "missing": null,
+    "hash": "9af843a8fdda"
+  },
+  "entry:seoul-commit:cov:eval": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0034",
+      "S-0061"
+    ],
+    "proposals": [],
+    "note": "Commitment I (pre-deployment assessment, internal and external evaluations as appropriate) and II (assess whether thresholds are breached) match the eval note. VII (public transparency) and the 16 May 2024 signatories match the acct note.",
+    "missing": null,
+    "hash": "70b8cd63b839"
+  },
+  "entry:seoul-commit:cov:acct": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0034",
+      "S-0061"
+    ],
+    "proposals": [],
+    "note": "Commitment I (pre-deployment assessment, internal and external evaluations as appropriate) and II (assess whether thresholds are breached) match the eval note. VII (public transparency) and the 16 May 2024 signatories match the acct note.",
+    "missing": null,
+    "hash": "b09d71719c8f"
+  },
+  "entry:seoul-commit:cov:thresh": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0034",
+      "S-0061"
+    ],
+    "proposals": [],
+    "note": "Factual core checked: commitment II requires thresholds at which severe risks would be intolerable, defined using capabilities among other factors (footnote 3), and IV the actions if they are met. The government calls the agreement a 'world-first'. 'Catalyst for what became the lab-published-framework norm' cannot be checked.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "32a9d013ef6b"
+  },
+  "edge:seoul-commit|prep": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0062",
+      "S-0063",
+      "S-0061",
+      "S-0034"
+    ],
+    "proposals": [
+      "P-0024"
+    ],
+    "note": "PF beta dated 18 Dec 2023 and FSF introduced 17 May 2024, both before the 21 May 2024 commitments; 'triggered' is unsupported.",
+    "missing": null,
+    "hash": "2d3ecafdf7b0"
+  },
+  "edge:seoul-commit|fsf": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0062",
+      "S-0063",
+      "S-0061",
+      "S-0034"
+    ],
+    "proposals": [
+      "P-0024"
+    ],
+    "note": "PF beta dated 18 Dec 2023 and FSF introduced 17 May 2024, both before the 21 May 2024 commitments; 'triggered' is unsupported.",
+    "missing": null,
+    "hash": "168a82d88f67"
+  },
+  "edge:seoul-commit|meta-faif": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0064",
+      "S-0034",
+      "S-0065"
+    ],
+    "proposals": [
+      "P-0025"
+    ],
+    "note": "Meta published on 3 Feb 2025 citing its Seoul commitment, before the 6–11 Feb 2025 Paris summit deadline; 'delayed' is not supported against the deadline.",
+    "missing": null,
+    "hash": "0911097ba139"
+  },
+  "edge:seoul-commit|xai-rmf": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0066",
+      "S-0067",
+      "S-0034"
+    ],
+    "proposals": [],
+    "note": "xAI signed Seoul. Its first document was a draft (dated 20 Feb 2025 in its file name), applied only to future models and promising an update within three months; the full RMF is dated 20 Aug 2025. That supports 'followed Seoul (delayed)'. 'Thinner' is a comparison with peers and cannot be checked from sources.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "ef1d20d57cdc"
+  },
+  "entry:delhi-commit": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0068"
+    ],
+    "proposals": [],
+    "note": "Link resolves to the PIB release of 19 Feb 2026 announcing the commitments; name, Layer 5, mu, pow 1 and active fit a voluntary firm commitment. The full text is at the summit's outcome-resources page (delhi source), which a maintainer may prefer as the link.",
+    "missing": null,
+    "hash": "176d4370ce85"
+  },
+  "entry:delhi-commit:desc": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0069",
+      "S-0068",
+      "S-0034"
+    ],
+    "proposals": [
+      "P-0026"
+    ],
+    "note": "Official text: two commitments (usage statistics by next summit; multilingual/use-case evaluation), progress reported via HAIP framework where practicable; 13 signees as on 23 Feb 2026. No thresholds, risk-mitigation obligations or sector-benefit commitments; not broader than Seoul's 20.",
+    "missing": null,
+    "hash": "4ec1e81dacef"
+  },
+  "entry:delhi-commit:context": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0069",
+      "S-0068",
+      "S-0034"
+    ],
+    "proposals": [
+      "P-0026"
+    ],
+    "note": "Official text: two commitments (usage statistics by next summit; multilingual/use-case evaluation), progress reported via HAIP framework where practicable; 13 signees as on 23 Feb 2026. No thresholds, risk-mitigation obligations or sector-benefit commitments; not broader than Seoul's 20.",
+    "missing": null,
+    "hash": "9dd7237d3313"
+  },
+  "entry:delhi-commit:cov": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0069",
+      "S-0068",
+      "S-0034"
+    ],
+    "proposals": [
+      "P-0026"
+    ],
+    "note": "Official text: two commitments (usage statistics by next summit; multilingual/use-case evaluation), progress reported via HAIP framework where practicable; 13 signees as on 23 Feb 2026. No thresholds, risk-mitigation obligations or sector-benefit commitments; not broader than Seoul's 20.",
+    "missing": null,
+    "hash": "f2c1e9b2c10d"
+  },
+  "entry:delhi-commit:cov:mit": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0069",
+      "S-0068",
+      "S-0034"
+    ],
+    "proposals": [
+      "P-0026"
+    ],
+    "note": "Official text: two commitments (usage statistics by next summit; multilingual/use-case evaluation), progress reported via HAIP framework where practicable; 13 signees as on 23 Feb 2026. No thresholds, risk-mitigation obligations or sector-benefit commitments; not broader than Seoul's 20.",
+    "missing": null,
+    "hash": "647188fe2d11"
+  },
+  "entry:delhi-commit:cov:acct": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0069",
+      "S-0068",
+      "S-0034"
+    ],
+    "proposals": [
+      "P-0026"
+    ],
+    "note": "Official text: two commitments (usage statistics by next summit; multilingual/use-case evaluation), progress reported via HAIP framework where practicable; 13 signees as on 23 Feb 2026. No thresholds, risk-mitigation obligations or sector-benefit commitments; not broader than Seoul's 20.",
+    "missing": null,
+    "hash": "55effce13deb"
+  },
+  "entry:hiroshima": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0070",
+      "S-0072"
+    ],
+    "proposals": [
+      "P-0029"
+    ],
+    "note": "Link resolves (MIC's HAIP site); name, jur mu and active status are fine. pow 1 vs RUBRIC §4 'voluntary government codes' (pow 2) is flagged.",
+    "missing": "maintainer decision on pow/layer for a G7 government-issued voluntary code (flag raised)",
+    "hash": "f821f863aa51"
+  },
+  "entry:hiroshima:desc": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0071",
+      "S-0075",
+      "S-0074",
+      "S-0072"
+    ],
+    "proposals": [
+      "P-0027"
+    ],
+    "note": "Code of Conduct (Oct 2023) with 11 actions confirmed; reporting framework launched 7 Feb 2025 (pilot 2024), not 2024.",
+    "missing": null,
+    "hash": "f2508c9b5250"
+  },
+  "entry:hiroshima:cov:update": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0071",
+      "S-0075",
+      "S-0074",
+      "S-0072"
+    ],
+    "proposals": [
+      "P-0027"
+    ],
+    "note": "Code of Conduct (Oct 2023) with 11 actions confirmed; reporting framework launched 7 Feb 2025 (pilot 2024), not 2024.",
+    "missing": null,
+    "hash": "cf942479a6b5"
+  },
+  "entry:hiroshima:context": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0071",
+      "S-0074",
+      "S-0072"
+    ],
+    "proposals": [
+      "P-0028"
+    ],
+    "note": "Code topics (risk identification, security, transparency, content authentication, incident reporting) confirmed in actions 1–7. v2.0 launch on 28 May 2026 for SMEs confirmed. New fact: v2.0 reports from 31 companies published 2 Oct 2026. The 50+ pledges are organisations, not only companies. The Seoul comparison is analytic.",
+    "missing": null,
+    "hash": "381802fcf13e"
+  },
+  "entry:hiroshima:cov": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0074"
+    ],
+    "proposals": [],
+    "note": "Action 1 (identify, evaluate, mitigate risks across the lifecycle, incl. red-teaming), action 6 (security incl. model weights, insider threats), action 11 (data inputs), actions 2 and 7 (post-deployment misuse, content authentication) and actions 3–4 (transparency reports, incident sharing) support the notes. Reports are invited annually and contribute to OECD monitoring. Compared with the GPAI Code's Appendix 3, Hiroshima is indeed less prescriptive on evaluation method.",
+    "missing": null,
+    "hash": "92e5414cba35"
+  },
+  "entry:hiroshima:cov:eval": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0074"
+    ],
+    "proposals": [],
+    "note": "Action 1 (identify, evaluate, mitigate risks across the lifecycle, incl. red-teaming), action 6 (security incl. model weights, insider threats), action 11 (data inputs), actions 2 and 7 (post-deployment misuse, content authentication) and actions 3–4 (transparency reports, incident sharing) support the notes. Reports are invited annually and contribute to OECD monitoring. Compared with the GPAI Code's Appendix 3, Hiroshima is indeed less prescriptive on evaluation method.",
+    "missing": null,
+    "hash": "08916179ab8f"
+  },
+  "entry:hiroshima:cov:sec": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0074"
+    ],
+    "proposals": [],
+    "note": "Action 1 (identify, evaluate, mitigate risks across the lifecycle, incl. red-teaming), action 6 (security incl. model weights, insider threats), action 11 (data inputs), actions 2 and 7 (post-deployment misuse, content authentication) and actions 3–4 (transparency reports, incident sharing) support the notes. Reports are invited annually and contribute to OECD monitoring. Compared with the GPAI Code's Appendix 3, Hiroshima is indeed less prescriptive on evaluation method.",
+    "missing": null,
+    "hash": "6b52a1cc4cc7"
+  },
+  "entry:hiroshima:cov:mit": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0074"
+    ],
+    "proposals": [],
+    "note": "Action 1 (identify, evaluate, mitigate risks across the lifecycle, incl. red-teaming), action 6 (security incl. model weights, insider threats), action 11 (data inputs), actions 2 and 7 (post-deployment misuse, content authentication) and actions 3–4 (transparency reports, incident sharing) support the notes. Reports are invited annually and contribute to OECD monitoring. Compared with the GPAI Code's Appendix 3, Hiroshima is indeed less prescriptive on evaluation method.",
+    "missing": null,
+    "hash": "59aabe46c5de"
+  },
+  "entry:hiroshima:cov:acct": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0074"
+    ],
+    "proposals": [],
+    "note": "Action 1 (identify, evaluate, mitigate risks across the lifecycle, incl. red-teaming), action 6 (security incl. model weights, insider threats), action 11 (data inputs), actions 2 and 7 (post-deployment misuse, content authentication) and actions 3–4 (transparency reports, incident sharing) support the notes. Reports are invited annually and contribute to OECD monitoring. Compared with the GPAI Code's Appendix 3, Hiroshima is indeed less prescriptive on evaluation method.",
+    "missing": null,
+    "hash": "e4477f8b3df0"
+  },
+  "edge:hiroshima|jp-ai": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0070",
+      "S-0071"
+    ],
+    "proposals": [],
+    "note": "Japan launched the process under its 2023 G7 presidency, and its Ministry of Internal Affairs and Communications runs the HAIP site, so 'champions' holds. That the Promotion Act 'reflects the same approach' is an interpretive comparison; the Act was not read in this group.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "0a0592a8400a"
+  },
+  "entry:gpai-cop:context": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0088",
+      "S-0089",
+      "S-0093"
+    ],
+    "proposals": [],
+    "note": "Three chapters, safety only for systemic-risk models, drafting by independent experts facilitated by the AI Office, and publication on 10 Jul 2025 are confirmed. Signing is voluntary and the Commission and AI Board found it adequate. Meta is absent from the Commission's signatory list (7 Oct 2026); its refusal is documented only secondarily (TechCrunch quoting Kaplan).",
+    "missing": "A primary Meta or Commission statement that Meta declined. Joel Kaplan's LinkedIn post (Jul 2025) returned HTTP 429. 'Only vetted route' and 'open question' are interpretive.",
+    "hash": "7293388e3e6d"
+  },
+  "edge:gpai-cop|meta-faif": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0093"
+    ],
+    "proposals": [],
+    "note": "The Commission list (7 Oct 2026) confirms Meta is not a signatory. That it 'declined' comes only from a secondary report quoting Meta's chief global affairs officer.",
+    "missing": "Primary Meta statement (Kaplan LinkedIn post, Jul 2025; blocked with HTTP 429) or a Commission statement naming Meta.",
+    "hash": "a2974d8b260a"
+  },
+  "entry:gpai-cop:cov": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0044"
+    ],
+    "proposals": [
+      "P-0034"
+    ],
+    "note": "All eight listed elements are supported; timing (trigger points, pre-market Framework and Model Report) is also covered but missing.",
+    "missing": null,
+    "hash": "387fa8bed03a"
+  },
+  "entry:gpai-cop:cov:thresh": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0044",
+      "S-0089",
+      "S-0091"
+    ],
+    "proposals": [
+      "P-0030"
+    ],
+    "note": "Measure 4.1 tiers are signatory-defined and capability-based; the 10^25 FLOP figure is the Act's classification presumption, which the Code does not address.",
+    "missing": null,
+    "hash": "8b0bad03f317"
+  },
+  "entry:gpai-cop:cov:elicit": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0044"
+    ],
+    "proposals": [
+      "P-0031"
+    ],
+    "note": "Elicitation is mandated (Appendix 3.2); red-teaming is an example method; external evaluation is required with two exceptions (Appendix 3.5).",
+    "missing": null,
+    "hash": "bfa698bef607"
+  },
+  "entry:gpai-cop:cov:sec": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0044"
+    ],
+    "proposals": [
+      "P-0032"
+    ],
+    "note": "Commitment 6 and Appendix 4 confirmed; no supply-chain measures in the text.",
+    "missing": null,
+    "hash": "3ddd73b40acc"
+  },
+  "entry:gpai-cop:cov:update": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0089",
+      "S-0090",
+      "S-0003"
+    ],
+    "proposals": [
+      "P-0033"
+    ],
+    "note": "AI Office reviews at least every two years (Q&A updated 20 Jul 2026); no revision of the Jul 2025 text found.",
+    "missing": null,
+    "hash": "00cbbbd3ada3"
+  },
+  "entry:gpai-cop:cov:eval": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Measure 3.2 requires at least state-of-the-art model evaluations as specified in Appendix 3. Objective A ties the Code to demonstrating compliance with Articles 53 and 55, which supports the 'operational bridge' description.",
+    "missing": null,
+    "hash": "70805d672dd8"
+  },
+  "edge:gpai-cop|eu-aia": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0003"
+    ],
+    "proposals": [],
+    "note": "Voluntary tool; Commission and AI Board confirmed adequacy; signatories can show compliance by adhering.",
+    "missing": null,
+    "hash": "f187d5c3522d"
+  },
+  "edge:gpai-cop|eu-aio": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0088",
+      "S-0092",
+      "S-0089"
+    ],
+    "proposals": [],
+    "note": "AI Office facilitated drafting, chairs the Signatory Taskforce and reviews the Code at least every two years.",
+    "missing": null,
+    "hash": "27a7640ff2de"
+  },
+  "entry:fmf": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0076",
+      "S-0077",
+      "S-0078",
+      "S-0081",
+      "S-0082"
+    ],
+    "proposals": [],
+    "note": "Members are Amazon, Anthropic, Google, Meta, Microsoft and OpenAI. Anthropic, Google, Microsoft and OpenAI are founders; Amazon and Meta joined 20 May 2024. It is an industry non-profit (co, pow 1, active) that funds research through the AI Safety Fund and publishes evaluation best practices.",
+    "missing": null,
+    "hash": "da37bfb89a0a"
+  },
+  "entry:fmf:desc": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0076",
+      "S-0077",
+      "S-0078",
+      "S-0081",
+      "S-0082"
+    ],
+    "proposals": [],
+    "note": "Members are Amazon, Anthropic, Google, Meta, Microsoft and OpenAI. Anthropic, Google, Microsoft and OpenAI are founders; Amazon and Meta joined 20 May 2024. It is an industry non-profit (co, pow 1, active) that funds research through the AI Safety Fund and publishes evaluation best practices.",
+    "missing": null,
+    "hash": "9feccfe40325"
+  },
+  "entry:fmf:cov": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0076",
+      "S-0077",
+      "S-0078",
+      "S-0081",
+      "S-0082"
+    ],
+    "proposals": [],
+    "note": "Members are Amazon, Anthropic, Google, Meta, Microsoft and OpenAI. Anthropic, Google, Microsoft and OpenAI are founders; Amazon and Meta joined 20 May 2024. It is an industry non-profit (co, pow 1, active) that funds research through the AI Safety Fund and publishes evaluation best practices.",
+    "missing": null,
+    "hash": "cd02e5419308"
+  },
+  "entry:fmf:cov:eval": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0076",
+      "S-0077",
+      "S-0078",
+      "S-0081",
+      "S-0082"
+    ],
+    "proposals": [],
+    "note": "Members are Amazon, Anthropic, Google, Meta, Microsoft and OpenAI. Anthropic, Google, Microsoft and OpenAI are founders; Amazon and Meta joined 20 May 2024. It is an industry non-profit (co, pow 1, active) that funds research through the AI Safety Fund and publishes evaluation best practices.",
+    "missing": null,
+    "hash": "de3b3c821635"
+  },
+  "entry:fmf:context": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0079",
+      "S-0080",
+      "S-0078",
+      "S-0082",
+      "S-0081"
+    ],
+    "proposals": [
+      "P-0035"
+    ],
+    "note": "Grants and forums confirmed. 'Doesn't impose obligations' omits the members' information-sharing agreement (Mar 2025, in use per Feb 2026 update). The FMF files public comments and testimony but states it does not lobby. Critics' views are analytic.",
+    "missing": null,
+    "hash": "6e36b3fd87f4"
+  },
+  "entry:fmf:cov:acct": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0079",
+      "S-0080",
+      "S-0078",
+      "S-0082",
+      "S-0081"
+    ],
+    "proposals": [
+      "P-0035"
+    ],
+    "note": "Grants and forums confirmed. 'Doesn't impose obligations' omits the members' information-sharing agreement (Mar 2025, in use per Feb 2026 update). The FMF files public comments and testimony but states it does not lobby. Critics' views are analytic.",
+    "missing": null,
+    "hash": "60cead5d2200"
+  },
+  "edge:fmf|rsp": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0077",
+      "S-0082"
+    ],
+    "proposals": [],
+    "note": "FMF names Anthropic, Google, Microsoft and OpenAI as founding members and announced Meta (with Amazon) joining on 20 May 2024.",
+    "missing": null,
+    "hash": "f10ae3ac3107"
+  },
+  "edge:fmf|prep": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0077",
+      "S-0082"
+    ],
+    "proposals": [],
+    "note": "FMF names Anthropic, Google, Microsoft and OpenAI as founding members and announced Meta (with Amazon) joining on 20 May 2024.",
+    "missing": null,
+    "hash": "229324004787"
+  },
+  "edge:fmf|fsf": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0077",
+      "S-0082"
+    ],
+    "proposals": [],
+    "note": "FMF names Anthropic, Google, Microsoft and OpenAI as founding members and announced Meta (with Amazon) joining on 20 May 2024.",
+    "missing": null,
+    "hash": "b4243e957c08"
+  },
+  "edge:fmf|meta-faif": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0077",
+      "S-0082"
+    ],
+    "proposals": [],
+    "note": "FMF names Anthropic, Google, Microsoft and OpenAI as founding members and announced Meta (with Amazon) joining on 20 May 2024.",
+    "missing": null,
+    "hash": "a75d5174a824"
+  },
+  "entry:pai": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0084",
+      "S-0085",
+      "S-0083"
+    ],
+    "proposals": [],
+    "note": "Non-profit partnership of academic, civil society, industry and media organisations (co, pow 1, active). It works through guidance and frameworks rather than binding commitments.",
+    "missing": null,
+    "hash": "42cb28c070ac"
+  },
+  "entry:pai:cov": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0084",
+      "S-0085",
+      "S-0083"
+    ],
+    "proposals": [],
+    "note": "Non-profit partnership of academic, civil society, industry and media organisations (co, pow 1, active). It works through guidance and frameworks rather than binding commitments.",
+    "missing": null,
+    "hash": "f2c1e9b2c10d"
+  },
+  "entry:pai:cov:acct": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0084",
+      "S-0085",
+      "S-0083"
+    ],
+    "proposals": [],
+    "note": "Non-profit partnership of academic, civil society, industry and media organisations (co, pow 1, active). It works through guidance and frameworks rather than binding commitments.",
+    "missing": null,
+    "hash": "4cbf370a9f2d"
+  },
+  "entry:pai:desc": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0083",
+      "S-0085",
+      "S-0086"
+    ],
+    "proposals": [],
+    "note": "Facts checked: founded 2016; synthetic media framework and shared-prosperity (labour) guidelines exist. 'Less central to frontier debate' and 'most concrete output' are comparisons. Note that PAI also has a foundation-model deployment framework (see pai-frontier-work).",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "c8309efa687f"
+  },
+  "entry:pai:cov:mit": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0083",
+      "S-0085",
+      "S-0086"
+    ],
+    "proposals": [],
+    "note": "Facts checked: founded 2016; synthetic media framework and shared-prosperity (labour) guidelines exist. 'Less central to frontier debate' and 'most concrete output' are comparisons. Note that PAI also has a foundation-model deployment framework (see pai-frontier-work).",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "08162a84f6bd"
+  },
+  "entry:pai:context": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0085",
+      "S-0086",
+      "S-0084"
+    ],
+    "proposals": [
+      "P-0036"
+    ],
+    "note": "Membership mix confirmed. 'Hasn't fully repositioned' leaves out the 2023 foundation-model guidance and the 2026 provider-tracking report.",
+    "missing": null,
+    "hash": "6d1b95d2759c"
   }
 }
