@@ -1,0 +1,99 @@
+{
+  "id": "2026-10-10-trial1b",
+  "label": "Trial 1 completion — source access retest; RSP, RAISE, EU AI Act, GPAI Code, Frontier AI EO, China AI Law",
+  "partial": true,
+  "started_at": "2026-10-10T16:29:13Z",
+  "finished_at": null,
+  "scope": {
+    "entries": [
+      "rsp",
+      "eu-aia",
+      "gpai-cop",
+      "us-frontier-access-eo",
+      "cn-ai-law",
+      "ny-raise"
+    ],
+    "note": null
+  },
+  "discovery": [
+    {
+      "area": "Anthropic (lab, B4) — policy text and compliance documents (retest)",
+      "summary": "With access restored I read the RSP v3.4 policy PDF in full, the v3.0 PDF, the Frontier Compliance Framework v2 (Trust Center; needed a headless browser) and Anthropic's Dec 2025 SB 53 post. Every change found is an update to the existing rsp entry, so no new entry is proposed.",
+      "queries": [
+        "anthropic.com/responsible-scaling-policy (re-fetched; lists v3.4 as current; no newer version as of 2026-10-10)",
+        "RSP v3.4 PDF (www-cdn.anthropic.com)",
+        "RSP v3.0 PDF (anthropic.com/responsible-scaling-policy/rsp-v3-0)",
+        "Anthropic \"Frontier Compliance Framework\" SB 53 RAISE (web search for leads)",
+        "trust.anthropic.com Frontier AI Compliance section (headless Chromium)",
+        "anthropic.com/news/compliance-framework-SB53"
+      ],
+      "limits": "Other labs were not searched; that is outside this trial. The Feb and Aug 2026 Risk Reports and system cards were not read, so implementation evidence and elicitation practice were not checked.",
+      "candidates": [
+        {
+          "name": "RSP v3 structure (thresholds table, ASLs only for current safeguards, competitor-dependent delay commitments)",
+          "result": "update to existing entry",
+          "reason": "Replaces the ASL-ladder and unconditional-pause wording on rsp.",
+          "proposal": "P-0010",
+          "sources": [
+            "S-0006",
+            "S-0008"
+          ]
+        },
+        {
+          "name": "Halting commitments under RSP v3 (Appendix A)",
+          "result": "update to existing entry",
+          "reason": "Delay commitments now depend on competitor scenarios.",
+          "proposal": "P-0013",
+          "sources": [
+            "S-0006",
+            "S-0008"
+          ]
+        },
+        {
+          "name": "Frontier Compliance Framework v2 (effective 24 Jul 2026)",
+          "result": "update to existing entry (context) — not a separate entry for now",
+          "reason": "Anthropic's compliance document for California TFAIA and the summary of its EU Code Safety & Security Framework. It is distinct from the RSP. It is noted in the rsp context (P-0010) and the RAISE connection (P-0009), not given its own entry. Whether compliance frameworks deserve entries is a question for the baseline audit, because OpenAI, Google DeepMind and others likely publish equivalents.",
+          "proposal": "P-0010",
+          "sources": [
+            "S-0010",
+            "S-0030"
+          ]
+        },
+        {
+          "name": "RSP Noncompliance Reporting and Anti-Retaliation Policy",
+          "result": "screened out — minor; note for baseline",
+          "reason": "Unchanged from trial 1: an internal compliance policy. The v3.4 governance section (S-0006 §4) already commits to noncompliance reporting and anti-retaliation.",
+          "sources": [
+            "S-0005"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "New York (B2 represented state) — RAISE Act as amended",
+      "summary": "Read the enacted RAISE Act (Chapter 699 of 2025) and the chapter amendment (S8828, Chapter 96 of 2026) on nyassembly.gov. nysenate.gov, the map's current link, serves a Cloudflare bot challenge to automated clients; that is the website's block, not the environment's. The existing ny-raise description checks out.",
+      "queries": [
+        "RAISE Act chapter amendment 2026 bill number (web search for leads)",
+        "nyassembly.gov bill S06953 (2025)",
+        "nyassembly.gov bills A09449 and S08828 (2025)"
+      ],
+      "limits": "Only the transparency, incident-reporting, penalty and effective-date provisions were read. DFS office regulations and the reported Sep 2026 developer registration (a search lead) were not checked.",
+      "candidates": [
+        {
+          "name": "RAISE Act chapter amendment (Ch. 96 of 2026)",
+          "result": "update to existing entry — none needed",
+          "reason": "Already reflected in ny-raise (Mar 27, 2026 amendment; effective Jan 1, 2027).",
+          "sources": [
+            "S-0033"
+          ]
+        },
+        {
+          "name": "DFS office registration of large frontier developers (reported Sep 2026)",
+          "result": "lead — not verified",
+          "reason": "Seen only in search results. If confirmed, it is implementation of ny-raise, not a new mechanism. Check in the baseline audit."
+        }
+      ]
+    }
+  ],
+  "usage": null
+}

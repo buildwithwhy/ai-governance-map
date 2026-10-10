@@ -10,7 +10,7 @@
 //   run usage RUN --text TEXT                usage/cost note (from get_session where available)
 //   run finish RUN [--usage TEXT]
 //   source fetch URL [--type primary|secondary|repo] [--title T] [--publisher P] [--run RUN]
-//   source add URL --status ok|blocked|error --via webfetch|manual|repo [--type ..] [--title ..] [--run RUN]
+//   source add URL --status ok|blocked|error --via webfetch|browser|manual|repo [--note TEXT] [--type ..] [--title ..] [--run RUN]
 //   source passage SID --locator TEXT --text TEXT
 //   source dates SID key=YYYY-MM-DD ...     (published, adopted, signed, in_force, applies_from, effective, ...)
 //   source derived SID --from S-x[,S-y]     SID repeats the account of S-x (e.g. reporting one press release)
@@ -89,6 +89,12 @@ function upsertSource(url, meta) {
 }
 const lastFetch = s => s.fetches[s.fetches.length - 1];
 const accessible = s => !!lastFetch(s) && lastFetch(s).status === 'ok';
+// Plain-language access status: environment denials and website refusals are different blockers.
+const accessLabel = f => !f || !f.status ? 'not fetched'
+  : f.status === 'blocked' ? 'blocked by the environment network policy'
+  : f.status === 'site_blocked' ? 'refused by the website (bot challenge)'
+  : /^http_/.test(f.status) ? `refused by the website (HTTP ${f.status.slice(5)})`
+  : f.status === 'ok' ? `ok${f.via && f.via !== 'curl' ? ` via ${f.via}` : ''}` : f.status;
 
 function htmlToText(html) {
   return html
@@ -111,6 +117,10 @@ function fetchSource(url, o) {
     const [code, finalUrl, ctype] = out.split('\t');
     fetch.http = Number(code); fetch.final_url = finalUrl; fetch.content_type = ctype;
     fetch.status = fetch.http >= 200 && fetch.http < 300 ? 'ok' : `http_${code}`;
+    // A website's own bot challenge (e.g. Cloudflare) is not an environment denial; record it as such.
+    if (fetch.status !== 'ok' && fs.existsSync(raw) && /Just a moment\.\.\.|cf-chl|challenge-platform/.test(fs.readFileSync(raw, 'utf8').slice(0, 20000))) {
+      fetch.status = 'site_blocked'; fetch.note = 'website bot challenge (Cloudflare); the environment allowed the connection';
+    }
   } catch (e) {
     const err = String(e.stderr || e.message);
     fetch.status = /CONNECT tunnel failed, response 403|EGRESS|blocked/i.test(err) ? 'blocked' : 'error';
@@ -409,7 +419,7 @@ function renderEvidence(ev, db) {
   const dates = Object.entries(s.dates || {}).map(([k, v]) => `${k} ${v}`).join(', ');
   const pas = ev.passage ? s.passages.find(p => p.id === ev.passage) : null;
   const out = [`- **${ev.source}** ${s.title || s.url} — <${s.url}>`,
-    `  ${s.type || 'source'} · retrieved ${f.date || '—'} · access: ${f.status || 'not fetched'}${dates ? ` · ${dates}` : ''}`];
+    `  ${s.type || 'source'} · retrieved ${f.date || '—'} · access: ${accessLabel(f)}${dates ? ` · ${dates}` : ''}`];
   if (pas) out.push(`  ${pas.locator}:`, q(pas.text).replace(/^/gm, '  '));
   if (ev.supports) out.push(`  _Supports:_ ${ev.supports}`);
   return out.join('\n');
@@ -569,7 +579,7 @@ function report(id) {
     o.push(`- **${OUTCOMES[outcome]}** — ${items.length} item(s): ${items.map(i => `\`${i}\``).join(', ')}`, `  ${note}`);
     if (r.missing) o.push(`  **Still missing:** ${r.missing}`);
     if (r.conflict) o.push(`  **Conflict:** ${r.conflict.sources.join(' vs ')} on “${r.conflict.disagreement}” — needs a recorded resolution (RUBRIC §7a).`);
-    for (const s of list(srcs)) { const src = db.sources[s]; const f = lastFetch(src) || {}; o.push(`  - ${s} <${src.url}> — ${f.status || 'not fetched'}${f.http ? ` HTTP ${f.http}` : ''} on ${f.date || '—'}`); }
+    for (const s of list(srcs)) { const src = db.sources[s]; const f = lastFetch(src) || {}; o.push(`  - ${s} <${src.url}> — ${accessLabel(f)} on ${f.date || '—'}`); }
   }
   o.push('');
 
@@ -607,7 +617,7 @@ function report(id) {
   const otherKinds = inv.items.filter(i => !i.id.startsWith('entry:') && !per[i.id]).map(i => i.id);
   o.push(`Other inventory items not checked (${otherKinds.length}): connections, gap summaries, FAQ answers, page text and category definitions not listed above.`, '');
   o.push('## Appendix D — sources used', '');
-  for (const s of usedSources) { const src = db.sources[s]; const f = lastFetch(src) || {}; o.push(`- ${s} ${src.title || ''} <${src.url}> — ${src.type || 'source'} · ${f.status || 'not fetched'} ${f.date || ''}${f.sha256 ? ` · sha256:${f.sha256}` : ''}${src.derived_from ? ` · repeats ${src.derived_from.join(', ')}` : ''}`); }
+  for (const s of usedSources) { const src = db.sources[s]; const f = lastFetch(src) || {}; o.push(`- ${s} ${src.title || ''} <${src.url}> — ${src.type || 'source'} · ${accessLabel(f)} ${f.date || ''}${f.sha256 ? ` · sha256:${f.sha256}` : ''}${src.derived_from ? ` · repeats ${src.derived_from.join(', ')}` : ''}`); }
   const text = o.join('\n') + '\n';
   fs.writeFileSync(F.report(id), text);
   console.log(text);

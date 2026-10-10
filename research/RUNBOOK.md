@@ -4,7 +4,8 @@ This is how Claude carries out a research run and records decisions. The command
 
 ## 0. Preconditions
 
-- The environment's network access must reach government, legislature and lab sites. Test with `node tools/research.js source fetch https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai`. If it returns `blocked`, stop and report; do not substitute search snippets for sources.
+- The environment's network access must reach government, legislature and lab sites. Test with `node tools/research.js source fetch https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai`. If it returns `blocked` (the environment's network policy denied the connection), stop and report; do not substitute search snippets for sources.
+- `site_blocked` or `http_4xx` means the environment connected but the website refused, usually a Cloudflare bot challenge (nysenate.gov, congress.gov and leginfo.legislature.ca.gov as of Oct 2026). Use another official copy of the same text, e.g. nyassembly.gov for New York bills. JavaScript-only pages (trust.anthropic.com) can be opened in headless Chromium through the session proxy. Record those with `source add … --via browser --note "<how, content hash>"`.
 - `node tools/check.js` passes, or reports only `KNOWN` issues.
 - Read SCOPE.md and RUBRIC.md. Read open proposals with `node tools/research.js list`.
 

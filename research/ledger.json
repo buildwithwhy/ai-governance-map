@@ -1,5 +1,5 @@
 {
-  "next": 13,
+  "next": 14,
   "proposals": [
     {
       "id": "P-0001",
@@ -349,7 +349,7 @@
     },
     {
       "id": "P-0005",
-      "fingerprint": "717e1aa35445",
+      "fingerprint": "d0dd5056634c",
       "targets": [
         "entry:rsp:desc"
       ],
@@ -490,33 +490,134 @@
             "faq:what-is-sandbagging-in-ai-safety"
           ],
           "hash": "727ae2c001cc"
+        },
+        {
+          "v": 3,
+          "created": "2026-10-10T16:40:02Z",
+          "run": "2026-10-10-trial1b",
+          "author": "claude",
+          "title": "Anthropic RSP: current version v3.4 (Jul 2026) and how v3 is structured",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "rsp",
+              "field": "desc",
+              "from": "Responsible Scaling Policy (v3.0, Feb 2026). AI Safety Levels. Capability thresholds trigger required safeguards. Updated ~4× since 2023.",
+              "to": "Responsible Scaling Policy (v3.4, effective Jul 2026; rewritten as v3.0 in Feb 2026). Maps capability thresholds to Anthropic's planned safeguards and to recommended industry-wide safeguards. Revised 8× since v1.0 (Sep 2023)."
+            }
+          ],
+          "why": "The map names v3.0 (Feb 2026), but v3.1–v3.4 followed; v3.4 took effect 8 Jul 2026. It also says '~4×' where the version history shows eight revisions. And the retained phrases 'AI Safety Levels. Capability thresholds trigger required safeguards.' describe the pre-v3 policy.",
+          "rationale": "Revised from v2 now that the v3.4 policy text could be read. Only the middle sentence changed. v2 kept 'AI Safety Levels. Capability thresholds trigger required safeguards.' unverified. The v3.4 text shows that ASLs now only label the safeguards kept for current models (Appendix B). Its thresholds table maps each threshold to Anthropic's planned mitigations and to industry-wide recommendations, which Anthropic says it cannot commit to follow unilaterally (§1). The version, date and revision count are unchanged from v2, which you accepted.",
+          "evidence": [
+            {
+              "source": "S-0005",
+              "passage": "S-0005#1",
+              "stance": "supports",
+              "supports": "Version list and effective dates (v3.4 effective 8 Jul 2026; v1.0 19 Sep 2023)"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#17",
+              "stance": "supports",
+              "supports": "Changelog in the v3.4 policy itself lists v1.0 to v3.4"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#3",
+              "stance": "supports",
+              "supports": "Thresholds table: Anthropic plan column vs industry-wide recommendations column; no unilateral commitment to the latter"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#14",
+              "stance": "supports",
+              "supports": "ASLs now refer only to present levels of mitigations"
+            },
+            {
+              "source": "S-0005",
+              "passage": "S-0005#4",
+              "stance": "supports",
+              "supports": "v3.0 was a comprehensive rewrite"
+            }
+          ],
+          "uncertainty": "None material on the facts. The wording is a compression: 'planned safeguards' covers the company column of the §1 table, which the policy says summarises commitments made elsewhere in the policy and its Roadmap.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "faq:which-ai-labs-have-published-frontier-safety-fra": "needs change: see P-0010 v3",
+            "gap:mit": "checked: 'Anthropic's ASL deployment safeguards' is still accurate, since v3.4 keeps ASL-3 protections for current models (S-0006#6)",
+            "edge:ca-sb53|rsp": "checked: consistent; Anthropic says SB 53 formalises practices labs followed voluntarily (S-0030). Its SB 53 compliance document is the separate FCF (see P-0010 v3 context)"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:prep:cov:thresh",
+            "entry:fsf:context",
+            "entry:fsf:cov:thresh",
+            "entry:fsf:cov:timing",
+            "entry:fsf:cov:sec",
+            "entry:fsf:cov:halt",
+            "entry:fsf:cov:acct",
+            "entry:fsf:cov:update",
+            "entry:meta-faif:cov:thresh",
+            "entry:meta-faif:cov:sec",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "edge:ca-sb53|rsp",
+            "edge:seoul-commit|rsp",
+            "edge:gpai-cop|rsp",
+            "edge:fmf|rsp",
+            "edge:metr|rsp",
+            "edge:apollo|rsp",
+            "edge:uk-aisi|rsp",
+            "gap:mit",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety"
+          ],
+          "hash": "d15839389f3d"
         }
       ],
       "decision": {
-        "status": "accepted",
-        "v": 2,
-        "hash": "727ae2c001cc",
-        "date": "2026-10-09",
-        "note": "Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'",
-        "revisit_after": null,
-        "edited": false
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": "2026-10-10",
+        "note": "v3: wording changed — needs renewed approval"
       },
-      "decision_log": [],
+      "decision_log": [
+        {
+          "status": "accepted",
+          "v": 2,
+          "hash": "727ae2c001cc",
+          "date": "2026-10-09",
+          "note": "Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'",
+          "revisit_after": null,
+          "edited": false
+        }
+      ],
       "applied": null,
       "research": {
-        "status": "needs-source-access",
-        "missing": [
-          "RSP v3.4 policy text (www-cdn.anthropic.com PDF, blocked): Appendix A, Appendix B and the main sections on capability thresholds, safeguards and pausing, to verify or revise the retained 'AI Safety Levels / thresholds trigger required safeguards' wording"
-        ],
+        "status": "verified",
+        "missing": [],
         "linked": [
-          "P-0010"
+          "P-0010",
+          "P-0013",
+          "P-0009"
         ],
         "apply_together": [
           "P-0005",
           "P-0006",
-          "P-0007"
+          "P-0007",
+          "P-0010",
+          "P-0013"
         ],
-        "updated": "2026-10-09"
+        "updated": "2026-10-10"
       }
     },
     {
@@ -614,10 +715,12 @@
         "apply_together": [
           "P-0005",
           "P-0006",
-          "P-0007"
+          "P-0007",
+          "P-0010",
+          "P-0013"
         ],
-        "note": "Verified from Anthropic's version list and update log. Held with P-0005 so the RSP entry is not left internally inconsistent (desc v3.0 vs notes v3.4).",
-        "updated": "2026-10-09"
+        "note": "Group widened 2026-10-10: the RSP entry must be updated in one release so it stays coherent (P-0010 and P-0013 replace the ASL and pause wording).",
+        "updated": "2026-10-10"
       }
     },
     {
@@ -715,10 +818,12 @@
         "apply_together": [
           "P-0005",
           "P-0006",
-          "P-0007"
+          "P-0007",
+          "P-0010",
+          "P-0013"
         ],
-        "note": "Verified from Anthropic's v3 announcement and RSP page. Held with P-0005.",
-        "updated": "2026-10-09"
+        "note": "Group widened 2026-10-10: the RSP entry must be updated in one release so it stays coherent (P-0010 and P-0013 replace the ASL and pause wording).",
+        "updated": "2026-10-10"
       }
     },
     {
@@ -805,11 +910,108 @@
             "faq:what-is-sandbagging-in-ai-safety"
           ],
           "hash": "7990ce2259ba"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T16:41:12Z",
+          "run": "2026-10-10-trial1b",
+          "author": "claude",
+          "title": "Connection Seoul commitments ↔ Anthropic RSP: fix chronology",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_edge",
+              "a": "seoul-commit",
+              "b": "rsp",
+              "from": "Seoul commitments triggered RSP's first public version",
+              "to": "RSP's first version (Sep 2023) predates the Seoul commitments, which asked signatories to publish comparable frameworks"
+            }
+          ],
+          "why": "The connection asserts a causal sequence that is backwards: RSP v1.0 took effect 19 Sep 2023, and the Seoul summit was May 2024.",
+          "rationale": "The date comes from Anthropic's version list. The second clause restates what the map already says about Seoul (ai-summits coverage note).",
+          "evidence": [
+            {
+              "source": "S-0005",
+              "passage": "S-0005#1",
+              "supports": "v1.0 effective 19 Sep 2023"
+            },
+            {
+              "source": "S-0035",
+              "passage": "S-0035#1",
+              "stance": "supports",
+              "supports": "Seoul commitments published 21 May 2024"
+            },
+            {
+              "source": "S-0034",
+              "passage": "S-0034#1",
+              "stance": "supports",
+              "supports": "Signatories undertook to publish a safety framework focused on severe risks"
+            },
+            {
+              "source": "S-0034",
+              "passage": "S-0034#2",
+              "stance": "supports",
+              "supports": "Anthropic is a signatory"
+            }
+          ],
+          "uncertainty": "Both halves now verified against primary sources (Anthropic version list; UK Government publication of the Seoul commitments, 21 May 2024). The same chronology problem probably affects 'Seoul commitments triggered the Preparedness Framework' (OpenAI) and possibly the DeepMind connection; outside this trial and queued for the baseline audit.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "edge:seoul-commit|prep": "likely same chronology error — check in baseline",
+            "edge:seoul-commit|fsf": "check chronology in baseline"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ai-summits:desc",
+            "entry:ai-summits:context",
+            "entry:ai-summits:cov:thresh",
+            "entry:ai-summits:cov:update",
+            "entry:hiroshima:context",
+            "entry:hiroshima:cov:eval",
+            "entry:delhi-commit:desc",
+            "entry:delhi-commit:context",
+            "entry:delhi-commit:cov:acct",
+            "edge:ai-summits|seoul-commit",
+            "edge:seoul-commit|prep",
+            "edge:seoul-commit|fsf",
+            "edge:seoul-commit|meta-faif",
+            "edge:seoul-commit|xai-rmf",
+            "gap:halt",
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:prep:cov:thresh",
+            "entry:fsf:context",
+            "entry:fsf:cov:thresh",
+            "entry:fsf:cov:timing",
+            "entry:fsf:cov:sec",
+            "entry:fsf:cov:halt",
+            "entry:fsf:cov:acct",
+            "entry:fsf:cov:update",
+            "entry:meta-faif:cov:thresh",
+            "entry:meta-faif:cov:sec",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "edge:ca-sb53|rsp",
+            "edge:gpai-cop|rsp",
+            "edge:fmf|rsp",
+            "edge:metr|rsp",
+            "edge:apollo|rsp",
+            "edge:uk-aisi|rsp",
+            "gap:mit",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety"
+          ],
+          "hash": "7990ce2259ba"
         }
       ],
       "decision": {
         "status": "accepted",
-        "v": 1,
+        "v": 2,
         "hash": "7990ce2259ba",
         "date": "2026-10-09",
         "note": "Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'",
@@ -820,13 +1022,13 @@
       "applied": null,
       "research": {
         "status": "verified",
-        "note": "Chronology verified externally (RSP v1.0 effective 19 Sep 2023, S-0005). The clause about what Seoul asked signatories to do restates the map's existing seoul-commit / ai-summits text (internal consistency), not re-verified externally.",
-        "updated": "2026-10-09"
+        "note": "Evidence-only revision 2026-10-10: the Seoul half is now verified on gov.uk (S-0034, S-0035). Wording unchanged, so the 2026-10-09 approval carries over.",
+        "updated": "2026-10-10"
       }
     },
     {
       "id": "P-0009",
-      "fingerprint": "8e8a087f8ae4",
+      "fingerprint": "5a00197aeeab",
       "targets": [
         "edge:ny-raise|rsp"
       ],
@@ -977,6 +1179,119 @@
             "faq:what-is-sandbagging-in-ai-safety"
           ],
           "hash": "0b3ff44dfb2d"
+        },
+        {
+          "v": 3,
+          "created": "2026-10-10T16:40:02Z",
+          "run": "2026-10-10-trial1b",
+          "author": "claude",
+          "title": "New connection NY RAISE ↔ Anthropic RSP: RAISE's framework requirement and Anthropic's separate compliance framework",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "add_edge",
+              "a": "ny-raise",
+              "b": "rsp",
+              "rel": "RAISE requires a published frontier AI framework from Jan 2027; Anthropic says it addresses such requirements with documents including its Frontier Compliance Framework, which is separate from the RSP"
+            }
+          ],
+          "why": "The map connects SB 53 and the EU Code to the RSP but not RAISE. Anthropic names all three as framework-publication requirements it addresses. The official texts now settle both open points: what RAISE requires and from when, and how the compliance document relates to the RSP.",
+          "rationale": "Revised from v2 after reading the primary sources. (1) RAISE, as rewritten by Chapter 96 of 2026 (S8828, signed 27 Mar 2026), requires a large frontier developer to 'write, implement, comply with, and clearly and conspicuously publish' a frontier AI framework. It takes effect 1 Jan 2027 (S-0033#2, #3). This RAISE half is now stated in the map's own voice, because the statute was read. (2) Anthropic says SB 53, RAISE and the EU Codes are 'requirements Anthropic addresses through public documentation including its Frontier Compliance Framework' (S-0007#6). The FCF says it 'is distinct from our Responsible Scaling Policy' (S-0010#1). v2 did not say the FCF is a separate document, so a reader would have taken the RSP to be the RAISE compliance route.",
+          "evidence": [
+            {
+              "source": "S-0033",
+              "passage": "S-0033#2",
+              "stance": "supports",
+              "supports": "RAISE §1421(1): write, implement, comply with and publish a frontier AI framework"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#3",
+              "stance": "supports",
+              "supports": "Effective 1 Jan 2027"
+            },
+            {
+              "source": "S-0033",
+              "passage": "S-0033#1",
+              "stance": "supports",
+              "supports": "Chapter 96 of 2026, signed 27 Mar 2026"
+            },
+            {
+              "source": "S-0007",
+              "passage": "S-0007#6",
+              "stance": "supports",
+              "supports": "Anthropic: RAISE among requirements it addresses via documents including the FCF"
+            },
+            {
+              "source": "S-0010",
+              "passage": "S-0010#1",
+              "stance": "supports",
+              "supports": "FCF distinct from the RSP"
+            },
+            {
+              "source": "S-0010",
+              "passage": "S-0010#2"
+            },
+            {
+              "source": "S-0030",
+              "passage": "S-0030#1",
+              "stance": "supports",
+              "supports": "FCF is the compliance framework for SB 53 and other requirements; RSP stays voluntary"
+            }
+          ],
+          "uncertainty": "FCF v2 (24 Jul 2026) names only California's TFAIA and the EU Code, not RAISE, which is not yet in effect. So 'addresses such requirements' rests on Anthropic's general statement of Feb 2026, not on a RAISE-specific compliance document. Whether a statute-to-compliance-document link belongs on the RSP entry at all is an editorial choice: the map has no FCF entry, and its existing SB 53 and EU Code connections use the RSP.",
+          "confidence": "medium",
+          "question": "Accept this connection on the RSP entry, or prefer no RAISE↔RSP connection until the map decides how to represent compliance frameworks (for example, noting the FCF in the RSP entry, as P-0010 v3 does)?",
+          "knock_on_notes": {
+            "entry:ny-raise:desc": "checked against Chapter 699 of 2025 and Chapter 96 of 2026: signed 19 Dec 2025, amended 27 Mar 2026, effective 1 Jan 2027, penalties $1M/$3M; all accurate",
+            "entry:ny-raise:cov:timing": "checked: 72-hour incident reporting (§1422(3)(a)) accurate",
+            "edge:ny-raise|ca-sb53": "not checked beyond §1421 and the >$500M revenue definition, which mirror SB 53"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:eu-aia:cov:thresh",
+            "entry:kr-ai:cov:thresh",
+            "entry:seoul-commit:context",
+            "entry:co-doi:context",
+            "edge:us-preempt|ny-raise",
+            "edge:ny-raise|ca-sb53",
+            "edge:co-doi|ny-raise",
+            "gap:timing",
+            "gap:acct",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:how-is-california-sb-53-different-from-the-ny-ra",
+            "text:footer-sources",
+            "text:gap-default",
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:prep:cov:thresh",
+            "entry:fsf:context",
+            "entry:fsf:cov:thresh",
+            "entry:fsf:cov:timing",
+            "entry:fsf:cov:sec",
+            "entry:fsf:cov:halt",
+            "entry:fsf:cov:acct",
+            "entry:fsf:cov:update",
+            "entry:meta-faif:cov:thresh",
+            "entry:meta-faif:cov:sec",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "edge:ca-sb53|rsp",
+            "edge:seoul-commit|rsp",
+            "edge:gpai-cop|rsp",
+            "edge:fmf|rsp",
+            "edge:metr|rsp",
+            "edge:apollo|rsp",
+            "edge:uk-aisi|rsp",
+            "gap:mit",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety"
+          ],
+          "hash": "8d3b104ef303"
         }
       ],
       "decision": {
@@ -999,18 +1314,27 @@
       ],
       "applied": null,
       "research": {
-        "status": "needs-source-access",
-        "missing": [
-          "Anthropic Frontier Compliance Framework document (trust.anthropic.com, blocked): its relationship to the RSP",
-          "RAISE Act official text (nysenate.gov S6953-B and chapter amendment, blocked): the framework-publication requirement and effective date"
-        ],
-        "updated": "2026-10-09"
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10",
+        "linked": [
+          "P-0005",
+          "P-0010"
+        ]
       }
     },
     {
       "id": "P-0010",
-      "fingerprint": "4f53cda18c2b",
-      "targets": [],
+      "fingerprint": "dd4bb53ecdd7",
+      "targets": [
+        "entry:rsp:context",
+        "entry:rsp:cov:thresh",
+        "entry:rsp:cov:eval",
+        "entry:rsp:cov:timing",
+        "entry:rsp:cov:sec",
+        "entry:rsp:cov:mit",
+        "text:index.html:664bec296b96"
+      ],
       "resolves_checks": [],
       "versions": [
         {
@@ -1092,6 +1416,210 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 3,
+          "created": "2026-10-10T16:40:02Z",
+          "run": "2026-10-10-trial1b",
+          "author": "claude",
+          "title": "Anthropic RSP: describe the v3 structure (thresholds, ASLs, safeguards, evaluations, timing) and the separate compliance framework",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "rsp",
+              "field": "context",
+              "from": "Defines AI Safety Levels (ASLs) — currently up to ASL-3 — each tied to specific capability evaluations and mandatory safeguards: weight-security tiers, deployment mitigations, model-autonomy controls. The original published framework that set the template for the field; commitments include not deploying at a given ASL until the corresponding mitigations are in place. Subjected to detailed external scrutiny in EU GPAI Code drafting and California SB 53.",
+              "to": "Since v3.0 (Feb 2026) the policy separates Anthropic's own plans from more ambitious industry-wide recommendations, which Anthropic says it cannot commit to follow unilaterally. ASLs now label only the safeguards kept for current models (ASL-3). It adds a Frontier Safety Roadmap of public goals (not hard commitments) and Risk Reports every 3–6 months. The original published framework that set the template for the field. Anthropic's documents for California SB 53 and the EU GPAI Code are a separate Frontier Compliance Framework; the RSP remains its voluntary policy."
+            },
+            {
+              "op": "set_cov",
+              "entity": "rsp",
+              "cat": "thresh",
+              "from": "AI Safety Levels (ASL-1, 2, 3, currently up to ASL-3) trigger graduated safeguards as capabilities cross specified evaluations. The original published framework that set the threshold-and-tier template; SB 53 codifies the underlying norm.",
+              "to": "Four capability thresholds (non-novel and novel chemical/biological weapons, misaligned AI in high-stakes settings, automated R&D), each mapped to Anthropic's planned mitigations and to recommended industry-wide mitigations. The original published framework that set the threshold-and-tier template; SB 53 codifies the underlying norm."
+            },
+            {
+              "op": "set_cov",
+              "entity": "rsp",
+              "cat": "eval",
+              "from": "Pre-deployment evaluations at each ASL covering CBRN, cyber, autonomous-replication, and AI R&D capabilities. Methodology updated as evaluations mature and external evaluator findings come in.",
+              "to": "Risk Reports must present capability and alignment evaluations for each threat model, run internally and by external parties as appropriate. Since v3.0 the policy does not pre-specify which evaluations show that a threshold has been crossed."
+            },
+            {
+              "op": "set_cov",
+              "entity": "rsp",
+              "cat": "timing",
+              "from": "Evaluations run pre-training, pre-deployment, and during ongoing operation; thresholds re-checked as capabilities scale. Among the most comprehensive timing regimes in any framework.",
+              "to": "Risk Reports every 3–6 months cover all publicly deployed models and certain internally deployed ones. Off-cycle risk analyses are due when a significantly more capable model is publicly deployed, and within 30 days of identifying a higher-risk internal model."
+            },
+            {
+              "op": "set_cov",
+              "entity": "rsp",
+              "cat": "sec",
+              "from": "Weight-security tier rises with each ASL — ASL-3 mandates substantially stronger protections against insider threat, exfiltration, and supply-chain attacks. Tied directly to the model's capability profile.",
+              "to": "Anthropic commits to maintain or improve the ASL-3 security controls it applies to current models, and plans 'moonshot' security R&D for the automated R&D threshold. The security roughly in line with RAND SL4 that it recommends industry-wide at higher thresholds is not a unilateral commitment."
+            },
+            {
+              "op": "set_cov",
+              "entity": "rsp",
+              "cat": "mit",
+              "from": "Deployment safeguards by ASL include refusal training, monitoring, abuse detection, and (at higher ASLs) deployment-environment controls. Specific safeguards published for each tier.",
+              "to": "Current ASL-3 deployment protections include classifier guards, access controls for trusted users, red-teaming, bug bounties and threat intelligence. For higher thresholds v3 no longer lists required controls; it recommends that developers make a strong argument that risks are contained."
+            },
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "Anthropic (Responsible Scaling Policy, with AI Safety Levels)",
+              "to": "Anthropic (Responsible Scaling Policy, with capability thresholds and periodic Risk Reports)",
+              "count": 1
+            }
+          ],
+          "why": "The entry describes the pre-v3 policy: an ASL ladder in which crossing capability evaluations triggers specified safeguards for each tier. v3 (Feb 2026, now v3.4) replaced that structure. The ASL wording also feeds the FAQ answer on lab frameworks, which search engines and LLMs ingest. The entry also implies the RSP is what was scrutinised under SB 53 and the EU Code. Anthropic says its compliance document for both is a separate Frontier Compliance Framework.",
+          "rationale": "Each edit is taken from the v3.4 policy text (S-0006); v3.0 (S-0008) already had the same structure. Context: two-tier structure and no unilateral commitment to the industry column (§1, Introduction); ASLs only for present mitigations (Appendix B); Roadmap goals are not hard commitments, and Risk Reports are new (Introduction). The FCF sentence comes from the FCF itself (S-0010#1) and Anthropic's Dec 2025 post (S-0030#1). The RSP also says it handles SB 53-type requirements in separate documents (S-0006#15). Thresholds: the four rows of the §1 table. Evaluations: §3.3 item 3; §1 says evaluations cannot be specified in advance. Timing: §3.1. Security: §1 table, row 1 (ASL-3 controls), the automated R&D row (moonshot security R&D) and the industry column (RAND SL4). Mitigations: §1 table, row 1, and Appendix B. Removed as outdated or unsupported: 'currently up to ASL-3 … each tied to specific capability evaluations and mandatory safeguards'; 'commitments include not deploying at a given ASL until the corresponding mitigations are in place' (pre-v3; v2.0 changelog); 'Subjected to detailed external scrutiny in EU GPAI Code drafting and California SB 53' (not supported by anything inspected, and the compliance document is the FCF); 'autonomous-replication' (replaced by a checkpoint in v2.0, absent from v3); 'pre-training' evaluation timing (absent from v3); 'Specific safeguards published for each tier' (contradicted by Appendix B); and the comparative claim 'Among the most comprehensive timing regimes in any framework' (not checked against other labs).",
+          "evidence": [
+            {
+              "source": "S-0006",
+              "passage": "S-0006#1",
+              "stance": "supports",
+              "supports": "Company plans separated from industry-wide recommendations; no unilateral commitment to the latter"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#2",
+              "stance": "supports",
+              "supports": "Roadmap goals are not hard commitments; Risk Reports are a new requirement"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#3",
+              "stance": "supports",
+              "supports": "Thresholds table structure"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#4",
+              "stance": "supports",
+              "supports": "Recommendations structured around safety arguments rather than ASLs; evaluations not specified in advance"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#5",
+              "stance": "supports",
+              "supports": "The four thresholds"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#6",
+              "stance": "supports",
+              "supports": "Current ASL-3 deployment and security protections"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#7",
+              "stance": "supports",
+              "supports": "Moonshot security R&D; RAND SL4 in the industry column"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#8",
+              "stance": "supports",
+              "supports": "Risk Report cadence, coverage, off-cycle triggers"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#9",
+              "stance": "supports",
+              "supports": "Evaluations in Risk Reports, internal and external as appropriate"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#14",
+              "stance": "supports",
+              "supports": "ASLs only for present mitigations; no specific control lists for future levels"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#15",
+              "stance": "supports",
+              "supports": "Regulatory requirements handled in separate documents"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#16",
+              "stance": "supports",
+              "supports": "Pre-v3 commitment not to train or deploy without adequate safeguards (now superseded)"
+            },
+            {
+              "source": "S-0008",
+              "passage": "S-0008#2",
+              "stance": "supports",
+              "supports": "v3.0 already used safety arguments rather than ASLs"
+            },
+            {
+              "source": "S-0010",
+              "passage": "S-0010#1",
+              "stance": "supports",
+              "supports": "FCF distinct from RSP; FCF is the SB 53 framework and the EU Code summary"
+            },
+            {
+              "source": "S-0030",
+              "passage": "S-0030#1",
+              "stance": "supports",
+              "supports": "FCF is the compliance framework; RSP remains voluntary policy"
+            },
+            {
+              "source": "S-0007",
+              "passage": "S-0007#1",
+              "stance": "supports",
+              "supports": "Two sets of mitigations (announcement)"
+            }
+          ],
+          "uncertainty": "The policy text settles what the RSP says. It does not show how Anthropic implements it. The sentences on ASL-3 protections describe commitments, not audited practice. 'The original published framework that set the template' and 'SB 53 codifies the underlying norm' are carried over; Anthropic's own account supports them (S-0007, S-0030), but no independent source was checked. cov.elicit and cov.acct's first sentence are untouched and unverified.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "gap:mit": "checked, still accurate: 'Anthropic's ASL deployment safeguards' matches v3.4's ASL-3 protections (S-0006#6)",
+            "gap:halt": "see P-0013: 'Every lab framework includes it' is still literally true for Anthropic, whose v3 delay commitments are conditional on competitors; other labs not checked",
+            "faq:which-ai-labs-have-published-frontier-safety-fra": "changed here (Anthropic clause only); the other labs' descriptions are not checked",
+            "entry:rsp:cov:elicit": "not changed: METR/UK AISI participation and elicitation methods are not in the policy text; needs system cards or Risk Reports (baseline audit)",
+            "entry:rsp:cov:acct": "P-0007 (accepted) keeps 'Subjected to external scrutiny in EU GPAI Code drafting and California SB 53' as carried-over text; consider in the baseline audit",
+            "edge:gpai-cop|rsp": "checked: FCF says Anthropic Ireland signed the EU Code (S-0010#1); 'all three chapters' not checked here"
+          },
+          "unverified_carryover": [
+            "'The original published framework that set the template for the field' (context) and '…set the threshold-and-tier template; SB 53 codifies the underlying norm' (thresh): Anthropic's own account only"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:prep:cov:thresh",
+            "entry:fsf:context",
+            "entry:fsf:cov:thresh",
+            "entry:fsf:cov:timing",
+            "entry:fsf:cov:sec",
+            "entry:fsf:cov:halt",
+            "entry:fsf:cov:acct",
+            "entry:fsf:cov:update",
+            "entry:meta-faif:cov:thresh",
+            "entry:meta-faif:cov:sec",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "edge:ca-sb53|rsp",
+            "edge:seoul-commit|rsp",
+            "edge:gpai-cop|rsp",
+            "edge:fmf|rsp",
+            "edge:metr|rsp",
+            "edge:apollo|rsp",
+            "edge:uk-aisi|rsp",
+            "gap:mit",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety"
+          ],
+          "hash": "92f0d8ad0842"
         }
       ],
       "decision": {
@@ -1104,14 +1632,20 @@
       "decision_log": [],
       "applied": null,
       "research": {
-        "status": "needs-source-access",
-        "missing": [
-          "RSP v3.4 policy text (www-cdn.anthropic.com PDF, blocked): Appendix A, Appendix B and the main sections on capability thresholds, required safeguards, existing safeguards and pausing. Then propose coherent revisions to rsp desc, context, cov.thresh, cov.sec, cov.mit and cov.halt, and the dependent gap summaries (gap:halt, gap:mit) and FAQ (labs)"
-        ],
+        "status": "verified",
+        "missing": [],
         "linked": [
-          "P-0005"
+          "P-0005",
+          "P-0013"
         ],
-        "updated": "2026-10-09"
+        "updated": "2026-10-10",
+        "apply_together": [
+          "P-0005",
+          "P-0006",
+          "P-0007",
+          "P-0010",
+          "P-0013"
+        ]
       }
     },
     {
@@ -1231,6 +1765,143 @@
         "status": "internal-consistency",
         "missing": [],
         "updated": "2026-10-09"
+      }
+    },
+    {
+      "id": "P-0013",
+      "fingerprint": "593e2e3b9668",
+      "targets": [
+        "entry:rsp:cov:halt"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T16:40:02Z",
+          "run": "2026-10-10-trial1b",
+          "author": "claude",
+          "title": "Anthropic RSP · Halting: v3 replaced the unconditional pause commitment with competitor-dependent delay commitments",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "rsp",
+              "cat": "halt",
+              "from": "Anthropic commits to pause development or deployment if mitigations are insufficient for the model's ASL. The halting commitment is the most operationally specific in any lab framework.",
+              "to": "Since v3.0, Anthropic commits to delay development and deployment in two competitor-dependent scenarios. If it has a significant lead with a highly capable model, it delays until it has a strong argument that catastrophic risk is contained. If all competitors with such models can make that argument, it delays until it matches their risk-reduction posture. Earlier versions committed not to train or deploy models without adequate safeguards, whatever other developers did. Anthropic says it would strongly consider pausing in other cases too."
+            }
+          ],
+          "why": "The map says 'Anthropic commits to pause development or deployment if mitigations are insufficient for the model's ASL' and calls this 'the most operationally specific in any lab framework'. That describes the pre-v3 policy. v3 still has delay commitments, but only in Appendix A's competitor-dependent scenarios. This feeds the halting gap summary, which says every lab framework includes halting conditions.",
+          "rationale": "From v3.4 Appendix A (scenarios and commitments) and its preamble, where v3.1 added 'would strongly consider pausing … even in cases not covered below'. The Introduction says the previous RSP committed to reduce absolute risk 'without regard to whether other frontier AI developers would do the same'. The v2.0 changelog shows the earlier 'commitment not to train or deploy models unless we have implemented adequate safeguards'. v3.0 already had the same Appendix A commitments (S-0008#1), so the change dates from v3.0. The trial-1 caution 'do not infer that pause commitments were removed' holds: they were made conditional, not removed. Also removed: the comparative claim about other labs, which was not checked. 'Highly capable' is the policy's defined term (crossing the automated AI R&D threshold).",
+          "evidence": [
+            {
+              "source": "S-0006",
+              "passage": "S-0006#12",
+              "stance": "supports",
+              "supports": "Appendix A scenarios and delay commitments"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#13",
+              "stance": "supports",
+              "supports": "Would strongly consider pausing in other cases"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#1",
+              "stance": "supports",
+              "supports": "Previous RSP was unconditional on other developers"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#16",
+              "stance": "supports",
+              "supports": "Pre-v3 commitment not to train or deploy without adequate safeguards"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#17",
+              "stance": "supports",
+              "supports": "v3.1 changelog: may consider pausing where Appendix A is not triggered"
+            },
+            {
+              "source": "S-0008",
+              "passage": "S-0008#1",
+              "stance": "supports",
+              "supports": "v3.0 already contained the Appendix A delay commitments"
+            },
+            {
+              "source": "S-0005",
+              "passage": "S-0005#3",
+              "stance": "supports",
+              "supports": "v3.1 update log: free to pause even if not required by the RSP"
+            }
+          ],
+          "uncertainty": "This is the most consequential wording on the entry. It states commitments only; whether any scenario has applied is not evidenced. The policy notes Anthropic often won't know whether a scenario applies and will use its best judgment. The CEO and RSO decide on deployment from each Risk Report, with Board and LTBT approval when marginal-risk arguments are central (§3.4). That is a decision process, not a pause trigger, so it is left out. You may prefer a shorter wording.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "gap:halt": "checked for Anthropic only: still literally accurate ('every lab framework includes it'), but Anthropic's version is now conditional on competitors. Other labs not checked; raise in the baseline audit",
+            "faq:which-ai-labs-have-published-frontier-safety-fra": "no halting claim; no change"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:prep:cov:thresh",
+            "entry:fsf:context",
+            "entry:fsf:cov:thresh",
+            "entry:fsf:cov:timing",
+            "entry:fsf:cov:sec",
+            "entry:fsf:cov:halt",
+            "entry:fsf:cov:acct",
+            "entry:fsf:cov:update",
+            "entry:meta-faif:cov:thresh",
+            "entry:meta-faif:cov:sec",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "edge:ca-sb53|rsp",
+            "edge:seoul-commit|rsp",
+            "edge:gpai-cop|rsp",
+            "edge:fmf|rsp",
+            "edge:metr|rsp",
+            "edge:apollo|rsp",
+            "edge:uk-aisi|rsp",
+            "gap:mit",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety"
+          ],
+          "hash": "fbf2ed18a3d5"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0005",
+          "P-0010"
+        ],
+        "apply_together": [
+          "P-0005",
+          "P-0006",
+          "P-0007",
+          "P-0010",
+          "P-0013"
+        ],
+        "updated": "2026-10-10"
       }
     }
   ]

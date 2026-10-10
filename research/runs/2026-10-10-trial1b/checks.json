@@ -1,0 +1,292 @@
+{
+  "entry:rsp": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0006",
+      "S-0005"
+    ],
+    "proposals": [],
+    "note": "v3.4 policy text: 'our voluntary framework' (pow 1 voluntary, Layer 6, co, active). Link still the policy home page and lists v3.4 as current.",
+    "missing": null,
+    "hash": "c34ff006ab2e"
+  },
+  "entry:rsp:desc": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0005",
+      "S-0006"
+    ],
+    "proposals": [
+      "P-0005"
+    ],
+    "note": "Version, date and count verified (v3.4, 8 Jul 2026; 8 revisions). 'AI Safety Levels. Capability thresholds trigger required safeguards.' is pre-v3 wording (Appendix B, §1).",
+    "missing": null,
+    "hash": "0284d8263c02"
+  },
+  "entry:rsp:context": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0006",
+      "S-0008",
+      "S-0010",
+      "S-0030"
+    ],
+    "proposals": [
+      "P-0010"
+    ],
+    "note": "Read against the v3.4 text (and v3.0): ASL ladder replaced by a thresholds table with company plans and industry recommendations; ASLs only for current safeguards; evaluations not pre-specified; Risk Report timing; FCF separate from RSP. FAQ: only the Anthropic clause checked.",
+    "missing": null,
+    "hash": "b16336253ba0"
+  },
+  "entry:rsp:cov:thresh": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0006",
+      "S-0008",
+      "S-0010",
+      "S-0030"
+    ],
+    "proposals": [
+      "P-0010"
+    ],
+    "note": "Read against the v3.4 text (and v3.0): ASL ladder replaced by a thresholds table with company plans and industry recommendations; ASLs only for current safeguards; evaluations not pre-specified; Risk Report timing; FCF separate from RSP. FAQ: only the Anthropic clause checked.",
+    "missing": null,
+    "hash": "dfc90f0eebc6"
+  },
+  "entry:rsp:cov:eval": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0006",
+      "S-0008",
+      "S-0010",
+      "S-0030"
+    ],
+    "proposals": [
+      "P-0010"
+    ],
+    "note": "Read against the v3.4 text (and v3.0): ASL ladder replaced by a thresholds table with company plans and industry recommendations; ASLs only for current safeguards; evaluations not pre-specified; Risk Report timing; FCF separate from RSP. FAQ: only the Anthropic clause checked.",
+    "missing": null,
+    "hash": "51de77529627"
+  },
+  "entry:rsp:cov:timing": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0006",
+      "S-0008",
+      "S-0010",
+      "S-0030"
+    ],
+    "proposals": [
+      "P-0010"
+    ],
+    "note": "Read against the v3.4 text (and v3.0): ASL ladder replaced by a thresholds table with company plans and industry recommendations; ASLs only for current safeguards; evaluations not pre-specified; Risk Report timing; FCF separate from RSP. FAQ: only the Anthropic clause checked.",
+    "missing": null,
+    "hash": "12000808d4c1"
+  },
+  "entry:rsp:cov:sec": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0006",
+      "S-0008",
+      "S-0010",
+      "S-0030"
+    ],
+    "proposals": [
+      "P-0010"
+    ],
+    "note": "Read against the v3.4 text (and v3.0): ASL ladder replaced by a thresholds table with company plans and industry recommendations; ASLs only for current safeguards; evaluations not pre-specified; Risk Report timing; FCF separate from RSP. FAQ: only the Anthropic clause checked.",
+    "missing": null,
+    "hash": "ffa81bc1c37f"
+  },
+  "entry:rsp:cov:mit": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0006",
+      "S-0008",
+      "S-0010",
+      "S-0030"
+    ],
+    "proposals": [
+      "P-0010"
+    ],
+    "note": "Read against the v3.4 text (and v3.0): ASL ladder replaced by a thresholds table with company plans and industry recommendations; ASLs only for current safeguards; evaluations not pre-specified; Risk Report timing; FCF separate from RSP. FAQ: only the Anthropic clause checked.",
+    "missing": null,
+    "hash": "414873c40605"
+  },
+  "faq:which-ai-labs-have-published-frontier-safety-fra": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0006",
+      "S-0008",
+      "S-0010",
+      "S-0030"
+    ],
+    "proposals": [
+      "P-0010"
+    ],
+    "note": "Read against the v3.4 text (and v3.0): ASL ladder replaced by a thresholds table with company plans and industry recommendations; ASLs only for current safeguards; evaluations not pre-specified; Risk Report timing; FCF separate from RSP. FAQ: only the Anthropic clause checked.",
+    "missing": null,
+    "hash": "19250a975ff7"
+  },
+  "entry:rsp:cov:halt": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0006",
+      "S-0008",
+      "S-0005"
+    ],
+    "proposals": [
+      "P-0013"
+    ],
+    "note": "Appendix A: delay commitments only in competitor-dependent scenarios since v3.0; v3.1 added 'would strongly consider pausing' in other cases. The pre-v3 unconditional commitment is superseded.",
+    "missing": null,
+    "hash": "d4e6782c6601"
+  },
+  "entry:rsp:cov:acct": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0006",
+      "S-0005"
+    ],
+    "proposals": [
+      "P-0007"
+    ],
+    "note": "Re-checked P-0007's added sentence against v3.4 §3.1, §3.6, §3.6.1: Risk Reports every 3-6 months, external review when highly capable and significantly redacted, on LTBT request, LTBT approves reviewers. Accurate. First and last sentences are carried over, not verified.",
+    "missing": null,
+    "hash": "030ff8eeded4"
+  },
+  "entry:rsp:cov:update": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0006",
+      "S-0005"
+    ],
+    "proposals": [
+      "P-0006"
+    ],
+    "note": "Re-checked P-0006 against the v3.4 changelog and §4(8): eight revisions; v3.3 and v3.4 revised thresholds (v3.1 also revised how the automated R&D threshold is operationalised, which P-0006 does not mention); v3.2 LTBT; change-log commitment. Accurate.",
+    "missing": null,
+    "hash": "532038c395f5"
+  },
+  "entry:rsp:cov:elicit": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0006"
+    ],
+    "proposals": [],
+    "note": "The v3.4 policy text does not describe elicitation methods or name METR or UK AISI. External evaluation appears only generally ('internally and by external parties as appropriate', §3.3).",
+    "missing": "System cards or Risk Reports (Feb/Aug 2026) describing elicitation methods and METR/UK AISI participation; queued for the baseline audit",
+    "hash": "8785fc0c0100"
+  },
+  "gap:mit": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0006"
+    ],
+    "proposals": [],
+    "note": "'Anthropic's ASL deployment safeguards': v3.4 keeps ASL-3 protections for current models (§1 table, row 1). Only the Anthropic clause checked; the rest of the summary was not.",
+    "missing": null,
+    "hash": "b03b668fd14f"
+  },
+  "edge:ca-sb53|rsp": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0030",
+      "S-0006"
+    ],
+    "proposals": [],
+    "note": "Anthropic: SB 53 formalises transparency practices labs followed voluntarily (S-0030); consistent with 'codifies the published-framework norm Anthropic exemplified'. Note: Anthropic's SB 53 framework is the separate FCF (now stated in P-0010 v3 context).",
+    "missing": null,
+    "hash": "7d2c7d8e1f13"
+  },
+  "entry:ny-raise:desc": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0031",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "Chapter 699 of 2025 signed 19 Dec 2025; Chapter 96 of 2026 (S8828) signed 27 Mar 2026; effective 1 Jan 2027; penalties up to $1M first / $3M subsequent (§1427); 72-hour incident reporting (§1422(3)(a)). Read on nyassembly.gov because nysenate.gov serves a Cloudflare bot challenge.",
+    "missing": null,
+    "hash": "602bc745d195"
+  },
+  "entry:ny-raise:cov:timing": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0031",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "Chapter 699 of 2025 signed 19 Dec 2025; Chapter 96 of 2026 (S8828) signed 27 Mar 2026; effective 1 Jan 2027; penalties up to $1M first / $3M subsequent (§1427); 72-hour incident reporting (§1422(3)(a)). Read on nyassembly.gov because nysenate.gov serves a Cloudflare bot challenge.",
+    "missing": null,
+    "hash": "f0446a6301e8"
+  },
+  "edge:seoul-commit|rsp": {
+    "run": "2026-10-10-trial1b",
+    "date": "2026-10-10",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0005",
+      "S-0034",
+      "S-0035"
+    ],
+    "proposals": [
+      "P-0008"
+    ],
+    "note": "Both halves verified: RSP v1.0 effective 19 Sep 2023; Seoul commitments published 21 May 2024 and asked signatories (incl. Anthropic) to publish a safety framework.",
+    "missing": null,
+    "hash": "1b33ae0488ae"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "next": 28,
+  "next": 38,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -15,6 +15,18 @@
           "via": "curl",
           "status": "blocked",
           "error": "curl: (56) CONNECT tunnel failed, response 403"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:29:15Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "c428cd019cea5360",
+          "bytes": 92000
         }
       ],
       "passages": []
@@ -33,6 +45,18 @@
           "via": "curl",
           "status": "blocked",
           "error": "curl: (56) CONNECT tunnel failed, response 403"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:29:16Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "6bce305a8318b9db",
+          "bytes": 1534743
         }
       ],
       "passages": []
@@ -51,6 +75,18 @@
           "via": "curl",
           "status": "blocked",
           "error": "curl: (56) CONNECT tunnel failed, response 403"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:29:17Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "9487c62bc44b4f63",
+          "bytes": 60306
         }
       ],
       "passages": []
@@ -77,6 +113,18 @@
           "via": "curl",
           "status": "blocked",
           "error": "curl: (56) CONNECT tunnel failed, response 403"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:29:19Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.npr.org/2026/06/02/nx-s1-5844347/ai-safety-trump-executive-order",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "500badcef02df679",
+          "bytes": 158399
         }
       ],
       "passages": []
@@ -103,6 +151,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "6ee2872c0a4b0ba2",
           "bytes": 181373
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:29:15Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/responsible-scaling-policy",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "2fce0fcd715d43e0",
+          "bytes": 181873
         }
       ],
       "passages": [
@@ -140,10 +200,12 @@
     },
     "S-0006": {
       "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf",
-      "title": null,
+      "title": "Anthropic Responsible Scaling Policy v3.4 (PDF)",
       "publisher": "Anthropic",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "effective": "2026-07-08"
+      },
       "fetches": [
         {
           "date": "2026-10-08",
@@ -152,9 +214,136 @@
           "via": "curl",
           "status": "blocked",
           "error": "curl: (56) CONNECT tunnel failed, response 403"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:29:13Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf",
+          "content_type": "application/pdf",
+          "sha256": "6247b9e4001fd342",
+          "bytes": 304755
         }
       ],
-      "passages": []
+      "passages": [
+        {
+          "id": "S-0006#1",
+          "locator": "Introduction",
+          "text": "Our previous RSP committed to implementing mitigations that would reduce our models' absolute risk levels to acceptable levels, without regard to whether other frontier AI developers would do the same. … We now separate our plans as a company … from our more ambitious industry-wide recommendations. … But we cannot commit to following them unilaterally.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#2",
+          "locator": "Introduction (Frontier Safety Roadmaps; Risk Reports)",
+          "text": "Frontier Safety Roadmaps are a new requirement under our RSP. … These are not hard commitments but rather public goals against which we will openly grade our progress. Risk Reports are another new requirement.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#3",
+          "locator": "§1 Our Recommendations for Industry-Wide Safety",
+          "text": "The left column identifies capability thresholds that would call for heightened mitigations. The middle column provides an overview of our planned mitigations … The right column describes our recommendations for industry-wide safety at each threshold. … we cannot unilaterally and unconditionally commit to staying in line with the industry-wide recommendations",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#4",
+          "locator": "§1, structure of recommendations",
+          "text": "we cannot presently give highly specific advance detail on what evaluations will determine whether risk thresholds have been passed, or what risk mitigations will be needed to achieve safety. Our recommendations for industry-wide safety are thus structured around requiring analysis and arguments making a strong case for safety, rather than AI Safety Levels (more in Appendix B).",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#5",
+          "locator": "§1 table, rows (capability or usage thresholds)",
+          "text": "Rows: Non-novel chemical/biological weapons production; Novel chemical/biological weapons production; Misaligned AI systems in high-stakes settings; Automated R&D in key domains.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#6",
+          "locator": "§1 table, row 1, company plan",
+          "text": "We will maintain or improve on our ASL-3 protections, which include classifier guards at least as robust as our initial Constitutional Classifiers; access controls for trusted users with exemptions to classifier guards; red-teaming, bug bounties, and threat intelligence for continually assessing the threat of jailbreaks; and a number of noteworthy security controls.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#7",
+          "locator": "§1 table, Automated R&D rows (company plan and industry recommendation)",
+          "text": "We will: Resource and complete significant 'moonshot R&D for security' projects … [Industry:] This would likely mean security roughly in line with RAND SL4.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#8",
+          "locator": "§3.1 Scope and Timing",
+          "text": "It will cover all publicly deployed models as of the coverage date, as well as any internally deployed models … Timing. We will publish a Risk Report every 3-6 months. … Off-cycle updates … When we publicly deploy a model that we determine is (1) significantly more capable … Within 30 days of determining that we have an internally deployed model that …",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#9",
+          "locator": "§3.3 Contents, item 3",
+          "text": "Evidence (including evaluations) about relevant model capabilities and behaviors: For each in-scope model, capability and alignment evaluations (conducted internally and by external parties as appropriate), their results, and (as appropriate) other evidence we considered in assessing the level of risk.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#10",
+          "locator": "§3.4 Procedures, items 3 and 5",
+          "text": "The CEO and RSO will make the ultimate determination regarding the adequacy of the risk assessment and any downstream deployment or development plans. … In the event that marginal risk analysis … plays a major role in a decision to move forward, explicit approval of the Risk Report by the Board and LTBT … will be required.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#11",
+          "locator": "§3.6 External Review; §3.6.1",
+          "text": "At a minimum, we will complete a full external review process … anytime a Risk Report covers highly capable models and is significantly redacted … In addition, upon the LTBT's request, we will conduct a public or private external review … In selecting external reviewers, we will consult with the Board and obtain the approval of the LTBT.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#12",
+          "locator": "Appendix A: Commitments Related to Competitors",
+          "text": "Anthropic in the lead … We will delay AI development and deployment as needed to achieve this, until and unless we no longer believe we have a significant lead. Competitors have strong safety measures … we will delay AI development and deployment as needed to achieve this. General upleveling … we will not necessarily delay AI development and deployment in this scenario.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#13",
+          "locator": "Appendix A, preamble",
+          "text": "the commitments below do not preclude us from taking cautionary action, such as refraining from training or deploying models, in other circumstances. … we would strongly consider pausing development and/or deployment to improve the safety profiles of our models even in cases not covered below.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#14",
+          "locator": "Appendix B: Notes on ASLs",
+          "text": "Earlier editions of our RSP defined 'AI Safety Levels' with specific lists of required controls. We still use this concept to refer to, and distinguish between, present levels of risk mitigations—those that we maintain for existing AI models. … when defining the risk mitigations needed for future levels of AI capability, we have found that providing a specific list of controls is overly rigid",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#15",
+          "locator": "Introduction, footnote 1 and preceding text",
+          "text": "the RSP may serve some regulatory requirements, but it is not designed to be comprehensive. … Where regulatory requirements exceed or differ from what the RSP covers, we will address them through separate documents. … Where laws such as California SB 53 define this or similar terms with specific thresholds, we address those requirements in separate compliance frameworks.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#16",
+          "locator": "Changelog, v2.0 and v2.2",
+          "text": "[v2.0] maintaining our commitment not to train or deploy models unless we have implemented adequate safeguards. … [v2.2] This update excludes both sophisticated insiders and state-compromised insiders from the ASL-3 Security Standard.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#17",
+          "locator": "Changelog, v3.1–v3.4",
+          "text": "[v3.1] (1) how we operationalize the Automated R&D capability threshold … (3) that we may consider pausing development or deployment even where the commitments described in Appendix A are not triggered. [v3.3] revises our threshold for novel chemical/biological weapons production … [v3.4] It revises the Automated R&D capability threshold",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#18",
+          "locator": "§4 Governance, item 8",
+          "text": "Changes to the RSP will be proposed by the CEO and RSO, and approved by the Board in consultation with the LTBT. If we update the RSP, we will publicly share the updated version prior to or on its effective date and will record the differences from the prior draft in the Change Log.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#19",
+          "locator": "Introduction, first sentence",
+          "text": "Our Responsible Scaling Policy (RSP) is our voluntary framework for managing catastrophic risks from advanced AI systems.",
+          "retrieved": "2026-10-10"
+        }
+      ]
     },
     "S-0007": {
       "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
@@ -176,6 +365,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "6ac980f3969230aa",
           "bytes": 151517
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:30:17Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "c8b8dc0af0d989ce",
+          "bytes": 151460
         }
       ],
       "passages": [
@@ -208,15 +409,23 @@
           "locator": "Opening paragraph",
           "text": "We're releasing the third version of our Responsible Scaling Policy (RSP), the voluntary framework we use to mitigate catastrophic risks from AI systems.",
           "retrieved": "2026-10-08"
+        },
+        {
+          "id": "S-0007#6",
+          "locator": "Assessing our theory of change (re-fetched 2026-10-10)",
+          "text": "We've seen governments around the world (for example in California with SB 53, in New York with the RAISE Act, and with the EU AI Act's Codes of Practice) start to require frontier AI developers to create and publish frameworks for assessing and managing catastrophic risks—requirements Anthropic addresses through public documentation including its Frontier Compliance Framework.",
+          "retrieved": "2026-10-10"
         }
       ]
     },
     "S-0008": {
       "url": "https://www.anthropic.com/responsible-scaling-policy/rsp-v3-0",
-      "title": "Responsible Scaling Policy v3.0 (HTML)",
+      "title": "Anthropic Responsible Scaling Policy v3.0 (served as PDF at the rsp-v3-0 URL)",
       "publisher": "Anthropic",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "effective": "2026-02-24"
+      },
       "fetches": [
         {
           "date": "2026-10-08",
@@ -225,9 +434,34 @@
           "via": "curl",
           "status": "blocked",
           "error": "curl: (56) CONNECT tunnel failed, response 403"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:29:14Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/e670587677525f28df69b59e5fb4c22cc5461a17.pdf",
+          "content_type": "application/pdf",
+          "sha256": "a71bfa08a7fa4b75",
+          "bytes": 473604
         }
       ],
-      "passages": []
+      "passages": [
+        {
+          "id": "S-0008#1",
+          "locator": "Appendix A: Commitments Related to Competitors (v3.0)",
+          "text": "Anthropic in the lead. … We will require a strong argument that catastrophic risk is contained … We will delay AI development and deployment as needed to achieve this … [No preamble sentence on pausing in other cases; v3.0's preamble ends after 'inadvertent race to the bottom on safety'.]",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0008#2",
+          "locator": "§1 (v3.0)",
+          "text": "Our recommendations for industry-wide safety are thus structured around requiring analysis and arguments making a strong case for safety, rather than AI Safety Levels (more in Appendix B).",
+          "retrieved": "2026-10-10"
+        }
+      ]
     },
     "S-0009": {
       "url": "https://www.anthropic.com/responsible-scaling-policy/roadmap",
@@ -253,10 +487,12 @@
     },
     "S-0010": {
       "url": "https://trust.anthropic.com/resources?s=eorilovp4wxk38nxbi7k3&name=anthropic-frontier-compliance-framework",
-      "title": "Anthropic Frontier Compliance Framework (Trust Center)",
+      "title": "Anthropic Frontier Compliance Framework v2 (Trust Center PDF)",
       "publisher": "Anthropic",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "effective": "2026-07-24"
+      },
       "fetches": [
         {
           "date": "2026-10-08",
@@ -265,9 +501,42 @@
           "via": "curl",
           "status": "blocked",
           "error": "curl: (56) CONNECT tunnel failed, response 403"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:36:33Z",
+          "run": "2026-10-10-trial1b",
+          "via": "browser",
+          "status": "ok",
+          "note": "Trust Center is a JavaScript app; curl gets an empty shell. Opened in headless Chromium through the session proxy; the 'View' action served application/pdf (413,081 bytes, sha256 8e4d91e12861218e) from trust.anthropic.com/doc/trust?rid=6a637f7ac13a333cf66a4fbf. Read with pdftotext."
         }
       ],
-      "passages": []
+      "passages": [
+        {
+          "id": "S-0010#1",
+          "locator": "§1 Introduction",
+          "text": "The FCF is distinct from our Responsible Scaling Policy (RSP), which will remain our voluntary safety framework … the FCF is our compliance framework for various applicable regulatory regimes, including: In the United States, the FCF serves as our Frontier AI Framework under California's Transparency in Frontier AI Act (TFAIA) … In the European Union … the FCF serves as the publicly available summarized version of our Safety & Security Framework",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0010#2",
+          "locator": "Whole document (searched)",
+          "text": "Version 2, effective 24 July 2026. The regimes named are California's TFAIA and the EU General-Purpose AI Code of Practice / EU AI Act. New York and the RAISE Act are not mentioned anywhere in the document.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0010#3",
+          "locator": "Changelog",
+          "text": "v.2 24th July, 2026 … Revised the Sabotage and Loss of Control Tier 2 (Automated R&D) threshold in Section 2.4 to align with updates to Anthropic's Responsible Scaling Policy (v3.4) … v.1 December 19, 2025 Initial Version",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0010#4",
+          "locator": "§2.1 Systemic risk identification",
+          "text": "the FCF currently addresses the following systemic risk categories: Cyber offense … Chemical, biological, radiological, and nuclear (CBRN) threats. Harmful manipulation … Loss of control",
+          "retrieved": "2026-10-10"
+        }
+      ]
     },
     "S-0011": {
       "url": "https://www.anthropic.com/transparency",
@@ -312,6 +581,18 @@
           "via": "curl",
           "status": "blocked",
           "error": "curl: (56) CONNECT tunnel failed, response 403"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:29:18Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/DCPD-202600376/html/DCPD-202600376.htm",
+          "content_type": "text/html",
+          "sha256": "651fb35e10d06bf5",
+          "bytes": 16108
         }
       ],
       "passages": []
@@ -350,6 +631,18 @@
           "http": 403,
           "final_url": "http://www.npc.gov.cn/",
           "content_type": "text/plain"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:29:20Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/npc/index.html",
+          "content_type": "text/html",
+          "sha256": "82dd23ae421e19a6",
+          "bytes": 87844
         }
       ],
       "passages": []
@@ -368,6 +661,18 @@
           "via": "curl",
           "status": "blocked",
           "error": "curl: (56) CONNECT tunnel failed, response 403"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:29:24Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.cn/",
+          "content_type": "text/html",
+          "sha256": "639e5bbbc41a5090",
+          "bytes": 67923
         }
       ],
       "passages": []
@@ -386,6 +691,18 @@
           "via": "curl",
           "status": "blocked",
           "error": "curl: (56) CONNECT tunnel failed, response 403"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:29:18Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.whitehouse.gov/presidential-actions/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "9e8f3d7650853901",
+          "bytes": 263904
         }
       ],
       "passages": []
@@ -618,6 +935,307 @@
           "retrieved": "2026-10-08"
         }
       ]
+    },
+    "S-0028": {
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S6953/amendment/B",
+      "title": "NY Senate S6953-B (RAISE Act)",
+      "publisher": null,
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:29:24Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "http_403",
+          "http": 403,
+          "final_url": "https://www.nysenate.gov/legislation/bills/2025/S6953/amendment/B",
+          "content_type": "text/html; charset=UTF-8"
+        },
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:41:41Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "site_blocked",
+          "http": 403,
+          "final_url": "https://www.nysenate.gov/legislation/bills/2025/S6953/amendment/B",
+          "content_type": "text/html; charset=UTF-8",
+          "note": "website bot challenge (Cloudflare); the environment allowed the connection"
+        }
+      ],
+      "passages": []
+    },
+    "S-0029": {
+      "url": "https://trust.anthropic.com/",
+      "title": "Anthropic Trust Center",
+      "publisher": null,
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:29:25Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://trust.anthropic.com/",
+          "content_type": "text/html",
+          "sha256": "ec0e445f91d0a847",
+          "bytes": 8074
+        }
+      ],
+      "passages": []
+    },
+    "S-0030": {
+      "url": "https://www.anthropic.com/news/compliance-framework-SB53",
+      "title": "Anthropic: Our framework for complying with California SB 53",
+      "publisher": null,
+      "type": "primary",
+      "dates": {
+        "published": "2025-12-19"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:30:16Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/news/compliance-framework-SB53",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "c597ebef2d2bfb9f",
+          "bytes": 117439
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0030#1",
+          "locator": "What's in our Frontier Compliance Framework",
+          "text": "Moving forward, the FCF will serve as our compliance framework for SB 53 and other regulatory requirements. The RSP will remain our voluntary safety policy, reflecting what we believe best practices should be as the AI landscape evolves, even when that goes beyond or otherwise differs from current regulatory requirements.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0031": {
+      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S06953&term=2025&Summary=Y&Actions=Y&Text=Y",
+      "title": "NY Assembly: S06953 (RAISE Act) summary, actions and text",
+      "publisher": "New York State Assembly",
+      "type": "primary",
+      "dates": {
+        "signed": "2025-12-19"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:33:39Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S06953&term=2025&Summary=Y&Actions=Y&Text=Y",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "49d259d01b107eee",
+          "bytes": 36109
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0031#1",
+          "locator": "Actions",
+          "text": "12/19/2025 SIGNED CHAP.699",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0032": {
+      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A09449&term=2025&Summary=Y&Actions=Y&Text=Y",
+      "title": "NY Assembly: A09449 (RAISE Act chapter amendment) summary, actions and text",
+      "publisher": "New York State Assembly",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:33:56Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A09449&term=2025&Summary=Y&Actions=Y&Text=Y",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "e246e6082855499b",
+          "bytes": 56188
+        }
+      ],
+      "passages": []
+    },
+    "S-0033": {
+      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08828&term=2025&Summary=Y&Actions=Y&Text=Y",
+      "title": "NY Assembly: S08828 (RAISE Act chapter amendment) summary, actions and text",
+      "publisher": "New York State Assembly",
+      "type": "primary",
+      "dates": {
+        "signed": "2026-03-27",
+        "effective": "2027-01-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:33:57Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08828&term=2025&Summary=Y&Actions=Y&Text=Y",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "fff361ca0b91342f",
+          "bytes": 54941
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0033#1",
+          "locator": "Actions",
+          "text": "01/28/2026 PASSED SENATE … 02/25/2026 substituted for a9449 … 03/11/2026 passed assembly … 03/27/2026 SIGNED CHAP.96",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#2",
+          "locator": "§2, new GBL §1421(1)",
+          "text": "A large frontier developer shall write, implement, comply with, and clearly and conspicuously publish on its internet website a frontier AI framework that applies to the large frontier developer's frontier models and describes in detail how the large frontier developer handles all of the following:",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#3",
+          "locator": "§3 (amending §3 of Chapter 699 of 2025)",
+          "text": "§ 3. This act shall take effect [on the ninetieth day after it shall have become a law] January 1, 2027.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#4",
+          "locator": "§2, new GBL §1427(1)",
+          "text": "The attorney general may bring a civil action to recover a civil penalty in an amount not to exceed one million dollars for a first violation and in an amount not to exceed three million dollars per subsequent violation",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#5",
+          "locator": "§2, new GBL §1422(3)(a)",
+          "text": "a frontier developer shall report any critical safety incident pertaining to one or more of its frontier models to the office within seventy-two hours from a determination that a critical safety incident has occurred",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0034": {
+      "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+      "title": "UK Government: Frontier AI Safety Commitments, AI Seoul Summit 2024",
+      "publisher": "UK DSIT",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:40:44Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "a090c43f82272068",
+          "bytes": 81551
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0034#1",
+          "locator": "Commitments preamble",
+          "text": "The above organisations … undertake to develop and deploy their frontier AI models and systems responsibly, in accordance with the following voluntary commitments, and to demonstrate how they have achieved this by publishing a safety framework focused on severe risks by the upcoming AI Summit in France.",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#2",
+          "locator": "Signatory list",
+          "text": "Anthropic [listed among the signatory organisations]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0035": {
+      "url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+      "title": "UK Government: Frontier AI Safety Commitments publication page",
+      "publisher": "UK DSIT",
+      "type": "primary",
+      "dates": {
+        "published": "2024-05-21"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:40:57Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "9773b52d78f7d52d",
+          "bytes": 68461
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0035#1",
+          "locator": "Publication metadata",
+          "text": "Published: 21 May 2024 … 21 May 2024 First published.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0036": {
+      "url": "https://www.congress.gov/",
+      "title": "Congress.gov (access test)",
+      "publisher": null,
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:41:42Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "site_blocked",
+          "http": 403,
+          "final_url": "https://www.congress.gov/",
+          "content_type": "text/html; charset=UTF-8",
+          "note": "website bot challenge (Cloudflare); the environment allowed the connection"
+        }
+      ],
+      "passages": []
+    },
+    "S-0037": {
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53",
+      "title": "California Legislative Information: SB 53 (access test)",
+      "publisher": null,
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:41:42Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "site_blocked",
+          "http": 403,
+          "final_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53",
+          "content_type": "text/html; charset=UTF-8",
+          "note": "website bot challenge (Cloudflare); the environment allowed the connection"
+        }
+      ],
+      "passages": []
     }
   }
 }
