@@ -1,5 +1,5 @@
 {
-  "next": 58,
+  "next": 61,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -1498,6 +1498,12 @@
           "locator": "Art 1(32), new AI Act Art 75c(4)",
           "text": "A decision adopted pursuant to paragraph 1 of this Article may be accompanied by the imposition of penalties in accordance with Article 99(3) to (7), which provisions shall apply mutatis mutandis to the AI Office in the execution of its supervision and enforcement tasks referred to in Article 75(1).",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0041#7",
+          "locator": "Art 1(39)(b), new AI Act Art 111(4)",
+          "text": "Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026.",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -1635,6 +1641,18 @@
           "locator": "Overview",
           "text": "[The code] helps providers and deployers of generative AI systems to comply with the AI Act's obligations for labelling and marking of AI-generated content – Article 50(2), (4) and (5) … 10 June 2026 Closing Plenary Publication of the final code of practice",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0045#2",
+          "locator": "Overview and 'Code of Practice'",
+          "text": "drawn up by independent experts in a multi-stakeholder process facilitated by the AI Office … The Commission and the AI Board have confirmed that the code is an adequate voluntary tool … 2 sections: Section 1: Providers - Rules for marking and detection … Section 2: Deployers - Rules for labelling of deepfakes and AI-generated and manipulated text",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0045#3",
+          "locator": "Overview",
+          "text": "These transparency obligations, applicable from 2 August 2026 … providers and deployers that decide to comply through other means will have to demonstrate that those measures are adequate. This will be assessed individually by different market surveillance authorities.",
+          "retrieved": "2026-10-10"
         }
       ]
     },
@@ -1643,7 +1661,9 @@
       "title": "Commission opinion on the adequacy of the AI-generated content transparency code",
       "publisher": "European Commission",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "published": "2026-07-09"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
@@ -1658,7 +1678,14 @@
           "bytes": 51008
         }
       ],
-      "passages": []
+      "passages": [
+        {
+          "id": "S-0046#1",
+          "locator": "Opinion, 9 July 2026",
+          "text": "On July 8, the Commission concluded that the Code of Practice on Transparency of AI-generated Content adequately covers the obligations provided for in Articles 50(2), (4) and (5) AI Act … The following day, the AI Board adopted its Adequacy Assessment … Adherence to the code does not constitute conclusive evidence of compliance with these obligations.",
+          "retrieved": "2026-10-10"
+        }
+      ]
     },
     "S-0047": {
       "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng",
@@ -1980,6 +2007,105 @@
           "id": "S-0057#1",
           "locator": "Item 5 (motions for an AI law), p.5",
           "text": "2025年度立法工作计划将'人工智能健康发展'立法列入预备审议项目。目前，科技部等有关部门正在稳步推进人工智能立法相关工作……开展法律文本框架起草工作。 [The 2025 plan listed 'healthy development of AI' legislation as a preparatory item. MOST and other departments are … drafting a framework legal text.]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0058": {
+      "url": "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
+      "title": "Commission: strong backing for the code of practice on transparency of AI-generated content (signatories, 31 Jul 2026)",
+      "publisher": "European Commission",
+      "type": "primary",
+      "dates": {
+        "published": "2026-07-31"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:59:48Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "7fe001351430632e",
+          "bytes": 94609
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0058#1",
+          "locator": "News, 31 July 2026",
+          "text": "By the end of July 2026, about 190 organisations … have signed the code. … Examples for Section 1 include: Aleph Alpha, Anthropic, Black Forest Labs, Cohere, Google, Meta, Microsoft, Mistral, Open AI, Synthesia. … Section 1 signatories: 95 · Section 2 signatories: 192 [xAI not listed]",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0059": {
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content",
+      "title": "Commission publishes the code of practice on marking and labelling of AI-generated content (10 Jun 2026)",
+      "publisher": "European Commission",
+      "type": "primary",
+      "dates": {
+        "published": "2026-06-10"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T16:59:48Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "f9983534c24e7463",
+          "bytes": 50590
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0059#1",
+          "locator": "News, 10 June 2026",
+          "text": "The European Commission published the final Code of Practice on marking and labelling of AI-generated content. The Code is voluntary and sets out practical steps to help providers and deployers of generative artificial intelligence (AI) systems meet the AI Act transparency obligations that will apply from 2 August 2026.",
+          "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0060": {
+      "url": "https://ec.europa.eu/newsroom/dae/redirection/document/129555",
+      "title": "Code of Practice on Transparency of AI-Generated Content (final, PDF)",
+      "publisher": "European Commission (AI Office)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-06-10"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-10",
+          "at": "2026-10-10T17:00:25Z",
+          "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/129555",
+          "content_type": "/",
+          "sha256": "7bd22c5a3c56eaef",
+          "bytes": 1213943
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0060#1",
+          "locator": "Section 1, Measure 1.1 (Sub-measures 1.1.1, 1.1.2)",
+          "text": "Sub-measure 1.1.1: Digitally signed metadata … Signatories will record information in the metadata on whether the content is AI-generated or manipulated. … Sub-measure 1.1.2: Imperceptible watermarking … The watermark is intended to serve as a robust mechanism to complement the digitally signed metadata",
+          "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0060#2",
+          "locator": "Section 1, Measure 2.1 and Sub-measure 2.1.x",
+          "text": "Signatories will make available a detection solution … to enable deployers, users … end-users exposed to the content, and other legitimate parties (such as competent authorities, independent researchers, civil society and media organisations) to verify whether content has been generated or manipulated by their AI system … Signatories will make the detection solution available free of charge.",
           "retrieved": "2026-10-10"
         }
       ]

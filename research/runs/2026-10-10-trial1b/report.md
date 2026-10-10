@@ -4,11 +4,10 @@
 
 ## Summary
 
-- **Source access is fixed.** The new environment reaches the RSP PDF, EUR-Lex, the Commission, gov.uk, govinfo, whitehouse.gov, npc.gov.cn and gov.cn, with no environment denials. Some websites still refuse automated clients: nysenate.gov, congress.gov, leginfo, federalregister.gov HTML and commerce.gov serve Cloudflare challenges; EUR-Lex throttles with empty responses; several Chinese sites reset connections intermittently. For each I used another official copy (nyassembly.gov, govinfo PDF, FR API) or a copy retrieved earlier the same day, and the source record says how.
-- **The RSP entry describes the pre-2026 policy.** Read in full, RSP v3.4 (and v3.0) replaced the ASL ladder. It now maps four capability thresholds to Anthropic's own plans and to industry-wide recommendations it says it cannot follow unilaterally. ASLs now label only current safeguards. The unconditional pause commitment became delay commitments that apply only in competitor-dependent scenarios. Anthropic's SB 53 and EU Code compliance document is a separate Frontier Compliance Framework, not the RSP. Revised as P-0005 v3 and P-0010 v3, plus new P-0013 (halting). All need your decision.
-- **Four other trial entries had factual errors, now proposed (P-0014–P-0019).** The US frontier AI EO is EO 14409, a voluntary cyber-capability access framework led by NSA, Treasury and CISA; it does not name CAISI. The EU high-risk rules moved to Dec 2027 and Aug 2028 (Digital Omnibus, Reg. 2026/1744). The AI Office's GPAI fine cap is €15M/3%, not €35M/7%. GPAI Code Model Reports are six-monthly, not annual. China's AI Law has no draft and is still a preparatory NPC item; the State Council plan, not the NPC plan, dropped the named draft in 2025.
-- **Applied on the PR branch:** P-0001, P-0003, P-0004 and P-0008 (Seoul half now verified on gov.uk; wording unchanged, so your approval carries over). The guard reproduces the published diff exactly. Merging moves the public date to 10 Oct 2026 and llms.txt would say '10 October 2026 snapshot'. P-0012 (relabel as 'content updated', pending) is what stops that implying a full audit, so decide it before merging.
-- **Coverage is still small:** 6 entries attempted in this completion run. 50 of 511 inventory items have now been verified against external sources at least once (up from 6). The baseline audit remains the next milestone.
+- **Source access is fixed.** The new environment reaches the RSP PDF, EUR-Lex, the Commission, gov.uk, govinfo, whitehouse.gov, npc.gov.cn and gov.cn, with no environment denials. Some websites still refuse automated clients (Cloudflare on nysenate.gov, congress.gov, leginfo, federalregister.gov HTML, commerce.gov; EUR-Lex throttling; intermittent resets on some Chinese sites). Each source record says which other official copy was used and how it was obtained.
+- **Applied after your decisions on 2026-10-10** (manifest applied/2026-10-10-2.json; the guard reproduces the published diff): the RSP v3 rewrite (P-0005 v3, P-0006, P-0007, P-0010 v3, P-0013), the RAISE ↔ RSP connection (P-0009 v3), EO 14409 (P-0014; CAISI connection removed, P-0015), the EU AI Act dates, AI Office fine cap and GPAI Code fixes (P-0016–P-0018), the China AI Law status (P-0019), and the 'Content updated' date wording (P-0012). These come on top of P-0001, P-0003, P-0004 and P-0008, applied earlier.
+- **New for your decision:** P-0020, a new entry for the EU Code of Practice on Transparency of AI-generated Content (adopted Jul 2026), drafted at your request. Still open from before: P-0002 v2 (FAQ 'binding laws') and P-0011 (how to classify other-aisis).
+- **Coverage is still small:** 6 entries attempted in this completion run; 50 of 511 inventory items have now been verified against external sources at least once (up from 6). The public date (10 Oct 2026) marks this release, not an audit. The baseline audit remains the next milestone.
 
 | | |
 |---|---|
@@ -17,8 +16,8 @@
 | Internal consistency checks passed or fixed | 0 (the map checked against itself, not against outside sources) |
 | Not verified | 16 (source inaccessible: 0, unresolved: 16) |
 | Sources | 26 used, 0 not retrieved |
-| Proposals | ready for your decision: 13 · research/access required: 0 · accepted, awaiting application: 2 · applied: 4 · closed/deferred: 0 |
-| Whole map | 50 of 511 inventory items have ever been verified against external sources. The map's public content date (2026-10-10) marks the latest applied release, not a full audit. |
+| Proposals | ready for your decision: 3 · research/access required: 0 · accepted, awaiting application: 0 · applied: 17 · closed/deferred: 0 |
+| Whole map | 49 of 511 inventory items have ever been verified against external sources. The map's public content date (2026-10-10) marks the latest applied release, not a full audit. |
 | Run | `2026-10-10-trial1b` · 2026-10-10T16:29:13Z → 2026-10-10T16:53:01Z (24 min) · usage/cost: Not measured: get_session does not report cost in this environment. Wall-clock about 1 h 15 min in one session, including three research subagents (≈405k subagent tokens in total). |
 
 ## A. Ready for your decision
@@ -26,18 +25,8 @@
 | ID | Ver | Type | Proposal | Evidence |
 |---|---|---|---|---|
 | P-0002 | v2 | change | FAQ: align 'binding laws' with the map's own classifications (internal consistency only) | internal-consistency |
-| P-0005 | v3 | change | Anthropic RSP: current version v3.4 (Jul 2026) and how v3 is structured | verified |
-| P-0009 | v3 | change | New connection NY RAISE ↔ Anthropic RSP: RAISE's framework requirement and Anthropic's separate compliance framework | verified |
-| P-0010 | v3 | change | Anthropic RSP: describe the v3 structure (thresholds, ASLs, safeguards, evaluations, timing) and the separate compliance framework | verified |
 | P-0011 | v1 | question | Classification of `other-aisis` (multi-country AISI entry) is unresolved | internal-consistency |
-| P-0012 | v1 | change | Make the public date say 'content updated', not imply a full audit | internal-consistency |
-| P-0013 | v1 | change | Anthropic RSP · Halting: v3 replaced the unconditional pause commitment with competitor-dependent delay commitments | verified |
-| P-0014 | v1 | change | US Frontier AI Access EO: describe EO 14409 from its official text (voluntary cyber-capability access; NSA, Treasury and CISA lead, not CAISI) | verified |
-| P-0015 | v1 | change | Remove connection US Frontier AI Access EO ↔ CAISI: the order does not name CAISI | verified |
-| P-0016 | v1 | change | EU AI Act: high-risk application dates moved by the Digital Omnibus (Reg. 2026/1744) | verified |
-| P-0017 | v1 | change | EU AI Office: GPAI fines are capped at €15M or 3%, not €35M or 7%; enforcement powers apply since Aug 2026 | verified |
-| P-0018 | v1 | change | EU GPAI Code: Model Reports every six months, not annual; content marking is not in the GPAI Code | verified |
-| P-0019 | v1 | change | China AI Law: still a preparatory planning item with no draft; correct the '2025 plan dropped it' claim and add an official source link | verified |
+| P-0020 | v1 | addition | New entry: EU Code of Practice on Transparency of AI-generated Content (Article 50 marking and labelling) | verified |
 
 Reply in conversation, e.g. “accept P-0002 v2”, “edit P-0011: …”, “reject P-0012 — reason”, “defer …”. Decisions bind to the version shown. Full details in §1.
 
@@ -51,10 +40,7 @@ Checked items that did not verify in this run: 16 unresolved, 0 source inaccessi
 
 ## C. Accepted and awaiting application
 
-| ID | Ver | Accepted | Proposal | Evidence |
-|---|---|---|---|---|
-| P-0006 | v1 | 2026-10-09 | Anthropic RSP · Updating policies: revision history and change-log commitment — **held:** held with P-0005 (applied together; P-0005 is not yet eligible) | verified |
-| P-0007 | v1 | 2026-10-09 | Anthropic RSP · Accountability: Risk Reports, external review, LTBT powers — **held:** held with P-0005 (applied together; P-0005 is not yet eligible) | verified |
+_None._
 
 ## D. Applied
 
@@ -63,7 +49,20 @@ Checked items that did not verify in this run: 16 unresolved, 0 source inaccessi
 | P-0001 | v1 | 2026-10-10 | 2026-10-10.json | Derive the data.json description count instead of hardcoding "39" |
 | P-0003 | v2 | 2026-10-10 | 2026-10-10.json | Relabel jurisdiction code `as` from 'Asia (other)' to 'Asia-Pacific (other)' |
 | P-0004 | v1 | 2026-10-10 | 2026-10-10.json | Layer 2 subtitle: 'agencies' → 'framework acts' |
+| P-0005 | v3 | 2026-10-10 | 2026-10-10-2.json | Anthropic RSP: current version v3.4 (Jul 2026) and how v3 is structured |
+| P-0006 | v1 | 2026-10-10 | 2026-10-10-2.json | Anthropic RSP · Updating policies: revision history and change-log commitment |
+| P-0007 | v1 | 2026-10-10 | 2026-10-10-2.json | Anthropic RSP · Accountability: Risk Reports, external review, LTBT powers |
 | P-0008 | v2 | 2026-10-10 | 2026-10-10.json | Connection Seoul commitments ↔ Anthropic RSP: fix chronology |
+| P-0009 | v3 | 2026-10-10 | 2026-10-10-2.json | New connection NY RAISE ↔ Anthropic RSP: RAISE's framework requirement and Anthropic's separate compliance framework |
+| P-0010 | v3 | 2026-10-10 | 2026-10-10-2.json | Anthropic RSP: describe the v3 structure (thresholds, ASLs, safeguards, evaluations, timing) and the separate compliance framework |
+| P-0012 | v1 | 2026-10-10 | 2026-10-10-2.json | Make the public date say 'content updated', not imply a full audit |
+| P-0013 | v1 | 2026-10-10 | 2026-10-10-2.json | Anthropic RSP · Halting: v3 replaced the unconditional pause commitment with competitor-dependent delay commitments |
+| P-0014 | v1 | 2026-10-10 | 2026-10-10-2.json | US Frontier AI Access EO: describe EO 14409 from its official text (voluntary cyber-capability access; NSA, Treasury and CISA lead, not CAISI) |
+| P-0015 | v1 | 2026-10-10 | 2026-10-10-2.json | Remove connection US Frontier AI Access EO ↔ CAISI: the order does not name CAISI |
+| P-0016 | v1 | 2026-10-10 | 2026-10-10-2.json | EU AI Act: high-risk application dates moved by the Digital Omnibus (Reg. 2026/1744) |
+| P-0017 | v1 | 2026-10-10 | 2026-10-10-2.json | EU AI Office: GPAI fines are capped at €15M or 3%, not €35M or 7%; enforcement powers apply since Aug 2026 |
+| P-0018 | v1 | 2026-10-10 | 2026-10-10-2.json | EU GPAI Code: Model Reports every six months, not annual; content marking is not in the GPAI Code |
+| P-0019 | v1 | 2026-10-10 | 2026-10-10-2.json | China AI Law: still a preparatory planning item with no draft; correct the '2025 plan dropped it' claim and add an official source link |
 
 ## 1. Proposal details
 
@@ -107,9 +106,277 @@ _Decision history:_ accepted v1 2026-10-09 (Maintainer in conversation, 2026-10-
 
 ---
 
+### P-0011 v1 — Classification of `other-aisis` (multi-country AISI entry) is unresolved
+
+`question` · evidence: **Internal consistency only (the map checked against itself)** · decision: **pending** · confidence: — · change-hash `4f53cda18c2b`
+
+**Question for you:** Choose one: (a) leave `as`, accepting the imprecision; (b) move it to `mu` (Multilateral), which changes this chip's colour and puts it in the Multilateral legend group; (c) split it into per-country entries later (larger change, and SCOPE B1 says these countries are not monitored nationally).
+
+**Why it matters:** `other-aisis` covers Singapore, Japan, France, Korea, Canada, Australia, Kenya and India but uses `as` (Asia-Pacific (other)). That is inaccurate for France, Canada and Kenya under either label. Accepting the P-0003 label change did not settle this.
+
+**Reasoning:** Internal classification question; no external facts involved.
+
+**Evidence**
+
+- **S-0027** Map repository at f9d3e56 (index.html, build-llms.js, data.json) — <https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56>
+  repo · retrieved 2026-10-08 · access: ok via repo
+  index.html JUR_LABEL / au-esafety / other-aisis:
+  > JUR_LABEL as: 'Asia (other)'. au-esafety (Australia eSafety Commissioner) has jur 'as'. other-aisis (desc: 'Singapore …, Japan …, France (INESIA), Korea, Canada, Australia, Kenya, India') has jur 'as'.
+  _Supports:_ other-aisis members and jur code
+
+**Uncertainty:** None on the facts; this is a judgment call.
+
+---
+
+### P-0020 v1 — New entry: EU Code of Practice on Transparency of AI-generated Content (Article 50 marking and labelling)
+
+`addition` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: high · change-hash `410d595a202b`
+
+**Change**
+
+- **New entry `eu-genai-code`** — EU AI-generated content code · Layer 5 · jur `eu` · pow 2 · active · https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content
+
+> Voluntary code (final Jun 2026) for the AI Act's Article 50 duties to mark and label AI-generated content; the Commission and AI Board found it adequate in Jul 2026. Anthropic, Google, Meta, Microsoft and OpenAI signed the provider section.
+
+> Two sections: providers commit to machine-readable marking (digitally signed metadata plus imperceptible watermarks) and free detection tools; deployers commit to labelling deepfakes and AI-generated text on matters of public interest. Drafted by independent experts under the AI Office, like the GPAI Code, it gives signatories a recognised route to show compliance with duties that apply from Aug 2026; others must show adequate alternatives to national market-surveillance authorities. Unlike the GPAI Code, Meta signed it.
+
+  - _timing_: The underlying Article 50 duties apply from 2 Aug 2026; generative systems already on the market before then have until 2 Dec 2026 for machine-readable marking.
+  - _mit_: Providers mark outputs with signed metadata and imperceptible watermarks so they are detectable as AI-generated; deployers label deepfakes and AI-generated text published on matters of public interest. Aimed at deception and misinformation, not catastrophic risk.
+  - _acct_: Signatories must offer detection tools free of charge to users, authorities, researchers and media. Adherence is not conclusive proof of compliance; non-signatories must demonstrate adequate alternatives to market-surveillance authorities.
+
+- **new connection `eu-genai-code` ↔ `eu-aia`**
+
+  Current:
+
+  > _(absent)_
+
+  Proposed:
+
+  > Code implements the AI Act's Article 50 marking and labelling duties
+
+- **new connection `eu-aio` ↔ `eu-genai-code`**
+
+  Current:
+
+  > _(absent)_
+
+  Proposed:
+
+  > AI Office facilitated the drafting by independent experts
+
+**Question for you:** Accept as drafted? Optional extras not included, to keep it minimal: (a) a connection to gpai-cop ('Sibling AI Office code; Meta signed this one but not the GPAI Code'); (b) connections to the lab framework entries of signatories (rsp, prep, meta-faif). Say if you want either.
+
+**Why it matters:** A second AI Act code of practice, adopted in July 2026, that the map does not cover. It shapes how every major generative AI provider, including the frontier labs on the map, marks and enables detection of model outputs in the EU. The maintainer asked for it to be drafted (2026-10-10).
+
+**Reasoning:** Meets RUBRIC §1. It is identifiable (published code text, S-0060). It is material: contextual under SCOPE §C, because it governs deployment-stage marking by GPAI and generative AI providers rather than catastrophic risk. It is attributable: drawn up under the AI Office and assessed as adequate by the Commission and AI Board (S-0046). Layer 5, jur eu, pow 2 and status active mirror gpai-cop, the map's other AI Office code. pow 2 follows RUBRIC §4 ('voluntary government codes'). Every fact comes from Commission pages or the code itself: final publication 10 Jun 2026 (S-0059); adequacy 8 and 9 Jul 2026, and adherence not conclusive proof (S-0046); two sections and non-signatories assessed by market surveillance (S-0045); signed metadata and watermarking (S-0060, Measure 1.1); free detection solution for users, authorities, researchers and media (S-0060, Measure 2.1). Application dates come from the AI Act as amended (S-0041, Art 111(4); S-0045). Section 1 signatories are named by the Commission (S-0058). Meta's absence from the GPAI Code list is from S-0003. Coverage notes are limited to the three METR elements the code actually addresses.
+
+**Evidence**
+
+- **S-0045** European Commission: Code of practice on transparency of AI-generated content — <https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content>
+  primary · retrieved 2026-10-10 · access: ok
+  Overview and 'Code of Practice':
+  > drawn up by independent experts in a multi-stakeholder process facilitated by the AI Office … The Commission and the AI Board have confirmed that the code is an adequate voluntary tool … 2 sections: Section 1: Providers - Rules for marking and detection … Section 2: Deployers - Rules for labelling of deepfakes and AI-generated and manipulated text
+  _Supports:_ Two sections; AI Office-facilitated drafting; adequacy
+- **S-0045** European Commission: Code of practice on transparency of AI-generated content — <https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content>
+  primary · retrieved 2026-10-10 · access: ok
+  Overview:
+  > These transparency obligations, applicable from 2 August 2026 … providers and deployers that decide to comply through other means will have to demonstrate that those measures are adequate. This will be assessed individually by different market surveillance authorities.
+  _Supports:_ Duties apply from 2 Aug 2026; non-signatories assessed by market surveillance
+- **S-0059** Commission publishes the code of practice on marking and labelling of AI-generated content (10 Jun 2026) — <https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-06-10
+  News, 10 June 2026:
+  > The European Commission published the final Code of Practice on marking and labelling of AI-generated content. The Code is voluntary and sets out practical steps to help providers and deployers of generative artificial intelligence (AI) systems meet the AI Act transparency obligations that will apply from 2 August 2026.
+  _Supports:_ Final code published 10 Jun 2026; voluntary
+- **S-0046** Commission opinion on the adequacy of the AI-generated content transparency code — <https://digital-strategy.ec.europa.eu/en/library/commission-opinion-assessment-code-practice-transparency-ai-generated-content>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-07-09
+  Opinion, 9 July 2026:
+  > On July 8, the Commission concluded that the Code of Practice on Transparency of AI-generated Content adequately covers the obligations provided for in Articles 50(2), (4) and (5) AI Act … The following day, the AI Board adopted its Adequacy Assessment … Adherence to the code does not constitute conclusive evidence of compliance with these obligations.
+  _Supports:_ Commission adequacy 8 Jul; AI Board 9 Jul; not conclusive evidence
+- **S-0058** Commission: strong backing for the code of practice on transparency of AI-generated content (signatories, 31 Jul 2026) — <https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-07-31
+  News, 31 July 2026:
+  > By the end of July 2026, about 190 organisations … have signed the code. … Examples for Section 1 include: Aleph Alpha, Anthropic, Black Forest Labs, Cohere, Google, Meta, Microsoft, Mistral, Open AI, Synthesia. … Section 1 signatories: 95 · Section 2 signatories: 192 [xAI not listed]
+  _Supports:_ Signatories incl. Anthropic, Google, Meta, Microsoft, OpenAI (Section 1)
+- **S-0060** Code of Practice on Transparency of AI-Generated Content (final, PDF) — <https://ec.europa.eu/newsroom/dae/redirection/document/129555>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-06-10
+  Section 1, Measure 1.1 (Sub-measures 1.1.1, 1.1.2):
+  > Sub-measure 1.1.1: Digitally signed metadata … Signatories will record information in the metadata on whether the content is AI-generated or manipulated. … Sub-measure 1.1.2: Imperceptible watermarking … The watermark is intended to serve as a robust mechanism to complement the digitally signed metadata
+  _Supports:_ Signed metadata and imperceptible watermarks
+- **S-0060** Code of Practice on Transparency of AI-Generated Content (final, PDF) — <https://ec.europa.eu/newsroom/dae/redirection/document/129555>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-06-10
+  Section 1, Measure 2.1 and Sub-measure 2.1.x:
+  > Signatories will make available a detection solution … to enable deployers, users … end-users exposed to the content, and other legitimate parties (such as competent authorities, independent researchers, civil society and media organisations) to verify whether content has been generated or manipulated by their AI system … Signatories will make the detection solution available free of charge.
+  _Supports:_ Free detection solution for users, authorities, researchers, media
+- **S-0041** Regulation (EU) 2026/1744 (Digital Omnibus on AI), Official Journal L series — <https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202601744>
+  primary · retrieved 2026-10-10 · access: ok via curl (research subagent, 2026-10-10 ~16:38Z) · adopted 2026-07-08, published 2026-07-24, in_force 2026-07-27
+  Art 1(39)(b), new AI Act Art 111(4):
+  > Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026.
+  _Supports:_ Legacy systems: Art 50(2) marking by 2 Dec 2026
+- **S-0003** https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai — <https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai>
+  primary · retrieved 2026-10-10 · access: ok
+  Signatories (page last updated 7 October 2026):
+  > AI Studio Delta, Aleph Alpha, Almawave, Amazon, Anthropic, … Google, IBM, … Microsoft, Mistral AI, … OpenAI, … WRITER. In addition, xAI signed up to the Safety and Security Chapter; this means that it will have to demonstrate compliance with the AI Act's obligations concerning transparency and copyright via alternative adequate means.
+  _Supports:_ Meta not on the GPAI Code signatory list
+
+**Uncertainty:** Signatories can join or leave; the Commission's list is updated continuously (95 Section 1 and 192 Section 2 signatories as of the 31 Jul 2026 page). xAI does not appear. pow 2 versus pow 1 follows the gpai-cop precedent; the rubric's open question on voluntary government codes applies equally. Google is listed as 'Google', and the map's DeepMind framework entry (fsf) is not connected, since the Google signatory may be the company rather than DeepMind.
+
+**May need reconsideration if accepted**
+
+- `edge:coe-ai|eu-aia`: CoE Convention is the international treaty layer above EU AI Act
+- `edge:eu-aia|eu-aio`: EU AI Office is the regulator implementing EU AI Act
+- `edge:gpai-cop|eu-aia`: GPAI Code is the voluntary route to EU AI Act compliance
+- `edge:uk-ico|eu-aia`: UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards
+- `gap:eval`: Evaluations everywhere, mandates almost nowhere — Most mechanisms touch evaluations in some way, but mandatory third-party evaluation of frontier models is rare. The EU AI Act req…
+- `gap:elicit`: Capability elicitation sits with evaluators, not regulators — Almost no statute requires it; only the EU AI Act and the GPAI Code do, indirectly through adversarial-testing langua…
+- `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
+- `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
+- `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
+- `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice. California SB 53 requires labs to keep their published frameworks current. NIST AI RMF,…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight binding instruments in this map carry penalty regimes: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures…
+- `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
+- `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
+- `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
+- `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
+- `edge:aisi-net|eu-aio`: EU AI Office's Safety Unit is part of the network
+- `edge:gpai-cop|eu-aio`: EU AI Office runs and oversees the CoP
+- `gap:halt`: Few mechanisms can compel a frontier developer to halt — Conditions for halting are the rarest column in the matrix. The EU AI Office can order recall (Aug 2026 onwards). The GPAI…
+- `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
+- Entry text that mentions the affected entries: `entry:kr-ai:cov:thresh`, `entry:kr-ai:cov:eval`, `entry:ca-sb53:desc`, `entry:co-aia:desc`, `entry:co-aia:context`, `entry:co-aia:cov:acct`, `entry:gpai-cop:desc`, `entry:gpai-cop:context`, `entry:gpai-cop:cov:thresh`, `entry:gpai-cop:cov:eval`, `entry:gpai-cop:cov:sec`, `entry:gpai-cop:cov:acct`, `entry:meta-faif:context`, `entry:meta-faif:cov:acct`, `entry:xai-rmf:desc`, `entry:eu-aio:context`, `entry:averi:context`, `entry:averi:cov:eval`, `entry:aisi-net:desc`, `entry:eu-aia:cov:timing`, `entry:eu-aia:cov:acct`, `entry:gpai-cop:cov:update`, `entry:us-ftc:context`
+
+
+### Applied
+
+### P-0001 v1 — Derive the data.json description count instead of hardcoding "39"
+
+`change` · evidence: **Internal consistency only (the map checked against itself)** · decision: **accepted** (v1, 2026-10-09) · confidence: high · change-hash `107760cab70a`
+
+**Change**
+
+- **`build-llms.js`**
+
+  Current:
+
+  > description: 'Interactive map of frontier AI governance: 39 mechanisms across six layers, with METR\'s nine common elements as an orthogonal filter.',
+
+  Proposed:
+
+  > description: `Interactive map of frontier AI governance: ${ENTITIES.length} mechanisms across six layers, with METR's nine common elements as an orthogonal filter.`,
+
+**Why it matters:** The published data.json says 39 mechanisms while the map has 49. The number was typed by hand in build-llms.js, so it would drift again after every addition.
+
+**Reasoning:** Generator fix, not a content judgment. After apply, data.json's description reads the live entry count.
+
+**Evidence**
+
+- **S-0027** Map repository at f9d3e56 (index.html, build-llms.js, data.json) — <https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56>
+  repo · retrieved 2026-10-08 · access: ok via repo
+  build-llms.js line 150:
+  > description: 'Interactive map of frontier AI governance: 39 mechanisms across six layers, …' — while ENTITIES has 49 entries; data.json therefore says 39.
+  _Supports:_ The hardcoded value and the actual count
+
+**Uncertainty:** None on the fact. The only visible effect is the data.json description string.
+
+---
+
+### P-0003 v2 — Relabel jurisdiction code `as` from 'Asia (other)' to 'Asia-Pacific (other)'
+
+`change` · evidence: **Internal consistency only (the map checked against itself)** · decision: **accepted** (v2, 2026-10-09) · confidence: high · change-hash `d6753348364d`
+
+_Revised from v1: same change wording, so an existing approval carries over._
+
+**Change**
+
+- **`index.html`**
+
+  Current:
+
+  > as:'Asia (other)'
+
+  Proposed:
+
+  > as:'Asia-Pacific (other)'
+
+- **`index.html`**
+
+  Current:
+
+  > <span class="sw j-as"></span>Other Asia</span>
+
+  Proposed:
+
+  > <span class="sw j-as"></span>Other Asia-Pacific</span>
+
+- **`build-llms.js`**
+
+  Current:
+
+  > as:'Asia (other)'
+
+  Proposed:
+
+  > as:'Asia-Pacific (other)'
+
+**Why it matters:** Australia's eSafety Commissioner is coloured and described as 'Asia (other)'. That label also appears in llms-full.txt and data.json for every `as` entry.
+
+**Reasoning:** A label-only change. The code `as`, its colour, the lens and all filtering behaviour stay as they are, and no entry moves.
+
+**Evidence**
+
+- **S-0027** Map repository at f9d3e56 (index.html, build-llms.js, data.json) — <https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56>
+  repo · retrieved 2026-10-08 · access: ok via repo
+  index.html JUR_LABEL / au-esafety / other-aisis:
+  > JUR_LABEL as: 'Asia (other)'. au-esafety (Australia eSafety Commissioner) has jur 'as'. other-aisis (desc: 'Singapore …, Japan …, France (INESIA), Korea, Canada, Australia, Kenya, India') has jur 'as'.
+  _Supports:_ au-esafety and other-aisis use `as`
+
+**Uncertainty:** None on the facts. This proposal changes only the label. It does not decide how `other-aisis` (a multi-country entry including France, Canada and Kenya) should be classified; that question is tracked separately as P-0011.
+
+---
+
+### P-0004 v1 — Layer 2 subtitle: 'agencies' → 'framework acts'
+
+`change` · evidence: **Internal consistency only (the map checked against itself)** · decision: **accepted** (v1, 2026-10-09) · confidence: high · change-hash `a3579e1ac559`
+
+**Change**
+
+- **`index.html`**
+
+  Current:
+
+  > <h2>National regulation</h2><p>Statutes, executive orders, agencies</p>
+
+  Proposed:
+
+  > <h2>National regulation</h2><p>Statutes, executive orders, framework acts</p>
+
+- **`build-llms.js`**
+
+  Current:
+
+  > desc: 'Statutes, executive orders, agencies'
+
+  Proposed:
+
+  > desc: 'Statutes, executive orders, framework acts'
+
+**Why it matters:** The subtitle contradicts the map's own organising rule: agencies sit in Layer 4, the Layer 2 tooltip says so, and so does the FAQ on Layer 2 vs 4. It also flows into llms.txt, llms-full.txt and data.json.
+
+**Reasoning:** The proposed wording is taken from the Layer 2 tooltip ('statutes, executive orders, framework acts').
+
+**Evidence**
+
+- **S-0027** Map repository at f9d3e56 (index.html, build-llms.js, data.json) — <https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56>
+  repo · retrieved 2026-10-08 · access: ok via repo
+  index.html Layer 2 band vs tooltip and FAQ:
+  > Subtitle: 'Statutes, executive orders, agencies'. Tooltip: 'The laws themselves — statutes, executive orders, framework acts. The institutions that implement and enforce them sit in Layer 4.' No Layer 2 entry is an agency.
+  _Supports:_ Subtitle vs tooltip; no Layer 2 entry is an agency
+
+**Uncertainty:** None.
+
+---
+
 ### P-0005 v3 — Anthropic RSP: current version v3.4 (Jul 2026) and how v3 is structured
 
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: high · change-hash `d15839389f3d`
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v3, 2026-10-10) · confidence: high · change-hash `d15839389f3d`
 
 _Revised from v2: wording changed, so it needs a fresh decision._
 
@@ -177,13 +444,197 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 - `faq:what-is-sandbagging-in-ai-safety`: What is sandbagging in AI safety? — Sandbagging is when an AI model intentionally underperforms during safety evaluations — strategically scoring lower than its true capability so…
 - Entry text that mentions the affected entries: `entry:ca-sb53:cov:thresh`, `entry:gpai-cop:desc`, `entry:fmf:desc`, `entry:fmf:cov:eval`, `entry:prep:cov:thresh`, `entry:fsf:context`, `entry:fsf:cov:thresh`, `entry:fsf:cov:timing`, `entry:fsf:cov:sec`, `entry:fsf:cov:halt`, `entry:fsf:cov:acct`, `entry:fsf:cov:update`, `entry:meta-faif:cov:thresh`, `entry:meta-faif:cov:sec`, `entry:metr:context`, `entry:metr:cov:eval`, `entry:apollo:cov:elicit`
 
-_Decision history:_ accepted v2 2026-10-09 (Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified')
+_Decision history:_ accepted v2 2026-10-09 (Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'); pending 2026-10-10 (v3: wording changed — needs renewed approval)
+
+---
+
+### P-0006 v1 — Anthropic RSP · Updating policies: revision history and change-log commitment
+
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v1, 2026-10-09) · confidence: high · change-hash `abad9e4a9415`
+
+**Applied together with:** P-0005, P-0007, P-0010, P-0013
+
+**Change**
+
+- **`rsp` · coverage · update**
+
+  Current:
+
+  > RSP updated ~4× since 2023, formalising new evaluations, refining ASL definitions, and incorporating external evaluator findings. The update cadence itself is part of the published commitment.
+
+  Proposed:
+
+  > Revised eight times since v1.0 (Sep 2023), most recently v3.4 (Jul 2026); v3.0 (Feb 2026) was a comprehensive rewrite, and later updates revised capability thresholds (v3.3, v3.4) and LTBT oversight (v3.2). Anthropic commits to logging every change on the policy page and in a changelog in the policy document.
+
+**Why it matters:** Same stale count as the description; the note also asserted things about updates that aren't supported by what was checked ('incorporating external evaluator findings').
+
+**Reasoning:** Rewritten only from the policy page's update log. The commitment is stated as a commitment.
+
+**Evidence**
+
+- **S-0005** https://www.anthropic.com/responsible-scaling-policy — <https://www.anthropic.com/responsible-scaling-policy>
+  primary · retrieved 2026-10-10 · access: ok · page_updated 2026-08-14, current_version_effective 2026-07-08, first_version_effective 2023-09-19
+  Current and Prior Versions:
+  > Version 3.4 and redline (effective July 8, 2026) · Version 3.3 (effective May 26, 2026) · Version 3.2 (effective April 29, 2026) · Version 3.1 (effective April 2, 2026) · Version 3.0 (effective February 24, 2026) · Version 2.2 (effective May 14, 2025) · Version 2.1 (effective March 31, 2025) · Version 2.0 (effective October 15, 2024) · Version 1.0 (effective September 19, 2023)
+  _Supports:_ Versions and dates
+- **S-0005** https://www.anthropic.com/responsible-scaling-policy — <https://www.anthropic.com/responsible-scaling-policy>
+  primary · retrieved 2026-10-10 · access: ok · page_updated 2026-08-14, current_version_effective 2026-07-08, first_version_effective 2023-09-19
+  Update log, February 24, 2026 / April 2, 2026:
+  > Version 3.0 is a comprehensive rewrite of the RSP. … [changes] will be logged both on this page and in a changelog in the policy document itself.
+  _Supports:_ Rewrite; change-log commitment
+- **S-0005** https://www.anthropic.com/responsible-scaling-policy — <https://www.anthropic.com/responsible-scaling-policy>
+  primary · retrieved 2026-10-10 · access: ok · page_updated 2026-08-14, current_version_effective 2026-07-08, first_version_effective 2023-09-19
+  Update log, April 29, 2026:
+  > Version 3.2 of our RSP authorizes the LTBT to request external review of Risk Reports, gives the LTBT the power to approve our selection of external reviewers, and formalizes a requirement that we provide the LTBT with regular briefings.
+  _Supports:_ v3.2 LTBT changes
+
+**Uncertainty:** Removes the clause 'incorporating external evaluator findings'. That clause may still be true; I only lacked evidence for it. Say if you prefer to keep it.
+
+**May need reconsideration if accepted**
+
+- `edge:ca-sb53|rsp`: SB 53 codifies the published-framework norm Anthropic exemplified
+- `edge:seoul-commit|rsp`: RSP's first version (Sep 2023) predates the Seoul commitments, which asked signatories to publish comparable frameworks
+- `edge:gpai-cop|rsp`: Anthropic signed all three chapters
+- `edge:fmf|rsp`: Anthropic is an FMF founding member
+- `edge:metr|rsp`: METR conducts capability evaluations for Anthropic
+- `edge:apollo|rsp`: Apollo evaluates Anthropic models for scheming
+- `edge:uk-aisi|rsp`: UK AISI tested Anthropic models pre-deployment
+- `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
+- `faq:which-ai-labs-have-published-frontier-safety-fra`: Which AI labs have published frontier safety frameworks? — Five major labs have published frontier safety frameworks at Layer 6 of this map: Anthropic (Responsible Scaling Policy,…
+- `faq:what-is-sandbagging-in-ai-safety`: What is sandbagging in AI safety? — Sandbagging is when an AI model intentionally underperforms during safety evaluations — strategically scoring lower than its true capability so…
+- Entry text that mentions the affected entries: `entry:ca-sb53:cov:thresh`, `entry:gpai-cop:desc`, `entry:fmf:desc`, `entry:fmf:cov:eval`, `entry:prep:cov:thresh`, `entry:fsf:context`, `entry:fsf:cov:thresh`, `entry:fsf:cov:timing`, `entry:fsf:cov:sec`, `entry:fsf:cov:halt`, `entry:fsf:cov:acct`, `entry:fsf:cov:update`, `entry:meta-faif:cov:thresh`, `entry:meta-faif:cov:sec`, `entry:metr:context`, `entry:metr:cov:eval`, `entry:apollo:cov:elicit`
+
+---
+
+### P-0007 v1 — Anthropic RSP · Accountability: Risk Reports, external review, LTBT powers
+
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v1, 2026-10-09) · confidence: high · change-hash `43032f62a608`
+
+**Applied together with:** P-0005, P-0006, P-0010, P-0013
+
+**Change**
+
+- **`rsp` · coverage · acct**
+
+  Current:
+
+  > Board oversight (Long-Term Benefit Trust); public publication of the framework, evaluation results, and any escalations. Subjected to external scrutiny in EU GPAI Code drafting and California SB 53.
+
+  Proposed:
+
+  > Board oversight (Long-Term Benefit Trust); public publication of the framework, evaluation results, and any escalations. Since v3.0 (Feb 2026) Anthropic commits to publishing redacted Risk Reports every 3–6 months (published Feb and Aug 2026), with external review in certain circumstances; v3.2 (Apr 2026) lets the LTBT request external review and approve the choice of reviewers. Subjected to external scrutiny in EU GPAI Code drafting and California SB 53.
+
+**Why it matters:** These are the main accountability mechanisms added in 2026, and the map omits them.
+
+**Reasoning:** Commitment (reports every 3–6 months; external review in certain circumstances) is kept separate from implementation evidence (two redacted reports published, Feb and Aug 2026). Anthropic said in Feb 2026 that external review was not yet required and was being piloted.
+
+**Evidence**
+
+- **S-0007** https://www.anthropic.com/news/responsible-scaling-policy-v3 — <https://www.anthropic.com/news/responsible-scaling-policy-v3>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-02-24
+  3. Risk Reports and external review:
+  > Risk Reports will be published online (with some redactions) every 3-6 months. The new RSP also requires external review of Risk Reports in certain circumstances. … Although our current models do not yet require external review, we are already running pilots
+  _Supports:_ Risk Report cadence and external-review requirement
+- **S-0005** https://www.anthropic.com/responsible-scaling-policy — <https://www.anthropic.com/responsible-scaling-policy>
+  primary · retrieved 2026-10-10 · access: ok · page_updated 2026-08-14, current_version_effective 2026-07-08, first_version_effective 2023-09-19
+  Risk Reports:
+  > Redacted Risk Report August 2026 · Redacted Risk Report February 2026
+  _Supports:_ Two published Risk Reports
+- **S-0005** https://www.anthropic.com/responsible-scaling-policy — <https://www.anthropic.com/responsible-scaling-policy>
+  primary · retrieved 2026-10-10 · access: ok · page_updated 2026-08-14, current_version_effective 2026-07-08, first_version_effective 2023-09-19
+  Update log, April 29, 2026:
+  > Version 3.2 of our RSP authorizes the LTBT to request external review of Risk Reports, gives the LTBT the power to approve our selection of external reviewers, and formalizes a requirement that we provide the LTBT with regular briefings.
+  _Supports:_ v3.2 LTBT powers
+
+**Uncertainty:** The 'certain circumstances' that trigger external review are defined in the policy text, which was blocked. The existing first sentence was not re-verified.
+
+**May need reconsideration if accepted**
+
+- `edge:ca-sb53|rsp`: SB 53 codifies the published-framework norm Anthropic exemplified
+- `edge:seoul-commit|rsp`: RSP's first version (Sep 2023) predates the Seoul commitments, which asked signatories to publish comparable frameworks
+- `edge:gpai-cop|rsp`: Anthropic signed all three chapters
+- `edge:fmf|rsp`: Anthropic is an FMF founding member
+- `edge:metr|rsp`: METR conducts capability evaluations for Anthropic
+- `edge:apollo|rsp`: Apollo evaluates Anthropic models for scheming
+- `edge:uk-aisi|rsp`: UK AISI tested Anthropic models pre-deployment
+- `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
+- `faq:which-ai-labs-have-published-frontier-safety-fra`: Which AI labs have published frontier safety frameworks? — Five major labs have published frontier safety frameworks at Layer 6 of this map: Anthropic (Responsible Scaling Policy,…
+- `faq:what-is-sandbagging-in-ai-safety`: What is sandbagging in AI safety? — Sandbagging is when an AI model intentionally underperforms during safety evaluations — strategically scoring lower than its true capability so…
+- Entry text that mentions the affected entries: `entry:ca-sb53:cov:thresh`, `entry:gpai-cop:desc`, `entry:fmf:desc`, `entry:fmf:cov:eval`, `entry:prep:cov:thresh`, `entry:fsf:context`, `entry:fsf:cov:thresh`, `entry:fsf:cov:timing`, `entry:fsf:cov:sec`, `entry:fsf:cov:halt`, `entry:fsf:cov:acct`, `entry:fsf:cov:update`, `entry:meta-faif:cov:thresh`, `entry:meta-faif:cov:sec`, `entry:metr:context`, `entry:metr:cov:eval`, `entry:apollo:cov:elicit`
+
+---
+
+### P-0008 v2 — Connection Seoul commitments ↔ Anthropic RSP: fix chronology
+
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v2, 2026-10-09) · confidence: high · change-hash `7990ce2259ba`
+
+_Revised from v1: same change wording, so an existing approval carries over._
+
+**Change**
+
+- **connection `seoul-commit` ↔ `rsp`**
+
+  Current:
+
+  > Seoul commitments triggered RSP's first public version
+
+  Proposed:
+
+  > RSP's first version (Sep 2023) predates the Seoul commitments, which asked signatories to publish comparable frameworks
+
+**Why it matters:** The connection asserts a causal sequence that is backwards: RSP v1.0 took effect 19 Sep 2023, and the Seoul summit was May 2024.
+
+**Reasoning:** The date comes from Anthropic's version list. The second clause restates what the map already says about Seoul (ai-summits coverage note).
+
+**Evidence**
+
+- **S-0005** https://www.anthropic.com/responsible-scaling-policy — <https://www.anthropic.com/responsible-scaling-policy>
+  primary · retrieved 2026-10-10 · access: ok · page_updated 2026-08-14, current_version_effective 2026-07-08, first_version_effective 2023-09-19
+  Current and Prior Versions:
+  > Version 3.4 and redline (effective July 8, 2026) · Version 3.3 (effective May 26, 2026) · Version 3.2 (effective April 29, 2026) · Version 3.1 (effective April 2, 2026) · Version 3.0 (effective February 24, 2026) · Version 2.2 (effective May 14, 2025) · Version 2.1 (effective March 31, 2025) · Version 2.0 (effective October 15, 2024) · Version 1.0 (effective September 19, 2023)
+  _Supports:_ v1.0 effective 19 Sep 2023
+- **S-0035** UK Government: Frontier AI Safety Commitments publication page — <https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024>
+  primary · retrieved 2026-10-10 · access: ok · published 2024-05-21
+  Publication metadata:
+  > Published: 21 May 2024 … 21 May 2024 First published.
+  _Supports:_ Seoul commitments published 21 May 2024
+- **S-0034** UK Government: Frontier AI Safety Commitments, AI Seoul Summit 2024 — <https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024>
+  primary · retrieved 2026-10-10 · access: ok
+  Commitments preamble:
+  > The above organisations … undertake to develop and deploy their frontier AI models and systems responsibly, in accordance with the following voluntary commitments, and to demonstrate how they have achieved this by publishing a safety framework focused on severe risks by the upcoming AI Summit in France.
+  _Supports:_ Signatories undertook to publish a safety framework focused on severe risks
+- **S-0034** UK Government: Frontier AI Safety Commitments, AI Seoul Summit 2024 — <https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024>
+  primary · retrieved 2026-10-10 · access: ok
+  Signatory list:
+  > Anthropic [listed among the signatory organisations]
+  _Supports:_ Anthropic is a signatory
+
+**Uncertainty:** Both halves now verified against primary sources (Anthropic version list; UK Government publication of the Seoul commitments, 21 May 2024). The same chronology problem probably affects 'Seoul commitments triggered the Preparedness Framework' (OpenAI) and possibly the DeepMind connection; outside this trial and queued for the baseline audit.
+
+**May need reconsideration if accepted**
+
+- `edge:ai-summits|seoul-commit`: Seoul commitments came out of the 2024 summit
+- `edge:seoul-commit|prep` — **likely same chronology error — check in baseline**: Seoul commitments triggered the Preparedness Framework
+- `edge:seoul-commit|fsf` — **check chronology in baseline**: Seoul commitments triggered the Frontier Safety Framework
+- `edge:seoul-commit|meta-faif`: Meta's framework followed Seoul (delayed)
+- `edge:seoul-commit|xai-rmf`: xAI's framework followed Seoul (delayed, thinner)
+- `gap:halt`: Few mechanisms can compel a frontier developer to halt — Conditions for halting are the rarest column in the matrix. The EU AI Office can order recall (Aug 2026 onwards). The GPAI…
+- `edge:ca-sb53|rsp`: SB 53 codifies the published-framework norm Anthropic exemplified
+- `edge:gpai-cop|rsp`: Anthropic signed all three chapters
+- `edge:fmf|rsp`: Anthropic is an FMF founding member
+- `edge:metr|rsp`: METR conducts capability evaluations for Anthropic
+- `edge:apollo|rsp`: Apollo evaluates Anthropic models for scheming
+- `edge:uk-aisi|rsp`: UK AISI tested Anthropic models pre-deployment
+- `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
+- `faq:which-ai-labs-have-published-frontier-safety-fra`: Which AI labs have published frontier safety frameworks? — Five major labs have published frontier safety frameworks at Layer 6 of this map: Anthropic (Responsible Scaling Policy,…
+- `faq:what-is-sandbagging-in-ai-safety`: What is sandbagging in AI safety? — Sandbagging is when an AI model intentionally underperforms during safety evaluations — strategically scoring lower than its true capability so…
+- Entry text that mentions the affected entries: `entry:ai-summits:desc`, `entry:ai-summits:context`, `entry:ai-summits:cov:thresh`, `entry:ai-summits:cov:update`, `entry:hiroshima:context`, `entry:hiroshima:cov:eval`, `entry:delhi-commit:desc`, `entry:delhi-commit:context`, `entry:delhi-commit:cov:acct`, `entry:ca-sb53:cov:thresh`, `entry:gpai-cop:desc`, `entry:fmf:desc`, `entry:fmf:cov:eval`, `entry:prep:cov:thresh`, `entry:fsf:context`, `entry:fsf:cov:thresh`, `entry:fsf:cov:timing`, `entry:fsf:cov:sec`, `entry:fsf:cov:halt`, `entry:fsf:cov:acct`, `entry:fsf:cov:update`, `entry:meta-faif:cov:thresh`, `entry:meta-faif:cov:sec`, `entry:metr:context`, `entry:metr:cov:eval`, `entry:apollo:cov:elicit`
 
 ---
 
 ### P-0009 v3 — New connection NY RAISE ↔ Anthropic RSP: RAISE's framework requirement and Anthropic's separate compliance framework
 
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: medium · change-hash `8d3b104ef303`
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v3, 2026-10-10) · confidence: medium · change-hash `8d3b104ef303`
 
 _Revised from v2: wording changed, so it needs a fresh decision._
 
@@ -269,13 +720,13 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 - `faq:what-is-sandbagging-in-ai-safety`: What is sandbagging in AI safety? — Sandbagging is when an AI model intentionally underperforms during safety evaluations — strategically scoring lower than its true capability so…
 - Entry text that mentions the affected entries: `entry:eu-aia:cov:thresh`, `entry:kr-ai:cov:thresh`, `entry:seoul-commit:context`, `entry:co-doi:context`, `entry:ca-sb53:cov:thresh`, `entry:gpai-cop:desc`, `entry:fmf:desc`, `entry:fmf:cov:eval`, `entry:prep:cov:thresh`, `entry:fsf:context`, `entry:fsf:cov:thresh`, `entry:fsf:cov:timing`, `entry:fsf:cov:sec`, `entry:fsf:cov:halt`, `entry:fsf:cov:acct`, `entry:fsf:cov:update`, `entry:meta-faif:cov:thresh`, `entry:meta-faif:cov:sec`, `entry:metr:context`, `entry:metr:cov:eval`, `entry:apollo:cov:elicit`
 
-_Decision history:_ accepted v1 2026-10-09 (Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified')
+_Decision history:_ accepted v1 2026-10-09 (Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'); pending 2026-10-09 (v2: wording changed — needs renewed approval)
 
 ---
 
 ### P-0010 v3 — Anthropic RSP: describe the v3 structure (thresholds, ASLs, safeguards, evaluations, timing) and the separate compliance framework
 
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: high · change-hash `92f0d8ad0842`
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v3, 2026-10-10) · confidence: high · change-hash `92f0d8ad0842`
 
 _Revised from v2: wording changed, so it needs a fresh decision._
 
@@ -462,31 +913,9 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 
 ---
 
-### P-0011 v1 — Classification of `other-aisis` (multi-country AISI entry) is unresolved
-
-`question` · evidence: **Internal consistency only (the map checked against itself)** · decision: **pending** · confidence: — · change-hash `4f53cda18c2b`
-
-**Question for you:** Choose one: (a) leave `as`, accepting the imprecision; (b) move it to `mu` (Multilateral), which changes this chip's colour and puts it in the Multilateral legend group; (c) split it into per-country entries later (larger change, and SCOPE B1 says these countries are not monitored nationally).
-
-**Why it matters:** `other-aisis` covers Singapore, Japan, France, Korea, Canada, Australia, Kenya and India but uses `as` (Asia-Pacific (other)). That is inaccurate for France, Canada and Kenya under either label. Accepting the P-0003 label change did not settle this.
-
-**Reasoning:** Internal classification question; no external facts involved.
-
-**Evidence**
-
-- **S-0027** Map repository at f9d3e56 (index.html, build-llms.js, data.json) — <https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56>
-  repo · retrieved 2026-10-08 · access: ok via repo
-  index.html JUR_LABEL / au-esafety / other-aisis:
-  > JUR_LABEL as: 'Asia (other)'. au-esafety (Australia eSafety Commissioner) has jur 'as'. other-aisis (desc: 'Singapore …, Japan …, France (INESIA), Korea, Canada, Australia, Kenya, India') has jur 'as'.
-  _Supports:_ other-aisis members and jur code
-
-**Uncertainty:** None on the facts; this is a judgment call.
-
----
-
 ### P-0012 v1 — Make the public date say 'content updated', not imply a full audit
 
-`change` · evidence: **Internal consistency only (the map checked against itself)** · decision: **pending** · confidence: — · change-hash `0c071f106ecd`
+`change` · evidence: **Internal consistency only (the map checked against itself)** · decision: **accepted** (v1, 2026-10-10) · confidence: — · change-hash `0c071f106ecd`
 
 **Change**
 
@@ -538,7 +967,7 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 
 ### P-0013 v1 — Anthropic RSP · Halting: v3 replaced the unconditional pause commitment with competitor-dependent delay commitments
 
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: high · change-hash `fbf2ed18a3d5`
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v1, 2026-10-10) · confidence: high · change-hash `fbf2ed18a3d5`
 
 **Linked:** P-0005, P-0010
 
@@ -618,7 +1047,7 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 
 ### P-0014 v1 — US Frontier AI Access EO: describe EO 14409 from its official text (voluntary cyber-capability access; NSA, Treasury and CISA lead, not CAISI)
 
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: high · change-hash `acf23d9552f9`
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v1, 2026-10-10) · confidence: high · change-hash `acf23d9552f9`
 
 **Linked:** P-0015
 
@@ -749,7 +1178,7 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 **May need reconsideration if accepted**
 
 - `edge:us-frontier-access-eo|us-eo14179` — **map analysis; unchanged**: Marks shift from prior deregulation-only EO posture
-- `edge:us-frontier-access-eo|caisi` — **contradicted: see P-0015**: EO designates CAISI to administer national-security reviews
+- `edge:us-frontier-access-eo|caisi` — **contradicted: see P-0015**
 - `edge:us-frontier-access-eo|uk-aisi` — **not checked (UK AISI sources not read)**: 30-day access model mirrors UK AISI voluntary access agreements
 - `edge:fsi|us-frontier-access-eo` — **says 'the EO's national-security review framework'; the order has no review framework. fsi was not checked; raise in the baseline audit**: FSI's policy translation aligns with the EO's national-security review framework
 
@@ -757,7 +1186,7 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 
 ### P-0015 v1 — Remove connection US Frontier AI Access EO ↔ CAISI: the order does not name CAISI
 
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: high · change-hash `17f88ce20310`
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v1, 2026-10-10) · confidence: high · change-hash `17f88ce20310`
 
 **Linked:** P-0014
 
@@ -767,7 +1196,7 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 
   Current:
 
-  > EO designates CAISI to administer national-security reviews
+  > _(absent)_
 
   Proposed:
 
@@ -810,7 +1239,7 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 
 ### P-0016 v1 — EU AI Act: high-risk application dates moved by the Digital Omnibus (Reg. 2026/1744)
 
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: high · change-hash `51eb7ca184a5`
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v1, 2026-10-10) · confidence: high · change-hash `51eb7ca184a5`
 
 **Change**
 
@@ -881,7 +1310,7 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 
 ### P-0017 v1 — EU AI Office: GPAI fines are capped at €15M or 3%, not €35M or 7%; enforcement powers apply since Aug 2026
 
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: high · change-hash `b77b6d4a1d68`
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v1, 2026-10-10) · confidence: high · change-hash `b77b6d4a1d68`
 
 **Change**
 
@@ -963,7 +1392,7 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 
 ### P-0018 v1 — EU GPAI Code: Model Reports every six months, not annual; content marking is not in the GPAI Code
 
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: high · change-hash `57c427d2479d`
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v1, 2026-10-10) · confidence: high · change-hash `57c427d2479d`
 
 **Change**
 
@@ -1033,7 +1462,7 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 
 ### P-0019 v1 — China AI Law: still a preparatory planning item with no draft; correct the '2025 plan dropped it' claim and add an official source link
 
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: high · change-hash `abfbe2e7035a`
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v1, 2026-10-10) · confidence: high · change-hash `abfbe2e7035a`
 
 **Change**
 
@@ -1179,320 +1608,6 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 - `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
 - `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight binding instruments in this map carry penalty regimes: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
-
-
-### Accepted, awaiting application
-
-### P-0006 v1 — Anthropic RSP · Updating policies: revision history and change-log commitment
-
-`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v1, 2026-10-09) · confidence: high · change-hash `abad9e4a9415`
-
-**Applied together with:** P-0005, P-0007, P-0010, P-0013
-
-**Change**
-
-- **`rsp` · coverage · update**
-
-  Current:
-
-  > RSP updated ~4× since 2023, formalising new evaluations, refining ASL definitions, and incorporating external evaluator findings. The update cadence itself is part of the published commitment.
-
-  Proposed:
-
-  > Revised eight times since v1.0 (Sep 2023), most recently v3.4 (Jul 2026); v3.0 (Feb 2026) was a comprehensive rewrite, and later updates revised capability thresholds (v3.3, v3.4) and LTBT oversight (v3.2). Anthropic commits to logging every change on the policy page and in a changelog in the policy document.
-
-**Why it matters:** Same stale count as the description; the note also asserted things about updates that aren't supported by what was checked ('incorporating external evaluator findings').
-
-**Reasoning:** Rewritten only from the policy page's update log. The commitment is stated as a commitment.
-
-**Evidence**
-
-- **S-0005** https://www.anthropic.com/responsible-scaling-policy — <https://www.anthropic.com/responsible-scaling-policy>
-  primary · retrieved 2026-10-10 · access: ok · page_updated 2026-08-14, current_version_effective 2026-07-08, first_version_effective 2023-09-19
-  Current and Prior Versions:
-  > Version 3.4 and redline (effective July 8, 2026) · Version 3.3 (effective May 26, 2026) · Version 3.2 (effective April 29, 2026) · Version 3.1 (effective April 2, 2026) · Version 3.0 (effective February 24, 2026) · Version 2.2 (effective May 14, 2025) · Version 2.1 (effective March 31, 2025) · Version 2.0 (effective October 15, 2024) · Version 1.0 (effective September 19, 2023)
-  _Supports:_ Versions and dates
-- **S-0005** https://www.anthropic.com/responsible-scaling-policy — <https://www.anthropic.com/responsible-scaling-policy>
-  primary · retrieved 2026-10-10 · access: ok · page_updated 2026-08-14, current_version_effective 2026-07-08, first_version_effective 2023-09-19
-  Update log, February 24, 2026 / April 2, 2026:
-  > Version 3.0 is a comprehensive rewrite of the RSP. … [changes] will be logged both on this page and in a changelog in the policy document itself.
-  _Supports:_ Rewrite; change-log commitment
-- **S-0005** https://www.anthropic.com/responsible-scaling-policy — <https://www.anthropic.com/responsible-scaling-policy>
-  primary · retrieved 2026-10-10 · access: ok · page_updated 2026-08-14, current_version_effective 2026-07-08, first_version_effective 2023-09-19
-  Update log, April 29, 2026:
-  > Version 3.2 of our RSP authorizes the LTBT to request external review of Risk Reports, gives the LTBT the power to approve our selection of external reviewers, and formalizes a requirement that we provide the LTBT with regular briefings.
-  _Supports:_ v3.2 LTBT changes
-
-**Uncertainty:** Removes the clause 'incorporating external evaluator findings'. That clause may still be true; I only lacked evidence for it. Say if you prefer to keep it.
-
-**May need reconsideration if accepted**
-
-- `edge:ca-sb53|rsp`: SB 53 codifies the published-framework norm Anthropic exemplified
-- `edge:seoul-commit|rsp`: RSP's first version (Sep 2023) predates the Seoul commitments, which asked signatories to publish comparable frameworks
-- `edge:gpai-cop|rsp`: Anthropic signed all three chapters
-- `edge:fmf|rsp`: Anthropic is an FMF founding member
-- `edge:metr|rsp`: METR conducts capability evaluations for Anthropic
-- `edge:apollo|rsp`: Apollo evaluates Anthropic models for scheming
-- `edge:uk-aisi|rsp`: UK AISI tested Anthropic models pre-deployment
-- `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
-- `faq:which-ai-labs-have-published-frontier-safety-fra`: Which AI labs have published frontier safety frameworks? — Five major labs have published frontier safety frameworks at Layer 6 of this map: Anthropic (Responsible Scaling Policy,…
-- `faq:what-is-sandbagging-in-ai-safety`: What is sandbagging in AI safety? — Sandbagging is when an AI model intentionally underperforms during safety evaluations — strategically scoring lower than its true capability so…
-- Entry text that mentions the affected entries: `entry:ca-sb53:cov:thresh`, `entry:gpai-cop:desc`, `entry:fmf:desc`, `entry:fmf:cov:eval`, `entry:prep:cov:thresh`, `entry:fsf:context`, `entry:fsf:cov:thresh`, `entry:fsf:cov:timing`, `entry:fsf:cov:sec`, `entry:fsf:cov:halt`, `entry:fsf:cov:acct`, `entry:fsf:cov:update`, `entry:meta-faif:cov:thresh`, `entry:meta-faif:cov:sec`, `entry:metr:context`, `entry:metr:cov:eval`, `entry:apollo:cov:elicit`
-
----
-
-### P-0007 v1 — Anthropic RSP · Accountability: Risk Reports, external review, LTBT powers
-
-`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v1, 2026-10-09) · confidence: high · change-hash `43032f62a608`
-
-**Applied together with:** P-0005, P-0006, P-0010, P-0013
-
-**Change**
-
-- **`rsp` · coverage · acct**
-
-  Current:
-
-  > Board oversight (Long-Term Benefit Trust); public publication of the framework, evaluation results, and any escalations. Subjected to external scrutiny in EU GPAI Code drafting and California SB 53.
-
-  Proposed:
-
-  > Board oversight (Long-Term Benefit Trust); public publication of the framework, evaluation results, and any escalations. Since v3.0 (Feb 2026) Anthropic commits to publishing redacted Risk Reports every 3–6 months (published Feb and Aug 2026), with external review in certain circumstances; v3.2 (Apr 2026) lets the LTBT request external review and approve the choice of reviewers. Subjected to external scrutiny in EU GPAI Code drafting and California SB 53.
-
-**Why it matters:** These are the main accountability mechanisms added in 2026, and the map omits them.
-
-**Reasoning:** Commitment (reports every 3–6 months; external review in certain circumstances) is kept separate from implementation evidence (two redacted reports published, Feb and Aug 2026). Anthropic said in Feb 2026 that external review was not yet required and was being piloted.
-
-**Evidence**
-
-- **S-0007** https://www.anthropic.com/news/responsible-scaling-policy-v3 — <https://www.anthropic.com/news/responsible-scaling-policy-v3>
-  primary · retrieved 2026-10-10 · access: ok · published 2026-02-24
-  3. Risk Reports and external review:
-  > Risk Reports will be published online (with some redactions) every 3-6 months. The new RSP also requires external review of Risk Reports in certain circumstances. … Although our current models do not yet require external review, we are already running pilots
-  _Supports:_ Risk Report cadence and external-review requirement
-- **S-0005** https://www.anthropic.com/responsible-scaling-policy — <https://www.anthropic.com/responsible-scaling-policy>
-  primary · retrieved 2026-10-10 · access: ok · page_updated 2026-08-14, current_version_effective 2026-07-08, first_version_effective 2023-09-19
-  Risk Reports:
-  > Redacted Risk Report August 2026 · Redacted Risk Report February 2026
-  _Supports:_ Two published Risk Reports
-- **S-0005** https://www.anthropic.com/responsible-scaling-policy — <https://www.anthropic.com/responsible-scaling-policy>
-  primary · retrieved 2026-10-10 · access: ok · page_updated 2026-08-14, current_version_effective 2026-07-08, first_version_effective 2023-09-19
-  Update log, April 29, 2026:
-  > Version 3.2 of our RSP authorizes the LTBT to request external review of Risk Reports, gives the LTBT the power to approve our selection of external reviewers, and formalizes a requirement that we provide the LTBT with regular briefings.
-  _Supports:_ v3.2 LTBT powers
-
-**Uncertainty:** The 'certain circumstances' that trigger external review are defined in the policy text, which was blocked. The existing first sentence was not re-verified.
-
-**May need reconsideration if accepted**
-
-- `edge:ca-sb53|rsp`: SB 53 codifies the published-framework norm Anthropic exemplified
-- `edge:seoul-commit|rsp`: RSP's first version (Sep 2023) predates the Seoul commitments, which asked signatories to publish comparable frameworks
-- `edge:gpai-cop|rsp`: Anthropic signed all three chapters
-- `edge:fmf|rsp`: Anthropic is an FMF founding member
-- `edge:metr|rsp`: METR conducts capability evaluations for Anthropic
-- `edge:apollo|rsp`: Apollo evaluates Anthropic models for scheming
-- `edge:uk-aisi|rsp`: UK AISI tested Anthropic models pre-deployment
-- `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
-- `faq:which-ai-labs-have-published-frontier-safety-fra`: Which AI labs have published frontier safety frameworks? — Five major labs have published frontier safety frameworks at Layer 6 of this map: Anthropic (Responsible Scaling Policy,…
-- `faq:what-is-sandbagging-in-ai-safety`: What is sandbagging in AI safety? — Sandbagging is when an AI model intentionally underperforms during safety evaluations — strategically scoring lower than its true capability so…
-- Entry text that mentions the affected entries: `entry:ca-sb53:cov:thresh`, `entry:gpai-cop:desc`, `entry:fmf:desc`, `entry:fmf:cov:eval`, `entry:prep:cov:thresh`, `entry:fsf:context`, `entry:fsf:cov:thresh`, `entry:fsf:cov:timing`, `entry:fsf:cov:sec`, `entry:fsf:cov:halt`, `entry:fsf:cov:acct`, `entry:fsf:cov:update`, `entry:meta-faif:cov:thresh`, `entry:meta-faif:cov:sec`, `entry:metr:context`, `entry:metr:cov:eval`, `entry:apollo:cov:elicit`
-
-
-### Applied
-
-### P-0001 v1 — Derive the data.json description count instead of hardcoding "39"
-
-`change` · evidence: **Internal consistency only (the map checked against itself)** · decision: **accepted** (v1, 2026-10-09) · confidence: high · change-hash `107760cab70a`
-
-**Change**
-
-- **`build-llms.js`**
-
-  Current:
-
-  > description: 'Interactive map of frontier AI governance: 39 mechanisms across six layers, with METR\'s nine common elements as an orthogonal filter.',
-
-  Proposed:
-
-  > description: `Interactive map of frontier AI governance: ${ENTITIES.length} mechanisms across six layers, with METR's nine common elements as an orthogonal filter.`,
-
-**Why it matters:** The published data.json says 39 mechanisms while the map has 49. The number was typed by hand in build-llms.js, so it would drift again after every addition.
-
-**Reasoning:** Generator fix, not a content judgment. After apply, data.json's description reads the live entry count.
-
-**Evidence**
-
-- **S-0027** Map repository at f9d3e56 (index.html, build-llms.js, data.json) — <https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56>
-  repo · retrieved 2026-10-08 · access: ok via repo
-  build-llms.js line 150:
-  > description: 'Interactive map of frontier AI governance: 39 mechanisms across six layers, …' — while ENTITIES has 49 entries; data.json therefore says 39.
-  _Supports:_ The hardcoded value and the actual count
-
-**Uncertainty:** None on the fact. The only visible effect is the data.json description string.
-
----
-
-### P-0003 v2 — Relabel jurisdiction code `as` from 'Asia (other)' to 'Asia-Pacific (other)'
-
-`change` · evidence: **Internal consistency only (the map checked against itself)** · decision: **accepted** (v2, 2026-10-09) · confidence: high · change-hash `d6753348364d`
-
-_Revised from v1: same change wording, so an existing approval carries over._
-
-**Change**
-
-- **`index.html`**
-
-  Current:
-
-  > as:'Asia (other)'
-
-  Proposed:
-
-  > as:'Asia-Pacific (other)'
-
-- **`index.html`**
-
-  Current:
-
-  > <span class="sw j-as"></span>Other Asia</span>
-
-  Proposed:
-
-  > <span class="sw j-as"></span>Other Asia-Pacific</span>
-
-- **`build-llms.js`**
-
-  Current:
-
-  > as:'Asia (other)'
-
-  Proposed:
-
-  > as:'Asia-Pacific (other)'
-
-**Why it matters:** Australia's eSafety Commissioner is coloured and described as 'Asia (other)'. That label also appears in llms-full.txt and data.json for every `as` entry.
-
-**Reasoning:** A label-only change. The code `as`, its colour, the lens and all filtering behaviour stay as they are, and no entry moves.
-
-**Evidence**
-
-- **S-0027** Map repository at f9d3e56 (index.html, build-llms.js, data.json) — <https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56>
-  repo · retrieved 2026-10-08 · access: ok via repo
-  index.html JUR_LABEL / au-esafety / other-aisis:
-  > JUR_LABEL as: 'Asia (other)'. au-esafety (Australia eSafety Commissioner) has jur 'as'. other-aisis (desc: 'Singapore …, Japan …, France (INESIA), Korea, Canada, Australia, Kenya, India') has jur 'as'.
-  _Supports:_ au-esafety and other-aisis use `as`
-
-**Uncertainty:** None on the facts. This proposal changes only the label. It does not decide how `other-aisis` (a multi-country entry including France, Canada and Kenya) should be classified; that question is tracked separately as P-0011.
-
----
-
-### P-0004 v1 — Layer 2 subtitle: 'agencies' → 'framework acts'
-
-`change` · evidence: **Internal consistency only (the map checked against itself)** · decision: **accepted** (v1, 2026-10-09) · confidence: high · change-hash `a3579e1ac559`
-
-**Change**
-
-- **`index.html`**
-
-  Current:
-
-  > <h2>National regulation</h2><p>Statutes, executive orders, agencies</p>
-
-  Proposed:
-
-  > <h2>National regulation</h2><p>Statutes, executive orders, framework acts</p>
-
-- **`build-llms.js`**
-
-  Current:
-
-  > desc: 'Statutes, executive orders, agencies'
-
-  Proposed:
-
-  > desc: 'Statutes, executive orders, framework acts'
-
-**Why it matters:** The subtitle contradicts the map's own organising rule: agencies sit in Layer 4, the Layer 2 tooltip says so, and so does the FAQ on Layer 2 vs 4. It also flows into llms.txt, llms-full.txt and data.json.
-
-**Reasoning:** The proposed wording is taken from the Layer 2 tooltip ('statutes, executive orders, framework acts').
-
-**Evidence**
-
-- **S-0027** Map repository at f9d3e56 (index.html, build-llms.js, data.json) — <https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56>
-  repo · retrieved 2026-10-08 · access: ok via repo
-  index.html Layer 2 band vs tooltip and FAQ:
-  > Subtitle: 'Statutes, executive orders, agencies'. Tooltip: 'The laws themselves — statutes, executive orders, framework acts. The institutions that implement and enforce them sit in Layer 4.' No Layer 2 entry is an agency.
-  _Supports:_ Subtitle vs tooltip; no Layer 2 entry is an agency
-
-**Uncertainty:** None.
-
----
-
-### P-0008 v2 — Connection Seoul commitments ↔ Anthropic RSP: fix chronology
-
-`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v2, 2026-10-09) · confidence: high · change-hash `7990ce2259ba`
-
-_Revised from v1: same change wording, so an existing approval carries over._
-
-**Change**
-
-- **connection `seoul-commit` ↔ `rsp`**
-
-  Current:
-
-  > Seoul commitments triggered RSP's first public version
-
-  Proposed:
-
-  > RSP's first version (Sep 2023) predates the Seoul commitments, which asked signatories to publish comparable frameworks
-
-**Why it matters:** The connection asserts a causal sequence that is backwards: RSP v1.0 took effect 19 Sep 2023, and the Seoul summit was May 2024.
-
-**Reasoning:** The date comes from Anthropic's version list. The second clause restates what the map already says about Seoul (ai-summits coverage note).
-
-**Evidence**
-
-- **S-0005** https://www.anthropic.com/responsible-scaling-policy — <https://www.anthropic.com/responsible-scaling-policy>
-  primary · retrieved 2026-10-10 · access: ok · page_updated 2026-08-14, current_version_effective 2026-07-08, first_version_effective 2023-09-19
-  Current and Prior Versions:
-  > Version 3.4 and redline (effective July 8, 2026) · Version 3.3 (effective May 26, 2026) · Version 3.2 (effective April 29, 2026) · Version 3.1 (effective April 2, 2026) · Version 3.0 (effective February 24, 2026) · Version 2.2 (effective May 14, 2025) · Version 2.1 (effective March 31, 2025) · Version 2.0 (effective October 15, 2024) · Version 1.0 (effective September 19, 2023)
-  _Supports:_ v1.0 effective 19 Sep 2023
-- **S-0035** UK Government: Frontier AI Safety Commitments publication page — <https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024>
-  primary · retrieved 2026-10-10 · access: ok · published 2024-05-21
-  Publication metadata:
-  > Published: 21 May 2024 … 21 May 2024 First published.
-  _Supports:_ Seoul commitments published 21 May 2024
-- **S-0034** UK Government: Frontier AI Safety Commitments, AI Seoul Summit 2024 — <https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024>
-  primary · retrieved 2026-10-10 · access: ok
-  Commitments preamble:
-  > The above organisations … undertake to develop and deploy their frontier AI models and systems responsibly, in accordance with the following voluntary commitments, and to demonstrate how they have achieved this by publishing a safety framework focused on severe risks by the upcoming AI Summit in France.
-  _Supports:_ Signatories undertook to publish a safety framework focused on severe risks
-- **S-0034** UK Government: Frontier AI Safety Commitments, AI Seoul Summit 2024 — <https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024>
-  primary · retrieved 2026-10-10 · access: ok
-  Signatory list:
-  > Anthropic [listed among the signatory organisations]
-  _Supports:_ Anthropic is a signatory
-
-**Uncertainty:** Both halves now verified against primary sources (Anthropic version list; UK Government publication of the Seoul commitments, 21 May 2024). The same chronology problem probably affects 'Seoul commitments triggered the Preparedness Framework' (OpenAI) and possibly the DeepMind connection; outside this trial and queued for the baseline audit.
-
-**May need reconsideration if accepted**
-
-- `edge:ai-summits|seoul-commit`: Seoul commitments came out of the 2024 summit
-- `edge:seoul-commit|prep` — **likely same chronology error — check in baseline**: Seoul commitments triggered the Preparedness Framework
-- `edge:seoul-commit|fsf` — **check chronology in baseline**: Seoul commitments triggered the Frontier Safety Framework
-- `edge:seoul-commit|meta-faif`: Meta's framework followed Seoul (delayed)
-- `edge:seoul-commit|xai-rmf`: xAI's framework followed Seoul (delayed, thinner)
-- `gap:halt`: Few mechanisms can compel a frontier developer to halt — Conditions for halting are the rarest column in the matrix. The EU AI Office can order recall (Aug 2026 onwards). The GPAI…
-- `edge:ca-sb53|rsp`: SB 53 codifies the published-framework norm Anthropic exemplified
-- `edge:gpai-cop|rsp`: Anthropic signed all three chapters
-- `edge:fmf|rsp`: Anthropic is an FMF founding member
-- `edge:metr|rsp`: METR conducts capability evaluations for Anthropic
-- `edge:apollo|rsp`: Apollo evaluates Anthropic models for scheming
-- `edge:uk-aisi|rsp`: UK AISI tested Anthropic models pre-deployment
-- `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
-- `faq:which-ai-labs-have-published-frontier-safety-fra`: Which AI labs have published frontier safety frameworks? — Five major labs have published frontier safety frameworks at Layer 6 of this map: Anthropic (Responsible Scaling Policy,…
-- `faq:what-is-sandbagging-in-ai-safety`: What is sandbagging in AI safety? — Sandbagging is when an AI model intentionally underperforms during safety evaluations — strategically scoring lower than its true capability so…
-- Entry text that mentions the affected entries: `entry:ai-summits:desc`, `entry:ai-summits:context`, `entry:ai-summits:cov:thresh`, `entry:ai-summits:cov:update`, `entry:hiroshima:context`, `entry:hiroshima:cov:eval`, `entry:delhi-commit:desc`, `entry:delhi-commit:context`, `entry:delhi-commit:cov:acct`, `entry:ca-sb53:cov:thresh`, `entry:gpai-cop:desc`, `entry:fmf:desc`, `entry:fmf:cov:eval`, `entry:prep:cov:thresh`, `entry:fsf:context`, `entry:fsf:cov:thresh`, `entry:fsf:cov:timing`, `entry:fsf:cov:sec`, `entry:fsf:cov:halt`, `entry:fsf:cov:acct`, `entry:fsf:cov:update`, `entry:meta-faif:cov:thresh`, `entry:meta-faif:cov:sec`, `entry:metr:context`, `entry:metr:cov:eval`, `entry:apollo:cov:elicit`
 
 
 ## 2. Attempted checks that did not verify
@@ -1656,7 +1771,7 @@ _None._
 
 Entries (43): `aisr`, `aisi-net`, `ai-summits`, `oecd`, `coe-ai`, `unesco`, `us-eo14179`, `us-action`, `us-preempt`, `cn-genai`, `uk-bill`, `kr-ai`, `jp-ai`, `ca-sb53`, `co-aia`, `tx-raiga`, `seoul-commit`, `hiroshima`, `fmf`, `delhi-commit`, `pai`, `prep`, `fsf`, `meta-faif`, `xai-rmf`, `eu-aio`, `uk-aisi`, `caisi`, `other-aisis`, `metr`, `apollo`, `averi`, `cais`, `fsi`, `uk-ofcom`, `uk-ico`, `us-ftc`, `au-esafety`, `co-doi`, `imda`, `jp-sectors`, `bis`, `nist-rmf`
 
-Other inventory items not checked (113): connections, gap summaries, FAQ answers, page text and category definitions not listed above.
+Other inventory items not checked (114): connections, gap summaries, FAQ answers, page text and category definitions not listed above.
 
 ## Appendix D — sources used
 

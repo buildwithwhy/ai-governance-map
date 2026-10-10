@@ -1,5 +1,5 @@
 {
-  "next": 20,
+  "next": 21,
   "proposals": [
     {
       "id": "P-0001",
@@ -2824,6 +2824,187 @@
         "manifest": "research/applied/2026-10-10-2.json",
         "date": "2026-10-10"
       },
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0020",
+      "fingerprint": "a8d6b32e74dd",
+      "targets": [
+        "new:eu-genai-code",
+        "edge:eu-genai-code|eu-aia",
+        "edge:eu-aio|eu-genai-code"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T17:01:28Z",
+          "run": "2026-10-10-trial1b",
+          "author": "claude",
+          "title": "New entry: EU Code of Practice on Transparency of AI-generated Content (Article 50 marking and labelling)",
+          "kind": "addition",
+          "changes": [
+            {
+              "op": "add_entity",
+              "after": "gpai-cop",
+              "entity": {
+                "id": "eu-genai-code",
+                "link": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
+                "name": "EU AI-generated content code",
+                "layer": 5,
+                "jur": "eu",
+                "pow": 2,
+                "status": "active",
+                "desc": "Voluntary code (final Jun 2026) for the AI Act's Article 50 duties to mark and label AI-generated content; the Commission and AI Board found it adequate in Jul 2026. Anthropic, Google, Meta, Microsoft and OpenAI signed the provider section.",
+                "context": "Two sections: providers commit to machine-readable marking (digitally signed metadata plus imperceptible watermarks) and free detection tools; deployers commit to labelling deepfakes and AI-generated text on matters of public interest. Drafted by independent experts under the AI Office, like the GPAI Code, it gives signatories a recognised route to show compliance with duties that apply from Aug 2026; others must show adequate alternatives to national market-surveillance authorities. Unlike the GPAI Code, Meta signed it.",
+                "cov": {
+                  "timing": "The underlying Article 50 duties apply from 2 Aug 2026; generative systems already on the market before then have until 2 Dec 2026 for machine-readable marking.",
+                  "mit": "Providers mark outputs with signed metadata and imperceptible watermarks so they are detectable as AI-generated; deployers label deepfakes and AI-generated text published on matters of public interest. Aimed at deception and misinformation, not catastrophic risk.",
+                  "acct": "Signatories must offer detection tools free of charge to users, authorities, researchers and media. Adherence is not conclusive proof of compliance; non-signatories must demonstrate adequate alternatives to market-surveillance authorities."
+                }
+              }
+            },
+            {
+              "op": "add_edge",
+              "a": "eu-genai-code",
+              "b": "eu-aia",
+              "rel": "Code implements the AI Act's Article 50 marking and labelling duties"
+            },
+            {
+              "op": "add_edge",
+              "a": "eu-aio",
+              "b": "eu-genai-code",
+              "rel": "AI Office facilitated the drafting by independent experts"
+            }
+          ],
+          "why": "A second AI Act code of practice, adopted in July 2026, that the map does not cover. It shapes how every major generative AI provider, including the frontier labs on the map, marks and enables detection of model outputs in the EU. The maintainer asked for it to be drafted (2026-10-10).",
+          "rationale": "Meets RUBRIC §1. It is identifiable (published code text, S-0060). It is material: contextual under SCOPE §C, because it governs deployment-stage marking by GPAI and generative AI providers rather than catastrophic risk. It is attributable: drawn up under the AI Office and assessed as adequate by the Commission and AI Board (S-0046). Layer 5, jur eu, pow 2 and status active mirror gpai-cop, the map's other AI Office code. pow 2 follows RUBRIC §4 ('voluntary government codes'). Every fact comes from Commission pages or the code itself: final publication 10 Jun 2026 (S-0059); adequacy 8 and 9 Jul 2026, and adherence not conclusive proof (S-0046); two sections and non-signatories assessed by market surveillance (S-0045); signed metadata and watermarking (S-0060, Measure 1.1); free detection solution for users, authorities, researchers and media (S-0060, Measure 2.1). Application dates come from the AI Act as amended (S-0041, Art 111(4); S-0045). Section 1 signatories are named by the Commission (S-0058). Meta's absence from the GPAI Code list is from S-0003. Coverage notes are limited to the three METR elements the code actually addresses.",
+          "evidence": [
+            {
+              "source": "S-0045",
+              "passage": "S-0045#2",
+              "stance": "supports",
+              "supports": "Two sections; AI Office-facilitated drafting; adequacy"
+            },
+            {
+              "source": "S-0045",
+              "passage": "S-0045#3",
+              "stance": "supports",
+              "supports": "Duties apply from 2 Aug 2026; non-signatories assessed by market surveillance"
+            },
+            {
+              "source": "S-0059",
+              "passage": "S-0059#1",
+              "stance": "supports",
+              "supports": "Final code published 10 Jun 2026; voluntary"
+            },
+            {
+              "source": "S-0046",
+              "passage": "S-0046#1",
+              "stance": "supports",
+              "supports": "Commission adequacy 8 Jul; AI Board 9 Jul; not conclusive evidence"
+            },
+            {
+              "source": "S-0058",
+              "passage": "S-0058#1",
+              "stance": "supports",
+              "supports": "Signatories incl. Anthropic, Google, Meta, Microsoft, OpenAI (Section 1)"
+            },
+            {
+              "source": "S-0060",
+              "passage": "S-0060#1",
+              "stance": "supports",
+              "supports": "Signed metadata and imperceptible watermarks"
+            },
+            {
+              "source": "S-0060",
+              "passage": "S-0060#2",
+              "stance": "supports",
+              "supports": "Free detection solution for users, authorities, researchers, media"
+            },
+            {
+              "source": "S-0041",
+              "passage": "S-0041#7",
+              "stance": "supports",
+              "supports": "Legacy systems: Art 50(2) marking by 2 Dec 2026"
+            },
+            {
+              "source": "S-0003",
+              "passage": "S-0003#1",
+              "stance": "supports",
+              "supports": "Meta not on the GPAI Code signatory list"
+            }
+          ],
+          "uncertainty": "Signatories can join or leave; the Commission's list is updated continuously (95 Section 1 and 192 Section 2 signatories as of the 31 Jul 2026 page). xAI does not appear. pow 2 versus pow 1 follows the gpai-cop precedent; the rubric's open question on voluntary government codes applies equally. Google is listed as 'Google', and the map's DeepMind framework entry (fsf) is not connected, since the Google signatory may be the company rather than DeepMind.",
+          "confidence": "high",
+          "question": "Accept as drafted? Optional extras not included, to keep it minimal: (a) a connection to gpai-cop ('Sibling AI Office code; Meta signed this one but not the GPAI Code'); (b) connections to the lab framework entries of signatories (rsp, prep, meta-faif). Say if you want either.",
+          "knock_on_notes": {
+            "entry:gpai-cop:cov:mit": "consistent: P-0018 now says marking falls under a separate Article 50 code",
+            "entry:eu-aia:cov:mit": "still attributes content marking to GPAI duties (lead in §2); this entry makes the Article 50 route explicit",
+            "counts": "the stats tiles, the data.json count and the layer counts update automatically on apply (49 → 50 mechanisms)"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:kr-ai:cov:thresh",
+            "entry:kr-ai:cov:eval",
+            "entry:ca-sb53:desc",
+            "entry:co-aia:desc",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:acct",
+            "entry:gpai-cop:desc",
+            "entry:gpai-cop:context",
+            "entry:gpai-cop:cov:thresh",
+            "entry:gpai-cop:cov:eval",
+            "entry:gpai-cop:cov:sec",
+            "entry:gpai-cop:cov:acct",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:xai-rmf:desc",
+            "entry:eu-aio:context",
+            "entry:averi:context",
+            "entry:averi:cov:eval",
+            "edge:coe-ai|eu-aia",
+            "edge:eu-aia|eu-aio",
+            "edge:gpai-cop|eu-aia",
+            "edge:uk-ico|eu-aia",
+            "gap:eval",
+            "gap:elicit",
+            "gap:timing",
+            "gap:sec",
+            "gap:acct",
+            "gap:update",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris",
+            "faq:what-does-the-eu-ai-office-do",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:footer-sources",
+            "entry:aisi-net:desc",
+            "entry:eu-aia:cov:timing",
+            "entry:eu-aia:cov:acct",
+            "entry:gpai-cop:cov:update",
+            "entry:us-ftc:context",
+            "edge:aisi-net|eu-aio",
+            "edge:gpai-cop|eu-aio",
+            "gap:halt",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "410d595a202b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
       "research": {
         "status": "verified",
         "missing": [],
