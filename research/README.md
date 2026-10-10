@@ -23,7 +23,7 @@ report + ledger (PR #1)         Claude records it in ledger.json         diff = 
 
 Tools, in `tools/`, have no dependencies beyond Node:
 
-- `research.js`: inventory, sources, checks, proposals, decisions, runs, report.
+- `research.js`: inventory, sources, checks, proposals, decisions, runs, report (`--html` also writes the review page via `report-html.js`).
 - `apply.js`: applies approved proposal versions, updates derived counts and dates, then runs `build-llms.js`.
 - `check.js`: structural and consistency validation. `--guard <ref>` replays manifests to prove the published diff.
 
@@ -31,7 +31,7 @@ Tools, in `tools/`, have no dependencies beyond Node:
 
 ## Current state (2026-10-10)
 
-- **Trial 1 is complete** (`runs/2026-10-08-trial1/report.md`, then `runs/2026-10-10-trial1b/report.md` after source access was restored). The 2026-10-10 report is the current review.
+- **Trial 1 is complete** (`runs/2026-10-08-trial1/report.md`, then `runs/2026-10-10-trial1b/report.md` after source access was restored). The current review is the private review page https://claude.ai/artifact/MACCwb5T2ySWbPHVbDvz23, regenerated with `report <run> --html` and republished to the same URL after every run and every set of decisions (RUNBOOK §4).
 - **Source access:** the environment denies nothing. Some websites block automated clients (Cloudflare on nysenate.gov, congress.gov, leginfo, federalregister.gov HTML, commerce.gov; EUR-Lex throttling; intermittent resets on some Chinese sites). Fetches record these as `site_blocked`, `http_202` or `error`, distinct from `blocked` (environment). RUNBOOK §0 lists the official alternatives.
 - **Applied on the PR branch:** P-0001, P-0003 v2, P-0004, P-0008 v2; then, after decisions on 2026-10-10, P-0005 v3, P-0006, P-0007, P-0009 v3, P-0010 v3, P-0012, P-0013, P-0014–P-0019. Guard passes.
 - **Awaiting the maintainer:** P-0002 v2, P-0011, P-0020 (new entry: EU AI-generated content code). Everything else from trial 1 is applied (manifests `applied/2026-10-10.json`, `applied/2026-10-10-2.json`).

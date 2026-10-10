@@ -65,7 +65,9 @@ Out-of-scope finds of significance become `addition` proposals labelled "outside
 
 ## 4. Report
 
-Write 3–6 plain-language highlights (key findings, blockers, decisions needed) with `run highlights <run> <file.json>`. Then run `run finish <run> [--usage "<tokens/cost if known>"]` and `report <run>`. The report opens with the summary and a decisions table (awaiting, then decided), followed by full proposal details. Unresolved items, the discovery log, decided-proposal details and the appendices come after. The report leads with decisions needed and puts unchanged checks in an appendix. Show it to the maintainer in the session.
+Write 3–6 plain-language highlights (key findings, blockers, decisions needed) with `run highlights <run> <file.json>`. Then run `run finish <run> [--usage "<tokens/cost if known>"]` and `report <run>`. The report opens with the summary and a decisions table (awaiting, then decided), followed by full proposal details. Unresolved items, the discovery log, decided-proposal details and the appendices come after. The report leads with decisions needed and puts unchanged checks in an appendix.
+
+**Review page (always, every run; maintainer decision 2026-10-10).** The maintainer reviews the report as a private web page, not a Markdown file. After `report`, run `report <run> --html` (writes `runs/<run>/report.html` from the same ledger data). Publish it with the Artifact tool to the **one stable review page**, https://claude.ai/artifact/MACCwb5T2ySWbPHVbDvz23, so the link never changes. From a new conversation, first `read` that URL, then publish the new file with `url` set to it; never create a second review page. Give the maintainer the link and a short in-session summary of findings, map changes and decisions needed. Re-publish the page whenever decisions are recorded or proposals are applied. The page is private to the maintainer; sharing is done from its Share menu.
 
 **Visibility:** the GitHub repo and its branches may be public, and so may preview deployments. Until the maintainer has approved the public audit format, do not push run outputs (`ledger.json`, `sources.json`, `checks.json`, `runs/`).
 

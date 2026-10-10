@@ -44,6 +44,7 @@ const F = {
   run: id => path.join(R, 'runs', id, 'run.json'),
   runChecks: id => path.join(R, 'runs', id, 'checks.json'),
   report: id => path.join(R, 'runs', id, 'report.md'),
+  html: id => path.join(R, 'runs', id, 'report.html'),
   cache: path.join(R, '.cache'),
 };
 const OUTCOMES = {
@@ -691,8 +692,13 @@ function main() {
       const p = getP(ledger(), pos[0]);
       return console.log(renderProposal(p, L.buildInventory(), sources()));
     }
-    case 'report': return report(pos[0]);
+    case 'report': {
+      report(pos[0]);
+      if (o.html) require('./report-html').write(pos[0], o.html === true ? F.html(pos[0]) : o.html);
+      return;
+    }
     default: console.log(fs.readFileSync(__filename, 'utf8').split('\n').slice(1, 26).join('\n').replace(/^\/\/ ?/gm, ''));
   }
 }
-main();
+module.exports = { F, OUTCOMES, ledger, sources, checks, latest, lastFetch, accessLabel, bucketOf, list };
+if (require.main === module) main();
