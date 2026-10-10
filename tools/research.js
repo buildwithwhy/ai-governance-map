@@ -10,10 +10,13 @@
 //   run usage RUN --text TEXT                usage/cost note (from get_session where available)
 //   run finish RUN [--usage TEXT]
 //   source fetch URL [--type primary|secondary|repo] [--title T] [--publisher P] [--run RUN]
-//   source add URL --status ok|blocked|error --via webfetch|browser|manual|repo [--note TEXT] [--type ..] [--title ..] [--run RUN]
+//   source add URL --status ok|blocked|error --via webfetch|browser|manual|repo [--note TEXT] [--file COPY] [--type ..] [--title ..] [--run RUN]
 //   source passage SID --locator TEXT --text TEXT
 //   source dates SID key=YYYY-MM-DD ...     (published, adopted, signed, in_force, applies_from, effective, ...)
 //   source derived SID --from S-x[,S-y]     SID repeats the account of S-x (e.g. reporting one press release)
+//   ingest FILE.json --validate              read-only pre-check of a batch (safe while others run)
+//   ingest FILE.json --run RUN [--dry-run]   record a research batch (sources, passages, checks, proposals, discovery);
+//                                            every quoted passage must appear in the retrieved text
 //   check RUN --items ID[,ID|entry:X:*] --outcome changed|no_change|unresolved|inaccessible
 //         [--sources S-1,S-2] [--proposals P-1] --note TEXT
 //         [--missing "what remains missing"]   (required with unresolved | inaccessible)
@@ -105,7 +108,9 @@ function htmlToText(html) {
     .replace(/<[^>]+>/g, ' ')
     .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"').replace(/&#39;|&#x27;|&rsquo;|&lsquo;/g, "'").replace(/&ldquo;|&rdquo;/g, '"')
-    .replace(/&mdash;/g, '—').replace(/&ndash;/g, '–').replace(/&#(\d+);/g, (_, n) => String.fromCharCode(n))
+    .replace(/&mdash;/g, '—').replace(/&ndash;/g, '–').replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&hellip;/g, '…').replace(/&sect;/g, '§').replace(/&euro;/g, '€')
+    .replace(/&([a-z])(acute|grave|uml|circ|tilde|cedil);/gi, (_, c, m) => (c + ({ acute: '\u0301', grave: '\u0300', uml: '\u0308', circ: '\u0302', tilde: '\u0303', cedil: '\u0327' })[m.toLowerCase()]).normalize('NFC'))
     .replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n\n').trim();
 }
 function fetchSource(url, o) {
@@ -646,7 +651,20 @@ function main() {
       if (sub === 'fetch') return fetchSource(a, o);
       if (sub === 'add') {
         if (!o.status || !o.via) die('--status and --via are required');
-        const [id] = upsertSource(a, { ...o, fetch: { date: L.today(), at: now(), run: o.run || null, via: o.via, status: o.status, note: o.note || null } });
+        const fetch = { date: L.today(), at: now(), run: o.run || null, via: o.via, status: o.status, note: o.note || null };
+        if (o.file) {
+          // A copy retrieved another way (browser, cookie jar, earlier the same day): hash it and cache its text
+          // so passages can be checked against it exactly as for a curl fetch.
+          const buf = fs.readFileSync(o.file);
+          if (!buf.length) die(`${o.file} is empty`);
+          fs.mkdirSync(F.cache, { recursive: true });
+          const key = L.hash(a); const raw = path.join(F.cache, `${key}.raw`); fs.writeFileSync(raw, buf);
+          fetch.sha256 = require('crypto').createHash('sha256').update(buf).digest('hex').slice(0, 16); fetch.bytes = buf.length;
+          const txt = path.join(F.cache, `${key}.txt`);
+          if (buf.slice(0, 4).toString() === '%PDF') execFileSync('pdftotext', ['-layout', raw, txt]);
+          else fs.writeFileSync(txt, htmlToText(buf.toString('utf8')));
+        }
+        const [id] = upsertSource(a, { ...o, fetch });
         return console.log(`${id} ${o.status} ${a}`);
       }
       if (sub === 'passage') {
@@ -670,6 +688,7 @@ function main() {
       }
       return die('source fetch|add|passage|dates|derived');
     }
+    case 'ingest': return o.validate ? require('./ingest').validate(pos[0]) : require('./ingest').ingest(pos[0], o);
     case 'check': return recordCheck(pos[0], o);
     case 'propose': return propose(pos[0], o);
     case 'revise': return revise(pos[0], pos[1], o);
@@ -697,8 +716,8 @@ function main() {
       if (o.html) require('./report-html').write(pos[0], o.html === true ? F.html(pos[0]) : o.html);
       return;
     }
-    default: console.log(fs.readFileSync(__filename, 'utf8').split('\n').slice(1, 26).join('\n').replace(/^\/\/ ?/gm, ''));
+    default: { const lines = fs.readFileSync(__filename, 'utf8').split('\n').slice(1); console.log(lines.slice(0, lines.findIndex(l => !l.startsWith('//'))).join('\n').replace(/^\/\/ ?/gm, '')); }
   }
 }
-module.exports = { F, OUTCOMES, ledger, sources, checks, latest, lastFetch, accessLabel, bucketOf, list };
+module.exports = { F, OUTCOMES, ledger, sources, checks, latest, lastFetch, accessLabel, bucketOf, list, htmlToText, validateChanges };
 if (require.main === module) main();

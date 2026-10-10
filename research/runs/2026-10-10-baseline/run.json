@@ -1,0 +1,13 @@
+{
+  "id": "2026-10-10-baseline",
+  "label": "Baseline audit — every map item, plus scoped discovery",
+  "partial": false,
+  "started_at": "2026-10-10T17:56:16Z",
+  "finished_at": null,
+  "scope": {
+    "entries": [],
+    "note": "All inventory items not already verified against external sources on 2026-10-10 (trial 1 completion); those are carried over, not re-fetched. Discovery across SCOPE list B."
+  },
+  "discovery": [],
+  "usage": null
+}

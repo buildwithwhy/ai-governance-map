@@ -1,0 +1,164 @@
+{
+  "entry:eu-genai-code": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0059",
+      "S-0060",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "New entry P-0020, written from these sources today and applied; text matches them.",
+    "missing": null,
+    "hash": "5ca25dcc8f1e"
+  },
+  "entry:eu-genai-code:desc": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0059",
+      "S-0060",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "New entry P-0020, written from these sources today and applied; text matches them.",
+    "missing": null,
+    "hash": "db72960bb36a"
+  },
+  "entry:eu-genai-code:context": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0059",
+      "S-0060",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "New entry P-0020, written from these sources today and applied; text matches them.",
+    "missing": null,
+    "hash": "f9970666d2cd"
+  },
+  "entry:eu-genai-code:cov": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0059",
+      "S-0060",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "New entry P-0020, written from these sources today and applied; text matches them.",
+    "missing": null,
+    "hash": "0c2f7bd0c8b7"
+  },
+  "entry:eu-genai-code:cov:timing": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0059",
+      "S-0060",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "New entry P-0020, written from these sources today and applied; text matches them.",
+    "missing": null,
+    "hash": "df744d85d986"
+  },
+  "entry:eu-genai-code:cov:mit": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0059",
+      "S-0060",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "New entry P-0020, written from these sources today and applied; text matches them.",
+    "missing": null,
+    "hash": "1afe7d1a3b9f"
+  },
+  "entry:eu-genai-code:cov:acct": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0059",
+      "S-0060",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "New entry P-0020, written from these sources today and applied; text matches them.",
+    "missing": null,
+    "hash": "d4aff89423e4"
+  },
+  "edge:eu-genai-code|eu-aia": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0059",
+      "S-0060",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "New entry P-0020, written from these sources today and applied; text matches them.",
+    "missing": null,
+    "hash": "36fda179ae06"
+  },
+  "edge:eu-aio|eu-genai-code": {
+    "run": "2026-10-10-baseline",
+    "date": "2026-10-10",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0059",
+      "S-0060",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "New entry P-0020, written from these sources today and applied; text matches them.",
+    "missing": null,
+    "hash": "010edbd5f003"
+  }
+}
