@@ -55,6 +55,23 @@ function renderEvidence(ev, db) {
     ${pas ? `<blockquote><span class="loc">${esc(pas.locator)}</span>${esc(pas.text)}</blockquote>` : ''}
     ${ev.supports ? `<div class="ev-sup">Supports: ${esc(ev.supports)}</div>` : ''}</li>`;
 }
+// Response controls for a card awaiting a decision. Answers are saved to the
+// page's db (collection "responses", one document per proposal version) and
+// read back by Claude with the ArtifactData tool (RUNBOOK §5).
+function respondForm(p, v) {
+  const letters = v.changes.length ? [] : [...new Set([...(v.question || '').matchAll(/\(([a-e])\)/g)].map(m => m[1]))];
+  const choices = v.changes.length
+    ? [['accept', 'Yes, accept'], ['accept-with-changes', 'Accept with changes'], ['reject', 'Reject'], ['defer', 'Defer'], ['other', 'Other']]
+    : [...letters.map(l => [`option-${l}`, `Option ${l}`]), ['other', 'Other answer'], ['defer', 'Defer']];
+  const key = `${p.id}-v${v.v}`;
+  return `<form class="respond" data-key="${esc(key)}" data-pid="${esc(p.id)}" data-ver="${v.v}" data-hash="${esc(v.hash)}">
+    <fieldset><legend>Your response to ${esc(p.id)} v${v.v}</legend>
+    <div class="r-choices">${choices.map(([val, label]) => `<button type="button" class="r-choice" data-choice="${val}" aria-pressed="false">${esc(label)}</button>`).join('')}</div>
+    <label class="r-label" for="r-${esc(key)}-note">Note or wording changes (optional for a plain yes)</label>
+    <textarea id="r-${esc(key)}-note" class="r-note" rows="2" placeholder="e.g. accept, but say 'commits to' instead of 'requires'"></textarea>
+    <div class="r-actions"><button type="submit" class="r-save" disabled>Save response</button><span class="r-status" role="status">Not answered yet.</span></div>
+    </fieldset></form>`;
+}
 function renderProposal(p, inv, db, ctx) {
   const v = Rz.latest(p); const d = p.decision; const ev = L.evidenceStatus(p, db);
   const type = v.kind === 'flag' ? 'question' : v.kind;
@@ -86,7 +103,7 @@ function renderProposal(p, inv, db, ctx) {
     <h3>${md(v.title)}</h3>
     <p class="status-line">${esc(decided)}${p.applied ? ` · applied ${esc(p.applied.date)} (${esc(p.applied.manifest.split('/').pop())})` : ''}</p>
     ${v.question ? `<p class="question"><strong>Question for you:</strong> ${md(v.question)}</p>` : ''}
-    ${ctx.reply ? `<p class="reply">Reply in the session, e.g. <code>${v.changes.length ? `accept ${esc(p.id)} v${v.v}` : `${esc(p.id)}: (your choice)`}</code></p>` : ''}
+    ${ctx.reply ? respondForm(p, v) : ''}
     <details${ctx.open ? ' open' : ''}><summary>Details, evidence and exact wording</summary><div class="prop-body">${parts.join('')}</div></details>
   </article>`;
 }
@@ -250,6 +267,23 @@ td.num { font-variant-numeric: tabular-nums; white-space: nowrap; } td.bad-t { c
 .todo code { background: color-mix(in srgb, var(--card) 55%, transparent); }
 .todo-q { display: block; font-size: 13.5px; opacity: 0.9; margin-top: 2px; }
 .todo .small { margin: 10px 0 0; }
+.respond { margin: 14px 0 0; }
+.respond fieldset { border: 1px solid var(--line2); border-radius: 10px; padding: 10px 12px 12px; margin: 0; min-width: 0; }
+.respond legend { font: 500 11.5px var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--fg3); padding: 0 4px; }
+.r-choices { display: flex; flex-wrap: wrap; gap: 6px; }
+.r-choice { font: 500 13.5px var(--sans); color: var(--fg); background: var(--card); border: 1px solid var(--line2); border-radius: 99px; padding: 5px 12px; cursor: pointer; }
+.r-choice:hover { border-color: var(--accent); }
+.r-choice[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.r-choice:focus-visible, .r-save:focus-visible, .r-note:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.r-label { display: block; font-size: 12.5px; color: var(--fg2); margin: 10px 0 4px; }
+.r-note { width: 100%; font: 14px/1.45 var(--sans); color: var(--fg); background: var(--bg); border: 1px solid var(--line2); border-radius: 8px; padding: 7px 9px; resize: vertical; }
+.r-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 8px; }
+.r-save { font: 500 13.5px var(--sans); background: var(--fg); color: var(--bg); border: 0; border-radius: 8px; padding: 6px 14px; cursor: pointer; }
+.r-save:disabled { opacity: 0.45; cursor: default; }
+.r-status { font-size: 12.5px; color: var(--fg3); }
+.r-status.saved { color: var(--good-fg); }
+.r-status.err { color: var(--bad-fg); }
+button:disabled, textarea:disabled { cursor: not-allowed; }
 footer { margin-top: 48px; font-size: 12.5px; color: var(--fg3); border-top: 1px solid var(--line); padding-top: 12px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 html { scroll-behavior: smooth; }
@@ -269,7 +303,7 @@ html { scroll-behavior: smooth; }
     <a href="#gaps">Gaps<span class="n">${unres + inacc}</span></a>
     <a href="#discovery">Discovery</a><a href="#sources">Sources</a>
   </nav>
-  ${B.decide.length ? `<aside class="todo" aria-labelledby="todo-h"><h2 id="todo-h">Your decisions (${B.decide.length})</h2><ol>${B.decide.map(p => { const v = Rz.latest(p); return `<li><a href="#${esc(p.id)}"><code>${esc(p.id)} v${v.v}</code> ${md(v.title)}</a>${v.question ? `<span class="todo-q">${md(v.question)}</span>` : ''}</li>`; }).join('')}</ol><p class="small">Full wording and evidence are in each card under <a href="#decide">Ready for your decision</a>. Reply in the session, e.g. <code>accept ${esc(B.decide[0].id)} v${Rz.latest(B.decide[0]).v}</code>.</p></aside>` : `<aside class="todo"><h2>Your decisions</h2><p>Nothing needs a decision right now.</p></aside>`}
+  ${B.decide.length ? `<aside class="todo" aria-labelledby="todo-h"><h2 id="todo-h">Your decisions (${B.decide.length})</h2><ol>${B.decide.map(p => { const v = Rz.latest(p); return `<li><a href="#${esc(p.id)}"><code>${esc(p.id)} v${v.v}</code> ${md(v.title)}</a>${v.question ? `<span class="todo-q">${md(v.question)}</span>` : ''}</li>`; }).join('')}</ol><p class="small"><strong id="r-count">Answered 0 of ${B.decide.length}.</strong> Answer in each card below, then tell Claude in the session: <code>responses ready</code>. Each answer is tied to the exact version shown. You can still reply in the session instead.</p></aside>` : `<aside class="todo"><h2>Your decisions</h2><p>Nothing needs a decision right now.</p></aside>`}
   <ul class="summary">${(run.highlights || []).map(h => `<li>${md(h)}</li>`).join('')}</ul>
   <div class="stats" role="list">
     <div class="stat" role="listitem"><div class="v">${ids.length}</div><div class="l">items attempted, ${entriesInRun.length} entries</div></div>
@@ -294,6 +328,77 @@ html { scroll-behavior: smooth; }
   </section>
   <footer>Generated by <code>tools/research.js report ${esc(id)} --html</code> from <code>research/ledger.json</code>, <code>sources.json</code> and <code>checks.json</code>. The Markdown version is <code>research/runs/${esc(id)}/report.md</code>. Usage: ${md(run.usage || 'not recorded')}</footer>
 </div>
+<script>
+(function () {
+  var forms = Array.prototype.slice.call(document.querySelectorAll('form.respond'));
+  if (!forms.length) return;
+  var byKey = {};
+  forms.forEach(function (f) { byKey[f.dataset.key] = f; });
+  function pick(f, choice) {
+    f.dataset.choice = choice || '';
+    f.querySelectorAll('.r-choice').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.choice === choice)); });
+  }
+  function status(f, text, cls) { var s = f.querySelector('.r-status'); s.textContent = text; s.className = 'r-status' + (cls ? ' ' + cls : ''); }
+  function count() {
+    var n = forms.filter(function (f) { return f.dataset.saved === '1'; }).length;
+    var el = document.getElementById('r-count'); if (el) el.textContent = 'Answered ' + n + ' of ' + forms.length + '.';
+  }
+  function label(f, choice) { var b = f.querySelector('.r-choice[data-choice="' + choice + '"]'); return b ? b.textContent : choice; }
+  function when(iso) { try { return new Date(iso).toLocaleString([], { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }); } catch (e) { return iso; } }
+  forms.forEach(function (f) {
+    f.querySelectorAll('.r-choice').forEach(function (b) {
+      b.addEventListener('click', function () { pick(f, b.dataset.choice); f.querySelector('.r-save').disabled = !f.dataset.ready; status(f, f.dataset.ready ? 'Not saved yet.' : 'Connecting…'); });
+    });
+    f.querySelector('.r-note').addEventListener('input', function () { if (f.dataset.choice && f.dataset.ready) { f.querySelector('.r-save').disabled = false; status(f, 'Not saved yet.'); } });
+    f.querySelector('.r-save').disabled = true;
+  });
+  function offline(msg) {
+    forms.forEach(function (f) { f.querySelectorAll('button, textarea').forEach(function (el) { el.disabled = true; }); status(f, msg, 'err'); });
+  }
+  if (!window.claude || !window.claude.use) { offline('Responses can only be saved on the review page in Claude. Reply in the session instead.'); return; }
+  Promise.all([window.claude.use('db'), window.claude.use('user')]).then(function (caps) {
+    var db = caps[0], user = caps[1];
+    if (!db) { offline('Saving responses is not available in this view. Reply in the Claude session instead.'); return; }
+    var col = db.collection('responses');
+    var uidP = user && user.id ? user.id().catch(function () { return null; }) : Promise.resolve(null);
+    forms.forEach(function (f) {
+      f.dataset.ready = '1';
+      if (f.dataset.saved !== '1') status(f, f.dataset.choice ? 'Not saved yet.' : 'Not answered yet.');
+      if (f.dataset.choice) f.querySelector('.r-save').disabled = false;
+      f.addEventListener('submit', function (ev) {
+        ev.preventDefault();
+        if (!f.dataset.choice) return;
+        var btn = f.querySelector('.r-save'); btn.disabled = true; status(f, 'Saving…');
+        uidP.then(function (uid) {
+          return col.doc(f.dataset.key).set({
+            proposal: f.dataset.pid, version: Number(f.dataset.ver), change_hash: f.dataset.hash,
+            choice: f.dataset.choice, choice_label: label(f, f.dataset.choice),
+            note: f.querySelector('.r-note').value.trim(), updated_at: new Date().toISOString(), by: uid || null
+          });
+        }).then(function () { /* the snapshot below confirms it */ }, function (e) {
+          btn.disabled = false;
+          var code = e && e.code;
+          status(f, code === 'invalid_argument' ? 'You can view this page but not save responses. Reply in the session instead.' : 'Could not save (' + (code || 'error') + '). Try again, or reply in the session.', 'err');
+        });
+      });
+    });
+    col.onSnapshot(function (snap) {
+      snap.docs.forEach(function (d) {
+        var f = byKey[d.id]; if (!f) return;
+        var r = d.data() || {};
+        if (r.change_hash && r.change_hash !== f.dataset.hash) return;
+        pick(f, r.choice);
+        var note = f.querySelector('.r-note');
+        if (document.activeElement !== note) note.value = r.note || '';
+        f.dataset.saved = '1';
+        f.querySelector('.r-save').disabled = true;
+        status(f, 'Saved: ' + (r.choice_label || r.choice) + ' · ' + when(r.updated_at) + (d.metadata && d.metadata.hasPendingWrites ? ' (sending…)' : ''), 'saved');
+      });
+      count();
+    }, function () { offline('The response store stopped responding. Reload the page, or reply in the session.'); });
+  }).catch(function () { offline('Saving responses is not available in this view. Reply in the Claude session instead.'); });
+})();
+</script>
 `;
 }
 

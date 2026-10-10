@@ -67,13 +67,20 @@ Out-of-scope finds of significance become `addition` proposals labelled "outside
 
 Write 3–6 plain-language highlights (key findings, blockers, decisions needed) with `run highlights <run> <file.json>`. Then run `run finish <run> [--usage "<tokens/cost if known>"]` and `report <run>`. The report opens with the summary and a decisions table (awaiting, then decided), followed by full proposal details. Unresolved items, the discovery log, decided-proposal details and the appendices come after. The report leads with decisions needed and puts unchanged checks in an appendix.
 
-**Review page (always, every run; maintainer decision 2026-10-10).** The maintainer reviews the report as a private web page, not a Markdown file. After `report`, run `report <run> --html` (writes `runs/<run>/report.html` from the same ledger data). Publish it with the Artifact tool to the **one stable review page**, https://claude.ai/artifact/MACCwb5T2ySWbPHVbDvz23, so the link never changes. From a new conversation, first `read` that URL, then publish the new file with `url` set to it; never create a second review page. Give the maintainer the link and a short in-session summary of findings, map changes and decisions needed. Re-publish the page whenever decisions are recorded or proposals are applied. The page is private to the maintainer; sharing is done from its Share menu.
+**Review page (always, every run; maintainer decision 2026-10-10).** The maintainer reviews the report as a private web page, not a Markdown file. After `report`, run `report <run> --html` (writes `runs/<run>/report.html` from the same ledger data). Publish it with the Artifact tool to the **one stable review page**, https://claude.ai/artifact/MACCwb5T2ySWbPHVbDvz23, so the link never changes. From a new conversation, first `read` that URL, then publish the new file with `url` set to it; never create a second review page. Give the maintainer the link and a short in-session summary of findings, map changes and decisions needed. Re-publish the page whenever decisions are recorded or proposals are applied. Keep its declared capabilities (`db`, `user`) so the response buttons keep working (see §5). The page is private to the maintainer; sharing is done from its Share menu.
 
 **Visibility:** the GitHub repo and its branches may be public, and so may preview deployments. Until the maintainer has approved the public audit format, do not push run outputs (`ledger.json`, `sources.json`, `checks.json`, `runs/`).
 
-## 5. Recording decisions from conversation
+## 5. Recording decisions (review page or conversation)
 
-The maintainer replies in plain language. Map each reply to one command, always citing the version they saw:
+**From the review page.** Each card awaiting a decision has response buttons (Yes, accept · Accept with changes · Reject · Defer · Other; questions show their lettered options) and a note box. Answers are saved to the page's database, collection `responses`, document `<PID>-v<N>`, with `proposal`, `version`, `change_hash`, `choice`, `note`, `updated_at` and `by`. The page is published with `capabilities: {db: {}, user: {}}`; keep that declaration on every republish (omit `capabilities` to carry it forward). When the maintainer says responses are ready, and at the start of every run:
+1. Read them: `ArtifactData` `list` on collection `responses` of the review page URL.
+2. Use a response only if its `version` and `change_hash` match the proposal's current version (`research.js show PID`). A response to an older version is stale: show the new version and ask again.
+3. Map it: `accept` → `decide PID accept --version N --note "Review page response <updated_at>: <note>"`. `reject` / `defer` → the same with that action. `option-x` on a question → revise it into the concrete change and record it as the maintainer's edit when the choice fully determines it; otherwise draft and ask. `accept-with-changes` or `other` → apply the note: exact wording becomes `edit PID`, anything needing judgment becomes a new version shown for review. If a note is ambiguous, ask in the session before recording.
+4. Responses are written by people with edit access to the page. While the page is private to the maintainer, they are the maintainer's decisions; if it has been shared with editors, check `by` (`ArtifactData profiles`) and confirm anything not from the maintainer.
+5. Read back what was recorded (ID, version, new status), apply, regenerate with `report <run> --html`, and republish the page. Old responses stay in the store as the record; never delete them.
+
+**From conversation.** The maintainer replies in plain language. Map each reply to one command, always citing the version they saw:
 
 | They say | Command |
 |---|---|

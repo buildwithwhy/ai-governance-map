@@ -1,12 +1,12 @@
 # Review report — Trial 1 completion — source access retest; RSP, RAISE, EU AI Act, GPAI Code, Frontier AI EO, China AI Law
 
-> **PARTIAL RUN.** 6 of 49 entries attempted. This is not a baseline audit; everything else is *not checked*.
+> **PARTIAL RUN.** 6 of 50 entries attempted. This is not a baseline audit; everything else is *not checked*.
 
 ## Summary
 
 - **Source access is fixed.** The new environment reaches the RSP PDF, EUR-Lex, the Commission, gov.uk, govinfo, whitehouse.gov, npc.gov.cn and gov.cn, with no environment denials. Some websites still refuse automated clients (Cloudflare on nysenate.gov, congress.gov, leginfo, federalregister.gov HTML, commerce.gov; EUR-Lex throttling; intermittent resets on some Chinese sites). Each source record says which other official copy was used and how it was obtained.
 - **Applied after your decisions on 2026-10-10** (manifest applied/2026-10-10-2.json; the guard reproduces the published diff): the RSP v3 rewrite (P-0005 v3, P-0006, P-0007, P-0010 v3, P-0013), the RAISE ↔ RSP connection (P-0009 v3), EO 14409 (P-0014; CAISI connection removed, P-0015), the EU AI Act dates, AI Office fine cap and GPAI Code fixes (P-0016–P-0018), the China AI Law status (P-0019), and the 'Content updated' date wording (P-0012). These come on top of P-0001, P-0003, P-0004 and P-0008, applied earlier.
-- **New for your decision:** P-0020, a new entry for the EU Code of Practice on Transparency of AI-generated Content (adopted Jul 2026), drafted at your request. Still open from before: P-0002 v2 (FAQ 'binding laws') and P-0011 (how to classify other-aisis).
+- **All trial-1 decisions are now made and applied.** P-0002 v2 (FAQ 'binding laws'), P-0011 v2 (other-aisis → Multilateral, kept in Layer 4 like UK AISI) and P-0020 (new entry: EU AI-generated content code) were accepted and applied on 2026-10-10 (manifest applied/2026-10-10-3.json). From now on, decisions can be answered on this page.
 - **Coverage is still small:** 6 entries were attempted in this completion run. The whole-map coverage figure is computed live from the ledger (see below); the public date (10 Oct 2026) marks this release, not an audit. The baseline audit remains the next milestone.
 
 | | |
@@ -16,19 +16,13 @@
 | Internal consistency checks passed or fixed | 0 (the map checked against itself, not against outside sources) |
 | Not verified | 16 (source inaccessible: 0, unresolved: 16) |
 | Sources | 26 used, 0 not retrieved |
-| Proposals | ready for your decision: 3 · research/access required: 0 · accepted, awaiting application: 0 · applied: 17 · closed/deferred: 0 |
-| Whole map | 49 of 511 inventory items have ever been verified against external sources. The map's public content date (2026-10-10) marks the latest applied release, not a full audit. |
+| Proposals | ready for your decision: 0 · research/access required: 0 · accepted, awaiting application: 0 · applied: 20 · closed/deferred: 0 |
+| Whole map | 49 of 520 inventory items have ever been verified against external sources. The map's public content date (2026-10-10) marks the latest applied release, not a full audit. |
 | Run | `2026-10-10-trial1b` · 2026-10-10T16:29:13Z → 2026-10-10T16:53:01Z (24 min) · usage/cost: Not measured: get_session does not report cost in this environment. Wall-clock about 1 h 15 min in one session, including three research subagents (≈405k subagent tokens in total). |
 
 ## A. Ready for your decision
 
-| ID | Ver | Type | Proposal | Evidence |
-|---|---|---|---|---|
-| P-0002 | v2 | change | FAQ: align 'binding laws' with the map's own classifications (internal consistency only) | internal-consistency |
-| P-0011 | v1 | question | Classification of `other-aisis` (multi-country AISI entry) is unresolved | internal-consistency |
-| P-0020 | v1 | addition | New entry: EU Code of Practice on Transparency of AI-generated Content (Article 50 marking and labelling) | verified |
-
-Reply in conversation, e.g. “accept P-0002 v2”, “edit P-0011: …”, “reject P-0012 — reason”, “defer …”. Decisions bind to the version shown. Full details in §1.
+_Nothing ready for a decision._
 
 ## B. Further research or source access required
 
@@ -47,6 +41,7 @@ _None._
 | ID | Ver | Applied | Manifest | Proposal |
 |---|---|---|---|---|
 | P-0001 | v1 | 2026-10-10 | 2026-10-10.json | Derive the data.json description count instead of hardcoding "39" |
+| P-0002 | v2 | 2026-10-10 | 2026-10-10-3.json | FAQ: align 'binding laws' with the map's own classifications (internal consistency only) |
 | P-0003 | v2 | 2026-10-10 | 2026-10-10.json | Relabel jurisdiction code `as` from 'Asia (other)' to 'Asia-Pacific (other)' |
 | P-0004 | v1 | 2026-10-10 | 2026-10-10.json | Layer 2 subtitle: 'agencies' → 'framework acts' |
 | P-0005 | v3 | 2026-10-10 | 2026-10-10-2.json | Anthropic RSP: current version v3.4 (Jul 2026) and how v3 is structured |
@@ -55,6 +50,7 @@ _None._
 | P-0008 | v2 | 2026-10-10 | 2026-10-10.json | Connection Seoul commitments ↔ Anthropic RSP: fix chronology |
 | P-0009 | v3 | 2026-10-10 | 2026-10-10-2.json | New connection NY RAISE ↔ Anthropic RSP: RAISE's framework requirement and Anthropic's separate compliance framework |
 | P-0010 | v3 | 2026-10-10 | 2026-10-10-2.json | Anthropic RSP: describe the v3 structure (thresholds, ASLs, safeguards, evaluations, timing) and the separate compliance framework |
+| P-0011 | v2 | 2026-10-10 | 2026-10-10-3.json | Classify `other-aisis` as Multilateral, kept in Layer 4 like UK AISI |
 | P-0012 | v1 | 2026-10-10 | 2026-10-10-2.json | Make the public date say 'content updated', not imply a full audit |
 | P-0013 | v1 | 2026-10-10 | 2026-10-10-2.json | Anthropic RSP · Halting: v3 replaced the unconditional pause commitment with competitor-dependent delay commitments |
 | P-0014 | v1 | 2026-10-10 | 2026-10-10-2.json | US Frontier AI Access EO: describe EO 14409 from its official text (voluntary cyber-capability access; NSA, Treasury and CISA lead, not CAISI) |
@@ -63,186 +59,9 @@ _None._
 | P-0017 | v1 | 2026-10-10 | 2026-10-10-2.json | EU AI Office: GPAI fines are capped at €15M or 3%, not €35M or 7%; enforcement powers apply since Aug 2026 |
 | P-0018 | v1 | 2026-10-10 | 2026-10-10-2.json | EU GPAI Code: Model Reports every six months, not annual; content marking is not in the GPAI Code |
 | P-0019 | v1 | 2026-10-10 | 2026-10-10-2.json | China AI Law: still a preparatory planning item with no draft; correct the '2025 plan dropped it' claim and add an official source link |
+| P-0020 | v1 | 2026-10-10 | 2026-10-10-3.json | New entry: EU Code of Practice on Transparency of AI-generated Content (Article 50 marking and labelling) |
 
 ## 1. Proposal details
-
-### Ready for your decision
-
-### P-0002 v2 — FAQ: align 'binding laws' with the map's own classifications (internal consistency only)
-
-`change` · evidence: **Internal consistency only (the map checked against itself)** · decision: **pending** · confidence: medium · change-hash `e33b70d35be3`
-
-_Revised from v1: wording changed, so it needs a fresh decision._
-
-**Change**
-
-- **`index.html`**
-
-  Current:
-
-  > Eight binding instruments in this map carry penalty regimes: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation), the Colorado AI Act, the NY RAISE Act ($1M/$3M), Texas TRAIGA, and US BIS export controls. Most are phasing in; several face active federal preemption challenges in the United States.
-
-  Proposed:
-
-  > Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation) and the NY RAISE Act ($1M/$3M). Most are phasing in; several face active federal preemption challenges in the United States. The map's wider count of mechanisms that are binding with penalties also includes US BIS export controls and five regulators: the EU AI Office, UK Ofcom, the UK ICO, Australia's eSafety Commissioner and the Colorado Division of Insurance. The map classes the Colorado AI Act and Texas TRAIGA as hard law with weak enforcement, so they are not counted here.
-
-**Why it matters:** The FAQ says eight binding instruments and names Colorado and Texas, while the map classes both as pow 3 and its stats tile counts 11 pow-4 mechanisms. Search engines and LLMs ingest this FAQ.
-
-**Reasoning:** Narrowed from v1. The edit now only aligns the FAQ's list and count with the map's own enforceability classifications and stats tile. It no longer characterises any statute: v1 called Colorado and Texas 'binding statutes' and described the regulators as 'enforcing binding law', both legal claims I had not verified. The penalty figures, 'Most are phasing in' and the preemption sentence are carried over word for word from the current FAQ.
-
-**Evidence**
-
-- **S-0027** Map repository at f9d3e56 (index.html, build-llms.js, data.json) — <https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56>
-  repo · retrieved 2026-10-08 · access: ok via repo
-  index.html FAQ JSON-LD vs stats block:
-  > FAQ: 'Eight binding instruments in this map carry penalty regimes: … the Colorado AI Act, … Texas TRAIGA, and US BIS export controls.' Stats tile: 11 'binding with penalties' (= entries with pow 4). co-aia and tx-raiga have pow 3; pow-4 entries also include eu-aio, uk-ofcom, uk-ico, au-esafety, co-doi.
-  _Supports:_ The FAQ list versus the pow values and stats tile
-
-**Carried over unchanged, not re-verified:** Penalty figures (EU €35M/7%, Korea ~$21k, California $1M, New York $1M/$3M); 'Most are phasing in' (consistent with the map's status fields, not externally checked); 'several face active federal preemption challenges'
-
-**Uncertainty:** This is an internal consistency fix. It does not verify the legal status, enforcement or penalties of any law named. Those need the official texts and are queued for the baseline audit. If the baseline finds Colorado or Texas should be pow 4, both the classification and this answer would change.
-
-_Decision history:_ accepted v1 2026-10-09 (Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified')
-
----
-
-### P-0011 v1 — Classification of `other-aisis` (multi-country AISI entry) is unresolved
-
-`question` · evidence: **Internal consistency only (the map checked against itself)** · decision: **pending** · confidence: — · change-hash `4f53cda18c2b`
-
-**Question for you:** Choose one: (a) leave `as`, accepting the imprecision; (b) move it to `mu` (Multilateral), which changes this chip's colour and puts it in the Multilateral legend group; (c) split it into per-country entries later (larger change, and SCOPE B1 says these countries are not monitored nationally).
-
-**Why it matters:** `other-aisis` covers Singapore, Japan, France, Korea, Canada, Australia, Kenya and India but uses `as` (Asia-Pacific (other)). That is inaccurate for France, Canada and Kenya under either label. Accepting the P-0003 label change did not settle this.
-
-**Reasoning:** Internal classification question; no external facts involved.
-
-**Evidence**
-
-- **S-0027** Map repository at f9d3e56 (index.html, build-llms.js, data.json) — <https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56>
-  repo · retrieved 2026-10-08 · access: ok via repo
-  index.html JUR_LABEL / au-esafety / other-aisis:
-  > JUR_LABEL as: 'Asia (other)'. au-esafety (Australia eSafety Commissioner) has jur 'as'. other-aisis (desc: 'Singapore …, Japan …, France (INESIA), Korea, Canada, Australia, Kenya, India') has jur 'as'.
-  _Supports:_ other-aisis members and jur code
-
-**Uncertainty:** None on the facts; this is a judgment call.
-
----
-
-### P-0020 v1 — New entry: EU Code of Practice on Transparency of AI-generated Content (Article 50 marking and labelling)
-
-`addition` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: high · change-hash `410d595a202b`
-
-**Change**
-
-- **New entry `eu-genai-code`** — EU AI-generated content code · Layer 5 · jur `eu` · pow 2 · active · https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content
-
-> Voluntary code (final Jun 2026) for the AI Act's Article 50 duties to mark and label AI-generated content; the Commission and AI Board found it adequate in Jul 2026. Anthropic, Google, Meta, Microsoft and OpenAI signed the provider section.
-
-> Two sections: providers commit to machine-readable marking (digitally signed metadata plus imperceptible watermarks) and free detection tools; deployers commit to labelling deepfakes and AI-generated text on matters of public interest. Drafted by independent experts under the AI Office, like the GPAI Code, it gives signatories a recognised route to show compliance with duties that apply from Aug 2026; others must show adequate alternatives to national market-surveillance authorities. Unlike the GPAI Code, Meta signed it.
-
-  - _timing_: The underlying Article 50 duties apply from 2 Aug 2026; generative systems already on the market before then have until 2 Dec 2026 for machine-readable marking.
-  - _mit_: Providers mark outputs with signed metadata and imperceptible watermarks so they are detectable as AI-generated; deployers label deepfakes and AI-generated text published on matters of public interest. Aimed at deception and misinformation, not catastrophic risk.
-  - _acct_: Signatories must offer detection tools free of charge to users, authorities, researchers and media. Adherence is not conclusive proof of compliance; non-signatories must demonstrate adequate alternatives to market-surveillance authorities.
-
-- **new connection `eu-genai-code` ↔ `eu-aia`**
-
-  Current:
-
-  > _(absent)_
-
-  Proposed:
-
-  > Code implements the AI Act's Article 50 marking and labelling duties
-
-- **new connection `eu-aio` ↔ `eu-genai-code`**
-
-  Current:
-
-  > _(absent)_
-
-  Proposed:
-
-  > AI Office facilitated the drafting by independent experts
-
-**Question for you:** Accept as drafted? Optional extras not included, to keep it minimal: (a) a connection to gpai-cop ('Sibling AI Office code; Meta signed this one but not the GPAI Code'); (b) connections to the lab framework entries of signatories (rsp, prep, meta-faif). Say if you want either.
-
-**Why it matters:** A second AI Act code of practice, adopted in July 2026, that the map does not cover. It shapes how every major generative AI provider, including the frontier labs on the map, marks and enables detection of model outputs in the EU. The maintainer asked for it to be drafted (2026-10-10).
-
-**Reasoning:** Meets RUBRIC §1. It is identifiable (published code text, S-0060). It is material: contextual under SCOPE §C, because it governs deployment-stage marking by GPAI and generative AI providers rather than catastrophic risk. It is attributable: drawn up under the AI Office and assessed as adequate by the Commission and AI Board (S-0046). Layer 5, jur eu, pow 2 and status active mirror gpai-cop, the map's other AI Office code. pow 2 follows RUBRIC §4 ('voluntary government codes'). Every fact comes from Commission pages or the code itself: final publication 10 Jun 2026 (S-0059); adequacy 8 and 9 Jul 2026, and adherence not conclusive proof (S-0046); two sections and non-signatories assessed by market surveillance (S-0045); signed metadata and watermarking (S-0060, Measure 1.1); free detection solution for users, authorities, researchers and media (S-0060, Measure 2.1). Application dates come from the AI Act as amended (S-0041, Art 111(4); S-0045). Section 1 signatories are named by the Commission (S-0058). Meta's absence from the GPAI Code list is from S-0003. Coverage notes are limited to the three METR elements the code actually addresses.
-
-**Evidence**
-
-- **S-0045** European Commission: Code of practice on transparency of AI-generated content — <https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content>
-  primary · retrieved 2026-10-10 · access: ok
-  Overview and 'Code of Practice':
-  > drawn up by independent experts in a multi-stakeholder process facilitated by the AI Office … The Commission and the AI Board have confirmed that the code is an adequate voluntary tool … 2 sections: Section 1: Providers - Rules for marking and detection … Section 2: Deployers - Rules for labelling of deepfakes and AI-generated and manipulated text
-  _Supports:_ Two sections; AI Office-facilitated drafting; adequacy
-- **S-0045** European Commission: Code of practice on transparency of AI-generated content — <https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content>
-  primary · retrieved 2026-10-10 · access: ok
-  Overview:
-  > These transparency obligations, applicable from 2 August 2026 … providers and deployers that decide to comply through other means will have to demonstrate that those measures are adequate. This will be assessed individually by different market surveillance authorities.
-  _Supports:_ Duties apply from 2 Aug 2026; non-signatories assessed by market surveillance
-- **S-0059** Commission publishes the code of practice on marking and labelling of AI-generated content (10 Jun 2026) — <https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content>
-  primary · retrieved 2026-10-10 · access: ok · published 2026-06-10
-  News, 10 June 2026:
-  > The European Commission published the final Code of Practice on marking and labelling of AI-generated content. The Code is voluntary and sets out practical steps to help providers and deployers of generative artificial intelligence (AI) systems meet the AI Act transparency obligations that will apply from 2 August 2026.
-  _Supports:_ Final code published 10 Jun 2026; voluntary
-- **S-0046** Commission opinion on the adequacy of the AI-generated content transparency code — <https://digital-strategy.ec.europa.eu/en/library/commission-opinion-assessment-code-practice-transparency-ai-generated-content>
-  primary · retrieved 2026-10-10 · access: ok · published 2026-07-09
-  Opinion, 9 July 2026:
-  > On July 8, the Commission concluded that the Code of Practice on Transparency of AI-generated Content adequately covers the obligations provided for in Articles 50(2), (4) and (5) AI Act … The following day, the AI Board adopted its Adequacy Assessment … Adherence to the code does not constitute conclusive evidence of compliance with these obligations.
-  _Supports:_ Commission adequacy 8 Jul; AI Board 9 Jul; not conclusive evidence
-- **S-0058** Commission: strong backing for the code of practice on transparency of AI-generated content (signatories, 31 Jul 2026) — <https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content>
-  primary · retrieved 2026-10-10 · access: ok · published 2026-07-31
-  News, 31 July 2026:
-  > By the end of July 2026, about 190 organisations … have signed the code. … Examples for Section 1 include: Aleph Alpha, Anthropic, Black Forest Labs, Cohere, Google, Meta, Microsoft, Mistral, Open AI, Synthesia. … Section 1 signatories: 95 · Section 2 signatories: 192 [xAI not listed]
-  _Supports:_ Signatories incl. Anthropic, Google, Meta, Microsoft, OpenAI (Section 1)
-- **S-0060** Code of Practice on Transparency of AI-Generated Content (final, PDF) — <https://ec.europa.eu/newsroom/dae/redirection/document/129555>
-  primary · retrieved 2026-10-10 · access: ok · published 2026-06-10
-  Section 1, Measure 1.1 (Sub-measures 1.1.1, 1.1.2):
-  > Sub-measure 1.1.1: Digitally signed metadata … Signatories will record information in the metadata on whether the content is AI-generated or manipulated. … Sub-measure 1.1.2: Imperceptible watermarking … The watermark is intended to serve as a robust mechanism to complement the digitally signed metadata
-  _Supports:_ Signed metadata and imperceptible watermarks
-- **S-0060** Code of Practice on Transparency of AI-Generated Content (final, PDF) — <https://ec.europa.eu/newsroom/dae/redirection/document/129555>
-  primary · retrieved 2026-10-10 · access: ok · published 2026-06-10
-  Section 1, Measure 2.1 and Sub-measure 2.1.x:
-  > Signatories will make available a detection solution … to enable deployers, users … end-users exposed to the content, and other legitimate parties (such as competent authorities, independent researchers, civil society and media organisations) to verify whether content has been generated or manipulated by their AI system … Signatories will make the detection solution available free of charge.
-  _Supports:_ Free detection solution for users, authorities, researchers, media
-- **S-0041** Regulation (EU) 2026/1744 (Digital Omnibus on AI), Official Journal L series — <https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202601744>
-  primary · retrieved 2026-10-10 · access: ok via curl (research subagent, 2026-10-10 ~16:38Z) · adopted 2026-07-08, published 2026-07-24, in_force 2026-07-27
-  Art 1(39)(b), new AI Act Art 111(4):
-  > Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026.
-  _Supports:_ Legacy systems: Art 50(2) marking by 2 Dec 2026
-- **S-0003** https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai — <https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai>
-  primary · retrieved 2026-10-10 · access: ok
-  Signatories (page last updated 7 October 2026):
-  > AI Studio Delta, Aleph Alpha, Almawave, Amazon, Anthropic, … Google, IBM, … Microsoft, Mistral AI, … OpenAI, … WRITER. In addition, xAI signed up to the Safety and Security Chapter; this means that it will have to demonstrate compliance with the AI Act's obligations concerning transparency and copyright via alternative adequate means.
-  _Supports:_ Meta not on the GPAI Code signatory list
-
-**Uncertainty:** Signatories can join or leave; the Commission's list is updated continuously (95 Section 1 and 192 Section 2 signatories as of the 31 Jul 2026 page). xAI does not appear. pow 2 versus pow 1 follows the gpai-cop precedent; the rubric's open question on voluntary government codes applies equally. Google is listed as 'Google', and the map's DeepMind framework entry (fsf) is not connected, since the Google signatory may be the company rather than DeepMind.
-
-**May need reconsideration if accepted**
-
-- `edge:coe-ai|eu-aia`: CoE Convention is the international treaty layer above EU AI Act
-- `edge:eu-aia|eu-aio`: EU AI Office is the regulator implementing EU AI Act
-- `edge:gpai-cop|eu-aia`: GPAI Code is the voluntary route to EU AI Act compliance
-- `edge:uk-ico|eu-aia`: UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards
-- `gap:eval`: Evaluations everywhere, mandates almost nowhere — Most mechanisms touch evaluations in some way, but mandatory third-party evaluation of frontier models is rare. The EU AI Act req…
-- `gap:elicit`: Capability elicitation sits with evaluators, not regulators — Almost no statute requires it; only the EU AI Act and the GPAI Code do, indirectly through adversarial-testing langua…
-- `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
-- `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
-- `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
-- `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice. California SB 53 requires labs to keep their published frameworks current. NIST AI RMF,…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight binding instruments in this map carry penalty regimes: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures…
-- `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
-- `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
-- `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
-- `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
-- `edge:aisi-net|eu-aio`: EU AI Office's Safety Unit is part of the network
-- `edge:gpai-cop|eu-aio`: EU AI Office runs and oversees the CoP
-- `gap:halt`: Few mechanisms can compel a frontier developer to halt — Conditions for halting are the rarest column in the matrix. The EU AI Office can order recall (Aug 2026 onwards). The GPAI…
-- `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
-- Entry text that mentions the affected entries: `entry:kr-ai:cov:thresh`, `entry:kr-ai:cov:eval`, `entry:ca-sb53:desc`, `entry:co-aia:desc`, `entry:co-aia:context`, `entry:co-aia:cov:acct`, `entry:gpai-cop:desc`, `entry:gpai-cop:context`, `entry:gpai-cop:cov:thresh`, `entry:gpai-cop:cov:eval`, `entry:gpai-cop:cov:sec`, `entry:gpai-cop:cov:acct`, `entry:meta-faif:context`, `entry:meta-faif:cov:acct`, `entry:xai-rmf:desc`, `entry:eu-aio:context`, `entry:averi:context`, `entry:averi:cov:eval`, `entry:aisi-net:desc`, `entry:eu-aia:cov:timing`, `entry:eu-aia:cov:acct`, `entry:gpai-cop:cov:update`, `entry:us-ftc:context`
-
 
 ### Applied
 
@@ -275,6 +94,44 @@ _Decision history:_ accepted v1 2026-10-09 (Maintainer in conversation, 2026-10-
   _Supports:_ The hardcoded value and the actual count
 
 **Uncertainty:** None on the fact. The only visible effect is the data.json description string.
+
+---
+
+### P-0002 v2 — FAQ: align 'binding laws' with the map's own classifications (internal consistency only)
+
+`change` · evidence: **Internal consistency only (the map checked against itself)** · decision: **accepted** (v2, 2026-10-10) · confidence: medium · change-hash `e33b70d35be3`
+
+_Revised from v1: wording changed, so it needs a fresh decision._
+
+**Change**
+
+- **`index.html`**
+
+  Current:
+
+  > Eight binding instruments in this map carry penalty regimes: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation), the Colorado AI Act, the NY RAISE Act ($1M/$3M), Texas TRAIGA, and US BIS export controls. Most are phasing in; several face active federal preemption challenges in the United States.
+
+  Proposed:
+
+  > Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation) and the NY RAISE Act ($1M/$3M). Most are phasing in; several face active federal preemption challenges in the United States. The map's wider count of mechanisms that are binding with penalties also includes US BIS export controls and five regulators: the EU AI Office, UK Ofcom, the UK ICO, Australia's eSafety Commissioner and the Colorado Division of Insurance. The map classes the Colorado AI Act and Texas TRAIGA as hard law with weak enforcement, so they are not counted here.
+
+**Why it matters:** The FAQ says eight binding instruments and names Colorado and Texas, while the map classes both as pow 3 and its stats tile counts 11 pow-4 mechanisms. Search engines and LLMs ingest this FAQ.
+
+**Reasoning:** Narrowed from v1. The edit now only aligns the FAQ's list and count with the map's own enforceability classifications and stats tile. It no longer characterises any statute: v1 called Colorado and Texas 'binding statutes' and described the regulators as 'enforcing binding law', both legal claims I had not verified. The penalty figures, 'Most are phasing in' and the preemption sentence are carried over word for word from the current FAQ.
+
+**Evidence**
+
+- **S-0027** Map repository at f9d3e56 (index.html, build-llms.js, data.json) — <https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56>
+  repo · retrieved 2026-10-08 · access: ok via repo
+  index.html FAQ JSON-LD vs stats block:
+  > FAQ: 'Eight binding instruments in this map carry penalty regimes: … the Colorado AI Act, … Texas TRAIGA, and US BIS export controls.' Stats tile: 11 'binding with penalties' (= entries with pow 4). co-aia and tx-raiga have pow 3; pow-4 entries also include eu-aio, uk-ofcom, uk-ico, au-esafety, co-doi.
+  _Supports:_ The FAQ list versus the pow values and stats tile
+
+**Carried over unchanged, not re-verified:** Penalty figures (EU €35M/7%, Korea ~$21k, California $1M, New York $1M/$3M); 'Most are phasing in' (consistent with the map's status fields, not externally checked); 'several face active federal preemption challenges'
+
+**Uncertainty:** This is an internal consistency fix. It does not verify the legal status, enforcement or penalties of any law named. Those need the official texts and are queued for the baseline audit. If the baseline finds Colorado or Texas should be pow 4, both the classification and this answer would change.
+
+_Decision history:_ accepted v1 2026-10-09 (Maintainer in conversation, 2026-10-09: 'I accept all the areas you verified'); pending 2026-10-09 (v2: wording changed — needs renewed approval)
 
 ---
 
@@ -704,7 +561,7 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 - `edge:co-doi|ny-raise`: Colorado DOI precedent informed NY RAISE's DFS office model
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight binding instruments in this map carry penalty regimes: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
 - `faq:how-is-california-sb-53-different-from-the-ny-ra`: How is California SB 53 different from the NY RAISE Act? — Both target large frontier developers (>10²⁶ FLOPs, >$500M revenue) and require published safety frameworks. California …
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - `text:gap-default`: Mandatory third-party auditing, compute KYC, statutory incident reporting beyond California and (from 2027) New York, liability rules for harmful outputs, and international verifi…
@@ -910,6 +767,51 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 - `faq:which-ai-labs-have-published-frontier-safety-fra` — **changed here (Anthropic clause only); the other labs' descriptions are not checked**: Which AI labs have published frontier safety frameworks? — Five major labs have published frontier safety frameworks at Layer 6 of this map: Anthropic (Responsible Scaling Policy,…
 - `faq:what-is-sandbagging-in-ai-safety`: What is sandbagging in AI safety? — Sandbagging is when an AI model intentionally underperforms during safety evaluations — strategically scoring lower than its true capability so…
 - Entry text that mentions the affected entries: `entry:ca-sb53:cov:thresh`, `entry:gpai-cop:desc`, `entry:fmf:desc`, `entry:fmf:cov:eval`, `entry:prep:cov:thresh`, `entry:fsf:context`, `entry:fsf:cov:thresh`, `entry:fsf:cov:timing`, `entry:fsf:cov:sec`, `entry:fsf:cov:halt`, `entry:fsf:cov:acct`, `entry:fsf:cov:update`, `entry:meta-faif:cov:thresh`, `entry:meta-faif:cov:sec`, `entry:metr:context`, `entry:metr:cov:eval`, `entry:apollo:cov:elicit`
+
+---
+
+### P-0011 v2 — Classify `other-aisis` as Multilateral, kept in Layer 4 like UK AISI
+
+`change` · evidence: **Internal consistency only (the map checked against itself)** · decision: **accepted** (v2, 2026-10-10) · confidence: — · change-hash `c13b04d4b97b`
+
+_Revised from v1: wording changed, so it needs a fresh decision._
+
+**Change**
+
+- **`other-aisis` · jur**
+
+  Current:
+
+  > as
+
+  Proposed:
+
+  > mu
+
+**Why it matters:** other-aisis groups the national AI safety institutes of Singapore, Japan, France, Korea, Canada, Australia, Kenya and India. 'Asia-Pacific (other)' is wrong for France, Canada and Kenya.
+
+**Reasoning:** Maintainer's choice (option b), 'make it the same as UK AISI': jurisdiction becomes Multilateral, while the entry stays in Layer 4 (Infrastructure) with pow 2 and status active, matching uk-aisi. It does not move to Layer 1 with the AISI Network. Its colour and legend group change to Multilateral; no new code is needed.
+
+**Evidence**
+
+- **S-0027** Map repository at f9d3e56 (index.html, build-llms.js, data.json) — <https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56>
+  repo · retrieved 2026-10-08 · access: ok via repo
+  index.html JUR_LABEL / au-esafety / other-aisis:
+  > JUR_LABEL as: 'Asia (other)'. au-esafety (Australia eSafety Commissioner) has jur 'as'. other-aisis (desc: 'Singapore …, Japan …, France (INESIA), Korea, Canada, Australia, Kenya, India') has jur 'as'.
+  _Supports:_ other-aisis members and current jur code
+
+**Uncertainty:** Internal classification only; no external facts involved.
+
+**May need reconsideration if accepted**
+
+- `edge:aisi-net|other-aisis`: Singapore, Japan, France, Korea, Canada, Australia, Kenya, India participate
+- `edge:au-esafety|other-aisis`: Australia also participates in the AISI Network
+- `edge:imda|other-aisis`: IMDA hosts Singapore's DTC + AI Verify AISI-equivalent work
+- `edge:jp-sectors|other-aisis`: J-AISI is Japan's central institute alongside sectoral ministries
+- `gap:eval`: Evaluations everywhere, mandates almost nowhere — Most mechanisms touch evaluations in some way, but mandatory third-party evaluation of frontier models is rare. The EU AI Act req…
+- `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
+- `text:layer-4:subtitle`: Regulators, AISIs, evaluators, compute controls
+- Entry text that mentions the affected entries: `entry:aisr:context`, `entry:aisi-net:context`, `entry:uk-aisi:cov:elicit`
 
 ---
 
@@ -1299,7 +1201,7 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 - `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice. California SB 53 requires labs to keep their published frameworks current. NIST AI RMF,…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight binding instruments in this map carry penalty regimes: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
 - `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
 - `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
@@ -1381,7 +1283,7 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 - `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice. California SB 53 requires labs to keep their published frameworks current. NIST AI RMF,…
-- `faq:which-ai-laws-are-binding-with-penalties` — **'EU AI Act (up to €35M or 7%)' is the Act's top tier and is accurate**: Which AI laws are binding with penalties? — Eight binding instruments in this map carry penalty regimes: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures…
+- `faq:which-ai-laws-are-binding-with-penalties` — **'EU AI Act (up to €35M or 7%)' is the Act's top tier and is accurate**: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
 - `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
 - `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
@@ -1606,8 +1508,125 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight binding instruments in this map carry penalty regimes: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
+
+---
+
+### P-0020 v1 — New entry: EU Code of Practice on Transparency of AI-generated Content (Article 50 marking and labelling)
+
+`addition` · evidence: **Verified against inspected external sources** · decision: **accepted** (v1, 2026-10-10) · confidence: high · change-hash `410d595a202b`
+
+**Change**
+
+- **New entry `eu-genai-code`** — EU AI-generated content code · Layer 5 · jur `eu` · pow 2 · active · https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content
+
+> Voluntary code (final Jun 2026) for the AI Act's Article 50 duties to mark and label AI-generated content; the Commission and AI Board found it adequate in Jul 2026. Anthropic, Google, Meta, Microsoft and OpenAI signed the provider section.
+
+> Two sections: providers commit to machine-readable marking (digitally signed metadata plus imperceptible watermarks) and free detection tools; deployers commit to labelling deepfakes and AI-generated text on matters of public interest. Drafted by independent experts under the AI Office, like the GPAI Code, it gives signatories a recognised route to show compliance with duties that apply from Aug 2026; others must show adequate alternatives to national market-surveillance authorities. Unlike the GPAI Code, Meta signed it.
+
+  - _timing_: The underlying Article 50 duties apply from 2 Aug 2026; generative systems already on the market before then have until 2 Dec 2026 for machine-readable marking.
+  - _mit_: Providers mark outputs with signed metadata and imperceptible watermarks so they are detectable as AI-generated; deployers label deepfakes and AI-generated text published on matters of public interest. Aimed at deception and misinformation, not catastrophic risk.
+  - _acct_: Signatories must offer detection tools free of charge to users, authorities, researchers and media. Adherence is not conclusive proof of compliance; non-signatories must demonstrate adequate alternatives to market-surveillance authorities.
+
+- **new connection `eu-genai-code` ↔ `eu-aia`**
+
+  Current:
+
+  > _(absent)_
+
+  Proposed:
+
+  > Code implements the AI Act's Article 50 marking and labelling duties
+
+- **new connection `eu-aio` ↔ `eu-genai-code`**
+
+  Current:
+
+  > _(absent)_
+
+  Proposed:
+
+  > AI Office facilitated the drafting by independent experts
+
+**Question for you:** Accept as drafted? Optional extras not included, to keep it minimal: (a) a connection to gpai-cop ('Sibling AI Office code; Meta signed this one but not the GPAI Code'); (b) connections to the lab framework entries of signatories (rsp, prep, meta-faif). Say if you want either.
+
+**Why it matters:** A second AI Act code of practice, adopted in July 2026, that the map does not cover. It shapes how every major generative AI provider, including the frontier labs on the map, marks and enables detection of model outputs in the EU. The maintainer asked for it to be drafted (2026-10-10).
+
+**Reasoning:** Meets RUBRIC §1. It is identifiable (published code text, S-0060). It is material: contextual under SCOPE §C, because it governs deployment-stage marking by GPAI and generative AI providers rather than catastrophic risk. It is attributable: drawn up under the AI Office and assessed as adequate by the Commission and AI Board (S-0046). Layer 5, jur eu, pow 2 and status active mirror gpai-cop, the map's other AI Office code. pow 2 follows RUBRIC §4 ('voluntary government codes'). Every fact comes from Commission pages or the code itself: final publication 10 Jun 2026 (S-0059); adequacy 8 and 9 Jul 2026, and adherence not conclusive proof (S-0046); two sections and non-signatories assessed by market surveillance (S-0045); signed metadata and watermarking (S-0060, Measure 1.1); free detection solution for users, authorities, researchers and media (S-0060, Measure 2.1). Application dates come from the AI Act as amended (S-0041, Art 111(4); S-0045). Section 1 signatories are named by the Commission (S-0058). Meta's absence from the GPAI Code list is from S-0003. Coverage notes are limited to the three METR elements the code actually addresses.
+
+**Evidence**
+
+- **S-0045** European Commission: Code of practice on transparency of AI-generated content — <https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content>
+  primary · retrieved 2026-10-10 · access: ok
+  Overview and 'Code of Practice':
+  > drawn up by independent experts in a multi-stakeholder process facilitated by the AI Office … The Commission and the AI Board have confirmed that the code is an adequate voluntary tool … 2 sections: Section 1: Providers - Rules for marking and detection … Section 2: Deployers - Rules for labelling of deepfakes and AI-generated and manipulated text
+  _Supports:_ Two sections; AI Office-facilitated drafting; adequacy
+- **S-0045** European Commission: Code of practice on transparency of AI-generated content — <https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content>
+  primary · retrieved 2026-10-10 · access: ok
+  Overview:
+  > These transparency obligations, applicable from 2 August 2026 … providers and deployers that decide to comply through other means will have to demonstrate that those measures are adequate. This will be assessed individually by different market surveillance authorities.
+  _Supports:_ Duties apply from 2 Aug 2026; non-signatories assessed by market surveillance
+- **S-0059** Commission publishes the code of practice on marking and labelling of AI-generated content (10 Jun 2026) — <https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-06-10
+  News, 10 June 2026:
+  > The European Commission published the final Code of Practice on marking and labelling of AI-generated content. The Code is voluntary and sets out practical steps to help providers and deployers of generative artificial intelligence (AI) systems meet the AI Act transparency obligations that will apply from 2 August 2026.
+  _Supports:_ Final code published 10 Jun 2026; voluntary
+- **S-0046** Commission opinion on the adequacy of the AI-generated content transparency code — <https://digital-strategy.ec.europa.eu/en/library/commission-opinion-assessment-code-practice-transparency-ai-generated-content>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-07-09
+  Opinion, 9 July 2026:
+  > On July 8, the Commission concluded that the Code of Practice on Transparency of AI-generated Content adequately covers the obligations provided for in Articles 50(2), (4) and (5) AI Act … The following day, the AI Board adopted its Adequacy Assessment … Adherence to the code does not constitute conclusive evidence of compliance with these obligations.
+  _Supports:_ Commission adequacy 8 Jul; AI Board 9 Jul; not conclusive evidence
+- **S-0058** Commission: strong backing for the code of practice on transparency of AI-generated content (signatories, 31 Jul 2026) — <https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-07-31
+  News, 31 July 2026:
+  > By the end of July 2026, about 190 organisations … have signed the code. … Examples for Section 1 include: Aleph Alpha, Anthropic, Black Forest Labs, Cohere, Google, Meta, Microsoft, Mistral, Open AI, Synthesia. … Section 1 signatories: 95 · Section 2 signatories: 192 [xAI not listed]
+  _Supports:_ Signatories incl. Anthropic, Google, Meta, Microsoft, OpenAI (Section 1)
+- **S-0060** Code of Practice on Transparency of AI-Generated Content (final, PDF) — <https://ec.europa.eu/newsroom/dae/redirection/document/129555>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-06-10
+  Section 1, Measure 1.1 (Sub-measures 1.1.1, 1.1.2):
+  > Sub-measure 1.1.1: Digitally signed metadata … Signatories will record information in the metadata on whether the content is AI-generated or manipulated. … Sub-measure 1.1.2: Imperceptible watermarking … The watermark is intended to serve as a robust mechanism to complement the digitally signed metadata
+  _Supports:_ Signed metadata and imperceptible watermarks
+- **S-0060** Code of Practice on Transparency of AI-Generated Content (final, PDF) — <https://ec.europa.eu/newsroom/dae/redirection/document/129555>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-06-10
+  Section 1, Measure 2.1 and Sub-measure 2.1.x:
+  > Signatories will make available a detection solution … to enable deployers, users … end-users exposed to the content, and other legitimate parties (such as competent authorities, independent researchers, civil society and media organisations) to verify whether content has been generated or manipulated by their AI system … Signatories will make the detection solution available free of charge.
+  _Supports:_ Free detection solution for users, authorities, researchers, media
+- **S-0041** Regulation (EU) 2026/1744 (Digital Omnibus on AI), Official Journal L series — <https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202601744>
+  primary · retrieved 2026-10-10 · access: ok via curl (research subagent, 2026-10-10 ~16:38Z) · adopted 2026-07-08, published 2026-07-24, in_force 2026-07-27
+  Art 1(39)(b), new AI Act Art 111(4):
+  > Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026.
+  _Supports:_ Legacy systems: Art 50(2) marking by 2 Dec 2026
+- **S-0003** https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai — <https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai>
+  primary · retrieved 2026-10-10 · access: ok
+  Signatories (page last updated 7 October 2026):
+  > AI Studio Delta, Aleph Alpha, Almawave, Amazon, Anthropic, … Google, IBM, … Microsoft, Mistral AI, … OpenAI, … WRITER. In addition, xAI signed up to the Safety and Security Chapter; this means that it will have to demonstrate compliance with the AI Act's obligations concerning transparency and copyright via alternative adequate means.
+  _Supports:_ Meta not on the GPAI Code signatory list
+
+**Uncertainty:** Signatories can join or leave; the Commission's list is updated continuously (95 Section 1 and 192 Section 2 signatories as of the 31 Jul 2026 page). xAI does not appear. pow 2 versus pow 1 follows the gpai-cop precedent; the rubric's open question on voluntary government codes applies equally. Google is listed as 'Google', and the map's DeepMind framework entry (fsf) is not connected, since the Google signatory may be the company rather than DeepMind.
+
+**May need reconsideration if accepted**
+
+- `edge:coe-ai|eu-aia`: CoE Convention is the international treaty layer above EU AI Act
+- `edge:eu-aia|eu-aio`: EU AI Office is the regulator implementing EU AI Act
+- `edge:gpai-cop|eu-aia`: GPAI Code is the voluntary route to EU AI Act compliance
+- `edge:uk-ico|eu-aia`: UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards
+- `gap:eval`: Evaluations everywhere, mandates almost nowhere — Most mechanisms touch evaluations in some way, but mandatory third-party evaluation of frontier models is rare. The EU AI Act req…
+- `gap:elicit`: Capability elicitation sits with evaluators, not regulators — Almost no statute requires it; only the EU AI Act and the GPAI Code do, indirectly through adversarial-testing langua…
+- `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
+- `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
+- `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
+- `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice. California SB 53 requires labs to keep their published frameworks current. NIST AI RMF,…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
+- `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
+- `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
+- `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
+- `edge:aisi-net|eu-aio`: EU AI Office's Safety Unit is part of the network
+- `edge:gpai-cop|eu-aio`: EU AI Office runs and oversees the CoP
+- `gap:halt`: Few mechanisms can compel a frontier developer to halt — Conditions for halting are the rarest column in the matrix. The EU AI Office can order recall (Aug 2026 onwards). The GPAI…
+- `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
+- Entry text that mentions the affected entries: `entry:kr-ai:cov:thresh`, `entry:kr-ai:cov:eval`, `entry:ca-sb53:desc`, `entry:co-aia:desc`, `entry:co-aia:context`, `entry:co-aia:cov:acct`, `entry:gpai-cop:desc`, `entry:gpai-cop:context`, `entry:gpai-cop:cov:thresh`, `entry:gpai-cop:cov:eval`, `entry:gpai-cop:cov:sec`, `entry:gpai-cop:cov:acct`, `entry:meta-faif:context`, `entry:meta-faif:cov:acct`, `entry:xai-rmf:desc`, `entry:eu-aio:context`, `entry:averi:context`, `entry:averi:cov:eval`, `entry:aisi-net:desc`, `entry:eu-aia:cov:timing`, `entry:eu-aia:cov:acct`, `entry:gpai-cop:cov:update`, `entry:us-ftc:context`
 
 
 ## 2. Attempted checks that did not verify
@@ -1769,9 +1788,9 @@ _None._
 
 ## Appendix C — not checked in this run
 
-Entries (43): `aisr`, `aisi-net`, `ai-summits`, `oecd`, `coe-ai`, `unesco`, `us-eo14179`, `us-action`, `us-preempt`, `cn-genai`, `uk-bill`, `kr-ai`, `jp-ai`, `ca-sb53`, `co-aia`, `tx-raiga`, `seoul-commit`, `hiroshima`, `fmf`, `delhi-commit`, `pai`, `prep`, `fsf`, `meta-faif`, `xai-rmf`, `eu-aio`, `uk-aisi`, `caisi`, `other-aisis`, `metr`, `apollo`, `averi`, `cais`, `fsi`, `uk-ofcom`, `uk-ico`, `us-ftc`, `au-esafety`, `co-doi`, `imda`, `jp-sectors`, `bis`, `nist-rmf`
+Entries (44): `aisr`, `aisi-net`, `ai-summits`, `oecd`, `coe-ai`, `unesco`, `us-eo14179`, `us-action`, `us-preempt`, `cn-genai`, `uk-bill`, `kr-ai`, `jp-ai`, `ca-sb53`, `co-aia`, `tx-raiga`, `seoul-commit`, `hiroshima`, `eu-genai-code`, `fmf`, `delhi-commit`, `pai`, `prep`, `fsf`, `meta-faif`, `xai-rmf`, `eu-aio`, `uk-aisi`, `caisi`, `other-aisis`, `metr`, `apollo`, `averi`, `cais`, `fsi`, `uk-ofcom`, `uk-ico`, `us-ftc`, `au-esafety`, `co-doi`, `imda`, `jp-sectors`, `bis`, `nist-rmf`
 
-Other inventory items not checked (114): connections, gap summaries, FAQ answers, page text and category definitions not listed above.
+Other inventory items not checked (116): connections, gap summaries, FAQ answers, page text and category definitions not listed above.
 
 ## Appendix D — sources used
 
