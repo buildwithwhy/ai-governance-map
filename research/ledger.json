@@ -1,5 +1,5 @@
 {
-  "next": 75,
+  "next": 87,
   "proposals": [
     {
       "id": "P-0001",
@@ -9632,6 +9632,1301 @@
             "text:layer-4:tooltip"
           ],
           "hash": "ac4586604a08"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0075",
+      "fingerprint": "d2614c238920",
+      "targets": [
+        "entry:bis:desc",
+        "entry:bis:context",
+        "entry:bis:cov:thresh"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:33:49Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "BIS: record the unenforced AI Diffusion Rule and the 2026 H200 licensing change; fix the misdated compute-tier claim",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "bis",
+              "field": "desc",
+              "from": "Bureau of Industry and Security chip export rules (2022, 2023, 2024). Most consequential single piece — shapes who can train at the frontier.",
+              "to": "Bureau of Industry and Security chip export rules (2022, 2023, 2024). The Jan 2025 AI Diffusion Rule (country tiers, model-weight controls) has not been enforced since May 2025; a Jan 2026 rule moved licences for H200-class chips to China to case-by-case review. Most consequential single piece — shapes who can train at the frontier."
+            },
+            {
+              "op": "set_field",
+              "entity": "bis",
+              "field": "context",
+              "from": "Successive rules tightened export-licence requirements for advanced compute (GPUs, fabrication tools, lithography) to China and other concerns; the 2024 update added compute-tier thresholds tied to model-training scale. May 31, 2026 guidance closed a key loophole by confirming the ultimate-parent-company test applies — any subsidiary worldwide whose ultimate parent is in the restricted countries list needs a US license. Operates outside the safety-regulation framing — its lever is who can build frontier models at all, not what they must do once built. The single most consequential piece of US AI policy by impact, even though it isn't framed as 'AI regulation.'",
+              "to": "Successive rules tightened export-licence requirements for advanced compute (GPUs, fabrication tools, lithography) to China and other concerns; the Dec 2024 update added controls on high-bandwidth memory and chipmaking equipment. The Jan 2025 AI Diffusion Rule added country tiers and a licence requirement for closed model weights trained on more than 10²⁶ operations, but BIS stopped enforcing it in May 2025 and said it would rescind and replace it. May 31, 2026 guidance closed a key loophole by confirming the ultimate-parent-company test applies — any subsidiary worldwide whose ultimate parent is in the restricted countries list needs a US license. Operates outside the safety-regulation framing — its lever is who can build frontier models at all, not what they must do once built. The single most consequential piece of US AI policy by impact, even though it isn't framed as 'AI regulation.'"
+            },
+            {
+              "op": "set_cov",
+              "entity": "bis",
+              "cat": "thresh",
+              "from": "Compute thresholds tied to model-training scale govern export-licence requirements for advanced GPUs, fabrication tools, and lithography. The 2024 update introduced an explicit framework tying export controls to AI capability.",
+              "to": "Chip-performance thresholds (total processing performance) govern export-licence requirements for advanced GPUs; separate controls cover fabrication tools and lithography. The Jan 2025 AI Diffusion Rule's model-weight threshold (more than 10²⁶ training operations) is not being enforced."
+            }
+          ],
+          "why": "The entry says the 2024 rule tied export controls to model-training scale and is silent on the 2025 rescission and the 2026 loosening for China, so a reader gets the wrong picture of what US controls currently do to frontier training and model weights.",
+          "rationale": "The Dec 2024 rule (89 FR 96790) added HBM, SME and FDP controls, not compute tiers. The tiered framework and the >10^26-operation model-weight control came in the Jan 2025 AI Diffusion IFR (90 FR 4544). BIS announced on 13 May 2025 that it would not enforce that rule and would formalise rescission and issue a replacement; the July 2026 UAE rule confirms BIS still enforces the worldwide licence requirement only for D:1/D:4/D:5 destinations and D:5/Macau-headquartered entities, consistent with the May 2025 and May 2026 guidance. The Jan 2026 final rule moved H200-class (TPP < 21,000) exports to China/Macau from presumption of denial to case-by-case review. Chip controls are keyed to TPP, not model-training scale.",
+          "evidence": [
+            {
+              "source": "S-0233",
+              "passage": "S-0233#1",
+              "stance": "supports",
+              "supports": "Dec 2024 rule covered chipmaking equipment"
+            },
+            {
+              "source": "S-0233",
+              "passage": "S-0233#2",
+              "stance": "supports",
+              "supports": "Dec 2024 rule covered high-bandwidth memory"
+            },
+            {
+              "source": "S-0231",
+              "passage": "S-0231#1",
+              "stance": "supports",
+              "supports": "AI Diffusion Rule added a model-weights control"
+            },
+            {
+              "source": "S-0232",
+              "passage": "S-0232#1",
+              "stance": "supports",
+              "supports": "model-weight licence threshold >10^26 operations"
+            },
+            {
+              "source": "S-0229",
+              "passage": "S-0229#3",
+              "stance": "supports",
+              "supports": "Diffusion Rule created country tiers"
+            },
+            {
+              "source": "S-0229",
+              "passage": "S-0229#2",
+              "stance": "supports",
+              "supports": "BIS instructed not to enforce the Diffusion Rule"
+            },
+            {
+              "source": "S-0229",
+              "passage": "S-0229#1",
+              "stance": "supports",
+              "supports": "rescission and replacement planned"
+            },
+            {
+              "source": "S-0235",
+              "passage": "S-0235#1",
+              "stance": "supports",
+              "supports": "worldwide licence requirement still in the EAR text (July 2026)"
+            },
+            {
+              "source": "S-0235",
+              "passage": "S-0235#2",
+              "stance": "supports",
+              "supports": "enforced only for D:1/D:4/D:5 destinations and D:5/Macau-headquartered entities"
+            },
+            {
+              "source": "S-0234",
+              "passage": "S-0234#1",
+              "stance": "supports",
+              "supports": "H200-class licences for China moved to case-by-case"
+            },
+            {
+              "source": "S-0234",
+              "passage": "S-0234#2",
+              "stance": "supports",
+              "supports": "thresholds expressed as TPP"
+            },
+            {
+              "source": "S-0234",
+              "passage": "S-0234#3",
+              "stance": "supports",
+              "supports": "effective 15 Jan 2026"
+            },
+            {
+              "source": "S-0230",
+              "passage": "S-0230#3",
+              "stance": "supports",
+              "supports": "May 2025 non-enforcement announcement"
+            }
+          ],
+          "uncertainty": "No Federal Register rule formally rescinding the AI Diffusion Rule was found as of 10 Oct 2026 (FR API search); if one is published, \"has not been enforced\" should become \"rescinded\". The \"fabrication tools and lithography\" wording is carried over.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:bis:context": "May 31, 2026 guidance sentence checked against bis-guid-2026 and fr-uae; accurate",
+            "entry:bis:cov:sec": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "\"Most consequential single piece — shapes who can train at the frontier\"",
+            "\"separate controls cover fabrication tools and lithography\" (from the existing note)",
+            "rest of the context, including the closing analytic sentences"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "gap:sec",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "cd4946bd9666"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0076",
+      "fingerprint": "e365d586c983",
+      "targets": [
+        "entry:nist-rmf:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:33:49Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "NIST AI RMF: note the ongoing revision and the 2026 Critical Infrastructure Profile",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "nist-rmf",
+              "field": "desc",
+              "from": "NIST AI Risk Management Framework (2023, GenAI Profile 2024). De facto global reference.",
+              "to": "NIST AI Risk Management Framework (2023, GenAI Profile 2024); being revised under the White House AI Action Plan, with a Critical Infrastructure Profile in development (concept note Apr 2026). De facto global reference."
+            }
+          ],
+          "why": "Readers relying on the RMF should know that version 1.0 is under revision and that new profiles are being developed.",
+          "rationale": "NIST's AI RMF page states that AI RMF 1.0 is being revised as part of the White House AI Action Plan and that NIST released a concept note for an AI RMF Profile on Trustworthy AI in Critical Infrastructure on 7 April 2026. Release dates for 1.0 (26 Jan 2023) and the GenAI Profile (26 Jul 2024) confirmed.",
+          "evidence": [
+            {
+              "source": "S-0182",
+              "passage": "S-0182#2",
+              "stance": "supports",
+              "supports": "RMF 1.0 being revised under the AI Action Plan"
+            },
+            {
+              "source": "S-0182",
+              "passage": "S-0182#3",
+              "stance": "supports",
+              "supports": "Apr 2026 critical infrastructure profile concept note"
+            },
+            {
+              "source": "S-0182",
+              "passage": "S-0182#4",
+              "stance": "supports",
+              "supports": "GenAI Profile July 2024"
+            },
+            {
+              "source": "S-0182",
+              "passage": "S-0182#5",
+              "stance": "supports",
+              "supports": "RMF released Jan 2023"
+            }
+          ],
+          "uncertainty": "No revised RMF text or draft has been published yet; the profile is at concept-note stage.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:nist-rmf:cov:update": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "\"De facto global reference.\""
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:caisi|nist-rmf",
+            "gap:update"
+          ],
+          "hash": "05220ce3c02f"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0077",
+      "fingerprint": "084d1123a137",
+      "targets": [
+        "entry:us-ftc:context",
+        "edge:us-ftc|us-preempt"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:33:49Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "US FTC: Rytr order set aside; FTC now aligned with, not in tension with, the preemption EO",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "us-ftc",
+              "field": "context",
+              "from": "Active enforcement against deceptive AI claims and harmful AI deployments under existing consumer-protection authority. Operation AI Comply (Sept 2024) brought five cases against AI hype, fake reviews, and unsubstantiated claims; the Rite Aid biometric AI case (2024) banned facial recognition use for five years. Less direct frontier-developer relevance than the EU AI Office, but shapes deployment practice through enforcement signals. Operates in some tension with the DOJ Litigation Task Force — DOJ challenges state AI rules while FTC enforces federal consumer law against AI.",
+              "to": "Active enforcement against deceptive AI claims and harmful AI deployments under existing consumer-protection authority. Operation AI Comply (Sept 2024) brought five cases against AI hype, fake reviews, and unsubstantiated claims (the current Commission set aside the Rytr order in Dec 2025 as an unnecessary burden on AI innovation); the Rite Aid biometric AI case (2024) banned facial recognition use for five years. Less direct frontier-developer relevance than the EU AI Office, but shapes deployment practice through enforcement signals. Now enlisted in the federal preemption push: EO 14365 directed it to explain when Section 5 preempts state laws requiring altered AI outputs, and its July 2026 proposed policy statement says such laws are impliedly preempted where they require deception."
+            },
+            {
+              "op": "set_edge",
+              "a": "us-ftc",
+              "b": "us-preempt",
+              "from": "FTC's AI enforcement operates in tension with DOJ Task Force's preemption challenges",
+              "to": "EO 14365 directs the FTC to explain when Section 5 preempts state AI-output laws; FTC proposed that policy statement in Jul 2026"
+            }
+          ],
+          "why": "The entry and connection present the FTC as a counterweight to DOJ's preemption campaign, but the preemption EO itself tasks the FTC with a preemption policy statement, which the FTC has now proposed; and one of the five Operation AI Comply orders has been withdrawn.",
+          "rationale": "EO 14365 Sec. 7 orders the FTC Chairman to issue a policy statement explaining when state laws requiring alterations to truthful AI outputs are preempted by the FTC Act. The FTC published that proposed statement on 7 Jul 2026 (comments to 31 Jul 2026); it cites EO 14365 as its mandate and states that state law is impliedly preempted where it conflicts with Section 5. The same document records that the Commission set aside the Rytr order on 22 Dec 2025 to address \"unnecessary burdens\".",
+          "evidence": [
+            {
+              "source": "S-0239",
+              "passage": "S-0239#1",
+              "stance": "supports",
+              "supports": "EO directs FTC policy statement"
+            },
+            {
+              "source": "S-0239",
+              "passage": "S-0239#2",
+              "stance": "supports",
+              "supports": "statement must explain when state laws are preempted"
+            },
+            {
+              "source": "S-0238",
+              "passage": "S-0238#1",
+              "stance": "supports",
+              "supports": "FTC proposed the policy statement"
+            },
+            {
+              "source": "S-0238",
+              "passage": "S-0238#2",
+              "stance": "supports",
+              "supports": "statement issued under the EO's direction"
+            },
+            {
+              "source": "S-0238",
+              "passage": "S-0238#3",
+              "stance": "supports",
+              "supports": "state law impliedly preempted where it conflicts"
+            },
+            {
+              "source": "S-0238",
+              "passage": "S-0238#5",
+              "stance": "supports",
+              "supports": "proposal stage, comment deadline July 2026"
+            },
+            {
+              "source": "S-0238",
+              "passage": "S-0238#4",
+              "stance": "supports",
+              "supports": "Rytr order set aside 22 Dec 2025 as an unnecessary burden"
+            }
+          ],
+          "uncertainty": "The policy statement is still a proposal; no final version was found in the Federal Register as of 10 Oct 2026. The Rite Aid sentence is carried over unverified (ftc.gov refuses automated clients).",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:us-ftc:desc": "checked, still accurate",
+            "edge:us-ftc|us-action": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "Operation AI Comply \"five cases\" (Sept 2024)",
+            "Rite Aid biometric AI case (2024) and five-year ban",
+            "\"Less direct frontier-developer relevance than the EU AI Office...\" (analytic)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:us-ftc|us-action",
+            "text:layer-4:tooltip",
+            "entry:us-frontier-access-eo:context",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:mit",
+            "entry:ny-raise:context",
+            "edge:us-eo14179|us-preempt",
+            "edge:us-action|us-preempt",
+            "edge:us-preempt|ca-sb53",
+            "edge:us-preempt|co-aia",
+            "edge:us-preempt|ny-raise",
+            "gap:acct",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-3:tooltip",
+            "text:footer-sources"
+          ],
+          "hash": "fcbb7ff547d9"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0078",
+      "fingerprint": "a931c455e370",
+      "targets": [
+        "entry:uk-ofcom:context",
+        "entry:uk-ofcom:cov:mit"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:33:49Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "UK Ofcom: illegal-content duties are not limited to Category 1; codes have no AI-specific provisions; 2026 power to extend the Act to AI services",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "uk-ofcom",
+              "field": "context",
+              "from": "Originally telecoms and broadcasting regulator; the Online Safety Act 2023 added enforcement authority over AI-generated harmful content (deepfakes, non-consensual intimate imagery, CSAM, fraud) on Category 1 services. The Illegal Content Codes of Practice (2025) include AI-specific provisions for image-generation safeguards and content authentication. Shapes how labs ship image/video generators into the UK market, even though it doesn't target frontier developers directly.",
+              "to": "Originally telecoms and broadcasting regulator; the Online Safety Act 2023 added enforcement authority over illegal content, including AI-generated harmful content (deepfakes, non-consensual intimate imagery, CSAM, fraud), on regulated user-to-user and search services, with extra duties for Category 1 services. The Illegal Content Codes of Practice (in force Mar 2025) recommend measures such as CSAM hash matching but contain no AI-specific provisions. The Crime and Policing Act 2026 lets the Secretary of State extend the Act's illegal-content duties and Ofcom's enforcement powers to AI services, such as chatbots, by regulations. Shapes how labs ship image/video generators into the UK market, even though it doesn't target frontier developers directly."
+            },
+            {
+              "op": "set_cov",
+              "entity": "uk-ofcom",
+              "cat": "mit",
+              "from": "Codes of Practice require content authentication, age verification, and safeguards on AI-generated harmful content for in-scope services.",
+              "to": "Codes of Practice recommend (rather than mandate) measures such as CSAM hash matching and swift takedown, plus age assurance under the children's codes; an NCII hash-matching measure was added in 2026. Following them counts as compliance. No AI-specific measures such as content authentication."
+            }
+          ],
+          "why": "The entry overstates the AI-specificity of Ofcom's codes and misstates who the illegal-content duties bind, while missing the 2026 statutory power that would bring generative-AI services directly under Ofcom.",
+          "rationale": "OSA s.7(2) applies the illegal-content duties to all regulated user-to-user services (Category 1 adds further duties, s.7(5)); the EM confirms the duties cover search services too (s.27). A full-text search of the user-to-user Illegal content Codes found no AI, generative, deepfake, provenance, authentication or watermark measure; the codes recommend CSAM hash matching (ICU C9) and swift takedown (ICU C2.3), and the EM states their measures are not mandatory but compliance is presumed when followed. The 2026 amendment adds NCII hash matching. Crime and Policing Act 2026 s.248 (in force at Royal Assent) inserts OSA s.216A, letting the Secretary of State extend illegal-content duties and Ofcom's enforcement and penalty powers to \"AI services\"; the government presented this as closing the AI-chatbot loophole.",
+          "evidence": [
+            {
+              "source": "S-0241",
+              "passage": "S-0241#1",
+              "stance": "supports",
+              "supports": "illegal-content duties apply to all regulated U2U services"
+            },
+            {
+              "source": "S-0241",
+              "passage": "S-0241#2",
+              "stance": "supports",
+              "supports": "Category 1 adds further duties"
+            },
+            {
+              "source": "S-0244",
+              "passage": "S-0244#3",
+              "stance": "supports",
+              "supports": "duties cover search services (s.27)"
+            },
+            {
+              "source": "S-0243",
+              "passage": "S-0243#3",
+              "stance": "supports",
+              "supports": "no AI-specific provisions in the codes"
+            },
+            {
+              "source": "S-0243",
+              "passage": "S-0243#1",
+              "stance": "supports",
+              "supports": "CSAM hash matching measure"
+            },
+            {
+              "source": "S-0243",
+              "passage": "S-0243#2",
+              "stance": "supports",
+              "supports": "swift takedown measure"
+            },
+            {
+              "source": "S-0244",
+              "passage": "S-0244#2",
+              "stance": "supports",
+              "supports": "measures not mandatory; compliance presumed if followed"
+            },
+            {
+              "source": "S-0244",
+              "passage": "S-0244#1",
+              "stance": "supports",
+              "supports": "NCII hash matching amendment"
+            },
+            {
+              "source": "S-0244",
+              "passage": "S-0244#4",
+              "stance": "supports",
+              "supports": "codes in force March 2025"
+            },
+            {
+              "source": "S-0245",
+              "passage": "S-0245#1",
+              "stance": "supports",
+              "supports": "power to extend the Act to AI-generated content and AI services"
+            },
+            {
+              "source": "S-0245",
+              "passage": "S-0245#2",
+              "stance": "supports",
+              "supports": "definition of AI service"
+            },
+            {
+              "source": "S-0245",
+              "passage": "S-0245#3",
+              "stance": "supports",
+              "supports": "Ofcom enforcement and penalty powers extendable"
+            },
+            {
+              "source": "S-0245",
+              "passage": "S-0245#4",
+              "stance": "supports",
+              "supports": "in force at Royal Assent"
+            },
+            {
+              "source": "S-0246",
+              "passage": "S-0246#1",
+              "stance": "supports",
+              "supports": "government aim: bring AI chatbots under illegal-content duties"
+            }
+          ],
+          "uncertainty": "No regulations under the new s.216A had been made as of 10 Oct 2026 (legislation.gov.uk title search). The NCII amendment's exact in-force date was not confirmed (Ofcom's site refuses automated clients); age assurance under the children's codes is carried over unverified.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:uk-ofcom:desc": "checked: penalty cap accurate; \"AI-specific enforcement authority\" now has a statutory basis in OSA s.216A",
+            "edge:uk-ofcom|au-esafety": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "\"Originally telecoms and broadcasting regulator\"",
+            "the list of harms (deepfakes, NCII, CSAM, fraud)",
+            "age assurance under the children's codes",
+            "closing analytic sentence"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:uk-ofcom|uk-aisi",
+            "edge:uk-ofcom|uk-bill",
+            "edge:uk-ofcom|au-esafety",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "543cf0f9fd2f"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0079",
+      "fingerprint": "f7b31933dc14",
+      "targets": [
+        "entry:uk-ico:desc",
+        "entry:uk-ico:context",
+        "entry:uk-ico:cov:mit"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:33:49Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "UK ICO: replaced by the Information Commission (30 Sep 2026); AI guidance is non-statutory, not binding",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "uk-ico",
+              "field": "desc",
+              "from": "Information Commissioner's Office — data protection regulator with binding AI guidance under UK GDPR. Fines up to £17.5M or 4% of global revenue.",
+              "to": "Information Commission (took over from the Information Commissioner on 30 Sep 2026; still branded ICO) — data protection regulator applying UK GDPR to AI, with non-statutory AI guidance. Fines up to £17.5M or 4% of global turnover."
+            },
+            {
+              "op": "set_field",
+              "entity": "uk-ico",
+              "field": "context",
+              "from": "Regulates how organisations train on, deploy, and explain AI under UK GDPR. The AI Auditing Framework (2020, updated 2023) and the Guidance on AI and Data Protection set binding expectations for lawful basis, fairness, transparency, and Data Protection Impact Assessments for AI systems. Has investigated Clearview AI, Snap My AI, and others — operates as the UK's de facto frontier-AI privacy regulator alongside any future AISI statutory mandate.",
+              "to": "Regulates how organisations train on, deploy, and explain AI under UK GDPR. Its Guidance on AI and Data Protection (2020, updated 2023), part of its AI auditing framework, sets out how it interprets the law on lawful basis, fairness, transparency, and Data Protection Impact Assessments for AI systems; it is not a statutory code and is under review after the Data (Use and Access) Act 2025. Has investigated Clearview AI, Snap My AI, and others — operates as the UK's de facto frontier-AI privacy regulator alongside any future AISI statutory mandate."
+            },
+            {
+              "op": "set_cov",
+              "entity": "uk-ico",
+              "cat": "mit",
+              "from": "Binding guidance on fairness, transparency, lawful basis, and explainability for AI deployments touching personal data.",
+              "to": "Non-statutory guidance on fairness, transparency, lawful basis, and explainability for AI deployments touching personal data; the underlying UK GDPR duties are binding."
+            }
+          ],
+          "why": "The entry calls the ICO's AI guidance binding, which the ICO itself denies, and names an office that was abolished on 30 Sep 2026.",
+          "rationale": "The ICO's guidance says it \"is not a statutory code\" and that there is \"no penalty if you fail to adopt good practice recommendations\" provided the law is otherwise complied with; it is under review after the DUAA. The guidance is one of three outputs of the AI auditing framework, not a separate instrument. DUAA 2025 s.118 abolished the office of Information Commissioner and s.119 transferred its functions to the Information Commission, both in force 30 Sep 2026 (SI 2026/1015). The website still uses the ICO name. Penalty cap confirmed in DPA 2018 s.157(5).",
+          "evidence": [
+            {
+              "source": "S-0248",
+              "passage": "S-0248#2",
+              "stance": "supports",
+              "supports": "guidance is not a statutory code"
+            },
+            {
+              "source": "S-0248",
+              "passage": "S-0248#3",
+              "stance": "supports",
+              "supports": "no penalty for not adopting recommendations"
+            },
+            {
+              "source": "S-0248",
+              "passage": "S-0248#1",
+              "stance": "supports",
+              "supports": "under review after DUAA"
+            },
+            {
+              "source": "S-0248",
+              "passage": "S-0248#4",
+              "stance": "supports",
+              "supports": "guidance is an output of the AI auditing framework"
+            },
+            {
+              "source": "S-0251",
+              "passage": "S-0251#1",
+              "stance": "supports",
+              "supports": "office of Information Commissioner abolished"
+            },
+            {
+              "source": "S-0251",
+              "passage": "S-0251#2",
+              "stance": "supports",
+              "supports": "in force 30 Sep 2026"
+            },
+            {
+              "source": "S-0252",
+              "passage": "S-0252#1",
+              "stance": "supports",
+              "supports": "functions transferred to the Information Commission"
+            },
+            {
+              "source": "S-0252",
+              "passage": "S-0252#2",
+              "stance": "supports",
+              "supports": "in force 30 Sep 2026"
+            },
+            {
+              "source": "S-0249",
+              "passage": "S-0249#1",
+              "stance": "supports",
+              "supports": "still branded ICO"
+            },
+            {
+              "source": "S-0250",
+              "passage": "S-0250#1",
+              "stance": "supports",
+              "supports": "fine cap £17.5M or 4% of worldwide turnover"
+            }
+          ],
+          "uncertainty": "Whether to rename the entry (e.g. \"UK Information Commission (ICO)\") is left to the maintainer; the brand is still ICO. The 2020/2023 guidance dates and the Clearview reference are carried over.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:uk-ico:cov:acct": "checked, still accurate (fines; Snap My AI investigation)",
+            "entry:uk-ico": "name \"UK ICO\" still matches the brand; maintainer may prefer a rename"
+          },
+          "unverified_carryover": [
+            "\"(2020, updated 2023)\"",
+            "Clearview AI investigation",
+            "\"operates as the UK's de facto frontier-AI privacy regulator...\" (analytic)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:uk-ico|uk-aisi",
+            "edge:uk-ico|uk-bill",
+            "edge:uk-ico|eu-aia",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "b47850e348ec"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0080",
+      "fingerprint": "d11f1c8c165f",
+      "targets": [
+        "entry:au-esafety:context",
+        "entry:au-esafety:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:33:49Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Australia eSafety: update the penalty figure (30,000 penalty units for codes/standards)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "au-esafety",
+              "field": "context",
+              "from": "Issues binding industry Codes and Standards (including for AI-generated content) under the Online Safety Act 2021. The 2024 Industry Standards mandate proactive safeguards against AI-generated CSAM and pro-terror material from Designated Internet Services. Takedown powers, civil penalties up to AUD 782,500 per contravention, and business-disruption orders. The leading non-EU model for AI-content regulation with binding effect; influences regulatory templates in the Five Eyes and broader Asia-Pacific.",
+              "to": "Issues binding industry Codes and Standards (including for AI-generated content) under the Online Safety Act 2021. The 2024 Industry Standards mandate proactive safeguards against AI-generated CSAM and pro-terror material from Designated Internet Services. Takedown powers, civil penalties of up to 30,000 penalty units for breaching an industry standard or a direction to comply with a code (500 for most notice breaches), and business-disruption orders. The leading non-EU model for AI-content regulation with binding effect; influences regulatory templates in the Five Eyes and broader Asia-Pacific."
+            },
+            {
+              "op": "set_cov",
+              "entity": "au-esafety",
+              "cat": "acct",
+              "from": "Civil penalties up to AUD 782,500 per contravention; takedown notices; service-disruption orders.",
+              "to": "Civil penalties of up to 30,000 penalty units for breaching an industry standard or a code direction (500 for most notice breaches); takedown notices; service-disruption orders."
+            }
+          ],
+          "why": "AUD 782,500 reflects the old 500-penalty-unit cap; breaches of the industry standards that carry the AI-specific obligations now attract up to 30,000 penalty units.",
+          "rationale": "The current compilation of the Online Safety Act 2021 (No. 4, 12 Sep 2026) sets 30,000 penalty units for contravening a registered industry standard (s.146) and for failing to comply with a direction to comply with an industry code (s.143(2)); removal-notice and similar notice breaches remain at 500 penalty units (e.g. s.67).",
+          "evidence": [
+            {
+              "source": "S-0254",
+              "passage": "S-0254#1",
+              "stance": "supports",
+              "supports": "30,000 penalty units for breaching an industry standard"
+            },
+            {
+              "source": "S-0254",
+              "passage": "S-0254#2",
+              "stance": "supports",
+              "supports": "30,000 penalty units for breaching a code direction"
+            },
+            {
+              "source": "S-0254",
+              "passage": "S-0254#3",
+              "stance": "supports",
+              "supports": "removal notice compliance duty (500 penalty units)"
+            },
+            {
+              "source": "S-0254",
+              "passage": "S-0254#4",
+              "stance": "supports",
+              "supports": "current compilation date"
+            }
+          ],
+          "uncertainty": "The dollar value depends on the Commonwealth penalty unit and on corporate multipliers under the Regulatory Powers Act, so the proposal states penalty units rather than dollars. \"Business-disruption orders\" is carried over unverified.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:au-esafety:cov:mit": "checked, still accurate",
+            "entry:au-esafety:cov:timing": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "business-disruption / service-disruption orders",
+            "\"The leading non-EU model...\" (analytic)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:uk-ofcom|au-esafety",
+            "edge:au-esafety|other-aisis",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "611d6be567ae"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0081",
+      "fingerprint": "5cd558aaa31a",
+      "targets": [
+        "entry:imda"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:33:49Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Singapore IMDA: replace the dead AI-governance link",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "imda",
+              "field": "link",
+              "from": "https://www.imda.gov.sg/how-we-can-help/ai-governance",
+              "to": "https://www.imda.gov.sg/about-imda/emerging-technologies-and-research/artificial-intelligence"
+            }
+          ],
+          "why": "The current link now redirects to a generic IMDA programme listing with no AI governance content.",
+          "rationale": "Headless Chromium followed the map link to IMDA's generic \"How We Can Help\" listing. IMDA's \"Artificial Intelligence in Singapore\" page carries the Model AI Governance Frameworks, AI Verify and the AI Verify Foundation.",
+          "evidence": [
+            {
+              "source": "S-0261",
+              "passage": "S-0261#1",
+              "stance": "supports",
+              "supports": "old link redirects to a generic listing"
+            },
+            {
+              "source": "S-0261",
+              "passage": "S-0261#2",
+              "stance": "supports",
+              "supports": "redirect target is a grants/programme listing"
+            },
+            {
+              "source": "S-0260",
+              "passage": "S-0260#4",
+              "stance": "supports",
+              "supports": "new page covers AI Verify"
+            },
+            {
+              "source": "S-0260",
+              "passage": "S-0260#3",
+              "stance": "supports",
+              "supports": "new page covers the Model AI Governance Framework"
+            }
+          ],
+          "uncertainty": "None material.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:imda|other-aisis",
+            "edge:imda|hiroshima",
+            "edge:imda|jp-sectors",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "b7e17942c574"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0082",
+      "fingerprint": "0d380d59617b",
+      "targets": [
+        "entry:imda:context",
+        "entry:imda:cov:acct",
+        "entry:imda:cov:update"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:33:50Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Singapore IMDA: add the 2026 agentic-AI framework; correct the Veritas attribution and add MAS's 2026 AI guidelines",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "imda",
+              "field": "context",
+              "from": "Originally a telecoms and media regulator; now Singapore's primary AI governance body. Published the Model AI Governance Framework (2019, updated for GenAI in 2024) and operates AI Verify, a standardised testing toolkit adopted by major labs and adapted as a regional template. Convenes the AI Verify Foundation as a multistakeholder body. The Veritas Initiative (with MAS) provides sectoral guidance for financial-services AI. Singapore's approach emphasises voluntary frameworks plus strong testing infrastructure — a template increasingly referenced across ASEAN.",
+              "to": "Originally a telecoms and media regulator; now Singapore's primary AI governance body. Published the Model AI Governance Framework (2019, updated for GenAI in 2024) and operates AI Verify, a standardised testing toolkit adopted by major labs and adapted as a regional template. Convenes the AI Verify Foundation as a multistakeholder body. For financial services, MAS ran its own Veritas initiative (2019–2023) and issued Guidelines on AI Risk Management in Oct 2026 (effective Oct 2027). Singapore's approach emphasises voluntary frameworks plus strong testing infrastructure — a template increasingly referenced across ASEAN."
+            },
+            {
+              "op": "set_cov",
+              "entity": "imda",
+              "cat": "acct",
+              "from": "AI Verify Foundation provides multistakeholder accountability; Veritas Initiative gives sectoral oversight for finance.",
+              "to": "AI Verify Foundation provides multistakeholder accountability; for finance, MAS's Guidelines on AI Risk Management (effective Oct 2027) set supervisory expectations."
+            },
+            {
+              "op": "set_cov",
+              "entity": "imda",
+              "cat": "update",
+              "from": "Model framework revised for GenAI in 2024; AI Verify continually updated as evaluation methodology matures.",
+              "to": "Model framework extended to GenAI in 2024 and to agentic AI in Jan 2026 (updated May 2026); AI Verify continually updated as evaluation methodology matures."
+            }
+          ],
+          "why": "IMDA's main 2026 output (the agentic-AI framework) is missing, and the finance reference credits IMDA with an MAS project that ended in 2023 while omitting MAS's new guidelines.",
+          "rationale": "IMDA's AI page records the Model AI Governance Framework for Agentic AI (Jan 2026) and its May 2026 update. MAS's Veritas page describes Veritas as an MAS–industry project announced in Nov 2019 whose third phase concluded on 26 Jun 2023, with no IMDA role stated. MAS issued Guidelines on AI Risk Management on 7 Oct 2026, applying to all financial institutions from 7 Oct 2027.",
+          "evidence": [
+            {
+              "source": "S-0260",
+              "passage": "S-0260#1",
+              "stance": "supports",
+              "supports": "agentic AI framework Jan 2026"
+            },
+            {
+              "source": "S-0260",
+              "passage": "S-0260#2",
+              "stance": "supports",
+              "supports": "May 2026 update"
+            },
+            {
+              "source": "S-0262",
+              "passage": "S-0262#1",
+              "stance": "supports",
+              "supports": "Veritas concluded third phase June 2023"
+            },
+            {
+              "source": "S-0262",
+              "passage": "S-0262#2",
+              "stance": "supports",
+              "supports": "Veritas is an MAS-industry initiative from 2019"
+            },
+            {
+              "source": "S-0263",
+              "passage": "S-0263#1",
+              "stance": "supports",
+              "supports": "MAS issued AI risk management guidelines"
+            },
+            {
+              "source": "S-0263",
+              "passage": "S-0263#2",
+              "stance": "supports",
+              "supports": "effective 7 Oct 2027"
+            },
+            {
+              "source": "S-0263",
+              "passage": "S-0263#3",
+              "stance": "supports",
+              "supports": "apply to all FIs"
+            },
+            {
+              "source": "S-0260",
+              "passage": "S-0260#5",
+              "stance": "supports",
+              "supports": "AI Verify Foundation established by IMDA"
+            }
+          ],
+          "uncertainty": "MAS guidelines are supervisory expectations rather than statute; \"effective Oct 2027\" is MAS's stated date (phased to 2028 for some sections). The GenAI framework year (2024) is carried over.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:imda:desc": "checked, still accurate",
+            "entry:imda:cov:mit": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "\"(2019, updated for GenAI in 2024)\"",
+            "\"adopted by major labs and adapted as a regional template\"",
+            "\"a template increasingly referenced across ASEAN\" (analytic)"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:imda|other-aisis",
+            "edge:imda|hiroshima",
+            "edge:imda|jp-sectors",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "37dac8b48154"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0083",
+      "fingerprint": "1a9ea4e4fae2",
+      "targets": [
+        "entry:co-doi:context"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:33:50Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Colorado DOI: amended Regulation 10-1-1 also covers health benefit plan insurers (Oct 2025)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "co-doi",
+              "field": "context",
+              "from": "Predates every comprehensive US state AI law. Requires insurance carriers to implement an algorithm and predictive-model governance framework, conduct bias testing, document model assumptions, and submit attestations — applied to life insurance first, then expanded to private passenger auto. Followed by similar adoptions in other states via the NAIC Model Bulletin on AI (Dec 2023). The historical anchor that complicates 'first sectoral AI regulator' claims about later state laws like NY RAISE's DFS office.",
+              "to": "Predates every comprehensive US state AI law. Requires insurance carriers to implement an algorithm and predictive-model governance framework, conduct bias testing, document model assumptions, and submit attestations — applied to life insurers first (Nov 2023), then extended to private passenger auto and health benefit plan insurers (Oct 2025). Followed by similar adoptions in other states via the NAIC Model Bulletin on AI (Dec 2023). The historical anchor that complicates 'first sectoral AI regulator' claims about later state laws like NY RAISE's DFS office."
+            }
+          ],
+          "why": "The entry omits health insurers, now covered by the amended regulation, and gives no dates for the extension.",
+          "rationale": "The Division's SB21-169 page states that amended Regulation 10-1-1 covers life, private passenger automobile and health benefit plan insurers and took effect on 15 Oct 2025; the original regulation covered life insurers from 14 Nov 2023.",
+          "evidence": [
+            {
+              "source": "S-0258",
+              "passage": "S-0258#1",
+              "stance": "supports",
+              "supports": "amended regulation covers PPA and health; effective 15 Oct 2025"
+            },
+            {
+              "source": "S-0259",
+              "passage": "S-0259#1",
+              "stance": "supports",
+              "supports": "original regulation covered life insurers"
+            },
+            {
+              "source": "S-0259",
+              "passage": "S-0259#2",
+              "stance": "supports",
+              "supports": "effective 14 Nov 2023"
+            }
+          ],
+          "uncertainty": "Applies only if the entry is kept (see the co-doi flag). The bias-testing and NAIC sentences are carried over unverified.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:co-doi:desc": "checked: date accurate",
+            "edge:co-doi|co-aia": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "\"conduct bias testing\"",
+            "NAIC Model Bulletin sentence",
+            "\"Predates every comprehensive US state AI law\" and the closing analytic sentence"
+          ],
+          "conflict_resolution": null,
+          "knock_on": [
+            "entry:ny-raise:cov:acct",
+            "edge:co-doi|co-aia",
+            "edge:co-doi|ny-raise",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "cb6bb8cd4d7d"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0084",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:33:50Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "SCOPE §C flag: should Colorado Division of Insurance stay on the map?",
+          "kind": "flag",
+          "changes": [],
+          "why": "SCOPE §C asks the baseline audit to raise this inclusion question; RUBRIC §1 requires a material bearing on frontier/GPAI governance, which here is only indirect.",
+          "rationale": "Verified facts: Regulation 10-1-1 (effective 14 Nov 2023) sets governance and risk-management requirements for life insurers using external consumer data, algorithms and predictive models; the amended version (effective 15 Oct 2025) adds private passenger auto and health benefit plan insurers. Its obligations fall on insurers as deployers; nothing in the Division's materials addresses general-purpose model developers. Quantitative bias-testing rules were still at draft stage on the Division's page. Its main role on the map is as a historical anchor cited by ny-raise's acct note.",
+          "evidence": [
+            {
+              "source": "S-0259",
+              "passage": "S-0259#1",
+              "stance": "supports",
+              "supports": "scope: life insurers using ECDIS, algorithms and models"
+            },
+            {
+              "source": "S-0258",
+              "passage": "S-0258#1",
+              "stance": "supports",
+              "supports": "scope extended to auto and health insurers"
+            },
+            {
+              "source": "S-0258",
+              "passage": "S-0258#4",
+              "stance": "supports",
+              "supports": "quantitative testing regulation only a draft"
+            },
+            {
+              "source": "S-0258",
+              "passage": "S-0258#3",
+              "stance": "supports",
+              "supports": "obligations fall on insurers (attestations)"
+            }
+          ],
+          "uncertainty": "Inclusion is a maintainer decision; the facts above do not settle it.",
+          "confidence": "medium",
+          "question": "co-doi is an insurance-sector rule set with no GPAI-specific obligations. Keep it as a contextual sector regulator (as now), reword it to make its contextual role explicit (e.g. \"illustrates sectoral algorithm governance that predates frontier-AI laws; does not regulate model developers\"), or remove it (and its edges to co-aia and ny-raise)?",
+          "knock_on_notes": {
+            "edge:co-doi|ny-raise": "causal claim not verifiable",
+            "edge:co-doi|co-aia": "checked, accurate"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0085",
+      "fingerprint": "84d202e194b2",
+      "targets": [
+        "entry:jp-sectors"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:33:50Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Japan sectoral regulators: replace the dead METI link",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "jp-sectors",
+              "field": "link",
+              "from": "https://www.meti.go.jp/english/policy/mono_info_service/connected_industries/ai_governance.html",
+              "to": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html"
+            }
+          ],
+          "why": "The current link returns METI's \"page not found\" page.",
+          "rationale": "Both curl and headless Chromium received METI's not-found page for the map link. The replacement is METI's page for the AI Guidelines for Business v1.2 (31 Mar 2026), the main cross-sector guidance the entry describes, with English translations.",
+          "evidence": [
+            {
+              "source": "S-0269",
+              "passage": "S-0269#1",
+              "stance": "supports",
+              "supports": "old link: page does not exist"
+            },
+            {
+              "source": "S-0269",
+              "passage": "S-0269#2",
+              "stance": "supports",
+              "supports": "old link: page moved or deleted"
+            },
+            {
+              "source": "S-0268",
+              "passage": "S-0268#2",
+              "stance": "supports",
+              "supports": "v1.2 published 31 Mar 2026"
+            },
+            {
+              "source": "S-0267",
+              "passage": "S-0267#1",
+              "stance": "supports",
+              "supports": "v1.2 issued by MIC and METI"
+            }
+          ],
+          "uncertainty": "If the maintainer removes or reframes jp-sectors (see flag), the link choice may change.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [
+            "edge:imda|jp-sectors",
+            "edge:jp-sectors|jp-ai",
+            "edge:jp-sectors|hiroshima",
+            "edge:jp-sectors|other-aisis",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "3a501bdd3657"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0086",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-10T18:33:50Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "SCOPE §C flag: jp-sectors is an aggregate of ministries, not a specific mechanism",
+          "kind": "flag",
+          "changes": [],
+          "why": "RUBRIC §1 requires an identifiable instrument and an attributable actor; an aggregate of ministries satisfies neither cleanly. SCOPE §C asks for this to be raised.",
+          "rationale": "Verified facts: the AI Guidelines for Business are jointly issued by MIC and METI (v1.0 Apr 2024, v1.2 Mar 2026), describe themselves as soft law without legally binding force, embed the Hiroshima Process guiding principles, and sit alongside the AI Promotion Act (Act No. 53 of 2025), whose Art. 13 provides for appropriateness guidelines and whose Art. 19 sets up the AI Strategy Headquarters in the Cabinet (secretariat in the Cabinet Office, Art. 26). From the 4th meeting, the guidelines study group has a joint METI and IPA/J-AISI secretariat. The FSA and MHLW roles in the entry were not verified.",
+          "evidence": [
+            {
+              "source": "S-0267",
+              "passage": "S-0267#1",
+              "stance": "supports",
+              "supports": "specific instrument jointly issued by MIC and METI"
+            },
+            {
+              "source": "S-0267",
+              "passage": "S-0267#2",
+              "stance": "supports",
+              "supports": "soft law, no binding force"
+            },
+            {
+              "source": "S-0267",
+              "passage": "S-0267#4",
+              "stance": "supports",
+              "supports": "embeds Hiroshima principles"
+            },
+            {
+              "source": "S-0266",
+              "passage": "S-0266#1",
+              "stance": "supports",
+              "supports": "Act Art. 13 guidelines"
+            },
+            {
+              "source": "S-0266",
+              "passage": "S-0266#2",
+              "stance": "supports",
+              "supports": "AI Strategy HQ in the Cabinet"
+            },
+            {
+              "source": "S-0268",
+              "passage": "S-0268#1",
+              "stance": "supports",
+              "supports": "METI with IPA/AISI secretariat"
+            }
+          ],
+          "uncertainty": "Inclusion and framing are maintainer decisions.",
+          "confidence": "medium",
+          "question": "jp-sectors bundles METI, MIC, FSA and MHLW guidance into one entry. Keep it as an aggregate (as now), reword it around the one specific, citable instrument (MIC/METI AI Guidelines for Business, v1.2 of 31 Mar 2026, soft law issued alongside the AI Promotion Act's Art. 13 guideline), or remove it and fold the guidelines into jp-ai?",
+          "knock_on_notes": {
+            "edge:jp-sectors|jp-ai": "checked, accurate",
+            "edge:jp-sectors|hiroshima": "checked, accurate"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
         }
       ],
       "decision": {

@@ -697,6 +697,206 @@
           ]
         }
       ]
+    },
+    {
+      "area": "B3 compute and export controls (BIS) and B1 equivalents",
+      "summary": "Federal Register API review of all BIS documents since May 2025. Main changes: AI Diffusion Rule unenforced since 13 May 2025, with no formal rescission rule found; Jan 2026 case-by-case licensing for H200-class chips to China; May 2026 guidance on D:5/Macau-parented entities (already on the map); July 2026 UAE rule giving approved UAE entities licence-free access to advanced computing items; affiliates (50%) rule of Sept 2025 suspended until 9 Nov 2026; IC-designer deadline extended to 31 Dec 2026. No new model-weight control.",
+      "queries": [
+        "FR API: agency industry-and-security-bureau, publication_date >= 2025-05-01 (all documents, 3 pages)",
+        "FR API: term \"artificial intelligence diffusion\" / \"advanced computing\" / \"model weights\", BIS, since 2025-01-01",
+        "FR API: term \"AI Diffusion\", all agencies, since 2025-03-01",
+        "bis.gov homepage news list"
+      ],
+      "limits": "commerce.gov is a known refuser; BIS FAQs and the May 2026 advisory text beyond the guidance PDF were not reviewed. Equivalent controls in other B1 jurisdictions were not searched beyond noting none surfaced.",
+      "candidates": [
+        {
+          "name": "BIS non-enforcement of the AI Diffusion Rule; H200 case-by-case rule (Jan 2026)",
+          "result": "update to existing entry",
+          "reason": "Changes what the bis entry should say about compute tiers and model weights.",
+          "proposal": "P-0075",
+          "sources": [
+            "S-0229",
+            "S-0234",
+            "S-0235"
+          ]
+        },
+        {
+          "name": "Enhanced Favorable Treatment for the UAE (91 FR 43034, effective 10 Jul 2026)",
+          "result": "update to existing entry",
+          "reason": "Licence-free access to advanced computing items for the UAE government and approved entities; notable for compute diffusion but not separately proposed. Could be added to the bis context if the maintainer wants the Gulf chip-access picture.",
+          "sources": [
+            "S-0235"
+          ]
+        },
+        {
+          "name": "Expansion of End-User Controls to Affiliates of Listed Entities (Sept 2025) and its one-year suspension (to 9 Nov 2026)",
+          "result": "screened out",
+          "reason": "General Entity List mechanism, not AI-specific; suspended. Worth watching when the suspension ends on 9 Nov 2026.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "area": "B3 standards frameworks (NIST AI RMF profiles)",
+      "summary": "NIST's AI RMF page records that RMF 1.0 is being revised under the AI Action Plan and that a concept note for a Critical Infrastructure Profile was released on 7 Apr 2026. No revised RMF or new final profile found.",
+      "queries": [
+        "nist.gov AI RMF page and linked concept-note page",
+        "web search: NIST AI RMF revision 2026 draft released"
+      ],
+      "limits": "NIST Cyber AI Profile (a CSF profile) and SP 800-53 AI overlays not reviewed; CAISSI outputs left to the caisi group.",
+      "candidates": [
+        {
+          "name": "AI RMF revision and Critical Infrastructure Profile concept note (Apr 2026)",
+          "result": "update to existing entry",
+          "reason": "Desc should note the revision and the new profile.",
+          "proposal": "P-0076",
+          "sources": [
+            "S-0182"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "B3 sector and general regulators (UK, US, Australia, Singapore, Japan, Colorado)",
+      "summary": "Specific AI rules and enforcement since mid-2026 and recent changes affecting the listed regulators: UK Crime and Policing Act 2026 s.248 (power to extend OSA duties to AI services) and s.99 (offence of making or supplying intimate-image generators); NCII hash-matching amendment to Ofcom codes (2026); ICO replaced by the Information Commission (30 Sep 2026); FTC proposed AI accuracy/preemption policy statement (Jul 2026) and Rytr set-aside (Dec 2025); FTC final orders against Cox Media Group and others over AI \"Active Listening\" claims (Aug 2026, seen only via search); Colorado amended Reg 10-1-1 (Oct 2025); MAS AI Risk Management Guidelines (7 Oct 2026); IMDA agentic-AI framework (Jan/May 2026) and Transparency Guidelines for GenAI chatbots; METI/MIC AI Guidelines for Business v1.2 (Mar 2026).",
+      "queries": [
+        "GOV.UK search API: ofcom illegal content codes; AI chatbots online safety act; Crime and Policing Act 2026 artificial intelligence",
+        "legislation.gov.uk: ukpga/2026 feed; Online Safety Act 2023 SIs 2026",
+        "web search: Ofcom investigation X Grok outcome 2026",
+        "web search: ICO investigation xAI Grok 2026",
+        "FR API: FTC documents mentioning artificial intelligence since 2025-06-01; FTC matters (Rytr, DoNotPay, Rite Aid, Workado, Air AI, Cox Media)",
+        "Colorado DOI SB21-169 page, regulations and bulletins pages; web search on quantitative testing regulation",
+        "web search: MAS AI risk management guidelines 2026; IMDA agentic AI framework 2026",
+        "METI AI Guidelines for Business study-group pages"
+      ],
+      "limits": "ofcom.org.uk, ftc.gov, esafety.gov.au, industry.gov.au, content.naic.org and publications.parliament.uk refused automated clients, so Ofcom/ICO Grok investigation status, FTC 6(b) chatbot study, eSafety Phase 2 codes (AI companions) and actions could not be verified from primary sources.",
+      "candidates": [
+        {
+          "name": "Crime and Policing Act 2026 s.248 (OSA s.216A power over AI services)",
+          "result": "update to existing entry",
+          "reason": "Statutory basis for bringing generative-AI services and chatbots under Ofcom; folded into uk-ofcom.",
+          "proposal": "P-0078",
+          "sources": [
+            "S-0245",
+            "S-0246"
+          ]
+        },
+        {
+          "name": "Information Commission replaces the Information Commissioner (DUAA ss.118-119, 30 Sep 2026)",
+          "result": "update to existing entry",
+          "reason": "Institutional change to uk-ico.",
+          "proposal": "P-0079",
+          "sources": [
+            "S-0251",
+            "S-0252"
+          ]
+        },
+        {
+          "name": "FTC proposed Policy Statement on Suppression of Accuracy in AI Systems (91 FR 41638, Jul 2026)",
+          "result": "update to existing entry",
+          "reason": "FTC's main 2026 AI instrument; changes the us-ftc|us-preempt relationship. Could merit its own entry once final.",
+          "proposal": "P-0077",
+          "sources": [
+            "S-0238",
+            "S-0239"
+          ]
+        },
+        {
+          "name": "MAS Guidelines on AI Risk Management (issued 7 Oct 2026, effective 7 Oct 2027)",
+          "result": "update to existing entry",
+          "reason": "Singapore sector regulator AI rule; recorded via imda context rather than a separate entry (finance-sector, contextual).",
+          "proposal": "P-0082",
+          "sources": [
+            "S-0263"
+          ]
+        },
+        {
+          "name": "IMDA Model AI Governance Framework for Agentic AI (Jan 2026, v1.5 May 2026)",
+          "result": "update to existing entry",
+          "reason": "New IMDA framework; added to imda coverage.",
+          "proposal": "P-0082",
+          "sources": [
+            "S-0260"
+          ]
+        },
+        {
+          "name": "IMDA Transparency Guidelines for Generative AI Chatbots",
+          "result": "screened out",
+          "reason": "Voluntary deployer-transparency guidance under IMDA; covered by the imda entry. Date not shown on the page.",
+          "sources": [
+            "S-0260"
+          ]
+        },
+        {
+          "name": "Singapore Online Safety Commission / Online Safety (Relief and Accountability) Act 2025 (operational 29 Jun 2026)",
+          "result": "screened out",
+          "reason": "General online-harms regulator (intimate image abuse, doxxing etc.); no AI-specific obligations shown in the announcement. A possible Singapore analogue of uk-ofcom/au-esafety if the maintainer wants one.",
+          "sources": [
+            "S-0265"
+          ]
+        },
+        {
+          "name": "Crime and Policing Act 2026 s.99: offence of making or supplying purported intimate image generators",
+          "result": "screened out",
+          "reason": "Criminal offence aimed at \"nudify\" tools, not frontier developers; context for uk-ofcom only.",
+          "sources": []
+        },
+        {
+          "name": "Ofcom and ICO investigations into X/xAI over Grok imagery (opened Jan-Feb 2026)",
+          "result": "lead — source inaccessible",
+          "reason": "Enforcement against a frontier developer's product; only secondary reports found and Ofcom/ICO pages not retrievable. No outcome reported.",
+          "sources": []
+        },
+        {
+          "name": "eSafety Phase 2 industry codes (age-restricted material, incl. AI companion chatbots)",
+          "result": "lead — source inaccessible",
+          "reason": "Codes are published on esafety.gov.au, which resets connections.",
+          "sources": []
+        },
+        {
+          "name": "Colorado DOI Bulletin B-10.004 (reissued June 2026) on quantitative testing",
+          "result": "lead — source inaccessible",
+          "reason": "Hosted on Google Drive; secondary report only.",
+          "sources": []
+        },
+        {
+          "name": "METI/MIC AI Guidelines for Business v1.2 (31 Mar 2026)",
+          "result": "update to existing entry",
+          "reason": "Current version of the main jp-sectors instrument; used for the new link and the flag.",
+          "proposal": "P-0085",
+          "sources": [
+            "S-0267",
+            "S-0268"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "B1 national discovery: Singapore and Australia",
+      "summary": "Singapore: MAS AI Risk Management Guidelines (Oct 2026), IMDA agentic framework (2026) and the Online Safety Commission (Jun 2026) found; no new AI statute. Australia: the Australian AI Safety Institute (announced Nov 2025, reported operational by July 2026) found only via secondary sources; government sites (industry.gov.au, esafety.gov.au) were unreachable.",
+      "queries": [
+        "web search: Singapore Online Safety Commission 2026",
+        "web search: MAS AI risk management guidelines 2026",
+        "web search: Australian AI Safety Institute operational 2026",
+        "industry.gov.au AISI page (fetch failed)"
+      ],
+      "limits": "Australian Government sites behind the same CDN as esafety.gov.au reset connections from this environment, so Australian national discovery is incomplete.",
+      "candidates": [
+        {
+          "name": "Australian AI Safety Institute (Department of Industry, Science and Resources)",
+          "result": "lead — source inaccessible",
+          "reason": "Would fall under other-aisis (Australia already listed); primary page unreachable; secondary reports say it is operational and testing frontier models.",
+          "sources": []
+        },
+        {
+          "name": "Singapore Online Safety Commission",
+          "result": "screened out",
+          "reason": "See sector-regulator discovery entry.",
+          "sources": [
+            "S-0265"
+          ]
+        }
+      ]
     }
   ],
   "usage": null
