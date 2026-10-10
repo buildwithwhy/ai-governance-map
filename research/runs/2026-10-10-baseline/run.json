@@ -3,7 +3,7 @@
   "label": "Baseline audit — every map item, plus scoped discovery",
   "partial": false,
   "started_at": "2026-10-10T17:56:16Z",
-  "finished_at": null,
+  "finished_at": "2026-10-10T18:53:20Z",
   "scope": {
     "entries": [],
     "note": "All inventory items not already verified against external sources on 2026-10-10 (trial 1 completion); those are carried over, not re-fetched. Discovery across SCOPE list B."
@@ -1147,5 +1147,12 @@
       ]
     }
   ],
-  "usage": null
+  "usage": null,
+  "highlights": [
+    "**The baseline audit checked every item on the map.** All 520 inventory items (50 entries, 83 connections, the gap summaries, FAQ answers, page text and categories) were checked against primary sources, in this run or the trial run earlier today. 407 are now verified; the rest are unresolved (mostly analytic or comparative claims no source can confirm) or could not be retrieved. 227 sources were opened, and the tool confirmed every one of 1,080 recorded quotations against the retrieved text.",
+    "**Many entries described superseded versions or had factual errors.** Outcomes in this run: 215 verified unchanged, 143 needing a change, 101 unresolved (mostly analytic or comparative claims that no source can confirm), 6 not retrievable. The biggest corrections: the OpenAI, DeepMind, Meta and xAI frameworks (all on newer versions; Meta dropped 'stop'); the Delhi commitments (no risk obligations at all); the UK AI Bill (never introduced); SB 53, RAISE, Colorado and Korea details; BIS export controls; the UK ICO (now the Information Commission); and NIST's renaming of CAISI to CAISSI.",
+    "**99 decisions for you, grouped by layer below:** 80 corrections, 3 new entries (Illinois' frontier AI audit law, the UN AI Panel and Dialogue, the US FRONTIER Act bill) and 16 questions (e.g. whether Colorado and Texas are 'binding with penalties', whether the UK AI Bill, Colorado DOI and Japan's sector ministries stay on the map). In a test, all 83 edits applied together cleanly.",
+    "**Answer on this page.** Every card has response buttons and a note box; questions also offer 'Go with your recommendation'. Answer in any order, then tell Claude 'responses ready'. Nothing reaches the public map until you accept it, and the 'Content updated' date (GMT) changes only when accepted edits are applied.",
+    "**Discovery** across all monitored jurisdictions, states, institutions and labs (19 logs) found the three new entries above, plus leads not drafted: California's EO N-9-26 (verifier and kill-switch recommendations), Connecticut's frontier whistleblower law, the UK AISI's Aug 2026 agent incident disclosure, and an EU Scientific Panel inquiry into loss-of-control incidents."
+  ]
 }

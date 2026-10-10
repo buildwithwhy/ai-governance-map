@@ -9219,6 +9219,63 @@
           "conflict_resolution": null,
           "knock_on": [],
           "hash": "4f53cda18c2b"
+        },
+        {
+          "v": 2,
+          "created": "2026-10-10T18:53:43Z",
+          "run": "2026-10-10-baseline",
+          "author": "claude",
+          "title": "Relabel the entry 'US CAISI' as 'US CAISSI'?",
+          "kind": "flag",
+          "changes": [],
+          "why": "The entry's label no longer matches the official page it links to.",
+          "rationale": "nist-caissi p1–p2 show the new name; nist-kimi p1 and nist-glm53 p1 (Jul–Sep 2026) still use CAISI; eo14434 p3 explains the change as a terminology order for agency websites.",
+          "evidence": [
+            {
+              "source": "S-0174",
+              "passage": "S-0174#1",
+              "stance": "supports",
+              "supports": "new name"
+            },
+            {
+              "source": "S-0175",
+              "passage": "S-0175#3",
+              "stance": "supports",
+              "supports": "terminology order"
+            },
+            {
+              "source": "S-0179",
+              "passage": "S-0179#1",
+              "stance": "contradicts",
+              "supports": "NIST used 'CAISI' until mid-Sep 2026"
+            }
+          ],
+          "uncertainty": "No formal re-establishment notice found, unlike the June 2025 rename.",
+          "confidence": "medium",
+          "question": "NIST's page now names the body 'Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)' following EO 14434's terminology order, while NIST news items, the UK AISI, and the rest of the map still say CAISI. Options: (a) keep 'US CAISI' and record the relabel in desc only (caisi-caissi); (b) rename the entry to 'US CAISSI' and update the nine other mentions of CAISI on the map; (c) use 'US CAISI / CAISSI'. Recommendation: (a) for now, revisit if NIST or Commerce formally announce the new name.",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": {
+            "disagreement": "NIST's CAISI/CAISSI page (S-0174, modified 30 Sep 2026) uses 'Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)'; a NIST news item of 17 Sep 2026 (S-0179) still says 'CAISI'.",
+            "basis": "different-date",
+            "evidence": [
+              {
+                "source": "S-0174",
+                "passage": "S-0174#1"
+              },
+              {
+                "source": "S-0179",
+                "passage": "S-0179#1"
+              },
+              {
+                "source": "S-0175",
+                "passage": "S-0175#3"
+              }
+            ],
+            "explanation": "The two sources describe different dates. The news item predates EO 14434 (signed 29 Sep 2026), which told agencies to use 'Super Intelligence' in place of 'AI' on websites and public communications; the page carrying the new name was modified the next day. So the older usage does not contradict the current name. Whether to relabel the map entry remains the maintainer's question."
+          },
+          "knock_on": [],
+          "hash": "4f53cda18c2b"
         }
       ],
       "decision": {

@@ -62,7 +62,7 @@ function respondForm(p, v) {
   const letters = v.changes.length ? [] : [...new Set([...(v.question || '').matchAll(/\(([a-e])\)/g)].map(m => m[1]))];
   const choices = v.changes.length
     ? [['accept', 'Yes, accept'], ['accept-with-changes', 'Accept with changes'], ['reject', 'Reject'], ['defer', 'Defer'], ['other', 'Other']]
-    : [...letters.map(l => [`option-${l}`, `Option ${l}`]), ['other', 'Other answer'], ['defer', 'Defer']];
+    : [...letters.map(l => [`option-${l}`, `Option ${l}`]), ['recommendation', 'Go with your recommendation'], ['other', 'Other answer'], ['defer', 'Defer']];
   const key = `${p.id}-v${v.v}`;
   return `<form class="respond" data-key="${esc(key)}" data-pid="${esc(p.id)}" data-ver="${v.v}" data-hash="${esc(v.hash)}">
     <fieldset><legend>Your response to ${esc(p.id)} v${v.v}</legend>
@@ -84,7 +84,8 @@ function renderProposal(p, inv, db, ctx) {
   if (prev) parts.push(`<p class="note">Revised from v${prev.v}: ${prev.hash === v.hash ? 'same wording, so an existing approval carries over' : 'wording changed, so it needs a fresh decision'}.</p>`);
   if (ev.missing.length) parts.push(`<p class="callout warn"><strong>Still missing:</strong> ${md(ev.missing.join('; '))}</p>`);
   if (ctx.held) parts.push(`<p class="callout info"><strong>Held:</strong> ${md(ctx.held)}</p>`);
-  if (v.changes.length) parts.push(`<h4>Change</h4>${v.changes.map(c => renderChange(c, inv)).join('')}`);
+  const changeHtml = v.changes.length ? `<h4>Change</h4>${v.changes.map(c => renderChange(c, inv)).join('')}` : '';
+  if (changeHtml && !ctx.reply) parts.push(changeHtml);
   if (v.why) parts.push(`<h4>Why it matters</h4><p>${md(v.why)}</p>`);
   if (v.rationale) parts.push(`<h4>Reasoning</h4><p>${md(v.rationale)}</p>`);
   if (cs.conflict) parts.push(cs.resolved
@@ -103,11 +104,32 @@ function renderProposal(p, inv, db, ctx) {
     <h3>${md(v.title)}</h3>
     <p class="status-line">${esc(decided)}${p.applied ? ` · applied ${esc(p.applied.date)} (${esc(p.applied.manifest.split('/').pop())})` : ''}</p>
     ${v.question ? `<p class="question"><strong>Question for you:</strong> ${md(v.question)}</p>` : ''}
+    ${ctx.reply && changeHtml ? `<div class="prop-change">${changeHtml}</div>` : ''}
     ${ctx.reply ? respondForm(p, v) : ''}
-    <details${ctx.open ? ' open' : ''}><summary>Details, evidence and exact wording</summary><div class="prop-body">${parts.join('')}</div></details>
+    <details${ctx.open ? ' open' : ''}><summary>${ctx.reply ? 'Why, evidence and sources' : 'Details, evidence and exact wording'}</summary><div class="prop-body">${parts.join('')}</div></details>
   </article>`;
 }
 
+
+// Where a proposal belongs on the page: the layer of the entry it edits, or page text.
+function groupOf(p, inv) {
+  const v = Rz.latest(p); const c = v.changes[0];
+  const layerName = { 1: 'Layer 1 · International', 2: 'Layer 2 · National regulation', 3: 'Layer 3 · US states', 4: 'Layer 4 · Infrastructure', 5: 'Layer 5 · Industry voluntary', 6: 'Layer 6 · Lab frameworks' };
+  let id = null;
+  if (c) id = typeof c.entity === 'string' ? c.entity : c.entity && c.entity.id ? c.entity.id : c.a || null;
+  if (!id) {
+    // Questions carry no edits: find the entry they are about by id, then by name, in the title and question.
+    const text = `${v.title} ${v.question || ''}`;
+    const idIn = t => inv.map.entities.find(e => new RegExp(`(^|[^a-z0-9-])${e.id.replace(/-/g, '\\-')}([^a-z0-9-]|$)`).test(t));
+    const byName = inv.map.entities.filter(e => e.name && v.title.includes(e.name)).sort((a, b) => b.name.length - a.name.length)[0];
+    const kw = [['Category definitions', '-'], ['lab compliance frameworks', 'rsp'], ['UK AI Bill', 'uk-bill'], ['jp-sectors', 'jp-sectors'], ['Colorado Division of Insurance', 'co-doi'], ['Colorado SB 26-189', 'co-aia'], ['TRAIGA', 'tx-raiga'], ['Hiroshima', 'hiroshima'], ['CoE AI Convention', 'coe-ai'], ['AISI Network', 'aisi-net'], ['AI Action Plan', 'us-action'], ['EO 14179', 'us-eo14179'], ['EU AI Act', 'eu-aia']].find(([k]) => v.title.includes(k));
+    const t1 = idIn(v.title); const t2 = idIn(text);
+    id = (kw && kw[1]) || (byName && byName.id) || (t1 && t1.id) || (t2 && t2.id) || null;
+  }
+  const e = id && (inv.map.entities.find(x => x.id === id) || (c && c.op === 'add_entity' ? c.entity : null));
+  if (e) return [e.layer, layerName[e.layer]];
+  return [7, 'Page text, FAQ and categories'];
+}
 function build(id) {
   const run = L.readJSON(Rz.F.run(id)); if (!run) throw new Error(`no run ${id}`);
   const inv = L.buildInventory(); const db = Rz.sources(); const lg = Rz.ledger(); const all = Rz.checks();
@@ -128,7 +150,13 @@ function build(id) {
   const contentDate = (L.contentDates().find(d => d.kind === 'iso') || {}).value;
   const pct = Math.round((everExt / total) * 1000) / 10;
 
-  const section = (key, anchor, title, lead, items, ctxFn, empty) => `<section id="${anchor}" class="sec">
+  const groupsOfDecide = {};
+  for (const p of B.decide) { const [n, label] = groupOf(p, inv); (groupsOfDecide[n] = groupsOfDecide[n] || { label, items: [] }).items.push(p); }
+  const decideOrder = Object.keys(groupsOfDecide).sort((a, b) => a - b);
+  const slug = n => `decide-g${n}`;
+  const decideBody = () => decideOrder.map(n => `<h3 class="grp-head" id="${slug(n)}">${esc(groupsOfDecide[n].label)} <span class="count">${groupsOfDecide[n].items.length}</span></h3>${groupsOfDecide[n].items.map(p => renderProposal(p, inv, db, { reply: true })).join('')}`).join('');
+  const section = (key, anchor, title, lead, items, ctxFn, empty) => key === 'decide' && items.length ? `<section id="${anchor}" class="sec">
+    <div class="sec-head"><h2>${title}</h2><span class="count">${items.length}</span></div>${lead ? `<p class="lead">${lead}</p>` : ''}${decideBody()}</section>` : `<section id="${anchor}" class="sec">
     <div class="sec-head"><h2>${title}</h2><span class="count">${items.length}</span></div>${lead ? `<p class="lead">${lead}</p>` : ''}
     ${items.length ? items.map(p => renderProposal(p, inv, db, ctxFn(p))).join('') : `<p class="empty">${empty}</p>`}</section>`;
 
@@ -284,6 +312,12 @@ td.num { font-variant-numeric: tabular-nums; white-space: nowrap; } td.bad-t { c
 .r-status.saved { color: var(--good-fg); }
 .r-status.err { color: var(--bad-fg); }
 button:disabled, textarea:disabled { cursor: not-allowed; }
+.grp-head { font: 500 13px var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--fg2); margin: 28px 0 0; padding-top: 6px; scroll-margin-top: 56px; }
+.prop-change { margin-top: 10px; }
+.prop-change h4 { font: 500 11.5px var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--fg3); margin: 0 0 6px; }
+.todo-groups { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+.todo-n { font: 500 12.5px var(--mono); }
+.todo-q-n { font-size: 12.5px; opacity: 0.85; }
 footer { margin-top: 48px; font-size: 12.5px; color: var(--fg3); border-top: 1px solid var(--line); padding-top: 12px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 html { scroll-behavior: smooth; }
@@ -303,7 +337,7 @@ html { scroll-behavior: smooth; }
     <a href="#gaps">Gaps<span class="n">${unres + inacc}</span></a>
     <a href="#discovery">Discovery</a><a href="#sources">Sources</a>
   </nav>
-  ${B.decide.length ? `<aside class="todo" aria-labelledby="todo-h"><h2 id="todo-h">Your decisions (${B.decide.length})</h2><ol>${B.decide.map(p => { const v = Rz.latest(p); return `<li><a href="#${esc(p.id)}"><code>${esc(p.id)} v${v.v}</code> ${md(v.title)}</a>${v.question ? `<span class="todo-q">${md(v.question)}</span>` : ''}</li>`; }).join('')}</ol><p class="small"><strong id="r-count">Answered 0 of ${B.decide.length}.</strong> Answer in each card below, then tell Claude in the session: <code>responses ready</code>. Each answer is tied to the exact version shown. You can still reply in the session instead.</p></aside>` : `<aside class="todo"><h2>Your decisions</h2><p>Nothing needs a decision right now.</p></aside>`}
+  ${B.decide.length ? `<aside class="todo" aria-labelledby="todo-h"><h2 id="todo-h">Your decisions (${B.decide.length})</h2>${B.decide.length > 12 ? `<ul class="todo-groups">${decideOrder.map(n => `<li><a href="#${slug(n)}">${esc(groupsOfDecide[n].label)}</a> <span class="todo-n" data-group="${n}">${groupsOfDecide[n].items.length}</span>${groupsOfDecide[n].items.filter(p => !Rz.latest(p).changes.length).length ? ` <span class="todo-q-n">(${groupsOfDecide[n].items.filter(p => !Rz.latest(p).changes.length).length} questions)</span>` : ''}</li>`).join('')}</ul>` : `<ol>${B.decide.map(p => { const v = Rz.latest(p); return `<li><a href="#${esc(p.id)}"><code>${esc(p.id)} v${v.v}</code> ${md(v.title)}</a>${v.question ? `<span class="todo-q">${md(v.question)}</span>` : ''}</li>`; }).join('')}</ol>`}<p class="small"><strong id="r-count">Answered 0 of ${B.decide.length}.</strong> Answer in each card below, then tell Claude in the session: <code>responses ready</code>. You can answer some now and the rest later; each answer is saved and tied to the exact version shown.</p></aside>` : `<aside class="todo"><h2>Your decisions</h2><p>Nothing needs a decision right now.</p></aside>`}
   <ul class="summary">${(run.highlights || []).map(h => `<li>${md(h)}</li>`).join('')}</ul>
   <div class="stats" role="list">
     <div class="stat" role="listitem"><div class="v">${ids.length}</div><div class="l">items attempted, ${entriesInRun.length} entries</div></div>

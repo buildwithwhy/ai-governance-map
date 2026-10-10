@@ -29,11 +29,10 @@ Tools, in `tools/`, have no dependencies beyond Node:
 
 `research/` and `tools/` are excluded from Vercel deployments by `.vercelignore`. That exclusion must still be verified on a real deployment, and the GitHub repository itself is public.
 
-## Current state (2026-10-10)
+## Current state (2026-10-10, after the baseline audit)
 
-- **Trial 1 is complete** (`runs/2026-10-08-trial1/report.md`, then `runs/2026-10-10-trial1b/report.md` after source access was restored). The current review is the private review page https://claude.ai/artifact/MACCwb5T2ySWbPHVbDvz23, regenerated with `report <run> --html` and republished to the same URL after every run and every set of decisions (RUNBOOK §4).
-- **Source access:** the environment denies nothing. Some websites block automated clients (Cloudflare on nysenate.gov, congress.gov, leginfo, federalregister.gov HTML, commerce.gov; EUR-Lex throttling; intermittent resets on some Chinese sites). Fetches record these as `site_blocked`, `http_202` or `error`, distinct from `blocked` (environment). RUNBOOK §0 lists the official alternatives.
-- **Applied on the PR branch:** P-0001, P-0003 v2, P-0004, P-0008 v2; then, after decisions on 2026-10-10, P-0005 v3, P-0006, P-0007, P-0009 v3, P-0010 v3, P-0012, P-0013, P-0014–P-0019. Guard passes.
-- **All trial-1 proposals are decided and applied** (manifests `applied/2026-10-10.json`, `-2.json`, `-3.json`), including P-0002 v2, P-0011 v2 (other-aisis → Multilateral, Layer 4) and P-0020 (EU AI-generated content code). The maintainer can now answer decisions on the review page itself (RUNBOOK §5).
-- **Then:** record decisions, re-run `tools/apply.js` on the same branch, re-check `tools/check.js --guard origin/main`, update the PR. Do not merge or schedule runs.
-- **Next milestone:** full baseline audit plus scoped discovery, before any recurring schedule. Leads queued for it are in the 2026-10-10 report (§2 and §3), e.g. CAISI's renaming to CAISSI, the AI Office's new Omnibus powers, the OpenAI/DeepMind Seoul chronology, CAC humanlike-AI measures.
+- **Baseline audit done** (`runs/2026-10-10-baseline/`): every inventory item checked against primary sources (in this run or the trial run earlier the same day); 407 of 520 verified, the rest unresolved or not retrievable, each with what is missing. 99 proposals await the maintainer (80 corrections, 3 additions, 16 questions) on the review page https://claude.ai/artifact/MACCwb5T2ySWbPHVbDvz23, where each can be answered directly (RUNBOOK §5).
+- **Applied on the PR branch so far:** all trial-1 proposals (manifests `applied/2026-10-10*.json`). Baseline proposals are applied only after the maintainer accepts them.
+- **Tooling:** research subagents write batches; `research.js ingest FILE --validate` pre-checks them read-only; `ingest FILE --run RUN` re-fetches every source and rejects any quotation not found in the retrieved text.
+- **Next:** read the maintainer's responses, record and apply them, republish the page, update the PR. Then create the weekly routine (RUNBOOK §7: Mondays 04:50 UK time).
+- **Access notes:** the environment denies nothing; several websites block automated clients (RUNBOOK §0 lists alternatives).
