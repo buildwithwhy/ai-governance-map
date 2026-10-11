@@ -4,8 +4,8 @@
 
 - **The baseline audit checked every item on the map.** All 520 inventory items (50 entries, 83 connections, the gap summaries, FAQ answers, page text and categories) were checked against primary sources, in this run or the trial run earlier today. 407 are now verified; the rest are unresolved (mostly analytic or comparative claims no source can confirm) or could not be retrieved. 227 sources were opened, and the tool confirmed every one of 1,080 recorded quotations against the retrieved text.
 - **Many entries described superseded versions or had factual errors.** Outcomes in this run: 215 verified unchanged, 143 needing a change, 101 unresolved (mostly analytic or comparative claims that no source can confirm), 6 not retrievable. The biggest corrections: the OpenAI, DeepMind, Meta and xAI frameworks (all on newer versions; Meta dropped 'stop'); the Delhi commitments (no risk obligations at all); the UK AI Bill (never introduced); SB 53, RAISE, Colorado and Korea details; BIS export controls; the UK ICO (now the Information Commission); and NIST's renaming of CAISI to CAISSI.
-- **Your 99 answers are recorded and applied (10 Oct 2026, GMT):** 83 accepted as proposed; 7 questions turned into the edits you chose (Hiroshima and the AI Action Plan → soft/advisory; Colorado and Texas → binding with penalties; 'Colorado ADMT Act'; 'NAAIMES (ex-AISI Network)'; CoE Convention 'proposed'); 5 closed as 'keep as is'. The guard reproduces the published files exactly.
-- **5 follow-ups need you (top of this page):** the halt-note wording for the EU AI Act; rewording for Colorado DOI and Japan's sector ministries (the cards had no stated recommendation, so these are mine); a final choice on the UK AI Bill (remove, or keep as withdrawn); and the FAQ on binding laws, updated for your Colorado/Texas/Illinois decisions.
+- **All 104 of your answers are recorded and applied.** The first 99 went in on 10 Oct 2026: 83 accepted as proposed, 7 questions turned into the edits you chose (Hiroshima and the AI Action Plan → soft/advisory; Colorado and Texas → binding with penalties; 'Colorado ADMT Act'; 'NAAIMES (ex-AISI Network)'; CoE Convention 'proposed'), and 5 closed as 'keep as is'. The 5 follow-ups went in on 11 Oct 2026 (GMT): the EU AI Act halt note, the Colorado DOI and Japan sector-ministry rewording, and the FAQ on binding laws (now eight laws). The UK AI Bill entry was removed, and its history moved to UK AISI, so the map now has 49 entries. The guard reproduces the published files exactly.
+- **Nothing is waiting for your decision.** The weekly audit (Mondays 04:50 UK time) will publish its review here.
 - **Discovery** across all monitored jurisdictions, states, institutions and labs (19 logs) found the three new entries above, plus leads not drafted: California's EO N-9-26 (verifier and kill-switch recommendations), Connecticut's frontier whistleblower law, the UK AISI's Aug 2026 agent incident disclosure, and an EU Scientific Panel inquiry into loss-of-control incidents.
 
 | | |
@@ -15,21 +15,13 @@
 | Internal consistency checks passed or fixed | 6 (the map checked against itself, not against outside sources) |
 | Not verified | 107 (source inaccessible: 6, unresolved: 101) |
 | Sources | 227 used, 1 not retrieved |
-| Proposals | ready for your decision: 5 · research/access required: 0 · accepted, awaiting application: 0 · applied: 110 · closed/deferred: 5 |
-| Whole map | 406 of 558 inventory items have ever been verified against external sources. The map's public content date (2026-10-10) marks the latest applied release, not a full audit. |
+| Proposals | ready for your decision: 0 · research/access required: 0 · accepted, awaiting application: 0 · applied: 115 · closed/deferred: 5 |
+| Whole map | 404 of 548 inventory items have ever been verified against external sources. The map's public content date (2026-10-11) marks the latest applied release, not a full audit. |
 | Run | `2026-10-10-baseline` · 2026-10-10T17:56:16Z → 2026-10-10T18:53:20Z (57 min) · usage/cost: not recorded |
 
 ## A. Ready for your decision
 
-| ID | Ver | Type | Proposal | Evidence |
-|---|---|---|---|---|
-| P-0084 | v2 | change | Colorado Division of Insurance: keep on the map, and say plainly that it regulates insurers, not AI model developers | verified |
-| P-0086 | v2 | change | Japan sectoral AI regulators: keep, anchored on the MIC/METI AI Guidelines for Business | verified |
-| P-0097 | v2 | change | EU AI Act: add a halt note for the AI Office's power to restrict, withdraw or recall a GPAI model (Art. 93(1)(c)) | verified |
-| P-0101 | v3 | question | UK AI Bill: remove the entry, or keep it as a lapsed commitment? | verified |
-| P-0120 | v1 | change | FAQ 'Which AI laws are binding with penalties?': update for Colorado and Texas (pow 4) and the Illinois Act | verified |
-
-Reply in conversation, e.g. “accept P-0002 v2”, “edit P-0011: …”, “reject P-0012 — reason”, “defer …”. Decisions bind to the version shown. Full details in §1.
+_Nothing ready for a decision._
 
 ## B. Further research or source access required
 
@@ -127,7 +119,9 @@ _None._
 | P-0081 | v1 | 2026-10-10 | 2026-10-10-4.json | Singapore IMDA: replace the dead AI-governance link |
 | P-0082 | v1 | 2026-10-10 | 2026-10-10-4.json | Singapore IMDA: add the 2026 agentic-AI framework; correct the Veritas attribution and add MAS's 2026 AI guidelines |
 | P-0083 | v1 | 2026-10-10 | 2026-10-10-4.json | Colorado DOI: amended Regulation 10-1-1 also covers health benefit plan insurers (Oct 2025) |
+| P-0084 | v2 | 2026-10-11 | 2026-10-11.json | Colorado Division of Insurance: keep on the map, and say plainly that it regulates insurers, not AI model developers |
 | P-0085 | v1 | 2026-10-10 | 2026-10-10-4.json | Japan sectoral regulators: replace the dead METI link |
+| P-0086 | v2 | 2026-10-11 | 2026-10-11.json | Japan sectoral AI regulators: keep, anchored on the MIC/METI AI Guidelines for Business |
 | P-0087 | v1 | 2026-10-10 | 2026-10-10-4.json | US EO 14179: it followed EO 14148's revocation of EO 14110 and ordered rescission of actions under it; it did not itself rescind red-teaming, reporting or voluntary commitments |
 | P-0089 | v1 | 2026-10-10 | 2026-10-10-4.json | US AI Action Plan: map link ai.gov/action-plan is dead (HTTP 404); use the White House PDF |
 | P-0090 | v1 | 2026-10-10 | 2026-10-10-4.json | US AI Action Plan: it calls for limiting federal funding to states with burdensome AI rules; it does not itself limit funding |
@@ -137,9 +131,11 @@ _None._
 | P-0094 | v1 | 2026-10-10 | 2026-10-10-4.json | EU AI Act · Mitigations: content marking is an Article 50 duty, not a GPAI duty |
 | P-0095 | v1 | 2026-10-10 | 2026-10-10-4.json | EU AI Act · Timing: post-market monitoring is a high-risk provider duty overseen by market surveillance; the AI Office supervises GPAI |
 | P-0096 | v1 | 2026-10-10 | 2026-10-10-4.json | EU AI Act · Updating: the Commission can revise the 10²⁵ threshold and the Annex III list by delegated act |
+| P-0097 | v2 | 2026-10-11 | 2026-10-11.json | EU AI Act: add a halt note for the AI Office's power to restrict, withdraw or recall a GPAI model (Art. 93(1)(c)) |
 | P-0098 | v1 | 2026-10-10 | 2026-10-10-4.json | China GenAI Measures: link the official CAC text instead of a third-party translation |
 | P-0099 | v1 | 2026-10-10 | 2026-10-10-4.json | China GenAI Measures: security assessment and algorithm filing apply only to services with public-opinion or mobilisation capacity; no 'licensed intermediary' rule; the CAC publishes filings, not approvals |
 | P-0100 | v1 | 2026-10-10 | 2026-10-10-4.json | UK AI Bill: no government bill was ever introduced, the 2026 King's Speech dropped it, and the map links a Conservative peer's private member's bill |
+| P-0101 | v4 | 2026-10-11 | 2026-10-11.json | UK AI Bill: remove the entry, or keep it as a lapsed commitment — option a: Remove the entry (history moves to UK AISI) |
 | P-0102 | v1 | 2026-10-10 | 2026-10-10-4.json | Korea AI Basic Act: the Enforcement Decree adds capability and risk criteria to the 10²⁶ FLOPs threshold |
 | P-0103 | v1 | 2026-10-10 | 2026-10-10-4.json | Korea AI Basic Act · Accountability: oversight sits with MSIT; the AI Safety Research Institute supports rather than oversees |
 | P-0104 | v1 | 2026-10-10 | 2026-10-10-4.json | Japan AI Promotion Act: link the Cabinet Office page instead of a law-firm alert |
@@ -157,282 +153,11 @@ _None._
 | P-0117 | v1 | 2026-10-10 | 2026-10-10-4.json | Binding-laws FAQ: no federal preemption challenge to SB 53 or RAISE is documented |
 | P-0118 | v1 | 2026-10-10 | 2026-10-10-4.json | Layer 3 tooltip: the DOJ Task Force has no documented challenge; DOJ's Colorado intervention is separate |
 | P-0119 | v1 | 2026-10-10 | 2026-10-10-4.json | EU systemic-risk FAQ: Article 55 includes systemic-risk assessment and mitigation; documentation is Article 53/Annex XI |
+| P-0120 | v1 | 2026-10-11 | 2026-10-11.json | FAQ 'Which AI laws are binding with penalties?': update for Colorado and Texas (pow 4) and the Illinois Act |
 
 **Closed or deferred:** P-0043 (deferred until 2027-01-15), P-0065 (withdrawn), P-0070 (withdrawn), P-0088 (withdrawn), P-0108 (withdrawn)
 
 ## 1. Proposal details
-
-### Ready for your decision
-
-### P-0084 v2 — Colorado Division of Insurance: keep on the map, and say plainly that it regulates insurers, not AI model developers
-
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: medium · change-hash `6cc9fa4857b7`
-
-_Revised from v1: wording changed, so it needs a fresh decision._
-
-**Change**
-
-- **`co-doi` · desc**
-
-  Current:
-
-  > First US state-level sectoral AI regulator. Regulation 10-1-1 (effective Nov 14, 2023) governs algorithm and predictive-model use by insurance carriers.
-
-  Proposed:
-
-  > First US state-level sectoral AI regulator. Regulation 10-1-1 (effective Nov 14, 2023) governs algorithm and predictive-model use by insurance carriers; it applies to insurers as deployers, not to AI model developers.
-
-**Why it matters:** SCOPE §C asks the baseline audit to raise this inclusion question; RUBRIC §1 requires a material bearing on frontier/GPAI governance, which here is only indirect.
-
-**Reasoning:** The question had no stated recommendation, so this is mine: keep the entry (it anchors the ny-raise accountability note and both connections) and make its contextual role explicit in one clause, as the question's middle option suggested. The facts are from the Division's page (S-0258#2, S-0258#3).
-
-**Evidence**
-
-- **S-0258** SB21-169 - Protecting Consumers from Unfair Discrimination in Insurance Practices — <https://doi.colorado.gov/for-consumers/sb21-169-protecting-consumers-from-unfair-discrimination-in-insurance-practices>
-  primary · retrieved 2026-10-10 · access: ok
-  intro:
-  > The legislation holds insurers accountable for testing their big data systems - including external consumer data and information sources, algorithms, and predictive models - to ensure they are not unfairly discriminating against consumers on the basis of a protected class.
-  _Supports:_ holds insurers accountable for testing their systems
-- **S-0258** SB21-169 - Protecting Consumers from Unfair Discrimination in Insurance Practices — <https://doi.colorado.gov/for-consumers/sb21-169-protecting-consumers-from-unfair-discrimination-in-insurance-practices>
-  primary · retrieved 2026-10-10 · access: ok
-  Attestations due December 1:
-  > Colorado Insurance Regulation 10-1-1 requires an insurer that does not use external consumer data and information sources (ECDIS), or algorithms or predictive models that use ECDIS, in any insurance practice to file an attestation with the Division no later than December 1.
-  _Supports:_ duties fall on insurers
-
-**Uncertainty:** If you prefer removal, say so; removing an entry needs a small tool addition (no remove-entry operation exists yet).
-
-**May need reconsideration if accepted**
-
-- `edge:co-doi|co-aia` — **checked, accurate**: Same state, different focus — DOI sectoral framework predates the AI Act
-- `edge:co-doi|ny-raise` — **causal claim not verifiable**: Colorado DOI precedent informed NY RAISE's DFS office model
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
-- `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
-- Entry text that mentions the affected entries: `entry:ny-raise:cov:acct`
-
----
-
-### P-0086 v2 — Japan sectoral AI regulators: keep, anchored on the MIC/METI AI Guidelines for Business
-
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: medium · change-hash `e20ae5962285`
-
-_Revised from v1: wording changed, so it needs a fresh decision._
-
-**Change**
-
-- **`jp-sectors` · desc**
-
-  Current:
-
-  > Sectoral AI guidance from Japan's ministry regulators (METI, FSA, MHLW, MIC) under the AI Promotion Act framework. Soft guidance rather than binding rules.
-
-  Proposed:
-
-  > Sectoral AI guidance from Japan's ministries under the AI Promotion Act framework, anchored by the MIC/METI AI Guidelines for Business (v1.2, Mar 2026), which call themselves soft law without legally binding force.
-
-- **`jp-sectors` · context**
-
-  Current:
-
-  > Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) issues the AI Guidelines for Business and developer-facing principles; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7.
-
-  Proposed:
-
-  > Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) and MIC jointly issue the AI Guidelines for Business, the main cross-sector instrument; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7.
-
-**Why it matters:** RUBRIC §1 requires an identifiable instrument and an attributable actor; an aggregate of ministries satisfies neither cleanly. SCOPE §C asks for this to be raised.
-
-**Reasoning:** The question had no stated recommendation, so this is mine: keep the entry but anchor it on the one specific, citable instrument (the question's middle option), and correct the context that credited the Guidelines to METI alone. From the Guidelines' cover and preface (S-0267#1, S-0267#2).
-
-**Evidence**
-
-- **S-0267** AI Guidelines for Business Ver1.2 (provisional translation) — <https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf>
-  primary · retrieved 2026-10-10 · access: ok · published 2026-03-31
-  cover:
-  > AI Guidelines for Business Ver1.2 March 31, 2026 Ministry of Internal Affairs and Communications Ministry of Economy, Trade and Industry
-  _Supports:_ issued jointly by MIC and METI, v1.2, 31 Mar 2026
-- **S-0267** AI Guidelines for Business Ver1.2 (provisional translation) — <https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf>
-  primary · retrieved 2026-10-10 · access: ok · published 2026-03-31
-  Preface:
-  > soft laws without any legally binding force that would encourage interested parties to make voluntary efforts to reduce societal risks in AI
-  _Supports:_ soft law without legally binding force
-
-**Carried over unchanged, not re-verified:** FSA and MHLW roles in the context
-
-**Uncertainty:** The FSA and MHLW roles in the context are carried over, not verified.
-
-**May need reconsideration if accepted**
-
-- `edge:imda|jp-sectors`: Parallel light-touch sector-driven Asia-Pacific AI governance approach
-- `edge:jp-sectors|jp-ai` — **checked, accurate**: Sectoral implementation under the AI Promotion Act framework
-- `edge:jp-sectors|hiroshima` — **checked, accurate**: Japan's sectoral approach embeds Hiroshima Process principles
-- `edge:jp-sectors|other-aisis`: J-AISI is Japan's central institute alongside sectoral ministries
-- `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
-
----
-
-### P-0097 v2 — EU AI Act: add a halt note for the AI Office's power to restrict, withdraw or recall a GPAI model (Art. 93(1)(c))
-
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: medium · change-hash `5e1d11c077a6`
-
-_Revised from v1: wording changed, so it needs a fresh decision._
-
-**Change**
-
-- **`eu-aia` · coverage · halt**
-
-  Current:
-
-  > _(absent)_
-
-  Proposed:
-
-  > The AI Office can require a GPAI provider to restrict a model's availability, withdraw it or recall it (Art. 93(1)(c)) — a regulator-imposed halt rather than a developer's own commitment.
-
-**Why it matters:** The coverage set drives the coverage matrix and gap summaries.
-
-**Reasoning:** You chose option (a) (add a halt note). This is the drafted wording, from Art. 93(1)(c).
-
-**Evidence**
-
-- **S-0002** Regulation (EU) 2024/1689 (AI Act), Official Journal — <https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng>
-  primary · retrieved 2026-10-10 · access: ok via EUR-Lex returned empty HTTP 202 on three attempts on 2026-10-10; this is the byte-identical copy (sha256 6bce305a8318b9db…) fetched by curl earlier on 2026-10-10 in run 2026-10-10-trial1b and held in research/.cache · adopted 2024-06-13, published 2024-07-12, in_force 2024-08-01
-  Art 93(1)(c):
-  > restrict the making available on the market, withdraw or recall the model.
-  _Supports:_ restrict, withdraw or recall the model
-
-**Uncertainty:** Depends on how the map applies METR's halt element to regulators.
-
-**May need reconsideration if accepted**
-
-- `edge:coe-ai|eu-aia`: CoE Convention is the international treaty layer above EU AI Act
-- `edge:eu-aia|eu-aio`: EU AI Office is the regulator implementing EU AI Act
-- `edge:gpai-cop|eu-aia`: GPAI Code is the voluntary route to EU AI Act compliance
-- `edge:uk-ico|eu-aia`: UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards
-- `edge:eu-genai-code|eu-aia`: Code implements the AI Act's Article 50 marking and labelling duties
-- `gap:eval`: Evaluations everywhere, mandates almost nowhere — Most mechanisms touch evaluations in some way, but mandatory third-party evaluation of frontier models is rare. The EU AI Act req…
-- `gap:elicit`: Capability elicitation sits with evaluators, not regulators — Almost no statute requires it: the EU AI Act does only indirectly, through adversarial-testing language, while the no…
-- `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
-- `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
-- `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
-- `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
-- `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
-- `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
-- `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
-- `text:layer-3:tooltip`: US state laws acting where federal regulation is absent or rolled back. Several have penalty regimes; EO 14365 set up a DOJ AI Litigation Task Force to challenge them, and DOJ int…
-- `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
-- Entry text that mentions the affected entries: `entry:kr-ai:cov:thresh`, `entry:kr-ai:cov:eval`, `entry:ca-sb53:desc`, `entry:co-aia:desc`, `entry:co-aia:context`, `entry:co-aia:cov:acct`, `entry:gpai-cop:desc`, `entry:gpai-cop:context`, `entry:gpai-cop:cov:thresh`, `entry:gpai-cop:cov:eval`, `entry:gpai-cop:cov:sec`, `entry:gpai-cop:cov:acct`, `entry:eu-genai-code:desc`, `entry:meta-faif:context`, `entry:meta-faif:cov:acct`, `entry:xai-rmf:desc`, `entry:eu-aio:context`, `entry:averi:context`, `entry:averi:cov:eval`
-
----
-
-### P-0101 v3 — UK AI Bill: remove the entry, or keep it as a lapsed commitment?
-
-`question` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: medium · change-hash `4e56a494e697`
-
-_Revised from v2: wording changed, so it needs a fresh decision._
-
-**Question for you:** No government bill or consultation text was ever published, and the May 2026 King's Speech announced none. Choose: (a) remove the entry and its four connections, adding a one-line history to the UK AISI entry; (b) keep it, marked withdrawn (status 'revoked'), with its context and notes rewritten as a lapsed 2024 commitment, the speculative 'would clarify' connections removed and the AISI connection reworded.
-
-**Why it matters:** The entry presents an inactive, textless proposal as a live bill.
-
-**Reasoning:** (a) applies RUBRIC §1 strictly: a proposed law needs a formally introduced bill or a programme with public text or consultation, and there is neither. (b) keeps the history visible as its own entry. Both remove the unverified 'would clarify' connections; under (b) the AISI connection is reworded as an expectation. Evidence: King's Speech 2024 (S-0286#1), King's Speech 2026 and briefing notes (S-0287#2, S-0288#2), and Lord Holmes's private member's bill stalled at first reading (S-0282#2, S-0283#2).
-
-**Evidence**
-
-- **S-0286** The King's Speech 2024 (17 Jul 2024) — <https://www.gov.uk/government/speeches/the-kings-speech-2024>
-  primary · retrieved 2026-10-10 · access: ok · published 2024-07-17
-  speech text:
-  > It will seek to establish the appropriate legislation to place requirements on those working to develop the most powerful artificial intelligence models.
-  _Supports:_ 2024 promise
-- **S-0287** The King's Speech 2026 (13 May 2026) — <https://www.gov.uk/government/speeches/the-kings-speech-2026>
-  primary · retrieved 2026-10-10 · access: ok · published 2026-05-13
-  whole speech:
-  > [Observation, not a quotation] Searched the speech for 'artificial intelligence', 'AI' and 'AI Security Institute': none appear; no AI bill is announced.
-  _Supports:_ no AI bill in the 2026 speech
-- **S-0288** The King's Speech 2026: background briefing notes — <https://assets.publishing.service.gov.uk/media/6a18713db95db968c8f3bbfd/The_King_s_Speech_2026_-_background_briefing_notes.pdf>
-  primary · retrieved 2026-10-10 · access: ok · published 2026-05-28
-  whole document:
-  > [Observation, not a quotation] Searched the briefing notes for a frontier-AI or AI Security Institute bill: none is listed. AI appears in the Regulating for Growth Bill (sandboxes) and in background to the cyber bill.
-  _Supports:_ no frontier-AI bill in the briefing notes
-- **S-0282** UK Parliament Bills API: Artificial Intelligence (Regulation) Bill [HL] (bill 3942) — <https://bills-api.parliament.uk/api/v1/Bills/3942>
-  primary · retrieved 2026-10-10 · access: ok · published 2025-03-04
-  sponsors:
-  > Lord Holmes of Richmond
-  _Supports:_ the linked bill was a private member's bill
-- **S-0283** UK Parliament Bills API: stages of bill 3942 — <https://bills-api.parliament.uk/api/v1/Bills/3942/Stages>
-  primary · retrieved 2026-10-10 · access: ok
-  items[0]:
-  > "description":"1st reading","abbreviation":"1R","house":"Lords"
-  _Supports:_ it stalled at first reading
-
-**Uncertainty:** Removing the entry lowers the mechanism count by one; the derived counts update automatically.
-
-**May need reconsideration if accepted**
-
-- `edge:coe-ai|eu-aia`: CoE Convention is the international treaty layer above EU AI Act
-- `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
-- `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
-- `edge:aisi-net|uk-aisi`: UK AISI is a founding network member
-- `edge:us-frontier-access-eo|uk-aisi`: 30-day access model mirrors UK AISI voluntary access agreements
-- `edge:uk-aisi|rsp`: UK AISI tested Anthropic models pre-deployment
-- `edge:uk-aisi|prep`: UK AISI tested OpenAI models pre-deployment
-- `edge:uk-aisi|fsf`: UK AISI tested DeepMind models pre-deployment
-- `edge:uk-ofcom|uk-aisi`: Complementary UK AI institutions — Ofcom on content, AISI on capabilities
-- `edge:uk-ico|uk-aisi`: Complementary UK AI regulators — ICO on data, AISI on capabilities
-- `gap:elicit`: Capability elicitation sits with evaluators, not regulators — Almost no statute requires it: the EU AI Act does only indirectly, through adversarial-testing language, while the no…
-- `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
-- `edge:uk-ofcom|au-esafety`: Parallel online-safety regulators with AI-specific authority
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
-- `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
-- `edge:uk-ico|eu-aia`: UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards
-- Entry text that mentions the affected entries: `entry:us-frontier-access-eo:context`, `entry:rsp:cov:elicit`, `entry:prep:cov:eval`, `entry:fsf:cov:eval`
-
----
-
-### P-0120 v1 — FAQ 'Which AI laws are binding with penalties?': update for Colorado and Texas (pow 4) and the Illinois Act
-
-`change` · evidence: **Verified against inspected external sources** · decision: **pending** · confidence: high · change-hash `7cdb4c9bf20c`
-
-**Linked:** P-0062, P-0063, P-0064, P-0066
-
-**Change**
-
-- **`index.html`**
-
-  Current:
-
-  > Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation) and the NY RAISE Act ($1M/$3M). Most are phasing in; the two US state laws face a federal preemption push under EO 14365, which set up a DOJ task force to challenge state AI laws. The map's wider count of mechanisms that are binding with penalties also includes US BIS export controls and five regulators: the EU AI Office, UK Ofcom, the UK ICO, Australia's eSafety Commissioner and the Colorado Division of Insurance. The map classes the Colorado AI Act and Texas TRAIGA as hard law with weak enforcement, so they are not counted here.
-
-  Proposed:
-
-  > Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation), the NY RAISE Act ($1M/$3M), the Illinois AI Safety Measures Act ($1M/$3M), the Colorado ADMT Act and Texas TRAIGA (up to $200,000 per uncurable violation). Most are phasing in; the US state laws face a federal preemption push under EO 14365, which set up a DOJ task force to challenge state AI laws. The map's wider count of mechanisms that are binding with penalties also includes US BIS export controls and five regulators: the EU AI Office, UK Ofcom, the UK ICO, Australia's eSafety Commissioner and the Colorado Division of Insurance.
-
-**Why it matters:** Your decisions changed the facts this answer summarises: Colorado and Texas are now classed as binding with penalties (P-0062, P-0063), Colorado's entry is renamed (P-0064), and the Illinois Act was added (P-0066). The answer still says five laws and that Colorado and Texas are excluded.
-
-**Reasoning:** Lists the eight Layer 2–3 entries the map now classes pow 4 (eu-aia, cn-genai, kr-ai, ca-sb53, ny-raise, il-aisma, co-aia, tx-raiga). New penalty figures: Illinois §25(a) (S-0170#11) and Texas §552.105(a) (S-0165#6). Other figures and the regulator list are carried over from the current answer. 'the two US state laws' becomes 'the US state laws', since five are now listed.
-
-**Evidence**
-
-- **S-0170** Illinois Public Act 104-0538 (SB 315 enrolled): Artificial Intelligence Safety Measures Act — <https://www.ilga.gov/Documents/Legislation/PublicActs/104/PDF/104-0538.pdf>
-  primary · retrieved 2026-10-10 · access: ok via curl with a CA file = session CA bundle + the issuing intermediate fetched from the certificate's AIA URL (the site omits its intermediate, so default verification fails); chain verified to a trusted root · adopted 2026-07-06, effective 2027-01-01, applies_from 2028-01-01
-  Section 25(a):
-  > shall be subject to a civil penalty in an amount dependent upon the severity of the violation that does not exceed $1,000,000 for the first violation. For a subsequent violation, the civil penalty may not exceed $3,000,000 per violation.
-  _Supports:_ Illinois penalties up to $1M first violation
-- **S-0165** H.B. No. 149 (89th Legislature), enrolled text (Texas Responsible Artificial Intelligence Governance Act) — <https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149F.pdf>
-  primary · retrieved 2026-10-10 · access: ok · adopted 2025-06-22, effective 2026-01-01
-  Bus. & Com. Code §552.105(a)(2)–(3):
-  > uncurable, not less than $80,000 and not more than $200,000; and
-  _Supports:_ TRAIGA up to $200,000 per uncurable violation
-- **S-0301** Map repository at 3599164 (index.html, build-llms.js, data.json, sitemap.xml) — <https://github.com/buildwithwhy/ai-governance-map/tree/3599164>
-  repo · retrieved 2026-10-10 · access: ok via repo
-  tools/check.js output:
-  > 0 error(s), 0 known issue(s), 5 warning(s): hand-maintained counts match the data (50 mechanisms); llms.txt, llms-full.txt and data.json equal a fresh build; all content-date sites agree (2026-10-10).
-  _Supports:_ map classifications
-
-**Carried over unchanged, not re-verified:** EU, Korea, California and New York penalty figures (verified in their entries' checks, restated here)
-
-**Uncertainty:** Colorado's penalty amount is set by the Colorado Consumer Protection Act, not the ADMT statute, so no figure is given. The ICO is now the Information Commission but is still branded ICO; kept as 'the UK ICO'.
-
 
 ### Applied
 
@@ -932,7 +657,7 @@ _Revised from v2: wording changed, so it needs a fresh decision._
 - `edge:co-doi|ny-raise`: Colorado DOI precedent informed NY RAISE's DFS office model
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:how-is-california-sb-53-different-from-the-ny-ra`: How is California SB 53 different from the NY RAISE Act? — Both target large frontier developers (>10²⁶ FLOPs, >$500M revenue) and require published safety frameworks. California …
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - `text:gap-default`: Compute KYC, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet. Mandatory third-party auditing of frontier d…
@@ -1572,7 +1297,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
 - `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
@@ -1654,7 +1379,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
-- `faq:which-ai-laws-are-binding-with-penalties` — **'EU AI Act (up to €35M or 7%)' is the Act's top tier and is accurate**: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties` — **'EU AI Act (up to €35M or 7%)' is the Act's top tier and is accurate**: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
 - `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
@@ -1879,7 +1604,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
 
 ---
@@ -1988,7 +1713,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
 - `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
@@ -4687,7 +4412,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 **May need reconsideration if accepted**
 
 - `edge:coe-ai|eu-aia`: CoE Convention is the international treaty layer above EU AI Act
-- `edge:coe-ai|uk-bill`: CoE Convention shapes UK AI Bill drafting
+- `edge:coe-ai|uk-bill`
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
 
 ---
@@ -4737,7 +4462,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 **May need reconsideration if accepted**
 
 - `edge:coe-ai|eu-aia`: CoE Convention is the international treaty layer above EU AI Act
-- `edge:coe-ai|uk-bill`: CoE Convention shapes UK AI Bill drafting
+- `edge:coe-ai|uk-bill`
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
 
 ---
@@ -5046,7 +4771,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:how-is-california-sb-53-different-from-the-ny-ra`: How is California SB 53 different from the NY RAISE Act? — Both target large frontier developers (>10²⁶ FLOPs, >$500M revenue) and require published safety frameworks. California …
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - `text:gap-default`: Compute KYC, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet. Mandatory third-party auditing of frontier d…
@@ -5122,7 +4847,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:how-is-california-sb-53-different-from-the-ny-ra`: How is California SB 53 different from the NY RAISE Act? — Both target large frontier developers (>10²⁶ FLOPs, >$500M revenue) and require published safety frameworks. California …
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - `text:gap-default`: Compute KYC, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet. Mandatory third-party auditing of frontier d…
@@ -5198,7 +4923,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:how-is-california-sb-53-different-from-the-ny-ra`: How is California SB 53 different from the NY RAISE Act? — Both target large frontier developers (>10²⁶ FLOPs, >$500M revenue) and require published safety frameworks. California …
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - `text:gap-default`: Compute KYC, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet. Mandatory third-party auditing of frontier d…
@@ -5328,7 +5053,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `edge:us-preempt|co-aia`: DOJ intervened in xAI v. Colorado Apr 24, 2026
 - `edge:co-doi|co-aia`: Same state, different focus — DOI sectoral framework predates the AI Act
 - `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - Entry text that mentions the affected entries: `entry:tx-raiga:cov:mit`
 
 ---
@@ -5396,7 +5121,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `edge:ny-raise|rsp`: RAISE requires a published frontier AI framework from Jan 2027; Anthropic says it addresses such requirements with documents including its Frontier Compliance Framework, which is …
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:how-is-california-sb-53-different-from-the-ny-ra`: How is California SB 53 different from the NY RAISE Act? — Both target large frontier developers (>10²⁶ FLOPs, >$500M revenue) and require published safety frameworks. California …
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - `text:gap-default`: Compute KYC, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet. Mandatory third-party auditing of frontier d…
@@ -5479,7 +5204,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `edge:ny-raise|rsp`: RAISE requires a published frontier AI framework from Jan 2027; Anthropic says it addresses such requirements with documents including its Frontier Compliance Framework, which is …
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:how-is-california-sb-53-different-from-the-ny-ra`: How is California SB 53 different from the NY RAISE Act? — Both target large frontier developers (>10²⁶ FLOPs, >$500M revenue) and require published safety frameworks. California …
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - `text:gap-default`: Compute KYC, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet. Mandatory third-party auditing of frontier d…
@@ -5534,7 +5259,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 
 **May need reconsideration if accepted**
 
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 
 ---
 
@@ -5590,7 +5315,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `edge:us-preempt|co-aia`: DOJ intervened in xAI v. Colorado Apr 24, 2026
 - `edge:co-doi|co-aia`: Same state, different focus — DOI sectoral framework predates the AI Act
 - `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - Entry text that mentions the affected entries: `entry:tx-raiga:cov:mit`
 
 ---
@@ -5654,7 +5379,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 
 **May need reconsideration if accepted**
 
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 
 ---
 
@@ -5705,7 +5430,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `edge:us-preempt|co-aia`: DOJ intervened in xAI v. Colorado Apr 24, 2026
 - `edge:co-doi|co-aia`: Same state, different focus — DOI sectoral framework predates the AI Act
 - `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - Entry text that mentions the affected entries: `entry:tx-raiga:cov:mit`
 
 ---
@@ -5862,7 +5587,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:how-is-california-sb-53-different-from-the-ny-ra`: How is California SB 53 different from the NY RAISE Act? — Both target large frontier developers (>10²⁶ FLOPs, >$500M revenue) and require published safety frameworks. California …
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - `text:gap-default`: Compute KYC, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet. Mandatory third-party auditing of frontier d…
@@ -5988,7 +5713,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `edge:eu-aio|eu-genai-code`: AI Office facilitated the drafting by independent experts
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:halt`: Few mechanisms can compel a frontier developer to halt — Conditions for halting are the rarest column in the matrix. The EU AI Office can order recall (Aug 2026 onwards). China's …
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
 - `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
@@ -6054,7 +5779,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 
 - `edge:aisi-net|uk-aisi`: UK AISI is a founding network member
 - `edge:us-frontier-access-eo|uk-aisi`: 30-day access model mirrors UK AISI voluntary access agreements
-- `edge:uk-bill|uk-aisi`: AI Bill would put AISI on a statutory footing
+- `edge:uk-bill|uk-aisi`
 - `edge:uk-aisi|rsp`: UK AISI tested Anthropic models pre-deployment
 - `edge:uk-aisi|prep`: UK AISI tested OpenAI models pre-deployment
 - `edge:uk-aisi|fsf`: UK AISI tested DeepMind models pre-deployment
@@ -6540,7 +6265,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 **May need reconsideration if accepted**
 
 - `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
 
 ---
@@ -6681,7 +6406,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `edge:us-preempt|co-aia`: DOJ intervened in xAI v. Colorado Apr 24, 2026
 - `edge:us-preempt|ny-raise`: Preemption EO targets RAISE Act
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `text:layer-3:tooltip`: US state laws acting where federal regulation is absent or rolled back. Several have penalty regimes; EO 14365 set up a DOJ AI Litigation Task Force to challenge them, and DOJ int…
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - Entry text that mentions the affected entries: `entry:us-frontier-access-eo:context`, `entry:co-aia:context`, `entry:co-aia:cov:mit`, `entry:ny-raise:context`
@@ -6798,9 +6523,9 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 **May need reconsideration if accepted**
 
 - `edge:uk-ofcom|uk-aisi`: Complementary UK AI institutions — Ofcom on content, AISI on capabilities
-- `edge:uk-ofcom|uk-bill`: UK AI Bill would clarify the boundary between Ofcom (content) and AISI (frontier)
+- `edge:uk-ofcom|uk-bill`
 - `edge:uk-ofcom|au-esafety` — **checked, still accurate**: Parallel online-safety regulators with AI-specific authority
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
 
 ---
@@ -6905,9 +6630,9 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 **May need reconsideration if accepted**
 
 - `edge:uk-ico|uk-aisi`: Complementary UK AI regulators — ICO on data, AISI on capabilities
-- `edge:uk-ico|uk-bill`: UK AI Bill would clarify ICO's role alongside AISI
+- `edge:uk-ico|uk-bill`
 - `edge:uk-ico|eu-aia`: UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
 
 ---
@@ -6973,7 +6698,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 
 - `edge:uk-ofcom|au-esafety`: Parallel online-safety regulators with AI-specific authority
 - `edge:au-esafety|other-aisis`: Australia also participates in the AISI Network
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
 
 ---
@@ -7174,7 +6899,54 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 
 - `edge:co-doi|co-aia` — **checked, still accurate**: Same state, different focus — DOI sectoral framework predates the AI Act
 - `edge:co-doi|ny-raise`: Colorado DOI precedent informed NY RAISE's DFS office model
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
+- `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
+- Entry text that mentions the affected entries: `entry:ny-raise:cov:acct`
+
+---
+
+### P-0084 v2 — Colorado Division of Insurance: keep on the map, and say plainly that it regulates insurers, not AI model developers
+
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v2, 2026-10-11) · confidence: medium · change-hash `6cc9fa4857b7`
+
+_Revised from v1: wording changed, so it needs a fresh decision._
+
+**Change**
+
+- **`co-doi` · desc**
+
+  Current:
+
+  > First US state-level sectoral AI regulator. Regulation 10-1-1 (effective Nov 14, 2023) governs algorithm and predictive-model use by insurance carriers.
+
+  Proposed:
+
+  > First US state-level sectoral AI regulator. Regulation 10-1-1 (effective Nov 14, 2023) governs algorithm and predictive-model use by insurance carriers; it applies to insurers as deployers, not to AI model developers.
+
+**Why it matters:** SCOPE §C asks the baseline audit to raise this inclusion question; RUBRIC §1 requires a material bearing on frontier/GPAI governance, which here is only indirect.
+
+**Reasoning:** The question had no stated recommendation, so this is mine: keep the entry (it anchors the ny-raise accountability note and both connections) and make its contextual role explicit in one clause, as the question's middle option suggested. The facts are from the Division's page (S-0258#2, S-0258#3).
+
+**Evidence**
+
+- **S-0258** SB21-169 - Protecting Consumers from Unfair Discrimination in Insurance Practices — <https://doi.colorado.gov/for-consumers/sb21-169-protecting-consumers-from-unfair-discrimination-in-insurance-practices>
+  primary · retrieved 2026-10-10 · access: ok
+  intro:
+  > The legislation holds insurers accountable for testing their big data systems - including external consumer data and information sources, algorithms, and predictive models - to ensure they are not unfairly discriminating against consumers on the basis of a protected class.
+  _Supports:_ holds insurers accountable for testing their systems
+- **S-0258** SB21-169 - Protecting Consumers from Unfair Discrimination in Insurance Practices — <https://doi.colorado.gov/for-consumers/sb21-169-protecting-consumers-from-unfair-discrimination-in-insurance-practices>
+  primary · retrieved 2026-10-10 · access: ok
+  Attestations due December 1:
+  > Colorado Insurance Regulation 10-1-1 requires an insurer that does not use external consumer data and information sources (ECDIS), or algorithms or predictive models that use ECDIS, in any insurance practice to file an attestation with the Division no later than December 1.
+  _Supports:_ duties fall on insurers
+
+**Uncertainty:** If you prefer removal, say so; removing an entry needs a small tool addition (no remove-entry operation exists yet).
+
+**May need reconsideration if accepted**
+
+- `edge:co-doi|co-aia` — **checked, accurate**: Same state, different focus — DOI sectoral framework predates the AI Act
+- `edge:co-doi|ny-raise` — **causal claim not verifiable**: Colorado DOI precedent informed NY RAISE's DFS office model
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
 - Entry text that mentions the affected entries: `entry:ny-raise:cov:acct`
 
@@ -7230,6 +7002,65 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `edge:imda|jp-sectors`: Parallel light-touch sector-driven Asia-Pacific AI governance approach
 - `edge:jp-sectors|jp-ai`: Sectoral implementation under the AI Promotion Act framework
 - `edge:jp-sectors|hiroshima`: Japan's sectoral approach embeds Hiroshima Process principles
+- `edge:jp-sectors|other-aisis`: J-AISI is Japan's central institute alongside sectoral ministries
+- `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
+
+---
+
+### P-0086 v2 — Japan sectoral AI regulators: keep, anchored on the MIC/METI AI Guidelines for Business
+
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v2, 2026-10-11) · confidence: medium · change-hash `e20ae5962285`
+
+_Revised from v1: wording changed, so it needs a fresh decision._
+
+**Change**
+
+- **`jp-sectors` · desc**
+
+  Current:
+
+  > Sectoral AI guidance from Japan's ministry regulators (METI, FSA, MHLW, MIC) under the AI Promotion Act framework. Soft guidance rather than binding rules.
+
+  Proposed:
+
+  > Sectoral AI guidance from Japan's ministries under the AI Promotion Act framework, anchored by the MIC/METI AI Guidelines for Business (v1.2, Mar 2026), which call themselves soft law without legally binding force.
+
+- **`jp-sectors` · context**
+
+  Current:
+
+  > Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) issues the AI Guidelines for Business and developer-facing principles; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7.
+
+  Proposed:
+
+  > Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) and MIC jointly issue the AI Guidelines for Business, the main cross-sector instrument; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7.
+
+**Why it matters:** RUBRIC §1 requires an identifiable instrument and an attributable actor; an aggregate of ministries satisfies neither cleanly. SCOPE §C asks for this to be raised.
+
+**Reasoning:** The question had no stated recommendation, so this is mine: keep the entry but anchor it on the one specific, citable instrument (the question's middle option), and correct the context that credited the Guidelines to METI alone. From the Guidelines' cover and preface (S-0267#1, S-0267#2).
+
+**Evidence**
+
+- **S-0267** AI Guidelines for Business Ver1.2 (provisional translation) — <https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-03-31
+  cover:
+  > AI Guidelines for Business Ver1.2 March 31, 2026 Ministry of Internal Affairs and Communications Ministry of Economy, Trade and Industry
+  _Supports:_ issued jointly by MIC and METI, v1.2, 31 Mar 2026
+- **S-0267** AI Guidelines for Business Ver1.2 (provisional translation) — <https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-03-31
+  Preface:
+  > soft laws without any legally binding force that would encourage interested parties to make voluntary efforts to reduce societal risks in AI
+  _Supports:_ soft law without legally binding force
+
+**Carried over unchanged, not re-verified:** FSA and MHLW roles in the context
+
+**Uncertainty:** The FSA and MHLW roles in the context are carried over, not verified.
+
+**May need reconsideration if accepted**
+
+- `edge:imda|jp-sectors`: Parallel light-touch sector-driven Asia-Pacific AI governance approach
+- `edge:jp-sectors|jp-ai` — **checked, accurate**: Sectoral implementation under the AI Promotion Act framework
+- `edge:jp-sectors|hiroshima` — **checked, accurate**: Japan's sectoral approach embeds Hiroshima Process principles
 - `edge:jp-sectors|other-aisis`: J-AISI is Japan's central institute alongside sectoral ministries
 - `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
 
@@ -7515,7 +7346,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `edge:us-preempt|co-aia`: DOJ intervened in xAI v. Colorado Apr 24, 2026
 - `edge:us-preempt|ny-raise`: Preemption EO targets RAISE Act
 - `edge:us-ftc|us-preempt`: EO 14365 directs the FTC to explain when Section 5 preempts state AI-output laws; FTC proposed that policy statement in Jul 2026
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `text:layer-3:tooltip`: US state laws acting where federal regulation is absent or rolled back. Several have penalty regimes; EO 14365 set up a DOJ AI Litigation Task Force to challenge them, and DOJ int…
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - Entry text that mentions the affected entries: `entry:us-eo14179:context`, `entry:us-preempt:context`, `entry:us-frontier-access-eo:context`, `entry:co-aia:context`, `entry:co-aia:cov:mit`, `entry:ny-raise:context`
@@ -7585,7 +7416,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `edge:us-preempt|ny-raise`: Preemption EO targets RAISE Act
 - `edge:us-ftc|us-preempt`: EO 14365 directs the FTC to explain when Section 5 preempts state AI-output laws; FTC proposed that policy statement in Jul 2026
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `text:layer-3:tooltip`: US state laws acting where federal regulation is absent or rolled back. Several have penalty regimes; EO 14365 set up a DOJ AI Litigation Task Force to challenge them, and DOJ int…
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - Entry text that mentions the affected entries: `entry:us-frontier-access-eo:context`, `entry:co-aia:cov:mit`, `entry:ny-raise:context`
@@ -7656,7 +7487,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
 - `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
@@ -7721,7 +7552,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
 - `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
@@ -7780,10 +7611,65 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
 - `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
+- `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
+- Entry text that mentions the affected entries: `entry:kr-ai:cov:thresh`, `entry:kr-ai:cov:eval`, `entry:ca-sb53:desc`, `entry:co-aia:desc`, `entry:co-aia:context`, `entry:co-aia:cov:acct`, `entry:gpai-cop:desc`, `entry:gpai-cop:context`, `entry:gpai-cop:cov:thresh`, `entry:gpai-cop:cov:eval`, `entry:gpai-cop:cov:sec`, `entry:gpai-cop:cov:acct`, `entry:eu-genai-code:desc`, `entry:meta-faif:context`, `entry:meta-faif:cov:acct`, `entry:xai-rmf:desc`, `entry:eu-aio:context`, `entry:averi:context`, `entry:averi:cov:eval`
+
+---
+
+### P-0097 v2 — EU AI Act: add a halt note for the AI Office's power to restrict, withdraw or recall a GPAI model (Art. 93(1)(c))
+
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v2, 2026-10-11) · confidence: medium · change-hash `5e1d11c077a6`
+
+_Revised from v1: wording changed, so it needs a fresh decision._
+
+**Change**
+
+- **`eu-aia` · coverage · halt**
+
+  Current:
+
+  > _(absent)_
+
+  Proposed:
+
+  > The AI Office can require a GPAI provider to restrict a model's availability, withdraw it or recall it (Art. 93(1)(c)) — a regulator-imposed halt rather than a developer's own commitment.
+
+**Why it matters:** The coverage set drives the coverage matrix and gap summaries.
+
+**Reasoning:** You chose option (a) (add a halt note). This is the drafted wording, from Art. 93(1)(c).
+
+**Evidence**
+
+- **S-0002** Regulation (EU) 2024/1689 (AI Act), Official Journal — <https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng>
+  primary · retrieved 2026-10-10 · access: ok via EUR-Lex returned empty HTTP 202 on three attempts on 2026-10-10; this is the byte-identical copy (sha256 6bce305a8318b9db…) fetched by curl earlier on 2026-10-10 in run 2026-10-10-trial1b and held in research/.cache · adopted 2024-06-13, published 2024-07-12, in_force 2024-08-01
+  Art 93(1)(c):
+  > restrict the making available on the market, withdraw or recall the model.
+  _Supports:_ restrict, withdraw or recall the model
+
+**Uncertainty:** Depends on how the map applies METR's halt element to regulators.
+
+**May need reconsideration if accepted**
+
+- `edge:coe-ai|eu-aia`: CoE Convention is the international treaty layer above EU AI Act
+- `edge:eu-aia|eu-aio`: EU AI Office is the regulator implementing EU AI Act
+- `edge:gpai-cop|eu-aia`: GPAI Code is the voluntary route to EU AI Act compliance
+- `edge:uk-ico|eu-aia`: UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards
+- `edge:eu-genai-code|eu-aia`: Code implements the AI Act's Article 50 marking and labelling duties
+- `gap:eval`: Evaluations everywhere, mandates almost nowhere — Most mechanisms touch evaluations in some way, but mandatory third-party evaluation of frontier models is rare. The EU AI Act req…
+- `gap:elicit`: Capability elicitation sits with evaluators, not regulators — Almost no statute requires it: the EU AI Act does only indirectly, through adversarial-testing language, while the no…
+- `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
+- `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
+- `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
+- `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
+- `faq:what-does-the-eu-ai-act-require-for-systemic-ris`: What does the EU AI Act require for systemic-risk GPAI? — General-purpose AI models trained with cumulative compute above 10²⁵ FLOPs are presumed to have systemic risk and face ad…
+- `faq:what-does-the-eu-ai-office-do`: What does the EU AI Office do? — The EU AI Office (established January 2024 within DG CNECT) coordinates EU AI Act implementation across member states and directly enforces GPAI o…
+- `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
+- `text:layer-3:tooltip`: US state laws acting where federal regulation is absent or rolled back. Several have penalty regimes; EO 14365 set up a DOJ AI Litigation Task Force to challenge them, and DOJ int…
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - Entry text that mentions the affected entries: `entry:kr-ai:cov:thresh`, `entry:kr-ai:cov:eval`, `entry:ca-sb53:desc`, `entry:co-aia:desc`, `entry:co-aia:context`, `entry:co-aia:cov:acct`, `entry:gpai-cop:desc`, `entry:gpai-cop:context`, `entry:gpai-cop:cov:thresh`, `entry:gpai-cop:cov:eval`, `entry:gpai-cop:cov:sec`, `entry:gpai-cop:cov:acct`, `entry:eu-genai-code:desc`, `entry:meta-faif:context`, `entry:meta-faif:cov:acct`, `entry:xai-rmf:desc`, `entry:eu-aio:context`, `entry:averi:context`, `entry:averi:cov:eval`
 
@@ -7823,7 +7709,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `edge:cn-genai|cn-ai-law`: GenAI Measures could be consolidated into a comprehensive AI law
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
 
 ---
@@ -7926,7 +7812,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `edge:cn-genai|cn-ai-law`: GenAI Measures could be consolidated into a comprehensive AI law
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:mit`: The most-covered category, and the most ambiguous — Almost every binding regulation covers deployment mitigations in some form — content marking, refusals, monitoring, anti-discri…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
 
 ---
@@ -8017,12 +7903,136 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 
 **May need reconsideration if accepted**
 
-- `edge:coe-ai|uk-bill`: CoE Convention shapes UK AI Bill drafting
-- `edge:uk-bill|uk-aisi` — **unresolved — no official text proposes a statutory AISI**: AI Bill would put AISI on a statutory footing
-- `edge:uk-ofcom|uk-bill`: UK AI Bill would clarify the boundary between Ofcom (content) and AISI (frontier)
-- `edge:uk-ico|uk-bill`: UK AI Bill would clarify ICO's role alongside AISI
+- `edge:coe-ai|uk-bill`
+- `edge:uk-bill|uk-aisi` — **unresolved — no official text proposes a statutory AISI**
+- `edge:uk-ofcom|uk-bill`
+- `edge:uk-ico|uk-bill`
 - `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
 - Entry text that mentions the affected entries: `entry:uk-aisi:context`
+
+---
+
+### P-0101 v4 — UK AI Bill: remove the entry, or keep it as a lapsed commitment — option a: Remove the entry (history moves to UK AISI)
+
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v4, 2026-10-11) · confidence: medium · change-hash `29baf993563f`
+
+_Revised from v3: wording changed, so it needs a fresh decision._
+
+**Change**
+
+- **remove connection `coe-ai` ↔ `uk-bill`**
+
+  Current:
+
+  > _(absent)_
+
+  Proposed:
+
+  > _(absent)_
+
+- **remove connection `uk-bill` ↔ `uk-aisi`**
+
+  Current:
+
+  > _(absent)_
+
+  Proposed:
+
+  > _(absent)_
+
+- **remove connection `uk-ofcom` ↔ `uk-bill`**
+
+  Current:
+
+  > _(absent)_
+
+  Proposed:
+
+  > _(absent)_
+
+- **remove connection `uk-ico` ↔ `uk-bill`**
+
+  Current:
+
+  > _(absent)_
+
+  Proposed:
+
+  > _(absent)_
+
+- **remove entry `uk-bill`**
+
+  Current:
+
+  > UK AI Bill
+
+  Proposed:
+
+  > _(absent)_
+
+- **`uk-aisi` · context**
+
+  Current:
+
+  > Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. Without the UK AI Bill, its access remains voluntary — labs could withdraw. The inaugural Frontier AI Trends Report (Dec 2025) draws on two years of evaluating 30+ frontier models.
+
+  Proposed:
+
+  > Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. The 2024 King's Speech promised legislation on developers of the most powerful AI models, but no government bill was introduced and the May 2026 King's Speech announced none, so its access remains voluntary — labs could withdraw. The inaugural Frontier AI Trends Report (Dec 2025) draws on two years of evaluating 30+ frontier models.
+
+**Why it matters:** The entry presents an inactive, textless proposal as a live bill.
+
+**Reasoning:** (a) applies RUBRIC §1 strictly: a proposed law needs a formally introduced bill or a programme with public text or consultation, and there is neither. (b) keeps the history visible as its own entry. Both remove the unverified 'would clarify' connections; under (b) the AISI connection is reworded as an expectation. Evidence: King's Speech 2024 (S-0286#1), King's Speech 2026 and briefing notes (S-0287#2, S-0288#2), and Lord Holmes's private member's bill stalled at first reading (S-0282#2, S-0283#2). Maintainer chose option a (the recommended option).
+
+**Evidence**
+
+- **S-0286** The King's Speech 2024 (17 Jul 2024) — <https://www.gov.uk/government/speeches/the-kings-speech-2024>
+  primary · retrieved 2026-10-10 · access: ok · published 2024-07-17
+  speech text:
+  > It will seek to establish the appropriate legislation to place requirements on those working to develop the most powerful artificial intelligence models.
+  _Supports:_ 2024 promise
+- **S-0287** The King's Speech 2026 (13 May 2026) — <https://www.gov.uk/government/speeches/the-kings-speech-2026>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-05-13
+  whole speech:
+  > [Observation, not a quotation] Searched the speech for 'artificial intelligence', 'AI' and 'AI Security Institute': none appear; no AI bill is announced.
+  _Supports:_ no AI bill in the 2026 speech
+- **S-0288** The King's Speech 2026: background briefing notes — <https://assets.publishing.service.gov.uk/media/6a18713db95db968c8f3bbfd/The_King_s_Speech_2026_-_background_briefing_notes.pdf>
+  primary · retrieved 2026-10-10 · access: ok · published 2026-05-28
+  whole document:
+  > [Observation, not a quotation] Searched the briefing notes for a frontier-AI or AI Security Institute bill: none is listed. AI appears in the Regulating for Growth Bill (sandboxes) and in background to the cyber bill.
+  _Supports:_ no frontier-AI bill in the briefing notes
+- **S-0282** UK Parliament Bills API: Artificial Intelligence (Regulation) Bill [HL] (bill 3942) — <https://bills-api.parliament.uk/api/v1/Bills/3942>
+  primary · retrieved 2026-10-10 · access: ok · published 2025-03-04
+  sponsors:
+  > Lord Holmes of Richmond
+  _Supports:_ the linked bill was a private member's bill
+- **S-0283** UK Parliament Bills API: stages of bill 3942 — <https://bills-api.parliament.uk/api/v1/Bills/3942/Stages>
+  primary · retrieved 2026-10-10 · access: ok
+  items[0]:
+  > "description":"1st reading","abbreviation":"1R","house":"Lords"
+  _Supports:_ it stalled at first reading
+
+**Uncertainty:** Removing the entry lowers the mechanism count by one; the derived counts update automatically.
+
+**May need reconsideration if accepted**
+
+- `edge:coe-ai|eu-aia`: CoE Convention is the international treaty layer above EU AI Act
+- `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
+- `gap:sec`: Weight security is mostly self-imposed — The EU AI Act addresses it. The GPAI Code addresses it. The G7 Hiroshima Process mentions it. The lab frameworks all impose escalating tie…
+- `edge:aisi-net|uk-aisi`: UK AISI is a founding network member
+- `edge:us-frontier-access-eo|uk-aisi`: 30-day access model mirrors UK AISI voluntary access agreements
+- `edge:uk-aisi|rsp`: UK AISI tested Anthropic models pre-deployment
+- `edge:uk-aisi|prep`: UK AISI tested OpenAI models pre-deployment
+- `edge:uk-aisi|fsf`: UK AISI tested DeepMind models pre-deployment
+- `edge:uk-ofcom|uk-aisi`: Complementary UK AI institutions — Ofcom on content, AISI on capabilities
+- `edge:uk-ico|uk-aisi`: Complementary UK AI regulators — ICO on data, AISI on capabilities
+- `gap:elicit`: Capability elicitation sits with evaluators, not regulators — Almost no statute requires it: the EU AI Act does only indirectly, through adversarial-testing language, while the no…
+- `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
+- `edge:uk-ofcom|au-esafety`: Parallel online-safety regulators with AI-specific authority
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
+- `text:layer-4:tooltip`: Institutions that shape AI behavior — AI-specific bodies (EU AI Office, AISIs), independent evaluators and NGOs (METR, Apollo, AVERI, CAIS, FSI), sector regulators applying genera…
+- `edge:uk-ico|eu-aia`: UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards
+- Entry text that mentions the affected entries: `entry:us-frontier-access-eo:context`, `entry:uk-bill:context`, `entry:uk-bill:cov:eval`, `entry:rsp:cov:elicit`, `entry:prep:cov:eval`, `entry:fsf:cov:eval`
 
 ---
 
@@ -8083,7 +8093,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 
 - `gap:eval`: Evaluations everywhere, mandates almost nowhere — Most mechanisms touch evaluations in some way, but mandatory third-party evaluation of frontier models is rare. The EU AI Act req…
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - Entry text that mentions the affected entries: `entry:aisi-net:desc`, `entry:seoul-commit:context`, `entry:seoul-commit:cov:halt`, `entry:other-aisis:desc`
@@ -8145,7 +8155,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 
 - `gap:eval`: Evaluations everywhere, mandates almost nowhere — Most mechanisms touch evaluations in some way, but mandatory third-party evaluation of frontier models is rare. The EU AI Act req…
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:what-is-the-difference-between-layer-2-and-layer`: What is the difference between Layer 2 and Layer 4 in the map? — Layer 2 covers the laws themselves — statutes, executive orders, and framework acts like the EU AI Act, US executi…
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - Entry text that mentions the affected entries: `entry:aisi-net:desc`, `entry:seoul-commit:context`, `entry:seoul-commit:cov:halt`, `entry:other-aisis:desc`
@@ -8433,7 +8443,7 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 - `gap:timing`: Pre-deployment is widely required; post-deployment is sparse — Pre-deployment timing is the easy part: the EU AI Act, China's GenAI Measures, Korea's Framework Act, and the lab fr…
 - `gap:acct`: The well-populated column — but not all accountability is equal — Most mechanisms claim accountability of some kind, from binding incident reporting (SB 53, RAISE Act, EU AI Act) …
 - `gap:update`: Most policies don't update themselves — The EU AI Act revises through its Code of Practice and through delegated acts that can move the 10²⁵ threshold. California SB 53 requires l…
-- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measu…
+- `faq:which-ai-laws-are-binding-with-penalties`: Which AI laws are binding with penalties? — Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Meas…
 - `faq:how-is-california-sb-53-different-from-the-ny-ra`: How is California SB 53 different from the NY RAISE Act? — Both target large frontier developers (>10²⁶ FLOPs, >$500M revenue) and require published safety frameworks. California …
 - `text:footer-sources`: Sources: International AI Safety Report (Feb 2026), METR Common Elements of Frontier AI Safety Policies (Dec 2025), Brundage Substack, EU AI Act and AI Office documentation, Calif…
 - `text:gap-default`: Compute KYC, liability rules for harmful outputs, and international verification regimes are proposed somewhere — binding nowhere yet. Mandatory third-party auditing of frontier d…
@@ -9184,6 +9194,52 @@ _Revised from v1: wording changed, so it needs a fresh decision._
 **Carried over unchanged, not re-verified:** Implementation detail is delegated to the EU GPAI Code of Practice and harmonised standards. (Art. 55(2): providers may rely on codes until a harmonised standard is published)
 
 **Uncertainty:** none material
+
+---
+
+### P-0120 v1 — FAQ 'Which AI laws are binding with penalties?': update for Colorado and Texas (pow 4) and the Illinois Act
+
+`change` · evidence: **Verified against inspected external sources** · decision: **accepted** (v1, 2026-10-11) · confidence: high · change-hash `7cdb4c9bf20c`
+
+**Linked:** P-0062, P-0063, P-0064, P-0066
+
+**Change**
+
+- **`index.html`**
+
+  Current:
+
+  > Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation) and the NY RAISE Act ($1M/$3M). Most are phasing in; the two US state laws face a federal preemption push under EO 14365, which set up a DOJ task force to challenge state AI laws. The map's wider count of mechanisms that are binding with penalties also includes US BIS export controls and five regulators: the EU AI Office, UK Ofcom, the UK ICO, Australia's eSafety Commissioner and the Colorado Division of Insurance. The map classes the Colorado AI Act and Texas TRAIGA as hard law with weak enforcement, so they are not counted here.
+
+  Proposed:
+
+  > Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation), the NY RAISE Act ($1M/$3M), the Illinois AI Safety Measures Act ($1M/$3M), the Colorado ADMT Act and Texas TRAIGA (up to $200,000 per uncurable violation). Most are phasing in; the US state laws face a federal preemption push under EO 14365, which set up a DOJ task force to challenge state AI laws. The map's wider count of mechanisms that are binding with penalties also includes US BIS export controls and five regulators: the EU AI Office, UK Ofcom, the UK ICO, Australia's eSafety Commissioner and the Colorado Division of Insurance.
+
+**Why it matters:** Your decisions changed the facts this answer summarises: Colorado and Texas are now classed as binding with penalties (P-0062, P-0063), Colorado's entry is renamed (P-0064), and the Illinois Act was added (P-0066). The answer still says five laws and that Colorado and Texas are excluded.
+
+**Reasoning:** Lists the eight Layer 2–3 entries the map now classes pow 4 (eu-aia, cn-genai, kr-ai, ca-sb53, ny-raise, il-aisma, co-aia, tx-raiga). New penalty figures: Illinois §25(a) (S-0170#11) and Texas §552.105(a) (S-0165#6). Other figures and the regulator list are carried over from the current answer. 'the two US state laws' becomes 'the US state laws', since five are now listed.
+
+**Evidence**
+
+- **S-0170** Illinois Public Act 104-0538 (SB 315 enrolled): Artificial Intelligence Safety Measures Act — <https://www.ilga.gov/Documents/Legislation/PublicActs/104/PDF/104-0538.pdf>
+  primary · retrieved 2026-10-10 · access: ok via curl with a CA file = session CA bundle + the issuing intermediate fetched from the certificate's AIA URL (the site omits its intermediate, so default verification fails); chain verified to a trusted root · adopted 2026-07-06, effective 2027-01-01, applies_from 2028-01-01
+  Section 25(a):
+  > shall be subject to a civil penalty in an amount dependent upon the severity of the violation that does not exceed $1,000,000 for the first violation. For a subsequent violation, the civil penalty may not exceed $3,000,000 per violation.
+  _Supports:_ Illinois penalties up to $1M first violation
+- **S-0165** H.B. No. 149 (89th Legislature), enrolled text (Texas Responsible Artificial Intelligence Governance Act) — <https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149F.pdf>
+  primary · retrieved 2026-10-10 · access: ok · adopted 2025-06-22, effective 2026-01-01
+  Bus. & Com. Code §552.105(a)(2)–(3):
+  > uncurable, not less than $80,000 and not more than $200,000; and
+  _Supports:_ TRAIGA up to $200,000 per uncurable violation
+- **S-0301** Map repository at 3599164 (index.html, build-llms.js, data.json, sitemap.xml) — <https://github.com/buildwithwhy/ai-governance-map/tree/3599164>
+  repo · retrieved 2026-10-10 · access: ok via repo
+  tools/check.js output:
+  > 0 error(s), 0 known issue(s), 5 warning(s): hand-maintained counts match the data (50 mechanisms); llms.txt, llms-full.txt and data.json equal a fresh build; all content-date sites agree (2026-10-10).
+  _Supports:_ map classifications
+
+**Carried over unchanged, not re-verified:** EU, Korea, California and New York penalty figures (verified in their entries' checks, restated here)
+
+**Uncertainty:** Colorado's penalty amount is set by the Colorado Consumer Protection Act, not the ADMT statute, so no figure is given. The ICO is now the Information Commission but is still branded ICO; kept as 'the UK ICO'.
 
 
 ### Closed or deferred

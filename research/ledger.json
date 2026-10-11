@@ -11539,14 +11539,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 2,
+        "hash": "6cc9fa4857b7",
+        "date": "2026-10-11",
+        "note": "Review page response 2026-10-11T01:22:14.746Z",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-11.json",
+        "date": "2026-10-11"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -11771,14 +11776,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 2,
+        "hash": "e20ae5962285",
+        "date": "2026-10-11",
+        "note": "Review page response 2026-10-11T01:22:19.071Z",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-11.json",
+        "date": "2026-10-11"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -12914,14 +12924,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 2,
+        "hash": "5e1d11c077a6",
+        "date": "2026-10-11",
+        "note": "Review page response 2026-10-11T01:23:35.167Z",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-11.json",
+        "date": "2026-10-11"
+      },
       "research": {
         "status": "verified",
         "missing": [],
@@ -13275,8 +13290,14 @@
     },
     {
       "id": "P-0101",
-      "fingerprint": "4f53cda18c2b",
-      "targets": [],
+      "fingerprint": "304d2e8bf91c",
+      "targets": [
+        "edge:coe-ai|uk-bill",
+        "edge:uk-bill|uk-aisi",
+        "edge:uk-ofcom|uk-bill",
+        "edge:uk-ico|uk-bill",
+        "entry:uk-aisi:context"
+      ],
       "resolves_checks": [],
       "versions": [
         {
@@ -13543,21 +13564,139 @@
             "edge:uk-ico|eu-aia"
           ],
           "hash": "4e56a494e697"
+        },
+        {
+          "v": 4,
+          "created": "2026-10-11T01:24:15Z",
+          "run": null,
+          "author": "user",
+          "title": "UK AI Bill: remove the entry, or keep it as a lapsed commitment — option a: Remove the entry (history moves to UK AISI)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "remove_edge",
+              "a": "coe-ai",
+              "b": "uk-bill",
+              "from": "CoE Convention shapes UK AI Bill drafting"
+            },
+            {
+              "op": "remove_edge",
+              "a": "uk-bill",
+              "b": "uk-aisi",
+              "from": "AI Bill would put AISI on a statutory footing"
+            },
+            {
+              "op": "remove_edge",
+              "a": "uk-ofcom",
+              "b": "uk-bill",
+              "from": "UK AI Bill would clarify the boundary between Ofcom (content) and AISI (frontier)"
+            },
+            {
+              "op": "remove_edge",
+              "a": "uk-ico",
+              "b": "uk-bill",
+              "from": "UK AI Bill would clarify ICO's role alongside AISI"
+            },
+            {
+              "op": "remove_entity",
+              "entity": "uk-bill",
+              "from": "UK AI Bill"
+            },
+            {
+              "op": "set_field",
+              "entity": "uk-aisi",
+              "field": "context",
+              "from": "Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. Without the UK AI Bill, its access remains voluntary — labs could withdraw. The inaugural Frontier AI Trends Report (Dec 2025) draws on two years of evaluating 30+ frontier models.",
+              "to": "Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. The 2024 King's Speech promised legislation on developers of the most powerful AI models, but no government bill was introduced and the May 2026 King's Speech announced none, so its access remains voluntary — labs could withdraw. The inaugural Frontier AI Trends Report (Dec 2025) draws on two years of evaluating 30+ frontier models."
+            }
+          ],
+          "why": "The entry presents an inactive, textless proposal as a live bill.",
+          "rationale": "(a) applies RUBRIC §1 strictly: a proposed law needs a formally introduced bill or a programme with public text or consultation, and there is neither. (b) keeps the history visible as its own entry. Both remove the unverified 'would clarify' connections; under (b) the AISI connection is reworded as an expectation. Evidence: King's Speech 2024 (S-0286#1), King's Speech 2026 and briefing notes (S-0287#2, S-0288#2), and Lord Holmes's private member's bill stalled at first reading (S-0282#2, S-0283#2). Maintainer chose option a (the recommended option).",
+          "evidence": [
+            {
+              "source": "S-0286",
+              "passage": "S-0286#1",
+              "stance": "supports",
+              "supports": "2024 promise"
+            },
+            {
+              "source": "S-0287",
+              "passage": "S-0287#2",
+              "stance": "supports",
+              "supports": "no AI bill in the 2026 speech"
+            },
+            {
+              "source": "S-0288",
+              "passage": "S-0288#2",
+              "stance": "supports",
+              "supports": "no frontier-AI bill in the briefing notes"
+            },
+            {
+              "source": "S-0282",
+              "passage": "S-0282#2",
+              "stance": "supports",
+              "supports": "the linked bill was a private member's bill"
+            },
+            {
+              "source": "S-0283",
+              "passage": "S-0283#2",
+              "stance": "supports",
+              "supports": "it stalled at first reading"
+            }
+          ],
+          "uncertainty": "Removing the entry lowers the mechanism count by one; the derived counts update automatically.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:coe-ai|eu-aia",
+            "gap:update",
+            "gap:sec",
+            "entry:us-frontier-access-eo:context",
+            "entry:uk-bill:context",
+            "entry:uk-bill:cov:eval",
+            "entry:rsp:cov:elicit",
+            "entry:prep:cov:eval",
+            "entry:fsf:cov:eval",
+            "edge:aisi-net|uk-aisi",
+            "edge:us-frontier-access-eo|uk-aisi",
+            "edge:uk-aisi|rsp",
+            "edge:uk-aisi|prep",
+            "edge:uk-aisi|fsf",
+            "edge:uk-ofcom|uk-aisi",
+            "edge:uk-ico|uk-aisi",
+            "gap:elicit",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "edge:uk-ofcom|au-esafety",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip",
+            "edge:uk-ico|eu-aia"
+          ],
+          "hash": "29baf993563f"
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 4,
+        "hash": "29baf993563f",
+        "date": "2026-10-11",
+        "note": "Review page response 2026-10-11T01:23:09.224Z: option a (recommended)",
+        "revisit_after": null,
+        "edited": true
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-11.json",
+        "date": "2026-10-11"
+      },
       "research": {
         "status": "verified",
         "missing": [],
-        "updated": "2026-10-10"
+        "updated": "2026-10-11"
       }
     },
     {
@@ -15555,14 +15694,19 @@
         }
       ],
       "decision": {
-        "status": "pending",
-        "v": null,
-        "hash": null,
-        "date": null,
-        "note": null
+        "status": "accepted",
+        "v": 1,
+        "hash": "7cdb4c9bf20c",
+        "date": "2026-10-11",
+        "note": "Review page response 2026-10-11T01:22:50.869Z",
+        "revisit_after": null,
+        "edited": false
       },
       "decision_log": [],
-      "applied": null,
+      "applied": {
+        "manifest": "research/applied/2026-10-11.json",
+        "date": "2026-10-11"
+      },
       "research": {
         "status": "verified",
         "missing": [],

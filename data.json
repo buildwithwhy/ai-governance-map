@@ -1,9 +1,9 @@
 {
   "$schema": "https://ai-governance-map.buildwithwhy.com/data.schema.json",
   "name": "Frontier AI Governance Map",
-  "description": "Interactive map of frontier AI governance: 53 mechanisms across six layers, with METR's nine common elements as an orthogonal filter.",
-  "version": "2026.10.10",
-  "updated": "2026-10-10",
+  "description": "Interactive map of frontier AI governance: 52 mechanisms across six layers, with METR's nine common elements as an orthogonal filter.",
+  "version": "2026.10.11",
+  "updated": "2026-10-11",
   "url": "https://ai-governance-map.buildwithwhy.com",
   "repository": "https://github.com/buildwithwhy/ai-governance-map",
   "license": "CC-BY-4.0",
@@ -14,8 +14,8 @@
     "email": "buildwithwhy@gmail.com"
   },
   "stats": {
-    "mechanisms": 53,
-    "edges": 91,
+    "mechanisms": 52,
+    "edges": 87,
     "voluntary_or_norm_only": 19,
     "binding_with_penalties": 14,
     "categories": 9,
@@ -286,6 +286,7 @@
         "timing": "Both pre-market obligations (conformity assessments for high-risk; transparency for GPAI) and post-market duties (post-market monitoring for high-risk systems; AI Office supervision of GPAI models). The first regulation to formally split the lifecycle this way.",
         "sec": "Cybersecurity protections for model weights are mandatory for systemic-risk GPAI under Article 55. Implementation detail is delegated to the Code of Practice and harmonised standards.",
         "mit": "A layered set of obligations: prohibited practices (banned), high-risk obligations (impact assessments, registration), GPAI duties (transparency, copyright), Article 50 marking of AI-generated content, and additional systemic-risk mitigations. The most comprehensive deployment-mitigation regime in any binding instrument.",
+        "halt": "The AI Office can require a GPAI provider to restrict a model's availability, withdraw it or recall it (Art. 93(1)(c)) — a regulator-imposed halt rather than a developer's own commitment.",
         "acct": "Mandatory incident reporting to the EU AI Office for systemic-risk GPAI; market-surveillance authorities handle high-risk systems. The Office can request models, order recalls, and fine GPAI providers up to €15M / 3% global revenue.",
         "update": "The Code of Practice and harmonised standards are revisable as the field changes, and the Commission can update the 10²⁵ threshold and the Annex III high-risk list by delegated act; other changes to the regulation go through ordinary EU legislative procedure (slower)."
       }
@@ -426,26 +427,6 @@
         "eval": "No official draft has been published, so evaluation duties are not yet defined.",
         "mit": "No official draft has been published, so mitigation duties are not yet defined.",
         "acct": "No official draft has been published, so the oversight structure is not yet defined. Drafting is ministry-led (MOST and others) ahead of any NPC Standing Committee reading."
-      }
-    },
-    {
-      "id": "uk-bill",
-      "name": "UK AI Bill",
-      "layer": 2,
-      "layer_name": "National regulation",
-      "jurisdiction": "uk",
-      "jurisdiction_name": "United Kingdom",
-      "enforceability": 2,
-      "enforceability_name": "Soft / advisory",
-      "status": "proposed",
-      "status_name": "Proposed",
-      "primary_source": "https://www.gov.uk/government/speeches/the-kings-speech-2024",
-      "description": "The 2024 King's Speech promised legislation on developers of the most powerful AI models; no government bill was introduced, and the May 2026 King's Speech announced none.",
-      "context": "Would put the UK AI Security Institute on a statutory footing with information-gathering powers, and create binding rules for the most powerful frontier models. Successive missed introduction dates reflect tension between Labour's growth agenda and its safety commitments. Until passed, the UK relies on AISI's pre-deployment access agreements with frontier labs — voluntary and revocable.",
-      "coverage": {
-        "thresh": "If passed, would target the most powerful frontier models — drafts have referenced cumulative compute or comparable capability indicators. Specifics are still under negotiation.",
-        "eval": "Would put the UK AI Security Institute on a statutory footing with information-gathering powers, including access to models and pre-deployment evaluations. Currently AISI's access is voluntary and revocable.",
-        "acct": "Would create binding rules and enforcement mechanisms for frontier developers, replacing the current voluntary memoranda. Until enacted, the UK relies on reputational pressure."
       }
     },
     {
@@ -906,7 +887,7 @@
       "status_name": "In force",
       "primary_source": "https://www.aisi.gov.uk/",
       "description": "Renamed UK AI Security Institute (Feb 2025). 30+ frontier models tested.",
-      "context": "Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. Without the UK AI Bill, its access remains voluntary — labs could withdraw. The inaugural Frontier AI Trends Report (Dec 2025) draws on two years of evaluating 30+ frontier models.",
+      "context": "Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. The 2024 King's Speech promised legislation on developers of the most powerful AI models, but no government bill was introduced and the May 2026 King's Speech announced none, so its access remains voluntary — labs could withdraw. The inaugural Frontier AI Trends Report (Dec 2025) draws on two years of evaluating 30+ frontier models.",
       "coverage": {
         "eval": "Pre-deployment testing of frontier models under voluntary access agreements with major labs. 30+ models tested; among the most active national-level frontier evaluators.",
         "elicit": "Red-teaming, jailbreaking research, and capability elicitation are core to AISI's published outputs. Methodologies often adopted by other AISIs and lab frameworks.",
@@ -1143,7 +1124,7 @@
       "status": "active",
       "status_name": "In force",
       "primary_source": "https://doi.colorado.gov/category/ai",
-      "description": "First US state-level sectoral AI regulator. Regulation 10-1-1 (effective Nov 14, 2023) governs algorithm and predictive-model use by insurance carriers.",
+      "description": "First US state-level sectoral AI regulator. Regulation 10-1-1 (effective Nov 14, 2023) governs algorithm and predictive-model use by insurance carriers; it applies to insurers as deployers, not to AI model developers.",
       "context": "Predates every comprehensive US state AI law. Requires insurance carriers to implement an algorithm and predictive-model governance framework, conduct bias testing, document model assumptions, and submit attestations — applied to life insurers first (Nov 2023), then extended to private passenger auto and health benefit plan insurers (Oct 2025). Followed by similar adoptions in other states via the NAIC Model Bulletin on AI (Dec 2023). The historical anchor that complicates 'first sectoral AI regulator' claims about later state laws like NY RAISE's DFS office.",
       "coverage": {
         "eval": "Algorithm governance framework with mandatory bias testing and documented model assumptions for in-scope insurance lines.",
@@ -1185,8 +1166,8 @@
       "status": "active",
       "status_name": "In force",
       "primary_source": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html",
-      "description": "Sectoral AI guidance from Japan's ministry regulators (METI, FSA, MHLW, MIC) under the AI Promotion Act framework. Soft guidance rather than binding rules.",
-      "context": "Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) issues the AI Guidelines for Business and developer-facing principles; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7.",
+      "description": "Sectoral AI guidance from Japan's ministries under the AI Promotion Act framework, anchored by the MIC/METI AI Guidelines for Business (v1.2, Mar 2026), which call themselves soft law without legally binding force.",
+      "context": "Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) and MIC jointly issue the AI Guidelines for Business, the main cross-sector instrument; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7.",
       "coverage": {
         "mit": "Sectoral guidance varies by ministry but generally focuses on transparency, explainability, human oversight, and risk management in domain-specific contexts.",
         "acct": "Sectoral oversight via existing ministry powers; no central AI regulator. Coordination through the AI Strategic Headquarters.",
@@ -1300,11 +1281,6 @@
       "relationship": "CoE Convention is the international treaty layer above EU AI Act"
     },
     {
-      "from": "coe-ai",
-      "to": "uk-bill",
-      "relationship": "CoE Convention shapes UK AI Bill drafting"
-    },
-    {
       "from": "us-eo14179",
       "to": "us-action",
       "relationship": "EO 14179 ordered the Jul 2025 AI Action Plan"
@@ -1338,11 +1314,6 @@
       "from": "cn-genai",
       "to": "cn-ai-law",
       "relationship": "GenAI Measures could be consolidated into a comprehensive AI law"
-    },
-    {
-      "from": "uk-bill",
-      "to": "uk-aisi",
-      "relationship": "AI Bill would put AISI on a statutory footing"
     },
     {
       "from": "us-preempt",
@@ -1556,11 +1527,6 @@
     },
     {
       "from": "uk-ofcom",
-      "to": "uk-bill",
-      "relationship": "UK AI Bill would clarify the boundary between Ofcom (content) and AISI (frontier)"
-    },
-    {
-      "from": "uk-ofcom",
       "to": "au-esafety",
       "relationship": "Parallel online-safety regulators with AI-specific authority"
     },
@@ -1568,11 +1534,6 @@
       "from": "uk-ico",
       "to": "uk-aisi",
       "relationship": "Complementary UK AI regulators — ICO on data, AISI on capabilities"
-    },
-    {
-      "from": "uk-ico",
-      "to": "uk-bill",
-      "relationship": "UK AI Bill would clarify ICO's role alongside AISI"
     },
     {
       "from": "uk-ico",

@@ -34,7 +34,7 @@ const LAYERS = {
 const SITE_URL = 'https://ai-governance-map.buildwithwhy.com';
 const AUTHOR_SITE = 'https://buildwithwhy.com';
 const AUTHOR_EMAIL = 'buildwithwhy@gmail.com';
-const UPDATED = '10 October 2026';
+const UPDATED = '11 October 2026';
 
 // ---- llms-full.txt ---------------------------------------------------------
 let full = '';
@@ -148,8 +148,8 @@ const data = {
   $schema: 'https://ai-governance-map.buildwithwhy.com/data.schema.json',
   name: 'Frontier AI Governance Map',
   description: `Interactive map of frontier AI governance: ${ENTITIES.length} mechanisms across six layers, with METR's nine common elements as an orthogonal filter.`,
-  version: '2026.10.10',
-  updated: '2026-10-10',
+  version: '2026.10.11',
+  updated: '2026-10-11',
   url: SITE_URL,
   repository: 'https://github.com/buildwithwhy/ai-governance-map',
   license: 'CC-BY-4.0',

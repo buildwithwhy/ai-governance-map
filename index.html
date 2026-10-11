@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Frontier AI Governance Map — AI Regulatory Tracker</title>
-<meta name="description" content="Interactive map of 53 frontier AI governance mechanisms across six layers — international, national, sub-national, voluntary, lab, infrastructure — using METR's nine common elements.">
+<meta name="description" content="Interactive map of 52 frontier AI governance mechanisms across six layers — international, national, sub-national, voluntary, lab, infrastructure — using METR's nine common elements.">
 
 <link rel="canonical" href="https://ai-governance-map.buildwithwhy.com/">
 
 <meta property="og:title" content="Frontier AI Governance Map — AI Regulatory Tracker">
-<meta property="og:description" content="Interactive map of 53 frontier AI governance mechanisms across six layers and METR's nine common elements.">
+<meta property="og:description" content="Interactive map of 52 frontier AI governance mechanisms across six layers and METR's nine common elements.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ai-governance-map.buildwithwhy.com/">
 <meta property="og:image" content="https://ai-governance-map.buildwithwhy.com/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Frontier AI Governance Map — AI Regulatory Tracker">
-<meta name="twitter:description" content="Interactive map of 53 frontier AI governance mechanisms across six layers and METR's nine common elements.">
+<meta name="twitter:description" content="Interactive map of 52 frontier AI governance mechanisms across six layers and METR's nine common elements.">
 <meta name="twitter:image" content="https://ai-governance-map.buildwithwhy.com/og.png">
 
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -30,11 +30,11 @@
   "@type": "Dataset",
   "name": "Frontier AI Governance Map",
   "alternateName": "AI Regulatory Tracker",
-  "description": "Interactive map of 53 frontier AI governance mechanisms across six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter.",
+  "description": "Interactive map of 52 frontier AI governance mechanisms across six layers (international, national, sub-national, industry voluntary, corporate self-governance, infrastructure) and METR's nine common elements as an orthogonal filter.",
   "url": "https://ai-governance-map.buildwithwhy.com/",
   "sameAs": "https://github.com/buildwithwhy/ai-governance-map",
-  "dateModified": "2026-10-10",
-  "version": "2026.10.10",
+  "dateModified": "2026-10-11",
+  "version": "2026.10.11",
   "inLanguage": "en",
   "isAccessibleForFree": true,
   "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -118,7 +118,7 @@
       "name": "Which AI laws are binding with penalties?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Five AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation) and the NY RAISE Act ($1M/$3M). Most are phasing in; the two US state laws face a federal preemption push under EO 14365, which set up a DOJ task force to challenge state AI laws. The map's wider count of mechanisms that are binding with penalties also includes US BIS export controls and five regulators: the EU AI Office, UK Ofcom, the UK ICO, Australia's eSafety Commissioner and the Colorado Division of Insurance. The map classes the Colorado AI Act and Texas TRAIGA as hard law with weak enforcement, so they are not counted here."
+        "text": "Eight AI laws in this map are classed as binding with penalties: the EU AI Act (up to €35M or 7% of global revenue), China's GenAI Measures, Korea's AI Basic Act (~$21k per violation), California SB 53 (up to $1M per violation), the NY RAISE Act ($1M/$3M), the Illinois AI Safety Measures Act ($1M/$3M), the Colorado ADMT Act and Texas TRAIGA (up to $200,000 per uncurable violation). Most are phasing in; the US state laws face a federal preemption push under EO 14365, which set up a DOJ task force to challenge state AI laws. The map's wider count of mechanisms that are binding with penalties also includes US BIS export controls and five regulators: the EU AI Office, UK Ofcom, the UK ICO, Australia's eSafety Commissioner and the Colorado Division of Insurance."
       }
     },
     {
@@ -365,7 +365,7 @@
 
   <div class="topbar">
     <span>By Yuyu Shen · <a href="https://buildwithwhy.com" target="_blank" rel="author noopener noreferrer">buildwithwhy.com</a></span>
-    <span><span class="share-wrapper"><button class="topbar-action" data-action="share" type="button" aria-haspopup="menu" aria-expanded="false">Share</button><div class="share-menu" id="share-menu" role="menu" hidden></div></span> · <button class="topbar-action" data-action="copy-link" type="button">Copy link</button> · Content updated <time datetime="2026-10-10">10 October 2026</time></span>
+    <span><span class="share-wrapper"><button class="topbar-action" data-action="share" type="button" aria-haspopup="menu" aria-expanded="false">Share</button><div class="share-menu" id="share-menu" role="menu" hidden></div></span> · <button class="topbar-action" data-action="copy-link" type="button">Copy link</button> · Content updated <time datetime="2026-10-11">11 October 2026</time></span>
   </div>
 
   <header class="hero">
@@ -383,7 +383,7 @@
   </noscript>
 
   <div class="stats" role="list">
-    <div class="stat" role="listitem"><div class="num">53</div><div class="lbl">mechanisms mapped</div></div>
+    <div class="stat" role="listitem"><div class="num">52</div><div class="lbl">mechanisms mapped</div></div>
     <div class="stat" role="listitem"><div class="num">19</div><div class="lbl">voluntary or norm-only</div></div>
     <div class="stat" role="listitem"><div class="num">14</div><div class="lbl">binding with penalties</div></div>
     <div class="stat" role="listitem"><div class="num">9</div><div class="lbl">coverage categories</div></div>
@@ -563,6 +563,7 @@ const ENTITIES = [
       timing: "Both pre-market obligations (conformity assessments for high-risk; transparency for GPAI) and post-market duties (post-market monitoring for high-risk systems; AI Office supervision of GPAI models). The first regulation to formally split the lifecycle this way.",
       sec: "Cybersecurity protections for model weights are mandatory for systemic-risk GPAI under Article 55. Implementation detail is delegated to the Code of Practice and harmonised standards.",
       mit: "A layered set of obligations: prohibited practices (banned), high-risk obligations (impact assessments, registration), GPAI duties (transparency, copyright), Article 50 marking of AI-generated content, and additional systemic-risk mitigations. The most comprehensive deployment-mitigation regime in any binding instrument.",
+      halt: "The AI Office can require a GPAI provider to restrict a model's availability, withdraw it or recall it (Art. 93(1)(c)) — a regulator-imposed halt rather than a developer's own commitment.",
       acct: "Mandatory incident reporting to the EU AI Office for systemic-risk GPAI; market-surveillance authorities handle high-risk systems. The Office can request models, order recalls, and fine GPAI providers up to €15M / 3% global revenue.",
       update: "The Code of Practice and harmonised standards are revisable as the field changes, and the Commission can update the 10²⁵ threshold and the Annex III high-risk list by delegated act; other changes to the regulation go through ordinary EU legislative procedure (slower)."
     } },
@@ -619,14 +620,6 @@ const ENTITIES = [
       eval: "No official draft has been published, so evaluation duties are not yet defined.",
       mit: "No official draft has been published, so mitigation duties are not yet defined.",
       acct: "No official draft has been published, so the oversight structure is not yet defined. Drafting is ministry-led (MOST and others) ahead of any NPC Standing Committee reading."
-    } },
-  { id: 'uk-bill', link: 'https://www.gov.uk/government/speeches/the-kings-speech-2024', name: 'UK AI Bill', layer: 2, jur: 'uk', pow: 2, status: 'proposed',
-    desc: 'The 2024 King\'s Speech promised legislation on developers of the most powerful AI models; no government bill was introduced, and the May 2026 King\'s Speech announced none.',
-    context: "Would put the UK AI Security Institute on a statutory footing with information-gathering powers, and create binding rules for the most powerful frontier models. Successive missed introduction dates reflect tension between Labour's growth agenda and its safety commitments. Until passed, the UK relies on AISI's pre-deployment access agreements with frontier labs — voluntary and revocable.",
-    cov: {
-      thresh: "If passed, would target the most powerful frontier models — drafts have referenced cumulative compute or comparable capability indicators. Specifics are still under negotiation.",
-      eval: "Would put the UK AI Security Institute on a statutory footing with information-gathering powers, including access to models and pre-deployment evaluations. Currently AISI's access is voluntary and revocable.",
-      acct: "Would create binding rules and enforcement mechanisms for frontier developers, replacing the current voluntary memoranda. Until enacted, the UK relies on reputational pressure."
     } },
   { id: 'kr-ai', link: 'https://aibasicact.kr/', name: 'Korea AI Framework Act', layer: 2, jur: 'as', pow: 4, status: 'phasing',
     desc: 'AI Basic Act. In force Jan 22, 2026. One-year grace period — penalties (capped ~$21k per violation) begin Jan 22, 2027.',
@@ -839,7 +832,7 @@ const ENTITIES = [
     } },
   { id: 'uk-aisi', link: 'https://www.aisi.gov.uk/', name: 'UK AISI', layer: 4, jur: 'uk', pow: 2, status: 'active',
     desc: 'Renamed UK AI Security Institute (Feb 2025). 30+ frontier models tested.',
-    context: "Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. Without the UK AI Bill, its access remains voluntary — labs could withdraw. The inaugural Frontier AI Trends Report (Dec 2025) draws on two years of evaluating 30+ frontier models.",
+    context: "Conducts pre-deployment evaluations of frontier models under voluntary access agreements with major labs; publishes red-teaming and jailbreaking research. The Feb 2025 rename to 'AI Security Institute' narrowed focus toward national-security-adjacent risks (cyber, bio, autonomy) and aligned framing with US CAISI. The 2024 King's Speech promised legislation on developers of the most powerful AI models, but no government bill was introduced and the May 2026 King's Speech announced none, so its access remains voluntary — labs could withdraw. The inaugural Frontier AI Trends Report (Dec 2025) draws on two years of evaluating 30+ frontier models.",
     cov: {
       eval: "Pre-deployment testing of frontier models under voluntary access agreements with major labs. 30+ models tested; among the most active national-level frontier evaluators.",
       elicit: "Red-teaming, jailbreaking research, and capability elicitation are core to AISI's published outputs. Methodologies often adopted by other AISIs and lab frameworks.",
@@ -932,7 +925,7 @@ const ENTITIES = [
       acct: "Civil penalties of up to 30,000 penalty units for breaching an industry standard or a code direction (500 for most notice breaches); takedown notices; service-disruption orders."
     } },
   { id: 'co-doi', link: 'https://doi.colorado.gov/category/ai', name: 'Colorado Division of Insurance', layer: 4, jur: 'uss', pow: 4, status: 'active',
-    desc: 'First US state-level sectoral AI regulator. Regulation 10-1-1 (effective Nov 14, 2023) governs algorithm and predictive-model use by insurance carriers.',
+    desc: 'First US state-level sectoral AI regulator. Regulation 10-1-1 (effective Nov 14, 2023) governs algorithm and predictive-model use by insurance carriers; it applies to insurers as deployers, not to AI model developers.',
     context: "Predates every comprehensive US state AI law. Requires insurance carriers to implement an algorithm and predictive-model governance framework, conduct bias testing, document model assumptions, and submit attestations — applied to life insurers first (Nov 2023), then extended to private passenger auto and health benefit plan insurers (Oct 2025). Followed by similar adoptions in other states via the NAIC Model Bulletin on AI (Dec 2023). The historical anchor that complicates 'first sectoral AI regulator' claims about later state laws like NY RAISE's DFS office.",
     cov: {
       eval: "Algorithm governance framework with mandatory bias testing and documented model assumptions for in-scope insurance lines.",
@@ -950,8 +943,8 @@ const ENTITIES = [
       update: "Model framework extended to GenAI in 2024 and to agentic AI in Jan 2026 (updated May 2026); AI Verify continually updated as evaluation methodology matures."
     } },
   { id: 'jp-sectors', link: 'https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html', name: 'Japan sectoral AI regulators', layer: 4, jur: 'as', pow: 2, status: 'active',
-    desc: "Sectoral AI guidance from Japan's ministry regulators (METI, FSA, MHLW, MIC) under the AI Promotion Act framework. Soft guidance rather than binding rules.",
-    context: "Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) issues the AI Guidelines for Business and developer-facing principles; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7.",
+    desc: "Sectoral AI guidance from Japan's ministries under the AI Promotion Act framework, anchored by the MIC/METI AI Guidelines for Business (v1.2, Mar 2026), which call themselves soft law without legally binding force.",
+    context: "Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) and MIC jointly issue the AI Guidelines for Business, the main cross-sector instrument; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7.",
     cov: {
       mit: "Sectoral guidance varies by ministry but generally focuses on transparency, explainability, human oversight, and risk management in domain-specific contexts.",
       acct: "Sectoral oversight via existing ministry powers; no central AI regulator. Coordination through the AI Strategic Headquarters.",
@@ -988,7 +981,6 @@ const EDGES = [
   { a: 'ai-summits', b: 'delhi-commit', rel: 'Delhi commitments came out of the Feb 2026 summit' },
   { a: 'oecd', b: 'hiroshima', rel: 'OECD principles inform the G7 Hiroshima Code' },
   { a: 'coe-ai', b: 'eu-aia', rel: 'CoE Convention is the international treaty layer above EU AI Act' },
-  { a: 'coe-ai', b: 'uk-bill', rel: 'CoE Convention shapes UK AI Bill drafting' },
   { a: 'us-eo14179', b: 'us-action', rel: 'EO 14179 ordered the Jul 2025 AI Action Plan' },
   { a: 'us-frontier-access-eo', b: 'us-eo14179', rel: 'Marks shift from prior deregulation-only EO posture' },
   { a: 'us-frontier-access-eo', b: 'uk-aisi', rel: '30-day access model mirrors UK AISI voluntary access agreements' },
@@ -996,7 +988,6 @@ const EDGES = [
   { a: 'us-eo14179', b: 'caisi', rel: 'EO led to AISI rename to CAISI in Jun 2025' },
   { a: 'us-action', b: 'us-preempt', rel: 'EO 14365 adds litigation and BEAD-funding conditions to the Action Plan\'s state-funding lever; the Plan did not call for preemption' },
   { a: 'cn-genai', b: 'cn-ai-law', rel: 'GenAI Measures could be consolidated into a comprehensive AI law' },
-  { a: 'uk-bill', b: 'uk-aisi', rel: 'AI Bill would put AISI on a statutory footing' },
   { a: 'us-preempt', b: 'ca-sb53', rel: 'Preemption EO targets SB 53; DOJ task force can challenge' },
   { a: 'us-preempt', b: 'co-aia', rel: 'DOJ intervened in xAI v. Colorado Apr 24, 2026' },
   { a: 'us-preempt', b: 'ny-raise', rel: 'Preemption EO targets RAISE Act' },
@@ -1039,10 +1030,8 @@ const EDGES = [
   { a: 'fsi', b: 'us-frontier-access-eo', rel: "FSI's lab–national-security translation bears on the EO's voluntary frontier-model access framework" },
   { a: 'cais', b: 'aisr', rel: "CAIS's 2023 Statement on AI Risk shaped the discourse the AISR formalises" },
   { a: 'uk-ofcom', b: 'uk-aisi', rel: 'Complementary UK AI institutions — Ofcom on content, AISI on capabilities' },
-  { a: 'uk-ofcom', b: 'uk-bill', rel: 'UK AI Bill would clarify the boundary between Ofcom (content) and AISI (frontier)' },
   { a: 'uk-ofcom', b: 'au-esafety', rel: 'Parallel online-safety regulators with AI-specific authority' },
   { a: 'uk-ico', b: 'uk-aisi', rel: 'Complementary UK AI regulators — ICO on data, AISI on capabilities' },
-  { a: 'uk-ico', b: 'uk-bill', rel: "UK AI Bill would clarify ICO's role alongside AISI" },
   { a: 'uk-ico', b: 'eu-aia', rel: 'UK GDPR/ICO guidance and EU AI Act set parallel data/AI standards' },
   { a: 'us-ftc', b: 'us-action', rel: 'FTC operates alongside the Action Plan, enforcing federal consumer law on AI' },
   { a: 'us-ftc', b: 'us-preempt', rel: "EO 14365 directs the FTC to explain when Section 5 preempts state AI-output laws; FTC proposed that policy statement in Jul 2026" },
