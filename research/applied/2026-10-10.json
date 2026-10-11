@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-10",
+  "base_commit": "67d43b56c50da9d63bfe90f7140da8b36a0513cb",
+  "proposals": [
+    {
+      "id": "P-0001",
+      "v": 1,
+      "hash": "107760cab70a",
+      "evidence_status": "internal-consistency"
+    },
+    {
+      "id": "P-0003",
+      "v": 2,
+      "hash": "d6753348364d",
+      "evidence_status": "internal-consistency"
+    },
+    {
+      "id": "P-0004",
+      "v": 1,
+      "hash": "a3579e1ac559",
+      "evidence_status": "internal-consistency"
+    },
+    {
+      "id": "P-0008",
+      "v": 2,
+      "hash": "7990ce2259ba",
+      "evidence_status": "verified"
+    }
+  ]
+}

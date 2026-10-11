@@ -1,0 +1,251 @@
+{
+  "id": "2026-10-10-trial1b",
+  "label": "Trial 1 completion — source access retest; RSP, RAISE, EU AI Act, GPAI Code, Frontier AI EO, China AI Law",
+  "partial": true,
+  "started_at": "2026-10-10T16:29:13Z",
+  "finished_at": "2026-10-10T16:53:01Z",
+  "scope": {
+    "entries": [
+      "rsp",
+      "eu-aia",
+      "gpai-cop",
+      "us-frontier-access-eo",
+      "cn-ai-law",
+      "ny-raise"
+    ],
+    "note": null
+  },
+  "discovery": [
+    {
+      "area": "Anthropic (lab, B4) — policy text and compliance documents (retest)",
+      "summary": "With access restored I read the RSP v3.4 policy PDF in full, the v3.0 PDF, the Frontier Compliance Framework v2 (Trust Center; needed a headless browser) and Anthropic's Dec 2025 SB 53 post. Every change found is an update to the existing rsp entry, so no new entry is proposed.",
+      "queries": [
+        "anthropic.com/responsible-scaling-policy (re-fetched; lists v3.4 as current; no newer version as of 2026-10-10)",
+        "RSP v3.4 PDF (www-cdn.anthropic.com)",
+        "RSP v3.0 PDF (anthropic.com/responsible-scaling-policy/rsp-v3-0)",
+        "Anthropic \"Frontier Compliance Framework\" SB 53 RAISE (web search for leads)",
+        "trust.anthropic.com Frontier AI Compliance section (headless Chromium)",
+        "anthropic.com/news/compliance-framework-SB53"
+      ],
+      "limits": "Other labs were not searched; that is outside this trial. The Feb and Aug 2026 Risk Reports and system cards were not read, so implementation evidence and elicitation practice were not checked.",
+      "candidates": [
+        {
+          "name": "RSP v3 structure (thresholds table, ASLs only for current safeguards, competitor-dependent delay commitments)",
+          "result": "update to existing entry",
+          "reason": "Replaces the ASL-ladder and unconditional-pause wording on rsp.",
+          "proposal": "P-0010",
+          "sources": [
+            "S-0006",
+            "S-0008"
+          ]
+        },
+        {
+          "name": "Halting commitments under RSP v3 (Appendix A)",
+          "result": "update to existing entry",
+          "reason": "Delay commitments now depend on competitor scenarios.",
+          "proposal": "P-0013",
+          "sources": [
+            "S-0006",
+            "S-0008"
+          ]
+        },
+        {
+          "name": "Frontier Compliance Framework v2 (effective 24 Jul 2026)",
+          "result": "update to existing entry (context) — not a separate entry for now",
+          "reason": "Anthropic's compliance document for California TFAIA and the summary of its EU Code Safety & Security Framework. It is distinct from the RSP. It is noted in the rsp context (P-0010) and the RAISE connection (P-0009), not given its own entry. Whether compliance frameworks deserve entries is a question for the baseline audit, because OpenAI, Google DeepMind and others likely publish equivalents.",
+          "proposal": "P-0010",
+          "sources": [
+            "S-0010",
+            "S-0030"
+          ]
+        },
+        {
+          "name": "RSP Noncompliance Reporting and Anti-Retaliation Policy",
+          "result": "screened out — minor; note for baseline",
+          "reason": "Unchanged from trial 1: an internal compliance policy. The v3.4 governance section (S-0006 §4) already commits to noncompliance reporting and anti-retaliation.",
+          "sources": [
+            "S-0005"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "New York (B2 represented state) — RAISE Act as amended",
+      "summary": "Read the enacted RAISE Act (Chapter 699 of 2025) and the chapter amendment (S8828, Chapter 96 of 2026) on nyassembly.gov. nysenate.gov, the map's current link, serves a Cloudflare bot challenge to automated clients; that is the website's block, not the environment's. The existing ny-raise description checks out.",
+      "queries": [
+        "RAISE Act chapter amendment 2026 bill number (web search for leads)",
+        "nyassembly.gov bill S06953 (2025)",
+        "nyassembly.gov bills A09449 and S08828 (2025)"
+      ],
+      "limits": "Only the transparency, incident-reporting, penalty and effective-date provisions were read. DFS office regulations and the reported Sep 2026 developer registration (a search lead) were not checked.",
+      "candidates": [
+        {
+          "name": "RAISE Act chapter amendment (Ch. 96 of 2026)",
+          "result": "update to existing entry — none needed",
+          "reason": "Already reflected in ny-raise (Mar 27, 2026 amendment; effective Jan 1, 2027).",
+          "sources": [
+            "S-0033"
+          ]
+        },
+        {
+          "name": "DFS office registration of large frontier developers (reported Sep 2026)",
+          "result": "lead — not verified",
+          "reason": "Seen only in search results. If confirmed, it is implementation of ny-raise, not a new mechanism. Check in the baseline audit."
+        }
+      ]
+    },
+    {
+      "area": "EU (jurisdiction, B1) — retest of trial-1 leads with official sources",
+      "summary": "All trial-1 EU leads were checked against official sources: the Official Journal, EUR-Lex and Commission pages, read by a research subagent and re-checked by Claude. The Digital Omnibus is confirmed. The Article 50 transparency code is adopted and is a candidate new entry, raised to the maintainer but not drafted.",
+      "queries": [
+        "EUR-Lex OJ L 2026/1744 and CELEX 32026R1744",
+        "digital-strategy.ec.europa.eu: AI Act page, enforcement framework page, GPAI Code page (signatories), AI Office page",
+        "Commission pages on the code of practice on transparency of AI-generated content (policy page, 10 Jun 2026 news, 9 Jul 2026 adequacy opinion, 31 Jul 2026 signatories news)",
+        "GPAI Code Safety and Security chapter PDF"
+      ],
+      "limits": "EUR-Lex served empty HTTP 202 responses after the first retrievals (a website-side throttle, not the environment). The consolidated AI Act text was not retrieved. Items listed on the Commission AI Act page but not opened: the EU Action Plan on Cybersecurity and AI (7 Jul 2026), the AI Office frontier expert findings (15 Jul 2026) and the Scientific Panel special meeting (5 Oct 2026).",
+      "candidates": [
+        {
+          "name": "Digital Omnibus on AI — Regulation (EU) 2026/1744 (in force 27 Jul 2026)",
+          "result": "update to existing entry (eu-aia)",
+          "reason": "Moves high-risk application dates. Also adds AI Office powers, which are relevant to eu-aio in the baseline audit.",
+          "proposal": "P-0016",
+          "sources": [
+            "S-0041",
+            "S-0043"
+          ]
+        },
+        {
+          "name": "AI Office GPAI enforcement powers from 2 Aug 2026; GPAI fine cap €15M/3%",
+          "result": "update to existing entries (eu-aia, FAQ)",
+          "reason": "The map overstated the cap and used the future tense.",
+          "proposal": "P-0017",
+          "sources": [
+            "S-0002",
+            "S-0043"
+          ]
+        },
+        {
+          "name": "Code of Practice on Transparency of AI-generated Content (Art 50; final 10 Jun 2026; Commission adequacy 8 Jul 2026; AI Board 9 Jul 2026)",
+          "result": "proposed coverage addition — not drafted; maintainer decision needed",
+          "reason": "Meets RUBRIC §1: an identifiable text, material to GPAI and generative AI providers, attributable to the Commission and AI Office. It would sit in Layer 5 (voluntary code), like gpai-cop. Anthropic, Google, Meta, Microsoft and OpenAI are reported Section 1 signatories (Commission news, 31 Jul 2026, read by the subagent only). Not drafted because a new entry needs layer, pow, coverage notes and connections decided together.",
+          "sources": [
+            "S-0045",
+            "S-0046"
+          ]
+        },
+        {
+          "name": "Commission guidelines on Article 50 (Jul 2026)",
+          "result": "lead — context for the code above",
+          "reason": "Interpretive guidance, not a separate mechanism."
+        },
+        {
+          "name": "AI Office GPAI Code 'Signatory Taskforce'",
+          "result": "screened out as a separate entry",
+          "reason": "Implementation forum of gpai-cop (unchanged from trial 1)."
+        }
+      ]
+    },
+    {
+      "area": "US federal (B1) — Frontier AI EO and CAISI (retest)",
+      "summary": "Read EO 14409 in the Federal Register (govinfo PDF and FR API). The map's description of it as a CAISI-administered national-security review is wrong; corrected in P-0014 and P-0015. Found in passing: NIST has renamed CAISI to CAISSI.",
+      "queries": [
+        "govinfo DCPD-202600376 and FR Doc. 2026-11415",
+        "Federal Register API documents/2026-11415.json",
+        "whitehouse.gov EO 14409 page and fact sheet (subagent)",
+        "nist.gov/caisi",
+        "Federal Register search for later EOs amending 14409 (subagent)"
+      ],
+      "limits": "federalregister.gov HTML pages and commerce.gov serve website bot challenges. The reported White House instruction for CAISI to halt public reports has no executive-branch source; a congressional letter only relays press reports. Implementation of the EO (benchmark, framework, clearinghouse) was not found.",
+      "candidates": [
+        {
+          "name": "EO 14409 (2 Jun 2026)",
+          "result": "update to existing entry (us-frontier-access-eo)",
+          "reason": "Official text differs materially from the map.",
+          "proposal": "P-0014",
+          "sources": [
+            "S-0038",
+            "S-0039"
+          ]
+        },
+        {
+          "name": "CAISI renamed CAISSI (Center for Advancing Innovation and Standards for Super Intelligence), page modified 30 Sep 2026",
+          "result": "lead — update to existing entry (caisi); outside this trial",
+          "reason": "Follows EO 14434 (29 Sep 2026) on 'Super Intelligence' terminology, per the subagent. Queue for the baseline audit.",
+          "sources": [
+            "S-0040"
+          ]
+        },
+        {
+          "name": "EO 14434 'Inaugurating the Era of Super Intelligence' (29 Sep 2026)",
+          "result": "lead — screen in the baseline audit",
+          "reason": "Read by the subagent only. A terminology order; whether it is material under RUBRIC §1 is undecided."
+        },
+        {
+          "name": "Reported halt of CAISI public model reports",
+          "result": "lead — no primary source",
+          "reason": "NIST published CAISI assessments in Jul and Sep 2026, so a blanket halt is not supported."
+        }
+      ]
+    },
+    {
+      "area": "China (B1) — AI Law status and related instruments (retest)",
+      "summary": "With npc.gov.cn and gov.cn reachable, the AI Law status was settled from the NPCSC and State Council legislative plans. Two instruments the map mentions only in passing were confirmed: the Cybersecurity Law AI article (in force 1 Jan 2026) and CAC Order 21 on humanlike interactive AI (in force 15 Jul 2026).",
+      "queries": [
+        "npc.gov.cn NPCSC 2025 and 2026 legislative work plans (PDF)",
+        "gov.cn State Council 2025 and 2026 legislative work plans",
+        "moj.gov.cn State Council 2024 plan",
+        "npc.gov.cn NPCSC decision amending the Cybersecurity Law (28 Oct 2025)",
+        "cac.gov.cn and jswx.gov.cn on the humanlike interactive AI measures",
+        "npc.gov.cn draft-consultation database (subagent)"
+      ],
+      "limits": "flk.npc.gov.cn, cac.gov.cn, jswx.gov.cn and moj.gov.cn intermittently reset connections right after the TLS handshake. The proxy log shows the tunnel closed by the remote end, which is a site or network-path issue, not an environment denial. moj.gov.cn also needs a cookie challenge.",
+      "candidates": [
+        {
+          "name": "Cybersecurity Law amendment, new Art. 20 on AI (in force 1 Jan 2026)",
+          "result": "screened out as a separate entry for now; noted in cn-ai-law context",
+          "reason": "A general promotional and supervisory clause with no specific obligations on developers. It may merit a coverage note on cn-genai or a separate entry in the baseline audit.",
+          "proposal": "P-0019",
+          "sources": [
+            "S-0054"
+          ]
+        },
+        {
+          "name": "Interim Measures for Humanlike Interactive AI Services (CAC Order No. 21; in force 15 Jul 2026)",
+          "result": "lead — possible new entry; maintainer decision",
+          "reason": "A binding CAC regulation on anthropomorphic AI services, comparable in kind to cn-genai. Its bearing on frontier and GPAI governance is contextual (SCOPE §C). Not drafted; raise in the baseline audit.",
+          "sources": [
+            "S-0056",
+            "S-0055"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Source access retest (environment change, 2026-10-10)",
+      "summary": "Retested every host that was blocked in trial 1, plus representative EU, UK, US and Chinese official sources. The environment network policy denied nothing; the agent proxy logged no CONNECT denials for any official host. Where a fetch failed, the website itself refused or dropped the connection. Each row below names the official alternative used.",
+      "queries": [
+        "www-cdn.anthropic.com RSP v3.4 PDF: ok (S-0006)",
+        "anthropic.com rsp-v3-0: ok, serves the v3.0 PDF (S-0008)",
+        "trust.anthropic.com: ok, but a JavaScript app; the FCF PDF needed headless Chromium (S-0010)",
+        "eur-lex.europa.eu: ok at first (S-0002); later empty HTTP 202 responses (throttling) (S-0041/S-0042/S-0047/S-0048)",
+        "digital-strategy.ec.europa.eu, ec.europa.eu: ok (S-0001, S-0003, S-0043–S-0046)",
+        "gov.uk: ok (S-0034, S-0035)",
+        "govinfo.gov: ok (S-0012, S-0038); federalregister.gov API: ok (S-0039); federalregister.gov HTML: bot gate (subagent)",
+        "whitehouse.gov: ok (S-0016)",
+        "nysenate.gov, congress.gov, leginfo.legislature.ca.gov: Cloudflare bot challenge, website-side (S-0028, S-0036, S-0037); nyassembly.gov: ok (S-0031–S-0033)",
+        "commerce.gov: Cloudflare bot challenge (subagent)",
+        "npc.gov.cn, gov.cn: ok (S-0049–S-0052, S-0054, S-0057); flk.npc.gov.cn, cac.gov.cn, jswx.gov.cn, moj.gov.cn: intermittent resets right after TLS (proxy log: closed by remote end); moj.gov.cn also needs a cookie challenge"
+      ],
+      "limits": "Headless Chromium also fails Cloudflare challenges, so nysenate.gov and congress.gov stay unreadable to automated runs. The map's ny-raise link (nysenate.gov) can't be link-checked automatically, though it probably works in a browser.",
+      "candidates": []
+    }
+  ],
+  "usage": "Not measured: get_session does not report cost in this environment. Wall-clock about 1 h 15 min in one session, including three research subagents (≈405k subagent tokens in total).",
+  "highlights": [
+    "**Source access is fixed.** The new environment reaches the RSP PDF, EUR-Lex, the Commission, gov.uk, govinfo, whitehouse.gov, npc.gov.cn and gov.cn, with no environment denials. Some websites still refuse automated clients (Cloudflare on nysenate.gov, congress.gov, leginfo, federalregister.gov HTML, commerce.gov; EUR-Lex throttling; intermittent resets on some Chinese sites). Each source record says which other official copy was used and how it was obtained.",
+    "**Applied after your decisions on 2026-10-10** (manifest applied/2026-10-10-2.json; the guard reproduces the published diff): the RSP v3 rewrite (P-0005 v3, P-0006, P-0007, P-0010 v3, P-0013), the RAISE ↔ RSP connection (P-0009 v3), EO 14409 (P-0014; CAISI connection removed, P-0015), the EU AI Act dates, AI Office fine cap and GPAI Code fixes (P-0016–P-0018), the China AI Law status (P-0019), and the 'Content updated' date wording (P-0012). These come on top of P-0001, P-0003, P-0004 and P-0008, applied earlier.",
+    "**All trial-1 decisions are now made and applied.** P-0002 v2 (FAQ 'binding laws'), P-0011 v2 (other-aisis → Multilateral, kept in Layer 4 like UK AISI) and P-0020 (new entry: EU AI-generated content code) were accepted and applied on 2026-10-10 (manifest applied/2026-10-10-3.json). From now on, decisions can be answered on this page.",
+    "**Coverage is still small:** 6 entries were attempted in this completion run. The whole-map coverage figure is computed live from the ledger (see below); the public date (10 Oct 2026) marks this release, not an audit. The baseline audit remains the next milestone."
+  ]
+}

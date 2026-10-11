@@ -1,0 +1,144 @@
+{
+  "id": "2026-10-08-trial1",
+  "label": "Partial trial 1 — 5 entries across Layers 2, 5, 6",
+  "partial": true,
+  "started_at": "2026-10-08T17:01:01Z",
+  "finished_at": "2026-10-08T17:06:57Z",
+  "scope": {
+    "entries": [
+      "eu-aia",
+      "cn-ai-law",
+      "us-frontier-access-eo",
+      "gpai-cop",
+      "rsp"
+    ],
+    "note": "Trial: EU AI Act, China AI Law (missing link), US Frontier AI Access EO (secondary-only link), EU GPAI Code (voluntary), Anthropic RSP (corporate). Discovery: EU, and Anthropic (Layer 6)."
+  },
+  "discovery": [
+    {
+      "area": "EU (jurisdiction, B1) — new mechanisms and institutions since June 2026",
+      "summary": "I ran web searches for EU AI Act amendments, new codes of practice, guidelines and AI Office mechanisms. The search tool worked, but every candidate's primary source (digital-strategy.ec.europa.eu, eur-lex.europa.eu) and every secondary page was blocked. So these are leads only: nothing here is verified, and nothing is proposed.",
+      "queries": [
+        "EU AI Act digital omnibus delay high-risk obligations 2026",
+        "European Commission AI Act new guidelines code of practice August September 2026",
+        "GPAI Code of Practice signatories update 2026 AI Office"
+      ],
+      "candidates": [
+        {
+          "name": "Digital Omnibus on AI — Regulation (EU) 2026/1744",
+          "result": "lead — update to existing entry (eu-aia); source inaccessible",
+          "reason": "An amending regulation. Reported in force 27 Jul 2026, moving the high-risk dates. Would change eu-aia (desc, timing), and probably eu-aio and the gap and FAQ text that mention Aug 2026/2027. Probably not a separate entry.",
+          "sources": [
+            "S-0017",
+            "S-0018",
+            "S-0019"
+          ]
+        },
+        {
+          "name": "Code of Practice on marking and labelling AI-generated content (Art. 50)",
+          "result": "lead — possible new entry (L5, eu); source inaccessible",
+          "reason": "A voluntary code linked to the Article 50 transparency duties for generative AI providers. Would qualify under RUBRIC §1 if adopted. Secondary sources disagree on the dates (draft 5 Mar or 8 May 2026; final 10 Jun 2026?).",
+          "sources": []
+        },
+        {
+          "name": "Commission guidelines on Article 50 (draft, May 2026)",
+          "result": "lead — context for the code above",
+          "reason": "Interpretive guidance rather than a separate mechanism; would be noted in the code's or eu-aia's context.",
+          "sources": []
+        },
+        {
+          "name": "AI Office GPAI Code 'Signatory Taskforce' (first met 30 Jan 2026)",
+          "result": "screened out as a separate entry; lead for gpai-cop context",
+          "reason": "An implementation forum of an existing mechanism.",
+          "sources": [
+            "S-0026"
+          ]
+        },
+        {
+          "name": "GPAI enforcement powers applying from 2 Aug 2026",
+          "result": "lead — update to existing entries (eu-aia, eu-aio)",
+          "reason": "A date that has passed since the snapshot. The map's FAQ says the AI Office's 'full enforcement powers activate in August 2026'. That wording may need a tense change once verified.",
+          "sources": [
+            "S-0026"
+          ]
+        }
+      ],
+      "limits": "No primary source was opened, so absence of other candidates means nothing. This search must be repeated once network access is fixed."
+    },
+    {
+      "area": "Anthropic (lab, B4) — new governance documents and mechanisms",
+      "summary": "I read the RSP page, the v3 announcement, the Frontier Safety Roadmap and the Transparency Hub on anthropic.com. The policy PDF (www-cdn.anthropic.com), the HTML policy text and the Trust Center were blocked.",
+      "queries": [
+        "anthropic.com/responsible-scaling-policy (update log)",
+        "anthropic.com/news/responsible-scaling-policy-v3",
+        "anthropic.com/responsible-scaling-policy/roadmap",
+        "anthropic.com/transparency"
+      ],
+      "candidates": [
+        {
+          "name": "RSP v3.0–v3.4 (Feb–Jul 2026)",
+          "result": "update to existing entry",
+          "reason": "Version, accountability and revision-history changes.",
+          "proposal": "P-0005, P-0006, P-0007, P-0010",
+          "sources": [
+            "S-0005",
+            "S-0007"
+          ]
+        },
+        {
+          "name": "Frontier Safety Roadmap (Feb 2026)",
+          "result": "screened out as a separate entry; part of rsp",
+          "reason": "Created by RSP v3 and described as 'public goals', not commitments. It belongs in the rsp entry, not in a new one. Folded into P-0010's follow-up.",
+          "sources": [
+            "S-0009",
+            "S-0007"
+          ]
+        },
+        {
+          "name": "Risk Reports (Feb and Aug 2026)",
+          "result": "update to existing entry",
+          "reason": "Implementation evidence under RSP v3; recorded in P-0007.",
+          "proposal": "P-0007",
+          "sources": [
+            "S-0005"
+          ]
+        },
+        {
+          "name": "RSP Noncompliance Reporting and Anti-Retaliation Policy (updated Mar 2026)",
+          "result": "screened out — minor; note for baseline",
+          "reason": "An internal compliance policy tied to the RSP. It could be added to the rsp accountability note later. Not material enough for a separate entry.",
+          "sources": [
+            "S-0005"
+          ]
+        },
+        {
+          "name": "Frontier Compliance Framework",
+          "result": "new connection proposed; document inaccessible",
+          "reason": "Anthropic's compliance document for SB 53, RAISE and the EU Code. Evidence of the relationship, not a separate mechanism; it supports the new RAISE↔RSP connection.",
+          "proposal": "P-0009",
+          "sources": [
+            "S-0007",
+            "S-0010"
+          ]
+        },
+        {
+          "name": "Transparency Hub",
+          "result": "screened out",
+          "reason": "A publication channel (model reports), not a governance mechanism. Useful as implementation evidence.",
+          "sources": [
+            "S-0011"
+          ]
+        }
+      ],
+      "limits": "The policy text itself was not read. Other labs were not searched; that is outside this trial."
+    }
+  ],
+  "usage": "Not measured per run. The platform's session total was $12.34 (input 90k, output 182k, cache-read 17.6M tokens) as of 9 Oct; that covers all workflow design, tooling and research in this session since 8 Oct, not this run alone.",
+  "highlights": [
+    "**Source access is still the blocker.** The environment's network policy blocks every EU, US federal, US state, UK and Chinese government site and the RSP v3.4 PDF; only www.anthropic.com loads. Nothing that depends on those sources is verified, and those proposals sit in §B.",
+    "**Verified externally:** the RSP version history (v3.4, 8 Jul 2026; eight revisions since v1.0), its 2026 accountability additions, and that RSP v1.0 (Sep 2023) predates the Seoul commitments.",
+    "**Internal consistency only:** the data.json count, the FAQ list of binding laws, the 'Asia (other)' label, the Layer 2 subtitle and the date wording. These check the map against itself, not against the world.",
+    "**Held as a group:** the RSP version update (P-0005) is not applied with only the version changed, because the retained ASL and threshold wording is unverified. Its two companion edits wait with it so the entry stays coherent.",
+    "**Revised after your review:** P-0002 narrowed to internal consistency (v2, needs your decision); P-0009 reattributed to Anthropic and held for source access (v2); P-0003's approval clarified as covering only the label (other-aisis is now P-0011)."
+  ]
+}
