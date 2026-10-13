@@ -31,6 +31,110 @@
     ],
     "note": "Quick partial run requested by the maintainer on 2026-10-13. The 2026-10-12 weekly run's research record was lost (its session could not push); its 28 proposals (P-0121 to P-0148 on the review page) are re-verified here from primary sources as leads. Also: re-fetch of sources used by earlier successful checks, and light discovery."
   },
-  "discovery": [],
+  "discovery": [
+    {
+      "area": "B1 national (US federal, EU, UK, China, Korea, Japan) and B2 US states — light weekly pass, group B",
+      "summary": "Chased the four assigned questions. (1) No DOJ AI Litigation Task Force suit against SB 53, RAISE or Illinois found; DOJ's only announced action remains intervention in xAI v. Weiser (Colorado). (2) The xAI v. Weiser docket shows the Apr 27, 2026 minute order staying AG enforcement of SB 24-205 or its replacement until 14 days after a preliminary-injunction ruling; no later ruling (used in co-timing). (3) No official copy of the Commerce Sec. 4 evaluation found. (4) Late-September federal and state developments not on the map: a White House-hosted industry accord on frontier AI (29 Sep 2026, secondary sources only), the Florida AG's request to bar OpenAI from training new models, federal superintelligence bills, and a March 2026 'National Super Intelligence Policy Framework' mentioned by the White House. Japan AI Basic Plan re-verified and drafted as an addition. Korea: nothing new found beyond the grace-period wording.",
+      "queries": [
+        "\"AI Litigation Task Force\" lawsuit California SB 53 OR \"RAISE Act\" OR Illinois justice.gov 2026",
+        "Commerce Department evaluation of state AI laws Executive Order 14365 section 4 published list onerous laws",
+        "xAI v. Weiser stipulated order April 27 2026 Colorado attorney general not enforce SB 24-205",
+        "MSIT AI Basic Act takes effect January 22 2026 grace period administrative fines at least one year msit.go.kr",
+        "AI Litigation Task Force complaint state artificial intelligence law (justice.gov only)",
+        "Commerce \"evaluation of state AI laws\" released identifies California SB 53 New York RAISE referred Task Force NTIA BEAD",
+        "frontier AI safety bill signed OR enacted October 2026 state legislature governor (Michigan OR Massachusetts OR New Jersey OR California)",
+        "White House September 29 2026 frontier AI accord signed Google Anthropic Meta OpenAI SpaceXAI Nvidia",
+        "CourtListener API search: \"X.AI\" Weiser (docket 1:26-cv-01515, D. Colo.)",
+        "whitehouse.gov fact-sheets, presidential-actions and sitemaps scanned for accord / super intelligence / policy framework"
+      ],
+      "limits": "About eight web searches. commerce.gov and congress.gov not tried (known refusers); the accord's text was not found on whitehouse.gov (sitemaps have no accord URL), so it rests on press reports. The Florida filing, the federal bills (S. 5493 / H.R. 10538, S. 5417 / H.R. 10567) and the March 2026 framework were not opened. EU, UK and China were not searched this week (light pass). Search snippets used only as leads.",
+      "candidates": [
+        {
+          "name": "DOJ AI Litigation Task Force suits against SB 53, RAISE or Illinois",
+          "result": "screened out",
+          "reason": "No complaint, DOJ release or docket found; justice.gov results show only the Colorado intervention (Apr 24, 2026) and an unrelated Clean Air Act intervention (Jun 2026). Absence in searches is not proof.",
+          "sources": [
+            "S-0111"
+          ]
+        },
+        {
+          "name": "Stipulated enforcement stay in xAI v. Weiser (ECF 24, Apr 27, 2026)",
+          "result": "update to existing entry",
+          "reason": "Court order bars AG enforcement of SB 24-205 or replacing legislation until 14 days after a PI ruling; PI motion due 28 days after final rules. Used in the co-aia timing proposal.",
+          "proposal": "P-0125",
+          "sources": [
+            "S-0163",
+            "S-0302"
+          ]
+        },
+        {
+          "name": "Commerce evaluation of state AI laws under EO 14365 Sec. 4",
+          "result": "lead — source inaccessible",
+          "reason": "Due ~Mar 2026; no official copy found; secondary sources describe only the mandate. Would settle whether SB 53 / RAISE were named (see preempt-edges uncertainty).",
+          "sources": [
+            "S-0239"
+          ]
+        },
+        {
+          "name": "White House Accord on Super Intelligence: Joint Commitment on Frontier Responsibilities (29 Sep 2026; Google, Anthropic, Meta, OpenAI, SpaceXAI, Nvidia)",
+          "result": "lead — source inaccessible",
+          "reason": "Reported commitments to internal controls, oversight teams, independent external auditors and an independent review committee; would be a significant L5 (or L2) cross-firm commitment on the Seoul-commitments model. No primary text found: the White House fact sheet of the same day mentions only EO 14434, and no whitehouse.gov URL for the accord exists in its sitemaps. High priority for the next run (try company newsrooms or Truth Social copy).",
+          "sources": [
+            "S-0308",
+            "S-0309"
+          ]
+        },
+        {
+          "name": "Florida AG motion to bar OpenAI from developing new models pending its lawsuit (28 Sep 2026)",
+          "result": "screened out",
+          "reason": "State-court litigation by a state outside the represented states; courts are not monitored unless a ruling binds a frontier developer. Revisit if the court grants the injunction. Secondary source only.",
+          "sources": [
+            "S-0308"
+          ]
+        },
+        {
+          "name": "National Super Intelligence Policy Framework with legislative recommendations (White House, Mar 2026)",
+          "result": "lead — source inaccessible",
+          "reason": "Mentioned in the 29 Sep 2026 White House fact sheet; likely the EO 14365 Sec. 8 legislative recommendation. Not opened; not on the map. Could update us-preempt context or be a proposed L2 entry.",
+          "sources": [
+            "S-0309"
+          ]
+        },
+        {
+          "name": "Federal bills: Ban Artificial Superintelligence Act (S. 5493 / H.R. 10538), AI Emergency Button Act (S. 5417 / H.R. 10567); Cruz-Thune-Klobuchar frontier bill (unreleased)",
+          "result": "screened out",
+          "reason": "Introduced bills with unanimous-consent attempts blocked; no committee action reported; texts not opened (congress.gov refuses). The Cruz bill has no public text (RUBRIC §1.1). Could enter as proposed L2 entries if they advance.",
+          "sources": [
+            "S-0308"
+          ]
+        },
+        {
+          "name": "New state frontier-AI statutes since 1 Oct 2026",
+          "result": "screened out",
+          "reason": "Searches found none beyond Illinois (on the map); California's SB 813 / AB 1405 and EO N-9-26 were screened at the baseline.",
+          "sources": []
+        },
+        {
+          "name": "Japan AI Basic Plan (second-term, Cabinet decision 14 Jul 2026)",
+          "result": "proposed",
+          "reason": "Meets RUBRIC §1; Layer 2, pow 2 like the US AI Action Plan.",
+          "proposal": "P-0124",
+          "sources": [
+            "S-0307",
+            "S-0306"
+          ]
+        },
+        {
+          "name": "Korea AI Basic Act grace period end date / revised enforcement decree",
+          "result": "update to existing entry",
+          "reason": "Only MSIT's 'at least one year' wording found; no later decision fixing the end date retrieved.",
+          "proposal": "P-0122",
+          "sources": [
+            "S-0304"
+          ]
+        }
+      ]
+    }
+  ],
   "usage": null
 }

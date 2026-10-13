@@ -1,0 +1,129 @@
+{
+  "edge:us-preempt|ca-sb53": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0239",
+      "S-0111"
+    ],
+    "proposals": [
+      "P-0121"
+    ],
+    "note": "EO 14365 (FR text) names no California or New York law; Task Force and Commerce review target State AI laws generally, with a compelled-disclosure criterion. DOJ's only announced action is in the Colorado case. Lead P-0129 re-verified.",
+    "missing": null,
+    "hash": "6d63cc66405d"
+  },
+  "edge:us-preempt|ny-raise": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0239",
+      "S-0111"
+    ],
+    "proposals": [
+      "P-0121"
+    ],
+    "note": "EO 14365 (FR text) names no California or New York law; Task Force and Commerce review target State AI laws generally, with a compelled-disclosure criterion. DOJ's only announced action is in the Colorado case. Lead P-0129 re-verified.",
+    "missing": null,
+    "hash": "7368ec885b91"
+  },
+  "entry:kr-ai:desc": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0304",
+      "S-0305"
+    ],
+    "proposals": [
+      "P-0122"
+    ],
+    "note": "MSIT: grace period of at least one year before fines, duration to be finalised; Act in force one year after promulgation; KRW 30M cap. Lead P-0130 re-verified.",
+    "missing": null,
+    "hash": "493d91827642"
+  },
+  "entry:jp-ai:context": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0306"
+    ],
+    "proposals": [
+      "P-0123"
+    ],
+    "note": "Art. 19 places the HQ under the Cabinet; Art. 26 gives its affairs to the Cabinet Office. No fines/thresholds/testing duties in the Act (observation). Analytic sentences not verifiable and carried over. Lead P-0131 re-verified.",
+    "missing": null,
+    "hash": "7483d53f9bb1"
+  },
+  "entry:jp-sectors:context": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0306"
+    ],
+    "proposals": [
+      "P-0123"
+    ],
+    "note": "Same HQ placement correction as jp-ai (Arts. 19, 26). Ministry roles were not re-checked and are listed as unverified carryover.",
+    "missing": null,
+    "hash": "c6e70df283b6"
+  },
+  "entry:co-aia:cov:timing": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0160",
+      "S-0161",
+      "S-0302",
+      "S-0163"
+    ],
+    "proposals": [
+      "P-0125"
+    ],
+    "note": "SB 26-189 effective Jan 1, 2027; SB 24-205 requirements effective Jun 30, 2026 (SB25B-004); enforcement stayed by Apr 27, 2026 minute order (ECF 24), no later ruling on docket. Lead P-0126 re-verified and extended with the court order.",
+    "missing": null,
+    "hash": "5624f484aa49"
+  },
+  "entry:tx-raiga:desc": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0303",
+      "S-0166"
+    ],
+    "proposals": [
+      "P-0126"
+    ],
+    "note": "'Jun 2025' correct (signed Jun 22, 2025); comparison with Colorado refers to a replaced law. Enrolled text gives effective date, AG enforcement, cure period and penalties. Lead P-0127 re-verified.",
+    "missing": null,
+    "hash": "a78058d6e30c"
+  },
+  "entry:il-aisma:context": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0170"
+    ],
+    "proposals": [
+      "P-0127"
+    ],
+    "note": "Sec. 25(b) AG-exclusive penalty action, but Sec. 18(e) gives the Agency its own $1,000/day penalty. 72-hour reporting (Sec. 15) and annual audit (Sec. 10(d)) confirmed. Lead P-0128 re-verified.",
+    "missing": null,
+    "hash": "66bbbbb2e69a"
+  }
+}

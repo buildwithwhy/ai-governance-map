@@ -1,5 +1,5 @@
 {
-  "next": 121,
+  "next": 128,
   "proposals": [
     {
       "id": "P-0001",
@@ -15717,6 +15717,794 @@
           "P-0066"
         ],
         "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0121",
+      "fingerprint": "4ff77a003d3a",
+      "targets": [
+        "edge:us-preempt|ca-sb53",
+        "edge:us-preempt|ny-raise"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:06:06Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Preemption EO connections: EO 14365 does not name SB 53 or the RAISE Act",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_edge",
+              "a": "us-preempt",
+              "b": "ca-sb53",
+              "from": "Preemption EO targets SB 53; DOJ task force can challenge",
+              "to": "EO 14365 does not name SB 53, but its DOJ task force can challenge state AI laws, and its Commerce review must flag laws compelling disclosures that violate the First Amendment"
+            },
+            {
+              "op": "set_edge",
+              "a": "us-preempt",
+              "b": "ny-raise",
+              "from": "Preemption EO targets RAISE Act",
+              "to": "EO 14365 does not name the RAISE Act, but its DOJ task force can challenge state AI laws, and its Commerce review must flag laws compelling disclosures that violate the First Amendment"
+            }
+          ],
+          "why": "Both connections say as fact that the order targets SB 53 and RAISE. The signed order names neither (only Colorado's algorithmic-discrimination law is mentioned), and the only federal suit so far is against Colorado. Some secondary sources quote a leaked draft that did name SB 53, so the distinction matters.",
+          "rationale": "Re-verifies lead P-0129 from the lost 2026-10-12 run. The Federal Register text of EO 14365 contains no mention of California, New York, SB 53 or RAISE (observation). Sec. 1 refers only to Colorado's law; Sec. 3 has the Task Force challenge 'State AI laws inconsistent with the policy', including laws identified under Sec. 4; Sec. 4 has Commerce identify laws that 'may compel AI developers or deployers to disclose or report information' in violation of the First Amendment, which is the hook that could reach disclosure statutes like SB 53 and RAISE. DOJ's only announced action is intervention in xAI v. Weiser (Colorado). The new wording keeps the link but states it as the order actually frames it.",
+          "evidence": [
+            {
+              "source": "S-0239",
+              "passage": "S-0239#13",
+              "stance": "supports",
+              "supports": "order names no California or New York law"
+            },
+            {
+              "source": "S-0239",
+              "passage": "S-0239#9",
+              "stance": "supports",
+              "supports": "only state law referred to is Colorado's"
+            },
+            {
+              "source": "S-0239",
+              "passage": "S-0239#10",
+              "stance": "supports",
+              "supports": "Task Force challenges State AI laws generally"
+            },
+            {
+              "source": "S-0239",
+              "passage": "S-0239#6",
+              "stance": "supports",
+              "supports": "Commerce review must flag compelled-disclosure laws"
+            },
+            {
+              "source": "S-0111",
+              "passage": "S-0111#9",
+              "stance": "supports",
+              "supports": "DOJ's announced action concerns Colorado"
+            }
+          ],
+          "uncertainty": "The Commerce Sec. 4 evaluation (due Mar 2026) could have named SB 53 or RAISE; no official copy was found (commerce.gov refuses automated clients; searches found only descriptions of the mandate). A White House fact sheet of 29 Sep 2026 mentions a March 2026 'National Super Intelligence Policy Framework with legislative recommendations', not opened. No justice.gov release or docket shows a Task Force suit against California, New York or Illinois, but absence in searches is not proof.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "edge:us-preempt|co-aia": "not in this group; DOJ intervention on Apr 24, 2026 confirmed by the DOJ release and docket (ECF 12, 16)",
+            "entry:us-preempt:desc": "not in this group; its Apr 24, 2026 intervention date matches the DOJ release"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:us-frontier-access-eo:context",
+            "entry:us-frontier-act:context",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:mit",
+            "entry:ny-raise:context",
+            "entry:us-ftc:context",
+            "edge:us-eo14179|us-preempt",
+            "edge:us-action|us-preempt",
+            "edge:us-preempt|co-aia",
+            "edge:us-ftc|us-preempt",
+            "edge:us-frontier-act|us-preempt",
+            "gap:acct",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-3:tooltip",
+            "text:footer-sources",
+            "entry:eu-aia:context",
+            "entry:eu-aia:cov:thresh",
+            "entry:kr-ai:cov:thresh",
+            "entry:ny-raise:desc",
+            "entry:ny-raise:cov:thresh",
+            "entry:ny-raise:cov:mit",
+            "entry:ny-raise:cov:timing",
+            "entry:ny-raise:cov:update",
+            "entry:il-aisma:context",
+            "entry:il-aisma:cov:thresh",
+            "entry:seoul-commit:context",
+            "entry:rsp:context",
+            "entry:rsp:cov:thresh",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:prep:cov:acct",
+            "entry:metr:cov:thresh",
+            "edge:ca-sb53|rsp",
+            "edge:ca-sb53|prep",
+            "edge:ca-sb53|fsf",
+            "edge:ca-sb53|meta-faif",
+            "edge:ny-raise|ca-sb53",
+            "edge:il-aisma|ca-sb53",
+            "edge:us-frontier-act|ca-sb53",
+            "gap:timing",
+            "gap:sec",
+            "gap:update",
+            "faq:how-is-california-sb-53-different-from-the-ny-ra",
+            "text:gap-default",
+            "entry:un-ai:cov:update",
+            "entry:ca-sb53:cov:timing",
+            "entry:co-doi:context",
+            "edge:co-doi|ny-raise",
+            "edge:ny-raise|rsp",
+            "edge:il-aisma|ny-raise",
+            "edge:us-frontier-act|ny-raise"
+          ],
+          "hash": "c929c93c57e5"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0122",
+      "fingerprint": "8cc23acedf06",
+      "targets": [
+        "entry:kr-ai:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:06:06Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Korea AI Basic Act: fine grace period is 'at least one year' (MSIT policy), not a fixed Jan 22, 2027 start",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "kr-ai",
+              "field": "desc",
+              "from": "AI Basic Act. In force Jan 22, 2026. One-year grace period — penalties (capped ~$21k per violation) begin Jan 22, 2027.",
+              "to": "AI Basic Act. In force Jan 22, 2026. MSIT policy: no administrative fines for at least one year (so not before Jan 22, 2027); fines capped at ₩30M (~$21k) per violation."
+            }
+          ],
+          "why": "The entry presents Jan 22, 2027 as the date penalties begin. The ministry's own wording is a grace period of 'at least one year', with its duration still to be finalised, and the Act itself has no grace period. A reader planning around a fixed date could be misled.",
+          "rationale": "Re-verifies lead P-0130 from the lost 2026-10-12 run. MSIT's legislative notice for the Enforcement Decree says it 'will implement a grace period of at least one year before administrative fines are imposed' and is gathering opinions 'to finalize the detailed operation plan and duration'. The Act enters into force one year after promulgation (21 Jan 2025), i.e. 22 Jan 2026, and Art. 43 caps administrative fines at KRW 30 million (CSET translation). The edit keeps Jan 22, 2027 only as the earliest date.",
+          "evidence": [
+            {
+              "source": "S-0304",
+              "passage": "S-0304#2",
+              "stance": "supports",
+              "supports": "at least one year; duration to be finalised"
+            },
+            {
+              "source": "S-0304",
+              "passage": "S-0304#1",
+              "stance": "supports",
+              "supports": "grace period before administrative fines"
+            },
+            {
+              "source": "S-0305",
+              "passage": "S-0305#1",
+              "stance": "supports",
+              "supports": "KRW 30M cap"
+            },
+            {
+              "source": "S-0305",
+              "passage": "S-0305#2",
+              "stance": "supports",
+              "supports": "in force one year after promulgation"
+            }
+          ],
+          "uncertainty": "MSIT's January 2026 enforcement-day release and any later decision fixing the grace period's end were not found (law.go.kr and MSIT list pages are not reachable by automated clients). Law-firm sources (not used as evidence) also say 'at least one year'. The fine cap rests on a secondary translation; the cap itself is unchanged.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:kr-ai:cov:acct": "not in this group; its ₩30M (~$21k) Art. 43 cap matches the translation"
+          },
+          "unverified_carryover": [
+            "In force Jan 22, 2026 (supported only by a secondary translation of the Supplementary Provisions)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:aisi-net:desc",
+            "entry:other-aisis:desc",
+            "gap:eval",
+            "gap:timing",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:footer-sources"
+          ],
+          "hash": "3db10fd0a93b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0123",
+      "fingerprint": "9945b6a8f6fc",
+      "targets": [
+        "entry:jp-ai:context",
+        "entry:jp-sectors:context"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:06:06Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Japan: AI Strategic Headquarters is established under the Cabinet, with the Cabinet Office handling its affairs",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "jp-ai",
+              "field": "context",
+              "from": "Establishes the AI Strategic Headquarters under the Cabinet Office to coordinate sectoral guidance. Deliberately avoids compute thresholds, mandatory pre-deployment testing, and fines — The approach assumes that voluntary cooperation between developers and government produces faster adoption than the EU's prescriptive route. The Hiroshima Process commitments substitute for binding rules at the firm level.",
+              "to": "Establishes the AI Strategic Headquarters under the Cabinet (chaired by the Prime Minister; the Cabinet Office handles its affairs) to coordinate sectoral guidance. Deliberately avoids compute thresholds, mandatory pre-deployment testing, and fines — The approach assumes that voluntary cooperation between developers and government produces faster adoption than the EU's prescriptive route. The Hiroshima Process commitments substitute for binding rules at the firm level."
+            },
+            {
+              "op": "set_field",
+              "entity": "jp-sectors",
+              "field": "context",
+              "from": "Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) and MIC jointly issue the AI Guidelines for Business, the main cross-sector instrument; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters under the Cabinet Office. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7.",
+              "to": "Japan's AI governance operates sector-by-sector: METI (Economy, Trade and Industry) and MIC jointly issue the AI Guidelines for Business, the main cross-sector instrument; FSA (Financial Services Agency) handles AI risk management in finance; MHLW (Health, Labour and Welfare) covers AI in healthcare and employment; MIC (Internal Affairs and Communications) governs AI in telecoms and media. Coordinated through the AI Strategic Headquarters, set up under the Cabinet with the Cabinet Office handling its affairs. The deliberately soft approach — voluntary guidelines, no compute thresholds, no fines — mirrors the Hiroshima Process Japan championed at the G7."
+            }
+          ],
+          "why": "Both entries place the Headquarters institutionally under the Cabinet Office. The Act sets it up under the Cabinet itself, chaired by the Prime Minister with all ministers as members; the Cabinet Office only handles its administrative affairs.",
+          "rationale": "Re-verifies lead P-0131 from the lost 2026-10-12 run. Art. 19 of the Act (MOJ English translation): the headquarters 'is established under the Cabinet'; Art. 22(1): the Prime Minister is chairperson; Art. 26: 'Affairs concerning the headquarters are handled by the Cabinet Office.' The two entries repeat the same phrase, so they are corrected together. The Act contains no fine, compute threshold or testing duty (observation), which supports the rest of the jp-ai context's factual core.",
+          "evidence": [
+            {
+              "source": "S-0306",
+              "passage": "S-0306#1",
+              "stance": "supports",
+              "supports": "established under the Cabinet"
+            },
+            {
+              "source": "S-0306",
+              "passage": "S-0306#2",
+              "stance": "supports",
+              "supports": "Cabinet Office handles affairs"
+            },
+            {
+              "source": "S-0306",
+              "passage": "S-0306#3",
+              "stance": "supports",
+              "supports": "PM chairs"
+            },
+            {
+              "source": "S-0306",
+              "passage": "S-0306#7",
+              "stance": "supports",
+              "supports": "no fines, thresholds or testing duties"
+            }
+          ],
+          "uncertainty": "Small wording point; the Cabinet Office is the administrative home, so the old phrase is loosely right in practice. The English text is the Ministry of Justice's translation, not the authoritative Japanese text.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:jp-ai:cov:acct": "not in this group; 'coordination runs through the AI Strategic Headquarters' remains accurate",
+            "entry:jp-sectors:cov:acct": "not in this group; still accurate"
+          },
+          "unverified_carryover": [
+            "jp-ai: 'The approach assumes that voluntary cooperation … EU's prescriptive route' and 'Hiroshima Process commitments substitute for binding rules' (analytic)",
+            "jp-sectors: ministry roles (METI/MIC guidelines, FSA, MHLW, MIC) and the Hiroshima comparison"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:jp-sectors:desc",
+            "edge:hiroshima|jp-ai",
+            "edge:jp-sectors|jp-ai",
+            "edge:imda|jp-sectors",
+            "edge:jp-sectors|hiroshima",
+            "edge:jp-sectors|other-aisis",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "04a698669a0f"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0124",
+      "fingerprint": "f227c9b5725f",
+      "targets": [
+        "new:jp-ai-plan",
+        "edge:jp-ai-plan|jp-ai",
+        "edge:jp-ai-plan|other-aisis"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:06:07Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Add Japan AI Basic Plan (Cabinet decision under Art. 18 of the AI Promotion Act; second-term plan of 14 July 2026)",
+          "kind": "addition",
+          "changes": [
+            {
+              "op": "add_entity",
+              "after": "jp-ai",
+              "entity": {
+                "id": "jp-ai-plan",
+                "name": "Japan AI Basic Plan",
+                "layer": 2,
+                "jur": "as",
+                "pow": 2,
+                "status": "active",
+                "link": "https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_20260714.pdf",
+                "desc": "Cabinet decision required by Art. 18 of the AI Promotion Act, drafted by the AI Strategic Headquarters. First plan Dec 23, 2025; second-term plan Jul 14, 2026. A government policy plan, not binding on developers.",
+                "context": "Where the Promotion Act is light-touch, the Basic Plan sets the government's agenda. Its governance section commits to fundamentally strengthen the AI Safety Institute (AISI) as the core of Japan's technical evaluation of AI models and to evaluate high-performance AI proactively to deter threats to national security, alongside voluntary guidelines. Like the US AI Action Plan, it is a set of government commitments rather than duties on developers.",
+                "cov": {
+                  "eval": "Commits the government to build technical evaluation capability centred on AISI (model evaluation, traceability, guardrails, crisis information-sharing), to fundamentally strengthen AISI including staffing, and to evaluate high-performance AI proactively from a national-security perspective. Government commitments, not developer obligations.",
+                  "update": "Revised within seven months: first plan Dec 23, 2025, second-term plan Jul 14, 2026; Art. 18 applies the same Cabinet-decision procedure to changes."
+                }
+              }
+            },
+            {
+              "op": "add_edge",
+              "a": "jp-ai-plan",
+              "b": "jp-ai",
+              "rel": "Plan required by Art. 18 of the Promotion Act and drafted by its AI Strategic Headquarters"
+            },
+            {
+              "op": "add_edge",
+              "a": "jp-ai-plan",
+              "b": "other-aisis",
+              "rel": "Plan commits to fundamentally strengthen J-AISI as the core of AI model evaluation"
+            }
+          ],
+          "why": "The AI Promotion Act has no binding rules; the AI Basic Plan is where Japan sets the substance of its frontier-relevant policy, including a strengthened AI Safety Institute and proactive evaluation of high-performance AI. It was replaced by a second-term plan on 14 July 2026 and has no entry on the map.",
+          "rationale": "Re-verifies lead P-0136 from the lost 2026-10-12 run. RUBRIC §1: identifiable (Cabinet decision text published by the Cabinet Office, cover dated 14 July 2026); material (contextual-to-direct: it directs government evaluation capacity for AI models and high-performance AI, measure ⑦ and the governance introduction); attributable (the Cabinet, on a draft by the AI Strategic Headquarters, Arts. 18(3) and 20(i)). Layer 2 and pow 2 follow the US AI Action Plan precedent (RUBRIC §4: policy documents of recommended actions are pow 2). Status active: adopted and current. Connections: the Act requires the plan (Art. 18) and J-AISI sits in other-aisis.",
+          "evidence": [
+            {
+              "source": "S-0307",
+              "passage": "S-0307#1",
+              "stance": "supports",
+              "supports": "Cabinet decision of 14 July 2026"
+            },
+            {
+              "source": "S-0307",
+              "passage": "S-0307#2",
+              "stance": "supports",
+              "supports": "first plan 23 Dec 2025 under Art. 18(1)"
+            },
+            {
+              "source": "S-0307",
+              "passage": "S-0307#3",
+              "stance": "supports",
+              "supports": "this is the second-term plan"
+            },
+            {
+              "source": "S-0307",
+              "passage": "S-0307#5",
+              "stance": "supports",
+              "supports": "AISI-centred evaluation capability; fundamentally strengthen AISI"
+            },
+            {
+              "source": "S-0307",
+              "passage": "S-0307#6",
+              "stance": "supports",
+              "supports": "staffing increase"
+            },
+            {
+              "source": "S-0307",
+              "passage": "S-0307#4",
+              "stance": "supports",
+              "supports": "proactive evaluation of high-performance AI for national security"
+            },
+            {
+              "source": "S-0306",
+              "passage": "S-0306#4",
+              "stance": "supports",
+              "supports": "plan required; Cabinet decision on HQ draft"
+            },
+            {
+              "source": "S-0306",
+              "passage": "S-0306#5",
+              "stance": "supports",
+              "supports": "same procedure for changes"
+            },
+            {
+              "source": "S-0306",
+              "passage": "S-0306#6",
+              "stance": "supports",
+              "supports": "HQ prepares the draft"
+            }
+          ],
+          "uncertainty": "Inclusion and layer are a judgment: the plan could instead be mentioned in the jp-ai entry rather than added (RUBRIC §5). It could also be argued to be Layer 2 'direct' tier because of its high-performance-AI evaluation language. Only the Japanese original of the 14 July 2026 plan was read; translations in the passages are mine. The first plan (Dec 2025) was not opened; its date comes from the second plan's own text.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:jp-ai:cov:mit": "not in this group; not affected",
+            "entry:other-aisis:desc": "not in this group; already lists Japan (J-AISI)"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:jp-sectors:desc",
+            "edge:hiroshima|jp-ai",
+            "edge:jp-sectors|jp-ai",
+            "entry:aisr:context",
+            "entry:aisi-net:context",
+            "entry:uk-aisi:cov:elicit",
+            "edge:aisi-net|other-aisis",
+            "edge:au-esafety|other-aisis",
+            "edge:imda|other-aisis",
+            "edge:jp-sectors|other-aisis",
+            "gap:eval",
+            "text:layer-4:tooltip",
+            "text:layer-4:subtitle"
+          ],
+          "hash": "f8f8b30b039c"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0125",
+      "fingerprint": "faf3bee5f26c",
+      "targets": [
+        "entry:co-aia:cov:timing"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:06:07Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Colorado ADMT Act timing note: SB 24-205 was not repealed before its Jun 30, 2026 date; enforcement is stayed by court order",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "co-aia",
+              "cat": "timing",
+              "from": "Effective Jan 1, 2027 (the original SB 24-205 was repealed before reaching its enforcement date). No lifecycle-review obligation.",
+              "to": "Effective Jan 1, 2027, when SB 26-189 repeals and reenacts SB 24-205, whose requirements had been delayed to Jun 30, 2026. An Apr 27, 2026 court order in xAI v. Weiser bars AG enforcement of either law for violations up to 14 days after the court rules on xAI's planned preliminary-injunction motion. No lifecycle-review obligation."
+            }
+          ],
+          "why": "The note says the original act was repealed before reaching its enforcement date. The replacement only takes effect on Jan 1, 2027, after SB 24-205's Jun 30, 2026 date; what actually kept SB 24-205 from being enforced is the court-ordered stay in the xAI case.",
+          "rationale": "Re-verifies lead P-0126 from the lost 2026-10-12 run. SB 26-189 Sec. 1 repeals and reenacts part 17 and Sec. 5 makes the act take effect Jan 1, 2027 for decisions on or after that date (approved May 14, 2026). SB25B-004 extended SB 24-205's requirements to June 30, 2026; the joint stipulation in xAI v. Weiser confirms SB24-205 'becomes effective June 30, 2026'. The court's Apr 27, 2026 minute order (ECF 24) bars the Attorney General from initiating enforcement for violations of SB24-205 or replacing legislation occurring up to 14 days after a ruling on xAI's preliminary-injunction motion, which xAI files within 28 days of final rules. The docket shows no ruling or modification as of Oct 2, 2026. The lead's draft did not have the order; this version adds it.",
+          "evidence": [
+            {
+              "source": "S-0160",
+              "passage": "S-0160#17",
+              "stance": "supports",
+              "supports": "effective and applicable Jan 1, 2027"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#16",
+              "stance": "supports",
+              "supports": "repeal and reenact part 17"
+            },
+            {
+              "source": "S-0161",
+              "passage": "S-0161#2",
+              "stance": "supports",
+              "supports": "SB 24-205 requirements delayed to Jun 30, 2026"
+            },
+            {
+              "source": "S-0302",
+              "passage": "S-0302#1",
+              "stance": "supports",
+              "supports": "SB24-205 becomes effective Jun 30, 2026"
+            },
+            {
+              "source": "S-0163",
+              "passage": "S-0163#3",
+              "stance": "supports",
+              "supports": "court-ordered enforcement stay"
+            },
+            {
+              "source": "S-0163",
+              "passage": "S-0163#4",
+              "stance": "supports",
+              "supports": "PI motion timing tied to final rules"
+            },
+            {
+              "source": "S-0163",
+              "passage": "S-0163#5",
+              "stance": "supports",
+              "supports": "no later ruling or modification"
+            }
+          ],
+          "uncertainty": "The order is read from the docket text reproduced by CourtListener (PACER/RECAP), not a separately filed order PDF. The parties' stipulation limited the AG's undertaking to enforcement 'against xAI', while the minute order's paragraph 1 has no such limit; the edit follows the order. The order also covers SB 26-189, so the stay continues past Jan 1, 2027 until the preliminary-injunction ruling.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:co-aia:context": "not in this group; its 'April 27 court stay' matches ECF 24, but 'Colorado repealed the law' should be read with the Jan 1, 2027 effective date of the repeal"
+          },
+          "unverified_carryover": [
+            "No lifecycle-review obligation"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:tx-raiga:cov:mit",
+            "edge:us-preempt|co-aia",
+            "edge:co-doi|co-aia",
+            "gap:mit",
+            "faq:which-ai-laws-are-binding-with-penalties"
+          ],
+          "hash": "cc7ee525b755"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0126",
+      "fingerprint": "286318e76002",
+      "targets": [
+        "entry:tx-raiga:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:06:07Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Texas TRAIGA description: replace the outdated 'Narrower than Colorado' comparison with dates and penalties",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "tx-raiga",
+              "field": "desc",
+              "from": "Texas Responsible AI Governance Act, Jun 2025. Narrower than Colorado.",
+              "to": "Texas Responsible AI Governance Act (HB 149), signed Jun 22, 2025; effective Jan 1, 2026. AG enforcement only, after a 60-day cure period; civil penalties of $10,000–$12,000 per curable and $80,000–$200,000 per uncurable violation."
+            }
+          ],
+          "why": "The description gives no effective date or penalties, and its comparison is with Colorado's original AI Act, which SB 26-189 has since replaced with a narrower disclosure regime, so the comparison is out of date.",
+          "rationale": "Re-verifies lead P-0127 from the lost 2026-10-12 run. Texas Legislature Online history: signed Jun 22, 2025, effective 1/1/26; enrolled text Sec. 10 (effective Jan 1, 2026), Sec. 552.101(a) (AG exclusive authority), Sec. 552.104(b)(1) (no action before day 60 after notice), Sec. 552.105(a) (penalty ranges). RUBRIC §6 wants hard facts in desc.",
+          "evidence": [
+            {
+              "source": "S-0166",
+              "passage": "S-0166#3",
+              "stance": "supports",
+              "supports": "signed Jun 22, 2025; effective 1/1/26"
+            },
+            {
+              "source": "S-0303",
+              "passage": "S-0303#1",
+              "stance": "supports",
+              "supports": "short title"
+            },
+            {
+              "source": "S-0303",
+              "passage": "S-0303#2",
+              "stance": "supports",
+              "supports": "effective Jan 1, 2026"
+            },
+            {
+              "source": "S-0303",
+              "passage": "S-0303#3",
+              "stance": "supports",
+              "supports": "AG exclusive enforcement"
+            },
+            {
+              "source": "S-0303",
+              "passage": "S-0303#4",
+              "stance": "supports",
+              "supports": "60-day cure period"
+            },
+            {
+              "source": "S-0303",
+              "passage": "S-0303#5",
+              "stance": "supports",
+              "supports": "penalty ranges"
+            }
+          ],
+          "uncertainty": "Whether TRAIGA is narrower than the Colorado ADMT Act is a comparative judgment not checked; the edit drops it rather than updating it. Continuing violations carry a further $2,000–$40,000 per day (not in the new text). No TRAIGA amendment since 2025 was searched for beyond the bill history.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:tx-raiga:cov:mit": "not in this group; still says 'Narrower scope than Colorado's algorithmic-discrimination duties', which compares with the replaced SB 24-205"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "faq:which-ai-laws-are-binding-with-penalties"
+          ],
+          "hash": "acdbb5585cde"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0127",
+      "fingerprint": "e0132bcf3197",
+      "targets": [
+        "entry:il-aisma:context"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:06:07Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Illinois AI Safety Measures Act: 'AG enforcement only' omits the Agency's own disclosure penalty",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "il-aisma",
+              "field": "context",
+              "from": "Third state frontier-AI statute, built on the SB 53 / RAISE template: large frontier developers publish a frontier AI framework, file disclosure statements, and report critical safety incidents to the Illinois Emergency Management Agency and the AG within 72 hours; all frontier developers publish transparency reports at deployment. Unlike SB 53 and RAISE, it requires large frontier developers to retain an independent third-party auditor every year. AG enforcement only.",
+              "to": "Third state frontier-AI statute, built on the SB 53 / RAISE template: large frontier developers publish a frontier AI framework, file disclosure statements, and report critical safety incidents to the Illinois Emergency Management Agency and the AG within 72 hours; all frontier developers publish transparency reports at deployment. Unlike SB 53 and RAISE, it requires large frontier developers to retain an independent third-party auditor every year. Only the AG can sue for the $1M / $3M civil penalties; the Agency can separately levy $1,000 a day for a missing or false disclosure statement."
+            }
+          ],
+          "why": "The context says enforcement is by the AG only, but the Act also lets the Illinois Emergency Management Agency levy civil penalties itself.",
+          "rationale": "Re-verifies lead P-0128 from the lost 2026-10-12 run. Sec. 25(b): the Sec. 25(a) penalties ($1M first, $3M subsequent) are recovered in an action 'brought exclusively by the Attorney General'. Sec. 18(e): the Agency may, after notice and hearing, levy $1,000 for each day a person fails to file a disclosure or correct false information. The rest of the context (72-hour reporting to the Agency and AG, annual independent audit) was checked against Secs. 15 and 10(d).",
+          "evidence": [
+            {
+              "source": "S-0170",
+              "passage": "S-0170#17",
+              "stance": "supports",
+              "supports": "AG-exclusive civil action"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#16",
+              "stance": "supports",
+              "supports": "$1M / $3M"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#18",
+              "stance": "supports",
+              "supports": "Agency $1,000/day penalty"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#19",
+              "stance": "supports",
+              "supports": "72-hour reporting to Agency and AG"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#20",
+              "stance": "supports",
+              "supports": "annual independent audit"
+            }
+          ],
+          "uncertainty": "None material; the Agency penalty is limited to disclosure-statement (and assessment) failures.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:il-aisma:cov:acct": "not in this group; 'AG-only civil penalties up to $1M first / $3M subsequent' is accurate for Sec. 25 but omits the Agency's Sec. 18(e) penalty"
+          },
+          "unverified_carryover": [
+            "Third state frontier-AI statute (ordinal)",
+            "all frontier developers publish transparency reports at deployment (not re-quoted)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:il-aisma|ca-sb53",
+            "edge:il-aisma|ny-raise",
+            "faq:which-ai-laws-are-binding-with-penalties"
+          ],
+          "hash": "6bd54b58aff9"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
       }
     }
   ]

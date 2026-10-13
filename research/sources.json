@@ -1,5 +1,5 @@
 {
-  "next": 302,
+  "next": 310,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -6549,6 +6549,12 @@
           "locator": "whole release",
           "text": "[Observation, not a quotation] Searched the release for 'Task Force', 'Executive Order' and '14365': none appear. The release is issued by the Civil Division and Civil Rights Division and rests on the Equal Protection Clause, not the Commerce Clause or preemption.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0111#9",
+          "locator": "Press release, para. 1",
+          "text": "The Justice Department moved to intervene in a lawsuit filed by artificial intelligence company xAI, challenging a new Colorado law that prohibits so-called “algorithmic discrimination.”",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -9386,6 +9392,24 @@
           "locator": "Whole session law (searched)",
           "text": "[Observation, not a quotation] Searched the text of Chapter 131 for \"impact assessment\", \"reasonable care\", \"risk management\" and \"algorithmic discrimination\": none appears. The reenacted part 17 contains no duty of care, impact-assessment or risk-management-program requirement.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0160#16",
+          "locator": "Sec. 1",
+          "text": "SECTION 1. In Colorado Revised Statutes, repeal and reenact, with amendments, part 17 of article 1 of title 6 as follows:",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0160#17",
+          "locator": "Sec. 5(1), (3)",
+          "text": "this act takes effect January 1, 2027. … (3) This act applies to consequential decisions made on or after January 1, 2027.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0160#18",
+          "locator": "Final line",
+          "text": "Approved: May 14, 2026",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -9408,6 +9432,16 @@
           "note": "copy saved by a research subagent",
           "sha256": "baf13696580bcbc8",
           "bytes": 131822
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:05:57Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl with browser User-Agent and Accept headers (leg.colorado.gov answers HTTP 406 to the default research fetcher)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "a70dcc7c43316664",
+          "bytes": 131822
         }
       ],
       "passages": [
@@ -9416,6 +9450,12 @@
           "locator": "Bill Summary",
           "text": "The act extends the effective date of the requirements of Senate Bill 24-205 to June 30, 2026.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0161#2",
+          "locator": "Bill summary",
+          "text": "The act extends the effective date of the requirements of Senate Bill 24-205 to June 30, 2026. APPROVED by Governor August 28, 2025 EFFECTIVE November 25, 2025",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -9510,6 +9550,24 @@
           "locator": "ECF No. 24",
           "text": "xAI shall submit a motion for preliminary injunction and, if necessary, file an amended complaint, within 28 days after final adoption of rulemaking implementing SB24-205 or any legislation that may replace or amend SB24-205.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0163#3",
+          "locator": "ECF No. 24, Minute Order of Apr 27, 2026, para. 1",
+          "text": "The defendant shall not initiate enforcement, including but not limited to the initiation of an investigation, for alleged violations of SB24-205 (or any legislation replacing or amending SB24-205 enacted during this legislative session) that occurred or may occur on or before 14 days after the date the Court issues a ruling on xAI's forthcoming motion for a preliminary injunction in this case.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0163#4",
+          "locator": "ECF No. 24, Minute Order of Apr 27, 2026, para. 2",
+          "text": "xAI shall submit a motion for preliminary injunction and, if necessary, file an amended complaint, within 28 days after final adoption of rulemaking implementing SB24-205 or any legislation that may replace or amend SB24-205.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0163#5",
+          "locator": "Docket header and entries",
+          "text": "[Observation, not a quotation] Docket read 2026-10-13: 'Date of Last Known Filing: Oct. 2, 2026'; entries after ECF No. 24 (Apr 27, 2026 minute order) show only a motion to withdraw as attorney (ECF No. 25, Oct 2, 2026). No preliminary-injunction motion or ruling and no order modifying the stay is listed.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -9693,6 +9751,12 @@
           "locator": "Caption Text",
           "text": "Relating to regulation of the use of artificial intelligence systems in this state; providing civil penalties.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0166#3",
+          "locator": "Actions",
+          "text": "E Effective on 1/1/26 06/22/2025 E Signed by the Governor 06/22/2025",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -9850,6 +9914,16 @@
           "via": "curl",
           "status": "error",
           "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could"
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:05:59Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl with CA file = session CA bundle + Sectigo Public Server Authentication CA OV R40 intermediate fetched from the certificate's AIA URL (ilga.gov omits its intermediate, so default verification fails)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "f10cd7d854d5a6e1",
+          "bytes": 219503
         }
       ],
       "passages": [
@@ -9942,6 +10016,36 @@
           "locator": "Section 25(a)",
           "text": "fails to have a third party perform an independent audit of compliance as required by subsection (d) of Section 10",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#16",
+          "locator": "Sec. 25(a)",
+          "text": "does not exceed $1,000,000 for the first violation. For a subsequent violation, the civil penalty may not exceed $3,000,000 per violation.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0170#17",
+          "locator": "Sec. 25(b)",
+          "text": "A civil penalty described in this Section shall be recovered in a civil action brought exclusively by the Attorney General.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0170#18",
+          "locator": "Sec. 18(e)",
+          "text": "the Agency may, after notice and hearing, levy civil penalties, fees, and costs as follows: (1) a civil penalty of $1,000 for each day the person fails to file a disclosure as required by this Section or fails to correct false information;",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0170#19",
+          "locator": "Sec. 15 (critical safety incidents)",
+          "text": "the Agency and the Attorney General within 72 hours of the frontier developer learning facts sufficient to establish a reasonable belief that a critical safety incident has occurred.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0170#20",
+          "locator": "Sec. 10(d)",
+          "text": "a large frontier developer shall annually retain a third party to perform an independent audit of compliance with the requirements of this Section.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -13369,6 +13473,36 @@
           "locator": "whole order (Secs. 1-9)",
           "text": "[Observation, not a quotation] Searched the full text for 'California', 'New York', 'SB 53', 'RAISE' and 'frontier': none appear. Colorado's law is the only state law the order names.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0239#9",
+          "locator": "Sec. 1",
+          "text": "a new Colorado law banning ‘‘algorithmic discrimination’’ may even force AI models to produce false results in order to avoid a ‘‘differential treatment or impact’’ on protected groups.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0239#10",
+          "locator": "Sec. 3",
+          "text": "the Attorney General shall establish an AI Litigation Task Force (Task Force) whose sole responsibility shall be to challenge State AI laws inconsistent with the policy set forth in section 2 of this order",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0239#11",
+          "locator": "Sec. 3",
+          "text": "including, if appropriate, those laws identified pursuant to section 4 of this order.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0239#12",
+          "locator": "Sec. 4",
+          "text": "publish an evaluation of existing State AI laws that identifies onerous laws that conflict with the policy set forth in section 2 of this order, as well as laws that should be referred to the Task Force",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0239#13",
+          "locator": "Whole text (searched)",
+          "text": "[Observation, not a quotation] Searched the full Federal Register text (3 pages) for 'California', 'New York', 'SB 53', 'RAISE' and 'frontier': no matches. The only state law the order refers to is 'a new Colorado law banning algorithmic discrimination' (Sec. 1); Secs. 3-5 refer to State AI laws generally, to be identified by the Commerce evaluation.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -16617,6 +16751,372 @@
           "locator": "tools/check.js output",
           "text": "0 error(s), 0 known issue(s), 5 warning(s): hand-maintained counts match the data (50 mechanisms); llms.txt, llms-full.txt and data.json equal a fresh build; all content-date sites agree (2026-10-10).",
           "retrieved": "2026-10-10"
+        }
+      ]
+    },
+    "S-0302": {
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.cod.253513/gov.uscourts.cod.253513.18.0.pdf",
+      "title": "X.AI LLC v. Weiser, ECF No. 18: Joint Motion to Vacate Scheduling Conference and Suspend Case Deadlines and Stipulation to Temporarily Stay Enforcement",
+      "publisher": "U.S. District Court for the District of Colorado (RECAP copy)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-04-24"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:05:55Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://storage.courtlistener.com/recap/gov.uscourts.cod.253513/gov.uscourts.cod.253513.18.0.pdf",
+          "content_type": "application/pdf",
+          "sha256": "fb5b956ca4fb46f7",
+          "bytes": 186632
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0302#1",
+          "locator": "p. 1",
+          "text": "On April 9, 2026, xAI filed suit seeking to enjoin enforcement of SB24-205, which becomes effective June 30, 2026.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0302#2",
+          "locator": "p. 2",
+          "text": "the Attorney General does not intend to enforce SB24-205 or any legislation replacing or amending SB24-205 until after the rulemaking process has concluded.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0303": {
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm",
+      "title": "H.B. No. 149 (89th Legislature), enrolled text (Texas Responsible Artificial Intelligence Governance Act)",
+      "publisher": "Texas Legislature Online",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-06-22",
+        "effective": "2026-01-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:05:57Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm",
+          "content_type": "text/html",
+          "sha256": "82b55443766cdd0e",
+          "bytes": 220243
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0303#1",
+          "locator": "Sec. 1",
+          "text": "SECTION 1. This Act may be cited as the Texas Responsible Artificial Intelligence Governance Act.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0303#2",
+          "locator": "Sec. 10",
+          "text": "SECTION 10. This Act takes effect January 1, 2026.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0303#3",
+          "locator": "Bus. & Com. Code Sec. 552.101(a)",
+          "text": "The attorney general has exclusive authority to enforce this chapter, except to the extent provided by Section 552.106.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0303#4",
+          "locator": "Sec. 552.104(b)(1)",
+          "text": "The attorney general may not bring an action against the person: (1) before the 60th day after the date the attorney general provides the notice under Subsection (a)",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0303#5",
+          "locator": "Sec. 552.105(a)",
+          "text": "for each violation the court determines to be curable or a breach of a statement submitted to the attorney general under Section 552.104(b)(2), not less than $10,000 and not more than $12,000; (2) for each violation the court determines to be uncurable, not less than $80,000 and not more than $200,000",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0304": {
+      "url": "https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mPid=2&mId=4&bbsSeqNo=42&nttSeqNo=1191",
+      "title": "MSIT Announces Legislative Notice for the Enforcement Decree of the AI Basic Act",
+      "publisher": "Ministry of Science and ICT (Korea)",
+      "type": "primary",
+      "dates": {
+        "published": "2025-11-12"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:06:00Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl with browser User-Agent; the 2026-10-12 run reported repeat automated fetches return a JavaScript shell",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "3f4f546d0c86dcf9",
+          "bytes": 57718
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0304#1",
+          "locator": "Summary bullets",
+          "text": "A grace period of at least one year will be implemented before imposing administrative fines, providing companies with sufficient preparation time and supporting them in understanding and fulfilling their obligations.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0304#2",
+          "locator": "Body text",
+          "text": "MSIT will implement a grace period of at least one year before administrative fines are imposed. Efforts are currently underway to gather opinions to finalize the detailed operation plan and duration of this grace period.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0305": {
+      "url": "https://cset.georgetown.edu/wp-content/uploads/t0625_south_korea_ai_law_EN.pdf",
+      "title": "Framework Act on the Development of Artificial Intelligence and Establishment of Trust (English translation, Law No. 20676)",
+      "publisher": "CSET, Georgetown University (translation)",
+      "type": "secondary",
+      "dates": {
+        "published": "2025-01-21",
+        "effective": "2026-01-22"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:06:00Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cset.georgetown.edu/wp-content/uploads/t0625_south_korea_ai_law_EN.pdf",
+          "content_type": "application/pdf",
+          "sha256": "9a09e89ff0d62f14",
+          "bytes": 306719
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0305#1",
+          "locator": "Art. 43(1)",
+          "text": "An administrative fine not exceeding 30 million won [U.S. $22,000] shall be",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0305#2",
+          "locator": "Supplementary Provisions, Art. 1",
+          "text": "Article 1 (Enforcement Date) This Act shall enter into force one year after the date of",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0306": {
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5066/en",
+      "title": "Act on Promotion of Research and Development, and Utilization of Artificial Intelligence-related Technology (Act No. 53 of 2025), English translation",
+      "publisher": "Ministry of Justice, Japan (Japanese Law Translation)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-06-04"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:06:01Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5066/en",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "62023c1b3118c612",
+          "bytes": 63187
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0306#1",
+          "locator": "Art. 19",
+          "text": "An artificial intelligence strategic headquarters (referred to below as the \"headquarters\") is established under the Cabinet to comprehensively and systematically advance measures for promoting research and development, and utilization of artificial intelligence-related technology.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0306#2",
+          "locator": "Art. 26",
+          "text": "Affairs concerning the headquarters are handled by the Cabinet Office.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0306#3",
+          "locator": "Art. 22(1)",
+          "text": "The person in charge of the headquarters is referred to as the chairperson of the artificial intelligence strategic headquarters (referred to below as the \"chairperson\"), and the Prime Minister serves in that capacity.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0306#4",
+          "locator": "Art. 18(1), (3), (5)",
+          "text": "The government is to establish a basic plan for the promotion of research and development, and utilization of artificial intelligence-related technology (referred to below as \"artificial intelligence basic plan\") … The Prime Minister is to seek a cabinet decision on the draft of artificial intelligence basic plan prepared by an artificial intelligence strategic headquarters.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0306#5",
+          "locator": "Art. 18(5)",
+          "text": "The provisions of the preceding two paragraphs apply mutatis mutandis to changes in the artificial intelligence basic plan.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0306#6",
+          "locator": "Art. 20(i)",
+          "text": "The headquarters is responsible for the following affairs: (i) preparing a draft of the artificial intelligence basic plan and promoting its implementation",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0306#7",
+          "locator": "Whole text (searched)",
+          "text": "[Observation, not a quotation] Read the full translated Act (Arts. 1-28 and Supplementary Provisions): it contains no penalty or fine provision, no compute threshold and no testing obligation; duties on business operators are to 'endeavor' and 'cooperate' (Art. 7).",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0307": {
+      "url": "https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_20260714.pdf",
+      "title": "人工知能基本計画 ～日本ＡＸ、より強く、より豊かに～ (Artificial Intelligence Basic Plan), Cabinet decision of 14 July 2026",
+      "publisher": "Cabinet Office, Japan",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-07-14"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:06:03Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl with browser User-Agent; the 2026-10-12 run reported repeat automated fetches fail",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "4e63dfe86c6a3516",
+          "bytes": 581426
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0307#1",
+          "locator": "Cover",
+          "text": "人工知能基本計画 ～日本ＡＸ、より強く、より豊かに～ 令和８年７月 14 日 閣議決定 [Artificial Intelligence Basic Plan, Cabinet decision of 14 July 2026]",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0307#2",
+          "locator": "Chapter 1 (basic concept), para. 1",
+          "text": "2025 年 12 月 23 日、「人工知能関連技術の研究開発及び活用の推進に関する法律」（令和７年法律第 53 号。以下「ＡＩ法」という。）第 18 条第１項に規定する我が国初の「人工知能基本計画」を閣議決定した。 [On 23 December 2025 the Cabinet decided Japan's first AI Basic Plan under Art. 18(1) of the AI Act]",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0307#3",
+          "locator": "Chapter 1 (basic concept), final para.",
+          "text": "ＡＩ法第 18 条第１項の規定に基づく「人工知能基本計画」の第Ⅱ期計画を策定し [formulates the second-term AI Basic Plan under Art. 18(1) of the AI Act]",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0307#4",
+          "locator": "Chapter 3, Section 3 (AI governance), introduction",
+          "text": "ＡＩＳＩも更なる強化が必要である。… 国家の安全を脅かす事象を抑止する観点からの高性能ＡＩの積極的な評価 [AISI also needs further strengthening … proactive evaluation of high-performance AI from the perspective of deterring events that threaten national security]",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0307#5",
+          "locator": "Chapter 3, Section 3, measure ⑦",
+          "text": "ＡＩＳＩを中心として、ＡＩモデルの評価、トレーサビリティ、ガードレール等の技術的制御、危機時の情報共有などを可能とする技術的評価能力の確立と強化を図る。その中核として、ＡＩＳＩの機能を抜本的に強化する。 [Centred on AISI, establish and strengthen technical evaluation capability enabling AI model evaluation, traceability, technical controls such as guardrails, and information-sharing in crises; as its core, fundamentally strengthen AISI's functions]",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0307#6",
+          "locator": "Chapter 3, Section 3, measure ⑦ (cont.)",
+          "text": "政府を挙げて技術的専門性を有する人材採用の推進等により人員増強を図り [increase staffing, including through government-wide recruitment of people with technical expertise]",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0308": {
+      "url": "https://www.techpolicy.press/september-2026-us-tech-policy-roundup",
+      "title": "September 2026 US Tech Policy Roundup",
+      "publisher": "Tech Policy Press",
+      "type": "secondary",
+      "dates": {
+        "published": "2026-10-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:06:04Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.techpolicy.press/september-2026-us-tech-policy-roundup/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "ce8070e60fdc8454",
+          "bytes": 276545
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0308#1",
+          "locator": "Summary section",
+          "text": "On September 29, Trump and the leaders of Google, Anthropic, Meta, OpenAI, SpaceXAI and Nvidia signed an accord committing participating companies to internal controls, dedicated oversight teams, independent external auditors and an independent committee to review their findings.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0308#2",
+          "locator": "State section",
+          "text": "Florida Attorney General James Uthmeier asked a state court on September 28 to bar OpenAI from developing new models without independent safety guardrails while the state's lawsuit against the company proceeds.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0309": {
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/",
+      "title": "Fact Sheet: President Donald J. Trump Inaugurates The Era of Super Intelligence",
+      "publisher": "The White House",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-29"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:06:05Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "3e3aa509fd205bf2",
+          "bytes": 268978
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0309#1",
+          "locator": "Advancing the Frontier of American Innovation",
+          "text": "In March 2026, the White House unveiled a commonsense, comprehensive National Super Intelligence Policy Framework with legislative recommendations to ensure that every American benefits from this technological revolution.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0309#2",
+          "locator": "Whole fact sheet (searched)",
+          "text": "[Observation, not a quotation] The fact sheet describes only EO 14434 (terminology) and past actions; it does not mention any accord or joint commitment with AI companies. A scan of the whitehouse.gov post and page sitemaps on 2026-10-13 found no URL containing 'accord'.",
+          "retrieved": "2026-10-13"
         }
       ]
     }

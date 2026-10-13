@@ -8398,18 +8398,39 @@
     },
     "entry:co-aia:cov:timing": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0160",
           "S-0161",
+          "S-0302",
           "S-0163"
         ],
-        "proposals": [],
-        "note": "Effective 1 Jan 2027 confirmed; no lifecycle-review duty found. SB 25B-004 had moved SB 24-205's start to 30 Jun 2026; SB 26-189 was signed 14 May 2026, but its repeal-and-reenactment (§1) takes effect only on 1 Jan 2027 (§5(1)), and enforcement of SB 24-205 was barred by the 27 Apr 2026 court order. Whether SB 24-205's obligations formally applied from 30 Jun to 31 Dec 2026 is not settled by these texts.",
-        "missing": "An official statement (AG, legislative staff, court) on the status of SB 24-205 between 30 Jun 2026 and 1 Jan 2027; if none, reword to \"SB 26-189 was enacted before the original 30 Jun 2026 start date, and a court order barred enforcement of SB 24-205\".",
+        "proposals": [
+          "P-0125"
+        ],
+        "note": "SB 26-189 effective Jan 1, 2027; SB 24-205 requirements effective Jun 30, 2026 (SB25B-004); enforcement stayed by Apr 27, 2026 minute order (ECF 24), no later ruling on docket. Lead P-0126 re-verified and extended with the court order.",
+        "missing": null,
+        "hash": "5624f484aa49"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0160",
+          "S-0161",
+          "S-0302",
+          "S-0163"
+        ],
+        "proposals": [
+          "P-0125"
+        ],
+        "note": "SB 26-189 effective Jan 1, 2027; SB 24-205 requirements effective Jun 30, 2026 (SB25B-004); enforcement stayed by Apr 27, 2026 minute order (ECF 24), no later ruling on docket. Lead P-0126 re-verified and extended with the court order.",
+        "missing": null,
         "hash": "5624f484aa49"
       }
     },
@@ -8683,17 +8704,35 @@
     },
     "entry:tx-raiga:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0166",
-          "S-0165"
+          "S-0303",
+          "S-0166"
         ],
-        "proposals": [],
-        "note": "Signed 22 Jun 2025 (TLO history); effective 1 Jan 2026. \"Narrower than Colorado\" compares with a Colorado law since repealed and reenacted.",
-        "missing": "comparative/analytic claim; not verifiable from sources",
+        "proposals": [
+          "P-0126"
+        ],
+        "note": "'Jun 2025' correct (signed Jun 22, 2025); comparison with Colorado refers to a replaced law. Enrolled text gives effective date, AG enforcement, cure period and penalties. Lead P-0127 re-verified.",
+        "missing": null,
+        "hash": "a78058d6e30c"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0303",
+          "S-0166"
+        ],
+        "proposals": [
+          "P-0126"
+        ],
+        "note": "'Jun 2025' correct (signed Jun 22, 2025); comparison with Colorado refers to a replaced law. Enrolled text gives effective date, AG enforcement, cure period and penalties. Lead P-0127 re-verified.",
+        "missing": null,
         "hash": "a78058d6e30c"
       }
     },
@@ -12285,18 +12324,34 @@
     },
     "entry:jp-sectors:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0267",
-          "S-0268"
+          "S-0306"
         ],
-        "proposals": [],
-        "note": "METI/MIC role and periodic updates confirmed (v1.0 Apr 2024 to v1.2 Mar 2026; note the guidelines are joint MIC/METI, not METI alone). FSA, MHLW and MIC sectoral roles and the FSA framework revision were not checked.",
-        "missing": "FSA AI discussion paper/guidance and MHLW AI guidance pages, to confirm the ministry-by-ministry description.",
-        "hash": "e06d6cec6e08"
+        "proposals": [
+          "P-0123"
+        ],
+        "note": "Same HQ placement correction as jp-ai (Arts. 19, 26). Ministry roles were not re-checked and are listed as unverified carryover.",
+        "missing": null,
+        "hash": "c6e70df283b6"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0306"
+        ],
+        "proposals": [
+          "P-0123"
+        ],
+        "note": "Same HQ placement correction as jp-ai (Arts. 19, 26). Ministry roles were not re-checked and are listed as unverified carryover.",
+        "missing": null,
+        "hash": "c6e70df283b6"
       }
     },
     "entry:jp-sectors:cov:mit": {
@@ -13681,31 +13736,69 @@
     },
     "edge:us-preempt|ca-sb53": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0239"
+          "S-0239",
+          "S-0111"
         ],
-        "proposals": [],
-        "note": "The EO names only Colorado's law. §4 targets state laws that 'compel AI developers or deployers to disclose or report information', a category SB 53 and RAISE may fall in, but neither is named.",
-        "missing": "The Commerce §4 evaluation of state AI laws (due 11 Mar 2026): whether it has been published and whether it names SB 53 or RAISE. Secondary reports from March 2026 say it was not yet released; no official copy found.",
+        "proposals": [
+          "P-0121"
+        ],
+        "note": "EO 14365 (FR text) names no California or New York law; Task Force and Commerce review target State AI laws generally, with a compelled-disclosure criterion. DOJ's only announced action is in the Colorado case. Lead P-0129 re-verified.",
+        "missing": null,
+        "hash": "6d63cc66405d"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0239",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0121"
+        ],
+        "note": "EO 14365 (FR text) names no California or New York law; Task Force and Commerce review target State AI laws generally, with a compelled-disclosure criterion. DOJ's only announced action is in the Colorado case. Lead P-0129 re-verified.",
+        "missing": null,
         "hash": "6d63cc66405d"
       }
     },
     "edge:us-preempt|ny-raise": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0239"
+          "S-0239",
+          "S-0111"
         ],
-        "proposals": [],
-        "note": "The EO names only Colorado's law. §4 targets state laws that 'compel AI developers or deployers to disclose or report information', a category SB 53 and RAISE may fall in, but neither is named.",
-        "missing": "The Commerce §4 evaluation of state AI laws (due 11 Mar 2026): whether it has been published and whether it names SB 53 or RAISE. Secondary reports from March 2026 say it was not yet released; no official copy found.",
+        "proposals": [
+          "P-0121"
+        ],
+        "note": "EO 14365 (FR text) names no California or New York law; Task Force and Commerce review target State AI laws generally, with a compelled-disclosure criterion. DOJ's only announced action is in the Colorado case. Lead P-0129 re-verified.",
+        "missing": null,
+        "hash": "7368ec885b91"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0239",
+          "S-0111"
+        ],
+        "proposals": [
+          "P-0121"
+        ],
+        "note": "EO 14365 (FR text) names no California or New York law; Task Force and Commerce review target State AI laws generally, with a compelled-disclosure criterion. DOJ's only announced action is in the Colorado case. Lead P-0129 re-verified.",
+        "missing": null,
         "hash": "7368ec885b91"
       }
     },
@@ -14170,16 +14263,35 @@
     },
     "entry:kr-ai:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0293"
+          "S-0304",
+          "S-0305"
         ],
-        "proposals": [],
-        "note": "Confirmed: in force 22 Jan 2026 (Addenda Art. 1; Act No. 20676 of 21 Jan 2025) and fines up to KRW 30M (~$21k) (Art. 43). Neither the Act nor the Enforcement Decree contains a grace period; 'penalties begin Jan 22, 2027' rests on MSIT's announced policy. Press reports say MSIT promised a fine-guidance period of 'at least one year', i.e. possibly longer.",
-        "missing": "MSIT's official press release or notice setting the fine-guidance (계도) period and its end date (msit.go.kr or korea.kr).",
+        "proposals": [
+          "P-0122"
+        ],
+        "note": "MSIT: grace period of at least one year before fines, duration to be finalised; Act in force one year after promulgation; KRW 30M cap. Lead P-0130 re-verified.",
+        "missing": null,
+        "hash": "493d91827642"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0304",
+          "S-0305"
+        ],
+        "proposals": [
+          "P-0122"
+        ],
+        "note": "MSIT: grace period of at least one year before fines, duration to be finalised; Act in force one year after promulgation; KRW 30M cap. Lead P-0130 re-verified.",
+        "missing": null,
         "hash": "493d91827642"
       }
     },
@@ -14527,17 +14639,33 @@
     },
     "entry:jp-ai:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0296",
-          "S-0297"
+          "S-0306"
         ],
-        "proposals": [],
-        "note": "Facts verified: the HQ is established (Art. 19; affairs in the Cabinet Office, Art. 26); no thresholds, mandatory testing or fines.",
-        "missing": "comparative/analytic claim; not verifiable from sources (the approach's assumptions and 'Hiroshima commitments substitute for binding rules')",
+        "proposals": [
+          "P-0123"
+        ],
+        "note": "Art. 19 places the HQ under the Cabinet; Art. 26 gives its affairs to the Cabinet Office. No fines/thresholds/testing duties in the Act (observation). Analytic sentences not verifiable and carried over. Lead P-0131 re-verified.",
+        "missing": null,
+        "hash": "7483d53f9bb1"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0306"
+        ],
+        "proposals": [
+          "P-0123"
+        ],
+        "note": "Art. 19 places the HQ under the Cabinet; Art. 26 gives its affairs to the Cabinet Office. No fines/thresholds/testing duties in the Act (observation). Analytic sentences not verifiable and carried over. Lead P-0131 re-verified.",
+        "missing": null,
         "hash": "7483d53f9bb1"
       }
     },
@@ -15711,6 +15839,38 @@
         "note": "Thresholds, timing and mitigations broaden METR's definitions to regulatory obligations and content controls; evaluations is not a METR element (flag raised).",
         "missing": "Maintainer decision on the category-defs flag (keep broadened definitions as an acknowledged adaptation, or restore METR's wording).",
         "hash": "ee00f4cbeb04"
+      }
+    },
+    "entry:il-aisma:context": {
+      "last_attempt": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0170"
+        ],
+        "proposals": [
+          "P-0127"
+        ],
+        "note": "Sec. 25(b) AG-exclusive penalty action, but Sec. 18(e) gives the Agency its own $1,000/day penalty. 72-hour reporting (Sec. 15) and annual audit (Sec. 10(d)) confirmed. Lead P-0128 re-verified.",
+        "missing": null,
+        "hash": "66bbbbb2e69a"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0170"
+        ],
+        "proposals": [
+          "P-0127"
+        ],
+        "note": "Sec. 25(b) AG-exclusive penalty action, but Sec. 18(e) gives the Agency its own $1,000/day penalty. 72-hour reporting (Sec. 15) and annual audit (Sec. 10(d)) confirmed. Lead P-0128 re-verified.",
+        "missing": null,
+        "hash": "66bbbbb2e69a"
       }
     }
   }
