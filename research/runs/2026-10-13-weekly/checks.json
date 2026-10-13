@@ -125,5 +125,187 @@
     "note": "Sec. 25(b) AG-exclusive penalty action, but Sec. 18(e) gives the Agency its own $1,000/day penalty. 72-hour reporting (Sec. 15) and annual audit (Sec. 10(d)) confirmed. Lead P-0128 re-verified.",
     "missing": null,
     "hash": "66bbbbb2e69a"
+  },
+  "entry:rsp:cov:eval": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0006",
+      "S-0005",
+      "S-0112",
+      "S-0113"
+    ],
+    "proposals": [
+      "P-0128"
+    ],
+    "note": "Compared both notes with RSP v3.4 (§1, §3.1, §3.3, changelog) and the Opus 5 / 5.5 system cards. Evaluations are required per in-scope model; v3.4 sets no elicitation method; METR and UK AISI testing are implementation evidence from system cards. Re-verifies lead P-0137.",
+    "missing": null,
+    "hash": "88a5990b9deb"
+  },
+  "entry:rsp:cov:elicit": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0006",
+      "S-0005",
+      "S-0112",
+      "S-0113"
+    ],
+    "proposals": [
+      "P-0128"
+    ],
+    "note": "Compared both notes with RSP v3.4 (§1, §3.1, §3.3, changelog) and the Opus 5 / 5.5 system cards. Evaluations are required per in-scope model; v3.4 sets no elicitation method; METR and UK AISI testing are implementation evidence from system cards. Re-verifies lead P-0137.",
+    "missing": null,
+    "hash": "8785fc0c0100"
+  },
+  "entry:meta-faif": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0310",
+      "S-0107",
+      "S-0311",
+      "S-0003"
+    ],
+    "proposals": [
+      "P-0129"
+    ],
+    "note": "Meta published v2.1 on 2 Oct 2026 retitled Meta Superintelligence Scaling Framework; the linked v2 PDF is superseded. layer/jur/pow/status unchanged (still a voluntary corporate framework, active). Re-verifies lead P-0138.",
+    "missing": null,
+    "hash": "43f9e2664f37"
+  },
+  "entry:meta-faif:desc": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0310",
+      "S-0107",
+      "S-0311",
+      "S-0003"
+    ],
+    "proposals": [
+      "P-0129"
+    ],
+    "note": "Meta published v2.1 on 2 Oct 2026 retitled Meta Superintelligence Scaling Framework; the linked v2 PDF is superseded. layer/jur/pow/status unchanged (still a voluntary corporate framework, active). Re-verifies lead P-0138.",
+    "missing": null,
+    "hash": "72788a5e6bba"
+  },
+  "entry:meta-faif:cov:update": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0310",
+      "S-0107",
+      "S-0311",
+      "S-0003"
+    ],
+    "proposals": [
+      "P-0129"
+    ],
+    "note": "Meta published v2.1 on 2 Oct 2026 retitled Meta Superintelligence Scaling Framework; the linked v2 PDF is superseded. layer/jur/pow/status unchanged (still a voluntary corporate framework, active). Re-verifies lead P-0138.",
+    "missing": null,
+    "hash": "027003796a34"
+  },
+  "entry:meta-faif:cov:acct": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0310",
+      "S-0107",
+      "S-0311",
+      "S-0003"
+    ],
+    "proposals": [
+      "P-0129"
+    ],
+    "note": "Meta published v2.1 on 2 Oct 2026 retitled Meta Superintelligence Scaling Framework; the linked v2 PDF is superseded. layer/jur/pow/status unchanged (still a voluntary corporate framework, active). Re-verifies lead P-0138.",
+    "missing": null,
+    "hash": "f13fe8dcc115"
+  },
+  "entry:xai-rmf:cov:sec": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0108",
+      "S-0110",
+      "S-0102"
+    ],
+    "proposals": [
+      "P-0130"
+    ],
+    "note": "FAIF (effective 30 Jun 2026, still the edition linked from x.ai/safety) §2.4 now sets out a Security Goal and specific controls. Re-verifies lead P-0139.",
+    "missing": null,
+    "hash": "9bbcfbb80e86"
+  },
+  "entry:xai-rmf:desc": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0066",
+      "S-0067",
+      "S-0109",
+      "S-0108",
+      "S-0110",
+      "S-0312",
+      "S-0163"
+    ],
+    "proposals": [
+      "P-0131"
+    ],
+    "note": "Version history verified (draft Feb 2025, RMF 20 Aug 2025, FAIF 30 Dec 2025, current edition effective 30 Jun 2026; no later edition linked from x.ai/safety). Colorado suit X. AI LLC v. Weiser (D. Colo., filed 9 Apr 2026) is still open, stayed, over SB24-205. Open question on recording the SpaceX acquisition/rebrand raised as a flag (lead P-0140).",
+    "missing": "comparative/analytic claim (\"Thinner than peers\"); not verifiable from sources. Maintainer decision on the SpaceX ownership note (flag xai-spacex).",
+    "hash": "fdd0e58017ba"
+  },
+  "entry:fsf:cov:thresh": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0102",
+      "S-0006"
+    ],
+    "proposals": [
+      "P-0132"
+    ],
+    "note": "First sentence matches FSF v3.1 §1.2 and §3.2; the comparison with Anthropic's ASLs is stale under RSP v3.4 Appendix B. Re-verifies lead P-0147.",
+    "missing": null,
+    "hash": "5f6e5545e602"
+  },
+  "faq:which-ai-labs-have-published-frontier-safety-fra": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0095",
+      "S-0310",
+      "S-0108",
+      "S-0109",
+      "S-0102",
+      "S-0006"
+    ],
+    "proposals": [
+      "P-0133"
+    ],
+    "note": "OpenAI, Meta and xAI descriptions in the FAQ answer are outdated against the current primary frameworks; Anthropic and Google DeepMind descriptions still accurate.",
+    "missing": null,
+    "hash": "0efd4ae1a3f5"
   }
 }

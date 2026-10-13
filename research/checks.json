@@ -1801,72 +1801,76 @@
     },
     "entry:rsp:cov:eval": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0006",
-          "S-0008",
-          "S-0010",
-          "S-0030"
+          "S-0005",
+          "S-0112",
+          "S-0113"
         ],
         "proposals": [
-          "P-0010"
+          "P-0128"
         ],
-        "note": "Read against the v3.4 text (and v3.0): ASL ladder replaced by a thresholds table with company plans and industry recommendations; ASLs only for current safeguards; evaluations not pre-specified; Risk Report timing; FCF separate from RSP. FAQ: only the Anthropic clause checked.",
+        "note": "Compared both notes with RSP v3.4 (§1, §3.1, §3.3, changelog) and the Opus 5 / 5.5 system cards. Evaluations are required per in-scope model; v3.4 sets no elicitation method; METR and UK AISI testing are implementation evidence from system cards. Re-verifies lead P-0137.",
         "missing": null,
-        "hash": "51de77529627"
+        "hash": "88a5990b9deb"
       },
       "last_success": {
-        "run": "2026-10-10-trial1b",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0006",
-          "S-0008",
-          "S-0010",
-          "S-0030"
+          "S-0005",
+          "S-0112",
+          "S-0113"
         ],
         "proposals": [
-          "P-0010"
+          "P-0128"
         ],
-        "note": "Read against the v3.4 text (and v3.0): ASL ladder replaced by a thresholds table with company plans and industry recommendations; ASLs only for current safeguards; evaluations not pre-specified; Risk Report timing; FCF separate from RSP. FAQ: only the Anthropic clause checked.",
+        "note": "Compared both notes with RSP v3.4 (§1, §3.1, §3.3, changelog) and the Opus 5 / 5.5 system cards. Evaluations are required per in-scope model; v3.4 sets no elicitation method; METR and UK AISI testing are implementation evidence from system cards. Re-verifies lead P-0137.",
         "missing": null,
-        "hash": "51de77529627"
+        "hash": "88a5990b9deb"
       }
     },
     "entry:rsp:cov:elicit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0112",
-          "S-0113",
           "S-0006",
-          "S-0005"
+          "S-0005",
+          "S-0112",
+          "S-0113"
         ],
-        "proposals": [],
-        "note": "RSP v3.4 (effective 8 Jul 2026) is still current per the version list; it requires capability and alignment evaluations \"conducted internally and by external parties as appropriate\". The Claude Opus 5.5 system card (Sep 2026) describes maximum-elicitation evaluations (helpful-only variants), third-party expert red teaming and pre-deployment testing with METR; the Opus 5 card (Jul 2026) records UK AISI open-ended testing of pre-release snapshots (cyber ranges, misalignment). All nine coverage categories remain applicable. The specific phrase \"adversarial scaffolding\" is a summary, not RSP wording.",
+        "proposals": [
+          "P-0128"
+        ],
+        "note": "Compared both notes with RSP v3.4 (§1, §3.1, §3.3, changelog) and the Opus 5 / 5.5 system cards. Evaluations are required per in-scope model; v3.4 sets no elicitation method; METR and UK AISI testing are implementation evidence from system cards. Re-verifies lead P-0137.",
         "missing": null,
         "hash": "8785fc0c0100"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0112",
-          "S-0113",
           "S-0006",
-          "S-0005"
+          "S-0005",
+          "S-0112",
+          "S-0113"
         ],
-        "proposals": [],
-        "note": "RSP v3.4 (effective 8 Jul 2026) is still current per the version list; it requires capability and alignment evaluations \"conducted internally and by external parties as appropriate\". The Claude Opus 5.5 system card (Sep 2026) describes maximum-elicitation evaluations (helpful-only variants), third-party expert red teaming and pre-deployment testing with METR; the Opus 5 card (Jul 2026) records UK AISI open-ended testing of pre-release snapshots (cyber ranges, misalignment). All nine coverage categories remain applicable. The specific phrase \"adversarial scaffolding\" is a summary, not RSP wording.",
+        "proposals": [
+          "P-0128"
+        ],
+        "note": "Compared both notes with RSP v3.4 (§1, §3.1, §3.3, changelog) and the Opus 5 / 5.5 system cards. Evaluations are required per in-scope model; v3.4 sets no elicitation method; METR and UK AISI testing are implementation evidence from system cards. Re-verifies lead P-0137.",
         "missing": null,
         "hash": "8785fc0c0100"
       }
@@ -2161,40 +2165,44 @@
     },
     "faq:which-ai-labs-have-published-frontier-safety-fra": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0006",
-          "S-0008",
-          "S-0010",
-          "S-0030"
+          "S-0095",
+          "S-0310",
+          "S-0108",
+          "S-0109",
+          "S-0102",
+          "S-0006"
         ],
         "proposals": [
-          "P-0010"
+          "P-0133"
         ],
-        "note": "Read against the v3.4 text (and v3.0): ASL ladder replaced by a thresholds table with company plans and industry recommendations; ASLs only for current safeguards; evaluations not pre-specified; Risk Report timing; FCF separate from RSP. FAQ: only the Anthropic clause checked.",
+        "note": "OpenAI, Meta and xAI descriptions in the FAQ answer are outdated against the current primary frameworks; Anthropic and Google DeepMind descriptions still accurate.",
         "missing": null,
-        "hash": "19250a975ff7"
+        "hash": "0efd4ae1a3f5"
       },
       "last_success": {
-        "run": "2026-10-10-trial1b",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0006",
-          "S-0008",
-          "S-0010",
-          "S-0030"
+          "S-0095",
+          "S-0310",
+          "S-0108",
+          "S-0109",
+          "S-0102",
+          "S-0006"
         ],
         "proposals": [
-          "P-0010"
+          "P-0133"
         ],
-        "note": "Read against the v3.4 text (and v3.0): ASL ladder replaced by a thresholds table with company plans and industry recommendations; ASLs only for current safeguards; evaluations not pre-specified; Risk Report timing; FCF separate from RSP. FAQ: only the Anthropic clause checked.",
+        "note": "OpenAI, Meta and xAI descriptions in the FAQ answer are outdated against the current primary frameworks; Anthropic and Google DeepMind descriptions still accurate.",
         "missing": null,
-        "hash": "19250a975ff7"
+        "hash": "0efd4ae1a3f5"
       }
     },
     "gap:mit": {
@@ -5054,42 +5062,36 @@
     },
     "entry:fsf:cov:thresh": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0102",
-          "S-0103",
-          "S-0104",
-          "S-0105",
-          "S-0106"
+          "S-0006"
         ],
         "proposals": [
-          "P-0038"
+          "P-0132"
         ],
-        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "note": "First sentence matches FSF v3.1 §1.2 and §3.2; the comparison with Anthropic's ASLs is stale under RSP v3.4 Appendix B. Re-verifies lead P-0147.",
         "missing": null,
-        "hash": "c7578d8ddb2c"
+        "hash": "5f6e5545e602"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0102",
-          "S-0103",
-          "S-0104",
-          "S-0105",
-          "S-0106"
+          "S-0006"
         ],
         "proposals": [
-          "P-0038"
+          "P-0132"
         ],
-        "note": "Versions misdated (v2 is Feb 2025, v3 Sep 2025, current v3.1 Apr 2026); domain list outdated; Apollo attribution unsupported; halting and timing notes do not match v3.1.",
+        "note": "First sentence matches FSF v3.1 §1.2 and §3.2; the comparison with Anthropic's ASLs is stale under RSP v3.4 Appendix B. Re-verifies lead P-0147.",
         "missing": null,
-        "hash": "c7578d8ddb2c"
+        "hash": "5f6e5545e602"
       }
     },
     "entry:fsf:cov:elicit": {
@@ -5382,64 +5384,76 @@
     },
     "entry:meta-faif": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
+          "S-0310",
           "S-0107",
-          "S-0064"
+          "S-0311",
+          "S-0003"
         ],
         "proposals": [
-          "P-0040"
+          "P-0129"
         ],
-        "note": "Link opens the v2 PDF (via browser; ai.meta.com rejects curl). Layer, jur, pow, status fit; the name uses the pre-v2 title.",
+        "note": "Meta published v2.1 on 2 Oct 2026 retitled Meta Superintelligence Scaling Framework; the linked v2 PDF is superseded. layer/jur/pow/status unchanged (still a voluntary corporate framework, active). Re-verifies lead P-0138.",
         "missing": null,
-        "hash": "a0fddb19a576"
+        "hash": "43f9e2664f37"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
+          "S-0310",
           "S-0107",
-          "S-0064"
+          "S-0311",
+          "S-0003"
         ],
         "proposals": [
-          "P-0040"
+          "P-0129"
         ],
-        "note": "Link opens the v2 PDF (via browser; ai.meta.com rejects curl). Layer, jur, pow, status fit; the name uses the pre-v2 title.",
+        "note": "Meta published v2.1 on 2 Oct 2026 retitled Meta Superintelligence Scaling Framework; the linked v2 PDF is superseded. layer/jur/pow/status unchanged (still a voluntary corporate framework, active). Re-verifies lead P-0138.",
         "missing": null,
-        "hash": "a0fddb19a576"
+        "hash": "43f9e2664f37"
       }
     },
     "entry:meta-faif:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
+          "S-0310",
           "S-0107",
+          "S-0311",
           "S-0003"
         ],
-        "proposals": [],
-        "note": "v1 3 Feb 2025; renamed Advanced AI Scaling Framework in v2 dated 7 Apr 2026; thresholds include high and critical (plus moderate or lower); Meta is absent from the EC signatory list.",
+        "proposals": [
+          "P-0129"
+        ],
+        "note": "Meta published v2.1 on 2 Oct 2026 retitled Meta Superintelligence Scaling Framework; the linked v2 PDF is superseded. layer/jur/pow/status unchanged (still a voluntary corporate framework, active). Re-verifies lead P-0138.",
         "missing": null,
         "hash": "72788a5e6bba"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
+          "S-0310",
           "S-0107",
+          "S-0311",
           "S-0003"
         ],
-        "proposals": [],
-        "note": "v1 3 Feb 2025; renamed Advanced AI Scaling Framework in v2 dated 7 Apr 2026; thresholds include high and critical (plus moderate or lower); Meta is absent from the EC signatory list.",
+        "proposals": [
+          "P-0129"
+        ],
+        "note": "Meta published v2.1 on 2 Oct 2026 retitled Meta Superintelligence Scaling Framework; the linked v2 PDF is superseded. layer/jur/pow/status unchanged (still a voluntary corporate framework, active). Re-verifies lead P-0138.",
         "missing": null,
         "hash": "72788a5e6bba"
       }
@@ -5684,70 +5698,78 @@
     },
     "entry:meta-faif:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
+          "S-0310",
           "S-0107",
+          "S-0311",
           "S-0003"
         ],
         "proposals": [
-          "P-0039"
+          "P-0129"
         ],
-        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "note": "Meta published v2.1 on 2 Oct 2026 retitled Meta Superintelligence Scaling Framework; the linked v2 PDF is superseded. layer/jur/pow/status unchanged (still a voluntary corporate framework, active). Re-verifies lead P-0138.",
         "missing": null,
-        "hash": "902633874405"
+        "hash": "f13fe8dcc115"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
+          "S-0310",
           "S-0107",
+          "S-0311",
           "S-0003"
         ],
         "proposals": [
-          "P-0039"
+          "P-0129"
         ],
-        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "note": "Meta published v2.1 on 2 Oct 2026 retitled Meta Superintelligence Scaling Framework; the linked v2 PDF is superseded. layer/jur/pow/status unchanged (still a voluntary corporate framework, active). Re-verifies lead P-0138.",
         "missing": null,
-        "hash": "902633874405"
+        "hash": "f13fe8dcc115"
       }
     },
     "entry:meta-faif:cov:update": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
+          "S-0310",
           "S-0107",
+          "S-0311",
           "S-0003"
         ],
         "proposals": [
-          "P-0039"
+          "P-0129"
         ],
-        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "note": "Meta published v2.1 on 2 Oct 2026 retitled Meta Superintelligence Scaling Framework; the linked v2 PDF is superseded. layer/jur/pow/status unchanged (still a voluntary corporate framework, active). Re-verifies lead P-0138.",
         "missing": null,
-        "hash": "cfeeaf1ca806"
+        "hash": "027003796a34"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
+          "S-0310",
           "S-0107",
+          "S-0311",
           "S-0003"
         ],
         "proposals": [
-          "P-0039"
+          "P-0129"
         ],
-        "note": "v2 changed the critical measure from \"Stop\" to \"Develop with Mitigations\" and high from \"Do not release\" to \"Deploy with mitigations\", added loss of control, named the Chief AI Officer and Director of Alignment and Risk, defined preparedness-report triggers and committed to annual review. The current notes describe a \"not released at all\" commitment and thin disclosure that v2 does not match.",
+        "note": "Meta published v2.1 on 2 Oct 2026 retitled Meta Superintelligence Scaling Framework; the linked v2 PDF is superseded. layer/jur/pow/status unchanged (still a voluntary corporate framework, active). Re-verifies lead P-0138.",
         "missing": null,
-        "hash": "cfeeaf1ca806"
+        "hash": "027003796a34"
       }
     },
     "entry:meta-faif:cov:sec": {
@@ -5831,9 +5853,9 @@
     },
     "entry:xai-rmf:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "unresolved",
         "scope": "external",
         "sources": [
           "S-0066",
@@ -5841,14 +5863,15 @@
           "S-0109",
           "S-0108",
           "S-0110",
-          "S-0111"
+          "S-0312",
+          "S-0163"
         ],
         "proposals": [
-          "P-0041"
+          "P-0131"
         ],
-        "note": "Feb 2025 was a draft; final RMF Aug 2025, renamed Dec 2025, current edition 30 Jun 2026 (EU Code structure, four domains, lifecycle and annual assessment, proceed-only-if-acceptable commitment, no numeric criteria). Colorado lawsuit confirmed by DOJ (filed 9 Apr 2026). The halt note's comparison with Meta is outdated.",
-        "missing": null,
-        "hash": "9106fb29ae24"
+        "note": "Version history verified (draft Feb 2025, RMF 20 Aug 2025, FAIF 30 Dec 2025, current edition effective 30 Jun 2026; no later edition linked from x.ai/safety). Colorado suit X. AI LLC v. Weiser (D. Colo., filed 9 Apr 2026) is still open, stayed, over SB24-205. Open question on recording the SpaceX acquisition/rebrand raised as a flag (lead P-0140).",
+        "missing": "comparative/analytic claim (\"Thinner than peers\"); not verifiable from sources. Maintainer decision on the SpaceX ownership note (flag xai-spacex).",
+        "hash": "fdd0e58017ba"
       },
       "last_success": {
         "run": "2026-10-10-baseline",
@@ -6117,18 +6140,37 @@
     },
     "entry:xai-rmf:cov:sec": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0108",
-          "S-0111",
-          "S-0003"
+          "S-0110",
+          "S-0102"
         ],
-        "proposals": [],
-        "note": "Factual cores supported by the Jun 2026 edition: benchmark use and red-teaming/adversarial testing (§2.1–2.2); documented Security Goal, NIST 800-171-based controls, weight encryption (§2.4); safety training, system prompts, filters, with xAI free to change its approach (§2.3); internal legal/compliance reviews (§4); the Colorado suit (DOJ). Each note's main claim (\"lighter than peers\", \"among the thinnest\", \"thinner on weight-security\", \"less granular\", \"limited external accountability\", \"most visible opponent\") is comparative. xAI is also a signatory of the EU Code's Safety and Security Chapter.",
-        "missing": "comparative/analytic claim; not verifiable from sources",
+        "proposals": [
+          "P-0130"
+        ],
+        "note": "FAIF (effective 30 Jun 2026, still the edition linked from x.ai/safety) §2.4 now sets out a Security Goal and specific controls. Re-verifies lead P-0139.",
+        "missing": null,
+        "hash": "9bbcfbb80e86"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0108",
+          "S-0110",
+          "S-0102"
+        ],
+        "proposals": [
+          "P-0130"
+        ],
+        "note": "FAIF (effective 30 Jun 2026, still the edition linked from x.ai/safety) §2.4 now sets out a Security Goal and specific controls. Re-verifies lead P-0139.",
+        "missing": null,
         "hash": "9bbcfbb80e86"
       }
     },

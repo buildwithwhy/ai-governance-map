@@ -1,5 +1,5 @@
 {
-  "next": 310,
+  "next": 313,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -423,6 +423,12 @@
           "locator": "Signatories of the code of practice",
           "text": "[Observation, not a quotation] The signatory list (22 providers, including Amazon, Anthropic, Google, Microsoft and OpenAI) does not include Meta.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0003#13",
+          "locator": "Signatories of the code of practice (searched)",
+          "text": "[Observation, not a quotation] Meta does not appear in the signatory list on the page (last update 7 October 2026).",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -583,7 +589,8 @@
       "type": "primary",
       "dates": {
         "effective": "2026-07-08",
-        "in_force": "2026-07-08"
+        "in_force": "2026-07-08",
+        "published": "2026-07-08"
       },
       "fetches": [
         {
@@ -757,6 +764,48 @@
           "locator": "§3 Risk Reports, required contents item 3",
           "text": "capability and alignment evaluations (conducted internally and by external parties as appropriate)",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#22",
+          "locator": "§3.1 Scope and Timing",
+          "text": "fitting the above description are abbreviated below as “in-scope models.”",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0006#23",
+          "locator": "§3.3 Contents, item 3 (Evidence (including evaluations) about relevant model capabilities and behaviors)",
+          "text": "For each in-scope model, capability and alignment evaluations (conducted internally and by external parties as appropriate), their results, and (as appropriate) other evidence we considered in assessing the level of risk.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0006#24",
+          "locator": "§1 (Introduction), paragraph beginning \"At this point\"",
+          "text": "we cannot presently give highly specific advance detail on what evaluations will determine whether risk thresholds have been passed",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0006#25",
+          "locator": "Whole document (searched)",
+          "text": "[Observation, not a quotation] Searched the v3.4 text (pdftotext, layout and reading order) for \"elicit\" and \"scaffold\". \"scaffold\" does not occur; the only \"elicit\" hit is the October 15, 2024 (RSP v2.0) changelog line about replacing \"using 1% of compute for elicitation\". No current section sets elicitation requirements or methods.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0006#26",
+          "locator": "Changelog, October 15, 2024 (RSP v2.0), \"Less prescriptive evaluation methodology\"",
+          "text": "replaced some specifics in our previous testing methodology (e.g., using 1% of compute for elicitation or creating a 6× buffer), with more general requirements",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0006#27",
+          "locator": "Appendix B: Notes on ASLs",
+          "text": "defined “AI Safety Levels” with specific lists of required controls. We still use this concept to refer to, and distinguish between, present levels of risk mitigations",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0006#28",
+          "locator": "Changelog, February 24, 2026 (RSP v3.0)",
+          "text": "update is a comprehensive rewrite of our RSP",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -3699,6 +3748,18 @@
           "locator": "PDF metadata",
           "text": "[Observation, not a quotation] The PDF carries no date in its text; its URL and document title metadata read \"2025.02.20 xAI Risk Management Framework Draft\" (creation date 21 Feb 2025).",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0066#6",
+          "locator": "Title page",
+          "text": "xAI Risk Management Framework (Draft)",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0066#7",
+          "locator": "URL and PDF metadata",
+          "text": "[Observation, not a quotation] The file name carries the date 2025.02.20 and the PDF CreationDate is 21 Feb 2025 04:37 UTC (20 Feb in US time zones).",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -3754,6 +3815,12 @@
           "locator": "Loss of control, Thresholds",
           "text": "Our risk acceptance criteria for system deployment is maintaining a dishonesty rate of less than 1 out of 2 on MASK.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0067#4",
+          "locator": "Title page",
+          "text": "xAI Risk Management Framework Last updated: August 20, 2025",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -5312,6 +5379,18 @@
           "locator": "Appendix A Change log (pp.14–15)",
           "text": "[Observation, not a quotation] Searched the twelve-item v2 change log and Table 1 for any lowering or tightening of the biological threshold: none is described. The change log records that persuasion left the framework and nuclear/radiological became a Research Category; it says nothing about bio thresholds being lowered after CBRN findings.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0095#27",
+          "locator": "§1 Introduction",
+          "text": "We currently focus this work on three areas of frontier capability, which we call Tracked Categories: • Biological and Chemical … • Cybersecurity … • AI Self-improvement",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0095#28",
+          "locator": "Box: Changes to Tracked Categories in version 2 (Persuasion)",
+          "text": "our Preparedness Framework is specifically focused on frontier AI risks meeting a specific definition of severe harms1 , and Persuasion category risks do not fit the criteria for inclusion.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -5820,6 +5899,36 @@
           "locator": "§5.2 Disclosures",
           "text": "If we assess that a model has reached a CCL that poses an unmitigated and material risk to overall public safety, we aim to share relevant information with appropriate government authorities",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0102#26",
+          "locator": "§1.2 Critical Capability Levels and Tracked Capability Levels",
+          "text": "The Framework is built primarily around capability thresholds called “Critical Capability Levels (CCLs).”",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0102#27",
+          "locator": "§1.2 Critical Capability Levels and Tracked Capability Levels",
+          "text": "This update to the Framework introduces “Tracked Capability Levels (TCLs).” … We identify TCLs for CBRN risk, as well as ML R&D and misalignment risks.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0102#28",
+          "locator": "§3.2 ML R&D and Misalignment Capability Levels",
+          "text": "We set a Stealth and Situational Awareness TCL that indicates a baseline level of model capability above which misalignment risks may begin to arise.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0102#29",
+          "locator": "§3 (ML R&D CCLs, security levels)",
+          "text": "which reflect our assessment of the minimum appropriate level of security the field of frontier AI should apply to models reaching each CCL.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0102#30",
+          "locator": "§2.1 (security mitigations)",
+          "text": "We use security levels to indicate security goals/principles in line with the corresponding level in the RAND model weight security framework.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -6068,7 +6177,8 @@
       "publisher": "Meta",
       "type": "primary",
       "dates": {
-        "adopted": "2026-04-07"
+        "adopted": "2026-04-07",
+        "published": "2026-04-07"
       },
       "fetches": [
         {
@@ -6232,6 +6342,12 @@
           "locator": "§3.3 Risk Thresholds",
           "text": "the security measures required to prevent unauthorized access or misuse, including strictly scoping down access to model weights, are functionally incompatible with continued active development",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0107#24",
+          "locator": "Cover page and opening paragraph",
+          "text": "This Advanced AI Scaling Framework outlines how Meta manages and prepares for Frontier AI capabilities",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -6365,6 +6481,60 @@
           "locator": "Full text",
           "text": "[Observation, not a quotation] Searched the June 2026 edition for numeric acceptance criteria (\"1 out of\", percentages, MASK, answer rate): none appears. It also has no change log and does not mention California or the TFAIA.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0108#17",
+          "locator": "Title page",
+          "text": "xAI Frontier Artificial Intelligence Framework Effective Date: 30 June 2026",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0108#18",
+          "locator": "§2.4 Security mitigations",
+          "text": "xAI will maintain a documented Security Goal that identifies the threat actors against which mitigations are designed to protect against, including sophisticated non-state actors, insider threats, state-sponsored actors and other foreseeable actors. The Security Goal will be reviewed at least every year.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0108#19",
+          "locator": "§2.4 Security mitigations",
+          "text": "xAI has implemented appropriate information security standards, adopted based on the NIST 800-171 Rev.3 framework and supported by SOC 2 Type II evaluations.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0108#20",
+          "locator": "§2.4 Security mitigations",
+          "text": "encryption of model weights, role-based access controls, and real-time monitoring to prevent unauthorized transfer.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0108#21",
+          "locator": "§2.4 Security mitigations",
+          "text": "we also implement security measures against the large-scale extraction and distillation of reasoning traces",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0108#22",
+          "locator": "Whole document (searched)",
+          "text": "[Observation, not a quotation] Searched the framework for \"RAND\", \"security level\" and \"SL\". No RAND-style or capability-linked security levels appear; §2.4 states one Security Goal and one control baseline for all models.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0108#23",
+          "locator": "§2 Risk Management Framework (risk identification)",
+          "text": "four primary risk domains where significant or severe outcomes are most likely to emerge in current and future systems: CBRN Risks, Offensive Cybersecurity Risks, Loss of Control Risks and Harmful Manipulation Risks.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0108#24",
+          "locator": "§2 (risk acceptance)",
+          "text": "In assessing whether to accept residual risk, we review the risk tiers for each systemic risk category and incorporate appropriate safety margins.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0108#25",
+          "locator": "§2.1(a) Addressing CBRN Risks",
+          "text": "xAI may utilize public and internal benchmarks to measure our model’s dual-use capability",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -6420,13 +6590,19 @@
           "locator": "Malicious use, Thresholds",
           "text": "Our risk acceptance criteria for system deployment is maintaining an answer rate of less than 1 out of 20 on restricted queries.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0109#4",
+          "locator": "Title page",
+          "text": "xAI Frontier Artificial Intelligence Framework Last updated: December 30, 2025",
+          "retrieved": "2026-10-13"
         }
       ]
     },
     "S-0110": {
       "url": "https://x.ai/safety",
-      "title": "Safety at SpaceXAI",
-      "publisher": "xAI (SpaceXAI LLC)",
+      "title": "Safety | SpaceXSI",
+      "publisher": "xAI / SpaceXAI LLC",
       "type": "primary",
       "dates": {},
       "fetches": [
@@ -6450,6 +6626,16 @@
           "final_url": "https://x.ai/safety",
           "content_type": "text/html; charset=UTF-8",
           "note": "website bot challenge (Cloudflare); the environment allowed the connection"
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:07:12Z",
+          "run": "2026-10-13-weekly",
+          "via": "headless Chromium through the session proxy (x.ai serves a Cloudflare block to curl); retrieved 2026-10-13",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "57ea91341f3b1a90",
+          "bytes": 209012
         }
       ],
       "passages": [
@@ -6464,6 +6650,24 @@
           "locator": "Frontier AI Framework button",
           "text": "[Observation, not a quotation] The page’s \"Frontier AI Framework\" link points to the 30 June 2026 edition (media.x.ai/…/xai-frontier-artificial-intelligence-framework-30-june-2026-99c40684.pdf).",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0110#3",
+          "locator": "Page heading",
+          "text": "Safety at SpaceXSI",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0110#4",
+          "locator": "Footer",
+          "text": "© 2026 SpaceXAI LLC",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0110#5",
+          "locator": "Frontier AI Framework button (HTML)",
+          "text": "[Observation, not a quotation] The page's \"Frontier AI Framework\" link points to media.x.ai/v1/website/xai-frontier-artificial-intelligence-framework-30-june-2026-99c40684.pdf (source xfaif26); no later edition is linked.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -6564,7 +6768,7 @@
       "publisher": "Anthropic",
       "type": "primary",
       "dates": {
-        "published": "2026-09"
+        "published": "2026-09-22"
       },
       "fetches": [
         {
@@ -6625,7 +6829,7 @@
       "publisher": "Anthropic",
       "type": "primary",
       "dates": {
-        "published": "2026-07"
+        "published": "2026-07-24"
       },
       "fetches": [
         {
@@ -6665,6 +6869,12 @@
           "locator": "§6.4.8 External testing from the UK AI Security Institute (UK AISI)",
           "text": "we shared a pre-release snapshot of Opus 5 with the UK AI Security Institute (UK AISI) for open-ended testing, at their discretion, of behaviors or risk factors related to misalignment.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0113#3",
+          "locator": "§3.3.6 Testing from the UK AI Security Institute (UK AISI)",
+          "text": "We shared an earlier snapshot of Claude Opus 5 with the UK AI Security Institute (UK AISI) for open-ended testing, at their discretion, of cyber capabilities. This snapshot was assessed on cyber ranges.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -9567,6 +9777,24 @@
           "id": "S-0163#5",
           "locator": "Docket header and entries",
           "text": "[Observation, not a quotation] Docket read 2026-10-13: 'Date of Last Known Filing: Oct. 2, 2026'; entries after ECF No. 24 (Apr 27, 2026 minute order) show only a motion to withdraw as attorney (ECF No. 25, Oct 2, 2026). No preliminary-injunction motion or ruling and no order modifying the stay is listed.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0163#6",
+          "locator": "Docket header",
+          "text": "X. AI LLC v. Weiser (1:26-cv-01515)",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0163#7",
+          "locator": "Docket header",
+          "text": "Date Filed: April 9, 2026 Date of Last Known Filing: Oct. 2, 2026",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0163#8",
+          "locator": "Minute order of 27 Apr 2026 (ECF No. 22 granted)",
+          "text": "The defendant shall not initiate enforcement, including but not limited to the initiation of an investigation, for alleged violations of SB24-205",
           "retrieved": "2026-10-13"
         }
       ]
@@ -17116,6 +17344,200 @@
           "id": "S-0309#2",
           "locator": "Whole fact sheet (searched)",
           "text": "[Observation, not a quotation] The fact sheet describes only EO 14434 (terminology) and past actions; it does not mention any accord or joint commitment with AI companies. A scan of the whitehouse.gov post and page sitemaps on 2026-10-13 found no URL containing 'accord'.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0309#3",
+          "locator": "USHERING IN SUPER INTELLIGENCE",
+          "text": "Today, President Donald J. Trump signed an Executive Order to replace the term “Artificial Intelligence” (“AI”) with “Super Intelligence” (“SI”) in the executive branch",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0309#4",
+          "locator": "Whole fact sheet (searched)",
+          "text": "[Observation, not a quotation] The fact sheet does not mention any accord, joint commitment or company commitments on frontier AI safety; the White House presidential-actions, fact-sheets and briefings listings fetched on 2026-10-13 show no such document either.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0310": {
+      "url": "https://research.meta.ai/static/meta-superintelligence-scaling-framework",
+      "title": "Meta Superintelligence Scaling Framework, Version 2.1",
+      "publisher": "Meta",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-02",
+        "adopted": "2026-10-02"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:07:05Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://research.meta.ai/static/meta-superintelligence-scaling-framework",
+          "content_type": "application/pdf",
+          "sha256": "5a01d327df6dd81f",
+          "bytes": 656253
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0310#1",
+          "locator": "Cover page",
+          "text": "Meta Superintelligence Scaling Framework Version 2.1",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0310#2",
+          "locator": "Preface to Version 2.1 (October 2026)",
+          "text": "This is the October 2026 revision of our second iteration of our Meta Superintelligence Scaling Framework (previously titled the Frontier AI Framework).",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0310#3",
+          "locator": "Preface to Version 2.1 (October 2026)",
+          "text": "we're building more formal governance within our board of directors around how we establish our policies in this area and adjust them over time",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0310#4",
+          "locator": "Appendix II – Change Log, October 2, 2026 (Meta v2.1)",
+          "text": "Renamed from \"Advanced AI Scaling Framework\" to “Meta Superintelligence Scaling Framework.”",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0310#5",
+          "locator": "Appendix II – Change Log, October 2, 2026 (Meta v2.1)",
+          "text": "Open Weights: Added additional discussion of the benefits and risks of open weight deployments.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0310#6",
+          "locator": "Appendix II – Change Log, October 2, 2026 (Meta v2.1)",
+          "text": "Loss of Control: Added requirements for mitigating model containment failures in training and evaluation, in a new catastrophic outcome category (Loss of Control 3)",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0310#7",
+          "locator": "Appendix II – Change Log, April 7, 2026 (Advanced AI Scaling Framework v2.0)",
+          "text": "Renamed from \"Frontier AI Framework\" to \"Advanced AI Scaling Framework\".",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0310#8",
+          "locator": "Appendix II – Change Log",
+          "text": "February 3, 2025 (Frontier AI Framework) ● Initial version.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0310#9",
+          "locator": "§5.1 Updates to Our Framework",
+          "text": "will do so when we have reasonable grounds to believe either its adequacy or our adherence to it has been materially undermined, or at least every twelve months, whichever is sooner.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0310#10",
+          "locator": "Governance section (Chief AI Officer)",
+          "text": "Meta's Chief AI Officer oversees the design, implementation, and operation of the entire evaluation and mitigation process.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0310#11",
+          "locator": "Governance section (oversight)",
+          "text": "Meta's Board of Directors provides oversight of the company's product and regulatory compliance",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0310#12",
+          "locator": "Thresholds table (Critical row)",
+          "text": "Develop With Mitigations",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0311": {
+      "url": "https://research.meta.ai/blog/developing-capable-models-responsibly",
+      "title": "Developing Capable Models Responsibly",
+      "publisher": "Meta AI Research",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-02"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:07:09Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://research.meta.ai/blog/developing-capable-models-responsibly",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "a97de5fbe4115111",
+          "bytes": 100586
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0311#1",
+          "locator": "Opening paragraph (dated October 2, 2026)",
+          "text": "Today we published updates to our Meta Superintelligence Scaling Framework, which sets standards we hold ourselves to as we train, evaluate, and release our most capable AI models.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0311#2",
+          "locator": "Final paragraph",
+          "text": "We will establish a new AI committee of our Board of Directors, which will review future changes to the Framework and independently ensure that our operations conform to the standards we’ve set.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0311#3",
+          "locator": "Second paragraph",
+          "text": "Today’s Framework update reflects the commitments made at the White House this week",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0311#4",
+          "locator": "Page links (HTML)",
+          "text": "[Observation, not a quotation] The words \"Meta Superintelligence Scaling Framework\" in the opening paragraph link to /static/meta-superintelligence-scaling-framework on research.meta.ai, the PDF cited as source meta21.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0312": {
+      "url": "https://x.ai/news/xai-joins-spacex",
+      "title": "xAI joins SpaceX | SpaceXSI",
+      "publisher": "xAI / SpaceXAI LLC",
+      "type": "primary",
+      "dates": {
+        "published": "2026-02-02"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:07:12Z",
+          "run": "2026-10-13-weekly",
+          "via": "headless Chromium through the session proxy (x.ai serves a Cloudflare block to curl); retrieved 2026-10-13",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "664f004d664f7187",
+          "bytes": 294955
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0312#1",
+          "locator": "Article body",
+          "text": "SpaceX announced today that it has acquired xAI.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0312#2",
+          "locator": "Article header",
+          "text": "Feb 2, 2026 xAI joins SpaceX",
           "retrieved": "2026-10-13"
         }
       ]

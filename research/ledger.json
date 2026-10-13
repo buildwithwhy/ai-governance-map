@@ -1,5 +1,5 @@
 {
-  "next": 128,
+  "next": 134,
   "proposals": [
     {
       "id": "P-0001",
@@ -16504,6 +16504,823 @@
       "research": {
         "status": "verified",
         "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0128",
+      "fingerprint": "ef446c562abc",
+      "targets": [
+        "entry:rsp:cov:eval",
+        "entry:rsp:cov:elicit"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:07:16Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "RSP evaluation and elicitation notes: align with v3.4",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "rsp",
+              "cat": "eval",
+              "from": "Risk Reports must present capability and alignment evaluations for each threat model, run internally and by external parties as appropriate. Since v3.0 the policy does not pre-specify which evaluations show that a threshold has been crossed.",
+              "to": "Risk Reports must present capability and alignment evaluations for each in-scope model, run internally and by external parties as appropriate. Since v3.0 the policy does not pre-specify which evaluations show that a threshold has been crossed."
+            },
+            {
+              "op": "set_cov",
+              "entity": "rsp",
+              "cat": "elicit",
+              "from": "Capability elicitation built into evaluation protocols, including adversarial scaffolding, agentic deployment, and external red-teaming. METR and UK AISI participate in elicitation work.",
+              "to": "The policy sets no elicitation method; Risk Reports present capability and alignment evaluations run internally and by external parties as appropriate. System cards report external testing, e.g. METR pre-deployment testing of Claude Opus 5.5 (Sep 2026) and UK AISI cyber-range testing of Claude Opus 5 (Jul 2026)."
+            }
+          ],
+          "why": "The elicitation note describes a protocol (adversarial scaffolding, agentic deployment, external red-teaming) that the current RSP does not contain, and presents external testing as part of the policy; the evaluation note names the wrong unit (the policy requires evaluations per in-scope model, not per threat model).",
+          "rationale": "Re-verifies lead P-0137 from the lost 2026-10-12 run. RSP v3.4 §3.3 item 3 requires, for each in-scope model, capability and alignment evaluations conducted internally and by external parties as appropriate; §1 says Anthropic cannot give advance detail on which evaluations decide thresholds. A search of v3.4 finds no elicitation section (only a v2.0 changelog line on replacing the 1%-of-compute elicitation rule). External testing is evidenced separately by the Opus 5.5 card (METR, pre-deployment) and the Opus 5 card (UK AISI, cyber ranges), so per RUBRIC §6 the policy and the implementation evidence are written separately. The policy page confirms v3.4 is current.",
+          "evidence": [
+            {
+              "source": "S-0006",
+              "passage": "S-0006#23",
+              "stance": "supports",
+              "supports": "evaluations are required per in-scope model, internal and external as appropriate"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#22",
+              "stance": "supports",
+              "supports": "definition of in-scope models"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#24",
+              "stance": "supports",
+              "supports": "no pre-specified evaluations"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#25",
+              "stance": "supports",
+              "supports": "no elicitation requirements in the current policy"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#26",
+              "stance": "supports",
+              "supports": "specific elicitation rules were already replaced by general requirements in v2.0"
+            },
+            {
+              "source": "S-0005",
+              "passage": "S-0005#6",
+              "stance": "supports",
+              "supports": "v3.4 is the current version"
+            },
+            {
+              "source": "S-0112",
+              "passage": "S-0112#1",
+              "stance": "supports",
+              "supports": "METR pre-deployment testing of Opus 5.5"
+            },
+            {
+              "source": "S-0113",
+              "passage": "S-0113#3",
+              "stance": "supports",
+              "supports": "UK AISI cyber-range testing of Opus 5"
+            }
+          ],
+          "uncertainty": "Whether the maintainer wants the elicit note to keep implementation evidence at all. The two system-card examples are illustrative, not a full list of external testers. Threat-model analysis is also part of a Risk Report (§3.3 items 1-2, risk analyses), so \"each threat model\" was not wholly wrong, but the evaluation requirement itself is per in-scope model.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:rsp:context": "not checked here; does not describe elicitation"
+          },
+          "unverified_carryover": [
+            "\"Since v3.0\" (the v3.0 text itself was not re-read; v3.4 §1 supports the substance)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:eu-genai-code:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:prep:cov:thresh",
+            "entry:fsf:context",
+            "entry:fsf:cov:thresh",
+            "entry:fsf:cov:acct",
+            "entry:meta-faif:cov:thresh",
+            "entry:meta-faif:cov:sec",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "edge:ca-sb53|rsp",
+            "edge:seoul-commit|rsp",
+            "edge:gpai-cop|rsp",
+            "edge:fmf|rsp",
+            "edge:metr|rsp",
+            "edge:apollo|rsp",
+            "edge:uk-aisi|rsp",
+            "edge:ny-raise|rsp",
+            "gap:mit",
+            "gap:halt",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety"
+          ],
+          "hash": "2dbddaa1cea5"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0129",
+      "fingerprint": "549912b25613",
+      "targets": [
+        "entry:meta-faif",
+        "entry:meta-faif:desc",
+        "entry:meta-faif:cov:update",
+        "entry:meta-faif:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:07:17Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Meta framework: v2.1 (2 Oct 2026) retitled Meta Superintelligence Scaling Framework",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "meta-faif",
+              "field": "name",
+              "from": "Meta Advanced AI Scaling Framework",
+              "to": "Meta Superintelligence Scaling Framework"
+            },
+            {
+              "op": "set_field",
+              "entity": "meta-faif",
+              "field": "link",
+              "from": "https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2/",
+              "to": "https://research.meta.ai/static/meta-superintelligence-scaling-framework"
+            },
+            {
+              "op": "set_field",
+              "entity": "meta-faif",
+              "field": "desc",
+              "from": "Released Feb 2025 as Frontier AI Framework; renamed Advanced AI Scaling Framework with the April 2026 v2 update. High/critical-risk tiers. Did not sign EU GPAI Code.",
+              "to": "Released Feb 2025 as Frontier AI Framework; renamed Advanced AI Scaling Framework with the April 2026 v2 update and Meta Superintelligence Scaling Framework with the October 2026 v2.1 update. High/critical-risk tiers. Did not sign EU GPAI Code."
+            },
+            {
+              "op": "set_cov",
+              "entity": "meta-faif",
+              "cat": "update",
+              "from": "Released Feb 2025; v2 (Apr 2026) renamed it Advanced AI Scaling Framework and revised thresholds, domains and governance. Commits to review at least annually.",
+              "to": "Released Feb 2025; v2 (Apr 2026) renamed it Advanced AI Scaling Framework and revised thresholds, domains and governance; v2.1 (2 Oct 2026) renamed it Meta Superintelligence Scaling Framework and added open-weights considerations and containment requirements for training and evaluation (a new Loss of Control 3 outcome). Commits to review at least annually."
+            },
+            {
+              "op": "set_cov",
+              "entity": "meta-faif",
+              "cat": "acct",
+              "from": "Chief AI Officer oversees the process and approves deployments, supported by a Director of Alignment and Risk; the Board oversees regulatory compliance; preparedness reports are published per release, with whistleblower and non-compliance reporting. Refused to sign the EU GPAI Code, putting Meta's compliance route under the AI Act in question.",
+              "to": "Chief AI Officer oversees the process and approves deployments, supported by a Director of Alignment and Risk; the Board oversees regulatory compliance, and Meta says it will establish a Board AI committee to review future Framework changes (v2.1, Oct 2026, says this board governance is being built); preparedness reports are published per release, with whistleblower and non-compliance reporting. Refused to sign the EU GPAI Code, putting Meta's compliance route under the AI Act in question."
+            }
+          ],
+          "why": "Meta published a new version on 2 Oct 2026: the map names and links the superseded v2. v2.1 changes the title, adds open-weights and training/evaluation containment content, and Meta announces a Board AI committee to review future changes.",
+          "rationale": "Re-verifies lead P-0138 from the lost 2026-10-12 run. The v2.1 PDF (cover, Preface, Appendix II change log dated October 2, 2026) states the rename, the open-weights and Loss of Control 3 additions and the board-governance work; §5.1 keeps review at least every twelve months; the change log dates v1 (3 Feb 2025) and v2 (7 Apr 2026). Meta's announcement post of 2 Oct 2026 links the v2.1 PDF at research.meta.ai and commits to a new Board AI committee. The old link still serves the v2 PDF titled Advanced AI Scaling Framework, so it now points to a superseded version. The Commission signatory page (updated 7 Oct 2026) still does not list Meta.",
+          "evidence": [
+            {
+              "source": "S-0310",
+              "passage": "S-0310#1",
+              "stance": "supports",
+              "supports": "new title and version"
+            },
+            {
+              "source": "S-0310",
+              "passage": "S-0310#4",
+              "stance": "supports",
+              "supports": "rename in v2.1 change log dated 2 Oct 2026"
+            },
+            {
+              "source": "S-0310",
+              "passage": "S-0310#2",
+              "stance": "supports",
+              "supports": "October 2026 revision of the second iteration"
+            },
+            {
+              "source": "S-0310",
+              "passage": "S-0310#5",
+              "stance": "supports",
+              "supports": "open-weights addition"
+            },
+            {
+              "source": "S-0310",
+              "passage": "S-0310#6",
+              "stance": "supports",
+              "supports": "containment requirements, Loss of Control 3"
+            },
+            {
+              "source": "S-0310",
+              "passage": "S-0310#7",
+              "stance": "supports",
+              "supports": "v2 rename (Apr 2026)"
+            },
+            {
+              "source": "S-0310",
+              "passage": "S-0310#8",
+              "stance": "supports",
+              "supports": "initial release Feb 2025 as Frontier AI Framework"
+            },
+            {
+              "source": "S-0310",
+              "passage": "S-0310#9",
+              "stance": "supports",
+              "supports": "review at least every twelve months"
+            },
+            {
+              "source": "S-0310",
+              "passage": "S-0310#3",
+              "stance": "supports",
+              "supports": "board governance being built"
+            },
+            {
+              "source": "S-0310",
+              "passage": "S-0310#10",
+              "stance": "supports",
+              "supports": "Chief AI Officer role unchanged"
+            },
+            {
+              "source": "S-0310",
+              "passage": "S-0310#11",
+              "stance": "supports",
+              "supports": "Board oversees regulatory compliance"
+            },
+            {
+              "source": "S-0311",
+              "passage": "S-0311#1",
+              "stance": "supports",
+              "supports": "Meta announced the update on 2 Oct 2026"
+            },
+            {
+              "source": "S-0311",
+              "passage": "S-0311#4",
+              "stance": "supports",
+              "supports": "official link to the v2.1 PDF"
+            },
+            {
+              "source": "S-0311",
+              "passage": "S-0311#2",
+              "stance": "supports",
+              "supports": "planned Board AI committee"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#24",
+              "stance": "supports",
+              "supports": "old link serves the superseded v2"
+            },
+            {
+              "source": "S-0003",
+              "passage": "S-0003#13",
+              "stance": "supports",
+              "supports": "Meta still not a GPAI Code signatory"
+            }
+          ],
+          "uncertainty": "research.meta.ai is a new Meta domain (served through Meta infrastructure and linked from Meta's own post); its URL may be less stable than ai.meta.com. The change log lists three named changes plus \"updated terminology throughout\"; the full text was not diffed against v2 line by line, so other wording changes may exist. The Board AI committee is announced as a plan (\"over the coming months\"), not yet established.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "faq:which-ai-labs-have-published-frontier-safety-fra": "needs change — see faq-lab-frameworks (it still calls Meta's framework \"Frontier AI Framework\")",
+            "gap:halt": "checked, still accurate (v2.1 thresholds table keeps 'Develop With Mitigations' at Critical; the text says Meta's v2)",
+            "edge:ca-sb53|meta-faif": "unchanged; does not name the framework title",
+            "edge:seoul-commit|meta-faif": "unchanged; does not name the framework title",
+            "edge:gpai-cop|meta-faif": "checked, still accurate (Meta absent from the Commission signatory list, 7 Oct 2026)",
+            "edge:fmf|meta-faif": "unchanged; does not name the framework title",
+            "entry:meta-faif:context": "not in this group; does not name the title; \"since v2\" wording still accurate",
+            "entry:meta-faif:cov:thresh": "not in this group; ends with a comparison to Anthropic's ASLs, which the RSP no longer uses as thresholds (see fsf-thresh-asl)"
+          },
+          "unverified_carryover": [
+            "\"High/critical-risk tiers\" (confirmed in v2.1 thresholds table; kept)",
+            "\"Refused to sign the EU GPAI Code, putting Meta's compliance route under the AI Act in question\" (non-signature confirmed by the Commission list; the refusal itself rests on secondary reports)",
+            "\"preparedness reports are published per release, with whistleblower and non-compliance reporting\" (not re-read in full in v2.1)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:gpai-cop:context",
+            "entry:eu-genai-code:desc",
+            "entry:eu-genai-code:context",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:metr:context",
+            "edge:ca-sb53|meta-faif",
+            "edge:seoul-commit|meta-faif",
+            "edge:gpai-cop|meta-faif",
+            "edge:fmf|meta-faif",
+            "gap:halt",
+            "faq:which-ai-labs-have-published-frontier-safety-fra"
+          ],
+          "hash": "88dcc0250bb0"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0130",
+      "fingerprint": "921af32e6ae5",
+      "targets": [
+        "entry:xai-rmf:cov:sec"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:07:17Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "xAI security note: describe the 30 Jun 2026 edition's security section",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "xai-rmf",
+              "cat": "sec",
+              "from": "Some security commitments documented; specifics not fully disclosed. Generally thinner on weight-security than peers.",
+              "to": "Commits to a documented Security Goal naming the threat actors it guards against (including sophisticated non-state actors, insiders and state-sponsored actors), reviewed at least yearly. Says its controls follow NIST 800-171 Rev.3 with SOC 2 Type II evaluations, including weight encryption, role-based access and real-time monitoring against unauthorized transfer, plus measures against large-scale distillation of reasoning traces. Sets no capability-linked security levels, unlike FSF's RAND-aligned levels."
+            }
+          ],
+          "why": "The note says specifics are not disclosed; the current edition names a Security Goal, its threat actors, a control baseline and specific controls. Readers comparing weight security across labs should see what xAI actually commits to.",
+          "rationale": "Re-verifies lead P-0139 from the lost 2026-10-12 run. FAIF §2.4 (effective 30 June 2026, the edition linked from x.ai/safety) sets out the Security Goal and its review, the NIST 800-171 Rev.3 / SOC 2 Type II basis, the listed controls and anti-distillation measures. A search of the framework finds no RAND-style or capability-linked security levels, whereas FSF v3.1 recommends a RAND-aligned level per CCL. The implemented controls are reported as xAI's own statement (\"Says\"), per RUBRIC §6.",
+          "evidence": [
+            {
+              "source": "S-0108",
+              "passage": "S-0108#18",
+              "stance": "supports",
+              "supports": "Security Goal and threat actors, yearly review"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#19",
+              "stance": "supports",
+              "supports": "NIST 800-171 Rev.3 and SOC 2 Type II"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#20",
+              "stance": "supports",
+              "supports": "weight encryption, access control, transfer monitoring"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#21",
+              "stance": "supports",
+              "supports": "anti-distillation measures"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#22",
+              "stance": "supports",
+              "supports": "no capability-linked security levels"
+            },
+            {
+              "source": "S-0110",
+              "passage": "S-0110#5",
+              "stance": "supports",
+              "supports": "the 30 Jun 2026 edition is the one currently linked"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#29",
+              "stance": "supports",
+              "supports": "FSF sets a minimum security level per CCL"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#30",
+              "stance": "supports",
+              "supports": "FSF levels are RAND-aligned"
+            }
+          ],
+          "uncertainty": "The controls are described in general terms (\"appropriate\"); whether they are met is not evidenced. The \"thinner than peers\" judgement is dropped rather than replaced with another comparison.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:xai-rmf:context": "not in this group; does not describe security"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:us-preempt:desc",
+            "entry:ca-sb53:cov:thresh",
+            "entry:co-aia:context",
+            "entry:gpai-cop:desc",
+            "entry:caisi:context",
+            "entry:caisi:cov:eval",
+            "entry:cais:context",
+            "edge:seoul-commit|xai-rmf",
+            "edge:gpai-cop|xai-rmf",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "text:layer-3:tooltip"
+          ],
+          "hash": "c00bb73c855f"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0131",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:07:17Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "xAI entry: note the SpaceX acquisition and rebrand?",
+          "kind": "flag",
+          "changes": [],
+          "why": "Corporate control and the accountable entity behind a lab framework are governance facts; readers who follow the link to x.ai meet the SpaceXSI brand, not xAI.",
+          "rationale": "Re-verifies lead P-0140 from the lost 2026-10-12 run. x.ai/news/xai-joins-spacex (dated Feb 2, 2026) says SpaceX acquired xAI; x.ai/safety is titled \"Safety at SpaceXSI\" with a \"© 2026 SpaceXAI LLC\" footer and still links the 30 Jun 2026 framework, which names xAI LLC. Option b is recommended because ownership is a hard fact of the kind RUBRIC §6 puts in desc, and it keeps the entry name unchanged. Option c suits a maintainer who wants desc limited to the framework's own versions. The other desc facts were re-checked: draft Feb 2025, RMF of 20 Aug 2025, FAIF of 30 Dec 2025, current edition effective 30 Jun 2026, and the Colorado suit still pending (stayed) on the docket.",
+          "evidence": [
+            {
+              "source": "S-0312",
+              "passage": "S-0312#1",
+              "stance": "supports",
+              "supports": "SpaceX acquired xAI"
+            },
+            {
+              "source": "S-0312",
+              "passage": "S-0312#2",
+              "stance": "supports",
+              "supports": "announcement dated 2 Feb 2026"
+            },
+            {
+              "source": "S-0110",
+              "passage": "S-0110#3",
+              "stance": "supports",
+              "supports": "SpaceXSI branding"
+            },
+            {
+              "source": "S-0110",
+              "passage": "S-0110#4",
+              "stance": "supports",
+              "supports": "SpaceXAI LLC"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#17",
+              "stance": "supports",
+              "supports": "framework still titled xAI"
+            }
+          ],
+          "uncertainty": "The brand is unsettled in the sources (SpaceXAI LLC in footers, SpaceXSI in page titles); the note uses the on-page brand. The acquisition date is the article date; deal terms and closing were not checked. The suit was confirmed from a court-docket mirror (secondary), not PACER.",
+          "confidence": "medium",
+          "question": "xAI's own site says SpaceX acquired xAI (announced 2 Feb 2026), and x.ai now brands as SpaceXSI with a SpaceXAI LLC footer, while the framework PDF (effective 30 Jun 2026) still says xAI LLC. Should the xai-rmf entry record the change of ownership and brand, and where?",
+          "knock_on_notes": {
+            "faq:which-ai-labs-have-published-frontier-safety-fra": "unaffected by this question (names the lab as xAI)"
+          },
+          "unverified_carryover": [
+            "\"Thinner than peers\" (comparative judgement, not verifiable from sources)"
+          ],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Keep as is",
+              "changes": []
+            },
+            {
+              "key": "b",
+              "label": "Add a one-sentence ownership note to the description",
+              "changes": [
+                {
+                  "op": "set_field",
+                  "entity": "xai-rmf",
+                  "field": "desc",
+                  "from": "Draft Feb 2025; final Risk Management Framework Aug 2025, renamed Frontier AI Framework Dec 2025; current edition effective 30 Jun 2026. Thinner than peers. xAI suing Colorado over AI Act.",
+                  "to": "Draft Feb 2025; final Risk Management Framework Aug 2025, renamed Frontier AI Framework Dec 2025; current edition effective 30 Jun 2026. SpaceX acquired xAI (announced 2 Feb 2026); x.ai now brands as SpaceXSI. Thinner than peers. xAI suing Colorado over AI Act."
+                }
+              ]
+            },
+            {
+              "key": "c",
+              "label": "Add the ownership note to the context instead",
+              "changes": [
+                {
+                  "op": "set_field",
+                  "entity": "xai-rmf",
+                  "field": "context",
+                  "from": "Earlier editions set benchmark-based acceptance criteria (e.g. answering under 1 in 20 restricted bio/chem queries; MASK dishonesty under 1 in 2); the 30 Jun 2026 edition is restructured along the EU GPAI Code's Safety and Security Chapter, covering CBRN, offensive cyber, loss of control and harmful manipulation, and states no numeric criteria. Independent reviews of frontier risk-management frameworks have flagged the narrow scope of risk tolerances and limited halting commitments as gaps. xAI's litigation against Colorado SB 24-205 makes it the most visible lab opponent of state-level AI regulation in the US.",
+                  "to": "Earlier editions set benchmark-based acceptance criteria (e.g. answering under 1 in 20 restricted bio/chem queries; MASK dishonesty under 1 in 2); the 30 Jun 2026 edition is restructured along the EU GPAI Code's Safety and Security Chapter, covering CBRN, offensive cyber, loss of control and harmful manipulation, and states no numeric criteria. Independent reviews of frontier risk-management frameworks have flagged the narrow scope of risk tolerances and limited halting commitments as gaps. xAI's litigation against Colorado SB 24-205 makes it the most visible lab opponent of state-level AI regulation in the US. SpaceX acquired xAI (announced 2 Feb 2026), and x.ai now brands as SpaceXSI; the framework itself still names xAI LLC."
+                }
+              ]
+            }
+          ],
+          "recommended": "b",
+          "knock_on": [
+            "entry:us-preempt:desc",
+            "entry:ca-sb53:cov:thresh",
+            "entry:co-aia:context",
+            "entry:gpai-cop:desc",
+            "entry:caisi:context",
+            "entry:caisi:cov:eval",
+            "entry:cais:context",
+            "edge:seoul-commit|xai-rmf",
+            "edge:gpai-cop|xai-rmf",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "text:layer-3:tooltip"
+          ],
+          "hash": "98c7010eca43"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0132",
+      "fingerprint": "816f81086b7e",
+      "targets": [
+        "entry:fsf:cov:thresh"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:07:18Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "FSF threshold note: remove the comparison to Anthropic's ASLs",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "fsf",
+              "cat": "thresh",
+              "from": "Critical Capability Levels (CCLs) in CBRN, cyber, harmful manipulation and ML R&D, plus lower Tracked Capability Levels (CBRN; stealth and situational awareness) added in v3.1. Capability-tier framing — somewhere between Anthropic's ASLs and OpenAI's category × level matrix.",
+              "to": "Critical Capability Levels (CCLs) in CBRN, cyber, harmful manipulation and ML R&D, plus lower Tracked Capability Levels (CBRN; stealth and situational awareness) added in v3.1."
+            }
+          ],
+          "why": "The note places FSF 'between' Anthropic's ASLs and OpenAI's matrix, but Anthropic's policy no longer uses ASLs as its threshold structure, so the comparison points to something that no longer exists.",
+          "rationale": "Re-verifies lead P-0147 from the lost 2026-10-12 run. RSP v3.4 Appendix B says earlier editions defined AI Safety Levels with required controls and that ASLs now only label present mitigation levels; v3.0 was a comprehensive rewrite. The factual first sentence (CCLs in CBRN, cyber, harmful manipulation and ML R&D; TCLs for CBRN and the stealth and situational awareness TCL introduced in this update) is confirmed against FSF v3.1.",
+          "evidence": [
+            {
+              "source": "S-0006",
+              "passage": "S-0006#27",
+              "stance": "supports",
+              "supports": "ASLs no longer define thresholds"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#28",
+              "stance": "supports",
+              "supports": "v3.0 rewrite"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#26",
+              "stance": "supports",
+              "supports": "CCL structure"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#27",
+              "stance": "supports",
+              "supports": "TCLs introduced in v3.1 for CBRN and ML R&D/misalignment"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#28",
+              "stance": "supports",
+              "supports": "stealth and situational awareness TCL"
+            }
+          ],
+          "uncertainty": "A fresh comparison could be written against the RSP's four capability thresholds and OpenAI's High/Critical levels; the minimal edit only removes the stale clause.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:prep:cov:thresh": "not in this group; also compares with 'Anthropic's ASLs' as a single-axis tier, now stale",
+            "entry:meta-faif:cov:thresh": "not in this group; also compares with 'Anthropic's ASLs', now stale"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:ca-sb53:context",
+            "entry:meta-faif:cov:sec",
+            "entry:caisi:context",
+            "entry:caisi:cov:eval",
+            "entry:metr:cov:eval",
+            "entry:averi:cov:acct",
+            "edge:ca-sb53|fsf",
+            "edge:seoul-commit|fsf",
+            "edge:gpai-cop|fsf",
+            "edge:fmf|fsf",
+            "edge:metr|fsf",
+            "edge:apollo|fsf",
+            "edge:uk-aisi|fsf",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety"
+          ],
+          "hash": "6270228131a0"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0133",
+      "fingerprint": "57b560d8cd9d",
+      "targets": [
+        "text:index.html:eb7e55d26d79"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:07:18Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "FAQ 'Which AI labs have published frontier safety frameworks?': update OpenAI, Meta and xAI descriptions",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "OpenAI (Preparedness Framework, with a category × level matrix across cyber, CBRN, autonomy, and persuasion), Google DeepMind (Frontier Safety Framework, with Critical Capability Levels), Meta (Frontier AI Framework, with high/critical-risk tiers), and xAI (Risk Management Framework, with quantitative benchmarks).",
+              "to": "OpenAI (Preparedness Framework, with High and Critical thresholds across biological and chemical, cybersecurity, and AI self-improvement), Google DeepMind (Frontier Safety Framework, with Critical Capability Levels), Meta (Meta Superintelligence Scaling Framework, with high/critical-risk tiers), and xAI (Frontier AI Framework, with risk tiers across CBRN, offensive cyber, loss of control and harmful manipulation).",
+              "count": 1
+            }
+          ],
+          "why": "The FAQ answer describes superseded versions: OpenAI's matrix 'across cyber, CBRN, autonomy, and persuasion' (Preparedness v2 tracks bio/chem, cyber and AI self-improvement and dropped persuasion), Meta's 'Frontier AI Framework' (renamed twice since), and xAI's 'Risk Management Framework, with quantitative benchmarks' (renamed Frontier AI Framework in Dec 2025; the current edition reviews risk tiers and states no numeric criteria).",
+          "rationale": "Preparedness Framework v2 lists three Tracked Categories and says persuasion risks do not fit the criteria. Meta's v2.1 is titled Meta Superintelligence Scaling Framework. xAI's current framework (effective 30 Jun 2026) is the Frontier Artificial Intelligence Framework, covering four risk domains and reviewing risk tiers per category; the map's own xai-rmf context already says it states no numeric criteria. The Anthropic and Google DeepMind parts are unchanged and accurate (RSP v3.4 thresholds and Risk Reports; FSF v3.1 CCLs).",
+          "evidence": [
+            {
+              "source": "S-0095",
+              "passage": "S-0095#27",
+              "stance": "supports",
+              "supports": "three Tracked Categories"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#28",
+              "stance": "supports",
+              "supports": "persuasion dropped"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#1",
+              "stance": "supports",
+              "supports": "v2 of 15 Apr 2025"
+            },
+            {
+              "source": "S-0310",
+              "passage": "S-0310#4",
+              "stance": "supports",
+              "supports": "Meta framework title"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#17",
+              "stance": "supports",
+              "supports": "xAI framework title"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#23",
+              "stance": "supports",
+              "supports": "four risk domains"
+            },
+            {
+              "source": "S-0108",
+              "passage": "S-0108#24",
+              "stance": "supports",
+              "supports": "risk tiers per category"
+            },
+            {
+              "source": "S-0109",
+              "passage": "S-0109#4",
+              "stance": "supports",
+              "supports": "renamed Frontier AI Framework in Dec 2025"
+            },
+            {
+              "source": "S-0102",
+              "passage": "S-0102#26",
+              "stance": "supports",
+              "supports": "FSF built on CCLs"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#23",
+              "stance": "supports",
+              "supports": "RSP Risk Reports"
+            }
+          ],
+          "uncertainty": "Wording for xAI summarises the framework's structure; it mentions benchmarks as inputs (§2.1) but no numeric acceptance criteria were found. If meta-v21 is rejected, the FAQ would still name Meta's current title correctly but differ from the map's entry name.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "\"Five major labs have published frontier safety frameworks at Layer 6 of this map\"",
+            "\"All are voluntary and revisable by the lab itself.\""
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [],
+          "hash": "afb8a2b7e8a4"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "meta-v21"
+        ],
         "updated": "2026-10-13"
       }
     }

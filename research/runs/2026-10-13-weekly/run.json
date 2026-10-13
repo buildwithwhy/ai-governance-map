@@ -134,6 +134,114 @@
           ]
         }
       ]
+    },
+    {
+      "area": "B4 Labs (Anthropic, OpenAI, Google DeepMind, Meta, xAI): new or revised frontier safety / compliance frameworks since 1 Oct 2026",
+      "summary": "One new framework version: Meta v2.1 (2 Oct 2026, retitled Meta Superintelligence Scaling Framework), with a Meta post announcing a Board AI committee. No new Anthropic RSP version (v3.4 current; policy page last updated 14 Aug 2026 with the August Risk Report), no new FSF version (v3.1), no new xAI edition (x.ai/safety still links the 30 Jun 2026 FAIF; site now branded SpaceXSI after the SpaceX acquisition), and no OpenAI Preparedness v3 found (search only; openai.com blocks automated clients). Meta's post says its update reflects 'commitments made at the White House this week'; secondary sources describe a White House accord of 29 Sep 2026 signed by six firms, but no primary text was found. The FAQ on lab frameworks was confirmed stale and a correction drafted.",
+      "queries": [
+        "frontier safety framework update October 2026 Anthropic OpenAI Google DeepMind xAI Microsoft new version",
+        "Meta Superintelligence Scaling Framework",
+        "OpenAI Preparedness Framework version 3 2026",
+        "Meta \"Superintelligence Scaling Framework\" October 2026 open weights loss of control",
+        "White House AI companies commitments September 2026 frontier labs internal controls independent auditor",
+        "whitehouse.gov \"Joint Commitment on Frontier Responsibilities\"",
+        "opened directly: anthropic.com/responsible-scaling-policy; x.ai/safety; x.ai/news/xai-joins-spacex; research.meta.ai blog; whitehouse.gov presidential-actions, fact-sheets and briefings listings"
+      ],
+      "limits": "Six web searches; snippets used only as leads. openai.com returns 403 to automated clients, so OpenAI framework pages were not opened (only the PF v2 PDF on cdn.openai.com). Microsoft, Amazon and other non-monitored developers were not searched individually. x.ai and courtlistener.com needed headless Chromium; x.ai/news index is Cloudflare-blocked. Meta v2.1 was not diffed line by line against v2. The White House accord text was not found on whitehouse.gov listings.",
+      "candidates": [
+        {
+          "name": "Meta Superintelligence Scaling Framework v2.1 (2 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Primary PDF, change log and Meta announcement confirm rename, open-weights and Loss of Control 3 additions and board-governance plans.",
+          "proposal": "P-0129",
+          "sources": [
+            "S-0310",
+            "S-0311",
+            "S-0107"
+          ]
+        },
+        {
+          "name": "Meta Board AI committee (announced 2 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Announced plan; folded into the meta-faif acct note. Not yet established.",
+          "proposal": "P-0129",
+          "sources": [
+            "S-0311"
+          ]
+        },
+        {
+          "name": "xAI acquired by SpaceX; x.ai rebranded SpaceXSI",
+          "result": "update to existing entry",
+          "reason": "Raised as a flag with drafted options.",
+          "proposal": "P-0131",
+          "sources": [
+            "S-0312",
+            "S-0110"
+          ]
+        },
+        {
+          "name": "xAI FAIF security section (30 Jun 2026 edition)",
+          "result": "update to existing entry",
+          "reason": "Security Goal and controls now documented.",
+          "proposal": "P-0130",
+          "sources": [
+            "S-0108"
+          ]
+        },
+        {
+          "name": "White House Accord on Super Intelligence / \"Joint Commitment on Frontier Responsibilities\" (reported 29 Sep 2026; Anthropic, Google, Meta, OpenAI, xAI, Nvidia per press)",
+          "result": "lead — source inaccessible",
+          "reason": "Potentially significant L5 cross-firm commitment (internal controls, internal verification team, external auditor/evaluator, board committee). Meta's own post confirms 'commitments made at the White House this week', but no official text was found: the White House fact sheet of 29 Sep 2026 covers only the EO renaming AI to 'Super Intelligence' (EO 14434, already on the map via caisi), and the presidential-actions, fact-sheets and briefings listings show no accord. Recommend the L5 / US-federal owner look for the text (or company-hosted copies) before drafting an addition.",
+          "sources": [
+            "S-0311",
+            "S-0309"
+          ]
+        },
+        {
+          "name": "Anthropic RSP / Frontier Compliance Framework new version",
+          "result": "screened out",
+          "reason": "Policy page lists v3.4 (effective 8 Jul 2026) as current; last updated 14 Aug 2026 for the August Risk Report. No new version.",
+          "sources": [
+            "S-0005"
+          ]
+        },
+        {
+          "name": "Google DeepMind FSF new version",
+          "result": "screened out",
+          "reason": "Search found nothing after v3.1 (17 Apr 2026); v3.1 PDF re-read.",
+          "sources": [
+            "S-0102"
+          ]
+        },
+        {
+          "name": "OpenAI Preparedness Framework v3",
+          "result": "screened out",
+          "reason": "Only secondary trackers found, all saying v2 (15 Apr 2025) remains current alongside the May 2026 Frontier Governance Framework; openai.com not reachable for confirmation.",
+          "sources": [
+            "S-0095"
+          ]
+        },
+        {
+          "name": "FAQ \"Which AI labs have published frontier safety frameworks?\"",
+          "result": "update to existing entry",
+          "reason": "OpenAI, Meta and xAI descriptions outdated; correction drafted.",
+          "proposal": "P-0133",
+          "sources": [
+            "S-0095",
+            "S-0310",
+            "S-0108"
+          ]
+        },
+        {
+          "name": "Stale comparisons with Anthropic's ASLs in prep and meta-faif threshold notes",
+          "result": "update to existing entry",
+          "reason": "Same issue as fsf-thresh-asl, in entry:prep:cov:thresh and entry:meta-faif:cov:thresh; not in this group, so not drafted.",
+          "proposal": "P-0132",
+          "sources": [
+            "S-0006"
+          ]
+        }
+      ]
     }
   ],
   "usage": null
