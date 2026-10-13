@@ -307,5 +307,73 @@
     "note": "OpenAI, Meta and xAI descriptions in the FAQ answer are outdated against the current primary frameworks; Anthropic and Google DeepMind descriptions still accurate.",
     "missing": null,
     "hash": "0efd4ae1a3f5"
+  },
+  "entry:unesco:cov:acct": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0143",
+      "S-0313"
+    ],
+    "proposals": [
+      "P-0134"
+    ],
+    "note": "RAM is a country readiness self-assessment tool; the instrument page names the Executive Board as responsible for monitoring. The principles in the first sentence are confirmed.",
+    "missing": null,
+    "hash": "0eeddf2f01fc"
+  },
+  "edge:un-ai|aisr": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0146",
+      "S-0119",
+      "S-0121"
+    ],
+    "proposals": [
+      "P-0135"
+    ],
+    "note": "Complementarity confirmed by the AISR 2026 text. Bengio chairs the AISR but co-chairs the Panel with Maria Ressa.",
+    "missing": null,
+    "hash": "fff86272bb3e"
+  },
+  "entry:aisi-net:cov:elicit": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0125",
+      "S-0315",
+      "S-0314",
+      "S-0124"
+    ],
+    "proposals": [
+      "P-0136"
+    ],
+    "note": "The published record shows joint testing exercises and Jul 2026 elicitation guidance for third-party evaluators; no documented pooling of techniques and no sandbagging focus.",
+    "missing": null,
+    "hash": "750c3ad0c3fd"
+  },
+  "entry:aisi-net:cov:timing": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0314",
+      "S-0125",
+      "S-0315"
+    ],
+    "proposals": [
+      "P-0137"
+    ],
+    "note": "No Network mechanism for coordinating pre-deployment access is documented in the mission statement, the joint-testing news or the Jul 2026 guidance; raised as a question (recommend rewrite as a stretch).",
+    "missing": null,
+    "hash": "a495a212ad24"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "next": 134,
+  "next": 138,
   "proposals": [
     {
       "id": "P-0001",
@@ -17321,6 +17321,453 @@
         "linked": [
           "meta-v21"
         ],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0134",
+      "fingerprint": "b53afb76df43",
+      "targets": [
+        "entry:unesco:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:08:58Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "UNESCO Recommendation: the Readiness Assessment Methodology is a country self-assessment tool; the Executive Board monitors implementation",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "unesco",
+              "cat": "acct",
+              "from": "Transparency and human oversight are core principles, but the recommendation imposes no reporting or audit obligations. Implementation is monitored by UNESCO's Readiness Assessment Methodology.",
+              "to": "Transparency and human oversight are core principles, but the recommendation imposes no reporting or audit obligations. The Readiness Assessment Methodology is a tool for countries to assess their own readiness; UNESCO's Executive Board is responsible for monitoring implementation."
+            }
+          ],
+          "why": "The map says implementation is 'monitored by' the RAM. A reader would take a voluntary country self-assessment tool for the oversight mechanism.",
+          "rationale": "Re-verifies lead P-0122 from the lost 2026-10-12 run. UNESCO describes the RAM as 'a tool for countries to assess their readiness', and para 49 of the Recommendation frames it as a methodology 'to assist interested Member States'. The instrument page's Monitoring box states it is a 'Recommendation for which monitoring the Executive Board is responsible'. Para 131 puts monitoring and evaluation of AI-ethics policies on Member States, with UNESCO supporting (including through the RAM). The first sentence is kept: transparency/explainability and human oversight and determination are among the Recommendation's principles. The lead also narrowed 'no reporting or audit obligations' to developers and described the CR Committee's examination of Member State reports; I did not re-open the CR Committee page, so this edit only changes the second sentence.",
+          "evidence": [
+            {
+              "source": "S-0313",
+              "passage": "S-0313#1",
+              "stance": "supports",
+              "supports": "RAM is a country self-assessment tool"
+            },
+            {
+              "source": "S-0143",
+              "passage": "S-0143#8",
+              "stance": "supports",
+              "supports": "RAM assists interested Member States"
+            },
+            {
+              "source": "S-0143",
+              "passage": "S-0143#7",
+              "stance": "supports",
+              "supports": "Executive Board responsible for monitoring"
+            },
+            {
+              "source": "S-0143",
+              "passage": "S-0143#9",
+              "stance": "supports",
+              "supports": "Member States monitor and evaluate their own policies"
+            },
+            {
+              "source": "S-0143",
+              "passage": "S-0143#11",
+              "stance": "supports",
+              "supports": "human oversight is a principle (unchanged text)"
+            },
+            {
+              "source": "S-0143",
+              "passage": "S-0143#12",
+              "stance": "supports",
+              "supports": "transparency is a principle (unchanged text)"
+            }
+          ],
+          "uncertainty": "Medium-low. How the Executive Board monitoring works in practice (periodic consultations of Member States) was not checked; the edit states only who is responsible.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "'imposes no reporting or audit obligations' (the Recommendation sets no developer duties; Member States report under UNESCO's Constitution, which was not re-checked)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:un-ai|unesco",
+            "gap:acct"
+          ],
+          "hash": "8241a551b4b3"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0135",
+      "fingerprint": "002dabf3c919",
+      "targets": [
+        "edge:un-ai|aisr"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:08:58Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Connection UN Panel ↔ AISR: Bengio chairs the AISR and co-chairs the Panel",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_edge",
+              "a": "un-ai",
+              "b": "aisr",
+              "from": "AISR positions itself as complementary to the UN Panel; Bengio chairs both",
+              "to": "AISR positions itself as complementary to the UN Panel; Bengio chairs the AISR and co-chairs the Panel"
+            }
+          ],
+          "why": "'Bengio chairs both' implies he is the Panel's sole chair; the Panel has two co-chairs (Bengio and Maria Ressa).",
+          "rationale": "Re-verifies lead P-0123 from the lost 2026-10-12 run. The UN press release of 1 Jul 2026 says the Panel is co-chaired by Yoshua Bengio and Maria Ressa. The AISR site says the Report is led by Bengio and that he continues as Chair through 2026. The 2026 Report says twice that it aims to complement the UN Panel, so the first clause stands. The un-ai desc already names both co-chairs, so the connection need not repeat Ressa.",
+          "evidence": [
+            {
+              "source": "S-0146",
+              "passage": "S-0146#6",
+              "stance": "supports",
+              "supports": "Panel co-chaired by Bengio and Ressa"
+            },
+            {
+              "source": "S-0119",
+              "passage": "S-0119#8",
+              "stance": "supports",
+              "supports": "Bengio is AISR Chair"
+            },
+            {
+              "source": "S-0119",
+              "passage": "S-0119#7",
+              "stance": "supports",
+              "supports": "AISR led by Bengio"
+            },
+            {
+              "source": "S-0121",
+              "passage": "S-0121#16",
+              "stance": "supports",
+              "supports": "AISR complements the UN Panel"
+            },
+            {
+              "source": "S-0121",
+              "passage": "S-0121#17",
+              "stance": "supports",
+              "supports": "AISR complements the UN Panel"
+            }
+          ],
+          "uncertainty": "Low.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:un-ai:desc": "checked, still accurate (names both co-chairs)"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:un-ai|unesco",
+            "edge:ai-summits|un-ai",
+            "entry:un-ai:context",
+            "entry:apollo:desc",
+            "entry:apollo:context",
+            "entry:apollo:cov:eval",
+            "edge:aisr|ai-summits",
+            "edge:aisr|aisi-net",
+            "edge:aisr|metr",
+            "edge:aisr|apollo",
+            "edge:cais|aisr",
+            "faq:what-is-sandbagging-in-ai-safety",
+            "text:footer-sources"
+          ],
+          "hash": "762643cde9f4"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0136",
+      "fingerprint": "7ca048148e08",
+      "targets": [
+        "entry:aisi-net:cov:elicit"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:08:58Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "AISI Network elicitation note: describe what the Network has actually published",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "aisi-net",
+              "cat": "elicit",
+              "from": "Pools elicitation techniques (prompting strategies, agentic scaffolding, jailbreaks) so that what one institute discovers is available to others. Most useful for catching sandbagging or capability gaps that single-institute testing might miss.",
+              "to": "Joint testing exercises (Nov 2024, Feb 2025, Jul 2025, the third on agentic evaluation) refine shared testing methods, and the Network's first best-practice guidance (Jul 2026) sets out capability-elicitation practice for third-party evaluators running automated evaluations: prompt iteration, inference settings, separate tuning and evaluation data. Shared methods rather than a documented pool of techniques; the guidance does not address sandbagging."
+            }
+          ],
+          "why": "The note says the Network pools prompting strategies, scaffolding and jailbreaks and is most useful for catching sandbagging. The published record shows joint methodology exercises and one guidance document for third-party evaluators, which does not discuss sandbagging.",
+          "rationale": "Re-verifies lead P-0124 from the lost 2026-10-12 run, with a different redraft. The Jul 2026 guidance covers automated evaluations; its capability-elicitation section covers prompt iteration, inference settings and disjoint tuning and evaluation data, and it is aimed at third-party evaluators. Agentic evaluations are out of its scope. The lead's draft, however, overlooked the joint testing exercises: the third one (Jul 2025) was about evaluating agents, and the mission statement provides for 'sharing results from domestic evaluations'. The guidance also asks evaluators to document jailbreaking attempts. So the redraft keeps the exercises and does not say that the Network shares nothing. What is not documented is a pool of techniques and any sandbagging focus (no match for 'sandbag' in the guidance).",
+          "evidence": [
+            {
+              "source": "S-0125",
+              "passage": "S-0125#6",
+              "stance": "supports",
+              "supports": "definition and scope of the elicitation section"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#7",
+              "stance": "supports",
+              "supports": "prompt iteration"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#8",
+              "stance": "supports",
+              "supports": "separate tuning and evaluation data; inference settings"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#3",
+              "stance": "supports",
+              "supports": "aimed at third-party evaluators"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#10",
+              "stance": "supports",
+              "supports": "automated evaluations only"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#11",
+              "stance": "supports",
+              "supports": "no sandbagging or pooling mechanism"
+            },
+            {
+              "source": "S-0315",
+              "passage": "S-0315#1",
+              "stance": "supports",
+              "supports": "joint testing exercises Nov 2024 and Feb 2025 refine testing practice"
+            },
+            {
+              "source": "S-0315",
+              "passage": "S-0315#2",
+              "stance": "supports",
+              "supports": "third exercise (Jul 2025) on agents"
+            },
+            {
+              "source": "S-0314",
+              "passage": "S-0314#1",
+              "stance": "supports",
+              "supports": "joint testing and sharing results foreseen"
+            },
+            {
+              "source": "S-0124",
+              "passage": "S-0124#3",
+              "stance": "supports",
+              "supports": "first best-practice guidance, Jul 2026"
+            }
+          ],
+          "uncertainty": "Medium. The joint testing reports themselves were not opened (only the European Commission news item), and members may share techniques informally in ways public documents do not record.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:aisi-net:desc": "checked, still accurate (first guidance Jul 2026, for third-party evaluators)"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:aisr:cov:eval",
+            "entry:pai:context",
+            "entry:pai:cov:mit",
+            "entry:eu-aio:context",
+            "entry:other-aisis:context",
+            "entry:other-aisis:cov:elicit",
+            "entry:other-aisis:cov:timing",
+            "edge:aisr|aisi-net",
+            "edge:aisi-net|uk-aisi",
+            "edge:aisi-net|caisi",
+            "edge:aisi-net|eu-aio",
+            "edge:aisi-net|other-aisis",
+            "edge:aisi-net|ai-summits",
+            "text:layer-1:tooltip"
+          ],
+          "hash": "784f20be9fc9"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0137",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:08:58Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "AISI Network 'timing' coverage: no documented Network mechanism for pre-deployment access",
+          "kind": "flag",
+          "changes": [],
+          "why": "Pre-deployment access is the key timing lever in frontier governance. Crediting the Network with coordinating it overstates what the multilateral layer does.",
+          "rationale": "Re-verifies lead P-0125 from the lost 2026-10-12 run; the lead holds. The mission statement's four priorities (research, testing, guidance, inclusion) cover common testing practice, joint exercises and sharing results, not access to unreleased models. The European Commission describes the joint exercises as refining best practice for testing. The Jul 2026 guidance is about how third-party evaluators run automated evaluations and never mentions pre-deployment. Option b is recommended: it keeps a weak link to the timing element without asserting a mechanism and points readers to the institutes (UK AISI, CAISI) whose own entries carry pre-deployment access. Option c is cleaner if coverage notes should be limited to real mechanisms. No gap summary, FAQ or count names this note, so neither option needs knock-on edits.",
+          "evidence": [
+            {
+              "source": "S-0314",
+              "passage": "S-0314#3",
+              "stance": "supports",
+              "supports": "no pre-deployment access in the mission"
+            },
+            {
+              "source": "S-0314",
+              "passage": "S-0314#1",
+              "stance": "supports",
+              "supports": "testing priority is about common practice and joint exercises"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#11",
+              "stance": "supports",
+              "supports": "guidance does not mention pre-deployment access"
+            },
+            {
+              "source": "S-0315",
+              "passage": "S-0315#1",
+              "stance": "supports",
+              "supports": "exercises refine testing practice"
+            }
+          ],
+          "uncertainty": "Absence from public documents does not prove the Network has no such arrangement; members' non-public protocols are not visible.",
+          "confidence": "medium",
+          "question": "The map says the Network 'coordinates pre-deployment evaluation access between members and frontier labs'. Its mission statement, the joint testing exercises and the Jul 2026 guidance do not mention this. Keep the note, rewrite it to what is documented, or drop the timing element?",
+          "knock_on_notes": {
+            "entry:other-aisis:cov:timing": "not checked in this group"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Keep as is",
+              "changes": []
+            },
+            {
+              "key": "b",
+              "label": "Rewrite to what is documented, marked as a stretch",
+              "changes": [
+                {
+                  "op": "set_cov",
+                  "entity": "aisi-net",
+                  "cat": "timing",
+                  "from": "Coordinates pre-deployment evaluation access between members and frontier labs, so a model evaluated by one AISI doesn't need to be re-tested from scratch by another.",
+                  "to": "Joint testing exercises (Nov 2024, Feb 2025, Jul 2025) and the Jul 2026 best-practice guidance cover how to test, not when; no Network mechanism coordinating pre-deployment access to models is documented. A stretch: pre-deployment testing runs through individual institutes."
+                }
+              ]
+            },
+            {
+              "key": "c",
+              "label": "Remove the timing coverage note",
+              "changes": [
+                {
+                  "op": "set_cov",
+                  "entity": "aisi-net",
+                  "cat": "timing",
+                  "from": "Coordinates pre-deployment evaluation access between members and frontier labs, so a model evaluated by one AISI doesn't need to be re-tested from scratch by another.",
+                  "to": null
+                }
+              ]
+            }
+          ],
+          "recommended": "b",
+          "knock_on": [
+            "entry:aisr:cov:eval",
+            "entry:pai:context",
+            "entry:pai:cov:mit",
+            "entry:eu-aio:context",
+            "entry:other-aisis:context",
+            "entry:other-aisis:cov:elicit",
+            "entry:other-aisis:cov:timing",
+            "edge:aisr|aisi-net",
+            "edge:aisi-net|uk-aisi",
+            "edge:aisi-net|caisi",
+            "edge:aisi-net|eu-aio",
+            "edge:aisi-net|other-aisis",
+            "edge:aisi-net|ai-summits",
+            "text:layer-1:tooltip"
+          ],
+          "hash": "af70c8506b34"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
         "updated": "2026-10-13"
       }
     }

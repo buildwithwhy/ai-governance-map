@@ -6784,17 +6784,39 @@
     },
     "entry:aisi-net:cov:elicit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0125",
+          "S-0315",
+          "S-0314",
           "S-0124"
         ],
-        "proposals": [],
-        "note": "Capability elicitation is a core topic of the network's first guidance (C.1.2). The specific examples in the note (jailbreaks, agentic scaffolding) were not seen.",
-        "missing": "A network source showing pooled jailbreak or agentic-scaffolding techniques. The Jul 2026 guidance covers capability elicitation in automated evaluations, but explicitly excludes red-team testing and agentic evaluations.",
+        "proposals": [
+          "P-0136"
+        ],
+        "note": "The published record shows joint testing exercises and Jul 2026 elicitation guidance for third-party evaluators; no documented pooling of techniques and no sandbagging focus.",
+        "missing": null,
+        "hash": "750c3ad0c3fd"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0125",
+          "S-0315",
+          "S-0314",
+          "S-0124"
+        ],
+        "proposals": [
+          "P-0136"
+        ],
+        "note": "The published record shows joint testing exercises and Jul 2026 elicitation guidance for third-party evaluators; no documented pooling of techniques and no sandbagging focus.",
+        "missing": null,
         "hash": "750c3ad0c3fd"
       }
     },
@@ -6818,19 +6840,37 @@
     },
     "entry:aisi-net:cov:timing": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0123",
-          "S-0124",
+          "S-0314",
           "S-0125",
-          "S-0126"
+          "S-0315"
         ],
-        "proposals": [],
-        "note": "The acct, elicit and eval assignments are supported. The timing assignment and its note are not supported by any network document inspected.",
-        "missing": "Any primary source showing the network coordinating pre-deployment evaluation access between members and labs. Its published work (Dec 2025 to Jul 2026) concerns measurement science and best practice for third-party evaluators.",
+        "proposals": [
+          "P-0137"
+        ],
+        "note": "No Network mechanism for coordinating pre-deployment access is documented in the mission statement, the joint-testing news or the Jul 2026 guidance; raised as a question (recommend rewrite as a stretch).",
+        "missing": null,
+        "hash": "a495a212ad24"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0314",
+          "S-0125",
+          "S-0315"
+        ],
+        "proposals": [
+          "P-0137"
+        ],
+        "note": "No Network mechanism for coordinating pre-deployment access is documented in the mission statement, the joint-testing news or the Jul 2026 guidance; raised as a question (recommend rewrite as a stretch).",
+        "missing": null,
         "hash": "a495a212ad24"
       }
     },
@@ -7836,17 +7876,35 @@
     },
     "entry:unesco:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0143",
-          "S-0142"
+          "S-0313"
         ],
-        "proposals": [],
-        "note": "Transparency and human oversight are core principles (verified). Para 131(b) provides for a readiness assessment methodology. The legal-affairs page lists this as a Recommendation 'for which monitoring the Executive Board is responsible'.",
-        "missing": "UNESCO Executive Board monitoring documents showing whether Member States must submit periodic implementation reports. If they must, 'imposes no reporting obligations' would be wrong.",
+        "proposals": [
+          "P-0134"
+        ],
+        "note": "RAM is a country readiness self-assessment tool; the instrument page names the Executive Board as responsible for monitoring. The principles in the first sentence are confirmed.",
+        "missing": null,
+        "hash": "0eeddf2f01fc"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0143",
+          "S-0313"
+        ],
+        "proposals": [
+          "P-0134"
+        ],
+        "note": "RAM is a country readiness self-assessment tool; the instrument page names the Executive Board as responsible for monitoring. The principles in the first sentence are confirmed.",
+        "missing": null,
         "hash": "0eeddf2f01fc"
       }
     },
@@ -15913,6 +15971,42 @@
         "note": "Sec. 25(b) AG-exclusive penalty action, but Sec. 18(e) gives the Agency its own $1,000/day penalty. 72-hour reporting (Sec. 15) and annual audit (Sec. 10(d)) confirmed. Lead P-0128 re-verified.",
         "missing": null,
         "hash": "66bbbbb2e69a"
+      }
+    },
+    "edge:un-ai|aisr": {
+      "last_attempt": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0146",
+          "S-0119",
+          "S-0121"
+        ],
+        "proposals": [
+          "P-0135"
+        ],
+        "note": "Complementarity confirmed by the AISR 2026 text. Bengio chairs the AISR but co-chairs the Panel with Maria Ressa.",
+        "missing": null,
+        "hash": "fff86272bb3e"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0146",
+          "S-0119",
+          "S-0121"
+        ],
+        "proposals": [
+          "P-0135"
+        ],
+        "note": "Complementarity confirmed by the AISR 2026 text. Bengio chairs the AISR but co-chairs the Panel with Maria Ressa.",
+        "missing": null,
+        "hash": "fff86272bb3e"
       }
     }
   }

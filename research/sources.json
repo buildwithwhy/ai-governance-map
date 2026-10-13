@@ -1,5 +1,5 @@
 {
-  "next": 313,
+  "next": 321,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -7147,6 +7147,18 @@
           "locator": "Future Reporting",
           "text": "The UK Government has agreed to support the Secretariat until a suitable long-term international home for the Report is established by participating countries. Professor Bengio will continue as Chair through 2026.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0119#7",
+          "locator": "About, Contributors",
+          "text": "Commissioned by the UK Government, the Report is led by Professor Yoshua Bengio and supported by a Secretariat within the UK AI Security Institute",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0119#8",
+          "locator": "About, Secretariat",
+          "text": "Professor Bengio will continue as Chair through 2026.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -7194,6 +7206,12 @@
           "locator": "Publications list (retrieved 2026-10-10)",
           "text": "[Observation, not a quotation] The publications page lists, newest first: the 2026 Report, its Extended Summary for Policymakers and Executive Summary (all 3 February 2026), the Second Key Update (25 November 2025), the First Key Update (15 October 2025) and the 2025 Report (29 January 2025). Nothing dated after 3 February 2026 is listed.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0120#3",
+          "locator": "Publications list (newest first)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The newest items listed are the 2026 Report, its Extended Summary and Executive Summary, all dated 3 February 2026; nothing later is listed.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -7321,6 +7339,18 @@
           "locator": "whole document",
           "text": "[Observation, not a quotation] Searched the full report text (HTML edition) for 'Center for AI Safety', 'CAIS' as an organisation and 'Statement on AI Risk': no match.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0121#16",
+          "locator": "Foreword (changes this year, second point)",
+          "text": "A narrower scope also ensures this Report complements other efforts, including the United Nations’ Independent International Scientific Panel on AI.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0121#17",
+          "locator": "About this Report, Focus",
+          "text": "This Report aims to complement assessments that consider these broader concerns, including the UN’s Independent International Scientific Panel on AI.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -7534,6 +7564,12 @@
           "locator": "guidance section",
           "text": "providing specific recommendations to third-party evaluators, such as on capability elicitation",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0124#8",
+          "locator": "Sharing best practice",
+          "text": "This guidance builds on and is intended to complement existing best practice publications – most notably NIST AI 800-2 – while providing specific recommendations to third-party evaluators, such as on capability elicitation.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -7601,6 +7637,42 @@
           "locator": "A.2 Scope, out-of-scope evaluations",
           "text": "Safeguard or \"red-team testing\", which involves adversarial probing of AI systems to identify vulnerabilities.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0125#6",
+          "locator": "C.1.2 Conduct capability elicitation experiments",
+          "text": "Capability elicitation, referred to as performance optimisation in NIST AI 800-2, is the process of unlocking or enhancing a model's abilities after it has been trained in order to measure its capabilities at a level relevant to the evaluation objective.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0125#7",
+          "locator": "C.1.2, first bullet",
+          "text": "Evaluators can iterate on prompts either manually or using LLM-based prompt optimisation.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0125#8",
+          "locator": "C.1.2, second bullet",
+          "text": "When evaluators iterate on prompts, inference settings, or other aspects of the protocol, they should do so using data that is distinct from the set used to report final results.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0125#9",
+          "locator": "A.2 Scope, out-of-scope list",
+          "text": "Agentic evaluations, which assess AI agent performance, including in tool-use and long-horizon task execution.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0125#10",
+          "locator": "A.2 Scope",
+          "text": "This document focuses on one important subset: automated evaluations of AI models.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0125#11",
+          "locator": "Whole text (searched)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] Searched the full text for 'sandbag', 'pre-deployment', 'before deployment', 'prior to deployment' and arrangements with developers for model access: no matches. The document covers how third-party evaluators run automated evaluations; it does not describe a mechanism for pooling techniques or findings between institutes, nor access to models before release.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -8131,6 +8203,24 @@
           "locator": "Governments that have committed (list)",
           "text": "[Observation, not a quotation] The adherent list on this page shows the 38 OECD Members, the EU, and 8 non-Members (Argentina, Brazil, Egypt, Malta, Peru, Romania, Singapore, Ukraine); it omits Cambodia, Croatia, Saudi Arabia and Uruguay, which the OECD Compendium lists as adherents.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0135#7",
+          "locator": "Values-based principles (list)",
+          "text": "Human rights and democratic values, including fairness and privacy",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0135#8",
+          "locator": "Principles for trustworthy AI",
+          "text": "The OECD AI Principles were initially adopted in 2019 and updated in May 2024",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0135#9",
+          "locator": "Governments that have committed to the AI Principles, G20 note",
+          "text": "G20 members committed to the G20 AI Principles drawn from the OECD AI Principles.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -8140,7 +8230,8 @@
       "publisher": "OECD",
       "type": "primary",
       "dates": {
-        "adopted": "2019-05-22"
+        "adopted": "2019-05-22",
+        "effective": "2024-05-03"
       },
       "fetches": [
         {
@@ -8352,6 +8443,16 @@
           "final_url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
           "content_type": "text/html; charset=UTF-8",
           "note": "website bot challenge (Cloudflare); the environment allowed the connection"
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:08:55Z",
+          "run": "2026-10-13-weekly",
+          "via": "headless Chromium (Playwright); curl gets HTTP 403 (Cloudflare)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "4734f600d53e98b2",
+          "bytes": 187753
         }
       ],
       "passages": [
@@ -8653,6 +8754,42 @@
           "locator": "Section III.2, para 37 (Transparency and explainability)",
           "text": "The transparency and explainability of AI systems are often essential preconditions to ensure the respect, protection and promotion of human rights, fundamental freedoms and ethical principles.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0143#7",
+          "locator": "Monitoring box (after VIII. Final provisions)",
+          "text": "Recommendation for which monitoring the Executive Board is responsible",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0143#8",
+          "locator": "Para 49",
+          "text": "UNESCO will therefore: (1) develop a readiness assessment methodology to assist interested Member States in identifying their status at specific moments of their readiness trajectory along a continuum of dimensions",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0143#9",
+          "locator": "Para 131",
+          "text": "Member States should, according to their specific conditions, governing structures and constitutional provisions, credibly and transparently monitor and evaluate policies, programmes and mechanisms related to ethics of AI",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0143#10",
+          "locator": "Para 4",
+          "text": "This Recommendation is addressed to Member States, both as AI actors and as authorities responsible for developing legal and regulatory frameworks throughout the entire AI system life cycle",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0143#11",
+          "locator": "III.2 Principles, heading",
+          "text": "Human oversight and determination",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0143#12",
+          "locator": "III.2 Principles, heading",
+          "text": "Transparency and explainability",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -8731,7 +8868,7 @@
     },
     "S-0145": {
       "url": "https://www.un.org/independent-international-scientific-panel-ai/en",
-      "title": "Independent International Scientific Panel on AI (home)",
+      "title": "Independent International Scientific Panel on AI (home page)",
       "publisher": "United Nations",
       "type": "primary",
       "dates": {},
@@ -8747,6 +8884,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "be62434674f7d524",
           "bytes": 63377
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:08:57Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.un.org/independent-international-scientific-panel-ai/en",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "be62434674f7d524",
+          "bytes": 63377
         }
       ],
       "passages": [
@@ -8755,13 +8904,19 @@
           "locator": "home page",
           "text": "The United Nations General Assembly established the Independent International Scientific Panel on Artificial Intelligence in Resolution A/RES/79/325",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0145#2",
+          "locator": "Media advisories",
+          "text": "Download the Media Advisory for the launch of the Panel’s thematic brief on 21 September",
+          "retrieved": "2026-10-13"
         }
       ]
     },
     "S-0146": {
       "url": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-07/Press%20Release%20-%20Independent%20International%20Scientific%20Panel%20on%20AI%20Launches%20Preliminary%20Report%20on%20AI%20Opportunities,%20Risks%20and%20Impacts.pdf",
-      "title": "Independent International Scientific Panel on AI Launches Preliminary Report on AI Opportunities, Risks and Impacts",
-      "publisher": "United Nations, Independent International Scientific Panel on AI",
+      "title": "Independent International Scientific Panel on AI Launches Preliminary Report on AI Opportunities, Risks and Impacts (press release)",
+      "publisher": "United Nations",
       "type": "primary",
       "dates": {
         "published": "2026-07-01"
@@ -8771,6 +8926,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:26:44Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-07/Press%20Release%20-%20Independent%20International%20Scientific%20Panel%20on%20AI%20Launches%20Preliminary%20Report%20on%20AI%20Opportunities,%20Risks%20and%20Impacts.pdf",
+          "content_type": "application/pdf",
+          "sha256": "26c3ba26838ca0c1",
+          "bytes": 67744
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:08:38Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -8810,6 +8977,12 @@
           "locator": "press release, dateline",
           "text": "NEW YORK, 1 July 2026",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0146#6",
+          "locator": "About the Panel",
+          "text": "The Panel is co-chaired by Yoshua Bengio (Canada) and Maria Ressa (Philippines), elected at the Panel's inaugural meeting on 3 March 2026.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -12266,6 +12439,12 @@
           "locator": "Standards",
           "text": "we coauthored AEF-1 –a standard defining minimum operating conditions for independent third-party evaluations – alongside other members of the AI Evaluator Forum",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0211#4",
+          "locator": "Industry-wide auditing standards",
+          "text": "we coauthored AEF-1 –a standard defining minimum operating conditions for independent third-party evaluations",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -17538,6 +17717,305 @@
           "id": "S-0312#2",
           "locator": "Article header",
           "text": "Feb 2, 2026 xAI joins SpaceX",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0313": {
+      "url": "https://www.unesco.org/ethics-ai/en/ram",
+      "title": "AI Readiness Assessment Methodology (RAM)",
+      "publisher": "UNESCO Global AI Ethics and Governance Observatory",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:08:38Z",
+          "run": "2026-10-13-weekly",
+          "via": "headless Chromium (Playwright), page content after JavaScript rendering; plain curl returns a JavaScript shell or a Cloudflare challenge",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "d0e68b264c1c51cb",
+          "bytes": 55408
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0313#1",
+          "locator": "Page heading",
+          "text": "A tool for countries to assess their readiness to develop and deploy AI ethically and responsibly",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0313#2",
+          "locator": "Body",
+          "text": "More than 70 countries have implemented or are currently implementing the AI Readiness Assessment Methodology (RAM)",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0314": {
+      "url": "https://ised-isde.canada.ca/site/ised/en/international-network-ai-safety-institutes-mission-statement",
+      "title": "The International Network of AI Safety Institutes: Mission statement",
+      "publisher": "Innovation, Science and Economic Development Canada",
+      "type": "primary",
+      "dates": {
+        "published": "2024-11-21"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:08:42Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://ised-isde.canada.ca/site/ised/en/international-network-ai-safety-institutes-mission-statement",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "8c286015ab7056d1",
+          "bytes": 25570
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0314#1",
+          "locator": "Priority areas, Testing",
+          "text": "Testing: We plan to work towards building common best practices for testing advanced AI systems. This work may include conducting joint testing exercises and sharing results from domestic evaluations, as appropriate.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0314#2",
+          "locator": "Priority areas, Research",
+          "text": "Research: We plan, together with the scientific community, to advance research on risks and capabilities of advanced AI systems as well as to share the most relevant results, as appropriate, from research that advances the science of AI safety.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0314#3",
+          "locator": "Whole text (searched)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] Searched the mission statement: its four priority areas (research, testing, guidance, inclusion) do not mention coordinating access to models before deployment or arrangements with frontier developers.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0315": {
+      "url": "https://digital-strategy.ec.europa.eu/en/news/ai-office-contributes-third-joint-testing-exercise-international-network-ai-safety-institutes",
+      "title": "AI Office contributes to the third joint testing exercise of the International Network of AI Safety Institutes",
+      "publisher": "European Commission",
+      "type": "primary",
+      "dates": {
+        "published": "2025-07-17"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:08:44Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/news/ai-office-contributes-third-joint-testing-exercise-international-network-ai-safety-institutes",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "7089eb62e4c9229c",
+          "bytes": 51532
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0315#1",
+          "locator": "News article, para 3",
+          "text": "This exercise builds on insights from two earlier joint testing exercises conducted by the Network in San Francisco ( November 2024) and in Paris (February 2025) . The objective of these exercises is to allow the Network to further refine best practices for testing advanced AI systems.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0315#2",
+          "locator": "News article, para 2",
+          "text": "To accompany the convening of the International Network of AI Safety Institutes in Vancouver, Canada, the Network published the results of its third joint testing exercise . The exercise focused on evaluating “agents”",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0316": {
+      "url": "https://aievaluatorforum.org/initiatives/minimum-operating-conditions",
+      "title": "AEF-1: Minimum Operating Conditions for Independent Third Party AI Evaluations",
+      "publisher": "AI Evaluator Forum",
+      "type": "primary",
+      "dates": {
+        "published": "2025-12-04"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:08:45Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://aievaluatorforum.org/initiatives/minimum-operating-conditions",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "63d60c5329adf2a2",
+          "bytes": 78629
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0316#1",
+          "locator": "Page header",
+          "text": "Version 1, updated December 4, 2025",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0316#2",
+          "locator": "The checklist",
+          "text": "Evaluators demonstrate adherence by completing the checklist and publishing it alongside their results.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0316#3",
+          "locator": "AEF-1 in practice, Frontier Risk Report (METR · May 2026)",
+          "text": "How AEF-1 was used: Included the AEF-1 reporting checklist in the published report.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0316#4",
+          "locator": "AEF-1 in practice, European AI Office",
+          "text": "The EU AI Office has endorsed key provisions of the AEF-1 standard as a means for providers to comply with the independence provisions of the General-Purpose AI Code of Practice.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0316#5",
+          "locator": "AEF-1 in practice, Biosecurity pre-release assessment (SecureBio · September 2026)",
+          "text": "Included the AEF-1 checklist in the published report, and uses AEF-1 as a foundation of its organizational principles.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0316#6",
+          "locator": "What the standard covers (five principles)",
+          "text": "Sufficient Access and Resources",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0316#7",
+          "locator": "Intro",
+          "text": "The success of AEF-1 requires adoption by a range of stakeholders, including frontier developers.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0317": {
+      "url": "https://aievaluatorforum.org/AEF_1_Minimum_Operating_Conditions_for_Independent_Third_Party_AI_Evaluations.pdf",
+      "title": "AEF-1 standard (PDF)",
+      "publisher": "AI Evaluator Forum",
+      "type": "primary",
+      "dates": {
+        "published": "2025-12-04"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:08:46Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl, second attempt (the first attempt was reset by the server)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "96daac33871cd165",
+          "bytes": 221769
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0317#1",
+          "locator": "Footnote 1",
+          "text": "the checklist could be used by developers to report details of third-party evaluations per the stipulations of the EU AI Act Code of Practice Safety & Security Chapter Measure 7.3(1)(g)",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0318": {
+      "url": "https://aievaluatorforum.org/",
+      "title": "AI Evaluator Forum (home page)",
+      "publisher": "AI Evaluator Forum",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:08:47Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "error",
+          "error": "curl: (35) Recv failure: Connection reset by peer"
+        }
+      ],
+      "passages": []
+    },
+    "S-0319": {
+      "url": "https://digital-strategy.ec.europa.eu/en/events/call-participants-workshop-qualification-requirements-external-evaluators-gpai-models-systemic-risk",
+      "title": "Call for participants: Workshop - qualification requirements for external evaluators of GPAI models with systemic risk",
+      "publisher": "European Commission (AI Office)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-06-12"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:08:54Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/events/call-participants-workshop-qualification-requirements-external-evaluators-gpai-models-systemic-risk",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "3561da5e588b2a2b",
+          "bytes": 53278
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0319#1",
+          "locator": "Background",
+          "text": "Ensuring that external evaluators meet appropriate independence and qualification requirements is critical for the credibility and effectiveness of this evaluation framework. The AI Office is engaging with the expert community to develop these requirements.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0319#2",
+          "locator": "Whole page (searched)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] Searched the page for 'AEF', 'AI Evaluator Forum' and endorsement of any external standard: no mention.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0320": {
+      "url": "https://ausncp.gov.au/whats-happening/news/oecd-due-diligence-guidance-responsible-ai",
+      "title": "OECD Due Diligence Guidance for Responsible AI (news item)",
+      "publisher": "Australian National Contact Point for Responsible Business Conduct",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:08:55Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://ausncp.gov.au/updates-and-resources/news-and-events/oecd-due-diligence-guidance-responsible-ai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "c4d7400564c3652a",
+          "bytes": 25065
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0320#1",
+          "locator": "News item, para 1",
+          "text": "The Organisation for Economic Co-operation and Development (OECD) released its Due Diligence Guidance for Responsible Artificial Intelligence at the India AI Impact Summit 2026.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0320#2",
+          "locator": "About the guidance",
+          "text": "The guidance gives enterprises a clear framework for managing risks when they develop or use AI.",
           "retrieved": "2026-10-13"
         }
       ]

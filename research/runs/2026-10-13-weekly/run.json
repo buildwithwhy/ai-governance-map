@@ -242,6 +242,82 @@
           ]
         }
       ]
+    },
+    {
+      "area": "B3 multilateral bodies and processes (L1, L5): AISR, AISI Network/NAAIMES, summits, OECD, CoE, UNESCO, UN Panel and Dialogue, plus the lost-run lead on AEF-1",
+      "summary": "No new multilateral instrument meeting RUBRIC §1 found since 1 Oct 2026. (1) CoE Convention: the CoE page (Chromium) still lists the EU as the only Party. The Treaty Office chart (treaty 225) returned a Cloudflare challenge in both curl and Chromium, so the reported 15 May 2026 deposit date rests on secondary search results only. The map's 'approved Apr 2026' matches the Council approval decision of 21 Apr 2026 recorded under P-0051, so it is not wrong and no edit is proposed. (2) OECD Due Diligence Guidance for Responsible AI (Feb 2026): the OECD page is behind Cloudflare. The Australian NCP describes it as enterprise risk-management guidance for anyone who develops or uses AI, so it is general responsible-business-conduct guidance with no frontier/GPAI-specific bearing; screened out. (3) No AISR publication after 3 Feb 2026; the UN Panel's latest output is the 21 Sep 2026 thematic brief (already on the map); no new NAAIMES output after the Jul 2026 guidance; Geneva 2027 details unchanged since Aug 2026. (4) AEF-1: drafted as a question (hold recommended).",
+      "queries": [
+        "AI Office AEF-1 independence external evaluators General-Purpose AI Code of Practice endorsed",
+        "Framework Convention on Artificial Intelligence European Union instrument of approval deposited May 2026",
+        "OECD Due Diligence Guidance for Responsible AI 2026",
+        "International AI Safety Report key update October 2026",
+        "Independent International Scientific Panel on AI October 2026",
+        "International Network for Advanced AI Measurement Evaluation and Science October 2026",
+        "Geneva AI Summit 2027 announcement October 2026 OR G7 digital ministers frontier AI October 2026",
+        "opened: coe.int treaty 225 chart (Cloudflare, curl and Chromium); coe.int AI convention page (Chromium); oecd.org DDG page (Cloudflare); ausncp.gov.au; internationalaisafetyreport.org/publications; un.org Panel home; digital-strategy.ec.europa.eu evaluator workshop call"
+      ],
+      "limits": "Seven web searches. CoE Treaty Office and oecd.org refuse automated clients (Cloudflare), even in headless Chromium. The G7 French-presidency frontier-AI platform lead from last week was not re-searched. Search snippets were used only as leads.",
+      "candidates": [
+        {
+          "name": "EU ratification of the CoE Framework Convention (deposit reported 15 May 2026)",
+          "result": "update to existing entry",
+          "reason": "The CoE page lists only the EU as a Party, which the map already states. The deposit date was not seen in a primary source: the Treaty Office chart is blocked. The map's 'approved Apr 2026' refers to the EU Council approval decision (21 Apr 2026, per P-0051 evidence) and is not wrong. If the maintainer prefers the deposit date, the Treaty Office chart (CETS 225) is the source to read by hand. Not this group's item (entry:coe-ai:desc).",
+          "sources": [
+            "S-0139"
+          ]
+        },
+        {
+          "name": "OECD Due Diligence Guidance for Responsible AI (19 Feb 2026)",
+          "result": "screened out",
+          "reason": "Enterprise responsible-business-conduct guidance for any AI developer or user, released at the India AI Impact Summit. Not frontier/GPAI-specific and at most contextual (SCOPE §C); not a Council Recommendation as far as the official NCP page shows. The OECD text itself is Cloudflare-blocked, so this screening rests on the Australian NCP description. Could be mentioned in the oecd entry's context if the maintainer wants.",
+          "sources": [
+            "S-0320"
+          ]
+        },
+        {
+          "name": "AEF-1 minimum operating conditions for third-party evaluators (AI Evaluator Forum)",
+          "result": "proposed",
+          "reason": "Raised as a question with a fully drafted add option; hold recommended until a Commission source confirms the AI Office endorsement.",
+          "proposal": "aef1-add",
+          "sources": [
+            "S-0316",
+            "S-0317",
+            "S-0318",
+            "S-0211",
+            "S-0319"
+          ]
+        },
+        {
+          "name": "International AI Safety Report: new publications since Oct 2026",
+          "result": "screened out",
+          "reason": "The publications page lists nothing after the 3 Feb 2026 report and summaries.",
+          "sources": [
+            "S-0120"
+          ]
+        },
+        {
+          "name": "UN Panel / Global Dialogue outputs since 1 Oct 2026",
+          "result": "screened out",
+          "reason": "Latest item is the 21 Sep 2026 thematic brief, already in the un-ai entry; nothing newer on the Panel home page.",
+          "sources": [
+            "S-0145"
+          ]
+        },
+        {
+          "name": "NAAIMES outputs since Jul 2026",
+          "result": "screened out",
+          "reason": "No newer output found by search; the Jul 2026 guidance is already in aisi-net desc and drives the elicitation proposal.",
+          "sources": [
+            "S-0124"
+          ]
+        },
+        {
+          "name": "Geneva AI Summit 2027 (Federal Council decision 12 Aug 2026)",
+          "result": "screened out",
+          "reason": "Search shows no new announcement since Aug 2026; the dates and the delegate are already in ai-summits desc. No commitments instrument yet.",
+          "sources": []
+        }
+      ]
     }
   ],
   "usage": null
