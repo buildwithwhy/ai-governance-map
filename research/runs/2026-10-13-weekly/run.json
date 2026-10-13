@@ -3,7 +3,7 @@
   "label": "Weekly audit 2026-10-13 (quick partial: re-verify lost 12 Oct findings, changed sources, light discovery)",
   "partial": true,
   "started_at": "2026-10-13T21:53:37Z",
-  "finished_at": null,
+  "finished_at": "2026-10-13T22:14:38Z",
   "scope": {
     "entries": [
       "aisr",
@@ -360,7 +360,32 @@
           ]
         }
       ]
+    },
+    {
+      "area": "Re-fetch of earlier sources (all layers)",
+      "summary": "220 sources used by earlier successful checks were re-fetched; the changes that are not explained by the fetch method are logged here as leads.",
+      "queries": [],
+      "limits": "No new searches; observations from re-fetched pages only. JavaScript-only pages fetched with curl return a shell and were re-opened in headless Chromium where it mattered (OECD, IMDA, UAE summit article).",
+      "candidates": [
+        {
+          "name": "ai.gov action-plan page now serves 'SI.gov' (Super Intelligence) content",
+          "result": "lead — source inaccessible",
+          "reason": "https://www.ai.gov/action-plan returned HTTP 404 on 2026-10-10; on 2026-10-13 it returns a 'SI.gov | America's Super Intelligence Initiatives' page. Relevant to the us-action link. Group reports also cite a 29 Sep 2026 White House fact sheet on an order renaming 'AI' to 'Super Intelligence'; not opened here."
+        },
+        {
+          "name": "Anthropic Frontier Compliance Framework (Trust Center PDF)",
+          "result": "lead — source inaccessible",
+          "reason": "The Trust Center still lists 'Anthropic Frontier Compliance Framework', but the PDF could not be re-opened this run (the document link needs an interactive session). Its four recorded passages were not re-tested; nothing indicates a change."
+        }
+      ]
     }
   ],
-  "usage": null
+  "usage": null,
+  "highlights": [
+    "The 2026-10-12 weekly run's research record was lost: its scheduled session could not push to GitHub. This quick partial run, requested on 13 Oct, re-checked its 28 findings from primary sources, without relying on the old wording. All held up at least in part. Several were re-drafted (Colorado now cites an Apr 27, 2026 court order in xAI v. Weiser that stays enforcement; eSafety's AI obligations come from standards made under the Act; AVERI and CAIS wording adjusted). The ledger renumbers them P-0121 to P-0149, so numbers differ from the old page.",
+    "29 proposals await your decision: 24 corrections, 1 addition (Japan AI Basic Plan, P-0124) and 4 questions with drafted options and a recommendation (AISI Network timing note P-0137, AEF-1 as an entry P-0139 with 'hold' recommended, IMDA enforceability P-0143, xAI/SpaceX note P-0131). One is new this run: the FAQ on which labs publish frontier safety frameworks is stale for OpenAI, Meta and xAI (P-0133).",
+    "Coverage: 220 sources used by earlier successful checks were re-fetched; 21 could not be (EUR-Lex 202s, several bot-blocked sites, three Chinese government sites, ilga.gov). 136 had changed bytes; 469 recorded quotations were re-tested against the new text: 453 still match, 1 matches with a new footnote marker (checked by hand), and the 15 others are explained (JavaScript-only pages, the map's own files, a reformatted API record, a page that was a 404). 38 inventory items across 22 entries were checked this run (37 changed, 1 unresolved). Everything else was not re-checked this week.",
+    "Leads not yet verified: press reports of a White House 'Accord on Super Intelligence' (29 Sep 2026) signed by six firms (no official text found); ai.gov now serves 'SI.gov' content; the EU deposit of its Council of Europe Convention ratification (15 May 2026, secondary only; the map's 'approved Apr 2026' matches the Council decision); the Australian AI Safety Institute and eSafety's 2026 AI-chatbot codes (sites unreachable).",
+    "No new answers on the review page (all 104 earlier answers were already recorded and applied). Nothing was applied, so the public map and its content date are unchanged. This run's record is pushed to branch claude/bold-dirac-97m1ik (no PR)."
+  ]
 }
