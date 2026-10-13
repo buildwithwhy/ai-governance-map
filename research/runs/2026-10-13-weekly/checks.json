@@ -391,5 +391,280 @@
     "note": "Second principle is 'respect for the rule of law, human rights and democratic values, including fairness and privacy', not 'human-centred'. The other facts (5+5 structure, G20, 2024 safety/generative-AI revision) are confirmed by the same sources.",
     "missing": null,
     "hash": "f2fa6a0eef1d"
+  },
+  "entry:jp-sectors:cov:update": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0321",
+      "S-0322"
+    ],
+    "proposals": [
+      "P-0140"
+    ],
+    "note": "FSA document is a discussion paper (v1.1, 3 Mar 2026), not a risk management framework; Guidelines are joint MIC/METI.",
+    "missing": null,
+    "hash": "eb174d8ff1ce"
+  },
+  "entry:au-esafety:desc": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0323",
+      "S-0324",
+      "S-0325"
+    ],
+    "proposals": [
+      "P-0141"
+    ],
+    "note": "Act has no AI terms; AI-specific obligations are in the DIS Industry Standard made under s 145. Lead P-0133 holds only in part; redrafted.",
+    "missing": null,
+    "hash": "3ba23d0c4ec7"
+  },
+  "edge:imda|other-aisis": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0327",
+      "S-0326",
+      "S-0260"
+    ],
+    "proposals": [
+      "P-0142"
+    ],
+    "note": "DTC is hosted by NTU; IMDA is the overall government agency for the AISI.",
+    "missing": null,
+    "hash": "ba5f19be7c1d"
+  },
+  "entry:imda": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0260"
+    ],
+    "proposals": [
+      "P-0143"
+    ],
+    "note": "Classification question on pow (flag with options). Link resolves to IMDA's AI page (via headless Chromium); name, layer, jur and status consistent with the page.",
+    "missing": null,
+    "hash": "6b01ed4f15cc"
+  },
+  "entry:metr:cov:thresh": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0204",
+      "S-0203"
+    ],
+    "proposals": [
+      "P-0144"
+    ],
+    "note": "Causal claim that Common Elements prompted SB 53/GPAI Code is not supported; page cross-references them as guidance.",
+    "missing": null,
+    "hash": "24cab761402a"
+  },
+  "entry:apollo:cov:elicit": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0095",
+      "S-0328",
+      "S-0329",
+      "S-0331",
+      "S-0121"
+    ],
+    "proposals": [
+      "P-0145"
+    ],
+    "note": "Preparedness v2 never names Apollo; FSF v2 only acknowledges input; IASR does not say it builds on Apollo methodology. Covers the index.html FAQ page text from lead P-0142.",
+    "missing": null,
+    "hash": "1d79bab2f40c"
+  },
+  "faq:what-is-sandbagging-in-ai-safety": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0095",
+      "S-0328",
+      "S-0329",
+      "S-0331",
+      "S-0121"
+    ],
+    "proposals": [
+      "P-0145"
+    ],
+    "note": "Preparedness v2 never names Apollo; FSF v2 only acknowledges input; IASR does not say it builds on Apollo methodology. Covers the index.html FAQ page text from lead P-0142.",
+    "missing": null,
+    "hash": "d0bfa2597be4"
+  },
+  "edge:apollo|rsp": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0329",
+      "S-0330",
+      "S-0113",
+      "S-0112",
+      "S-0332",
+      "S-0331"
+    ],
+    "proposals": [
+      "P-0146"
+    ],
+    "note": "Relationships are past/intermittent rather than ongoing scheming evaluations.",
+    "missing": null,
+    "hash": "4853c9d1d91d"
+  },
+  "edge:apollo|fsf": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0329",
+      "S-0330",
+      "S-0113",
+      "S-0112",
+      "S-0332",
+      "S-0331"
+    ],
+    "proposals": [
+      "P-0146"
+    ],
+    "note": "Relationships are past/intermittent rather than ongoing scheming evaluations.",
+    "missing": null,
+    "hash": "753d531d1a1d"
+  },
+  "entry:averi:context": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0210",
+      "S-0212",
+      "S-0333",
+      "S-0211",
+      "S-0214",
+      "S-0213"
+    ],
+    "proposals": [
+      "P-0147"
+    ],
+    "note": "Safety-integrity analogy and EU-AI-Act attribution unsupported; launch date, 501(c)(3), Brundage, AALs and auditor-supply concern confirmed.",
+    "missing": null,
+    "hash": "6285b12feb3e"
+  },
+  "entry:averi:cov:eval": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0210",
+      "S-0212",
+      "S-0333",
+      "S-0211",
+      "S-0214",
+      "S-0213"
+    ],
+    "proposals": [
+      "P-0147"
+    ],
+    "note": "Safety-integrity analogy and EU-AI-Act attribution unsupported; launch date, 501(c)(3), Brundage, AALs and auditor-supply concern confirmed.",
+    "missing": null,
+    "hash": "a8d07cb0554c"
+  },
+  "entry:cais:context": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0220",
+      "S-0334",
+      "S-0335",
+      "S-0112",
+      "S-0221"
+    ],
+    "proposals": [
+      "P-0148"
+    ],
+    "note": "MMLU is not a CAIS benchmark; HLE is labelled a capability benchmark. June 2026 Kim/FSI facts confirmed.",
+    "missing": null,
+    "hash": "c8d715180f17"
+  },
+  "entry:cais:cov:eval": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0220",
+      "S-0334",
+      "S-0335",
+      "S-0112",
+      "S-0221"
+    ],
+    "proposals": [
+      "P-0148"
+    ],
+    "note": "MMLU is not a CAIS benchmark; HLE is labelled a capability benchmark. June 2026 Kim/FSI facts confirmed.",
+    "missing": null,
+    "hash": "e1168d3cf893"
+  },
+  "entry:fsi:cov:sec": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0225",
+      "S-0222",
+      "S-0223",
+      "S-0224",
+      "S-0221"
+    ],
+    "proposals": [
+      "P-0149"
+    ],
+    "note": "'State-actor' and 'lab safety commitments legible to national-security review' not in FSI's materials.",
+    "missing": null,
+    "hash": "693adc26de35"
+  },
+  "entry:fsi:cov:acct": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0225",
+      "S-0222",
+      "S-0223",
+      "S-0224",
+      "S-0221"
+    ],
+    "proposals": [
+      "P-0149"
+    ],
+    "note": "'State-actor' and 'lab safety commitments legible to national-security review' not in FSI's materials.",
+    "missing": null,
+    "hash": "f3b640d40b8e"
   }
 }

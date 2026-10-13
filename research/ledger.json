@@ -1,5 +1,5 @@
 {
-  "next": 140,
+  "next": 150,
   "proposals": [
     {
       "id": "P-0001",
@@ -18035,6 +18035,1165 @@
             "text:intro"
           ],
           "hash": "34c8488e960f"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0140",
+      "fingerprint": "32a8330a4483",
+      "targets": [
+        "entry:jp-sectors:cov:update"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:13:04Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Japan sectors: name the FSA AI Discussion Paper correctly in the update note",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "jp-sectors",
+              "cat": "update",
+              "from": "METI's AI Guidelines for Business updated periodically; FSA risk management framework revised as the GenAI landscape evolves.",
+              "to": "MIC/METI AI Guidelines for Business updated periodically as a living document; FSA AI Discussion Paper revised (v1.1, Mar 2026) as the GenAI landscape evolves."
+            }
+          ],
+          "why": "The note calls the FSA document a 'risk management framework'. FSA's AI document is a discussion paper of preliminary discussion points, not a supervisory framework, and the Guidelines are a joint MIC/METI instrument (as the entry's own desc says).",
+          "rationale": "Re-verifies lead P-0132 from the lost 2026-10-12 run. FSA's 3 March 2026 release names the document 'AI Discussion Paper (Version 1.1)' with the subtitle 'Preliminary Discussion Points…', says it revised Version 1.0, and describes it as a preliminary analysis for dialogue. The MIC/METI Guidelines (Ver1.2 translation) name both ministries on the cover and say they will be updated as a living document. Compared with the lead, the 'Ver1.2, Mar 2026' detail is left out of the note because the entry desc already carries it and the redline cover merges old and new dates.",
+          "evidence": [
+            {
+              "source": "S-0321",
+              "passage": "S-0321#1",
+              "stance": "supports",
+              "supports": "Document is an AI Discussion Paper v1.1 of 3 Mar 2026"
+            },
+            {
+              "source": "S-0321",
+              "passage": "S-0321#2",
+              "stance": "supports",
+              "supports": "v1.1 revises v1.0"
+            },
+            {
+              "source": "S-0321",
+              "passage": "S-0321#3",
+              "stance": "supports",
+              "supports": "Preliminary, dialogue-oriented paper rather than a framework"
+            },
+            {
+              "source": "S-0322",
+              "passage": "S-0322#1",
+              "stance": "supports",
+              "supports": "Guidelines are issued jointly by MIC and METI"
+            },
+            {
+              "source": "S-0322",
+              "passage": "S-0322#2",
+              "stance": "supports",
+              "supports": "Updated as a living document"
+            }
+          ],
+          "uncertainty": "Low. FSA may issue further versions; 'as the GenAI landscape evolves' is kept as framing.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:jp-sectors:desc": "not in this group; its 'v1.2, Mar 2026' wording is consistent with the Ver1.2 cover"
+          },
+          "unverified_carryover": [
+            "as the GenAI landscape evolves"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:imda|jp-sectors",
+            "edge:jp-sectors|jp-ai",
+            "edge:jp-sectors|hiroshima",
+            "edge:jp-sectors|other-aisis",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "8bf1951b5a3e"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0141",
+      "fingerprint": "af47ab7187f1",
+      "targets": [
+        "entry:au-esafety:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:13:04Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "eSafety: the Online Safety Act has no AI-specific provisions; AI obligations come from standards made under it",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "au-esafety",
+              "field": "desc",
+              "from": "World's first online safety regulator (established 2015), with AI-specific enforcement authority under the Online Safety Act 2021.",
+              "to": "World's first online safety regulator (established 2015). The Online Safety Act 2021 has no AI-specific provisions; eSafety's AI-specific obligations come from industry standards it determines under the Act (e.g. for high impact generative AI services)."
+            }
+          ],
+          "why": "The desc says the Act gives eSafety 'AI-specific enforcement authority'. The Act never mentions AI; the AI-specific rules are in an industry standard the Commissioner made under its general standard-making power.",
+          "rationale": "Re-verifies lead P-0133 from the lost 2026-10-12 run. The lead holds only in part: Compilation No. 4 contains no AI terms, and s 26 only provides for the Commissioner. But the lead's wording ('which has no AI-specific provisions') would suggest eSafety has no AI-specific obligations at all, which is wrong: the DIS Industry Standard 2024, determined by the Commissioner under s 145, defines 'high impact generative AI DIS'. The proposed text states both facts. 'Established 2015' is supported by the Enhancing Online Safety for Children Act 2015 (assented 24 Mar 2015), which created a Children's e-Safety Commissioner.",
+          "evidence": [
+            {
+              "source": "S-0323",
+              "passage": "S-0323#4",
+              "stance": "supports",
+              "supports": "No AI-specific provision in the current Act"
+            },
+            {
+              "source": "S-0323",
+              "passage": "S-0323#2",
+              "stance": "supports",
+              "supports": "Act provides for the Commissioner"
+            },
+            {
+              "source": "S-0323",
+              "passage": "S-0323#3",
+              "stance": "supports",
+              "supports": "General power to determine industry standards"
+            },
+            {
+              "source": "S-0324",
+              "passage": "S-0324#1",
+              "stance": "supports",
+              "supports": "Standard made by the eSafety Commissioner"
+            },
+            {
+              "source": "S-0324",
+              "passage": "S-0324#2",
+              "stance": "supports",
+              "supports": "Made under s 145 of the Act"
+            },
+            {
+              "source": "S-0324",
+              "passage": "S-0324#3",
+              "stance": "supports",
+              "supports": "AI-specific category of service in the standard"
+            },
+            {
+              "source": "S-0325",
+              "passage": "S-0325#1",
+              "stance": "supports",
+              "supports": "2015 Act assented 24 Mar 2015"
+            },
+            {
+              "source": "S-0325",
+              "passage": "S-0325#2",
+              "stance": "supports",
+              "supports": "2015 Act created the (Children's) e-Safety Commissioner"
+            }
+          ],
+          "uncertainty": "'World's first online safety regulator' is carried over unverified (esafety.gov.au refused every connection from this environment). The March 2026 age-restricted material codes, reported to cover AI companion chatbots, could not be opened.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "edge:uk-ofcom|au-esafety": "not in this group; its 'AI-specific authority' wording has the same looseness and may need a later check",
+            "entry:au-esafety:context": "not in this group; consistent with the new desc (codes and standards including AI-generated content)"
+          },
+          "unverified_carryover": [
+            "World's first online safety regulator"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:uk-ofcom|au-esafety",
+            "edge:au-esafety|other-aisis",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "39ec06bd654a"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0142",
+      "fingerprint": "8b2f953fdeca",
+      "targets": [
+        "edge:imda|other-aisis"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:13:04Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "IMDA ↔ Other AISIs: NTU hosts the Digital Trust Centre; IMDA is the AISI's government agency",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_edge",
+              "a": "imda",
+              "b": "other-aisis",
+              "from": "IMDA hosts Singapore's DTC + AI Verify AISI-equivalent work",
+              "to": "IMDA is the government agency for Singapore's AISI (the NTU-hosted DTC) and developed AI Verify"
+            }
+          ],
+          "why": "The connection says IMDA hosts the Digital Trust Centre; the Centre is hosted by Nanyang Technological University, and it is the designated AISI rather than 'AISI-equivalent' work.",
+          "rationale": "Re-verifies lead P-0134 from the lost 2026-10-12 run. The Singapore AISI site says the DTC is 'Hosted in the Nanyang Technological University (NTU)' and that 'IMDA is the overall government agency for the Singapore AISI'; IMDA's 2024 factsheet says the DTC was designated as Singapore's AISI and that IMDA appointed NTU to establish it; IMDA's AI page says IMDA developed AI Verify. The wording differs from the lead ('partners with') because the AISI site gives IMDA the more specific role of overall government agency.",
+          "evidence": [
+            {
+              "source": "S-0327",
+              "passage": "S-0327#2",
+              "stance": "supports",
+              "supports": "IMDA is the overall government agency; partners DTC for technical work"
+            },
+            {
+              "source": "S-0327",
+              "passage": "S-0327#3",
+              "stance": "supports",
+              "supports": "DTC hosted in NTU"
+            },
+            {
+              "source": "S-0326",
+              "passage": "S-0326#1",
+              "stance": "supports",
+              "supports": "DTC designated as Singapore's AISI"
+            },
+            {
+              "source": "S-0326",
+              "passage": "S-0326#2",
+              "stance": "supports",
+              "supports": "IMDA appointed NTU to establish DTC"
+            },
+            {
+              "source": "S-0260",
+              "passage": "S-0260#4",
+              "stance": "supports",
+              "supports": "IMDA developed AI Verify"
+            }
+          ],
+          "uncertainty": "Low.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:other-aisis:desc": "not in this group; 'Singapore (DTC + AI Verify)' remains accurate"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:imda|hiroshima",
+            "edge:imda|jp-sectors",
+            "text:layer-4:tooltip",
+            "entry:aisr:context",
+            "entry:aisi-net:context",
+            "entry:uk-aisi:cov:elicit",
+            "edge:aisi-net|other-aisis",
+            "edge:au-esafety|other-aisis",
+            "edge:jp-sectors|other-aisis",
+            "gap:eval",
+            "text:layer-4:subtitle"
+          ],
+          "hash": "8d72781c7cfd"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0143",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:13:04Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Singapore IMDA: should enforceability be 2 (soft/advisory) rather than 3?",
+          "kind": "flag",
+          "changes": [],
+          "why": "IMDA is classed pow 3 ('hard law, weak enforcement'), but every AI instrument the entry describes (Model AI Governance Framework, AI Verify, chatbot transparency guidelines, testing starter kit) is voluntary guidance. RUBRIC §4 puts government-issued voluntary guidance at pow 2, as with jp-sectors and NIST AI RMF.",
+          "rationale": "Re-verifies lead P-0135 from the lost 2026-10-12 run. Recommend b: IMDA's own AI page calls its chatbot guidelines and testing starter kit voluntary and describes the Model Framework as guidance; no binding or penalty-backed AI obligation from IMDA was found. The entry's own context says Singapore 'emphasises voluntary frameworks'. Option a remains defensible if the entry is read as the agency as a whole (a statutory telecoms and media regulator). Derived counts (voluntary = pow 1, binding = pow 4) are unchanged by either option, and no prose names IMDA's enforceability level, so neither option needs knock-on edits.",
+          "evidence": [
+            {
+              "source": "S-0260",
+              "passage": "S-0260#9",
+              "stance": "supports",
+              "supports": "Chatbot transparency guidelines are voluntary"
+            },
+            {
+              "source": "S-0260",
+              "passage": "S-0260#8",
+              "stance": "supports",
+              "supports": "Model Framework is guidance to private sector"
+            },
+            {
+              "source": "S-0260",
+              "passage": "S-0260#10",
+              "stance": "supports",
+              "supports": "Testing starter kit consolidates practices into voluntary guidelines"
+            }
+          ],
+          "uncertainty": "Depends on whether pow describes IMDA's AI governance role or its general statutory powers; IMDA's non-AI statutory powers were not researched.",
+          "confidence": "medium",
+          "question": "IMDA is classified pow 3 (hard law, weak enforcement), but its AI instruments on the map are voluntary guidance (Model AI Governance Framework, AI Verify, chatbot transparency guidelines, testing starter kit). RUBRIC §4 puts government-issued voluntary guidance at pow 2. Which enforceability level should the entry carry?",
+          "knock_on_notes": {
+            "entry:imda": "pow only; name, layer, jur, status and link checked, link resolves to the AI page quoted"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Keep pow 3 (IMDA is a statutory regulator)",
+              "changes": []
+            },
+            {
+              "key": "b",
+              "label": "Change to pow 2 (its AI instruments are voluntary)",
+              "changes": [
+                {
+                  "op": "set_field",
+                  "entity": "imda",
+                  "field": "pow",
+                  "from": 3,
+                  "to": 2
+                }
+              ]
+            }
+          ],
+          "recommended": "b",
+          "knock_on": [
+            "edge:imda|other-aisis",
+            "edge:imda|hiroshima",
+            "edge:imda|jp-sectors",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "d3ee1fa45111"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0144",
+      "fingerprint": "cab7fbfefeb8",
+      "targets": [
+        "entry:metr:cov:thresh"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:13:04Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "METR threshold note: drop the unsupported claim that Common Elements prompted SB 53 and the GPAI Code",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "metr",
+              "cat": "thresh",
+              "from": "Maintains the cross-lab catalogue of capability thresholds that the orthogonal view of this map uses. The Common Elements analysis identified gaps and inconsistencies between lab frameworks that prompted SB 53 and EU GPAI Code drafting.",
+              "to": "Maintains the cross-lab catalogue of capability thresholds that the orthogonal view of this map uses. Its Common Elements analysis (December 2025 version) compares twelve published lab frameworks and cross-references the EU GPAI Code and SB 53."
+            }
+          ],
+          "why": "The note credits a METR analysis with prompting two legislative/regulatory texts; METR's own page claims no such influence and treats SB 53 and the Code as guidance it cross-references.",
+          "rationale": "Re-verifies lead P-0141 from the lost 2026-10-12 run. The Common Elements page (16 Dec 2025) says this version 'mentions relevant guidance' from the GPAI Code and SB 53 and lists twelve published policies; METR's home page describes it as an analysis of shared components including capability thresholds. Nothing on either page says it prompted either text, and the causal claim was not found in any primary source.",
+          "evidence": [
+            {
+              "source": "S-0204",
+              "passage": "S-0204#17",
+              "stance": "supports",
+              "supports": "Dec 2025 version cross-references the Code and SB 53 as guidance"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#18",
+              "stance": "supports",
+              "supports": "Twelve companies' policies"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#19",
+              "stance": "supports",
+              "supports": "No claim of prompting SB 53/Code"
+            },
+            {
+              "source": "S-0203",
+              "passage": "S-0203#6",
+              "stance": "supports",
+              "supports": "Analysis covers capability thresholds across twelve policies"
+            }
+          ],
+          "uncertainty": "A causal influence could be documented elsewhere (e.g. legislative history or Code drafting records), but none was found; the claim is an analytic attribution the map should not state as fact without a source.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:metr:context": "not in this group; 'surfaced the gaps between lab frameworks' is analytic but makes no causal claim about SB 53/Code"
+          },
+          "unverified_carryover": [
+            "Maintains the cross-lab catalogue of capability thresholds that the orthogonal view of this map uses."
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:rsp:cov:elicit",
+            "entry:prep:cov:eval",
+            "entry:caisi:context",
+            "entry:averi:cov:acct",
+            "entry:fsi:context",
+            "edge:aisr|metr",
+            "edge:metr|rsp",
+            "edge:metr|prep",
+            "edge:metr|fsf",
+            "edge:averi|metr",
+            "gap:eval",
+            "gap:elicit",
+            "faq:what-is-metr-s-common-elements-framework",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip",
+            "text:footer-sources",
+            "text:footer-note",
+            "text:intro"
+          ],
+          "hash": "c236581199e2"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0145",
+      "fingerprint": "eb268f3a4a86",
+      "targets": [
+        "entry:apollo:cov:elicit",
+        "text:index.html:ebca94af9a95"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:13:05Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Apollo adoption claims: drop Preparedness v2 and 'adopted across FSF v2' (coverage note and sandbagging FAQ)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "apollo",
+              "cat": "elicit",
+              "from": "Established the dominant external methodology for scheming detection — controlled stress-tests for whether models strategically deceive evaluators, exfiltrate, or sandbag. The conceptual frame (deceptive alignment, mesa-optimisation) predates Apollo, but their 2024 paper was the inflection point that brought scheming evaluations into mainstream lab practice — cited as input to GDM's FSF v2, used in OpenAI's o1 system card and Preparedness v2, and referenced in Anthropic's Claude system cards.",
+              "to": "Established the dominant external methodology for scheming detection — controlled stress-tests for whether models strategically deceive evaluators, exfiltrate, or sandbag. The conceptual frame (deceptive alignment, mesa-optimisation) predates Apollo, but their 2024 paper was the inflection point that brought scheming evaluations into mainstream lab practice — cited as input to GDM's FSF v2, used in OpenAI's o1 system card, and referenced in Anthropic's Claude system cards."
+            },
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "formally flagged sandbagging as an emerging capability-elicitation challenge, building on Apollo Research's scheming-detection methodology adopted across Google DeepMind's Frontier Safety Framework v2, OpenAI's o1 system card, and Anthropic's Claude evaluations.",
+              "to": "formally flagged sandbagging as an emerging capability-elicitation challenge, noting it has been observed in experiments. Apollo Research's scheming evaluations appear in OpenAI's o1 system card and Anthropic's Claude Opus 4 system card, and Google DeepMind's Frontier Safety Framework v2 acknowledges Apollo's input.",
+              "count": 1
+            }
+          ],
+          "why": "Two adoption claims are unsupported: OpenAI's Preparedness Framework v2 never mentions Apollo, and FSF v2 only thanks Apollo for input rather than adopting its methodology. The FAQ also says the Safety Report 'builds on' Apollo's methodology, which the report does not say.",
+          "rationale": "Re-verifies lead P-0142 from the lost 2026-10-12 run. Preparedness v2 lists Sandbagging as a Research Category and has no occurrence of 'Apollo'. The o1 system card documents Apollo's scheming evaluation; the Claude Opus 4 card says Anthropic contracted Apollo, largely following Meinke et al.; FSF v2's acknowledgements thank Apollo for input. The International AI Safety Report 2026 says sandbagging 'has been observed in experiments' and lists Apollo's 2024 paper in its references, but does not describe itself as building on Apollo's methodology. The FAQ rewrite differs from the lead: it does not claim Apollo co-authored the cited sandbagging studies, because the report gives author names but not affiliations.",
+          "evidence": [
+            {
+              "source": "S-0095",
+              "passage": "S-0095#30",
+              "stance": "supports",
+              "supports": "Preparedness v2 never mentions Apollo"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#29",
+              "stance": "supports",
+              "supports": "Sandbagging is only a Research Category"
+            },
+            {
+              "source": "S-0328",
+              "passage": "S-0328#1",
+              "stance": "supports",
+              "supports": "Apollo evaluated o1 for scheming"
+            },
+            {
+              "source": "S-0329",
+              "passage": "S-0329#1",
+              "stance": "supports",
+              "supports": "Anthropic used Apollo's methods for Claude Opus 4"
+            },
+            {
+              "source": "S-0331",
+              "passage": "S-0331#1",
+              "stance": "supports",
+              "supports": "FSF v2 acknowledges Apollo's input only"
+            },
+            {
+              "source": "S-0121",
+              "passage": "S-0121#18",
+              "stance": "supports",
+              "supports": "Report notes sandbagging observed in experiments"
+            },
+            {
+              "source": "S-0121",
+              "passage": "S-0121#19",
+              "stance": "supports",
+              "supports": "Report cites Apollo's 2024 paper"
+            }
+          ],
+          "uncertainty": "'Dominant external methodology' and 'inflection point' are analytic framing, kept unchanged. 'Formally flagged … as an emerging capability-elicitation challenge' is kept as a characterisation of the report's evaluation-gap passage.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:apollo:context": "not in this group; 'evaluation approach has been adopted across the field' is analytic",
+            "entry:apollo:desc": "not in this group"
+          },
+          "unverified_carryover": [
+            "Established the dominant external methodology for scheming detection",
+            "their 2024 paper was the inflection point that brought scheming evaluations into mainstream lab practice",
+            "formally flagged sandbagging as an emerging capability-elicitation challenge"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:prep:cov:eval",
+            "entry:caisi:context",
+            "entry:metr:cov:elicit",
+            "entry:averi:cov:acct",
+            "entry:fsi:context",
+            "edge:aisr|apollo",
+            "edge:apollo|rsp",
+            "edge:apollo|fsf",
+            "edge:averi|apollo",
+            "gap:eval",
+            "gap:elicit",
+            "faq:what-is-sandbagging-in-ai-safety",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "9171746fc5dd"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0146",
+      "fingerprint": "b5be35e89c32",
+      "targets": [
+        "edge:apollo|rsp",
+        "edge:apollo|fsf"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:13:05Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Apollo connections: restate the Anthropic and DeepMind relationships as the sources show them",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_edge",
+              "a": "apollo",
+              "b": "rsp",
+              "from": "Apollo evaluates Anthropic models for scheming",
+              "to": "Apollo tested Claude Opus 4 for scheming; its Claude Opus 4.6 testing was inconclusive"
+            },
+            {
+              "op": "set_edge",
+              "a": "apollo",
+              "b": "fsf",
+              "from": "Apollo evaluates DeepMind models for scheming",
+              "to": "Apollo gave input to FSF v2 and independent assessments of Gemini 3"
+            }
+          ],
+          "why": "Both connections state an ongoing scheming-evaluation relationship. The sources show a 2025 Anthropic test, an inconclusive 2026 one and no Apollo mention in the two latest Claude cards; for Google, input to FSF v2 and an unspecified independent assessment of Gemini 3.",
+          "rationale": "Re-verifies lead P-0143 from the lost 2026-10-12 run. Claude Opus 4 card: Apollo found the early snapshot clearly capable of in-context scheming. Claude Opus 4.6 card: testing 'did not yield conclusive results' and Apollo gave no formal assessment. Claude Opus 5 and 5.5 cards contain no 'Apollo'. Google's Gemini 3 post lists Apollo among independent assessors without naming scheming; FSF v2 thanks Apollo for input. The fsf edge text differs from the lead by keeping the FSF v2 link, since the edge is to the framework entry.",
+          "evidence": [
+            {
+              "source": "S-0329",
+              "passage": "S-0329#2",
+              "stance": "supports",
+              "supports": "Apollo scheming finding on Opus 4 snapshot"
+            },
+            {
+              "source": "S-0330",
+              "passage": "S-0330#1",
+              "stance": "supports",
+              "supports": "Opus 4.6 testing inconclusive"
+            },
+            {
+              "source": "S-0330",
+              "passage": "S-0330#2",
+              "stance": "supports",
+              "supports": "No formal assessment of Opus 4.6"
+            },
+            {
+              "source": "S-0113",
+              "passage": "S-0113#5",
+              "stance": "supports",
+              "supports": "No Apollo mention in Opus 5 card"
+            },
+            {
+              "source": "S-0112",
+              "passage": "S-0112#7",
+              "stance": "supports",
+              "supports": "No Apollo mention in Opus 5.5 card"
+            },
+            {
+              "source": "S-0332",
+              "passage": "S-0332#1",
+              "stance": "supports",
+              "supports": "Independent assessments from Apollo for Gemini 3"
+            },
+            {
+              "source": "S-0331",
+              "passage": "S-0331#1",
+              "stance": "supports",
+              "supports": "Input to FSF v2"
+            }
+          ],
+          "uncertainty": "Apollo may do non-public work for either lab, and intermediate Claude or Gemini cards (between Opus 4 and 4.6, or later Gemini releases) were not all checked.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "edge:averi|apollo": "not in this group"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:prep:cov:eval",
+            "entry:caisi:context",
+            "entry:metr:cov:elicit",
+            "entry:averi:cov:acct",
+            "entry:fsi:context",
+            "edge:aisr|apollo",
+            "edge:averi|apollo",
+            "gap:eval",
+            "gap:elicit",
+            "faq:what-is-sandbagging-in-ai-safety",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip",
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:eu-genai-code:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:prep:cov:thresh",
+            "entry:fsf:context",
+            "entry:fsf:cov:thresh",
+            "entry:fsf:cov:acct",
+            "entry:meta-faif:cov:thresh",
+            "entry:meta-faif:cov:sec",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "edge:ca-sb53|rsp",
+            "edge:seoul-commit|rsp",
+            "edge:gpai-cop|rsp",
+            "edge:fmf|rsp",
+            "edge:metr|rsp",
+            "edge:uk-aisi|rsp",
+            "edge:ny-raise|rsp",
+            "gap:mit",
+            "gap:halt",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "entry:ca-sb53:context",
+            "entry:caisi:cov:eval",
+            "edge:ca-sb53|fsf",
+            "edge:seoul-commit|fsf",
+            "edge:gpai-cop|fsf",
+            "edge:fmf|fsf",
+            "edge:metr|fsf",
+            "edge:uk-aisi|fsf"
+          ],
+          "hash": "1bbaf384d75d"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0147",
+      "fingerprint": "84736c4fea5e",
+      "targets": [
+        "entry:averi:context",
+        "entry:averi:cov:eval"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:13:05Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "AVERI: replace unsourced 'safety integrity levels' and EU-AI-Act bottleneck framing",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "averi",
+              "field": "context",
+              "from": "501(c)(3) launched Jan 15, 2026 by Miles Brundage (formerly OpenAI policy lead). Published an 'AI Assurance Levels' framework on launch — analogous to safety integrity levels in other industries — designed to give regulators and labs a shared scaffold for third-party auditing. Aimed squarely at the bottleneck the EU AI Act exposes: there are far more obligations to verify than independent auditors qualified to verify them.",
+              "to": "501(c)(3) launched Jan 15, 2026 by Miles Brundage (formerly OpenAI policy lead). Published an 'AI Assurance Levels' framework on launch — four levels that calibrate how much confidence an audit's findings warrant, with AAL-1 recommended as the baseline for frontier AI — designed to give regulators and labs a shared scaffold for third-party auditing. Aimed at the gap that safety and security claims about AI systems are largely self-reported by companies, and at growing the supply of qualified auditors."
+            },
+            {
+              "op": "set_cov",
+              "entity": "averi",
+              "cat": "eval",
+              "from": "Third-party verification capacity for AI assurance — analogous to safety integrity levels in other industries. Aimed at the bottleneck the EU AI Act exposes: more obligations to verify than independent auditors qualified to verify them.",
+              "to": "Third-party verification capacity for AI assurance: pilot audits, audit standards (co-authored AEF-1) and the AI Assurance Levels scale. Aimed at safety and security claims that are largely self-reported by companies, and at growing the supply of qualified auditors."
+            }
+          ],
+          "why": "Two framing claims are attributed to AVERI without support: that its levels are 'analogous to safety integrity levels', and that it targets a bottleneck 'the EU AI Act exposes'. AVERI's own materials state a different purpose and draw analogies from auditing, aviation, finance and nuclear power.",
+          "rationale": "Re-verifies lead P-0144 from the lost 2026-10-12 run. AVERI's home page says safety and security claims 'are largely self-reported by companies'; its January 2026 report describes four AALs giving greater confidence in audit findings (AAL-1 baseline). The full report has no 'safety integrity' and names the EU AI Act only among frameworks creating obligations. Unlike the lead, the auditor-capacity point is kept, because the report does call for 'growing the supply of qualified auditors' (§6.2) — only the EU-AI-Act attribution is dropped.",
+          "evidence": [
+            {
+              "source": "S-0210",
+              "passage": "S-0210#3",
+              "stance": "supports",
+              "supports": "Self-reported claims gap"
+            },
+            {
+              "source": "S-0210",
+              "passage": "S-0210#4",
+              "stance": "supports",
+              "supports": "501(c)(3)"
+            },
+            {
+              "source": "S-0210",
+              "passage": "S-0210#5",
+              "stance": "supports",
+              "supports": "AVERI's own analogies are aviation, finance, nuclear"
+            },
+            {
+              "source": "S-0212",
+              "passage": "S-0212#4",
+              "stance": "supports",
+              "supports": "Four AALs; AAL-1 baseline"
+            },
+            {
+              "source": "S-0333",
+              "passage": "S-0333#1",
+              "stance": "supports",
+              "supports": "Growing the supply of qualified auditors"
+            },
+            {
+              "source": "S-0333",
+              "passage": "S-0333#2",
+              "stance": "supports",
+              "supports": "EU AI Act named only as one framework"
+            },
+            {
+              "source": "S-0333",
+              "passage": "S-0333#3",
+              "stance": "supports",
+              "supports": "No safety-integrity analogy or EU-AI-Act bottleneck"
+            },
+            {
+              "source": "S-0211",
+              "passage": "S-0211#5",
+              "stance": "supports",
+              "supports": "Pilot audits"
+            },
+            {
+              "source": "S-0211",
+              "passage": "S-0211#4",
+              "stance": "supports",
+              "supports": "Co-authored AEF-1"
+            },
+            {
+              "source": "S-0214",
+              "passage": "S-0214#2",
+              "stance": "supports",
+              "supports": "Brundage led OpenAI Policy Research"
+            },
+            {
+              "source": "S-0213",
+              "passage": "S-0213#2",
+              "stance": "supports",
+              "supports": "Launch coverage dated 15 Jan 2026"
+            }
+          ],
+          "uncertainty": "Press coverage may have used the safety-integrity or EU framing; none appears in AVERI's materials. 'Designed to give regulators and labs a shared scaffold' is carried over unverified.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:averi:desc": "not in this group; 'Targets the auditing-capacity bottleneck' remains supported by the report's §6.2"
+          },
+          "unverified_carryover": [
+            "designed to give regulators and labs a shared scaffold for third-party auditing"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:caisi:context",
+            "entry:fsi:context",
+            "edge:averi|metr",
+            "edge:averi|apollo",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "18a820699bf7"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0148",
+      "fingerprint": "1e6bdda41ec1",
+      "targets": [
+        "entry:cais:context",
+        "entry:cais:cov:eval"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:13:06Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "CAIS benchmarks: drop MMLU and the 'safety benchmark' label",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "cais",
+              "field": "context",
+              "from": "Field-building NGO running widely-used safety benchmarks (MMLU, Humanity's Last Exam, WMDP weapons-of-mass-destruction proxy), research grants, and policy advocacy. The May 2023 'Statement on AI Risk' — a one-sentence declaration that mitigating extinction risk from AI should be a global priority — was signed by leading lab CEOs (Altman, Hassabis, Amodei) and shaped the 2023-2024 AI-risk discourse. In June 2026 expanded leadership with former xAI engineer Devin Kim as President and established the Frontier Security Institute as a DC-based national-security affiliate.",
+              "to": "Field-building NGO publishing widely-used benchmarks (Humanity's Last Exam, which CAIS labels a capability benchmark, and the WMDP weapons-of-mass-destruction proxy), research grants, and policy advocacy. The May 2023 'Statement on AI Risk' — a one-sentence declaration that mitigating extinction risk from AI should be a global priority — was signed by leading lab CEOs (Altman, Hassabis, Amodei) and shaped the 2023-2024 AI-risk discourse. In June 2026 expanded leadership with former xAI engineer Devin Kim as President and established the Frontier Security Institute as a DC-based national-security affiliate."
+            },
+            {
+              "op": "set_cov",
+              "entity": "cais",
+              "cat": "eval",
+              "from": "Hosts and publishes safety benchmarks (MMLU, Humanity's Last Exam, WMDP) that feed into lab framework evaluations and AISI testing.",
+              "to": "Hosts and publishes benchmarks (Humanity's Last Exam, WMDP) that feed into lab framework evaluations and AISI testing."
+            }
+          ],
+          "why": "MMLU is not a CAIS benchmark (published in 2020 by Hendrycks and colleagues at universities, before CAIS was founded), and CAIS labels Humanity's Last Exam a capability benchmark, not a safety benchmark.",
+          "rationale": "Re-verifies lead P-0145 from the lost 2026-10-12 run. The MMLU paper lists UC Berkeley, UIUC, Columbia and UChicago affiliations, and CAIS's research and home pages do not list MMLU; CAIS's research page tags Humanity's Last Exam 'Capability Benchmark' and lists WMDP as a hazardous-knowledge proxy. Lab use is shown by WMDP in xAI's Grok 4.7 card and HLE in Anthropic's Claude Opus 5.5 card. Unlike the lead, the edit keeps 'and AISI testing' as unverified carryover rather than deleting an unsourced but unrefuted claim; it only removes what the sources contradict.",
+          "evidence": [
+            {
+              "source": "S-0220",
+              "passage": "S-0220#5",
+              "stance": "supports",
+              "supports": "HLE is labelled a capability benchmark"
+            },
+            {
+              "source": "S-0220",
+              "passage": "S-0220#6",
+              "stance": "supports",
+              "supports": "WMDP is a CAIS benchmark"
+            },
+            {
+              "source": "S-0220",
+              "passage": "S-0220#7",
+              "stance": "supports",
+              "supports": "MMLU not listed by CAIS"
+            },
+            {
+              "source": "S-0334",
+              "passage": "S-0334#2",
+              "stance": "supports",
+              "supports": "MMLU authored at UC Berkeley etc."
+            },
+            {
+              "source": "S-0334",
+              "passage": "S-0334#3",
+              "stance": "supports",
+              "supports": "No CAIS affiliation on MMLU"
+            },
+            {
+              "source": "S-0335",
+              "passage": "S-0335#1",
+              "stance": "supports",
+              "supports": "WMDP used in a lab model card"
+            },
+            {
+              "source": "S-0112",
+              "passage": "S-0112#6",
+              "stance": "supports",
+              "supports": "HLE used in a lab system card"
+            },
+            {
+              "source": "S-0221",
+              "passage": "S-0221#9",
+              "stance": "supports",
+              "supports": "June 2026 Kim appointment and FSI establishment (carried text)"
+            }
+          ],
+          "uncertainty": "Dan Hendrycks, CAIS's director, is MMLU's first author, so some readers associate it with CAIS; the edit reflects that CAIS did not create or list it. AISI use of CAIS benchmarks was not researched.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:cais:cov:update": "not in this group; lists 'HLE, WMDP' only, consistent",
+            "entry:cais:cov:elicit": "not in this group"
+          },
+          "unverified_carryover": [
+            "research grants, and policy advocacy",
+            "The May 2023 'Statement on AI Risk' … shaped the 2023-2024 AI-risk discourse",
+            "and AISI testing"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:fsi:desc",
+            "edge:cais|fsi",
+            "edge:cais|aisr",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "a973e50af990"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0149",
+      "fingerprint": "9d701f550631",
+      "targets": [
+        "entry:fsi:cov:sec",
+        "entry:fsi:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:13:06Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "FSI notes: match FSI's own descriptions of Model Security and its translation role",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "fsi",
+              "cat": "sec",
+              "from": "Securing advanced AI model weights against state-actor exfiltration is one of FSI's three named focus areas — bridges lab weight-security commitments and US national-security review.",
+              "to": "Securing frontier AI, including model weights, against theft, disruption and adversarial attack is the first of FSI's three programs (Model Security) — works with the labs to harden models against exfiltration and insider threats, and with government on the authorities already available to act."
+            },
+            {
+              "op": "set_cov",
+              "entity": "fsi",
+              "cat": "acct",
+              "from": "Policy translation between frontier labs and US national-security institutions; aims to make lab safety commitments legible to national-security review processes.",
+              "to": "Translation channel between frontier labs and US national-security institutions: independent evaluation, off-the-record briefings and convening that carry technical findings to those deciding how American AI is fielded and governed."
+            }
+          ],
+          "why": "The notes add things FSI does not say: 'state-actor exfiltration', and an aim to make lab safety commitments legible to national-security review. FSI describes carrying technical findings and capability assessments to government, not reviewing labs' safety commitments.",
+          "rationale": "Re-verifies lead P-0146 from the lost 2026-10-12 run. FSI's Our Work page describes Model Security as protecting frontier AI from theft, disruption and adversarial attack, hardening models against exfiltration and insider threats with the labs, and identifying existing authorities with government. Its Labs and National Security pages describe an independent channel carrying technical findings, off-the-record briefings and independent evaluations. A search of FSI's pages and the CAIS launch release found no 'state actor' wording and no review of lab safety commitments. The wording is shorter than the lead's and drops its meta-sentence about what the pages do not describe.",
+          "evidence": [
+            {
+              "source": "S-0225",
+              "passage": "S-0225#3",
+              "stance": "supports",
+              "supports": "Model Security scope"
+            },
+            {
+              "source": "S-0225",
+              "passage": "S-0225#4",
+              "stance": "supports",
+              "supports": "Work with labs and with government"
+            },
+            {
+              "source": "S-0225",
+              "passage": "S-0225#5",
+              "stance": "supports",
+              "supports": "No state-actor or commitments-review wording"
+            },
+            {
+              "source": "S-0222",
+              "passage": "S-0222#3",
+              "stance": "supports",
+              "supports": "Translation role"
+            },
+            {
+              "source": "S-0223",
+              "passage": "S-0223#3",
+              "stance": "supports",
+              "supports": "Channel carrying technical findings"
+            },
+            {
+              "source": "S-0224",
+              "passage": "S-0224#3",
+              "stance": "supports",
+              "supports": "Off-the-record briefings"
+            },
+            {
+              "source": "S-0224",
+              "passage": "S-0224#1",
+              "stance": "supports",
+              "supports": "Independent evaluations"
+            },
+            {
+              "source": "S-0221",
+              "passage": "S-0221#8",
+              "stance": "supports",
+              "supports": "Three initial focus areas"
+            }
+          ],
+          "uncertainty": "FSI's programs are named Defend/Adopt/Advance on its site, while the CAIS launch release lists focus areas in other words; 'first of three programs' follows the site.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:fsi:context": "not in this group; 'Three named focus areas: securing advanced model weights…' matches the CAIS release"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:cais:context",
+            "edge:cais|fsi",
+            "edge:fsi|caisi",
+            "edge:fsi|us-frontier-access-eo",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "00f5e7648645"
         }
       ],
       "decision": {

@@ -6294,16 +6294,43 @@
     },
     "edge:apollo|rsp": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0114"
+          "S-0329",
+          "S-0330",
+          "S-0113",
+          "S-0112",
+          "S-0332",
+          "S-0331"
         ],
-        "proposals": [],
-        "note": "Apollo tested Claude Opus 4.6 checkpoints (Jan 2026) for alignment risk but gave no formal assessment because of evaluation awareness; seven later Anthropic system cards (through Opus 5.5, Sep 2026) do not mention Apollo. The relationship existed; whether it continues is not shown.",
-        "missing": "An Anthropic or Apollo statement of Apollo testing of an Anthropic model after Feb 2026.",
+        "proposals": [
+          "P-0146"
+        ],
+        "note": "Relationships are past/intermittent rather than ongoing scheming evaluations.",
+        "missing": null,
+        "hash": "4853c9d1d91d"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0329",
+          "S-0330",
+          "S-0113",
+          "S-0112",
+          "S-0332",
+          "S-0331"
+        ],
+        "proposals": [
+          "P-0146"
+        ],
+        "note": "Relationships are past/intermittent rather than ongoing scheming evaluations.",
+        "missing": null,
         "hash": "4853c9d1d91d"
       }
     },
@@ -9972,16 +9999,35 @@
     },
     "entry:metr:cov:thresh": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0204"
+          "S-0204",
+          "S-0203"
         ],
-        "proposals": [],
-        "note": "Catalogue and analysis confirmed; METR's Dec 2025 version references the GPAI Code and SB 53, but nothing shows Common Elements 'prompted' their drafting.",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "proposals": [
+          "P-0144"
+        ],
+        "note": "Causal claim that Common Elements prompted SB 53/GPAI Code is not supported; page cross-references them as guidance.",
+        "missing": null,
+        "hash": "24cab761402a"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0204",
+          "S-0203"
+        ],
+        "proposals": [
+          "P-0144"
+        ],
+        "note": "Causal claim that Common Elements prompted SB 53/GPAI Code is not supported; page cross-references them as guidance.",
+        "missing": null,
         "hash": "24cab761402a"
       }
     },
@@ -10199,33 +10245,83 @@
     },
     "entry:apollo:cov:elicit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0209",
+          "S-0095",
+          "S-0328",
+          "S-0329",
+          "S-0331",
           "S-0121"
         ],
-        "proposals": [],
-        "note": "2024 in-context scheming paper and o1 pre-deployment testing confirmed (apollo-about p1–p2). Claims that it brought scheming evals into 'mainstream lab practice', is the 'dominant external methodology', and was cited in GDM FSF v2 and Preparedness v2 were not checked against those documents.",
-        "missing": "GDM FSF v2, OpenAI Preparedness Framework v2 and Anthropic system cards showing citations of Apollo; the 'mainstream/dominant' characterisation is analytic",
+        "proposals": [
+          "P-0145"
+        ],
+        "note": "Preparedness v2 never names Apollo; FSF v2 only acknowledges input; IASR does not say it builds on Apollo methodology. Covers the index.html FAQ page text from lead P-0142.",
+        "missing": null,
+        "hash": "1d79bab2f40c"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0328",
+          "S-0329",
+          "S-0331",
+          "S-0121"
+        ],
+        "proposals": [
+          "P-0145"
+        ],
+        "note": "Preparedness v2 never names Apollo; FSF v2 only acknowledges input; IASR does not say it builds on Apollo methodology. Covers the index.html FAQ page text from lead P-0142.",
+        "missing": null,
         "hash": "1d79bab2f40c"
       }
     },
     "edge:apollo|fsf": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0209",
-          "S-0208"
+          "S-0329",
+          "S-0330",
+          "S-0113",
+          "S-0112",
+          "S-0332",
+          "S-0331"
         ],
-        "proposals": [],
-        "note": "Apollo says it 'ran evaluations for all major labs' in 2025 (apollo-about p3) and ran a monitor red-teaming campaign with Anthropic (apollo-home p3), but no inspected source names Apollo as the scheming evaluator of a specific Anthropic or Google DeepMind model (the Gemini 3 Pro FSF report anonymises its external scheming evaluators; the Claude Sonnet 5 system card does not mention Apollo).",
-        "missing": "an Anthropic or Google DeepMind system card / FSF report, or an Apollo publication, naming Apollo as evaluator of their models for scheming",
+        "proposals": [
+          "P-0146"
+        ],
+        "note": "Relationships are past/intermittent rather than ongoing scheming evaluations.",
+        "missing": null,
+        "hash": "753d531d1a1d"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0329",
+          "S-0330",
+          "S-0113",
+          "S-0112",
+          "S-0332",
+          "S-0331"
+        ],
+        "proposals": [
+          "P-0146"
+        ],
+        "note": "Relationships are past/intermittent rather than ongoing scheming evaluations.",
+        "missing": null,
         "hash": "753d531d1a1d"
       }
     },
@@ -10437,35 +10533,85 @@
     },
     "entry:averi:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
+          "S-0210",
           "S-0212",
+          "S-0333",
+          "S-0211",
           "S-0214",
           "S-0213"
         ],
-        "proposals": [],
-        "note": "Launch date, founder, AI Assurance Levels in the launch report and auditing-ecosystem bottleneck confirmed (averi-flagship p1, p3). 'Aimed squarely at the bottleneck the EU AI Act exposes' and the safety-integrity-level analogy are the map's framing; AVERI's texts do not frame it around the EU AI Act.",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "proposals": [
+          "P-0147"
+        ],
+        "note": "Safety-integrity analogy and EU-AI-Act attribution unsupported; launch date, 501(c)(3), Brundage, AALs and auditor-supply concern confirmed.",
+        "missing": null,
+        "hash": "6285b12feb3e"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0210",
+          "S-0212",
+          "S-0333",
+          "S-0211",
+          "S-0214",
+          "S-0213"
+        ],
+        "proposals": [
+          "P-0147"
+        ],
+        "note": "Safety-integrity analogy and EU-AI-Act attribution unsupported; launch date, 501(c)(3), Brundage, AALs and auditor-supply concern confirmed.",
+        "missing": null,
         "hash": "6285b12feb3e"
       }
     },
     "entry:averi:cov:eval": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
+          "S-0210",
           "S-0212",
+          "S-0333",
+          "S-0211",
           "S-0214",
           "S-0213"
         ],
-        "proposals": [],
-        "note": "Launch date, founder, AI Assurance Levels in the launch report and auditing-ecosystem bottleneck confirmed (averi-flagship p1, p3). 'Aimed squarely at the bottleneck the EU AI Act exposes' and the safety-integrity-level analogy are the map's framing; AVERI's texts do not frame it around the EU AI Act.",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "proposals": [
+          "P-0147"
+        ],
+        "note": "Safety-integrity analogy and EU-AI-Act attribution unsupported; launch date, 501(c)(3), Brundage, AALs and auditor-supply concern confirmed.",
+        "missing": null,
+        "hash": "a8d07cb0554c"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0210",
+          "S-0212",
+          "S-0333",
+          "S-0211",
+          "S-0214",
+          "S-0213"
+        ],
+        "proposals": [
+          "P-0147"
+        ],
+        "note": "Safety-integrity analogy and EU-AI-Act attribution unsupported; launch date, 501(c)(3), Brundage, AALs and auditor-supply concern confirmed.",
+        "missing": null,
         "hash": "a8d07cb0554c"
       }
     },
@@ -10753,37 +10899,81 @@
     },
     "entry:cais:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0220",
-          "S-0218",
-          "S-0221",
-          "S-0219"
+          "S-0334",
+          "S-0335",
+          "S-0112",
+          "S-0221"
         ],
-        "proposals": [],
-        "note": "HLE and WMDP, statement text and lab-CEO signatories, Devin Kim (ex-xAI) as President and FSI as DC-based affiliate (Jun 2026) all confirmed (cais-research p1–p3; cais-statement p1; cais-about p1; cais-fsi p1, p6). MMLU is not presented as a CAIS benchmark on CAIS's site (cais-research p4).",
-        "missing": "a CAIS source presenting MMLU as a CAIS-run benchmark (it predates CAIS as a Hendrycks et al. 2020 paper)",
+        "proposals": [
+          "P-0148"
+        ],
+        "note": "MMLU is not a CAIS benchmark; HLE is labelled a capability benchmark. June 2026 Kim/FSI facts confirmed.",
+        "missing": null,
+        "hash": "c8d715180f17"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0220",
+          "S-0334",
+          "S-0335",
+          "S-0112",
+          "S-0221"
+        ],
+        "proposals": [
+          "P-0148"
+        ],
+        "note": "MMLU is not a CAIS benchmark; HLE is labelled a capability benchmark. June 2026 Kim/FSI facts confirmed.",
+        "missing": null,
         "hash": "c8d715180f17"
       }
     },
     "entry:cais:cov:eval": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0220",
-          "S-0218",
-          "S-0221",
-          "S-0219"
+          "S-0334",
+          "S-0335",
+          "S-0112",
+          "S-0221"
         ],
-        "proposals": [],
-        "note": "HLE and WMDP, statement text and lab-CEO signatories, Devin Kim (ex-xAI) as President and FSI as DC-based affiliate (Jun 2026) all confirmed (cais-research p1–p3; cais-statement p1; cais-about p1; cais-fsi p1, p6). MMLU is not presented as a CAIS benchmark on CAIS's site (cais-research p4).",
-        "missing": "a CAIS source presenting MMLU as a CAIS-run benchmark (it predates CAIS as a Hendrycks et al. 2020 paper)",
+        "proposals": [
+          "P-0148"
+        ],
+        "note": "MMLU is not a CAIS benchmark; HLE is labelled a capability benchmark. June 2026 Kim/FSI facts confirmed.",
+        "missing": null,
+        "hash": "e1168d3cf893"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0220",
+          "S-0334",
+          "S-0335",
+          "S-0112",
+          "S-0221"
+        ],
+        "proposals": [
+          "P-0148"
+        ],
+        "note": "MMLU is not a CAIS benchmark; HLE is labelled a capability benchmark. June 2026 Kim/FSI facts confirmed.",
+        "missing": null,
         "hash": "e1168d3cf893"
       }
     },
@@ -11005,35 +11195,81 @@
     },
     "entry:fsi:cov:sec": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0225",
           "S-0222",
+          "S-0223",
+          "S-0224",
           "S-0221"
         ],
-        "proposals": [],
-        "note": "Model security (incl. weights, exfiltration, insider threats) is one of three areas and FSI translates between labs and national-security institutions (fsi-work p1; fsi-home p2; cais-fsi p2). 'State-actor', 'bridges lab weight-security commitments and US national-security review' and 'legible to national-security review processes' are the map's framing; FSI speaks of connecting work to existing government authorities.",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "proposals": [
+          "P-0149"
+        ],
+        "note": "'State-actor' and 'lab safety commitments legible to national-security review' not in FSI's materials.",
+        "missing": null,
+        "hash": "693adc26de35"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0225",
+          "S-0222",
+          "S-0223",
+          "S-0224",
+          "S-0221"
+        ],
+        "proposals": [
+          "P-0149"
+        ],
+        "note": "'State-actor' and 'lab safety commitments legible to national-security review' not in FSI's materials.",
+        "missing": null,
         "hash": "693adc26de35"
       }
     },
     "entry:fsi:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0225",
           "S-0222",
+          "S-0223",
+          "S-0224",
           "S-0221"
         ],
-        "proposals": [],
-        "note": "Model security (incl. weights, exfiltration, insider threats) is one of three areas and FSI translates between labs and national-security institutions (fsi-work p1; fsi-home p2; cais-fsi p2). 'State-actor', 'bridges lab weight-security commitments and US national-security review' and 'legible to national-security review processes' are the map's framing; FSI speaks of connecting work to existing government authorities.",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "proposals": [
+          "P-0149"
+        ],
+        "note": "'State-actor' and 'lab safety commitments legible to national-security review' not in FSI's materials.",
+        "missing": null,
+        "hash": "f3b640d40b8e"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0225",
+          "S-0222",
+          "S-0223",
+          "S-0224",
+          "S-0221"
+        ],
+        "proposals": [
+          "P-0149"
+        ],
+        "note": "'State-actor' and 'lab safety commitments legible to national-security review' not in FSI's materials.",
+        "missing": null,
         "hash": "f3b640d40b8e"
       }
     },
@@ -11712,17 +11948,37 @@
     },
     "entry:au-esafety:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0256",
-          "S-0255"
+          "S-0323",
+          "S-0324",
+          "S-0325"
         ],
-        "proposals": [],
-        "note": "Established 2015 confirmed (Enhancing Online Safety for Children Act 2015 created the Children's e-Safety Commissioner, assented 24 Mar 2015). AI-specific obligations exist via the 2024 DIS industry standard. \"World's first online safety regulator\" could not be checked (eSafety site inaccessible).",
-        "missing": "comparative/analytic claim; not verifiable from sources",
+        "proposals": [
+          "P-0141"
+        ],
+        "note": "Act has no AI terms; AI-specific obligations are in the DIS Industry Standard made under s 145. Lead P-0133 holds only in part; redrafted.",
+        "missing": null,
+        "hash": "3ba23d0c4ec7"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0323",
+          "S-0324",
+          "S-0325"
+        ],
+        "proposals": [
+          "P-0141"
+        ],
+        "note": "Act has no AI terms; AI-specific obligations are in the DIS Industry Standard made under s 145. Lead P-0133 holds only in part; redrafted.",
+        "missing": null,
         "hash": "3ba23d0c4ec7"
       }
     },
@@ -12061,36 +12317,34 @@
     },
     "entry:imda": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0261",
           "S-0260"
         ],
         "proposals": [
-          "P-0081"
+          "P-0143"
         ],
-        "note": "Link redirects to a generic listing; name/layer/jur/pow/status consistent.",
+        "note": "Classification question on pow (flag with options). Link resolves to IMDA's AI page (via headless Chromium); name, layer, jur and status consistent with the page.",
         "missing": null,
-        "hash": "5822e1811d2d"
+        "hash": "6b01ed4f15cc"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
         "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0261",
           "S-0260"
         ],
         "proposals": [
-          "P-0081"
+          "P-0143"
         ],
-        "note": "Link redirects to a generic listing; name/layer/jur/pow/status consistent.",
+        "note": "Classification question on pow (flag with options). Link resolves to IMDA's AI page (via headless Chromium); name, layer, jur and status consistent with the page.",
         "missing": null,
-        "hash": "5822e1811d2d"
+        "hash": "6b01ed4f15cc"
       }
     },
     "entry:imda:desc": {
@@ -12476,17 +12730,35 @@
     },
     "entry:jp-sectors:cov:update": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0267",
-          "S-0268"
+          "S-0321",
+          "S-0322"
         ],
-        "proposals": [],
-        "note": "METI/MIC role and periodic updates confirmed (v1.0 Apr 2024 to v1.2 Mar 2026; note the guidelines are joint MIC/METI, not METI alone). FSA, MHLW and MIC sectoral roles and the FSA framework revision were not checked.",
-        "missing": "FSA AI discussion paper/guidance and MHLW AI guidance pages, to confirm the ministry-by-ministry description.",
+        "proposals": [
+          "P-0140"
+        ],
+        "note": "FSA document is a discussion paper (v1.1, 3 Mar 2026), not a risk management framework; Guidelines are joint MIC/METI.",
+        "missing": null,
+        "hash": "eb174d8ff1ce"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0321",
+          "S-0322"
+        ],
+        "proposals": [
+          "P-0140"
+        ],
+        "note": "FSA document is a discussion paper (v1.1, 3 Mar 2026), not a risk management framework; Guidelines are joint MIC/METI.",
+        "missing": null,
         "hash": "eb174d8ff1ce"
       }
     },
@@ -13096,16 +13368,37 @@
     },
     "edge:imda|other-aisis": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
+          "S-0327",
+          "S-0326",
           "S-0260"
         ],
-        "proposals": [],
-        "note": "IMDA developed AI Verify, but its AI page does not describe IMDA as hosting the Digital Trust Centre (based at NTU).",
-        "missing": "Official source on the Digital Trust Centre's designation as Singapore's AI safety institute and IMDA's role.",
+        "proposals": [
+          "P-0142"
+        ],
+        "note": "DTC is hosted by NTU; IMDA is the overall government agency for the AISI.",
+        "missing": null,
+        "hash": "ba5f19be7c1d"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0327",
+          "S-0326",
+          "S-0260"
+        ],
+        "proposals": [
+          "P-0142"
+        ],
+        "note": "DTC is hosted by NTU; IMDA is the overall government agency for the AISI.",
+        "missing": null,
         "hash": "ba5f19be7c1d"
       }
     },
@@ -15321,20 +15614,41 @@
     },
     "faq:what-is-sandbagging-in-ai-safety": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0121",
-          "S-0122",
-          "S-0104",
-          "S-0209",
-          "S-0114"
+          "S-0095",
+          "S-0328",
+          "S-0329",
+          "S-0331",
+          "S-0121"
         ],
-        "proposals": [],
-        "note": "Definition and the Feb 2026 IASR flag are supported (S-0121#1, #2; term absent from 2025 edition, S-0122#2); IASR cites Apollo scheming work (S-0121#13, #14). Apollo tested OpenAI's o1 (S-0209#1) and Claude Opus 4.6 checkpoints (S-0114#2). No source shows GDM's FSF v2 'adopted' Apollo's methodology; GDM's v2 announcement does not mention Apollo (S-0104#5).",
-        "missing": "A Google DeepMind source showing FSF v2 adopted Apollo Research's scheming-detection methodology; otherwise the 'adopted across' attribution is an analytic claim not verifiable from sources.",
+        "proposals": [
+          "P-0145"
+        ],
+        "note": "Preparedness v2 never names Apollo; FSF v2 only acknowledges input; IASR does not say it builds on Apollo methodology. Covers the index.html FAQ page text from lead P-0142.",
+        "missing": null,
+        "hash": "d0bfa2597be4"
+      },
+      "last_success": {
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0328",
+          "S-0329",
+          "S-0331",
+          "S-0121"
+        ],
+        "proposals": [
+          "P-0145"
+        ],
+        "note": "Preparedness v2 never names Apollo; FSF v2 only acknowledges input; IASR does not say it builds on Apollo methodology. Covers the index.html FAQ page text from lead P-0142.",
+        "missing": null,
         "hash": "d0bfa2597be4"
       }
     },

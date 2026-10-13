@@ -1,5 +1,5 @@
 {
-  "next": 321,
+  "next": 337,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -5391,6 +5391,18 @@
           "locator": "Box: Changes to Tracked Categories in version 2 (Persuasion)",
           "text": "our Preparedness Framework is specifically focused on frontier AI risks meeting a specific definition of severe harms1 , and Persuasion category risks do not fit the criteria for inclusion.",
           "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0095#29",
+          "locator": "Summary of changes, item 5",
+          "text": "These include Long-range Autonomy, Sandbagging, Autonomous Replication and Adaptation, Undermining Safeguards, and Nuclear and Radiological.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0095#30",
+          "locator": "Whole document (searched)",
+          "text": "[Observation, not a quotation] Searched the full text for \"Apollo\": no match. Sandbagging appears as a Research Category with no reference to Apollo Research or its methodology.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -6820,6 +6832,24 @@
           "locator": "§2.2 (Long-Form Virology Tasks)",
           "text": "require helpful-only variants for maximum elicitation",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0112#5",
+          "locator": "Cover",
+          "text": "System Card: Claude Opus 5.5 September 22, 2026",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0112#6",
+          "locator": "Chain-of-thought controllability evaluation",
+          "text": "while answering questions from GPQA, HLE, and MMLU-Pro—three",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0112#7",
+          "locator": "Whole document (searched)",
+          "text": "[Observation, not a quotation] Searched the full text for \"Apollo\": no match.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -6874,6 +6904,18 @@
           "id": "S-0113#3",
           "locator": "§3.3.6 Testing from the UK AI Security Institute (UK AISI)",
           "text": "We shared an earlier snapshot of Claude Opus 5 with the UK AI Security Institute (UK AISI) for open-ended testing, at their discretion, of cyber capabilities. This snapshot was assessed on cyber ranges.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0113#4",
+          "locator": "Cover",
+          "text": "System Card: Claude Opus 5 July 24, 2026",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0113#5",
+          "locator": "Whole document (searched)",
+          "text": "[Observation, not a quotation] Searched the full text for \"Apollo\": no match.",
           "retrieved": "2026-10-13"
         }
       ]
@@ -7350,6 +7392,18 @@
           "id": "S-0121#17",
           "locator": "About this Report, Focus",
           "text": "This Report aims to complement assessments that consider these broader concerns, including the UN’s Independent International Scientific Panel on AI.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0121#18",
+          "locator": "Evaluation gap discussion (benchmarks paragraph)",
+          "text": "Finally, models can underperform during evaluations compared to other contexts, a pattern termed ‘sandbagging’ that has been observed in experiments.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0121#19",
+          "locator": "References",
+          "text": "A. Meinke, B. Schoen, J. Scheurer, M. Balesni, R. Shah, M. Hobbhahn, “Frontier Models Are Capable of In-Context Scheming” (Apollo Research, 2024)",
           "retrieved": "2026-10-13"
         }
       ]
@@ -12013,6 +12067,12 @@
           "locator": "Featured Research",
           "text": "We propose measuring AI performance in terms of the length of tasks AI agents can complete.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0203#6",
+          "locator": "Featured research",
+          "text": "An analysis of the shared components across twelve published frontier AI safety policies, including capability thresholds, model weight security, and deployment mitigations",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -12146,6 +12206,24 @@
           "locator": "Introduction, components list and Table 1",
           "text": "[Observation, not a quotation] [Observation, not a quotation] The nine components listed (and the nine rows of Table 1) are: capability thresholds, model weight security, deployment mitigations, conditions for halting deployment plans, conditions for halting development plans, capability elicitation, evaluation timing/frequency, accountability, updating policies. 'Model evaluations' is not a separate component; halting appears as two.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0204#17",
+          "locator": "Summary",
+          "text": "This December 2025 version contains references to some developers’ updated frontier AI safety policies. In addition, it also mentions relevant guidance from the EU AI Act’s General-Purpose AI Code of Practice and California’s Senate Bill 53 .",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0204#18",
+          "locator": "Summary",
+          "text": "Currently, twelve companies have published frontier AI safety policies: Anthropic, OpenAI, Google DeepMind, Magic, Naver, Meta, G42, Cohere, Microsoft, Amazon, xAI, and NVIDIA.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0204#19",
+          "locator": "Whole page (searched)",
+          "text": "[Observation, not a quotation] Searched the page for any statement that the analysis prompted, informed or drove the drafting of SB 53 or the EU GPAI Code: none found. SB 53 and the Code appear only as cross-referenced guidance excerpts (e.g. 'California Senate Bill 53, 22757.12.(a)').",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -12446,6 +12524,24 @@
           "locator": "intro",
           "text": "We conduct research and carry out pilot audits in order to inform audit standards, policy requirements, and tooling.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0210#3",
+          "locator": "Home page, intro",
+          "text": "Safety and security claims about AI systems are largely self-reported by companies. AVERI exists so that those claims can be independently verified and companies can be evaluated against common standards.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0210#4",
+          "locator": "Home page, footer",
+          "text": "is a 501(c)(3) US-based non-profit organization.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0210#5",
+          "locator": "Home page",
+          "text": "Mature industries like aviation, finance, and nuclear power offer valuable lessons in the risks of self-reporting and the power of external oversight.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -12505,6 +12601,12 @@
           "locator": "Industry-wide auditing standards",
           "text": "we coauthored AEF-1 –a standard defining minimum operating conditions for independent third-party evaluations",
           "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0211#5",
+          "locator": "How we work",
+          "text": "We conduct pilot audits with leading AI companies and carry out technical and policy research to inform audit design.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -12514,7 +12616,7 @@
       "publisher": "AVERI",
       "type": "primary",
       "dates": {
-        "published": "2026-01-15"
+        "published": "2026-01"
       },
       "fetches": [
         {
@@ -12560,6 +12662,12 @@
           "locator": "Executive summary",
           "text": "Growing the ecosystem of audit providers at a rapid pace without compromising quality.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0212#4",
+          "locator": "Key paper takeaways",
+          "text": "We describe four AI Assurance Levels (AALs), the higher levels of which provide greater confidence in audit findings. We recommend AAL-1 as a baseline for frontier AI generally, and AAL-2 as a near-term goal for the most advanced subset of frontier AI developers.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -12568,7 +12676,9 @@
       "title": "Updates",
       "publisher": "AVERI",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "published": "2026-01-15"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
@@ -12601,6 +12711,12 @@
           "locator": "press item",
           "text": "Former OpenAI policy chief creates nonprofit institute, calls for independent safety audits of frontier AI models … January 15, 2026",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0213#2",
+          "locator": "Updates list, January 15, 2026",
+          "text": "Former OpenAI policy chief creates nonprofit institute, calls for independent safety audits of frontier AI models",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -12924,6 +13040,24 @@
           "locator": "safe.ai home, about, research, FAQ, news",
           "text": "[Observation, not a quotation] Searched the saved safe.ai pages for 'MMLU', 'Massive Multitask', 'founded' and '2022' as a founding year: no match. ProPublica's IRS record (EIN 88-1751310) gives tax exemption issued Jan. 2023, which does not settle the founding year.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0220#5",
+          "locator": "Technical research list, Humanity's Last Exam",
+          "text": "Humanity's Last Exam Technical Research Capability Benchmark Jan 24, 2025",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0220#6",
+          "locator": "Technical research list, WMDP",
+          "text": "The Weapons of Mass Destruction Proxy (WMDP) benchmark is a dataset of 4,157 multiple-choice questions surrounding hazardous knowledge in Biosecurity, Cybersecurity, and Chemical Security.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0220#7",
+          "locator": "Research page and home page (searched)",
+          "text": "[Observation, not a quotation] Searched the CAIS research page and home page for \"MMLU\": no match.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -13003,6 +13137,18 @@
           "locator": "FSI section",
           "text": "Based in Washington, D.C., FSI will close the capability gap between frontier AI and the National Security Enterprise — the Pentagon, the Intelligence Community, Congress, and allied institutions.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0221#8",
+          "locator": "Frontier Security Institute",
+          "text": "FSI's initial work will focus on AI issues that are unique to the national security use case — from securing advanced AI models, to the way operators test and utilize these systems, to how AI is reshaping geopolitical stability.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0221#9",
+          "locator": "Dateline",
+          "text": "SAN FRANCISCO, CA — June 2, 2026 — The Center for AI Safety (CAIS), a nonprofit focused on reducing societal-scale risks from artificial intelligence, today announced the appointment of Devin Kim as its President, as well as the establishment of the Frontier Security Institute (FSI), a new Washington, D.C.-based organization",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -13050,6 +13196,12 @@
           "locator": "Defend: Model Security",
           "text": "Protecting U.S. frontier AI from theft, disruption, and adversarial attack.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0222#3",
+          "locator": "The translation layer",
+          "text": "Running through all three programs is one job: translation.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -13097,6 +13249,12 @@
           "locator": "Work with us",
           "text": "Evaluations, red-teaming, joint convenings, and technical advisory",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0223#3",
+          "locator": "For Frontier AI Labs",
+          "text": "an independent channel that carries technical findings to the institutions deciding how American AI gets fielded and governed",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -13144,6 +13302,12 @@
           "locator": "05 Standing advisory",
           "text": "Sustained arrangements for institutions with recurring needs, including classified-context engagement where the work requires it.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0224#3",
+          "locator": "How we work with the National Security Enterprise, 01",
+          "text": "Off-the-record briefings for program offices, committee staff, and mission owners, and independent analysis on the technical questions where an outside read matters.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -13191,6 +13355,24 @@
           "locator": "02 Adopt",
           "text": "The frameworks that determine whether an AI-enabled system is fit for a specific government use",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0225#3",
+          "locator": "01 Defend, Model Security",
+          "text": "Model Security protects the frontier AI the United States depends on from theft, disruption, and adversarial attack. The infrastructure it runs on, the model weights, and the people who build them are all targets that must be protected",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0225#4",
+          "locator": "01 Defend, Model Security",
+          "text": "With the labs, we develop the technical, legal, and operational means to harden models against exfiltration and insider threats, and to close the gaps in what defenders can see. With government, we identify the authorities already available to act, and where they fall short.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0225#5",
+          "locator": "FSI home, our-work, ai-labs and national-security pages (searched)",
+          "text": "[Observation, not a quotation] Searched the four FSI pages and the CAIS launch announcement for \"state actor\", \"state-actor\", \"nation-state\" and for any process that reviews labs' safety commitments: no match.",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -14968,6 +15150,16 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "416e4b446f3c0ce1",
           "bytes": 210884
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:11:10Z",
+          "run": "2026-10-13-weekly",
+          "via": "headless Chromium (Playwright); the page is rendered by JavaScript and a plain curl fetch returns only the page shell",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "5a05e00a8b0967f3",
+          "bytes": 450694
         }
       ],
       "passages": [
@@ -15024,6 +15216,12 @@
           "locator": "Transparency Guidelines for Generative AI Chatbots",
           "text": "These voluntary guidelines take a first step towards closing this gap, beginning with generative AI chatbots",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0260#10",
+          "locator": "Starter Kit for Testing LLM-based Applications",
+          "text": "consolidating emerging best practices from industry and government into practical, voluntary guidelines",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -18121,6 +18319,609 @@
           "id": "S-0320#2",
           "locator": "About the guidance",
           "text": "The guidance gives enterprises a clear framework for managing risks when they develop or use AI.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0321": {
+      "url": "https://www.fsa.go.jp/en/news/2026/20260303/aidp.html",
+      "title": "Publication of AI Discussion Paper (Version 1.1)",
+      "publisher": "Financial Services Agency (Japan)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-03-03"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:04Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.fsa.go.jp/en/news/2026/20260303/aidp.html",
+          "content_type": "text/html",
+          "sha256": "21ca42920bf07691",
+          "bytes": 18632
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0321#1",
+          "locator": "Press release, 3 March 2026, lead paragraph",
+          "text": "The Financial Services Agency (FSA) issued an AI Discussion Paper (Version 1.1) entitled “Preliminary Discussion Points for Promoting the Sound Utilization of AI in the Financial Sector” in Japanese on March 3, 2026.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0321#2",
+          "locator": "1. Summary, para 2",
+          "text": "the FSA has now updated the AI Discussion Paper (Version 1.0) and revised it as Version 1.1.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0321#3",
+          "locator": "2. Request for Comments",
+          "text": "This Discussion Paper provides an initial overview of the current state and challenges of AI utilization in financial institutions, examining a broad range of related issues. As this analysis is preliminary, technological advancements and evolving business landscapes may significantly alter the identified challenges.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0322": {
+      "url": "https://www.soumu.go.jp/main_content/001080989.pdf",
+      "title": "AI Guidelines for Business Ver1.2 (provisional translation, redline against Ver1.1)",
+      "publisher": "Ministry of Internal Affairs and Communications; Ministry of Economy, Trade and Industry",
+      "type": "primary",
+      "dates": {
+        "published": "2026-03-31"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:04Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.soumu.go.jp/main_content/001080989.pdf",
+          "content_type": "application/pdf",
+          "sha256": "35aec9b754bb9fd2",
+          "bytes": 1407329
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0322#1",
+          "locator": "Cover page (redline; old and new dates merged)",
+          "text": "AI Guidelines for Business Ver1.21 MarchApril 314, 20265 Ministry of Internal Affairs and Communications Ministry of Economy, Trade and Industry",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0322#2",
+          "locator": "Preface",
+          "text": "it is planned that the Guidelines will be appropriately updated as a living document",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0323": {
+      "url": "https://api.prod.legislation.gov.au/v1/documents(titleid='C2021A00076',start=2026-09-12,retrospectivestart=2026-09-12,rectificationversionnumber=0,type='Primary',uniqueTypeNumber=0,volumeNumber=0,format='Pdf')",
+      "title": "Online Safety Act 2021 (Compilation No. 4, C2026C00396, compilation date 12 September 2026)",
+      "publisher": "Federal Register of Legislation (Office of Parliamentary Counsel)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2021-07-23",
+        "effective": "2026-09-12"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:07Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://api.prod.legislation.gov.au/v1/documents(titleid='C2021A00076',start=2026-09-12,retrospectivestart=2026-09-12,rectificationversionnumber=0,type='Primary',uniqueTypeNumber=0,volumeNumber=0,format='Pdf')",
+          "content_type": "application/pdf",
+          "sha256": "4d5dfec101850978",
+          "bytes": 1067737
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0323#1",
+          "locator": "Cover page",
+          "text": "Compilation No. 4 Compilation date: 12 September 2026 Includes amendments: Act No. 83, 2026",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0323#2",
+          "locator": "s 26",
+          "text": "26 eSafety Commissioner There is to be an eSafety Commissioner.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0323#3",
+          "locator": "s 145(1)",
+          "text": "145 Commissioner may determine an industry standard (1) The Commissioner may, by legislative instrument, determine a standard that applies to participants in a particular section of the online industry",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0323#4",
+          "locator": "Whole compilation (searched)",
+          "text": "[Observation, not a quotation] Searched the full text of Compilation No. 4 for \"artificial intelligence\", \"generative\", \"chatbot\", \"synthetic\" and \"machine learning\": no occurrence. The Act itself contains no AI-specific provision.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0324": {
+      "url": "https://api.prod.legislation.gov.au/v1/documents(titleid='F2024L00710',start=2024-06-21,retrospectivestart=2024-06-21,rectificationversionnumber=0,type='Primary',uniqueTypeNumber=0,volumeNumber=0,format='Pdf')",
+      "title": "Online Safety (Designated Internet Services—Class 1A and Class 1B Material) Industry Standard 2024 (F2024L00710)",
+      "publisher": "eSafety Commissioner (Federal Register of Legislation)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2024-06-19"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:27Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://api.prod.legislation.gov.au/v1/documents(titleid='F2024L00710',start=2024-06-21,retrospectivestart=2024-06-21,rectificationversionnumber=0,type='Primary',uniqueTypeNumber=0,volumeNumber=0,format='Pdf')",
+          "content_type": "application/pdf",
+          "sha256": "afe30304b7094509",
+          "bytes": 368363
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0324#1",
+          "locator": "Preamble",
+          "text": "I, Julie Inman Grant, eSafety Commissioner, determine the following industry standard.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0324#2",
+          "locator": "s 3 Authority",
+          "text": "This industry standard is determined under section 145 of the Online Safety Act 2021.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0324#3",
+          "locator": "s 6 (definitions), high impact generative AI DIS",
+          "text": "high impact generative AI DIS means a designated internet service that: (a) uses machine learning models to enable an end-user to produce material; and (b) is capable of being used to generate synthetic high impact material",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0325": {
+      "url": "https://api.prod.legislation.gov.au/v1/documents(titleid='C2015A00024',start=2015-03-24,retrospectivestart=2015-03-24,rectificationversionnumber=0,type='Primary',uniqueTypeNumber=0,volumeNumber=0,format='Pdf')",
+      "title": "Enhancing Online Safety for Children Act 2015 (No. 24, 2015), as made",
+      "publisher": "Federal Register of Legislation",
+      "type": "primary",
+      "dates": {
+        "adopted": "2015-03-24"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:29Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://api.prod.legislation.gov.au/v1/documents(titleid='C2015A00024',start=2015-03-24,retrospectivestart=2015-03-24,rectificationversionnumber=0,type='Primary',uniqueTypeNumber=0,volumeNumber=0,format='Pdf')",
+          "content_type": "application/pdf",
+          "sha256": "9cad5ece2a6c311c",
+          "bytes": 967917
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0325#1",
+          "locator": "Front matter",
+          "text": "Assented to 24 March 2015",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0325#2",
+          "locator": "s 3 Simplified outline of this Act",
+          "text": "There is to be a Children’s e-Safety Commissioner.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0326": {
+      "url": "https://www.imda.gov.sg/-/media/imda/files/news-and-events/media-room/media-releases/2024/05/imda-factsheet--digital-trust-centre-designated-as-spore-ai-safety-institute-22-may-2024.pdf",
+      "title": "Factsheet: Digital Trust Centre designated as Singapore's AI Safety Institute",
+      "publisher": "IMDA",
+      "type": "primary",
+      "dates": {
+        "published": "2024-05-22"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:35Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.imda.gov.sg/-/media/imda/files/news-and-events/media-room/media-releases/2024/05/imda-factsheet--digital-trust-centre-designated-as-spore-ai-safety-institute-22-may-2024.pdf",
+          "content_type": "application/pdf",
+          "sha256": "427439bffc419d3a",
+          "bytes": 174299
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0326#1",
+          "locator": "Para 1",
+          "text": "The Digital Trust Centre has been designated as Singapore’s AI Safety Institute (AISI).",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0326#2",
+          "locator": "Para 2",
+          "text": "the Infocomm Media Development Authority (IMDA) had appointed Nanyang Technological University (NTU) to establish the DTC",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0327": {
+      "url": "https://sgaisi.sg/about-us/",
+      "title": "About Us | Singapore AI Safety Institute",
+      "publisher": "Singapore AI Safety Institute",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:36Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://sgaisi.sg/about-us/",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "2ca895f0e777a5ea",
+          "bytes": 44825
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0327#1",
+          "locator": "About Us, intro",
+          "text": "As the designated Singapore AISI, the Digital Trust Centre Singapore (DTC), in partnership with the Infocomm Media Development Authority of Singapore (IMDA), will drive the efforts for advancing AI safety in Singapore.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0327#2",
+          "locator": "IMDA",
+          "text": "IMDA is the overall government agency for the Singapore AISI, responsible for developing baseline policy, as well as fronting international engagements and partnerships related to AI safety with other AISIs and government agencies. IMDA also partners the Digital Trust Centre (DTC) to drive the technical work for the Singapore AISI.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0327#3",
+          "locator": "The Digital Trust Centre (DTC)",
+          "text": "Hosted in the Nanyang Technological University (NTU), the Digital Trust Centre is a national centre that leads Singapore’s research and development efforts in trust technologies, including AI safety.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0328": {
+      "url": "https://cdn.openai.com/o1-system-card-20241205.pdf",
+      "title": "OpenAI o1 System Card",
+      "publisher": "OpenAI",
+      "type": "primary",
+      "dates": {
+        "published": "2024-12-05"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:39Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cdn.openai.com/o1-system-card-20241205.pdf",
+          "content_type": "application/pdf",
+          "sha256": "3ba7bdbe69e022f6",
+          "bytes": 4720304
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0328#1",
+          "locator": "Apollo Research section",
+          "text": "Apollo Research, an evaluation organization focusing on risks from deceptively aligned AI systems, evaluated capabilities of ‘scheming’ in o1 models.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0329": {
+      "url": "https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf",
+      "title": "System Card: Claude Opus 4 & Claude Sonnet 4",
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {
+        "published": "2025-05"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:41Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf",
+          "content_type": "application/pdf",
+          "sha256": "48d4d98c5767d023",
+          "bytes": 4876911
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0329#1",
+          "locator": "§4.1.1.4 External scenario evaluations",
+          "text": "we contracted with Apollo Research to assess an early snapshot for propensities and capabilities related to sabotage, largely following methods from their prior work in Balesni et al.13 and Meinke et al.14",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0329#2",
+          "locator": "§4.1.1.4, Apollo summary",
+          "text": "[The early Claude Opus 4 snapshot] is clearly capable of in-context scheming and has a much higher propensity for it than any other model that we have previously studied.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0330": {
+      "url": "https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf",
+      "title": "System Card: Claude Opus 4.6",
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {
+        "published": "2026-02"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:44Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf",
+          "content_type": "application/pdf",
+          "sha256": "75130eefef08af5b",
+          "bytes": 14457097
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0330#1",
+          "locator": "§6.2.7 External testing from Apollo Research",
+          "text": "Our engagement with Apollo Research on testing for alignment risk did not yield conclusive results.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0330#2",
+          "locator": "§6.2.7, Apollo summary",
+          "text": "Apollo decided to not provide any formal assessment of Claude Opus 4.6 at this stage.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0331": {
+      "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0.pdf",
+      "title": "Frontier Safety Framework, Version 2.0",
+      "publisher": "Google DeepMind",
+      "type": "primary",
+      "dates": {
+        "published": "2025-02-04"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:51Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0.pdf",
+          "content_type": "application/pdf",
+          "sha256": "14a48e4ef052fba7",
+          "bytes": 304584
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0331#1",
+          "locator": "Acknowledgements",
+          "text": "We are grateful for input from Apollo Research, Carnegie Endowment for International Peace, Center for Long-Term Resilience, Center for the Governance of AI, METR, Redwood Research, UK AI Safety Institute, and several independent researchers.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0332": {
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+      "title": "A new era of intelligence with Gemini 3",
+      "publisher": "Google",
+      "type": "primary",
+      "dates": {
+        "published": "2025-11-18"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:52Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "3c33c1e2b7468dff",
+          "bytes": 1039920
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0332#1",
+          "locator": "Safety section",
+          "text": "provided early access to bodies like the UK AISI, and obtained independent assessments from industry experts like Apollo, Vaultis, Dreadnode and more",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0333": {
+      "url": "https://arxiv.org/pdf/2601.11699",
+      "title": "Frontier AI Auditing (arXiv:2601.11699v4, full report)",
+      "publisher": "AVERI et al. (arXiv)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-01-15"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:55Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://arxiv.org/pdf/2601.11699",
+          "content_type": "application/pdf",
+          "sha256": "54bb20846e25e3c1",
+          "bytes": 1725041
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0333#1",
+          "locator": "§6.2 Growing the ecosystem",
+          "text": "In addition to actively growing the supply of qualified auditors, there also needs to be attention to preventing roadblocks on a scalable ecosystem.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0333#2",
+          "locator": "Figure (standards categories)",
+          "text": "emerging regulatory frameworks (e.g., EU AI Act, CA SB 53, NY RAISE Act)",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0333#3",
+          "locator": "Full report (searched)",
+          "text": "[Observation, not a quotation] Searched the full report for \"safety integrity\" and \"integrity level\": no match. The EU AI Act appears only among regulatory frameworks creating obligations (with CA SB 53 and NY RAISE) and in a conformity-presumption note; the report does not attribute the auditor-supply problem to the EU AI Act.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0334": {
+      "url": "https://arxiv.org/pdf/2009.03300v3",
+      "title": "Measuring Massive Multitask Language Understanding (ICLR 2021)",
+      "publisher": "arXiv",
+      "type": "primary",
+      "dates": {
+        "published": "2021-01-12"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:12:59Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://arxiv.org/pdf/2009.03300v3",
+          "content_type": "application/pdf",
+          "sha256": "d3a7b0f8589f5365",
+          "bytes": 2074939
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0334#1",
+          "locator": "Title page",
+          "text": "Published as a conference paper at ICLR 2021",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0334#2",
+          "locator": "Author list",
+          "text": "Dan Hendrycks UC Berkeley",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0334#3",
+          "locator": "Title page",
+          "text": "[Observation, not a quotation] The author affiliations listed are UC Berkeley, UIUC, Columbia University and UChicago; the Center for AI Safety is not listed (the paper, first posted September 2020, predates CAIS, which the map dates to 2022).",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0335": {
+      "url": "https://media.x.ai/v1/website/card4p7-3a96f40b.pdf",
+      "title": "Model Card: Grok 4.7",
+      "publisher": "xAI",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-21"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:13:01Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://media.x.ai/v1/website/card4p7-3a96f40b.pdf",
+          "content_type": "application/pdf",
+          "sha256": "c40541597ac3c461",
+          "bytes": 333162
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0335#1",
+          "locator": "§7.5 WMDP dual-use knowledge (MCQ)",
+          "text": "The Weapons of Mass Destruction Proxy (WMDP) is a public multiple-choice evaluation of dual-use knowledge.",
+          "retrieved": "2026-10-13"
+        }
+      ]
+    },
+    "S-0336": {
+      "url": "https://aisi.go.jp/output/output_framework/guide_to_evaluation_perspective_on_ai_safety/",
+      "title": "Guide to Evaluation Perspectives on AI Safety",
+      "publisher": "Japan AI Safety Institute",
+      "type": "primary",
+      "dates": {
+        "published": "2026-07-07"
+      },
+      "fetches": [
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:13:03Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://aisi.go.jp/output/output_framework/guide_to_evaluation_perspective_on_ai_safety/",
+          "content_type": "text/html",
+          "sha256": "c3881e54195068a7",
+          "bytes": 15491
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0336#1",
+          "locator": "Page intro (English)",
+          "text": "In July 2026, The AI Safety Institute has published the Guide to Evaluation Perspectives on AI Safety (Version 1.20), which updates and expands the evaluation perspectives and example evaluation items in light of the recent spread of AI agent systems.",
           "retrieved": "2026-10-13"
         }
       ]

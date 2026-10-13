@@ -318,6 +318,48 @@
           "sources": []
         }
       ]
+    },
+    {
+      "area": "B3 institutions, Layer 4 (AISIs, evaluators, research bodies, regulators: eSafety, IMDA, J-AISI, Australian AISI, Apollo)",
+      "summary": "Four web searches plus targeted fetches. J-AISI's Guide to Evaluation Perspectives v1.20 (7 Jul 2026) confirmed from the primary page: an update to the existing other-aisis entry, not a new mechanism. The eSafety age-restricted material codes (reported to cover AI companions and chatbots, commencing Mar 2026) and the Australian AI Safety Institute could not be opened: esafety.gov.au, industry.gov.au and aisi.gov.au refused or reset every connection from this environment. No new mechanism proposed.",
+      "queries": [
+        "eSafety industry codes AI companion chatbots March 2026 commence age-restricted material",
+        "Australian AI Safety Institute established 2026",
+        "J-AISI AI safety evaluation guide July 2026 Japan AI Safety Institute",
+        "Apollo Research scheming evaluation 2026 system card Gemini Claude external testing"
+      ],
+      "limits": "esafety.gov.au (empty reply / upstream failure, also via headless Chromium), industry.gov.au (empty reply) and aisi.gov.au (proxy CONNECT rejected) unreachable. Search snippets not used as evidence. Gemini model cards after Gemini 3 not checked for Apollo.",
+      "candidates": [
+        {
+          "name": "eSafety Phase 2 age-restricted material industry codes (incl. AI companions/chatbots), commencing 9 Mar 2026",
+          "result": "lead — source inaccessible",
+          "reason": "Registered industry codes are not on the Federal Register of Legislation and esafety.gov.au was unreachable; secondary reports (Baker McKenzie, HSF Kramer) only. Would be an update to au-esafety context/cov (AI companion obligations) once the code text is opened.",
+          "sources": []
+        },
+        {
+          "name": "Australian AI Safety Institute (announced Nov 2025, operating 2026)",
+          "result": "lead — source inaccessible",
+          "reason": "Official sites (industry.gov.au, aisi.gov.au) unreachable; secondary reports only. Would be an update to other-aisis (already lists Australia) rather than a new entry; status unconfirmed.",
+          "sources": []
+        },
+        {
+          "name": "J-AISI Guide to Evaluation Perspectives on AI Safety v1.20 (7 Jul 2026)",
+          "result": "update to existing entry",
+          "reason": "Primary page confirms v1.20 expands evaluation perspectives and example items for AI agent systems. Bears on other-aisis eval note ('J-AISI focuses on standards alignment'), which is outside this group; flag for the group holding other-aisis.",
+          "sources": [
+            "S-0336"
+          ]
+        },
+        {
+          "name": "Apollo Research testing of Claude Opus 4.6 (Feb 2026)",
+          "result": "update to existing entry",
+          "reason": "Inconclusive engagement; reflected in proposal apollo-edges.",
+          "proposal": "P-0146",
+          "sources": [
+            "S-0330"
+          ]
+        }
+      ]
     }
   ],
   "usage": null
