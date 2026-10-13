@@ -1,0 +1,36 @@
+{
+  "id": "2026-10-13-weekly",
+  "label": "Weekly audit 2026-10-13 (quick partial: re-verify lost 12 Oct findings, changed sources, light discovery)",
+  "partial": true,
+  "started_at": "2026-10-13T21:53:37Z",
+  "finished_at": null,
+  "scope": {
+    "entries": [
+      "aisr",
+      "aisi-net",
+      "apollo",
+      "au-esafety",
+      "averi",
+      "cais",
+      "co-aia",
+      "fsf",
+      "fsi",
+      "il-aisma",
+      "imda",
+      "jp-ai",
+      "kr-ai",
+      "meta-faif",
+      "metr",
+      "oecd",
+      "rsp",
+      "tx-raiga",
+      "un-ai",
+      "unesco",
+      "us-preempt",
+      "xai-rmf"
+    ],
+    "note": "Quick partial run requested by the maintainer on 2026-10-13. The 2026-10-12 weekly run's research record was lost (its session could not push); its 28 proposals (P-0121 to P-0148 on the review page) are re-verified here from primary sources as leads. Also: re-fetch of sources used by earlier successful checks, and light discovery."
+  },
+  "discovery": [],
+  "usage": null
+}

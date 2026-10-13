@@ -39,6 +39,30 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "bd8dc84037e812f2",
           "bytes": 91982
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:52:15Z",
+          "run": null,
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "a63dc1a5c3b1755f",
+          "bytes": 91964
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:53:54Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "a63dc1a5c3b1755f",
+          "bytes": 91964
         }
       ],
       "passages": [
@@ -96,6 +120,16 @@
           "note": "copy saved by a research subagent",
           "sha256": "6bce305a8318b9db",
           "bytes": 1534743
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:53:55Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "http_202",
+          "http": 202,
+          "final_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+          "content_type": "text/html; charset=UTF-8"
         }
       ],
       "passages": [
@@ -303,6 +337,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "5d2909fecdea7f45",
           "bytes": 60288
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:53:55Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "f044dd33aaade1a5",
+          "bytes": 60288
         }
       ],
       "passages": [
@@ -471,6 +517,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "2fce0fcd715d43e0",
           "bytes": 181873
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:53:55Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/responsible-scaling-policy",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "2fce0fcd715d43e0",
+          "bytes": 181873
         }
       ],
       "passages": [
@@ -552,6 +610,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:25:18Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf",
+          "content_type": "application/pdf",
+          "sha256": "6247b9e4001fd342",
+          "bytes": 304755
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:53:56Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -734,6 +804,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "68c3f21044d0d360",
           "bytes": 151443
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:53:56Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "68c3f21044d0d360",
+          "bytes": 151443
         }
       ],
       "passages": [
@@ -809,6 +891,18 @@
           "content_type": "application/pdf",
           "sha256": "a71bfa08a7fa4b75",
           "bytes": 473604
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:53:57Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/e670587677525f28df69b59e5fb4c22cc5461a17.pdf",
+          "content_type": "application/pdf",
+          "sha256": "a71bfa08a7fa4b75",
+          "bytes": 473604
         }
       ],
       "passages": [
@@ -872,6 +966,18 @@
           "via": "browser",
           "status": "ok",
           "note": "Trust Center is a JavaScript app; curl gets an empty shell. Opened in headless Chromium through the session proxy; the 'View' action served application/pdf (413,081 bytes, sha256 8e4d91e12861218e) from trust.anthropic.com/doc/trust?rid=6a637f7ac13a333cf66a4fbf. Read with pdftotext."
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:53:58Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://trust.anthropic.com/resources?s=eorilovp4wxk38nxbi7k3&name=anthropic-frontier-compliance-framework",
+          "content_type": "text/html",
+          "sha256": "c392a9447820901c",
+          "bytes": 8074
         }
       ],
       "passages": [
@@ -1264,6 +1370,18 @@
           "via": "repo",
           "status": "ok",
           "note": null
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:53:58Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://github.com/buildwithwhy/ai-governance-map/tree/f9d3e56",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "3095161cc4e58958",
+          "bytes": 259967
         }
       ],
       "passages": [
@@ -1384,6 +1502,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "c597ebef2d2bfb9f",
           "bytes": 117439
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:53:59Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/news/compliance-framework-SB53",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "c597ebef2d2bfb9f",
+          "bytes": 117439
         }
       ],
       "passages": [
@@ -1434,6 +1564,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "2e8a6cf3aff05811",
           "bytes": 36108
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:53:59Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S06953&term=2025&Summary=Y&Actions=Y&Text=Y",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "407175bbb4d78e27",
+          "bytes": 36110
         }
       ],
       "passages": [
@@ -1531,6 +1673,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "b0a467c6f9d7ea64",
           "bytes": 54941
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:00Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08828&term=2025&Summary=Y&Actions=Y&Text=Y",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "7d65cc11a30d88cd",
+          "bytes": 54940
         }
       ],
       "passages": [
@@ -1683,6 +1837,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "3cac93ff98e6f616",
           "bytes": 81551
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:01Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "6fa8999fe271b375",
+          "bytes": 81551
         }
       ],
       "passages": [
@@ -1816,6 +1982,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "63647dad027d9891",
           "bytes": 68461
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:01Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "91d00f899e2417d1",
+          "bytes": 68461
         }
       ],
       "passages": [
@@ -1914,6 +2092,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:29:45Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-05/pdf/2026-11415.pdf",
+          "content_type": "application/pdf",
+          "sha256": "4a25c970947e7234",
+          "bytes": 194548
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:02Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -2031,6 +2221,18 @@
           "content_type": "application/json; charset=utf-8",
           "sha256": "f876e83d4fd24f17",
           "bytes": 2843
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:02Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.federalregister.gov/api/v1/documents/2026-11415.json",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "46b1517c0f0dee1b",
+          "bytes": 2843
         }
       ],
       "passages": [
@@ -2121,6 +2323,16 @@
           "note": "copy saved by a research subagent",
           "sha256": "037b32005832af2c",
           "bytes": 365413
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:02Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "http_202",
+          "http": 202,
+          "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202601744",
+          "content_type": "text/html; charset=UTF-8"
         }
       ],
       "passages": [
@@ -2278,6 +2490,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "99cef75dbaf2458b",
           "bytes": 62893
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:03Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "12d3ee37b2068dc3",
+          "bytes": 62893
         }
       ],
       "passages": [
@@ -2362,6 +2586,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:17:56Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/118119",
+          "content_type": "/",
+          "sha256": "d879f9b54c6068aa",
+          "bytes": 1050925
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:03Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -2488,6 +2724,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "1b823fe46d757f6f",
           "bytes": 64196
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:06Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "edb92ffa9c50d20e",
+          "bytes": 65653
         }
       ],
       "passages": [
@@ -2531,6 +2779,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "7307bde80817c70b",
           "bytes": 51008
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:07Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/library/commission-opinion-assessment-code-practice-transparency-ai-generated-content",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "f56f085edac97acb",
+          "bytes": 50990
         }
       ],
       "passages": [
@@ -2602,6 +2862,18 @@
           "content_type": "application/pdf",
           "sha256": "be569073f90700e1",
           "bytes": 566088
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:07Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/npc/c2/c30834/202605/P020260511309265804880.pdf",
+          "content_type": "application/pdf",
+          "sha256": "be569073f90700e1",
+          "bytes": 566088
         }
       ],
       "passages": [
@@ -2626,6 +2898,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T16:49:06Z",
           "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/npc/c2/c30834/202505/P020250513550316685290.pdf",
+          "content_type": "application/pdf",
+          "sha256": "d21df610ee4cc775",
+          "bytes": 537609
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:14Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -2665,6 +2949,18 @@
           "content_type": "text/html",
           "sha256": "65d04b38730337d3",
           "bytes": 51825
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:21Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.cn/zhengce/content/202605/content_7068345.htm",
+          "content_type": "text/html",
+          "sha256": "65d04b38730337d3",
+          "bytes": 51825
         }
       ],
       "passages": [
@@ -2687,6 +2983,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T16:49:15Z",
           "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.cn/gongbao/2025/issue_12066/202505/content_7025478.html",
+          "content_type": "text/html",
+          "sha256": "8fd903c6a2eea148",
+          "bytes": 53974
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:22Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -2729,6 +3037,14 @@
           "via": "curl with cookie jar (research subagent, 2026-10-10 ~16:47Z)",
           "status": "ok",
           "note": "Site uses a cookie redirect challenge; plain curl fails. Saved copy 74,149 bytes, sha256 e76acd483647764c, read by Claude. Later retries got TCP resets from the site (proxy log: tunnel closed after TLS hello)."
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:24Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "error",
+          "error": "curl: (47) Maximum (50) redirects followed"
         }
       ],
       "passages": [
@@ -2754,6 +3070,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T16:49:35Z",
           "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/npc/c2/c30834/202510/t20251028_449048.html",
+          "content_type": "text/html",
+          "sha256": "4ceadbbc782b676d",
+          "bytes": 18335
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:40Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -2826,6 +3154,14 @@
           "via": "curl (research subagent, 2026-10-10 ~16:44Z)",
           "status": "ok",
           "note": "Saved copy 33,561 bytes, sha256 c7ae438093170673, read by Claude. Later retries got TCP resets from the site (proxy log), not an environment denial."
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:41Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "error",
+          "error": "curl: (56) CONNECT tunnel failed, response 502"
         }
       ],
       "passages": [
@@ -2848,6 +3184,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T16:50:56Z",
           "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/c2/c30834/202601/W020260105533918736222.pdf",
+          "content_type": "application/pdf",
+          "sha256": "35d226b3a46fd515",
+          "bytes": 413856
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:47Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -2886,6 +3234,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "7fe001351430632e",
           "bytes": 94609
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:54Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "f3a3afd06774e0e4",
+          "bytes": 94591
         }
       ],
       "passages": [
@@ -2917,6 +3277,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "f9983534c24e7463",
           "bytes": 50590
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:54Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "7a36cd58016edc74",
+          "bytes": 50572
         }
       ],
       "passages": [
@@ -2941,6 +3313,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T17:00:25Z",
           "run": "2026-10-10-trial1b",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/129555",
+          "content_type": "/",
+          "sha256": "7bd22c5a3c56eaef",
+          "bytes": 1213943
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:55Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -2985,6 +3369,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "f2b5ed65f65ca8f4",
           "bytes": 123307
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:58Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/news/historic-first-as-companies-spanning-north-america-asia-europe-and-middle-east-agree-safety-commitments-on-development-of-ai",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "184b6898cfbe6253",
+          "bytes": 123307
         }
       ],
       "passages": [
@@ -3027,6 +3423,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:17:20Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cdn.openai.com/openai-preparedness-framework-beta.pdf",
+          "content_type": "application/pdf",
+          "sha256": "c84e3a59c7dab251",
+          "bytes": 27448530
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:54:59Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -3095,6 +3503,18 @@
           "content_type": "text/html",
           "sha256": "a7d8a87115148057",
           "bytes": 143294
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:03Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://deepmind.google/blog/introducing-the-frontier-safety-framework/",
+          "content_type": "text/html",
+          "sha256": "8202b80f542512fa",
+          "bytes": 143291
         }
       ],
       "passages": [
@@ -3133,6 +3553,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "bd75e541154af227",
           "bytes": 524170
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:04Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://about.fb.com/news/2025/02/meta-approach-frontier-ai/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "12bd1d3956094055",
+          "bytes": 524179
         }
       ],
       "passages": [
@@ -3174,6 +3606,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "db149b6be91704af",
           "bytes": 186371
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:09Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.elysee.fr/en/sommet-pour-l-action-sur-l-ia",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "db149b6be91704af",
+          "bytes": 186371
         }
       ],
       "passages": [
@@ -3204,6 +3648,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:17:30Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://media.x.ai/v1/website/2025.02.20-rmf-draft-9eaa95cf.pdf",
+          "content_type": "application/pdf",
+          "sha256": "89fafebb73757def",
+          "bytes": 230615
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:10Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -3266,6 +3722,18 @@
           "content_type": "application/pdf",
           "sha256": "39fab200a4b36f14",
           "bytes": 144214
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:11Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://data.x.ai/2025-08-20-xai-risk-management-framework.pdf",
+          "content_type": "application/pdf",
+          "sha256": "39fab200a4b36f14",
+          "bytes": 144214
         }
       ],
       "passages": [
@@ -3309,6 +3777,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "4cf7710bd9608578",
           "bytes": 108530
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:11Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2230201&reg=3&lang=1",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "f5001c4fc527ea90",
+          "bytes": 108529
         }
       ],
       "passages": [
@@ -3363,6 +3843,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:17:33Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://d19ob9sqegt2wc.cloudfront.net/stage/uploads/New_Delhi_Frontier_AI_Impact_Commitments_f81b331b93.pdf",
+          "content_type": "application/pdf",
+          "sha256": "657c0e92ed0b6d12",
+          "bytes": 417897
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:13Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -3472,6 +3964,18 @@
           "content_type": "text/html",
           "sha256": "348bf2a18e4c8f01",
           "bytes": 5192
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:14Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/report.html",
+          "content_type": "text/html",
+          "sha256": "348bf2a18e4c8f01",
+          "bytes": 5192
         }
       ],
       "passages": [
@@ -3502,6 +4006,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:17:37Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/documents.html",
+          "content_type": "text/html",
+          "sha256": "a2ebdff0dba81688",
+          "bytes": 27274
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:15Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -3617,6 +4133,18 @@
           "content_type": "text/html;charset=UTF-8",
           "sha256": "3119201fa7d08525",
           "bytes": 128502
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:16Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://oecd.ai/en/haip-2-launch",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "3119201fa7d08525",
+          "bytes": 128502
         }
       ],
       "passages": [
@@ -3676,6 +4204,18 @@
           "content_type": "text/html;charset=UTF-8",
           "sha256": "2d8f112a9ff35365",
           "bytes": 121135
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:17Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://oecd.ai/en/hiroshima",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "2d8f112a9ff35365",
+          "bytes": 121135
         }
       ],
       "passages": [
@@ -3711,6 +4251,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "00ea131405ef4457",
           "bytes": 86459
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:18Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/membership/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "09cacc66ee0f8216",
+          "bytes": 86459
         }
       ],
       "passages": [
@@ -3742,6 +4294,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "f00d734b0d828cf4",
           "bytes": 101908
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:18Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/updates/amazon-and-meta-join-the-frontier-model-forum-to-promote-ai-safety/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "3b13d160670813cf",
+          "bytes": 101908
         }
       ],
       "passages": [
@@ -3770,6 +4334,18 @@
           "final_url": "https://www.frontiermodelforum.org/about-us/",
           "content_type": "text/html; charset=UTF-8",
           "sha256": "11ac422d393c2048",
+          "bytes": 88197
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:19Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/about-us/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "acfd3cdcd16b9673",
           "bytes": 88197
         }
       ],
@@ -3808,6 +4384,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "04f0cb7a9c7e1f58",
           "bytes": 101859
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:20Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/updates/fmf-announces-first-of-its-kind-information-sharing-agreement/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "04dc833aa74200c9",
+          "bytes": 101859
         }
       ],
       "passages": [
@@ -3844,6 +4432,18 @@
           "final_url": "https://www.frontiermodelforum.org/updates/progress-update-fmf-information-sharing-of-frontier-ai-threats-and-vulnerabilities/",
           "content_type": "text/html; charset=UTF-8",
           "sha256": "8dc4c8d2a76abc6d",
+          "bytes": 107795
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:20Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/updates/progress-update-fmf-information-sharing-of-frontier-ai-threats-and-vulnerabilities/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "43fdeca67285d97f",
           "bytes": 107795
         }
       ],
@@ -3888,6 +4488,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "2ac4567c874aed78",
           "bytes": 101941
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:21Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/updates/announcement-of-new-ai-safety-fund-grantees/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "87691b9b7fa66c1e",
+          "bytes": 101941
         }
       ],
       "passages": [
@@ -3917,6 +4529,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "8e9d217a74e2e388",
           "bytes": 96410
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:21Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/publications/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "8c140b913b277e17",
+          "bytes": 96460
         }
       ],
       "passages": [
@@ -3994,6 +4618,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "a921355932b7bd12",
           "bytes": 127968
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:22Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://partnershiponai.org/anniversary/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "5d1d5a114bba9316",
+          "bytes": 127968
         }
       ],
       "passages": [
@@ -4023,6 +4659,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "1eced7d594d62b7d",
           "bytes": 86330
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:23Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://partnershiponai.org/about/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "7cdd007c99f17e8b",
+          "bytes": 86330
         }
       ],
       "passages": [
@@ -4051,6 +4699,18 @@
           "final_url": "https://partnershiponai.org/",
           "content_type": "text/html; charset=UTF-8",
           "sha256": "b7b63d560cbcda93",
+          "bytes": 191014
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:23Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://partnershiponai.org/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "8bafe35c41009910",
           "bytes": 191014
         }
       ],
@@ -4094,6 +4754,18 @@
           "final_url": "https://partnershiponai.org/resource/2026-transparency-report-on-foundation-model-impacts/",
           "content_type": "text/html; charset=UTF-8",
           "sha256": "e32dc073717ec69f",
+          "bytes": 86651
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:24Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://partnershiponai.org/resource/2026-transparency-report-on-foundation-model-impacts/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "29acf26161d218bc",
           "bytes": 86651
         }
       ],
@@ -4159,6 +4831,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "5ae4faad559db87f",
           "bytes": 59691
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:25Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-code-practice",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "b0b63fd84b2d2d1f",
+          "bytes": 59691
         }
       ],
       "passages": [
@@ -4187,6 +4871,18 @@
           "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/questions-and-answers-code-practice-general-purpose-ai",
           "content_type": "text/html; charset=UTF-8",
           "sha256": "3736facbf271b779",
+          "bytes": 62263
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:25Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/questions-and-answers-code-practice-general-purpose-ai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "11e59596de5605ee",
           "bytes": 62263
         }
       ],
@@ -4235,6 +4931,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "475f113751b5cd72",
           "bytes": 57023
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:26Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/signing-general-purpose-ai-code-practice",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "afe5ca9c52cd21b3",
+          "bytes": 57023
         }
       ],
       "passages": [
@@ -4270,6 +4978,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "680a84939f01466a",
           "bytes": 83925
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:26Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "a45e05763ef65562",
+          "bytes": 83925
         }
       ],
       "passages": [
@@ -4304,6 +5024,18 @@
           "final_url": "https://digital-strategy.ec.europa.eu/en/policies/signatory-taskforce-gpai-code-practice",
           "content_type": "text/html; charset=UTF-8",
           "sha256": "8d536dd46cc0cf15",
+          "bytes": 51539
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:27Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/signatory-taskforce-gpai-code-practice",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "cef9703dae14643e",
           "bytes": 51539
         }
       ],
@@ -4403,6 +5135,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:24:48Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf",
+          "content_type": "application/pdf",
+          "sha256": "fae6e4cc6f7212a0",
+          "bytes": 170399
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:27Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -4589,6 +5333,17 @@
           "note": "copy saved by a research subagent",
           "sha256": "05a8a7fd70f6b652",
           "bytes": 353336
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:28Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "site_blocked",
+          "http": 403,
+          "final_url": "https://openai.com/index/updating-our-preparedness-framework/",
+          "content_type": "text/html; charset=UTF-8",
+          "note": "website bot challenge (Cloudflare); the environment allowed the connection"
         }
       ],
       "passages": [
@@ -4624,6 +5379,17 @@
           "note": "copy saved by a research subagent",
           "sha256": "6acc093f7ae4631f",
           "bytes": 529228
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:28Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "site_blocked",
+          "http": 403,
+          "final_url": "https://openai.com/index/path-to-astra/",
+          "content_type": "text/html; charset=UTF-8",
+          "note": "website bot challenge (Cloudflare); the environment allowed the connection"
         }
       ],
       "passages": [
@@ -4666,6 +5432,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:24:52Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://deploymentsafety.openai.com/gpt-6-astra/gpt-6-astra.pdf",
+          "content_type": "application/pdf",
+          "sha256": "77ff1e8aaf7018c7",
+          "bytes": 15779035
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:29Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -4728,6 +5506,18 @@
           "content_type": "application/pdf",
           "sha256": "aa8073bcfa154491",
           "bytes": 4430565
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:30Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf",
+          "content_type": "application/pdf",
+          "sha256": "aa8073bcfa154491",
+          "bytes": 4430565
         }
       ],
       "passages": [
@@ -4752,6 +5542,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:24:55Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cdn.openai.com/pdf/e37d949b-8c9f-4d76-b99e-4272f4631a7e/openai-frontier-governance-framework.pdf",
+          "content_type": "application/pdf",
+          "sha256": "33e4e118b24d5678",
+          "bytes": 6136955
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:31Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -4806,6 +5608,17 @@
           "note": "copy saved by a research subagent",
           "sha256": "6702279dd5b54011",
           "bytes": 383857
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:33Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "site_blocked",
+          "http": 403,
+          "final_url": "https://openai.com/index/openai-frontier-governance-framework/",
+          "content_type": "text/html; charset=UTF-8",
+          "note": "website bot challenge (Cloudflare); the environment allowed the connection"
         }
       ],
       "passages": [
@@ -4836,6 +5649,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:24:57Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/strengthening-our-frontier-safety-framework/frontier-safety-framework_3-1.pdf",
+          "content_type": "application/pdf",
+          "sha256": "ad10d2d240e0d557",
+          "bytes": 447155
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:33Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -5019,6 +5844,18 @@
           "content_type": "text/html",
           "sha256": "82f185c596dfecbb",
           "bytes": 144958
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:34Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/",
+          "content_type": "text/html",
+          "sha256": "646104a46d6eef28",
+          "bytes": 144955
         }
       ],
       "passages": [
@@ -5062,6 +5899,18 @@
           "content_type": "text/html",
           "sha256": "54734c1555907e9b",
           "bytes": 143473
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:34Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://deepmind.google/blog/updating-the-frontier-safety-framework/",
+          "content_type": "text/html",
+          "sha256": "9061fb5b4dd44968",
+          "bytes": 143470
         }
       ],
       "passages": [
@@ -5117,6 +5966,18 @@
           "content_type": "text/html",
           "sha256": "a7d8a87115148057",
           "bytes": 143294
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:35Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://deepmind.google/blog/introducing-the-frontier-safety-framework/",
+          "content_type": "text/html",
+          "sha256": "8202b80f542512fa",
+          "bytes": 143291
         }
       ],
       "passages": [
@@ -5153,6 +6014,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:25:02Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-7_flash_fsf_report.pdf",
+          "content_type": "application/pdf",
+          "sha256": "f0eec853b7371aac",
+          "bytes": 1782007
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:35Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -5205,6 +6078,18 @@
           "via": "headless Chromium download (ai.meta.com returns HTTP 400 to curl)",
           "status": "ok",
           "note": "copy saved by a research subagent",
+          "sha256": "d87aa9bf00456ec7",
+          "bytes": 668289
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:36Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2/",
+          "content_type": "application/pdf",
           "sha256": "d87aa9bf00456ec7",
           "bytes": 668289
         }
@@ -5370,6 +6255,18 @@
           "content_type": "application/pdf",
           "sha256": "2c3c6313bd2fb6ee",
           "bytes": 203142
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:36Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://media.x.ai/v1/website/xai-frontier-artificial-intelligence-framework-30-june-2026-99c40684.pdf",
+          "content_type": "application/pdf",
+          "sha256": "2c3c6313bd2fb6ee",
+          "bytes": 203142
         }
       ],
       "passages": [
@@ -5491,6 +6388,18 @@
           "content_type": "application/pdf",
           "sha256": "aa01669c19fca50c",
           "bytes": 251686
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:37Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://data.x.ai/2025-12-31-xai-frontier-artificial-intelligence-framework.pdf",
+          "content_type": "application/pdf",
+          "sha256": "aa01669c19fca50c",
+          "bytes": 251686
         }
       ],
       "passages": [
@@ -5530,6 +6439,17 @@
           "note": "copy saved by a research subagent",
           "sha256": "c70daa74037a3fd7",
           "bytes": 349133
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:37Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "site_blocked",
+          "http": 403,
+          "final_url": "https://x.ai/safety",
+          "content_type": "text/html; charset=UTF-8",
+          "note": "website bot challenge (Cloudflare); the environment allowed the connection"
         }
       ],
       "passages": [
@@ -5567,6 +6487,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "890416a5e8c1b8e9",
           "bytes": 91152
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:38Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.justice.gov/opa/pr/justice-department-intervenes-xai-lawsuit-challenging-colorados-algorithmic-discrimination",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "b9d28bedbaa39ac7",
+          "bytes": 90748
         }
       ],
       "passages": [
@@ -5640,6 +6572,18 @@
           "content_type": "application/pdf",
           "sha256": "7311c9c6bbb16d01",
           "bytes": 17795106
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:38Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+          "content_type": "application/pdf",
+          "sha256": "7311c9c6bbb16d01",
+          "bytes": 17795106
         }
       ],
       "passages": [
@@ -5682,6 +6626,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:25:12Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/ceaf5c7ff2783855203fde8208ec311252dced5b/Claude%20Opus%205%20System%20Card.pdf",
+          "content_type": "application/pdf",
+          "sha256": "0950dae1ba6b341e",
+          "bytes": 16281258
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:40Z",
+          "run": "2026-10-13-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -5831,6 +6787,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "110b5086c6b36aff",
           "bytes": 101918
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:43Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/publications/international-scientific-report-on-the-safety-of-advanced-ai",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "7f5f148c3ef50b66",
+          "bytes": 101918
         }
       ],
       "passages": [
@@ -5872,6 +6840,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "fe2433e3721a6fb4",
           "bytes": 56131
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:44Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://internationalaisafetyreport.org/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "d63a9b53d655887f",
+          "bytes": 56131
         }
       ],
       "passages": [
@@ -5900,6 +6880,18 @@
           "final_url": "https://internationalaisafetyreport.org/about",
           "content_type": "text/html; charset=utf-8",
           "sha256": "e3fad0b66d31cc33",
+          "bytes": 28718
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:44Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://internationalaisafetyreport.org/about",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "149cea3c284d6b71",
           "bytes": 28718
         }
       ],
@@ -5960,6 +6952,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "5e2aa03c8b32df62",
           "bytes": 48618
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:45Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://internationalaisafetyreport.org/publications",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "28d5c0e5e4e596df",
+          "bytes": 48618
         }
       ],
       "passages": [
@@ -5996,6 +7000,18 @@
           "final_url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
           "content_type": "text/html; charset=utf-8",
           "sha256": "9cabeb3ac5edf682",
+          "bytes": 3943774
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:46Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "499d37faf8f9533a",
           "bytes": 3943774
         }
       ],
@@ -6112,6 +7128,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "abfd8116648331d3",
           "bytes": 3963065
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:47Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "903648bfa3e629ee",
+          "bytes": 3963065
         }
       ],
       "passages": [
@@ -6148,6 +7176,18 @@
           "final_url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
           "content_type": "text/html; charset=utf-8",
           "sha256": "14f573ecda4de96d",
+          "bytes": 76412
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:50Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "e2ab49e18d3ed974",
           "bytes": 76412
         }
       ],
@@ -6222,6 +7262,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "ed3beec2103aa75f",
           "bytes": 27997
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:51Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "ed3beec2103aa75f",
+          "bytes": 27997
         }
       ],
       "passages": [
@@ -6289,6 +7341,18 @@
           "content_type": "application/pdf",
           "sha256": "0aa9cdc7034c7d10",
           "bytes": 229750
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:51Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a61e3fdec2b87a8f5658105_Network%20Best%20Practice.pdf",
+          "content_type": "application/pdf",
+          "sha256": "0aa9cdc7034c7d10",
+          "bytes": 229750
         }
       ],
       "passages": [
@@ -6344,6 +7408,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "3a2ae6e6045103b3",
           "bytes": 85179
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:52Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "7f965cf7fabcb493",
+          "bytes": 85193
         }
       ],
       "passages": [
@@ -6388,6 +7464,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "ae90aafc7bd40b14",
           "bytes": 72389
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:52Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-statement-of-intent-toward-international-cooperation-on-ai-safety-science-ai-seoul-summit-2024-annex",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "f05511cc06092d76",
+          "bytes": 72389
         }
       ],
       "passages": [
@@ -6429,6 +7517,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "e5f3993e8663b58a",
           "bytes": 62057
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T21:55:53Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-international-relations",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "dce851a77a9e5af6",
+          "bytes": 61969
         }
       ],
       "passages": [
