@@ -1,5 +1,5 @@
 {
-  "next": 138,
+  "next": 140,
   "proposals": [
     {
       "id": "P-0001",
@@ -17754,6 +17754,287 @@
             "text:layer-1:tooltip"
           ],
           "hash": "af70c8506b34"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0138",
+      "fingerprint": "b3d67c628edd",
+      "targets": [
+        "entry:oecd:context"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:09:44Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "OECD AI Principles: the second principle is 'human rights and democratic values', not 'human-centred'",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "oecd",
+              "field": "context",
+              "from": "Five values-based principles (inclusive growth, human-centred, transparency, robustness, accountability) plus five policy recommendations. Non-binding but the de facto reference point — adopted by the G20 and embedded in many national strategies. The 2024 update sharpened the safety/security language in response to generative AI.",
+              "to": "Five values-based principles (inclusive growth, human rights and democratic values, transparency, robustness, accountability) plus five policy recommendations. Non-binding but the de facto reference point — adopted by the G20 and embedded in many national strategies. The 2024 update sharpened the safety/security language in response to generative AI."
+            }
+          ],
+          "why": "A reader citing the five principles from the map would use a name that is not one of the Recommendation's principles as amended in 2024.",
+          "rationale": "Re-verifies lead P-0121 from the lost 2026-10-12 run. The Recommendation (OECD/LEGAL/0449, amended 3 May 2024) lists five principles: inclusive growth, sustainable development and well-being; respect for the rule of law, human rights and democratic values, including fairness and privacy; transparency and explainability; robustness, security and safety; accountability. OECD.AI's overview names the second 'Human rights and democratic values, including fairness and privacy'. 'Human-centred' survives only inside 1.2(a) ('human-centred values') and in the description of the overall approach. The rest of the sentence checks out: five principles plus five recommendations, G20 AI Principles drawn from the OECD Principles, and a 2024 revision that added safety language (override, repair, decommission) and generative-AI information-integrity language.",
+          "evidence": [
+            {
+              "source": "S-0136",
+              "passage": "S-0136#13",
+              "stance": "supports",
+              "supports": "heading of principle 1.2"
+            },
+            {
+              "source": "S-0136",
+              "passage": "S-0136#15",
+              "stance": "supports",
+              "supports": "the five principles as listed in the background note"
+            },
+            {
+              "source": "S-0135",
+              "passage": "S-0135#7",
+              "stance": "supports",
+              "supports": "OECD.AI's short name for the second principle"
+            },
+            {
+              "source": "S-0136",
+              "passage": "S-0136#14",
+              "stance": "supports",
+              "supports": "five principles plus five recommendations (unchanged text)"
+            },
+            {
+              "source": "S-0135",
+              "passage": "S-0135#9",
+              "stance": "supports",
+              "supports": "G20 AI Principles drawn from the OECD Principles (unchanged text)"
+            },
+            {
+              "source": "S-0136",
+              "passage": "S-0136#16",
+              "stance": "supports",
+              "supports": "2024 update added safety language (unchanged text)"
+            },
+            {
+              "source": "S-0136",
+              "passage": "S-0136#17",
+              "stance": "supports",
+              "supports": "2024 update responded to generative AI (unchanged text)"
+            }
+          ],
+          "uncertainty": "Low. 'Human-centred' was probably the 2019 short name (the 2019 text was not opened), so this is a naming update rather than a factual dispute.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:oecd:cov:acct": "checked, still accurate (transparency/explainability and accountability are two of the five)",
+            "entry:oecd:cov:update": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "'embedded in many national strategies'",
+            "'the de facto reference point'"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:unesco:context",
+            "entry:unesco:cov:mit",
+            "entry:hiroshima:desc",
+            "entry:hiroshima:context",
+            "entry:hiroshima:cov:acct",
+            "entry:hiroshima:cov:update",
+            "edge:oecd|hiroshima",
+            "gap:acct",
+            "gap:update"
+          ],
+          "hash": "5e521c6e00bb"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-10-13"
+      }
+    },
+    {
+      "id": "P-0139",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-10-13T22:09:44Z",
+          "run": "2026-10-13-weekly",
+          "author": "claude",
+          "title": "Add the AEF-1 standard for third-party evaluators as a Layer 4 entry?",
+          "kind": "flag",
+          "changes": [],
+          "why": "A standard that evaluators, and reportedly the EU AI Office, use to judge whether an evaluation is independent bears directly on how frontier models are overseen. But its governance weight rests on a claim that only the Forum makes.",
+          "rationale": "Re-verifies lead P-0148 from the lost 2026-10-12 run; the lead holds, and new evidence supports the hold. AEF-1 is identifiable (versioned standard and checklist) and attributable (the AI Evaluator Forum, which says it is not a legal entity; AVERI says it co-authored the standard). Its materiality rests on adoption: METR, SecureBio and Transluce include the checklist, and the PDF says developers could use it to report under Code Measure 7.3(1)(g). SCOPE B3 admits mechanisms from monitored evaluators, giving 'a formal evaluation regime adopted by governments or labs' as the example. The only evidence of government adoption is the Forum's own sentence that the EU AI Office endorsed key provisions. The AI Office's 12 Jun 2026 workshop call says the Office was still 'engaging with the expert community to develop these requirements' and does not mention AEF-1. Holding until the AI Office publishes its evaluator independence requirements avoids presenting an unconfirmed endorsement. Option a is drafted in full, with the endorsement claim attributed to the Forum.",
+          "evidence": [
+            {
+              "source": "S-0316",
+              "passage": "S-0316#1",
+              "stance": "supports",
+              "supports": "version and date"
+            },
+            {
+              "source": "S-0316",
+              "passage": "S-0316#2",
+              "stance": "supports",
+              "supports": "checklist published with results"
+            },
+            {
+              "source": "S-0316",
+              "passage": "S-0316#3",
+              "stance": "supports",
+              "supports": "METR report includes the checklist"
+            },
+            {
+              "source": "S-0316",
+              "passage": "S-0316#5",
+              "stance": "supports",
+              "supports": "SecureBio uses it"
+            },
+            {
+              "source": "S-0316",
+              "passage": "S-0316#4",
+              "stance": "supports",
+              "supports": "Forum's claim of AI Office endorsement"
+            },
+            {
+              "source": "S-0317",
+              "passage": "S-0317#1",
+              "stance": "supports",
+              "supports": "Code Measure 7.3(1)(g) reporting"
+            },
+            {
+              "source": "S-0318",
+              "passage": "S-0318#1",
+              "stance": "supports",
+              "supports": "Forum not a legal entity, voluntary"
+            },
+            {
+              "source": "S-0211",
+              "passage": "S-0211#4",
+              "stance": "supports",
+              "supports": "AVERI co-authored AEF-1"
+            },
+            {
+              "source": "S-0319",
+              "passage": "S-0319#1",
+              "stance": "supports",
+              "supports": "AI Office still developing independence requirements (Jun 2026)"
+            },
+            {
+              "source": "S-0319",
+              "passage": "S-0319#2",
+              "stance": "supports",
+              "supports": "no mention of AEF-1 by the Commission"
+            }
+          ],
+          "uncertainty": "Whether the AI Office endorsed AEF-1 in a document not found here (e.g. after the Jul 2026 workshop); whether any frontier developer has adopted the checklist. METR's report itself was not opened; the METR link rests on the Forum page.",
+          "confidence": "medium",
+          "question": "AEF-1 (AI Evaluator Forum, v1 of 4 Dec 2025, co-authored by AVERI) is a published standard for the operating conditions of independent third-party evaluations. METR, SecureBio and Transluce have published its checklist with their evaluations, and it is written to feed reporting under the EU GPAI Code. Add it now as a Layer 4 entry, or hold until a Commission source confirms the claimed EU AI Office endorsement?",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Add now as a Layer 4 entry (voluntary), connected to AVERI and METR",
+              "changes": [
+                {
+                  "op": "add_entity",
+                  "after": "averi",
+                  "entity": {
+                    "id": "aef-1",
+                    "name": "AEF-1 evaluator standard",
+                    "layer": 4,
+                    "jur": "co",
+                    "pow": 1,
+                    "status": "active",
+                    "link": "https://aievaluatorforum.org/initiatives/minimum-operating-conditions",
+                    "desc": "AI Evaluator Forum standard (v1, 4 Dec 2025) setting minimum operating conditions for independent third-party AI evaluations: access and resources, conflicts of interest, analytic autonomy, transparent methods and results, protection of sensitive information. Voluntary; evaluators publish a checklist with their results.",
+                    "context": "The Forum is a voluntary network of third-party evaluators (not a legal entity); AVERI co-authored AEF-1, and METR's May 2026 Frontier Risk Report includes its checklist. The standard says developers could use the checklist to report third-party evaluations under Measure 7.3(1)(g) of the EU GPAI Code's Safety and Security chapter. The Forum states that the EU AI Office has endorsed key provisions; no Commission source confirms this, and in Jun 2026 the AI Office was still consulting on independence requirements for external evaluators.",
+                    "cov": {
+                      "eval": "Sets minimum operating conditions (access and resources, minimised conflicts of interest, analytic autonomy, transparent methods and results, protection of sensitive information) for independent third-party evaluations.",
+                      "acct": "Evaluators demonstrate adherence by completing a checklist and publishing it with their results; adherence is voluntary and rests on the evaluator's own disclosure."
+                    }
+                  }
+                },
+                {
+                  "op": "add_edge",
+                  "a": "aef-1",
+                  "b": "averi",
+                  "rel": "AVERI co-authored AEF-1"
+                },
+                {
+                  "op": "add_edge",
+                  "a": "aef-1",
+                  "b": "metr",
+                  "rel": "METR's May 2026 Frontier Risk Report includes the AEF-1 checklist"
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Hold: log as a candidate until a Commission source confirms the AI Office endorsement",
+              "changes": []
+            }
+          ],
+          "recommended": "b",
+          "knock_on": [
+            "entry:caisi:context",
+            "entry:fsi:context",
+            "edge:averi|metr",
+            "edge:averi|apollo",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip",
+            "entry:rsp:cov:elicit",
+            "entry:prep:cov:eval",
+            "entry:averi:cov:acct",
+            "edge:aisr|metr",
+            "edge:metr|rsp",
+            "edge:metr|prep",
+            "edge:metr|fsf",
+            "gap:eval",
+            "gap:elicit",
+            "faq:what-is-metr-s-common-elements-framework",
+            "text:footer-sources",
+            "text:footer-note",
+            "text:intro"
+          ],
+          "hash": "34c8488e960f"
         }
       ],
       "decision": {

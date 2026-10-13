@@ -375,5 +375,21 @@
     "note": "No Network mechanism for coordinating pre-deployment access is documented in the mission statement, the joint-testing news or the Jul 2026 guidance; raised as a question (recommend rewrite as a stretch).",
     "missing": null,
     "hash": "a495a212ad24"
+  },
+  "entry:oecd:context": {
+    "run": "2026-10-13-weekly",
+    "date": "2026-10-13",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0136",
+      "S-0135"
+    ],
+    "proposals": [
+      "P-0138"
+    ],
+    "note": "Second principle is 'respect for the rule of law, human rights and democratic values, including fairness and privacy', not 'human-centred'. The other facts (5+5 structure, G20, 2024 safety/generative-AI revision) are confirmed by the same sources.",
+    "missing": null,
+    "hash": "f2fa6a0eef1d"
   }
 }

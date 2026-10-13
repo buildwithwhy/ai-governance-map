@@ -7321,30 +7321,34 @@
     },
     "entry:oecd:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0135",
-          "S-0136"
+          "S-0136",
+          "S-0135"
         ],
-        "proposals": [],
-        "note": "Five values-based principles and five recommendations confirmed; G20 AI Principles drawn from them; the definition is used by the EU, CoE, US and UN. The 2024 revision added safety language (override/decommission). Principle 1.4: robust, secure and safe throughout the lifecycle. Reporting to Council five years after adoption and regularly thereafter.",
+        "proposals": [
+          "P-0138"
+        ],
+        "note": "Second principle is 'respect for the rule of law, human rights and democratic values, including fairness and privacy', not 'human-centred'. The other facts (5+5 structure, G20, 2024 safety/generative-AI revision) are confirmed by the same sources.",
         "missing": null,
         "hash": "f2fa6a0eef1d"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-10-13-weekly",
+        "date": "2026-10-13",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0135",
-          "S-0136"
+          "S-0136",
+          "S-0135"
         ],
-        "proposals": [],
-        "note": "Five values-based principles and five recommendations confirmed; G20 AI Principles drawn from them; the definition is used by the EU, CoE, US and UN. The 2024 revision added safety language (override/decommission). Principle 1.4: robust, secure and safe throughout the lifecycle. Reporting to Council five years after adoption and regularly thereafter.",
+        "proposals": [
+          "P-0138"
+        ],
+        "note": "Second principle is 'respect for the rule of law, human rights and democratic values, including fairness and privacy', not 'human-centred'. The other facts (5+5 structure, G20, 2024 safety/generative-AI revision) are confirmed by the same sources.",
         "missing": null,
         "hash": "f2fa6a0eef1d"
       }

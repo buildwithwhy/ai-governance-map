@@ -8255,6 +8255,16 @@
           "content_type": "text/html",
           "sha256": "2d7447c98e31677d",
           "bytes": 4035
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:09:34Z",
+          "run": "2026-10-13-weekly",
+          "via": "headless Chromium (Playwright), page content after JavaScript rendering; plain curl returns a JavaScript shell or a Cloudflare challenge",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "7f21290178734440",
+          "bytes": 82296
         }
       ],
       "passages": [
@@ -8329,6 +8339,36 @@
           "locator": "Principle 1.4 Robustness, security and safety, (a)",
           "text": "systems should be robust, secure and safe throughout their entire lifecycle so that, in conditions of normal use, foreseeable use or misuse, or other adverse conditions, they function appropriately",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0136#13",
+          "locator": "Section 1, heading 1.2",
+          "text": "1.2. Respect for the rule of law, human rights and democratic values, including fairness and privacy",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0136#14",
+          "locator": "Background information, Scope",
+          "text": "The Recommendation contains five high-level values-based principles and five recommendations for national policies and international co-operation",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0136#15",
+          "locator": "Background information, Principles for responsible stewardship of trustworthy AI",
+          "text": "the first section sets out five complementary principles relevant to all stakeholders: i) inclusive growth, sustainable development and well-being; ii) respect for the rule of law, human rights and democratic values, including fairness and privacy; iii) transparency and explainability; iv) robustness, security and safety; and v) accountability",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0136#16",
+          "locator": "Background information, 2023 and 2024 Revisions of the Recommendation (list of 2024 updates)",
+          "text": "addressing safety concerns, so that if AI systems risk causing undue harm or exhibit undesired behaviour, they can be overridden, repaired, and/or decommissioned safely by human interaction",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0136#17",
+          "locator": "Background information, 2023 and 2024 Revisions of the Recommendation (list of 2024 updates)",
+          "text": "reflecting the growing importance of addressing misinformation and disinformation, and safeguarding information integrity in the context of generative AI",
+          "retrieved": "2026-10-13"
         }
       ]
     },
@@ -8447,6 +8487,16 @@
         {
           "date": "2026-10-13",
           "at": "2026-10-13T22:08:55Z",
+          "run": "2026-10-13-weekly",
+          "via": "headless Chromium (Playwright); curl gets HTTP 403 (Cloudflare)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "4734f600d53e98b2",
+          "bytes": 187753
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:09:34Z",
           "run": "2026-10-13-weekly",
           "via": "headless Chromium (Playwright); curl gets HTTP 403 (Cloudflare)",
           "status": "ok",
@@ -8716,6 +8766,16 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "97ebae26d83913b5",
           "bytes": 564930
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:09:34Z",
+          "run": "2026-10-13-weekly",
+          "via": "headless Chromium (Playwright), page content after JavaScript rendering; plain curl returns a JavaScript shell or a Cloudflare challenge (DOM saved after the networkidle wait timed out)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "cf1c3733f7612442",
+          "bytes": 574944
         }
       ],
       "passages": [
@@ -17737,6 +17797,16 @@
           "note": "copy saved by a research subagent",
           "sha256": "d0e68b264c1c51cb",
           "bytes": 55408
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:09:34Z",
+          "run": "2026-10-13-weekly",
+          "via": "headless Chromium (Playwright), page content after JavaScript rendering; plain curl returns a JavaScript shell or a Cloudflare challenge",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "d0e68b264c1c51cb",
+          "bytes": 55408
         }
       ],
       "passages": [
@@ -17919,6 +17989,16 @@
           "note": "copy saved by a research subagent",
           "sha256": "96daac33871cd165",
           "bytes": 221769
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:09:34Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl, second attempt (the first attempt was reset by the server)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "96daac33871cd165",
+          "bytes": 221769
         }
       ],
       "passages": [
@@ -17944,9 +18024,34 @@
           "via": "curl",
           "status": "error",
           "error": "curl: (35) Recv failure: Connection reset by peer"
+        },
+        {
+          "date": "2026-10-13",
+          "at": "2026-10-13T22:09:34Z",
+          "run": "2026-10-13-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://aievaluatorforum.org/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "e4ce8d4e83fe01bf",
+          "bytes": 55889
         }
       ],
-      "passages": []
+      "passages": [
+        {
+          "id": "S-0318#1",
+          "locator": "Who we are",
+          "text": "The Forum is not a legal entity in its own right and relies on voluntary participation from its members.",
+          "retrieved": "2026-10-13"
+        },
+        {
+          "id": "S-0318#2",
+          "locator": "Who we are",
+          "text": "The AI Evaluator Forum is a network of organizations conducting independent, third-party evaluations of AI systems.",
+          "retrieved": "2026-10-13"
+        }
+      ]
     },
     "S-0319": {
       "url": "https://digital-strategy.ec.europa.eu/en/events/call-participants-workshop-qualification-requirements-external-evaluators-gpai-models-systemic-risk",
