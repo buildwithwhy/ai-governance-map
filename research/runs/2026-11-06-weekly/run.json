@@ -1,0 +1,13 @@
+{
+  "id": "2026-11-06-weekly",
+  "label": "Weekly audit 2026-11-06",
+  "partial": true,
+  "started_at": "2026-11-06T18:00:29Z",
+  "finished_at": null,
+  "scope": {
+    "entries": [],
+    "note": null
+  },
+  "discovery": [],
+  "usage": null
+}
