@@ -359,6 +359,127 @@
           "sources": []
         }
       ]
+    },
+    {
+      "area": "B3 sector and general regulators in B1/B2 jurisdictions",
+      "summary": "Searched for new AI rules, codes and enforcement by Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA and Japanese ministries since June 2026. Found updates to existing entries (Japan FSA Discussion Paper v1.1; IMDA voluntary chatbot transparency guidelines; Colorado B-10.004 status) but no new regulator mechanism ready to add from primary sources.",
+      "queries": [
+        "Ofcom OR ICO AI chatbots 2026 regulations Online Safety Act extended OR \"code of practice\" automated decision-making",
+        "Australia AI Safety Institute 2026 eSafety AI companion chatbots codes enforcement 2026",
+        "Colorado Division of Insurance Bulletin B-10.004 quantitative testing 2026",
+        "doi.colorado.gov 2026 quantitative testing regulation algorithms predictive models adopted OR proposed rulemaking",
+        "FTC Rite Aid facial recognition stipulated order five years pdf",
+        "金融庁 AIディスカッションペーパー 2026 改訂 金融分野におけるAI"
+      ],
+      "limits": "ofcom.org.uk, ftc.gov, esafety.gov.au and content.naic.org could not be retrieved (bot challenges or connection resets), so UK, US-FTC and Australian regulator leads rest on search snippets only and are not verified. ico.org.uk was not attempted beyond search. The Colorado DOI bulletin and regulation lists are embedded Data Studio reports and could not be read.",
+      "candidates": [
+        {
+          "name": "Japan FSA AI Discussion Paper v1.1 (Mar 2026)",
+          "result": "update to existing entry",
+          "reason": "Current version of the FSA instrument jp-sectors refers to; drafted as a correction to the update note.",
+          "proposal": "P-0177",
+          "sources": [
+            "S-0343"
+          ]
+        },
+        {
+          "name": "IMDA Transparency Guidelines for Generative AI Chatbots",
+          "result": "update to existing entry",
+          "reason": "New voluntary IMDA guideline (chatbot info cards) seen on IMDA's AI page; date not shown on the page. Could be added to the imda entry's mit/update notes once its publication date is confirmed. Used as evidence for the pow question.",
+          "proposal": "P-0179",
+          "sources": [
+            "S-0260"
+          ]
+        },
+        {
+          "name": "eSafety Age-Restricted Material Codes covering AI companion chatbots (reported in force 9 Mar 2026) and transparency notices to AI companion providers",
+          "result": "lead — source inaccessible",
+          "reason": "Would update au-esafety's context/mit with AI-specific code obligations; esafety.gov.au and its PDFs reset every connection.",
+          "sources": []
+        },
+        {
+          "name": "UK: ICO statutory code on AI and automated decision-making (duty reportedly commenced May 2026); Ofcom chatbot explainer and possible extension of the OSA to chatbots",
+          "result": "lead — source inaccessible",
+          "reason": "Only secondary reports seen; ofcom.org.uk is behind Cloudflare and ico.org.uk was not reachable for this run. No enacted extension regulations found.",
+          "sources": []
+        },
+        {
+          "name": "Colorado DOI quantitative testing regulation",
+          "result": "screened out",
+          "reason": "DOI's SB21-169 page still shows only the Sept 2023 draft; no adopted rule found. Recorded in the co-doi eval proposal.",
+          "proposal": "P-0175",
+          "sources": [
+            "S-0258",
+            "S-0342"
+          ]
+        },
+        {
+          "name": "Colorado AG draft ADMT and conversational-AI rules (consultation Aug–Oct 2026)",
+          "result": "screened out",
+          "reason": "Implementing rules for co-aia (another group's entry), not a sector regulator; secondary snippet only. Passed on as a lead for the co-aia entry.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "area": "B3 compute and export controls",
+      "summary": "Searched for BIS changes on advanced chips or model weights since June 2026 and equivalents in B1 jurisdictions. Nothing new found beyond what the bis entry already records.",
+      "queries": [
+        "BIS export controls advanced computing chips rule 2026 October OR September OR August model weights"
+      ],
+      "limits": "One search; results were dominated by the Jan 2025 AI Diffusion Rule. Federal Register API and bis.gov were not queried, so a quiet rule change since June 2026 cannot be excluded. No B1-equivalent (Japan, Korea, China) export-control search was run beyond the national searches below.",
+      "candidates": []
+    },
+    {
+      "area": "B1 national discovery: China, South Korea, Japan, Singapore, Australia",
+      "summary": "Japan's second AI Basic Plan (Cabinet, 14 Jul 2026) verified and drafted as an addition. China's Interim Measures on anthropomorphic AI interaction services (in force 15 Jul 2026) verified but screened out as companion-service rules that exclude general assistants. Korea's AI Basic Act amendment (Jul 2026), Singapore's Online Safety Commission (Jun 2026) and Australia's AISI were seen only in secondary reports.",
+      "queries": [
+        "人工知能基本計画 閣議決定 cao.go.jp 2026 改定",
+        "China CAC 2026 measures artificial intelligence anthropomorphic interaction services finalized effective",
+        "人工智能拟人化互动服务管理暂行办法 国家互联网信息办公室 cac.gov.cn 2026",
+        "Korea AI Basic Act amendment 2026 enforcement decree high-impact AI Ministry of Science and ICT October 2026",
+        "Singapore Online Safety Commission 2026 operational Online Safety (Relief and Accountability) Act deepfake",
+        "Australia AI Safety Institute 2026 eSafety AI companion chatbots codes enforcement 2026"
+      ],
+      "limits": "Korean (law.go.kr), Singaporean (MDDI/OSC) and Australian (industry.gov.au) primary sources were not opened for lack of time, so those candidates remain leads. Chinese discovery covered CAC only.",
+      "candidates": [
+        {
+          "name": "Japan AI Basic Plan (first plan 23 Dec 2025; second plan 14 Jul 2026)",
+          "result": "proposed",
+          "reason": "Cabinet decision under Art. 18 of the AI Promotion Act; second plan commits J-AISI to proactive evaluation of highly capable frontier AI for national-security risks.",
+          "proposal": "P-0178",
+          "sources": [
+            "S-0300",
+            "S-0345"
+          ]
+        },
+        {
+          "name": "China: Interim Measures for the Administration of Anthropomorphic AI Interaction Services (CAC Order No. 21, in force 15 Jul 2026)",
+          "result": "screened out",
+          "reason": "Binding (fines up to ¥200,000) but limited to sustained emotional-interaction (companion) services; Art. 2 excludes assistants, Q&A and research services, so its bearing on frontier/GPAI governance is indirect. Could be mentioned in cn-genai's context if the maintainer wants.",
+          "sources": [
+            "S-0346"
+          ]
+        },
+        {
+          "name": "South Korea: AI Basic Act partial amendment and revised enforcement decree (reported Jul 2026)",
+          "result": "lead — source inaccessible",
+          "reason": "Secondary reports only (MLex, trackers); law.go.kr not opened. Relevant to kr-ai.",
+          "sources": []
+        },
+        {
+          "name": "Singapore: Online Safety Commission (reported operational 29 Jun 2026 under the Online Safety (Relief and Accountability) Act 2025)",
+          "result": "lead — source inaccessible",
+          "reason": "Secondary reports only; deepfake abuse reportedly in a later phase. General online-harms body, likely contextual at most.",
+          "sources": []
+        },
+        {
+          "name": "Australia: AI Safety Institute",
+          "result": "lead — source inaccessible",
+          "reason": "No primary source opened; Australia is already listed in other-aisis.",
+          "sources": []
+        }
+      ]
     }
   ],
   "usage": null

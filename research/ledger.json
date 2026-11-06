@@ -1,5 +1,5 @@
 {
-  "next": 174,
+  "next": 180,
   "proposals": [
     {
       "id": "P-0001",
@@ -18647,6 +18647,643 @@
         "linked": [
           "P-0158"
         ],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0174",
+      "fingerprint": "9a3e7e11552a",
+      "targets": [
+        "entry:au-esafety:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:34Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Australia eSafety: the Online Safety Act 2021 confers no AI-specific authority; AI duties come through codes and standards made under it",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "au-esafety",
+              "field": "desc",
+              "from": "World's first online safety regulator (established 2015), with AI-specific enforcement authority under the Online Safety Act 2021.",
+              "to": "World's first online safety regulator (established 2015). The Online Safety Act 2021 contains no AI-specific provisions; AI obligations come through industry codes and standards made under it (e.g. the 2024 standard covering high-impact generative AI services)."
+            }
+          ],
+          "why": "The entry tells readers that Australian law gives eSafety AI-specific powers. It does not: eSafety applies general online-safety powers, and AI enters only through instruments it makes under the Act.",
+          "rationale": "The current compilation of the Act (No. 4, 12 Sep 2026) contains no reference to artificial intelligence, generative systems, algorithms or chatbots. Section 145 lets the Commissioner determine industry standards; the 2024 DIS standard, made under s 145, defines a 'high impact generative AI DIS'. So the AI-specific element is the standard, not the Act.",
+          "evidence": [
+            {
+              "source": "S-0338",
+              "passage": "S-0338#1",
+              "stance": "supports",
+              "supports": "The compilation checked is current to 12 Sep 2026"
+            },
+            {
+              "source": "S-0338",
+              "passage": "S-0338#4",
+              "stance": "supports",
+              "supports": "No AI-specific provision in the Act"
+            },
+            {
+              "source": "S-0338",
+              "passage": "S-0338#3",
+              "stance": "supports",
+              "supports": "Commissioner's power to determine industry standards"
+            },
+            {
+              "source": "S-0339",
+              "passage": "S-0339#1",
+              "stance": "supports",
+              "supports": "The DIS standard is made under s 145"
+            },
+            {
+              "source": "S-0339",
+              "passage": "S-0339#2",
+              "stance": "supports",
+              "supports": "The standard, not the Act, defines generative-AI services"
+            }
+          ],
+          "uncertainty": "Absence was established by text search of the compiled Act; uncommenced amendments are not shown in a compilation (the endnotes list none affecting AI). 'World's first online safety regulator' is kept unverified (eSafety's own site was unreachable).",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "edge:uk-ofcom|au-esafety": "not in group C; its rel 'Parallel online-safety regulators with AI-specific authority' rests on the same claim and likely needs the same correction (Ofcom's own context already says its codes have no AI-specific provisions)",
+            "entry:au-esafety:context": "not in group C; says the Act lets eSafety issue codes and standards 'including for AI-generated content', which is consistent with this edit"
+          },
+          "unverified_carryover": [
+            "World's first online safety regulator (established 2015)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:uk-ofcom|au-esafety",
+            "edge:au-esafety|other-aisis",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "5a60103584f9"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0175",
+      "fingerprint": "22bbed4c5870",
+      "targets": [
+        "entry:co-doi:cov:eval"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:34Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Colorado DOI · Evaluation: Regulation 10-1-1 requires documented testing and monitoring, but the quantitative bias-testing rules it references are not yet adopted",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "co-doi",
+              "cat": "eval",
+              "from": "Algorithm governance framework with mandatory bias testing and documented model assumptions for in-scope insurance lines.",
+              "to": "Governance framework requiring documented testing, validation and drift monitoring of algorithms and predictive models for in-scope insurance lines. The quantitative unfair-discrimination testing it references awaits Division rules (only a 2023 draft exists), so reporting on it was waived for 2024 and 2025."
+            }
+          ],
+          "why": "'Mandatory bias testing' overstates what is currently required: the rule that would define the bias testing has not been adopted, and the Division waived the related reporting.",
+          "rationale": "Amended Reg. 10-1-1 §5.A.6 and §5.A.12 require documented testing, validation and drift monitoring; §5.A.11 requires a description of quantitative testing 'pursuant to requirements established by the Division'. Revised Bulletin B-10.004 (reissued 22 Oct 2025) says the Division has not yet adopted that regulation and waives the reporting for Dec 2024 and Dec 2025. The DOI's SB21-169 page still lists the quantitative testing regulation only as a Sept 2023 draft.",
+          "evidence": [
+            {
+              "source": "S-0341",
+              "passage": "S-0341#2",
+              "stance": "supports",
+              "supports": "Testing and validation documentation is required"
+            },
+            {
+              "source": "S-0341",
+              "passage": "S-0341#4",
+              "stance": "supports",
+              "supports": "Drift monitoring is required"
+            },
+            {
+              "source": "S-0341",
+              "passage": "S-0341#3",
+              "stance": "supports",
+              "supports": "Quantitative testing depends on Division requirements"
+            },
+            {
+              "source": "S-0342",
+              "passage": "S-0342#1",
+              "stance": "supports",
+              "supports": "Quantitative testing regulation not yet adopted; reporting waived"
+            },
+            {
+              "source": "S-0342",
+              "passage": "S-0342#2",
+              "stance": "supports",
+              "supports": "Bulletin current version dated 22 Oct 2025"
+            },
+            {
+              "source": "S-0258",
+              "passage": "S-0258#7",
+              "stance": "supports",
+              "supports": "Only a 2023 draft testing regulation exists"
+            },
+            {
+              "source": "S-0258",
+              "passage": "S-0258#6",
+              "stance": "supports",
+              "supports": "The statute holds insurers accountable for testing"
+            }
+          ],
+          "uncertainty": "A secondary report mentions a further reissue of B-10.004 in 2026; it could not be confirmed (the DOI bulletin list is an embedded Data Studio report). If the Division adopts the testing rule, the second sentence becomes outdated. 'Documented model assumptions' is dropped: the regulation mentions assumptions only as part of the quantitative-testing description.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:co-doi:context": "not in group C; 'conduct bias testing' there has the same overstatement and may need the same qualification"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:ny-raise:cov:acct",
+            "edge:co-doi|co-aia",
+            "edge:co-doi|ny-raise",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "640590ac0360"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0176",
+      "fingerprint": "76718c781d3f",
+      "targets": [
+        "edge:imda|other-aisis"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:34Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Connection IMDA ↔ Other national AISIs: the Digital Trust Centre is hosted by NTU and funded by IMDA and NRF; IMDA does not host it",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_edge",
+              "a": "imda",
+              "b": "other-aisis",
+              "from": "IMDA hosts Singapore's DTC + AI Verify AISI-equivalent work",
+              "to": "IMDA developed AI Verify and funds, with NRF, the NTU-hosted Digital Trust Centre, designated Singapore's AISI"
+            }
+          ],
+          "why": "The connection names the wrong host for Singapore's AI Safety Institute.",
+          "rationale": "NTU's DTC page (on ntu.edu.sg) says the DTC houses the Singapore AI Safety Institute and is funded by a $50 million grant from IMDA and NRF. IMDA's AI page says IMDA developed AI Verify and does not describe IMDA as hosting the DTC.",
+          "evidence": [
+            {
+              "source": "S-0186",
+              "passage": "S-0186#4",
+              "stance": "supports",
+              "supports": "DTC is a national centre housing the Singapore AISI"
+            },
+            {
+              "source": "S-0186",
+              "passage": "S-0186#5",
+              "stance": "supports",
+              "supports": "Funded by IMDA and NRF"
+            },
+            {
+              "source": "S-0186",
+              "passage": "S-0186#6",
+              "stance": "supports",
+              "supports": "DTC designated as Singapore's AISI"
+            },
+            {
+              "source": "S-0260",
+              "passage": "S-0260#10",
+              "stance": "supports",
+              "supports": "IMDA developed AI Verify"
+            },
+            {
+              "source": "S-0260",
+              "passage": "S-0260#15",
+              "stance": "supports",
+              "supports": "IMDA's page does not claim to host the DTC"
+            }
+          ],
+          "uncertainty": "The NTU page states the funding and designation but not the word 'hosted'; hosting is inferred from the centre's place within NTU's site and organisation. The 2024 designation press release itself was not opened.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:other-aisis:desc": "not in group C; 'Singapore (DTC + AI Verify)' remains accurate"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:imda|hiroshima",
+            "edge:imda|jp-sectors",
+            "text:layer-4:tooltip",
+            "entry:aisr:context",
+            "entry:aisi-net:context",
+            "entry:uk-aisi:cov:elicit",
+            "edge:aisi-net|other-aisis",
+            "edge:au-esafety|other-aisis",
+            "edge:jp-sectors|other-aisis",
+            "gap:eval",
+            "text:layer-4:subtitle"
+          ],
+          "hash": "d6499694f9e3"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0177",
+      "fingerprint": "dd30b33442e9",
+      "targets": [
+        "entry:jp-sectors:cov:update"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:34Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Japan sectoral regulators · Updating: the FSA instrument is the AI Discussion Paper (v1.1, Mar 2026), not a risk management framework; Guidelines are joint MIC/METI (v1.2)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "jp-sectors",
+              "cat": "update",
+              "from": "METI's AI Guidelines for Business updated periodically; FSA risk management framework revised as the GenAI landscape evolves.",
+              "to": "MIC/METI AI Guidelines for Business updated periodically (v1.2, Mar 2026); the FSA's AI Discussion Paper, an issues paper that sets no supervisory expectations, was revised to v1.1 in Mar 2026 as GenAI use in finance spread."
+            }
+          ],
+          "why": "The note names an FSA 'risk management framework' that does not exist under that name, and credits the Guidelines to METI alone.",
+          "rationale": "The FSA's AI document is the 'AI Discussion Paper', revised to version 1.1 in March 2026 after the FSA AI Public-Private Forum; it states that it does not set out supervisory expectations or required actions. The FSA paper itself cites the AI Guidelines for Business as published by METI and MIC, and METI's page shows the current version is 1.2.",
+          "evidence": [
+            {
+              "source": "S-0343",
+              "passage": "S-0343#1",
+              "stance": "supports",
+              "supports": "Name and version of the FSA document, March 2026"
+            },
+            {
+              "source": "S-0343",
+              "passage": "S-0343#2",
+              "stance": "supports",
+              "supports": "Not supervisory expectations"
+            },
+            {
+              "source": "S-0343",
+              "passage": "S-0343#3",
+              "stance": "supports",
+              "supports": "Revised from v1.0 to v1.1"
+            },
+            {
+              "source": "S-0343",
+              "passage": "S-0343#6",
+              "stance": "supports",
+              "supports": "Guidelines are joint METI/MIC"
+            },
+            {
+              "source": "S-0344",
+              "passage": "S-0344#1",
+              "stance": "supports",
+              "supports": "Guidelines now at v1.2"
+            }
+          ],
+          "uncertainty": "The FSA paper is an issues paper; whether the FSA will turn it into binding guidance is not known.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:jp-sectors:context": "checked; 'FSA … handles AI risk management in finance' is consistent with the Discussion Paper's model-risk-management section; MHLW/MIC claims remain unverified",
+            "entry:jp-sectors:desc": "not in group C; already names the MIC/METI Guidelines v1.2"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:imda|jp-sectors",
+            "edge:jp-sectors|jp-ai",
+            "edge:jp-sectors|hiroshima",
+            "edge:jp-sectors|other-aisis",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "cd0ea0223efa"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0178",
+      "fingerprint": "7d215906c73c",
+      "targets": [
+        "new:jp-aiplan",
+        "edge:jp-aiplan|jp-ai",
+        "edge:jp-aiplan|other-aisis"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:35Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "New entry: Japan AI Basic Plan (Cabinet decision; second plan of 14 Jul 2026 commits to frontier-AI evaluation by J-AISI)",
+          "kind": "addition",
+          "changes": [
+            {
+              "op": "add_entity",
+              "after": "jp-ai",
+              "entity": {
+                "id": "jp-aiplan",
+                "name": "Japan AI Basic Plan",
+                "layer": 2,
+                "jur": "as",
+                "pow": 2,
+                "status": "active",
+                "link": "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html",
+                "desc": "Cabinet-decided national AI plan under Art. 18 of the AI Promotion Act. First plan Dec 23, 2025; second plan Jul 14, 2026, to be revised in principle annually.",
+                "context": "The government's roadmap under the AI Promotion Act, assigning measures to ministries. The second plan responds to agentic AI and AI-enabled cyberattacks: it commits to strengthening J-AISI, including proactive evaluation of highly capable frontier AI for national-security risks, and to leading international discussion of frontier-AI governance. Like the US AI Action Plan, a policy document with no binding obligations on developers; it encourages voluntary steps.",
+                "cov": {
+                  "eval": "Commits to building J-AISI's technical evaluation capacity, including proactive evaluation of highly capable frontier AI from a national-security perspective, and to linking results to ministries' systems and guidelines.",
+                  "update": "Reviewed and revised as needed, in principle annually; the second plan (Jul 2026) followed the first (Dec 2025) within seven months."
+                }
+              }
+            },
+            {
+              "op": "add_edge",
+              "a": "jp-aiplan",
+              "b": "jp-ai",
+              "rel": "The Basic Plan is decided under Art. 18 of the AI Promotion Act"
+            },
+            {
+              "op": "add_edge",
+              "a": "jp-aiplan",
+              "b": "other-aisis",
+              "rel": "Second plan commits to strengthening J-AISI's frontier-AI evaluation"
+            }
+          ],
+          "why": "The map has Japan's AI Promotion Act but not the Cabinet plan that implements it. The July 2026 plan is Japan's first government commitment to evaluate highly capable frontier AI for national-security risks, which bears directly on frontier-AI governance.",
+          "rationale": "The Cabinet Office page shows the second plan decided by the Cabinet on 14 Jul 2026 and the first on 23 Dec 2025. The plan's text states its Art. 18 basis, the AISI commitments, the voluntary approach and annual revision. It meets RUBRIC §1 (identifiable Cabinet decision, attributable to the Cabinet/AI Strategic Headquarters, material through the frontier-AI evaluation commitments). Layer 2 and pow 2 follow the US AI Action Plan precedent (policy document of recommended actions, pow 2).",
+          "evidence": [
+            {
+              "source": "S-0300",
+              "passage": "S-0300#3",
+              "stance": "supports",
+              "supports": "Second plan, Cabinet decision 14 Jul 2026"
+            },
+            {
+              "source": "S-0300",
+              "passage": "S-0300#4",
+              "stance": "supports",
+              "supports": "First plan, Cabinet decision 23 Dec 2025"
+            },
+            {
+              "source": "S-0345",
+              "passage": "S-0345#1",
+              "stance": "supports",
+              "supports": "Second plan"
+            },
+            {
+              "source": "S-0345",
+              "passage": "S-0345#2",
+              "stance": "supports",
+              "supports": "Art. 18 basis"
+            },
+            {
+              "source": "S-0345",
+              "passage": "S-0345#4",
+              "stance": "supports",
+              "supports": "Frontier-AI evaluation commitment"
+            },
+            {
+              "source": "S-0345",
+              "passage": "S-0345#5",
+              "stance": "supports",
+              "supports": "AISI evaluation capacity"
+            },
+            {
+              "source": "S-0345",
+              "passage": "S-0345#6",
+              "stance": "supports",
+              "supports": "Results linked to ministries"
+            },
+            {
+              "source": "S-0345",
+              "passage": "S-0345#7",
+              "stance": "supports",
+              "supports": "Lead international frontier-AI governance discussion"
+            },
+            {
+              "source": "S-0345",
+              "passage": "S-0345#3",
+              "stance": "supports",
+              "supports": "Voluntary approach (pow 2)"
+            },
+            {
+              "source": "S-0345",
+              "passage": "S-0345#8",
+              "stance": "supports",
+              "supports": "Annual revision"
+            }
+          ],
+          "uncertainty": "Quotations are from the Cabinet Office's provisional English translation, which says the Japanese text prevails. An alternative is to fold the plan into the jp-ai entry instead of adding an entry; the maintainer may prefer that. Edge to jp-sectors not drafted (the plan assigns measures to ministries, but no sector-by-sector link was checked).",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:jp-ai:context": "not in group C; unaffected, though it could mention the plan"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:jp-sectors:desc",
+            "edge:hiroshima|jp-ai",
+            "edge:jp-sectors|jp-ai",
+            "entry:aisr:context",
+            "entry:aisi-net:context",
+            "entry:uk-aisi:cov:elicit",
+            "edge:aisi-net|other-aisis",
+            "edge:au-esafety|other-aisis",
+            "edge:imda|other-aisis",
+            "edge:jp-sectors|other-aisis",
+            "gap:eval",
+            "text:layer-4:tooltip",
+            "text:layer-4:subtitle"
+          ],
+          "hash": "54190aaf5354"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0179",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:35Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Singapore IMDA: enforceability pow 3 or pow 2?",
+          "kind": "flag",
+          "changes": [],
+          "why": "pow 3 implies a binding instrument with weak enforcement. The entry presents no binding AI instrument from IMDA, so the rating overstates its legal force on AI developers.",
+          "rationale": "RUBRIC §4 puts government-issued non-binding guidance and voluntary codes at pow 2. IMDA's own AI page describes its frameworks as guidance and its newest instruments as voluntary guidelines; the entry's context itself says Singapore 'emphasises voluntary frameworks'. Option b matches the rubric and the entry text. No prose count needs changing (stats count only pow 1 and pow 4, and are derived).",
+          "evidence": [
+            {
+              "source": "S-0260",
+              "passage": "S-0260#12",
+              "stance": "supports",
+              "supports": "Chatbot transparency guidelines are voluntary"
+            },
+            {
+              "source": "S-0260",
+              "passage": "S-0260#13",
+              "stance": "supports",
+              "supports": "Testing starter kit is voluntary guidance"
+            },
+            {
+              "source": "S-0260",
+              "passage": "S-0260#14",
+              "stance": "supports",
+              "supports": "Model Framework is guidance"
+            }
+          ],
+          "uncertainty": "IMDA is also a statutory regulator with penalty powers in other areas (e.g. online-safety codes under the Broadcasting Act), which were not checked. If those powers are counted as they are for Ofcom and eSafety, pow 4 would be the consistent rating; that would need a source check and a desc that names the power. imda's entry metadata is in another group's item list, which may raise the same question.",
+          "confidence": "medium",
+          "question": "IMDA is rated pow 3 (hard law, weak enforcement), but every AI instrument the entry describes (Model AI Governance Framework, AI Verify, chatbot transparency guidelines, testing starter kits) is voluntary guidance. Should IMDA be pow 2 (soft/advisory)?",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Keep pow 3",
+              "changes": []
+            },
+            {
+              "key": "b",
+              "label": "Reclassify as pow 2 (soft / advisory)",
+              "changes": [
+                {
+                  "op": "set_field",
+                  "entity": "imda",
+                  "field": "pow",
+                  "from": 3,
+                  "to": 2
+                }
+              ]
+            }
+          ],
+          "recommended": "b",
+          "knock_on": [
+            "edge:imda|other-aisis",
+            "edge:imda|hiroshima",
+            "edge:imda|jp-sectors",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "b16996654c4f"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
         "updated": "2026-11-06"
       }
     }

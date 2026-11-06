@@ -1,5 +1,5 @@
 {
-  "next": 338,
+  "next": 347,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -12275,6 +12275,24 @@
           "locator": "AISI designation",
           "text": "the Singapore AISI will work on addressing the gaps in global AI safety science, leveraging Singapore's work in AI evaluation and testing.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0186#4",
+          "locator": "About Us",
+          "text": "The Digital Trust Centre is a national centre that leads Singapore’s research and development efforts in trust technologies, including AI Safety. The objectives of the DTC, which also houses the Singapore AI Safety Institute",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0186#5",
+          "locator": "About Us",
+          "text": "Our work is funded by a $50 million grant from IMDA and NRF, starting from 1 October 2022.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0186#6",
+          "locator": "AISI section",
+          "text": "With the designation of the Digital Trust Centre as Singapore’s AI Safety Institute (AISI), the Singapore AISI will work on addressing the gaps in global AI safety science",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -15559,7 +15577,9 @@
       "title": "Online Safety Act 2023, section 144 (Service restriction orders)",
       "publisher": "legislation.gov.uk",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "adopted": "2023-10-26"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
@@ -15572,6 +15592,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "c3e1be2de6bf706f",
           "bytes": 54762
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:31:24Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.uk/ukpga/2023/50/section/144",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "9c9efca4c2edc9d5",
+          "bytes": 53431
         }
       ],
       "passages": [
@@ -15580,6 +15612,12 @@
           "locator": "s. 144(1)",
           "text": "OFCOM may apply to the court for an order under this section (a “service restriction order”) in relation to a regulated service",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0242#2",
+          "locator": "s 144(1)",
+          "text": "OFCOM may apply to the court for an order under this section (a “service restriction order”) in relation to a regulated service",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -16290,7 +16328,7 @@
     },
     "S-0257": {
       "url": "https://doi.colorado.gov/category/ai",
-      "title": "AI | DORA - Division of Insurance",
+      "title": "AI | DORA - Division of Insurance (category page)",
       "publisher": "Colorado Division of Insurance",
       "type": "primary",
       "dates": {},
@@ -16306,6 +16344,16 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "b3bcb57c679784f3",
           "bytes": 90117
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:31:26Z",
+          "run": "2026-11-06-weekly",
+          "via": "headless Chromium (doi.colorado.gov answers curl with HTTP 403)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "2f633387e2ec9b6d",
+          "bytes": 196281
         }
       ],
       "passages": [
@@ -16314,6 +16362,12 @@
           "locator": "category listing",
           "text": "Division of Insurance Partners with ORCAA to Protect Colorado Insurance Consumers",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0257#2",
+          "locator": "Category listing",
+          "text": "Division of Insurance Partners with ORCAA to Protect Colorado Insurance Consumers",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -16379,6 +16433,18 @@
           "locator": "intro",
           "text": "On July 6, 2021, Governor Polis signed Senate Bill (SB) 21-169 into law",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0258#6",
+          "locator": "Introduction",
+          "text": "The legislation holds insurers accountable for testing their big data systems - including external consumer data and information sources, algorithms, and predictive models - to ensure they are not unfairly discriminating against consumers on the basis of a protected class.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0258#7",
+          "locator": "Life Insurance Underwriting — Regulations & Guidance",
+          "text": "The Division released a DRAFT PROPOSED Algorithm and Predictive Model Quantitative Testing Regulation … for informal comments on September 28, 2023.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -16511,6 +16577,42 @@
           "locator": "Transparency Guidelines for Generative AI Chatbots",
           "text": "These voluntary guidelines take a first step towards closing this gap, beginning with generative AI chatbots",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0260#10",
+          "locator": "AI Verify",
+          "text": "IMDA developed AI Verify, a AI governance testing framework and software toolkit.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0260#11",
+          "locator": "AI Verify",
+          "text": "AI Verify was developed in consultation with companies of different sizes and sectors — including AWS, DBS, Google, Meta, Microsoft, Singapore Airlines, NCS/LTA, Standard Chartered, UCARE.AI, and X0PA. It was released for international pilot in May 2022 and open-sourced in 2023",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0260#12",
+          "locator": "Using AI Responsibly — Transparency Guidelines for Generative AI Chatbots",
+          "text": "These voluntary guidelines take a first step towards closing this gap, beginning with generative AI chatbots, the application with the widest consumer reach and the subject of considerable public concern.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0260#13",
+          "locator": "Using AI Responsibly — Starter Kit for Testing LLM-based Applications",
+          "text": "consolidating emerging best practices from industry and government into practical, voluntary guidelines",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0260#14",
+          "locator": "Using AI Responsibly — Model AI Governance Framework",
+          "text": "The framework provides detailed and readily implementable guidance to private sector organisations to address key ethical and governance issues when deploying AI solutions.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0260#15",
+          "locator": "Whole page (search)",
+          "text": "[Observation, not a quotation] Searched the expanded page for 'Digital Trust', 'NTU' and 'AI Safety Institute': it never describes IMDA as hosting the Digital Trust Centre; the only AISI mention is a reference to 'Singapore AI Safety Institute's testing work' feeding IMDA's Agentic Testing Starter Kit.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -18694,8 +18796,8 @@
     },
     "S-0300": {
       "url": "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html",
-      "title": "Cabinet Office: AI Basic Plan (人工知能基本計画), Cabinet decisions of 23 Dec 2025 and 14 Jul 2026",
-      "publisher": "Cabinet Office, Government of Japan",
+      "title": "人工知能基本計画 - 科学技術・イノベーション - 内閣府",
+      "publisher": "Cabinet Office (Japan)",
       "type": "primary",
       "dates": {
         "adopted": "2026-07-14"
@@ -18705,6 +18807,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:35:21Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html",
+          "content_type": "text/html",
+          "sha256": "129b63a8cf205cbc",
+          "bytes": 12843
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:31:27Z",
+          "run": "2026-11-06-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -18726,6 +18840,18 @@
           "locator": "past plans",
           "text": "令和7年12月23日 閣議決定 [Cabinet decision of 23 Dec 2025]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0300#3",
+          "locator": "Page body",
+          "text": "令和８年７月14日 閣議決定 [Cabinet decision, 14 July 2026 (Reiwa 8)]",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0300#4",
+          "locator": "（過去の人工知能基本計画）",
+          "text": "令和7年12月23日 閣議決定 [Cabinet decision, 23 December 2025 (Reiwa 7)]",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -20312,6 +20438,437 @@
           "id": "S-0337#1",
           "locator": "Body",
           "text": "Anthropic has unilaterally committed to embedded third-party evaluations with employee-like access.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0338": {
+      "url": "https://www.legislation.gov.au/C2021A00076/2026-09-12/2026-09-12/text/original/epub/OEBPS/document_1/document_1.html",
+      "title": "Online Safety Act 2021 (Compilation No. 4, 12 September 2026)",
+      "publisher": "Federal Register of Legislation (Australia)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2021-07-23",
+        "in_force": "2022-01-23",
+        "published": "2026-09-12"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:31:22Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.au/C2021A00076/2026-09-12/2026-09-12/text/original/epub/OEBPS/document_1/document_1.html",
+          "content_type": "text/html",
+          "sha256": "950b2c895cd31332",
+          "bytes": 1018397
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0338#1",
+          "locator": "Front matter",
+          "text": "Compilation No. 4 Compilation date: 12 September 2026 Includes amendments: Act No. 83, 2026",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0338#2",
+          "locator": "s 26",
+          "text": "26 eSafety Commissioner There is to be an eSafety Commissioner.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0338#3",
+          "locator": "s 145(1)",
+          "text": "The Commissioner may, by legislative instrument, determine a standard that applies to participants in a particular section of the online industry if:",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0338#4",
+          "locator": "Whole compilation (search)",
+          "text": "[Observation, not a quotation] Searched the full text of Compilation No. 4 (12 Sep 2026) for 'artificial', 'generative', 'algorithm', 'machine learning' and 'chatbot': none occurs. The Act confers general online-safety powers (complaints, removal notices, codes, standards, penalties) with no AI-specific provision.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0339": {
+      "url": "https://www.legislation.gov.au/F2024L00710/asmade/2024-06-21/text/original/epub/OEBPS/document_1/document_1.html",
+      "title": "Online Safety (Designated Internet Services—Class 1A and Class 1B Material) Industry Standard 2024 (as made)",
+      "publisher": "Federal Register of Legislation (Australia)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2024-06-19",
+        "published": "2024-06-21"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:31:23Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.au/F2024L00710/asmade/2024-06-21/text/original/epub/OEBPS/document_1/document_1.html",
+          "content_type": "text/html",
+          "sha256": "7c67d615bb452afb",
+          "bytes": 265294
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0339#1",
+          "locator": "s 3 Authority",
+          "text": "This industry standard is determined under section 145 of the Online Safety Act 2021",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0339#2",
+          "locator": "s 6 General definitions, 'high impact generative AI DIS'",
+          "text": "high impact generative AI DIS means a designated internet service that: (a) uses machine learning models to enable an end-user to produce material; and (b) is capable of being used to generate synthetic high impact material",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0340": {
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/schedule/13/paragraph/4",
+      "title": "Online Safety Act 2023, Schedule 13 paragraph 4 (Maximum amount of penalties)",
+      "publisher": "legislation.gov.uk",
+      "type": "primary",
+      "dates": {
+        "adopted": "2023-10-26"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:31:24Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.uk/ukpga/2023/50/schedule/13/paragraph/4",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "e76454b303d08b4c",
+          "bytes": 41179
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0340#1",
+          "locator": "Sch. 13 para 4(1)",
+          "text": "the maximum amount of the penalty for which the person is liable is whichever is the greater of— (a) £18 million, and (b) 10% of the person’s qualifying worldwide revenue",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0341": {
+      "url": "https://drive.google.com/uc?export=download&id=1gWvUT_zEn6npupumvYB4Sq_hvh2OZO8y",
+      "title": "Amended Regulation 10-1-1 (3 CCR 702-10), Governance and Risk Management Framework Requirements for Life Insurers', Private Passenger Automobile Insurers', and Health Benefit Plan Insurers' Use of ECDIS, Algorithms, and Predictive Models",
+      "publisher": "Colorado Division of Insurance (linked from its 20 Aug 2025 notice of adoption)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-08-20",
+        "effective": "2025-10-15"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:31:25Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://drive.usercontent.google.com/download?id=1gWvUT_zEn6npupumvYB4Sq_hvh2OZO8y&export=download",
+          "content_type": "application/octet-stream",
+          "sha256": "650c2d7365a1a452",
+          "bytes": 260147
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0341#1",
+          "locator": "Section 3 Applicability",
+          "text": "This regulation shall apply to all insurers authorized to do business in the state of Colorado and offering the following types of insurance:",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0341#2",
+          "locator": "Section 5.A.6",
+          "text": "Documented policies, processes, and procedures, including assigned roles and responsibilities, for the design, development, testing, deployment, use, and ongoing monitoring of ECDIS, as well as algorithms and predictive models that use ECDIS, and processes to ensure that they are documented, tested, and validated.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0341#3",
+          "locator": "Section 5.A.11",
+          "text": "Documented description of quantitative testing conducted pursuant to requirements established by the Division to detect unfair discrimination in insurance practices resulting from the use of ECDIS",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0341#4",
+          "locator": "Section 5.A.12",
+          "text": "Documented description of ongoing monitoring regarding the performance of algorithms and predictive models that use ECDIS including accounting for model drift.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0341#5",
+          "locator": "Section 9 Enforcement",
+          "text": "Noncompliance with this regulation may result in the imposition of any sanctions made available in the Colorado statutes pertaining to the business of insurance, or other laws, which include the imposition of civil penalties, issuance of cease and desist orders, and/or suspensions or revocations of license",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0341#6",
+          "locator": "Section 11 History",
+          "text": "New regulation effective November 14, 2023. Amended regulation effective October 15, 2025.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0342": {
+      "url": "https://doi.colorado.gov/sites/doi/files/documents/Revised%20Bulletin%20B-10.004%20Waiver%20of%20Certain%20Requirements%20Bulletin%20-%20adoption.pdf",
+      "title": "Revised Bulletin No. B-10.004, Concerning the Quantitative Testing Reporting Requirement for Life Insurers that Use External Consumer Data and Information Sources",
+      "publisher": "Colorado Division of Insurance",
+      "type": "primary",
+      "dates": {
+        "published": "2025-10-22",
+        "adopted": "2024-10-18"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:31:26Z",
+          "run": "2026-11-06-weekly",
+          "via": "headless Chromium request context (doi.colorado.gov answers curl with HTTP 403)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "3f5505f40a8a885f",
+          "bytes": 339449
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0342#1",
+          "locator": "III. Division Position",
+          "text": "Because the Division has not yet adopted a regulation establishing the required quantitative testing referenced in Regulation 10-1-1, the quantitative testing reporting requirement is not applicable for the current reporting period.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0342#2",
+          "locator": "V. History",
+          "text": "Issued October 18, 2024 Reissued October 22, 2025.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0342#3",
+          "locator": "I. Background and Purpose",
+          "text": "Bulletins themselves establish neither binding norms nor finally determine issues or rights.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0343": {
+      "url": "https://www.fsa.go.jp/news/r7/sonota/20260303/aidp_version1.1.pdf",
+      "title": "AIディスカッションペーパー（第1.1版）— 金融分野におけるAIの健全な利活用の促進に向けた初期的な論点整理",
+      "publisher": "Financial Services Agency (Japan)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-03-03"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:31:26Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.fsa.go.jp/news/r7/sonota/20260303/aidp_version1.1.pdf",
+          "content_type": "application/pdf",
+          "sha256": "62d709ea8a1f0213",
+          "bytes": 1398803
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0343#1",
+          "locator": "Cover page",
+          "text": "AI ディスカッションペーパー（第 1.1 版） - 金融分野における AI の健全な利活用の促進 に向けた初期的な論点整理 - [AI Discussion Paper (Version 1.1): initial issues for promoting sound use of AI in finance] … 2026 年３月",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0343#2",
+          "locator": "II.1 目的・位置づけ",
+          "text": "本文書は、モニタリング上の目線や金融機関等に求める具体的対応を示すものではなく [This document does not set out supervisory expectations or specific actions required of financial institutions]",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0343#3",
+          "locator": "II.2 本文書 1.1 版への改訂の背景",
+          "text": "本文書 1.0 版に AI 官民フォーラムで得られた知見を基にアップデートを加え、本文書 1.1 版として改訂することとした。[Version 1.0 was updated with findings from the FSA AI Public-Private Forum and revised as Version 1.1.]",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0343#4",
+          "locator": "Table of contents, IV.1②",
+          "text": "説明可能性の担保 … 公平性・バイアス … ハルシネーション（幻覚） [ensuring explainability … fairness and bias … hallucination]",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0343#5",
+          "locator": "Table of contents, IV.1① vi",
+          "text": "モデル・リスク管理 [model risk management]",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0343#6",
+          "locator": "IV.1①iii",
+          "text": "2024 年 4 月に経済産業省・総務省から公表された「AI 事業者ガイドライン（第 1.0 版） [AI Guidelines for Business (v1.0), published by METI and MIC in April 2024]",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0343#7",
+          "locator": "IV.2①i 政府等における直近の対応",
+          "text": "2025 年 12 月には、「人工知能基本計画」 （AI 基本計画）及び「人工知能関連技術の研究開発及び活用の適正性確保に関する指針」が決定された。[In December 2025 the AI Basic Plan and the Guidelines on Ensuring Appropriateness … were decided.]",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0344": {
+      "url": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html",
+      "title": "AI事業者ガイドライン（METI/経済産業省）",
+      "publisher": "Ministry of Economy, Trade and Industry (Japan)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-03-31"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:31:27Z",
+          "run": "2026-11-06-weekly",
+          "via": "headless Chromium (meti.go.jp answers curl with HTTP 403)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "ca23448ea816e3ec",
+          "bytes": 43450
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0344#1",
+          "locator": "Page body",
+          "text": "AI事業者ガイドライン検討会にて、「AI事業者ガイドライン（第1.2版）」をとりまとめました。[The study group compiled the AI Guidelines for Business (Version 1.2).]",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0345": {
+      "url": "https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_eng_20260714.pdf",
+      "title": "Japan's Second Artificial Intelligence Basic Plan (provisional translation, as of July 14, 2026)",
+      "publisher": "Cabinet Office (Japan)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-07-14",
+        "published": "2026-07-14"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:31:28Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_eng_20260714.pdf",
+          "content_type": "application/pdf",
+          "sha256": "c65419ac8c02ca52",
+          "bytes": 472283
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0345#1",
+          "locator": "Cover",
+          "text": "Japan’s Second ARTIFICIAL INTELLIGENCE BASIC PLAN",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0345#2",
+          "locator": "Chapter 1 Basic Concept",
+          "text": "On December 23, 2025, the Cabinet decided Japan’s first “Artificial Intelligence Basic Plan,” as provided for in Article 18, paragraph (1) of the Act on Promotion of Research and Development, and deployment of Artificial Intelligence-related Technology",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0345#3",
+          "locator": "Chapter 3 Section 3 Leading AI Governance",
+          "text": "By organically combining measures based on the AI Act and related measures, we are encouraging business operators and citizens to take voluntary and proactive steps.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0345#4",
+          "locator": "Chapter 3 Section 3 Leading AI Governance",
+          "text": "We also need to further strengthen AISI. We will integrally advance the formulation of guidelines to ensure safety and security during AI deployment and development, including agentic AI; the proactive evaluation of highly capable frontier AI from the perspective of deterring events that threaten national security",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0345#5",
+          "locator": "Chapter 3 Section 3, measure (vii)",
+          "text": "Centered on AISI, establish and strengthen technical evaluation capabilities that enable evaluation of AI models, traceability, technical controls such as guardrails, and information sharing in times of crisis.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0345#6",
+          "locator": "Chapter 3 Section 3, measure (vii)",
+          "text": "Also establish mechanisms by which evaluation results are appropriately connected to systems, guidelines, and improvements in the operations of relevant ministries and agencies.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0345#7",
+          "locator": "Chapter 3 Section 3 Leading AI Governance",
+          "text": "Japan will collaborate with other nations to take the lead in international discussions on the governance of highly capable frontier AI.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0345#8",
+          "locator": "Chapter 4 Section 2 Revisions to the AI Basic Plan",
+          "text": "we will review and revise this Plan as needed, in principle annually.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0346": {
+      "url": "https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm",
+      "title": "人工智能拟人化互动服务管理暂行办法 (CAC Order No. 21)",
+      "publisher": "Cyberspace Administration of China et al.",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-02-02",
+        "published": "2026-04-10",
+        "in_force": "2026-07-15"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:31:31Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl (cac.gov.cn reset the first two connections; third attempt succeeded)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "24cd9922b4490808",
+          "bytes": 36308
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0346#1",
+          "locator": "Order No. 21 preamble",
+          "text": "《人工智能拟人化互动服务管理暂行办法》已经2026年2月2日国家互联网信息办公室2026年第3次室务会会议审议通过 … 现予公布，自2026年7月15日起施行。[The Interim Measures for the Administration of Anthropomorphic AI Interaction Services … are promulgated and take effect on 15 July 2026.]",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0346#2",
+          "locator": "Art. 2",
+          "text": "提供智能客服、知识问答、工作助手、学习教育、科学研究等服务，不涉及持续性的情感互动的，不适用本办法。[Services such as customer service, Q&A, work assistants, education and research that do not involve sustained emotional interaction are not covered.]",
           "retrieved": "2026-11-06"
         }
       ]
