@@ -610,9 +610,9 @@ function report(id) {
   o.push('## 2. Attempted checks that did not verify', '');
   if (!unresolved.length) o.push('_None._', '');
   const groups = {};
-  for (const i of unresolved) { const k = `${per[i].outcome}|${per[i].note}|${per[i].sources.join(',')}`; (groups[k] = groups[k] || []).push(i); }
+  for (const i of unresolved) { const k = JSON.stringify([per[i].outcome, per[i].note, per[i].sources.join(',')]); (groups[k] = groups[k] || []).push(i); }
   for (const [k, items] of Object.entries(groups)) {
-    const [outcome, note, srcs] = k.split('|');
+    const [outcome, note, srcs] = JSON.parse(k); // notes can contain '|' (connection ids)
     const r = per[items[0]];
     o.push(`- **${OUTCOMES[outcome]}** — ${items.length} item(s): ${items.map(i => `\`${i}\``).join(', ')}`, `  ${note}`);
     if (r.missing) o.push(`  **Still missing:** ${r.missing}`);
@@ -637,9 +637,9 @@ function report(id) {
   const succ = (scope) => runIds.filter(i => ok(per[i]) && (per[i].scope === 'internal') === (scope === 'internal'));
   const listChecks = ids => {
     const byNote = {};
-    for (const i of ids) { const k = `${per[i].outcome}|${per[i].note}|${per[i].sources.join(',')}`; (byNote[k] = byNote[k] || []).push(i); }
+    for (const i of ids) { const k = JSON.stringify([per[i].outcome, per[i].note, per[i].sources.join(',')]); (byNote[k] = byNote[k] || []).push(i); }
     for (const [k, items] of Object.entries(byNote)) {
-      const [outcome, note, srcs] = k.split('|');
+      const [outcome, note, srcs] = JSON.parse(k); // notes can contain '|' (connection ids)
       o.push(`- ${items.map(i => `\`${i}\``).join(', ')} — _${OUTCOMES[outcome]}_`, `  ${note} — sources: ${list(srcs).map(s => `${s} <${db.sources[s].url}>`).join('; ')}`);
     }
     if (!ids.length) o.push('_None._');
