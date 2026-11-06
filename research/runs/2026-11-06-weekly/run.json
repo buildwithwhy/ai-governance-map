@@ -235,6 +235,37 @@
           ]
         }
       ]
+    },
+    {
+      "area": "F1 changed-sources check (labs' framework pages, EU GPAI Code, Seoul/Delhi/Paris summits, IASR, OECD, UK King's Speech/Bills API)",
+      "summary": "No new version of a monitored document found among the 17 changed sources. Most 'changes' were artefacts: gzip bodies (DeepMind blog), the Trust Center index saved instead of the FCF PDF, invisible U+2060 characters (PIB), inline footnote markers (GOV.UK) and observation passages. Real changes: x.ai/safety now brands the company SpaceXSI and links the (identical) 30 Jun 2026 framework at a new URL; Anthropic's RSP page added redlines for earlier versions; the UK Bills API lists a new AI bill.",
+      "queries": [
+        "re-read today's cached copies of S-0003, S-0005, S-0010, S-0034, S-0063, S-0068, S-0104, S-0110, S-0120, S-0121, S-0122, S-0130, S-0132, S-0135, S-0136, S-0287, S-0289",
+        "Trust Center FCF via headless Chromium",
+        "x.ai/safety framework link followed",
+        "UK Bills API bill 4310"
+      ],
+      "limits": "Not a discovery search: only the documents these pages point to were opened. leginfo (SB 53) and coe.int served Cloudflare challenges.",
+      "candidates": [
+        {
+          "name": "xAI Frontier AI Framework moved to a new URL (…-f1f0c916.pdf); x.ai rebranded SpaceXSI",
+          "result": "update to existing entry",
+          "reason": "Same 30 Jun 2026 edition (identical text) at a new URL; the old URL (S-0108) is 404. No map edit needed because the entry links x.ai/safety; future checks should cite the new URL. The SpaceX Super Intelligence LLC branding may matter if xAI's frameworks are reissued under the new name.",
+          "sources": [
+            "S-0110",
+            "S-0307"
+          ]
+        },
+        {
+          "name": "Artificial Intelligence (Consent and Misuse) Bill (UK, bill 4310)",
+          "result": "screened out",
+          "reason": "Private member's bill (Dawn Butler) on consent for AI-generated likenesses, with duties on AI providers regarding misuse; at Commons 2nd reading. Not frontier/GPAI-specific and not a government bill; flagged for the UK discovery slice to confirm.",
+          "sources": [
+            "S-0289",
+            "S-0323"
+          ]
+        }
+      ]
     }
   ],
   "usage": null

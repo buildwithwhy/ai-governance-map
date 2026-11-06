@@ -1,5 +1,5 @@
 {
-  "next": 323,
+  "next": 324,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -447,6 +447,30 @@
           "locator": "Signatories of the code of practice",
           "text": "[Observation, not a quotation] Searched the signatory list (last update 7 Oct 2026) for Meta; it is not listed. The page does not say whether Meta declined.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0003#17",
+          "locator": "Intro",
+          "text": "The General-Purpose AI (GPAI) code of practice is a voluntary tool, prepared by independent experts in a multi-stakeholder process, designed to help industry comply with the AI Act’s obligations for providers of general-purpose AI models.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0003#18",
+          "locator": "The 3 chapters of the code",
+          "text": "Below you can download the code, consisting of three separately authored chapters: Transparency, Copyright, and Safety and Security.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0003#19",
+          "locator": "Signatories of the code of practice",
+          "text": "In addition, xAI signed up to the Safety and Security Chapter; this means that it will have to demonstrate compliance with the AI Act’s obligations concerning transparency and copyright via alternative adequate means.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0003#20",
+          "locator": "Signatories of the code of practice (retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The signatory list still names 22 providers (AI Studio Delta … WRITER), including Amazon, Anthropic, Google, Microsoft and OpenAI; Meta does not appear, and the page gives no reason for any provider's absence. The page's 'Last update' is still 7 October 2026; the list is unchanged since the 2026-10-10 audit.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -614,6 +638,72 @@
           "id": "S-0005#10",
           "locator": "Version list (searched)",
           "text": "[Observation, not a quotation] The newest version listed is 3.4 (effective July 8, 2026); the newest update entry is the August 2026 Risk Report (Aug 14, 2026). No later RSP version appears.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0005#11",
+          "locator": "Page header",
+          "text": "Last updated Aug 14, 2026",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0005#12",
+          "locator": "Current and Prior Versions",
+          "text": "Version 3.0 (effective February 24, 2026)",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0005#13",
+          "locator": "Current and Prior Versions",
+          "text": "Version 1.0 (effective September 19, 2023)",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0005#14",
+          "locator": "Risk Reports",
+          "text": "Redacted Risk Report August 2026",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0005#15",
+          "locator": "Risk Reports",
+          "text": "Redacted Risk Report February 2026",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0005#16",
+          "locator": "July 8, 2026 update",
+          "text": "This version 3.4 update does the following: 1) revises our threshold for automated R&D to better track the threat model of concern",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0005#17",
+          "locator": "May 26, 2026 update",
+          "text": "This version 3.3 update does the following: 1) revises our threshold for novel chemical/biological weapons production to better track the threat model of concern",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0005#18",
+          "locator": "April 29, 2026 update",
+          "text": "Version 3.2 of our RSP authorizes the LTBT to request external review of Risk Reports, gives the LTBT the power to approve our selection of external reviewers",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0005#19",
+          "locator": "April 2, 2026 update",
+          "text": "we expect to make further changes, all of which will be logged both on this page and in a changelog in the policy document itself.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0005#20",
+          "locator": "February 24, 2026 update",
+          "text": "Version 3.0 is a comprehensive rewrite of the RSP.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0005#21",
+          "locator": "Current and Prior Versions (retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] What changed since 2026-10-10: the version list now adds 'and redline' links to versions 3.3, 3.2, 3.1 and 2.2. No version after 3.4 is listed; the list still has nine versions (1.0, 2.0, 2.1, 2.2, 3.0, 3.1, 3.2, 3.3, 3.4), i.e. eight revisions since v1.0.",
           "retrieved": "2026-11-06"
         }
       ]
@@ -1044,6 +1134,12 @@
           "locator": "§2.1 Systemic risk identification",
           "text": "the FCF currently addresses the following systemic risk categories: Cyber offense … Chemical, biological, radiological, and nuclear (CBRN) threats. Harmful manipulation … Loss of control",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0010#5",
+          "locator": "Whole document (retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The PDF served today is byte-identical to the 2026-10-10 copy (sha256 8e4d91e12861218e): Version 2, effective 24 July 2026, changelog ending at v.2. The weekly re-fetch saved the Trust Center index page instead of the PDF, which is why the earlier passages were not found.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -2089,6 +2185,54 @@
           "id": "S-0034#19",
           "locator": "Signatory lists",
           "text": "[Observation, not a quotation] xAI appears among the organisations listed as having agreed to the Frontier AI Safety Commitments.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0034#20",
+          "locator": "Page header",
+          "text": "Updated 7 February 2025",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0034#21",
+          "locator": "Signatory list",
+          "text": "The following organisations have been added to the existing list: Magic Minimax 01.ai NVIDIA",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0034#22",
+          "locator": "Commitments preamble",
+          "text": "in accordance with the following voluntary commitments, and to demonstrate how they have achieved this by publishing a safety framework focused on severe risks by the upcoming AI Summit in France.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0034#23",
+          "locator": "Outcome 1, I",
+          "text": "They should also consider results from internal and external evaluations as appropriate, such as by independent third-party evaluators, their home governments",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0034#24",
+          "locator": "Outcome 1, II",
+          "text": "at which severe risks posed by a model or system, unless adequately mitigated, would be deemed intolerable. Assess whether these thresholds have been breached",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0034#25",
+          "locator": "Outcome 1, III",
+          "text": "including safety and security-related risk mitigations such as modifying system behaviours and implementing robust security controls for unreleased model weights.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0034#26",
+          "locator": "Outcome 3, VII",
+          "text": "Provide public transparency on the implementation of the above (I-VI)",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0034#27",
+          "locator": "Signatory list (retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The page still lists the 16 original organisations (Amazon … Zhipu.ai) and the four added (Magic, Minimax, 01.ai, NVIDIA). The text is unchanged; the earlier preamble passage now fails only because the page renders an inline '[footnote 1]' marker after 'systems'.",
           "retrieved": "2026-11-06"
         }
       ]
@@ -4026,6 +4170,24 @@
           "locator": "whole release",
           "text": "[Observation, not a quotation] The release names leaders from 13 organisations at the opening ceremony (Google/Alphabet, OpenAI, Google DeepMind, Anthropic, Microsoft, Amazon, Meta, Cohere, G42, Gnani.ai, Soket AI Labs, Sarvam AI, IIT Bombay) but gives no count or list of signatories of the commitments.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0068#7",
+          "locator": "Dateline",
+          "text": "19 FEB 2026 3:08PM by PIB Delhi",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0068#8",
+          "locator": "Para 1",
+          "text": "announced the New Delhi Frontier AI Impact Commitments, a landmark outcome of the summit that brings together leading frontier AI companies and India’s domestic innovators",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0068#9",
+          "locator": "Whole release (retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The release still names leaders from 13 organisations at the opening ceremony but gives no count or list of signatories of the commitments; its text is unchanged since 2026-10-10.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -6217,6 +6379,18 @@
           "locator": "Whole post",
           "text": "[Observation, not a quotation] The February 2025 post introducing the deceptive-alignment approach does not mention Apollo Research or attribute the change to any external findings.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0104#6",
+          "locator": "Post header",
+          "text": "February 4, 2025 Responsibility & Safety",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0104#7",
+          "locator": "Whole post (retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] Searched the post for 'Apollo': no occurrence; the post does not attribute the deceptive-alignment approach to any external findings.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -6361,7 +6535,7 @@
       "type": "primary",
       "dates": {
         "adopted": "2026-04-07",
-        "published": "2026-04"
+        "published": "2026-04-07"
       },
       "fetches": [
         {
@@ -6544,6 +6718,30 @@
           "id": "S-0107#25",
           "locator": "Document (inspected)",
           "text": "[Observation, not a quotation] The map's current link still serves the superseded Version 2 (title \"Advanced AI Scaling Framework\", 44 pages), not Version 2.1.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0107#26",
+          "locator": "§3.3 Risk Thresholds",
+          "text": "we will only continue development of the Frontier AI if our risk assessments are complete and safeguards are defined, implemented and validated to reduce risk to the moderate or lower risk threshold.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0107#27",
+          "locator": "§2.2.1 Preparedness Reports",
+          "text": "We will publish a preparedness report for each closed or open Frontier AI release",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0107#28",
+          "locator": "§2.2.1 Preparedness Reports",
+          "text": "Release of new Frontier AI that has been pre-trained from scratch.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0107#29",
+          "locator": "§2.3 Accountability",
+          "text": "Meta’s Chief AI Officer oversees the design, implementation, and operation of the entire evaluation and mitigation process. The Chief AI Officer supervises and is supported by the Director of Alignment and Risk",
           "retrieved": "2026-11-06"
         }
       ]
@@ -6791,6 +6989,18 @@
           "id": "S-0110#5",
           "locator": "\"Frontier AI Framework\" button (link target)",
           "text": "[Observation, not a quotation] The page's Frontier AI Framework link now points to media.x.ai/v1/website/xai-frontier-artificial-intelligence-framework-30-june-2026-f1f0c916.pdf; the earlier …-99c40684.pdf URL returns HTTP 404 (S3 NoSuchKey) today. The page title is \"Safety | SpaceXSI\".",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0110#6",
+          "locator": "Page heading",
+          "text": "Safety at SpaceXSI",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0110#7",
+          "locator": "'Frontier AI Framework' button (href)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The page now brands the company 'SpaceXSI' (title 'Safety | SpaceXSI'; footer 'SpaceX Super Intelligence LLC'). Its 'Frontier AI Framework' link now points to media.x.ai/v1/website/xai-frontier-artificial-intelligence-framework-30-june-2026-f1f0c916.pdf; the previously linked …-99c40684.pdf now returns HTTP 404.",
           "retrieved": "2026-11-06"
         }
       ]
@@ -7396,6 +7606,12 @@
           "locator": "Publications list",
           "text": "25 November 2025 — Key update Second Key Update: Technical Safeguards and Risk Management",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0120#5",
+          "locator": "Publications list (retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The page still lists, newest first: the 2026 Report, its Extended Summary for Policymakers and Executive Summary (all 3 February 2026), the Second Key Update (25 November 2025), the First Key Update (15 October 2025) and the 2025 Report (29 January 2025). Nothing dated after 3 February 2026 is listed.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -7565,6 +7781,36 @@
           "locator": "About this Report: Independence",
           "text": "It does not make specific policy recommendations.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0121#23",
+          "locator": "§3.1, evaluation limitations",
+          "text": "Finally, models can underperform during evaluations compared to other contexts, a pattern termed ‘sandbagging’ that has been observed in experiments.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0121#24",
+          "locator": "References",
+          "text": "“Measuring AI Ability to Complete Long Tasks” (Model Evaluation & Threat Research (METR), 2025)",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0121#25",
+          "locator": "§2.2.2, Figure 2.13 caption",
+          "text": "Source: UK AI Security Institute, 2025.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0121#26",
+          "locator": "Contributors",
+          "text": "Professor Yoshua Bengio – Université de Montréal / LawZero / Mila – Quebec AI Institute & Chair",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0121#27",
+          "locator": "Whole document (retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] Searched today's full report text for 'Center for AI Safety' and 'Statement on AI Risk': no match; 'CAIS' occurs only inside the conference acronym 'ICAISS'. The report text is unchanged in substance since 2026-10-10.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -7614,6 +7860,12 @@
           "locator": "whole document (retrieved text)",
           "text": "[Observation, not a quotation] A case-insensitive search of the 2025 Report's online text for 'sandbag' finds no occurrence; the term first appears in the 2026 edition.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0122#3",
+          "locator": "Whole document (retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] A case-insensitive search of today's online text of the 2025 Report for 'sandbag' finds no occurrence.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -8202,6 +8454,24 @@
           "locator": "release, Strengthening Global Cooperation",
           "text": "Promoting voluntary, non-binding frameworks",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0130#6",
+          "locator": "Dateline",
+          "text": "21 FEB 2026 4:21PM by PIB Delhi",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0130#7",
+          "locator": "Body",
+          "text": "The Declaration has been endorsed by 92 countries and international organisations",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0130#8",
+          "locator": "Annexure, endorser list (retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The numbered endorser list still runs to 92 and includes '88. UK', '89. USA', '91. EU' and '92. IFAD'. Many list items now carry an invisible word-joiner character (U+2060) before the number, which is why the earlier observation no longer matched; the content is unchanged.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -8305,6 +8575,18 @@
           "id": "S-0132#4",
           "locator": "para. 4",
           "text": "As outlined in the Global Digital Compact adopted by the UN General Assembly, participants also reaffirmed their commitment to initiate a Global Dialogue on AI governance and the Independent International Scientific Panel on AI",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0132#5",
+          "locator": "Signatory countries",
+          "text": "Signatory countries:",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0132#6",
+          "locator": "Signatory countries (list, retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The 'Signatory countries' list (Armenia … Zimbabwe, African Union Commission, European Union) contains neither the United Kingdom nor the United States; 'United Kingdom' appears only in note [2], a membership list of another body. Only the page's 'Latest news' sidebar has changed.",
           "retrieved": "2026-11-06"
         }
       ]
@@ -8493,6 +8775,36 @@
           "locator": "Values-based principles",
           "text": "Inclusive growth, sustainable development and well-being … Human rights and democratic values, including fairness and privacy … Transparency and explainability … Robustness, security and safety … Accountability",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0135#8",
+          "locator": "Principles for trustworthy AI",
+          "text": "The OECD AI Principles were initially adopted in 2019 and updated in May 2024",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0135#9",
+          "locator": "Countries adhering to the AI Principles",
+          "text": "Today, there are 47 adherents to the Principles.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0135#10",
+          "locator": "Governments that have committed",
+          "text": "G20 members committed to the G20 AI Principles drawn from the OECD AI Principles.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0135#11",
+          "locator": "Values-based principles",
+          "text": "Transparency and explainability Robustness, security and safety Accountability",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0135#12",
+          "locator": "Recommendations for policymakers",
+          "text": "Investing in AI research and development Fostering an inclusive AI-enabling ecosystem Shaping an enabling interoperable governance and policy environment for AI Building human capacity and preparing for labour market transition International co-operation for trustworthy AI",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -8609,6 +8921,48 @@
           "id": "S-0136#14",
           "locator": "Background",
           "text": "the first section sets out five complementary principles relevant to all stakeholders: i) inclusive growth, sustainable development and well-being; ii) respect for the rule of law, human rights and democratic values, including fairness and privacy; iii) transparency and explainability; iv) robustness, security and safety; and v) accountability",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0136#15",
+          "locator": "Header",
+          "text": "Adopted on: 22/05/2019 Amended on: 03/05/2024",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0136#16",
+          "locator": "Adherents, Non-Members",
+          "text": "Cambodia - 15/05/2026 Croatia - 15/05/2026",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0136#17",
+          "locator": "Principle 1.4(b)",
+          "text": "Mechanisms should be in place, as appropriate, to ensure that if AI systems risk causing undue harm or exhibit undesired behaviour, they can be overridden, repaired, and/or decommissioned safely as needed.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0136#18",
+          "locator": "Principle 1.4(a)",
+          "text": "systems should be robust, secure and safe throughout their entire lifecycle",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0136#19",
+          "locator": "Principle 1.3",
+          "text": "AI Actors should commit to transparency and responsible disclosure regarding AI systems.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0136#20",
+          "locator": "Principle 1.5(a)",
+          "text": "actors should be accountable for the proper functioning of AI systems and for the respect of the above principles",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0136#21",
+          "locator": "Adherents (count, retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The Adherents list still shows 38 OECD Members, 12 Non-Members (Argentina, Brazil, Cambodia, Croatia, Egypt, Malta, Peru, Romania, Saudi Arabia, Singapore, Ukraine, Uruguay; the latest, Cambodia and Croatia, dated 15/05/2026) and, under 'Other', the European Union: 50 countries plus the EU.",
           "retrieved": "2026-11-06"
         }
       ]
@@ -17144,6 +17498,12 @@
           "locator": "whole speech",
           "text": "[Observation, not a quotation] Searched the speech for 'artificial intelligence', 'AI' and 'AI Security Institute': none appear; no AI bill is announced.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0287#3",
+          "locator": "Whole speech (retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] Searched today's copy for 'artificial intelligence', 'AI' (as a word) and 'AI Security Institute': none appear; no AI bill is announced. Only page furniture changed (a few bytes).",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -17234,12 +17594,30 @@
           "locator": "totalResults",
           "text": "\"totalResults\":3",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0289#2",
+          "locator": "totalResults",
+          "text": "\"totalResults\":4",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0289#3",
+          "locator": "items[0]",
+          "text": "\"shortTitle\":\"Artificial Intelligence (Consent and Misuse) Bill\"",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0289#4",
+          "locator": "Result list (retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The search now returns 4 bills instead of 3. The new one is the Artificial Intelligence (Consent and Misuse) Bill (bill 4310, Commons, current stage 2nd reading, last updated 21 October 2026); the other three (Artificial Intelligence (Regulation) Bill [HL] bills 3942 and 3519, and the Artificial Intelligence (Regulation and Workers' Rights) Bill 3464) are as before.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
     "S-0290": {
       "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
-      "title": "生成式人工智能服务管理暂行办法 (Interim Measures for the Management of Generative AI Services), CAC et al. Order No. 15",
+      "title": "生成式人工智能服务管理暂行办法 (Interim Measures for the Management of Generative AI Services)",
       "publisher": "Cyberspace Administration of China",
       "type": "primary",
       "dates": {
@@ -17267,6 +17645,16 @@
           "via": "curl",
           "status": "error",
           "error": "curl: (35) Recv failure: Connection reset by peer"
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:29:03Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl, retried after connection resets (the weekly re-fetch failed with a reset)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "7fae988c064dde72",
+          "bytes": 29431
         }
       ],
       "passages": [
@@ -18281,6 +18669,48 @@
           "locator": "whole text",
           "text": "[Observation, not a quotation] x.ai/safety now links this URL; the 10 Oct URL (…-99c40684.pdf, S-0108) returns HTTP 404. pdftotext output of this file is word-for-word identical to the 10 Oct copy of S-0108 (3,291 words, no diff): a re-upload, not a new edition. It still states no numeric acceptance criteria and has no change log.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#21",
+          "locator": "§1 Introduction",
+          "text": "xAI LLC (“xAI”)’s mission is to understand the universe through maximally truth-seeking and helpful AI",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#22",
+          "locator": "§2 Risk Management Framework",
+          "text": "xAI applies its risk management process, as appropriate, throughout the entire model lifecycle",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#23",
+          "locator": "§2 Risk Management Framework",
+          "text": "These trigger points may include (1) the release of an updated model, (2) in the event of a serious incident, (3) if the model’s use or integrations into xAI’s systems materially increase risk",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#24",
+          "locator": "§2.1 Risk Identification",
+          "text": "has established four primary risk domains where significant or severe outcomes are most likely to emerge in current and future systems: CBRN Risks, Offensive Cybersecurity Risks, Loss of Control Risks and Harmful Manipulation Risks.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#25",
+          "locator": "§2.1, footnote 2",
+          "text": "Following the Safety and Security Chapter of the General-Purpose AI Code of Practice developed under the EU AI Act.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#26",
+          "locator": "§3 Incident response",
+          "text": "we may temporarily fully shut down the relevant system until we have developed a more targeted response.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#27",
+          "locator": "Full text (retrieved 2026-11-06)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The extracted text of this PDF is identical, word for word, to the 30 June 2026 edition recorded on 2026-10-10 at the …-99c40684.pdf URL (S-0108, now HTTP 404). Searched it for numeric acceptance criteria ('1 in', percentages, MASK) and for a change log or version history: none appears.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -18827,6 +19257,47 @@
           "id": "S-0322#1",
           "locator": "news item",
           "text": "The Organisation for Economic Co-operation and Development (OECD) released its Due Diligence Guidance for Responsible Artificial Intelligence at the India AI Impact Summit 2026.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0323": {
+      "url": "https://bills-api.parliament.uk/api/v1/Bills/4310",
+      "title": "UK Parliament Bills API: Artificial Intelligence (Consent and Misuse) Bill (bill 4310)",
+      "publisher": "UK Parliament",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:29:03Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://bills-api.parliament.uk/api/v1/Bills/4310",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "2b82a8723272f375",
+          "bytes": 1560
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0323#1",
+          "locator": "longTitle",
+          "text": "A Bill to make provision about a requirement for consent to generate a likeness of a person using, or with the assistance of, artificial intelligence",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0323#2",
+          "locator": "longTitle",
+          "text": "to make provision about duties on providers of artificial intelligence technology in relation to misuse of that technology to generate likenesses",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0323#3",
+          "locator": "sponsors",
+          "text": "\"name\":\"Dawn Butler\"",
           "retrieved": "2026-11-06"
         }
       ]
