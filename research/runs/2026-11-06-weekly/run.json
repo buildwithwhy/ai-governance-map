@@ -266,6 +266,99 @@
           ]
         }
       ]
+    },
+    {
+      "area": "B3: AI safety/security institutes and AI offices; independent evaluators/NGOs (METR, Apollo, AVERI, CAIS, FSI); standards frameworks (NIST AI RMF, CAISI guidance)",
+      "summary": "Since the 10 Oct 2026 baseline: the EU AI Office published (21 Oct) its view on qualification/independence of external evaluators under the GPAI Code, pointing to the AI Evaluator Forum's AEF-1 standard (drafted as a question, aef1-addition). NIST CAISSI with NSA and CISA issued voluntary incident key practices for SI training and evaluation (16 Oct). In the UK the Lords added a review of AISI's roles and powers to the Cyber Security and Resilience Bill (26 Oct); AISI-power amendments were not moved. METR began publishing independent assessments of Anthropic and reviews of its Risk Report; FSI's site was restructured and no longer mentions CAIS.",
+      "queries": [
+        "CAISI pre-deployment testing agreement Google DeepMind Microsoft xAI 2026",
+        "Microsoft On the Issues blog CAISI UK AISI agreement pre-deployment testing May 2026",
+        "blog.google OR x.ai CAISI agreement frontier AI national security testing Google DeepMind announcement",
+        "AI Office AEF-1 independent external evaluators GPAI Code of Practice independence guidance",
+        "digital-strategy.ec.europa.eu report workshop qualification independence requirements external evaluators",
+        "AI Security Institute statutory footing bill 2026 UK frontier AI legislation October 2026",
+        "new AI safety institute established 2026 law Korea Japan Australia AI Safety Institute statutory powers",
+        "Center for AI Safety founded 2022 Dan Hendrycks",
+        "direct browsing: nist.gov/caissi news, aisi.gov.uk/blog, metr.org home, apolloresearch.ai home/blog, averi.org/updates, aievaluatorforum.org, frontiersecurityinstitute.org, bills-api.parliament.uk (Bill 4035)"
+      ],
+      "limits": "Hansard, bills.parliament.uk HTML/PDF and blogs.microsoft.com refused automated fetches (403); Microsoft's own 5 May post was not read. aiverify.foundation reset connections. Korea, Japan, Australia, Germany institute developments got one search only; the Bundestag item on an 'AI Safety and Security Institute Deutschland' is outside B1. Search results were used only as leads.",
+      "candidates": [
+        {
+          "name": "AEF-1 (AI Evaluator Forum minimum operating conditions) cited by EU AI Office for Code evaluator independence",
+          "result": "proposed",
+          "reason": "Published standard applied by the AI Office in Code compliance (Oct 2026); meets RUBRIC §1 and SCOPE B3 'standard used for regulatory compliance'",
+          "proposal": "P-0172",
+          "sources": [
+            "S-0326",
+            "S-0324",
+            "S-0325",
+            "S-0327",
+            "S-0211"
+          ]
+        },
+        {
+          "name": "EU AI Office qualification and independence requirements for external evaluators (workshop report, 21 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "An AI Office supervisory expectation under the GPAI Code, not a separate mechanism; covered in option b of aef1-addition",
+          "proposal": "P-0172",
+          "sources": [
+            "S-0324",
+            "S-0325"
+          ]
+        },
+        {
+          "name": "NIST CAISSI / NSA SISC / CISA Key Practices for Incident Readiness and Response in SI Training and Evaluation (16 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Voluntary CAISI guidance; could be noted under caisi (or nist-rmf); not drafted — caisi desc/context are verified by another agent and the document itself (linked PDF) was not read",
+          "sources": [
+            "S-0313"
+          ]
+        },
+        {
+          "name": "UK Cyber Security and Resilience Bill: Lords amendment 163 adding a review including AISI's roles and powers; AISI pre-deployment audit (66) and enforcement-power (79) amendments not moved",
+          "result": "update to existing entry",
+          "reason": "Bill not enacted (Commons consideration of Lords amendments pending); a review, not powers. Relevant to uk-aisi context/timing; not drafted",
+          "sources": [
+            "S-0335"
+          ]
+        },
+        {
+          "name": "METR independent assessment of AI R&D acceleration at Anthropic (5 Nov 2026) and reviews of Anthropic's Aug 2026 Risk Report",
+          "result": "update to existing entry",
+          "reason": "New assessment modality with redaction-rights disclosure; metr entry is re-checked by another agent",
+          "sources": [
+            "S-0336"
+          ]
+        },
+        {
+          "name": "Apollo Research push for embedded third-party evaluations; Anthropic's unilateral commitment to embedded evaluators",
+          "result": "screened out",
+          "reason": "Advocacy/research by Apollo; Anthropic's commitment belongs to the rsp entry (L6, another group); not an Apollo mechanism",
+          "sources": [
+            "S-0337"
+          ]
+        },
+        {
+          "name": "Microsoft–UK AISI partnership (5 May 2026)",
+          "result": "update to existing entry",
+          "reason": "Corroborates CAISI/AISI 2026 agreements; before the Oct baseline window but not on the map; minor",
+          "sources": [
+            "S-0332"
+          ]
+        },
+        {
+          "name": "AVERI pilot report on internal safety evaluation quality at Amazon (9 Oct 2026)",
+          "result": "screened out",
+          "reason": "Pilot output, not a new mechanism; could enrich averi acct examples",
+          "sources": []
+        },
+        {
+          "name": "CAISSI 'Practices for Automated Benchmark Evaluations of Language Models' (initial public draft, comment period to 31 Mar 2026)",
+          "result": "screened out",
+          "reason": "Draft guidance predating the window; not final",
+          "sources": []
+        }
+      ]
     }
   ],
   "usage": null

@@ -1,5 +1,5 @@
 {
-  "next": 162,
+  "next": 174,
   "proposals": [
     {
       "id": "P-0001",
@@ -17194,6 +17194,1459 @@
       "research": {
         "status": "verified",
         "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0162",
+      "fingerprint": "8d2b506b5837",
+      "targets": [
+        "entry:eu-aio:cov:eval"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:03Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "EU AI Office: evaluation powers are Art. 92 evaluations and access requests, not pre-deployment access",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "eu-aio",
+              "cat": "eval",
+              "from": "Can request evaluations from GPAI providers, including pre-deployment access for systemic-risk models. The Scientific Panel of independent experts advises on what to request and how to interpret results.",
+              "to": "Can evaluate GPAI models itself or through appointed independent experts, requesting access via APIs or source code (Art. 92); the Act gives it no pre-release access, but Code signatories commit to a Safety and Security Model Report, available to the Office by the time a model is placed on the market. The Scientific Panel of independent experts advises on what to request and how to interpret results."
+            }
+          ],
+          "why": "The note tells readers the Office has pre-deployment access to systemic-risk models; the AI Act gives it no such power, which matters for comparing it with AISIs that do test before release.",
+          "rationale": "Art. 92 lets the AI Office conduct evaluations itself or via appointed independent experts and request access through APIs or source code (ai-act p1–p3); nothing in Arts 88–94 gives access before a model is placed on the market (ai-act p8). The Office conducts evaluations rather than 'requesting evaluations from providers'; it can request providers' Art. 53/55 documentation (p7). The closest pre-release element is the GPAI Code: signatories create a Model Report before placing a model on the market and give the Office access by that time (cop-ss p1–p2), with up to 15 business days' delay allowed (p3).",
+          "evidence": [
+            {
+              "source": "S-0185",
+              "passage": "S-0185#1",
+              "stance": "supports",
+              "supports": "Office can conduct evaluations"
+            },
+            {
+              "source": "S-0185",
+              "passage": "S-0185#2",
+              "stance": "supports",
+              "supports": "access via APIs/source code"
+            },
+            {
+              "source": "S-0185",
+              "passage": "S-0185#14",
+              "stance": "supports",
+              "supports": "independent experts"
+            },
+            {
+              "source": "S-0185",
+              "passage": "S-0185#18",
+              "stance": "supports",
+              "supports": "no pre-market access provision"
+            },
+            {
+              "source": "S-0044",
+              "passage": "S-0044#20",
+              "stance": "supports",
+              "supports": "Model Report before placing on market"
+            },
+            {
+              "source": "S-0044",
+              "passage": "S-0044#21",
+              "stance": "supports",
+              "supports": "access by time of placing on market"
+            },
+            {
+              "source": "S-0044",
+              "passage": "S-0044#22",
+              "stance": "supports",
+              "supports": "delay of up to 15 business days"
+            }
+          ],
+          "uncertainty": "Implementing acts under Art. 92(6) or later Code practice could add arrangements not yet published.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:eu-aio:context": "'Can request models from providers' is consistent with Art. 92(3); not re-verified here"
+          },
+          "unverified_carryover": [
+            "The Scientific Panel of independent experts advises on what to request and how to interpret results."
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:aisi-net:desc",
+            "entry:eu-aia:cov:timing",
+            "entry:eu-aia:cov:halt",
+            "entry:eu-aia:cov:acct",
+            "entry:gpai-cop:context",
+            "entry:gpai-cop:cov:acct",
+            "entry:gpai-cop:cov:update",
+            "entry:eu-genai-code:context",
+            "entry:us-ftc:context",
+            "edge:aisi-net|eu-aio",
+            "edge:eu-aia|eu-aio",
+            "edge:gpai-cop|eu-aio",
+            "edge:eu-aio|eu-genai-code",
+            "gap:halt",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris",
+            "faq:what-does-the-eu-ai-office-do",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip",
+            "text:footer-sources"
+          ],
+          "hash": "a40a3807cc58"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0163",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:03Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "METR: Common Elements references SB 53 and the EU Code; nothing shows it prompted them",
+          "kind": "flag",
+          "changes": [],
+          "why": "A causal claim about two major instruments should be traceable; the source shows the opposite direction (METR's Dec 2025 update maps policies onto the Code and SB 53).",
+          "rationale": "The Dec 2025 Common Elements version says it 'mentions relevant guidance' from the Code and SB 53 (metr-ce p1) and calls itself 'descriptive, not prescriptive' (p2); the original report dates from Aug 2024 (p3). No inspected source attributes SB 53 or Code drafting to it. Option a keeps the catalogue sentence and states only what the report shows.",
+          "evidence": [
+            {
+              "source": "S-0204",
+              "passage": "S-0204#33",
+              "stance": "supports",
+              "supports": "Dec 2025 version references Code and SB 53"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#34",
+              "stance": "supports",
+              "supports": "descriptive, not prescriptive"
+            },
+            {
+              "source": "S-0204",
+              "passage": "S-0204#35",
+              "stance": "supports",
+              "supports": "original report Aug 2024"
+            }
+          ],
+          "uncertainty": "Drafters of SB 53 or the Code may have consulted METR's work; no public record of that was found.",
+          "confidence": "medium",
+          "question": "Should the METR threshold note keep the claim that Common Elements prompted SB 53 and EU GPAI Code drafting?",
+          "knock_on_notes": {
+            "entry:metr:context": "'conceptual taxonomy that surfaced the gaps between lab frameworks' is similar framing; not in this group's list"
+          },
+          "unverified_carryover": [
+            "Maintains the cross-lab catalogue of capability thresholds that the orthogonal view of this map uses."
+          ],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Restate to what METR's report shows",
+              "changes": [
+                {
+                  "op": "set_cov",
+                  "entity": "metr",
+                  "cat": "thresh",
+                  "from": "Maintains the cross-lab catalogue of capability thresholds that the orthogonal view of this map uses. The Common Elements analysis identified gaps and inconsistencies between lab frameworks that prompted SB 53 and EU GPAI Code drafting.",
+                  "to": "Maintains the cross-lab catalogue of capability thresholds that the orthogonal view of this map uses. The Common Elements analysis (Aug 2024; updated Dec 2025) compares developers' frontier safety policies and, since Dec 2025, maps them against the EU GPAI Code of Practice and California SB 53."
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Keep as is",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:rsp:cov:elicit",
+            "entry:prep:cov:eval",
+            "entry:caisi:context",
+            "entry:averi:cov:acct",
+            "entry:fsi:context",
+            "edge:aisr|metr",
+            "edge:metr|rsp",
+            "edge:metr|prep",
+            "edge:metr|fsf",
+            "edge:averi|metr",
+            "gap:eval",
+            "gap:elicit",
+            "faq:what-is-metr-s-common-elements-framework",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip",
+            "text:footer-sources",
+            "text:footer-note",
+            "text:intro"
+          ],
+          "hash": "5918ae1e3ec2"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0164",
+      "fingerprint": "eb67db6c0c7c",
+      "targets": [
+        "entry:apollo:cov:elicit"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:03Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Apollo: OpenAI's Preparedness Framework v2 does not mention Apollo",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "apollo",
+              "cat": "elicit",
+              "from": "Established the dominant external methodology for scheming detection — controlled stress-tests for whether models strategically deceive evaluators, exfiltrate, or sandbag. The conceptual frame (deceptive alignment, mesa-optimisation) predates Apollo, but their 2024 paper was the inflection point that brought scheming evaluations into mainstream lab practice — cited as input to GDM's FSF v2, used in OpenAI's o1 system card and Preparedness v2, and referenced in Anthropic's Claude system cards.",
+              "to": "Established the dominant external methodology for scheming detection — controlled stress-tests for whether models strategically deceive evaluators, exfiltrate, or sandbag. The conceptual frame (deceptive alignment, mesa-optimisation) predates Apollo, but their 2024 paper was the inflection point that brought scheming evaluations into mainstream lab practice — acknowledged as input to GDM's FSF v2, used in OpenAI's o1 system card, and referenced in Anthropic's Claude system cards."
+            }
+          ],
+          "why": "The note lists Preparedness v2 among documents that use Apollo's work; the framework does not mention Apollo, so the adoption claim overstates the record.",
+          "rationale": "Preparedness Framework v2 (15 Apr 2025) contains no mention of Apollo; sandbagging is a Research Category without attribution (prep-v2 p1–p2). The other three citations check out: GDM's FSF v2 thanks Apollo for input (fsf-v2 p1), the o1 system card reports Apollo's scheming evaluation (o1-card p1), and the Claude Opus 4.6 system card has an Apollo external-testing section (opus46 p1–p3). 'cited as input' becomes 'acknowledged as input' to match FSF v2's wording.",
+          "evidence": [
+            {
+              "source": "S-0095",
+              "passage": "S-0095#31",
+              "stance": "supports",
+              "supports": "no Apollo mention in Preparedness v2"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#1",
+              "stance": "supports",
+              "supports": "version and date"
+            },
+            {
+              "source": "S-0329",
+              "passage": "S-0329#1",
+              "stance": "supports",
+              "supports": "FSF v2 acknowledges Apollo input"
+            },
+            {
+              "source": "S-0304",
+              "passage": "S-0304#1",
+              "stance": "supports",
+              "supports": "o1 system card Apollo evaluation"
+            },
+            {
+              "source": "S-0114",
+              "passage": "S-0114#6",
+              "stance": "supports",
+              "supports": "Claude system card Apollo section"
+            }
+          ],
+          "uncertainty": null,
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:apollo:context": "checked: no Preparedness v2 claim there; 'adopted across the field' remains analytic"
+          },
+          "unverified_carryover": [
+            "Established the dominant external methodology for scheming detection",
+            "their 2024 paper was the inflection point that brought scheming evaluations into mainstream lab practice"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:prep:cov:eval",
+            "entry:caisi:context",
+            "entry:metr:cov:elicit",
+            "entry:averi:cov:acct",
+            "entry:fsi:context",
+            "edge:aisr|apollo",
+            "edge:apollo|rsp",
+            "edge:apollo|fsf",
+            "edge:averi|apollo",
+            "gap:eval",
+            "gap:elicit",
+            "faq:what-is-sandbagging-in-ai-safety",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "5d22a2cb490d"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0165",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:03Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Apollo ↔ Anthropic RSP: state the testing the sources show",
+          "kind": "flag",
+          "changes": [],
+          "why": "The present-tense 'evaluates' implies an ongoing arrangement; the latest Claude system card does not mention Apollo.",
+          "rationale": "The Claude Opus 4.6 system card reports Apollo's access to checkpoints on 24 and 26 Jan and that Apollo gave no formal assessment (opus46 p1–p2). Apollo's own July 2026 post describes a pilot red-teaming campaign against Anthropic's auto mode, whose recommendations Anthropic implemented (apollo-automode p1–p2). The Claude Opus 5.5 system card (Sep 2026) does not mention Apollo (opus55 p3).",
+          "evidence": [
+            {
+              "source": "S-0114",
+              "passage": "S-0114#4",
+              "stance": "supports",
+              "supports": "Apollo testing Jan 2026"
+            },
+            {
+              "source": "S-0114",
+              "passage": "S-0114#5",
+              "stance": "supports",
+              "supports": "no formal assessment"
+            },
+            {
+              "source": "S-0328",
+              "passage": "S-0328#1",
+              "stance": "supports",
+              "supports": "auto-mode red-teaming"
+            },
+            {
+              "source": "S-0112",
+              "passage": "S-0112#7",
+              "stance": "supports",
+              "supports": "no Apollo in Opus 5.5 card"
+            }
+          ],
+          "uncertainty": "Apollo may test Anthropic models without public reporting.",
+          "confidence": "medium",
+          "question": "How should the Apollo–Anthropic connection be worded, given Apollo's last published scheming testing of a Claude model was Jan 2026?",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Restate to the documented work",
+              "changes": [
+                {
+                  "op": "set_edge",
+                  "a": "apollo",
+                  "b": "rsp",
+                  "from": "Apollo evaluates Anthropic models for scheming",
+                  "to": "Apollo tested Claude Opus 4.6 checkpoints for alignment risk (Jan 2026) and red-teamed Anthropic's auto-mode monitor (2026)"
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Keep as is",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:prep:cov:eval",
+            "entry:caisi:context",
+            "entry:metr:cov:elicit",
+            "entry:averi:cov:acct",
+            "entry:fsi:context",
+            "edge:aisr|apollo",
+            "edge:apollo|fsf",
+            "edge:averi|apollo",
+            "gap:eval",
+            "gap:elicit",
+            "faq:what-is-sandbagging-in-ai-safety",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip",
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:eu-genai-code:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:prep:cov:thresh",
+            "entry:fsf:context",
+            "entry:fsf:cov:thresh",
+            "entry:fsf:cov:acct",
+            "entry:meta-faif:cov:thresh",
+            "entry:meta-faif:cov:sec",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "edge:ca-sb53|rsp",
+            "edge:seoul-commit|rsp",
+            "edge:gpai-cop|rsp",
+            "edge:fmf|rsp",
+            "edge:metr|rsp",
+            "edge:uk-aisi|rsp",
+            "edge:ny-raise|rsp",
+            "gap:mit",
+            "gap:halt",
+            "faq:which-ai-labs-have-published-frontier-safety-fra"
+          ],
+          "hash": "57cedd7ea2e1"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0166",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:04Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Apollo ↔ GDM FSF: no source names Apollo as a scheming evaluator of DeepMind models",
+          "kind": "flag",
+          "changes": [],
+          "why": "The connection asserts an evaluation relationship that no inspected source documents.",
+          "rationale": "FSF v2 thanks Apollo Research for input (fsf-v2 p1) and added a deceptive-alignment section (p2). Apollo says it 'ran evaluations for all major labs' in 2025 (apollo-about p3) without naming DeepMind models; GDM's Gemini 3.7 Flash FSF report does not name its external evaluators (gemini37-fsf p1–p2). Option a keeps a documented link; b drops an unsupported one.",
+          "evidence": [
+            {
+              "source": "S-0329",
+              "passage": "S-0329#1",
+              "stance": "supports",
+              "supports": "Apollo input to FSF v2"
+            },
+            {
+              "source": "S-0209",
+              "passage": "S-0209#8",
+              "stance": "supports",
+              "supports": "evaluations for all major labs, unnamed"
+            },
+            {
+              "source": "S-0106",
+              "passage": "S-0106#9",
+              "stance": "supports",
+              "supports": "external evaluators not named"
+            }
+          ],
+          "uncertainty": "Apollo may be among GDM's anonymised external evaluators.",
+          "confidence": "medium",
+          "question": "What should the Apollo–DeepMind connection say, given the only documented link is Apollo's input to FSF v2?",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Restate to FSF v2 input",
+              "changes": [
+                {
+                  "op": "set_edge",
+                  "a": "apollo",
+                  "b": "fsf",
+                  "from": "Apollo evaluates DeepMind models for scheming",
+                  "to": "Apollo gave input to GDM's Frontier Safety Framework v2 (Feb 2025)"
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Remove the connection",
+              "changes": [
+                {
+                  "op": "remove_edge",
+                  "a": "apollo",
+                  "b": "fsf",
+                  "from": "Apollo evaluates DeepMind models for scheming"
+                }
+              ]
+            },
+            {
+              "key": "c",
+              "label": "Keep as is",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:prep:cov:eval",
+            "entry:caisi:context",
+            "entry:metr:cov:elicit",
+            "entry:averi:cov:acct",
+            "entry:fsi:context",
+            "edge:aisr|apollo",
+            "edge:apollo|rsp",
+            "edge:averi|apollo",
+            "gap:eval",
+            "gap:elicit",
+            "faq:what-is-sandbagging-in-ai-safety",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip",
+            "entry:ca-sb53:context",
+            "entry:meta-faif:cov:sec",
+            "entry:caisi:cov:eval",
+            "entry:metr:cov:eval",
+            "edge:ca-sb53|fsf",
+            "edge:seoul-commit|fsf",
+            "edge:gpai-cop|fsf",
+            "edge:fmf|fsf",
+            "edge:metr|fsf",
+            "edge:uk-aisi|fsf",
+            "faq:which-ai-labs-have-published-frontier-safety-fra"
+          ],
+          "hash": "e199aa9adb08"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0167",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:04Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "AVERI: replace the safety-integrity-level analogy and EU AI Act framing with AVERI's own",
+          "kind": "flag",
+          "changes": [],
+          "why": "The two framings read as AVERI's positions but appear nowhere in its launch report, which compares audits to financial auditing and product testing and is not framed around the EU AI Act.",
+          "rationale": "The launch report describes four AI Assurance Levels that 'provide greater confidence in audit findings' (averi-faa p2) and lists 'growing the ecosystem of audit providers at a rapid pace without compromising quality' among the most urgent challenges (p3); its analogies are to financial auditors and product testing, and it does not mention safety integrity levels or the EU AI Act (p4–p5). Launch date, author and 501(c)(3) status are confirmed (averi-faa p1; averi-about p2; averi-team p1).",
+          "evidence": [
+            {
+              "source": "S-0212",
+              "passage": "S-0212#5",
+              "stance": "supports",
+              "supports": "four AALs"
+            },
+            {
+              "source": "S-0212",
+              "passage": "S-0212#6",
+              "stance": "supports",
+              "supports": "growing audit-provider ecosystem"
+            },
+            {
+              "source": "S-0212",
+              "passage": "S-0212#8",
+              "stance": "supports",
+              "supports": "no SIL or EU AI Act framing"
+            },
+            {
+              "source": "S-0212",
+              "passage": "S-0212#4",
+              "stance": "supports",
+              "supports": "Jan 15, Brundage"
+            },
+            {
+              "source": "S-0211",
+              "passage": "S-0211#5",
+              "stance": "supports",
+              "supports": "501(c)(3)"
+            },
+            {
+              "source": "S-0214",
+              "passage": "S-0214#2",
+              "stance": "supports",
+              "supports": "former OpenAI policy research lead"
+            }
+          ],
+          "uncertainty": "AAL tiers are loosely comparable to SILs; the map may keep the analogy if marked as its own.",
+          "confidence": "medium",
+          "question": "Should AVERI's context and evaluation note describe its work in its own terms rather than via safety integrity levels and the EU AI Act?",
+          "knock_on_notes": {
+            "entry:averi:desc": "'Targets the auditing-capacity bottleneck' is consistent with averi-faa p3"
+          },
+          "unverified_carryover": [
+            "designed to give regulators and labs a shared scaffold for third-party auditing"
+          ],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Use AVERI's own framing",
+              "changes": [
+                {
+                  "op": "set_field",
+                  "entity": "averi",
+                  "field": "context",
+                  "from": "501(c)(3) launched Jan 15, 2026 by Miles Brundage (formerly OpenAI policy lead). Published an 'AI Assurance Levels' framework on launch — analogous to safety integrity levels in other industries — designed to give regulators and labs a shared scaffold for third-party auditing. Aimed squarely at the bottleneck the EU AI Act exposes: there are far more obligations to verify than independent auditors qualified to verify them.",
+                  "to": "501(c)(3) launched Jan 15, 2026 by Miles Brundage (formerly OpenAI policy lead). Published four 'AI Assurance Levels' on launch — calibrating how much confidence an audit's findings provide — designed to give regulators and labs a shared scaffold for third-party auditing. Names growing the ecosystem of qualified audit providers, rapidly and without compromising quality, as one of the field's most urgent challenges."
+                },
+                {
+                  "op": "set_cov",
+                  "entity": "averi",
+                  "cat": "eval",
+                  "from": "Third-party verification capacity for AI assurance — analogous to safety integrity levels in other industries. Aimed at the bottleneck the EU AI Act exposes: more obligations to verify than independent auditors qualified to verify them.",
+                  "to": "Third-party verification capacity for AI assurance — four AI Assurance Levels calibrate how much confidence an audit provides. Aimed at the shortage of qualified independent auditors: AVERI calls for growing the ecosystem of audit providers rapidly without compromising quality."
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Keep as is (map's own analysis)",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:caisi:context",
+            "entry:fsi:context",
+            "edge:averi|metr",
+            "edge:averi|apollo",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "2af179dd0293"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0168",
+      "fingerprint": "26faca1d4f48",
+      "targets": [
+        "entry:cais:context",
+        "entry:cais:cov:eval"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:04Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "CAIS: MMLU is not a CAIS benchmark, and Humanity's Last Exam is a capability benchmark",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "cais",
+              "field": "context",
+              "from": "Field-building NGO running widely-used safety benchmarks (MMLU, Humanity's Last Exam, WMDP weapons-of-mass-destruction proxy), research grants, and policy advocacy. The May 2023 'Statement on AI Risk' — a one-sentence declaration that mitigating extinction risk from AI should be a global priority — was signed by leading lab CEOs (Altman, Hassabis, Amodei) and shaped the 2023-2024 AI-risk discourse. In June 2026 expanded leadership with former xAI engineer Devin Kim as President and established the Frontier Security Institute as a DC-based national-security affiliate.",
+              "to": "Field-building NGO running widely-used benchmarks (Humanity's Last Exam, WMDP weapons-of-mass-destruction proxy), research grants, and policy advocacy. The May 2023 'Statement on AI Risk' — a one-sentence declaration that mitigating extinction risk from AI should be a global priority — was signed by leading lab CEOs (Altman, Hassabis, Amodei) and shaped the 2023-2024 AI-risk discourse. In June 2026 expanded leadership with former xAI engineer Devin Kim as President and established the Frontier Security Institute as a DC-based national-security affiliate."
+            },
+            {
+              "op": "set_cov",
+              "entity": "cais",
+              "cat": "eval",
+              "from": "Hosts and publishes safety benchmarks (MMLU, Humanity's Last Exam, WMDP) that feed into lab framework evaluations and AISI testing.",
+              "to": "Hosts and publishes benchmarks (Humanity's Last Exam, WMDP, Virology Capabilities Test) that feed into lab framework evaluations and AISI testing."
+            }
+          ],
+          "why": "MMLU predates CAIS and is a general knowledge test, so listing it as a CAIS safety benchmark misattributes it; HLE is labelled a capability benchmark by CAIS itself.",
+          "rationale": "MMLU is a 2020/21 paper by Hendrycks et al. at universities, a test of 'multitask accuracy' requiring 'extensive world knowledge' (mmlu p1–p3); CAIS's research page does not list it (cais-research p4) and classes Humanity's Last Exam as a 'Capability Benchmark' (p1), while listing WMDP and the Virology Capabilities Test (p2–p3). The lab-evaluation link is evidenced: Anthropic used VCT in Claude Opus 5.5's biological-risk evaluations (opus55 p2) and OpenAI ran WMDP splits for o1 (o1-card p2).",
+          "evidence": [
+            {
+              "source": "S-0330",
+              "passage": "S-0330#1",
+              "stance": "supports",
+              "supports": "MMLU ICLR 2021"
+            },
+            {
+              "source": "S-0330",
+              "passage": "S-0330#2",
+              "stance": "supports",
+              "supports": "general multitask test"
+            },
+            {
+              "source": "S-0220",
+              "passage": "S-0220#9",
+              "stance": "supports",
+              "supports": "MMLU not on CAIS research page"
+            },
+            {
+              "source": "S-0220",
+              "passage": "S-0220#6",
+              "stance": "supports",
+              "supports": "HLE capability benchmark"
+            },
+            {
+              "source": "S-0220",
+              "passage": "S-0220#7",
+              "stance": "supports",
+              "supports": "WMDP"
+            },
+            {
+              "source": "S-0220",
+              "passage": "S-0220#8",
+              "stance": "supports",
+              "supports": "VCT"
+            },
+            {
+              "source": "S-0112",
+              "passage": "S-0112#6",
+              "stance": "supports",
+              "supports": "VCT used by Anthropic"
+            },
+            {
+              "source": "S-0304",
+              "passage": "S-0304#2",
+              "stance": "supports",
+              "supports": "WMDP used by OpenAI"
+            }
+          ],
+          "uncertainty": "Dan Hendrycks, CAIS's director, is MMLU's first author, so a looser 'associated with' reading is possible.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:cais:cov:update": "mentions HLE and WMDP only; unaffected"
+          },
+          "unverified_carryover": [
+            "and AISI testing"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:fsi:desc",
+            "edge:cais|fsi",
+            "edge:cais|aisr",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "6b7e73777625"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0169",
+      "fingerprint": "891dd38588ff",
+      "targets": [
+        "entry:caisi:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:04Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "CAISI: evaluation work has not migrated outside the agency",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "caisi",
+              "cat": "acct",
+              "from": "Standards-setting via NIST functions as soft accountability — published methodologies are widely adopted but carry no enforcement. Direct evaluation accountability has migrated outside the agency.",
+              "to": "Standards-setting via NIST functions as soft accountability — published methodologies are widely adopted but carry no enforcement. Also leads unclassified national-security evaluations of frontier models under voluntary agreements with developers."
+            }
+          ],
+          "why": "The note says direct evaluation accountability left the agency, contradicting the entry's own context and CAISSI's stated mission.",
+          "rationale": "NIST's CAISSI page says it will 'establish voluntary agreements with private sector SI developers and evaluators, and lead unclassified evaluations of SI capabilities that may pose risks to national security' (nist-caissi p1). NIST announced new pre-deployment agreements with Google DeepMind, Microsoft and xAI on 5 May 2026 (nist-bulletin p1–p3), and Anthropic reports collaborating with CAISI on Claude Opus 5.5 testing (opus55 p1).",
+          "evidence": [
+            {
+              "source": "S-0174",
+              "passage": "S-0174#10",
+              "stance": "supports",
+              "supports": "leads unclassified evaluations under voluntary agreements"
+            },
+            {
+              "source": "S-0331",
+              "passage": "S-0331#2",
+              "stance": "supports",
+              "supports": "new agreements"
+            },
+            {
+              "source": "S-0331",
+              "passage": "S-0331#3",
+              "stance": "supports",
+              "supports": "pre-deployment evaluations"
+            },
+            {
+              "source": "S-0112",
+              "passage": "S-0112#5",
+              "stance": "supports",
+              "supports": "CAISI tested Opus 5.5"
+            }
+          ],
+          "uncertainty": null,
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:caisi:context": "consistent with this change"
+          },
+          "unverified_carryover": [
+            "published methodologies are widely adopted"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:aisi-net:desc",
+            "entry:us-frontier-access-eo:context",
+            "entry:uk-aisi:context",
+            "edge:aisi-net|caisi",
+            "edge:us-eo14179|caisi",
+            "edge:caisi|nist-rmf",
+            "edge:fsi|caisi",
+            "faq:what-is-the-difference-between-layer-2-and-layer"
+          ],
+          "hash": "a01bcf830890"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0170",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:04Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "FSI: describe Model Security and the translation role as FSI does",
+          "kind": "flag",
+          "changes": [],
+          "why": "'State-actor', 'national-security review' and 'lab safety commitments' are the map's framing; FSI describes connecting lab security work to existing government authorities and translating labs' findings.",
+          "rationale": "FSI's Model Security programme protects frontier AI 'from theft, sabotage, and adversarial attack' and closes the gap with 'the authorities the government already holds' (fsi-home p2); with labs it works to 'harden models against exfiltration and insider threats' and with government identifies authorities to act (fsi-work p1), naming model weights among targets (p2). Translation runs through all three programmes (fsi-home p3): FSI translates 'what they're seeing into terms government can use' (fsi-labs p1–p2).",
+          "evidence": [
+            {
+              "source": "S-0222",
+              "passage": "S-0222#8",
+              "stance": "supports",
+              "supports": "Model Security description"
+            },
+            {
+              "source": "S-0225",
+              "passage": "S-0225#5",
+              "stance": "supports",
+              "supports": "exfiltration, insider threats, authorities"
+            },
+            {
+              "source": "S-0225",
+              "passage": "S-0225#6",
+              "stance": "supports",
+              "supports": "model weights"
+            },
+            {
+              "source": "S-0222",
+              "passage": "S-0222#9",
+              "stance": "supports",
+              "supports": "translation"
+            },
+            {
+              "source": "S-0223",
+              "passage": "S-0223#6",
+              "stance": "supports",
+              "supports": "translate for government"
+            },
+            {
+              "source": "S-0223",
+              "passage": "S-0223#7",
+              "stance": "supports",
+              "supports": "technical findings"
+            }
+          ],
+          "uncertainty": null,
+          "confidence": "medium",
+          "question": "Should FSI's security and accountability notes follow FSI's own (revised) description of its Model Security programme and translation role?",
+          "knock_on_notes": {
+            "entry:fsi:desc": "needs re-check: FSI's site (changed since 10 Oct) now calls it 'an independent, nonpartisan think tank' (fsi-home p1) and no longer mentions CAIS",
+            "entry:fsi:context": "needs re-check: FSI's lab and national-security pages no longer list 'independent evaluation' or 'standing advisory'; they list capability awareness, translation, convening, security partnership, test-and-evaluation standards and classified work",
+            "entry:fsi:cov:eval": "needs re-check for the same reason"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Use FSI's description",
+              "changes": [
+                {
+                  "op": "set_cov",
+                  "entity": "fsi",
+                  "cat": "sec",
+                  "from": "Securing advanced AI model weights against state-actor exfiltration is one of FSI's three named focus areas — bridges lab weight-security commitments and US national-security review.",
+                  "to": "Model Security — protecting US frontier AI, including model weights, from theft, sabotage and adversarial attack — is one of FSI's three programmes; it works with labs on hardening models against exfiltration and insider threats and connects that work to the authorities government already holds."
+                },
+                {
+                  "op": "set_cov",
+                  "entity": "fsi",
+                  "cat": "acct",
+                  "from": "Policy translation between frontier labs and US national-security institutions; aims to make lab safety commitments legible to national-security review processes.",
+                  "to": "Translation between frontier labs and the US National Security Enterprise — turning labs' technical findings into terms government can use, through briefings, closed-door dialogues and test-and-evaluation standards."
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Keep as is",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:cais:context",
+            "edge:cais|fsi",
+            "edge:fsi|caisi",
+            "edge:fsi|us-frontier-access-eo",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "309d4ca780fa"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0171",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:04Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "NIST AI RMF: the EU GPAI Code's Safety and Security chapter does not refer to it",
+          "kind": "flag",
+          "changes": [],
+          "why": "The claim implies a documented influence of a US framework on an EU instrument; the Code text gives no sign of it.",
+          "rationale": "The Code's Safety and Security chapter never mentions NIST or the AI Risk Management Framework (cop-ss p4); its structure follows commitments tied to AI Act articles (cop-ss p1). The RMF's four functions and voluntary character are confirmed (nist-ai-100-1 p1–p2; nist-rmf p1). No inspected source shows the influence.",
+          "evidence": [
+            {
+              "source": "S-0044",
+              "passage": "S-0044#23",
+              "stance": "supports",
+              "supports": "no NIST reference in Code chapter"
+            },
+            {
+              "source": "S-0237",
+              "passage": "S-0237#4",
+              "stance": "supports",
+              "supports": "four functions"
+            },
+            {
+              "source": "S-0182",
+              "passage": "S-0182#6",
+              "stance": "supports",
+              "supports": "voluntary"
+            }
+          ],
+          "uncertainty": "Code drafters may have drawn on the RMF informally; the Transparency and Copyright chapters were not searched.",
+          "confidence": "low",
+          "question": "Should the claim that the AI RMF 'informs the EU GPAI Code structure' be removed?",
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "Embedded into procurement, agency policy, and corporate compliance programs even outside the US.",
+            "referenced by sector regulators (financial, healthcare)"
+          ],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Remove the GPAI Code claim",
+              "changes": [
+                {
+                  "op": "set_field",
+                  "entity": "nist-rmf",
+                  "field": "context",
+                  "from": "Voluntary framework structured around four functions — Govern, Map, Measure, Manage — applied across the AI lifecycle. Embedded into procurement, agency policy, and corporate compliance programs even outside the US. Doesn't impose obligations itself but is referenced by sector regulators (financial, healthcare) and informs the EU GPAI Code structure.",
+                  "to": "Voluntary framework structured around four functions — Govern, Map, Measure, Manage — applied across the AI lifecycle. Embedded into procurement, agency policy, and corporate compliance programs even outside the US. Doesn't impose obligations itself but is referenced by sector regulators (financial, healthcare)."
+                },
+                {
+                  "op": "set_cov",
+                  "entity": "nist-rmf",
+                  "cat": "acct",
+                  "from": "Transparency principles and the Govern function provide soft accountability scaffolding. Doesn't impose obligations itself; informs the EU GPAI Code structure.",
+                  "to": "Transparency principles and the Govern function provide soft accountability scaffolding. Doesn't impose obligations itself."
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Keep as is",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "edge:caisi|nist-rmf",
+            "gap:update"
+          ],
+          "hash": "028dd5bd5845"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0172",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:04Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "New L4 entry? AEF-1, the AI Evaluator Forum's standard now cited by the EU AI Office",
+          "kind": "flag",
+          "changes": [],
+          "why": "A voluntary evaluator standard became part of how the EU AI Office judges Code compliance for external evaluations, a new link between Layer 4 evaluators and the EU regime.",
+          "rationale": "AEF-1 (v1, 4 Dec 2025) sets operating conditions and a checklist for independent evaluations (aef1 p1–p2, p5). The AI Office's 21 Oct 2026 workshop report says independence of external evaluators under Code Measures 3.2/3.5 should be ensured by contractual safeguards including at least AEF-1's Analytic Autonomy and Transparent Methods sections (ec-evalreq-report p1–p2; ec-evalreq p1). AVERI coauthored it (averi-about p1); METR's Frontier Risk Report used its checklist (aef1 p3). It meets RUBRIC §1 (identifiable text, material via Code compliance, attributable to the Forum, applied by the AI Office); SCOPE B3 admits a standard 'used for regulatory compliance'. Option a recommended because the mechanism is distinct from its authors; b is a lighter alternative.",
+          "evidence": [
+            {
+              "source": "S-0326",
+              "passage": "S-0326#1",
+              "stance": "supports",
+              "supports": "AEF-1 v1 Dec 2025"
+            },
+            {
+              "source": "S-0326",
+              "passage": "S-0326#2",
+              "stance": "supports",
+              "supports": "standard and checklist"
+            },
+            {
+              "source": "S-0325",
+              "passage": "S-0325#1",
+              "stance": "supports",
+              "supports": "AI Office: contractual safeguards"
+            },
+            {
+              "source": "S-0325",
+              "passage": "S-0325#2",
+              "stance": "supports",
+              "supports": "at least AEF-1 sections 3–4"
+            },
+            {
+              "source": "S-0324",
+              "passage": "S-0324#1",
+              "stance": "supports",
+              "supports": "report published 21 Oct 2026"
+            },
+            {
+              "source": "S-0211",
+              "passage": "S-0211#4",
+              "stance": "supports",
+              "supports": "AVERI coauthored"
+            },
+            {
+              "source": "S-0326",
+              "passage": "S-0326#3",
+              "stance": "supports",
+              "supports": "METR used checklist"
+            },
+            {
+              "source": "S-0327",
+              "passage": "S-0327#2",
+              "stance": "supports",
+              "supports": "Forum not a legal entity"
+            },
+            {
+              "source": "S-0325",
+              "passage": "S-0325#3",
+              "stance": "supports",
+              "supports": "current views, subject to change"
+            }
+          ],
+          "uncertainty": "The AI Office's view was expressed in bilateral communication and 'may be subject to change' (ec-evalreq-report p3); the Forum is not a legal entity (aef-home p2), so attribution is to a voluntary network.",
+          "confidence": "medium",
+          "question": "How should the map record AEF-1, which the EU AI Office now cites as the minimum for external-evaluator contracts under the GPAI Code?",
+          "knock_on_notes": {
+            "entry:averi:cov:acct": "could mention AEF-1 coauthorship; not drafted"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Add AEF-1 as a Layer 4 entry with four connections",
+              "changes": [
+                {
+                  "op": "add_entity",
+                  "after": "averi",
+                  "entity": {
+                    "id": "aef1",
+                    "name": "AEF-1 evaluator standard",
+                    "layer": 4,
+                    "jur": "co",
+                    "pow": 1,
+                    "status": "active",
+                    "link": "https://aievaluatorforum.org/initiatives/minimum-operating-conditions",
+                    "desc": "AI Evaluator Forum standard (v1, Dec 2025) setting minimum operating conditions for independent third-party AI evaluations — access, conflicts of interest, analytic autonomy, transparency, protection of sensitive information — shown through a published checklist.",
+                    "context": "Voluntary standard from a network of independent evaluators that is not a legal entity; AVERI coauthored it. In Oct 2026 the EU AI Office said contractual safeguards for external evaluators engaged under the GPAI Code should include at least AEF-1's analytic-autonomy and transparency requirements, giving it a role in Code compliance. METR's May 2026 Frontier Risk Report included its checklist.",
+                    "cov": {
+                      "eval": "Sets baseline conditions under which third-party evaluations of frontier models are run and reported, including technical access and editorial control.",
+                      "acct": "Evaluators publish a checklist disclosing which conditions were met and why not, making the independence of external evaluations checkable; the EU AI Office points Code signatories to it."
+                    }
+                  }
+                },
+                {
+                  "op": "add_edge",
+                  "a": "aef1",
+                  "b": "eu-aio",
+                  "rel": "AI Office expects Code evaluator contracts to include AEF-1's autonomy and transparency requirements"
+                },
+                {
+                  "op": "add_edge",
+                  "a": "aef1",
+                  "b": "gpai-cop",
+                  "rel": "AI Office points Code signatories to AEF-1 for external-evaluator independence"
+                },
+                {
+                  "op": "add_edge",
+                  "a": "averi",
+                  "b": "aef1",
+                  "rel": "AVERI coauthored AEF-1"
+                },
+                {
+                  "op": "add_edge",
+                  "a": "metr",
+                  "b": "aef1",
+                  "rel": "METR's May 2026 Frontier Risk Report used the AEF-1 checklist"
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "No new entry; note it under the EU AI Office and connect AVERI",
+              "changes": [
+                {
+                  "op": "set_cov",
+                  "entity": "eu-aio",
+                  "cat": "acct",
+                  "from": "Information requests, scientific panel oversight, and direct enforcement of GPAI obligations. Centralised regulatory authority unique within EU architecture — most enforcement runs through national authorities, but GPAI sits with the Office.",
+                  "to": "Information requests, scientific panel oversight, and direct enforcement of GPAI obligations. Centralised regulatory authority unique within EU architecture — most enforcement runs through national authorities, but GPAI sits with the Office. Since Oct 2026 it sets qualification and independence expectations for external evaluators under the GPAI Code, pointing to the AI Evaluator Forum's AEF-1 standard."
+                },
+                {
+                  "op": "add_edge",
+                  "a": "averi",
+                  "b": "eu-aio",
+                  "rel": "AVERI coauthored AEF-1, which the AI Office cites for Code evaluator independence"
+                }
+              ]
+            },
+            {
+              "key": "c",
+              "label": "Log only; no change",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:aisi-net:desc",
+            "entry:eu-aia:cov:timing",
+            "entry:eu-aia:cov:halt",
+            "entry:eu-aia:cov:acct",
+            "entry:gpai-cop:context",
+            "entry:gpai-cop:cov:acct",
+            "entry:gpai-cop:cov:update",
+            "entry:eu-genai-code:context",
+            "entry:us-ftc:context",
+            "edge:aisi-net|eu-aio",
+            "edge:eu-aia|eu-aio",
+            "edge:gpai-cop|eu-aio",
+            "edge:eu-aio|eu-genai-code",
+            "gap:halt",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris",
+            "faq:what-does-the-eu-ai-office-do",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip",
+            "text:footer-sources",
+            "entry:eu-aia:cov:eval",
+            "entry:eu-aia:cov:elicit",
+            "entry:eu-aia:cov:sec",
+            "entry:eu-aia:cov:update",
+            "entry:hiroshima:cov:eval",
+            "entry:rsp:context",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:meta-faif:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:xai-rmf:context",
+            "entry:metr:cov:thresh",
+            "entry:nist-rmf:context",
+            "entry:nist-rmf:cov:acct",
+            "edge:gpai-cop|eu-aia",
+            "edge:gpai-cop|rsp",
+            "edge:gpai-cop|prep",
+            "edge:gpai-cop|fsf",
+            "edge:gpai-cop|meta-faif",
+            "edge:gpai-cop|xai-rmf",
+            "gap:eval",
+            "gap:elicit",
+            "gap:sec",
+            "gap:update",
+            "entry:caisi:context",
+            "entry:fsi:context",
+            "edge:averi|metr",
+            "edge:averi|apollo",
+            "entry:rsp:cov:elicit",
+            "entry:prep:cov:eval",
+            "entry:averi:cov:acct",
+            "edge:aisr|metr",
+            "edge:metr|rsp",
+            "edge:metr|prep",
+            "edge:metr|fsf",
+            "faq:what-is-metr-s-common-elements-framework",
+            "text:footer-note",
+            "text:intro"
+          ],
+          "hash": "f1e2216b24e7"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0173",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:31:04Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Other AISIs: no source shows Singapore/Japan lab arrangements or Network sharing of pre-deployment access",
+          "kind": "flag",
+          "changes": [],
+          "why": "The note asserts specific lab arrangements and a Network access-sharing function that readers cannot trace to any source.",
+          "rationale": "The Network's only best-practice document covers automated evaluations and says nothing about pre-deployment access or sharing it (net-bp p1–p4). Singapore's DTC page describes AISI research and international collaboration, not lab access arrangements (ntu-dtc p2). Recommending removal keeps this entry consistent with group A's P-0158 (aisi-net timing: remove recommended).",
+          "evidence": [
+            {
+              "source": "S-0125",
+              "passage": "S-0125#16",
+              "stance": "supports",
+              "supports": "no access-sharing in Network guidance"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#13",
+              "stance": "supports",
+              "supports": "scope limited to automated evaluations"
+            },
+            {
+              "source": "S-0186",
+              "passage": "S-0186#3",
+              "stance": "supports",
+              "supports": "Singapore AISI role"
+            }
+          ],
+          "uncertainty": "Bilateral arrangements may exist without public text; a sourced replacement could be drafted if one is found.",
+          "confidence": "medium",
+          "question": "Should the other-AISIs timing note, which describes pre-deployment arrangements no source documents, be removed?",
+          "knock_on_notes": {
+            "entry:aisi-net:cov:timing": "group A P-0158 (remove recommended); consistent",
+            "entry:other-aisis:cov:elicit": "left unresolved; Network guidance covers elicitation for automated evaluations only (net-bp p1–p3), consistent with group A P-0157"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Remove the timing note",
+              "changes": [
+                {
+                  "op": "set_cov",
+                  "entity": "other-aisis",
+                  "cat": "timing",
+                  "from": "Pre-deployment access agreements vary by member — Singapore and Japan have working arrangements with regional labs; most other members rely on AISI Network sharing.",
+                  "to": null
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Keep as is",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:aisr:context",
+            "entry:aisi-net:context",
+            "entry:uk-aisi:cov:elicit",
+            "edge:aisi-net|other-aisis",
+            "edge:au-esafety|other-aisis",
+            "edge:imda|other-aisis",
+            "edge:jp-sectors|other-aisis",
+            "gap:eval",
+            "text:layer-4:tooltip",
+            "text:layer-4:subtitle"
+          ],
+          "hash": "cc14e76429d6"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0158"
+        ],
         "updated": "2026-11-06"
       }
     }

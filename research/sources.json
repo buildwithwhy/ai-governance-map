@@ -1,5 +1,5 @@
 {
-  "next": 324,
+  "next": 338,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -3072,6 +3072,30 @@
           "locator": "Commitment 7",
           "text": "by creating a Safety and Security Model Report (“Model Report”) before placing a model on the market",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0044#20",
+          "locator": "Commitment 7 (Safety and Security Model Reports)",
+          "text": "Signatories commit to reporting to the AI Office information about their model and their systemic risk assessment and mitigation processes and measures by creating a Safety and Security Model Report (“Model Report”) before placing a model on the market",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0044#21",
+          "locator": "Measure 7.7 (Model Report notifications)",
+          "text": "Signatories will provide the AI Office with access to the Model Report (without redactions, unless they are required by national security laws to which Signatories are subject) by the time they place a model on the market",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0044#22",
+          "locator": "Measure 7.7, final paragraph",
+          "text": "To facilitate the placing on the market of a model, Signatories may delay providing the AI Office with a Model Report, or an update thereof, by up to 15 business days.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0044#23",
+          "locator": "whole chapter",
+          "text": "[Observation, not a quotation] Searched the Safety and Security chapter for 'NIST' and 'Risk Management Framework': neither appears.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -5783,6 +5807,12 @@
           "locator": "§2.3 Research Categories, Persuasion",
           "text": "and Persuasion category risks do not fit the criteria for inclusion.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0095#31",
+          "locator": "whole document",
+          "text": "[Observation, not a quotation] Searched Preparedness Framework v2 for 'Apollo': no matches. Sandbagging appears as a Research Category without attribution to Apollo.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -6569,6 +6599,18 @@
           "locator": "Correctness and Sandbagging Checks",
           "text": "we performed automated checks to rule out sandbagging",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0106#8",
+          "locator": "External Safety Testing",
+          "text": "The independent external evaluators explore frontier safety risk domains, however they do not directly comment on risk thresholds as contemplated under our FSF.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0106#9",
+          "locator": "whole document",
+          "text": "[Observation, not a quotation] Searched the report for 'Apollo': no matches; external evaluators are not named.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -7182,7 +7224,7 @@
       "publisher": "Anthropic",
       "type": "primary",
       "dates": {
-        "published": "2026-09"
+        "published": "2026-09-22"
       },
       "fetches": [
         {
@@ -7234,6 +7276,24 @@
           "locator": "§2.2 (Long-Form Virology Tasks)",
           "text": "require helpful-only variants for maximum elicitation",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0112#5",
+          "locator": "§2.2.4 External testing by the US Center for AI Standards and Innovation (CAISI)",
+          "text": "We collaborated with the U.S. Center for AI Standards and Innovation (CAISI) at the National Institute of Standards and Technology (NIST) on measurement of cyber and biological capabilities and safeguards, as well as unintended model behaviors.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0112#6",
+          "locator": "§2 CB evaluations, automated evaluations relevant to CB-1",
+          "text": "multimodal virology knowledge (Virology Capabilities Test, or VCT)",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0112#7",
+          "locator": "whole document",
+          "text": "[Observation, not a quotation] Searched the Claude Opus 5.5 System Card for 'Apollo': no matches. Its external-testing sections name CAISI and METR.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -7343,6 +7403,18 @@
           "id": "S-0114#4",
           "locator": "§6.2.7 External testing from Apollo Research",
           "text": "Apollo did not find any instances of egregious misalignment, but observed high levels of verbalized evaluation awareness.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0114#5",
+          "locator": "§6.2.7",
+          "text": "Apollo decided to not provide any formal assessment of Claude Opus 4.6 at this stage.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0114#6",
+          "locator": "Table of contents",
+          "text": "6.2.7 External testing from Apollo Research",
           "retrieved": "2026-11-06"
         }
       ]
@@ -7855,6 +7927,24 @@
           "locator": "Whole document (retrieved 2026-11-06)",
           "text": "[Observation, not a quotation] [Observation, not a quotation] Searched today's full report text for 'Center for AI Safety' and 'Statement on AI Risk': no match; 'CAIS' occurs only inside the conference acronym 'ICAISS'. The report text is unchanged in substance since 2026-10-10.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0121#28",
+          "locator": "§2.2.2 / evaluation challenges",
+          "text": "models can underperform during evaluations compared to other contexts, a pattern termed ‘sandbagging’ that has been observed in experiments",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0121#29",
+          "locator": "Reference 722",
+          "text": "Stress Testing Deliberative Alignment for Anti-Scheming Training",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0121#30",
+          "locator": "Reference 348",
+          "text": "“Frontier Models Are Capable of In-Context Scheming” (Apollo Research, 2024)",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -8212,6 +8302,30 @@
           "id": "S-0125#12",
           "locator": "whole document",
           "text": "[Observation, not a quotation] Searched the 20-page guidance for any provision on coordinating pre-deployment access to models between Network members and developers, or on sharing evaluation results so that one institute need not re-test a model; none found. The document addresses third-party evaluators running pre-existing automated evaluations.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0125#13",
+          "locator": "§A.2 Scope",
+          "text": "This document focuses on one important subset: automated evaluations of AI models.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0125#14",
+          "locator": "§A.2 Scope, out-of-scope list",
+          "text": "While some \"red-team\" testing can be automated, such as refusal testing, these remain out of scope for this document.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0125#15",
+          "locator": "§A.2 Scope, out-of-scope list",
+          "text": "Agentic evaluations, which assess AI agent performance, including in tool-use and long-horizon task execution.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0125#16",
+          "locator": "whole document",
+          "text": "[Observation, not a quotation] Searched the Network best practice for 'pre-deployment', 'access agreement' and 'sandbag': it describes evaluation practice for automated evaluations and does not mention members' pre-deployment access arrangements or the Network sharing access.",
           "retrieved": "2026-11-06"
         }
       ]
@@ -11401,6 +11515,18 @@
           "locator": "News and Updates",
           "text": "[Observation, not a quotation] The page's News and Updates box now shows the four most recent items (16 Oct, 17 Sep, 23 Jul, 17 Jul 2026); the 1 May 2026 DeepSeek V4 Pro item dropped off this box because a newer item was added, and is still in NIST's CAISI news listing. None of the four is a pre-deployment evaluation: all are assessments of released PRC models or guidance.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0174#10",
+          "locator": "About",
+          "text": "Establish voluntary agreements with private sector SI developers and evaluators, and lead unclassified evaluations of SI capabilities that may pose risks to national security.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0174#11",
+          "locator": "About",
+          "text": "Work with NIST organizations to develop guidelines and best practices to measure and improve the security of SI systems, and work with NIST staff to assist industry to develop voluntary standards.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -11587,6 +11713,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "a59d4d878573fd83",
           "bytes": 99370
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:44Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "c8b9d2e4307b7b7e",
+          "bytes": 99898
         }
       ],
       "passages": [
@@ -11595,6 +11733,12 @@
           "locator": "body, first paragraph",
           "text": "In April 2026, the Center for AI Standards and Innovation (CAISI) evaluated the open-weight AI model DeepSeek V4 Pro (“DeepSeek V4”).",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0177#2",
+          "locator": "Para. 1",
+          "text": "In April 2026, the Center for AI Standards and Innovation (CAISI) evaluated the open-weight AI model DeepSeek V4 Pro",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -11794,6 +11938,18 @@
           "locator": "overview",
           "text": "Released on January 26, 2023, the Framework was developed through a consensus-driven, open, transparent, and collaborative process",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0182#6",
+          "locator": "Overview",
+          "text": "The NIST AI Risk Management Framework (AI RMF) is intended for voluntary use",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0182#7",
+          "locator": "Banner",
+          "text": "The AI RMF 1.0 is being revised as part of the White House AI Action Plan.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -11864,6 +12020,18 @@
           "id": "S-0183#6",
           "locator": "The Structure of the AI Office",
           "text": "[Observation, not a quotation] Searched the AI Office page for which unit represents the EU in NAAIMES; the page lists the units but does not name a unit as the network participant.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0183#7",
+          "locator": "Tasks list",
+          "text": "Investigating possible infringements of the rules, including inspections, requests for technical documentation and access to models in order to assess models' capabilities",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0183#8",
+          "locator": "Related content: AI Act Scientific Panel",
+          "text": "The Scientific Panel advises the AI Office and national authorities on the implementation the AI Act",
           "retrieved": "2026-11-06"
         }
       ]
@@ -12024,6 +12192,36 @@
           "locator": "Art. 92 (whole article)",
           "text": "[Observation, not a quotation] Re-read Article 92 in today's rendered copy: it lets the AI Office evaluate a GPAI model and request access to it, with no reference to access before placing on the market. Today's copy differs from 10 Oct by 7 bytes of rendering; Articles 91–93 read the same.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0185#14",
+          "locator": "Art. 92(2)",
+          "text": "The Commission may decide to appoint independent experts to carry out evaluations on its behalf, including from the scientific panel established pursuant to Article 68.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0185#15",
+          "locator": "Art. 55(1)(c)",
+          "text": "keep track of, document, and report, without undue delay, to the AI Office and, as appropriate, to national competent authorities, relevant information about serious incidents and possible corrective measures to address them",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0185#16",
+          "locator": "Art. 89(1)",
+          "text": "the AI Office may take the necessary actions to monitor the effective implementation and compliance with this Regulation by providers of general-purpose AI models",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0185#17",
+          "locator": "Art. 90(1)",
+          "text": "The scientific panel may provide a qualified alert to the AI Office where it has reason to suspect that",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0185#18",
+          "locator": "Chapter V Section 5 (Arts 88–94)",
+          "text": "[Observation, not a quotation] Read Arts 88–94 (supervision, investigation, enforcement of GPAI obligations) for any provision giving the AI Office access to a model before it is placed on the market: none found. Art. 92 access serves evaluations to assess compliance or investigate systemic risks of the model concerned.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -12045,6 +12243,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "41c00541ca0d3e5e",
           "bytes": 183168
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:46Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.ntu.edu.sg/dtc",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "fd87a72e5a6259a5",
+          "bytes": 185373
         }
       ],
       "passages": [
@@ -12053,6 +12263,18 @@
           "locator": "news / about",
           "text": "With the designation of the Digital Trust Centre as Singapore’s AI Safety Institute (AISI), the Singapore AISI will work on addressing the gaps in global AI safety science, leveraging Singapore's work in AI evaluation and testing.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0186#2",
+          "locator": "About",
+          "text": "The Digital Trust Centre is a national centre that leads Singapore’s research and development efforts in trust technologies, including AI Safety.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0186#3",
+          "locator": "AISI designation",
+          "text": "the Singapore AISI will work on addressing the gaps in global AI safety science, leveraging Singapore's work in AI evaluation and testing.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -12403,6 +12625,18 @@
           "locator": "resources list",
           "text": "Pre-deployment access to leading AI models and close collaborations with AI companies that give us privileged access to their development approaches",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0194#3",
+          "locator": "Our work includes",
+          "text": "Testing leading AI systems before they are released publicly and collaborating with top AI companies to improve their safety and security",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0194#4",
+          "locator": "Backed with the resources we need",
+          "text": "Pre-deployment access to leading AI models and close collaborations with AI companies",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -12511,6 +12745,12 @@
           "locator": "Methodology",
           "text": "This report focuses on LLMs released between 2022 and October 2025",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0196#4",
+          "locator": "Methods",
+          "text": "Expert red-teaming with human subject-matter experts to stress-test critical risks, such as creating custom jailbreaks for AI systems’ safeguards.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -13109,6 +13349,24 @@
           "locator": "components list and Table 1",
           "text": "[Observation, not a quotation] Today's copy still lists nine components (capability thresholds, model weight security, deployment mitigations, halting deployment, halting development, full capability elicitation, timing/frequency, accountability, updating policies); 'model evaluations' is not a separate component. The page is still the 16 Dec 2025 version; the byte difference is page furniture.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#33",
+          "locator": "Summary",
+          "text": "This December 2025 version contains references to some developers’ updated frontier AI safety policies. In addition, it also mentions relevant guidance from the EU AI Act’s General-Purpose AI Code of Practice and California’s Senate Bill 53.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#34",
+          "locator": "Footnote 1",
+          "text": "This report is descriptive, not prescriptive, and does not represent METR’s recommendations.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#35",
+          "locator": "Summary",
+          "text": "In our original report from August 2024, we noted how each policy studied made use of capability thresholds",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -13362,6 +13620,24 @@
           "locator": "2026",
           "text": "We are now a Public Benefit Corporation",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0209#6",
+          "locator": "Our journey, 2024",
+          "text": "partnered with OpenAI to test their o1 model before public deployment",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0209#7",
+          "locator": "Our journey, 2024",
+          "text": "published the first evidence that frontier models can scheme in context",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0209#8",
+          "locator": "Our journey, 2025",
+          "text": "We ran evaluations for all major labs as well as:",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -13462,6 +13738,18 @@
           "locator": "Standards",
           "text": "we coauthored AEF-1 –a standard defining minimum operating conditions for independent third-party evaluations – alongside other members of the AI Evaluator Forum",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0211#4",
+          "locator": "Standards",
+          "text": "we coauthored AEF-1–a standard defining minimum operating conditions for independent third-party evaluations – alongside other members of the AI Evaluator Forum.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0211#5",
+          "locator": "Footer",
+          "text": "is a 501(c)(3) US-based non-profit organization.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -13517,6 +13805,36 @@
           "locator": "Executive summary",
           "text": "Growing the ecosystem of audit providers at a rapid pace without compromising quality.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0212#4",
+          "locator": "Header",
+          "text": "Jan 15 Written by Miles Brundage",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0212#5",
+          "locator": "Executive summary, key takeaways",
+          "text": "We describe four AI Assurance Levels (AALs), the higher levels of which provide greater confidence in audit findings.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0212#6",
+          "locator": "Challenges and next steps",
+          "text": "Growing the ecosystem of audit providers at a rapid pace without compromising quality.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0212#7",
+          "locator": "Executive summary",
+          "text": "Many industries outside of AI already address similar challenges through independent auditors who review sensitive, non-public information and publish trustworthy conclusions that outsiders can rely on.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0212#8",
+          "locator": "whole page",
+          "text": "[Observation, not a quotation] Searched the launch report page for 'integrity', 'EU AI Act' and 'European': none appears; its comparisons are to financial auditors, penetration testers and consumer product testing laboratories.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -13738,6 +14056,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "085642fc200b1ec4",
           "bytes": 54950
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:43Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://safe.ai/faq",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "df1ab815f40236c4",
+          "bytes": 54950
         }
       ],
       "passages": [
@@ -13746,6 +14076,12 @@
           "locator": "donations",
           "text": "The Center for AI Safety is a US federally recognized 501c(3) non-profit organization.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0217#2",
+          "locator": "Donations",
+          "text": "The Center for AI Safety is a US federally recognized 501c(3) non-profit organization.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -13799,6 +14135,18 @@
           "locator": "Advocacy",
           "text": "Providing technical expertise to inform policymaking at governmental bodies",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0218#4",
+          "locator": "CAIS Impact",
+          "text": "In May 2023, we released a Statement on AI Risk which was signed by >600 AI experts and public figures, including the CEOs of OpenAI, DeepMind and Anthropic. This statement helped to shift the global perspective on catastrophic risks from AI",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0218#5",
+          "locator": "Leadership",
+          "text": "Dan Hendrycks Executive & Research Director",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -13904,6 +14252,30 @@
           "id": "S-0220#5",
           "locator": "Humanity's Last Exam",
           "text": "Humanity's Last Exam … Jan 24, 2025",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0220#6",
+          "locator": "Technical AI Research list",
+          "text": "Humanity's Last Exam Technical Research Capability Benchmark Jan 24, 2025",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0220#7",
+          "locator": "Technical AI Research list",
+          "text": "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0220#8",
+          "locator": "Technical AI Research list",
+          "text": "Virology Capabilities Test (VCT): A Multimodal Virology Q&A Benchmark",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0220#9",
+          "locator": "whole page",
+          "text": "[Observation, not a quotation] Searched the CAIS research page for 'MMLU': no matches.",
           "retrieved": "2026-11-06"
         }
       ]
@@ -14073,6 +14445,24 @@
           "locator": "whole site (home, ai-labs, national-security, our-work, team, approach, research pages)",
           "text": "[Observation, not a quotation] The redesigned site no longer describes FSI as 'at the Center for AI Safety' and none of these pages mentions CAIS, the Center for AI Safety or safe.ai; FSI now calls itself 'an independent, nonpartisan think tank'.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0222#7",
+          "locator": "Hero",
+          "text": "The Frontier Security Institute is an independent, nonpartisan think tank working between America’s frontier AI companies and the National Security Enterprise.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0222#8",
+          "locator": "Defend: Model Security",
+          "text": "Protecting U.S. frontier AI from theft, sabotage, and adversarial attack. We work directly with the frontier labs to close the gap between the threats they face and the authorities the government already holds to answer them.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0222#9",
+          "locator": "The translation layer",
+          "text": "Running through all three programs is one job: translation.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -14137,6 +14527,18 @@
           "id": "S-0223#5",
           "locator": "whole page",
           "text": "[Observation, not a quotation] The 10 Oct offers '01 Independent evaluation' (non-commercial capability assessment) and 'Evaluations, red-teaming, joint convenings, and technical advisory' are gone; the four offers are now capability awareness, translation, neutral-ground convening and security partnership.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0223#6",
+          "locator": "The problem",
+          "text": "We translate what they’re seeing into terms government can use, and bring both sides to the same table.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0223#7",
+          "locator": "02 Translation",
+          "text": "Turning technical findings into the forms operators, program offices, and acquisition leaders can act on, without losing technical fidelity.",
           "retrieved": "2026-11-06"
         }
       ]
@@ -14267,6 +14669,18 @@
           "id": "S-0225#4",
           "locator": "02 Adopt, Test & evaluation",
           "text": "The frameworks that determine whether an AI-enabled system is fit for a specific government use, built to fit the acquisition and testing processes the government already runs.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0225#5",
+          "locator": "01 Defend: Model Security",
+          "text": "With the labs, we develop the technical, legal, and operational means to harden models against exfiltration and insider threats, and to close the gaps in what defenders can see. With government, we identify the authorities already available to act, and where they fall short.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0225#6",
+          "locator": "01 Defend: Model Security",
+          "text": "The infrastructure it runs on, the model weights, and the people who build them are all targets that must be protected",
           "retrieved": "2026-11-06"
         }
       ]
@@ -14866,6 +15280,12 @@
           "locator": "front matter, Update Schedule and Versions",
           "text": "a review with formal input from the AI community is expected to take place no later than 2028.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0237#4",
+          "locator": "Executive Summary",
+          "text": "It describes four specific functions to help organizations address the risks of AI systems in practice.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -18434,6 +18854,12 @@
           "locator": "§4.4.3 Apollo Research",
           "text": "Apollo Research, an evaluation organization focusing on risks from deceptively aligned AI systems, evaluated capabilities of ‘scheming’ in o1 models.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0304#2",
+          "locator": "Biological threat creation evaluations",
+          "text": "We also ran contextual evaluations not included here, including on GPQA biology, WMDP biology and chemistry splits",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -18971,6 +19397,18 @@
           "locator": "para 2",
           "text": "The ten key practices are divided into five stages of the incident management lifecycle: preparation, detection, response, recovery, and reporting.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0313#4",
+          "locator": "Para. 1",
+          "text": "published ten key practices for managing potential incidents during super intelligence (SI) training and evaluation.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0313#5",
+          "locator": "Para. 2",
+          "text": "This voluntary document supports the frontier SI industry in preventing, preparing for, and responding to incidents during training and evaluation",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -19342,6 +19780,538 @@
           "id": "S-0323#3",
           "locator": "sponsors",
           "text": "\"name\":\"Dawn Butler\"",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0324": {
+      "url": "https://digital-strategy.ec.europa.eu/en/library/requirements-qualified-independent-external-evaluators-general-purpose-ai-models",
+      "title": "Requirements for qualified independent external evaluators of General-Purpose AI models (event report page)",
+      "publisher": "European Commission (AI Office)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-21"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:35Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/library/requirements-qualified-independent-external-evaluators-general-purpose-ai-models",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "fcf9e4ff81055af1",
+          "bytes": 52936
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0324#1",
+          "locator": "Event report, published 21 October 2026",
+          "text": "The AI Office presents a report on its workshop on the requirements for the qualifications and independence of external model evaluators of general-purpose AI (GPAI) models with systemic risk.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0324#2",
+          "locator": "Event report, para. 5",
+          "text": "This workshop addressed the AI Office's objective of developing and communicating (parts of) a system for scoring external evaluators on qualification and independence criteria.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0325": {
+      "url": "https://ec.europa.eu/newsroom/dae/redirection/document/133839",
+      "title": "Report from the Workshop on Independence and Qualification Requirements for External Evaluators",
+      "publisher": "European Commission (AI Office)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-21"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:36Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/133839",
+          "content_type": "/",
+          "sha256": "c8bac5ff8d9232d5",
+          "bytes": 229096
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0325#1",
+          "locator": "p. 7, Operational independence",
+          "text": "the AI Office expressed that the independence of external evaluators engaged to conduct model evaluations specified in Measure 3.2 and/or 3.5 of the GPAI Code of Practice should be ensured through contractual safeguards",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0325#2",
+          "locator": "p. 7, Operational independence",
+          "text": "those safeguards should be state of the art and include at least all the requirements and recommendations from Section 4, parts 3: Analytic Autonomy and 4: Transparent Methods and Results (pages 7 to 10) of the voluntary standard AEF-1 proposed by the AI Evaluator Forum.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0325#3",
+          "locator": "p. 1, Workshop Outline",
+          "text": "We note that this report expresses the current views of the AI Office, which may be subject to change as the field of AI evaluations develops.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0325#4",
+          "locator": "p. 2, Attending Organisations",
+          "text": "Apollo Research AVERI",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0326": {
+      "url": "https://aievaluatorforum.org/initiatives/minimum-operating-conditions",
+      "title": "AEF-1: Minimum Operating Conditions for Independent Third Party AI Evaluations",
+      "publisher": "AI Evaluator Forum",
+      "type": "primary",
+      "dates": {
+        "published": "2025-12-04"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:37Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://aievaluatorforum.org/initiatives/minimum-operating-conditions",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "63d60c5329adf2a2",
+          "bytes": 78629
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0326#1",
+          "locator": "Heading",
+          "text": "AEF-1: Minimum Operating Conditions for Independent Third Party AI Evaluations Version 1, updated December 4, 2025",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0326#2",
+          "locator": "Introduction",
+          "text": "a standard and checklist that third-party evaluators can use to demonstrate how they achieved a set of operating conditions that support a baseline level of independence, access, and transparency during an evaluation.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0326#3",
+          "locator": "AEF-1 in practice: Frontier Risk Report, METR, May 2026",
+          "text": "Included the AEF-1 reporting checklist in the published report.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0326#4",
+          "locator": "AEF-1 in practice: Independence provisions under the General-Purpose AI Code of Practice",
+          "text": "The EU AI Office has endorsed key provisions of the AEF-1 standard as a means for providers to comply with the independence provisions of the General-Purpose AI Code of Practice.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0326#5",
+          "locator": "The checklist",
+          "text": "Evaluators demonstrate adherence by completing the checklist and publishing it alongside their results.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0327": {
+      "url": "https://aievaluatorforum.org/",
+      "title": "AI Evaluator Forum",
+      "publisher": "AI Evaluator Forum",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:38Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://aievaluatorforum.org/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "e4ce8d4e83fe01bf",
+          "bytes": 55889
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0327#1",
+          "locator": "Who we are",
+          "text": "The AI Evaluator Forum is a network of organizations conducting independent, third-party evaluations of AI systems.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0327#2",
+          "locator": "Who we are",
+          "text": "The Forum is not a legal entity in its own right and relies on voluntary participation from its members.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0328": {
+      "url": "https://www.apolloresearch.ai/monitoring/pilot-automode-campaign",
+      "title": "Red-teaming auto mode: lessons from our first external monitor campaign with Anthropic",
+      "publisher": "Apollo Research",
+      "type": "primary",
+      "dates": {
+        "published": "2026-07-13"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:38Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.apolloresearch.ai/monitoring/pilot-automode-campaign",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "7de5035c6eb46208",
+          "bytes": 179710
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0328#1",
+          "locator": "Published 13 July 2026, para. 1",
+          "text": "we ran a pilot red-teaming campaign against Anthropic’s auto mode, the new permission mode that decides whether an agent's next action should be allowed or blocked.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0328#2",
+          "locator": "Para. 3",
+          "text": "we identified areas for improvement and paired each with actionable recommendations, which Anthropic implemented.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0329": {
+      "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0%20(1).pdf",
+      "title": "Frontier Safety Framework, Version 2.0 (4 Feb 2025)",
+      "publisher": "Google DeepMind",
+      "type": "primary",
+      "dates": {
+        "published": "2025-02-04"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:40Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0%20(1).pdf",
+          "content_type": "application/pdf",
+          "sha256": "5d66eec33b473462",
+          "bytes": 279976
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0329#1",
+          "locator": "Acknowledgements",
+          "text": "We are grateful for input from Apollo Research, Carnegie Endowment for International Peace",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0329#2",
+          "locator": "Introduction",
+          "text": "we also include an exploratory section addressing deceptive alignment risk",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0330": {
+      "url": "https://arxiv.org/pdf/2009.03300v3",
+      "title": "Measuring Massive Multitask Language Understanding (Hendrycks et al., ICLR 2021)",
+      "publisher": "arXiv (authors' paper)",
+      "type": "primary",
+      "dates": {
+        "published": "2021-01-12"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:42Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://arxiv.org/pdf/2009.03300v3",
+          "content_type": "application/pdf",
+          "sha256": "d3a7b0f8589f5365",
+          "bytes": 2074939
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0330#1",
+          "locator": "p. 1, header",
+          "text": "Published as a conference paper at ICLR 2021",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0330#2",
+          "locator": "Abstract",
+          "text": "We propose a new test to measure a text model’s multitask accuracy.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0330#3",
+          "locator": "Abstract",
+          "text": "To attain high accuracy on this test, models must possess extensive world knowledge and problem solving ability.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0331": {
+      "url": "https://content.govdelivery.com/accounts/USNIST/bulletins/415cadf",
+      "title": "CAISI Signs Agreements Regarding Frontier AI National Security Testing With Google DeepMind, Microsoft and xAI (NIST email bulletin)",
+      "publisher": "NIST (via GovDelivery)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-05-05"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:43Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://content.govdelivery.com/accounts/USNIST/bulletins/415cadf",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "6baa1a43b8fa5a4b",
+          "bytes": 28791
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0331#1",
+          "locator": "Bulletin header",
+          "text": "National Institute of Standards and Technology (NIST) sent this bulletin at 05/05/2026 07:39 AM EDT",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0331#2",
+          "locator": "Para. 1",
+          "text": "Today, the Center for AI Standards and Innovation (CAISI) at the Department of Commerce’s National Institute of Standards and Technology announced new agreements with Google DeepMind, Microsoft and xAI.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0331#3",
+          "locator": "Para. 1",
+          "text": "CAISI will conduct pre-deployment evaluations and targeted research to better assess frontier AI capabilities and advance the state of AI security.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0332": {
+      "url": "https://www.aisi.gov.uk/blog/partnering-with-microsoft-to-strengthen-frontier-ai-safety",
+      "title": "Partnering with Microsoft to strengthen frontier AI safety",
+      "publisher": "UK AI Security Institute",
+      "type": "primary",
+      "dates": {
+        "published": "2026-05-05"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:45Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog/partnering-with-microsoft-to-strengthen-frontier-ai-safety",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "c8b411024d3c6ef7",
+          "bytes": 21950
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0332#1",
+          "locator": "Para. 1 (May 5, 2026)",
+          "text": "Today we’re announcing a new partnership with Microsoft that will focus on developing and advancing methods for evaluating high-risk AI capabilities, and the effectiveness of safeguards used to address them.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0333": {
+      "url": "https://www.aisi.gov.uk/blog/how-were-working-with-frontier-ai-developers-to-improve-model-security",
+      "title": "How we’re working with frontier AI developers to improve model security",
+      "publisher": "UK AI Security Institute",
+      "type": "primary",
+      "dates": {
+        "published": "2025-09-13"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:45Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog/how-were-working-with-frontier-ai-developers-to-improve-model-security",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "28ee6ce418657dcd",
+          "bytes": 22537
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0333#1",
+          "locator": "Subtitle (Sep 13, 2025)",
+          "text": "Insights into our ongoing voluntary collaborations with Anthropic and OpenAI.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0333#2",
+          "locator": "Para. 4",
+          "text": "Our evaluations benefited from both Anthropic and OpenAI providing us with the in-depth model access necessary to carry out this work",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0334": {
+      "url": "https://www.aisi.gov.uk/blog/our-approach-to-ai-capability-elicitation",
+      "title": "Our approach to AI capability elicitation",
+      "publisher": "UK AI Security Institute",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:45Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog/our-approach-to-ai-capability-elicitation",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "6df25a7d51a28616",
+          "bytes": 28242
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0334#1",
+          "locator": "Para. 1",
+          "text": "Identifying dangerous AI capabilities requires rigorous evaluation of models at the upper limit of their abilities",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0335": {
+      "url": "https://bills-api.parliament.uk/api/v1/Bills/4035/Stages/21180/Amendments?SearchTerm=AI%20Security%20Institute&Take=20",
+      "title": "Cyber Security and Resilience (Network and Information Systems) Bill: Lords Report-stage amendments mentioning the AI Security Institute (Bills API)",
+      "publisher": "UK Parliament",
+      "type": "primary",
+      "dates": {
+        "proposed": "2026-10-26"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:46Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://bills-api.parliament.uk/api/v1/Bills/4035/Stages/21180/Amendments?SearchTerm=AI%20Security%20Institute&Take=20",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "431393853869f64c",
+          "bytes": 10195
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0335#1",
+          "locator": "Amendment 163 (decision: Agreed)",
+          "text": "the institutional and regulatory framework established or otherwise affected by this Act and the NIS Regulations, including the roles and powers of the Secretary of State, designated competent authorities, the National Cyber Security Centre, the Information Commissioner, and the AI Security Institute.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0335#2",
+          "locator": "Amendment 66 (decision: NotMoved)",
+          "text": "AI Security Institute: pre-deployment audit of frontier AI products and services",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0336": {
+      "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+      "publisher": "METR",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-05"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:46Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "30ccfeb36b1a6d4c",
+          "bytes": 165785
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0336#1",
+          "locator": "Redaction summary",
+          "text": "As part of this assessment, Anthropic had rights to redact any non-public information in this post.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0337": {
+      "url": "https://www.apolloresearch.ai/blog/embedded-evaluators-are-necessary-for-meaningful-external-testing",
+      "title": "Embedded evaluators are necessary for meaningful external testing",
+      "publisher": "Apollo Research",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-29"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:30:47Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.apolloresearch.ai/blog/embedded-evaluators-are-necessary-for-meaningful-external-testing",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "54153fed44593b36",
+          "bytes": 205799
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0337#1",
+          "locator": "Body",
+          "text": "Anthropic has unilaterally committed to embedded third-party evaluations with employee-like access.",
           "retrieved": "2026-11-06"
         }
       ]

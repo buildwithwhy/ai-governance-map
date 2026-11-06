@@ -6148,16 +6148,20 @@
     },
     "edge:apollo|rsp": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0114"
+          "S-0114",
+          "S-0328",
+          "S-0112"
         ],
-        "proposals": [],
-        "note": "Apollo tested Claude Opus 4.6 checkpoints (Jan 2026) for alignment risk but gave no formal assessment because of evaluation awareness; seven later Anthropic system cards (through Opus 5.5, Sep 2026) do not mention Apollo. The relationship existed; whether it continues is not shown.",
-        "missing": "An Anthropic or Apollo statement of Apollo testing of an Anthropic model after Feb 2026.",
+        "proposals": [
+          "P-0165"
+        ],
+        "note": "Apollo tested Opus 4.6 checkpoints in Jan 2026 without formal assessment (opus46 p1–p2) and red-teamed Anthropic's auto-mode monitor in 2026 (apollo-automode p1–p2); Opus 5.5 card has no Apollo section (opus55 p3). Question drafted.",
+        "missing": "a statement of Apollo scheming testing of an Anthropic model after Feb 2026; maintainer choice in apollo-rsp-edge",
         "hash": "4853c9d1d91d"
       }
     },
@@ -9046,32 +9050,52 @@
     },
     "entry:eu-aio:cov:eval": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0185",
-          "S-0043"
+          "S-0044",
+          "S-0183"
         ],
-        "proposals": [],
-        "note": "Art. 92 and the Commission's enforcement page confirm the Office can evaluate GPAI models itself or via appointed experts and request access (ai-act p1–p2; ec-enforcement p4); the panel's advisory role is confirmed (ai-act p5). Neither mentions pre-deployment access (ai-act p9); the note also frames it as 'request evaluations from providers' whereas the Office conducts them.",
-        "missing": "a provision or official text giving the AI Office access to systemic-risk models before they are placed on the market (pre-deployment)",
+        "proposals": [
+          "P-0162"
+        ],
+        "note": "Art. 92 lets the Office evaluate GPAI models itself or via appointed experts and request API/source-code access (ai-act p1–p3); no provision gives pre-market access (p8). The Panel's advisory and alert role is in Arts 90–91 (p6) and on the Commission page (ec-aio p2). Pre-release element exists only via the Code's Model Report (cop-ss p1–p3).",
+        "missing": null,
+        "hash": "b3f33797ea4f"
+      },
+      "last_success": {
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0185",
+          "S-0044",
+          "S-0183"
+        ],
+        "proposals": [
+          "P-0162"
+        ],
+        "note": "Art. 92 lets the Office evaluate GPAI models itself or via appointed experts and request API/source-code access (ai-act p1–p3); no provision gives pre-market access (p8). The Panel's advisory and alert role is in Arts 90–91 (p6) and on the Commission page (ec-aio p2). Pre-release element exists only via the Code's Model Report (cop-ss p1–p3).",
+        "missing": null,
         "hash": "b3f33797ea4f"
       }
     },
     "entry:eu-aio:cov:timing": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
           "S-0185"
         ],
         "proposals": [],
-        "note": "Providers must report serious incidents to the AI Office (Art. 55(1)(c), ai-act p7), supporting the post-market monitoring role. 'The first cross-border post-market AI regulator' is a comparative claim.",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "note": "Monitoring of GPAI providers (Art. 89(1), ai-act p5) and serious-incident reporting to the Office (Art. 55(1)(c), p4) confirm the post-market role. 'The first cross-border post-market AI regulator' is comparative.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
         "hash": "0594b0099038"
       }
     },
@@ -9213,53 +9237,51 @@
     },
     "entry:uk-aisi:cov:eval": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
           "S-0194",
-          "S-0200",
-          "S-0196",
-          "S-0202"
+          "S-0333",
+          "S-0196"
         ],
         "proposals": [],
-        "note": "AISI tests leading systems before public release (aisi-about p1; aisi-gpt6 p1) and has 30+ systems in its data (aisi-trends p2); no statute compels access (kings-speech p2). 'Among the most active national-level frontier evaluators' is comparative; 'voluntary and revocable' access agreements are not published.",
-        "missing": "text or official description of AISI's access agreements showing they are voluntary and revocable; comparative ranking is not verifiable",
+        "note": "Pre-deployment testing (aisi-about p1–p2), voluntary collaborations with in-depth model access (aisi-devsec p1–p2) and research on more than 30 frontier systems (aisi-trends p1) confirmed. 'Among the most active national-level frontier evaluators' is comparative.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
         "hash": "b1e0ae91b8aa"
       }
     },
     "entry:uk-aisi:cov:timing": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
           "S-0194",
-          "S-0200",
-          "S-0196",
-          "S-0202"
+          "S-0333",
+          "S-0335"
         ],
         "proposals": [],
-        "note": "AISI tests leading systems before public release (aisi-about p1; aisi-gpt6 p1) and has 30+ systems in its data (aisi-trends p2); no statute compels access (kings-speech p2). 'Among the most active national-level frontier evaluators' is comparative; 'voluntary and revocable' access agreements are not published.",
-        "missing": "text or official description of AISI's access agreements showing they are voluntary and revocable; comparative ranking is not verifiable",
+        "note": "Voluntary character now confirmed by AISI itself ('ongoing voluntary collaborations', aisi-devsec p1) and pre-deployment access (aisi-about p2). Revocability: on 26 Oct 2026 the Lords added a review of AISI's roles and powers to the Cyber Security and Resilience Bill (csrb-amdts p1) after an amendment for AISI pre-deployment audits was not moved (p2); a secondary account quotes Hansard that access was suspended for three weeks at US request, but Hansard refused automated retrieval (HTTP 403).",
+        "missing": "Hansard (HL Deb 26 Oct 2026, Cyber Security and Resilience Bill report stage) or another official text stating that labs can withdraw AISI's access / that access was suspended",
         "hash": "eb1683190a3e"
       }
     },
     "entry:uk-aisi:cov:elicit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
           "S-0196",
-          "S-0124"
+          "S-0334"
         ],
         "proposals": [],
-        "note": "Red-teaming, jailbreaking and elicitation are core (aisi-trends lists expert red-teaming; the Network best practice AISI coordinates covers capability elicitation, aisi-seoul p2). 'Methodologies often adopted by other AISIs and lab frameworks' is not shown.",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "note": "Expert red-teaming incl. custom jailbreaks (aisi-trends p2) and a published elicitation approach (aisi-elicit p1) confirmed. 'Methodologies often adopted by other AISIs and lab frameworks' not shown.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
         "hash": "82a222da4b49"
       }
     },
@@ -9376,58 +9398,91 @@
     },
     "entry:caisi:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
+          "S-0331",
           "S-0177",
-          "S-0176",
-          "S-0180",
-          "S-0181",
-          "S-0178",
-          "S-0179",
-          "S-0174"
+          "S-0174",
+          "S-0112"
         ],
         "proposals": [],
-        "note": "DeepSeek V4 Pro evaluation published 1 May 2026 is confirmed (nist-dsv4 p1); CAISI kept publishing assessments (GLM-5.2, Kimi K3 jointly with UK AISI, GLM-5.3: nist-kimi p1, nist-glm53 p1). The 5 May 2026 agreements with Google DeepMind, Microsoft and xAI are now attested only by secondary sources (dpa-caisi p1–p2; pymnts-fall p2): the NIST announcement is no longer on nist.gov (nist-news p5). Leadership instability (director Chris Fall resigned Jul 2026, pymnts-fall p1, secondary) not reflected.",
-        "missing": "the official NIST/Commerce announcement of the 5 May 2026 agreements (removed; nist.gov/node/1911491 returns 404) or another official confirmation that the agreements remain in force",
+        "note": "Factual core now confirmed from official sources: DeepSeek V4 Pro evaluation (nist-dsv4 p1); NIST's 5 May 2026 bulletin announcing agreements with Google DeepMind, Microsoft and xAI for pre-deployment evaluations (nist-bulletin p1–p3), though the nist.gov announcement page (node/1911491) still returns 404; CAISSI's evaluation and standards mission (nist-caissi p1–p2); CAISI testing of Claude Opus 5.5 (opus55 p1). 'Initially supplanted' and 'now operates as a hybrid… complementing third-party evaluators' are characterisations.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
         "hash": "57fd87a1932c"
       }
     },
     "entry:caisi:cov:eval": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
+          "S-0331",
           "S-0177",
-          "S-0176",
-          "S-0180",
-          "S-0181",
-          "S-0178",
-          "S-0179",
-          "S-0174"
+          "S-0174",
+          "S-0112",
+          "S-0332"
         ],
         "proposals": [],
-        "note": "DeepSeek V4 Pro evaluation published 1 May 2026 is confirmed (nist-dsv4 p1); CAISI kept publishing assessments (GLM-5.2, Kimi K3 jointly with UK AISI, GLM-5.3: nist-kimi p1, nist-glm53 p1). The 5 May 2026 agreements with Google DeepMind, Microsoft and xAI are now attested only by secondary sources (dpa-caisi p1–p2; pymnts-fall p2): the NIST announcement is no longer on nist.gov (nist-news p5). Leadership instability (director Chris Fall resigned Jul 2026, pymnts-fall p1, secondary) not reflected.",
-        "missing": "the official NIST/Commerce announcement of the 5 May 2026 agreements (removed; nist.gov/node/1911491 returns 404) or another official confirmation that the agreements remain in force",
+        "note": "Compared each fact: standards/benchmarking work (nist-caissi p2); DeepSeek V4 Pro evaluation published May 2026 (nist-dsv4 p1); new agreements with Google DeepMind, Microsoft and xAI announced by NIST on 5 May 2026 for pre-deployment evaluations (nist-bulletin p1–p3; UK AISI's same-day Microsoft announcement corroborates, aisi-msft p1). No official withdrawal found; CAISI still tested Anthropic's Opus 5.5 in Sep 2026 (opus55 p1). The nist.gov copy of the announcement remains offline (404).",
+        "missing": null,
+        "hash": "2ec4947f4aea"
+      },
+      "last_success": {
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0331",
+          "S-0177",
+          "S-0174",
+          "S-0112",
+          "S-0332"
+        ],
+        "proposals": [],
+        "note": "Compared each fact: standards/benchmarking work (nist-caissi p2); DeepSeek V4 Pro evaluation published May 2026 (nist-dsv4 p1); new agreements with Google DeepMind, Microsoft and xAI announced by NIST on 5 May 2026 for pre-deployment evaluations (nist-bulletin p1–p3; UK AISI's same-day Microsoft announcement corroborates, aisi-msft p1). No official withdrawal found; CAISI still tested Anthropic's Opus 5.5 in Sep 2026 (opus55 p1). The nist.gov copy of the announcement remains offline (404).",
+        "missing": null,
         "hash": "2ec4947f4aea"
       }
     },
     "entry:caisi:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0174"
+          "S-0174",
+          "S-0331",
+          "S-0112"
         ],
-        "proposals": [],
-        "note": "Standards role confirmed; 'widely adopted' and 'direct evaluation accountability has migrated outside the agency' are analytic, and the second sits uneasily with CAISSI's stated lead role in national-security evaluations (nist-caissi p3).",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "proposals": [
+          "P-0169"
+        ],
+        "note": "'Direct evaluation accountability has migrated outside the agency' contradicted by CAISSI's mission to lead unclassified national-security evaluations (nist-caissi p1) and the 2026 agreements/testing (nist-bulletin p2–p3; opus55 p1). 'Widely adopted' remains unverified.",
+        "missing": null,
+        "hash": "2d7c1460a6c3"
+      },
+      "last_success": {
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0174",
+          "S-0331",
+          "S-0112"
+        ],
+        "proposals": [
+          "P-0169"
+        ],
+        "note": "'Direct evaluation accountability has migrated outside the agency' contradicted by CAISSI's mission to lead unclassified national-security evaluations (nist-caissi p1) and the 2026 agreements/testing (nist-bulletin p2–p3; opus55 p1). 'Widely adopted' remains unverified.",
+        "missing": null,
         "hash": "2d7c1460a6c3"
       }
     },
@@ -9489,23 +9544,16 @@
     },
     "entry:other-aisis:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0186",
-          "S-0187",
-          "S-0188",
-          "S-0189",
-          "S-0190",
-          "S-0191",
-          "S-0192",
-          "S-0123"
+          "S-0186"
         ],
         "proposals": [],
-        "note": "Confirmed: Singapore DTC designated as Singapore's AISI (sg-dtc p1); J-AISI (jaisi p1); INESIA (inesia p1, p3); Korea AISI (kr-aisi p1–p2); Canadian AISI (ca-aisi p1); Australian AI Safety Institute (aisi-au p1); Kenya as Network member (govuk-network p1); IndiaAI Safety Institute (in-aisi p1). AI Verify could not be retrieved (aiverify.foundation resets connections; IMDA page is JavaScript-only and timed out in headless Chromium).",
-        "missing": "a retrievable official source for AI Verify (IMDA / AI Verify Foundation)",
+        "note": "Singapore's DTC is the designated AISI (ntu-dtc p1–p2). The IMDA page describing AI Verify was retrieved but its text sits in script-embedded page data, so it cannot be quoted from the rendered text; aiverify.foundation reset the connection. Other members were confirmed in the baseline audit and not re-checked.",
+        "missing": "a quotable official source for AI Verify (IMDA or AI Verify Foundation rendered page)",
         "hash": "c2f3acc7237b"
       }
     },
@@ -9583,31 +9631,36 @@
     },
     "entry:other-aisis:cov:elicit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0124"
+          "S-0125",
+          "S-0124",
+          "S-0186"
         ],
         "proposals": [],
-        "note": "Network best practice on capability elicitation confirmed (aisi-seoul p2). Capacity concentration and 'Singapore and Japan have working arrangements with regional labs' were not found in any source.",
-        "missing": "official sources for Singapore/Japan pre-deployment arrangements with labs; capacity comparison is analytic",
+        "note": "The Network shares elicitation guidance (aisi-netbp p1), but only for automated evaluations; red-team testing and agentic evaluations are out of scope (net-bp p1–p3), so 'often shared through the AISI Network' is only partly supported. Capacity concentration in UK/US/Singapore is comparative. Group A's P-0157 rewrites the aisi-net elicit note on the same basis.",
+        "missing": "comparative/analytic claim (capacity concentration); a source showing members' elicitation methods beyond automated evaluations are shared through the Network",
         "hash": "0e4a6792f931"
       }
     },
     "entry:other-aisis:cov:timing": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0124"
+          "S-0125",
+          "S-0186"
         ],
-        "proposals": [],
-        "note": "Network best practice on capability elicitation confirmed (aisi-seoul p2). Capacity concentration and 'Singapore and Japan have working arrangements with regional labs' were not found in any source.",
-        "missing": "official sources for Singapore/Japan pre-deployment arrangements with labs; capacity comparison is analytic",
+        "proposals": [
+          "P-0173"
+        ],
+        "note": "No official source found for Singapore or Japan pre-deployment arrangements with regional labs; the Network's guidance does not concern access (net-bp p4). Question drafted, consistent with group A's P-0158.",
+        "missing": "official sources for Singapore/Japan pre-deployment arrangements with labs or for Network access sharing; maintainer choice in other-aisis-timing",
         "hash": "22d60ded0fe1"
       }
     },
@@ -9841,16 +9894,18 @@
     },
     "entry:metr:cov:thresh": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
           "S-0204"
         ],
-        "proposals": [],
-        "note": "Catalogue and analysis confirmed; METR's Dec 2025 version references the GPAI Code and SB 53, but nothing shows Common Elements 'prompted' their drafting.",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "proposals": [
+          "P-0163"
+        ],
+        "note": "Common Elements (Dec 2025) references the GPAI Code and SB 53 and calls itself descriptive (metr-ce p1–p2); nothing shows it prompted their drafting. Question drafted.",
+        "missing": "a source showing Common Elements prompted SB 53 or GPAI Code drafting (maintainer choice in metr-thresh)",
         "hash": "24cab761402a"
       }
     },
@@ -10060,49 +10115,75 @@
     },
     "entry:apollo:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
           "S-0209",
-          "S-0121"
+          "S-0121",
+          "S-0304"
         ],
         "proposals": [],
-        "note": "2024 in-context scheming paper and o1 pre-deployment testing confirmed (apollo-about p1–p2). Claims that it brought scheming evals into 'mainstream lab practice', is the 'dominant external methodology', and was cited in GDM FSF v2 and Preparedness v2 were not checked against those documents.",
-        "missing": "GDM FSF v2, OpenAI Preparedness Framework v2 and Anthropic system cards showing citations of Apollo; the 'mainstream/dominant' characterisation is analytic",
+        "note": "2024 in-context scheming paper and o1 pre-deployment testing confirmed (apollo-about p1–p2; o1-card p1); the Feb 2026 IASR cites Apollo's 2024 paper and the Apollo–OpenAI anti-scheming paper in its sandbagging discussion (iasr-2026 p1–p3). 'Brought scheming evaluations into mainstream lab practice' and 'adopted across the field' are characterisations.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
         "hash": "672612d6728a"
       }
     },
     "entry:apollo:cov:elicit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0209",
-          "S-0121"
+          "S-0095",
+          "S-0329",
+          "S-0304",
+          "S-0114"
         ],
-        "proposals": [],
-        "note": "2024 in-context scheming paper and o1 pre-deployment testing confirmed (apollo-about p1–p2). Claims that it brought scheming evals into 'mainstream lab practice', is the 'dominant external methodology', and was cited in GDM FSF v2 and Preparedness v2 were not checked against those documents.",
-        "missing": "GDM FSF v2, OpenAI Preparedness Framework v2 and Anthropic system cards showing citations of Apollo; the 'mainstream/dominant' characterisation is analytic",
+        "proposals": [
+          "P-0164"
+        ],
+        "note": "FSF v2 acknowledges Apollo input (fsf-v2 p1), o1 card reports Apollo testing (o1-card p1), Claude Opus 4.6 card has an Apollo section (opus46 p3); Preparedness v2 does not mention Apollo (prep-v2 p2). 'Dominant' and 'inflection point' remain unverified.",
+        "missing": null,
+        "hash": "1d79bab2f40c"
+      },
+      "last_success": {
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0095",
+          "S-0329",
+          "S-0304",
+          "S-0114"
+        ],
+        "proposals": [
+          "P-0164"
+        ],
+        "note": "FSF v2 acknowledges Apollo input (fsf-v2 p1), o1 card reports Apollo testing (o1-card p1), Claude Opus 4.6 card has an Apollo section (opus46 p3); Preparedness v2 does not mention Apollo (prep-v2 p2). 'Dominant' and 'inflection point' remain unverified.",
+        "missing": null,
         "hash": "1d79bab2f40c"
       }
     },
     "edge:apollo|fsf": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
+          "S-0329",
           "S-0209",
-          "S-0208"
+          "S-0106"
         ],
-        "proposals": [],
-        "note": "Apollo says it 'ran evaluations for all major labs' in 2025 (apollo-about p3) and ran a monitor red-teaming campaign with Anthropic (apollo-home p3), but no inspected source names Apollo as the scheming evaluator of a specific Anthropic or Google DeepMind model (the Gemini 3 Pro FSF report anonymises its external scheming evaluators; the Claude Sonnet 5 system card does not mention Apollo).",
-        "missing": "an Anthropic or Google DeepMind system card / FSF report, or an Apollo publication, naming Apollo as evaluator of their models for scheming",
+        "proposals": [
+          "P-0166"
+        ],
+        "note": "Only documented link is Apollo's input to FSF v2 (fsf-v2 p1); Apollo's 'evaluations for all major labs' is unnamed (apollo-about p3); GDM does not name external evaluators (gemini37-fsf p1–p2). Question drafted.",
+        "missing": "a GDM or Apollo source naming Apollo as evaluator of a DeepMind model; maintainer choice in apollo-fsf-edge",
         "hash": "753d531d1a1d"
       }
     },
@@ -10316,35 +10397,39 @@
     },
     "entry:averi:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
           "S-0212",
-          "S-0214",
-          "S-0213"
+          "S-0211",
+          "S-0214"
         ],
-        "proposals": [],
-        "note": "Launch date, founder, AI Assurance Levels in the launch report and auditing-ecosystem bottleneck confirmed (averi-flagship p1, p3). 'Aimed squarely at the bottleneck the EU AI Act exposes' and the safety-integrity-level analogy are the map's framing; AVERI's texts do not frame it around the EU AI Act.",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "proposals": [
+          "P-0167"
+        ],
+        "note": "Launch 15 Jan 2026 by Brundage, 501(c)(3), four AALs and the audit-provider capacity challenge confirmed (averi-faa p1–p3; averi-about p2; averi-team p1). Safety-integrity-level analogy and EU AI Act framing are not AVERI's (averi-faa p5). Question drafted.",
+        "missing": "analytic framing; maintainer choice in averi-framing",
         "hash": "6285b12feb3e"
       }
     },
     "entry:averi:cov:eval": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
           "S-0212",
-          "S-0214",
-          "S-0213"
+          "S-0211",
+          "S-0214"
         ],
-        "proposals": [],
-        "note": "Launch date, founder, AI Assurance Levels in the launch report and auditing-ecosystem bottleneck confirmed (averi-flagship p1, p3). 'Aimed squarely at the bottleneck the EU AI Act exposes' and the safety-integrity-level analogy are the map's framing; AVERI's texts do not frame it around the EU AI Act.",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "proposals": [
+          "P-0167"
+        ],
+        "note": "Launch 15 Jan 2026 by Brundage, 501(c)(3), four AALs and the audit-provider capacity challenge confirmed (averi-faa p1–p3; averi-about p2; averi-team p1). Safety-integrity-level analogy and EU AI Act framing are not AVERI's (averi-faa p5). Question drafted.",
+        "missing": "analytic framing; maintainer choice in averi-framing",
         "hash": "a8d07cb0554c"
       }
     },
@@ -10614,55 +10699,97 @@
     },
     "entry:cais:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
           "S-0217",
-          "S-0218",
-          "S-0216",
-          "S-0220"
+          "S-0218"
         ],
         "proposals": [],
-        "note": "501(c)(3) (cais-faq p1); May 2023 Statement signed by >600 experts and public figures (cais-about p1); Hendrycks is Director (cais-home p3). Founding year 2022 and Hendrycks as founder not found on CAIS pages (cais-research p4).",
-        "missing": "a CAIS or official source for the founding year (2022) and founder",
+        "note": "501(c)(3) status (cais-faq p1), the May 2023 statement signed by >600 (cais-about p1) and Hendrycks as Executive & Research Director (p2) confirmed. Founding year 2022 and Hendrycks as founder appear only in secondary sources (Wikipedia and similar, which also name Oliver Zhang as co-founder).",
+        "missing": "a CAIS or official record (e.g. incorporation or IRS determination) giving the founding year and founders",
         "hash": "9ed2fc28931c"
       }
     },
     "entry:cais:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0220",
-          "S-0218",
-          "S-0221",
-          "S-0219"
+          "S-0330",
+          "S-0112",
+          "S-0304",
+          "S-0218"
         ],
-        "proposals": [],
-        "note": "HLE and WMDP, statement text and lab-CEO signatories, Devin Kim (ex-xAI) as President and FSI as DC-based affiliate (Jun 2026) all confirmed (cais-research p1–p3; cais-statement p1; cais-about p1; cais-fsi p1, p6). MMLU is not presented as a CAIS benchmark on CAIS's site (cais-research p4).",
-        "missing": "a CAIS source presenting MMLU as a CAIS-run benchmark (it predates CAIS as a Hendrycks et al. 2020 paper)",
+        "proposals": [
+          "P-0168"
+        ],
+        "note": "MMLU is not a CAIS benchmark (mmlu p1–p3; cais-research p4); HLE is a capability benchmark per CAIS (cais-research p1). Lab use of CAIS benchmarks evidenced (opus55 p2; o1-card p2). Statement and leadership facts confirmed (cais-about p1–p2); the Devin Kim/FSI sentence was confirmed in the baseline and not re-checked.",
+        "missing": null,
+        "hash": "c8d715180f17"
+      },
+      "last_success": {
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0220",
+          "S-0330",
+          "S-0112",
+          "S-0304",
+          "S-0218"
+        ],
+        "proposals": [
+          "P-0168"
+        ],
+        "note": "MMLU is not a CAIS benchmark (mmlu p1–p3; cais-research p4); HLE is a capability benchmark per CAIS (cais-research p1). Lab use of CAIS benchmarks evidenced (opus55 p2; o1-card p2). Statement and leadership facts confirmed (cais-about p1–p2); the Devin Kim/FSI sentence was confirmed in the baseline and not re-checked.",
+        "missing": null,
         "hash": "c8d715180f17"
       }
     },
     "entry:cais:cov:eval": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "unresolved",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
           "S-0220",
-          "S-0218",
-          "S-0221",
-          "S-0219"
+          "S-0330",
+          "S-0112",
+          "S-0304",
+          "S-0218"
         ],
-        "proposals": [],
-        "note": "HLE and WMDP, statement text and lab-CEO signatories, Devin Kim (ex-xAI) as President and FSI as DC-based affiliate (Jun 2026) all confirmed (cais-research p1–p3; cais-statement p1; cais-about p1; cais-fsi p1, p6). MMLU is not presented as a CAIS benchmark on CAIS's site (cais-research p4).",
-        "missing": "a CAIS source presenting MMLU as a CAIS-run benchmark (it predates CAIS as a Hendrycks et al. 2020 paper)",
+        "proposals": [
+          "P-0168"
+        ],
+        "note": "MMLU is not a CAIS benchmark (mmlu p1–p3; cais-research p4); HLE is a capability benchmark per CAIS (cais-research p1). Lab use of CAIS benchmarks evidenced (opus55 p2; o1-card p2). Statement and leadership facts confirmed (cais-about p1–p2); the Devin Kim/FSI sentence was confirmed in the baseline and not re-checked.",
+        "missing": null,
+        "hash": "e1168d3cf893"
+      },
+      "last_success": {
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0220",
+          "S-0330",
+          "S-0112",
+          "S-0304",
+          "S-0218"
+        ],
+        "proposals": [
+          "P-0168"
+        ],
+        "note": "MMLU is not a CAIS benchmark (mmlu p1–p3; cais-research p4); HLE is a capability benchmark per CAIS (cais-research p1). Lab use of CAIS benchmarks evidenced (opus55 p2; o1-card p2). Statement and leadership facts confirmed (cais-about p1–p2); the Devin Kim/FSI sentence was confirmed in the baseline and not re-checked.",
+        "missing": null,
         "hash": "e1168d3cf893"
       }
     },
@@ -10699,17 +10826,17 @@
     },
     "edge:cais|aisr": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0121",
-          "S-0218"
+          "S-0218",
+          "S-0121"
         ],
         "proposals": [],
-        "note": "CAIS says its statement shifted the global perspective (cais-about p1), but the IASR 2026 does not cite CAIS or the statement (iasr-2026 p4); the influence is an analytic claim.",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "note": "CAIS says its statement helped shift the global perspective (cais-about p1); the IASR 2026 cites Apollo and others but the influence of the CAIS statement on it is an analytic claim.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
         "hash": "988800ccb85c"
       }
     },
@@ -10890,35 +11017,39 @@
     },
     "entry:fsi:cov:sec": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0225",
           "S-0222",
-          "S-0221"
+          "S-0225",
+          "S-0223"
         ],
-        "proposals": [],
-        "note": "Model security (incl. weights, exfiltration, insider threats) is one of three areas and FSI translates between labs and national-security institutions (fsi-work p1; fsi-home p2; cais-fsi p2). 'State-actor', 'bridges lab weight-security commitments and US national-security review' and 'legible to national-security review processes' are the map's framing; FSI speaks of connecting work to existing government authorities.",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "proposals": [
+          "P-0170"
+        ],
+        "note": "Model Security (theft, sabotage, exfiltration, insider threats, model weights) is one of three programmes and translation runs through all of them (fsi-home p2–p3; fsi-work p1–p2; fsi-labs p1–p2). 'State-actor', 'national-security review' and 'lab safety commitments' are the map's framing. FSI's site changed since 10 Oct (see knock-on notes). Question drafted.",
+        "missing": "analytic framing; maintainer choice in fsi-framing",
         "hash": "693adc26de35"
       }
     },
     "entry:fsi:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0225",
           "S-0222",
-          "S-0221"
+          "S-0225",
+          "S-0223"
         ],
-        "proposals": [],
-        "note": "Model security (incl. weights, exfiltration, insider threats) is one of three areas and FSI translates between labs and national-security institutions (fsi-work p1; fsi-home p2; cais-fsi p2). 'State-actor', 'bridges lab weight-security commitments and US national-security review' and 'legible to national-security review processes' are the map's framing; FSI speaks of connecting work to existing government authorities.",
-        "missing": "analytic/comparative claim; not verifiable from sources",
+        "proposals": [
+          "P-0170"
+        ],
+        "note": "Model Security (theft, sabotage, exfiltration, insider threats, model weights) is one of three programmes and translation runs through all of them (fsi-home p2–p3; fsi-work p1–p2; fsi-labs p1–p2). 'State-actor', 'national-security review' and 'lab safety commitments' are the map's framing. FSI's site changed since 10 Oct (see knock-on notes). Question drafted.",
+        "missing": "analytic framing; maintainer choice in fsi-framing",
         "hash": "f3b640d40b8e"
       }
     },
@@ -12715,46 +12846,55 @@
     },
     "entry:nist-rmf:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0237"
+          "S-0237",
+          "S-0182",
+          "S-0044"
         ],
-        "proposals": [],
-        "note": "Four functions (Govern, Map, Measure, Manage) and voluntary character confirmed. Uptake in procurement, references by sector regulators and influence on the EU GPAI Code are not shown by these sources.",
-        "missing": "comparative/analytic claim; not verifiable from sources",
+        "proposals": [
+          "P-0171"
+        ],
+        "note": "Four functions and voluntary character confirmed (nist-ai-100-1 p1–p2; nist-rmf p1). The GPAI Code's Safety and Security chapter does not mention NIST (cop-ss p4). Procurement and sector-regulator uptake not shown by these sources. Question drafted on the Code claim.",
+        "missing": "sources for procurement and sector-regulator references; maintainer choice in nist-rmf-cop",
         "hash": "62042699f219"
       }
     },
     "entry:nist-rmf:cov:mit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0237"
+          "S-0237",
+          "S-0182"
         ],
         "proposals": [],
-        "note": "Four functions (Govern, Map, Measure, Manage) and voluntary character confirmed. Uptake in procurement, references by sector regulators and influence on the EU GPAI Code are not shown by these sources.",
-        "missing": "comparative/analytic claim; not verifiable from sources",
+        "note": "Four functions across the lifecycle and voluntary use confirmed (nist-ai-100-1 p1–p2; nist-rmf p1). 'Referenced by sector regulators (financial, healthcare) and embedded in procurement and corporate compliance programs' not shown.",
+        "missing": "official sector-regulator or procurement documents citing the AI RMF",
         "hash": "04491d0b9132"
       }
     },
     "entry:nist-rmf:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-06-weekly",
+        "date": "2026-11-06",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0237"
+          "S-0237",
+          "S-0182",
+          "S-0044"
         ],
-        "proposals": [],
-        "note": "Four functions (Govern, Map, Measure, Manage) and voluntary character confirmed. Uptake in procurement, references by sector regulators and influence on the EU GPAI Code are not shown by these sources.",
-        "missing": "comparative/analytic claim; not verifiable from sources",
+        "proposals": [
+          "P-0171"
+        ],
+        "note": "Four functions and voluntary character confirmed (nist-ai-100-1 p1–p2; nist-rmf p1). The GPAI Code's Safety and Security chapter does not mention NIST (cop-ss p4). Procurement and sector-regulator uptake not shown by these sources. Question drafted on the Code claim.",
+        "missing": "sources for procurement and sector-regulator references; maintainer choice in nist-rmf-cop",
         "hash": "9c2673335ff1"
       }
     },
