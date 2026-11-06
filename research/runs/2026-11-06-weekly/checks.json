@@ -1628,5 +1628,541 @@
     "note": "RAISE signed 19 Dec 2025 (S-0031#1), chapter amendment signed 27 Mar 2026 and effective 1 Jan 2027 (S08828 today); METR Common Elements Dec 2025 (still the 16 Dec 2025 version); IASR Feb 2026 (S-0120); EOs 14179 and 14365; Korea Act; New Delhi Declaration. 'Brundage Substack' is an attribution, not checkable.",
     "missing": null,
     "hash": "89ac6514f5ac"
+  },
+  "entry:aisr:context": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0119",
+      "S-0121",
+      "S-0120"
+    ],
+    "proposals": [],
+    "note": "Factual core rechecked: Bletchley 2023 mandate (30 nations); annual reports Jan 2025 and Feb 2026 with Key Updates in Oct and Nov 2025; no policy recommendations; UK AISI secretariat. No 2026 interim or key update is listed as of 6 Nov 2026. The \"IPCC for AI\" framing is analytic.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "4c08693e4561"
+  },
+  "entry:aisi-net:context": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0123",
+      "S-0126",
+      "S-0124"
+    ],
+    "proposals": [],
+    "note": "Factual core: the network exchanges knowledge on evaluation to align best practice; renamed Dec 2025; NIST frames CAISI's participation in line with the AI Action Plan. \"Joint testing methodology\" and \"mirrored the broader US shift\" are interpretive.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "ff16cdae86b2"
+  },
+  "entry:aisi-net:cov": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0125",
+      "S-0123",
+      "S-0126",
+      "S-0124"
+    ],
+    "proposals": [
+      "P-0158"
+    ],
+    "note": "acct, elicit (see aisi-net-elicit) and eval assignments are supported. No network document supports the timing assignment or its note. Raised as a question with drafted options (recommended: remove).",
+    "missing": "A primary source showing the network coordinating pre-deployment evaluation access between members and labs.",
+    "hash": "49edbe901212"
+  },
+  "entry:aisi-net:cov:timing": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0125",
+      "S-0123",
+      "S-0126",
+      "S-0124"
+    ],
+    "proposals": [
+      "P-0158"
+    ],
+    "note": "acct, elicit (see aisi-net-elicit) and eval assignments are supported. No network document supports the timing assignment or its note. Raised as a question with drafted options (recommended: remove).",
+    "missing": "A primary source showing the network coordinating pre-deployment evaluation access between members and labs.",
+    "hash": "a495a212ad24"
+  },
+  "entry:aisi-net:cov:elicit": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0125",
+      "S-0124"
+    ],
+    "proposals": [
+      "P-0157"
+    ],
+    "note": "The Jul 2026 guidance covers capability elicitation for automated evaluations only, and lists red-team testing and agentic evaluations as out of scope. The note's jailbreak, agentic-scaffolding and sandbagging claims are unsupported.",
+    "missing": null,
+    "hash": "750c3ad0c3fd"
+  },
+  "entry:ai-summits:context": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0133",
+      "S-0132",
+      "S-0034"
+    ],
+    "proposals": [],
+    "note": "Factual core: Geneva 2027 (21-22 Jun 2027, theme \"Bridging Innovation and Trust\") is officially the fifth summit; the Seoul commitments were voluntary. Framing characterisations of each host, \"monitored only by reputational pressure\" and \"cadence is the update mechanism\" are interpretive.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "4a7130c99186"
+  },
+  "entry:ai-summits:cov:acct": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0133",
+      "S-0132",
+      "S-0034"
+    ],
+    "proposals": [],
+    "note": "Factual core: Geneva 2027 (21-22 Jun 2027, theme \"Bridging Innovation and Trust\") is officially the fifth summit; the Seoul commitments were voluntary. Framing characterisations of each host, \"monitored only by reputational pressure\" and \"cadence is the update mechanism\" are interpretive.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "040ba1c12443"
+  },
+  "entry:ai-summits:cov:update": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0133",
+      "S-0132",
+      "S-0034"
+    ],
+    "proposals": [],
+    "note": "Factual core: Geneva 2027 (21-22 Jun 2027, theme \"Bridging Innovation and Trust\") is officially the fifth summit; the Seoul commitments were voluntary. Framing characterisations of each host, \"monitored only by reputational pressure\" and \"cadence is the update mechanism\" are interpretive.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "f59dc95c2fe7"
+  },
+  "entry:coe-ai:context": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0320",
+      "S-0141"
+    ],
+    "proposals": [
+      "P-0161"
+    ],
+    "note": "Factual core: only the EU has ratified (deposited 15 May 2026), and the EU implements the Convention through the AI Act. Signatories now include Armenia, Bosnia and Herzegovina, North Macedonia (May 2026) and Albania (Jun 2026). \"Weakened ... to win US/UK signatures\" and \"stalled in most parliaments\" are interpretive. Separate proposal on the EU deposit date in desc.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "7db8bb8d0610"
+  },
+  "entry:unesco:context": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0142",
+      "S-0143"
+    ],
+    "proposals": [],
+    "note": "Factual core: first global standard on AI ethics, adopted Nov 2021 by 193 Member States; eleven policy areas (Policy Area 11 is the last); non-binding. \"Most influential in low- and middle-income jurisdictions\" is interpretive.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "8b6e33668045"
+  },
+  "entry:unesco:cov:mit": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0142",
+      "S-0143"
+    ],
+    "proposals": [],
+    "note": "Factual core: first global standard on AI ethics, adopted Nov 2021 by 193 Member States; eleven policy areas (Policy Area 11 is the last); non-binding. \"Most influential in low- and middle-income jurisdictions\" is interpretive.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "1c0552612eae"
+  },
+  "entry:unesco:cov:acct": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0143",
+      "S-0318",
+      "S-0319"
+    ],
+    "proposals": [
+      "P-0159"
+    ],
+    "note": "Monitoring is the Executive Board's responsibility, through periodic consultations and consolidated reports on Member State implementation (2025; next 2029). The Readiness Assessment Methodology is a voluntary diagnostic for interested Member States (para. 49).",
+    "missing": null,
+    "hash": "0eeddf2f01fc"
+  },
+  "entry:un-ai": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0145",
+      "S-0144",
+      "S-0146",
+      "S-0147",
+      "S-0317",
+      "S-0148"
+    ],
+    "proposals": [],
+    "note": "Link resolves to the Panel site. Res. 79/325 adopted 26 Aug 2025 sets up a 40-member Panel and an annual Dialogue. Co-chairs are Bengio and Ressa. The Preliminary Report came out 1 Jul 2026 and the first thematic brief (agents, loss of control) 21 Sep 2026. The first Dialogue met in Geneva on 6-7 Jul 2026; the next is in New York, 3-4 May 2027, and the Dialogue alternates between Geneva and New York. The Panel gives up to two updates a year to the GA plenary and presents its annual report at the Dialogue, plus thematic briefs as it deems necessary. pow 1 matches peer L1 science bodies (aisr); status active.",
+    "missing": null,
+    "hash": "9ae70dd7d1e9"
+  },
+  "entry:un-ai:desc": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0145",
+      "S-0144",
+      "S-0146",
+      "S-0147",
+      "S-0317",
+      "S-0148"
+    ],
+    "proposals": [],
+    "note": "Link resolves to the Panel site. Res. 79/325 adopted 26 Aug 2025 sets up a 40-member Panel and an annual Dialogue. Co-chairs are Bengio and Ressa. The Preliminary Report came out 1 Jul 2026 and the first thematic brief (agents, loss of control) 21 Sep 2026. The first Dialogue met in Geneva on 6-7 Jul 2026; the next is in New York, 3-4 May 2027, and the Dialogue alternates between Geneva and New York. The Panel gives up to two updates a year to the GA plenary and presents its annual report at the Dialogue, plus thematic briefs as it deems necessary. pow 1 matches peer L1 science bodies (aisr); status active.",
+    "missing": null,
+    "hash": "42025a5b1d08"
+  },
+  "entry:un-ai:cov": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0145",
+      "S-0144",
+      "S-0146",
+      "S-0147",
+      "S-0317",
+      "S-0148"
+    ],
+    "proposals": [],
+    "note": "Link resolves to the Panel site. Res. 79/325 adopted 26 Aug 2025 sets up a 40-member Panel and an annual Dialogue. Co-chairs are Bengio and Ressa. The Preliminary Report came out 1 Jul 2026 and the first thematic brief (agents, loss of control) 21 Sep 2026. The first Dialogue met in Geneva on 6-7 Jul 2026; the next is in New York, 3-4 May 2027, and the Dialogue alternates between Geneva and New York. The Panel gives up to two updates a year to the GA plenary and presents its annual report at the Dialogue, plus thematic briefs as it deems necessary. pow 1 matches peer L1 science bodies (aisr); status active.",
+    "missing": null,
+    "hash": "f37bc4d61c0b"
+  },
+  "entry:un-ai:cov:eval": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0145",
+      "S-0144",
+      "S-0146",
+      "S-0147",
+      "S-0317",
+      "S-0148"
+    ],
+    "proposals": [],
+    "note": "Link resolves to the Panel site. Res. 79/325 adopted 26 Aug 2025 sets up a 40-member Panel and an annual Dialogue. Co-chairs are Bengio and Ressa. The Preliminary Report came out 1 Jul 2026 and the first thematic brief (agents, loss of control) 21 Sep 2026. The first Dialogue met in Geneva on 6-7 Jul 2026; the next is in New York, 3-4 May 2027, and the Dialogue alternates between Geneva and New York. The Panel gives up to two updates a year to the GA plenary and presents its annual report at the Dialogue, plus thematic briefs as it deems necessary. pow 1 matches peer L1 science bodies (aisr); status active.",
+    "missing": null,
+    "hash": "151ae8b152e1"
+  },
+  "entry:un-ai:cov:acct": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0145",
+      "S-0144",
+      "S-0146",
+      "S-0147",
+      "S-0317",
+      "S-0148"
+    ],
+    "proposals": [],
+    "note": "Link resolves to the Panel site. Res. 79/325 adopted 26 Aug 2025 sets up a 40-member Panel and an annual Dialogue. Co-chairs are Bengio and Ressa. The Preliminary Report came out 1 Jul 2026 and the first thematic brief (agents, loss of control) 21 Sep 2026. The first Dialogue met in Geneva on 6-7 Jul 2026; the next is in New York, 3-4 May 2027, and the Dialogue alternates between Geneva and New York. The Panel gives up to two updates a year to the GA plenary and presents its annual report at the Dialogue, plus thematic briefs as it deems necessary. pow 1 matches peer L1 science bodies (aisr); status active.",
+    "missing": null,
+    "hash": "0eb77d8d9a2a"
+  },
+  "entry:un-ai:cov:update": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0145",
+      "S-0144",
+      "S-0146",
+      "S-0147",
+      "S-0317",
+      "S-0148"
+    ],
+    "proposals": [],
+    "note": "Link resolves to the Panel site. Res. 79/325 adopted 26 Aug 2025 sets up a 40-member Panel and an annual Dialogue. Co-chairs are Bengio and Ressa. The Preliminary Report came out 1 Jul 2026 and the first thematic brief (agents, loss of control) 21 Sep 2026. The first Dialogue met in Geneva on 6-7 Jul 2026; the next is in New York, 3-4 May 2027, and the Dialogue alternates between Geneva and New York. The Panel gives up to two updates a year to the GA plenary and presents its annual report at the Dialogue, plus thematic briefs as it deems necessary. pow 1 matches peer L1 science bodies (aisr); status active.",
+    "missing": null,
+    "hash": "bb1f43b6071d"
+  },
+  "entry:un-ai:context": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0144",
+      "S-0148",
+      "S-0317",
+      "S-0147",
+      "S-0121"
+    ],
+    "proposals": [
+      "P-0156"
+    ],
+    "note": "Verified: non-prescriptive annual report presented at the Dialogue; Dialogue topics include safe, secure and trustworthy AI, human rights and interoperability; non-military only; co-chairs' summaries (2026 themes not negotiated); Sep 2026 brief on the OpenAI–Hugging Face incident. Omitted: para. 8 consultations for 2027. \"Put loss-of-control risk on the UN agenda\" and the \"counterpart\" framing are interpretive.",
+    "missing": null,
+    "hash": "b81e86e300b9"
+  },
+  "entry:seoul-commit:cov:thresh": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0034"
+    ],
+    "proposals": [],
+    "note": "Commitment II requires thresholds at which severe risks would be intolerable; footnote 3 lets them be defined using capabilities among other factors; IV sets out actions. \"Catalyst for what became the lab-published-framework norm\" cannot be checked.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "32a9d013ef6b"
+  },
+  "entry:seoul-commit:cov:sec": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0034"
+    ],
+    "proposals": [],
+    "note": "Commitment III: articulate how mitigations are identified and implemented to keep risks within thresholds, including modifying system behaviours and robust security controls for unreleased weights. The preamble affirms investment in cybersecurity and insider-threat safeguards. No security level is specified; voluntary.",
+    "missing": null,
+    "hash": "b48e11699c88"
+  },
+  "entry:seoul-commit:cov:mit": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0034"
+    ],
+    "proposals": [],
+    "note": "Commitment III: articulate how mitigations are identified and implemented to keep risks within thresholds, including modifying system behaviours and robust security controls for unreleased weights. The preamble affirms investment in cybersecurity and insider-threat safeguards. No security level is specified; voluntary.",
+    "missing": null,
+    "hash": "0b271118e2bd"
+  },
+  "entry:hiroshima": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0070"
+    ],
+    "proposals": [],
+    "note": "Link resolves to MIC's HAIP site. G7-launched process (May 2023); name, jur mu and status active fine; pow 2 matches RUBRIC §4 as resolved 2026-10-10 (government-issued voluntary codes).",
+    "missing": null,
+    "hash": "8a892f0f2ae5"
+  },
+  "entry:gpai-cop:context": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0044",
+      "S-0093"
+    ],
+    "proposals": [],
+    "note": "Confirmed: three chapters; safety chapter only for systemic-risk providers; published 10 Jul 2025. Meta is still absent from the signatory list (last update 7 Oct 2026; no signatory changes since the baseline). That Meta \"refused\" rests on a secondary report. \"Only vetted route\" and \"open question\" are interpretive.",
+    "missing": "Primary Meta or Commission statement that Meta declined; plus comparative/analytic claim not verifiable.",
+    "hash": "7293388e3e6d"
+  },
+  "entry:gpai-cop:cov:timing": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Measure 1.2(1)(a) lighter-touch evaluations at trigger points; Framework confirmed no later than two weeks before market placement; Model Report before placing on the market.",
+    "missing": null,
+    "hash": "f0db71fec723"
+  },
+  "entry:delhi-commit:cov:eval": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0069"
+    ],
+    "proposals": [],
+    "note": "Outcome 2: evaluate multilingual capabilities on a subset of languages and cultural contexts; collaborate with local ecosystems on evaluations for under-represented languages.",
+    "missing": null,
+    "hash": "b53c3dbbe4ea"
+  },
+  "entry:pai:desc": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0083",
+      "S-0085"
+    ],
+    "proposals": [],
+    "note": "Facts: founded 2016; synthetic-media framework exists. \"Less central to frontier debate\" and \"most concrete output\" are comparisons.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "c8309efa687f"
+  },
+  "entry:pai:cov:mit": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0083",
+      "S-0085"
+    ],
+    "proposals": [],
+    "note": "Facts: founded 2016; synthetic-media framework exists. \"Less central to frontier debate\" and \"most concrete output\" are comparisons.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "08162a84f6bd"
+  },
+  "edge:aisi-net|eu-aio": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0128",
+      "S-0183"
+    ],
+    "proposals": [],
+    "note": "The Commission says the AI Office collaborates through NAAIMES, and the AI Office has an \"AI Safety\" unit (A3). No source names that unit as the network participant.",
+    "missing": "A source naming the AI Office's AI Safety unit (A3) as the EU's network participant.",
+    "hash": "c619c42ce0fc"
+  },
+  "edge:seoul-commit|xai-rmf": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0034",
+      "S-0066",
+      "S-0067"
+    ],
+    "proposals": [],
+    "note": "xAI is a Seoul signatory; its Feb 2025 document was a draft and the full RMF followed in Aug 2025, so \"followed Seoul (delayed)\" holds. \"Thinner\" is a comparison.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "ef1d20d57cdc"
+  },
+  "edge:gpai-cop|meta-faif": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0003",
+      "S-0093"
+    ],
+    "proposals": [],
+    "note": "Meta is not on the Commission's signatory list (7 Oct 2026). That Meta \"declined\" comes only from a secondary report.",
+    "missing": "Primary Meta statement (Kaplan LinkedIn post, Jul 2025) or a Commission statement naming Meta.",
+    "hash": "a2974d8b260a"
+  },
+  "edge:hiroshima|jp-ai": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0070"
+    ],
+    "proposals": [],
+    "note": "Japan launched the process under its 2023 G7 presidency, and MIC runs the HAIP site. \"Promotion Act reflects same approach\" is interpretive.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "0a0592a8400a"
+  },
+  "edge:un-ai|aisr": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0121",
+      "S-0146",
+      "S-0147",
+      "S-0119"
+    ],
+    "proposals": [
+      "P-0155"
+    ],
+    "note": "\"Complementary\" is supported by AISR 2026. \"Bengio chairs both\" is inaccurate: the Panel has two co-chairs (Bengio and Ressa).",
+    "missing": null,
+    "hash": "fff86272bb3e"
+  },
+  "edge:un-ai|unesco": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0148"
+    ],
+    "proposals": [],
+    "note": "The 2026 Co-Chairs' Summary: Joint Secretariat of ITU, UNESCO, UN ODET and EOSG support, coordinated by ITU and UNESCO.",
+    "missing": null,
+    "hash": "97d5768fd0ff"
+  },
+  "edge:ai-summits|un-ai": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0132"
+    ],
+    "proposals": [],
+    "note": "Paris statement para. 4: participants reaffirmed their commitment to initiate the Global Dialogue and the Scientific Panel.",
+    "missing": null,
+    "hash": "430310fe4693"
   }
 }

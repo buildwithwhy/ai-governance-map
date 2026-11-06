@@ -1,5 +1,5 @@
 {
-  "next": 155,
+  "next": 162,
   "proposals": [
     {
       "id": "P-0001",
@@ -16502,6 +16502,684 @@
             "text:layer-4:tooltip"
           ],
           "hash": "f769c83ee13a"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0155",
+      "fingerprint": "86b9ba3ff0bd",
+      "targets": [
+        "edge:un-ai|aisr"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:27:43Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "UN Panel is co-chaired by Bengio and Maria Ressa; Bengio does not chair it alone",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_edge",
+              "a": "un-ai",
+              "b": "aisr",
+              "from": "AISR positions itself as complementary to the UN Panel; Bengio chairs both",
+              "to": "AISR aims to complement the UN Panel; Bengio chairs the AISR and co-chairs the Panel"
+            }
+          ],
+          "why": "\"Bengio chairs both\" misstates the UN Panel's leadership: it has two co-chairs, one from a developed and one from a developing country.",
+          "rationale": "The UN press releases name Yoshua Bengio and Maria Ressa as co-chairs, as resolution 79/325 requires two co-chairs. The AISR 2026 report says it aims to complement the UN Panel, and its About page says Bengio leads the Report.",
+          "evidence": [
+            {
+              "source": "S-0146",
+              "passage": "S-0146#7",
+              "stance": "supports",
+              "supports": "The Panel has two co-chairs, Bengio and Ressa"
+            },
+            {
+              "source": "S-0147",
+              "passage": "S-0147#5",
+              "stance": "supports",
+              "supports": "Bengio and Ressa are the first co-chairs"
+            },
+            {
+              "source": "S-0121",
+              "passage": "S-0121#20",
+              "stance": "supports",
+              "supports": "AISR aims to complement the UN Panel"
+            },
+            {
+              "source": "S-0119",
+              "passage": "S-0119#5",
+              "stance": "supports",
+              "supports": "Bengio leads the AISR"
+            }
+          ],
+          "uncertainty": "None material.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:un-ai:desc": "checked, still accurate (already names both co-chairs)"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:un-ai|unesco",
+            "edge:ai-summits|un-ai",
+            "entry:un-ai:context",
+            "entry:apollo:desc",
+            "entry:apollo:context",
+            "entry:apollo:cov:eval",
+            "edge:aisr|ai-summits",
+            "edge:aisr|aisi-net",
+            "edge:aisr|metr",
+            "edge:aisr|apollo",
+            "edge:cais|aisr",
+            "faq:what-is-sandbagging-in-ai-safety",
+            "text:footer-sources"
+          ],
+          "hash": "f2902b4ebba2"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0156",
+      "fingerprint": "3fec7988b75c",
+      "targets": [
+        "entry:un-ai:context"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:27:43Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Global Dialogue: the 2027 co-chairs are to hold intergovernmental consultations on common understandings",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "un-ai",
+              "field": "context",
+              "from": "The UN's universal-membership counterpart to the International AI Safety Report and the summit series. The Panel's annual report is policy-relevant but non-prescriptive and is presented at the Dialogue, a platform whose topics include safe, secure and trustworthy AI, human rights and interoperable governance; its outcomes are co-chairs' summaries, not negotiated texts. Non-military domain only. The Sep 2026 brief, on AI agents that breached Hugging Face's systems while under evaluation at OpenAI, put loss-of-control risk on the UN agenda.",
+              "to": "The UN's universal-membership counterpart to the International AI Safety Report and the summit series. The Panel's annual report is policy-relevant but non-prescriptive and is presented at the Dialogue, a platform whose topics include safe, secure and trustworthy AI, human rights and interoperable governance; its outcomes are co-chairs' summaries, not negotiated texts, though the 2027 co-chairs are to hold intergovernmental consultations to agree common understandings on priority areas. Non-military domain only. The Sep 2026 brief, on AI agents that breached Hugging Face's systems while under evaluation at OpenAI, put loss-of-control risk on the UN agenda."
+            }
+          ],
+          "why": "Saying the Dialogue produces only co-chairs' summaries misses that resolution 79/325 tasks the second (2027) Dialogue with intergovernmental consultations to agree common understandings, which feed the Global Digital Compact review. Co-chairs for 2027 were appointed in Oct 2026.",
+          "rationale": "Para. 8 of A/RES/79/325 provides for the consultations; para. 7 provides for the co-chairs' summary; the 2026 summary says its themes are not negotiated outcomes; the Dialogue site records the appointment of the 2027 co-chairs on 16 Oct 2026.",
+          "evidence": [
+            {
+              "source": "S-0144",
+              "passage": "S-0144#16",
+              "stance": "supports",
+              "supports": "Second Dialogue co-chairs hold intergovernmental consultations to agree common understandings"
+            },
+            {
+              "source": "S-0144",
+              "passage": "S-0144#15",
+              "stance": "supports",
+              "supports": "Co-chairs draft a summary of each Dialogue"
+            },
+            {
+              "source": "S-0148",
+              "passage": "S-0148#6",
+              "stance": "supports",
+              "supports": "2026 themes are not negotiated outcomes"
+            },
+            {
+              "source": "S-0317",
+              "passage": "S-0317#3",
+              "stance": "supports",
+              "supports": "2027 co-chairs appointed 16 Oct 2026"
+            }
+          ],
+          "uncertainty": "Whether the consultations will produce an agreed text is not yet known; the edit states only what the resolution provides.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:un-ai:cov:acct": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "The Sep 2026 brief ... put loss-of-control risk on the UN agenda (interpretive)",
+            "The UN's universal-membership counterpart to the International AI Safety Report and the summit series (comparative)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:un-ai|aisr",
+            "edge:un-ai|unesco",
+            "edge:ai-summits|un-ai"
+          ],
+          "hash": "0c9b619ea707"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0157",
+      "fingerprint": "77f285c58e66",
+      "targets": [
+        "entry:aisi-net:cov:elicit"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:27:43Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "NAAIMES elicitation note: the Jul 2026 guidance covers automated evaluations only, not jailbreaks or agentic scaffolding",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "aisi-net",
+              "cat": "elicit",
+              "from": "Pools elicitation techniques (prompting strategies, agentic scaffolding, jailbreaks) so that what one institute discovers is available to others. Most useful for catching sandbagging or capability gaps that single-institute testing might miss.",
+              "to": "The first best-practice guidance (Jul 2026) advises third-party evaluators on capability elicitation in automated evaluations: iterating on prompts and inference settings, with tuning data kept separate from reported results. Red-team testing and agentic evaluations are out of its scope."
+            }
+          ],
+          "why": "The note says the network pools jailbreak and agentic-scaffolding techniques and helps catch sandbagging. Its only published guidance explicitly excludes red-team testing and agentic evaluations, and no network document mentions sandbagging.",
+          "rationale": "The guidance's scope section limits it to automated evaluations and lists red-team testing and agentic evaluations as out of scope; section C.1.2 sets out elicitation practices (prompt iteration, inference settings, disjoint tuning and evaluation sets) for third-party evaluators.",
+          "evidence": [
+            {
+              "source": "S-0125",
+              "passage": "S-0125#6",
+              "stance": "supports",
+              "supports": "Scope: automated evaluations"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#7",
+              "stance": "supports",
+              "supports": "Red-team testing out of scope"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#8",
+              "stance": "supports",
+              "supports": "Agentic evaluations out of scope"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#9",
+              "stance": "supports",
+              "supports": "Elicitation practices for automated evaluations"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#10",
+              "stance": "supports",
+              "supports": "Prompt iteration"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#11",
+              "stance": "supports",
+              "supports": "Separate tuning and evaluation data"
+            },
+            {
+              "source": "S-0125",
+              "passage": "S-0125#3",
+              "stance": "supports",
+              "supports": "Aimed at third-party evaluators"
+            },
+            {
+              "source": "S-0124",
+              "passage": "S-0124#9",
+              "stance": "supports",
+              "supports": "Guidance gives third-party evaluators recommendations on capability elicitation"
+            }
+          ],
+          "uncertainty": "Network members may exchange elicitation techniques privately; nothing published shows it.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:other-aisis:cov:elicit": "not in this group; says methodologies are \"often shared through the AISI Network\" — worth rechecking against the same guidance"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:aisr:cov:eval",
+            "entry:pai:context",
+            "entry:pai:cov:mit",
+            "entry:eu-aio:context",
+            "entry:other-aisis:context",
+            "entry:other-aisis:cov:elicit",
+            "entry:other-aisis:cov:timing",
+            "edge:aisr|aisi-net",
+            "edge:aisi-net|uk-aisi",
+            "edge:aisi-net|caisi",
+            "edge:aisi-net|eu-aio",
+            "edge:aisi-net|other-aisis",
+            "edge:aisi-net|ai-summits",
+            "text:layer-1:tooltip"
+          ],
+          "hash": "1ae6206953b9"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0158",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:27:43Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "NAAIMES timing coverage: no source shows the network coordinating pre-deployment access",
+          "kind": "flag",
+          "changes": [],
+          "why": "The note presents an undocumented function as fact. Pre-deployment access is arranged bilaterally by individual institutes (e.g. UK AISI, CAISI), not by the network.",
+          "rationale": "The network's published work from Dec 2025 to Jul 2026 concerns measurement science and best practice for third-party evaluators. The UK, NIST and AISI pages describe knowledge exchange and best practice, and the Jul 2026 guidance contains nothing on deployment timing or access. Removing the note follows RUBRIC §6: coverage notes are claims and must be supported.",
+          "evidence": [
+            {
+              "source": "S-0125",
+              "passage": "S-0125#12",
+              "stance": "supports",
+              "supports": "No provision on pre-deployment access coordination"
+            },
+            {
+              "source": "S-0123",
+              "passage": "S-0123#9",
+              "stance": "supports",
+              "supports": "Network described as exchanging knowledge to align best practice"
+            },
+            {
+              "source": "S-0126",
+              "passage": "S-0126#4",
+              "stance": "supports",
+              "supports": "Network focuses on the science underpinning evaluation"
+            }
+          ],
+          "uncertainty": "Coordination could happen in closed meetings; a source showing it would justify keeping a reworded note.",
+          "confidence": "medium",
+          "question": "No network document shows NAAIMES coordinating pre-deployment evaluation access between members and labs. Keep the timing coverage note, or remove it?",
+          "knock_on_notes": {
+            "entry:other-aisis:cov:timing": "not in this group; its claim that most members \"rely on AISI Network sharing\" for pre-deployment access rests on the same undocumented function"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Remove the timing coverage note",
+              "changes": [
+                {
+                  "op": "set_cov",
+                  "entity": "aisi-net",
+                  "cat": "timing",
+                  "from": "Coordinates pre-deployment evaluation access between members and frontier labs, so a model evaluated by one AISI doesn't need to be re-tested from scratch by another.",
+                  "to": null
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Keep as is",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:aisr:cov:eval",
+            "entry:pai:context",
+            "entry:pai:cov:mit",
+            "entry:eu-aio:context",
+            "entry:other-aisis:context",
+            "entry:other-aisis:cov:elicit",
+            "entry:other-aisis:cov:timing",
+            "edge:aisr|aisi-net",
+            "edge:aisi-net|uk-aisi",
+            "edge:aisi-net|caisi",
+            "edge:aisi-net|eu-aio",
+            "edge:aisi-net|other-aisis",
+            "edge:aisi-net|ai-summits",
+            "text:layer-1:tooltip"
+          ],
+          "hash": "6de63921a340"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0159",
+      "fingerprint": "aee168bea59d",
+      "targets": [
+        "entry:unesco:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:27:43Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "UNESCO Recommendation: monitoring is by Member State reporting to the Executive Board, not the Readiness Assessment Methodology",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "unesco",
+              "cat": "acct",
+              "from": "Transparency and human oversight are core principles, but the recommendation imposes no reporting or audit obligations. Implementation is monitored by UNESCO's Readiness Assessment Methodology.",
+              "to": "Transparency and human oversight are core principles, but the recommendation imposes no reporting or audit obligations on AI developers. Member States report on implementation in periodic consultations examined by UNESCO's Executive Board and General Conference (first consolidated report 2025, next 2029); the Readiness Assessment Methodology is a voluntary diagnostic for interested countries."
+            }
+          ],
+          "why": "The note says implementation is monitored by the Readiness Assessment Methodology. That is a voluntary self-assessment tool for countries; the formal monitoring is by the Executive Board, using consolidated reports on Member States' implementation.",
+          "rationale": "Para. 49 says UNESCO will develop the methodology \"to assist interested Member States\". UNESCO's Legal Affairs page lists it as a Recommendation \"for which monitoring the Executive Board is responsible\". The monitoring pages show a 2025 consolidated report on implementation by Member States, examined by the Executive Board (222nd session) and the General Conference (43rd session), with a second consultation in 2029.",
+          "evidence": [
+            {
+              "source": "S-0143",
+              "passage": "S-0143#7",
+              "stance": "supports",
+              "supports": "RAM is to assist interested Member States"
+            },
+            {
+              "source": "S-0143",
+              "passage": "S-0143#9",
+              "stance": "supports",
+              "supports": "Executive Board responsible for monitoring"
+            },
+            {
+              "source": "S-0318",
+              "passage": "S-0318#1",
+              "stance": "supports",
+              "supports": "Consolidated report on implementation by Member States"
+            },
+            {
+              "source": "S-0318",
+              "passage": "S-0318#2",
+              "stance": "supports",
+              "supports": "Examined by the Executive Board, 2025"
+            },
+            {
+              "source": "S-0318",
+              "passage": "S-0318#3",
+              "stance": "supports",
+              "supports": "Presented to the General Conference, 2025"
+            },
+            {
+              "source": "S-0319",
+              "passage": "S-0319#1",
+              "stance": "supports",
+              "supports": "Second consultation, 2029"
+            }
+          ],
+          "uncertainty": "\"No reporting obligations\" is kept but narrowed to AI developers, since Member States do report through the consultations.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:unesco:context": "checked, factual core still accurate"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:un-ai|unesco",
+            "gap:acct"
+          ],
+          "hash": "208035846361"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0160",
+      "fingerprint": "60250b8a0c37",
+      "targets": [
+        "entry:oecd:context"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:27:43Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "OECD context: second principle is now \"human rights and democratic values, incl. fairness and privacy\"",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "oecd",
+              "field": "context",
+              "from": "Five values-based principles (inclusive growth, human-centred, transparency, robustness, accountability) plus five policy recommendations. Non-binding but the de facto reference point — adopted by the G20 and embedded in many national strategies. The 2024 update sharpened the safety/security language in response to generative AI.",
+              "to": "Five values-based principles (inclusive growth; rule of law, human rights and democratic values; transparency; robustness; accountability) plus five policy recommendations. Non-binding but the de facto reference point — adopted by the G20 and embedded in many national strategies. The 2024 update sharpened the safety/security language in response to generative AI."
+            }
+          ],
+          "why": "\"Human-centred\" is the 2019 label. Since the 2024 update, principle 1.2 is titled \"Respect for the rule of law, human rights and democratic values, including fairness and privacy\".",
+          "rationale": "The Recommendation's text (OECD/LEGAL/0449) and OECD.AI both list the five principles with this name for the second principle.",
+          "evidence": [
+            {
+              "source": "S-0136",
+              "passage": "S-0136#13",
+              "stance": "supports",
+              "supports": "Principle 1.2 title"
+            },
+            {
+              "source": "S-0136",
+              "passage": "S-0136#14",
+              "stance": "supports",
+              "supports": "List of the five principles"
+            },
+            {
+              "source": "S-0135",
+              "passage": "S-0135#7",
+              "stance": "supports",
+              "supports": "OECD.AI lists the second principle as human rights and democratic values"
+            }
+          ],
+          "uncertainty": "The 2024 text still uses \"human-centred values\" within 1.2(a); the edit only corrects the principle's name.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:oecd:cov:acct": "checked, still accurate (transparency and accountability are two of the five)"
+          },
+          "unverified_carryover": [
+            "Non-binding but the de facto reference point — adopted by the G20 and embedded in many national strategies",
+            "The 2024 update sharpened the safety/security language in response to generative AI"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:unesco:context",
+            "entry:unesco:cov:mit",
+            "entry:hiroshima:desc",
+            "entry:hiroshima:context",
+            "entry:hiroshima:cov:acct",
+            "entry:hiroshima:cov:update",
+            "edge:oecd|hiroshima",
+            "gap:acct",
+            "gap:update"
+          ],
+          "hash": "9d7efaed7873"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0161",
+      "fingerprint": "a4037720726b",
+      "targets": [
+        "entry:coe-ai:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:27:43Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "CoE AI Convention: EU approved Apr 2026 and deposited its instrument 15 May 2026",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "coe-ai",
+              "field": "desc",
+              "from": "First binding international AI treaty (opened for signature Sept 2024). Signatories include EU, UK, US, Japan; only the EU has ratified (approved Apr 2026). Not yet in force: needs five ratifications incl. three CoE member states.",
+              "to": "First binding international AI treaty (opened for signature Sept 2024). Signatories include EU, UK, US, Japan; only the EU has ratified (approved Apr 2026, deposited May 2026). Not yet in force: needs five ratifications incl. three CoE member states."
+            }
+          ],
+          "why": "RUBRIC §5 separates adoption from later steps. The Council approved the Convention on 21 Apr 2026, but the EU's ratification took effect with the deposit of its instrument on 15 May 2026. Under Art. 30 entry into force for the EU runs from that deposit date.",
+          "rationale": "Council Decision (EU) 2026/1080 is dated 21 Apr 2026. The Dutch government treaty database lists the EU with \"15-05-2026 (R)\" (ratification, acceptance or approval), and no other party has ratified.",
+          "evidence": [
+            {
+              "source": "S-0141",
+              "passage": "S-0141#4",
+              "stance": "supports",
+              "supports": "EU approval of the Convention"
+            },
+            {
+              "source": "S-0141",
+              "passage": "S-0141#5",
+              "stance": "supports",
+              "supports": "Decision dated 21 Apr 2026"
+            },
+            {
+              "source": "S-0320",
+              "passage": "S-0320#1",
+              "stance": "supports",
+              "supports": "EU ratification/approval recorded 15 May 2026"
+            },
+            {
+              "source": "S-0320",
+              "passage": "S-0320#2",
+              "stance": "supports",
+              "supports": "(R) covers approval"
+            },
+            {
+              "source": "S-0320",
+              "passage": "S-0320#3",
+              "stance": "supports",
+              "supports": "Only the EU has ratified; not in force"
+            }
+          ],
+          "uncertainty": "The Council of Europe treaty office pages (coe.int) refuse automated access, so the deposit date comes from the Netherlands treaty database, which mirrors the depositary records. Secondary reporting says the deposit was at the 135th Committee of Ministers session in Chisinau.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:coe-ai:context": "checked; factual core (only the EU has ratified) still accurate"
+          },
+          "unverified_carryover": [
+            "Not yet in force: needs five ratifications incl. three CoE member states (the count rule was not re-read in the Convention text this run)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:coe-ai|eu-aia",
+            "gap:update"
+          ],
+          "hash": "c0c8627141b7"
         }
       ],
       "decision": {

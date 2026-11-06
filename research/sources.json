@@ -1,5 +1,5 @@
 {
-  "next": 317,
+  "next": 323,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -423,6 +423,30 @@
           "locator": "Signatories of the code of practice",
           "text": "[Observation, not a quotation] The signatory list (22 providers, including Amazon, Anthropic, Google, Microsoft and OpenAI) does not include Meta.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0003#13",
+          "locator": "intro",
+          "text": "The code was published on July 10, 2025 .",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0003#14",
+          "locator": "Signatories",
+          "text": "In addition, xAI signed up to the Safety and Security Chapter; this means that it will have to demonstrate compliance with the AI Act’s obligations concerning transparency and copyright via alternative adequate means.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0003#15",
+          "locator": "page footer",
+          "text": "Last update 7 October 2026",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0003#16",
+          "locator": "Signatories of the code of practice",
+          "text": "[Observation, not a quotation] Searched the signatory list (last update 7 Oct 2026) for Meta; it is not listed. The page does not say whether Meta declined.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -1911,7 +1935,8 @@
       "type": "primary",
       "dates": {
         "published": "2024-05-21",
-        "effective": "2025-02-07"
+        "effective": "2025-02-07",
+        "adopted": "2024-05-21"
       },
       "fetches": [
         {
@@ -2047,6 +2072,24 @@
           "locator": "Outcome 1, commitment II",
           "text": "Set out thresholds … at which severe risks posed by a model or system, unless adequately mitigated, would be deemed intolerable.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0034#17",
+          "locator": "Commitment II",
+          "text": "Set out thresholds [footnote 3] at which severe risks posed by a model or system, unless adequately mitigated, would be deemed intolerable.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0034#18",
+          "locator": "Commitment III",
+          "text": "Articulate how risk mitigations will be identified and implemented to keep risks within defined thresholds, including safety and security-related risk mitigations such as modifying system behaviours and implementing robust security controls for unreleased model weights.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0034#19",
+          "locator": "Signatory lists",
+          "text": "[Observation, not a quotation] xAI appears among the organisations listed as having agreed to the Frontier AI Safety Commitments.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -2839,6 +2882,24 @@
           "locator": "Objectives, A",
           "text": "To serve as a guiding document for demonstrating compliance with the obligations provided for in Articles 53 and 55 AI Act",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0044#17",
+          "locator": "Measure 1.1",
+          "text": "Signatories will have confirmed the Framework no later than four weeks after having notified the Commission pursuant to Article 52(1) AI Act and no later than two weeks before placing the model on the market.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0044#18",
+          "locator": "Measure 1.2",
+          "text": "conducting lighter-touch model evaluations that need not adhere to Appendix 3 (e.g. automated evaluations) at appropriate trigger points",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0044#19",
+          "locator": "Commitment 7",
+          "text": "by creating a Safety and Security Model Report (“Model Report”) before placing a model on the market",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -4044,13 +4105,25 @@
           "locator": "Whole document (2 pages)",
           "text": "[Observation, not a quotation] Read the full text (Background, Commitment 1, Commitment 2, signee list). It contains no capability or risk thresholds, no risk-mitigation, deployment or halting commitments, and no commitments on energy efficiency, healthcare or public services.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0069#8",
+          "locator": "Commitment 2, Outcome 2(1)",
+          "text": "Evaluate multilingual capabilities on a subset of languages and cultural contexts while preserving flexibility on the choice of tools, benchmarks, as well as AI systems prioritised for this work.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0069#9",
+          "locator": "Commitment 2, Outcome 2(2)",
+          "text": "Collaborate with local ecosystems for the development and application of evaluations for under-represented languages and cultural contexts.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
     "S-0070": {
       "url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/index.html",
       "title": "Hiroshima AI Process (home)",
-      "publisher": "Ministry of Internal Affairs and Communications (Japan)",
+      "publisher": "Ministry of Internal Affairs and Communications, Japan",
       "type": "primary",
       "dates": {},
       "fetches": [
@@ -4065,6 +4138,18 @@
           "content_type": "text/html",
           "sha256": "60f4489d787004cf",
           "bytes": 7012
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:38Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/index.html",
+          "content_type": "text/html",
+          "sha256": "79734a8e5782337c",
+          "bytes": 7035
         }
       ],
       "passages": [
@@ -4079,6 +4164,12 @@
           "locator": "About the Hiroshima AI Process",
           "text": "the first international framework that includes guiding principles and code of conduct aimed at promoting the safe, secure and trustworthy advanced AI systems, was successfully agreed upon at the G7 Digital & Tech Ministers’ Meeting in December 2023",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0070#3",
+          "locator": "About",
+          "text": "the Hiroshima AI Process was launched in May 2023, following the Leaders’ direction at the G7 Hiroshima Summit",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -4776,6 +4867,12 @@
           "locator": "Timeline, Building the Partnership",
           "text": "2016 PAI founded by five major tech companies —Amazon, Facebook, Google, IBM, and Microsoft—to ensure AI development advances positive outcomes for people and society",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0083#2",
+          "locator": "Timeline, 2016",
+          "text": "PAI founded by five major tech companies —Amazon, Facebook, Google, IBM, and Microsoft—to ensure AI development advances positive outcomes for people and society",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -4870,6 +4967,12 @@
           "locator": "Featured work",
           "text": "Guidelines for AI and Shared Prosperity AI developers, AI users, policymakers, labor organizations, and workers can all help steer AI so its economic benefits are shared by everyone.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0085#4",
+          "locator": "Home, resources",
+          "text": "A framework for collective action on how to responsibly develop, create, and share synthetic media.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -7216,6 +7319,24 @@
           "locator": "Future Reporting",
           "text": "The UK Government has agreed to support the Secretariat until a suitable long-term international home for the Report is established by participating countries. Professor Bengio will continue as Chair through 2026.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0119#7",
+          "locator": "About, para. 2",
+          "text": "At the 2023 Bletchley AI Safety Summit, 30 nations agreed to work together to build that baseline.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0119#8",
+          "locator": "About, para. 4",
+          "text": "An Interim Report was published in May 2024 in advance of the AI Seoul Summit 2024 and the first Annual Report was published in January 2025 ahead of the France AI Action Summit 2025.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0119#9",
+          "locator": "Future Reporting",
+          "text": "Professor Bengio will continue as Chair through 2026.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -7263,6 +7384,18 @@
           "locator": "Publications list (retrieved 2026-10-10)",
           "text": "[Observation, not a quotation] The publications page lists, newest first: the 2026 Report, its Extended Summary for Policymakers and Executive Summary (all 3 February 2026), the Second Key Update (25 November 2025), the First Key Update (15 October 2025) and the 2025 Report (29 January 2025). Nothing dated after 3 February 2026 is listed.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0120#3",
+          "locator": "Publications list (latest entries)",
+          "text": "3 February 2026 — Annual Report International AI Safety Report 2026",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0120#4",
+          "locator": "Publications list",
+          "text": "25 November 2025 — Key update Second Key Update: Technical Safeguards and Risk Management",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -7414,6 +7547,24 @@
           "locator": "References, no. 347",
           "text": "A. Meinke, B. Schoen, J. Scheurer, M. Balesni, R. Shah, M. Hobbhahn, “Frontier Models Are Capable of In-Context Scheming” (Apollo Research, 2024)",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0121#20",
+          "locator": "About this Report: Focus",
+          "text": "This Report aims to complement assessments that consider these broader concerns, including the UN’s Independent International Scientific Panel on AI.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0121#21",
+          "locator": "Foreword",
+          "text": "A narrower scope also ensures this Report complements other efforts, including the United Nations’ Independent International Scientific Panel on AI.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0121#22",
+          "locator": "About this Report: Independence",
+          "text": "It does not make specific policy recommendations.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -7548,6 +7699,18 @@
           "locator": "news story body",
           "text": "Established in November 2024, the Network brings together Australia, Canada, the European Union, France, Japan, Kenya, the Republic of Korea, Singapore, the United Kingdom and the United States",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0123#9",
+          "locator": "body",
+          "text": "Since its creation, the Network has exchanged knowledge on AI evaluation and measurement to help countries align on best practices.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0123#10",
+          "locator": "summary bullets",
+          "text": "The UK now takes on a Network Coordinator role as part of the changes",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -7627,6 +7790,24 @@
           "locator": "guidance section",
           "text": "providing specific recommendations to third-party evaluators, such as on capability elicitation",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0124#8",
+          "locator": "para. 4",
+          "text": "The event in Seoul coincides with the completion of the Network’s first best practice guidance document.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0124#9",
+          "locator": "para. 6",
+          "text": "This guidance builds on and is intended to complement existing best practice publications – most notably NIST AI 800-2 – while providing specific recommendations to third-party evaluators, such as on capability elicitation.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0124#10",
+          "locator": "closing",
+          "text": "After gathering in Seoul, Network members will align on further best practices that address common issues at the forefront of evaluation science, with particular attention given to agentic capabilities.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -7694,6 +7875,48 @@
           "locator": "A.2 Scope, out-of-scope evaluations",
           "text": "Safeguard or \"red-team testing\", which involves adversarial probing of AI systems to identify vulnerabilities.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0125#6",
+          "locator": "A.2 Scope",
+          "text": "This document focuses on one important subset: automated evaluations of AI models.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0125#7",
+          "locator": "A.2 Scope, out-of-scope list",
+          "text": "Safeguard or \"red-team testing\", which involves adversarial probing of AI systems to identify vulnerabilities. While some \"red-team\" testing can be automated, such as refusal testing, these remain out of scope for this document.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0125#8",
+          "locator": "A.2 Scope, out-of-scope list",
+          "text": "Agentic evaluations, which assess AI agent performance, including in tool-use and long-horizon task execution.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0125#9",
+          "locator": "C.1.2 Conduct capability elicitation experiments",
+          "text": "This section sets out practices that evaluators should follow when conducting capability elicitation in automated evaluations.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0125#10",
+          "locator": "C.1.2",
+          "text": "Evaluators can iterate on prompts either manually or using LLM-based prompt optimisation.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0125#11",
+          "locator": "C.1.2",
+          "text": "When evaluators iterate on prompts, inference settings, or other aspects of the protocol, they should do so using data that is distinct from the set used to report final results.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0125#12",
+          "locator": "whole document",
+          "text": "[Observation, not a quotation] Searched the 20-page guidance for any provision on coordinating pre-deployment access to models between Network members and developers, or on sharing evaluation results so that one institute need not re-test a model; none found. The document addresses third-party evaluators running pre-existing automated evaluations.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -7749,6 +7972,18 @@
           "locator": "news release, para 5",
           "text": "CAISI will continue to advocate for U.S. interests and for international approaches to AI evaluation that reflect gold-standard measurement science.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0126#4",
+          "locator": "para. 2",
+          "text": "The International Network was founded by the Center for AI Standards and Innovation (CAISI) in November 2024 and focuses on strengthening the science that underpins AI evaluation.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0126#5",
+          "locator": "para. 3",
+          "text": "In line with Secretary Lutnick’s direction and with America’s AI Action Plan, CAISI’s participation in the Network aims to further technical AI practices that promote innovation, reflect American values, and counter authoritarian influence.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -7852,6 +8087,12 @@
           "locator": "page body, AI safety cooperation",
           "text": "Where appropriate, joint situational awareness and communication channels for effective incident response are established.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0128#3",
+          "locator": "AI safety cooperation",
+          "text": "Through NAAIMES (International Network for Advanced AI Measurement, Evaluation and Science; formerly Network of AI Safety Institutes), the AI Office collaborates with international partners on technical tools for AI governance.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -8059,6 +8300,12 @@
           "locator": "list heading",
           "text": "Signatory countries:",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0132#4",
+          "locator": "para. 4",
+          "text": "As outlined in the Global Digital Compact adopted by the UN General Assembly, participants also reaffirmed their commitment to initiate a Global Dialogue on AI governance and the Independent International Scientific Panel on AI",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -8106,6 +8353,24 @@
           "locator": "page body, para 2",
           "text": "The Geneva AI Summit 2027 is the fifth international summit dedicated to AI governance.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0133#3",
+          "locator": "intro",
+          "text": "will take place at the exhibition and conference centre Palexpo in Geneva on 21 and 22 June 2027",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0133#4",
+          "locator": "para. 2",
+          "text": "The Geneva AI Summit 2027 is the fifth international summit dedicated to AI governance.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0133#5",
+          "locator": "para. 3",
+          "text": "This high-level international summit is to be held on the theme of ‘Bridging Innovation and Trust’.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -8222,6 +8487,12 @@
           "locator": "Governments that have committed (list)",
           "text": "[Observation, not a quotation] The adherent list on this page shows the 38 OECD Members, the EU, and 8 non-Members (Argentina, Brazil, Egypt, Malta, Peru, Romania, Singapore, Ukraine); it omits Cambodia, Croatia, Saudi Arabia and Uruguay, which the OECD Compendium lists as adherents.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0135#7",
+          "locator": "Values-based principles",
+          "text": "Inclusive growth, sustainable development and well-being … Human rights and democratic values, including fairness and privacy … Transparency and explainability … Robustness, security and safety … Accountability",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -8327,6 +8598,18 @@
           "locator": "Principle 1.4 Robustness, security and safety, (a)",
           "text": "systems should be robust, secure and safe throughout their entire lifecycle so that, in conditions of normal use, foreseeable use or misuse, or other adverse conditions, they function appropriately",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0136#13",
+          "locator": "Section 1, principle 1.2",
+          "text": "1.2. Respect for the rule of law, human rights and democratic values, including fairness and privacy",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0136#14",
+          "locator": "Background",
+          "text": "the first section sets out five complementary principles relevant to all stakeholders: i) inclusive growth, sustainable development and well-being; ii) respect for the rule of law, human rights and democratic values, including fairness and privacy; iii) transparency and explainability; iv) robustness, security and safety; and v) accountability",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -8623,6 +8906,24 @@
           "locator": "Article 3",
           "text": "The Convention shall be implemented in the Union exclusively through Regulation (EU) 2024/1689 and other relevant Union acquis , where applicable.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0141#4",
+          "locator": "Article 1",
+          "text": "The Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (the ‘Convention’) is hereby approved on behalf of the European Union",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0141#5",
+          "locator": "Signature line",
+          "text": "Done at Luxembourg, 21 April 2026.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0141#6",
+          "locator": "Title block",
+          "text": "OJ L, 2026/1080, 13.5.2026",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -8670,6 +8971,12 @@
           "locator": "introduction",
           "text": "It is grounded in key principles such as transparency, fairness, environmental sustainability, and human oversight of AI systems",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0142#3",
+          "locator": "intro",
+          "text": "In November 2021, UNESCO's 193 Member States adopted the first global standard on AI ethics: the Recommendation on the Ethics of Artificial Intelligence.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -8743,22 +9050,59 @@
           "locator": "Section III.2, para 37 (Transparency and explainability)",
           "text": "The transparency and explainability of AI systems are often essential preconditions to ensure the respect, protection and promotion of human rights, fundamental freedoms and ethical principles.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0143#7",
+          "locator": "para. 49",
+          "text": "UNESCO will therefore: (1) develop a readiness assessment methodology to assist interested Member States in identifying their status at specific moments of their readiness trajectory along a continuum of dimensions",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0143#8",
+          "locator": "para. 131",
+          "text": "Member States should, according to their specific conditions, governing structures and constitutional provisions, credibly and transparently monitor and evaluate policies, programmes and mechanisms related to ethics of AI",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0143#9",
+          "locator": "Monitoring tab",
+          "text": "Recommendation for which monitoring the Executive Board is responsible",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0143#10",
+          "locator": "Policy areas",
+          "text": "POLICY AREA 11: HEALTH AND SOCIAL WELL-BEING",
+          "retrieved": "2026-11-06"
         }
       ]
     },
     "S-0144": {
       "url": "https://documents.un.org/api/symbol/access?s=A/RES/79/325&l=en&t=pdf",
-      "title": "A/RES/79/325: Terms of reference and modalities for the establishment and functioning of the Independent International Scientific Panel on AI and the Global Dialogue on AI Governance",
+      "title": "A/RES/79/325: Terms of reference and modalities for the Independent International Scientific Panel on AI and the Global Dialogue on AI Governance",
       "publisher": "United Nations General Assembly",
       "type": "primary",
       "dates": {
-        "adopted": "2025-08-26"
+        "adopted": "2025-08-26",
+        "published": "2025-08-27"
       },
       "fetches": [
         {
           "date": "2026-10-10",
           "at": "2026-10-10T18:26:42Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://documents.un.org/doc/undoc/gen/n25/228/17/pdf/n2522817.pdf",
+          "content_type": "application/pdf",
+          "sha256": "99f17e7202d3692d",
+          "bytes": 195276
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:29Z",
+          "run": "2026-11-06-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -8816,6 +9160,54 @@
           "locator": "header",
           "text": "Resolution adopted by the General Assembly on 26 August 2025",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0144#9",
+          "locator": "Preamble, second paragraph",
+          "text": "the present resolution, as well as the activities of the Panel and the Dialogue are limited to the non‑military domain",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0144#10",
+          "locator": "para. 1 and 1(a)",
+          "text": "Establishes, within the United Nations, the multidisciplinary Independent International Scientific Panel on Artificial Intelligence … comprising 40 members … which amounts to one annual policy -relevant but non‑prescriptive summary report including thematic briefs as it deems necessary",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0144#11",
+          "locator": "para. 1(d)",
+          "text": "To provide updates on its work up to twice a year to hear views through an interactive dialogue of the plenary of the General Assembly with the Co -Chairs of the Panel",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0144#12",
+          "locator": "para. 1(e)",
+          "text": "To present its annual report at the Global Dialogue on Artificial Intelligence Governance",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0144#13",
+          "locator": "para. 4(a), (d), (e)",
+          "text": "The development of safe, secure and trustworthy artificial intelligence systems; … The interoperability and compatibility of artificial intelligence governance approaches; (e) Respect for and protection and promotion of human rights in the field of artificial intelligence",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0144#14",
+          "locator": "para. 5",
+          "text": "Decides to convene the Dialogue annually for up to two days in the margins of existing relevant United Nations conferences and meetings, alternating between Geneva and New York",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0144#15",
+          "locator": "para. 7",
+          "text": "who will identify the main topics of the Dialogue and draft a Co -Chairs’ summary of each annual Dialogue",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0144#16",
+          "locator": "para. 8",
+          "text": "Decides that the Co-Chairs of the second Dialogue will hold intergovernmental consultations to agree on common understandings on priority areas for international artificial intelligence governance, taking into account the summaries of the previous Dialogues",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -8837,6 +9229,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "be62434674f7d524",
           "bytes": 63377
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:31Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.un.org/independent-international-scientific-panel-ai/en",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "8731ab8042e8e249",
+          "bytes": 58799
         }
       ],
       "passages": [
@@ -8845,13 +9249,25 @@
           "locator": "home page",
           "text": "The United Nations General Assembly established the Independent International Scientific Panel on Artificial Intelligence in Resolution A/RES/79/325",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0145#2",
+          "locator": "Home page, intro",
+          "text": "Established with Resolution A/RES/79/325 on 26 August 2025, the Independent International Scientific Panel on AI serves as the first global scientific body on Artificial Intelligence (AI)",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0145#3",
+          "locator": "Home page, Publications",
+          "text": "Preliminary Report (01 July) … Thematic Brief on AI Agents, Misalignment and the Risk of Losing Human Control (21 September)",
+          "retrieved": "2026-11-06"
         }
       ]
     },
     "S-0146": {
       "url": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-07/Press%20Release%20-%20Independent%20International%20Scientific%20Panel%20on%20AI%20Launches%20Preliminary%20Report%20on%20AI%20Opportunities,%20Risks%20and%20Impacts.pdf",
-      "title": "Independent International Scientific Panel on AI Launches Preliminary Report on AI Opportunities, Risks and Impacts",
-      "publisher": "United Nations, Independent International Scientific Panel on AI",
+      "title": "Independent International Scientific Panel on AI Launches Preliminary Report (press release)",
+      "publisher": "UN Office for Digital and Emerging Technologies",
       "type": "primary",
       "dates": {
         "published": "2026-07-01"
@@ -8861,6 +9277,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:26:44Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-07/Press%20Release%20-%20Independent%20International%20Scientific%20Panel%20on%20AI%20Launches%20Preliminary%20Report%20on%20AI%20Opportunities,%20Risks%20and%20Impacts.pdf",
+          "content_type": "application/pdf",
+          "sha256": "26c3ba26838ca0c1",
+          "bytes": 67744
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:32Z",
+          "run": "2026-11-06-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -8900,13 +9328,49 @@
           "locator": "press release, dateline",
           "text": "NEW YORK, 1 July 2026",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0146#6",
+          "locator": "dateline, para. 1",
+          "text": "NEW YORK, 1 July 2026 – The UN Independent International Scientific Panel on Artificial Intelligence today officially released its Preliminary Report",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0146#7",
+          "locator": "About the Panel, para. 3",
+          "text": "The Panel is co-chaired by Yoshua Bengio (Canada) and Maria Ressa (Philippines), elected at the Panel's inaugural meeting on 3 March 2026.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0146#8",
+          "locator": "About the Panel, para. 3",
+          "text": "Its mandate is to produce annual, policy-relevant but non- prescriptive reports synthesising research on the opportunities, risks and impacts of AI in the non-military domain.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0146#9",
+          "locator": "About the Panel, para. 4",
+          "text": "The Panel's next annual report will inform the second Global Dialogue, to be held in New York in May 2027.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0146#10",
+          "locator": "para. 3",
+          "text": "The report’s findings will be presented to governments at the inaugural UN Global Dialogue on AI Governance, convening in Geneva on 6 and 7 July.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0146#11",
+          "locator": "About the Panel, para. 3",
+          "text": "includes members from the International Telecommunication Union (ITU) and the UN Educational, Scientific and Cultural Organization (UNESCO)",
+          "retrieved": "2026-11-06"
         }
       ]
     },
     "S-0147": {
       "url": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-09/Press%20Release_Thematic%20Brief_AI%20Agents%2C%20Misalignment%20and%20the%20Risk%20of%20Losing%20Human%20Control_AI%20Scientific%20Panel.pdf",
-      "title": "Key Risk Factors for AI Loss of Control Came Together in 2026 Incident, Independent UN Scientific Panel Finds (press release)",
-      "publisher": "United Nations, Independent International Scientific Panel on AI",
+      "title": "Key Risk Factors for AI Loss of Control Came Together in 2026 Incident (press release on the Panel's first thematic brief)",
+      "publisher": "UN Office for Digital and Emerging Technologies",
       "type": "primary",
       "dates": {
         "published": "2026-09-21"
@@ -8916,6 +9380,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:26:45Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-09/Press%20Release_Thematic%20Brief_AI%20Agents%2C%20Misalignment%20and%20the%20Risk%20of%20Losing%20Human%20Control_AI%20Scientific%20Panel.pdf",
+          "content_type": "application/pdf",
+          "sha256": "29e1a131ef70cf20",
+          "bytes": 90001
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:33Z",
+          "run": "2026-11-06-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -8943,13 +9419,25 @@
           "locator": "press release, para 5",
           "text": "The brief defines loss of control as a situation in which humans cannot reliably direct, constrain or stop an autonomous AI system.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0147#4",
+          "locator": "dateline, para. 1",
+          "text": "NEW YORK, 21 September 2026 – The Independent International Scientific Panel on AI, established by the UN General Assembly, released its first thematic brief, an assessment of the breach of Hugging Face's systems by AI agents under evaluation at OpenAI this summer.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0147#5",
+          "locator": "About the Panel",
+          "text": "Its first Co- Chairs are Yoshua Bengio (Canada) and Maria Ressa (Philippines).",
+          "retrieved": "2026-11-06"
         }
       ]
     },
     "S-0148": {
       "url": "https://www.un.org/global-dialogue-ai-governance/sites/default/files/2026-09/ai_dialogue_co-chairs_summary.pdf",
-      "title": "UN Global Dialogue on Artificial Intelligence Governance: Co-Chairs' Summary (Geneva, 6–7 July 2026)",
-      "publisher": "United Nations, Global Dialogue on AI Governance",
+      "title": "UN Global Dialogue on AI Governance: Co-Chairs' Summary (Geneva, 6-7 July 2026)",
+      "publisher": "United Nations",
       "type": "primary",
       "dates": {
         "published": "2026-09"
@@ -8959,6 +9447,18 @@
           "date": "2026-10-10",
           "at": "2026-10-10T18:26:46Z",
           "run": "2026-10-10-baseline",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.un.org/global-dialogue-ai-governance/sites/default/files/2026-09/ai_dialogue_co-chairs_summary.pdf",
+          "content_type": "application/pdf",
+          "sha256": "a45d45d19f4d2007",
+          "bytes": 513485
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:33Z",
+          "run": "2026-11-06-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -8992,6 +9492,18 @@
           "locator": "Themes",
           "text": "The themes do not constitute negotiated outcomes or consensus positions",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0148#5",
+          "locator": "Section on organisation",
+          "text": "The Co-Chairs were supported by a Joint Secretariat comprising ITU, UNESCO, together with UN ODET and with support from the EOSG. ITU and UNESCO coordinated the Joint Secretariat.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0148#6",
+          "locator": "Themes section",
+          "text": "The themes do not constitute negotiated outcomes or consensus positions but rather capture the principal themes that surfaced across the AI Dialogue’s programme.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -10943,6 +11455,18 @@
           "locator": "Supporting the AI Act and enforcing general-purpose AI rules",
           "text": "Requesting providers to take corrective action and, in case of infringement, restrict the public availability of a model and issue direct fines for non-compliance",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0183#5",
+          "locator": "The Structure of the AI Office",
+          "text": "“AI Safety” - unit A3",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0183#6",
+          "locator": "The Structure of the AI Office",
+          "text": "[Observation, not a quotation] Searched the AI Office page for which unit represents the EU in NAAIMES; the page lists the units but does not name a unit as the network participant.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -18095,6 +18619,214 @@
           "id": "S-0316#1",
           "locator": "Details of the Pilot",
           "text": "we independently reviewed a random sample of 800 prompts used internally at Amazon to assess the safety of its models across several risk categories.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0317": {
+      "url": "https://www.un.org/global-dialogue-ai-governance/en",
+      "title": "Global Dialogue on AI Governance (home)",
+      "publisher": "United Nations",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:34Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.un.org/global-dialogue-ai-governance/en",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "cbce50a6b56e4748",
+          "bytes": 86319
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0317#1",
+          "locator": "2026 Dialogue: Geneva",
+          "text": "The inaugural Global Dialogue on AI Governance was held in Geneva on 6 and 7 July 2026.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0317#2",
+          "locator": "Save the date",
+          "text": "Global Dialogue on AI Governance 3–4 May 2027 | New York",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0317#3",
+          "locator": "Meet the 2027 Co-Chairs",
+          "text": "On 16 October 2026, the President of the General Assembly appointed two Permanent Representatives as Co-Chairs of the 2027 Dialogue, in line with General Assembly resolution 79/325.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0318": {
+      "url": "https://www.unesco.org/en/legal-affairs/monitoring/1st-consultation-2025-0?hub=249867",
+      "title": "1st Consultation (2025) - Monitoring of standard-setting instruments: Recommendation on the Ethics of AI",
+      "publisher": "UNESCO",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:39Z",
+          "run": "2026-11-06-weekly",
+          "via": "headless Chromium (curl receives a bot challenge)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "740a841bd2f9b115",
+          "bytes": 308612
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0318#1",
+          "locator": "Consultation documents",
+          "text": "Consolidated report on the implementation by Member States of the 2021 Recommendation on the Ethics of Artificial Intelligence",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0318#2",
+          "locator": "Consultation documents",
+          "text": "Examination of the consolidated report by the Executive Board at its 222nd session (autumn 2025)",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0318#3",
+          "locator": "Consultation documents",
+          "text": "Presentation of the consolidated report at the General Conference at its 43rd session (autumn 2025)",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0319": {
+      "url": "https://www.unesco.org/en/node/107897?hub=66535",
+      "title": "2nd Consultation (2029) - Monitoring of standard-setting instruments: Recommendation on the Ethics of AI",
+      "publisher": "UNESCO",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:39Z",
+          "run": "2026-11-06-weekly",
+          "via": "headless Chromium (curl receives a bot challenge)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "57ad0158876f410c",
+          "bytes": 275635
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0319#1",
+          "locator": "Consultation timeline",
+          "text": "Examination of the consolidated report by the Executive Board (2029)",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0320": {
+      "url": "https://verdragenbank.overheid.nl/en/Treaty/Details/013947_p.html",
+      "title": "Treaty Database: Council of Europe Framework Convention on AI (parties table)",
+      "publisher": "Government of the Netherlands (Overheid.nl Treaty Database)",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:40Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://verdragenbank.overheid.nl/en/Treaty/Details/013947_p.html",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "96bf0d4075199bdf",
+          "bytes": 29999
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0320#1",
+          "locator": "Parties table, EU row",
+          "text": "EU (European Union) 05-09-2024 15-05-2026 (R)",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0320#2",
+          "locator": "Parties table, legend",
+          "text": "R=Ratification, Acceptance, Approval or Notification",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0320#3",
+          "locator": "Parties table",
+          "text": "[Observation, not a quotation] Checked every row of the parties table (Albania to Uruguay): only the EU row carries a ratification date, and no row shows an entry-into-force date.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0321": {
+      "url": "https://www.frontiermodelforum.org/specifications/jailbreak-rating-framework-for-frontier-cyber-threats/",
+      "title": "Jailbreak Rating Framework for Frontier Cyber Threats (v1.0)",
+      "publisher": "Frontier Model Forum",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-05"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:41Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/specifications/jailbreak-rating-framework-for-frontier-cyber-threats/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "a24e0fba8df13a15",
+          "bytes": 133341
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0321#1",
+          "locator": "intro",
+          "text": "Drawing on input from security experts across the members of the Frontier Model Forum (FMF), this preliminary framework provides a shared vocabulary and a structured method for rating successful jailbreaks.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0322": {
+      "url": "https://ausncp.gov.au/whats-happening/news/oecd-due-diligence-guidance-responsible-ai",
+      "title": "OECD Due Diligence Guidance for Responsible AI (AusNCP news)",
+      "publisher": "Australian National Contact Point for Responsible Business Conduct",
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:41Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://ausncp.gov.au/updates-and-resources/news-and-events/oecd-due-diligence-guidance-responsible-ai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "9bc1a91d99464225",
+          "bytes": 25098
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0322#1",
+          "locator": "news item",
+          "text": "The Organisation for Economic Co-operation and Development (OECD) released its Due Diligence Guidance for Responsible Artificial Intelligence at the India AI Impact Summit 2026.",
           "retrieved": "2026-11-06"
         }
       ]

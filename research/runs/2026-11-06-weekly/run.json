@@ -148,6 +148,93 @@
           ]
         }
       ]
+    },
+    {
+      "area": "B3 multilateral bodies and processes; B3 industry/multistakeholder bodies (group A)",
+      "summary": "Checked primary pages of the AISR, NAAIMES, the summit series (Geneva 2027), the UN Panel and Dialogue, OECD, CoE (via EUR-Lex and the Dutch treaty database, because coe.int blocks automated access), UNESCO, HAIP, the GPAI Code signatory page, FMF and PAI for developments since 2026-10-10 and since ~Jun 2026. No new qualifying mechanism was drafted as an addition. Updates to existing entries: EU deposit date for the CoE Convention (proposal), UN 2027 Dialogue co-chairs appointed and its consultations mandate (proposal), and an FMF Jailbreak Rating Framework v1.0 (5 Nov 2026) logged as a candidate.",
+      "queries": [
+        "Council Decision conclusion Council of Europe Framework Convention on Artificial Intelligence European Union 2026 ratification deposited",
+        "Framework Convention on Artificial Intelligence CETS 225 ratification 2026 Norway United Kingdom ratifies entry into force",
+        "\"15 May 2026\" European Union instrument of approval Framework Convention Artificial Intelligence Chisinau",
+        "OECD Due Diligence Guidance for Responsible AI 2026 published",
+        "International Network for Advanced AI Measurement Evaluation and Science October 2026",
+        "Frontier Model Forum announcement October 2026",
+        "GPAI Code of Practice new signatory October 2026 AI Office"
+      ],
+      "limits": "coe.int (treaty office and newsroom) and oecd.org refuse automated clients (403 / bot challenge); headless retries were not pursued further. Search snippets were used only as leads. FMF/PAI checked via their own update pages only.",
+      "candidates": [
+        {
+          "name": "EU ratification of CoE AI Convention (deposit 15 May 2026)",
+          "result": "update to existing entry",
+          "reason": "Approval 21 Apr 2026 confirmed in EUR-Lex; deposit 15 May 2026 per the Netherlands treaty database; no other ratifications; not in force.",
+          "proposal": "P-0161",
+          "sources": [
+            "S-0141",
+            "S-0320"
+          ]
+        },
+        {
+          "name": "UN Global Dialogue 2027 co-chairs and intergovernmental consultations",
+          "result": "update to existing entry",
+          "reason": "PGA appointed co-chairs (St Kitts and Nevis, Republic of Korea) on 16 Oct 2026; res. 79/325 para. 8 mandates consultations on common understandings.",
+          "proposal": "P-0156",
+          "sources": [
+            "S-0317",
+            "S-0144"
+          ]
+        },
+        {
+          "name": "NAAIMES first best-practice guidance (Jul 2026)",
+          "result": "update to existing entry",
+          "reason": "Already in aisi-net desc; scope (automated evaluations only) drives the elicit-note proposal. Network says next best practices will focus on agentic capabilities.",
+          "proposal": "P-0157",
+          "sources": [
+            "S-0125",
+            "S-0124"
+          ]
+        },
+        {
+          "name": "FMF Jailbreak Rating Framework for Frontier Cyber Threats v1.0 (5 Nov 2026)",
+          "result": "update to existing entry",
+          "reason": "Cross-member technical framework (public comment to 21 Dec 2026). It is a rating methodology, not a commitment, so not a separate L5 entry; could be mentioned in fmf context after review. Not drafted: fmf is outside this group's items.",
+          "sources": [
+            "S-0321"
+          ]
+        },
+        {
+          "name": "OECD Due Diligence Guidance for Responsible AI (Feb 2026)",
+          "result": "lead — source inaccessible",
+          "reason": "Released Feb 2026 at the India AI Impact Summit per the Australian NCP. oecd.org returns a bot challenge, so the primary text was not inspected. It is general enterprise due-diligence guidance (contextual), most likely an update to the oecd entry rather than a new entry.",
+          "sources": [
+            "S-0322"
+          ]
+        },
+        {
+          "name": "International AI Safety Report 2026 interim / key update",
+          "result": "screened out",
+          "reason": "The publications page (checked 6 Nov 2026) lists nothing after the Feb 2026 report; Bengio continues as Chair through 2026.",
+          "sources": [
+            "S-0120",
+            "S-0119"
+          ]
+        },
+        {
+          "name": "Geneva AI Summit 2027 (post-Delhi summit)",
+          "result": "screened out",
+          "reason": "Already on the map as the next summit; dates 21-22 Jun 2027 and theme confirmed; no commitments text yet.",
+          "sources": [
+            "S-0133"
+          ]
+        },
+        {
+          "name": "EU GPAI Code signatory changes",
+          "result": "screened out",
+          "reason": "Signatory page last updated 7 Oct 2026 (same as baseline); Meta still absent; xAI safety chapter only.",
+          "sources": [
+            "S-0003"
+          ]
+        }
+      ]
     }
   ],
   "usage": null
