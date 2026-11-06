@@ -3,7 +3,7 @@
   "label": "Weekly audit 2026-11-06",
   "partial": true,
   "started_at": "2026-11-06T18:00:29Z",
-  "finished_at": null,
+  "finished_at": "2026-11-06T18:34:15Z",
   "scope": {
     "entries": [],
     "note": null
@@ -480,7 +480,159 @@
           "sources": []
         }
       ]
+    },
+    {
+      "area": "B1 United States (federal)",
+      "summary": "No Commerce §4 evaluation of state AI laws or BEAD AI policy notice found. New since June 2026: H.R. 9925 FRONTIER Act (already on the map; still in committee), EO 14434 (terminology only), a June 2026 NSPM on AI in national security (text not public), and a 29 Sep 2026 'White House Accord on Super Intelligence' found only in the American Presidency Project archive (drafted as a flag).",
+      "queries": [
+        "Federal Register API: presidential documents with 'artificial intelligence' since 2026-01-01",
+        "Federal Register API: 'State AI laws', 'artificial intelligence preempt', 'frontier artificial intelligence' since 2026-06-01",
+        "WebSearch: Commerce evaluation of state AI laws EO 14365 section 4 (x2)",
+        "WebSearch: White House national policy framework AI legislative recommendations March 2026",
+        "WebSearch: \"White House Accord on Super Intelligence\"",
+        "WebSearch: \"Joint Commitment on Frontier Responsibilities\"",
+        "whitehouse.gov briefings-statements listing pages 1-6; fact sheets for Sep 2026 and Jun 2026",
+        "govinfo BILLSTATUS for H.R. 9925; api.congress.gov (rate-limited)",
+        "NTIA site search 'state AI laws'"
+      ],
+      "limits": "commerce.gov and ntia.gov topic pages refuse automated clients (403/Cloudflare); NTIA site search returned no results; api.congress.gov DEMO_KEY was rate-limited after one call; the Truth Social original of the accord was not attempted (JavaScript-only).",
+      "candidates": [
+        {
+          "name": "White House Accord on Super Intelligence / Joint Commitment on Frontier Responsibilities (29 Sep 2026)",
+          "result": "proposed",
+          "reason": "Cross-firm frontier commitments (external auditor/evaluator, independent board committee) by Google, Anthropic, Meta, OpenAI, xAI, Nvidia with the President; meets RUBRIC §1 on its text, but the only copy is an archive copy, so evidence status is 'needs source access'.",
+          "proposal": "P-0187",
+          "sources": [
+            "S-0312",
+            "S-0351"
+          ]
+        },
+        {
+          "name": "Commerce evaluation of state AI laws under EO 14365 §4",
+          "result": "lead — source inaccessible",
+          "reason": "Not found in the Federal Register, NTIA or web search; commerce.gov blocks automated clients. Secondary sources from spring and autumn 2026 describe it as unpublished.",
+          "sources": [
+            "S-0239"
+          ]
+        },
+        {
+          "name": "EO 14434, Inaugurating the Era of Super Intelligence (29 Sep 2026)",
+          "result": "screened out",
+          "reason": "Terminology order (AI -> 'Super Intelligence' in executive-branch usage) with no developer-facing mechanism; already mentioned in the caisi entry.",
+          "sources": [
+            "S-0175"
+          ]
+        },
+        {
+          "name": "NSPM on AI in the National Security Enterprise (Jun 2026), replacing NSM-25",
+          "result": "screened out",
+          "reason": "Government adoption/procurement directive; only the fact sheet is public, and it sets no duties on frontier developers. Could be revisited if the text is published.",
+          "sources": [
+            "S-0352"
+          ]
+        },
+        {
+          "name": "H.R. 9925 FRONTIER Act progress",
+          "result": "update to existing entry",
+          "reason": "No action since referral on 23 Jul 2026; entry still accurate.",
+          "sources": [
+            "S-0347"
+          ]
+        },
+        {
+          "name": "White House National Policy Framework for AI (legislative recommendations, Mar 2026)",
+          "result": "screened out",
+          "reason": "Predates the baseline window and is a set of non-binding legislative recommendations under EO 14365 §8; only law-firm summaries were seen (whitehouse.gov text not opened). Could be raised as a context mention in us-preempt by the group that checks it.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "area": "B1 European Union and United Kingdom",
+      "summary": "AI Office GPAI enforcement powers apply from 2 Aug 2026 (already reflected in the map's eu-aia/eu-aio text, which other groups verify); the Digital Omnibus (Reg. 2026/1744) does not amend Arts. 51 or 93. No new implementing act on GPAI found. UK: the 2026 King's Speech announced no AI bill; a general 'Regulating for Growth Bill' (AI Growth Lab sandbox) was reported.",
+      "queries": [
+        "WebSearch: European Commission AI Act implementing act general-purpose AI enforcement August 2026 AI Office fines guidelines",
+        "WebSearch: UK artificial intelligence bill 2026 King's Speech frontier AI legislation AI Security Institute statutory footing",
+        "EUR-Lex: Reg. 2026/1744 text searched for Art. 51/93 amendments"
+      ],
+      "limits": "EUR-Lex search was not queried directly for implementing acts; UK Regulating for Growth Bill text not opened (no bill text located), so its AISI provisions (reported by one low-quality source) are unverified.",
+      "candidates": [
+        {
+          "name": "UK Regulating for Growth Bill (AI Growth Lab)",
+          "result": "screened out",
+          "reason": "General regulatory-sandbox bill, not AI- or frontier-specific per the Lords Library summary seen in search; no bill text opened. Lead: a single source claims it gives AISI statutory backing — worth checking when the bill is published.",
+          "sources": []
+        },
+        {
+          "name": "EU AI Act GPAI enforcement from 2 Aug 2026",
+          "result": "update to existing entry",
+          "reason": "Application date already on the map; Art. 93 powers confirmed unchanged.",
+          "sources": [
+            "S-0185",
+            "S-0041"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "B2 States (California, Colorado, New York, Texas; other states' frontier statutes)",
+      "summary": "Illinois SB 315 (already on the map) is the only new frontier statute found in other states. California enacted SB 813 (independent verification organizations for AI systems and models) and AB 1405 (AI auditor registry) on 9 Sep 2026 — significant for frontier evaluation but statute text was not retrievable. Colorado enacted HB 26-1263 (chatbot safety, 1 Jul 2026) and the AG is running ADMT Act rulemaking. New York announced RAISE implementation steps on 21 Sep 2026 (registration from November; DIGIT office).",
+      "queries": [
+        "WebSearch: Newsom signs frontier AI bill 2026 SB 53 amendment",
+        "WebSearch: state frontier AI safety law signed 2026 'large frontier developer' (MA, MI, NJ, VA, WA)",
+        "WebSearch: Newsom signed AI bills September 2026 list",
+        "WebSearch: New York DFS RAISE Act proposed regulation 2026",
+        "WebSearch (governor.ny.gov, dfs.ny.gov): Hochul September 2026 RAISE implementation",
+        "coag.gov/ai; leg.colorado.gov SB 26-189 pages and fiscal note",
+        "gov.ca.gov 9 Sep 2026 release"
+      ],
+      "limits": "leginfo.legislature.ca.gov, legiscan.com, dfs.ny.gov and governor.ny.gov returned Cloudflare challenges to curl and headless Chromium; web.archive.org reset. Texas held no regular session in 2026.",
+      "candidates": [
+        {
+          "name": "California SB 813 (independent verification organizations) and AB 1405 (AI auditor registry), signed 9 Sep 2026",
+          "result": "lead — source inaccessible",
+          "reason": "Governor's release confirms enactment and purpose; the chaptered texts (who licenses IVOs, whether participation is voluntary, effective dates, link to SB 53) could not be retrieved from leginfo. Likely a clear addition (L3, uss) or SB 53 connection once the text is read.",
+          "sources": [
+            "S-0353"
+          ]
+        },
+        {
+          "name": "Colorado HB 26-1263 Chatbot Safety Act (signed 1 Jul 2026, effective 1 Jan 2027)",
+          "result": "screened out",
+          "reason": "Companion/consumer chatbot safety law, not frontier/GPAI-specific; note for co-aia context if the maintainer wants Colorado's 2026 AI statutes listed.",
+          "sources": [
+            "S-0164"
+          ]
+        },
+        {
+          "name": "Colorado AG ADMT Act rulemaking (hearing 26 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Implementing rules for co-aia are in progress; no adopted rule yet.",
+          "sources": [
+            "S-0164"
+          ]
+        },
+        {
+          "name": "New York RAISE implementation (21 Sep 2026: registration from November 2026, Deputy Director appointed, DIGIT office)",
+          "result": "lead — source inaccessible",
+          "reason": "Seen only in search results; governor.ny.gov and dfs.ny.gov refused automated access. Would update ny-raise (another group's item).",
+          "sources": []
+        },
+        {
+          "name": "Other states' frontier statutes in 2026",
+          "result": "screened out",
+          "reason": "None found beyond Illinois (already on the map).",
+          "sources": []
+        }
+      ]
     }
   ],
-  "usage": null
+  "usage": "about $48 (get_session cost_usd difference)",
+  "highlights": [
+    "Coverage: 317 of 548 inventory items were checked this run, 311 against outside sources (198 no change, 31 changed, 72 unresolved, mostly comparative wording or a primary source not found, 10 inaccessible) and 6 internally. All 139 items never verified before were attempted; 71 now pass and 68 remain open with what is missing recorded. 218 sources behind earlier checks were re-fetched (194 by plain download, 24 in headless Chromium; 200 retrieved): 34 had genuinely changed, and the 180 items resting on them were re-verified. No audit ran on 13, 19, 26 Oct or 2 Nov; this run covers the whole period since the 10 Oct baseline.",
+    "40 new proposals (P-0149 to P-0188). 39 await your decision: 24 corrections, 1 new entry (Japan AI Basic Plan, P-0178) and 14 questions, each with drafted options and a recommendation; P-0187 is held until its source can be opened. The largest: Meta's framework is now v2.1, the 'Meta Superintelligence Scaling Framework' (P-0149); SpaceX acquired xAI, whose site now says SpaceXSI (P-0151, recommended: keep the name and add a note); Colorado SB 24-205 was not repealed before 30 Jun 2026 and a court order bars enforcement (P-0181); Illinois' Agency can levy its own penalties (P-0180); the EU AI Office has no pre-deployment access power (P-0162).",
+    "Discovery: proposed new entries for Japan's AI Basic Plan (P-0178) and the AEF-1 evaluator standard now cited by the EU AI Office (P-0172, a question). The White House Accord on Super Intelligence (29 Sep 2026, six labs) is drafted as an addition (P-0187) but held as 'needs source access': only an archive copy was found, not an official one. Leads awaiting access: California SB 813 / AB 1405 (independent verification organizations), New York RAISE implementation, Korea's July 2026 amendment, Singapore's Online Safety Commission.",
+    "Not retrievable this week: California's legislature site, the Council of Europe, openai.com, ico.org.uk, Ofcom, FTC and eSafety refused automated clients even in headless Chromium; items resting on them were marked inaccessible, or kept on their 10 Oct passages where noted. Two answers saved on the page on 13 Oct (P-0134 accept, P-0137 option b) belong to the lost 12 Oct run and are not in the ledger, so they were not acted on; new numbering starts at P-0149 so those IDs are never reused.",
+    "Nothing was applied: there were no new answers to current proposals, so the map's content date stays 11 Oct 2026. Tooling note: source fetch does not request decompressed content, so gzip-only pages (deepmind.google) cache unreadable bytes; saved copies were used instead."
+  ]
 }

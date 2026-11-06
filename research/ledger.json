@@ -1,5 +1,5 @@
 {
-  "next": 180,
+  "next": 189,
   "proposals": [
     {
       "id": "P-0001",
@@ -19284,6 +19284,981 @@
       "research": {
         "status": "verified",
         "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0180",
+      "fingerprint": "66fe7d1bc101",
+      "targets": [
+        "entry:il-aisma:context",
+        "entry:il-aisma:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:32:54Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Illinois AI Safety Measures Act: the Agency can also levy disclosure penalties, and incident reporting binds all frontier developers",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "il-aisma",
+              "field": "context",
+              "from": "Third state frontier-AI statute, built on the SB 53 / RAISE template: large frontier developers publish a frontier AI framework, file disclosure statements, and report critical safety incidents to the Illinois Emergency Management Agency and the AG within 72 hours; all frontier developers publish transparency reports at deployment. Unlike SB 53 and RAISE, it requires large frontier developers to retain an independent third-party auditor every year. AG enforcement only.",
+              "to": "Third state frontier-AI statute, built on the SB 53 / RAISE template: large frontier developers publish a frontier AI framework and file disclosure statements; all frontier developers report critical safety incidents to the Illinois Emergency Management Agency and the AG within 72 hours and publish transparency reports at deployment. Unlike SB 53 and RAISE, it requires large frontier developers to retain an independent third-party auditor every year. Penalties for framework, audit and reporting failures are recovered only by the AG; the Agency can itself levy $1,000-a-day penalties for a missing or false disclosure statement."
+            },
+            {
+              "op": "set_cov",
+              "entity": "il-aisma",
+              "cat": "acct",
+              "from": "Annual independent third-party audit of framework compliance from 2028, with a published summary; disclosure statements filed with the Agency from 2027; AG-only civil penalties up to $1M first / $3M subsequent.",
+              "to": "Annual independent third-party audit of framework compliance from 2028, with a published summary; disclosure statements filed with the Agency from 2027; AG-only civil penalties up to $1M first / $3M subsequent, plus Agency penalties of $1,000 a day for a missing or false disclosure statement."
+            }
+          ],
+          "why": "'AG enforcement only' is wrong: the Act gives the Illinois Emergency Management Agency its own penalty power over disclosure statements. The context also assigns incident reporting to large frontier developers only, but the duty applies to every frontier developer.",
+          "rationale": "Sec. 25(b) reserves the $1M / $3M civil penalties to actions brought exclusively by the AG, but Sec. 18(e) separately lets the Agency, after notice and hearing, levy $1,000 per day for failing to file or correct a disclosure statement. Sec. 15(c) puts the 72-hour incident duty on 'a frontier developer', not only large ones.",
+          "evidence": [
+            {
+              "source": "S-0170",
+              "passage": "S-0170#34",
+              "stance": "supports",
+              "supports": "Agency's own $1,000/day disclosure penalty"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#36",
+              "stance": "supports",
+              "supports": "Framework/audit/reporting penalties recovered exclusively by the AG"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#35",
+              "stance": "supports",
+              "supports": "$1M / $3M caps"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#31",
+              "stance": "supports",
+              "supports": "Incident reporting applies to every frontier developer, 72 hours, Agency and AG"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#33",
+              "stance": "supports",
+              "supports": "Disclosure statements filed with the Agency from 1 Jan 2027"
+            },
+            {
+              "source": "S-0170",
+              "passage": "S-0170#29",
+              "stance": "supports",
+              "supports": "Annual audit from 2028"
+            }
+          ],
+          "uncertainty": "None on the text; how the Agency will use its Sec. 18(e) power is unknown.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:il-aisma:desc": "checked, still accurate",
+            "edge:il-aisma|ny-raise": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "'Third state frontier-AI statute' (ordering by enactment date: SB 53 Sep 2025, RAISE Dec 2025, Illinois Jul 2026 — consistent but not a source statement)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:il-aisma|ca-sb53",
+            "edge:il-aisma|ny-raise",
+            "faq:which-ai-laws-are-binding-with-penalties"
+          ],
+          "hash": "342b39e22b0d"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0181",
+      "fingerprint": "d6235c92e900",
+      "targets": [
+        "entry:co-aia:cov:timing"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:32:54Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Colorado: SB 24-205 was not repealed before its Jun 30, 2026 date; the repeal takes effect Jan 1, 2027 and a court order bars enforcement",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "co-aia",
+              "cat": "timing",
+              "from": "Effective Jan 1, 2027 (the original SB 24-205 was repealed before reaching its enforcement date). No lifecycle-review obligation.",
+              "to": "Effective Jan 1, 2027. SB 26-189 was signed before SB 24-205's delayed Jun 30, 2026 start, but its repeal-and-reenactment takes effect only on Jan 1, 2027; an Apr 27, 2026 federal court order bars enforcement of SB 24-205 pending AG rulemaking and a ruling in xAI v. Weiser. No lifecycle-review obligation."
+            }
+          ],
+          "why": "Readers are told SB 24-205 never reached its enforcement date. On the statutes, its delayed Jun 30, 2026 date passed before the repeal took effect; what stops enforcement is the court order.",
+          "rationale": "SB 25B-004 moved SB 24-205's requirements to 30 Jun 2026. SB 26-189 (signed 14 May 2026) repeals and reenacts Part 17 in its Sec. 1, but Sec. 5(1) makes the act take effect 1 Jan 2027. Legislative Council Staff's final fiscal note (8 Sep 2026) records the 27 Apr 2026 order barring the AG from enforcing SB 24-205 or amending legislation until rulemaking and a ruling in X.AI LLC v. Weiser.",
+          "evidence": [
+            {
+              "source": "S-0161",
+              "passage": "S-0161#2",
+              "stance": "supports",
+              "supports": "SB 24-205 delayed to 30 Jun 2026"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#16",
+              "stance": "supports",
+              "supports": "Sec. 1 repeals and reenacts Part 17"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#17",
+              "stance": "supports",
+              "supports": "Act takes effect 1 Jan 2027"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#19",
+              "stance": "supports",
+              "supports": "Signed 14 May 2026"
+            },
+            {
+              "source": "S-0349",
+              "passage": "S-0349#2",
+              "stance": "supports",
+              "supports": "27 Apr 2026 court order barring enforcement"
+            },
+            {
+              "source": "S-0349",
+              "passage": "S-0349#1",
+              "stance": "supports",
+              "supports": "Implementation delayed to June 2026"
+            }
+          ],
+          "uncertainty": "Whether SB 24-205's obligations were formally operative from 30 Jun 2026 is not stated by any official source; the proposed text avoids that claim and states only the dates and the court order.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:co-aia": "checked, still accurate (name, link, layer, jur, pow, status)"
+          },
+          "unverified_carryover": [
+            "'No lifecycle-review obligation' (checked in the 2026-10-10 baseline against the session law; not re-read in full here)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:tx-raiga:cov:mit",
+            "edge:us-preempt|co-aia",
+            "edge:co-doi|co-aia",
+            "gap:mit",
+            "faq:which-ai-laws-are-binding-with-penalties"
+          ],
+          "hash": "3d1e6d66baf6"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0182",
+      "fingerprint": "94194b897b0b",
+      "targets": [
+        "entry:kr-ai:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:32:54Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Korea AI Basic Act: MSIT's fine grace period is 'at least one year', not a fixed start on Jan 22, 2027",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "kr-ai",
+              "field": "desc",
+              "from": "AI Basic Act. In force Jan 22, 2026. One-year grace period — penalties (capped ~$21k per violation) begin Jan 22, 2027.",
+              "to": "AI Basic Act. In force Jan 22, 2026. MSIT is deferring fines (capped ~$21k per violation) for at least one year, a policy grace period not set in the Act."
+            }
+          ],
+          "why": "The current text gives a fixed date for penalties that no official source sets; MSIT announced a minimum, so fines may start later than Jan 22, 2027.",
+          "rationale": "MSIT's policy news on the government portal (21 Jan 2026) says regulation is deferred for 'at least one year' (최소 1년 이상) with a guidance period for fact-finding and fines. The 2026-10-10 baseline found no grace period in the Act or its Enforcement Decree.",
+          "evidence": [
+            {
+              "source": "S-0350",
+              "passage": "S-0350#2",
+              "stance": "supports",
+              "supports": "Deferral of at least one year"
+            },
+            {
+              "source": "S-0350",
+              "passage": "S-0350#3",
+              "stance": "supports",
+              "supports": "Guidance period covers fines and fact-finding"
+            },
+            {
+              "source": "S-0350",
+              "passage": "S-0350#1",
+              "stance": "supports",
+              "supports": "Date of the announcement, eve of entry into force"
+            }
+          ],
+          "uncertainty": "MSIT may later fix an end date; none found as of 6 Nov 2026.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:kr-ai:cov:acct": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "'capped ~$21k per violation' (KRW 30M cap, Art. 43, verified in the 2026-10-10 baseline, not re-fetched here)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:aisi-net:desc",
+            "entry:other-aisis:desc",
+            "gap:eval",
+            "gap:timing",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:footer-sources"
+          ],
+          "hash": "003225800ffa"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0183",
+      "fingerprint": "1cbc0375fb30",
+      "targets": [
+        "text:index.html:5409266f3dd3"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:32:54Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Japan AI Promotion Act: the AI Strategic Headquarters sits in the Cabinet, with its secretariat in the Cabinet Office",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "Establishes the AI Strategic Headquarters under the Cabinet Office to coordinate sectoral guidance.",
+              "to": "Establishes the AI Strategic Headquarters in the Cabinet (headed by the Prime Minister; secretariat in the Cabinet Office) to coordinate sectoral guidance.",
+              "count": 1
+            }
+          ],
+          "why": "Placing the HQ 'under the Cabinet Office' understates it: the statute places it in the Cabinet itself, headed by the Prime Minister.",
+          "rationale": "Art. 19 places the HQ 'in the Cabinet' (内閣に); Art. 22 makes the Prime Minister its head; Art. 26 assigns only its administrative affairs to the Cabinet Office (内閣府).",
+          "evidence": [
+            {
+              "source": "S-0296",
+              "passage": "S-0296#7",
+              "stance": "supports",
+              "supports": "HQ established in the Cabinet"
+            },
+            {
+              "source": "S-0296",
+              "passage": "S-0296#8",
+              "stance": "supports",
+              "supports": "Prime Minister heads it"
+            },
+            {
+              "source": "S-0296",
+              "passage": "S-0296#9",
+              "stance": "supports",
+              "supports": "Cabinet Office handles its affairs"
+            }
+          ],
+          "uncertainty": "None.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "The remaining analytic sentences of jp-ai context (the approach's assumptions; Hiroshima commitments substituting for binding rules)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [],
+          "hash": "88b4ee139cba"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0184",
+      "fingerprint": "052563046aeb",
+      "targets": [
+        "entry:tx-raiga:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:32:55Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Texas TRAIGA desc: replace the outdated 'Narrower than Colorado' with dates and penalties",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "tx-raiga",
+              "field": "desc",
+              "from": "Texas Responsible AI Governance Act, Jun 2025. Narrower than Colorado.",
+              "to": "Texas Responsible AI Governance Act, signed Jun 22, 2025; effective Jan 1, 2026. AG civil penalties of $10k–12k per curable violation, $80k–200k per uncurable one, and $2k–40k a day for continuing violations."
+            }
+          ],
+          "why": "'Narrower than Colorado' compared TRAIGA with SB 24-205, which Colorado has since repealed and reenacted as the narrower SB 26-189 ADMT Act, so the comparison no longer holds as written. The desc field is for hard facts.",
+          "rationale": "TLO history: signed 22 Jun 2025, effective 1 Jan 2026. Enrolled H.B. 149, new Bus. & Com. Code Sec. 552.105(a), sets the three penalty bands. Colorado's SB 26-189 repeals and reenacts the SB 24-205 provisions.",
+          "evidence": [
+            {
+              "source": "S-0166",
+              "passage": "S-0166#3",
+              "stance": "supports",
+              "supports": "Signed 22 Jun 2025; effective 1 Jan 2026"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#10",
+              "stance": "supports",
+              "supports": "Curable band"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#11",
+              "stance": "supports",
+              "supports": "Uncurable band"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#12",
+              "stance": "supports",
+              "supports": "Daily band"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#9",
+              "stance": "supports",
+              "supports": "Effective 1 Jan 2026"
+            },
+            {
+              "source": "S-0159",
+              "passage": "S-0159#5",
+              "stance": "supports",
+              "supports": "Colorado comparator replaced"
+            }
+          ],
+          "uncertainty": "Whether TRAIGA is narrower or broader than Colorado's new ADMT Act is a judgment the sources do not settle; the proposal drops the comparison instead of re-asserting it.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:tx-raiga:context": "unchanged here; the 'first AI law passed in a Republican-controlled state' claim stays unresolved"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "faq:which-ai-laws-are-binding-with-penalties"
+          ],
+          "hash": "c29b3ec56225"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0185",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:32:55Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "EO 14365 does not name SB 53 or RAISE: reword the two 'targets' connections?",
+          "kind": "flag",
+          "changes": [],
+          "why": "'Targets SB 53' reads as if the order names it; it does not, and the Commerce evaluation that could identify such laws has not been found.",
+          "rationale": "Recommend (a): the EO text (§§1, 3, 4) supports the category and the DOJ Task Force but names only Colorado. Option (a) keeps the relationship and states it as the order does.",
+          "evidence": [
+            {
+              "source": "S-0239",
+              "passage": "S-0239#6",
+              "stance": "supports",
+              "supports": "§4 disclosure category"
+            },
+            {
+              "source": "S-0239",
+              "passage": "S-0239#13",
+              "stance": "supports",
+              "supports": "Neither law named"
+            },
+            {
+              "source": "S-0239",
+              "passage": "S-0239#10",
+              "stance": "supports",
+              "supports": "Only Colorado named"
+            },
+            {
+              "source": "S-0239",
+              "passage": "S-0239#14",
+              "stance": "supports",
+              "supports": "DOJ Task Force"
+            }
+          ],
+          "uncertainty": "If Commerce publishes its §4 evaluation and names SB 53 or RAISE, (b) would become accurate.",
+          "confidence": "high",
+          "question": "EO 14365 names only Colorado's law; its §4 review covers state laws that may compel AI developers to disclose or report information unconstitutionally, a category that SB 53's and RAISE's disclosure duties could fall in. No Commerce §4 evaluation naming them has been found. Should the connections still say the EO 'targets' SB 53 and RAISE?",
+          "knock_on_notes": {
+            "entry:us-preempt:desc": "not in this group's list; not checked"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Reword to the §4 category, unnamed",
+              "changes": [
+                {
+                  "op": "set_edge",
+                  "a": "us-preempt",
+                  "b": "ca-sb53",
+                  "from": "Preemption EO targets SB 53; DOJ task force can challenge",
+                  "to": "EO §4 review covers state laws that may compel AI developers to disclose information unconstitutionally; SB 53 is not named; DOJ task force can challenge"
+                },
+                {
+                  "op": "set_edge",
+                  "a": "us-preempt",
+                  "b": "ny-raise",
+                  "from": "Preemption EO targets RAISE Act",
+                  "to": "EO §4 review covers state laws that may compel AI developers to disclose information unconstitutionally; RAISE is not named"
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Keep as is",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:us-frontier-access-eo:context",
+            "entry:us-frontier-act:context",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:mit",
+            "entry:ny-raise:context",
+            "entry:us-ftc:context",
+            "edge:us-eo14179|us-preempt",
+            "edge:us-action|us-preempt",
+            "edge:us-preempt|co-aia",
+            "edge:us-ftc|us-preempt",
+            "edge:us-frontier-act|us-preempt",
+            "gap:acct",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-3:tooltip",
+            "text:footer-sources",
+            "entry:eu-aia:context",
+            "entry:eu-aia:cov:thresh",
+            "entry:kr-ai:cov:thresh",
+            "entry:ny-raise:desc",
+            "entry:ny-raise:cov:thresh",
+            "entry:ny-raise:cov:mit",
+            "entry:ny-raise:cov:timing",
+            "entry:ny-raise:cov:update",
+            "entry:il-aisma:context",
+            "entry:il-aisma:cov:thresh",
+            "entry:seoul-commit:context",
+            "entry:rsp:context",
+            "entry:rsp:cov:thresh",
+            "entry:rsp:cov:acct",
+            "entry:prep:context",
+            "entry:prep:cov:acct",
+            "entry:metr:cov:thresh",
+            "edge:ca-sb53|rsp",
+            "edge:ca-sb53|prep",
+            "edge:ca-sb53|fsf",
+            "edge:ca-sb53|meta-faif",
+            "edge:ny-raise|ca-sb53",
+            "edge:il-aisma|ca-sb53",
+            "edge:us-frontier-act|ca-sb53",
+            "gap:timing",
+            "gap:sec",
+            "gap:update",
+            "faq:how-is-california-sb-53-different-from-the-ny-ra",
+            "text:gap-default",
+            "entry:un-ai:cov:update",
+            "entry:ca-sb53:cov:timing",
+            "entry:co-doi:context",
+            "edge:co-doi|ny-raise",
+            "edge:ny-raise|rsp",
+            "edge:il-aisma|ny-raise",
+            "edge:us-frontier-act|ny-raise"
+          ],
+          "hash": "4f31e2ce691f"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0186",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:32:55Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Commerce's CAISI statement cites the President's direction, not EO 14179: reword the connection?",
+          "kind": "flag",
+          "changes": [],
+          "why": "The causal claim is not in the official statement; a reader may take the rename as an action EO 14179 ordered.",
+          "rationale": "Recommend (a): it keeps the useful sequence (EO Jan 2025, rename Jun 2025) and the attribution Commerce actually gives. 'Deregulatory turn' restates the map's own description of EO 14179.",
+          "evidence": [
+            {
+              "source": "S-0279",
+              "passage": "S-0279#1",
+              "stance": "supports",
+              "supports": "Rename at the President's direction, Jun 2025"
+            },
+            {
+              "source": "S-0279",
+              "passage": "S-0279#2",
+              "stance": "supports",
+              "supports": "EO 14179 not cited"
+            }
+          ],
+          "uncertainty": "Other administration documents may tie the rename to EO 14179; none found.",
+          "confidence": "medium",
+          "question": "The connection says EO 14179 'led to' the AISI→CAISI rename. Commerce's 3 Jun 2025 statement attributes the change to 'the direction of President Trump' and never mentions EO 14179. Reword, keep, or remove?",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Reword to the documented sequence",
+              "changes": [
+                {
+                  "op": "set_edge",
+                  "a": "us-eo14179",
+                  "b": "caisi",
+                  "from": "EO led to AISI rename to CAISI in Jun 2025",
+                  "to": "AISI was renamed CAISI in Jun 2025 at the President's direction, after EO 14179's deregulatory turn"
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Keep as is",
+              "changes": []
+            },
+            {
+              "key": "c",
+              "label": "Remove the connection",
+              "changes": [
+                {
+                  "op": "remove_edge",
+                  "a": "us-eo14179",
+                  "b": "caisi",
+                  "from": "EO led to AISI rename to CAISI in Jun 2025"
+                }
+              ]
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:us-frontier-access-eo:context",
+            "edge:us-eo14179|us-action",
+            "edge:us-frontier-access-eo|us-eo14179",
+            "edge:us-eo14179|us-preempt",
+            "text:footer-sources",
+            "entry:aisi-net:desc",
+            "entry:uk-aisi:context",
+            "edge:aisi-net|caisi",
+            "edge:caisi|nist-rmf",
+            "edge:fsi|caisi",
+            "faq:what-is-the-difference-between-layer-2-and-layer"
+          ],
+          "hash": "029f7215ebc7"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0187",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:32:55Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Add the White House Accord on Super Intelligence (29 Sep 2026) as a Layer 5 voluntary cross-firm commitment?",
+          "kind": "flag",
+          "changes": [],
+          "why": "It is the first cross-firm frontier commitment brokered by this administration and the first in which the main US labs commit to independent external assessment and board-level oversight of safety controls.",
+          "rationale": "Recommend (a) once an official copy is obtained: it is a cross-firm commitment (Layer 5, like seoul-commit) with no legal force (pow 1, as for seoul-commit and delhi-commit), and its sponsor is the US federal government, so 'us' fits better than 'co'. Until an official White House, Truth Social or company copy is inspected, the evidence is an archive copy only, so the evidence status is 'needs source access'.",
+          "evidence": [
+            {
+              "source": "S-0312",
+              "passage": "S-0312#4",
+              "stance": "supports",
+              "supports": "Title and date"
+            },
+            {
+              "source": "S-0312",
+              "passage": "S-0312#5",
+              "stance": "supports",
+              "supports": "Four layers; internal controls"
+            },
+            {
+              "source": "S-0312",
+              "passage": "S-0312#6",
+              "stance": "supports",
+              "supports": "Internal team; external auditor or evaluator"
+            },
+            {
+              "source": "S-0312",
+              "passage": "S-0312#7",
+              "stance": "supports",
+              "supports": "Independent board committee"
+            },
+            {
+              "source": "S-0312",
+              "passage": "S-0312#8",
+              "stance": "supports",
+              "supports": "Regular meetings; possible codification"
+            },
+            {
+              "source": "S-0312",
+              "passage": "S-0312#9",
+              "stance": "supports",
+              "supports": "Signatories"
+            },
+            {
+              "source": "S-0351",
+              "passage": "S-0351#2",
+              "stance": "supports",
+              "supports": "No White House copy found"
+            }
+          ],
+          "uncertainty": "Signatory lists differ in press coverage; the archive copy's signature block (with images of the signed page) lists Pichai, Amodei, Zuckerberg, Brockman, Musk and Huang. Whether the White House published it anywhere official is unknown.",
+          "confidence": "medium",
+          "question": "Six frontier developers' leaders and the President signed a 'Joint Commitment on Frontier Responsibilities' (external auditor/evaluator, independent board committee). It meets RUBRIC §1 on its text, but the only copy found is the American Presidency Project archive; no whitehouse.gov or company copy was found. Add it, and with which jurisdiction?",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Add as L5, jur us, pow 1, active",
+              "changes": [
+                {
+                  "op": "add_entity",
+                  "after": "delhi-commit",
+                  "entity": {
+                    "id": "wh-si-accord",
+                    "name": "White House SI Accord",
+                    "layer": 5,
+                    "jur": "us",
+                    "pow": 1,
+                    "status": "active",
+                    "link": "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence",
+                    "desc": "Sep 29, 2026. One-page 'Joint Commitment on Frontier Responsibilities' signed by President Trump and the heads of Google, Anthropic, Meta, OpenAI, xAI and Nvidia: four layers of controls and audits. Voluntary; no enforcement.",
+                    "context": "Commits each signatory to internal controls monitoring model capabilities and alignment, an internal team checking them, an independent external auditor or evaluator, and an independent board committee overseeing both. Signatories will meet regularly to set standards; the text says codifying the steps into law 'may make sense' over time. It names no regulator, reporting channel or deadline. Sits beside the Seoul commitments as a cross-firm pledge, with external assessment and board oversight that Seoul did not specify.",
+                    "cov": {
+                      "eval": "Commits signatories to partner with an independent external auditor or evaluator assessing whether their controls, monitoring and detection operate as intended. Auditor qualifications are not defined; voluntary.",
+                      "mit": "Commits signatories to internal controls monitoring capabilities and alignment during training and deployment (cybersecurity, biosecurity, chemical threats) and preventing models from hacking or accessing systems in unintended ways.",
+                      "acct": "An independent committee of each signatory's board oversees the control teams and the internal and external auditors and ensures issues are remediated. No public reporting or government oversight is specified."
+                    }
+                  }
+                },
+                {
+                  "op": "add_edge",
+                  "a": "wh-si-accord",
+                  "b": "seoul-commit",
+                  "rel": "Later cross-firm pledge; adds external audit and board-committee oversight to Seoul's published-framework commitments"
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Add as L5, jur co (cross-firm), pow 1, active",
+              "changes": [
+                {
+                  "op": "add_entity",
+                  "after": "delhi-commit",
+                  "entity": {
+                    "id": "wh-si-accord",
+                    "name": "White House SI Accord",
+                    "layer": 5,
+                    "jur": "co",
+                    "pow": 1,
+                    "status": "active",
+                    "link": "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence",
+                    "desc": "Sep 29, 2026. One-page 'Joint Commitment on Frontier Responsibilities' signed by President Trump and the heads of Google, Anthropic, Meta, OpenAI, xAI and Nvidia: four layers of controls and audits. Voluntary; no enforcement.",
+                    "context": "Commits each signatory to internal controls monitoring model capabilities and alignment, an internal team checking them, an independent external auditor or evaluator, and an independent board committee overseeing both. Signatories will meet regularly to set standards; the text says codifying the steps into law 'may make sense' over time. It names no regulator, reporting channel or deadline. Sits beside the Seoul commitments as a cross-firm pledge, with external assessment and board oversight that Seoul did not specify.",
+                    "cov": {
+                      "eval": "Commits signatories to partner with an independent external auditor or evaluator assessing whether their controls, monitoring and detection operate as intended. Auditor qualifications are not defined; voluntary.",
+                      "mit": "Commits signatories to internal controls monitoring capabilities and alignment during training and deployment (cybersecurity, biosecurity, chemical threats) and preventing models from hacking or accessing systems in unintended ways.",
+                      "acct": "An independent committee of each signatory's board oversees the control teams and the internal and external auditors and ensures issues are remediated. No public reporting or government oversight is specified."
+                    }
+                  }
+                },
+                {
+                  "op": "add_edge",
+                  "a": "wh-si-accord",
+                  "b": "seoul-commit",
+                  "rel": "Later cross-firm pledge; adds external audit and board-committee oversight to Seoul's published-framework commitments"
+                }
+              ]
+            },
+            {
+              "key": "c",
+              "label": "Do not add yet",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:ai-summits:desc",
+            "entry:ai-summits:context",
+            "entry:ai-summits:cov:thresh",
+            "entry:ai-summits:cov:update",
+            "entry:hiroshima:context",
+            "entry:hiroshima:cov:eval",
+            "entry:delhi-commit:context",
+            "entry:delhi-commit:cov:acct",
+            "edge:ai-summits|seoul-commit",
+            "edge:seoul-commit|rsp",
+            "edge:seoul-commit|prep",
+            "edge:seoul-commit|fsf",
+            "edge:seoul-commit|meta-faif",
+            "edge:seoul-commit|xai-rmf",
+            "gap:halt"
+          ],
+          "hash": "a60139638853"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "needs-source-access",
+        "missing": [
+          "An official copy of the accord: whitehouse.gov, the President's Truth Social post, or a signatory company's own publication"
+        ],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0188",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:33:42Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Connection Ofcom ↔ eSafety: neither statute confers AI-specific authority",
+          "kind": "flag",
+          "changes": [],
+          "why": "The connection repeats a claim that P-0174 corrects for eSafety and that the Ofcom entry itself contradicts.",
+          "rationale": "Option a follows the eSafety evidence (no AI provision in the 2021 Act; generative-AI duties defined in a standard made under s 145) and the Ofcom entry's own text (Illegal Content Codes contain no AI-specific provisions; AI services may be brought in by regulations under the Crime and Policing Act 2026). Recommended because both sides of the connection, as the map now describes them, apply general law to AI.",
+          "evidence": [
+            {
+              "source": "S-0338",
+              "passage": "S-0338#4",
+              "stance": "supports",
+              "supports": "Australia's Online Safety Act 2021 has no AI-specific provision"
+            },
+            {
+              "source": "S-0339",
+              "passage": "S-0339#2",
+              "stance": "supports",
+              "supports": "Generative-AI services are defined in the industry standard, not the Act"
+            }
+          ],
+          "uncertainty": "The Ofcom side rests on the map's own (externally verified on 10 Oct) entry text, not on a fresh Ofcom source this run; ofcom.org.uk refused automated access today.",
+          "confidence": "medium",
+          "question": "The connection calls Ofcom and eSafety 'parallel online-safety regulators with AI-specific authority'. Australia's Online Safety Act 2021 has no AI-specific provision (AI duties come from an industry standard made under s 145, see P-0174), and the map's own Ofcom entry says its codes contain no AI-specific provisions. Reword the connection, or keep it?",
+          "knock_on_notes": {
+            "entry:uk-ofcom:context": "checked, consistent with option a (internal)",
+            "entry:au-esafety:desc": "see P-0174"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Reword: general online-safety law applied to AI",
+              "changes": [
+                {
+                  "op": "set_edge",
+                  "a": "uk-ofcom",
+                  "b": "au-esafety",
+                  "from": "Parallel online-safety regulators with AI-specific authority",
+                  "to": "Parallel online-safety regulators applying general online-safety law to AI-generated content"
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Keep as is",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "edge:uk-ofcom|uk-aisi",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip",
+            "edge:au-esafety|other-aisis"
+          ],
+          "hash": "0f8812966434"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0174"
+        ],
         "updated": "2026-11-06"
       }
     }

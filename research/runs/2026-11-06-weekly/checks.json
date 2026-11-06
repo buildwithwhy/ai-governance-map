@@ -4190,5 +4190,693 @@
     "note": "Characterisations of how institutions relate ('complementary', 'parallel', 'informed') with no checkable factual core beyond the entries themselves. co-doi|ny-raise asserts influence on NY's drafting, for which no source was found.",
     "missing": "comparative/analytic claim; not verifiable from sources",
     "hash": "7f07f45d95fe"
+  },
+  "entry:us-frontier-act": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277",
+      "S-0347"
+    ],
+    "proposals": [],
+    "note": "Compared every claim with the introduced text of H.R. 9925 (govinfo) and the LoC bill-status XML: introduced 23 Jul 2026 by Obernolte (R-CA) with Trahan (D-MA) and others of both parties; latest action is still committee referral (Energy and Commerce; Science, Space, and Technology), so 'proposed'/pow 2 hold. >10^26 FLOPs (§2(12)); large = >$50M revenue and ≥$1B AI spending over 36 months, very large = >$5B and ≥$10B (§2(15),(22)); Under Secretary of Commerce for AI Security (§2(21)); framework publish/comply, annual review, 30-day justification, regulations reviewed yearly (§§3(b), 4(a)-(b)); annual independent audit, reports to Under Secretary, AG and opted-in state AGs (§4(c)); transparency report at deployment (§4(d)); 72h / 24h incident reports (§4(h)); weight exfiltration is a critical safety incident and frameworks cover non-public weight security (§§2(7)(A), 4(a)(2)(G)); licensed IVO for very large developers incl. internal use (§5(b)); Secretary's emergency orders (§8); $1M per violation, AG and opted-in state AGs (§4(j)); preemption of the three covered subject areas with carve-outs for deployment, minors and state procurement (§9). The link resolves to the bill text.",
+    "missing": null,
+    "hash": "5560be16c6ae"
+  },
+  "entry:us-frontier-act:desc": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277",
+      "S-0347"
+    ],
+    "proposals": [],
+    "note": "Compared every claim with the introduced text of H.R. 9925 (govinfo) and the LoC bill-status XML: introduced 23 Jul 2026 by Obernolte (R-CA) with Trahan (D-MA) and others of both parties; latest action is still committee referral (Energy and Commerce; Science, Space, and Technology), so 'proposed'/pow 2 hold. >10^26 FLOPs (§2(12)); large = >$50M revenue and ≥$1B AI spending over 36 months, very large = >$5B and ≥$10B (§2(15),(22)); Under Secretary of Commerce for AI Security (§2(21)); framework publish/comply, annual review, 30-day justification, regulations reviewed yearly (§§3(b), 4(a)-(b)); annual independent audit, reports to Under Secretary, AG and opted-in state AGs (§4(c)); transparency report at deployment (§4(d)); 72h / 24h incident reports (§4(h)); weight exfiltration is a critical safety incident and frameworks cover non-public weight security (§§2(7)(A), 4(a)(2)(G)); licensed IVO for very large developers incl. internal use (§5(b)); Secretary's emergency orders (§8); $1M per violation, AG and opted-in state AGs (§4(j)); preemption of the three covered subject areas with carve-outs for deployment, minors and state procurement (§9). The link resolves to the bill text.",
+    "missing": null,
+    "hash": "31acc8a9ce6a"
+  },
+  "entry:us-frontier-act:context": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277",
+      "S-0347"
+    ],
+    "proposals": [],
+    "note": "Compared every claim with the introduced text of H.R. 9925 (govinfo) and the LoC bill-status XML: introduced 23 Jul 2026 by Obernolte (R-CA) with Trahan (D-MA) and others of both parties; latest action is still committee referral (Energy and Commerce; Science, Space, and Technology), so 'proposed'/pow 2 hold. >10^26 FLOPs (§2(12)); large = >$50M revenue and ≥$1B AI spending over 36 months, very large = >$5B and ≥$10B (§2(15),(22)); Under Secretary of Commerce for AI Security (§2(21)); framework publish/comply, annual review, 30-day justification, regulations reviewed yearly (§§3(b), 4(a)-(b)); annual independent audit, reports to Under Secretary, AG and opted-in state AGs (§4(c)); transparency report at deployment (§4(d)); 72h / 24h incident reports (§4(h)); weight exfiltration is a critical safety incident and frameworks cover non-public weight security (§§2(7)(A), 4(a)(2)(G)); licensed IVO for very large developers incl. internal use (§5(b)); Secretary's emergency orders (§8); $1M per violation, AG and opted-in state AGs (§4(j)); preemption of the three covered subject areas with carve-outs for deployment, minors and state procurement (§9). The link resolves to the bill text.",
+    "missing": null,
+    "hash": "d0b87c961abe"
+  },
+  "entry:us-frontier-act:cov": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277",
+      "S-0347"
+    ],
+    "proposals": [],
+    "note": "Compared every claim with the introduced text of H.R. 9925 (govinfo) and the LoC bill-status XML: introduced 23 Jul 2026 by Obernolte (R-CA) with Trahan (D-MA) and others of both parties; latest action is still committee referral (Energy and Commerce; Science, Space, and Technology), so 'proposed'/pow 2 hold. >10^26 FLOPs (§2(12)); large = >$50M revenue and ≥$1B AI spending over 36 months, very large = >$5B and ≥$10B (§2(15),(22)); Under Secretary of Commerce for AI Security (§2(21)); framework publish/comply, annual review, 30-day justification, regulations reviewed yearly (§§3(b), 4(a)-(b)); annual independent audit, reports to Under Secretary, AG and opted-in state AGs (§4(c)); transparency report at deployment (§4(d)); 72h / 24h incident reports (§4(h)); weight exfiltration is a critical safety incident and frameworks cover non-public weight security (§§2(7)(A), 4(a)(2)(G)); licensed IVO for very large developers incl. internal use (§5(b)); Secretary's emergency orders (§8); $1M per violation, AG and opted-in state AGs (§4(j)); preemption of the three covered subject areas with carve-outs for deployment, minors and state procurement (§9). The link resolves to the bill text.",
+    "missing": null,
+    "hash": "12178294ade2"
+  },
+  "entry:us-frontier-act:cov:thresh": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277",
+      "S-0347"
+    ],
+    "proposals": [],
+    "note": "Compared every claim with the introduced text of H.R. 9925 (govinfo) and the LoC bill-status XML: introduced 23 Jul 2026 by Obernolte (R-CA) with Trahan (D-MA) and others of both parties; latest action is still committee referral (Energy and Commerce; Science, Space, and Technology), so 'proposed'/pow 2 hold. >10^26 FLOPs (§2(12)); large = >$50M revenue and ≥$1B AI spending over 36 months, very large = >$5B and ≥$10B (§2(15),(22)); Under Secretary of Commerce for AI Security (§2(21)); framework publish/comply, annual review, 30-day justification, regulations reviewed yearly (§§3(b), 4(a)-(b)); annual independent audit, reports to Under Secretary, AG and opted-in state AGs (§4(c)); transparency report at deployment (§4(d)); 72h / 24h incident reports (§4(h)); weight exfiltration is a critical safety incident and frameworks cover non-public weight security (§§2(7)(A), 4(a)(2)(G)); licensed IVO for very large developers incl. internal use (§5(b)); Secretary's emergency orders (§8); $1M per violation, AG and opted-in state AGs (§4(j)); preemption of the three covered subject areas with carve-outs for deployment, minors and state procurement (§9). The link resolves to the bill text.",
+    "missing": null,
+    "hash": "d145740b547b"
+  },
+  "entry:us-frontier-act:cov:eval": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277",
+      "S-0347"
+    ],
+    "proposals": [],
+    "note": "Compared every claim with the introduced text of H.R. 9925 (govinfo) and the LoC bill-status XML: introduced 23 Jul 2026 by Obernolte (R-CA) with Trahan (D-MA) and others of both parties; latest action is still committee referral (Energy and Commerce; Science, Space, and Technology), so 'proposed'/pow 2 hold. >10^26 FLOPs (§2(12)); large = >$50M revenue and ≥$1B AI spending over 36 months, very large = >$5B and ≥$10B (§2(15),(22)); Under Secretary of Commerce for AI Security (§2(21)); framework publish/comply, annual review, 30-day justification, regulations reviewed yearly (§§3(b), 4(a)-(b)); annual independent audit, reports to Under Secretary, AG and opted-in state AGs (§4(c)); transparency report at deployment (§4(d)); 72h / 24h incident reports (§4(h)); weight exfiltration is a critical safety incident and frameworks cover non-public weight security (§§2(7)(A), 4(a)(2)(G)); licensed IVO for very large developers incl. internal use (§5(b)); Secretary's emergency orders (§8); $1M per violation, AG and opted-in state AGs (§4(j)); preemption of the three covered subject areas with carve-outs for deployment, minors and state procurement (§9). The link resolves to the bill text.",
+    "missing": null,
+    "hash": "688b4f362249"
+  },
+  "entry:us-frontier-act:cov:timing": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277",
+      "S-0347"
+    ],
+    "proposals": [],
+    "note": "Compared every claim with the introduced text of H.R. 9925 (govinfo) and the LoC bill-status XML: introduced 23 Jul 2026 by Obernolte (R-CA) with Trahan (D-MA) and others of both parties; latest action is still committee referral (Energy and Commerce; Science, Space, and Technology), so 'proposed'/pow 2 hold. >10^26 FLOPs (§2(12)); large = >$50M revenue and ≥$1B AI spending over 36 months, very large = >$5B and ≥$10B (§2(15),(22)); Under Secretary of Commerce for AI Security (§2(21)); framework publish/comply, annual review, 30-day justification, regulations reviewed yearly (§§3(b), 4(a)-(b)); annual independent audit, reports to Under Secretary, AG and opted-in state AGs (§4(c)); transparency report at deployment (§4(d)); 72h / 24h incident reports (§4(h)); weight exfiltration is a critical safety incident and frameworks cover non-public weight security (§§2(7)(A), 4(a)(2)(G)); licensed IVO for very large developers incl. internal use (§5(b)); Secretary's emergency orders (§8); $1M per violation, AG and opted-in state AGs (§4(j)); preemption of the three covered subject areas with carve-outs for deployment, minors and state procurement (§9). The link resolves to the bill text.",
+    "missing": null,
+    "hash": "31dc9fcd18c4"
+  },
+  "entry:us-frontier-act:cov:mit": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277",
+      "S-0347"
+    ],
+    "proposals": [],
+    "note": "Compared every claim with the introduced text of H.R. 9925 (govinfo) and the LoC bill-status XML: introduced 23 Jul 2026 by Obernolte (R-CA) with Trahan (D-MA) and others of both parties; latest action is still committee referral (Energy and Commerce; Science, Space, and Technology), so 'proposed'/pow 2 hold. >10^26 FLOPs (§2(12)); large = >$50M revenue and ≥$1B AI spending over 36 months, very large = >$5B and ≥$10B (§2(15),(22)); Under Secretary of Commerce for AI Security (§2(21)); framework publish/comply, annual review, 30-day justification, regulations reviewed yearly (§§3(b), 4(a)-(b)); annual independent audit, reports to Under Secretary, AG and opted-in state AGs (§4(c)); transparency report at deployment (§4(d)); 72h / 24h incident reports (§4(h)); weight exfiltration is a critical safety incident and frameworks cover non-public weight security (§§2(7)(A), 4(a)(2)(G)); licensed IVO for very large developers incl. internal use (§5(b)); Secretary's emergency orders (§8); $1M per violation, AG and opted-in state AGs (§4(j)); preemption of the three covered subject areas with carve-outs for deployment, minors and state procurement (§9). The link resolves to the bill text.",
+    "missing": null,
+    "hash": "c21258de9b05"
+  },
+  "entry:us-frontier-act:cov:sec": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277",
+      "S-0347"
+    ],
+    "proposals": [],
+    "note": "Compared every claim with the introduced text of H.R. 9925 (govinfo) and the LoC bill-status XML: introduced 23 Jul 2026 by Obernolte (R-CA) with Trahan (D-MA) and others of both parties; latest action is still committee referral (Energy and Commerce; Science, Space, and Technology), so 'proposed'/pow 2 hold. >10^26 FLOPs (§2(12)); large = >$50M revenue and ≥$1B AI spending over 36 months, very large = >$5B and ≥$10B (§2(15),(22)); Under Secretary of Commerce for AI Security (§2(21)); framework publish/comply, annual review, 30-day justification, regulations reviewed yearly (§§3(b), 4(a)-(b)); annual independent audit, reports to Under Secretary, AG and opted-in state AGs (§4(c)); transparency report at deployment (§4(d)); 72h / 24h incident reports (§4(h)); weight exfiltration is a critical safety incident and frameworks cover non-public weight security (§§2(7)(A), 4(a)(2)(G)); licensed IVO for very large developers incl. internal use (§5(b)); Secretary's emergency orders (§8); $1M per violation, AG and opted-in state AGs (§4(j)); preemption of the three covered subject areas with carve-outs for deployment, minors and state procurement (§9). The link resolves to the bill text.",
+    "missing": null,
+    "hash": "bdc8231f2889"
+  },
+  "entry:us-frontier-act:cov:halt": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277",
+      "S-0347"
+    ],
+    "proposals": [],
+    "note": "Compared every claim with the introduced text of H.R. 9925 (govinfo) and the LoC bill-status XML: introduced 23 Jul 2026 by Obernolte (R-CA) with Trahan (D-MA) and others of both parties; latest action is still committee referral (Energy and Commerce; Science, Space, and Technology), so 'proposed'/pow 2 hold. >10^26 FLOPs (§2(12)); large = >$50M revenue and ≥$1B AI spending over 36 months, very large = >$5B and ≥$10B (§2(15),(22)); Under Secretary of Commerce for AI Security (§2(21)); framework publish/comply, annual review, 30-day justification, regulations reviewed yearly (§§3(b), 4(a)-(b)); annual independent audit, reports to Under Secretary, AG and opted-in state AGs (§4(c)); transparency report at deployment (§4(d)); 72h / 24h incident reports (§4(h)); weight exfiltration is a critical safety incident and frameworks cover non-public weight security (§§2(7)(A), 4(a)(2)(G)); licensed IVO for very large developers incl. internal use (§5(b)); Secretary's emergency orders (§8); $1M per violation, AG and opted-in state AGs (§4(j)); preemption of the three covered subject areas with carve-outs for deployment, minors and state procurement (§9). The link resolves to the bill text.",
+    "missing": null,
+    "hash": "a6c6fdbded12"
+  },
+  "entry:us-frontier-act:cov:acct": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277",
+      "S-0347"
+    ],
+    "proposals": [],
+    "note": "Compared every claim with the introduced text of H.R. 9925 (govinfo) and the LoC bill-status XML: introduced 23 Jul 2026 by Obernolte (R-CA) with Trahan (D-MA) and others of both parties; latest action is still committee referral (Energy and Commerce; Science, Space, and Technology), so 'proposed'/pow 2 hold. >10^26 FLOPs (§2(12)); large = >$50M revenue and ≥$1B AI spending over 36 months, very large = >$5B and ≥$10B (§2(15),(22)); Under Secretary of Commerce for AI Security (§2(21)); framework publish/comply, annual review, 30-day justification, regulations reviewed yearly (§§3(b), 4(a)-(b)); annual independent audit, reports to Under Secretary, AG and opted-in state AGs (§4(c)); transparency report at deployment (§4(d)); 72h / 24h incident reports (§4(h)); weight exfiltration is a critical safety incident and frameworks cover non-public weight security (§§2(7)(A), 4(a)(2)(G)); licensed IVO for very large developers incl. internal use (§5(b)); Secretary's emergency orders (§8); $1M per violation, AG and opted-in state AGs (§4(j)); preemption of the three covered subject areas with carve-outs for deployment, minors and state procurement (§9). The link resolves to the bill text.",
+    "missing": null,
+    "hash": "994e206c14c1"
+  },
+  "entry:us-frontier-act:cov:update": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277",
+      "S-0347"
+    ],
+    "proposals": [],
+    "note": "Compared every claim with the introduced text of H.R. 9925 (govinfo) and the LoC bill-status XML: introduced 23 Jul 2026 by Obernolte (R-CA) with Trahan (D-MA) and others of both parties; latest action is still committee referral (Energy and Commerce; Science, Space, and Technology), so 'proposed'/pow 2 hold. >10^26 FLOPs (§2(12)); large = >$50M revenue and ≥$1B AI spending over 36 months, very large = >$5B and ≥$10B (§2(15),(22)); Under Secretary of Commerce for AI Security (§2(21)); framework publish/comply, annual review, 30-day justification, regulations reviewed yearly (§§3(b), 4(a)-(b)); annual independent audit, reports to Under Secretary, AG and opted-in state AGs (§4(c)); transparency report at deployment (§4(d)); 72h / 24h incident reports (§4(h)); weight exfiltration is a critical safety incident and frameworks cover non-public weight security (§§2(7)(A), 4(a)(2)(G)); licensed IVO for very large developers incl. internal use (§5(b)); Secretary's emergency orders (§8); $1M per violation, AG and opted-in state AGs (§4(j)); preemption of the three covered subject areas with carve-outs for deployment, minors and state procurement (§9). The link resolves to the bill text.",
+    "missing": null,
+    "hash": "3e367b20ab65"
+  },
+  "edge:us-frontier-act|ca-sb53": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277"
+    ],
+    "proposals": [],
+    "note": "§9(a)-(b) preempts state requirements imposing new substantive obligations on developers in frontier risk transparency, third-party auditing/verification and incident reporting — the subject areas of SB 53's and RAISE's duties. The connections say 'would preempt … duties such as', which matches.",
+    "missing": null,
+    "hash": "0771e2cb0a11"
+  },
+  "edge:us-frontier-act|ny-raise": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277"
+    ],
+    "proposals": [],
+    "note": "§9(a)-(b) preempts state requirements imposing new substantive obligations on developers in frontier risk transparency, third-party auditing/verification and incident reporting — the subject areas of SB 53's and RAISE's duties. The connections say 'would preempt … duties such as', which matches.",
+    "missing": null,
+    "hash": "786967ecc2fb"
+  },
+  "edge:us-frontier-act|us-preempt": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0277",
+      "S-0239"
+    ],
+    "proposals": [],
+    "note": "EO 14365 §1 calls for working with Congress on a 'minimally burdensome national standard' and §8 for a legislative recommendation preempting conflicting state AI laws while sparing child-safety and state-procurement laws; H.R. 9925 §9 is a preemptive federal framework with matching carve-outs (minors, state procurement). The bill does not cite the EO, so 'route to' is a characterisation consistent with both texts.",
+    "missing": null,
+    "hash": "ee8759fce93f"
+  },
+  "entry:il-aisma": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0170",
+      "S-0348",
+      "S-0150",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "Public Act 104-0538 and the ILGA bill-status page: Governor approved 6 Jul 2026, PA 104-0538, effective 1 Jan 2027 (Sec. 99); framework from 1 Jan 2028 (Sec. 10(a)); audits from 1 Jan 2028 or 90 days after qualifying (Sec. 10(d)); >10^26 incl. fine-tuning and >$500M revenue (Sec. 5), matching SB 53 (S-0150#2-#4) and RAISE (S-0033#7-#9); 72-hour reporting to the Agency (IEMA-OHS) and AG; transparency reports before/with deployment (Sec. 10(c)); annual framework review and 30-day justification (Sec. 10(b)); $1M / $3M (Sec. 25). Name matches the short title; link resolves (needs the intermediate certificate). Status 'phasing' fits an adopted act whose duties start 2027 and 2028.",
+    "missing": null,
+    "hash": "8952da1cadc3"
+  },
+  "entry:il-aisma:desc": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0170",
+      "S-0348",
+      "S-0150",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "Public Act 104-0538 and the ILGA bill-status page: Governor approved 6 Jul 2026, PA 104-0538, effective 1 Jan 2027 (Sec. 99); framework from 1 Jan 2028 (Sec. 10(a)); audits from 1 Jan 2028 or 90 days after qualifying (Sec. 10(d)); >10^26 incl. fine-tuning and >$500M revenue (Sec. 5), matching SB 53 (S-0150#2-#4) and RAISE (S-0033#7-#9); 72-hour reporting to the Agency (IEMA-OHS) and AG; transparency reports before/with deployment (Sec. 10(c)); annual framework review and 30-day justification (Sec. 10(b)); $1M / $3M (Sec. 25). Name matches the short title; link resolves (needs the intermediate certificate). Status 'phasing' fits an adopted act whose duties start 2027 and 2028.",
+    "missing": null,
+    "hash": "f059db54e8e5"
+  },
+  "entry:il-aisma:cov": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0170",
+      "S-0348",
+      "S-0150",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "Public Act 104-0538 and the ILGA bill-status page: Governor approved 6 Jul 2026, PA 104-0538, effective 1 Jan 2027 (Sec. 99); framework from 1 Jan 2028 (Sec. 10(a)); audits from 1 Jan 2028 or 90 days after qualifying (Sec. 10(d)); >10^26 incl. fine-tuning and >$500M revenue (Sec. 5), matching SB 53 (S-0150#2-#4) and RAISE (S-0033#7-#9); 72-hour reporting to the Agency (IEMA-OHS) and AG; transparency reports before/with deployment (Sec. 10(c)); annual framework review and 30-day justification (Sec. 10(b)); $1M / $3M (Sec. 25). Name matches the short title; link resolves (needs the intermediate certificate). Status 'phasing' fits an adopted act whose duties start 2027 and 2028.",
+    "missing": null,
+    "hash": "9310d6fd6ad7"
+  },
+  "entry:il-aisma:cov:thresh": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0170",
+      "S-0348",
+      "S-0150",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "Public Act 104-0538 and the ILGA bill-status page: Governor approved 6 Jul 2026, PA 104-0538, effective 1 Jan 2027 (Sec. 99); framework from 1 Jan 2028 (Sec. 10(a)); audits from 1 Jan 2028 or 90 days after qualifying (Sec. 10(d)); >10^26 incl. fine-tuning and >$500M revenue (Sec. 5), matching SB 53 (S-0150#2-#4) and RAISE (S-0033#7-#9); 72-hour reporting to the Agency (IEMA-OHS) and AG; transparency reports before/with deployment (Sec. 10(c)); annual framework review and 30-day justification (Sec. 10(b)); $1M / $3M (Sec. 25). Name matches the short title; link resolves (needs the intermediate certificate). Status 'phasing' fits an adopted act whose duties start 2027 and 2028.",
+    "missing": null,
+    "hash": "c8d9a7cbc369"
+  },
+  "entry:il-aisma:cov:timing": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0170",
+      "S-0348",
+      "S-0150",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "Public Act 104-0538 and the ILGA bill-status page: Governor approved 6 Jul 2026, PA 104-0538, effective 1 Jan 2027 (Sec. 99); framework from 1 Jan 2028 (Sec. 10(a)); audits from 1 Jan 2028 or 90 days after qualifying (Sec. 10(d)); >10^26 incl. fine-tuning and >$500M revenue (Sec. 5), matching SB 53 (S-0150#2-#4) and RAISE (S-0033#7-#9); 72-hour reporting to the Agency (IEMA-OHS) and AG; transparency reports before/with deployment (Sec. 10(c)); annual framework review and 30-day justification (Sec. 10(b)); $1M / $3M (Sec. 25). Name matches the short title; link resolves (needs the intermediate certificate). Status 'phasing' fits an adopted act whose duties start 2027 and 2028.",
+    "missing": null,
+    "hash": "bc6b9e7276fa"
+  },
+  "entry:il-aisma:cov:update": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0170",
+      "S-0348",
+      "S-0150",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "Public Act 104-0538 and the ILGA bill-status page: Governor approved 6 Jul 2026, PA 104-0538, effective 1 Jan 2027 (Sec. 99); framework from 1 Jan 2028 (Sec. 10(a)); audits from 1 Jan 2028 or 90 days after qualifying (Sec. 10(d)); >10^26 incl. fine-tuning and >$500M revenue (Sec. 5), matching SB 53 (S-0150#2-#4) and RAISE (S-0033#7-#9); 72-hour reporting to the Agency (IEMA-OHS) and AG; transparency reports before/with deployment (Sec. 10(c)); annual framework review and 30-day justification (Sec. 10(b)); $1M / $3M (Sec. 25). Name matches the short title; link resolves (needs the intermediate certificate). Status 'phasing' fits an adopted act whose duties start 2027 and 2028.",
+    "missing": null,
+    "hash": "eee5e10d5bd4"
+  },
+  "entry:il-aisma:context": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0170"
+    ],
+    "proposals": [
+      "P-0180"
+    ],
+    "note": "Sec. 18(e) lets the Agency levy $1,000/day penalties for disclosure failures, so 'AG enforcement only' is wrong; Sec. 15(c) puts incident reporting on all frontier developers. The 'unlike SB 53 and RAISE' audit contrast is supported by the baseline observations S-0150#17 and S-0033#18.",
+    "missing": null,
+    "hash": "66bbbbb2e69a"
+  },
+  "entry:il-aisma:cov:acct": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0170"
+    ],
+    "proposals": [
+      "P-0180"
+    ],
+    "note": "Sec. 18(e) lets the Agency levy $1,000/day penalties for disclosure failures, so 'AG enforcement only' is wrong; Sec. 15(c) puts incident reporting on all frontier developers. The 'unlike SB 53 and RAISE' audit contrast is supported by the baseline observations S-0150#17 and S-0033#18.",
+    "missing": null,
+    "hash": "284d7800a26c"
+  },
+  "edge:il-aisma|ca-sb53": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0170",
+      "S-0150"
+    ],
+    "proposals": [],
+    "note": "Thresholds identical (10^26 incl. fine-tuning; >$500M revenue) and framework contents track SB 53 §22757.12(a) (thresholds, mitigations, deployment review, third parties, cybersecurity of unreleased weights; S-0150#5,#6,#18,#19) — IL Sec. 10(a)(1)-(10). SB 53 text is the 2026-10-10 registered copy (leginfo refuses automated clients today).",
+    "missing": null,
+    "hash": "adb1e5fdd3d7"
+  },
+  "edge:il-aisma|ny-raise": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0170",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "RAISE as amended (S8828, Ch. 96 of 2026): 72-hour incident reports, disclosure statements filed with the DFS office, AG penalties up to $1M first / $3M subsequent — same as IL Secs. 15(c), 18, 25.",
+    "missing": null,
+    "hash": "642e8c2eab69"
+  },
+  "entry:co-aia": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0160",
+      "S-0159",
+      "S-0164"
+    ],
+    "proposals": [],
+    "note": "Link (leg.colorado.gov/bills/sb26-189) works with a browser UA; the AG's page calls the law the 'ADMT Act'; signed 14 May 2026, effective 1 Jan 2027 with some rulemaking provisions on passage (Sec. 5(2)), so 'phasing' fits; violations are deceptive trade practices enforced by the AG (pow 4 per the 2026-10-10 maintainer decision); AG rulemaking hearing held 26 Oct 2026.",
+    "missing": null,
+    "hash": "ded909b70011"
+  },
+  "entry:co-aia:cov:timing": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0160",
+      "S-0349",
+      "S-0161"
+    ],
+    "proposals": [
+      "P-0181"
+    ],
+    "note": "SB 26-189's repeal-and-reenactment takes effect 1 Jan 2027, after SB 24-205's delayed 30 Jun 2026 date; the 27 Apr 2026 court order (recorded in the final fiscal note) is what bars enforcement.",
+    "missing": null,
+    "hash": "5624f484aa49"
+  },
+  "entry:tx-raiga:desc": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0165",
+      "S-0166",
+      "S-0159"
+    ],
+    "proposals": [
+      "P-0184"
+    ],
+    "note": "Dates confirmed (signed 22 Jun 2025, effective 1 Jan 2026); 'Narrower than Colorado' compares with the since-replaced SB 24-205.",
+    "missing": null,
+    "hash": "a78058d6e30c"
+  },
+  "entry:tx-raiga:context": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0165",
+      "S-0168"
+    ],
+    "proposals": [],
+    "note": "Deployment prohibitions, AG civil penalties (Sec. 552.105) and absence of thresholds confirmed in the enrolled text. 'The first AI law passed in a Republican-controlled state' remains doubtful: Utah S.B. 149 (2024) 'Artificial Intelligence Amendments' predates TRAIGA (S-0168).",
+    "missing": "A primary source on the party control of the 2024 Utah Legislature (or maintainer acceptance of common knowledge) to support replacing 'The first AI law passed' with 'An AI law passed'.",
+    "hash": "8313fba153ce"
+  },
+  "entry:kr-ai:desc": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0350"
+    ],
+    "proposals": [
+      "P-0182"
+    ],
+    "note": "MSIT announced a deferral of 'at least one year', not a fixed 22 Jan 2027 start.",
+    "missing": null,
+    "hash": "493d91827642"
+  },
+  "entry:jp-ai:context": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0296"
+    ],
+    "proposals": [
+      "P-0183"
+    ],
+    "note": "Art. 19 places the HQ in the Cabinet (Art. 22: headed by the PM; Art. 26: affairs handled by the Cabinet Office). The analytic sentences remain unverifiable and are carried over.",
+    "missing": null,
+    "hash": "7483d53f9bb1"
+  },
+  "entry:eu-aia:context": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0185",
+      "S-0041",
+      "S-0150"
+    ],
+    "proposals": [],
+    "note": "OJ text: 10^25 presumption (Art. 51(2)); evaluations incl. adversarial testing, serious-incident reporting and cybersecurity for systemic-risk GPAI (Art. 55(1)(a),(c),(d)); the Digital Omnibus does not amend Arts. 51 or 93. SB 53's frontier tier starts at 10^26 (S-0150#2), so every model above California's line is above the EU's, and models between 10^25 and 10^26 are covered only in the EU — the comparison follows from the thresholds. Prohibited practices, high-risk conformity assessment, FRIA and registration were verified at baseline (S-0002) and not re-quoted.",
+    "missing": null,
+    "hash": "17be873e9bdb"
+  },
+  "entry:eu-aia:cov:halt": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0185",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "Art. 93(1)(c): the Commission may request providers to restrict making available, withdraw or recall the model; Art. 88(1) entrusts Chapter V enforcement to the AI Office. Not amended by Reg. 2026/1744.",
+    "missing": null,
+    "hash": "104931feaa04"
+  },
+  "edge:us-preempt|ca-sb53": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0239"
+    ],
+    "proposals": [
+      "P-0185"
+    ],
+    "note": "EO names only Colorado's law; §4 covers laws that may compel disclosure unconstitutionally. The Commerce §4 evaluation (due 11 Mar 2026) was not found on the Federal Register (API search), NTIA or via web search; commerce.gov refuses automated clients. Raised as a question with drafted options.",
+    "missing": null,
+    "hash": "6d63cc66405d"
+  },
+  "edge:us-preempt|ny-raise": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0239"
+    ],
+    "proposals": [
+      "P-0185"
+    ],
+    "note": "EO names only Colorado's law; §4 covers laws that may compel disclosure unconstitutionally. The Commerce §4 evaluation (due 11 Mar 2026) was not found on the Federal Register (API search), NTIA or via web search; commerce.gov refuses automated clients. Raised as a question with drafted options.",
+    "missing": null,
+    "hash": "7368ec885b91"
+  },
+  "edge:us-eo14179|caisi": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0279"
+    ],
+    "proposals": [
+      "P-0186"
+    ],
+    "note": "Opened the 3 Jun 2025 Commerce statement (headless Chromium): the rename is 'under the direction of President Trump'; EO 14179 is not cited. Raised as a question.",
+    "missing": null,
+    "hash": "b43ca7c5c9b5"
+  },
+  "edge:us-frontier-access-eo|us-eo14179": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0038"
+    ],
+    "proposals": [],
+    "note": "EO 14409 still frames itself against 'overly burdensome regulation' (§1) while creating a voluntary pre-release access framework (§3(b)); whether that 'marks a shift' is a judgment.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "f652f61f07b8"
+  },
+  "edge:us-frontier-access-eo|uk-aisi": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0038"
+    ],
+    "proposals": [],
+    "note": "EO 14409 §3(b)(ii): voluntary access up to 30 days before release to other trusted partners. UK AISI's agreement terms not checked (UK AISI belongs to another group's list).",
+    "missing": "The terms of UK AISI's pre-deployment access agreements (duration, voluntariness) from an official UK source; the 'mirrors' comparison is analytic.",
+    "hash": "a8f0e4979268"
+  },
+  "edge:ca-sb53|prep": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0150"
+    ],
+    "proposals": [],
+    "note": "SB 53 requires large frontier developers to publish frontier AI frameworks (S-0150#5). Whether OpenAI and Google DeepMind 'exemplified' the norm is analytic; whether SB 53 'covers' Meta's framework needs a Meta publication (Layer 6 sources belong to the lab group). leginfo refused automated fetches today; the registered 2026-10-10 copy was used.",
+    "missing": "comparative/analytic claim; not verifiable from sources. For meta-faif: a Meta publication stating that its Frontier AI Framework (or another document) is its SB 53 frontier AI framework.",
+    "hash": "7a526de38237"
+  },
+  "edge:ca-sb53|fsf": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0150"
+    ],
+    "proposals": [],
+    "note": "SB 53 requires large frontier developers to publish frontier AI frameworks (S-0150#5). Whether OpenAI and Google DeepMind 'exemplified' the norm is analytic; whether SB 53 'covers' Meta's framework needs a Meta publication (Layer 6 sources belong to the lab group). leginfo refused automated fetches today; the registered 2026-10-10 copy was used.",
+    "missing": "comparative/analytic claim; not verifiable from sources. For meta-faif: a Meta publication stating that its Frontier AI Framework (or another document) is its SB 53 frontier AI framework.",
+    "hash": "ef72ba77c746"
+  },
+  "edge:ca-sb53|meta-faif": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0150"
+    ],
+    "proposals": [],
+    "note": "SB 53 requires large frontier developers to publish frontier AI frameworks (S-0150#5). Whether OpenAI and Google DeepMind 'exemplified' the norm is analytic; whether SB 53 'covers' Meta's framework needs a Meta publication (Layer 6 sources belong to the lab group). leginfo refused automated fetches today; the registered 2026-10-10 copy was used.",
+    "missing": "comparative/analytic claim; not verifiable from sources. For meta-faif: a Meta publication stating that its Frontier AI Framework (or another document) is its SB 53 frontier AI framework.",
+    "hash": "ce4d64e9e84b"
+  },
+  "derived:counts": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js on ba74e05: counts match the data, generated files equal a fresh build, all content-date sites agree (2026-10-11). Internal consistency only.",
+    "missing": null,
+    "hash": "882d135ce758"
+  },
+  "derived:dates": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js on ba74e05: counts match the data, generated files equal a fresh build, all content-date sites agree (2026-10-11). Internal consistency only.",
+    "missing": null,
+    "hash": "41e6480537ae"
+  },
+  "derived:generated": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js on ba74e05: counts match the data, generated files equal a fresh build, all content-date sites agree (2026-10-11). Internal consistency only.",
+    "missing": null,
+    "hash": "6bd36e09fa00"
+  },
+  "label:jur": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "Internal: JUR/POW/STATUS labels match RUBRIC §3–§5 and the data; unchanged since 10 Oct. Internal consistency only.",
+    "missing": null,
+    "hash": "14b7ec831d3f"
+  },
+  "label:pow": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "Internal: JUR/POW/STATUS labels match RUBRIC §3–§5 and the data; unchanged since 10 Oct. Internal consistency only.",
+    "missing": null,
+    "hash": "4ca978ec46c4"
+  },
+  "label:status": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "Internal: JUR/POW/STATUS labels match RUBRIC §3–§5 and the data; unchanged since 10 Oct. Internal consistency only.",
+    "missing": null,
+    "hash": "3c867cd6f90c"
+  },
+  "edge:uk-ofcom|au-esafety": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0338",
+      "S-0339"
+    ],
+    "proposals": [
+      "P-0188"
+    ],
+    "note": "Knock-on from P-0174: the Online Safety Act 2021 (compilation of 12 Sep 2026) has no AI-specific provision, and the map's Ofcom entry says its codes have none either; 'AI-specific authority' is unsupported. Question P-0188 drafted.",
+    "missing": null,
+    "hash": "776dd6819ee5"
   }
 }
