@@ -8,6 +8,83 @@
     "entries": [],
     "note": null
   },
-  "discovery": [],
+  "discovery": [
+    {
+      "area": "B4 labs (Layer 6): Anthropic, OpenAI, Google DeepMind, Meta, xAI",
+      "summary": "Meta published v2.1 (2 Oct 2026), renamed Meta Superintelligence Scaling Framework, and announced a board AI committee (meta-v21). xAI's 30 Jun 2026 edition was re-hosted unchanged at a new URL after the old PDF went 404; SpaceX acquired xAI (Feb 2026) and x.ai now names SpaceX Super Intelligence LLC (SpaceXSI) (xai-spacex). No new versions for Anthropic (RSP v3.4), OpenAI (Preparedness v2) or Google DeepMind (FSF v3.1). Outside this slice, all five labs signed the White House Accord on Super Intelligence (29 Sep 2026), which Meta cites as the reason for v2.1.",
+      "queries": [
+        "Meta Superintelligence Scaling Framework v2.1",
+        "SpaceX acquires xAI SpaceXSI \"SpaceX Super Intelligence\"",
+        "Google DeepMind Frontier Safety Framework version 3.2 OR \"version 4\" 2026",
+        "OpenAI Preparedness Framework version 3 2026 update",
+        "openai.com \"Preparedness Framework\" version 2 updated 2026",
+        "White House AI companies commitments September 2026 frontier AI training containment independent auditor",
+        "whitehouse.gov \"Accord on Super Intelligence\"",
+        "direct: x.ai/safety, x.ai/news, x.ai/legal/terms-of-service, spacex.com/updates, deepmind.google/frontier-safety, anthropic.com/responsible-scaling-policy, research.meta.ai blog"
+      ],
+      "limits": "openai.com pages not rendered (OpenAI version status from the v2 PDF on cdn.openai.com and the 3 Sep 2026 GPT-6 Astra system card). Not searched: Meta, Google or xAI SB 53/EU Code compliance documents (Anthropic and OpenAI ones recorded under P-0043); Microsoft/Amazon frameworks (not monitored). Leads 4 (fsf cov:thresh vs ASLs) and 6 (RSP eval/elicit vs v3.4) not pursued: analytic or outside group E; no proposal. White House Accord text read only from the UCSB American Presidency Project archive; whitehouse.gov not retrieved.",
+      "candidates": [
+        {
+          "name": "Meta Superintelligence Scaling Framework v2.1 (2 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "New version and title of meta-faif; board AI committee announced",
+          "proposal": "P-0149",
+          "sources": [
+            "S-0305",
+            "S-0306",
+            "S-0107"
+          ]
+        },
+        {
+          "name": "xAI framework PDF moved; SpaceX acquisition and SpaceXSI branding",
+          "result": "update to existing entry",
+          "reason": "Same 30 Jun 2026 edition re-hosted (…-f1f0c916.pdf); publisher branding changed; naming is a question",
+          "proposal": "P-0151",
+          "sources": [
+            "S-0307",
+            "S-0110",
+            "S-0308",
+            "S-0309",
+            "S-0310",
+            "S-0311"
+          ]
+        },
+        {
+          "name": "Anthropic RSP newer than v3.4",
+          "result": "screened out",
+          "reason": "Policy page lists v3.4 (8 Jul 2026) as newest; latest update is the Aug 2026 Risk Report",
+          "sources": [
+            "S-0005"
+          ]
+        },
+        {
+          "name": "OpenAI Preparedness Framework v3",
+          "result": "screened out",
+          "reason": "No v3 found; v2 PDF dated 15 Apr 2025 and Sep 2026 Astra card applies v2's three categories",
+          "sources": [
+            "S-0095",
+            "S-0098"
+          ]
+        },
+        {
+          "name": "Google DeepMind FSF newer than v3.1",
+          "result": "screened out",
+          "reason": "Official page lists v3.1 (17 Apr 2026) as newest",
+          "sources": [
+            "S-0302"
+          ]
+        },
+        {
+          "name": "White House Accord on Super Intelligence (29 Sep 2026), signed by Google, Anthropic, Meta, OpenAI, xAI and Nvidia",
+          "result": "lead — source inaccessible",
+          "reason": "Voluntary cross-firm commitment (four layers: internal controls, internal team, independent external auditor/evaluator, independent board committee); likely L5 or US-federal addition. Outside the B4 slice; official whitehouse.gov text not retrieved (archive copy inspected). Refer to the US-federal/L5 group; once added, L6 entries may need edges.",
+          "sources": [
+            "S-0312",
+            "S-0306"
+          ]
+        }
+      ]
+    }
+  ],
   "usage": null
 }

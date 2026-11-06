@@ -1,0 +1,202 @@
+{
+  "entry:fsf:cov:eval": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0201",
+      "S-0102",
+      "S-0106",
+      "S-0302"
+    ],
+    "proposals": [],
+    "note": "v3.1 is still current (gdm-fs#g1, #g2). Pre-deployment assessment (fsf31#f1) and alert/periodic assessments, methodology in the framework, and involvement of external parties (fsf31#f4) are supported. The missing piece from Oct is now found: Google DeepMind states it has partnered with UK AISI since Nov 2023 'to test our most capable models' (gdm-aisi#a1, #a2); the Gemini 3.7 Flash report describes independent external testing (flash37#r2). The note does not claim AISI testing is pre-deployment.",
+    "missing": null,
+    "hash": "76de18c939f0"
+  },
+  "entry:fsf:cov:acct": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0102",
+      "S-0302"
+    ],
+    "proposals": [],
+    "note": "Factual core supported by v3.1 (still current): internal legal, compliance and safety reviews with escalation (fsf31#f2); aim to share information with governments at an unmitigated CCL (fsf31#f3); per-model FSF reports published for only two models (gdm-fs#g2). 'Less external accountability surface than Anthropic's RSP' and 'released selectively' are comparative.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "57b68d55d6cc"
+  },
+  "entry:meta-faif:cov:sec": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0305"
+    ],
+    "proposals": [],
+    "note": "Checked against v2.1 (Oct 2026), which supersedes v2: security mitigations are still set by threshold (heightened weight access controls and anti-tampering/exfiltration protections at high and critical; deployment-dependent below), with a baseline of weight-security controls for released models, and no specific controls or standards named (meta-msf#ms6, #ms7, #ms11). 'Thinner … than Anthropic or Google DeepMind' is comparative. Version/name update proposed separately (meta-v21).",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "dcc8ed31e1b8"
+  },
+  "entry:xai-rmf:cov:eval": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0307",
+      "S-0110"
+    ],
+    "proposals": [],
+    "note": "The 30 Jun 2026 edition is still current; its old URL is 404 and the same text is re-hosted at …-f1f0c916.pdf, linked from x.ai/safety (xai-safety#x4, xai-fw#w11). Factual cores still supported: benchmarks and red-teaming/adversarial testing (xai-fw#w8); safeguards xAI may change at will (#w9); internal legal and compliance reviews (#w10). Each note's main claim ('lighter than peers', 'among the thinnest', 'less granular', 'limited external accountability', 'most visible opponent') is comparative. Colorado litigation status not rechecked.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "656e65a22635"
+  },
+  "entry:xai-rmf:cov:elicit": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0307",
+      "S-0110"
+    ],
+    "proposals": [],
+    "note": "The 30 Jun 2026 edition is still current; its old URL is 404 and the same text is re-hosted at …-f1f0c916.pdf, linked from x.ai/safety (xai-safety#x4, xai-fw#w11). Factual cores still supported: benchmarks and red-teaming/adversarial testing (xai-fw#w8); safeguards xAI may change at will (#w9); internal legal and compliance reviews (#w10). Each note's main claim ('lighter than peers', 'among the thinnest', 'less granular', 'limited external accountability', 'most visible opponent') is comparative. Colorado litigation status not rechecked.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "e67c087401d2"
+  },
+  "entry:xai-rmf:cov:mit": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0307",
+      "S-0110"
+    ],
+    "proposals": [],
+    "note": "The 30 Jun 2026 edition is still current; its old URL is 404 and the same text is re-hosted at …-f1f0c916.pdf, linked from x.ai/safety (xai-safety#x4, xai-fw#w11). Factual cores still supported: benchmarks and red-teaming/adversarial testing (xai-fw#w8); safeguards xAI may change at will (#w9); internal legal and compliance reviews (#w10). Each note's main claim ('lighter than peers', 'among the thinnest', 'less granular', 'limited external accountability', 'most visible opponent') is comparative. Colorado litigation status not rechecked.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "9800ccaa897a"
+  },
+  "entry:xai-rmf:cov:acct": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0307",
+      "S-0110"
+    ],
+    "proposals": [],
+    "note": "The 30 Jun 2026 edition is still current; its old URL is 404 and the same text is re-hosted at …-f1f0c916.pdf, linked from x.ai/safety (xai-safety#x4, xai-fw#w11). Factual cores still supported: benchmarks and red-teaming/adversarial testing (xai-fw#w8); safeguards xAI may change at will (#w9); internal legal and compliance reviews (#w10). Each note's main claim ('lighter than peers', 'among the thinnest', 'less granular', 'limited external accountability', 'most visible opponent') is comparative. Colorado litigation status not rechecked.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "defaae83ae69"
+  },
+  "entry:xai-rmf:cov:sec": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0307"
+    ],
+    "proposals": [
+      "P-0150"
+    ],
+    "note": "The current edition's §2.4 states concrete commitments the note omits (xai-fw#w3–w6); the comparative clause is unverifiable. Proposal xai-sec replaces it with the documented facts.",
+    "missing": null,
+    "hash": "9bbcfbb80e86"
+  },
+  "faq:what-is-sandbagging-in-ai-safety": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0303",
+      "S-0121",
+      "S-0304",
+      "S-0114",
+      "S-0106"
+    ],
+    "proposals": [
+      "P-0153"
+    ],
+    "note": "Definition and IASR Feb 2026 flag supported (iasr2026#i1–i3). FSF v2.0 never mentions Apollo, scheming or sandbagging (fsf20#v2), so 'adopted across … FSF v2' is unsupported; proposal faq-sandbag restates what sources show.",
+    "missing": null,
+    "hash": "d0bfa2597be4"
+  },
+  "text:layer-6:tooltip": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0150",
+      "S-0305",
+      "S-0307"
+    ],
+    "proposals": [],
+    "note": "Lab frameworks are voluntary documents, but SB 53 bars large frontier developers from materially false statements about implementing or complying with their frontier AI framework (S-0150#20). Neither Meta's v2.1 nor xAI's Jun 2026 edition says it is the developer's SB 53 framework (meta-msf#ms11, xai-fw#w11); Anthropic and OpenAI publish separate compliance frameworks (P-0043, deferred to Jan 2027). Whether SB 53 reaches the Layer 6 documents remains undecided.",
+    "missing": "Maintainer decision on P-0043 (deferred to 2027-01-15) and a source showing whether any Layer 6 framework is the developer's SB 53 / RAISE frontier AI framework; until then 'enforceable only … by its board or by reputational pressure' cannot be confirmed.",
+    "hash": "ed827cb2706c"
+  },
+  "category:thresh": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0204"
+    ],
+    "proposals": [],
+    "note": "METR's page is still the Dec 2025 version (metr-ce#m4, #m5). Its thresholds, mitigations and timing elements are narrower (metr-ce#m1–m3) and it has no 'model evaluations' element (#m5); the map's broader definitions are the adaptation the maintainer kept on 2026-10-10 (P-0108 withdrawn, option a), and the page states the categories are adapted from METR (P-0107 applied). No change since that decision.",
+    "missing": null,
+    "hash": "d2f0470f4064"
+  },
+  "category:eval": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0204"
+    ],
+    "proposals": [],
+    "note": "METR's page is still the Dec 2025 version (metr-ce#m4, #m5). Its thresholds, mitigations and timing elements are narrower (metr-ce#m1–m3) and it has no 'model evaluations' element (#m5); the map's broader definitions are the adaptation the maintainer kept on 2026-10-10 (P-0108 withdrawn, option a), and the page states the categories are adapted from METR (P-0107 applied). No change since that decision.",
+    "missing": null,
+    "hash": "ee00f4cbeb04"
+  },
+  "category:timing": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0204"
+    ],
+    "proposals": [],
+    "note": "METR's page is still the Dec 2025 version (metr-ce#m4, #m5). Its thresholds, mitigations and timing elements are narrower (metr-ce#m1–m3) and it has no 'model evaluations' element (#m5); the map's broader definitions are the adaptation the maintainer kept on 2026-10-10 (P-0108 withdrawn, option a), and the page states the categories are adapted from METR (P-0107 applied). No change since that decision.",
+    "missing": null,
+    "hash": "05bfca35560b"
+  },
+  "category:mit": {
+    "run": "2026-11-06-weekly",
+    "date": "2026-11-06",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0204"
+    ],
+    "proposals": [],
+    "note": "METR's page is still the Dec 2025 version (metr-ce#m4, #m5). Its thresholds, mitigations and timing elements are narrower (metr-ce#m1–m3) and it has no 'model evaluations' element (#m5); the map's broader definitions are the adaptation the maintainer kept on 2026-10-10 (P-0108 withdrawn, option a), and the page states the categories are adapted from METR (P-0107 applied). No change since that decision.",
+    "missing": null,
+    "hash": "fd525af46dda"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "next": 149,
+  "next": 154,
   "proposals": [
     {
       "id": "P-0001",
@@ -15717,6 +15717,650 @@
           "P-0066"
         ],
         "updated": "2026-10-10"
+      }
+    },
+    {
+      "id": "P-0149",
+      "fingerprint": "5165f33efa90",
+      "targets": [
+        "entry:meta-faif",
+        "entry:meta-faif:desc",
+        "entry:meta-faif:cov:update",
+        "entry:meta-faif:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:26:27Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Meta framework: v2.1 (2 Oct 2026) renamed it Meta Superintelligence Scaling Framework; update name, link, version history and board-committee plan",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "meta-faif",
+              "field": "name",
+              "from": "Meta Advanced AI Scaling Framework",
+              "to": "Meta Superintelligence Scaling Framework"
+            },
+            {
+              "op": "set_field",
+              "entity": "meta-faif",
+              "field": "link",
+              "from": "https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2/",
+              "to": "https://research.meta.ai/static/meta-superintelligence-scaling-framework"
+            },
+            {
+              "op": "set_field",
+              "entity": "meta-faif",
+              "field": "desc",
+              "from": "Released Feb 2025 as Frontier AI Framework; renamed Advanced AI Scaling Framework with the April 2026 v2 update. High/critical-risk tiers. Did not sign EU GPAI Code.",
+              "to": "Released Feb 2025 as Frontier AI Framework; renamed Advanced AI Scaling Framework with the April 2026 v2 update and Meta Superintelligence Scaling Framework with v2.1 (2 Oct 2026). High/critical-risk tiers. Did not sign EU GPAI Code."
+            },
+            {
+              "op": "set_cov",
+              "entity": "meta-faif",
+              "cat": "update",
+              "from": "Released Feb 2025; v2 (Apr 2026) renamed it Advanced AI Scaling Framework and revised thresholds, domains and governance. Commits to review at least annually.",
+              "to": "Released Feb 2025; v2 (Apr 2026) renamed it Advanced AI Scaling Framework and revised thresholds, domains and governance; v2.1 (Oct 2026) renamed it Meta Superintelligence Scaling Framework, added a loss-of-control outcome for containment failures in training and evaluation, and expanded open-weight considerations. Commits to review at least annually."
+            },
+            {
+              "op": "set_cov",
+              "entity": "meta-faif",
+              "cat": "acct",
+              "from": "Chief AI Officer oversees the process and approves deployments, supported by a Director of Alignment and Risk; the Board oversees regulatory compliance; preparedness reports are published per release, with whistleblower and non-compliance reporting. Refused to sign the EU GPAI Code, putting Meta's compliance route under the AI Act in question.",
+              "to": "Chief AI Officer oversees the process and approves deployments, supported by a Director of Alignment and Risk; the Board oversees regulatory compliance; preparedness reports are published per release, with whistleblower and non-compliance reporting. In Oct 2026 Meta said it will establish an AI committee of its Board to review future changes to the Framework. Refused to sign the EU GPAI Code, putting Meta's compliance route under the AI Act in question."
+            }
+          ],
+          "why": "The entry names and links a superseded version: Meta published v2.1 on 2 Oct 2026 under a new title, and the map's link still serves v2.",
+          "rationale": "The v2.1 PDF's preface and change log (meta-msf#ms1–ms5) give the new title, the 2 Oct 2026 date and the two substantive changes (Loss of Control 3 containment outcome; open-weight discussion); Meta's announcement of the same date (meta-blog#mb1, #mb2) states the board-committee plan as a future commitment, written here as such. The current link serves v2 (meta-v2#mv1, #mv2). v2.1 keeps the annual review (meta-msf#ms8) and the Chief AI Officer's role (meta-msf#ms9).",
+          "evidence": [
+            {
+              "source": "S-0305",
+              "passage": "S-0305#1",
+              "stance": "supports",
+              "supports": "v2.1 is the Oct 2026 revision and its new title"
+            },
+            {
+              "source": "S-0305",
+              "passage": "S-0305#2",
+              "stance": "supports",
+              "supports": "dated 2 Oct 2026"
+            },
+            {
+              "source": "S-0305",
+              "passage": "S-0305#3",
+              "stance": "supports",
+              "supports": "renamed from Advanced AI Scaling Framework"
+            },
+            {
+              "source": "S-0305",
+              "passage": "S-0305#4",
+              "stance": "supports",
+              "supports": "new Loss of Control 3 containment outcome"
+            },
+            {
+              "source": "S-0305",
+              "passage": "S-0305#5",
+              "stance": "supports",
+              "supports": "open-weight discussion added"
+            },
+            {
+              "source": "S-0305",
+              "passage": "S-0305#8",
+              "stance": "supports",
+              "supports": "review at least every twelve months"
+            },
+            {
+              "source": "S-0305",
+              "passage": "S-0305#9",
+              "stance": "supports",
+              "supports": "Chief AI Officer role retained"
+            },
+            {
+              "source": "S-0306",
+              "passage": "S-0306#1",
+              "stance": "supports",
+              "supports": "announcement date"
+            },
+            {
+              "source": "S-0306",
+              "passage": "S-0306#2",
+              "stance": "supports",
+              "supports": "board AI committee commitment"
+            },
+            {
+              "source": "S-0107",
+              "passage": "S-0107#25",
+              "stance": "supports",
+              "supports": "current link serves v2"
+            }
+          ],
+          "uncertainty": "The board AI committee is announced, not yet established. Entry id meta-faif is unchanged.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:meta-faif:cov:sec": "checked against v2.1, factual core still accurate; comparative clause unresolved",
+            "entry:meta-faif:cov:halt": "not checked this run; v2.1 Table 1 keeps 'Develop With Mitigations' at critical",
+            "faq:which-ai-labs-have-published-frontier-safety-frameworks": "needs change — see faq-labs",
+            "edge:ca-sb53|meta-faif": "not checked; v2.1 does not mention SB 53"
+          },
+          "unverified_carryover": [
+            "Did not sign EU GPAI Code",
+            "preparedness reports are published per release, with whistleblower and non-compliance reporting",
+            "Refused to sign the EU GPAI Code, putting Meta's compliance route under the AI Act in question"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:gpai-cop:context",
+            "entry:eu-genai-code:desc",
+            "entry:eu-genai-code:context",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:metr:context",
+            "edge:ca-sb53|meta-faif",
+            "edge:seoul-commit|meta-faif",
+            "edge:gpai-cop|meta-faif",
+            "edge:fmf|meta-faif",
+            "gap:halt",
+            "faq:which-ai-labs-have-published-frontier-safety-fra"
+          ],
+          "hash": "7e37367c65d7"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0150",
+      "fingerprint": "4644dcb05a3d",
+      "targets": [
+        "entry:xai-rmf:cov:sec"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:26:27Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "xAI framework · Weight security: describe the 30 Jun 2026 edition's Security Goal and controls",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "xai-rmf",
+              "cat": "sec",
+              "from": "Some security commitments documented; specifics not fully disclosed. Generally thinner on weight-security than peers.",
+              "to": "Commits to a documented Security Goal naming the threat actors it protects against (sophisticated non-state actors, insiders, state-sponsored actors), reviewed at least yearly. Controls are based on NIST 800-171 Rev.3 with SOC 2 Type II evaluations and include weight encryption, role-based access, real-time monitoring against unauthorized transfer, and measures against large-scale extraction and distillation of reasoning traces. No security level is tied to capability or risk tiers."
+            }
+          ],
+          "why": "The note gives readers no facts about xAI's security commitments, although the current edition states them; its comparative clause cannot be verified.",
+          "rationale": "§2.4 of the 30 Jun 2026 edition (re-hosted copy, same text as recorded in Oct) states the Security Goal and its annual review (xai-fw#w3), the NIST 800-171 Rev.3/SOC 2 basis (#w4), weight encryption, role-based access and monitoring (#w5) and anti-distillation measures (#w6); the full-text search found no tiering of security by capability (#w11). The unverifiable comparison is dropped.",
+          "evidence": [
+            {
+              "source": "S-0307",
+              "passage": "S-0307#3",
+              "stance": "supports",
+              "supports": "Security Goal and threat actors, yearly review"
+            },
+            {
+              "source": "S-0307",
+              "passage": "S-0307#4",
+              "stance": "supports",
+              "supports": "NIST 800-171 Rev.3 and SOC 2 Type II"
+            },
+            {
+              "source": "S-0307",
+              "passage": "S-0307#5",
+              "stance": "supports",
+              "supports": "weight encryption, access controls, monitoring"
+            },
+            {
+              "source": "S-0307",
+              "passage": "S-0307#6",
+              "stance": "supports",
+              "supports": "anti-extraction/distillation measures"
+            },
+            {
+              "source": "S-0307",
+              "passage": "S-0307#11",
+              "stance": "supports",
+              "supports": "no capability-tiered security; same edition"
+            }
+          ],
+          "uncertainty": "Dropping 'thinner than peers' removes an editorial judgment some readers may value; it was never verifiable.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:us-preempt:desc",
+            "entry:ca-sb53:cov:thresh",
+            "entry:co-aia:context",
+            "entry:gpai-cop:desc",
+            "entry:caisi:context",
+            "entry:caisi:cov:eval",
+            "entry:cais:context",
+            "edge:seoul-commit|xai-rmf",
+            "edge:gpai-cop|xai-rmf",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "text:layer-3:tooltip"
+          ],
+          "hash": "9e02acbbd40f"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0151",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:26:27Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "xAI entry: SpaceX acquired xAI and the site now names SpaceX Super Intelligence LLC (SpaceXSI) — rename or note?",
+          "kind": "flag",
+          "changes": [],
+          "why": "Readers following the map's link land on a SpaceXSI-branded page; the map does not say who now owns or publishes the framework.",
+          "rationale": "Recommend (a): the map names L6 entries after the framework document, and the document is still 'xAI Frontier Artificial Intelligence Framework' issued by 'xAI LLC' (xai-fw#w2, #w11); the ownership change (xai-joins#j1, spacex-upd#u1) and the new operator name (xai-safety#x1, #x3; xai-tos#t2) are hard facts for desc. The relationship between XAI LLC and SpaceX Super Intelligence LLC (rename vs. new entity) is not stated in any source found, so the desc avoids asserting it.",
+          "evidence": [
+            {
+              "source": "S-0308",
+              "passage": "S-0308#1",
+              "stance": "supports",
+              "supports": "SpaceX acquired xAI (2 Feb 2026)"
+            },
+            {
+              "source": "S-0309",
+              "passage": "S-0309#1",
+              "stance": "supports",
+              "supports": "SpaceX's own announcement"
+            },
+            {
+              "source": "S-0110",
+              "passage": "S-0110#3",
+              "stance": "supports",
+              "supports": "safety page now 'Safety at SpaceXSI'"
+            },
+            {
+              "source": "S-0110",
+              "passage": "S-0110#4",
+              "stance": "supports",
+              "supports": "site operator SpaceX Super Intelligence LLC"
+            },
+            {
+              "source": "S-0310",
+              "passage": "S-0310#2",
+              "stance": "supports",
+              "supports": "terms name SpaceX Super Intelligence LLC (SpaceXSI)"
+            },
+            {
+              "source": "S-0311",
+              "passage": "S-0311#1",
+              "stance": "supports",
+              "supports": "Sep 2026: SpaceXAI a DBA of XAI LLC"
+            },
+            {
+              "source": "S-0307",
+              "passage": "S-0307#2",
+              "stance": "supports",
+              "supports": "framework still issued in xAI's name"
+            },
+            {
+              "source": "S-0307",
+              "passage": "S-0307#11",
+              "stance": "supports",
+              "supports": "same edition, no SpaceX mention"
+            },
+            {
+              "source": "S-0110",
+              "passage": "S-0110#5",
+              "stance": "supports",
+              "supports": "framework moved to new URL"
+            }
+          ],
+          "uncertainty": "Whether SpaceX Super Intelligence LLC is the renamed xAI LLC or a separate parent is not documented; the brand was 'SpaceXAI' in Sep–Oct 2026 and 'SpaceXSI' by Nov 2026, so it may change again.",
+          "confidence": "medium",
+          "question": "SpaceX acquired xAI on 2 Feb 2026. x.ai now titles its safety page 'Safety at SpaceXSI', its footer reads '© 2026 SpaceX Super Intelligence LLC', and the consumer terms (27 Oct 2026) are an agreement with SpaceX Super Intelligence LLC. The framework itself (effective 30 Jun 2026, re-hosted at a new URL after the old one went 404) is unchanged and still titled and issued by 'xAI LLC'; the Grok 4.7 card (Sep 2026) called SpaceXAI a DBA of XAI LLC. Options: (a) keep the entry name, which matches the document's own title, and record the ownership and rebrand in desc (recommended); (b) rename the entry to 'SpaceXSI (xAI) Frontier AI Framework' and add the same desc note; (c) keep as is.",
+          "knock_on_notes": {
+            "edge:seoul-commit|xai-rmf": "historical, still accurate as worded",
+            "edge:gpai-cop|xai-rmf": "not checked this run",
+            "faq:which-ai-labs-have-published-frontier-safety-frameworks": "faq-labs keeps 'xAI', valid under every option"
+          },
+          "unverified_carryover": [
+            "Thinner than peers.",
+            "xAI suing Colorado over AI Act."
+          ],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Keep name; note SpaceX ownership and SpaceXSI in desc",
+              "changes": [
+                {
+                  "op": "set_field",
+                  "entity": "xai-rmf",
+                  "field": "desc",
+                  "from": "Draft Feb 2025; final Risk Management Framework Aug 2025, renamed Frontier AI Framework Dec 2025; current edition effective 30 Jun 2026. Thinner than peers. xAI suing Colorado over AI Act.",
+                  "to": "Draft Feb 2025; final Risk Management Framework Aug 2025, renamed Frontier AI Framework Dec 2025; current edition effective 30 Jun 2026. Thinner than peers. xAI suing Colorado over AI Act. SpaceX acquired xAI in Feb 2026; its website and terms now name SpaceX Super Intelligence LLC (SpaceXSI), but the framework is still issued in xAI's name."
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Rename to 'SpaceXSI (xAI) Frontier AI Framework' and add desc note",
+              "changes": [
+                {
+                  "op": "set_field",
+                  "entity": "xai-rmf",
+                  "field": "name",
+                  "from": "xAI Frontier AI Framework",
+                  "to": "SpaceXSI (xAI) Frontier AI Framework"
+                },
+                {
+                  "op": "set_field",
+                  "entity": "xai-rmf",
+                  "field": "desc",
+                  "from": "Draft Feb 2025; final Risk Management Framework Aug 2025, renamed Frontier AI Framework Dec 2025; current edition effective 30 Jun 2026. Thinner than peers. xAI suing Colorado over AI Act.",
+                  "to": "Draft Feb 2025; final Risk Management Framework Aug 2025, renamed Frontier AI Framework Dec 2025; current edition effective 30 Jun 2026. Thinner than peers. xAI suing Colorado over AI Act. SpaceX acquired xAI in Feb 2026; its website and terms now name SpaceX Super Intelligence LLC (SpaceXSI), but the framework is still issued in xAI's name."
+                }
+              ]
+            },
+            {
+              "key": "c",
+              "label": "Keep as is",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:us-preempt:desc",
+            "entry:ca-sb53:cov:thresh",
+            "entry:co-aia:context",
+            "entry:gpai-cop:desc",
+            "entry:caisi:context",
+            "entry:caisi:cov:eval",
+            "entry:cais:context",
+            "edge:seoul-commit|xai-rmf",
+            "edge:gpai-cop|xai-rmf",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "text:layer-3:tooltip"
+          ],
+          "hash": "26eb2735ce2e"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0152",
+      "fingerprint": "5303117e6a89",
+      "targets": [
+        "text:index.html:eb7e55d26d79"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:26:27Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "FAQ 'Which AI labs have published frontier safety frameworks?': current framework names and OpenAI's tracked categories",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "OpenAI (Preparedness Framework, with a category × level matrix across cyber, CBRN, autonomy, and persuasion), Google DeepMind (Frontier Safety Framework, with Critical Capability Levels), Meta (Frontier AI Framework, with high/critical-risk tiers), and xAI (Risk Management Framework, with quantitative benchmarks).",
+              "to": "OpenAI (Preparedness Framework, with High and Critical thresholds across biological and chemical, cybersecurity, and AI self-improvement), Google DeepMind (Frontier Safety Framework, with Critical Capability Levels), Meta (Meta Superintelligence Scaling Framework, with high/critical-risk tiers), and xAI (Frontier AI Framework, with risk tiers reviewed per domain; earlier editions set quantitative benchmarks).",
+              "count": 1
+            }
+          ],
+          "why": "The FAQ (served as structured data to search engines and LLMs) describes OpenAI's 2023 beta categories and old Meta and xAI titles, contradicting the map's own entries.",
+          "rationale": "Preparedness v2 (still current: the Sep 2026 GPT-6 Astra card applies its three categories, astra#s1) tracks biological and chemical, cybersecurity and AI self-improvement with High/Critical thresholds and dropped persuasion (prep2#p1–p4). Meta's framework is now the Meta Superintelligence Scaling Framework (meta-msf#ms1, #ms3). xAI's current title is Frontier AI Framework; the Jun 2026 edition reviews risk tiers per category and states no numeric criteria (xai-fw#w7, #w11), while earlier editions did (S-0109#3).",
+          "evidence": [
+            {
+              "source": "S-0095",
+              "passage": "S-0095#27",
+              "stance": "supports",
+              "supports": "v2 dated 15 Apr 2025"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#28",
+              "stance": "supports",
+              "supports": "three Tracked Categories"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#29",
+              "stance": "supports",
+              "supports": "High thresholds"
+            },
+            {
+              "source": "S-0095",
+              "passage": "S-0095#30",
+              "stance": "supports",
+              "supports": "persuasion out"
+            },
+            {
+              "source": "S-0098",
+              "passage": "S-0098#6",
+              "stance": "supports",
+              "supports": "v2 categories still applied Sep 2026"
+            },
+            {
+              "source": "S-0305",
+              "passage": "S-0305#1",
+              "stance": "supports",
+              "supports": "Meta's current title"
+            },
+            {
+              "source": "S-0305",
+              "passage": "S-0305#3",
+              "stance": "supports",
+              "supports": "renamed in v2.1"
+            },
+            {
+              "source": "S-0307",
+              "passage": "S-0307#7",
+              "stance": "supports",
+              "supports": "risk tiers per category"
+            },
+            {
+              "source": "S-0307",
+              "passage": "S-0307#11",
+              "stance": "supports",
+              "supports": "no numeric criteria in Jun 2026 edition"
+            },
+            {
+              "source": "S-0109",
+              "passage": "S-0109#3",
+              "stance": "supports",
+              "supports": "Dec 2025 edition's quantitative criterion"
+            }
+          ],
+          "uncertainty": "Meta wording assumes meta-v21; it is correct on the source alone either way. 'xAI' is kept, consistent with every option in xai-spacex.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {},
+          "unverified_carryover": [
+            "Anthropic (Responsible Scaling Policy, with capability thresholds and periodic Risk Reports)",
+            "Google DeepMind (Frontier Safety Framework, with Critical Capability Levels)",
+            "All are voluntary and revisable by the lab itself."
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [],
+          "hash": "9edbc4542fa7"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0153",
+      "fingerprint": "179ddf927413",
+      "targets": [
+        "text:index.html:9b1c4bc20ed8"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:26:27Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "Sandbagging FAQ: no source shows Apollo's methodology was 'adopted across' GDM's FSF v2; say what Apollo and the labs actually did",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": ", building on Apollo Research's scheming-detection methodology adopted across Google DeepMind's Frontier Safety Framework v2, OpenAI's o1 system card, and Anthropic's Claude evaluations.",
+              "to": ", and cites Apollo Research's work on in-context scheming. Apollo has tested models including OpenAI's o1 and pre-release checkpoints of Anthropic's Claude Opus 4.6, and Google DeepMind's per-model Frontier Safety Framework reports describe sandbagging checks.",
+              "count": 1
+            }
+          ],
+          "why": "The FAQ attributes adoption of Apollo's methodology to Google DeepMind's FSF v2, which never mentions Apollo, scheming or sandbagging.",
+          "rationale": "FSF v2.0 contains no reference to Apollo, scheming or sandbagging (fsf20#v2, observation; its deceptive-alignment section is fsf20#v1). The IASR 2026 describes sandbagging (iasr2026#i2, #i3) and cites Apollo's in-context scheming paper (#i4). Apollo evaluated o1 for scheming (o1card#o1) and tested Claude Opus 4.6 checkpoints (opus46#c1). GDM's Gemini 3.7 Flash FSF report describes automated sandbagging checks (flash37#r3).",
+          "evidence": [
+            {
+              "source": "S-0303",
+              "passage": "S-0303#2",
+              "stance": "supports",
+              "supports": "FSF v2 never mentions Apollo, scheming or sandbagging"
+            },
+            {
+              "source": "S-0121",
+              "passage": "S-0121#16",
+              "stance": "supports",
+              "supports": "published Feb 2026"
+            },
+            {
+              "source": "S-0121",
+              "passage": "S-0121#17",
+              "stance": "supports",
+              "supports": "IASR flags sandbagging"
+            },
+            {
+              "source": "S-0121",
+              "passage": "S-0121#19",
+              "stance": "supports",
+              "supports": "IASR cites Apollo's scheming paper"
+            },
+            {
+              "source": "S-0304",
+              "passage": "S-0304#1",
+              "stance": "supports",
+              "supports": "Apollo tested o1"
+            },
+            {
+              "source": "S-0114",
+              "passage": "S-0114#4",
+              "stance": "supports",
+              "supports": "Apollo tested Claude Opus 4.6 checkpoints"
+            },
+            {
+              "source": "S-0106",
+              "passage": "S-0106#7",
+              "stance": "supports",
+              "supports": "GDM FSF report sandbagging checks"
+            }
+          ],
+          "uncertainty": "The absence finding rests on a text search of FSF v2.0; GDM may use Apollo-derived methods without naming them.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:apollo:context": "not in group E; 'brought scheming evaluations into mainstream lab practice' is analytic"
+          },
+          "unverified_carryover": [
+            "The February 2026 International AI Safety Report formally flagged sandbagging as an emerging capability-elicitation challenge"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [],
+          "hash": "dc3341b259e9"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
       }
     }
   ]
