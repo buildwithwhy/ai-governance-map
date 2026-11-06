@@ -1,5 +1,5 @@
 {
-  "next": 154,
+  "next": 155,
   "proposals": [
     {
       "id": "P-0001",
@@ -16346,6 +16346,162 @@
           "recommended": null,
           "knock_on": [],
           "hash": "dc3341b259e9"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0154",
+      "fingerprint": "863b4f29b9f4",
+      "targets": [
+        "entry:fsi:context",
+        "entry:fsi:cov:eval"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-06T18:27:16Z",
+          "run": "2026-11-06-weekly",
+          "author": "claude",
+          "title": "FSI: site redesign drops the COO/research-director listing and the 'independent evaluation' offer; evaluation work is now test-and-evaluation standards",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "fsi",
+              "field": "context",
+              "from": "Sits between frontier labs and US national-security institutions — the Pentagon, intelligence community, and Congress. Led by Executive Director Ike Harris (former US Navy / SecDef policy advisor), COO Jeremy Pelter (former Acting Commerce Secretary), and research director Aaron Frank (former RAND). Three named focus areas: securing advanced model weights, how national-security operators test and use frontier models, and AI's effect on geopolitical stability. Unlike general third-party evaluators (METR, Apollo, AVERI), FSI's evaluations are scoped to national-security use cases, alongside policy analysis, wargames and model-security work with the labs.",
+              "to": "Sits between frontier labs and US national-security institutions — the Pentagon, intelligence community, and Congress. Led by founder and Executive Director Ike Harris (former US Navy / SecDef policy advisor). Three named focus areas: securing advanced model weights, how national-security operators test and use frontier models, and AI's effect on geopolitical stability. Unlike general third-party evaluators (METR, Apollo, AVERI), FSI frames its evaluation work as test-and-evaluation standards and capability awareness for specific national-security uses, alongside policy analysis, wargames and model-security work with the labs."
+            },
+            {
+              "op": "set_cov",
+              "entity": "fsi",
+              "cat": "eval",
+              "from": "Offers independent, non-commercial capability assessments scoped to national-security use cases and develops test-and-evaluation criteria for government use of frontier models; standing advisory can include classified-context engagement.",
+              "to": "Develops test-and-evaluation standards for government use of frontier models in specific national-security missions and offers an independent read on emerging lab capabilities (capability awareness); cleared staff can continue work in a classified setting."
+            }
+          ],
+          "why": "Readers are told FSI has a COO and research director it no longer lists, and that it offers independent capability assessments, which its own pages no longer offer. That overstates FSI as an evaluator alongside METR, Apollo and AVERI.",
+          "rationale": "FSI's redesigned team page lists Ike Harris as the only leader (founder and Executive Director; board chair) and no longer names Jeremy Pelter or Aaron Frank. Its national-security page replaced '02 Independent evaluations' with '02 Test and evaluation standards' (what a system must be measured against for a specific national security use) and '05 Standing advisory' with '05 Classified work' (staff hold clearances). The AI-labs page dropped '01 Independent evaluation' and 'Evaluations, red-teaming…'; its offers are now capability awareness, translation, convening and security partnership. Our Work describes the Adopt programme as capability awareness plus test & evaluation frameworks. The edit reverses the evaluation wording that P-0072 added on the basis of the 10 Oct pages.",
+          "evidence": [
+            {
+              "source": "S-0226",
+              "passage": "S-0226#3",
+              "stance": "supports",
+              "supports": "Harris is founder and Executive Director"
+            },
+            {
+              "source": "S-0226",
+              "passage": "S-0226#6",
+              "stance": "supports",
+              "supports": "Pelter and Frank no longer listed"
+            },
+            {
+              "source": "S-0224",
+              "passage": "S-0224#3",
+              "stance": "supports",
+              "supports": "evaluation work is now test-and-evaluation standards"
+            },
+            {
+              "source": "S-0224",
+              "passage": "S-0224#4",
+              "stance": "supports",
+              "supports": "classified work by cleared staff"
+            },
+            {
+              "source": "S-0224",
+              "passage": "S-0224#6",
+              "stance": "supports",
+              "supports": "independent evaluations item replaced"
+            },
+            {
+              "source": "S-0223",
+              "passage": "S-0223#3",
+              "stance": "supports",
+              "supports": "capability awareness offer"
+            },
+            {
+              "source": "S-0223",
+              "passage": "S-0223#5",
+              "stance": "supports",
+              "supports": "independent evaluation offer removed"
+            },
+            {
+              "source": "S-0225",
+              "passage": "S-0225#3",
+              "stance": "supports",
+              "supports": "capability awareness"
+            },
+            {
+              "source": "S-0225",
+              "passage": "S-0225#4",
+              "stance": "supports",
+              "supports": "test & evaluation frameworks for government use"
+            },
+            {
+              "source": "S-0221",
+              "passage": "S-0221#9",
+              "stance": "contradicts",
+              "supports": "June 2026 launch announcement names Pelter as COO"
+            }
+          ],
+          "uncertainty": "The pages show what FSI now offers and lists, not whether Pelter and Frank have left or whether FSI would still run assessments on request. CAIS's 2 Jun announcement (unchanged) still names Pelter as COO and Frank as Director of Research; that is the launch state, superseded on FSI's own current team page.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:fsi:cov": "checked, still accurate (eval = T&E standards; sec = Model Security; acct = oversight support)",
+            "edge:fsi|caisi": "checked, still accurate",
+            "entry:fsi:desc": "CAIS affiliation now unconfirmed on FSI's site; left unresolved, no edit proposed",
+            "edge:cais|fsi": "same; unresolved"
+          },
+          "unverified_carryover": [
+            "Sits between frontier labs and US national-security institutions — the Pentagon, intelligence community, and Congress.",
+            "Three named focus areas: securing advanced model weights, how national-security operators test and use frontier models, and AI's effect on geopolitical stability. (from CAIS's launch announcement; FSI now names three programmes: Model Security; Development, Evaluation & Adoption; U.S. Capability for Global AI Governance)",
+            "Unlike general third-party evaluators (METR, Apollo, AVERI)"
+          ],
+          "conflict_resolution": {
+            "disagreement": "CAIS's 2 Jun 2026 launch announcement names Jeremy Pelter as FSI's COO (and Aaron Frank as Director of Research); FSI's current team page lists Ike Harris as its only leader and names neither.",
+            "basis": "different-date",
+            "evidence": [
+              {
+                "source": "S-0221",
+                "passage": "S-0221#9"
+              },
+              {
+                "source": "S-0226",
+                "passage": "S-0226#3"
+              },
+              {
+                "source": "S-0226",
+                "passage": "S-0226#6"
+              }
+            ],
+            "explanation": "The announcement records the team at launch (June 2026); the team page is FSI's current self-description (Nov 2026). They describe different dates, so the current page governs what the map should say now; the edit drops the named COO and research director rather than asserting that they left."
+          },
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:cais:context",
+            "edge:cais|fsi",
+            "edge:fsi|caisi",
+            "edge:fsi|us-frontier-access-eo",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "f769c83ee13a"
         }
       ],
       "decision": {

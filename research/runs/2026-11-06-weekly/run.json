@@ -84,6 +84,70 @@
           ]
         }
       ]
+    },
+    {
+      "area": "F2 changed-source follow-up (RUNBOOK §7 step 4)",
+      "summary": "No discovery slice assigned; candidates found while re-reading changed sources.",
+      "queries": [
+        "\"Frontier Security Institute\" independent Center for AI Safety Harris 2026 (WebSearch, leads only)"
+      ],
+      "limits": "Only sources listed in items-F2.md and pages they link to; SB 53 text inaccessible (leginfo Cloudflare).",
+      "candidates": [
+        {
+          "name": "NIST CAISSI / NSA SISC / CISA: Key Practices for Incident Readiness and Response in SI Training and Evaluation (16 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Voluntary federal guidance on incidents during frontier-model training and evaluation (ten practices across preparation to reporting); could extend caisi coverage (timing/acct) and names an NSA 'Super Intelligence Security Center'. Not drafted: needs the publication itself read and a decision on coverage.",
+          "sources": [
+            "S-0313",
+            "S-0174"
+          ]
+        },
+        {
+          "name": "FSI redesign: 'independent, nonpartisan think tank', no CAIS mention, own board, evaluation offer dropped",
+          "result": "update to existing entry",
+          "reason": "Institutional change to an existing entry; context and eval note proposed; CAIS affiliation left unresolved.",
+          "proposal": "P-0154",
+          "sources": [
+            "S-0222",
+            "S-0226",
+            "S-0224",
+            "S-0223"
+          ]
+        },
+        {
+          "name": "METR: 'Our approach to working with AI companies' process-transparency policy (14 Oct 2026); Nov 2026 independent assessment of AI R&D acceleration at Anthropic and reviews of Anthropic Risk Report sections",
+          "result": "update to existing entry",
+          "reason": "New METR policy on engagement terms and new external reviews of a lab's risk report; relevant to metr and to RSP accountability notes. No edit drafted: current map text remains accurate.",
+          "sources": [
+            "S-0314",
+            "S-0203"
+          ]
+        },
+        {
+          "name": "AVERI pilot report: Internal Safety Evaluation Quality at Amazon (9 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Second published AVERI pilot (metaevaluation of 800 internal Amazon safety prompts); the averi acct note's 'e.g.' example remains accurate.",
+          "sources": [
+            "S-0316"
+          ]
+        },
+        {
+          "name": "xAI Frontier AI Framework (30 Jun 2026) re-hosted at a new URL",
+          "result": "screened out",
+          "reason": "Text identical to the 10 Oct copy; old URL (S-0108) now 404, so later checks should cite the new URL.",
+          "sources": [
+            "S-0307"
+          ]
+        },
+        {
+          "name": "ai.gov now serves SI.gov ('America's Super Intelligence Initiatives')",
+          "result": "screened out",
+          "reason": "Website rebrand after EO 14434; not a mechanism. The map already links the Action Plan PDF.",
+          "sources": [
+            "S-0275"
+          ]
+        }
+      ]
     }
   ],
   "usage": null

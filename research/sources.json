@@ -1,5 +1,5 @@
 {
-  "next": 313,
+  "next": 317,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -1805,6 +1805,102 @@
           "locator": "§2, new GBL §1421(1)(g)",
           "text": "(g) cybersecurity practices to secure unreleased model weights from",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0033#20",
+          "locator": "Actions",
+          "text": "03/27/2026 SIGNED CHAP.96",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#21",
+          "locator": "§3 (amending §3 of Chapter 699 of 2025)",
+          "text": "§ 3. This act shall take effect [ on the ninetieth day after it shall have become a law ] January 1, 2027",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#22",
+          "locator": "GBL §1427(1)",
+          "text": "The attorney general may bring a civil action to recover a civil penalty in an amount not to exceed one million dollars for a first violation and in an amount not to exceed three million dollars per subsequent violation",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#23",
+          "locator": "GBL §1422(3)(a)",
+          "text": "a frontier developer shall report any critical safety incident pertaining to one or more of its frontier models to the office within seventy-two hours from a determination that a critical safety incident has occurred",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#24",
+          "locator": "GBL §1420(9)",
+          "text": "\"Frontier model\" means a foundation model that was trained using a quantity of computing power greater than [10^26] integer or floating-point operations. (b) The quantity of computing power described in paragraph (a) of this subdivision shall include computing for the original training run and for any subsequent fine-tuning",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#25",
+          "locator": "GBL §1420(10)",
+          "text": "\"Large frontier developer\" means a frontier developer that together with its affiliates collectively had annual gross revenues in excess of five hundred million dollars in the preceding calendar year.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#26",
+          "locator": "GBL §1421(1)",
+          "text": "A large frontier developer shall write, implement, comply with, and clearly and conspicuously publish on its internet website a frontier AI framework",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#27",
+          "locator": "GBL §1421(1)(c)",
+          "text": "applying mitigations to address the potential for catastrophic risks based on the results of assessments",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#28",
+          "locator": "GBL §1421(1)(e)",
+          "text": "using third parties to assess the potential for catastrophic risks and the effectiveness of mitigations of catastrophic risks;",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#29",
+          "locator": "GBL §1421(1)(g)",
+          "text": "cybersecurity practices to secure unreleased model weights from unauthorized modification or transfer by internal or external parties;",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#30",
+          "locator": "GBL §1421(1)(b)",
+          "text": "defining and assessing thresholds used by the large frontier developer to identify and assess whether a frontier model has capabilities that could pose a catastrophic risk",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#31",
+          "locator": "GBL §1421(2)(a)",
+          "text": "A large frontier developer shall review and, as appropriate, update its frontier AI framework at least once per year.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#32",
+          "locator": "GBL §1420(16)",
+          "text": "\"Office\" means an office within the department of financial services, which shall report to the superintendent of financial services and is tasked with implementation of this article.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#33",
+          "locator": "GBL §1428(6)",
+          "text": "The office shall maintain and publish a list of large frontier developers who have filed disclosure statements",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#34",
+          "locator": "GBL §1429",
+          "text": "The office is hereby authorized to adopt rules and regulations to implement the provisions of this article as needed.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#35",
+          "locator": "Whole text (searched), 2026-11-06 copy",
+          "text": "[Observation, not a quotation] Searched today's S08828 text for 'audit' and 'third part': no audit requirement; the only third-party reference in the developer duties is §1421(1)(e) (the framework must describe how the developer uses third parties to assess catastrophic risks) plus a transparency-report item on the extent of third-party evaluator involvement. The page differs from the 10 Oct copy only by 14 bytes; the bill text is unchanged.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -2245,6 +2341,42 @@
           "locator": "API record fields",
           "text": "executive_order_number 14409; signing_date 2026-06-02; publication_date 2026-06-05; citation 91 FR 34565; document_number 2026-11415; corrections: none",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0039#2",
+          "locator": "API record, executive_order_number",
+          "text": "\"executive_order_number\":\"14409\"",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0039#3",
+          "locator": "API record, signing_date",
+          "text": "\"signing_date\":\"2026-06-02\"",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0039#4",
+          "locator": "API record, publication_date",
+          "text": "\"publication_date\":\"2026-06-05\"",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0039#5",
+          "locator": "API record, citation",
+          "text": "\"citation\":\"91 FR 34565\"",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0039#6",
+          "locator": "API record, correction fields",
+          "text": "\"correction_of\":null,\"corrections\":[]",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0039#7",
+          "locator": "whole record",
+          "text": "[Observation, not a quotation] Compared with the 10 Oct record the only changed field is page_views (count and last_updated); executive order number, dates, citation and the empty corrections list are unchanged. The 10 Oct passage S-0039#1 was a field summary, not a verbatim quotation, which is why it no longer matches.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -6642,6 +6774,48 @@
           "locator": "whole release",
           "text": "[Observation, not a quotation] Searched the release for 'Task Force', 'Executive Order' and '14365': none appear. The release is issued by the Civil Division and Civil Rights Division and rests on the Equal Protection Clause, not the Commerce Clause or preemption.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0111#9",
+          "locator": "para 1",
+          "text": "The Justice Department moved to intervene in a lawsuit filed by artificial intelligence company xAI, challenging a new Colorado law that prohibits so-called “algorithmic discrimination.”",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0111#10",
+          "locator": "para 1",
+          "text": "The Justice Department alleges that the Colorado law violates the Equal Protection Clause of the Fourteenth Amendment",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0111#11",
+          "locator": "para 4",
+          "text": "The statute, Colorado SB24-205, requires AI “developers” and “deployers” to satisfy certain disclosure, reporting, and prevention requirements",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0111#12",
+          "locator": "para 4",
+          "text": "AI company xAI filed a lawsuit challenging the statute on April 9.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0111#13",
+          "locator": "page footer",
+          "text": "Updated October 20, 2026",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0111#14",
+          "locator": "Components",
+          "text": "Components … Civil Division … Civil - Enforcement & Affirmative Litigation Branch … Civil Rights Division … Press Release Number: 26-399",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0111#15",
+          "locator": "whole release",
+          "text": "[Observation, not a quotation] Searched today's release for 'Task Force', 'Executive Order' and '14365': none appear. Compared with 10 Oct, the body text is unchanged; the page now shows 'Updated October 20, 2026' and lists the Civil Division's Enforcement & Affirmative Litigation Branch among the components.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -9976,6 +10150,16 @@
           "via": "browser",
           "status": "error",
           "note": "TLS: site omits its intermediate certificate; not re-fetched this run"
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:15Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl with a CA file = session CA bundle + the Sectigo intermediate fetched from the certificate's AIA URL (the site omits its intermediate); chain verified",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "f10cd7d854d5a6e1",
+          "bytes": 219503
         }
       ],
       "passages": [
@@ -10068,6 +10252,48 @@
           "locator": "Section 25(a)",
           "text": "fails to have a third party perform an independent audit of compliance as required by subsection (d) of Section 10",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0170#16",
+          "locator": "Section 99",
+          "text": "Section 99. Effective date. This Act takes effect January 1, 2027.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0170#17",
+          "locator": "Section 10(d)",
+          "text": "a large frontier developer shall annually retain a third party to perform an independent audit of compliance with the requirements of this Section.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0170#18",
+          "locator": "Section 10(d)",
+          "text": "Beginning on January 1, 2028 or 90 days after a developer first qualifies as a large frontier developer, whichever is later",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0170#19",
+          "locator": "Section 10(a)",
+          "text": "Beginning January 1, 2028, a large frontier developer",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0170#20",
+          "locator": "Section 15(c)",
+          "text": "A frontier developer shall report any critical safety incident pertaining to one or more of its frontier models to … the Agency and the Attorney General within 72 hours of the frontier developer learning facts sufficient to establish a reasonable belief",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0170#21",
+          "locator": "Section 10(a)(7)",
+          "text": "cybersecurity practices to secure unreleased model weights",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0170#22",
+          "locator": "Section 25(a)",
+          "text": "For a subsequent violation, the civil penalty may not exceed $3,000,000 per violation.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -10241,6 +10467,30 @@
           "locator": "HTML head metadata; request URL",
           "text": "[Observation, not a quotation] The map's link https://www.nist.gov/caisi redirects (HTTP 200 after redirect) to https://www.nist.gov/caissi. The page's article:modified_time meta tag reads 2026-09-30T11:18-04:00, the day after EO 14434 was signed.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0174#6",
+          "locator": "heading",
+          "text": "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0174#7",
+          "locator": "About, list item 1",
+          "text": "Work with NIST organizations to develop guidelines and best practices to measure and improve the security of SI systems",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0174#8",
+          "locator": "News and Updates (first item)",
+          "text": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation … October 16, 2026",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0174#9",
+          "locator": "News and Updates",
+          "text": "[Observation, not a quotation] The page's News and Updates box now shows the four most recent items (16 Oct, 17 Sep, 23 Jul, 17 Jul 2026); the 1 May 2026 DeepSeek V4 Pro item dropped off this box because a newer item was added, and is still in NIST's CAISI news listing. None of the four is a pre-deployment evaluation: all are assessments of released PRC models or guidance.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -10374,6 +10624,36 @@
           "locator": "whole listing (36 items, page 1 of 2) and nist.gov/node/1911491",
           "text": "[Observation, not a quotation] The listing shows items dated 1 May 2026 (DeepSeek V4 Pro) and 17 Jul, 23 Jul and 17 Sep 2026 (assessments) but no 5 May 2026 announcement of testing agreements with Google DeepMind, Microsoft or xAI; page 2 has no such item either. The URL search engines give for that announcement, https://www.nist.gov/node/1911491, returns HTTP 404 (checked 10 Oct 2026).",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0176#6",
+          "locator": "item 20 Nov 2024 (teaser)",
+          "text": "In June 2025, AISI was re-established as the Center for AI Standards and Innovation (CAISI) by Secretary of Commerce Howard Lutnick.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0176#7",
+          "locator": "item 18 Dec 2024",
+          "text": "Pre-Deployment Evaluation of OpenAI's o1 Model … The U.S. Artificial Intelligence Safety Institute (US AISI) and the UK Artificial Intelligence Safety Institute (UK AISI) conducted a joint pre-deployment",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0176#8",
+          "locator": "item 1 May 2026",
+          "text": "CAISI Evaluation of DeepSeek V4 Pro … May 1, 2026 … In April 2026, the Center for AI Standards and Innovation (CAISI) evaluated the open-weight AI model DeepSeek V4 Pro",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0176#9",
+          "locator": "item 17 Jul 2026",
+          "text": "GLM-5.2 was released as an open-weight model by the PRC-based company Z.ai (formerly known as Zhipu AI) on June 16, 2026, and CAISI completed its assessment on",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0176#10",
+          "locator": "whole listing, page 1 (25 of 37 items)",
+          "text": "[Observation, not a quotation] Listing now has 37 items; the only addition since 10 Oct is the 16 Oct 2026 incident-readiness item. The 2026 items are guidance, agreements (OpenMined CRADA, GSA MOU) and assessments of released open-weight PRC models (DeepSeek V4 Pro, GLM-5.2, Kimi K3, GLM-5.3). No 2026 item describes pre-deployment testing of a model, and there is still no 5 May 2026 testing-agreement announcement with Google DeepMind, Microsoft or xAI.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -10798,6 +11078,30 @@
           "locator": "Art. 92 (whole article)",
           "text": "[Observation, not a quotation] Article 92 lets the AI Office evaluate a general-purpose AI model and request access to it; it does not mention access before the model is placed on the market (pre-deployment).",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0185#10",
+          "locator": "Art. 92(1)(b)",
+          "text": "to investigate systemic risks at Union level of general-purpose AI models with systemic risk, in particular following a qualified alert from the scientific panel",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0185#11",
+          "locator": "Art. 93(1)(b)",
+          "text": "implement mitigation measures, where the evaluation carried out in accordance with Article 92 has given rise to serious and substantiated concern of a systemic risk at Union level;",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0185#12",
+          "locator": "Art. 93(1)(c)",
+          "text": "restrict the making available on the market, withdraw or recall the model.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0185#13",
+          "locator": "Art. 92 (whole article)",
+          "text": "[Observation, not a quotation] Re-read Article 92 in today's rendered copy: it lets the AI Office evaluate a GPAI model and request access to it, with no reference to access before placing on the market. Today's copy differs from 10 Oct by 7 bytes of rendering; Articles 91–93 read the same.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -10929,6 +11233,30 @@
           "locator": "whole page",
           "text": "[Observation, not a quotation] The roadmap page describes INESIA's work as national ('capacité souveraine', 'capacité nationale'); it does not describe INESIA hosting EU-wide evaluation tooling.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0188#5",
+          "locator": "para 1",
+          "text": "Sous le pilotage conjoint de la Direction générale des Entreprises (DGE) et du Secrétariat général de la défense et de la sécurité nationale (SGDSN)",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0188#6",
+          "locator": "closing para",
+          "text": "structurer une capacité nationale d’évaluation et de sécurité de l’intelligence artificielle [structure a national AI evaluation and security capacity]",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0188#7",
+          "locator": "para 3",
+          "text": "associe les compétences de l’ ANSSI , de l’ Inria , du LNE et du PEReN",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0188#8",
+          "locator": "whole page",
+          "text": "[Observation, not a quotation] Today's page still describes INESIA's work as national ('capacité souveraine', 'capacité nationale') and does not describe it hosting EU-wide evaluation tooling; the text of the roadmap announcement is unchanged apart from page furniture (111 bytes).",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -11582,6 +11910,54 @@
           "locator": "Featured Research",
           "text": "We propose measuring AI performance in terms of the length of tasks AI agents can complete.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0203#6",
+          "locator": "footer",
+          "text": "METR (pronounced “meter”) is a nonprofit that studies the most advanced AI agents to understand whether their developers are on track to lose control of them.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0203#7",
+          "locator": "Partnerships",
+          "text": "These companies have also provided access and tokens, which we use for evaluations, research, and engineering.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0203#8",
+          "locator": "Featured work",
+          "text": "Task-Completion Time Horizons of Frontier AI Models",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0203#9",
+          "locator": "Featured work",
+          "text": "Measuring autonomous AI capabilities — resource collection",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0203#10",
+          "locator": "Featured work, Company policies",
+          "text": "Frontier AI Safety Policies … Common Elements of Frontier AI Safety Policies",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0203#11",
+          "locator": "Featured work",
+          "text": "Frontier Risk Report (February to March 2026)",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0203#12",
+          "locator": "Recent",
+          "text": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026 … November 5, 2026",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0203#13",
+          "locator": "whole page",
+          "text": "[Observation, not a quotation] The home page was redesigned since 10 Oct: the old 'Featured Research' blurbs are gone; it now groups featured work by theme (risk assessment, AI capabilities, monitoring, evaluation infrastructure, company policies) and describes METR's company work as past partnerships to pilot frontier risk assessments.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -11744,6 +12120,72 @@
           "id": "S-0204#21",
           "locator": "Components list (searched)",
           "text": "[Observation, not a quotation] The nine listed components are Capability Thresholds, Model Weight Security, Model Deployment Mitigations, Conditions for Halting Deployment Plans, Conditions for Halting Development Plans, Full Capability Elicitation During Evaluations, Timing and Frequency of Evaluations, Accountability, and Updating Policies Over Time; model evaluations is not a separate component. The page is still the December 2025 version.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#22",
+          "locator": "header",
+          "text": "Common Elements of Frontier AI Safety Policies … December 16, 2025",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#23",
+          "locator": "Summary",
+          "text": "This December 2025 version contains references to some developers’ updated frontier AI safety policies.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#24",
+          "locator": "components list",
+          "text": "Capability Thresholds: Thresholds at which specific AI capabilities would pose severe risk and require new mitigations.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#25",
+          "locator": "components list",
+          "text": "Model Weight Security: Information security measures that will be taken to prevent model weight access by unauthorized actors.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#26",
+          "locator": "components list",
+          "text": "Conditions for Halting Deployment Plans: Commitments to stop deploying models if the AI capabilities of concern emerge before the appropriate mitigations can be put in place.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#27",
+          "locator": "components list",
+          "text": "Conditions for Halting Development Plans: Commitments to halt model development if capabilities of concern emerge before the appropriate mitigations can be put in place.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#28",
+          "locator": "components list",
+          "text": "Full Capability Elicitation During Evaluations: Intentions to perform model evaluations in a way that does not underestimate the full capabilities of the model.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#29",
+          "locator": "components list",
+          "text": "Timing and Frequency of Evaluations: Concrete timelines outlining when and how often evaluations must be performed",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#30",
+          "locator": "components list",
+          "text": "Accountability: Intentions to implement both internal and external oversight mechanisms designed to encourage adequate execution of the frontier safety policy.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#31",
+          "locator": "components list",
+          "text": "Updating Policies Over Time: Intentions to update the policy periodically, with protocols detailing how this will be done.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0204#32",
+          "locator": "components list and Table 1",
+          "text": "[Observation, not a quotation] Today's copy still lists nine components (capability thresholds, model weight security, deployment mitigations, halting deployment, halting development, full capability elicitation, timing/frequency, accountability, updating policies); 'model evaluations' is not a separate component. The page is still the 16 Dec 2025 version; the byte difference is page furniture.",
           "retrieved": "2026-11-06"
         }
       ]
@@ -12282,6 +12724,24 @@
           "locator": "para 2",
           "text": "In July and August 2026, AVERI conducted the world’s first double-blind evaluation of a proprietary language model in collaboration with Google DeepMind, OpenMined, and MLCommons.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0215#2",
+          "locator": "listing",
+          "text": "AVERI Pilot Report: Internal Safety Evaluation Quality at Amazon",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0215#3",
+          "locator": "listing",
+          "text": "AVERI Pilot Report: The World’s First Double-Blind Evaluation of a Proprietary Language Model",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0215#4",
+          "locator": "whole page",
+          "text": "[Observation, not a quotation] The listing page now shows only titles, authors and dates (10/9/26 Amazon; 8/27/26 double-blind) with no body text, so the 10 Oct quotation from the report body is no longer on this URL; the report is at its own page.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -12517,6 +12977,12 @@
           "locator": "safe.ai home, about, research, FAQ, news",
           "text": "[Observation, not a quotation] Searched the saved safe.ai pages for 'MMLU', 'Massive Multitask', 'founded' and '2022' as a founding year: no match. ProPublica's IRS record (EIN 88-1751310) gives tax exemption issued Jan. 2023, which does not settle the founding year.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0220#5",
+          "locator": "Humanity's Last Exam",
+          "text": "Humanity's Last Exam … Jan 24, 2025",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -12596,6 +13062,24 @@
           "locator": "FSI section",
           "text": "Based in Washington, D.C., FSI will close the capability gap between frontier AI and the National Security Enterprise — the Pentagon, the Intelligence Community, Congress, and allied institutions.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0221#8",
+          "locator": "dateline",
+          "text": "today announced the appointment of Devin Kim as its President, as well as the establishment of the Frontier Security Institute (FSI), a new Washington, D.C.-based organization",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0221#9",
+          "locator": "FSI section",
+          "text": "Jeremy Pelter joins FSI as Chief Operating Officer.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0221#10",
+          "locator": "About Frontier Security Institute",
+          "text": "Frontier Security Institute at CAIS, is the translation layer between frontier AI and the National Security Enterprise",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -12643,6 +13127,30 @@
           "locator": "Defend: Model Security",
           "text": "Protecting U.S. frontier AI from theft, disruption, and adversarial attack.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0222#3",
+          "locator": "intro",
+          "text": "The Frontier Security Institute is an independent, nonpartisan think tank working between America’s frontier AI companies and the National Security Enterprise.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0222#4",
+          "locator": "Defend: Model Security",
+          "text": "Protecting U.S. frontier AI from theft, sabotage, and adversarial attack.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0222#5",
+          "locator": "Adopt",
+          "text": "We give government the standards to govern how frontier AI is developed, evaluated, and adopted",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0222#6",
+          "locator": "whole site (home, ai-labs, national-security, our-work, team, approach, research pages)",
+          "text": "[Observation, not a quotation] The redesigned site no longer describes FSI as 'at the Center for AI Safety' and none of these pages mentions CAIS, the Center for AI Safety or safe.ai; FSI now calls itself 'an independent, nonpartisan think tank'.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -12690,6 +13198,24 @@
           "locator": "Work with us",
           "text": "Evaluations, red-teaming, joint convenings, and technical advisory",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0223#3",
+          "locator": "01 Capability awareness",
+          "text": "An independent read on what’s coming, so government requirements arrive while systems are still being built, early enough to build to.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0223#4",
+          "locator": "Work with us",
+          "text": "Security partnership, capability awareness, and closed-door dialogues",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0223#5",
+          "locator": "whole page",
+          "text": "[Observation, not a quotation] The 10 Oct offers '01 Independent evaluation' (non-commercial capability assessment) and 'Evaluations, red-teaming, joint convenings, and technical advisory' are gone; the four offers are now capability awareness, translation, neutral-ground convening and security partnership.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -12737,6 +13263,30 @@
           "locator": "05 Standing advisory",
           "text": "Sustained arrangements for institutions with recurring needs, including classified-context engagement where the work requires it.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0224#3",
+          "locator": "02 Test and evaluation standards",
+          "text": "Test and evaluation standards What a system must be measured against for a specific national security use, built to fit the acquisition and testing processes already in place.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0224#4",
+          "locator": "05 Classified work",
+          "text": "Our staff hold security clearances, so the work can continue in a classified setting when it needs to.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0224#5",
+          "locator": "03 Wargames and scenario work",
+          "text": "Structured exercises that stress-test how institutions would respond to AI-driven contingencies before they occur.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0224#6",
+          "locator": "service list",
+          "text": "[Observation, not a quotation] The 10 Oct items '02 Independent evaluations' (capability assessments scoped to national-security use cases) and '05 Standing advisory' are replaced by '02 Test and evaluation standards' and '05 Classified work'.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -12784,6 +13334,18 @@
           "locator": "02 Adopt",
           "text": "The frameworks that determine whether an AI-enabled system is fit for a specific government use",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0225#3",
+          "locator": "02 Adopt, Capability awareness",
+          "text": "An independent way to see what is emerging from the labs and to understand what it means for the mission before it is fielded or released.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0225#4",
+          "locator": "02 Adopt, Test & evaluation",
+          "text": "The frameworks that determine whether an AI-enabled system is fit for a specific government use, built to fit the acquisition and testing processes the government already runs.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -12831,6 +13393,30 @@
           "locator": "Isaac Harris",
           "text": "Former U.S. Navy destroyer captain and veteran of the House Select Committee on the CCP.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0226#3",
+          "locator": "Leadership",
+          "text": "Isaac “Ike” Harris … Founder and Executive Director; Chair and President, Board of Directors",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0226#4",
+          "locator": "Leadership, Harris",
+          "text": "Former U.S. Navy destroyer captain and veteran of the House Select Committee on the CCP.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0226#5",
+          "locator": "Leadership, Harris bio",
+          "text": "advised the Under Secretary of Defense for Policy on economic and technology issues related to China",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0226#6",
+          "locator": "whole page",
+          "text": "[Observation, not a quotation] The Leadership section now lists only Isaac Harris, followed by board members Anthony Vinci and Chris Stewart, then executive advisors and fellows. Jeremy Pelter (listed on 10 Oct) and Aaron Frank appear nowhere on the page.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -14626,6 +15212,18 @@
           "locator": "listing",
           "text": "IMDA offers grants to support the development of Singapore's 10G Next-Generation Broadband Network",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0261#3",
+          "locator": "page title",
+          "text": "How We Can Help | IMDA",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0261#4",
+          "locator": "navigation result",
+          "text": "[Observation, not a quotation] Today's headless-Chromium load again lands on the generic 'How We Can Help | IMDA' listing; the difference from 10 Oct is rendering of the same listing. The map no longer links this URL (it links IMDA's 'Artificial Intelligence in Singapore' page since P-0081).",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -15368,6 +15966,24 @@
           "locator": "page body",
           "text": "Page Not Found The page you are looking for doesn't exist or has traveled to the future.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0275#2",
+          "locator": "page title",
+          "text": "SI.gov | America's Super Intelligence Initiatives",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0275#3",
+          "locator": "hero",
+          "text": "The official home of America's work to lead the world in Super Intelligence, from the Genesis Mission to the next generation of American innovators.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0275#4",
+          "locator": "whole page",
+          "text": "[Observation, not a quotation] On 10 Oct this URL returned HTTP 404. Today headless Chromium renders the si.gov home page (Webflow domain www.si.gov): a landing page on Super Intelligence initiatives (Genesis Mission, SI education, presidential challenge). It does not contain or link the AI Action Plan text. The map already links the White House PDF of the Plan (P-0089), so no edit is needed.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -17087,6 +17703,60 @@
           "locator": "Full text (compared and searched)",
           "text": "[Observation, not a quotation] PDF title metadata \"xAI Frontier Artificial Intelligence Framework (June 30, 2026)\", 9 pages. Passages S-0108#1 and #3–#15 recorded on 2026-10-10 from the …-99c40684.pdf copy all appear verbatim (#2 differs only by its footnote marker), so this is the same edition re-hosted, not a new version. §2.4 ties no security measure to a capability level or risk tier. The text names \"xAI LLC\" and never mentions SpaceX, California, the TFAIA, or a change log.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#12",
+          "locator": "§2.1 Risk Identification",
+          "text": "CBRN Risks, Offensive Cybersecurity Risks, Loss of Control Risks and Harmful Manipulation Risks.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#13",
+          "locator": "§2.1, footnote",
+          "text": "Following the Safety and Security Chapter of the General-Purpose AI Code of Practice developed under the EU AI",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#14",
+          "locator": "§2 Risk Management Framework",
+          "text": "xAI will conduct a full systemic risk assessment and mitigation process of our frontier models at least once a year.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#15",
+          "locator": "§2 Risk Management Framework",
+          "text": "These trigger points may include (1) the release of an updated model, (2) in the event of a serious incident",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#16",
+          "locator": "§2.2(5)",
+          "text": "conducting post-market monitoring",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#17",
+          "locator": "§2.3 Systemic risk acceptance determination",
+          "text": "xAI will only proceed with the development, the making available on the market, and/or the use of the model, if the systemic risks stemming from the model are determined to be acceptable.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#18",
+          "locator": "§3 Incident reporting",
+          "text": "we may temporarily fully shut down the relevant system until we have developed a more targeted response.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#19",
+          "locator": "§1 Introduction",
+          "text": "We will review this Framework periodically, and expect significant changes as the capabilities of our models expand.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#20",
+          "locator": "whole text",
+          "text": "[Observation, not a quotation] x.ai/safety now links this URL; the 10 Oct URL (…-99c40684.pdf, S-0108) returns HTTP 404. pdftotext output of this file is word-for-word identical to the 10 Oct copy of S-0108 (3,291 words, no diff): a re-upload, not a new edition. It still states no numeric acceptance criteria and has no change log.",
+          "retrieved": "2026-11-06"
         }
       ]
     },
@@ -17259,6 +17929,172 @@
           "id": "S-0312#3",
           "locator": "Commitment (4)",
           "text": "(4) Designate an independent committee of the board of directors to oversee and receive reports from the teams operating the controls and the internal and external auditors and evaluators",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0313": {
+      "url": "https://www.nist.gov/news-events/news/2026/10/key-practices-incident-readiness-and-response-super-intelligence-training",
+      "title": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation",
+      "publisher": "NIST",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-16"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:08Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/news-events/news/2026/10/key-practices-incident-readiness-and-response-super-intelligence-training",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "7acfff9f2e5c0d0b",
+          "bytes": 86581
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0313#1",
+          "locator": "para 1",
+          "text": "Today, NIST’s Center for Advancing Innovation and Standards for Super Intelligence (NIST CAISSI), the National Security Agency’s Super Intelligence Security Center (NSA SISC), and the Cybersecurity and Infrastructure Security Agency (CISA) published ten key practices for managing potential incidents during super intelligence (SI) training and evaluation.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0313#2",
+          "locator": "para 2",
+          "text": "This voluntary document supports the frontier SI industry in preventing, preparing for, and responding to incidents during training and evaluation",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0313#3",
+          "locator": "para 2",
+          "text": "The ten key practices are divided into five stages of the incident management lifecycle: preparation, detection, response, recovery, and reporting.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0314": {
+      "url": "https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/",
+      "title": "Our approach to working with AI companies",
+      "publisher": "METR",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-14"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:11Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "4eb68a3c7daf7502",
+          "bytes": 83583
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0314#1",
+          "locator": "intro",
+          "text": "We work with AI companies to conduct evaluations, assessments, and investigations",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0314#2",
+          "locator": "In practice",
+          "text": "we documented a similar approach this May in our pilot Frontier Risk Report , which grew out of work with Anthropic, Google, Meta and OpenAI.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0314#3",
+          "locator": "In practice",
+          "text": "to date we have chosen not to accept payment or donations from frontier AI companies",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0314#4",
+          "locator": "In practice",
+          "text": "We remain dependent on the companies we work with to voluntarily engage, provide access, and permit us to publish.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0315": {
+      "url": "https://www.averi.org/ourwork/averi-pilot-report-the-worlds-first-double-blind-eval",
+      "title": "AVERI Pilot Report: The World’s First Double-Blind Evaluation of a Proprietary Language Model",
+      "publisher": "AVERI",
+      "type": "primary",
+      "dates": {
+        "published": "2026-08-27"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:13Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/ourwork/averi-pilot-report-the-worlds-first-double-blind-eval",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "4485533e4966be68",
+          "bytes": 191645
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0315#1",
+          "locator": "para 3",
+          "text": "In July and August 2026, AVERI conducted the world’s first double-blind evaluation of a proprietary language model in collaboration with Google DeepMind, OpenMined, and MLCommons.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0315#2",
+          "locator": "para 3",
+          "text": "The pilot tested Gemini 2.5 Flash-Lite using never-before-used prompts from the MLCommons safety benchmark family, AILuminate, inside a secure enclave",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0315#3",
+          "locator": "intro",
+          "text": "AVERI runs pilot projects with leading AI companies and converts what we learn into auditing standards, policy analysis, and open source tools.",
+          "retrieved": "2026-11-06"
+        }
+      ]
+    },
+    "S-0316": {
+      "url": "https://www.averi.org/ourwork/averi-pilot-report-internal-safety-evaluation-quality-at-amazon",
+      "title": "AVERI Pilot Report: Internal Safety Evaluation Quality at Amazon",
+      "publisher": "AVERI",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:27:13Z",
+          "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/ourwork/averi-pilot-report-internal-safety-evaluation-quality-at-amazon",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "36c64c7a4f341493",
+          "bytes": 207587
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0316#1",
+          "locator": "Details of the Pilot",
+          "text": "we independently reviewed a random sample of 800 prompts used internally at Amazon to assess the safety of its models across several risk categories.",
           "retrieved": "2026-11-06"
         }
       ]
