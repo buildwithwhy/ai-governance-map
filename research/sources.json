@@ -1108,6 +1108,16 @@
           "note": "headless Chromium (Playwright) via session proxy, rendered DOM saved, weekly re-fetch 2026-11-06",
           "sha256": "3c13ba494eb828ec",
           "bytes": 281080
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:29:27Z",
+          "run": "2026-11-06-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) through the session proxy: opened the Trust Center resources page and clicked 'View Anthropic Frontier Compliance Framework', which served application/pdf from trust.anthropic.com/doc/trust?rid=6a637f7ac13a333cf66a4fbf (413,081 bytes, sha256 8e4d91e12861218e, identical to the 2026-10-10 copy). A plain fetch of the resources URL returns only the Trust Center index.",
+          "sha256": "8e4d91e12861218e",
+          "bytes": 413081
         }
       ],
       "passages": [
@@ -1139,6 +1149,24 @@
           "id": "S-0010#5",
           "locator": "Whole document (retrieved 2026-11-06)",
           "text": "[Observation, not a quotation] [Observation, not a quotation] The PDF served today is byte-identical to the 2026-10-10 copy (sha256 8e4d91e12861218e): Version 2, effective 24 July 2026, changelog ending at v.2. The weekly re-fetch saved the Trust Center index page instead of the PDF, which is why the earlier passages were not found.",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0010#6",
+          "locator": "§1 Introduction",
+          "text": "The FCF is distinct from our Responsible Scaling Policy (RSP), which will remain our voluntary safety framework",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0010#7",
+          "locator": "§1 Introduction",
+          "text": "In the United States, the FCF serves as our Frontier AI Framework under California’s Transparency in Frontier AI Act (TFAIA)",
+          "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0010#8",
+          "locator": "Changelog, v.2",
+          "text": "Revised the Sabotage and Loss of Control Tier 2 (Automated R&D) threshold in Section 2.4 to align with updates to Anthropic's Responsible Scaling Policy (v3.4)",
           "retrieved": "2026-11-06"
         }
       ]
@@ -3858,6 +3886,16 @@
           "content_type": "text/html",
           "sha256": "86b74970f0974d9c",
           "bytes": 28553
+        },
+        {
+          "date": "2026-11-06",
+          "at": "2026-11-06T18:29:27Z",
+          "run": "2026-11-06-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "curl --compressed (the server sends a gzip body; the weekly re-fetch saved the compressed bytes, so its text was unreadable)",
+          "sha256": "b33369981526d7c4",
+          "bytes": 143451
         }
       ],
       "passages": [
@@ -3872,6 +3910,12 @@
           "locator": "Para 2",
           "text": "Today, we are introducing our Frontier Safety Framework — a set of protocols for proactively identifying future AI capabilities that could cause severe harm and putting in place mechanisms to detect and mitigate them.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0063#3",
+          "locator": "Post header",
+          "text": "May 17, 2024 Responsibility & Safety",
+          "retrieved": "2026-11-06"
         }
       ]
     },
