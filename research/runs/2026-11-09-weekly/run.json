@@ -243,6 +243,95 @@
           ]
         }
       ]
+    },
+    {
+      "area": "B3: AI safety/security institutes, evaluators, NIST/CAISI guidance; sector regulators; compute and export controls (since the 2026-11-06 run)",
+      "summary": "Federal Register API queried for the first time this cycle: no BIS rule on advanced computing, AI chips or model weights since the 14 Jul 2026 UAE rule; on 9 Nov BIS extended the suspension of the Entity List affiliates rule to 10 Jan 2027 (not an advanced-computing control). NIST's CAISSI and CAISI listings show nothing newer than the 16 Oct incident key practices; FR shows no NIST AI notice since 1 Oct. UK: SI 2026/425 (in force 12 May 2026) obliges the data-protection regulator to prepare a statutory AI/ADM code — drafted as an update to uk-ico. Ofcom's NCII hash-matching (laid 1 Jun 2026) and crisis-response amendments (laid Jun 2026) were seen via GOV.UK; no s.216A regulations found. AISI's 12 Oct post on technical best practice (55+ models evaluated pre-release; voluntary) and METR's 22 Oct red-team of OpenAI's internal agent monitoring are newer than the 6 Nov findings.",
+      "queries": [
+        "FR API: agencies=industry-and-security-bureau, publication_date>=2026-07-15",
+        "FR API: BIS term 'advanced computing' since 2026-05-01",
+        "FR API: BIS term 'model weights' since 2026-01-01",
+        "FR API: FTC term 'artificial intelligence' since 2026-07-08",
+        "FR API: NIST since 2026-10-01",
+        "BIS export controls AI chips model weights new rule November 2026",
+        "Data (Use and Access) Act 2025 Information Commission code of practice artificial intelligence automated decision-making regulations 2026",
+        "Ofcom intimate image abuse hash matching measure illegal content codes amendment in force 2026",
+        "gov.uk Protection of Children Codes of Practice amendments 2026",
+        "Online Safety Act section 216A regulations AI chatbots",
+        "direct: nist.gov/caissi, CAISI news tag, aisi.gov.uk/blog, metr.org/blog"
+      ],
+      "limits": "ico.org.uk, ofcom.org.uk, ftc.gov and esafety.gov.au not attempted (known refusers; an ico.org.uk attempt was blocked by policy). doi.colorado.gov and meti.go.jp returned HTTP 403 and mas.gov.sg a maintenance page on 9 Nov. Light slice: only items newer than the 6 Nov run were followed up; Apollo, AVERI, CAIS, FSI pages not re-searched.",
+      "candidates": [
+        {
+          "name": "Data Protection Act 2018 (Code of Practice on AI and Automated Decision-Making) Regulations 2026 (SI 2026/425, in force 12 May 2026)",
+          "result": "update to existing entry",
+          "reason": "Statutory duty on the UK data-protection regulator to produce an AI/ADM code; recorded on uk-ico rather than as a new entry",
+          "proposal": "P-0193",
+          "sources": [
+            "S-0371"
+          ]
+        },
+        {
+          "name": "BIS: Extension of the suspension of the affiliates rule (FR 2026-22793, 9 Nov 2026, to 10 Jan 2027)",
+          "result": "screened out",
+          "reason": "Entity List affiliates (50%) rule, not a control on advanced computing items or model weights; the bis entry does not describe the affiliates rule",
+          "sources": [
+            "S-0376",
+            "S-0374"
+          ]
+        },
+        {
+          "name": "BIS advanced-computing or model-weight rules since Oct 2026",
+          "result": "screened out",
+          "reason": "None published in the Federal Register (latest advanced-computing rule: UAE favourable treatment, 14 Jul 2026)",
+          "sources": [
+            "S-0375",
+            "S-0374"
+          ]
+        },
+        {
+          "name": "Ofcom NCII hash-matching amendment (laid 1 Jun 2026) and crisis-response amendments to illegal-content and children's codes (laid Jun 2026)",
+          "result": "update to existing entry",
+          "reason": "Amend existing codes (uk-ofcom cov:mit already mentions NCII); in-force date of the NCII amendment only in secondary reports (30 Sep 2026)",
+          "sources": [
+            "S-0244",
+            "S-0369"
+          ]
+        },
+        {
+          "name": "UK AISI 'Towards technical best practice for frontier AI development' (12 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Position paper on voluntary best practice following a 22 Sep PM commitment; AISI says it is not seeking to mandate requirements; notes 55+ models evaluated pre-release. Not a new mechanism",
+          "sources": [
+            "S-0368"
+          ]
+        },
+        {
+          "name": "METR/Redwood red-team of OpenAI's internal agent monitoring (22 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Pilot high-access exercise with OpenAI; evidence for the metr entry (outside group R3), alongside the Anthropic Risk Report reviews logged on 6 Nov",
+          "sources": [
+            "S-0377"
+          ]
+        },
+        {
+          "name": "NIST CAISSI guidance newer than the 16 Oct incident key practices",
+          "result": "screened out",
+          "reason": "No newer item on the CAISSI page or CAISI news listing; no NIST AI notice in the FR since 1 Oct",
+          "sources": [
+            "S-0174",
+            "S-0176"
+          ]
+        },
+        {
+          "name": "UK s.216A regulations extending the OSA to AI services",
+          "result": "screened out",
+          "reason": "No regulations found; the power exists (CPA 2026 s.248) and is already on the map",
+          "sources": [
+            "S-0245"
+          ]
+        }
+      ]
     }
   ],
   "usage": null

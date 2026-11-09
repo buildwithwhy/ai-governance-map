@@ -1,5 +1,5 @@
 {
-  "next": 368,
+  "next": 380,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -2786,6 +2786,12 @@
           "locator": "Sec. 1",
           "text": "because we refuse to stifle this innovation with overly burdensome regulation",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0038#16",
+          "locator": "Sec. 3(b)",
+          "text": "design a voluntary framework with AI developers through which developers would be able to: (i) engage the Federal Government to determine whether model(s) under development meet the designation of ‘‘covered frontier model’’;",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -14045,6 +14051,18 @@
           "locator": "About",
           "text": "Work with NIST organizations to develop guidelines and best practices to measure and improve the security of SI systems, and work with NIST staff to assist industry to develop voluntary standards.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0174#12",
+          "locator": "Page title",
+          "text": "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0174#13",
+          "locator": "About, first bullet",
+          "text": "Establish voluntary agreements with private sector SI developers and evaluators, and lead unclassified evaluations of SI capabilities that may pose risks to national security.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -14131,6 +14149,18 @@
           "locator": "Sec. 2(a)",
           "text": "agencies shall use ‘‘Super Intelligence’’ and ‘‘SI’’ in place of ‘‘Artificial Intelligence’’ and ‘‘AI’’ in official correspondence, public communications, websites, reports, policy documents, and other non-statutory documents within the executive branch.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0175#7",
+          "locator": "Heading",
+          "text": "Executive Order 14434 of September 29, 2026 Inaugurating the Era of Super Intelligence",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0175#8",
+          "locator": "Sec. 2(a)",
+          "text": "executive departments and agencies (agencies) shall use ‘‘Super Intelligence’’ and ‘‘SI’’ in place of ‘‘Artificial Intelligence’’ and ‘‘AI’’ in official correspondence, public communications, websites, reports, policy documents, and other nonstatutory documents within the executive branch.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -14238,6 +14268,18 @@
           "locator": "whole listing, page 1 (25 of 37 items)",
           "text": "[Observation, not a quotation] Listing now has 37 items; the only addition since 10 Oct is the 16 Oct 2026 incident-readiness item. The 2026 items are guidance, agreements (OpenMined CRADA, GSA MOU) and assessments of released open-weight PRC models (DeepSeek V4 Pro, GLM-5.2, Kimi K3, GLM-5.3). No 2026 item describes pre-deployment testing of a model, and there is still no 5 May 2026 testing-agreement announcement with Google DeepMind, Microsoft or xAI.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0176#11",
+          "locator": "Listing, 20 Nov 2024 item (editor's note)",
+          "text": "In June 2025, AISI was re-established as the Center for AI Standards and Innovation (CAISI) by Secretary of Commerce Howard Lutnick.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0176#12",
+          "locator": "Listing, newest item",
+          "text": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation October 16, 2026",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -14522,6 +14564,30 @@
           "locator": "Banner",
           "text": "The AI RMF 1.0 is being revised as part of the White House AI Action Plan.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0182#8",
+          "locator": "Overview",
+          "text": "Released on January 26, 2023, the Framework was developed through a consensus-driven, open, transparent, and collaborative process",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0182#9",
+          "locator": "Overview",
+          "text": "On July 26, 2024, NIST released NIST-AI- 600-1, Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile .",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0182#10",
+          "locator": "Overview",
+          "text": "On April 7, 2026, NIST released a concept note for an AI RMF Profile on Trustworthy AI in Critical Infrastructure .",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0182#11",
+          "locator": "Overview",
+          "text": "The AI RMF 1.0 is being revised as part of the White House AI Action Plan.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -15391,6 +15457,18 @@
           "locator": "Backed with the resources we need",
           "text": "Pre-deployment access to leading AI models and close collaborations with AI companies",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0194#5",
+          "locator": "Organisation — Our work includes",
+          "text": "Testing leading AI systems before they are released publicly and collaborating with top AI companies to improve their safety and security",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0194#6",
+          "locator": "Backed with the resources we need",
+          "text": "Pre-deployment access to leading AI models and close collaborations with AI companies that give us privileged access to their development approaches",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -15458,6 +15536,18 @@
           "locator": "para 2",
           "text": "This new name will reflect its focus on serious AI risks with security implications, such as how the technology can be used to develop chemical and biological weapons, how it can be used to carry out cyber-attacks",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0195#4",
+          "locator": "News story, para 2",
+          "text": "This new name will reflect its focus on serious AI risks with security implications, such as how the technology can be used to develop chemical and biological weapons, how it can be used to carry out cyber-attacks, and enable crimes such as fraud and child sexual abuse.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0195#5",
+          "locator": "Whole release",
+          "text": "[Observation, not a quotation] Searched the release for 'autonom' and for 'CAISI'/'Center for AI Standards': neither occurs. The rename's stated focus is chemical and biological weapons, cyber-attacks and crime (fraud, child sexual abuse).",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -15466,7 +15556,9 @@
       "title": "Frontier AI Trends Report",
       "publisher": "UK AI Security Institute",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "published": "2025-12"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
@@ -15529,6 +15621,12 @@
           "locator": "Methods",
           "text": "Expert red-teaming with human subject-matter experts to stress-test critical risks, such as creating custom jailbreaks for AI systems’ safeguards.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0196#5",
+          "locator": "Safeguards section",
+          "text": "We’ve found universal jailbreaks for every system we’ve tested.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -15537,7 +15635,9 @@
       "title": "Frontier AI Trends Report (PDF)",
       "publisher": "UK AI Security Institute",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "published": "2025-12"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
@@ -15588,6 +15688,12 @@
           "locator": "PDF metadata and file name",
           "text": "[Observation, not a quotation] The PDF linked from the report page is named 'Frontier AI Trends Report - UK AISI 2025'; its metadata gives CreationDate 15 Dec 2025 and ModDate 18 Dec 2025. The AISI blog listing (Feb–Oct 2026) shows no later edition of the report.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0197#3",
+          "locator": "Cover",
+          "text": "2025 DECEMBER Al Security Institute Frontier Al Trends Report",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -17517,6 +17623,12 @@
           "locator": "The translation layer",
           "text": "Running through all three programs is one job: translation.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0222#10",
+          "locator": "Whole page",
+          "text": "[Observation, not a quotation] Searched FSI's home and labs pages for 'Executive Order', '14409' and 'access framework': none occurs; FSI does not itself describe a link to the EO.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -17606,6 +17718,12 @@
           "locator": "02 Translation",
           "text": "Turning technical findings into the forms operators, program offices, and acquisition leaders can act on, without losing technical fidelity.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0223#8",
+          "locator": "Intro",
+          "text": "We translate what they’re seeing into terms government can use, and bring both sides to the same table.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -17994,6 +18112,18 @@
           "locator": "press release, para 2",
           "text": "The AI Diffusion Rule also would have undermined U.S. diplomatic relations with dozens of countries by downgrading them to second-tier status.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0229#4",
+          "locator": "Release",
+          "text": "BIS plans to publish a regulation formalizing the rescission and will issue a replacement rule in the future.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0229#5",
+          "locator": "Release",
+          "text": "has instructed BIS enforcement officials not to enforce the Biden Administration’s AI Diffusion Rule",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -18061,6 +18191,24 @@
           "locator": "para 2",
           "text": "In May 2025, BIS announced that it would not be enforcing the AI Diffusion Rule’s new compliance requirements.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0230#4",
+          "locator": "Para 1",
+          "text": "a license is required to export advanced computing items to entities headquartered in Country Group D:5 … or Macau or with an ultimate parent company headquartered in Country Group D:5 or Macau – even if the entities themselves are located outside Country Group D:5 or Macau.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0230#5",
+          "locator": "Para 1",
+          "text": "This license requirement was first introduced on November 17, 2023.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0230#6",
+          "locator": "Para 2",
+          "text": "In May 2025, BIS announced that it would not be enforcing the AI Diffusion Rule’s new compliance requirements.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -18117,6 +18265,12 @@
           "locator": "abstract",
           "text": "controls on advanced computing integrated circuits (ICs) and adds a new control on artificial intelligence (AI) model weights for certain advanced closed-weight dual-use AI models",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0231#2",
+          "locator": "abstract",
+          "text": "adds a new control on artificial intelligence (AI) model weights for certain advanced closed-weight dual-use AI models",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -18172,6 +18326,12 @@
           "locator": "Supplementary Information, model weights discussion",
           "text": "BIS is requiring a license to export, reexport, or transfer (in-country) the model weights of any closed-weight AI model—i.e., a model with weights that are not published—that has been trained on more than 10[^26] computational operations.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0232#2",
+          "locator": "Supplementary information (model weights control)",
+          "text": "a model with weights that are not published— that has been trained on more than 1026 computational operations",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -18302,6 +18462,24 @@
           "locator": "Dates",
           "text": "The effective date of this rule is January 15, 2026.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0234#4",
+          "locator": "Summary",
+          "text": "The Bureau of Industry and Security (BIS) is revising its license review policy for exports of certain semiconductors to China and Macau— changing it from a presumption of denial to a case-by-case review.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0234#5",
+          "locator": "Supplementary information",
+          "text": "such as the NVIDIA H200 or AMD MI325X",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0234#6",
+          "locator": "License conditions",
+          "text": "including but not limited to the ‘total processing performance,’ ‘total DRAM bandwidth,’ ‘interconnect bandwidth,’ and ‘copackaged DRAM capacity’",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -18599,6 +18777,24 @@
           "locator": "footnote 1",
           "text": "Executive Office of the President, Winning the Race: America’s AI Action Plan at 1 (July 2025)",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0238#10",
+          "locator": "Heading",
+          "text": "ACTION: Proposed policy statement; request for comments.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0238#11",
+          "locator": "Section IV",
+          "text": "State law is impliedly preempted to the extent it conflicts with a Federal regulatory scheme. A State law that requires an AI firm to deceive its consumers obviously conflicts with section 5’s express purpose of protecting consumers from such conduct.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0238#12",
+          "locator": "Footnote 34",
+          "text": "the Commission has already taken steps to address these unnecessary burdens, for example, by setting aside the previous Commission’s order against a generative AI company. See Order Reopening and Setting Aside Order at 5, In re Rytr LLC, FTC Docket C–4806 (Dec. 22, 2025)",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -18800,7 +18996,9 @@
       "title": "Online Safety Act 2023, section 7 (Providers of user-to-user services: duties of care)",
       "publisher": "legislation.gov.uk",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "adopted": "2023-10-26"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
@@ -18851,6 +19049,18 @@
           "locator": "s. 7(5)",
           "text": "All providers of Category 1 services must comply with the following duties in relation to each such service which they provide",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0241#3",
+          "locator": "s. 7(2)(b)",
+          "text": "All providers of regulated user-to-user services must comply with the following duties in relation to each such service which they provide— … the duties about illegal content set out in section 10(2) to (8)",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0241#4",
+          "locator": "s. 7(5)",
+          "text": "All providers of Category 1 services must comply with the following duties in relation to each such service which they provide—",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -18909,7 +19119,7 @@
       "publisher": "Ofcom / GOV.UK",
       "type": "primary",
       "dates": {
-        "published": "2025-01-09"
+        "published": "2024-12-16"
       },
       "fetches": [
         {
@@ -18967,6 +19177,18 @@
           "locator": "whole document (87 pages)",
           "text": "[Observation, not a quotation] Searched the full text of the user-to-user Illegal content Codes of Practice for \"generative\", \"artificial intelligence\", \"AI\", \"deepfake\", \"provenance\", \"authenticat\" and \"watermark\": none occurs (the only \"generated\" hits refer to user-generated content). The codes contain no AI-specific measure on image-generation safeguards or content authentication.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0243#4",
+          "locator": "Measure ICU C9",
+          "text": "ICU C9 Using hash matching to detect and remove CSAM",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0243#5",
+          "locator": "Whole document",
+          "text": "[Observation, not a quotation] Searched the full codes for 'artificial', 'generative' and the standalone word 'AI': none occurs; no measure addresses AI-generated content or content authentication.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -18976,7 +19198,7 @@
       "publisher": "DSIT / GOV.UK",
       "type": "primary",
       "dates": {
-        "published": "2026-06-01"
+        "published": "2026-06"
       },
       "fetches": [
         {
@@ -19040,6 +19262,18 @@
           "locator": "para 5.3",
           "text": "The first Ofcom codes of practice for the illegal content safety duties came into force in March 2025.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0244#5",
+          "locator": "para 5.8",
+          "text": "the illegal content codes of practice already contained recommended measures for tackling illegal image-based abuse more generally and for using proactive technology in relation to child sexual abuse material. However, they did not include a specific recommended measure on perceptual hash-matching for NCII.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0244#6",
+          "locator": "para 6.5",
+          "text": "the Secretary of State is laying the draft amendment to the codes of practice before Parliament for scrutiny.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -19049,7 +19283,8 @@
       "publisher": "legislation.gov.uk",
       "type": "primary",
       "dates": {
-        "in_force": "2026-04-29"
+        "in_force": "2026-04-29",
+        "adopted": "2026-04-29"
       },
       "fetches": [
         {
@@ -19113,6 +19348,24 @@
           "locator": "Commencement Information",
           "text": "S. 248 in force at Royal Assent",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0245#5",
+          "locator": "new s. 216A(1)",
+          "text": "the Secretary of State may by regulations amend any provision of this Act for or in connection with the purposes of minimising or mitigating the risks of harm to individuals in the United Kingdom presented by— (a) illegal AI-generated content;",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0245#6",
+          "locator": "new s. 216A(2)",
+          "text": "“ AI service ” means an internet service that is capable (or part of which is capable) of generating AI-generated content",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0245#7",
+          "locator": "new s. 216A(8)(c)(ii)",
+          "text": "Chapter 6 of Part 7 (enforcement), including provisions of that Chapter conferring power for OFCOM to impose monetary penalties",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -19168,6 +19421,12 @@
           "locator": "press release, para 4",
           "text": "The government will move fast to shut a legal loophole and force all AI chatbot providers to abide by illegal content duties in the Online Safety Act or face the consequences of breaking the law.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0246#2",
+          "locator": "Body",
+          "text": "The government will move fast to shut a legal loophole and force all AI chatbot providers to abide by illegal content duties in the Online Safety Act or face the consequences of breaking the law.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -19398,6 +19657,12 @@
           "locator": "s. 157(5)(a)",
           "text": "in the case of an undertaking, … £17,500,000 … or 4% of the undertaking's total annual worldwide turnover in the preceding financial year, whichever is higher",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0250#2",
+          "locator": "s. 157(5)(a)",
+          "text": "in the case of an undertaking, [£17,500,000] or 4% of the undertaking's total annual worldwide turnover in the preceding financial year, whichever is higher",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -20091,6 +20356,30 @@
           "locator": "Whole page (search)",
           "text": "[Observation, not a quotation] Searched the expanded page for 'Digital Trust', 'NTU' and 'AI Safety Institute': it never describes IMDA as hosting the Digital Trust Centre; the only AISI mention is a reference to 'Singapore AI Safety Institute's testing work' feeding IMDA's Agentic Testing Starter Kit.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0260#16",
+          "locator": "AI Verify Foundation",
+          "text": "IMDA established the AI Verify Foundation — a not-for-profit body that harnesses the open-source community to advance responsible AI testing worldwide. The Foundation has nine premier members (AWS, Dell, Google, IBM, IMDA, Microsoft, Red Hat, Resaro and Salesforce) and more than 180 general members.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0260#17",
+          "locator": "AI Verify",
+          "text": "AI Verify was developed in consultation with companies of different sizes and sectors — including AWS, DBS, Google, Meta, Microsoft, Singapore Airlines, NCS/LTA, Standard Chartered, UCARE.AI, and X0PA.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0260#18",
+          "locator": "AI Verify Testing (AIVT)",
+          "text": "Hosted on GitHub and governed by the AI Verify Foundation’s open-source community, AIVT continues to evolve.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0260#19",
+          "locator": "Whole page",
+          "text": "[Observation, not a quotation] Searched the rendered page for evidence that frontier labs (OpenAI, Anthropic, Google DeepMind) use AI Verify on their models, and for ASEAN adoption of it as a template: neither is stated. The page lists consultation with AWS, Google, Meta and Microsoft and a pilot with 50+ companies.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -21928,6 +22217,12 @@
           "locator": "speech text",
           "text": "It will seek to establish the appropriate legislation to place requirements on those working to develop the most powerful artificial intelligence models.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0286#2",
+          "locator": "Speech text",
+          "text": "It will seek to establish the appropriate legislation to place requirements on those working to develop the most powerful artificial intelligence models.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -21995,6 +22290,12 @@
           "locator": "Whole speech (retrieved 2026-11-06)",
           "text": "[Observation, not a quotation] [Observation, not a quotation] Searched today's copy for 'artificial intelligence', 'AI' (as a word) and 'AI Security Institute': none appear; no AI bill is announced. Only page furniture changed (a few bytes).",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0287#4",
+          "locator": "Whole speech",
+          "text": "[Observation, not a quotation] Searched the speech text for 'artificial intelligence' and 'AI': neither occurs; no AI bill is announced.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -22004,7 +22305,7 @@
       "publisher": "UK Government (Prime Minister's Office)",
       "type": "primary",
       "dates": {
-        "published": "2026-05-28"
+        "published": "2026-05-13"
       },
       "fetches": [
         {
@@ -22056,6 +22357,18 @@
           "locator": "whole document",
           "text": "[Observation, not a quotation] Searched the briefing notes for a frontier-AI or AI Security Institute bill: none is listed. AI appears in the Regulating for Growth Bill (sandboxes) and in background to the cyber bill.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0288#3",
+          "locator": "Contents / bill list",
+          "text": "[Observation, not a quotation] Searched the briefing notes' list of bills and full text for an AI bill or legislation on developers of the most powerful AI models: none. AI appears only in the Regulating for Growth Bill (sandboxes) and the Cyber Security and Resilience Bill background (AISI's cyber testing).",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0288#4",
+          "locator": "Cyber Security and Resilience Bill, key facts",
+          "text": "The UK has also established the AI Security Institute which provides the Government with a world-leading capability for understanding AI cyber capabilities.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -24722,6 +25035,18 @@
           "locator": "Para. 1",
           "text": "CAISI will conduct pre-deployment evaluations and targeted research to better assess frontier AI capabilities and advance the state of AI security.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0331#4",
+          "locator": "Bulletin header",
+          "text": "National Institute of Standards and Technology (NIST) sent this bulletin at 05/05/2026",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0331#5",
+          "locator": "Body",
+          "text": "CAISI will conduct pre-deployment evaluations and targeted research to better assess frontier AI capabilities and advance the state of AI security.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -24788,6 +25113,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "28ee6ce418657dcd",
           "bytes": 22537
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:56Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog/how-were-working-with-frontier-ai-developers-to-improve-model-security",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "28ee6ce418657dcd",
+          "bytes": 22537
         }
       ],
       "passages": [
@@ -24802,6 +25139,12 @@
           "locator": "Para. 4",
           "text": "Our evaluations benefited from both Anthropic and OpenAI providing us with the in-depth model access necessary to carry out this work",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0333#3",
+          "locator": "Standfirst",
+          "text": "Insights into our ongoing voluntary collaborations with Anthropic and OpenAI.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -24993,6 +25336,42 @@
           "locator": "Whole compilation (search)",
           "text": "[Observation, not a quotation] Searched the full text of Compilation No. 4 (12 Sep 2026) for 'artificial', 'generative', 'algorithm', 'machine learning' and 'chatbot': none occurs. The Act confers general online-safety powers (complaints, removal notices, codes, standards, penalties) with no AI-specific provision.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0338#5",
+          "locator": "s. 143(2)",
+          "text": "A person must comply with a direction under subsection (1). Civil penalty: 30,000 penalty units.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0338#6",
+          "locator": "s. 146(1)",
+          "text": "the person must comply with the industry standard. Civil penalty: 30,000 penalty units.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0338#7",
+          "locator": "Table of contents, Part 9",
+          "text": "158 Federal Court may order a person to cease providing a designated internet service",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0338#8",
+          "locator": "Table of contents, Part 6",
+          "text": "65 Removal notice given to the provider of a social media service, relevant electronic service or designated internet service",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0338#9",
+          "locator": "Part 4 / Part 6 notice provisions (e.g. service provider notifications)",
+          "text": "[Observation, not a quotation] Searched the compilation for civil penalty amounts: provisions on complying with removal and other notices carry 'Civil penalty: 500 penalty units', while s. 143(2) (code direction) and s. 146(1) (industry standard) carry 30,000 penalty units.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0338#10",
+          "locator": "s. 145(1)",
+          "text": "The Commissioner may, by legislative instrument, determine a standard that applies to participants in a particular section of the online industry if:",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -25002,7 +25381,7 @@
       "publisher": "Federal Register of Legislation (Australia)",
       "type": "primary",
       "dates": {
-        "adopted": "2024-06-19",
+        "adopted": "2024-06-21",
         "published": "2024-06-21"
       },
       "fetches": [
@@ -25043,6 +25422,24 @@
           "locator": "s 6 General definitions, 'high impact generative AI DIS'",
           "text": "high impact generative AI DIS means a designated internet service that: (a) uses machine learning models to enable an end-user to produce material; and (b) is capable of being used to generate synthetic high impact material",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0339#3",
+          "locator": "s. 6 definitions",
+          "text": "high impact generative AI DIS means a designated internet service that: (a) uses machine learning models to enable an end-user to produce material;",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0339#4",
+          "locator": "s. 20(1)–(2)",
+          "text": "Detecting and removing known child sexual abuse material (1) This section applies to the following: (a) a Tier 1 designated internet service; (b) an end-user managed hosting service; (c) a high impact generative AI DIS.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0339#5",
+          "locator": "s. 21 note",
+          "text": "For a high impact generative AI DIS, compliance with this subsection may require the provider to assess whether inputs into the service contain pro-terror material.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -25148,6 +25545,18 @@
           "locator": "Section 11 History",
           "text": "New regulation effective November 14, 2023. Amended regulation effective October 15, 2025.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0341#7",
+          "locator": "Section 5.A.11 (assumptions)",
+          "text": "including the methodology, assumptions, results, and steps taken to address unfairly",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0341#8",
+          "locator": "Section 6.D (reports)",
+          "text": "an officer attesting to compliance with this regulation",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -26281,6 +26690,396 @@
           "id": "S-0367#1",
           "locator": "Introduction",
           "text": "Starting in November, New York will direct large frontier AI developers to register with the State and prepare for compliance with strict requirements on transparency, safety, and incident reporting as prescribed by the RAISE Act.",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0368": {
+      "url": "https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development",
+      "title": "Towards technical best practice for frontier AI development",
+      "publisher": "UK AI Security Institute",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-12"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:56Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "90f83ba83d213b01",
+          "bytes": 33940
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0368#1",
+          "locator": "Introduction, para 3",
+          "text": "AISI is not seeking to mandate requirements for frontier developers, but to contribute our expertise to an industry-wide effort to advance technical standards and best practice.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0368#2",
+          "locator": "How voluntary action already shapes AI development",
+          "text": "Much of how frontier developers manage risk today is voluntary. Developers publish safety frameworks, share models with third parties for pre-release evaluation and, most recently, have begun embedding third-party evaluators.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0368#3",
+          "locator": "How voluntary action already shapes AI development, para 2",
+          "text": "Working with industry, we have independently evaluated more than 55 models before release",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0369": {
+      "url": "https://www.gov.uk/government/publications/online-safety-act-draft-amendments-to-the-protection-of-children-code-of-practice-for-user-to-user-services/explanatory-memorandum-draft-amendments-no-2-to-the-illegal-content-codes-of-practice-for-user-to-user-services-and-draft-amendments-to-the-protec",
+      "title": "Explanatory Memorandum: Draft Amendments No. 2 to the Illegal Content Codes of Practice for user-to-user services and Draft Amendments to the Protection of Children Code",
+      "publisher": "DSIT / GOV.UK",
+      "type": "primary",
+      "dates": {
+        "published": "2026-06-18"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:58Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/publications/online-safety-act-draft-amendments-to-the-protection-of-children-code-of-practice-for-user-to-user-services/explanatory-memorandum-draft-amendments-no-2-to-the-illegal-content-codes-of-practice-for-user-to-user-services-and-draft-amendments-to-the-protec",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "32fef6dde52946db",
+          "bytes": 138005
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0369#1",
+          "locator": "para 11.1",
+          "text": "The amendments to the Illegal Content Codes of Practice for User-to-User Services duties follows other amendments laid on 1 June 2026 relating to hash-matching for non-consensual intimate images.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0369#2",
+          "locator": "para 5.3",
+          "text": "The first Ofcom codes of practice for the protection of children duties then came into force in April 2025",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0370": {
+      "url": "https://www.legislation.gov.uk/uksi/2026/1015/made",
+      "title": "Data (Use and Access) Act 2025 (Commencement No. 9 and Transitional and Saving Provisions) Regulations 2026 (SI 2026/1015)",
+      "publisher": "legislation.gov.uk",
+      "type": "primary",
+      "dates": {
+        "in_force": "2026-09-30"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:58Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.uk/uksi/2026/1015/made",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "4c13f6c5ad61a3e6",
+          "bytes": 50231
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0370#1",
+          "locator": "reg. 2",
+          "text": "The following provisions of the Data (Use and Access) Act 2025 come into force on 30th September 2026— … section 118 (abolition of the office of Information Commissioner);",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0371": {
+      "url": "https://www.legislation.gov.uk/uksi/2026/425/made",
+      "title": "The Data Protection Act 2018 (Code of Practice on Artificial Intelligence and Automated Decision-Making) Regulations 2026 (SI 2026/425)",
+      "publisher": "legislation.gov.uk",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-04-16",
+        "in_force": "2026-05-12"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:59Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.uk/uksi/2026/425/made",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "fc595e2004f4bd6a",
+          "bytes": 33536
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0371#1",
+          "locator": "Header",
+          "text": "Made 16th April 2026 Laid before Parliament 21st April 2026 Coming into force 12th May 2026",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0371#2",
+          "locator": "reg. 2(1)",
+          "text": "The Commissioner must prepare an appropriate code of practice giving guidance as to good practice in the processing of personal data … in relation to— (a) developing and using artificial intelligence, and (b) automated decision-making.",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0372": {
+      "url": "https://aiverifyfoundation.sg/resources/mgf-gen-ai/",
+      "title": "Model AI Governance Framework for Generative AI",
+      "publisher": "AI Verify Foundation / IMDA",
+      "type": "primary",
+      "dates": {
+        "published": "2024-05-30"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:16:01Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://aiverifyfoundation.sg/resources/mgf-gen-ai/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "287cc6928e44a416",
+          "bytes": 179266
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0372#1",
+          "locator": "Background",
+          "text": "The feedback received on the Proposed Framework was instructive in finalising MGF for GenAI, released on 30 May 2024.",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0373": {
+      "url": "https://www.federalregister.gov/api/v1/documents/2022-21658.json",
+      "title": "Federal Register API record for FR Doc. 2022-21658, Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items",
+      "publisher": "Federal Register (BIS)",
+      "type": "primary",
+      "dates": {
+        "published": "2022-10-13"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:16:02Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.federalregister.gov/api/v1/documents/2022-21658.json",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "26a786cdc066d804",
+          "bytes": 6461
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0373#1",
+          "locator": "abstract",
+          "text": "BIS is amending the Export Administration Regulations (EAR) to implement necessary controls on advanced computing integrated circuits (ICs), computer commodities that contain such ICs, and certain semiconductor manufacturing items.",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0374": {
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau&conditions%5Bpublication_date%5D%5Bgte%5D=2026-07-15&per_page=100&order=newest",
+      "title": "Federal Register API: BIS documents published since 15 Jul 2026 (21 results, retrieved 2026-11-09)",
+      "publisher": "Federal Register",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:16:03Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau&conditions%5Bpublication_date%5D%5Bgte%5D=2026-07-15&per_page=100&order=newest",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "8c733526ff95179f",
+          "bytes": 37707
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0374#1",
+          "locator": "results (21)",
+          "text": "[Observation, not a quotation] Listed all 21 BIS documents published 15 Jul–9 Nov 2026: none concerns advanced computing items, AI chips or model weights. They are tariffs, Entity List edits, drone and firearms rules, temporary denial orders, information collections, and the 9 Nov extension of the affiliates-rule suspension.",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0375": {
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau&conditions%5Bterm%5D=advanced+computing&conditions%5Bpublication_date%5D%5Bgte%5D=2026-05-01&per_page=100&order=newest",
+      "title": "Federal Register API: BIS documents matching 'advanced computing' since 1 May 2026",
+      "publisher": "Federal Register",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:16:04Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau&conditions%5Bterm%5D=advanced+computing&conditions%5Bpublication_date%5D%5Bgte%5D=2026-05-01&per_page=100&order=newest",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "f1f1786ef179dee3",
+          "bytes": 3085
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0375#1",
+          "locator": "results",
+          "text": "Enhanced Favorable Treatment for the United Arab Emirates Under the Export Administration Regulations",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0376": {
+      "url": "https://www.federalregister.gov/api/v1/documents/2026-22793.json",
+      "title": "Federal Register API record for FR Doc. 2026-22793, Extension of the Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities",
+      "publisher": "Federal Register (BIS)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-09",
+        "effective": "2026-11-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:16:04Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.federalregister.gov/api/v1/documents/2026-22793.json",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "6c665ef186f0024d",
+          "bytes": 3344
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0376#1",
+          "locator": "abstract",
+          "text": "The suspension was set to end November 9, 2026. This final rule extends the suspension through January 10, 2027.",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0377": {
+      "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+      "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems",
+      "publisher": "METR",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-22"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:16:04Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "370e8d7967150758",
+          "bytes": 72681
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0377#1",
+          "locator": "Intro",
+          "text": "a METR employee and a Redwood Research employee conducted a pilot high-access exercise to stress-test OpenAI’s internal misalignment monitoring system.",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0378": {
+      "url": "https://www.aisi.gov.uk/blog",
+      "title": "AISI Blog",
+      "publisher": "UK AI Security Institute",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:16:05Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "8bcc85fd1ba4cbe2",
+          "bytes": 150894
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0378#1",
+          "locator": "Listing",
+          "text": "Pretraining data filtering in open-weight biological models",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0379": {
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=%22artificial+intelligence%22&conditions%5Bagencies%5D%5B%5D=federal-trade-commission&conditions%5Bpublication_date%5D%5Bgte%5D=2026-07-08&per_page=50&order=newest",
+      "title": "Federal Register API: FTC documents matching \"artificial intelligence\" since 8 Jul 2026",
+      "publisher": "Federal Register",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:16:05Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=%22artificial+intelligence%22&conditions%5Bagencies%5D%5B%5D=federal-trade-commission&conditions%5Bpublication_date%5D%5Bgte%5D=2026-07-08&per_page=50&order=newest",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "1cbef740860c0329",
+          "bytes": 1955
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0379#1",
+          "locator": "results (1)",
+          "text": "[Observation, not a quotation] Only one FTC document matching \"artificial intelligence\" was published 8 Jul–9 Nov 2026: the Rule on Impersonation of Government and Businesses (proposed rule, 1 Oct 2026). No final AI policy statement.",
           "retrieved": "2026-11-09"
         }
       ]

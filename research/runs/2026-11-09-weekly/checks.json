@@ -989,5 +989,347 @@
     "note": "Name matches the short title; layer 3, uss; pow 4 (AG actions, up to $200,000 per uncurable violation); active (effective 1 Jan 2026); link is the enrolled text.",
     "missing": null,
     "hash": "5d3331a6f5b1"
+  },
+  "entry:uk-aisi:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0195",
+      "S-0194",
+      "S-0333",
+      "S-0368",
+      "S-0196",
+      "S-0197",
+      "S-0286",
+      "S-0287",
+      "S-0288"
+    ],
+    "proposals": [
+      "P-0192"
+    ],
+    "note": "All facts confirmed except the rename's focus list: the 14 Feb 2025 release names chem/bio weapons, cyber attacks and crime, not autonomy. 'Aligned framing with US CAISI' is analytic (and CAISI postdates the rename).",
+    "missing": null,
+    "hash": "6b426fd5fd39"
+  },
+  "entry:caisi:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0176",
+      "S-0174",
+      "S-0331",
+      "S-0175"
+    ],
+    "proposals": [],
+    "note": "June 2025 re-establishment as CAISI by the Commerce Secretary (nist-caisi-news p1); within NIST and now titled CAISSI (caissi p1); EO 14434 of 29 Sep 2026 substitutes 'Super Intelligence' for 'AI' in executive-branch usage (eo14434 p1–p2); 2026 pre-deployment testing capacity shown by the 5 May 2026 agreements for pre-deployment evaluations (nist-bulletin p1–p2) and CAISSI's voluntary-agreement mandate (caissi p2). 'Drop safety framing' consistent with the CAISSI mission text.",
+    "missing": null,
+    "hash": "d6cf54e98c5c"
+  },
+  "entry:uk-ofcom:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0241",
+      "S-0244",
+      "S-0243",
+      "S-0245",
+      "S-0246"
+    ],
+    "proposals": [],
+    "note": "Illegal-content duties apply to all regulated user-to-user services with extra duties for Category 1 (osa-s7 p1–p2); codes in force Mar 2025 and recommend proactive CSAM technology (ofcom-em p1, p3; ofcom-codes p1) with no AI-specific provision (ofcom-codes p2); CPA 2026 s.248 inserts s.216A letting the Secretary of State extend duties and Ofcom's enforcement powers to AI services by regulations (cpa-s248 p1–p3), aimed at AI chatbots (pm-nofreepass p1). The closing sentence on how labs ship generators is a characterisation, not checked.",
+    "missing": null,
+    "hash": "e6faf43b9e72"
+  },
+  "entry:uk-ofcom:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0244",
+      "S-0369",
+      "S-0243"
+    ],
+    "proposals": [],
+    "note": "Confirmed: code measures are recommended, not mandatory, and following them counts as compliance (ofcom-em p2); CSAM hash matching (ofcom-codes p1); no AI-specific measures (ofcom-codes p2); the NCII hash-matching amendment was laid before Parliament on 1 Jun 2026 (em-no2 p1; ofcom-em p4). Not confirmed from a primary text: that the NCII measure is now in force ('was added') and that the children's codes recommend age assurance.",
+    "missing": "Ofcom's statement or the issued codes showing the NCII hash-matching amendment in force (secondary reports say 30 Sep 2026) and the Protection of Children Codes' age-assurance measures; ofcom.org.uk refuses automated clients.",
+    "hash": "be5ad8cefb92"
+  },
+  "entry:uk-ico:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "inaccessible",
+    "scope": "external",
+    "sources": [
+      "S-0251",
+      "S-0252",
+      "S-0370",
+      "S-0250"
+    ],
+    "proposals": [],
+    "note": "Statutory facts confirmed: office of Information Commissioner abolished and functions transferred to the Information Commission on 30 Sep 2026 (duaa-s118 p1–p2; duaa-s119 p1; si2026-1015 p1); higher maximum penalty £17.5M or 4% of worldwide turnover (dpa-s157 p1). 'Still branded ICO' and the current status of its AI guidance need ico.org.uk.",
+    "missing": "ico.org.uk (AI guidance 'About this guidance' page and homepage branding) refuses automated clients; a manual check is needed.",
+    "hash": "3e88e0e4821b"
+  },
+  "entry:uk-ico:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0371",
+      "S-0252",
+      "S-0370"
+    ],
+    "proposals": [
+      "P-0193"
+    ],
+    "note": "SI 2026/425 (in force 12 May 2026) requires the regulator to prepare a statutory code of practice on AI and automated decision-making; 'under review' understates this. Guidance dates and the Clearview/Snap investigations not re-checked (ico.org.uk blocked).",
+    "missing": null,
+    "hash": "714246198239"
+  },
+  "entry:uk-ico:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0371",
+      "S-0252",
+      "S-0370"
+    ],
+    "proposals": [
+      "P-0193"
+    ],
+    "note": "SI 2026/425 (in force 12 May 2026) requires the regulator to prepare a statutory code of practice on AI and automated decision-making; 'under review' understates this. Guidance dates and the Clearview/Snap investigations not re-checked (ico.org.uk blocked).",
+    "missing": null,
+    "hash": "07f481c792e0"
+  },
+  "entry:us-ftc:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "inaccessible",
+    "scope": "external",
+    "sources": [
+      "S-0238",
+      "S-0239"
+    ],
+    "proposals": [],
+    "note": "Confirmed from the Federal Register: Rytr order set aside 22 Dec 2025 as part of addressing 'unnecessary burdens' (ftc-ps p3); EO 14365 §7 directs the policy statement (eo14365 p1); the 7 Jul 2026 proposed policy statement says conflicting state laws requiring deception are impliedly preempted (ftc-ps p1–p2). Operation AI Comply (Sept 2024, five cases) and the Rite Aid five-year facial-recognition ban are not in these sources.",
+    "missing": "FTC press releases for Operation AI Comply (Sept 2024) and the Rite Aid stipulated order (E.D. Pa. 2:23-cv-5023); ftc.gov refuses automated clients.",
+    "hash": "90de9186581a"
+  },
+  "edge:us-ftc|us-preempt": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0239",
+      "S-0238",
+      "S-0379"
+    ],
+    "proposals": [],
+    "note": "EO 14365 §7 directs the FTC Chairman to issue a policy statement on when state laws requiring altered truthful outputs are preempted (eo14365 p1); the FTC proposed it on 7 Jul 2026 (ftc-ps p1–p2). FR API shows no final version since (only an impersonation-rule proposal of 1 Oct 2026 matched 'artificial intelligence').",
+    "missing": null,
+    "hash": "370fb47e9999"
+  },
+  "entry:au-esafety:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0338",
+      "S-0339"
+    ],
+    "proposals": [],
+    "note": "Facts confirmed: standards made by the Commissioner under s.145 (au-osa p6) and codes registered under the Act; 2024 DIS standard imposes CSAM and pro-terror detection duties on high-impact generative AI services (au-dis p1–p3); 30,000 penalty units for breaching a standard or a code direction, 500 for notice breaches (au-osa p1–p2, p5); removal notices and Federal Court cessation orders (p3–p4). Note: codes are industry-developed and registered rather than 'issued' by eSafety (cf. P-0174). 'The leading non-EU model' and its influence on Five Eyes templates are comparative.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "a5adafeac6d4"
+  },
+  "entry:au-esafety:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0338"
+    ],
+    "proposals": [],
+    "note": "30,000 penalty units for breaching an industry standard (s.146(1)) or a code direction (s.143(2)); 500 for notice breaches; removal notices (s.65 ff.); Federal Court orders to cease providing services (ss.156–159) — au-osa p1–p5.",
+    "missing": null,
+    "hash": "a420268e9e7b"
+  },
+  "entry:co-doi:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0341",
+      "S-0342"
+    ],
+    "proposals": [
+      "P-0194"
+    ],
+    "note": "'Conduct bias testing' and 'document model assumptions' depend on quantitative testing rules the Division has not adopted; dates (Nov 2023; Oct 2025 extension to auto and health benefit plan insurers) confirmed. Proposal linked to P-0175. NAIC Bulletin and 'predates' claims not verifiable (content.naic.org blocked; comparative).",
+    "missing": null,
+    "hash": "5a7939e75575"
+  },
+  "entry:imda:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0260",
+      "S-0372"
+    ],
+    "proposals": [],
+    "note": "Confirmed: Model AI Governance Framework (2019; GenAI version 30 May 2024), AI Verify and the AI Verify Foundation (imda-ai p3–p6; aivf-mgfgenai p1); Veritas now a plugin in AI Verify. Not confirmed: 'adopted by major labs' and 'adapted as a regional template' (imda-ai p7 observation); MAS Guidelines on AI Risk Management (Oct 2026, effective Oct 2027) could not be re-checked because mas.gov.sg served a maintenance page.",
+    "missing": "Evidence that frontier labs use AI Verify and that ASEAN states adapted it; MAS media release on the AI Risk Management Guidelines (mas.gov.sg under maintenance on 9 Nov).",
+    "hash": "67406ae3719e"
+  },
+  "entry:imda:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "inaccessible",
+    "scope": "external",
+    "sources": [
+      "S-0260"
+    ],
+    "proposals": [],
+    "note": "AI Verify Foundation as a multistakeholder not-for-profit confirmed (imda-ai p4). MAS's Guidelines and their Oct 2027 effective date need mas.gov.sg, which returned a maintenance page on every attempt.",
+    "missing": "MAS media release 'MAS Sets Out Supervisory Expectations on Responsible AI Adoption by Financial Institutions' (mas.gov.sg unavailable 9 Nov 2026).",
+    "hash": "223b99426f93"
+  },
+  "entry:imda:cov:update": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0260",
+      "S-0372"
+    ],
+    "proposals": [],
+    "note": "GenAI framework finalised 30 May 2024 (aivf-mgfgenai p1); agentic framework first published Jan 2026 with a May 2026 update (imda-ai p1–p2); AIVT 'continues to evolve' (p6).",
+    "missing": null,
+    "hash": "2e49db893006"
+  },
+  "entry:jp-sectors": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "inaccessible",
+    "scope": "external",
+    "sources": [],
+    "proposals": [],
+    "note": "meti.go.jp answered both curl and headless Chromium with HTTP 403 on 9 Nov (the map link 20260331_report.html and the v1.2 English PDF). The 6 Nov run read both successfully (S-0344, S-0267).",
+    "missing": "METI's AI Guidelines for Business v1.2 page and PDF (soft-law statement) — retry later; meti.go.jp refused automated clients on 9 Nov.",
+    "hash": "defd57422696"
+  },
+  "entry:jp-sectors:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "inaccessible",
+    "scope": "external",
+    "sources": [],
+    "proposals": [],
+    "note": "meti.go.jp answered both curl and headless Chromium with HTTP 403 on 9 Nov (the map link 20260331_report.html and the v1.2 English PDF). The 6 Nov run read both successfully (S-0344, S-0267).",
+    "missing": "METI's AI Guidelines for Business v1.2 page and PDF (soft-law statement) — retry later; meti.go.jp refused automated clients on 9 Nov.",
+    "hash": "f89fea522999"
+  },
+  "entry:bis:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0373",
+      "S-0230",
+      "S-0233",
+      "S-0231",
+      "S-0232",
+      "S-0229",
+      "S-0234",
+      "S-0374",
+      "S-0375"
+    ],
+    "proposals": [],
+    "note": "Facts confirmed: 2022 rule (fr-2022-21658 p1), 2023 requirement (bis-guid-may26 p2), Dec 2024 HBM and equipment controls (fr-2024-28270 p1–p2), Jan 2025 Diffusion Rule with closed-weight model control above 10^26 operations (fr-2025-00636 p1; aidiff p1), non-enforcement and planned rescission/replacement from May 2025 (bis-rescind p1–p2; bis-guid-may26 p3), Jan 2026 case-by-case review for H200-class chips (fr-2026-00789 p1–p2), 31 May 2026 ultimate-parent guidance (bis-guid-may26 p1). No new BIS advanced-computing rule in the FR since July 2026. 'Most consequential' claims are comparative.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "5dc35773fcc7"
+  },
+  "entry:bis:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0373",
+      "S-0230",
+      "S-0233",
+      "S-0231",
+      "S-0232",
+      "S-0229",
+      "S-0234",
+      "S-0374",
+      "S-0375"
+    ],
+    "proposals": [],
+    "note": "Facts confirmed: 2022 rule (fr-2022-21658 p1), 2023 requirement (bis-guid-may26 p2), Dec 2024 HBM and equipment controls (fr-2024-28270 p1–p2), Jan 2025 Diffusion Rule with closed-weight model control above 10^26 operations (fr-2025-00636 p1; aidiff p1), non-enforcement and planned rescission/replacement from May 2025 (bis-rescind p1–p2; bis-guid-may26 p3), Jan 2026 case-by-case review for H200-class chips (fr-2026-00789 p1–p2), 31 May 2026 ultimate-parent guidance (bis-guid-may26 p1). No new BIS advanced-computing rule in the FR since July 2026. 'Most consequential' claims are comparative.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "8679cc7e0b1c"
+  },
+  "entry:bis:cov:thresh": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0234",
+      "S-0233",
+      "S-0232",
+      "S-0229"
+    ],
+    "proposals": [],
+    "note": "Total processing performance governs licensing (fr-2026-00789 p3); equipment controls (fr-2024-28270 p1); 10^26 model-weight threshold (aidiff p1) not enforced (bis-rescind p2).",
+    "missing": null,
+    "hash": "a4dc5f1f2c66"
+  },
+  "entry:nist-rmf:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0182"
+    ],
+    "proposals": [],
+    "note": "Facts confirmed: AI RMF 2023, GenAI Profile Jul 2024, revision under the AI Action Plan, Critical Infrastructure Profile concept note 7 Apr 2026 (nist-rmf p1–p4). 'De facto global reference' is comparative.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "32abcbeaa68f"
+  },
+  "edge:fsi|us-frontier-access-eo": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0038",
+      "S-0222",
+      "S-0223"
+    ],
+    "proposals": [],
+    "note": "EO 14409 §3(b) sets up a voluntary framework for developers to engage the government and provide access to covered frontier models (eo14409 p1); FSI describes its role as translating lab findings for government (fsi-home p1; fsi-labs p1). Neither source links the two; 'bears on' is an analytic connection.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "8e39ed4885a0"
   }
 }
