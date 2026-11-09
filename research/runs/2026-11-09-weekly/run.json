@@ -3,7 +3,7 @@
   "label": "Weekly audit 2026-11-09",
   "partial": true,
   "started_at": "2026-11-09T04:53:59Z",
-  "finished_at": null,
+  "finished_at": "2026-11-09T05:17:18Z",
   "scope": {
     "entries": [],
     "note": null
@@ -334,5 +334,12 @@
       ]
     }
   ],
-  "usage": null
+  "usage": "about $29",
+  "highlights": [
+    "Coverage: 94 items checked, 88 against outside sources (54 no change, 6 changed, 22 unresolved — mostly comparative wording — 6 inaccessible) and 6 internally. This week's rolling set was the 88 items last verified on 10 Oct whose wording has been edited since, so their current text had never itself been checked. 255 sources behind earlier checks were re-fetched (222 by plain download, 33 in headless Chromium; 234 retrieved): every recorded quotation still matches except ai.gov's old 404 text (already explained on 6 Nov), so no item needed re-verification for a changed source. 185 items have not been re-verified since 10 Oct; they come next.",
+    "6 new proposals (P-0189 to P-0194) and one revision (P-0161 v2). Google DeepMind said in October it cannot rule out that Gemini 4 Argon reached its biological and cyber uplift CCLs, and built safety cases (P-0189); a METR team has employee-like access at Anthropic and publishes its assessments (P-0190); the Digital Omnibus gives the AI Office supervision of AI systems built on a provider's own GPAI model (P-0191); UK AISI's renamed focus never included 'autonomy' (P-0192); the UK now has a statutory duty for an ICO code on AI and automated decision-making (P-0193, SI 2026/425); Colorado DOI's bias testing depends on rules not yet adopted (P-0194). P-0161 v2 adds Bosnia and Herzegovina's ratification of the CoE AI Convention (28 Oct 2026).",
+    "Awaiting your decision in total: 45 proposals (30 corrections, 1 new entry, 14 questions with drafted options and a recommendation), including the 39 from 6 Nov. P-0187 (White House Accord on Super Intelligence) is still held: Anthropic's 15 Oct post confirms it and Anthropic's signature, but no official full text was found.",
+    "Discovery since 6 Nov: no new framework versions (RSP v3.4, FSF v3.1, Meta v2.1, xAI 30 Jun 2026 edition); no new BIS rule on advanced computing or model weights (Federal Register API); California SB 813 / AB 1405 (chaptered 9 Sep 2026) screened out — they regulate auditors and a designation process from 2028–29, with no developer duties. Leads: OpenAI's reported Preparedness Framework rewrite and paused RL run (Aug 2026) and misalignment-incident disclosure framework (Sep 2026) — openai.com refuses automated clients, so unverified.",
+    "Nothing was applied (no answers on the page since 6 Nov), so the map's content date stays 11 Oct 2026. Still unreachable: coe.int, openai.com, ico.org.uk, ftc.gov, meti.go.jp; California's statute text was read from the Legislative Counsel's public bulk download instead of the blocked website. Tooling: source fetch now requests compressed content, fixing unreadable gzip pages."
+  ]
 }

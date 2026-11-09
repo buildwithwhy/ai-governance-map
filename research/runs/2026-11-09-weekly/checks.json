@@ -1331,5 +1331,83 @@
     "note": "EO 14409 §3(b) sets up a voluntary framework for developers to engage the government and provide access to covered frontier models (eo14409 p1); FSI describes its role as translating lab findings for government (fsi-home p1; fsi-labs p1). Neither source links the two; 'bears on' is an analytic connection.",
     "missing": "comparative/analytic claim; not verifiable from sources",
     "hash": "8e39ed4885a0"
+  },
+  "derived:counts": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "882d135ce758"
+  },
+  "derived:dates": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "41e6480537ae"
+  },
+  "derived:generated": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "6bd36e09fa00"
+  },
+  "label:jur": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "14b7ec831d3f"
+  },
+  "label:pow": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "4ca978ec46c4"
+  },
+  "label:status": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "3c867cd6f90c"
   }
 }

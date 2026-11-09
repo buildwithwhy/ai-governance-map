@@ -1767,84 +1767,84 @@
     },
     "derived:counts": {
       "last_attempt": {
-        "run": "2026-11-06-weekly",
-        "date": "2026-11-06",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
           "S-0354"
         ],
         "proposals": [],
-        "note": "check.js on ba74e05: counts match the data, generated files equal a fresh build, all content-date sites agree (2026-10-11). Internal consistency only.",
+        "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
         "missing": null,
         "hash": "882d135ce758"
       },
       "last_success": {
-        "run": "2026-11-06-weekly",
-        "date": "2026-11-06",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
           "S-0354"
         ],
         "proposals": [],
-        "note": "check.js on ba74e05: counts match the data, generated files equal a fresh build, all content-date sites agree (2026-10-11). Internal consistency only.",
+        "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
         "missing": null,
         "hash": "882d135ce758"
       }
     },
     "derived:generated": {
       "last_attempt": {
-        "run": "2026-11-06-weekly",
-        "date": "2026-11-06",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
           "S-0354"
         ],
         "proposals": [],
-        "note": "check.js on ba74e05: counts match the data, generated files equal a fresh build, all content-date sites agree (2026-10-11). Internal consistency only.",
+        "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
         "missing": null,
         "hash": "6bd36e09fa00"
       },
       "last_success": {
-        "run": "2026-11-06-weekly",
-        "date": "2026-11-06",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
           "S-0354"
         ],
         "proposals": [],
-        "note": "check.js on ba74e05: counts match the data, generated files equal a fresh build, all content-date sites agree (2026-10-11). Internal consistency only.",
+        "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
         "missing": null,
         "hash": "6bd36e09fa00"
       }
     },
     "derived:dates": {
       "last_attempt": {
-        "run": "2026-11-06-weekly",
-        "date": "2026-11-06",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
           "S-0354"
         ],
         "proposals": [],
-        "note": "check.js on ba74e05: counts match the data, generated files equal a fresh build, all content-date sites agree (2026-10-11). Internal consistency only.",
+        "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
         "missing": null,
         "hash": "41e6480537ae"
       },
       "last_success": {
-        "run": "2026-11-06-weekly",
-        "date": "2026-11-06",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
           "S-0354"
         ],
         "proposals": [],
-        "note": "check.js on ba74e05: counts match the data, generated files equal a fresh build, all content-date sites agree (2026-10-11). Internal consistency only.",
+        "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
         "missing": null,
         "hash": "41e6480537ae"
       }
@@ -1891,28 +1891,28 @@
     },
     "label:jur": {
       "last_attempt": {
-        "run": "2026-11-06-weekly",
-        "date": "2026-11-06",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
           "S-0354"
         ],
         "proposals": [],
-        "note": "Internal: JUR/POW/STATUS labels match RUBRIC §3–§5 and the data; unchanged since 10 Oct. Internal consistency only.",
+        "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
         "missing": null,
         "hash": "14b7ec831d3f"
       },
       "last_success": {
-        "run": "2026-11-06-weekly",
-        "date": "2026-11-06",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
           "S-0354"
         ],
         "proposals": [],
-        "note": "Internal: JUR/POW/STATUS labels match RUBRIC §3–§5 and the data; unchanged since 10 Oct. Internal consistency only.",
+        "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
         "missing": null,
         "hash": "14b7ec831d3f"
       }
@@ -14651,56 +14651,56 @@
     },
     "label:pow": {
       "last_attempt": {
-        "run": "2026-11-06-weekly",
-        "date": "2026-11-06",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
           "S-0354"
         ],
         "proposals": [],
-        "note": "Internal: JUR/POW/STATUS labels match RUBRIC §3–§5 and the data; unchanged since 10 Oct. Internal consistency only.",
+        "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
         "missing": null,
         "hash": "4ca978ec46c4"
       },
       "last_success": {
-        "run": "2026-11-06-weekly",
-        "date": "2026-11-06",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
           "S-0354"
         ],
         "proposals": [],
-        "note": "Internal: JUR/POW/STATUS labels match RUBRIC §3–§5 and the data; unchanged since 10 Oct. Internal consistency only.",
+        "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
         "missing": null,
         "hash": "4ca978ec46c4"
       }
     },
     "label:status": {
       "last_attempt": {
-        "run": "2026-11-06-weekly",
-        "date": "2026-11-06",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
           "S-0354"
         ],
         "proposals": [],
-        "note": "Internal: JUR/POW/STATUS labels match RUBRIC §3–§5 and the data; unchanged since 10 Oct. Internal consistency only.",
+        "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
         "missing": null,
         "hash": "3c867cd6f90c"
       },
       "last_success": {
-        "run": "2026-11-06-weekly",
-        "date": "2026-11-06",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
           "S-0354"
         ],
         "proposals": [],
-        "note": "Internal: JUR/POW/STATUS labels match RUBRIC §3–§5 and the data; unchanged since 10 Oct. Internal consistency only.",
+        "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
         "missing": null,
         "hash": "3c867cd6f90c"
       }
