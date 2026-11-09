@@ -120,7 +120,7 @@ function fetchSource(url, o) {
   const raw = path.join(F.cache, `${key}.raw`);
   const fetch = { date: L.today(), at: now(), run: o.run || null, via: 'curl', status: 'error' };
   try {
-    const out = execFileSync('curl', ['-sS', '-L', '--max-time', '45', '-A', 'Mozilla/5.0 (research; ai-governance-map)',
+    const out = execFileSync('curl', ['-sS', '-L', '--compressed', '--max-time', '45', '-A', 'Mozilla/5.0 (research; ai-governance-map)',
       '-o', raw, '-w', '%{http_code}\t%{url_effective}\t%{content_type}', url], { stdio: ['ignore', 'pipe', 'pipe'] }).toString();
     const [code, finalUrl, ctype] = out.split('\t');
     fetch.http = Number(code); fetch.final_url = finalUrl; fetch.content_type = ctype;
