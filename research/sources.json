@@ -1,5 +1,5 @@
 {
-  "next": 355,
+  "next": 359,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -543,7 +543,8 @@
       "dates": {
         "page_updated": "2026-08-14",
         "current_version_effective": "2026-07-08",
-        "first_version_effective": "2023-09-19"
+        "first_version_effective": "2023-09-19",
+        "published": "2026-08-14"
       },
       "fetches": [
         {
@@ -733,6 +734,18 @@
           "locator": "Current and Prior Versions (retrieved 2026-11-06)",
           "text": "[Observation, not a quotation] [Observation, not a quotation] What changed since 2026-10-10: the version list now adds 'and redline' links to versions 3.3, 3.2, 3.1 and 2.2. No version after 3.4 is listed; the list still has nine versions (1.0, 2.0, 2.1, 2.2, 3.0, 3.1, 3.2, 3.3, 3.4), i.e. eight revisions since v1.0.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0005#22",
+          "locator": "Risk Reports list",
+          "text": "Risk Reports Redacted Risk Report August 2026 Redacted Risk Report February 2026",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0005#23",
+          "locator": "Updates, July 8, 2026",
+          "text": "This version 3.4 update does the following: 1) revises our threshold for automated R&D to better track the threat model of concern",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -21780,7 +21793,9 @@
       "title": "Frontier safety (Frontier Safety Framework versions and reports)",
       "publisher": "Google DeepMind",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "published": "2026-04-17"
+      },
       "fetches": [
         {
           "date": "2026-11-06",
@@ -21819,6 +21834,18 @@
           "locator": "Version list (searched)",
           "text": "[Observation, not a quotation] The page lists Versions 3.1 (17 Apr 2026), 3.0 (22 Sep 2025), 2.0 (4 Feb 2025) and 1.0 (17 May 2024); no later version is listed. FSF reports are listed for Gemini 3.7 Flash and Gemini 3 Pro.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0302#3",
+          "locator": "Framework versions list",
+          "text": "Version 3.1 (17 Apr 2026) Read now Version 3.0 (22 Sep 2025) Read now",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0302#4",
+          "locator": "Model evaluations and safeguards",
+          "text": "Gemini 4 Argon View Frontier Safety Framework report",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -22031,6 +22058,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "705590ee17baaa38",
           "bytes": 131811
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:05:40Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://research.meta.ai/blog/developing-capable-models-responsibly",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "3ca2ffba8854656c",
+          "bytes": 131811
         }
       ],
       "passages": [
@@ -22051,6 +22090,18 @@
           "locator": "Opening paragraph",
           "text": "Today’s Framework update reflects the commitments made at the White House this week",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0306#4",
+          "locator": "Body",
+          "text": "We will establish a new AI committee of our Board of Directors, which will review future changes to the Framework and independently ensure that our operations conform to the standards we’ve set.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0306#5",
+          "locator": "Body",
+          "text": "align with the commitments made this week, which call for strong internal controls to monitor what companies’ models can do in key areas and whether they stay aligned, checked by an independent team inside the company and an independent auditor or evaluator outside it.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -24310,6 +24361,172 @@
         }
       ],
       "passages": []
+    },
+    "S-0355": {
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "title": "An update on independent evaluators",
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-15"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:05:34Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "9a7385eebbfb353e",
+          "bytes": 161883
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0355#1",
+          "locator": "Introduction",
+          "text": "We also signed the White House Accord on Super Intelligence, in which companies pledged to partner with independent external auditors or evaluators. Today, we’re announcing that we’ve started to give employee-like access to a team from METR, a nonprofit that evaluates frontier AI models. METR will publish the results of its risk assessments.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0355#2",
+          "locator": "What we mean by “employee-like access”",
+          "text": "METR will publish its analysis of our risk levels, incidents, or practices. Anthropic can’t veto publication, but we can require them to redact information if it falls into predefined categories such as reproducing confidential IP.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0355#3",
+          "locator": "Our other evaluator partnerships",
+          "text": "We’re developing three tiers of access for evaluators. Over time, we hope to have several evaluators at the third tier, with each team publishing their own analysis of our risk posture and key decisions.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0355#4",
+          "locator": "Our other evaluator partnerships",
+          "text": "SecureBio is in the process of reviewing the chemical and biological weapons chapter of our August Risk Report",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0356": {
+      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "title": "Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-21"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:05:35Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "357cb1edf0685766",
+          "bytes": 176292
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0356#1",
+          "locator": "Body",
+          "text": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0356#2",
+          "locator": "Body",
+          "text": "This week we published our first Public Benefit Report, a public account of how we’re working toward our charter and where we’re falling short.",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0357": {
+      "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf",
+      "title": "Gemini 4 Argon Safety & Security Report",
+      "publisher": "Google DeepMind",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-13"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:05:35Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf",
+          "content_type": "application/pdf",
+          "sha256": "8124f1900313b733",
+          "bytes": 17378918
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0357#1",
+          "locator": "§1 Executive Summary, p.5",
+          "text": "Specifically, we cannot rule out the unmitigated model approaching several significant capability thresholds: the Cyber Uplift Level 1 Critical Capability Level (CCL), indicating a potential for significant uplift of threat actors pursuing high-impact cyberattacks; the CBRN Uplift Level 1 CCL for biological information risks",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0357#2",
+          "locator": "§3.1.1 Overview of FSF Assessment, p.13–14",
+          "text": "CBRN CCL: We cannot rule out that Gemini 4 Argon has reached this CCL for biological information risk, and we therefore developed a safety case for its biorisk capabilities that we assess lower risk to below the biological CCL level.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0357#3",
+          "locator": "§3.1.1 Overview of FSF Assessment, p.14",
+          "text": "Cybersecurity CCL: We cannot rule out that Gemini 4 Argon has reached this CCL, and we therefore developed a safety case for its cyberoffensive capabilities",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0357#4",
+          "locator": "§3.1.1 Overview of FSF Assessment, p.13",
+          "text": "In line with our Frontier Safety Framework v3.1, we conducted critical capability assessments of Gemini 4 Argon",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0358": {
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "publisher": "Google",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-13"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:05:39Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "df3ba544c5a70dc9",
+          "bytes": 347598
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0358#1",
+          "locator": "Body",
+          "text": "since we saw elevated capabilities in the cyber and biological domains, we put our next-generation set of frontier safeguards in place across both areas",
+          "retrieved": "2026-11-09"
+        }
+      ]
     }
   }
 }

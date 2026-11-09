@@ -1,5 +1,5 @@
 {
-  "next": 189,
+  "next": 191,
   "proposals": [
     {
       "id": "P-0001",
@@ -20260,6 +20260,161 @@
           "P-0174"
         ],
         "updated": "2026-11-06"
+      }
+    },
+    {
+      "id": "P-0189",
+      "fingerprint": "1585e3661d4f",
+      "targets": [
+        "text:index.html:5fa877aa79de"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-09T05:05:40Z",
+          "run": "2026-11-09-weekly",
+          "author": "claude",
+          "title": "GDM FSF · Context: Gemini 4 Argon is the first model GDM could not rule out at CCLs",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "v2 (Feb 2025) added a deceptive-alignment approach; v3 (Sep 2025) added harmful manipulation; v3.1 (Apr 2026) folded misalignment into a combined ML R&D and misalignment domain.",
+              "to": "v2 (Feb 2025) added a deceptive-alignment approach; v3 (Sep 2025) added harmful manipulation; v3.1 (Apr 2026) folded misalignment into a combined ML R&D and misalignment domain. In Oct 2026 Google DeepMind said it could not rule out that Gemini 4 Argon had reached the biological CBRN and cyber uplift CCLs, and developed a safety case for each."
+            }
+          ],
+          "why": "The framework's CCL-and-safety-case process has now been triggered for a deployed model, the GDM counterpart of OpenAI's first Critical cyber designation already noted on the prep entry.",
+          "rationale": "The Gemini 4 Argon Safety & Security Report (Oct 2026), linked from GDM's Frontier Safety page, states for both the CBRN (biological) and cybersecurity Uplift Level 1 CCLs that GDM cannot rule out the model has reached them and that it therefore developed a safety case; the Google blog post (13 Oct 2026) says next-generation frontier safeguards were put in place in both domains. The FSF itself is unchanged (v3.1 newest).",
+          "evidence": [
+            {
+              "source": "S-0357",
+              "passage": "S-0357#2",
+              "stance": "supports",
+              "supports": "cannot rule out biological CCL; safety case developed"
+            },
+            {
+              "source": "S-0357",
+              "passage": "S-0357#3",
+              "stance": "supports",
+              "supports": "cannot rule out cyber CCL; safety case developed"
+            },
+            {
+              "source": "S-0357",
+              "passage": "S-0357#4",
+              "stance": "supports",
+              "supports": "assessment under FSF v3.1"
+            },
+            {
+              "source": "S-0358",
+              "passage": "S-0358#1",
+              "stance": "supports",
+              "supports": "frontier safeguards deployed in cyber and bio, Oct 2026"
+            },
+            {
+              "source": "S-0302",
+              "passage": "S-0302#3",
+              "stance": "supports",
+              "supports": "v3.1 still the newest framework version"
+            }
+          ],
+          "uncertainty": "The executive summary says 'approaching' while §3.1.1 says 'reached'; the edit uses the §3.1.1 wording 'could not rule out … had reached'. GDM has not said a CCL was in fact reached. 'First' is not claimed in the map text.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:fsf:cov:halt": "checked, still accurate (safety case once a CCL is reached)",
+            "entry:fsf:desc": "checked, still accurate"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [],
+          "hash": "1797bdad574f"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-09"
+      }
+    },
+    {
+      "id": "P-0190",
+      "fingerprint": "ad57282a42b7",
+      "targets": [
+        "text:index.html:18bddbd4e07b"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-09T05:05:41Z",
+          "run": "2026-11-09-weekly",
+          "author": "claude",
+          "title": "Anthropic RSP · Accountability: embedded METR evaluator with publication rights (Oct 2026)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "v3.2 (Apr 2026) lets the LTBT request external review and approve the choice of reviewers.",
+              "to": "v3.2 (Apr 2026) lets the LTBT request external review and approve the choice of reviewers. Since Oct 2026 a METR team has employee-like access and publishes its risk assessments; Anthropic says it cannot veto publication but may require redactions in predefined categories."
+            }
+          ],
+          "why": "A standing third-party evaluator with internal access and publication rights is a material new external-accountability commitment, which the acct note otherwise describes only through RSP Risk Report review.",
+          "rationale": "Anthropic's 15 Oct 2026 post says it has started giving a METR team employee-like access, that METR will publish its analysis of Anthropic's risk levels, incidents or practices, and that Anthropic cannot veto publication but can require redaction in predefined categories. It ties the step to its signature of the White House Accord.",
+          "evidence": [
+            {
+              "source": "S-0355",
+              "passage": "S-0355#1",
+              "stance": "supports",
+              "supports": "METR team given employee-like access; METR will publish"
+            },
+            {
+              "source": "S-0355",
+              "passage": "S-0355#2",
+              "stance": "supports",
+              "supports": "no veto on publication; redactions in predefined categories"
+            }
+          ],
+          "uncertainty": "The arrangement is announced in a company post, not in the RSP text itself; Anthropic decides what falls in the redaction categories. METR's 5 Nov 2026 AI R&D acceleration assessment (logged by F2 on 6 Nov) is reportedly a separate engagement, not this one.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:rsp:cov:elicit": "checked, still accurate (METR participates)"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [],
+          "hash": "f0d20e753f59"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-09"
       }
     }
   ]

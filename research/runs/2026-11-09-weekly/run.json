@@ -8,6 +8,105 @@
     "entries": [],
     "note": null
   },
-  "discovery": [],
+  "discovery": [
+    {
+      "area": "B4 labs (Anthropic, Google DeepMind, Meta, xAI/SpaceXSI) since 2026-11-06",
+      "summary": "No new framework versions (RSP v3.4, FSF v3.1, Meta v2.1, xAI 30 Jun 2026 remain newest). Two items missed earlier: Google DeepMind's Gemini 4 Argon report (Oct 2026) says it cannot rule out the biological CBRN and cyber CCLs and developed safety cases (proposal fsf-argon-ccl); Anthropic's 15 Oct embedded-METR evaluator arrangement with publication rights, tied to the White House Accord (proposal rsp-metr-embedded). No official Accord copy found; signatory posts only paraphrase it.",
+      "queries": [
+        "Anthropic Responsible Scaling Policy update November 2026",
+        "Google DeepMind Frontier Safety Framework new version November 2026",
+        "Meta Superintelligence Scaling Framework November 2026",
+        "SpaceXSI xAI frontier AI framework update",
+        "\"Accord on Super Intelligence\" White House signatories text",
+        "Anthropic board committee super intelligence accord oversight announcement",
+        "Google DeepMind frontier safety framework report external audit accord November",
+        "RAISE Act frontier AI framework published New York developer 2026 Anthropic Google Meta xAI",
+        "anthropic.com news September 2026 third-party assessment commitment White House Accord signed",
+        "Google DeepMind Accord on Super Intelligence blog independent evaluator board committee",
+        "\"frontier AI framework\" SB 53 Google OR xAI OR Meta published transparency report compliance 2026",
+        "Meta board AI committee directors established superintelligence framework",
+        "SpaceX Super Intelligence Grok safety framework independent evaluator accord November 2026",
+        "Anthropic METR embedded evaluator report published November 2026",
+        "Google Transparency in Frontier Artificial Intelligence Act compliance framework Gemini page",
+        "direct: anthropic.com/responsible-scaling-policy, anthropic.com/news (+4 Oct posts), anthropic.com/transparency, deepmind.google/frontier-safety, deepmind.google/blog, blog.google Gemini 4 safety post + report PDF, research.meta.ai framework page and blog, x.ai/safety, x.ai/news"
+      ],
+      "limits": "x.ai pages returned HTTP 403 (not bypassed). Anthropic news listing checked to 28 Oct 2026 (no later items). Meta framework page text not extractable (JavaScript); version status from the 2 Oct blog and prior run. Google/Meta/xAI SB 53/RAISE documents searched only via web search. Gemini 4 Carbon (Oct 2026) model announcement not opened for a separate FSF report.",
+      "candidates": [
+        {
+          "name": "Gemini 4 Argon Safety & Security Report (Oct 2026): cannot rule out CBRN-bio and cyber Uplift Level 1 CCLs; safety cases",
+          "result": "update to existing entry",
+          "reason": "First GDM model assessed as possibly at CCLs under FSF v3.1; framework itself unchanged.",
+          "proposal": "P-0189",
+          "sources": [
+            "S-0357",
+            "S-0358",
+            "S-0302"
+          ]
+        },
+        {
+          "name": "Anthropic: embedded METR evaluator with employee-like access and publication rights; three-tier evaluator access; SecureBio, Accenture, Faculty, Hugging Face (15 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Third-party review commitment linked by Anthropic to the White House Accord; affects rsp acct.",
+          "proposal": "P-0190",
+          "sources": [
+            "S-0355"
+          ]
+        },
+        {
+          "name": "White House Accord on Super Intelligence: official copy",
+          "result": "lead — source inaccessible",
+          "reason": "No official copy found. Anthropic's 15 Oct post and Meta's 2 Oct post describe the Accord's external auditor/evaluator and internal-team commitments in their own words (recorded as passages) but neither quotes or reproduces its text; refer to the P-0187 holder.",
+          "sources": [
+            "S-0355",
+            "S-0306"
+          ]
+        },
+        {
+          "name": "Anthropic RSP newer than v3.4 / new Risk Report",
+          "result": "screened out",
+          "reason": "Policy page still lists v3.4 (8 Jul 2026) and the Aug 2026 Risk Report as newest; Anthropic news listing has no item after 28 Oct 2026.",
+          "sources": [
+            "S-0005"
+          ]
+        },
+        {
+          "name": "Anthropic LTBT: Christopher Stubbs appointed (21 Oct 2026); first Public Benefit Report; Public Benefit Fund (18 Oct); S-1 filed (26 Oct)",
+          "result": "screened out",
+          "reason": "Corporate-governance changes; the map's rsp acct note names the LTBT generically and remains accurate; not framework changes.",
+          "sources": [
+            "S-0356"
+          ]
+        },
+        {
+          "name": "Google DeepMind FSF newer than v3.1",
+          "result": "screened out",
+          "reason": "Frontier Safety page still lists v3.1 (17 Apr 2026) as newest.",
+          "sources": [
+            "S-0302"
+          ]
+        },
+        {
+          "name": "Meta board AI committee (announced 2 Oct 2026)",
+          "result": "screened out",
+          "reason": "Already covered by pending P-0149; no evidence the committee has been constituted since; no newer framework version found.",
+          "sources": [
+            "S-0306"
+          ]
+        },
+        {
+          "name": "xAI/SpaceXSI framework update or accord-related evaluator/board committee",
+          "result": "lead — source inaccessible",
+          "reason": "x.ai/safety and x.ai/news return HTTP 403 to automated clients; search found no edition newer than 30 Jun 2026 and no SpaceXSI evaluator announcement. P-0151 pending.",
+          "sources": []
+        },
+        {
+          "name": "Google / Meta / xAI SB 53 or RAISE compliance frameworks",
+          "result": "screened out",
+          "reason": "Searches found no published SB 53/RAISE compliance framework from these three; secondary trackers only. RAISE takes effect 1 Jan 2027.",
+          "sources": []
+        }
+      ]
+    }
+  ],
   "usage": null
 }
