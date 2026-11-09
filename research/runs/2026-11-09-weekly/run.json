@@ -180,6 +180,69 @@
           "sources": []
         }
       ]
+    },
+    {
+      "area": "R2 slice: B1 US federal, EU, UK, China, Korea, Japan; B2 US states (since 2026-11-06)",
+      "summary": "Light pass. Opened the official California chaptered texts of SB 813 and AB 1405 (via the Legislative Counsel's public download), a signatory's own statement on the White House accord, the NY Governor's RAISE implementation announcement and the Korean Act's current text. No new national instrument since 6 Nov found in EU, UK, China, Japan or Korea.",
+      "queries": [
+        "\"White House Accord on Super Intelligence\" \"Joint Commitment on Frontier Responsibilities\"",
+        "White House Accord Super Intelligence accord text (whitehouse.gov, lab domains)",
+        "\"Accord on Super Intelligence\" signed external auditor board committee (lab domains)",
+        "California SB 53 chaptered text official PDF",
+        "New York DFS RAISE Act frontier AI office proposed regulation 2026",
+        "RAISE Act large frontier developer registration DIGIT November 2026 (ny.gov)",
+        "AI Office Commission guidelines general-purpose AI November 2026",
+        "网信办 人工智能 办法 公布 2026年11月",
+        "executive order artificial intelligence super intelligence November 2026",
+        "UK AI Security Institute / AI bill November 2026",
+        "人工知能戦略本部 2026年11月 決定",
+        "과학기술정보통신부 인공지능기본법 개정 시행령 고시 2026년 11월",
+        "cac.gov.cn 整治AI技术滥用 专项行动"
+      ],
+      "limits": "Search snippets used only as leads. leginfo.legislature.ca.gov blocked (Cloudflare); bill texts obtained from the Legislative Counsel's pubinfo download instead. Governor of California's office not checked separately. No DFS/DIGIT registration notice found.",
+      "candidates": [
+        {
+          "name": "White House Accord on Super Intelligence (P-0187)",
+          "result": "update to existing entry",
+          "reason": "Pending question P-0187 revised: Anthropic's own post confirms the accord, its signature and the external auditor/evaluator pledge; still no official full text.",
+          "proposal": "P-0187",
+          "sources": [
+            "S-0355"
+          ]
+        },
+        {
+          "name": "California SB 813 (Ch. 179, Stats. 2026): AI safety independent verification organizations",
+          "result": "screened out",
+          "reason": "Enacted 9 Sep 2026 (chaptered text opened). Requires GovOps to set IVO designation criteria and procedures by 1 Jan 2028; imposes no duties on frontier developers. Revisit when IVOs are designated or SB 53 compliance is linked to them.",
+          "sources": [
+            "S-0365"
+          ]
+        },
+        {
+          "name": "California AB 1405 (Ch. 178, Stats. 2026): AI auditor registry",
+          "result": "screened out",
+          "reason": "Enacted 9 Sep 2026 (chaptered text opened). GovOps AI Auditor Registry by 1 Jan 2029, regulating auditors rather than frontier developers. Possible later context for SB 53 or third-party audit gaps.",
+          "sources": [
+            "S-0366"
+          ]
+        },
+        {
+          "name": "NY RAISE implementation: developer registration with DIGIT from November 2026",
+          "result": "lead — source inaccessible",
+          "reason": "Governor's 21 Sep 2026 announcement says registration starts in November; no DFS/DIGIT registration notice or rule found yet. Affects ny-raise (outside R2).",
+          "sources": [
+            "S-0367"
+          ]
+        },
+        {
+          "name": "Korea AI Basic Act amendment (Act No. 21311, in force 21 Jul 2026)",
+          "result": "update to existing entry",
+          "reason": "Current text shows the amendment changed definitions, the national AI strategy committee (chaired by the President) and support provisions; Arts. 12, 31, 32, 40 and 43 carry no 2026 amendment marks, so the R2 kr-ai items are unaffected. A decree amendment is reported but its promulgation was not confirmed.",
+          "sources": [
+            "S-0293"
+          ]
+        }
+      ]
     }
   ],
   "usage": null

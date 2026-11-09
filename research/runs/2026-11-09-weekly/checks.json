@@ -473,5 +473,521 @@
     "note": "OpenAI facts verified (three Tracked Categories, High and Critical thresholds, low/medium removed). The contrast with Anthropic's ASLs was not checked against the RSP and is a comparison.",
     "missing": "comparative/analytic claim; not verifiable from sources",
     "hash": "980b5347f0e8"
+  },
+  "entry:eu-aia:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "Art. 113 (published 12.7.2024, in force 20 days later = Aug 2024; Chapter V from 2 Aug 2025; general application 2 Aug 2026), Reg. 2026/1744 new Art. 113(c) (2 Dec 2027 Annex III; 2 Aug 2028 Annex I) and Art. 99(3) (€35M/7%) match the text.",
+    "missing": null,
+    "hash": "05aee2112cb4"
+  },
+  "entry:eu-aia:cov": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0002"
+    ],
+    "proposals": [],
+    "note": "Each listed element has a textual basis in the current OJ text: thresh Art. 51(2); eval and elicit Art. 55(1)(a) (adversarial testing); timing Art. 72; sec Art. 55(1)(d); mit Arts. 5, 50(2); acct Art. 55(1)(c); halt Art. 93(1)(c); update Arts. 51(3), 56(8).",
+    "missing": null,
+    "hash": "0495c7c8cd4d"
+  },
+  "entry:eu-aia:cov:timing": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0002"
+    ],
+    "proposals": [],
+    "note": "Facts check out: post-market monitoring is a high-risk provider duty (Art. 72(1)); AI Office supervises GPAI (Art. 88(1)); pre-market GPAI documentation (Art. 53). The closing 'first regulation to formally split the lifecycle this way' is a comparative claim.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "99e7c3721f44"
+  },
+  "entry:eu-aia:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0002"
+    ],
+    "proposals": [],
+    "note": "Factual core verified: prohibited practices (Art. 5(1)), GPAI copyright policy (Art. 53(1)(c)), Art. 50(2) marking, systemic-risk mitigation (Art. 55(1)(b)). 'The most comprehensive deployment-mitigation regime in any binding instrument' is comparative.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "ac8028526a61"
+  },
+  "entry:eu-aia:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0041"
+    ],
+    "proposals": [
+      "P-0191"
+    ],
+    "note": "Incident reporting (Art. 55(1)(c)), access (Art. 92(3)), recall (Art. 93(1)(c)) and €15M/3% (Art. 101) verified, but the Digital Omnibus moved supervision of AI systems built on a provider's own GPAI model, and their high-risk incident reports, to the AI Office (new Art. 75(1), (1a)).",
+    "missing": null,
+    "hash": "b5bf6c05bea2"
+  },
+  "entry:eu-aia:cov:update": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0002"
+    ],
+    "proposals": [],
+    "note": "Codes reviewable (Art. 56(8)); delegated acts amend the thresholds (Art. 51(3)) and Annex III (Art. 7(1)); other changes need legislation (as the 2026 Omnibus itself shows).",
+    "missing": null,
+    "hash": "a992a7c1a34e"
+  },
+  "gap:elicit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Factual core verified: the AI Act requires adversarial testing (Art. 55(1)(a)) but not elicitation by name; the GPAI Code explicitly requires state-of-the-art elicitation (Appendix 3.2) and is voluntary. 'Almost no statute requires it', where the work happens, and the counterfactual are analytic.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "590f5e9ae810"
+  },
+  "faq:what-does-the-eu-ai-act-require-for-systemic-ris": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0002"
+    ],
+    "proposals": [],
+    "note": "10^25 presumption (Art. 51(2)); Art. 55(1)(a)-(d) list matches; Annex XI Section 2 covers evaluation strategies and adversarial testing; reliance on codes until harmonised standards (Art. 55(2)).",
+    "missing": null,
+    "hash": "df5827275774"
+  },
+  "faq:what-does-the-eu-ai-office-do": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0184",
+      "S-0183",
+      "S-0002"
+    ],
+    "proposals": [],
+    "note": "Verified: established by Commission Decision of 24 Jan 2024 within DG CNECT; enforces GPAI rules (Art. 88(1)); model access (Art. 92(3)), recall (Art. 93(1)(c)), €15M/3% fines (Art. 101); Art. 101 applies from 2 Aug 2026 (Art. 113(b)). 'Runs the Scientific Panel' is loose (the Office provides its secretariat/administrative support; the Panel advises the Office). 'A centralised role unique within EU regulatory architecture' is comparative.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "96cbcfdc2692"
+  },
+  "entry:us-eo14179:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0270",
+      "S-0271",
+      "S-0272"
+    ],
+    "proposals": [],
+    "note": "EO 14179 dated Jan 23, 2025; EO 14148 Sec. 2(ggg) revoked EO 14110; EO 14110 Sec. 4.2(a)(i)(C) required red-team results for dual-use foundation models; EO 14179 Sec. 5(a) orders agencies to suspend, revise or rescind actions under EO 14110.",
+    "missing": null,
+    "hash": "7317674acb30"
+  },
+  "entry:us-eo14179:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0270",
+      "S-0272"
+    ],
+    "proposals": [],
+    "note": "Verified: barrier-removal framing (Sec. 1-2), Action Plan within 180 days (Sec. 4(a)), review and rescission of actions under EO 14110 (Sec. 5(a)), which included red-team reporting (EO 14110 Sec. 4.2). 'Marks the federal turn away from safety-oriented governance' is an analytic characterisation.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "477946814bc0"
+  },
+  "entry:us-action:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0274"
+    ],
+    "proposals": [],
+    "note": "July 2025 (cover); the Plan says federal AI funding should not go to states with burdensome AI regulations and recommends OMB-led funding limits.",
+    "missing": null,
+    "hash": "04b85a635e33"
+  },
+  "edge:us-action|us-preempt": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0274",
+      "S-0239"
+    ],
+    "proposals": [],
+    "note": "EO 14365 adds the DOJ AI Litigation Task Force (Sec. 3) and BEAD non-deployment funding conditions plus discretionary-grant conditions (Sec. 5); the Plan never mentions preemption and says the federal government should not interfere with prudent state laws.",
+    "missing": null,
+    "hash": "977d297156d0"
+  },
+  "entry:cn-genai": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0290"
+    ],
+    "proposals": [],
+    "note": "Name, layer 2, jur cn, pow 4 and status active fit: CAC Order No. 15, in force 15 Aug 2023, with suspension orders available (Art. 21). The link is the official CAC text.",
+    "missing": null,
+    "hash": "f6a2445ae4e0"
+  },
+  "entry:cn-genai:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0290",
+      "S-0362"
+    ],
+    "proposals": [],
+    "note": "Rules verified: Art. 17 assessment/filing scope, Art. 7 training data, Art. 4 and 14 content rules, Art. 12 labelling, Art. 20 blocking, Art. 21 suspension power. Active enforcement is shown by the CAC's 2025 campaign (3,500+ non-compliant AI products dealt with), but no inspected official source shows firms' services suspended under the Measures; 'as much through industrial policy as through fines' is analytic.",
+    "missing": "An official CAC (or provincial CAC) notice ordering named generative-AI services suspended under the Measures; the industrial-policy comparison is a comparative/analytic claim not verifiable from sources",
+    "hash": "a390342495cb"
+  },
+  "entry:cn-genai:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0290",
+      "S-0362"
+    ],
+    "proposals": [],
+    "note": "Rules verified: Art. 17 assessment/filing scope, Art. 7 training data, Art. 4 and 14 content rules, Art. 12 labelling, Art. 20 blocking, Art. 21 suspension power. Active enforcement is shown by the CAC's 2025 campaign (3,500+ non-compliant AI products dealt with), but no inspected official source shows firms' services suspended under the Measures; 'as much through industrial policy as through fines' is analytic.",
+    "missing": "An official CAC (or provincial CAC) notice ordering named generative-AI services suspended under the Measures; the industrial-policy comparison is a comparative/analytic claim not verifiable from sources",
+    "hash": "e00f908a2107"
+  },
+  "entry:cn-genai:cov:timing": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0290",
+      "S-0291"
+    ],
+    "proposals": [],
+    "note": "Art. 17 security assessment and algorithm filing for public-opinion/mobilisation services; CAC publishes filed-service lists (latest Aug 2026) and requires apps to display model name and filing number; Art. 20 blocking of non-compliant foreign services.",
+    "missing": null,
+    "hash": "c500733e4c0b"
+  },
+  "entry:cn-genai:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0290",
+      "S-0291"
+    ],
+    "proposals": [],
+    "note": "Art. 17 security assessment and algorithm filing for public-opinion/mobilisation services; CAC publishes filed-service lists (latest Aug 2026) and requires apps to display model name and filing number; Art. 20 blocking of non-compliant foreign services.",
+    "missing": null,
+    "hash": "1c7dbac3a469"
+  },
+  "entry:cn-ai-law": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0057"
+    ],
+    "proposals": [],
+    "note": "AI legislation is a preparatory item (research and drafting, review as circumstances warrant) in the NPCSC 2025 and 2026 plans; the State Council 2026 plan calls for accelerating comprehensive AI legislation; the NPC committee report says MOST and others are drafting a framework text, so no draft has been submitted and no thresholds, duties or oversight are defined. pow 2/proposed and the NPC 2026 plan link fit.",
+    "missing": null,
+    "hash": "6a148ad9f265"
+  },
+  "entry:cn-ai-law:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0057"
+    ],
+    "proposals": [],
+    "note": "AI legislation is a preparatory item (research and drafting, review as circumstances warrant) in the NPCSC 2025 and 2026 plans; the State Council 2026 plan calls for accelerating comprehensive AI legislation; the NPC committee report says MOST and others are drafting a framework text, so no draft has been submitted and no thresholds, duties or oversight are defined. pow 2/proposed and the NPC 2026 plan link fit.",
+    "missing": null,
+    "hash": "f22e8828a77b"
+  },
+  "entry:cn-ai-law:cov:thresh": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0057"
+    ],
+    "proposals": [],
+    "note": "AI legislation is a preparatory item (research and drafting, review as circumstances warrant) in the NPCSC 2025 and 2026 plans; the State Council 2026 plan calls for accelerating comprehensive AI legislation; the NPC committee report says MOST and others are drafting a framework text, so no draft has been submitted and no thresholds, duties or oversight are defined. pow 2/proposed and the NPC 2026 plan link fit.",
+    "missing": null,
+    "hash": "2753639a5954"
+  },
+  "entry:cn-ai-law:cov:eval": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0057"
+    ],
+    "proposals": [],
+    "note": "AI legislation is a preparatory item (research and drafting, review as circumstances warrant) in the NPCSC 2025 and 2026 plans; the State Council 2026 plan calls for accelerating comprehensive AI legislation; the NPC committee report says MOST and others are drafting a framework text, so no draft has been submitted and no thresholds, duties or oversight are defined. pow 2/proposed and the NPC 2026 plan link fit.",
+    "missing": null,
+    "hash": "f261d6f225db"
+  },
+  "entry:cn-ai-law:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0057"
+    ],
+    "proposals": [],
+    "note": "AI legislation is a preparatory item (research and drafting, review as circumstances warrant) in the NPCSC 2025 and 2026 plans; the State Council 2026 plan calls for accelerating comprehensive AI legislation; the NPC committee report says MOST and others are drafting a framework text, so no draft has been submitted and no thresholds, duties or oversight are defined. pow 2/proposed and the NPC 2026 plan link fit.",
+    "missing": null,
+    "hash": "3f376e190ac9"
+  },
+  "entry:cn-ai-law:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0057"
+    ],
+    "proposals": [],
+    "note": "AI legislation is a preparatory item (research and drafting, review as circumstances warrant) in the NPCSC 2025 and 2026 plans; the State Council 2026 plan calls for accelerating comprehensive AI legislation; the NPC committee report says MOST and others are drafting a framework text, so no draft has been submitted and no thresholds, duties or oversight are defined. pow 2/proposed and the NPC 2026 plan link fit.",
+    "missing": null,
+    "hash": "c9400c10884d"
+  },
+  "entry:cn-ai-law:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0053",
+      "S-0052",
+      "S-0051",
+      "S-0057",
+      "S-0054",
+      "S-0056"
+    ],
+    "proposals": [],
+    "note": "State Council 2024 plan named an AI Law draft; the 2025 plan only 'advance legislative work'; the 2026 plan calls for accelerating comprehensive legislation; MOST-led framework drafting (NPC committee report, published Jan 2026); Cybersecurity Law AI article in force 1 Jan 2026; humanlike interactive AI Measures in force 15 Jul 2026. 'Could consolidate' is framed as a possibility.",
+    "missing": null,
+    "hash": "77e7429e301a"
+  },
+  "edge:cn-genai|cn-ai-law": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0051"
+    ],
+    "proposals": [],
+    "note": "The State Council 2026 plan calls for comprehensive AI legislation alongside rules on common AI elements and key application scenarios, which supports 'could be consolidated' as a possibility; no text says it will.",
+    "missing": null,
+    "hash": "a97d6aa0d563"
+  },
+  "entry:kr-ai:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0293",
+      "S-0294"
+    ],
+    "proposals": [],
+    "note": "Facts verified in the current text (Act No. 21311, in force 21 Jul 2026): Art. 32 lifecycle risk management with results to MSIT; Decree Art. 24 three cumulative criteria (≥10^26 FLOPs, state of the art, broad serious risk); Art. 31(2) generative-AI labelling; Art. 12 Institute; Art. 43 KRW 30M cap. The comparison with Japan and the EU is analytic.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "e46b2ed960c7"
+  },
+  "entry:kr-ai:cov:thresh": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0293",
+      "S-0294",
+      "S-0364",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "Art. 32(1) delegates the compute threshold to decree; Decree Art. 24(1) requires all three criteria; Decree in force 22 Jan 2026; SB 53 and RAISE use 10^26 FLOPs. The Jan 2026 amendment (in force 21 Jul 2026) did not touch Art. 32.",
+    "missing": null,
+    "hash": "73098cc10099"
+  },
+  "entry:kr-ai:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0293"
+    ],
+    "proposals": [],
+    "note": "Results to MSIT (Art. 32(2)); MSIT investigates on its own finding or on reports/complaints and orders violations stopped or corrected (Art. 40); Institute supports (Art. 12); fines up to KRW 30M (Art. 43). Fine timing is covered by pending P-0182 for desc.",
+    "missing": null,
+    "hash": "41fbbd453cb3"
+  },
+  "entry:jp-ai": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0296",
+      "S-0297"
+    ],
+    "proposals": [],
+    "note": "Name, layer 2, jur as, pow 2 (no penalty provisions) and status active (promulgated 4 Jun 2025, fully in force 1 Sep 2025) fit; link is the Cabinet Office page.",
+    "missing": null,
+    "hash": "101e111b1d8e"
+  },
+  "entry:jp-ai:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0296",
+      "S-0299",
+      "S-0363"
+    ],
+    "proposals": [],
+    "note": "Art. 13 guidelines decided by the HQ on 19 Dec 2025, aimed at voluntary efforts; the Cabinet Office lists ministries' own guidance, including the MIC/METI AI Guidelines for Business.",
+    "missing": null,
+    "hash": "0dae093c6aee"
+  },
+  "entry:ca-sb53:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0364"
+    ],
+    "proposals": [],
+    "note": "Chaptered text (still current law per the LAW_SECTION table) supports the factual core: framework publication (§22757.12(a)), 15-day reporting (§22757.13(c)), per-deployment transparency reports (§22757.12(c)), whistleblower protections (Labor Code §1107 et seq.), 10^26 FLOPs and $500M tiers (§22757.11(i)-(j)), civil penalties against large frontier developers (§22757.15). 'The first US state law to codify the published-framework norm' and the list of named companies the law 'anchors against' are not in the statute.",
+    "missing": "comparative/analytic claim; not verifiable from sources (and the named-company list would need evidence of which developers meet both thresholds)",
+    "hash": "4580564de39e"
+  },
+  "entry:ca-sb53:cov:thresh": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0364"
+    ],
+    "proposals": [],
+    "note": "Chaptered text (still current law per the LAW_SECTION table) supports the factual core: framework publication (§22757.12(a)), 15-day reporting (§22757.13(c)), per-deployment transparency reports (§22757.12(c)), whistleblower protections (Labor Code §1107 et seq.), 10^26 FLOPs and $500M tiers (§22757.11(i)-(j)), civil penalties against large frontier developers (§22757.15). 'The first US state law to codify the published-framework norm' and the list of named companies the law 'anchors against' are not in the statute.",
+    "missing": "comparative/analytic claim; not verifiable from sources (and the named-company list would need evidence of which developers meet both thresholds)",
+    "hash": "ec2f4b19f72b"
+  },
+  "entry:ca-sb53:cov:timing": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0364",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "15 days to OES, 24 hours if imminent risk; transparency report before or with deployment; annual framework review; internal-use summaries every three months; publication on the developer's website; AG-only civil actions; whistleblower disclosures to the AG. RAISE (Ch. 96) sets 72 hours.",
+    "missing": null,
+    "hash": "b8077b05adf6"
+  },
+  "entry:ca-sb53:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0364",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "15 days to OES, 24 hours if imminent risk; transparency report before or with deployment; annual framework review; internal-use summaries every three months; publication on the developer's website; AG-only civil actions; whistleblower disclosures to the AG. RAISE (Ch. 96) sets 72 hours.",
+    "missing": null,
+    "hash": "730da111dd24"
+  },
+  "entry:tx-raiga": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0165",
+      "S-0166"
+    ],
+    "proposals": [],
+    "note": "Name matches the short title; layer 3, uss; pow 4 (AG actions, up to $200,000 per uncurable violation); active (effective 1 Jan 2026); link is the enrolled text.",
+    "missing": null,
+    "hash": "5d3331a6f5b1"
   }
 }

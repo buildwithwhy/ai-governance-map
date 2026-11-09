@@ -1,5 +1,5 @@
 {
-  "next": 191,
+  "next": 192,
   "proposals": [
     {
       "id": "P-0001",
@@ -20250,6 +20250,169 @@
             "gap:halt"
           ],
           "hash": "a60139638853"
+        },
+        {
+          "v": 2,
+          "created": "2026-11-09T05:15:40Z",
+          "run": "2026-11-09-weekly",
+          "author": "claude",
+          "title": "Add the White House Accord on Super Intelligence (29 Sep 2026) as a Layer 5 voluntary cross-firm commitment?",
+          "kind": "flag",
+          "changes": [],
+          "why": "It is the first cross-firm frontier commitment brokered by this administration and the first in which the main US labs commit to independent external assessment and board-level oversight of safety controls.",
+          "rationale": "Recommend (a) once an official copy is obtained: it is a cross-firm commitment (Layer 5, like seoul-commit) with no legal force (pow 1, as for seoul-commit and delhi-commit), and its sponsor is the US federal government, so 'us' fits better than 'co'. Until an official White House, Truth Social or company copy is inspected, the evidence is an archive copy only, so the evidence status is 'needs source access'. Update 2026-11-09: Anthropic's own post (15 Oct 2026) now confirms, from a signatory, that the accord exists, that Anthropic signed it, and that signatories pledged to partner with independent external auditors or evaluators. The full text, the other signatures and the board-committee layer are still shown only by the American Presidency Project archive copy; whitehouse.gov search again found no copy.",
+          "evidence": [
+            {
+              "source": "S-0312",
+              "passage": "S-0312#4",
+              "stance": "supports",
+              "supports": "Title and date"
+            },
+            {
+              "source": "S-0312",
+              "passage": "S-0312#5",
+              "stance": "supports",
+              "supports": "Four layers; internal controls"
+            },
+            {
+              "source": "S-0312",
+              "passage": "S-0312#6",
+              "stance": "supports",
+              "supports": "Internal team; external auditor or evaluator"
+            },
+            {
+              "source": "S-0312",
+              "passage": "S-0312#7",
+              "stance": "supports",
+              "supports": "Independent board committee"
+            },
+            {
+              "source": "S-0312",
+              "passage": "S-0312#8",
+              "stance": "supports",
+              "supports": "Regular meetings; possible codification"
+            },
+            {
+              "source": "S-0312",
+              "passage": "S-0312#9",
+              "stance": "supports",
+              "supports": "Signatories"
+            },
+            {
+              "source": "S-0351",
+              "passage": "S-0351#2",
+              "stance": "supports",
+              "supports": "No White House copy found"
+            },
+            {
+              "source": "S-0355",
+              "passage": "S-0355#5",
+              "stance": "supports",
+              "supports": "A signatory confirms it signed the accord and the external auditor/evaluator pledge"
+            },
+            {
+              "source": "S-0355",
+              "passage": "S-0355#6",
+              "stance": "supports",
+              "supports": "Date of the signatory's statement"
+            }
+          ],
+          "uncertainty": "Signatory lists differ in press coverage; the archive copy's signature block (with images of the signed page) lists Pichai, Amodei, Zuckerberg, Brockman, Musk and Huang. Whether the White House published it anywhere official is unknown. A signatory's post confirms only Anthropic's signature and the external-auditor pledge.",
+          "confidence": "medium",
+          "question": "Six frontier developers' leaders and the President signed a 'Joint Commitment on Frontier Responsibilities' (external auditor/evaluator, independent board committee). It meets RUBRIC §1 on its text, but the only copy found is the American Presidency Project archive; no whitehouse.gov or company copy was found. Add it, and with which jurisdiction?",
+          "knock_on_notes": {},
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Add as L5, jur us, pow 1, active",
+              "changes": [
+                {
+                  "op": "add_entity",
+                  "after": "delhi-commit",
+                  "entity": {
+                    "id": "wh-si-accord",
+                    "name": "White House SI Accord",
+                    "layer": 5,
+                    "jur": "us",
+                    "pow": 1,
+                    "status": "active",
+                    "link": "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence",
+                    "desc": "Sep 29, 2026. One-page 'Joint Commitment on Frontier Responsibilities' signed by President Trump and the heads of Google, Anthropic, Meta, OpenAI, xAI and Nvidia: four layers of controls and audits. Voluntary; no enforcement.",
+                    "context": "Commits each signatory to internal controls monitoring model capabilities and alignment, an internal team checking them, an independent external auditor or evaluator, and an independent board committee overseeing both. Signatories will meet regularly to set standards; the text says codifying the steps into law 'may make sense' over time. It names no regulator, reporting channel or deadline. Sits beside the Seoul commitments as a cross-firm pledge, with external assessment and board oversight that Seoul did not specify.",
+                    "cov": {
+                      "eval": "Commits signatories to partner with an independent external auditor or evaluator assessing whether their controls, monitoring and detection operate as intended. Auditor qualifications are not defined; voluntary.",
+                      "mit": "Commits signatories to internal controls monitoring capabilities and alignment during training and deployment (cybersecurity, biosecurity, chemical threats) and preventing models from hacking or accessing systems in unintended ways.",
+                      "acct": "An independent committee of each signatory's board oversees the control teams and the internal and external auditors and ensures issues are remediated. No public reporting or government oversight is specified."
+                    }
+                  }
+                },
+                {
+                  "op": "add_edge",
+                  "a": "wh-si-accord",
+                  "b": "seoul-commit",
+                  "rel": "Later cross-firm pledge; adds external audit and board-committee oversight to Seoul's published-framework commitments"
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Add as L5, jur co (cross-firm), pow 1, active",
+              "changes": [
+                {
+                  "op": "add_entity",
+                  "after": "delhi-commit",
+                  "entity": {
+                    "id": "wh-si-accord",
+                    "name": "White House SI Accord",
+                    "layer": 5,
+                    "jur": "co",
+                    "pow": 1,
+                    "status": "active",
+                    "link": "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence",
+                    "desc": "Sep 29, 2026. One-page 'Joint Commitment on Frontier Responsibilities' signed by President Trump and the heads of Google, Anthropic, Meta, OpenAI, xAI and Nvidia: four layers of controls and audits. Voluntary; no enforcement.",
+                    "context": "Commits each signatory to internal controls monitoring model capabilities and alignment, an internal team checking them, an independent external auditor or evaluator, and an independent board committee overseeing both. Signatories will meet regularly to set standards; the text says codifying the steps into law 'may make sense' over time. It names no regulator, reporting channel or deadline. Sits beside the Seoul commitments as a cross-firm pledge, with external assessment and board oversight that Seoul did not specify.",
+                    "cov": {
+                      "eval": "Commits signatories to partner with an independent external auditor or evaluator assessing whether their controls, monitoring and detection operate as intended. Auditor qualifications are not defined; voluntary.",
+                      "mit": "Commits signatories to internal controls monitoring capabilities and alignment during training and deployment (cybersecurity, biosecurity, chemical threats) and preventing models from hacking or accessing systems in unintended ways.",
+                      "acct": "An independent committee of each signatory's board oversees the control teams and the internal and external auditors and ensures issues are remediated. No public reporting or government oversight is specified."
+                    }
+                  }
+                },
+                {
+                  "op": "add_edge",
+                  "a": "wh-si-accord",
+                  "b": "seoul-commit",
+                  "rel": "Later cross-firm pledge; adds external audit and board-committee oversight to Seoul's published-framework commitments"
+                }
+              ]
+            },
+            {
+              "key": "c",
+              "label": "Do not add yet",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:ai-summits:desc",
+            "entry:ai-summits:context",
+            "entry:ai-summits:cov:thresh",
+            "entry:ai-summits:cov:update",
+            "entry:hiroshima:context",
+            "entry:hiroshima:cov:eval",
+            "entry:delhi-commit:context",
+            "entry:delhi-commit:cov:acct",
+            "edge:ai-summits|seoul-commit",
+            "edge:seoul-commit|rsp",
+            "edge:seoul-commit|prep",
+            "edge:seoul-commit|fsf",
+            "edge:seoul-commit|meta-faif",
+            "edge:seoul-commit|xai-rmf",
+            "gap:halt"
+          ],
+          "hash": "a60139638853"
         }
       ],
       "decision": {
@@ -20264,9 +20427,9 @@
       "research": {
         "status": "needs-source-access",
         "missing": [
-          "An official copy of the accord: whitehouse.gov, the President's Truth Social post, or a signatory company's own publication"
+          "An official copy of the full accord text (whitehouse.gov, the President's post, or a signatory's publication of the text) to confirm the other signatories and the board-committee layer; Anthropic's 15 Oct 2026 post confirms the accord, its own signature and the external auditor/evaluator pledge only"
         ],
-        "updated": "2026-11-06"
+        "updated": "2026-11-09"
       }
     },
     {
@@ -20494,6 +20657,142 @@
           "recommended": null,
           "knock_on": [],
           "hash": "f0d20e753f59"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-09"
+      }
+    },
+    {
+      "id": "P-0191",
+      "fingerprint": "ba296eb99542",
+      "targets": [
+        "entry:eu-aia:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-09T05:15:40Z",
+          "run": "2026-11-09-weekly",
+          "author": "claude",
+          "title": "EU AI Act · Accountability: since the Digital Omnibus the AI Office, not national authorities, supervises AI systems built on a provider's own GPAI model",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "eu-aia",
+              "cat": "acct",
+              "from": "Mandatory incident reporting to the EU AI Office for systemic-risk GPAI; market-surveillance authorities handle high-risk systems. The Office can request models, order recalls, and fine GPAI providers up to €15M / 3% global revenue.",
+              "to": "Mandatory incident reporting to the EU AI Office for systemic-risk GPAI; market-surveillance authorities handle high-risk systems, except that under the 2026 Digital Omnibus the AI Office supervises AI systems built on a provider's own GPAI model and receives their serious-incident reports. The Office can request models, order recalls, and fine GPAI providers up to €15M / 3% global revenue."
+            }
+          ],
+          "why": "A frontier lab's own AI products built on its own GPAI model now answer to the AI Office, including serious-incident reports for high-risk ones; the note says only national market-surveillance authorities handle high-risk systems.",
+          "rationale": "Reg. 2026/1744 replaces Art. 75(1): the AI Office is exclusively competent for AI systems based on GPAI models where model and system come from the same provider, and new Art. 75(1a) routes those providers' high-risk serious-incident reports to the AI Office instead of Art. 73's national authorities. The eu-aio entry already describes these powers; this aligns the Act's own accountability note.",
+          "evidence": [
+            {
+              "source": "S-0041",
+              "passage": "S-0041#19",
+              "stance": "supports",
+              "supports": "AI Office exclusively competent for AI systems built on the provider's own GPAI model"
+            },
+            {
+              "source": "S-0041",
+              "passage": "S-0041#20",
+              "stance": "supports",
+              "supports": "Their high-risk serious incidents are reported to the AI Office"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#36",
+              "stance": "supports",
+              "supports": "Default: high-risk incidents go to national market-surveillance authorities"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#15",
+              "stance": "supports",
+              "supports": "Systemic-risk GPAI incident reporting to the AI Office"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#37",
+              "stance": "supports",
+              "supports": "Office can request model access"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#20",
+              "stance": "supports",
+              "supports": "Recall power"
+            },
+            {
+              "source": "S-0002",
+              "passage": "S-0002#38",
+              "stance": "supports",
+              "supports": "€15M / 3% GPAI fine cap"
+            }
+          ],
+          "uncertainty": "Exceptions (Annex I products, Annex III points 2 and 8, law-enforcement and financial-institution systems) are left out to keep the note short.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "faq:what-does-the-eu-ai-office-do": "still accurate as far as it goes (it describes GPAI enforcement); not changed here"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:kr-ai:cov:thresh",
+            "entry:kr-ai:cov:eval",
+            "entry:ca-sb53:desc",
+            "entry:co-aia:desc",
+            "entry:co-aia:context",
+            "entry:co-aia:cov:acct",
+            "entry:gpai-cop:desc",
+            "entry:gpai-cop:context",
+            "entry:gpai-cop:cov:thresh",
+            "entry:gpai-cop:cov:eval",
+            "entry:gpai-cop:cov:sec",
+            "entry:gpai-cop:cov:acct",
+            "entry:eu-genai-code:desc",
+            "entry:meta-faif:context",
+            "entry:meta-faif:cov:acct",
+            "entry:xai-rmf:desc",
+            "entry:eu-aio:context",
+            "entry:averi:context",
+            "entry:averi:cov:eval",
+            "edge:coe-ai|eu-aia",
+            "edge:eu-aia|eu-aio",
+            "edge:gpai-cop|eu-aia",
+            "edge:uk-ico|eu-aia",
+            "edge:eu-genai-code|eu-aia",
+            "gap:eval",
+            "gap:elicit",
+            "gap:timing",
+            "gap:sec",
+            "gap:acct",
+            "gap:update",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris",
+            "faq:what-does-the-eu-ai-office-do",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-3:tooltip",
+            "text:footer-sources"
+          ],
+          "hash": "7827235c8c95"
         }
       ],
       "decision": {

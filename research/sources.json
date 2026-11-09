@@ -1,5 +1,5 @@
 {
-  "next": 362,
+  "next": 368,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -92,7 +92,8 @@
       "dates": {
         "adopted": "2024-06-13",
         "published": "2024-07-12",
-        "in_force": "2024-08-01"
+        "in_force": "2024-08-01",
+        "applies_from": "2026-08-02"
       },
       "fetches": [
         {
@@ -308,6 +309,84 @@
           "locator": "Annex XI, Section 2, heading",
           "text": "Additional information to be provided by providers of general-purpose AI models with systemic risk",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0002#28",
+          "locator": "OJ header",
+          "text": "OJ L, 2024/1689, 12.7.2024",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0002#29",
+          "locator": "Art. 113, first and second paragraphs",
+          "text": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union . It shall apply from 2 August 2026.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0002#30",
+          "locator": "Art. 113, third paragraph, point (b)",
+          "text": "Chapter III Section 4, Chapter V, Chapter VII and Chapter XII and Article 78 shall apply from 2 August 2025, with the exception of Article 101;",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0002#31",
+          "locator": "Art. 99(3)",
+          "text": "Non-compliance with the prohibition of the AI practices referred to in Article 5 shall be subject to administrative fines of up to EUR 35 000 000 or, if the offender is an undertaking, up to 7 % of its total worldwide annual turnover for the preceding financial year, whichever is higher.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0002#32",
+          "locator": "Art. 51(2)",
+          "text": "A general-purpose AI model shall be presumed to have high impact capabilities pursuant to paragraph 1, point (a), when the cumulative amount of computation used for its training measured in floating point operations is greater than 10 25",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0002#33",
+          "locator": "Art. 51(3)",
+          "text": "The Commission shall adopt delegated acts in accordance with Article 97 to amend the thresholds listed in paragraphs 1 and 2 of this Article",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0002#34",
+          "locator": "Art. 55(1)(b)",
+          "text": "assess and mitigate possible systemic risks at Union level, including their sources",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0002#35",
+          "locator": "Art. 55(2)",
+          "text": "Providers of general-purpose AI models with systemic risk may rely on codes of practice within the meaning of Article 56 to demonstrate compliance with the obligations set out in paragraph 1 of this Article, until a harmonised standard is published.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0002#36",
+          "locator": "Art. 73(1)",
+          "text": "Providers of high-risk AI systems placed on the Union market shall report any serious incident to the market surveillance authorities of the Member States where that incident occurred.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0002#37",
+          "locator": "Art. 92(3)",
+          "text": "the Commission may request access to the general-purpose AI model concerned through APIs or further appropriate technical means and tools, including source code.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0002#38",
+          "locator": "Art. 101(1)",
+          "text": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0002#39",
+          "locator": "Annex XI, Section 2, point 1",
+          "text": "A detailed description of the evaluation strategies, including evaluation results",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0002#40",
+          "locator": "Annex XI, Section 2, point 2",
+          "text": "a detailed description of the measures put in place for the purpose of conducting internal and/or external adversarial testing (e.g. red teaming)",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -2190,6 +2269,18 @@
           "locator": "Sec. 2, new GBL 1428(1)",
           "text": "no large frontier developer may develop, deploy, or operate a frontier model, in whole or in part in New York state, without having a current disclosure statement filed with the office and paying the required share.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0033#39",
+          "locator": "Text, GBL §1421(3)(a) as amended",
+          "text": "frontier developer shall report any critical safety incident pertaining to one or more of its frontier models to the office within seventy-two hours",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0033#40",
+          "locator": "Text, GBL §1420(9)(a) as amended",
+          "text": "\"Frontier model\" means a foundation model that was trained using a quantity of computing power greater than",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -2975,6 +3066,36 @@
           "locator": "Whole text (searched)",
           "text": "[Observation, not a quotation] Searched the Omnibus text for amendments to Article 93 and Article 51 of Regulation 2024/1689: none found, so the AI Office's Art. 93 powers and the 10^25 presumption stand as in the original text.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0041#17",
+          "locator": "Title",
+          "text": "REGULATION (EU) 2026/1744 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0041#18",
+          "locator": "Art. 1(40)(b), new Art. 113, third paragraph, point (c)",
+          "text": "Chapter III, Sections 1, 2, and 3, with the exception of Article 6(5), shall apply from: … 2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III; and … 2 August 2028 as regards AI systems classified as high-risk pursuant to Article 6(1) and Annex I;",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0041#19",
+          "locator": "Amended Art. 75(1)(a)",
+          "text": "The AI Office shall be exclusively competent for the supervision and enforcement of the obligations under this Regulation in relation to the following AI systems: … AI systems based on general-purpose AI models where the model and the system are developed by the same provider",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0041#20",
+          "locator": "New Art. 75(1a)",
+          "text": "By way of derogation from Article 73, providers of high-risk AI systems subject to the competence of the AI Office pursuant to paragraph 1 of this Article shall report any serious incidents to the AI Office.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0041#21",
+          "locator": "Signature",
+          "text": "Done at Strasbourg, 8 July 2026.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -3409,6 +3530,12 @@
           "locator": "Appendix 3.5",
           "text": "Signatories will ensure that adequately qualified independent external evaluators conduct model evaluations pursuant to this Appendix 3, with regards to the systemic risk, unless:",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#39",
+          "locator": "Appendix 3.2 Model elicitation",
+          "text": "Signatories will ensure that the model evaluations are conducted with at least a state-of-the-art level of model elicitation that elicits the model’s capabilities, propensities, affordances, and/or effects",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -3630,6 +3757,12 @@
           "locator": "Part 2 (三) 预备审议项目 (preparatory review items), p.4–5",
           "text": "……治理网络暴力和人工智能健康发展等方面的立法项目，由有关方面抓紧开展调研和起草工作，视情安排审议。 [Legislative projects on … governing online violence and the healthy development of AI: relevant parties to step up research and drafting; review to be arranged as circumstances warrant.] AI appears in neither (一) continued review nor (二) first review.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0049#2",
+          "locator": "Part (三) 预备审议项目",
+          "text": "治理网络暴力和人工智能健康发展等方面的立法项目,由有关方面抓紧开展调研和起草工作,视情安排审议. [legislative projects on … governing online violence and the healthy development of AI: the relevant parties are to step up research and drafting, with review arranged as circumstances warrant.]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -3685,6 +3818,12 @@
           "locator": "(三) 预备审议项目, p.4",
           "text": "……治理网络违法行为和人工智能健康发展等方面的立法项目，由有关方面抓紧开展调研和起草工作，视情安排审议。 [… and the healthy development of AI: relevant parties to step up research and drafting; review as circumstances warrant.]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0050#2",
+          "locator": "Part (三) 预备审议项目",
+          "text": "治理网络违法行为和人工智能健康发展等方面的立法项目,由有关方面 [legislative projects on … governing online illegal conduct and the healthy development of AI, by the relevant parties]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -3695,7 +3834,7 @@
       "type": "primary",
       "dates": {
         "signed": "2026-05-08",
-        "published": "2026-05-11"
+        "published": "2026-05"
       },
       "fetches": [
         {
@@ -3741,6 +3880,12 @@
           "locator": "Part 2, science and technology paragraph",
           "text": "完善人工智能治理，加快推进人工智能健康发展综合性立法 [Improve AI governance; accelerate comprehensive legislation on the healthy development of AI]. The AI item does not use the formula 预备提请全国人大常委会审议…草案 (preparing to submit a draft to the NPCSC) used for other bills in the same paragraph.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0051#2",
+          "locator": "Science, technology and culture paragraph",
+          "text": "完善人工智能治理，加快推进人工智能健康发展综合性立法 [improve AI governance and accelerate comprehensive legislation on the healthy development of AI]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -3749,7 +3894,9 @@
       "title": "State Council 2025 Legislative Work Plan (国办发〔2025〕17号), State Council Gazette",
       "publisher": "General Office of the State Council",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "published": "2025-05"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
@@ -3794,6 +3941,12 @@
           "locator": "Science, education and culture paragraph, final sentence",
           "text": "推进人工智能健康发展立法工作。 [Advance legislative work on the healthy development of AI.] No named 人工智能法草案 (AI Law draft).",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0052#2",
+          "locator": "Science, technology and culture paragraph",
+          "text": "推进人工智能健康发展立法工作。 [advance legislative work on the healthy development of AI.]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -3849,6 +4002,12 @@
           "locator": "Science, education and culture paragraph",
           "text": "预备提请全国人大常委会审议……人工智能法草案、商标法修订草案…… [Preparing to submit to the NPCSC … the draft AI Law, the draft revised Trademark Law …]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0053#2",
+          "locator": "Science, education and culture paragraph",
+          "text": "预备提请全国人大常委会审议人工智能法草案 [prepare to submit the draft Artificial Intelligence Law to the NPC Standing Committee]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -3905,6 +4064,18 @@
           "locator": "Header; item 3 (new Art. 20); final clause",
           "text": "（2025年10月28日第十四届全国人民代表大会常务委员会第十八次会议通过）… 增加一条，作为第二十条：'国家支持人工智能基础理论研究……加强风险监测评估和安全监管……' … 本决定自2026年1月1日起施行。 [Adopted 28 Oct 2025; adds Art. 20 on AI incl. risk monitoring, assessment and safety supervision; in force 1 Jan 2026.]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0054#2",
+          "locator": "Item 3 (new Art. 20)",
+          "text": "国家支持人工智能基础理论研究和算法等关键技术研发 [The State supports basic AI research and R&D of key technologies such as algorithms]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0054#3",
+          "locator": "Final item",
+          "text": "本决定自2026年1月1日起施行 [This Decision takes effect on 1 January 2026]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -3939,8 +4110,8 @@
     },
     "S-0056": {
       "url": "https://www.jswx.gov.cn/zhengce/fagui/202604/t20260410_1322320.shtml",
-      "title": "Interim Measures for Humanlike Interactive AI Services (CAC Order No. 21), Jiangsu Cyberspace Office repost",
-      "publisher": "Jiangsu Cyberspace Administration (repost of CAC)",
+      "title": "Interim Measures for Humanlike Interactive AI Services (CAC Order No. 21), Jiangsu Cyberspace Administration copy",
+      "publisher": "Jiangsu Cyberspace Administration",
       "type": "primary",
       "dates": {
         "published": "2026-04-10",
@@ -3978,6 +4149,16 @@
           "via": "browser",
           "status": "error",
           "note": "not retrieved on 2026-11-09 (bot challenge, HTTP 5xx/403, or TLS chain); see run log"
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:18Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl (second attempt; the first attempt was reset by the server)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "c7ae438093170673",
+          "bytes": 33561
         }
       ],
       "passages": [
@@ -3986,6 +4167,18 @@
           "locator": "CAC Order No. 21, promulgation clause",
           "text": "《人工智能拟人化互动服务管理暂行办法》……现予公布，自2026年7月15日起施行。……2026年4月10日 [Interim Measures for Humanlike Interactive AI Services … promulgated, effective 15 July 2026 … 10 April 2026]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0056#2",
+          "locator": "Promulgation",
+          "text": "《人工智能拟人化互动服务管理暂行办法》已经2026年2月2日国家互联网信息办公室2026年第3次室务会会议审议通过 [adopted at the CAC's 3rd office meeting of 2026 on 2 February 2026]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0056#3",
+          "locator": "Promulgation",
+          "text": "自2026年7月15日起施行。 [takes effect on 15 July 2026.]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -3994,7 +4187,9 @@
       "title": "NPC Education, Science, Culture and Health Committee: report on delegates' motions (3rd Session), Jan 2026",
       "publisher": "NPC",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "published": "2026-01-05"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
@@ -4039,6 +4234,12 @@
           "locator": "Item 5 (motions for an AI law), p.5",
           "text": "2025年度立法工作计划将'人工智能健康发展'立法列入预备审议项目。目前，科技部等有关部门正在稳步推进人工智能立法相关工作……开展法律文本框架起草工作。 [The 2025 plan listed 'healthy development of AI' legislation as a preparatory item. MOST and other departments are … drafting a framework legal text.]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0057#2",
+          "locator": "Motion 5 (AI law)",
+          "text": "目前, 科技部等有关部门正在稳步推进人工智能立法相关工作 … 开展法律文本框架起草工作. [MOST and other departments are steadily advancing AI legislative work … drafting a framework for the legal text.]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -13120,6 +13321,24 @@
           "locator": "Bus. & Com. Code Sec. 552.105(a)(3)",
           "text": "for a continued violation, not less than $2,000 and not more than $40,000 for each day the violation continues.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0165#13",
+          "locator": "Section 1",
+          "text": "This Act may be cited as the Texas Responsible Artificial Intelligence Governance Act.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0165#14",
+          "locator": "Bus. & Com. Code Sec. 552.105(a)(2)",
+          "text": "uncurable, not less than $80,000 and not more than $200,000",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0165#15",
+          "locator": "Bus. & Com. Code Sec. 552.105(b)",
+          "text": "The attorney general may bring an action in the name of",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -14398,6 +14617,18 @@
           "locator": "Related content: AI Act Scientific Panel",
           "text": "The Scientific Panel advises the AI Office and national authorities on the implementation the AI Act",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0183#9",
+          "locator": "Introduction",
+          "text": "It also enforces the rules for GPAI models and supports the governance bodies in Member States in their tasks.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0183#10",
+          "locator": "Scientific Panel box",
+          "text": "The Scientific Panel advises the AI Office and national authorities on the implementation the AI Act",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -14454,6 +14685,24 @@
           "locator": "Art. 1",
           "text": "The Office shall be part of the administrative structure of the Directorate-General for Communication Networks, Content and Technology",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0184#3",
+          "locator": "Art. 1",
+          "text": "The European Artificial Intelligence Office (the ‘Office’) is established. The Office shall be part of the administrative structure of the Directorate-General for Communication Networks, Content and Technology",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0184#4",
+          "locator": "Signature",
+          "text": "Done at Brussels, 24 January 2024.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0184#5",
+          "locator": "Art. 3 (tasks)",
+          "text": "providing the Secretariat for the AI Board and its subgroups, and providing administrative support to the advisory forum and the scientific panel",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -18484,6 +18733,12 @@
           "locator": "Sec. 3",
           "text": "the Attorney General shall establish an AI Litigation Task Force (Task Force) whose sole responsibility shall be to challenge State AI laws inconsistent with the policy set forth in section 2 of this order",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0239#15",
+          "locator": "Sec. 5(b)",
+          "text": "determine whether agencies may condition such grants on States either not enacting an AI law that conflicts with the policy of this order",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -20457,6 +20712,30 @@
           "locator": "heading",
           "text": "Executive Order 14179 of January 23, 2025",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0270#7",
+          "locator": "Heading",
+          "text": "Executive Order 14179 of January 23, 2025",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0270#8",
+          "locator": "Sec. 2",
+          "text": "It is the policy of the United States to sustain and enhance America’s global AI dominance in order to promote human flourishing, economic competitiveness, and national security.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0270#9",
+          "locator": "Sec. 4(a)",
+          "text": "Within 180 days of this order … shall develop and submit to the President an action plan to achieve the policy set forth in section 2 of this order.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0270#10",
+          "locator": "Sec. 5(a)",
+          "text": "all policies, directives, regulations, orders, and other actions taken pursuant to the revoked Executive Order 14110 of October 30, 2023 … suspend, revise, or rescind such actions, or propose suspending, revising, or rescinding such actions.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -20525,6 +20804,12 @@
           "locator": "Sec. 2(ggg)",
           "text": "(ggg) Executive Order 14110 of October 30, 2023 (Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence).",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0271#4",
+          "locator": "Sec. 2 and item (ggg)",
+          "text": "The following executive actions are hereby revoked: … Executive Order 14110 of October 30, 2023 (Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence).",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -20587,6 +20872,12 @@
           "locator": "Sec. 4.2(a)(i)(C)",
           "text": "(C) the results of any developed dual-use foundation model’s performance in relevant AI red-team testing based on guidance developed by NIST",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0272#3",
+          "locator": "Sec. 4.2(a)(i)(C)",
+          "text": "the results of any developed dual-use foundation model’s performance in relevant AI red-team testing based on guidance developed by NIST pursuant to subsection 4.1(a)(ii) of this section",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -20746,6 +21037,24 @@
           "locator": "Introduction",
           "text": "including rescinding Biden Executive Order 14110 on AI that foreshadowed an onerous regulatory regime.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0274#9",
+          "locator": "Cover",
+          "text": "JULY 2025",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0274#10",
+          "locator": "Recommended Policy Actions",
+          "text": "limit funding if the state’s AI regulatory regimes may hinder the effectiveness of that funding or award.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0274#11",
+          "locator": "Whole document (searched)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] Searched the full text for 'preempt' (preempt, preemption, preempted): no occurrence.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -21927,6 +22236,54 @@
           "locator": "Art. 14",
           "text": "提供者发现违法内容的，应当及时采取停止生成、停止传输、消除等处置措施 [Where providers discover illegal content, they shall promptly stop its generation and transmission, remove it …]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0290#10",
+          "locator": "Order No. 15, promulgation",
+          "text": "令 第15号 《生成式人工智能服务管理暂行办法》已经2023年5月23日国家互联网信息办公室2023年第12次室务会会议审议通过 … 现予公布，自2023年8月15日起施行。 [Order No. 15: the Measures were adopted at the CAC's 12th office meeting of 2023 on 23 May 2023 … are hereby published and take effect on 15 August 2023.]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0290#11",
+          "locator": "Art. 4(1)",
+          "text": "坚持社会主义核心价值观，不得生成煽动颠覆国家政权、推翻社会主义制度 [uphold core socialist values; must not generate content inciting subversion of state power or overthrow of the socialist system]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0290#12",
+          "locator": "Art. 7(1)-(4)",
+          "text": "使用具有合法来源的数据和基础模型 … 涉及知识产权的，不得侵害他人依法享有的知识产权 … 涉及个人信息的，应当取得个人同意 … 采取有效措施提高训练数据质量 [use data and foundation models from lawful sources … not infringe IP … obtain consent for personal information … take effective measures to improve training-data quality]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0290#13",
+          "locator": "Art. 12",
+          "text": "提供者应当按照《互联网信息服务深度合成管理规定》对图片、视频等生成内容进行标识。 [Providers shall label generated content such as images and video in accordance with the Deep Synthesis Provisions.]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0290#14",
+          "locator": "Art. 14",
+          "text": "提供者发现违法内容的，应当及时采取停止生成、停止传输、消除等处置措施 [Providers that discover illegal content shall promptly stop its generation and transmission, remove it, and take other measures]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0290#15",
+          "locator": "Art. 17",
+          "text": "提供具有舆论属性或者社会动员能力的生成式人工智能服务的，应当按照国家有关规定开展安全评估，并按照《互联网信息服务算法推荐管理规定》履行算法备案和变更、注销备案手续。 [Providers of services with public-opinion attributes or social-mobilisation capacity shall carry out a security assessment under national rules and complete algorithm filing under the Algorithm Recommendation Provisions.]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0290#16",
+          "locator": "Art. 20",
+          "text": "对来源于中华人民共和国境外向境内提供生成式人工智能服务不符合法律、行政法规和本办法规定的，国家网信部门应当通知有关机构采取技术措施和其他必要措施予以处置。 [Where services provided into China from abroad do not comply, the CAC shall notify the relevant bodies to take technical and other necessary measures.]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0290#17",
+          "locator": "Art. 21",
+          "text": "拒不改正或者情节严重的，责令暂停提供相关服务。 [where a provider refuses to correct or the case is serious, it is ordered to suspend the service.]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -21994,6 +22351,18 @@
           "locator": "attachments",
           "text": "附件13： 生成式人工智能服务已备案和已登记信息（2026年8月） [Attachment 13: filed and registered generative AI services (August 2026)]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0291#4",
+          "locator": "Body",
+          "text": "已上线的生成式人工智能应用或功能，应在显著位置或产品详情页面公示所使用已备案生成式人工智能服务情况，注明模型名称及备案号。 [Generative AI applications or features already online shall display, prominently or on the product detail page, the filed service they use, with the model name and filing number.]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0291#5",
+          "locator": "Attachments",
+          "text": "附件13： 生成式人工智能服务已备案和已登记信息（2026年8月） [Attachment 13: filed and registered generative AI services (August 2026)]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -22036,7 +22405,7 @@
     },
     "S-0293": {
       "url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=282791&chrClsCd=010202&urlMode=lsInfoP&efYd=20260721&ancYnChk=0",
-      "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 (Framework Act on the Development of AI and Establishment of a Foundation for Trust), current text [in force 21 Jul 2026, Act No. 21311]",
+      "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 (Framework Act on AI), current text",
       "publisher": "Korea Ministry of Government Legislation (law.go.kr)",
       "type": "primary",
       "dates": {
@@ -22075,6 +22444,16 @@
           "via": "curl",
           "status": "error",
           "error": "curl: (35) Recv failure: Connection reset by peer"
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:18Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl; law.go.kr resets repeat automated connections (reset at 04:54 GMT today)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "3f7b939448a49d49",
+          "bytes": 148773
         }
       ],
       "passages": [
@@ -22155,6 +22534,36 @@
           "locator": "whole Act incl. Addenda",
           "text": "[Observation, not a quotation] Searched the Act and all Addenda for a grace period or deferred start of fines (계도, 유예, 2027): none. Fines under Art. 43 apply from entry into force on 22 Jan 2026 as a matter of law.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0293#14",
+          "locator": "Header",
+          "text": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 … 시행 2026. 7. 21. … 법률 제21311호, 2026. 1. 20., 일부개정 [In force 21 Jul 2026; Act No. 21311 of 20 Jan 2026, partial amendment]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0293#15",
+          "locator": "Art. 12(1)",
+          "text": "인공지능안전연구소(이하 “안전연구소”라 한다)를 운영할 수 있다. [may operate an AI Safety Research Institute]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0293#16",
+          "locator": "Art. 31(2)",
+          "text": "인공지능사업자는 생성형 인공지능 또는 이를 이용한 제품 또는 서비스를 제공하는 경우 그 결과물이 생성형 인공지능에 의하여 생성되었다는 사실을 표시하여야 한다. [AI business operators providing generative AI products or services shall indicate that outputs were generated by generative AI.]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0293#17",
+          "locator": "Art. 32(1)-(2)",
+          "text": "학습에 사용된 누적 연산량이 대통령령 으로 정하는 기준 이상인 인공지능시스템 … 1. 인공지능 수명주기 전반에 걸친 위험의 식별ㆍ평가 및 완화 2. 인공지능 관련 안전사고를 모니터링하고 대응하는 위험관리체계 구축 ② 인공지능사업자는 제1항 각 호에 따른 사항의 이행 결과를 과학기술정보통신부장관에게 제출하여야 한다. [lifecycle risk identification, assessment and mitigation; a risk-management system; results submitted to MSIT]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0293#18",
+          "locator": "Art. 40(1)-(3)",
+          "text": "제31조 제2항 ㆍ제3항, 제32조 제1항 ㆍ제2항 또는 제34조 제1항 의 위반에 대한 신고를 받거나 민원이 접수된 경우 … 인공지능사업자에게 해당 위반행위의 중지나 시정을 위하여 필요한 조치를 명할 수 있다. [where a report or complaint of a violation of Arts. 31(2)-(3), 32(1)-(2) or 34(1) is received … may order the operator to stop or correct the violation.]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -22223,6 +22632,24 @@
           "locator": "Addenda (Presidential Decree No. 36053, 2026. 1. 21.) Art. 1",
           "text": "제1조(시행일) 이 영은 2026년 1월 22일부터 시행한다. [This Decree takes effect on 22 January 2026.]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0294#4",
+          "locator": "Art. 24(1)",
+          "text": "1. 학습에 사용된 누적 연산량이 10의 26승 부동소수점연산 이상일 것 2. 인공지능기술의 발전 수준을 고려할 때 현재 인공지능시스템에 활용되는 인공지능기술 중 최첨단의 인공지능기술을 적용하여 구성ㆍ운영되고 있을 것 3. 인공지능시스템의 위험도가 사람의 생명, 신체의 안전 및 기본권에 광범위하고 중대한 영향을 미칠 우려가 있을 것 [1. cumulative training compute of 10^26 FLOPs or more; 2. built and operated with state-of-the-art AI technology; 3. risk of broad and serious effects on life, physical safety and fundamental rights]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0294#5",
+          "locator": "Art. 24(1), chapeau",
+          "text": "다음 각 호의 기준을 모두 충족하는 인공지능시스템을 말한다. [means an AI system meeting all of the following criteria.]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0294#6",
+          "locator": "Addenda (original decree), Art. 1",
+          "text": "이 영은 2026년 1월 22일부터 시행한다. [This Decree takes effect on 22 January 2026.]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -22382,6 +22809,18 @@
           "locator": "Art. 26",
           "text": "本部に関する事務は、内閣府において処理する。 [Administrative affairs relating to the Headquarters are handled by the Cabinet Office.]",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0296#10",
+          "locator": "Art. 13",
+          "text": "国は、人工知能関連技術の研究開発及び活用の適正な実施を図るため、国際的な規範の趣旨に即した指針の整備その他の必要な施策を講ずるものとする。 [The State shall develop guidelines in line with international norms and take other necessary measures to ensure the appropriate conduct of AI R&D and use.]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0296#11",
+          "locator": "Whole text (searched)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] Searched the full statute text for 罰 (penalty, fine, punishment): no occurrence; the Act contains no penalty provisions.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -22437,6 +22876,12 @@
           "locator": "概要",
           "text": "令和7年6月4日にＡＩ法が公布・一部施行され、９月１日にはＡＩ戦略本部の設置に係る規定等も含め、全面施行されました。 [The AI Act was promulgated and partly entered into force on 4 June 2025 and fully entered into force, including the AI Strategic Headquarters provisions, on 1 September.]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0297#2",
+          "locator": "概要",
+          "text": "令和7年6月4日にＡＩ法が公布・一部施行され、９月１日にはＡＩ戦略本部の設置に係る規定等も含め、全面施行されました。 [The AI Act was promulgated and partly brought into force on 4 June 2025, and fully in force on 1 September including the provisions establishing the AI Strategic Headquarters.]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -22551,6 +22996,18 @@
           "locator": "ministry guidelines list, no. 1",
           "text": "AI事業者ガイドライン [AI Business Guidelines]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0299#3",
+          "locator": "Heading",
+          "text": "令和7年12月19日 本部決定 [Decided by the Headquarters, 19 December 2025]",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0299#4",
+          "locator": "List of ministries' guidelines, row 1",
+          "text": "AI事業者ガイドライン … 総務省、経済産業省 [AI Guidelines for Business … MIC, METI]",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -25352,6 +25809,18 @@
           "locator": "Our other evaluator partnerships",
           "text": "SecureBio is in the process of reviewing the chemical and biological weapons chapter of our August Risk Report",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0355#5",
+          "locator": "Body, first paragraph",
+          "text": "We also signed the White House Accord on Super Intelligence, in which companies pledged to partner with independent external auditors or evaluators.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0355#6",
+          "locator": "Header",
+          "text": "Published Oct 15, 2026",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -25569,6 +26038,249 @@
           "id": "S-0361#1",
           "locator": "Title and byline",
           "text": "Local News AI Adoption for Newsrooms: A 10-Step Guide PAI Staff November 14, 2023",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0362": {
+      "url": "https://www.cac.gov.cn/2025-06/20/c_1752129980667315.htm",
+      "title": "中央网信办深入开展“清朗·整治AI技术滥用”专项行动第一阶段工作 (CAC campaign against AI-technology abuse, first stage)",
+      "publisher": "Cyberspace Administration of China",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:15Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "error",
+          "error": "curl: (35) Recv failure: Connection reset by peer"
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:33Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "error",
+          "error": "curl: (35) Recv failure: Connection reset by peer"
+        }
+      ],
+      "passages": []
+    },
+    "S-0363": {
+      "url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_2025.pdf",
+      "title": "人工知能関連技術の研究開発及び活用の適正性確保に関する指針 (AI Guidelines, HQ decision of 19 Dec 2025)",
+      "publisher": "Cabinet Office of Japan",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-12-19"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:18Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_2025.pdf",
+          "content_type": "application/pdf",
+          "sha256": "29848f122e4c7ed0",
+          "bytes": 538281
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0363#1",
+          "locator": "1(1) 本指針の位置付け",
+          "text": "第 13 条に基づく本指針は、信頼できるＡＩの実現に向けて、事業者、国民等の全ての主体におけるＡＩの研究開発・活用の適正な実施に係る自主的かつ能動的な取組を促すために [These Guidelines, based on Art. 13, aim to encourage voluntary and proactive efforts by all actors, including businesses and citizens, toward the appropriate conduct of AI R&D and use]",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0364": {
+      "url": "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip#BILL_VERSION_TBL_8965.lob",
+      "title": "SB 53 (Chapter 138, Statutes of 2025), chaptered text (version 20250SB5390CHP) from the California Legislative Information public download",
+      "publisher": "California Legislative Counsel (downloads.leginfo.legislature.ca.gov)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-09-29",
+        "published": "2025-09-29",
+        "effective": "2026-01-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:20Z",
+          "run": "2026-11-09-weekly",
+          "via": "HTTP range requests to the official pubinfo_2025.zip on downloads.leginfo.legislature.ca.gov (Python zipfile over Range reads), extracting BILL_VERSION_TBL_8965.lob, the CAML XML of version 20250SB5390CHP; leginfo.legislature.ca.gov itself serves a Cloudflare challenge",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "20c44f4865db314f",
+          "bytes": 60854
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0364#1",
+          "locator": "BPC §22757.11(i)(1)",
+          "text": "“Frontier model” means a foundation model that was trained using a quantity of computing power greater than 10^26 integer or floating-point operations.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0364#2",
+          "locator": "BPC §22757.11(j)",
+          "text": "frontier developer” means a frontier developer that together with its affiliates collectively had annual gross revenues in excess of five hundred million dollars ($500,000,000) in the preceding calendar year.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0364#3",
+          "locator": "BPC §22757.12(a)",
+          "text": "A large frontier developer shall write, implement, comply with, and clearly and conspicuously publish on its internet website a frontier AI framework",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0364#4",
+          "locator": "BPC §22757.12(b)(1)",
+          "text": "A large frontier developer shall review and, as appropriate, update its frontier AI framework at least once per year.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0364#5",
+          "locator": "BPC §22757.12(c)(1)",
+          "text": "Before, or concurrently with, deploying a new frontier model or a substantially modified version of an existing frontier model, a frontier developer shall clearly and conspicuously publish on its internet website a transparency report",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0364#6",
+          "locator": "BPC §22757.12(d)",
+          "text": "frontier developer shall transmit to the Office of Emergency Services a summary of any assessment of catastrophic risk resulting from internal use of its frontier models every three months",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0364#7",
+          "locator": "BPC §22757.13(c)(1)",
+          "text": "frontier developer shall report any critical safety incident pertaining to one or more of its frontier models to the Office of Emergency Services within 15 days of discovering the critical safety incident.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0364#8",
+          "locator": "BPC §22757.13(c)(2)",
+          "text": "developer shall disclose that incident within 24 hours to an authority, including any law enforcement agency or public safety agency with jurisdiction",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0364#9",
+          "locator": "BPC §22757.15(a)-(b)",
+          "text": "A large frontier developer that fails to publish or transmit a compliant document required to be published or transmitted under this chapter … shall be subject to a civil penalty … A civil penalty described in this section shall be recovered in a civil action brought only by the Attorney General.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0364#10",
+          "locator": "Labor Code §1107.1 (SEC. 4)",
+          "text": "information to the Attorney General, a federal authority, a person with authority over the covered employee, or another covered employee who has authority to investigate, discover, or correct the reported issue",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0364#11",
+          "locator": "LAW_SECTION_TBL in the same download (searched)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] In LAW_SECTION_TBL.dat of pubinfo_2025.zip (file dated 2 Nov 2026), BPC §§22757.10–22757.16 each carry only 'Added by Stats. 2025, Ch. 138, Sec. 2. (SB 53) Effective January 1, 2026'; no later amendment is recorded, so the chaptered text is the current law.",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0365": {
+      "url": "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip#BILL_VERSION_TBL_18606.lob",
+      "title": "SB 813 (Chapter 179, Statutes of 2026), chaptered text: California AI Safety Independent Verification Organizations",
+      "publisher": "California Legislative Counsel (downloads.leginfo.legislature.ca.gov)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-09-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:20Z",
+          "run": "2026-11-09-weekly",
+          "via": "HTTP range requests to the official pubinfo_2025.zip (BILL_VERSION_TBL_18606.lob, version 20250SB81389CHP)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "9f21c75fbb1438bd",
+          "bytes": 19121
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0365#1",
+          "locator": "Legislative Counsel's Digest",
+          "text": "This bill would require, on or before January 1, 2028, the Government Operations Agency to take certain actions related to the selection and regulation of certain entities, defined as “independent verification organizations,”",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0365#2",
+          "locator": "Gov. Code §8898(e)",
+          "text": "“Independent verification organization” or “IVO” means an AI auditor that is designated by the agency as having demonstrated expertise in assessing the risks posed by an AI system or model",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0366": {
+      "url": "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip#BILL_VERSION_TBL_18643.lob",
+      "title": "AB 1405 (Chapter 178, Statutes of 2026), chaptered text: Artificial intelligence: auditors: registration",
+      "publisher": "California Legislative Counsel (downloads.leginfo.legislature.ca.gov)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-09-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:20Z",
+          "run": "2026-11-09-weekly",
+          "via": "HTTP range requests to the official pubinfo_2025.zip (BILL_VERSION_TBL_18643.lob, version 20250AB140594CHP)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "2f2d63931b3f5b8a",
+          "bytes": 27910
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0366#1",
+          "locator": "Legislative Counsel's Digest",
+          "text": "This bill would require the Government Operations Agency to, no later than January 1, 2029, establish an AI Auditor Registry on the agency’s internet website",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0367": {
+      "url": "https://governor.ny.gov/news/video-audio-photos-rush-transcript-ai-safety-governor-hochul-announces-next-steps-regulate",
+      "title": "Governor Hochul: AI Safety — next steps to regulate major AI developers (transcript, 21 Sep 2026)",
+      "publisher": "Office of the Governor of New York",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-21"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:15:21Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.governor.ny.gov/news/video-audio-photos-rush-transcript-ai-safety-governor-hochul-announces-next-steps-regulate",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "b83fca9db90deb25",
+          "bytes": 50174
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0367#1",
+          "locator": "Introduction",
+          "text": "Starting in November, New York will direct large frontier AI developers to register with the State and prepare for compliance with strict requirements on transparency, safety, and incident reporting as prescribed by the RAISE Act.",
           "retrieved": "2026-11-09"
         }
       ]
