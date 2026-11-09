@@ -1,5 +1,5 @@
 {
-  "next": 359,
+  "next": 362,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -3319,6 +3319,96 @@
           "locator": "whole chapter",
           "text": "[Observation, not a quotation] Searched the Safety and Security chapter for 'NIST' and 'Risk Management Framework': neither appears.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0044#24",
+          "locator": "Commitment 1, Measure 1.1 (Framework contents)",
+          "text": "a description and justification of the trigger points and their usage, at which the Signatories will conduct additional lighter-touch model evaluations along the entire model lifecycle",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#25",
+          "locator": "Measure 1.2",
+          "text": "Signatories will conduct such a full systemic risk assessment and mitigation process at least before placing the model on the market",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#26",
+          "locator": "Measure 3.2 (model evaluation methods)",
+          "text": "Examples of model evaluation methods are: Q&A sets, task-based evaluations, benchmarks, red-teaming and other methods of adversarial testing",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#27",
+          "locator": "Measure 4.1(1)(a)",
+          "text": "define appropriate systemic risk tiers that: (i) are defined in terms of model capabilities, and may additionally incorporate model propensities, risk estimates, and/or other suitable metrics; (ii) are measurable",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#28",
+          "locator": "Measure 5.1",
+          "text": "(2) monitoring and filtering the model’s inputs and/or outputs; (3) changing the model behaviour in the interests of safety, such as fine-tuning the model to refuse certain requests",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#29",
+          "locator": "Measure 5.1",
+          "text": "(4) staging the access to the model",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#30",
+          "locator": "Commitment 6",
+          "text": "LEGAL TEXT: Article 55(1), and recitals 114 and 115 AI Act",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#31",
+          "locator": "Appendix 4.2",
+          "text": "Appendix 4.2 Protection of unreleased model parameters",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#32",
+          "locator": "Appendix 4.3",
+          "text": "Appendix 4.3 Hardening interface-access to unreleased model parameters",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#33",
+          "locator": "Appendix 4.4",
+          "text": "Signatories will protect against insider threats",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#34",
+          "locator": "Appendix 4.5(1)-(2)",
+          "text": "regular independent external security reviews as appropriate to mitigate systemic risks; (2) validation of network and physical access management and security gap identification, through (a) frequent red-teaming",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#35",
+          "locator": "Measure 7.6",
+          "text": "Signatories will provide the AI Office with an updated Model Report at least every six months.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#36",
+          "locator": "Appendix 3.2",
+          "text": "Signatories will ensure that the model evaluations are conducted with at least a state-of-the-art level of model elicitation",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#37",
+          "locator": "Appendix 3.2",
+          "text": "(1) minimise the risk of under-elicitation; and (2) minimise the risk of model deception during model evaluations (e.g. sandbagging);",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#38",
+          "locator": "Appendix 3.5",
+          "text": "Signatories will ensure that adequately qualified independent external evaluators conduct model evaluations pursuant to this Appendix 3, with regards to the systemic risk, unless:",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -3384,6 +3474,12 @@
           "locator": "Overview",
           "text": "These transparency obligations, applicable from 2 August 2026 … providers and deployers that decide to comply through other means will have to demonstrate that those measures are adequate. This will be assessed individually by different market surveillance authorities.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0045#4",
+          "locator": "Body",
+          "text": "It helps providers and deployers of generative AI systems to comply with the AI Act’s obligations for labelling and marking of AI-generated content – Article 50(2), (4) and (5) of the AI Act.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -4966,6 +5062,18 @@
           "locator": "Reporting Framework",
           "text": "First responses from 19 companies were published on the OECD website in April, 2025. The responses to the \"Reporting Framework 2.0\" were published on October 2, 2026, with submissions from 31 companies.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0071#3",
+          "locator": "Reporting Framework",
+          "text": "The Reporting Framework, launched on February 7, 2025, is a direct outcome of the G7 Hiroshima AI Process",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0071#4",
+          "locator": "Reporting Framework",
+          "text": "The responses to the \"Reporting Framework 2.0\" were published on October 2, 2026, with submissions from 31 companies.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -5063,6 +5171,36 @@
           "locator": "Code of Conduct, preamble",
           "text": "will provide voluntary guidance for actions by organizations developing the most advanced AI systems",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0072#9",
+          "locator": "2023 (Japan) documents",
+          "text": "G7 Leaders’ Statement on the Hiroshima AI Process （October 30, 2023）",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0072#10",
+          "locator": "Code of Conduct, action 1",
+          "text": "to identify, evaluate, and mitigate risks across the AI life",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0072#11",
+          "locator": "Code of Conduct, action 2",
+          "text": "Identify and mitigate vulnerabilities, and, where appropriate, incidents and patterns of misuse, after deployment including placement on the market.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0072#12",
+          "locator": "Code of Conduct, action 3",
+          "text": "Publicly report advanced AI systems’ capabilities, limitations and domains of appropriate and inappropriate use",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0072#13",
+          "locator": "Code of Conduct, action 7",
+          "text": "Develop and deploy reliable content authentication and provenance mechanisms",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -5107,7 +5245,7 @@
       "publisher": "OECD",
       "type": "primary",
       "dates": {
-        "published": "2026-05-28"
+        "published": "2026-05-29"
       },
       "fetches": [
         {
@@ -5183,6 +5321,36 @@
           "locator": "Video",
           "text": "Watch the HAIP 2.0 launch and demonstration (2 June 2026)",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0074#7",
+          "locator": "Body para. 1",
+          "text": "On 28 May, the OECD launched version 2.0 of the Hiroshima AI Process (HAIP) Reporting Framework at an event organised by Tech7, on the margins of the G7 Digital and Tech Ministerial Meeting under the French G7 Presidency in Paris.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0074#8",
+          "locator": "Body para. 2",
+          "text": "this 2.0 version is designed to broaden participation across the AI ecosystem, with a particular focus on small and medium enterprises",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0074#9",
+          "locator": "Body para. 2",
+          "text": "It contributes to monitoring the application of the Hiroshima Process International Code of Conduct",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0074#10",
+          "locator": "Organisations committing to submit their reports using version 2.0",
+          "text": "More than 50 organisations have already pledged to complete a HAIP report using the new framework",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0074#11",
+          "locator": "Submissions",
+          "text": "Submissions are accepted on a rolling basis, and organisations are invited to update their reports annually.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -5242,6 +5410,18 @@
           "locator": "Publications",
           "text": "Preliminary report from 2024 pilot: Towards a Hiroshima Artificial Intelligence Process Code of Conduct Reporting Framework: Findings from the Pilot (December 2024)",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0075#3",
+          "locator": "Report description",
+          "text": "Launched in February 2025, the Hiroshima AI Process Reporting Framework is the first international, voluntary tool",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0075#4",
+          "locator": "Publications list",
+          "text": "Preliminary report from 2024 pilot",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -5409,6 +5589,24 @@
           "locator": "Mandates",
           "text": "Identify best practices and support standards development for frontier AI safety and security.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0078#3",
+          "locator": "Our governance",
+          "text": "In line with its mission, the Forum provides public benefits related to AI safety and security and does not engage in lobbying.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0078#4",
+          "locator": "Our mission",
+          "text": "Facilitate information sharing about frontier AI safety and security among government, academia, civil society and industry.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0078#5",
+          "locator": "Our funding",
+          "text": "The FMF is funded by fees from its member firms.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -5470,6 +5668,18 @@
           "locator": "Para 3",
           "text": "this information-sharing is narrowly scoped and intended to manage key risks to national security and public safety, including chemical, biological, radiological, and nuclear (CBRN) and advanced cyber threats.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0079#3",
+          "locator": "Date",
+          "text": "28th March 2025",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0079#4",
+          "locator": "para. 1",
+          "text": "all of its member firms have signed a first-of-its-kind agreement designed to facilitate information-sharing about threats, vulnerabilities, and capability advances unique to frontier AI.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -5592,6 +5802,12 @@
           "locator": "Para 1",
           "text": "Today we are announcing a new cohort of 11 grantees who have received more than $5 million through the AI Safety Fund (AISF).",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0081#2",
+          "locator": "para. 1",
+          "text": "Today we are announcing a new cohort of 11 grantees who have received more than $5 million through the AI Safety Fund (AISF).",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -5693,6 +5909,18 @@
           "locator": "Issue Briefs",
           "text": "Early Best Practices for Frontier AI Safety Evaluations . July 31, 2024.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0082#10",
+          "locator": "Issue Briefs",
+          "text": "Information Sharing, Incident Reporting, and Incident Response for Frontier AI Risks. May 12, 2026.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0082#11",
+          "locator": "Issue Briefs",
+          "text": "Agents for Cyber Defense. September 21, 2026.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -5876,6 +6104,18 @@
           "locator": "Home, resources",
           "text": "A framework for collective action on how to responsibly develop, create, and share synthetic media.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0085#5",
+          "locator": "Featured work",
+          "text": "Responsible Practices for Synthetic Media",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0085#6",
+          "locator": "Research menu",
+          "text": "AI, Labor, and the Economy",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -5885,7 +6125,7 @@
       "publisher": "Partnership on AI",
       "type": "primary",
       "dates": {
-        "published": "2026"
+        "published": "2026-04-29"
       },
       "fetches": [
         {
@@ -5931,6 +6171,24 @@
           "locator": "Intro",
           "text": "This report measures the progress of 13 organizations in publicly documenting the impacts of their foundation models, drawing on a review of more than 150 papers, articles, websites, and reports. It builds on our 2023 Guidance for Safe Foundation Model Deployment and our 2025 progress-tracking methodology",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0086#2",
+          "locator": "Date",
+          "text": "April 29, 2026",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0086#3",
+          "locator": "Summary",
+          "text": "This report measures the progress of 13 organizations in publicly documenting the impacts of their foundation models",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0086#4",
+          "locator": "Summary",
+          "text": "It builds on our 2023 Guidance for Safe Foundation Model Deployment",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -6090,6 +6348,24 @@
           "locator": "Page footer",
           "text": "Last update 20 July 2026",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0089#5",
+          "locator": "Chapters",
+          "text": "The Code has three chapters: Transparency and Copyright, both addressing all providers of general-purpose AI models, and Safety and Security, relevant only to a limited number of providers of the most advanced models",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0089#6",
+          "locator": "Systemic risk",
+          "text": "The AI Act currently presumes that models trained with a cumulative amount of compute greater than 10^25 floating-point operations possess high-impact capabilities.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0089#7",
+          "locator": "Relation to the Article 50 code",
+          "text": "the GPAI Code of Practice focuses on GPAI models and documentation and information to be provided to the AI Office, national competent authorities and downstream providers, and transparency of the input training data.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -6208,6 +6484,12 @@
           "locator": "What is not part of the Code of Practice?",
           "text": "updating the criteria or thresholds for classifying a general-purpose AI model as a general-purpose AI model with systemic risk (Article 51)",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0091#3",
+          "locator": "Code of Practice",
+          "text": "Providers who do not sign and adhere to the Code of Practice must be able to justify why their proposed alternative means of compliance are adequate",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -6570,6 +6852,198 @@
           "locator": "whole document",
           "text": "[Observation, not a quotation] Searched Preparedness Framework v2 for 'Apollo': no matches. Sandbagging appears as a Research Category without attribution to Apollo.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0095#32",
+          "locator": "§1 Introduction",
+          "text": "In this updated version of the Framework we also introduce a set of Research Categories.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#33",
+          "locator": "§1 Introduction",
+          "text": "OpenAI Leadership can approve or reject these recommendations, and our Board’s Safety and Security Committee provides oversight of these decisions.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#34",
+          "locator": "§2.2 Tracked Categories",
+          "text": "Covered systems that cross this capability threshold are required to have robust and effective safeguards that sufficiently minimize the associated risk of severe harm before they are deployed and appropriate security controls as they are developed.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#35",
+          "locator": "§2.2 Tracked Categories",
+          "text": "Critical capabilities require safeguards even during the development of the covered system",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#36",
+          "locator": "Table 1, Critical rows (Responses column)",
+          "text": "Until we have specified safeguards and security",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#37",
+          "locator": "Table 1, Critical rows (Responses column)",
+          "text": "a Critical standard, halt",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#38",
+          "locator": "Table 1, High rows (Responses column)",
+          "text": "Require security controls meeting High standard (Appendix C.3)",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#39",
+          "locator": "Table 2 Research Categories",
+          "text": "Long-range Autonomy: ability for a model to execute a long-horizon sequence of actions sufficient to",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#40",
+          "locator": "Table 2 Research Categories",
+          "text": "Sandbagging: ability and propensity to respond to",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#41",
+          "locator": "Changes in version 2",
+          "text": "Nuclear and Radiological capabilities are now a Research Category.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#42",
+          "locator": "§2.3 Persuasion",
+          "text": "and Persuasion category risks do not fit the criteria for inclusion.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#43",
+          "locator": "§3.1 Evaluation approach",
+          "text": "using a version of the model that has a negligible rate of safety-based refusals on our Tracked Category capability evaluations (which may require a separate model variant), and with the best presently-available scaffolds.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#44",
+          "locator": "§3.1 Evaluation approach",
+          "text": "These measures are taken to approximate the high end of expected elicitation by threat actors attempting to misuse the model, and should be tailored depending on the level of expected access (e.g., doing finetuning if the weights will be released).",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#45",
+          "locator": "§3.1 Evaluation approach",
+          "text": "we regard any one-time capability elicitation in a frontier model as a lower bound, rather than a ceiling",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#46",
+          "locator": "§3.1 Evaluation approach",
+          "text": "Scalable Evaluations: automated evaluations designed to measure proxies that approximate whether a capability threshold has been crossed.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#47",
+          "locator": "§3.1 Evaluation approach",
+          "text": "Deep Dives: designed to provide additional evidence validating the scalable evaluations’ findings",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#48",
+          "locator": "§3.2",
+          "text": "Prior to deployment, every covered model undergoes the suite of Scalable Evaluations.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#49",
+          "locator": "§4.3 Marginal risk",
+          "text": "we publicly acknowledge that we are making the adjustment, • and, in order to avoid a race to the bottom on safety, we keep our safeguards at a level more protective than the other AI developer",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#50",
+          "locator": "Table (safeguards against malicious users)",
+          "text": "Usage Monitoring: If a model does not refuse and provides assistance to harmful tasks",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#51",
+          "locator": "Table (safeguards against malicious users)",
+          "text": "Trust-based Access: The actors who gain access to the model will not use it in a way that presents",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#52",
+          "locator": "§1 footnote 2",
+          "text": "our adoption of Capability Reports and Safeguards Reports",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#53",
+          "locator": "Table (safeguards against misaligned models)",
+          "text": "Reliable and Robust System Oversight",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#54",
+          "locator": "Table (safeguards against misaligned models)",
+          "text": "System Architecture: The model can’t take",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#55",
+          "locator": "Appendix C.3 Security controls",
+          "text": "We will require the following practices for High capability models:",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#56",
+          "locator": "Appendix C.3 Security controls",
+          "text": "Comprehensive Security Threat Models",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#57",
+          "locator": "Appendix C.3 Security controls",
+          "text": "Defense in Depth",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#58",
+          "locator": "Appendix C.3 Security controls",
+          "text": "Access Management",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#59",
+          "locator": "§4.4",
+          "text": "We do not currently possess any models that have Critical levels of capability, and we expect to further update this Preparedness Framework before reaching such a level with any model.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#60",
+          "locator": "Changes to Tracked Categories in version 2",
+          "text": "AI Self-improvement (now a Tracked Category), Long-range Autonomy and Autonomous Replication and Adaptation (now Research Categories) are distinct aspects of what we formerly termed Model Autonomy.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#61",
+          "locator": "Appendix A, changes in version 2",
+          "text": "we are removing terms “low” and “medium” from the Framework",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#62",
+          "locator": "Appendix B",
+          "text": "Where necessary, the Board may reverse a decision and/or mandate a revised course of action.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0095#63",
+          "locator": "Appendix B, Updates to the Preparedness Framework",
+          "text": "We will review and potentially update the Preparedness Framework for continued sufficiency at least once a year.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -6771,6 +7245,30 @@
           "locator": "§10 Preparedness",
           "text": "Astra reaches the Critical level in Cybersecurity capability, and the High level in the Biological and Chemical category. In AI Self-Improvement, Astra does not reach our High threshold.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0098#7",
+          "locator": "Cover",
+          "text": "GPT-6 Astra System Card 2026-09-03",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0098#8",
+          "locator": "§10 Preparedness",
+          "text": "we determined that Astra reaches the Critical level in Cybersecurity capability, and the High level in the Biological and Chemical category. In AI Self-Improvement, Astra does not reach our High threshold.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0098#9",
+          "locator": "Contents",
+          "text": "8.8 External Evaluations for Alignment – UK AISI",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0098#10",
+          "locator": "Contents",
+          "text": "External Evaluations for Alignment - Apollo Research",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -6826,6 +7324,12 @@
           "locator": "§9.1.3.6 External Evaluations for AI Self Improvement – METR",
           "text": "METR evaluated GPT-5.6 Sol on its Time Horizon 1.1 software-task suite",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0099#2",
+          "locator": "§9.1.3.6",
+          "text": "External Evaluations for AI Self Improvement – METR",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -6899,6 +7403,12 @@
           "locator": "§2.6 External reporting (p.13)",
           "text": "If an incident is determined to be reportable, we will gather relevant information from the investigation and remediation phase for reporting to appropriate authorities within the required deadlines.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0100#5",
+          "locator": "HTTP response headers",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The PDF carries no date; the cdn.openai.com response on 2026-11-09 has Last-Modified: Wed, 27 May 2026 16:04:12 GMT, consistent with publication in late May 2026.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -8557,6 +9067,24 @@
           "locator": "About the International AI Safety Report",
           "text": "Written by over 100 independent experts and led by Turing Award winner Yoshua Bengio, it represents the largest international collaboration on AI safety research to date.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0118#2",
+          "locator": "About the International AI Safety Report",
+          "text": "The International AI Safety Report is the world's first comprehensive review of the latest science on the capabilities and risks of general-purpose AI systems.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0118#3",
+          "locator": "About the International AI Safety Report",
+          "text": "The work was overseen by an international Expert Advisory Panel nominated by over 30 countries and intergovernmental organisations.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0118#4",
+          "locator": "Annual Report listing, 3 February 2026",
+          "text": "The second International AI Safety Report, published in February 2026, is the next iteration of the comprehensive review",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -9140,6 +9668,36 @@
           "locator": "summary bullets",
           "text": "The UK now takes on a Network Coordinator role as part of the changes",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0123#11",
+          "locator": "Header",
+          "text": "Published: 9 December 2025",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0123#12",
+          "locator": "Summary bullets",
+          "text": "The International Network of AI Safety Institutes becomes the International Network for Advanced AI Measurement, Evaluation and Science",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0123#13",
+          "locator": "Summary bullets",
+          "text": "Changes confirmed following latest gathering of the group in San Diego",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0123#14",
+          "locator": "Body para. 3",
+          "text": "The UK now takes on a Network Coordinator role as part of the changes",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0123#15",
+          "locator": "Body para. 4",
+          "text": "Established in November 2024, the Network brings together Australia, Canada, the European Union, France, Japan, Kenya, the Republic of Korea, Singapore, the United Kingdom and the United States",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -9249,6 +9807,30 @@
           "locator": "closing",
           "text": "After gathering in Seoul, Network members will align on further best practices that address common issues at the forefront of evaluation science, with particular attention given to agentic capabilities.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0124#11",
+          "locator": "Byline",
+          "text": "Jul 23, 2026",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0124#12",
+          "locator": "para. 2",
+          "text": "International Network for Advanced AI Measurement, Evaluation and Science (NAAIMES) – formerly the International Network of AI Safety Institutes",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0124#13",
+          "locator": "Sharing best practice",
+          "text": "Network best practices are designed to support the growing ecosystem of third-party evaluators",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0124#14",
+          "locator": "Addressing open questions",
+          "text": "The French National Institute for AI Evaluation and Security (INESIA) published",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -9473,6 +10055,18 @@
           "locator": "para. 3",
           "text": "In line with Secretary Lutnick’s direction and with America’s AI Action Plan, CAISI’s participation in the Network aims to further technical AI practices that promote innovation, reflect American values, and counter authoritarian influence.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0126#6",
+          "locator": "Body para. 2",
+          "text": "The International Network was founded by the Center for AI Standards and Innovation (CAISI) in November 2024",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0126#7",
+          "locator": "Body para. 3",
+          "text": "CAISI’s participation in the Network aims to further technical AI practices",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -9541,6 +10135,18 @@
           "locator": "para 2.4",
           "text": "the sharing of information about models, including their capabilities, limitations, and risks as appropriate; the monitoring of AI harms and safety incidents",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0127#4",
+          "locator": "para. 3",
+          "text": "We articulate our shared ambition to develop an international network among key partners to accelerate the advancement of the science of AI safety.",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0127#5",
+          "locator": "Header",
+          "text": "Published 21 May 2024",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -9606,6 +10212,12 @@
           "locator": "AI safety cooperation",
           "text": "Through NAAIMES (International Network for Advanced AI Measurement, Evaluation and Science; formerly Network of AI Safety Institutes), the AI Office collaborates with international partners on technical tools for AI governance.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0128#4",
+          "locator": "International AI safety cooperation",
+          "text": "Through NAAIMES (International Network for Advanced AI Measurement, Evaluation and Science; formerly Network of AI Safety Institutes), the AI Office collaborates with international partners on technical tools for AI governance.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -10675,7 +11287,9 @@
       "title": "Ethics of Artificial Intelligence: Recommendation on the Ethics of AI",
       "publisher": "UNESCO",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "adopted": "2021-11-23"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
@@ -10732,6 +11346,12 @@
           "locator": "intro",
           "text": "In November 2021, UNESCO's 193 Member States adopted the first global standard on AI ethics: the Recommendation on the Ethics of Artificial Intelligence.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0142#4",
+          "locator": "Recommendation on the Ethics of AI, intro",
+          "text": "In November 2021, UNESCO's 193 Member States adopted the first global standard on AI ethics: the Recommendation on the Ethics of Artificial Intelligence.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -23101,7 +23721,7 @@
     "S-0320": {
       "url": "https://verdragenbank.overheid.nl/en/Treaty/Details/013947_p.html",
       "title": "Treaty Database: Council of Europe Framework Convention on AI (parties table)",
-      "publisher": "Government of the Netherlands (Overheid.nl Treaty Database)",
+      "publisher": "Government of the Netherlands, Overheid.nl Treaty Database",
       "type": "primary",
       "dates": {},
       "fetches": [
@@ -23116,6 +23736,18 @@
           "content_type": "text/html;charset=UTF-8",
           "sha256": "96bf0d4075199bdf",
           "bytes": 29999
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:11:50Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://verdragenbank.overheid.nl/en/Treaty/Details/013947_p.html",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "6054d042f2a2b32b",
+          "bytes": 30018
         }
       ],
       "passages": [
@@ -23136,6 +23768,30 @@
           "locator": "Parties table",
           "text": "[Observation, not a quotation] Checked every row of the parties table (Albania to Uruguay): only the EU row carries a ratification date, and no row shows an entry-into-force date.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0320#4",
+          "locator": "Parties table, Bosnia and Herzegovina row",
+          "text": "Bosnia and Herzegovina 09-12-2025 28-10-2026 (R)",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0320#5",
+          "locator": "Parties table, United Kingdom and United States rows",
+          "text": "United Kingdom 05-09-2024 United States of America 05-09-2024",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0320#6",
+          "locator": "Parties table, Japan row",
+          "text": "Japan 11-02-2025",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0320#7",
+          "locator": "Parties table, all rows",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] Checked every row of the parties table (Albania to Uruguay): only the EU (15-05-2026) and Bosnia and Herzegovina (28-10-2026) rows carry a ratification date, and no row shows an entry-into-force date. Page metadata DCTERMS.modified is 2026-11-06.",
+          "retrieved": "2026-11-09"
         }
       ]
     },
@@ -24812,6 +25468,107 @@
           "id": "S-0358#1",
           "locator": "Body",
           "text": "since we saw elevated capabilities in the cyber and biological domains, we put our next-generation set of frontier safeguards in place across both areas",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0359": {
+      "url": "https://verdragenbank.overheid.nl/en/Treaty/Details/013947_w",
+      "title": "Treaty Database: Council of Europe Framework Convention on AI (modifications log)",
+      "publisher": "Government of the Netherlands, Overheid.nl Treaty Database",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:11:52Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://verdragenbank.overheid.nl/en/Treaty/Details/013947_w",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "0e987de8c0bb021f",
+          "bytes": 28900
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0359#1",
+          "locator": "Modifications, entry dated 06-11-2026",
+          "text": "06-11-2026 Party Toon meer van:Details Party Bosnia and Herzegovina modified Ratification: 28-10-2026 (R)",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0359#2",
+          "locator": "Modifications, entry dated 29-06-2026",
+          "text": "Albania added Signature: 15-06-2026",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0360": {
+      "url": "https://www.frontiermodelforum.org/updates/",
+      "title": "Frontier Model Forum: Updates",
+      "publisher": "Frontier Model Forum",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:11:57Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/updates/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "df42a767b0ea48d5",
+          "bytes": 59794
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0360#1",
+          "locator": "Latest update (top of listing)",
+          "text": "Introducing the FMF Jailbreak Rating Framework for Frontier Cyber Threats",
+          "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0360#2",
+          "locator": "Latest update (top of listing)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] Checked the top of the Updates listing on 2026-11-09: the most recent item is the Jailbreak Rating Framework v1.0 release (already logged by the 2026-11-06 run); no later FMF update is listed.",
+          "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0361": {
+      "url": "https://partnershiponai.org/ai-adoption-for-newsrooms-a-10-step-guide/",
+      "title": "AI Adoption for Newsrooms: A 10-Step Guide",
+      "publisher": "Partnership on AI",
+      "type": "primary",
+      "dates": {
+        "published": "2023-11-14"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T05:11:58Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://partnershiponai.org/ai-adoption-for-newsrooms-a-10-step-guide/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "3dc49385e5f9552f",
+          "bytes": 73655
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0361#1",
+          "locator": "Title and byline",
+          "text": "Local News AI Adoption for Newsrooms: A 10-Step Guide PAI Staff November 14, 2023",
           "retrieved": "2026-11-09"
         }
       ]

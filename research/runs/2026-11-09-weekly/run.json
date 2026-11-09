@@ -106,6 +106,80 @@
           "sources": []
         }
       ]
+    },
+    {
+      "area": "B3 multilateral bodies and processes (since 2026-11-06)",
+      "summary": "One update found: the CoE AI Convention's second ratification (Bosnia and Herzegovina, 28 Oct 2026, logged 6 Nov). No new AISR publication, HAIP/OECD instrument, NAAIMES output or UNESCO item since the last run.",
+      "queries": [
+        "Bosnia and Herzegovina ratifies Council of Europe Framework Convention on Artificial Intelligence October 2026",
+        "International AI Safety Report key update November 2026",
+        "OECD G7 Hiroshima AI Process new announcement November 2026",
+        "\"International Network for Advanced AI Measurement\" November 2026"
+      ],
+      "limits": "coe.int (Cloudflare) and EUR-Lex (HTTP 202) unavailable; primary checks were the AISR home page, the HAIP and OECD.AI pages, and the Netherlands treaty database. UN bodies not monitored; Geneva 2027 summit and OECD due-diligence lead already logged on 2026-11-06.",
+      "candidates": [
+        {
+          "name": "Bosnia and Herzegovina ratification of the CoE Framework Convention (28 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Second ratification, first by a CoE member state; entry says only the EU has ratified.",
+          "proposal": "P-0161",
+          "sources": [
+            "S-0320",
+            "S-0359"
+          ]
+        },
+        {
+          "name": "Albania signature of the CoE Convention (15 Jun 2026)",
+          "result": "screened out",
+          "reason": "Signature only; desc lists signatories by example and needs no change.",
+          "sources": [
+            "S-0359"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "B3 industry and multistakeholder bodies (FMF, PAI, EU GPAI Code)",
+      "summary": "Nothing new since the 2026-11-06 run: the FMF's latest update is the Jailbreak Rating Framework v1.0 (already logged); PAI's latest posts are from 8 Oct 2026; the Commission's GPAI Code page was last updated 7 Oct 2026.",
+      "queries": [
+        "GPAI Code of Practice signatories update AI Office November 2026"
+      ],
+      "limits": "Checked the FMF updates and publications listings, PAI blog, and the Commission GPAI Code page directly.",
+      "candidates": [
+        {
+          "name": "FMF Jailbreak Rating Framework for Frontier Cyber Threats v1.0",
+          "result": "screened out",
+          "reason": "Already logged by the 2026-11-06 run; nothing newer on the FMF listing.",
+          "sources": [
+            "S-0360"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "B4 OpenAI",
+      "summary": "No new Preparedness Framework version is published: v2 (Apr 2025) is still the PDF on cdn.openai.com. Secondary reports describe Aug–Sep 2026 developments the map does not record, but the primary pages are on openai.com, which refuses automated access.",
+      "queries": [
+        "OpenAI Preparedness Framework update November 2026",
+        "OpenAI safety framework announcement November 2026 cdn.openai.com"
+      ],
+      "limits": "openai.com serves Cloudflare challenges; only cdn.openai.com and deploymentsafety.openai.com PDFs were read. The leads below are from search results and predate the 6 Nov run, which did not log them.",
+      "candidates": [
+        {
+          "name": "OpenAI announcement (Aug 2026) that it is rewriting the Preparedness Framework and pausing its largest planned RL run after the Hugging Face incident",
+          "result": "lead — source inaccessible",
+          "reason": "Reported by Axios (18 Aug 2026) and others; the Astra card mentions the incident and 'recent public updates' but not the rewrite or pause. If confirmed, prep:context and cov:halt may need a note. Needs the openai.com post.",
+          "sources": [
+            "S-0098"
+          ]
+        },
+        {
+          "name": "OpenAI misalignment-incident disclosure framework (16 Sep 2026) and safety-cases post for frontier training (late Sep 2026)",
+          "result": "lead — source inaccessible",
+          "reason": "Search results only; possible accountability (acct) additions to prep. Needs openai.com primary.",
+          "sources": []
+        }
+      ]
     }
   ],
   "usage": null

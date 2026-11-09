@@ -17107,7 +17107,7 @@
     },
     {
       "id": "P-0161",
-      "fingerprint": "a4037720726b",
+      "fingerprint": "b3ab1851dcf4",
       "targets": [
         "entry:coe-ai:desc"
       ],
@@ -17180,6 +17180,100 @@
             "gap:update"
           ],
           "hash": "c0c8627141b7"
+        },
+        {
+          "v": 2,
+          "created": "2026-11-09T05:12:05Z",
+          "run": "2026-11-09-weekly",
+          "author": "claude",
+          "title": "CoE AI Convention: ratified by the EU (deposited May 2026) and Bosnia and Herzegovina (Oct 2026); not in force",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "coe-ai",
+              "field": "desc",
+              "from": "First binding international AI treaty (opened for signature Sept 2024). Signatories include EU, UK, US, Japan; only the EU has ratified (approved Apr 2026). Not yet in force: needs five ratifications incl. three CoE member states.",
+              "to": "First binding international AI treaty (opened for signature Sept 2024). Signatories include EU, UK, US, Japan; ratified by the EU (approved Apr 2026, deposited May 2026) and Bosnia and Herzegovina (Oct 2026). Not yet in force: needs five ratifications incl. three CoE member states."
+            }
+          ],
+          "why": "The entry says only the EU has ratified. The treaty database now records a second ratification (Bosnia and Herzegovina, 28 Oct 2026), the first by a Council of Europe member state, which matters for the entry-into-force count.",
+          "rationale": "The Netherlands treaty database (which mirrors the depositary record) lists Bosnia and Herzegovina with signature 09-12-2025 and ratification 28-10-2026 (R), and its modifications log records that change on 06-11-2026, after the 2026-11-06 run read the table. The EU row still shows 15-05-2026 (R). No row shows an entry-into-force date, so 'Not yet in force' stands (two ratifications, one by a CoE member state). The edit also carries P-0161's 'deposited May 2026' wording, so this proposal supersedes P-0161: both edit the same desc, and accepting one makes the other's 'from' stale.",
+          "evidence": [
+            {
+              "source": "S-0320",
+              "passage": "S-0320#4",
+              "stance": "supports",
+              "supports": "Bosnia and Herzegovina ratified 28 Oct 2026"
+            },
+            {
+              "source": "S-0359",
+              "passage": "S-0359#1",
+              "stance": "supports",
+              "supports": "Change recorded 6 Nov 2026"
+            },
+            {
+              "source": "S-0320",
+              "passage": "S-0320#1",
+              "stance": "supports",
+              "supports": "EU ratification/approval deposited 15 May 2026"
+            },
+            {
+              "source": "S-0320",
+              "passage": "S-0320#2",
+              "stance": "supports",
+              "supports": "(R) covers ratification and approval"
+            },
+            {
+              "source": "S-0320",
+              "passage": "S-0320#7",
+              "stance": "supports",
+              "supports": "Only two ratifications; not in force"
+            },
+            {
+              "source": "S-0320",
+              "passage": "S-0320#5",
+              "stance": "supports",
+              "supports": "UK and US signatures, Sept 2024"
+            },
+            {
+              "source": "S-0320",
+              "passage": "S-0320#6",
+              "stance": "supports",
+              "supports": "Japan signatory"
+            },
+            {
+              "source": "S-0141",
+              "passage": "S-0141#4",
+              "stance": "supports",
+              "supports": "EU approval of the Convention"
+            },
+            {
+              "source": "S-0141",
+              "passage": "S-0141#5",
+              "stance": "supports",
+              "supports": "Decision dated 21 Apr 2026"
+            }
+          ],
+          "uncertainty": "Single official source (a national mirror of the depositary records); the Council of Europe Treaty Office page (coe.int) refuses automated access, so the deposit could not be confirmed there. The Oct 2026 date is the ratification (deposit) date the database records. 'Approved Apr 2026' was not re-read this run because EUR-Lex returned HTTP 202 to every fetch.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:coe-ai": "status 'proposed' and pow 3 still fit: not in force",
+            "edge:coe-ai|eu-aia": "not checked by this group; unaffected"
+          },
+          "unverified_carryover": [
+            "needs five ratifications incl. three CoE member states (Art. 30(3) not re-read this run)",
+            "First binding international AI treaty"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "edge:coe-ai|eu-aia",
+            "gap:update"
+          ],
+          "hash": "7fbe6b36233e"
         }
       ],
       "decision": {
@@ -17194,7 +17288,7 @@
       "research": {
         "status": "verified",
         "missing": [],
-        "updated": "2026-11-06"
+        "updated": "2026-11-09"
       }
     },
     {

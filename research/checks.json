@@ -471,70 +471,70 @@
     },
     "entry:gpai-cop:cov": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0044"
+          "S-0044",
+          "S-0089",
+          "S-0091",
+          "S-0045"
         ],
-        "proposals": [
-          "P-0034"
-        ],
-        "note": "All eight listed elements are supported; timing (trigger points, pre-market Framework and Model Report) is also covered but missing.",
+        "proposals": [],
+        "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
         "missing": null,
-        "hash": "387fa8bed03a"
+        "hash": "0495c7c8cd4d"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0044"
+          "S-0044",
+          "S-0089",
+          "S-0091",
+          "S-0045"
         ],
-        "proposals": [
-          "P-0034"
-        ],
-        "note": "All eight listed elements are supported; timing (trigger points, pre-market Framework and Model Report) is also covered but missing.",
+        "proposals": [],
+        "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
         "missing": null,
-        "hash": "387fa8bed03a"
+        "hash": "0495c7c8cd4d"
       }
     },
     "entry:gpai-cop:cov:thresh": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0044",
           "S-0089",
-          "S-0091"
+          "S-0091",
+          "S-0045"
         ],
-        "proposals": [
-          "P-0030"
-        ],
-        "note": "Measure 4.1 tiers are signatory-defined and capability-based; the 10^25 FLOP figure is the Act's classification presumption, which the Code does not address.",
+        "proposals": [],
+        "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
         "missing": null,
-        "hash": "8b0bad03f317"
+        "hash": "b8a54cd6e580"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0044",
           "S-0089",
-          "S-0091"
+          "S-0091",
+          "S-0045"
         ],
-        "proposals": [
-          "P-0030"
-        ],
-        "note": "Measure 4.1 tiers are signatory-defined and capability-based; the 10^25 FLOP figure is the Act's classification presumption, which the Code does not address.",
+        "proposals": [],
+        "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
         "missing": null,
-        "hash": "8b0bad03f317"
+        "hash": "b8a54cd6e580"
       }
     },
     "entry:gpai-cop:cov:eval": {
@@ -567,19 +567,17 @@
     },
     "entry:gpai-cop:cov:elicit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "unresolved",
         "scope": "external",
         "sources": [
           "S-0044"
         ],
-        "proposals": [
-          "P-0031"
-        ],
-        "note": "Elicitation is mandated (Appendix 3.2); red-teaming is an example method; external evaluation is required with two exceptions (Appendix 3.5).",
-        "missing": null,
-        "hash": "bfa698bef607"
+        "proposals": [],
+        "note": "Facts verified: state-of-the-art elicitation minimising under-elicitation and sandbagging (Appendix 3.2), red-teaming listed among evaluation methods, independent external evaluations required with two exceptions (Appendix 3.5). 'Among the strongest elicitation requirements in any non-binding instrument' is a comparison.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "6005596bffc7"
       },
       "last_success": {
         "run": "2026-10-10-baseline",
@@ -599,68 +597,70 @@
     },
     "entry:gpai-cop:cov:sec": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0044"
+          "S-0044",
+          "S-0089",
+          "S-0091",
+          "S-0045"
         ],
-        "proposals": [
-          "P-0032"
-        ],
-        "note": "Commitment 6 and Appendix 4 confirmed; no supply-chain measures in the text.",
+        "proposals": [],
+        "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
         "missing": null,
-        "hash": "3ddd73b40acc"
+        "hash": "a2bf351b32f0"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0044"
+          "S-0044",
+          "S-0089",
+          "S-0091",
+          "S-0045"
         ],
-        "proposals": [
-          "P-0032"
-        ],
-        "note": "Commitment 6 and Appendix 4 confirmed; no supply-chain measures in the text.",
+        "proposals": [],
+        "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
         "missing": null,
-        "hash": "3ddd73b40acc"
+        "hash": "a2bf351b32f0"
       }
     },
     "entry:gpai-cop:cov:mit": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0044",
+          "S-0089",
+          "S-0091",
           "S-0045"
         ],
-        "proposals": [
-          "P-0018"
-        ],
-        "note": "Model Reports at least every six months (Measure 7.6), not annually; content marking is not a GPAI Code mitigation (Measure 5.1); it falls under the separate Art 50 code.",
+        "proposals": [],
+        "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
         "missing": null,
-        "hash": "04d00259f317"
+        "hash": "f203f691b98e"
       },
       "last_success": {
-        "run": "2026-10-10-trial1b",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0044",
+          "S-0089",
+          "S-0091",
           "S-0045"
         ],
-        "proposals": [
-          "P-0018"
-        ],
-        "note": "Model Reports at least every six months (Measure 7.6), not annually; content marking is not a GPAI Code mitigation (Measure 5.1); it falls under the separate Art 50 code.",
+        "proposals": [],
+        "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
         "missing": null,
-        "hash": "04d00259f317"
+        "hash": "f203f691b98e"
       }
     },
     "entry:gpai-cop:cov:halt": {
@@ -695,36 +695,36 @@
     },
     "entry:gpai-cop:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0044",
+          "S-0089",
+          "S-0091",
           "S-0045"
         ],
-        "proposals": [
-          "P-0018"
-        ],
-        "note": "Model Reports at least every six months (Measure 7.6), not annually; content marking is not a GPAI Code mitigation (Measure 5.1); it falls under the separate Art 50 code.",
+        "proposals": [],
+        "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
         "missing": null,
-        "hash": "c0eb5600e3f2"
+        "hash": "c793df6e1c5b"
       },
       "last_success": {
-        "run": "2026-10-10-trial1b",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0044",
+          "S-0089",
+          "S-0091",
           "S-0045"
         ],
-        "proposals": [
-          "P-0018"
-        ],
-        "note": "Model Reports at least every six months (Measure 7.6), not annually; content marking is not a GPAI Code mitigation (Measure 5.1); it falls under the separate Art 50 code.",
+        "proposals": [],
+        "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
         "missing": null,
-        "hash": "c0eb5600e3f2"
+        "hash": "c793df6e1c5b"
       }
     },
     "entry:gpai-cop:cov:update": {
@@ -3499,97 +3499,87 @@
     },
     "entry:hiroshima:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
+          "S-0072",
           "S-0071",
           "S-0075",
-          "S-0074",
-          "S-0072"
+          "S-0074"
         ],
-        "proposals": [
-          "P-0027"
-        ],
-        "note": "Code of Conduct (Oct 2023) with 11 actions confirmed; reporting framework launched 7 Feb 2025 (pilot 2024), not 2024.",
+        "proposals": [],
+        "note": "Code of Conduct (G7 Leaders' Statement 30 Oct 2023) has 11 actions; reporting framework launched 7 Feb 2025 after a 2024 pilot; v2.0 launched 28 May 2026; the OECD says it monitors application of the Code.",
         "missing": null,
-        "hash": "f2508c9b5250"
+        "hash": "99dd4622bea9"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
+          "S-0072",
           "S-0071",
           "S-0075",
-          "S-0074",
-          "S-0072"
+          "S-0074"
         ],
-        "proposals": [
-          "P-0027"
-        ],
-        "note": "Code of Conduct (Oct 2023) with 11 actions confirmed; reporting framework launched 7 Feb 2025 (pilot 2024), not 2024.",
+        "proposals": [],
+        "note": "Code of Conduct (G7 Leaders' Statement 30 Oct 2023) has 11 actions; reporting framework launched 7 Feb 2025 after a 2024 pilot; v2.0 launched 28 May 2026; the OECD says it monitors application of the Code.",
         "missing": null,
-        "hash": "f2508c9b5250"
+        "hash": "99dd4622bea9"
       }
     },
     "entry:hiroshima:cov:update": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
+          "S-0072",
           "S-0071",
           "S-0075",
-          "S-0074",
-          "S-0072"
+          "S-0074"
         ],
-        "proposals": [
-          "P-0027"
-        ],
-        "note": "Code of Conduct (Oct 2023) with 11 actions confirmed; reporting framework launched 7 Feb 2025 (pilot 2024), not 2024.",
+        "proposals": [],
+        "note": "Code of Conduct (G7 Leaders' Statement 30 Oct 2023) has 11 actions; reporting framework launched 7 Feb 2025 after a 2024 pilot; v2.0 launched 28 May 2026; the OECD says it monitors application of the Code.",
         "missing": null,
-        "hash": "cf942479a6b5"
+        "hash": "179656889ec3"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
+          "S-0072",
           "S-0071",
           "S-0075",
-          "S-0074",
-          "S-0072"
+          "S-0074"
         ],
-        "proposals": [
-          "P-0027"
-        ],
-        "note": "Code of Conduct (Oct 2023) with 11 actions confirmed; reporting framework launched 7 Feb 2025 (pilot 2024), not 2024.",
+        "proposals": [],
+        "note": "Code of Conduct (G7 Leaders' Statement 30 Oct 2023) has 11 actions; reporting framework launched 7 Feb 2025 after a 2024 pilot; v2.0 launched 28 May 2026; the OECD says it monitors application of the Code.",
         "missing": null,
-        "hash": "cf942479a6b5"
+        "hash": "179656889ec3"
       }
     },
     "entry:hiroshima:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0071",
+          "S-0072",
           "S-0074",
-          "S-0072"
+          "S-0071"
         ],
-        "proposals": [
-          "P-0028"
-        ],
-        "note": "Code topics (risk identification, security, transparency, content authentication, incident reporting) confirmed in actions 1–7. v2.0 launch on 28 May 2026 for SMEs confirmed. New fact: v2.0 reports from 31 companies published 2 Oct 2026. The 50+ pledges are organisations, not only companies. The Seoul comparison is analytic.",
-        "missing": null,
-        "hash": "381802fcf13e"
+        "proposals": [],
+        "note": "Facts verified: Code covers risk identification (1), post-deployment incidents (2), transparency (3), incident information-sharing (4), security (6) and content authentication (7); reports are invited annually and support OECD monitoring; v2.0 launched 28 May 2026 on the margins of the G7 Digital and Tech Ministerial with an SME focus; 50+ organisations pledged; v2.0 reports from 31 companies published 2 Oct 2026. The comparison with the Seoul commitments is analytic.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "3f95f5d2f102"
       },
       "last_success": {
         "run": "2026-10-10-baseline",
@@ -3980,23 +3970,20 @@
     },
     "entry:fmf:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0079",
-          "S-0080",
           "S-0078",
-          "S-0082",
-          "S-0081"
+          "S-0079",
+          "S-0081",
+          "S-0082"
         ],
-        "proposals": [
-          "P-0035"
-        ],
-        "note": "Grants and forums confirmed. 'Doesn't impose obligations' omits the members' information-sharing agreement (Mar 2025, in use per Feb 2026 update). The FMF files public comments and testimony but states it does not lobby. Critics' views are analytic.",
-        "missing": null,
-        "hash": "6e36b3fd87f4"
+        "proposals": [],
+        "note": "Factual core verified (grants, information-sharing agreement of Mar 2025 signed by all members, no lobbying). The critics' views and 'the substantive contribution is in the research outputs' are analytic.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "c0e19a1a61cb"
       },
       "last_success": {
         "run": "2026-10-10-baseline",
@@ -4020,42 +4007,36 @@
     },
     "entry:fmf:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0079",
-          "S-0080",
           "S-0078",
-          "S-0082",
-          "S-0081"
+          "S-0079",
+          "S-0081",
+          "S-0082"
         ],
-        "proposals": [
-          "P-0035"
-        ],
-        "note": "Grants and forums confirmed. 'Doesn't impose obligations' omits the members' information-sharing agreement (Mar 2025, in use per Feb 2026 update). The FMF files public comments and testimony but states it does not lobby. Critics' views are analytic.",
+        "proposals": [],
+        "note": "AI Safety Fund grants, workstreams and publications (issue briefs and technical reports) confirmed; all members signed the information-sharing agreement (28 Mar 2025); the FMF says it does not engage in lobbying.",
         "missing": null,
-        "hash": "60cead5d2200"
+        "hash": "ba2492673376"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0079",
-          "S-0080",
           "S-0078",
-          "S-0082",
-          "S-0081"
+          "S-0079",
+          "S-0081",
+          "S-0082"
         ],
-        "proposals": [
-          "P-0035"
-        ],
-        "note": "Grants and forums confirmed. 'Doesn't impose obligations' omits the members' information-sharing agreement (Mar 2025, in use per Feb 2026 update). The FMF files public comments and testimony but states it does not lobby. Critics' views are analytic.",
+        "proposals": [],
+        "note": "AI Safety Fund grants, workstreams and publications (issue briefs and technical reports) confirmed; all members signed the information-sharing agreement (28 Mar 2025); the FMF says it does not engage in lobbying.",
         "missing": null,
-        "hash": "60cead5d2200"
+        "hash": "ba2492673376"
       }
     },
     "edge:fmf|rsp": {
@@ -4308,21 +4289,20 @@
     },
     "entry:pai:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "unresolved",
         "scope": "external",
         "sources": [
+          "S-0084",
           "S-0085",
-          "S-0086",
-          "S-0084"
+          "S-0361",
+          "S-0086"
         ],
-        "proposals": [
-          "P-0036"
-        ],
-        "note": "Membership mix confirmed. 'Hasn't fully repositioned' leaves out the 2023 foundation-model guidance and the 2026 provider-tracking report.",
-        "missing": null,
-        "hash": "6d1b95d2759c"
+        "proposals": [],
+        "note": "Facts verified: academic, civil society, industry and media partners; synthetic-media practices, newsroom AI guidance and labour/economy work; the 2023 Guidance for Safe Foundation Model Deployment and the Apr 2026 report tracking 13 organisations. 'Most influential as a multistakeholder venue…' is analytic.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "1e021166c52f"
       },
       "last_success": {
         "run": "2026-10-10-baseline",
@@ -4376,118 +4356,89 @@
     },
     "entry:prep:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "62796f2e75fe"
+        "hash": "d342a5c0704f"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "62796f2e75fe"
+        "hash": "d342a5c0704f"
       }
     },
     "entry:prep:context": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "56ccebe1418d"
+        "hash": "5819c6971b81"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "56ccebe1418d"
+        "hash": "5819c6971b81"
       }
     },
     "entry:prep:cov:thresh": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0095",
-          "S-0062",
-          "S-0096",
-          "S-0097",
-          "S-0098",
-          "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0095"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
-        "missing": null,
-        "hash": "927dd9e9459b"
+        "proposals": [],
+        "note": "OpenAI facts verified (three Tracked Categories, High and Critical thresholds, low/medium removed). The contrast with Anthropic's ASLs was not checked against the RSP and is a comparison.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
+        "hash": "980b5347f0e8"
       },
       "last_success": {
         "run": "2026-10-10-baseline",
@@ -4514,324 +4465,254 @@
     },
     "entry:prep:cov:eval": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "6ba8b6e81900"
+        "hash": "afca254cebc0"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "6ba8b6e81900"
+        "hash": "afca254cebc0"
       }
     },
     "entry:prep:cov:elicit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "8ff33c4fccbe"
+        "hash": "88712c58d275"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "8ff33c4fccbe"
+        "hash": "88712c58d275"
       }
     },
     "entry:prep:cov:sec": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "6b25bbebd1ba"
+        "hash": "bf3581f104e9"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "6b25bbebd1ba"
+        "hash": "bf3581f104e9"
       }
     },
     "entry:prep:cov:mit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "1134a1b7a0f1"
+        "hash": "ecbb240f11c1"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "1134a1b7a0f1"
+        "hash": "ecbb240f11c1"
       }
     },
     "entry:prep:cov:halt": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "5b9bd49c7e75"
+        "hash": "afe9754948c0"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "5b9bd49c7e75"
+        "hash": "afe9754948c0"
       }
     },
     "entry:prep:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "c8b689c47405"
+        "hash": "13799379f83c"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "c8b689c47405"
+        "hash": "13799379f83c"
       }
     },
     "entry:prep:cov:update": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "e53eb2bc92f3"
+        "hash": "4fdfd78ea9ea"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0095",
           "S-0062",
-          "S-0096",
-          "S-0097",
           "S-0098",
           "S-0099",
-          "S-0100",
-          "S-0101"
+          "S-0100"
         ],
-        "proposals": [
-          "P-0037"
-        ],
-        "note": "Current text matches the Dec 2023 beta (four categories incl. persuasion, low–critical scale, \"medium or below\" deployment rule), not v2 (Apr 2025). The bio-threshold claims have no support in v2. FGF sentence verified and kept.",
+        "proposals": [],
+        "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
         "missing": null,
-        "hash": "e53eb2bc92f3"
+        "hash": "4fdfd78ea9ea"
       }
     },
     "entry:prep:cov:timing": {
@@ -6184,36 +6065,30 @@
     },
     "entry:aisr": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0117",
           "S-0118"
         ],
-        "proposals": [
-          "P-0044"
-        ],
-        "note": "Name, layer, jur, pow and status are consistent with the report series. The link opens the May 2024 interim-report page on GOV.UK, which now points to internationalaisafetyreport.org. Proposed link update.",
+        "proposals": [],
+        "note": "Link resolves to the official report site; it describes an intergovernmentally overseen science report (Expert Advisory Panel nominated by 30+ countries and IGOs), consistent with layer 1, jur mu, pow 1 and status active (2026 edition published Feb 2026).",
         "missing": null,
-        "hash": "187768c5e162"
+        "hash": "da13a4633f91"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0117",
           "S-0118"
         ],
-        "proposals": [
-          "P-0044"
-        ],
-        "note": "Name, layer, jur, pow and status are consistent with the report series. The link opens the May 2024 interim-report page on GOV.UK, which now points to internationalaisafetyreport.org. Proposed link update.",
+        "proposals": [],
+        "note": "Link resolves to the official report site; it describes an intergovernmentally overseen science report (Expert Advisory Panel nominated by 30+ countries and IGOs), consistent with layer 1, jur mu, pow 1 and status active (2026 edition published Feb 2026).",
         "missing": null,
-        "hash": "187768c5e162"
+        "hash": "da13a4633f91"
       }
     },
     "entry:aisr:desc": {
@@ -6513,76 +6388,74 @@
     },
     "entry:aisi-net": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0123",
           "S-0124",
-          "S-0128"
+          "S-0126",
+          "S-0128",
+          "S-0125"
         ],
-        "proposals": [
-          "P-0046"
-        ],
-        "note": "Link (GOV.UK Dec 2025 release) works and supports the entry. Layer, jur, pow and status are fine. The label 'AISI Network' predates the Dec 2025 rename (NAAIMES); raised as a labelling question.",
+        "proposals": [],
+        "note": "GOV.UK link works (9 Dec 2025 release). The ten members (Australia, Canada, EU, France, Japan, Kenya, Korea, Singapore, UK, US) are confirmed by GOV.UK, AISI and NIST; NIST confirms CAISI's participation, the Commission names the AI Office as the EU participant in NAAIMES, and AISI names France's INESIA. Rename at the San Diego meeting, the UK Network Coordinator role, the NAAIMES short name and the first best-practice guidance (automated evaluation, for third-party evaluators, Jul 2026) are confirmed. The edge's seven members are all in the list.",
         "missing": null,
-        "hash": "e838c87c530d"
+        "hash": "a4b05d144bf7"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0123",
           "S-0124",
-          "S-0128"
+          "S-0126",
+          "S-0128",
+          "S-0125"
         ],
-        "proposals": [
-          "P-0046"
-        ],
-        "note": "Link (GOV.UK Dec 2025 release) works and supports the entry. Layer, jur, pow and status are fine. The label 'AISI Network' predates the Dec 2025 rename (NAAIMES); raised as a labelling question.",
+        "proposals": [],
+        "note": "GOV.UK link works (9 Dec 2025 release). The ten members (Australia, Canada, EU, France, Japan, Kenya, Korea, Singapore, UK, US) are confirmed by GOV.UK, AISI and NIST; NIST confirms CAISI's participation, the Commission names the AI Office as the EU participant in NAAIMES, and AISI names France's INESIA. Rename at the San Diego meeting, the UK Network Coordinator role, the NAAIMES short name and the first best-practice guidance (automated evaluation, for third-party evaluators, Jul 2026) are confirmed. The edge's seven members are all in the list.",
         "missing": null,
-        "hash": "e838c87c530d"
+        "hash": "a4b05d144bf7"
       }
     },
     "entry:aisi-net:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0123",
           "S-0124",
-          "S-0125",
-          "S-0126"
+          "S-0126",
+          "S-0128",
+          "S-0125"
         ],
-        "proposals": [
-          "P-0045"
-        ],
-        "note": "The ten-member list and the Dec 2025 San Diego rename are confirmed. Proposed additions: NAAIMES short name, UK Network Coordinator role, Jul 2026 first best-practice guidance.",
+        "proposals": [],
+        "note": "GOV.UK link works (9 Dec 2025 release). The ten members (Australia, Canada, EU, France, Japan, Kenya, Korea, Singapore, UK, US) are confirmed by GOV.UK, AISI and NIST; NIST confirms CAISI's participation, the Commission names the AI Office as the EU participant in NAAIMES, and AISI names France's INESIA. Rename at the San Diego meeting, the UK Network Coordinator role, the NAAIMES short name and the first best-practice guidance (automated evaluation, for third-party evaluators, Jul 2026) are confirmed. The edge's seven members are all in the list.",
         "missing": null,
-        "hash": "1796b5ecc128"
+        "hash": "9dad37b67164"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0123",
           "S-0124",
-          "S-0125",
-          "S-0126"
+          "S-0126",
+          "S-0128",
+          "S-0125"
         ],
-        "proposals": [
-          "P-0045"
-        ],
-        "note": "The ten-member list and the Dec 2025 San Diego rename are confirmed. Proposed additions: NAAIMES short name, UK Network Coordinator role, Jul 2026 first best-practice guidance.",
+        "proposals": [],
+        "note": "GOV.UK link works (9 Dec 2025 release). The ten members (Australia, Canada, EU, France, Japan, Kenya, Korea, Singapore, UK, US) are confirmed by GOV.UK, AISI and NIST; NIST confirms CAISI's participation, the Commission names the AI Office as the EU participant in NAAIMES, and AISI names France's INESIA. Rename at the San Diego meeting, the UK Network Coordinator role, the NAAIMES short name and the first best-practice guidance (automated evaluation, for third-party evaluators, Jul 2026) are confirmed. The edge's seven members are all in the list.",
         "missing": null,
-        "hash": "1796b5ecc128"
+        "hash": "9dad37b67164"
       }
     },
     "entry:aisi-net:context": {
@@ -6816,74 +6689,70 @@
     },
     "edge:aisi-net|other-aisis": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
+          "S-0123",
           "S-0124",
-          "S-0125",
-          "S-0123"
+          "S-0126",
+          "S-0128",
+          "S-0125"
         ],
-        "proposals": [
-          "P-0047"
-        ],
-        "note": "The member lists from Dec 2025 and Jul 2026 contain ten members and do not include India.",
+        "proposals": [],
+        "note": "GOV.UK link works (9 Dec 2025 release). The ten members (Australia, Canada, EU, France, Japan, Kenya, Korea, Singapore, UK, US) are confirmed by GOV.UK, AISI and NIST; NIST confirms CAISI's participation, the Commission names the AI Office as the EU participant in NAAIMES, and AISI names France's INESIA. Rename at the San Diego meeting, the UK Network Coordinator role, the NAAIMES short name and the first best-practice guidance (automated evaluation, for third-party evaluators, Jul 2026) are confirmed. The edge's seven members are all in the list.",
         "missing": null,
-        "hash": "b2ef492b45aa"
+        "hash": "4f26f9b5ba82"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
+          "S-0123",
           "S-0124",
-          "S-0125",
-          "S-0123"
+          "S-0126",
+          "S-0128",
+          "S-0125"
         ],
-        "proposals": [
-          "P-0047"
-        ],
-        "note": "The member lists from Dec 2025 and Jul 2026 contain ten members and do not include India.",
+        "proposals": [],
+        "note": "GOV.UK link works (9 Dec 2025 release). The ten members (Australia, Canada, EU, France, Japan, Kenya, Korea, Singapore, UK, US) are confirmed by GOV.UK, AISI and NIST; NIST confirms CAISI's participation, the Commission names the AI Office as the EU participant in NAAIMES, and AISI names France's INESIA. Rename at the San Diego meeting, the UK Network Coordinator role, the NAAIMES short name and the first best-practice guidance (automated evaluation, for third-party evaluators, Jul 2026) are confirmed. The edge's seven members are all in the list.",
         "missing": null,
-        "hash": "b2ef492b45aa"
+        "hash": "4f26f9b5ba82"
       }
     },
     "edge:aisi-net|ai-summits": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0127",
           "S-0123",
           "S-0126"
         ],
-        "proposals": [
-          "P-0048"
-        ],
-        "note": "Seoul (May 2024) stated an ambition to develop the network. UK, NIST and the network date its establishment to Nov 2024.",
+        "proposals": [],
+        "note": "Seoul Statement of Intent (21 May 2024) records leaders' shared ambition to develop the network; GOV.UK and NIST date its establishment to Nov 2024. 'Agreed at Seoul' reads the statement of intent as the agreement, as accepted on 2026-10-10.",
         "missing": null,
-        "hash": "a4fa896c5fc4"
+        "hash": "ef61aee2d82d"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0127",
           "S-0123",
           "S-0126"
         ],
-        "proposals": [
-          "P-0048"
-        ],
-        "note": "Seoul (May 2024) stated an ambition to develop the network. UK, NIST and the network date its establishment to Nov 2024.",
+        "proposals": [],
+        "note": "Seoul Statement of Intent (21 May 2024) records leaders' shared ambition to develop the network; GOV.UK and NIST date its establishment to Nov 2024. 'Agreed at Seoul' reads the statement of intent as the agreement, as accepted on 2026-10-10.",
         "missing": null,
-        "hash": "a4fa896c5fc4"
+        "hash": "ef61aee2d82d"
       }
     },
     "entry:ai-summits": {
@@ -7377,20 +7246,17 @@
     },
     "entry:coe-ai": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "inaccessible",
         "scope": "external",
         "sources": [
-          "S-0139",
-          "S-0140"
+          "S-0320"
         ],
-        "proposals": [
-          "P-0052"
-        ],
-        "note": "The link works (rendered via headless Chromium). pow 3 fits a treaty without domestic transposition. Status 'phasing' conflicts with RUBRIC §5 because the Convention is not in force; raised as a classification question.",
-        "missing": null,
-        "hash": "1aaa5992d745"
+        "proposals": [],
+        "note": "The treaty database shows no entry-into-force date, so status 'proposed' (per the maintainer's earlier answer) and pow 3 remain consistent. The link itself (coe.int) could not be checked: headless Chromium timed out on the Cloudflare challenge and I did not try to defeat it.",
+        "missing": "A retrieval of https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence to confirm the link still serves the Convention page.",
+        "hash": "e768293f8c6c"
       },
       "last_success": {
         "run": "2026-10-10-baseline",
@@ -7411,38 +7277,36 @@
     },
     "entry:coe-ai:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0139",
-          "S-0140",
-          "S-0141"
+          "S-0320",
+          "S-0359"
         ],
         "proposals": [
-          "P-0051"
+          "P-0161"
         ],
-        "note": "'First binding international AI treaty (Sept 2024)' and the signatories (EU, UK, US, Japan) are confirmed. New: the EU concluded it (Council Decision 21 Apr 2026) and is the sole Party; the Convention is not yet in force (Art. 30(3)).",
+        "note": "'Only the EU has ratified' is outdated: the treaty database records Bosnia and Herzegovina's ratification on 28 Oct 2026 (logged 6 Nov 2026). Pending P-0161 (deposit date) edits the same field; the new proposal carries its wording and supersedes it.",
         "missing": null,
-        "hash": "75bad2f29ac5"
+        "hash": "e3e33656b3d9"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
         "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0139",
-          "S-0140",
-          "S-0141"
+          "S-0320",
+          "S-0359"
         ],
         "proposals": [
-          "P-0051"
+          "P-0161"
         ],
-        "note": "'First binding international AI treaty (Sept 2024)' and the signatories (EU, UK, US, Japan) are confirmed. New: the EU concluded it (Council Decision 21 Apr 2026) and is the sole Party; the Convention is not yet in force (Art. 30(3)).",
+        "note": "'Only the EU has ratified' is outdated: the treaty database records Bosnia and Herzegovina's ratification on 28 Oct 2026 (logged 6 Nov 2026). Pending P-0161 (deposit date) edits the same field; the new proposal carries its wording and supersedes it.",
         "missing": null,
-        "hash": "75bad2f29ac5"
+        "hash": "e3e33656b3d9"
       }
     },
     "entry:coe-ai:context": {
@@ -7658,36 +7522,30 @@
     },
     "entry:unesco:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0142",
-          "S-0143"
+          "S-0142"
         ],
-        "proposals": [
-          "P-0053"
-        ],
-        "note": "UNESCO says 193 Member States adopted it in Nov 2021 (23 Nov 2021).",
+        "proposals": [],
+        "note": "UNESCO: in November 2021 its 193 Member States adopted the Recommendation.",
         "missing": null,
-        "hash": "3882bf792c54"
+        "hash": "104794eed167"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-09-weekly",
+        "date": "2026-11-09",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0142",
-          "S-0143"
+          "S-0142"
         ],
-        "proposals": [
-          "P-0053"
-        ],
-        "note": "UNESCO says 193 Member States adopted it in Nov 2021 (23 Nov 2021).",
+        "proposals": [],
+        "note": "UNESCO: in November 2021 its 193 Member States adopted the Recommendation.",
         "missing": null,
-        "hash": "3882bf792c54"
+        "hash": "104794eed167"
       }
     },
     "entry:unesco:context": {
