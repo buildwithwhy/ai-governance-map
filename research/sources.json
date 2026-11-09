@@ -8250,6 +8250,18 @@
           "content_type": "application/pdf",
           "sha256": "4db67c6b6aea0a87",
           "bytes": 13208951
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:07Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://assets.claude.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd.pdf",
+          "content_type": "application/pdf",
+          "sha256": "4db67c6b6aea0a87",
+          "bytes": 13208951
         }
       ],
       "passages": [
@@ -9604,6 +9616,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "8b229a5714353334",
           "bytes": 342162
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:42Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208&reg=3&lang=2",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "f81484e6607f3cbc",
+          "bytes": 342160
         }
       ],
       "passages": [
@@ -9689,6 +9713,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "18dfbcc4ad213478",
           "bytes": 78021
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:44Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2232005&reg=3&lang=1",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "6ab0f9fec7557c2b",
+          "bytes": 78020
         }
       ],
       "passages": [
@@ -9732,6 +9768,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "d63f261eaa82fcf5",
           "bytes": 186838
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:42Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "d5d8343cc63ab540",
+          "bytes": 185315
         }
       ],
       "passages": [
@@ -9803,6 +9851,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "b8a71b11fbe2a96c",
           "bytes": 211254
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:45Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.bakom.admin.ch/en/geneva-ai-summit-2027-international-summit-on-artificial-intelligence-in-geneva",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "ee254edf85f4b662",
+          "bytes": 212665
         }
       ],
       "passages": [
@@ -9906,6 +9966,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:08Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://oecd.ai/en/ai-principles",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "3ac7f77d305422b1",
+          "bytes": 137864
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:46Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -10181,6 +10253,18 @@
           "content_type": "application/pdf",
           "sha256": "14cfe36633502daa",
           "bytes": 281151
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:47Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.soumu.go.jp/hiroshimaaiprocess/pdf/document05_en.pdf",
+          "content_type": "application/pdf",
+          "sha256": "14cfe36633502daa",
+          "bytes": 281151
         }
       ],
       "passages": [
@@ -10336,6 +10420,16 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "37b4458220a7521a",
           "bytes": 336456
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:48Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "http_202",
+          "http": 202,
+          "final_url": "https://eur-lex.europa.eu/eli/agree_internation/2026/1081/oj/eng",
+          "content_type": "text/html; charset=UTF-8"
         }
       ],
       "passages": [
@@ -10422,6 +10516,16 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "712493bb55258c08",
           "bytes": 280324
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:48Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "http_202",
+          "http": 202,
+          "final_url": "https://eur-lex.europa.eu/eli/dec/2026/1080/oj/eng",
+          "content_type": "text/html; charset=UTF-8"
         }
       ],
       "passages": [
@@ -10493,6 +10597,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "74f5710951b6bf7b",
           "bytes": 288774
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:48Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "543a2df450d16873",
+          "bytes": 288774
         }
       ],
       "passages": [
@@ -10548,6 +10664,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "6ea4f8f720500400",
           "bytes": 468071
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:49Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "113de7d230328dbe",
+          "bytes": 468390
         }
       ],
       "passages": [
@@ -10639,6 +10767,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:27:29Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://documents.un.org/doc/undoc/gen/n25/228/17/pdf/n2522817.pdf",
+          "content_type": "application/pdf",
+          "sha256": "99f17e7202d3692d",
+          "bytes": 195276
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:57:08Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -10777,6 +10917,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "8731ab8042e8e249",
           "bytes": 58799
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:57:08Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.un.org/independent-international-scientific-panel-ai/en",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "8731ab8042e8e249",
+          "bytes": 58799
         }
       ],
       "passages": [
@@ -10825,6 +10977,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:27:32Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-07/Press%20Release%20-%20Independent%20International%20Scientific%20Panel%20on%20AI%20Launches%20Preliminary%20Report%20on%20AI%20Opportunities,%20Risks%20and%20Impacts.pdf",
+          "content_type": "application/pdf",
+          "sha256": "26c3ba26838ca0c1",
+          "bytes": 67744
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:57:10Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -10935,6 +11099,18 @@
           "content_type": "application/pdf",
           "sha256": "29e1a131ef70cf20",
           "bytes": 90001
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:57:10Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.un.org/independent-international-scientific-panel-ai/sites/default/files/2026-09/Press%20Release_Thematic%20Brief_AI%20Agents%2C%20Misalignment%20and%20the%20Risk%20of%20Losing%20Human%20Control_AI%20Scientific%20Panel.pdf",
+          "content_type": "application/pdf",
+          "sha256": "29e1a131ef70cf20",
+          "bytes": 90001
         }
       ],
       "passages": [
@@ -10995,6 +11171,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:27:33Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.un.org/global-dialogue-ai-governance/sites/default/files/2026-09/ai_dialogue_co-chairs_summary.pdf",
+          "content_type": "application/pdf",
+          "sha256": "a45d45d19f4d2007",
+          "bytes": 513485
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:57:10Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -11678,6 +11866,18 @@
           "content_type": "application/pdf",
           "sha256": "cba54050dcbe4b4d",
           "bytes": 142316
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:50Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download",
+          "content_type": "application/pdf",
+          "sha256": "cba54050dcbe4b4d",
+          "bytes": 142316
         }
       ],
       "passages": [
@@ -11920,6 +12120,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "5cf80d3d8514db05",
           "bytes": 152770
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:51Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.courtlistener.com/docket/73171074/x-ai-llc-v-weiser/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "09f3779f9e42035f",
+          "bytes": 152810
         }
       ],
       "passages": [
@@ -11966,6 +12178,18 @@
           "final_url": "https://coag.gov/ai/",
           "content_type": "text/html; charset=UTF-8",
           "sha256": "813790581fe902d1",
+          "bytes": 67921
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:50Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://coag.gov/ai/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "e909e8416d34e2b6",
           "bytes": 67921
         }
       ],
@@ -12034,6 +12258,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:19Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149F.pdf",
+          "content_type": "application/pdf",
+          "sha256": "85dabe34dc99c02e",
+          "bytes": 191805
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:51Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -12151,6 +12387,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "a8eb8eb5eda2c00f",
           "bytes": 86763
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:52Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "a8eb8eb5eda2c00f",
+          "bytes": 86763
         }
       ],
       "passages": [
@@ -12199,6 +12447,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:20Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149I.pdf",
+          "content_type": "application/pdf",
+          "sha256": "510db2fbf6563a2a",
+          "bytes": 182572
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:52Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -12709,6 +12969,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "6ea5c84e9b9fdbf3",
           "bytes": 90507
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:56Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/caissi",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "e0b84313f0410aa0",
+          "bytes": 90507
         }
       ],
       "passages": [
@@ -12813,6 +13085,18 @@
           "content_type": "application/pdf",
           "sha256": "55bf79ad5f80d386",
           "bytes": 192237
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:57Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2026-10-02/pdf/2026-20321.pdf",
+          "content_type": "application/pdf",
+          "sha256": "55bf79ad5f80d386",
+          "bytes": 192237
         }
       ],
       "passages": [
@@ -12884,6 +13168,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "69c5113bc5f94577",
           "bytes": 169678
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:57Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/news-events/news-updates/tag/2810121",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "b9818cf41b8f3283",
+          "bytes": 169677
         }
       ],
       "passages": [
@@ -12981,6 +13277,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "c8b9d2e4307b7b7e",
           "bytes": 99898
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:59Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "2f6d9105082756b1",
+          "bytes": 99849
         }
       ],
       "passages": [
@@ -13162,6 +13470,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "80f2228f965afe85",
           "bytes": 93607
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:57Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "9bba2fcdc035e248",
+          "bytes": 93607
         }
       ],
       "passages": [
@@ -13238,6 +13558,18 @@
           "final_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
           "content_type": "text/html; charset=UTF-8",
           "sha256": "7e73c165f39bcfda",
+          "bytes": 80233
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:53Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "1d6623fa7ef7a58c",
           "bytes": 80233
         }
       ],
@@ -13541,6 +13873,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "fd87a72e5a6259a5",
           "bytes": 185373
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:38Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.ntu.edu.sg/dtc",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "fd87a72e5a6259a5",
+          "bytes": 185373
         }
       ],
       "passages": [
@@ -13612,6 +13956,18 @@
           "content_type": "text/html",
           "sha256": "469836de554e1a68",
           "bytes": 19122
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:03Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://aisi.go.jp/",
+          "content_type": "text/html",
+          "sha256": "469836de554e1a68",
+          "bytes": 19122
         }
       ],
       "passages": [
@@ -13655,6 +14011,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "9f877352b6150863",
           "bytes": 49996
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:59Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.entreprises.gouv.fr/espace-presse/linstitut-national-pour-levaluation-et-la-securite-de-lia-adopte-sa-feuille-de-route",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "bdb54873a985ebfd",
+          "bytes": 49995
         }
       ],
       "passages": [
@@ -13833,6 +14201,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "a0a782f087c468f1",
           "bytes": 1692024
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:00Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://indiaai.gov.in/article/india-takes-the-lead-establishing-the-indiaai-safety-institute-for-responsible-ai-innovation",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "a0a782f087c468f1",
+          "bytes": 1692024
         }
       ],
       "passages": [
@@ -13874,6 +14254,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "77febcda7e4a7c8f",
           "bytes": 29937
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:53Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "77febcda7e4a7c8f",
+          "bytes": 29937
         }
       ],
       "passages": [
@@ -13908,6 +14300,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:27Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/about",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "b45aa781c0c0f808",
+          "bytes": 23688
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:56Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -13976,6 +14380,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "64c8e09b200a8880",
           "bytes": 85415
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:54Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/news/tackling-ai-security-risks-to-unleash-growth-and-deliver-plan-for-change",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "7e5baf1c93edb04e",
+          "bytes": 85415
         }
       ],
       "passages": [
@@ -14022,6 +14438,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:28Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/frontier-ai-trends-report",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "b824d2f8d82a6649",
+          "bytes": 119279
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:54Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -14081,6 +14509,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:28Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6943e6c11cb5bfd8178443f9_Frontier%20AI%20Trends%20Report%20-%20UK%20AISI%202025%20-%20compressed.pdf",
+          "content_type": "application/pdf",
+          "sha256": "6ed147b66f065722",
+          "bytes": 7698704
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:54Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -14205,6 +14645,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "268346410564c4bb",
           "bytes": 38700
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:09Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "268346410564c4bb",
+          "bytes": 38700
         }
       ],
       "passages": [
@@ -14309,6 +14761,18 @@
           "content_type": "application/pdf",
           "sha256": "f17c81e91842fc1c",
           "bytes": 1315202
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:55Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://assets.publishing.service.gov.uk/media/6a18713db95db968c8f3bbfd/The_King_s_Speech_2026_-_background_briefing_notes.pdf",
+          "content_type": "application/pdf",
+          "sha256": "f17c81e91842fc1c",
+          "bytes": 1315202
         }
       ],
       "passages": [
@@ -14356,6 +14820,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "4ba4fccc6ae1d917",
           "bytes": 89383
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:03Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "fd800224a37e221e",
+          "bytes": 90433
         }
       ],
       "passages": [
@@ -14471,6 +14947,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "53f3081f715cc81f",
           "bytes": 339959
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:04Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/common-elements",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "639e78c4469a265a",
+          "bytes": 341033
         }
       ],
       "passages": [
@@ -14718,6 +15206,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "23f56aac157c76db",
           "bytes": 1394150
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:05Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/blog/2026-05-19-frontier-risk-report/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "0003daddcc76a6a2",
+          "bytes": 1395328
         }
       ],
       "passages": [
@@ -14767,6 +15267,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "070ce5dab3967487",
           "bytes": 60371
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:05Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "e78e9b557af5fcf1",
+          "bytes": 60949
         }
       ],
       "passages": [
@@ -14810,6 +15322,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "ac56cf8c56eb6892",
           "bytes": 58686
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:06Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/blog/2026-06-26-gpt-5-6-sol/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "524cf0a273619668",
+          "bytes": 59264
         }
       ],
       "passages": [
@@ -14851,6 +15375,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "f9a344d4eeac43a4",
           "bytes": 308296
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:06Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.apolloresearch.ai/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "ce554e8e2e141f5f",
+          "bytes": 308352
         }
       ],
       "passages": [
@@ -14904,6 +15440,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "488771a3b512f011",
           "bytes": 165748
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:06Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.apolloresearch.ai/about",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "7b944896598138ee",
+          "bytes": 165778
         }
       ],
       "passages": [
@@ -14987,6 +15535,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "f153f6b091cac74b",
           "bytes": 172903
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:10Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "780c6f7626657382",
+          "bytes": 330187
         }
       ],
       "passages": [
@@ -15034,6 +15594,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "4859ea70886ea49a",
           "bytes": 259396
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:13Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/about",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "7ace17838a55fced",
+          "bytes": 213130
         }
       ],
       "passages": [
@@ -15101,6 +15673,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "66141bbeca5a4603",
           "bytes": 201666
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:11Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/ourwork/frontier-ai-auditing",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "5be5d2da845013f7",
+          "bytes": 245114
         }
       ],
       "passages": [
@@ -15184,6 +15768,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "403fbf8df41b3ade",
           "bytes": 237302
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:10Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/updates",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "1fdf45a3c297f3ca",
+          "bytes": 989402
         }
       ],
       "passages": [
@@ -15225,6 +15821,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "41c6e7aae7bc2fa2",
           "bytes": 434406
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:10Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/team",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "a9b68e69be7a0a61",
+          "bytes": 387022
         }
       ],
       "passages": [
@@ -15272,6 +15880,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "6b8353b4f02dc7dd",
           "bytes": 167630
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:11Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/ourwork?tag=Pilot+Reports",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "41933672dc237728",
+          "bytes": 325160
         }
       ],
       "passages": [
@@ -15331,6 +15951,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "069af6e8c1b8a5ba",
           "bytes": 69831
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:14Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://safe.ai/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "2b57515e61dba72f",
+          "bytes": 70168
         }
       ],
       "passages": [
@@ -15431,6 +16063,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "257ece653350f8fc",
           "bytes": 50825
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:14Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://safe.ai/about",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "1a2142736678437a",
+          "bytes": 51107
         }
       ],
       "passages": [
@@ -15496,6 +16140,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "5182f23e290c7561",
           "bytes": 71888
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:14Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://safe.ai/work/statement-on-ai-extinction-risk",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "8dbad152169c32e3",
+          "bytes": 72170
         }
       ],
       "passages": [
@@ -15537,6 +16193,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "823dd88401918122",
           "bytes": 127426
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:13Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://safe.ai/work/research",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "3d4b61e0bad1f46d",
+          "bytes": 127708
         }
       ],
       "passages": [
@@ -15735,6 +16403,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "0a9adc2026996778",
           "bytes": 22669
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:15Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://frontiersecurityinstitute.org/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "01ec68a8e37cc341",
+          "bytes": 22669
         }
       ],
       "passages": [
@@ -15824,6 +16504,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "130a9426cc726aab",
           "bytes": 18249
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:16Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://frontiersecurityinstitute.org/ai-labs",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "130a9426cc726aab",
+          "bytes": 18249
         }
       ],
       "passages": [
@@ -15894,6 +16586,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:41Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://frontiersecurityinstitute.org/national-security",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "8f75f8f3f33fcbd4",
+          "bytes": 11025
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:58Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -15972,6 +16676,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "e275bcf57472e581",
           "bytes": 11856
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:58Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://frontiersecurityinstitute.org/our-work",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "e275bcf57472e581",
+          "bytes": 11856
         }
       ],
       "passages": [
@@ -16036,6 +16752,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:42Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://frontiersecurityinstitute.org/team",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "59b45ad1ec1854c6",
+          "bytes": 65842
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:16Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -16188,6 +16916,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "c350688717064dab",
           "bytes": 53727
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:37Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "fa8b0fd9683a05dc",
+          "bytes": 53727
         }
       ],
       "passages": [
@@ -16236,6 +16976,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:43Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf",
+          "content_type": "application/pdf",
+          "sha256": "d7296438740efad8",
+          "bytes": 162121
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:36Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -16299,6 +17051,18 @@
           "content_type": "application/json; charset=utf-8",
           "sha256": "31b860830b2ee4b1",
           "bytes": 5709
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:37Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.federalregister.gov/api/v1/documents/2025-00636.json",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "ec57e83f244cd5c9",
+          "bytes": 5709
         }
       ],
       "passages": [
@@ -16335,6 +17099,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:44Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-15/pdf/2025-00636.pdf",
+          "content_type": "application/pdf",
+          "sha256": "0ec0f7fc1016b965",
+          "bytes": 737117
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:37Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -16386,6 +17162,18 @@
           "content_type": "application/json; charset=utf-8",
           "sha256": "1ee633d5504bbe94",
           "bytes": 8218
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:36Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.federalregister.gov/api/v1/documents/2024-28270.json",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "0d28e8b529deffee",
+          "bytes": 8218
         }
       ],
       "passages": [
@@ -16429,6 +17217,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:44Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2026-01-15/pdf/2026-00789.pdf",
+          "content_type": "application/pdf",
+          "sha256": "7fb7dae40d9b277a",
+          "bytes": 252319
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:37Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -16492,6 +17292,18 @@
           "content_type": "application/pdf",
           "sha256": "4e4b5555a41f7799",
           "bytes": 255910
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:35Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2026-07-14/pdf/2026-14132.pdf",
+          "content_type": "application/pdf",
+          "sha256": "4e4b5555a41f7799",
+          "bytes": 255910
         }
       ],
       "passages": [
@@ -16545,6 +17357,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "da7439bcde982ea0",
           "bytes": 73289
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:35Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.bis.gov/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "da7439bcde982ea0",
+          "bytes": 73289
         }
       ],
       "passages": [
@@ -16581,6 +17405,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:45Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "content_type": "application/pdf",
+          "sha256": "7576edb531d98488",
+          "bytes": 1946127
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:38Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -16642,6 +17478,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:46Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2026-07-07/pdf/2026-13628.pdf",
+          "content_type": "application/pdf",
+          "sha256": "f9364f74523ac674",
+          "bytes": 251272
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:24Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -16872,6 +17720,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "d1022ed7ff4c8329",
           "bytes": 67691
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:16Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.uk/ukpga/2023/50/schedule/13",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "6a24b68e05974619",
+          "bytes": 67691
         }
       ],
       "passages": [
@@ -16912,6 +17772,18 @@
           "final_url": "https://www.legislation.gov.uk/ukpga/2023/50/section/7",
           "content_type": "text/html;charset=utf-8",
           "sha256": "67c5b54587c67ca7",
+          "bytes": 45568
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:17Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.uk/ukpga/2023/50/section/7",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "98347d589b3e1797",
           "bytes": 45568
         }
       ],
@@ -17011,6 +17883,18 @@
           "content_type": "application/pdf",
           "sha256": "d14811136bb69c48",
           "bytes": 941680
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:18Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://assets.publishing.service.gov.uk/media/6762c7dfff2c870561bde79f/draft-illegal-content-codes-of-practice-for-user-to-user-services.pdf",
+          "content_type": "application/pdf",
+          "sha256": "d14811136bb69c48",
+          "bytes": 941680
         }
       ],
       "passages": [
@@ -17059,6 +17943,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:51Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://assets.publishing.service.gov.uk/media/6a0da2b64ea6d8f759662dc6/EM_to_Draft_Amendments_Illegal_Content_Codes.pdf",
+          "content_type": "application/pdf",
+          "sha256": "d037a5ed58ab72f1",
+          "bytes": 207278
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:19Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -17127,6 +18023,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "66cdb9f80cd7674b",
           "bytes": 60697
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:17Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.uk/ukpga/2026/20/section/248",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "66cdb9f80cd7674b",
+          "bytes": 60697
         }
       ],
       "passages": [
@@ -17188,6 +18096,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "f3b0295a8d92e8c7",
           "bytes": 81709
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:20Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/news/pm-no-platform-gets-a-free-pass-government-takes-action-to-keep-children-safe-online",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "0035679a2f264390",
+          "bytes": 81709
         }
       ],
       "passages": [
@@ -17228,6 +18148,17 @@
           "final_url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/",
           "content_type": "text/html; charset=UTF-8",
           "note": "website bot challenge (Cloudflare); the environment allowed the connection"
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:21Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "site_blocked",
+          "http": 403,
+          "final_url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/",
+          "content_type": "text/html; charset=UTF-8",
+          "note": "website bot challenge (Cloudflare); the environment allowed the connection"
         }
       ],
       "passages": [
@@ -17262,6 +18193,17 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:53Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "site_blocked",
+          "http": 403,
+          "final_url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/about-this-guidance/",
+          "content_type": "text/html; charset=UTF-8",
+          "note": "website bot challenge (Cloudflare); the environment allowed the connection"
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:21Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "site_blocked",
           "http": 403,
@@ -17332,6 +18274,17 @@
           "final_url": "https://ico.org.uk/",
           "content_type": "text/html; charset=UTF-8",
           "note": "website bot challenge (Cloudflare); the environment allowed the connection"
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:21Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "site_blocked",
+          "http": 403,
+          "final_url": "https://ico.org.uk/",
+          "content_type": "text/html; charset=UTF-8",
+          "note": "website bot challenge (Cloudflare); the environment allowed the connection"
         }
       ],
       "passages": [
@@ -17373,6 +18326,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "23a5aa1f5fabc328",
           "bytes": 58490
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:21Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.uk/ukpga/2018/12/section/157",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "f277d6b6a15ecf13",
+          "bytes": 58490
         }
       ],
       "passages": [
@@ -17409,6 +18374,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:53Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.uk/ukpga/2025/18/section/118",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "c20e60202f350b8a",
+          "bytes": 37910
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:21Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -17465,6 +18442,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "0d9d05ec596c9bc2",
           "bytes": 37884
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:22Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.uk/ukpga/2025/18/section/119",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "0d9d05ec596c9bc2",
+          "bytes": 37884
         }
       ],
       "passages": [
@@ -17513,6 +18502,17 @@
           "final_url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2024/05/ico-warns-organisations-must-not-ignore-data-protection-risks-as-it-concludes-snap-my-ai-chatbot-investigation/",
           "content_type": "text/html; charset=UTF-8",
           "note": "website bot challenge (Cloudflare); the environment allowed the connection"
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:23Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "site_blocked",
+          "http": 403,
+          "final_url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2024/05/ico-warns-organisations-must-not-ignore-data-protection-risks-as-it-concludes-snap-my-ai-chatbot-investigation/",
+          "content_type": "text/html; charset=UTF-8",
+          "note": "website bot challenge (Cloudflare); the environment allowed the connection"
         }
       ],
       "passages": [
@@ -17555,6 +18555,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:54Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.au/C2021A00076/2026-09-12/2026-09-12/text/original/pdf",
+          "content_type": "application/pdf",
+          "sha256": "4d5dfec101850978",
+          "bytes": 1067737
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:25Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -17617,6 +18629,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:02:59Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.au/F2024L00710/asmade/2024-06-21/text/original/pdf",
+          "content_type": "application/pdf",
+          "sha256": "afe30304b7094509",
+          "bytes": 368363
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:29Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -17759,6 +18783,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "b329816d53169356",
           "bytes": 122456
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:32Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://doi.colorado.gov/for-consumers/sb21-169-protecting-consumers-from-unfair-discrimination-in-insurance-practices",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "12cec00bec6fb01c",
+          "bytes": 122456
         }
       ],
       "passages": [
@@ -17835,6 +18871,18 @@
           "final_url": "https://doi.colorado.gov/announcements/notice-of-adoption-new-regulation-10-1-1-governance-and-risk-management-framework",
           "content_type": "text/html; charset=UTF-8",
           "sha256": "96dc89e7914c5d92",
+          "bytes": 98975
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:32Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://doi.colorado.gov/announcements/notice-of-adoption-new-regulation-10-1-1-governance-and-risk-management-framework",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "61e80803af2877e4",
           "bytes": 98975
         }
       ],
@@ -18059,6 +19107,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "af2ad2d1690513e3",
           "bytes": 258516
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:32Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.mas.gov.sg/schemes-and-initiatives/veritas",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "0b3d6702f4fa19cc",
+          "bytes": 258516
         }
       ],
       "passages": [
@@ -18109,6 +19169,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "acc8e92d7c8829f4",
           "bytes": 253967
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:33Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.mas.gov.sg/news/media-releases/2026/mas-sets-out-supervisory-expectations-on-responsible-ai-adoption-by-financial-institutions",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "cf16d6cd9ec6ccf9",
+          "bytes": 253967
         }
       ],
       "passages": [
@@ -18155,6 +19227,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:03:03Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/supporters.html",
+          "content_type": "text/html",
+          "sha256": "f8733db1cefc715d",
+          "bytes": 13286
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:39Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -18240,6 +19324,18 @@
           "content_type": "application/xml",
           "sha256": "c429649ec8e4271a",
           "bytes": 34019
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:34Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://laws.e-gov.go.jp/api/2/law_data/507AC0000000053?response_format=xml",
+          "content_type": "application/xml",
+          "sha256": "c429649ec8e4271a",
+          "bytes": 34019
         }
       ],
       "passages": [
@@ -18288,6 +19384,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:03:05Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf",
+          "content_type": "application/pdf",
+          "sha256": "392c5f529470faad",
+          "bytes": 1110546
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:34Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -18347,6 +19455,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:03:06Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/index.html",
+          "content_type": "text/html",
+          "sha256": "417b23eb54b2df68",
+          "bytes": 8890
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:39Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -18452,6 +19572,18 @@
           "content_type": "application/pdf",
           "sha256": "332b46f8cf4f4e7e",
           "bytes": 183764
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:40Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-31/pdf/2025-02172.pdf",
+          "content_type": "application/pdf",
+          "sha256": "332b46f8cf4f4e7e",
+          "bytes": 183764
         }
       ],
       "passages": [
@@ -18526,6 +19658,18 @@
           "content_type": "application/pdf",
           "sha256": "d658f5158a27f6d4",
           "bytes": 202383
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:41Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2025-01-28/pdf/2025-01901.pdf",
+          "content_type": "application/pdf",
+          "sha256": "d658f5158a27f6d4",
+          "bytes": 202383
         }
       ],
       "passages": [
@@ -18575,6 +19719,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:03:08Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2023-11-01/pdf/2023-24283.pdf",
+          "content_type": "application/pdf",
+          "sha256": "46739dfc1af25696",
+          "bytes": 437813
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:41Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -18686,6 +19842,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:03:08Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+          "content_type": "application/pdf",
+          "sha256": "91d56ab3ddefe43f",
+          "bytes": 521617
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:41Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -18855,6 +20023,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:32:35Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9925ih/html/BILLS-119hr9925ih.htm",
+          "content_type": "text/html",
+          "sha256": "1cb2203f39667e6d",
+          "bytes": 99395
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:57:11Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -19338,6 +20518,18 @@
           "content_type": "application/json; charset=utf-8",
           "sha256": "a5bb030634bc5d6f",
           "bytes": 1100
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:46Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://bills-api.parliament.uk/api/v1/Bills/3942",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "a5bb030634bc5d6f",
+          "bytes": 1100
         }
       ],
       "passages": [
@@ -19403,6 +20595,18 @@
           "content_type": "application/json; charset=utf-8",
           "sha256": "8ebdb2dd238beff4",
           "bytes": 270
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:46Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://bills-api.parliament.uk/api/v1/Bills/3942/Stages",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "8ebdb2dd238beff4",
+          "bytes": 270
         }
       ],
       "passages": [
@@ -19443,6 +20647,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:03:10Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://bills-api.parliament.uk/api/v1/Bills/4035",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "3514ac8d9f051a87",
+          "bytes": 1848
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:47Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -19528,6 +20744,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "aa34a67cb7a3df22",
           "bytes": 83222
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:55Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/speeches/the-kings-speech-2024",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "6dbf0d7579b434e2",
+          "bytes": 83222
         }
       ],
       "passages": [
@@ -19570,6 +20798,18 @@
           "final_url": "https://www.gov.uk/government/speeches/the-kings-speech-2026",
           "content_type": "text/html; charset=utf-8",
           "sha256": "af11688eee069cfa",
+          "bytes": 79774
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:56Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/speeches/the-kings-speech-2026",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "87bdfd625b418b36",
           "bytes": 79774
         }
       ],
@@ -19626,6 +20866,18 @@
           "content_type": "application/pdf",
           "sha256": "f17c81e91842fc1c",
           "bytes": 1315202
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:56Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://assets.publishing.service.gov.uk/media/6a18713db95db968c8f3bbfd/The_King_s_Speech_2026_-_background_briefing_notes.pdf",
+          "content_type": "application/pdf",
+          "sha256": "f17c81e91842fc1c",
+          "bytes": 1315202
         }
       ],
       "passages": [
@@ -19666,6 +20918,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:03:12Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://bills-api.parliament.uk/api/v1/Bills?SearchTerm=artificial%20intelligence&SortOrder=DateUpdatedDescending&Take=30",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "c64570a4e15deebe",
+          "bytes": 2292
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:47Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -19826,6 +21090,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:03:19Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.cac.gov.cn/2024-04/02/c_1713729983803145.htm",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "4716f7fe0e5e6cf8",
+          "bytes": 21844
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:42Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -20050,6 +21326,18 @@
           "content_type": "text/html;charset=UTF-8",
           "sha256": "e4f6e7627e4e186b",
           "bytes": 202786
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:59Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=288781&chrClsCd=010202&urlMode=lsInfoP&efYd=20260820&ancYnChk=0",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "e4f6e7627e4e186b",
+          "bytes": 202786
         }
       ],
       "passages": [
@@ -20103,6 +21391,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "87ff316490cd6ba0",
           "bytes": 24577
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:57Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://aibasicact.kr/about/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "296d0376b5028be1",
+          "bytes": 24569
         }
       ],
       "passages": [
@@ -20142,6 +21442,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:03:29Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://laws.e-gov.go.jp/api/1/lawdata/507AC0000000053",
+          "content_type": "text/xml;charset=UTF-8",
+          "sha256": "bffd0a067fdeba03",
+          "bytes": 35652
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:57:02Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -20240,6 +21552,18 @@
           "content_type": "text/html",
           "sha256": "05380a580a25a965",
           "bytes": 6708
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:57:03Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html",
+          "content_type": "text/html",
+          "sha256": "05380a580a25a965",
+          "bytes": 6708
         }
       ],
       "passages": [
@@ -20274,6 +21598,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:03:32Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www8.cao.go.jp/cstp/ai/ai_hou_gaiyou.pdf",
+          "content_type": "application/pdf",
+          "sha256": "4fce096214cd7b83",
+          "bytes": 404701
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:57:04Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -20317,6 +21653,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:03:34Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html",
+          "content_type": "text/html",
+          "sha256": "d7063b78ba624cc7",
+          "bytes": 32886
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:57:06Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -20494,6 +21842,18 @@
           "content_type": "application/pdf",
           "sha256": "14a48e4ef052fba7",
           "bytes": 304584
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:57:07Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0.pdf",
+          "content_type": "application/pdf",
+          "sha256": "14a48e4ef052fba7",
+          "bytes": 304584
         }
       ],
       "passages": [
@@ -20524,6 +21884,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:26:17Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cdn.openai.com/o1-system-card-20241205.pdf",
+          "content_type": "application/pdf",
+          "sha256": "3ba7bdbe69e022f6",
+          "bytes": 4720304
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:07Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -21165,6 +22537,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "4eb68a3c7daf7502",
           "bytes": 83583
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:04Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "3c809b373c3952f0",
+          "bytes": 84209
         }
       ],
       "passages": [
@@ -21214,6 +22598,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "4485533e4966be68",
           "bytes": 191645
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:12Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/ourwork/averi-pilot-report-the-worlds-first-double-blind-eval",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "89bcaec35e96f20f",
+          "bytes": 345973
         }
       ],
       "passages": [
@@ -21257,6 +22653,18 @@
           "content_type": "text/html;charset=utf-8",
           "sha256": "36c64c7a4f341493",
           "bytes": 207587
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:12Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.averi.org/ourwork/averi-pilot-report-internal-safety-evaluation-quality-at-amazon",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "3564a1817e940c4b",
+          "bytes": 207533
         }
       ],
       "passages": [
@@ -21279,6 +22687,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:27:34Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.un.org/global-dialogue-ai-governance/en",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "cbce50a6b56e4748",
+          "bytes": 86319
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:57:10Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -21750,6 +23170,18 @@
           "content_type": "application/pdf",
           "sha256": "5d66eec33b473462",
           "bytes": 279976
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:07Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0%20(1).pdf",
+          "content_type": "application/pdf",
+          "sha256": "5d66eec33b473462",
+          "bytes": 279976
         }
       ],
       "passages": [
@@ -21780,6 +23212,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:30:42Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://arxiv.org/pdf/2009.03300v3",
+          "content_type": "application/pdf",
+          "sha256": "d3a7b0f8589f5365",
+          "bytes": 2074939
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:15Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -21830,6 +23274,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "6baa1a43b8fa5a4b",
           "bytes": 28791
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:58Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://content.govdelivery.com/accounts/USNIST/bulletins/415cadf",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "6baa1a43b8fa5a4b",
+          "bytes": 28791
         }
       ],
       "passages": [
@@ -21866,6 +23322,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:30:45Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog/partnering-with-microsoft-to-strengthen-frontier-ai-safety",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "c8b411024d3c6ef7",
+          "bytes": 21950
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:55:59Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -22071,6 +23539,18 @@
           "content_type": "text/html",
           "sha256": "950b2c895cd31332",
           "bytes": 1018397
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:24Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.au/C2021A00076/2026-09-12/2026-09-12/text/original/epub/OEBPS/document_1/document_1.html",
+          "content_type": "text/html",
+          "sha256": "950b2c895cd31332",
+          "bytes": 1018397
         }
       ],
       "passages": [
@@ -22114,6 +23594,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:31:23Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.au/F2024L00710/asmade/2024-06-21/text/original/epub/OEBPS/document_1/document_1.html",
+          "content_type": "text/html",
+          "sha256": "7c67d615bb452afb",
+          "bytes": 265294
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:25Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -22183,6 +23675,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:31:25Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://drive.usercontent.google.com/download?id=1gWvUT_zEn6npupumvYB4Sq_hvh2OZO8y&export=download",
+          "content_type": "application/octet-stream",
+          "sha256": "650c2d7365a1a452",
+          "bytes": 260147
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:30Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -22286,6 +23790,18 @@
           "date": "2026-11-06",
           "at": "2026-11-06T18:31:26Z",
           "run": "2026-11-06-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.fsa.go.jp/news/r7/sonota/20260303/aidp_version1.1.pdf",
+          "content_type": "application/pdf",
+          "sha256": "62d709ea8a1f0213",
+          "bytes": 1398803
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:35Z",
+          "run": "2026-11-09-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -22500,6 +24016,18 @@
           "content_type": "text/xml",
           "sha256": "fe584aab13ac1fcb",
           "bytes": 12273
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:57:11Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9925.xml",
+          "content_type": "text/xml",
+          "sha256": "fe584aab13ac1fcb",
+          "bytes": 12273
         }
       ],
       "passages": [
@@ -22619,6 +24147,18 @@
           "content_type": "text/html;charset=UTF-8",
           "sha256": "29cebef766f46d97",
           "bytes": 175950
+        },
+        {
+          "date": "2026-11-09",
+          "at": "2026-11-09T04:56:58Z",
+          "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148958380",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "bf9ba595d09dbfa8",
+          "bytes": 176508
         }
       ],
       "passages": [
