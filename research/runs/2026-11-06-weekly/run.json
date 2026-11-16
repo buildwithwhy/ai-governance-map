@@ -1,0 +1,638 @@
+{
+  "id": "2026-11-06-weekly",
+  "label": "Weekly audit 2026-11-06",
+  "partial": true,
+  "started_at": "2026-11-06T18:00:29Z",
+  "finished_at": "2026-11-06T18:34:15Z",
+  "scope": {
+    "entries": [],
+    "note": null
+  },
+  "discovery": [
+    {
+      "area": "B4 labs (Layer 6): Anthropic, OpenAI, Google DeepMind, Meta, xAI",
+      "summary": "Meta published v2.1 (2 Oct 2026), renamed Meta Superintelligence Scaling Framework, and announced a board AI committee (meta-v21). xAI's 30 Jun 2026 edition was re-hosted unchanged at a new URL after the old PDF went 404; SpaceX acquired xAI (Feb 2026) and x.ai now names SpaceX Super Intelligence LLC (SpaceXSI) (xai-spacex). No new versions for Anthropic (RSP v3.4), OpenAI (Preparedness v2) or Google DeepMind (FSF v3.1). Outside this slice, all five labs signed the White House Accord on Super Intelligence (29 Sep 2026), which Meta cites as the reason for v2.1.",
+      "queries": [
+        "Meta Superintelligence Scaling Framework v2.1",
+        "SpaceX acquires xAI SpaceXSI \"SpaceX Super Intelligence\"",
+        "Google DeepMind Frontier Safety Framework version 3.2 OR \"version 4\" 2026",
+        "OpenAI Preparedness Framework version 3 2026 update",
+        "openai.com \"Preparedness Framework\" version 2 updated 2026",
+        "White House AI companies commitments September 2026 frontier AI training containment independent auditor",
+        "whitehouse.gov \"Accord on Super Intelligence\"",
+        "direct: x.ai/safety, x.ai/news, x.ai/legal/terms-of-service, spacex.com/updates, deepmind.google/frontier-safety, anthropic.com/responsible-scaling-policy, research.meta.ai blog"
+      ],
+      "limits": "openai.com pages not rendered (OpenAI version status from the v2 PDF on cdn.openai.com and the 3 Sep 2026 GPT-6 Astra system card). Not searched: Meta, Google or xAI SB 53/EU Code compliance documents (Anthropic and OpenAI ones recorded under P-0043); Microsoft/Amazon frameworks (not monitored). Leads 4 (fsf cov:thresh vs ASLs) and 6 (RSP eval/elicit vs v3.4) not pursued: analytic or outside group E; no proposal. White House Accord text read only from the UCSB American Presidency Project archive; whitehouse.gov not retrieved.",
+      "candidates": [
+        {
+          "name": "Meta Superintelligence Scaling Framework v2.1 (2 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "New version and title of meta-faif; board AI committee announced",
+          "proposal": "P-0149",
+          "sources": [
+            "S-0305",
+            "S-0306",
+            "S-0107"
+          ]
+        },
+        {
+          "name": "xAI framework PDF moved; SpaceX acquisition and SpaceXSI branding",
+          "result": "update to existing entry",
+          "reason": "Same 30 Jun 2026 edition re-hosted (…-f1f0c916.pdf); publisher branding changed; naming is a question",
+          "proposal": "P-0151",
+          "sources": [
+            "S-0307",
+            "S-0110",
+            "S-0308",
+            "S-0309",
+            "S-0310",
+            "S-0311"
+          ]
+        },
+        {
+          "name": "Anthropic RSP newer than v3.4",
+          "result": "screened out",
+          "reason": "Policy page lists v3.4 (8 Jul 2026) as newest; latest update is the Aug 2026 Risk Report",
+          "sources": [
+            "S-0005"
+          ]
+        },
+        {
+          "name": "OpenAI Preparedness Framework v3",
+          "result": "screened out",
+          "reason": "No v3 found; v2 PDF dated 15 Apr 2025 and Sep 2026 Astra card applies v2's three categories",
+          "sources": [
+            "S-0095",
+            "S-0098"
+          ]
+        },
+        {
+          "name": "Google DeepMind FSF newer than v3.1",
+          "result": "screened out",
+          "reason": "Official page lists v3.1 (17 Apr 2026) as newest",
+          "sources": [
+            "S-0302"
+          ]
+        },
+        {
+          "name": "White House Accord on Super Intelligence (29 Sep 2026), signed by Google, Anthropic, Meta, OpenAI, xAI and Nvidia",
+          "result": "lead — source inaccessible",
+          "reason": "Voluntary cross-firm commitment (four layers: internal controls, internal team, independent external auditor/evaluator, independent board committee); likely L5 or US-federal addition. Outside the B4 slice; official whitehouse.gov text not retrieved (archive copy inspected). Refer to the US-federal/L5 group; once added, L6 entries may need edges.",
+          "sources": [
+            "S-0312",
+            "S-0306"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "F2 changed-source follow-up (RUNBOOK §7 step 4)",
+      "summary": "No discovery slice assigned; candidates found while re-reading changed sources.",
+      "queries": [
+        "\"Frontier Security Institute\" independent Center for AI Safety Harris 2026 (WebSearch, leads only)"
+      ],
+      "limits": "Only sources listed in items-F2.md and pages they link to; SB 53 text inaccessible (leginfo Cloudflare).",
+      "candidates": [
+        {
+          "name": "NIST CAISSI / NSA SISC / CISA: Key Practices for Incident Readiness and Response in SI Training and Evaluation (16 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Voluntary federal guidance on incidents during frontier-model training and evaluation (ten practices across preparation to reporting); could extend caisi coverage (timing/acct) and names an NSA 'Super Intelligence Security Center'. Not drafted: needs the publication itself read and a decision on coverage.",
+          "sources": [
+            "S-0313",
+            "S-0174"
+          ]
+        },
+        {
+          "name": "FSI redesign: 'independent, nonpartisan think tank', no CAIS mention, own board, evaluation offer dropped",
+          "result": "update to existing entry",
+          "reason": "Institutional change to an existing entry; context and eval note proposed; CAIS affiliation left unresolved.",
+          "proposal": "P-0154",
+          "sources": [
+            "S-0222",
+            "S-0226",
+            "S-0224",
+            "S-0223"
+          ]
+        },
+        {
+          "name": "METR: 'Our approach to working with AI companies' process-transparency policy (14 Oct 2026); Nov 2026 independent assessment of AI R&D acceleration at Anthropic and reviews of Anthropic Risk Report sections",
+          "result": "update to existing entry",
+          "reason": "New METR policy on engagement terms and new external reviews of a lab's risk report; relevant to metr and to RSP accountability notes. No edit drafted: current map text remains accurate.",
+          "sources": [
+            "S-0314",
+            "S-0203"
+          ]
+        },
+        {
+          "name": "AVERI pilot report: Internal Safety Evaluation Quality at Amazon (9 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Second published AVERI pilot (metaevaluation of 800 internal Amazon safety prompts); the averi acct note's 'e.g.' example remains accurate.",
+          "sources": [
+            "S-0316"
+          ]
+        },
+        {
+          "name": "xAI Frontier AI Framework (30 Jun 2026) re-hosted at a new URL",
+          "result": "screened out",
+          "reason": "Text identical to the 10 Oct copy; old URL (S-0108) now 404, so later checks should cite the new URL.",
+          "sources": [
+            "S-0307"
+          ]
+        },
+        {
+          "name": "ai.gov now serves SI.gov ('America's Super Intelligence Initiatives')",
+          "result": "screened out",
+          "reason": "Website rebrand after EO 14434; not a mechanism. The map already links the Action Plan PDF.",
+          "sources": [
+            "S-0275"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "B3 multilateral bodies and processes; B3 industry/multistakeholder bodies (group A)",
+      "summary": "Checked primary pages of the AISR, NAAIMES, the summit series (Geneva 2027), the UN Panel and Dialogue, OECD, CoE (via EUR-Lex and the Dutch treaty database, because coe.int blocks automated access), UNESCO, HAIP, the GPAI Code signatory page, FMF and PAI for developments since 2026-10-10 and since ~Jun 2026. No new qualifying mechanism was drafted as an addition. Updates to existing entries: EU deposit date for the CoE Convention (proposal), UN 2027 Dialogue co-chairs appointed and its consultations mandate (proposal), and an FMF Jailbreak Rating Framework v1.0 (5 Nov 2026) logged as a candidate.",
+      "queries": [
+        "Council Decision conclusion Council of Europe Framework Convention on Artificial Intelligence European Union 2026 ratification deposited",
+        "Framework Convention on Artificial Intelligence CETS 225 ratification 2026 Norway United Kingdom ratifies entry into force",
+        "\"15 May 2026\" European Union instrument of approval Framework Convention Artificial Intelligence Chisinau",
+        "OECD Due Diligence Guidance for Responsible AI 2026 published",
+        "International Network for Advanced AI Measurement Evaluation and Science October 2026",
+        "Frontier Model Forum announcement October 2026",
+        "GPAI Code of Practice new signatory October 2026 AI Office"
+      ],
+      "limits": "coe.int (treaty office and newsroom) and oecd.org refuse automated clients (403 / bot challenge); headless retries were not pursued further. Search snippets were used only as leads. FMF/PAI checked via their own update pages only.",
+      "candidates": [
+        {
+          "name": "EU ratification of CoE AI Convention (deposit 15 May 2026)",
+          "result": "update to existing entry",
+          "reason": "Approval 21 Apr 2026 confirmed in EUR-Lex; deposit 15 May 2026 per the Netherlands treaty database; no other ratifications; not in force.",
+          "proposal": "P-0161",
+          "sources": [
+            "S-0141",
+            "S-0320"
+          ]
+        },
+        {
+          "name": "UN Global Dialogue 2027 co-chairs and intergovernmental consultations",
+          "result": "update to existing entry",
+          "reason": "PGA appointed co-chairs (St Kitts and Nevis, Republic of Korea) on 16 Oct 2026; res. 79/325 para. 8 mandates consultations on common understandings.",
+          "proposal": "P-0156",
+          "sources": [
+            "S-0317",
+            "S-0144"
+          ]
+        },
+        {
+          "name": "NAAIMES first best-practice guidance (Jul 2026)",
+          "result": "update to existing entry",
+          "reason": "Already in aisi-net desc; scope (automated evaluations only) drives the elicit-note proposal. Network says next best practices will focus on agentic capabilities.",
+          "proposal": "P-0157",
+          "sources": [
+            "S-0125",
+            "S-0124"
+          ]
+        },
+        {
+          "name": "FMF Jailbreak Rating Framework for Frontier Cyber Threats v1.0 (5 Nov 2026)",
+          "result": "update to existing entry",
+          "reason": "Cross-member technical framework (public comment to 21 Dec 2026). It is a rating methodology, not a commitment, so not a separate L5 entry; could be mentioned in fmf context after review. Not drafted: fmf is outside this group's items.",
+          "sources": [
+            "S-0321"
+          ]
+        },
+        {
+          "name": "OECD Due Diligence Guidance for Responsible AI (Feb 2026)",
+          "result": "lead — source inaccessible",
+          "reason": "Released Feb 2026 at the India AI Impact Summit per the Australian NCP. oecd.org returns a bot challenge, so the primary text was not inspected. It is general enterprise due-diligence guidance (contextual), most likely an update to the oecd entry rather than a new entry.",
+          "sources": [
+            "S-0322"
+          ]
+        },
+        {
+          "name": "International AI Safety Report 2026 interim / key update",
+          "result": "screened out",
+          "reason": "The publications page (checked 6 Nov 2026) lists nothing after the Feb 2026 report; Bengio continues as Chair through 2026.",
+          "sources": [
+            "S-0120",
+            "S-0119"
+          ]
+        },
+        {
+          "name": "Geneva AI Summit 2027 (post-Delhi summit)",
+          "result": "screened out",
+          "reason": "Already on the map as the next summit; dates 21-22 Jun 2027 and theme confirmed; no commitments text yet.",
+          "sources": [
+            "S-0133"
+          ]
+        },
+        {
+          "name": "EU GPAI Code signatory changes",
+          "result": "screened out",
+          "reason": "Signatory page last updated 7 Oct 2026 (same as baseline); Meta still absent; xAI safety chapter only.",
+          "sources": [
+            "S-0003"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "F1 changed-sources check (labs' framework pages, EU GPAI Code, Seoul/Delhi/Paris summits, IASR, OECD, UK King's Speech/Bills API)",
+      "summary": "No new version of a monitored document found among the 17 changed sources. Most 'changes' were artefacts: gzip bodies (DeepMind blog), the Trust Center index saved instead of the FCF PDF, invisible U+2060 characters (PIB), inline footnote markers (GOV.UK) and observation passages. Real changes: x.ai/safety now brands the company SpaceXSI and links the (identical) 30 Jun 2026 framework at a new URL; Anthropic's RSP page added redlines for earlier versions; the UK Bills API lists a new AI bill.",
+      "queries": [
+        "re-read today's cached copies of S-0003, S-0005, S-0010, S-0034, S-0063, S-0068, S-0104, S-0110, S-0120, S-0121, S-0122, S-0130, S-0132, S-0135, S-0136, S-0287, S-0289",
+        "Trust Center FCF via headless Chromium",
+        "x.ai/safety framework link followed",
+        "UK Bills API bill 4310"
+      ],
+      "limits": "Not a discovery search: only the documents these pages point to were opened. leginfo (SB 53) and coe.int served Cloudflare challenges.",
+      "candidates": [
+        {
+          "name": "xAI Frontier AI Framework moved to a new URL (…-f1f0c916.pdf); x.ai rebranded SpaceXSI",
+          "result": "update to existing entry",
+          "reason": "Same 30 Jun 2026 edition (identical text) at a new URL; the old URL (S-0108) is 404. No map edit needed because the entry links x.ai/safety; future checks should cite the new URL. The SpaceX Super Intelligence LLC branding may matter if xAI's frameworks are reissued under the new name.",
+          "sources": [
+            "S-0110",
+            "S-0307"
+          ]
+        },
+        {
+          "name": "Artificial Intelligence (Consent and Misuse) Bill (UK, bill 4310)",
+          "result": "screened out",
+          "reason": "Private member's bill (Dawn Butler) on consent for AI-generated likenesses, with duties on AI providers regarding misuse; at Commons 2nd reading. Not frontier/GPAI-specific and not a government bill; flagged for the UK discovery slice to confirm.",
+          "sources": [
+            "S-0289",
+            "S-0323"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "B3: AI safety/security institutes and AI offices; independent evaluators/NGOs (METR, Apollo, AVERI, CAIS, FSI); standards frameworks (NIST AI RMF, CAISI guidance)",
+      "summary": "Since the 10 Oct 2026 baseline: the EU AI Office published (21 Oct) its view on qualification/independence of external evaluators under the GPAI Code, pointing to the AI Evaluator Forum's AEF-1 standard (drafted as a question, aef1-addition). NIST CAISSI with NSA and CISA issued voluntary incident key practices for SI training and evaluation (16 Oct). In the UK the Lords added a review of AISI's roles and powers to the Cyber Security and Resilience Bill (26 Oct); AISI-power amendments were not moved. METR began publishing independent assessments of Anthropic and reviews of its Risk Report; FSI's site was restructured and no longer mentions CAIS.",
+      "queries": [
+        "CAISI pre-deployment testing agreement Google DeepMind Microsoft xAI 2026",
+        "Microsoft On the Issues blog CAISI UK AISI agreement pre-deployment testing May 2026",
+        "blog.google OR x.ai CAISI agreement frontier AI national security testing Google DeepMind announcement",
+        "AI Office AEF-1 independent external evaluators GPAI Code of Practice independence guidance",
+        "digital-strategy.ec.europa.eu report workshop qualification independence requirements external evaluators",
+        "AI Security Institute statutory footing bill 2026 UK frontier AI legislation October 2026",
+        "new AI safety institute established 2026 law Korea Japan Australia AI Safety Institute statutory powers",
+        "Center for AI Safety founded 2022 Dan Hendrycks",
+        "direct browsing: nist.gov/caissi news, aisi.gov.uk/blog, metr.org home, apolloresearch.ai home/blog, averi.org/updates, aievaluatorforum.org, frontiersecurityinstitute.org, bills-api.parliament.uk (Bill 4035)"
+      ],
+      "limits": "Hansard, bills.parliament.uk HTML/PDF and blogs.microsoft.com refused automated fetches (403); Microsoft's own 5 May post was not read. aiverify.foundation reset connections. Korea, Japan, Australia, Germany institute developments got one search only; the Bundestag item on an 'AI Safety and Security Institute Deutschland' is outside B1. Search results were used only as leads.",
+      "candidates": [
+        {
+          "name": "AEF-1 (AI Evaluator Forum minimum operating conditions) cited by EU AI Office for Code evaluator independence",
+          "result": "proposed",
+          "reason": "Published standard applied by the AI Office in Code compliance (Oct 2026); meets RUBRIC §1 and SCOPE B3 'standard used for regulatory compliance'",
+          "proposal": "P-0172",
+          "sources": [
+            "S-0326",
+            "S-0324",
+            "S-0325",
+            "S-0327",
+            "S-0211"
+          ]
+        },
+        {
+          "name": "EU AI Office qualification and independence requirements for external evaluators (workshop report, 21 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "An AI Office supervisory expectation under the GPAI Code, not a separate mechanism; covered in option b of aef1-addition",
+          "proposal": "P-0172",
+          "sources": [
+            "S-0324",
+            "S-0325"
+          ]
+        },
+        {
+          "name": "NIST CAISSI / NSA SISC / CISA Key Practices for Incident Readiness and Response in SI Training and Evaluation (16 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Voluntary CAISI guidance; could be noted under caisi (or nist-rmf); not drafted — caisi desc/context are verified by another agent and the document itself (linked PDF) was not read",
+          "sources": [
+            "S-0313"
+          ]
+        },
+        {
+          "name": "UK Cyber Security and Resilience Bill: Lords amendment 163 adding a review including AISI's roles and powers; AISI pre-deployment audit (66) and enforcement-power (79) amendments not moved",
+          "result": "update to existing entry",
+          "reason": "Bill not enacted (Commons consideration of Lords amendments pending); a review, not powers. Relevant to uk-aisi context/timing; not drafted",
+          "sources": [
+            "S-0335"
+          ]
+        },
+        {
+          "name": "METR independent assessment of AI R&D acceleration at Anthropic (5 Nov 2026) and reviews of Anthropic's Aug 2026 Risk Report",
+          "result": "update to existing entry",
+          "reason": "New assessment modality with redaction-rights disclosure; metr entry is re-checked by another agent",
+          "sources": [
+            "S-0336"
+          ]
+        },
+        {
+          "name": "Apollo Research push for embedded third-party evaluations; Anthropic's unilateral commitment to embedded evaluators",
+          "result": "screened out",
+          "reason": "Advocacy/research by Apollo; Anthropic's commitment belongs to the rsp entry (L6, another group); not an Apollo mechanism",
+          "sources": [
+            "S-0337"
+          ]
+        },
+        {
+          "name": "Microsoft–UK AISI partnership (5 May 2026)",
+          "result": "update to existing entry",
+          "reason": "Corroborates CAISI/AISI 2026 agreements; before the Oct baseline window but not on the map; minor",
+          "sources": [
+            "S-0332"
+          ]
+        },
+        {
+          "name": "AVERI pilot report on internal safety evaluation quality at Amazon (9 Oct 2026)",
+          "result": "screened out",
+          "reason": "Pilot output, not a new mechanism; could enrich averi acct examples",
+          "sources": []
+        },
+        {
+          "name": "CAISSI 'Practices for Automated Benchmark Evaluations of Language Models' (initial public draft, comment period to 31 Mar 2026)",
+          "result": "screened out",
+          "reason": "Draft guidance predating the window; not final",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "area": "B3 sector and general regulators in B1/B2 jurisdictions",
+      "summary": "Searched for new AI rules, codes and enforcement by Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA and Japanese ministries since June 2026. Found updates to existing entries (Japan FSA Discussion Paper v1.1; IMDA voluntary chatbot transparency guidelines; Colorado B-10.004 status) but no new regulator mechanism ready to add from primary sources.",
+      "queries": [
+        "Ofcom OR ICO AI chatbots 2026 regulations Online Safety Act extended OR \"code of practice\" automated decision-making",
+        "Australia AI Safety Institute 2026 eSafety AI companion chatbots codes enforcement 2026",
+        "Colorado Division of Insurance Bulletin B-10.004 quantitative testing 2026",
+        "doi.colorado.gov 2026 quantitative testing regulation algorithms predictive models adopted OR proposed rulemaking",
+        "FTC Rite Aid facial recognition stipulated order five years pdf",
+        "金融庁 AIディスカッションペーパー 2026 改訂 金融分野におけるAI"
+      ],
+      "limits": "ofcom.org.uk, ftc.gov, esafety.gov.au and content.naic.org could not be retrieved (bot challenges or connection resets), so UK, US-FTC and Australian regulator leads rest on search snippets only and are not verified. ico.org.uk was not attempted beyond search. The Colorado DOI bulletin and regulation lists are embedded Data Studio reports and could not be read.",
+      "candidates": [
+        {
+          "name": "Japan FSA AI Discussion Paper v1.1 (Mar 2026)",
+          "result": "update to existing entry",
+          "reason": "Current version of the FSA instrument jp-sectors refers to; drafted as a correction to the update note.",
+          "proposal": "P-0177",
+          "sources": [
+            "S-0343"
+          ]
+        },
+        {
+          "name": "IMDA Transparency Guidelines for Generative AI Chatbots",
+          "result": "update to existing entry",
+          "reason": "New voluntary IMDA guideline (chatbot info cards) seen on IMDA's AI page; date not shown on the page. Could be added to the imda entry's mit/update notes once its publication date is confirmed. Used as evidence for the pow question.",
+          "proposal": "P-0179",
+          "sources": [
+            "S-0260"
+          ]
+        },
+        {
+          "name": "eSafety Age-Restricted Material Codes covering AI companion chatbots (reported in force 9 Mar 2026) and transparency notices to AI companion providers",
+          "result": "lead — source inaccessible",
+          "reason": "Would update au-esafety's context/mit with AI-specific code obligations; esafety.gov.au and its PDFs reset every connection.",
+          "sources": []
+        },
+        {
+          "name": "UK: ICO statutory code on AI and automated decision-making (duty reportedly commenced May 2026); Ofcom chatbot explainer and possible extension of the OSA to chatbots",
+          "result": "lead — source inaccessible",
+          "reason": "Only secondary reports seen; ofcom.org.uk is behind Cloudflare and ico.org.uk was not reachable for this run. No enacted extension regulations found.",
+          "sources": []
+        },
+        {
+          "name": "Colorado DOI quantitative testing regulation",
+          "result": "screened out",
+          "reason": "DOI's SB21-169 page still shows only the Sept 2023 draft; no adopted rule found. Recorded in the co-doi eval proposal.",
+          "proposal": "P-0175",
+          "sources": [
+            "S-0258",
+            "S-0342"
+          ]
+        },
+        {
+          "name": "Colorado AG draft ADMT and conversational-AI rules (consultation Aug–Oct 2026)",
+          "result": "screened out",
+          "reason": "Implementing rules for co-aia (another group's entry), not a sector regulator; secondary snippet only. Passed on as a lead for the co-aia entry.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "area": "B3 compute and export controls",
+      "summary": "Searched for BIS changes on advanced chips or model weights since June 2026 and equivalents in B1 jurisdictions. Nothing new found beyond what the bis entry already records.",
+      "queries": [
+        "BIS export controls advanced computing chips rule 2026 October OR September OR August model weights"
+      ],
+      "limits": "One search; results were dominated by the Jan 2025 AI Diffusion Rule. Federal Register API and bis.gov were not queried, so a quiet rule change since June 2026 cannot be excluded. No B1-equivalent (Japan, Korea, China) export-control search was run beyond the national searches below.",
+      "candidates": []
+    },
+    {
+      "area": "B1 national discovery: China, South Korea, Japan, Singapore, Australia",
+      "summary": "Japan's second AI Basic Plan (Cabinet, 14 Jul 2026) verified and drafted as an addition. China's Interim Measures on anthropomorphic AI interaction services (in force 15 Jul 2026) verified but screened out as companion-service rules that exclude general assistants. Korea's AI Basic Act amendment (Jul 2026), Singapore's Online Safety Commission (Jun 2026) and Australia's AISI were seen only in secondary reports.",
+      "queries": [
+        "人工知能基本計画 閣議決定 cao.go.jp 2026 改定",
+        "China CAC 2026 measures artificial intelligence anthropomorphic interaction services finalized effective",
+        "人工智能拟人化互动服务管理暂行办法 国家互联网信息办公室 cac.gov.cn 2026",
+        "Korea AI Basic Act amendment 2026 enforcement decree high-impact AI Ministry of Science and ICT October 2026",
+        "Singapore Online Safety Commission 2026 operational Online Safety (Relief and Accountability) Act deepfake",
+        "Australia AI Safety Institute 2026 eSafety AI companion chatbots codes enforcement 2026"
+      ],
+      "limits": "Korean (law.go.kr), Singaporean (MDDI/OSC) and Australian (industry.gov.au) primary sources were not opened for lack of time, so those candidates remain leads. Chinese discovery covered CAC only.",
+      "candidates": [
+        {
+          "name": "Japan AI Basic Plan (first plan 23 Dec 2025; second plan 14 Jul 2026)",
+          "result": "proposed",
+          "reason": "Cabinet decision under Art. 18 of the AI Promotion Act; second plan commits J-AISI to proactive evaluation of highly capable frontier AI for national-security risks.",
+          "proposal": "P-0178",
+          "sources": [
+            "S-0300",
+            "S-0345"
+          ]
+        },
+        {
+          "name": "China: Interim Measures for the Administration of Anthropomorphic AI Interaction Services (CAC Order No. 21, in force 15 Jul 2026)",
+          "result": "screened out",
+          "reason": "Binding (fines up to ¥200,000) but limited to sustained emotional-interaction (companion) services; Art. 2 excludes assistants, Q&A and research services, so its bearing on frontier/GPAI governance is indirect. Could be mentioned in cn-genai's context if the maintainer wants.",
+          "sources": [
+            "S-0346"
+          ]
+        },
+        {
+          "name": "South Korea: AI Basic Act partial amendment and revised enforcement decree (reported Jul 2026)",
+          "result": "lead — source inaccessible",
+          "reason": "Secondary reports only (MLex, trackers); law.go.kr not opened. Relevant to kr-ai.",
+          "sources": []
+        },
+        {
+          "name": "Singapore: Online Safety Commission (reported operational 29 Jun 2026 under the Online Safety (Relief and Accountability) Act 2025)",
+          "result": "lead — source inaccessible",
+          "reason": "Secondary reports only; deepfake abuse reportedly in a later phase. General online-harms body, likely contextual at most.",
+          "sources": []
+        },
+        {
+          "name": "Australia: AI Safety Institute",
+          "result": "lead — source inaccessible",
+          "reason": "No primary source opened; Australia is already listed in other-aisis.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "area": "B1 United States (federal)",
+      "summary": "No Commerce §4 evaluation of state AI laws or BEAD AI policy notice found. New since June 2026: H.R. 9925 FRONTIER Act (already on the map; still in committee), EO 14434 (terminology only), a June 2026 NSPM on AI in national security (text not public), and a 29 Sep 2026 'White House Accord on Super Intelligence' found only in the American Presidency Project archive (drafted as a flag).",
+      "queries": [
+        "Federal Register API: presidential documents with 'artificial intelligence' since 2026-01-01",
+        "Federal Register API: 'State AI laws', 'artificial intelligence preempt', 'frontier artificial intelligence' since 2026-06-01",
+        "WebSearch: Commerce evaluation of state AI laws EO 14365 section 4 (x2)",
+        "WebSearch: White House national policy framework AI legislative recommendations March 2026",
+        "WebSearch: \"White House Accord on Super Intelligence\"",
+        "WebSearch: \"Joint Commitment on Frontier Responsibilities\"",
+        "whitehouse.gov briefings-statements listing pages 1-6; fact sheets for Sep 2026 and Jun 2026",
+        "govinfo BILLSTATUS for H.R. 9925; api.congress.gov (rate-limited)",
+        "NTIA site search 'state AI laws'"
+      ],
+      "limits": "commerce.gov and ntia.gov topic pages refuse automated clients (403/Cloudflare); NTIA site search returned no results; api.congress.gov DEMO_KEY was rate-limited after one call; the Truth Social original of the accord was not attempted (JavaScript-only).",
+      "candidates": [
+        {
+          "name": "White House Accord on Super Intelligence / Joint Commitment on Frontier Responsibilities (29 Sep 2026)",
+          "result": "proposed",
+          "reason": "Cross-firm frontier commitments (external auditor/evaluator, independent board committee) by Google, Anthropic, Meta, OpenAI, xAI, Nvidia with the President; meets RUBRIC §1 on its text, but the only copy is an archive copy, so evidence status is 'needs source access'.",
+          "proposal": "P-0187",
+          "sources": [
+            "S-0312",
+            "S-0351"
+          ]
+        },
+        {
+          "name": "Commerce evaluation of state AI laws under EO 14365 §4",
+          "result": "lead — source inaccessible",
+          "reason": "Not found in the Federal Register, NTIA or web search; commerce.gov blocks automated clients. Secondary sources from spring and autumn 2026 describe it as unpublished.",
+          "sources": [
+            "S-0239"
+          ]
+        },
+        {
+          "name": "EO 14434, Inaugurating the Era of Super Intelligence (29 Sep 2026)",
+          "result": "screened out",
+          "reason": "Terminology order (AI -> 'Super Intelligence' in executive-branch usage) with no developer-facing mechanism; already mentioned in the caisi entry.",
+          "sources": [
+            "S-0175"
+          ]
+        },
+        {
+          "name": "NSPM on AI in the National Security Enterprise (Jun 2026), replacing NSM-25",
+          "result": "screened out",
+          "reason": "Government adoption/procurement directive; only the fact sheet is public, and it sets no duties on frontier developers. Could be revisited if the text is published.",
+          "sources": [
+            "S-0352"
+          ]
+        },
+        {
+          "name": "H.R. 9925 FRONTIER Act progress",
+          "result": "update to existing entry",
+          "reason": "No action since referral on 23 Jul 2026; entry still accurate.",
+          "sources": [
+            "S-0347"
+          ]
+        },
+        {
+          "name": "White House National Policy Framework for AI (legislative recommendations, Mar 2026)",
+          "result": "screened out",
+          "reason": "Predates the baseline window and is a set of non-binding legislative recommendations under EO 14365 §8; only law-firm summaries were seen (whitehouse.gov text not opened). Could be raised as a context mention in us-preempt by the group that checks it.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "area": "B1 European Union and United Kingdom",
+      "summary": "AI Office GPAI enforcement powers apply from 2 Aug 2026 (already reflected in the map's eu-aia/eu-aio text, which other groups verify); the Digital Omnibus (Reg. 2026/1744) does not amend Arts. 51 or 93. No new implementing act on GPAI found. UK: the 2026 King's Speech announced no AI bill; a general 'Regulating for Growth Bill' (AI Growth Lab sandbox) was reported.",
+      "queries": [
+        "WebSearch: European Commission AI Act implementing act general-purpose AI enforcement August 2026 AI Office fines guidelines",
+        "WebSearch: UK artificial intelligence bill 2026 King's Speech frontier AI legislation AI Security Institute statutory footing",
+        "EUR-Lex: Reg. 2026/1744 text searched for Art. 51/93 amendments"
+      ],
+      "limits": "EUR-Lex search was not queried directly for implementing acts; UK Regulating for Growth Bill text not opened (no bill text located), so its AISI provisions (reported by one low-quality source) are unverified.",
+      "candidates": [
+        {
+          "name": "UK Regulating for Growth Bill (AI Growth Lab)",
+          "result": "screened out",
+          "reason": "General regulatory-sandbox bill, not AI- or frontier-specific per the Lords Library summary seen in search; no bill text opened. Lead: a single source claims it gives AISI statutory backing — worth checking when the bill is published.",
+          "sources": []
+        },
+        {
+          "name": "EU AI Act GPAI enforcement from 2 Aug 2026",
+          "result": "update to existing entry",
+          "reason": "Application date already on the map; Art. 93 powers confirmed unchanged.",
+          "sources": [
+            "S-0185",
+            "S-0041"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "B2 States (California, Colorado, New York, Texas; other states' frontier statutes)",
+      "summary": "Illinois SB 315 (already on the map) is the only new frontier statute found in other states. California enacted SB 813 (independent verification organizations for AI systems and models) and AB 1405 (AI auditor registry) on 9 Sep 2026 — significant for frontier evaluation but statute text was not retrievable. Colorado enacted HB 26-1263 (chatbot safety, 1 Jul 2026) and the AG is running ADMT Act rulemaking. New York announced RAISE implementation steps on 21 Sep 2026 (registration from November; DIGIT office).",
+      "queries": [
+        "WebSearch: Newsom signs frontier AI bill 2026 SB 53 amendment",
+        "WebSearch: state frontier AI safety law signed 2026 'large frontier developer' (MA, MI, NJ, VA, WA)",
+        "WebSearch: Newsom signed AI bills September 2026 list",
+        "WebSearch: New York DFS RAISE Act proposed regulation 2026",
+        "WebSearch (governor.ny.gov, dfs.ny.gov): Hochul September 2026 RAISE implementation",
+        "coag.gov/ai; leg.colorado.gov SB 26-189 pages and fiscal note",
+        "gov.ca.gov 9 Sep 2026 release"
+      ],
+      "limits": "leginfo.legislature.ca.gov, legiscan.com, dfs.ny.gov and governor.ny.gov returned Cloudflare challenges to curl and headless Chromium; web.archive.org reset. Texas held no regular session in 2026.",
+      "candidates": [
+        {
+          "name": "California SB 813 (independent verification organizations) and AB 1405 (AI auditor registry), signed 9 Sep 2026",
+          "result": "lead — source inaccessible",
+          "reason": "Governor's release confirms enactment and purpose; the chaptered texts (who licenses IVOs, whether participation is voluntary, effective dates, link to SB 53) could not be retrieved from leginfo. Likely a clear addition (L3, uss) or SB 53 connection once the text is read.",
+          "sources": [
+            "S-0353"
+          ]
+        },
+        {
+          "name": "Colorado HB 26-1263 Chatbot Safety Act (signed 1 Jul 2026, effective 1 Jan 2027)",
+          "result": "screened out",
+          "reason": "Companion/consumer chatbot safety law, not frontier/GPAI-specific; note for co-aia context if the maintainer wants Colorado's 2026 AI statutes listed.",
+          "sources": [
+            "S-0164"
+          ]
+        },
+        {
+          "name": "Colorado AG ADMT Act rulemaking (hearing 26 Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Implementing rules for co-aia are in progress; no adopted rule yet.",
+          "sources": [
+            "S-0164"
+          ]
+        },
+        {
+          "name": "New York RAISE implementation (21 Sep 2026: registration from November 2026, Deputy Director appointed, DIGIT office)",
+          "result": "lead — source inaccessible",
+          "reason": "Seen only in search results; governor.ny.gov and dfs.ny.gov refused automated access. Would update ny-raise (another group's item).",
+          "sources": []
+        },
+        {
+          "name": "Other states' frontier statutes in 2026",
+          "result": "screened out",
+          "reason": "None found beyond Illinois (already on the map).",
+          "sources": []
+        }
+      ]
+    }
+  ],
+  "usage": "about $48 (get_session cost_usd difference)",
+  "highlights": [
+    "Coverage: 317 of 548 inventory items were checked this run, 311 against outside sources (198 no change, 31 changed, 72 unresolved, mostly comparative wording or a primary source not found, 10 inaccessible) and 6 internally. All 139 items never verified before were attempted; 71 now pass and 68 remain open with what is missing recorded. 218 sources behind earlier checks were re-fetched (194 by plain download, 24 in headless Chromium; 200 retrieved): 34 had genuinely changed, and the 180 items resting on them were re-verified. No audit ran on 13, 19, 26 Oct or 2 Nov; this run covers the whole period since the 10 Oct baseline.",
+    "40 new proposals (P-0149 to P-0188). 39 await your decision: 24 corrections, 1 new entry (Japan AI Basic Plan, P-0178) and 14 questions, each with drafted options and a recommendation; P-0187 is held until its source can be opened. The largest: Meta's framework is now v2.1, the 'Meta Superintelligence Scaling Framework' (P-0149); SpaceX acquired xAI, whose site now says SpaceXSI (P-0151, recommended: keep the name and add a note); Colorado SB 24-205 was not repealed before 30 Jun 2026 and a court order bars enforcement (P-0181); Illinois' Agency can levy its own penalties (P-0180); the EU AI Office has no pre-deployment access power (P-0162).",
+    "Discovery: proposed new entries for Japan's AI Basic Plan (P-0178) and the AEF-1 evaluator standard now cited by the EU AI Office (P-0172, a question). The White House Accord on Super Intelligence (29 Sep 2026, six labs) is drafted as an addition (P-0187) but held as 'needs source access': only an archive copy was found, not an official one. Leads awaiting access: California SB 813 / AB 1405 (independent verification organizations), New York RAISE implementation, Korea's July 2026 amendment, Singapore's Online Safety Commission.",
+    "Not retrievable this week: California's legislature site, the Council of Europe, openai.com, ico.org.uk, Ofcom, FTC and eSafety refused automated clients even in headless Chromium; items resting on them were marked inaccessible, or kept on their 10 Oct passages where the note says so. Your two answers of 13 Oct (P-0134 accept, P-0137 option b) were given on a quick 13 Oct run whose ledger is only on branch claude/bold-dirac-97m1ik (no PR, not on main); they do not match this ledger and were not acted on. This run re-checked the same findings independently: P-0159 is the UNESCO equivalent of that P-0134 (please answer it here), and P-0158 is the AISI Network timing question, which offers remove or keep but not the 'rewrite as a stretch' wording you chose; say if you want that option drafted.",
+    "Nothing was applied: there were no new answers to current proposals, so the map's content date stays 11 Oct 2026. Tooling note: source fetch does not request decompressed content, so gzip-only pages (deepmind.google) cache unreadable bytes; saved copies were used instead."
+  ]
+}

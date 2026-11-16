@@ -1,0 +1,1413 @@
+{
+  "entry:aisr": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0118"
+    ],
+    "proposals": [],
+    "note": "Link resolves to the official report site; it describes an intergovernmentally overseen science report (Expert Advisory Panel nominated by 30+ countries and IGOs), consistent with layer 1, jur mu, pow 1 and status active (2026 edition published Feb 2026).",
+    "missing": null,
+    "hash": "da13a4633f91"
+  },
+  "entry:aisi-net": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0123",
+      "S-0124",
+      "S-0126",
+      "S-0128",
+      "S-0125"
+    ],
+    "proposals": [],
+    "note": "GOV.UK link works (9 Dec 2025 release). The ten members (Australia, Canada, EU, France, Japan, Kenya, Korea, Singapore, UK, US) are confirmed by GOV.UK, AISI and NIST; NIST confirms CAISI's participation, the Commission names the AI Office as the EU participant in NAAIMES, and AISI names France's INESIA. Rename at the San Diego meeting, the UK Network Coordinator role, the NAAIMES short name and the first best-practice guidance (automated evaluation, for third-party evaluators, Jul 2026) are confirmed. The edge's seven members are all in the list.",
+    "missing": null,
+    "hash": "a4b05d144bf7"
+  },
+  "entry:aisi-net:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0123",
+      "S-0124",
+      "S-0126",
+      "S-0128",
+      "S-0125"
+    ],
+    "proposals": [],
+    "note": "GOV.UK link works (9 Dec 2025 release). The ten members (Australia, Canada, EU, France, Japan, Kenya, Korea, Singapore, UK, US) are confirmed by GOV.UK, AISI and NIST; NIST confirms CAISI's participation, the Commission names the AI Office as the EU participant in NAAIMES, and AISI names France's INESIA. Rename at the San Diego meeting, the UK Network Coordinator role, the NAAIMES short name and the first best-practice guidance (automated evaluation, for third-party evaluators, Jul 2026) are confirmed. The edge's seven members are all in the list.",
+    "missing": null,
+    "hash": "9dad37b67164"
+  },
+  "edge:aisi-net|other-aisis": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0123",
+      "S-0124",
+      "S-0126",
+      "S-0128",
+      "S-0125"
+    ],
+    "proposals": [],
+    "note": "GOV.UK link works (9 Dec 2025 release). The ten members (Australia, Canada, EU, France, Japan, Kenya, Korea, Singapore, UK, US) are confirmed by GOV.UK, AISI and NIST; NIST confirms CAISI's participation, the Commission names the AI Office as the EU participant in NAAIMES, and AISI names France's INESIA. Rename at the San Diego meeting, the UK Network Coordinator role, the NAAIMES short name and the first best-practice guidance (automated evaluation, for third-party evaluators, Jul 2026) are confirmed. The edge's seven members are all in the list.",
+    "missing": null,
+    "hash": "4f26f9b5ba82"
+  },
+  "edge:aisi-net|ai-summits": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0127",
+      "S-0123",
+      "S-0126"
+    ],
+    "proposals": [],
+    "note": "Seoul Statement of Intent (21 May 2024) records leaders' shared ambition to develop the network; GOV.UK and NIST date its establishment to Nov 2024. 'Agreed at Seoul' reads the statement of intent as the agreement, as accepted on 2026-10-10.",
+    "missing": null,
+    "hash": "ef61aee2d82d"
+  },
+  "entry:coe-ai": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "inaccessible",
+    "scope": "external",
+    "sources": [
+      "S-0320"
+    ],
+    "proposals": [],
+    "note": "The treaty database shows no entry-into-force date, so status 'proposed' (per the maintainer's earlier answer) and pow 3 remain consistent. The link itself (coe.int) could not be checked: headless Chromium timed out on the Cloudflare challenge and I did not try to defeat it.",
+    "missing": "A retrieval of https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence to confirm the link still serves the Convention page.",
+    "hash": "e768293f8c6c"
+  },
+  "entry:coe-ai:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0320",
+      "S-0359"
+    ],
+    "proposals": [
+      "P-0161"
+    ],
+    "note": "'Only the EU has ratified' is outdated: the treaty database records Bosnia and Herzegovina's ratification on 28 Oct 2026 (logged 6 Nov 2026). Pending P-0161 (deposit date) edits the same field; the new proposal carries its wording and supersedes it.",
+    "missing": null,
+    "hash": "e3e33656b3d9"
+  },
+  "entry:unesco:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0142"
+    ],
+    "proposals": [],
+    "note": "UNESCO: in November 2021 its 193 Member States adopted the Recommendation.",
+    "missing": null,
+    "hash": "104794eed167"
+  },
+  "entry:hiroshima:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0071",
+      "S-0075",
+      "S-0074"
+    ],
+    "proposals": [],
+    "note": "Code of Conduct (G7 Leaders' Statement 30 Oct 2023) has 11 actions; reporting framework launched 7 Feb 2025 after a 2024 pilot; v2.0 launched 28 May 2026; the OECD says it monitors application of the Code.",
+    "missing": null,
+    "hash": "99dd4622bea9"
+  },
+  "entry:hiroshima:cov:update": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0071",
+      "S-0075",
+      "S-0074"
+    ],
+    "proposals": [],
+    "note": "Code of Conduct (G7 Leaders' Statement 30 Oct 2023) has 11 actions; reporting framework launched 7 Feb 2025 after a 2024 pilot; v2.0 launched 28 May 2026; the OECD says it monitors application of the Code.",
+    "missing": null,
+    "hash": "179656889ec3"
+  },
+  "entry:hiroshima:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0074",
+      "S-0071"
+    ],
+    "proposals": [],
+    "note": "Facts verified: Code covers risk identification (1), post-deployment incidents (2), transparency (3), incident information-sharing (4), security (6) and content authentication (7); reports are invited annually and support OECD monitoring; v2.0 launched 28 May 2026 on the margins of the G7 Digital and Tech Ministerial with an SME focus; 50+ organisations pledged; v2.0 reports from 31 companies published 2 Oct 2026. The comparison with the Seoul commitments is analytic.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "3f95f5d2f102"
+  },
+  "entry:gpai-cop:cov": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0044",
+      "S-0089",
+      "S-0091",
+      "S-0045"
+    ],
+    "proposals": [],
+    "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
+    "missing": null,
+    "hash": "0495c7c8cd4d"
+  },
+  "entry:gpai-cop:cov:thresh": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0044",
+      "S-0089",
+      "S-0091",
+      "S-0045"
+    ],
+    "proposals": [],
+    "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
+    "missing": null,
+    "hash": "b8a54cd6e580"
+  },
+  "entry:gpai-cop:cov:sec": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0044",
+      "S-0089",
+      "S-0091",
+      "S-0045"
+    ],
+    "proposals": [],
+    "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
+    "missing": null,
+    "hash": "a2bf351b32f0"
+  },
+  "entry:gpai-cop:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0044",
+      "S-0089",
+      "S-0091",
+      "S-0045"
+    ],
+    "proposals": [],
+    "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
+    "missing": null,
+    "hash": "f203f691b98e"
+  },
+  "entry:gpai-cop:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0044",
+      "S-0089",
+      "S-0091",
+      "S-0045"
+    ],
+    "proposals": [],
+    "note": "All nine coverage elements are supported, timing included (trigger points in the Framework, full assessment before placing on the market). Measure 4.1 tiers are capability-based, measurable and set by signatories; the 10^25 FLOP presumption is the Act's. Commitment 6 (legal text Art. 55(1)) and Appendices 4.2–4.5 cover unreleased parameters, interfaces, physical access, insider threats, external security reviews and red-teaming. Measure 5.1 lists filtering, refusals and staged access; marking falls under the separate Art. 50 code. Model Report updates go to the AI Office at least every six months; non-signatories must justify alternative compliance.",
+    "missing": null,
+    "hash": "c793df6e1c5b"
+  },
+  "entry:gpai-cop:cov:elicit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Facts verified: state-of-the-art elicitation minimising under-elicitation and sandbagging (Appendix 3.2), red-teaming listed among evaluation methods, independent external evaluations required with two exceptions (Appendix 3.5). 'Among the strongest elicitation requirements in any non-binding instrument' is a comparison.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "6005596bffc7"
+  },
+  "entry:fmf:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0078",
+      "S-0079",
+      "S-0081",
+      "S-0082"
+    ],
+    "proposals": [],
+    "note": "AI Safety Fund grants, workstreams and publications (issue briefs and technical reports) confirmed; all members signed the information-sharing agreement (28 Mar 2025); the FMF says it does not engage in lobbying.",
+    "missing": null,
+    "hash": "ba2492673376"
+  },
+  "entry:fmf:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0078",
+      "S-0079",
+      "S-0081",
+      "S-0082"
+    ],
+    "proposals": [],
+    "note": "Factual core verified (grants, information-sharing agreement of Mar 2025 signed by all members, no lobbying). The critics' views and 'the substantive contribution is in the research outputs' are analytic.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "c0e19a1a61cb"
+  },
+  "entry:pai:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0084",
+      "S-0085",
+      "S-0361",
+      "S-0086"
+    ],
+    "proposals": [],
+    "note": "Facts verified: academic, civil society, industry and media partners; synthetic-media practices, newsroom AI guidance and labour/economy work; the 2023 Guidance for Safe Foundation Model Deployment and the Apr 2026 report tracking 13 organisations. 'Most influential as a multistakeholder venue…' is analytic.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "1e021166c52f"
+  },
+  "entry:prep:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0095",
+      "S-0062",
+      "S-0098",
+      "S-0099",
+      "S-0100"
+    ],
+    "proposals": [],
+    "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
+    "missing": null,
+    "hash": "d342a5c0704f"
+  },
+  "entry:prep:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0095",
+      "S-0062",
+      "S-0098",
+      "S-0099",
+      "S-0100"
+    ],
+    "proposals": [],
+    "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
+    "missing": null,
+    "hash": "5819c6971b81"
+  },
+  "entry:prep:cov:eval": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0095",
+      "S-0062",
+      "S-0098",
+      "S-0099",
+      "S-0100"
+    ],
+    "proposals": [],
+    "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
+    "missing": null,
+    "hash": "afca254cebc0"
+  },
+  "entry:prep:cov:elicit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0095",
+      "S-0062",
+      "S-0098",
+      "S-0099",
+      "S-0100"
+    ],
+    "proposals": [],
+    "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
+    "missing": null,
+    "hash": "88712c58d275"
+  },
+  "entry:prep:cov:sec": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0095",
+      "S-0062",
+      "S-0098",
+      "S-0099",
+      "S-0100"
+    ],
+    "proposals": [],
+    "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
+    "missing": null,
+    "hash": "bf3581f104e9"
+  },
+  "entry:prep:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0095",
+      "S-0062",
+      "S-0098",
+      "S-0099",
+      "S-0100"
+    ],
+    "proposals": [],
+    "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
+    "missing": null,
+    "hash": "ecbb240f11c1"
+  },
+  "entry:prep:cov:halt": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0095",
+      "S-0062",
+      "S-0098",
+      "S-0099",
+      "S-0100"
+    ],
+    "proposals": [],
+    "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
+    "missing": null,
+    "hash": "afe9754948c0"
+  },
+  "entry:prep:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0095",
+      "S-0062",
+      "S-0098",
+      "S-0099",
+      "S-0100"
+    ],
+    "proposals": [],
+    "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
+    "missing": null,
+    "hash": "13799379f83c"
+  },
+  "entry:prep:cov:update": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0095",
+      "S-0062",
+      "S-0098",
+      "S-0099",
+      "S-0100"
+    ],
+    "proposals": [],
+    "note": "v2 (15 Apr 2025) is still the published version: three Tracked Categories with High/Critical thresholds, Research Categories (long-range autonomy, sandbagging, nuclear/radiological), persuasion out, low/medium dropped, model autonomy split; SAG recommends, Leadership decides, the board SSC oversees and can reverse; scalable evaluations before deployment plus deep dives; elicitation as a lower bound; High security standard (threat models, defence in depth, access management); safeguards for misuse and misalignment in Safeguards Reports; halt commitment for Critical; marginal-risk conditions; annual review. Astra (3 Sep 2026) is the first Critical cyber model; UK AISI, Apollo (Astra) and METR (GPT-5.6) evaluated. The FGF maps to SB 53 and the EU CoP and covers reporting to authorities; its May 2026 date rests on the PDF's Last-Modified header (openai.com announcement inaccessible).",
+    "missing": null,
+    "hash": "4fdfd78ea9ea"
+  },
+  "entry:prep:cov:thresh": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0095"
+    ],
+    "proposals": [],
+    "note": "OpenAI facts verified (three Tracked Categories, High and Critical thresholds, low/medium removed). The contrast with Anthropic's ASLs was not checked against the RSP and is a comparison.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "980b5347f0e8"
+  },
+  "entry:eu-aia:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0041"
+    ],
+    "proposals": [],
+    "note": "Art. 113 (published 12.7.2024, in force 20 days later = Aug 2024; Chapter V from 2 Aug 2025; general application 2 Aug 2026), Reg. 2026/1744 new Art. 113(c) (2 Dec 2027 Annex III; 2 Aug 2028 Annex I) and Art. 99(3) (€35M/7%) match the text.",
+    "missing": null,
+    "hash": "05aee2112cb4"
+  },
+  "entry:eu-aia:cov": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0002"
+    ],
+    "proposals": [],
+    "note": "Each listed element has a textual basis in the current OJ text: thresh Art. 51(2); eval and elicit Art. 55(1)(a) (adversarial testing); timing Art. 72; sec Art. 55(1)(d); mit Arts. 5, 50(2); acct Art. 55(1)(c); halt Art. 93(1)(c); update Arts. 51(3), 56(8).",
+    "missing": null,
+    "hash": "0495c7c8cd4d"
+  },
+  "entry:eu-aia:cov:timing": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0002"
+    ],
+    "proposals": [],
+    "note": "Facts check out: post-market monitoring is a high-risk provider duty (Art. 72(1)); AI Office supervises GPAI (Art. 88(1)); pre-market GPAI documentation (Art. 53). The closing 'first regulation to formally split the lifecycle this way' is a comparative claim.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "99e7c3721f44"
+  },
+  "entry:eu-aia:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0002"
+    ],
+    "proposals": [],
+    "note": "Factual core verified: prohibited practices (Art. 5(1)), GPAI copyright policy (Art. 53(1)(c)), Art. 50(2) marking, systemic-risk mitigation (Art. 55(1)(b)). 'The most comprehensive deployment-mitigation regime in any binding instrument' is comparative.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "ac8028526a61"
+  },
+  "entry:eu-aia:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0041"
+    ],
+    "proposals": [
+      "P-0191"
+    ],
+    "note": "Incident reporting (Art. 55(1)(c)), access (Art. 92(3)), recall (Art. 93(1)(c)) and €15M/3% (Art. 101) verified, but the Digital Omnibus moved supervision of AI systems built on a provider's own GPAI model, and their high-risk incident reports, to the AI Office (new Art. 75(1), (1a)).",
+    "missing": null,
+    "hash": "b5bf6c05bea2"
+  },
+  "entry:eu-aia:cov:update": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0002"
+    ],
+    "proposals": [],
+    "note": "Codes reviewable (Art. 56(8)); delegated acts amend the thresholds (Art. 51(3)) and Annex III (Art. 7(1)); other changes need legislation (as the 2026 Omnibus itself shows).",
+    "missing": null,
+    "hash": "a992a7c1a34e"
+  },
+  "gap:elicit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0002",
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Factual core verified: the AI Act requires adversarial testing (Art. 55(1)(a)) but not elicitation by name; the GPAI Code explicitly requires state-of-the-art elicitation (Appendix 3.2) and is voluntary. 'Almost no statute requires it', where the work happens, and the counterfactual are analytic.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "590f5e9ae810"
+  },
+  "faq:what-does-the-eu-ai-act-require-for-systemic-ris": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0002"
+    ],
+    "proposals": [],
+    "note": "10^25 presumption (Art. 51(2)); Art. 55(1)(a)-(d) list matches; Annex XI Section 2 covers evaluation strategies and adversarial testing; reliance on codes until harmonised standards (Art. 55(2)).",
+    "missing": null,
+    "hash": "df5827275774"
+  },
+  "faq:what-does-the-eu-ai-office-do": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0184",
+      "S-0183",
+      "S-0002"
+    ],
+    "proposals": [],
+    "note": "Verified: established by Commission Decision of 24 Jan 2024 within DG CNECT; enforces GPAI rules (Art. 88(1)); model access (Art. 92(3)), recall (Art. 93(1)(c)), €15M/3% fines (Art. 101); Art. 101 applies from 2 Aug 2026 (Art. 113(b)). 'Runs the Scientific Panel' is loose (the Office provides its secretariat/administrative support; the Panel advises the Office). 'A centralised role unique within EU regulatory architecture' is comparative.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "96cbcfdc2692"
+  },
+  "entry:us-eo14179:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0270",
+      "S-0271",
+      "S-0272"
+    ],
+    "proposals": [],
+    "note": "EO 14179 dated Jan 23, 2025; EO 14148 Sec. 2(ggg) revoked EO 14110; EO 14110 Sec. 4.2(a)(i)(C) required red-team results for dual-use foundation models; EO 14179 Sec. 5(a) orders agencies to suspend, revise or rescind actions under EO 14110.",
+    "missing": null,
+    "hash": "7317674acb30"
+  },
+  "entry:us-eo14179:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0270",
+      "S-0272"
+    ],
+    "proposals": [],
+    "note": "Verified: barrier-removal framing (Sec. 1-2), Action Plan within 180 days (Sec. 4(a)), review and rescission of actions under EO 14110 (Sec. 5(a)), which included red-team reporting (EO 14110 Sec. 4.2). 'Marks the federal turn away from safety-oriented governance' is an analytic characterisation.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "477946814bc0"
+  },
+  "entry:us-action:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0274"
+    ],
+    "proposals": [],
+    "note": "July 2025 (cover); the Plan says federal AI funding should not go to states with burdensome AI regulations and recommends OMB-led funding limits.",
+    "missing": null,
+    "hash": "04b85a635e33"
+  },
+  "edge:us-action|us-preempt": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0274",
+      "S-0239"
+    ],
+    "proposals": [],
+    "note": "EO 14365 adds the DOJ AI Litigation Task Force (Sec. 3) and BEAD non-deployment funding conditions plus discretionary-grant conditions (Sec. 5); the Plan never mentions preemption and says the federal government should not interfere with prudent state laws.",
+    "missing": null,
+    "hash": "977d297156d0"
+  },
+  "entry:cn-genai": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0290"
+    ],
+    "proposals": [],
+    "note": "Name, layer 2, jur cn, pow 4 and status active fit: CAC Order No. 15, in force 15 Aug 2023, with suspension orders available (Art. 21). The link is the official CAC text.",
+    "missing": null,
+    "hash": "f6a2445ae4e0"
+  },
+  "entry:cn-genai:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0290",
+      "S-0362"
+    ],
+    "proposals": [],
+    "note": "Rules verified: Art. 17 assessment/filing scope, Art. 7 training data, Art. 4 and 14 content rules, Art. 12 labelling, Art. 20 blocking, Art. 21 suspension power. Active enforcement is shown by the CAC's 2025 campaign (3,500+ non-compliant AI products dealt with), but no inspected official source shows firms' services suspended under the Measures; 'as much through industrial policy as through fines' is analytic.",
+    "missing": "An official CAC (or provincial CAC) notice ordering named generative-AI services suspended under the Measures; the industrial-policy comparison is a comparative/analytic claim not verifiable from sources",
+    "hash": "a390342495cb"
+  },
+  "entry:cn-genai:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0290",
+      "S-0362"
+    ],
+    "proposals": [],
+    "note": "Rules verified: Art. 17 assessment/filing scope, Art. 7 training data, Art. 4 and 14 content rules, Art. 12 labelling, Art. 20 blocking, Art. 21 suspension power. Active enforcement is shown by the CAC's 2025 campaign (3,500+ non-compliant AI products dealt with), but no inspected official source shows firms' services suspended under the Measures; 'as much through industrial policy as through fines' is analytic.",
+    "missing": "An official CAC (or provincial CAC) notice ordering named generative-AI services suspended under the Measures; the industrial-policy comparison is a comparative/analytic claim not verifiable from sources",
+    "hash": "e00f908a2107"
+  },
+  "entry:cn-genai:cov:timing": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0290",
+      "S-0291"
+    ],
+    "proposals": [],
+    "note": "Art. 17 security assessment and algorithm filing for public-opinion/mobilisation services; CAC publishes filed-service lists (latest Aug 2026) and requires apps to display model name and filing number; Art. 20 blocking of non-compliant foreign services.",
+    "missing": null,
+    "hash": "c500733e4c0b"
+  },
+  "entry:cn-genai:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0290",
+      "S-0291"
+    ],
+    "proposals": [],
+    "note": "Art. 17 security assessment and algorithm filing for public-opinion/mobilisation services; CAC publishes filed-service lists (latest Aug 2026) and requires apps to display model name and filing number; Art. 20 blocking of non-compliant foreign services.",
+    "missing": null,
+    "hash": "1c7dbac3a469"
+  },
+  "entry:cn-ai-law": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0057"
+    ],
+    "proposals": [],
+    "note": "AI legislation is a preparatory item (research and drafting, review as circumstances warrant) in the NPCSC 2025 and 2026 plans; the State Council 2026 plan calls for accelerating comprehensive AI legislation; the NPC committee report says MOST and others are drafting a framework text, so no draft has been submitted and no thresholds, duties or oversight are defined. pow 2/proposed and the NPC 2026 plan link fit.",
+    "missing": null,
+    "hash": "6a148ad9f265"
+  },
+  "entry:cn-ai-law:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0057"
+    ],
+    "proposals": [],
+    "note": "AI legislation is a preparatory item (research and drafting, review as circumstances warrant) in the NPCSC 2025 and 2026 plans; the State Council 2026 plan calls for accelerating comprehensive AI legislation; the NPC committee report says MOST and others are drafting a framework text, so no draft has been submitted and no thresholds, duties or oversight are defined. pow 2/proposed and the NPC 2026 plan link fit.",
+    "missing": null,
+    "hash": "f22e8828a77b"
+  },
+  "entry:cn-ai-law:cov:thresh": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0057"
+    ],
+    "proposals": [],
+    "note": "AI legislation is a preparatory item (research and drafting, review as circumstances warrant) in the NPCSC 2025 and 2026 plans; the State Council 2026 plan calls for accelerating comprehensive AI legislation; the NPC committee report says MOST and others are drafting a framework text, so no draft has been submitted and no thresholds, duties or oversight are defined. pow 2/proposed and the NPC 2026 plan link fit.",
+    "missing": null,
+    "hash": "2753639a5954"
+  },
+  "entry:cn-ai-law:cov:eval": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0057"
+    ],
+    "proposals": [],
+    "note": "AI legislation is a preparatory item (research and drafting, review as circumstances warrant) in the NPCSC 2025 and 2026 plans; the State Council 2026 plan calls for accelerating comprehensive AI legislation; the NPC committee report says MOST and others are drafting a framework text, so no draft has been submitted and no thresholds, duties or oversight are defined. pow 2/proposed and the NPC 2026 plan link fit.",
+    "missing": null,
+    "hash": "f261d6f225db"
+  },
+  "entry:cn-ai-law:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0057"
+    ],
+    "proposals": [],
+    "note": "AI legislation is a preparatory item (research and drafting, review as circumstances warrant) in the NPCSC 2025 and 2026 plans; the State Council 2026 plan calls for accelerating comprehensive AI legislation; the NPC committee report says MOST and others are drafting a framework text, so no draft has been submitted and no thresholds, duties or oversight are defined. pow 2/proposed and the NPC 2026 plan link fit.",
+    "missing": null,
+    "hash": "3f376e190ac9"
+  },
+  "entry:cn-ai-law:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0049",
+      "S-0050",
+      "S-0051",
+      "S-0057"
+    ],
+    "proposals": [],
+    "note": "AI legislation is a preparatory item (research and drafting, review as circumstances warrant) in the NPCSC 2025 and 2026 plans; the State Council 2026 plan calls for accelerating comprehensive AI legislation; the NPC committee report says MOST and others are drafting a framework text, so no draft has been submitted and no thresholds, duties or oversight are defined. pow 2/proposed and the NPC 2026 plan link fit.",
+    "missing": null,
+    "hash": "c9400c10884d"
+  },
+  "entry:cn-ai-law:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0053",
+      "S-0052",
+      "S-0051",
+      "S-0057",
+      "S-0054",
+      "S-0056"
+    ],
+    "proposals": [],
+    "note": "State Council 2024 plan named an AI Law draft; the 2025 plan only 'advance legislative work'; the 2026 plan calls for accelerating comprehensive legislation; MOST-led framework drafting (NPC committee report, published Jan 2026); Cybersecurity Law AI article in force 1 Jan 2026; humanlike interactive AI Measures in force 15 Jul 2026. 'Could consolidate' is framed as a possibility.",
+    "missing": null,
+    "hash": "77e7429e301a"
+  },
+  "edge:cn-genai|cn-ai-law": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0051"
+    ],
+    "proposals": [],
+    "note": "The State Council 2026 plan calls for comprehensive AI legislation alongside rules on common AI elements and key application scenarios, which supports 'could be consolidated' as a possibility; no text says it will.",
+    "missing": null,
+    "hash": "a97d6aa0d563"
+  },
+  "entry:kr-ai:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0293",
+      "S-0294"
+    ],
+    "proposals": [],
+    "note": "Facts verified in the current text (Act No. 21311, in force 21 Jul 2026): Art. 32 lifecycle risk management with results to MSIT; Decree Art. 24 three cumulative criteria (≥10^26 FLOPs, state of the art, broad serious risk); Art. 31(2) generative-AI labelling; Art. 12 Institute; Art. 43 KRW 30M cap. The comparison with Japan and the EU is analytic.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "e46b2ed960c7"
+  },
+  "entry:kr-ai:cov:thresh": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0293",
+      "S-0294",
+      "S-0364",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "Art. 32(1) delegates the compute threshold to decree; Decree Art. 24(1) requires all three criteria; Decree in force 22 Jan 2026; SB 53 and RAISE use 10^26 FLOPs. The Jan 2026 amendment (in force 21 Jul 2026) did not touch Art. 32.",
+    "missing": null,
+    "hash": "73098cc10099"
+  },
+  "entry:kr-ai:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0293"
+    ],
+    "proposals": [],
+    "note": "Results to MSIT (Art. 32(2)); MSIT investigates on its own finding or on reports/complaints and orders violations stopped or corrected (Art. 40); Institute supports (Art. 12); fines up to KRW 30M (Art. 43). Fine timing is covered by pending P-0182 for desc.",
+    "missing": null,
+    "hash": "41fbbd453cb3"
+  },
+  "entry:jp-ai": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0296",
+      "S-0297"
+    ],
+    "proposals": [],
+    "note": "Name, layer 2, jur as, pow 2 (no penalty provisions) and status active (promulgated 4 Jun 2025, fully in force 1 Sep 2025) fit; link is the Cabinet Office page.",
+    "missing": null,
+    "hash": "101e111b1d8e"
+  },
+  "entry:jp-ai:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0296",
+      "S-0299",
+      "S-0363"
+    ],
+    "proposals": [],
+    "note": "Art. 13 guidelines decided by the HQ on 19 Dec 2025, aimed at voluntary efforts; the Cabinet Office lists ministries' own guidance, including the MIC/METI AI Guidelines for Business.",
+    "missing": null,
+    "hash": "0dae093c6aee"
+  },
+  "entry:ca-sb53:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0364"
+    ],
+    "proposals": [],
+    "note": "Chaptered text (still current law per the LAW_SECTION table) supports the factual core: framework publication (§22757.12(a)), 15-day reporting (§22757.13(c)), per-deployment transparency reports (§22757.12(c)), whistleblower protections (Labor Code §1107 et seq.), 10^26 FLOPs and $500M tiers (§22757.11(i)-(j)), civil penalties against large frontier developers (§22757.15). 'The first US state law to codify the published-framework norm' and the list of named companies the law 'anchors against' are not in the statute.",
+    "missing": "comparative/analytic claim; not verifiable from sources (and the named-company list would need evidence of which developers meet both thresholds)",
+    "hash": "4580564de39e"
+  },
+  "entry:ca-sb53:cov:thresh": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0364"
+    ],
+    "proposals": [],
+    "note": "Chaptered text (still current law per the LAW_SECTION table) supports the factual core: framework publication (§22757.12(a)), 15-day reporting (§22757.13(c)), per-deployment transparency reports (§22757.12(c)), whistleblower protections (Labor Code §1107 et seq.), 10^26 FLOPs and $500M tiers (§22757.11(i)-(j)), civil penalties against large frontier developers (§22757.15). 'The first US state law to codify the published-framework norm' and the list of named companies the law 'anchors against' are not in the statute.",
+    "missing": "comparative/analytic claim; not verifiable from sources (and the named-company list would need evidence of which developers meet both thresholds)",
+    "hash": "ec2f4b19f72b"
+  },
+  "entry:ca-sb53:cov:timing": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0364",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "15 days to OES, 24 hours if imminent risk; transparency report before or with deployment; annual framework review; internal-use summaries every three months; publication on the developer's website; AG-only civil actions; whistleblower disclosures to the AG. RAISE (Ch. 96) sets 72 hours.",
+    "missing": null,
+    "hash": "b8077b05adf6"
+  },
+  "entry:ca-sb53:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0364",
+      "S-0033"
+    ],
+    "proposals": [],
+    "note": "15 days to OES, 24 hours if imminent risk; transparency report before or with deployment; annual framework review; internal-use summaries every three months; publication on the developer's website; AG-only civil actions; whistleblower disclosures to the AG. RAISE (Ch. 96) sets 72 hours.",
+    "missing": null,
+    "hash": "730da111dd24"
+  },
+  "entry:tx-raiga": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0165",
+      "S-0166"
+    ],
+    "proposals": [],
+    "note": "Name matches the short title; layer 3, uss; pow 4 (AG actions, up to $200,000 per uncurable violation); active (effective 1 Jan 2026); link is the enrolled text.",
+    "missing": null,
+    "hash": "5d3331a6f5b1"
+  },
+  "entry:uk-aisi:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0195",
+      "S-0194",
+      "S-0333",
+      "S-0368",
+      "S-0196",
+      "S-0197",
+      "S-0286",
+      "S-0287",
+      "S-0288"
+    ],
+    "proposals": [
+      "P-0192"
+    ],
+    "note": "All facts confirmed except the rename's focus list: the 14 Feb 2025 release names chem/bio weapons, cyber attacks and crime, not autonomy. 'Aligned framing with US CAISI' is analytic (and CAISI postdates the rename).",
+    "missing": null,
+    "hash": "6b426fd5fd39"
+  },
+  "entry:caisi:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0176",
+      "S-0174",
+      "S-0331",
+      "S-0175"
+    ],
+    "proposals": [],
+    "note": "June 2025 re-establishment as CAISI by the Commerce Secretary (nist-caisi-news p1); within NIST and now titled CAISSI (caissi p1); EO 14434 of 29 Sep 2026 substitutes 'Super Intelligence' for 'AI' in executive-branch usage (eo14434 p1–p2); 2026 pre-deployment testing capacity shown by the 5 May 2026 agreements for pre-deployment evaluations (nist-bulletin p1–p2) and CAISSI's voluntary-agreement mandate (caissi p2). 'Drop safety framing' consistent with the CAISSI mission text.",
+    "missing": null,
+    "hash": "d6cf54e98c5c"
+  },
+  "entry:uk-ofcom:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0241",
+      "S-0244",
+      "S-0243",
+      "S-0245",
+      "S-0246"
+    ],
+    "proposals": [],
+    "note": "Illegal-content duties apply to all regulated user-to-user services with extra duties for Category 1 (osa-s7 p1–p2); codes in force Mar 2025 and recommend proactive CSAM technology (ofcom-em p1, p3; ofcom-codes p1) with no AI-specific provision (ofcom-codes p2); CPA 2026 s.248 inserts s.216A letting the Secretary of State extend duties and Ofcom's enforcement powers to AI services by regulations (cpa-s248 p1–p3), aimed at AI chatbots (pm-nofreepass p1). The closing sentence on how labs ship generators is a characterisation, not checked.",
+    "missing": null,
+    "hash": "e6faf43b9e72"
+  },
+  "entry:uk-ofcom:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0244",
+      "S-0369",
+      "S-0243"
+    ],
+    "proposals": [],
+    "note": "Confirmed: code measures are recommended, not mandatory, and following them counts as compliance (ofcom-em p2); CSAM hash matching (ofcom-codes p1); no AI-specific measures (ofcom-codes p2); the NCII hash-matching amendment was laid before Parliament on 1 Jun 2026 (em-no2 p1; ofcom-em p4). Not confirmed from a primary text: that the NCII measure is now in force ('was added') and that the children's codes recommend age assurance.",
+    "missing": "Ofcom's statement or the issued codes showing the NCII hash-matching amendment in force (secondary reports say 30 Sep 2026) and the Protection of Children Codes' age-assurance measures; ofcom.org.uk refuses automated clients.",
+    "hash": "be5ad8cefb92"
+  },
+  "entry:uk-ico:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "inaccessible",
+    "scope": "external",
+    "sources": [
+      "S-0251",
+      "S-0252",
+      "S-0370",
+      "S-0250"
+    ],
+    "proposals": [],
+    "note": "Statutory facts confirmed: office of Information Commissioner abolished and functions transferred to the Information Commission on 30 Sep 2026 (duaa-s118 p1–p2; duaa-s119 p1; si2026-1015 p1); higher maximum penalty £17.5M or 4% of worldwide turnover (dpa-s157 p1). 'Still branded ICO' and the current status of its AI guidance need ico.org.uk.",
+    "missing": "ico.org.uk (AI guidance 'About this guidance' page and homepage branding) refuses automated clients; a manual check is needed.",
+    "hash": "3e88e0e4821b"
+  },
+  "entry:uk-ico:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0371",
+      "S-0252",
+      "S-0370"
+    ],
+    "proposals": [
+      "P-0193"
+    ],
+    "note": "SI 2026/425 (in force 12 May 2026) requires the regulator to prepare a statutory code of practice on AI and automated decision-making; 'under review' understates this. Guidance dates and the Clearview/Snap investigations not re-checked (ico.org.uk blocked).",
+    "missing": null,
+    "hash": "714246198239"
+  },
+  "entry:uk-ico:cov:mit": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0371",
+      "S-0252",
+      "S-0370"
+    ],
+    "proposals": [
+      "P-0193"
+    ],
+    "note": "SI 2026/425 (in force 12 May 2026) requires the regulator to prepare a statutory code of practice on AI and automated decision-making; 'under review' understates this. Guidance dates and the Clearview/Snap investigations not re-checked (ico.org.uk blocked).",
+    "missing": null,
+    "hash": "07f481c792e0"
+  },
+  "entry:us-ftc:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "inaccessible",
+    "scope": "external",
+    "sources": [
+      "S-0238",
+      "S-0239"
+    ],
+    "proposals": [],
+    "note": "Confirmed from the Federal Register: Rytr order set aside 22 Dec 2025 as part of addressing 'unnecessary burdens' (ftc-ps p3); EO 14365 §7 directs the policy statement (eo14365 p1); the 7 Jul 2026 proposed policy statement says conflicting state laws requiring deception are impliedly preempted (ftc-ps p1–p2). Operation AI Comply (Sept 2024, five cases) and the Rite Aid five-year facial-recognition ban are not in these sources.",
+    "missing": "FTC press releases for Operation AI Comply (Sept 2024) and the Rite Aid stipulated order (E.D. Pa. 2:23-cv-5023); ftc.gov refuses automated clients.",
+    "hash": "90de9186581a"
+  },
+  "edge:us-ftc|us-preempt": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0239",
+      "S-0238",
+      "S-0379"
+    ],
+    "proposals": [],
+    "note": "EO 14365 §7 directs the FTC Chairman to issue a policy statement on when state laws requiring altered truthful outputs are preempted (eo14365 p1); the FTC proposed it on 7 Jul 2026 (ftc-ps p1–p2). FR API shows no final version since (only an impersonation-rule proposal of 1 Oct 2026 matched 'artificial intelligence').",
+    "missing": null,
+    "hash": "370fb47e9999"
+  },
+  "entry:au-esafety:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0338",
+      "S-0339"
+    ],
+    "proposals": [],
+    "note": "Facts confirmed: standards made by the Commissioner under s.145 (au-osa p6) and codes registered under the Act; 2024 DIS standard imposes CSAM and pro-terror detection duties on high-impact generative AI services (au-dis p1–p3); 30,000 penalty units for breaching a standard or a code direction, 500 for notice breaches (au-osa p1–p2, p5); removal notices and Federal Court cessation orders (p3–p4). Note: codes are industry-developed and registered rather than 'issued' by eSafety (cf. P-0174). 'The leading non-EU model' and its influence on Five Eyes templates are comparative.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "a5adafeac6d4"
+  },
+  "entry:au-esafety:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0338"
+    ],
+    "proposals": [],
+    "note": "30,000 penalty units for breaching an industry standard (s.146(1)) or a code direction (s.143(2)); 500 for notice breaches; removal notices (s.65 ff.); Federal Court orders to cease providing services (ss.156–159) — au-osa p1–p5.",
+    "missing": null,
+    "hash": "a420268e9e7b"
+  },
+  "entry:co-doi:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0341",
+      "S-0342"
+    ],
+    "proposals": [
+      "P-0194"
+    ],
+    "note": "'Conduct bias testing' and 'document model assumptions' depend on quantitative testing rules the Division has not adopted; dates (Nov 2023; Oct 2025 extension to auto and health benefit plan insurers) confirmed. Proposal linked to P-0175. NAIC Bulletin and 'predates' claims not verifiable (content.naic.org blocked; comparative).",
+    "missing": null,
+    "hash": "5a7939e75575"
+  },
+  "entry:imda:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0260",
+      "S-0372"
+    ],
+    "proposals": [],
+    "note": "Confirmed: Model AI Governance Framework (2019; GenAI version 30 May 2024), AI Verify and the AI Verify Foundation (imda-ai p3–p6; aivf-mgfgenai p1); Veritas now a plugin in AI Verify. Not confirmed: 'adopted by major labs' and 'adapted as a regional template' (imda-ai p7 observation); MAS Guidelines on AI Risk Management (Oct 2026, effective Oct 2027) could not be re-checked because mas.gov.sg served a maintenance page.",
+    "missing": "Evidence that frontier labs use AI Verify and that ASEAN states adapted it; MAS media release on the AI Risk Management Guidelines (mas.gov.sg under maintenance on 9 Nov).",
+    "hash": "67406ae3719e"
+  },
+  "entry:imda:cov:acct": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "inaccessible",
+    "scope": "external",
+    "sources": [
+      "S-0260"
+    ],
+    "proposals": [],
+    "note": "AI Verify Foundation as a multistakeholder not-for-profit confirmed (imda-ai p4). MAS's Guidelines and their Oct 2027 effective date need mas.gov.sg, which returned a maintenance page on every attempt.",
+    "missing": "MAS media release 'MAS Sets Out Supervisory Expectations on Responsible AI Adoption by Financial Institutions' (mas.gov.sg unavailable 9 Nov 2026).",
+    "hash": "223b99426f93"
+  },
+  "entry:imda:cov:update": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0260",
+      "S-0372"
+    ],
+    "proposals": [],
+    "note": "GenAI framework finalised 30 May 2024 (aivf-mgfgenai p1); agentic framework first published Jan 2026 with a May 2026 update (imda-ai p1–p2); AIVT 'continues to evolve' (p6).",
+    "missing": null,
+    "hash": "2e49db893006"
+  },
+  "entry:jp-sectors": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "inaccessible",
+    "scope": "external",
+    "sources": [],
+    "proposals": [],
+    "note": "meti.go.jp answered both curl and headless Chromium with HTTP 403 on 9 Nov (the map link 20260331_report.html and the v1.2 English PDF). The 6 Nov run read both successfully (S-0344, S-0267).",
+    "missing": "METI's AI Guidelines for Business v1.2 page and PDF (soft-law statement) — retry later; meti.go.jp refused automated clients on 9 Nov.",
+    "hash": "defd57422696"
+  },
+  "entry:jp-sectors:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "inaccessible",
+    "scope": "external",
+    "sources": [],
+    "proposals": [],
+    "note": "meti.go.jp answered both curl and headless Chromium with HTTP 403 on 9 Nov (the map link 20260331_report.html and the v1.2 English PDF). The 6 Nov run read both successfully (S-0344, S-0267).",
+    "missing": "METI's AI Guidelines for Business v1.2 page and PDF (soft-law statement) — retry later; meti.go.jp refused automated clients on 9 Nov.",
+    "hash": "f89fea522999"
+  },
+  "entry:bis:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0373",
+      "S-0230",
+      "S-0233",
+      "S-0231",
+      "S-0232",
+      "S-0229",
+      "S-0234",
+      "S-0374",
+      "S-0375"
+    ],
+    "proposals": [],
+    "note": "Facts confirmed: 2022 rule (fr-2022-21658 p1), 2023 requirement (bis-guid-may26 p2), Dec 2024 HBM and equipment controls (fr-2024-28270 p1–p2), Jan 2025 Diffusion Rule with closed-weight model control above 10^26 operations (fr-2025-00636 p1; aidiff p1), non-enforcement and planned rescission/replacement from May 2025 (bis-rescind p1–p2; bis-guid-may26 p3), Jan 2026 case-by-case review for H200-class chips (fr-2026-00789 p1–p2), 31 May 2026 ultimate-parent guidance (bis-guid-may26 p1). No new BIS advanced-computing rule in the FR since July 2026. 'Most consequential' claims are comparative.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "5dc35773fcc7"
+  },
+  "entry:bis:context": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0373",
+      "S-0230",
+      "S-0233",
+      "S-0231",
+      "S-0232",
+      "S-0229",
+      "S-0234",
+      "S-0374",
+      "S-0375"
+    ],
+    "proposals": [],
+    "note": "Facts confirmed: 2022 rule (fr-2022-21658 p1), 2023 requirement (bis-guid-may26 p2), Dec 2024 HBM and equipment controls (fr-2024-28270 p1–p2), Jan 2025 Diffusion Rule with closed-weight model control above 10^26 operations (fr-2025-00636 p1; aidiff p1), non-enforcement and planned rescission/replacement from May 2025 (bis-rescind p1–p2; bis-guid-may26 p3), Jan 2026 case-by-case review for H200-class chips (fr-2026-00789 p1–p2), 31 May 2026 ultimate-parent guidance (bis-guid-may26 p1). No new BIS advanced-computing rule in the FR since July 2026. 'Most consequential' claims are comparative.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "8679cc7e0b1c"
+  },
+  "entry:bis:cov:thresh": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0234",
+      "S-0233",
+      "S-0232",
+      "S-0229"
+    ],
+    "proposals": [],
+    "note": "Total processing performance governs licensing (fr-2026-00789 p3); equipment controls (fr-2024-28270 p1); 10^26 model-weight threshold (aidiff p1) not enforced (bis-rescind p2).",
+    "missing": null,
+    "hash": "a4dc5f1f2c66"
+  },
+  "entry:nist-rmf:desc": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0182"
+    ],
+    "proposals": [],
+    "note": "Facts confirmed: AI RMF 2023, GenAI Profile Jul 2024, revision under the AI Action Plan, Critical Infrastructure Profile concept note 7 Apr 2026 (nist-rmf p1–p4). 'De facto global reference' is comparative.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "32abcbeaa68f"
+  },
+  "edge:fsi|us-frontier-access-eo": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0038",
+      "S-0222",
+      "S-0223"
+    ],
+    "proposals": [],
+    "note": "EO 14409 §3(b) sets up a voluntary framework for developers to engage the government and provide access to covered frontier models (eo14409 p1); FSI describes its role as translating lab findings for government (fsi-home p1; fsi-labs p1). Neither source links the two; 'bears on' is an analytic connection.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "8e39ed4885a0"
+  },
+  "derived:counts": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "882d135ce758"
+  },
+  "derived:dates": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "41e6480537ae"
+  },
+  "derived:generated": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "6bd36e09fa00"
+  },
+  "label:jur": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "14b7ec831d3f"
+  },
+  "label:pow": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "4ca978ec46c4"
+  },
+  "label:status": {
+    "run": "2026-11-09-weekly",
+    "date": "2026-11-09",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "3c867cd6f90c"
+  }
+}
