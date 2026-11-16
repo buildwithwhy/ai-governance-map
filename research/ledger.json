@@ -1,5 +1,5 @@
 {
-  "next": 197,
+  "next": 198,
   "proposals": [
     {
       "id": "P-0001",
@@ -21544,6 +21544,193 @@
             "edge:uk-aisi|prep"
           ],
           "hash": "df992b9c6d11"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-16"
+      }
+    },
+    {
+      "id": "P-0197",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-16T05:08:41Z",
+          "run": "2026-11-16-weekly",
+          "author": "claude",
+          "title": "New L4 entry? China's AI Safety Governance Framework 3.0 (TC260, 14 Sep 2026)",
+          "kind": "flag",
+          "changes": [],
+          "why": "The map's China entries are all binding CAC measures or a planned law; none records China's own published guidance on frontier risks. Framework 3.0 is China's most direct statement on loss of control, evaluator deception and CBRN-knowledge risks, which readers comparing national approaches would otherwise miss.",
+          "rationale": "The bilingual PDF on TC260's site states that TC260 developed v3.0 under CAC guidance, building on v1.0 (2024) and v2.0 (2025) (tc260-fw3 p1); TC260's release dates it 14 Sep 2026 (tc260-fw3-release p1–p2). It names loss of control over agentic AI (p2), models deceiving evaluators and concealing capabilities (p3) and loss of control over NBC and missile knowledge (p4), and recommends pre-deployment assessments, regular testing, alignment against evaluation deception and circuit breakers (p5–p7, p10), with risk grading and an agentic-AI risk framework (p8–p9). It meets RUBRIC §1: identifiable published text, material through its frontier-risk measures, attributable to TC260. Its measures are worded as recommendations ('should') and a commentator on CAC's site calls it a guidance document, not a mandatory law (cac-fw3-commentary p1, secondary), so pow 2. Layer 4 follows the NIST AI RMF precedent for a national standards-body framework. Option a recommended because the framework is a distinct, versioned instrument with its own coverage; b is a lighter alternative that keeps the map's China coverage to binding instruments.",
+          "evidence": [
+            {
+              "source": "S-0384",
+              "passage": "S-0384#1",
+              "stance": "supports",
+              "supports": "TC260 under CAC guidance; versions 1.0 (2024), 2.0 (2025)"
+            },
+            {
+              "source": "S-0385",
+              "passage": "S-0385#1",
+              "stance": "supports",
+              "supports": "released 14 Sep 2026"
+            },
+            {
+              "source": "S-0385",
+              "passage": "S-0385#2",
+              "stance": "supports",
+              "supports": "earlier versions 2024 and 2025"
+            },
+            {
+              "source": "S-0384",
+              "passage": "S-0384#2",
+              "stance": "supports",
+              "supports": "loss of control over agentic AI"
+            },
+            {
+              "source": "S-0384",
+              "passage": "S-0384#3",
+              "stance": "supports",
+              "supports": "deceiving evaluators, concealing capabilities"
+            },
+            {
+              "source": "S-0384",
+              "passage": "S-0384#4",
+              "stance": "supports",
+              "supports": "NBC and missile knowledge risk"
+            },
+            {
+              "source": "S-0384",
+              "passage": "S-0384#5",
+              "stance": "supports",
+              "supports": "alignment against evaluation deception"
+            },
+            {
+              "source": "S-0384",
+              "passage": "S-0384#6",
+              "stance": "supports",
+              "supports": "pre-deployment algorithm assessments"
+            },
+            {
+              "source": "S-0384",
+              "passage": "S-0384#7",
+              "stance": "supports",
+              "supports": "circuit breakers, one-click control"
+            },
+            {
+              "source": "S-0384",
+              "passage": "S-0384#8",
+              "stance": "supports",
+              "supports": "risk grading dimensions"
+            },
+            {
+              "source": "S-0384",
+              "passage": "S-0384#9",
+              "stance": "supports",
+              "supports": "agentic-AI risk management framework (Appendix 2)"
+            },
+            {
+              "source": "S-0384",
+              "passage": "S-0384#10",
+              "stance": "supports",
+              "supports": "regular testing and grading mechanism"
+            },
+            {
+              "source": "S-0386",
+              "passage": "S-0386#1",
+              "stance": "supports",
+              "supports": "guidance document, not mandatory law (secondary)"
+            }
+          ],
+          "uncertainty": "Earlier versions (2024, 2025) were never added, so the maintainer may see this as outside the map's usual bar; TC260 is a standards committee, a type SCOPE B3 does not monitor by default, though China is a B1 jurisdiction. Whether regulators use it in enforcement is not shown by any primary source. The English text is TC260's own translation in the same PDF.",
+          "confidence": "medium",
+          "question": "How should the map record China's AI Safety Governance Framework 3.0, TC260's non-binding guidance that addresses loss of control, evaluator deception and CBRN knowledge risks?",
+          "knock_on_notes": {
+            "entry:cn-genai:context": "checked, still accurate; option a adds a connection only",
+            "entry:nist-rmf:context": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "option b keeps the rest of the cn-ai-law context unchanged; not re-verified here"
+          ],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Add as a Layer 4 entry (pow 2, cn) connected to the GenAI Measures",
+              "changes": [
+                {
+                  "op": "add_entity",
+                  "after": "nist-rmf",
+                  "entity": {
+                    "id": "cn-aisgf",
+                    "name": "China AI Safety Governance Framework",
+                    "layer": 4,
+                    "jur": "cn",
+                    "pow": 2,
+                    "status": "active",
+                    "link": "https://www.tc260.org.cn/tc260/xwdt1/202609/d513a007d04347f58e483fabaefb34b8.shtml",
+                    "desc": "Guidance framework from TC260, China's national cybersecurity standards committee, developed under CAC guidance. v3.0 (14 Sep 2026) follows v1.0 (2024) and v2.0 (2025); it classifies AI safety risks and sets technical and governance measures, with appendices on risk grading and agentic-AI risk management.",
+                    "context": "China's counterpart to a voluntary national risk framework such as the NIST AI RMF: a guidance document rather than a law, with no penalties of its own. v3.0 names loss of control over agentic AI, models deceiving evaluators or concealing their capabilities, and loss of control over nuclear, biological, chemical and missile knowledge among its risks — frontier concerns that China's binding CAC measures do not address directly.",
+                    "cov": {
+                      "thresh": "Grades risk by criticality of the application scenario, degree of intelligence and application scale (Appendix 1); no capability thresholds tied to specific safeguards.",
+                      "eval": "Recommends algorithm safety assessments before deployment and major version updates, and regular safety testing and evaluation with a risk grading mechanism.",
+                      "mit": "Recommends safety alignment in training against deceiving red-team evaluations and concealing capabilities, and human-in-the-loop controls, circuit breakers and one-click control for highly autonomous systems.",
+                      "update": "Revised yearly so far: v1.0 (2024), v2.0 (2025), v3.0 (Sep 2026)."
+                    }
+                  }
+                },
+                {
+                  "op": "add_edge",
+                  "a": "cn-aisgf",
+                  "b": "cn-genai",
+                  "rel": "Developed by TC260 under CAC guidance; non-binding guidance beside the CAC's binding rules"
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "No new entry; mention it in the China AI Law context",
+              "changes": [
+                {
+                  "op": "set_field",
+                  "entity": "cn-ai-law",
+                  "field": "context",
+                  "from": "Could consolidate the patchwork of CAC measures (recommendation algorithms, deep synthesis, generative AI) into a single statute. The State Council dropped a named AI Law draft from its 2025 plan, then in May 2026 called for accelerating 'comprehensive legislation'; MOST-led drafting of a framework text was under way in late 2025. In the meantime China regulates frontier issues through narrower instruments — a Cybersecurity Law AI article (in force Jan 2026) and CAC rules on humanlike interactive AI (in force Jul 2026).",
+                  "to": "Could consolidate the patchwork of CAC measures (recommendation algorithms, deep synthesis, generative AI) into a single statute. The State Council dropped a named AI Law draft from its 2025 plan, then in May 2026 called for accelerating 'comprehensive legislation'; MOST-led drafting of a framework text was under way in late 2025. In the meantime China regulates frontier issues through narrower instruments — a Cybersecurity Law AI article (in force Jan 2026) and CAC rules on humanlike interactive AI (in force Jul 2026) — and through TC260's non-binding AI Safety Governance Framework (v3.0, Sep 2026), which names loss of control over agentic AI among its risks."
+                }
+              ]
+            },
+            {
+              "key": "c",
+              "label": "Keep as is (not added)",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "edge:cn-genai|cn-ai-law",
+            "gap:timing",
+            "gap:mit",
+            "gap:halt",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-is-the-difference-between-layer-2-and-layer"
+          ],
+          "hash": "acc1a14cf651"
         }
       ],
       "decision": {

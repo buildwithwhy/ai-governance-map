@@ -1,5 +1,5 @@
 {
-  "next": 384,
+  "next": 395,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -847,6 +847,18 @@
           "locator": "Updates, July 8, 2026",
           "text": "This version 3.4 update does the following: 1) revises our threshold for automated R&D to better track the threat model of concern",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0005#24",
+          "locator": "Current and Prior Versions",
+          "text": "Version 3.4 and redline (effective July 8, 2026) Version 3.3 and redline (effective May 26, 2026)",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0005#25",
+          "locator": "Header",
+          "text": "Last updated Aug 14, 2026",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -15740,6 +15752,12 @@
           "locator": "About, first bullet",
           "text": "Establish voluntary agreements with private sector SI developers and evaluators, and lead unclassified evaluations of SI capabilities that may pose risks to national security.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0174#14",
+          "locator": "News and Updates (latest item)",
+          "text": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation October 16, 2026",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -26379,6 +26397,12 @@
           "locator": "Model evaluations and safeguards",
           "text": "Gemini 4 Argon View Frontier Safety Framework report",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0302#5",
+          "locator": "Framework versions",
+          "text": "Version 3.1 (17 Apr 2026) Read now Version 3.0 (22 Sep 2025)",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -26870,6 +26894,12 @@
           "locator": "Full text (retrieved 2026-11-06)",
           "text": "[Observation, not a quotation] [Observation, not a quotation] The extracted text of this PDF is identical, word for word, to the 30 June 2026 edition recorded on 2026-10-10 at the …-99c40684.pdf URL (S-0108, now HTTP 404). Searched it for numeric acceptance criteria ('1 in', percentages, MASK) and for a change log or version history: none appears.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0307#28",
+          "locator": "Title block",
+          "text": "xAI Frontier Artificial Intelligence Framework Effective Date: 30 June 2026",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -30689,6 +30719,451 @@
           "id": "S-0383#2",
           "locator": "Signatories",
           "text": "The statement remains open to new endorsements and is being updated.",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0384": {
+      "url": "https://www.tc260.org.cn/tc260/xwdt1/202609/e879077a3caa4722b2206d1bcaed5a6c/files/%E3%80%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AE%89%E5%85%A8%E6%B2%BB%E7%90%86%E6%A1%86%E6%9E%B63.0%E3%80%8B.pdf.pdf",
+      "title": "AI Safety Governance Framework 3.0 (人工智能安全治理框架3.0), bilingual PDF",
+      "publisher": "National Technical Committee 260 on Cybersecurity of SAC (TC260)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-14"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:08:24Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.tc260.org.cn/tc260/xwdt1/202609/e879077a3caa4722b2206d1bcaed5a6c/files/%E3%80%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AE%89%E5%85%A8%E6%B2%BB%E7%90%86%E6%A1%86%E6%9E%B63.0%E3%80%8B.pdf.pdf",
+          "content_type": "application/pdf",
+          "sha256": "cff709d8b1b2a0df",
+          "bytes": 3325115
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0384#1",
+          "locator": "English Preface, p. 50",
+          "text": "under the guidance of the Cyberspace Administration of China (CAC), the National Technical Committee 260 on Cybersecurity of the Standardization Administration of China organized relevant professional institutions, research institutes, and industry enterprises to develop the AI Safety Governance Framework 3.0, building on the AI Safety Governance Framework 1.0 (2024) and the AI Safety Governance Framework 2.0 (2025).",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0384#2",
+          "locator": "§1.5 Ensuring trustworthy application and preventing loss of control, pp. 53–54",
+          "text": "We strengthen the prevention and governance of prominent risks including loss of control over the behavior of agentic AI",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0384#3",
+          "locator": "§2.1 Inherent safety risks, p. 55",
+          "text": "models may break rules and orders, autonomously obtain system permissions and external resources without authorization, bypass security protections, or even engage in behaviors such as deliberately deceiving evaluators, concealing their true capabilities, and refusing to follow user instructions.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0384#4",
+          "locator": "§2.3 (d), Risks of loss of control over knowledge related to nuclear, biological, chemical, and missile weapons",
+          "text": "AI significantly lowers the threshold for accessing specialized knowledge in high-risk fields such as nuclear, biological, chemical, and missile weapons.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0384#5",
+          "locator": "§3.1.1 (e)",
+          "text": "Safety alignment should be strengthened during model training to prevent unintended behaviors such as deceiving red-team evaluations, concealing capabilities, and circumventing controls.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0384#6",
+          "locator": "§3.1.2 (d)",
+          "text": "Algorithm safety assessments should be conducted before deployment and major version updates using a multidimensional evaluation approach.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0384#7",
+          "locator": "§3.2 measures for application safety risks, (b)",
+          "text": "When introducing highly autonomous operation and execution capabilities, mechanisms such as human-in-the-loop controls, circuit breakers, and one-click control should be established in parallel to enable rapid intervention and loss prevention in extreme situations.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0384#8",
+          "locator": "Appendix 1, The grading principles for AI safety risks, p. 109",
+          "text": "These risks can be evaluated and categorized based on dimensions such as the criticality of application scenarios, the degree of intelligence, and the application scale, allowing for the implementation of targeted safety measures.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0384#9",
+          "locator": "§4.4.1, pp. 89–90",
+          "text": "We have established a risk management framework for agentic AI, systematically analyzing their safety risks, and studying and proposing safety risk-prevention measures and response recommendations (Appendix 2).",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0384#10",
+          "locator": "§5.1.7",
+          "text": "Safety testing and evaluation should be conducted regularly, and a mechanism for risk classification, grading, assessment, and optimization should be established.",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0385": {
+      "url": "https://www.tc260.org.cn/tc260/xwdt1/202609/d513a007d04347f58e483fabaefb34b8.shtml",
+      "title": "《人工智能安全治理框架3.0》发布 [AI Safety Governance Framework 3.0 released]",
+      "publisher": "TC260 Secretariat",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-14"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:08:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "headless Chromium (page body is rendered by JavaScript)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "17b6d2589f6b116f",
+          "bytes": 22909
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0385#1",
+          "locator": "News item, para. 1",
+          "text": "9月14日，在2026年国家网络安全宣传周开幕式上，全国网络安全标准化技术委员会（以下简称“网安标委”）发布《人工智能安全治理框架3.0》 [On 14 September, at the opening of the 2026 National Cybersecurity Awareness Week, TC260 released the AI Safety Governance Framework 3.0]",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0385#2",
+          "locator": "News item, para. 2",
+          "text": "2024年、2025年网安标委先后发布了《人工智能安全治理框架1.0》《人工智能安全治理框架2.0》 [TC260 released Framework 1.0 and 2.0 in 2024 and 2025]",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0386": {
+      "url": "https://www.cac.gov.cn/2026-09/17/c_1791397053329870.htm",
+      "title": "新闻1+1丨人工智能安全治理，再升级！ [CCTV News 1+1 on the Framework 3.0, reposted by CAC]",
+      "publisher": "Cyberspace Administration of China (repost of CCTV News)",
+      "type": "secondary",
+      "dates": {
+        "published": "2026-09-17"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:08:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.cac.gov.cn/2026-09/17/c_1791397053329870.htm",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "4bd67570209e7411",
+          "bytes": 22090
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0386#1",
+          "locator": "Interview answer by Wen Yuheng (China University of Political Science and Law)",
+          "text": "这份治理框架不是一个强制性的法律，而是一个指引性的文件 [This governance framework is not a mandatory law but a guidance document]",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0387": {
+      "url": "https://www.law.go.kr/법령/인공지능발전과신뢰기반조성등에관한기본법시행령",
+      "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 시행령 [Enforcement Decree of the AI Basic Act], current text",
+      "publisher": "Korea Ministry of Government Legislation (National Law Information Center)",
+      "type": "primary",
+      "dates": {
+        "in_force": "2026-08-20"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:08:32Z",
+          "run": "2026-11-16-weekly",
+          "via": "headless Chromium (law.go.kr renders the text by JavaScript)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "3b51c88b2318b8cf",
+          "bytes": 346490
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0387#1",
+          "locator": "Header",
+          "text": "대통령령 제36580호, 2026. 8. 18., 타법개정 [Presidential Decree No. 36580, 18 Aug 2026, amended by another act; header shows in force 20 Aug 2026]",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0387#2",
+          "locator": "Addenda, Presidential Decree No. 36506",
+          "text": "부      칙 <대통령령 제36506호, 2026. 7. 20.> 이 영은 2026년 7월 21일부터 시행한다. [Addendum, PD 36506 of 20 Jul 2026: this decree enters into force on 21 Jul 2026]",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0387#3",
+          "locator": "Art. 24(1)1",
+          "text": "학습에 사용된 누적 연산량이 10의 26승 부동소수점연산 이상일 것 [cumulative training compute of 10^26 floating-point operations or more]",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0387#4",
+          "locator": "Art. 24 (observation)",
+          "text": "[Observation, not a quotation] Art. 24 (safety obligations for high-performance AI: 10^26 FLOP plus state-of-the-art and broad-serious-risk criteria) carries no 2026 amendment mark; the 2026 marks are on vulnerable-group, support, research-institute and delegation provisions (Arts. 1-2, 2, 15-2, 15-3, 16-2–16-4, 31).",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0388": {
+      "url": "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/new-initiatives-to-strengthen-ai-safety-and-resilience",
+      "title": "Singapore Introduces New Initiatives to Strengthen AI Safety and Resilience",
+      "publisher": "Infocomm Media Development Authority & AI Verify Foundation",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-14"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:08:32Z",
+          "run": "2026-11-16-weekly",
+          "via": "headless Chromium (body rendered by JavaScript)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "515b4dfecba188cf",
+          "bytes": 184736
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0388#1",
+          "locator": "Para. 2",
+          "text": "The launch of the Starter Kit for Testing Agentic Systems for Safety and Reliability;",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0388#2",
+          "locator": "Para. 9",
+          "text": "AI Verify Foundation launched the first-of-its-kind accreditation programme for third party AI testing service providers – AI Tester Accreditation Programme (AI TAP).",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0388#3",
+          "locator": "Para. 11",
+          "text": "IMDA has formed and convened the Frontier AI Resilience and Security Taskforce (FAIRS) to strengthen the Infocomm and Media (ICM) sector’s resilience against AI-enabled cyber threats.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0388#4",
+          "locator": "Para. 4",
+          "text": "It also draws from testing experiences through the Global AI Assurance Sandbox and Singapore AI Safety Institute.",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0389": {
+      "url": "https://www.osc.gov.sg/",
+      "title": "Online Safety Commission — home",
+      "publisher": "Online Safety Commission (Singapore)",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:08:32Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.osc.gov.sg/",
+          "content_type": "text/html",
+          "sha256": "a0ea38c703df7b5d",
+          "bytes": 401858
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0389#1",
+          "locator": "Home, 'Intimate image abuse'",
+          "text": "Is someone sharing intimate images or videos of you online without your consent? These images or videos can be real or generated.",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0390": {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32026R1755",
+      "title": "Commission Implementing Regulation (EU) 2026/1755 of 20 July 2026 on detailed arrangements for the conduct of certain proceedings pursuant to Regulation (EU) 2024/1689",
+      "publisher": "European Commission (Official Journal L series)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-07-20",
+        "published": "2026-07-21",
+        "in_force": "2026-08-10"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:08:33Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32026R1755",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "76550c7a15469bef",
+          "bytes": 75472
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0390#1",
+          "locator": "Title",
+          "text": "COMMISSION IMPLEMENTING REGULATION (EU) 2026/1755 of 20 July 2026 on detailed arrangements for the conduct of certain proceedings by the Commission pursuant to Regulation (EU) 2024/1689",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0390#2",
+          "locator": "Art. 2(2)",
+          "text": "Such access may include access through application programming interfaces (‘APIs’), internal access, access to source code, access to model weights, access to the infrastructure used for hosting the general-purpose AI model",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0390#3",
+          "locator": "Art. 15",
+          "text": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union .",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0391": {
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions[agencies][]=industry-and-security-bureau&conditions[publication_date][gte]=2026-11-09&per_page=50",
+      "title": "Federal Register API: BIS documents published since 2026-11-09",
+      "publisher": "Office of the Federal Register",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:08:34Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl (FR API JSON saved)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "1615e74ed3860cfd",
+          "bytes": 501
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0391#1",
+          "locator": "API result (observation)",
+          "text": "[Observation, not a quotation] Query run 2026-11-16 returned one BIS document since 9 Nov 2026: 2026-22793 (9 Nov), Extension of the Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities. Term searches across all agencies since 9 Nov for 'advanced computing' and 'model weights' returned none; no NIST AI notice.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0391#2",
+          "locator": "API result",
+          "text": "Extension of the Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0392": {
+      "url": "https://www.anthropic.com/news",
+      "title": "Newsroom",
+      "publisher": "Anthropic",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:08:34Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/news",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "100d0285bf7713dd",
+          "bytes": 344473
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0392#1",
+          "locator": "Latest news",
+          "text": "Nov 9, 2026 Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0392#2",
+          "locator": "Listing",
+          "text": "Anthropic launches roadshow for proposed initial public offering",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0393": {
+      "url": "https://metr.org/blog/",
+      "title": "METR updates",
+      "publisher": "METR",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:08:34Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://metr.org/blog/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "542c90ef5733027b",
+          "bytes": 109214
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0393#1",
+          "locator": "Updates listing (latest item)",
+          "text": "Review of the \"Risks from automated R&D\" section in Anthropic's Risk Report (August 2026) November 5, 2026",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0394": {
+      "url": "https://www8.cao.go.jp/cstp/ai/index.html",
+      "title": "AI政策 [AI policy] topics",
+      "publisher": "Cabinet Office, Japan",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:08:34Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www8.cao.go.jp/cstp/ai/index.html",
+          "content_type": "text/html",
+          "sha256": "194e2245e2e894c2",
+          "bytes": 11439
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0394#1",
+          "locator": "Topics (latest items)",
+          "text": "2026年10月26日 第７回人工知能戦略専門調査会を開催しました。 [26 Oct 2026: 7th AI Strategy Expert Panel held]",
           "retrieved": "2026-11-16"
         }
       ]

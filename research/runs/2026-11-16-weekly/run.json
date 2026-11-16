@@ -129,6 +129,248 @@
           ]
         }
       ]
+    },
+    {
+      "area": "B1 national discovery: China, South Korea, Japan, Singapore, Australia (since 2026-11-09)",
+      "summary": "One significant mechanism missed by earlier runs: China's AI Safety Governance Framework 3.0 (TC260, 14 Sep 2026), raised as an inclusion question (cn-aisgf-flag). Korea's decree amendment is now confirmed from law.go.kr (PD 36506, in force 21 Jul 2026); it leaves the 10^26 FLOP high-performance criteria untouched. Nothing new since 9 Nov in Japan (Cabinet Office, J-AISI) or from Singapore's regulators; Australian government sites refused every connection.",
+      "queries": [
+        "人工智能安全治理框架 3.0 发布 全国网络安全标准化技术委员会 2026",
+        "China CAC artificial intelligence measures November 2026",
+        "China AI safety governance framework TC260 standard frontier November 2026",
+        "cac.gov.cn homepage (Oct–Nov 2026 items)",
+        "tc260.org.cn news and notices (rendered)",
+        "Korea AI Basic Act enforcement decree amendment 2026 promulgated 시행령 개정",
+        "law.go.kr 인공지능기본법 시행령 (current text)",
+        "Korea AI Safety Institute frontier model evaluation MSIT November 2026",
+        "Japan AI Strategic Headquarters November 2026 AI Safety Institute frontier evaluation",
+        "www8.cao.go.jp/cstp/ai topics; aisi.go.jp news and outputs",
+        "osc.gov.sg; mddi.gov.sg newsroom; imda.gov.sg press releases",
+        "Australia AI Safety Institute launched 2026",
+        "Australian AI Safety Institute November 2026 announcement"
+      ],
+      "limits": "industry.gov.au, minister.industry.gov.au, aisi.gov.au and esafety.gov.au reset or refused every connection (curl HTTP/2 and HTTP/1.1, WebFetch 503). Korean and Chinese pages read in the original; the TC260 English text is its own translation. Search results used only as leads.",
+      "candidates": [
+        {
+          "name": "China AI Safety Governance Framework 3.0 (TC260, 14 Sep 2026)",
+          "result": "proposed",
+          "reason": "Non-binding national framework developed under CAC guidance; names loss of control over agentic AI, evaluator deception, NBC/missile knowledge risks; risk grading and agentic-AI risk framework. Not previously logged; v1/v2 never on the map. Inclusion is a classification judgement, so drafted as a flag with three options.",
+          "sources": [
+            "S-0384",
+            "S-0385",
+            "S-0386"
+          ],
+          "proposal": "P-0197"
+        },
+        {
+          "name": "Korea AI Basic Act Enforcement Decree amendment (PD 36506, 20 Jul 2026, in force 21 Jul; further PD 36580, 18 Aug 2026, in force 20 Aug)",
+          "result": "update to existing entry",
+          "reason": "Promulgation now confirmed from the official text (closes the 9 Nov lead). New articles concern vulnerable groups, cost support, start-ups and AI research institutes; Art. 24's 10^26 FLOP plus state-of-the-art and broad-serious-risk criteria carry no amendment mark, matching kr-ai context. No edit needed.",
+          "sources": [
+            "S-0387"
+          ]
+        },
+        {
+          "name": "Japan: new AI Basic Plan actions or J-AISI outputs since 9 Nov",
+          "result": "screened out",
+          "reason": "Cabinet Office AI topics' latest item is the 26 Oct expert panel; J-AISI's latest outputs are the 6 Oct Vision Paper 2.0 and Jul 2026 guides; nothing new. P-0178 (AI Basic Plan) pending.",
+          "sources": [
+            "S-0394"
+          ]
+        },
+        {
+          "name": "Singapore Online Safety Commission",
+          "result": "screened out",
+          "reason": "Operating general online-harms body (intimate image abuse, child abuse imagery, doxxing, harassment); AI appears only as 'real or generated' imagery. No frontier/GPAI bearing; contextual at most and not a B3 AI rule.",
+          "sources": [
+            "S-0389"
+          ]
+        },
+        {
+          "name": "Singapore MDDI/IMDA items since 9 Nov",
+          "result": "screened out",
+          "reason": "MDDI newsroom since 9 Nov has speeches and PQ answers only (e.g. 13 Nov US-ASEAN roundtable); IMDA press releases since 9 Nov none on AI governance.",
+          "sources": []
+        },
+        {
+          "name": "Australia AI Safety Institute (operational 2026, frontier model testing reported)",
+          "result": "lead — source inaccessible",
+          "reason": "Secondary reports only (single trade/crypto outlet for testing start); department and minister sites unreachable. Australia already listed in other-aisis; no edit drafted.",
+          "sources": []
+        },
+        {
+          "name": "Korea AISI: assessment of GPT-6 Astra; 42 models evaluated, none pre-release (Maeil, Aug 2026)",
+          "result": "screened out",
+          "reason": "Secondary reports only; consistent with kr-ai/other-aisis text; not a new mechanism.",
+          "sources": []
+        },
+        {
+          "name": "Xi–Putin–Trump leaders' meeting in Shenzhen, 19 Nov 2026 (announced 16 Nov)",
+          "result": "screened out",
+          "reason": "The Xinhua flash reposted by CAC does not mention AI; revisit only if an AI statement is issued (multilateral slice).",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "area": "B3: AI safety/security institutes and AI offices, evaluators (METR, Apollo, AVERI, CAIS, FSI), NIST/CAISI, sector regulators, compute and export controls (since 2026-11-09)",
+      "summary": "No new BIS advanced-computing or model-weight rule (Federal Register API since 9 Nov: only the already-logged affiliates-rule suspension), and no new NIST, CAISSI, METR, Apollo, AVERI, CAIS or FSI mechanism since the last run. Two items earlier runs missed: Commission Implementing Regulation (EU) 2026/1755 (in force 10 Aug 2026), which sets how the AI Office requests model access (including weights) for Art. 92 evaluations and runs fining proceedings, relevant to pending P-0162; and IMDA's 14 Oct initiatives (agentic testing starter kit, AI tester accreditation, a frontier-AI cyber taskforce). Neither drafted.",
+      "queries": [
+        "Federal Register API: BIS documents since 2026-11-09; NIST AI documents since 2026-11-09; term searches 'artificial intelligence', 'advanced computing', 'model weights'; public-inspection current",
+        "BIS export controls AI chips November 2026 rule announcement",
+        "nist.gov/caissi; nist.gov AI RMF page; NIST news",
+        "metr.org/blog; apolloresearch.ai/blog; averi.org; safe.ai/blog; frontiersecurityinstitute.org",
+        "EU AI Office general-purpose AI November 2026 guidelines enforcement request",
+        "Virkkunen Dublin speech AI Office requests for information October 2026",
+        "have your say draft implementing regulation Articles 75c-75d",
+        "EUR-Lex CELEX 32026R1755",
+        "FTC artificial intelligence enforcement action November 2026",
+        "ICO consultation code of practice AI automated decision-making November 2026; ICO agentic AI call for evidence",
+        "AI Security Institute UK announcement November 2026",
+        "eSafety Commissioner AI companion chatbots enforcement November 2026",
+        "imda.gov.sg press releases (Oct–Nov 2026)"
+      ],
+      "limits": "ftc.gov, ico.org.uk, ofcom.org.uk and Commission press/Have-Your-Say pages not opened (search leads only); esafety.gov.au unreachable. EU and UK items are logged here only as institutions/regulators; national EU/UK law is another slice.",
+      "candidates": [
+        {
+          "name": "BIS rules on advanced computing or model weights since 9 Nov",
+          "result": "screened out",
+          "reason": "FR API: only 2026-22793 (affiliates-rule suspension, 9 Nov, already logged); no advanced-computing, model-weight or NIST AI documents since 9 Nov.",
+          "sources": [
+            "S-0391"
+          ]
+        },
+        {
+          "name": "NIST CAISSI guidance or AI RMF profile newer than 16 Oct",
+          "result": "screened out",
+          "reason": "CAISSI page's latest item is still the 16 Oct incident key practices; RMF page still cites the Apr 2026 critical-infrastructure concept note.",
+          "sources": [
+            "S-0174"
+          ]
+        },
+        {
+          "name": "Evaluators: METR, Apollo, AVERI, CAIS, FSI",
+          "result": "screened out",
+          "reason": "METR's latest update is the 5 Nov Risk Report review (already logged); Apollo's latest post 1 Oct (embedded evaluations, logged earlier); nothing new from AVERI, CAIS or FSI.",
+          "sources": [
+            "S-0393"
+          ]
+        },
+        {
+          "name": "Commission Implementing Regulation (EU) 2026/1755 on GPAI model access, independent experts and proceedings (adopted 20 Jul, in force 10 Aug 2026)",
+          "result": "update to existing entry",
+          "reason": "Specifies how the AI Office requests access (APIs, internal access, source code, weights, hosting infrastructure) for Art. 92 evaluations, appoints independent experts and runs fining proceedings. Bears on eu-aio's evaluation/accountability notes, which pending P-0162 already revises; not drafted to avoid a competing edit. Suggest folding into P-0162 or a follow-up once it is decided.",
+          "sources": [
+            "S-0390"
+          ]
+        },
+        {
+          "name": "EU AI Office first formal requests for information to GPAI providers (announced 14 Oct 2026) and draft implementing act for Arts. 75c–75d proceedings (feedback closed 9 Nov)",
+          "result": "lead — source inaccessible",
+          "reason": "Secondary reports only (Reed Smith, Digital Policy Alert, regulations.ai); the Commission speech and Have Your Say pages not retrieved. Would be first enforcement evidence for eu-aio; adoption of the draft is planned for Q4 2026.",
+          "sources": []
+        },
+        {
+          "name": "IMDA/AI Verify Foundation initiatives (14 Oct 2026): Agentic Testing Starter Kit, AI Tester Accreditation Programme, Frontier AI Resilience and Security Taskforce",
+          "result": "update to existing entry",
+          "reason": "Voluntary guidance, accreditation of third-party testers and a sector taskforce reporting by H1 2027; could extend imda eval/mit notes. The release also names a 'Singapore AI Safety Institute', relevant to pending P-0173/P-0176. Not drafted.",
+          "sources": [
+            "S-0388"
+          ]
+        },
+        {
+          "name": "ICO agentic AI call for evidence (8 Oct–20 Nov 2026)",
+          "result": "screened out",
+          "reason": "Consultation feeding the statutory AI/ADM code already covered by pending P-0193; not a mechanism. Secondary sources only.",
+          "sources": []
+        },
+        {
+          "name": "FTC AI enforcement since 9 Nov",
+          "result": "screened out",
+          "reason": "Search found nothing after May 2026; ftc.gov not checked directly.",
+          "sources": []
+        },
+        {
+          "name": "UK AISI: minister's 3 Nov statement on access to US frontier models",
+          "result": "screened out",
+          "reason": "Secondary (MLex) only; no new power or mechanism.",
+          "sources": []
+        },
+        {
+          "name": "eSafety AI companion enforcement since 9 Nov",
+          "result": "lead — source inaccessible",
+          "reason": "esafety.gov.au unreachable (reset/503); secondary sources show nothing after Sep 2026. Related pending P-0174.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "area": "B4 labs: Anthropic, OpenAI, Google DeepMind, Meta, xAI/SpaceXSI (since 2026-11-09)",
+      "summary": "No new framework versions: RSP v3.4 (page last updated 14 Aug), FSF v3.1 and the xAI 30 Jun 2026 edition remain current; Meta's v2.1 is already pending (P-0149). Anthropic's only new items since 9 Nov are a model launch (Claude Fable 5.2 / Mythos 5.2) and its IPO roadshow. The OpenAI leads (Aug 2026 PF rewrite with a held frontier RL run; 16 Sep misalignment reporting framework) remain secondary-only: openai.com returns 403 and no cdn.openai.com copy of either was found.",
+      "queries": [
+        "OpenAI Preparedness Framework version 3 November 2026",
+        "OpenAI preparedness framework rewrite paused RL run Hugging Face incident",
+        "cdn.openai.com pdf preparedness framework 2026",
+        "OpenAI misalignment incident disclosure framework",
+        "alignment.openai.com misalignment incident report",
+        "Anthropic Responsible Scaling Policy update November 2026",
+        "anthropic.com/responsible-scaling-policy; anthropic.com/news",
+        "Google DeepMind Frontier Safety Framework new version November 2026; deepmind.google/frontier-safety",
+        "Meta Superintelligence Scaling Framework board committee November 2026",
+        "SpaceXSI xAI frontier AI framework update November 2026; media.x.ai framework PDF"
+      ],
+      "limits": "openai.com refuses automated clients (WebFetch 403); per the brief no attempt to get around it. x.ai/safety returns 403; the framework PDF on media.x.ai was read directly (the …-99c40684 URL found in search now returns 404). Meta's site not re-read beyond the pending P-0149 copy.",
+      "candidates": [
+        {
+          "name": "Anthropic RSP newer than v3.4",
+          "result": "screened out",
+          "reason": "Policy page lists v3.4 (effective 8 Jul 2026) as newest, last updated 14 Aug 2026.",
+          "sources": [
+            "S-0005"
+          ]
+        },
+        {
+          "name": "Anthropic items since 9 Nov: Claude Fable 5.2 / Mythos 5.2 launch (9 Nov), IPO roadshow (10 Nov)",
+          "result": "screened out",
+          "reason": "Model launch and corporate finance; no framework or governance-body change.",
+          "sources": [
+            "S-0392"
+          ]
+        },
+        {
+          "name": "Google DeepMind FSF newer than v3.1",
+          "result": "screened out",
+          "reason": "Frontier Safety page still lists v3.1 (17 Apr 2026) as newest.",
+          "sources": [
+            "S-0302"
+          ]
+        },
+        {
+          "name": "Meta board AI committee constituted / framework newer than v2.1",
+          "result": "screened out",
+          "reason": "Search found the committee still described as planned; P-0149 pending.",
+          "sources": []
+        },
+        {
+          "name": "xAI/SpaceXSI framework newer than 30 Jun 2026",
+          "result": "screened out",
+          "reason": "media.x.ai PDF still 'Effective Date: 30 June 2026', issued by xAI LLC; naming question pending in P-0151.",
+          "sources": [
+            "S-0307"
+          ]
+        },
+        {
+          "name": "OpenAI Preparedness Framework rewrite and held frontier RL run (announced 18 Aug 2026)",
+          "result": "lead — source inaccessible",
+          "reason": "Widely reported (Axios, Help Net Security, TNW); primary is openai.com/index/pacing-model-development-cyber-capabilities/ (403). No rewritten PF published on cdn.openai.com (only v2 and the Frontier Governance Framework). If confirmed, prep context and cov:halt need a note.",
+          "sources": []
+        },
+        {
+          "name": "OpenAI model misalignment reporting framework (16 Sep 2026) with six incident reports",
+          "result": "lead — source inaccessible",
+          "reason": "Reported by CSO Online, CIO, Cloud Security Alliance; primary openai.com/index/model-misalignment-reporting-framework/ not retrievable. Possible prep acct note (employee flagging, Safety Advisory Group disputes, disclosure timelines).",
+          "sources": []
+        }
+      ]
     }
   ],
   "usage": null
