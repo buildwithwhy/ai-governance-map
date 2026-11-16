@@ -1,5 +1,5 @@
 {
-  "next": 380,
+  "next": 384,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -580,6 +580,12 @@
           "locator": "Signatories of the code of practice (retrieved 2026-11-06)",
           "text": "[Observation, not a quotation] [Observation, not a quotation] The signatory list still names 22 providers (AI Studio Delta … WRITER), including Amazon, Anthropic, Google, Microsoft and OpenAI; Meta does not appear, and the page gives no reason for any provider's absence. The page's 'Last update' is still 7 October 2026; the list is unchanged since the 2026-10-10 audit.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0003#21",
+          "locator": "Signatories list",
+          "text": "IBM LINAGORA Microsoft Mistral AI Open Hippo OpenAI",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -3023,7 +3029,7 @@
     "S-0041": {
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202601744",
       "title": "Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
-      "publisher": "Official Journal of the EU (EUR-Lex)",
+      "publisher": "Publications Office of the EU",
       "type": "primary",
       "dates": {
         "adopted": "2026-07-08",
@@ -3031,16 +3037,6 @@
         "in_force": "2026-07-27"
       },
       "fetches": [
-        {
-          "date": "2026-10-10",
-          "at": "2026-10-10T16:45:11Z",
-          "run": "2026-10-10-trial1b",
-          "via": "curl",
-          "status": "http_202",
-          "http": 202,
-          "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202601744",
-          "content_type": "text/html; charset=UTF-8"
-        },
         {
           "date": "2026-10-10",
           "at": "2026-10-10T16:45:54Z",
@@ -3078,6 +3074,18 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "ae9da46507fe752b",
           "bytes": 365419
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:01:43Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202601744",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "d7b6b67e9e603a00",
+          "bytes": 353497
         }
       ],
       "passages": [
@@ -3206,6 +3214,12 @@
           "locator": "Signature",
           "text": "Done at Strasbourg, 8 July 2026.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0041#22",
+          "locator": "Art. 1, new Art. 111(4) AI Act",
+          "text": "‘4. Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026.’",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -3670,6 +3684,24 @@
           "locator": "Appendix 3.2 Model elicitation",
           "text": "Signatories will ensure that the model evaluations are conducted with at least a state-of-the-art level of model elicitation that elicits the model’s capabilities, propensities, affordances, and/or effects",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0044#40",
+          "locator": "Measure 3.2",
+          "text": "Signatories will conduct at least state-of-the-art model evaluations in the modalities relevant to the systemic risk to assess the model’s capabilities, propensities, affordances, and/or effects, as specified in Appendix 3.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0044#41",
+          "locator": "Measure 3.2",
+          "text": "Examples of model evaluation methods are: Q&A sets, task-based evaluations, benchmarks, red-teaming and other methods of adversarial testing",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0044#42",
+          "locator": "Appendix 3.5",
+          "text": "In addition to internal model evaluations, Signatories will ensure that adequately qualified independent external evaluators conduct model evaluations pursuant to this Appendix 3, with regards to the systemic risk, unless:",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -3753,6 +3785,36 @@
           "locator": "Body",
           "text": "It helps providers and deployers of generative AI systems to comply with the AI Act’s obligations for labelling and marking of AI-generated content – Article 50(2), (4) and (5) of the AI Act.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0045#5",
+          "locator": "Intro",
+          "text": "The Code of Practice on Transparency of AI-generated Content was drawn up by independent experts in a multi-stakeholder process facilitated by the AI Office.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0045#6",
+          "locator": "Code of Practice",
+          "text": "By contrast, providers and deployers that decide to comply through other means will have to demonstrate that those measures are adequate. This will be assessed individually by different market surveillance authorities.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0045#7",
+          "locator": "Code of Practice",
+          "text": "Section 1: Providers - Rules for marking and detection of AI-generated and manipulated content Section 2: Deployers - Rules for labelling of deepfakes and AI-generated and manipulated text",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0045#8",
+          "locator": "Timeline",
+          "text": "10 June 2026 Closing Plenary Publication of the final code of practice",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0045#9",
+          "locator": "Intro",
+          "text": "These transparency obligations, applicable from 2 August 2026, complement other rules",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -3762,7 +3824,8 @@
       "publisher": "European Commission",
       "type": "primary",
       "dates": {
-        "published": "2026-07-09"
+        "published": "2026-07-09",
+        "adopted": "2026-07-08"
       },
       "fetches": [
         {
@@ -3820,6 +3883,18 @@
           "locator": "Opinion, 9 July 2026",
           "text": "On July 8, the Commission concluded that the Code of Practice on Transparency of AI-generated Content adequately covers the obligations provided for in Articles 50(2), (4) and (5) AI Act … The following day, the AI Board adopted its Adequacy Assessment … Adherence to the code does not constitute conclusive evidence of compliance with these obligations.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0046#2",
+          "locator": "Body",
+          "text": "On July 8, the Commission concluded that the Code of Practice on Transparency of AI-generated Content adequately covers the obligations provided for in Articles 50(2), (4) and (5) AI Act and facilitates their effective implementation. The following day, the AI Board adopted its Adequacy Assessment code.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0046#3",
+          "locator": "Body",
+          "text": "Adherence to the code does not constitute conclusive evidence of compliance with these obligations.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -4537,6 +4612,18 @@
           "locator": "News, 31 July 2026",
           "text": "By the end of July 2026, about 190 organisations … have signed the code. … Examples for Section 1 include: Aleph Alpha, Anthropic, Black Forest Labs, Cohere, Google, Meta, Microsoft, Mistral, Open AI, Synthesia. … Section 1 signatories: 95 · Section 2 signatories: 192 [xAI not listed]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0058#2",
+          "locator": "Body",
+          "text": "Examples for Section 1 include: Aleph Alpha, Anthropic, Black Forest Labs, Cohere, Google, Meta, Microsoft, Mistral, Open AI, Synthesia.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0058#3",
+          "locator": "List of signatories",
+          "text": "Section 1 signatories: 95 Section 2 signatories: 192",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -4677,6 +4764,24 @@
           "locator": "Section 1, Measure 2.1 and Sub-measure 2.1.x",
           "text": "Signatories will make available a detection solution … to enable deployers, users … end-users exposed to the content, and other legitimate parties (such as competent authorities, independent researchers, civil society and media organisations) to verify whether content has been generated or manipulated by their AI system … Signatories will make the detection solution available free of charge.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0060#3",
+          "locator": "Section 1, Sub-measure 1.1.1",
+          "text": "All recorded information will be digitally signed and time-stamped",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0060#4",
+          "locator": "Section 1, Sub-measure 1.1.2",
+          "text": "The watermark is intended to serve as a robust mechanism to complement the digitally signed metadata under Sub-measure 1.1.1.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0060#5",
+          "locator": "Section 1, Measure 2.1",
+          "text": "Signatories will make the detection solution available free of charge.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -5661,6 +5766,18 @@
           "locator": "Reporting Framework",
           "text": "The responses to the \"Reporting Framework 2.0\" were published on October 2, 2026, with submissions from 31 companies.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0071#5",
+          "locator": "Reporting Framework, para 1",
+          "text": "The Reporting Framework, launched on February 7, 2025, is a direct outcome of the G7 Hiroshima AI Process",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0071#6",
+          "locator": "Reporting Framework, para 1",
+          "text": "The responses to the \"Reporting Framework 2.0\" were published on October 2, 2026, with submissions from 31 companies.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -5800,6 +5917,42 @@
           "locator": "Code of Conduct, action 7",
           "text": "Develop and deploy reliable content authentication and provenance mechanisms",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0072#14",
+          "locator": "Code of Conduct, action 6",
+          "text": "These may include securing model weights and, algorithms, servers, and datasets, such as through operational security measures for information security and appropriate cyber/physical access controls.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0072#15",
+          "locator": "Code of Conduct, action 4",
+          "text": "Work towards responsible information sharing and reporting of incidents among organizations developing advanced AI systems including with industry, governments, civil society, and academia",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0072#16",
+          "locator": "Code of Conduct, action 3",
+          "text": "Publicly report advanced AI systems’ capabilities, limitations and domains of appropriate and inappropriate use, to support ensuring sufficient transparency, thereby contributing to increase accountability.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0072#17",
+          "locator": "Code of Conduct, action 11",
+          "text": "Implement appropriate data input measures and protections for personal data and intellectual property",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0072#18",
+          "locator": "Code of Conduct, preamble",
+          "text": "Organizations should not develop or deploy advanced AI systems in ways that undermine democratic values, are particularly harmful to individuals or communities, facilitate terrorism, promote criminal misuse, or pose substantial risks to safety, security and human rights, and are thus not acceptable.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0072#19",
+          "locator": "Comprehensive Policy Framework intro",
+          "text": "These documents will be reviewed and updated as necessary, taking advantage of opportunities for multi-stakeholder consultation, in response to rapid technological developments.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -5962,6 +6115,24 @@
           "locator": "Submissions",
           "text": "Submissions are accepted on a rolling basis, and organisations are invited to update their reports annually.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0074#12",
+          "locator": "Body, para 1",
+          "text": "On 28 May, the OECD launched version 2.0 of the Hiroshima AI Process (HAIP) Reporting Framework at an event organised by Tech7, on the margins of the G7 Digital and Tech Ministerial Meeting under the French G7 Presidency in Paris.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0074#13",
+          "locator": "Body, para 2",
+          "text": "this 2.0 version is designed to broaden participation across the AI ecosystem, with a particular focus on small and medium enterprises. It contributes to monitoring the application of the Hiroshima Process International Code of Conduct",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0074#14",
+          "locator": "Organisations committing",
+          "text": "More than 50 organisations have already pledged to complete a HAIP report using the new framework:",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -6110,6 +6281,18 @@
           "locator": "Membership",
           "text": "The current members of the FMF are Amazon, Anthropic, Google, Meta, Microsoft, and OpenAI.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0076#2",
+          "locator": "Membership, intro",
+          "text": "The current members of the FMF are Amazon, Anthropic, Google, Meta, Microsoft, and OpenAI.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0076#3",
+          "locator": "Membership, intro",
+          "text": "The Frontier Model Forum is an industry non-profit dedicated to advancing the safe development and deployment of frontier AI systems.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -6177,6 +6360,18 @@
           "locator": "Para 2",
           "text": "Amazon and Meta are joining the Frontier Model Forum and will collaborate alongside founding members Anthropic, Google, Microsoft, and OpenAI to advance AI safety.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0077#2",
+          "locator": "Body, para 2",
+          "text": "Today, we’re excited to share that Amazon and Meta are joining the Frontier Model Forum and will collaborate alongside founding members Anthropic, Google, Microsoft, and OpenAI to advance AI safety.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0077#3",
+          "locator": "Header",
+          "text": "Posted on: 20th May 2024",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -6266,6 +6461,12 @@
           "locator": "Our funding",
           "text": "The FMF is funded by fees from its member firms.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0078#6",
+          "locator": "Our mission",
+          "text": "Identify best practices and support standards development for frontier AI safety and security. Advance the science of frontier AI safety and security.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -6351,6 +6552,12 @@
           "locator": "para. 1",
           "text": "all of its member firms have signed a first-of-its-kind agreement designed to facilitate information-sharing about threats, vulnerabilities, and capability advances unique to frontier AI.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0079#5",
+          "locator": "Body, para 1",
+          "text": "The Frontier Model Forum (FMF) is proud to announce that all of its member firms have signed a first-of-its-kind agreement designed to facilitate information-sharing about threats, vulnerabilities, and capability advances unique to frontier AI.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -6430,6 +6637,12 @@
           "locator": "Upcoming priorities",
           "text": "We intend to pilot voluntary information-sharing with non-FMF parties, starting with other frontier AI companies.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0080#4",
+          "locator": "What We’ve Accomplished",
+          "text": "We are pleased to report that the member firms of the FMF have successfully shared the covered information above.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -6503,6 +6716,18 @@
           "locator": "para. 1",
           "text": "Today we are announcing a new cohort of 11 grantees who have received more than $5 million through the AI Safety Fund (AISF).",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0081#3",
+          "locator": "Body, para 1",
+          "text": "Today we are announcing a new cohort of 11 grantees who have received more than $5 million through the AI Safety Fund (AISF).",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0081#4",
+          "locator": "Update on the AI Safety Fund",
+          "text": "After the Meridian Institute announced in June 2025 that it would be winding down its operations, the FMF began managing the fund directly.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -6628,6 +6853,30 @@
           "locator": "Issue Briefs",
           "text": "Agents for Cyber Defense. September 21, 2026.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0082#12",
+          "locator": "Issue Briefs list",
+          "text": "Early Best Practices for Frontier AI Safety Evaluations. July 31, 2024.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0082#13",
+          "locator": "Technical Reports list",
+          "text": "Third-Party Assessments. August 4, 2025.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0082#14",
+          "locator": "Specifications list",
+          "text": "Specifications Jailbreak Rating Framework for Frontier Cyber Risks. November 5, 2026.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0082#15",
+          "locator": "Latest News list (top entry)",
+          "text": "Latest News Introducing the FMF Jailbreak Rating Framework for Frontier Cyber Threats. November 5, 2026.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -6699,6 +6948,30 @@
           "locator": "Timeline, 2016",
           "text": "PAI founded by five major tech companies —Amazon, Facebook, Google, IBM, and Microsoft—to ensure AI development advances positive outcomes for people and society",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0083#3",
+          "locator": "Timeline, 2016",
+          "text": "PAI founded by five major tech companies—Amazon, Facebook, Google, IBM, and Microsoft—to ensure AI development advances positive outcomes for people and society",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0083#4",
+          "locator": "Timeline, 2023",
+          "text": "Synthetic Media Framework launches",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0083#5",
+          "locator": "Timeline, 2023",
+          "text": "Guidance for Safe Foundation Model Deployment released",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0083#6",
+          "locator": "Celebrating ten years",
+          "text": "PAI is launching two interconnected initiatives: a Global AI Progress Hub to make the field’s contributions visible and an annual Measures of Progress Report to assess their impact.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -6764,6 +7037,18 @@
           "locator": "About",
           "text": "Partnership on AI (PAI) is a non-profit partnership of academic, civil society, industry, and media organizations creating solutions so that AI advances positive outcomes for people and society.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0084#2",
+          "locator": "About Us, para 1",
+          "text": "Partnership on AI (PAI) is a non-profit partnership of academic, civil society, industry, and media organizations creating solutions so that AI advances positive outcomes for people and society.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0084#3",
+          "locator": "About Us, para 2",
+          "text": "We develop tools, recommendations, and other resources by inviting voices from across the AI community and beyond to share insights that can be synthesized into actionable guidance.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -6944,6 +7229,12 @@
           "locator": "Summary",
           "text": "It builds on our 2023 Guidance for Safe Foundation Model Deployment",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0086#5",
+          "locator": "Intro",
+          "text": "This report measures the progress of 13 organizations in publicly documenting the impacts of their foundation models, drawing on a review of more than 150 papers, articles, websites, and reports. It builds on our 2023 Guidance for Safe Foundation Model Deployment and our 2025 progress-tracking methodology.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -7044,6 +7335,12 @@
           "locator": "Intro",
           "text": "The European AI Office facilitated the drawing-up of the General-Purpose AI Code of Practice . The process was chaired by independent experts",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0088#2",
+          "locator": "Intro",
+          "text": "The European AI Office facilitated the drawing-up of the General-Purpose AI Code of Practice.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -7145,6 +7442,12 @@
           "locator": "Relation to the Article 50 code",
           "text": "the GPAI Code of Practice focuses on GPAI models and documentation and information to be provided to the AI Office, national competent authorities and downstream providers, and transparency of the input training data.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0089#8",
+          "locator": "How will the Code be updated?",
+          "text": "The AI Office will review the Code at least every two years, and it may propose a streamlined process for reviews and updates as needed.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -10292,6 +10595,12 @@
           "locator": "Publications list (retrieved 2026-11-06)",
           "text": "[Observation, not a quotation] [Observation, not a quotation] The page still lists, newest first: the 2026 Report, its Extended Summary for Policymakers and Executive Summary (all 3 February 2026), the Second Key Update (25 November 2025), the First Key Update (15 October 2025) and the 2025 Report (29 January 2025). Nothing dated after 3 February 2026 is listed.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0120#6",
+          "locator": "Latest entry",
+          "text": "The second International AI Safety Report, published in February 2026, is the next iteration of the comprehensive review",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -11767,6 +12076,12 @@
           "locator": "para. 3",
           "text": "This high-level international summit is to be held on the theme of ‘Bridging Innovation and Trust’.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0133#6",
+          "locator": "Intro",
+          "text": "will take place at the exhibition and conference centre Palexpo in Geneva on 21 and 22 June 2027.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -12201,7 +12516,7 @@
     "S-0138": {
       "url": "https://oecd.ai/en/transparency",
       "title": "Hiroshima AI Reporting Framework (OECD.AI)",
-      "publisher": "OECD.AI Policy Observatory",
+      "publisher": "OECD",
       "type": "primary",
       "dates": {},
       "fetches": [
@@ -12216,6 +12531,18 @@
           "content_type": "text/html;charset=UTF-8",
           "sha256": "9d9d54e96ae79d26",
           "bytes": 109791
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:01:54Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://oecd.ai/en/transparency/overview",
+          "content_type": "text/html;charset=UTF-8",
+          "sha256": "1ecd3aa8973e352e",
+          "bytes": 109829
         }
       ],
       "passages": [
@@ -12230,6 +12557,12 @@
           "locator": "About",
           "text": "The Reporting Framework, launched on February 7 2025, is a direct outcome of the G7 Hiroshima AI Process",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0138#3",
+          "locator": "Intro",
+          "text": "Submissions received by 15 January 2027 will feed into the next analytical review.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -12953,6 +13286,12 @@
           "locator": "Home page, Publications",
           "text": "Preliminary Report (01 July) … Thematic Brief on AI Agents, Misalignment and the Risk of Losing Human Control (21 September)",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0145#4",
+          "locator": "Publications",
+          "text": "Preliminary Report (01 July) Thematic Brief on AI Agents, Misalignment and the Risk of Losing Human Control (21 September)",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -27000,6 +27339,18 @@
           "locator": "Parties table, all rows",
           "text": "[Observation, not a quotation] [Observation, not a quotation] Checked every row of the parties table (Albania to Uruguay): only the EU (15-05-2026) and Bosnia and Herzegovina (28-10-2026) rows carry a ratification date, and no row shows an entry-into-force date. Page metadata DCTERMS.modified is 2026-11-06.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0320#8",
+          "locator": "Parties table",
+          "text": "Bosnia and Herzegovina 09-12-2025 28-10-2026 (R)",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0320#9",
+          "locator": "Parties table",
+          "text": "EU (European Union) 05-09-2024 15-05-2026 (R)",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -27023,6 +27374,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "a24e0fba8df13a15",
           "bytes": 133341
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:01:41Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/specifications/jailbreak-rating-framework-for-frontier-cyber-threats/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "bc7a48556e251e48",
+          "bytes": 133341
         }
       ],
       "passages": [
@@ -27031,6 +27394,36 @@
           "locator": "intro",
           "text": "Drawing on input from security experts across the members of the Frontier Model Forum (FMF), this preliminary framework provides a shared vocabulary and a structured method for rating successful jailbreaks.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0321#2",
+          "locator": "Header",
+          "text": "Posted on: 5th November 2026",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0321#3",
+          "locator": "Version box",
+          "text": "VERSION 1.0 – OPEN FOR PUBLIC FEEDBACK",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0321#4",
+          "locator": "Introduction, para 3",
+          "text": "Drawing on input from security experts across the members of the Frontier Model Forum (FMF), this preliminary framework provides a shared vocabulary and a structured method for rating successful jailbreaks.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0321#5",
+          "locator": "Introduction, para 4",
+          "text": "The proposed dimensions, tiers, and thresholds described below should be treated as a starting point for discussion rather than as guidance to apply operationally.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0321#6",
+          "locator": "Framework Categories",
+          "text": "This framework rates a single, successful jailbreak across four key categories: capability gain, capability scope, ease of deployment, and ease of discovery.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -28993,6 +29386,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "df42a767b0ea48d5",
           "bytes": 59794
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:01:41Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.frontiermodelforum.org/updates/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "d8d408d3099d8835",
+          "bytes": 59794
         }
       ],
       "passages": [
@@ -29007,12 +29412,24 @@
           "locator": "Latest update (top of listing)",
           "text": "[Observation, not a quotation] [Observation, not a quotation] Checked the top of the Updates listing on 2026-11-09: the most recent item is the Jailbreak Rating Framework v1.0 release (already logged by the 2026-11-06 run); no later FMF update is listed.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0360#3",
+          "locator": "Latest update (5 Nov 2026), final paragraph",
+          "text": "To that end, we are opening a public comment period through December 21, 2026.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0360#4",
+          "locator": "Latest update, quote from Anthropic",
+          "text": "Anthropic is pleased to support the work of the FMF to develop a practical, evidence-based framework to manage jailbreak risk.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
     "S-0361": {
       "url": "https://partnershiponai.org/ai-adoption-for-newsrooms-a-10-step-guide/",
-      "title": "AI Adoption for Newsrooms: A 10-Step Guide",
+      "title": "PAI: AI Adoption for Newsrooms: A 10-Step Guide",
       "publisher": "Partnership on AI",
       "type": "primary",
       "dates": {
@@ -29030,6 +29447,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "3dc49385e5f9552f",
           "bytes": 73655
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:01:42Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://partnershiponai.org/ai-adoption-for-newsrooms-a-10-step-guide/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "cd1859bf1ec041d7",
+          "bytes": 73719
         }
       ],
       "passages": [
@@ -29038,6 +29467,12 @@
           "locator": "Title and byline",
           "text": "Local News AI Adoption for Newsrooms: A 10-Step Guide PAI Staff November 14, 2023",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0361#2",
+          "locator": "Header",
+          "text": "Local News AI Adoption for Newsrooms: A 10-Step Guide PAI Staff November 14, 2023",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -29694,6 +30129,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "8bcc85fd1ba4cbe2",
           "bytes": 150894
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:01:55Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "8bcc85fd1ba4cbe2",
+          "bytes": 150894
         }
       ],
       "passages": [
@@ -29702,6 +30149,12 @@
           "locator": "Listing",
           "text": "Pretraining data filtering in open-weight biological models",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0378#2",
+          "locator": "Listing",
+          "text": "The International Network for Advanced AI Measurement, Evaluation and Science convened in Seoul to continue outlining international best practice.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -29743,6 +30196,206 @@
           "locator": "results (1)",
           "text": "[Observation, not a quotation] Only one FTC document matching \"artificial intelligence\" was published 8 Jul–9 Nov 2026: the Rule on Impersonation of Government and Businesses (proposed rule, 1 Oct 2026). No final AI policy statement.",
           "retrieved": "2026-11-09"
+        }
+      ]
+    },
+    "S-0380": {
+      "url": "https://partnershiponai.org/blog/",
+      "title": "Partnership on AI: Blog",
+      "publisher": "Partnership on AI",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:01:42Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://partnershiponai.org/blog/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "e3f72f390d5ceba0",
+          "bytes": 101629
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0380#1",
+          "locator": "Program filter list",
+          "text": "AI, Labor, and the Economy AI and Shared Prosperity Initiative Promoting Workforce Well-being in the AI-Integrated Workplace",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0380#2",
+          "locator": "Latest posts",
+          "text": "Partnership on AI Welcomes Eight New Partners Advancing Mental Health and Well-being Felecia Webb Oct 08, 2026",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0381": {
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/task-forces-code-transparency-ai-generated-content",
+      "title": "Signatory Task Forces of the Code of Practice on Transparency of AI-generated Content",
+      "publisher": "European Commission",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:01:44Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/task-forces-code-transparency-ai-generated-content",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "dd6379b0a4ae071e",
+          "bytes": 65309
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0381#1",
+          "locator": "Intro",
+          "text": "On 30 September 2026, over 90 signatories of the Code of Practice on Transparency of AI-generated Content have established 2 signatory task forces to support the implementation of the code.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0381#2",
+          "locator": "Intro",
+          "text": "The AI Office chairs these task forces and will facilitate the discussions.",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0382": {
+      "url": "https://www.government.nl/documents/2026/11/10/paris-declaration-on-ai-safety-and-security",
+      "title": "Paris Declaration on AI safety and security",
+      "publisher": "Government of the Netherlands (Ministry of Foreign Affairs)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-10",
+        "signed": "2026-11-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:01:46Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.government.nl/documents/2026/11/10/paris-declaration-on-ai-safety-and-security",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "4489e4c1e3814e94",
+          "bytes": 230333
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0382#1",
+          "locator": "Signatories",
+          "text": "The declaration has been signed on Monday 9 November 2026 by the following Heads of States and Governments and CEOs: Heads of States and Governments: Bahrain, Canada, Finland, France, Japan, Norway, the Netherlands (Kingdom of the), Sierra Leone, United Kingdom",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0382#2",
+          "locator": "Signatories",
+          "text": "Companies: Anthropic, Black Forest Labs, Cohere, Domyn, Hugging Face, Microsoft, Mistral AI, OpenAI, Synthesia",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0382#3",
+          "locator": "Declaration, first commitment",
+          "text": "First, policy makers, researchers and developers are committed to establishing a common framework for the evaluation and risk management of frontier models, building on existing frameworks.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0382#4",
+          "locator": "Declaration, first commitment",
+          "text": "Furthermore, we agree to publish the non-sensitive findings of our evaluations in a standardized format to ensure comparability, while also creating a publicly accessible shared repository.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0382#5",
+          "locator": "Declaration, developers of frontier models",
+          "text": "Developers also commit to implement fail-safe mechanisms to shut down model operations within their control, including during training and internal use (e.g. restrictions, pauses or shutdowns);",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0382#6",
+          "locator": "Declaration, developers of frontier models",
+          "text": "Commit to disclose model capabilities, limitations, and known risks and, where appropriate and proportionate to the risk, support the evaluation of models by qualified independent evaluators, as appropriate and consistent with existing practices and arrangements.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0382#7",
+          "locator": "Declaration, third commitment",
+          "text": "Thirdly, policy makers, researchers and developers are committed to information sharing, reporting and early warning systems.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0382#8",
+          "locator": "Declaration, para 2",
+          "text": "including through the Hiroshima process, the Frontier Safety Commitments of the Seoul AI Summit, the G7 Evian AI meeting",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0382#9",
+          "locator": "Declaration, first commitment",
+          "text": "recognize the role that existing networks, including International Network for Advanced AI Measurement, Evaluation and Science (NAAIMES) can play in making evaluation methods and results more comparable and accessible",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0382#10",
+          "locator": "Declaration, policy makers",
+          "text": "Policy makers commit to offer secure and confidential channels through which whistleblowers, including employees and other relevant stakeholders, can raise concerns about systemic risks",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0382#11",
+          "locator": "Header",
+          "text": "Diplomatic statement10-11-2026",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0383": {
+      "url": "https://www.pm.gc.ca/en/node/54528",
+      "title": "Joint declaration on Paris call for AI safety and security",
+      "publisher": "Prime Minister of Canada",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-09",
+        "signed": "2026-11-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:01:47Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.pm.gc.ca/en/news/statements/2026/11/09/joint-declaration-paris-call-ai-safety-and-security",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "2eb169fc7c6273d9",
+          "bytes": 49176
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0383#1",
+          "locator": "Signatories",
+          "text": "Heads of States and Governments: Bahrain, Canada, Finland, France, Norway, the Netherlands. Companies: Anthropic, Black Forest Labs, Cohere, Domyn, Hugging Face, Microsoft, Mistral AI, OpenAI, Sakana AI, Synthesia",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0383#2",
+          "locator": "Signatories",
+          "text": "The statement remains open to new endorsements and is being updated.",
+          "retrieved": "2026-11-16"
         }
       ]
     }

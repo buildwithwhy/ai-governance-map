@@ -8,6 +8,128 @@
     "entries": [],
     "note": null
   },
-  "discovery": [],
+  "discovery": [
+    {
+      "area": "B3 multilateral bodies and processes (AISR, NAAIMES, summits, OECD/HAIP, CoE, UNESCO, UN Panel/Dialogue)",
+      "summary": "Checked primary pages since the 2026-11-09 run. One significant new instrument: the Paris Declaration on AI Safety and Security (9 Nov 2026), signed by governments and frontier developers; drafted as a question (addition, Layer 5 recommended). No other new instruments: AISR publications unchanged (latest Feb 2026 report); NAAIMES latest is the Jul 2026 Seoul meeting; Geneva summit 21-22 Jun 2027 unchanged; CoE treaty table unchanged since P-0161 v2 (EU and Bosnia and Herzegovina ratified, not in force); UN Panel latest output 21 Sep thematic brief; HAIP next submission deadline 15 Jan 2027.",
+      "queries": [
+        "International Network for Advanced AI Measurement Evaluation and Science November 2026",
+        "Framework Convention on Artificial Intelligence ratification November 2026",
+        "OECD AI recommendation new instrument November 2026 general-purpose AI",
+        "OpenAI Anthropic join Canada France AI safety declaration",
+        "elysee.fr Appel de Paris sécurité sûreté IA 9 novembre 2026 déclaration"
+      ],
+      "limits": "coe.int and oecd.org not used (refuse automated clients); CoE status taken from the Netherlands treaty database. The Élysée copy of the Paris declaration was not located; the Dutch and Canadian government copies differ on signatories. UNESCO forum page showed no dated 2026-27 items. Search snippets used only as leads.",
+      "candidates": [
+        {
+          "name": "Paris Declaration on AI Safety and Security (9 Nov 2026)",
+          "result": "proposed",
+          "reason": "Signed text from two signatory governments; frontier-specific commitments (common evaluation framework, fail-safe shutdown, incident early warning) by governments and Anthropic, OpenAI, Microsoft, Mistral AI and others. Meets RUBRIC §1; layer is a question.",
+          "proposal": "P-0196",
+          "sources": [
+            "S-0382",
+            "S-0383"
+          ]
+        },
+        {
+          "name": "CoE Framework Convention ratifications",
+          "result": "update to existing entry",
+          "reason": "Parties table unchanged since P-0161 v2 (EU 15-05-2026, Bosnia and Herzegovina 28-10-2026); already pending.",
+          "proposal": "P-0161",
+          "sources": [
+            "S-0320"
+          ]
+        },
+        {
+          "name": "International AI Safety Report (new key update or 2027 report)",
+          "result": "screened out",
+          "reason": "Publications page lists nothing after the Feb 2026 report.",
+          "sources": [
+            "S-0120"
+          ]
+        },
+        {
+          "name": "NAAIMES new outputs",
+          "result": "screened out",
+          "reason": "Latest AISI blog item on the Network is the Jul 2026 Seoul meeting; the Paris declaration names NAAIMES but creates no new Network instrument.",
+          "sources": [
+            "S-0378"
+          ]
+        },
+        {
+          "name": "Geneva AI Summit 2027 commitments",
+          "result": "screened out",
+          "reason": "Dates and venue only; no commitments text yet.",
+          "sources": [
+            "S-0133"
+          ]
+        },
+        {
+          "name": "UN Scientific Panel new reports",
+          "result": "screened out",
+          "reason": "Latest is the 21 Sep thematic brief, already known.",
+          "sources": [
+            "S-0145"
+          ]
+        },
+        {
+          "name": "HAIP Reporting Framework next cycle",
+          "result": "screened out",
+          "reason": "Next analytical review takes submissions to 15 Jan 2027; no new instrument.",
+          "sources": [
+            "S-0138"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "B3 industry and multistakeholder bodies (FMF, PAI, EU GPAI Code, EU transparency code)",
+      "summary": "FMF: Jailbreak Rating Framework v1.0 (5 Nov 2026) assessed; it is a preliminary cross-member rating method, not a commitment; drafted as a question on mentioning it in the fmf context (recommended yes). Nothing newer on the FMF listings. PAI: latest posts 8 Oct 2026; the Global AI Progress Hub (Jul 2026) is a tracker, not a code. GPAI Code signatory page last updated 7 Oct 2026 (Meta absent; xAI safety chapter only). Transparency code: final since 10 Jun 2026; signatory task forces set up 30 Sep 2026, chaired by the AI Office.",
+      "queries": [
+        "Frontier Model Forum November 2026",
+        "Code of Practice general-purpose AI signatory November 2026 AI Office",
+        "Partnership on AI announcement November 2026",
+        "Partnership on AI newsrooms AI adoption guide local news"
+      ],
+      "limits": "FMF, PAI and Commission pages checked directly; no Commission news after Oct 2026 found on the code pages.",
+      "candidates": [
+        {
+          "name": "FMF Jailbreak Rating Framework for Frontier Cyber Threats v1.0",
+          "result": "update to existing entry",
+          "reason": "Preliminary rating methodology developed with member firms' security experts; no obligation, so not a separate L5 entry.",
+          "proposal": "P-0195",
+          "sources": [
+            "S-0321",
+            "S-0082",
+            "S-0360"
+          ]
+        },
+        {
+          "name": "PAI Global AI Progress Hub and Measures of Progress Report",
+          "result": "screened out",
+          "reason": "A progress tracker and annual report (research output), not a commitment or code.",
+          "sources": [
+            "S-0083"
+          ]
+        },
+        {
+          "name": "EU transparency code signatory task forces (30 Sep 2026)",
+          "result": "screened out",
+          "reason": "Implementation structure of an existing entry; AI Office chairs; not material to the current text.",
+          "sources": [
+            "S-0381"
+          ]
+        },
+        {
+          "name": "EU GPAI Code signatory changes",
+          "result": "screened out",
+          "reason": "Signatory page last updated 7 Oct 2026; no new signatories since the last run.",
+          "sources": [
+            "S-0003"
+          ]
+        }
+      ]
+    }
+  ],
   "usage": null
 }

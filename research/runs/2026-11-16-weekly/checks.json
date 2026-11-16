@@ -1,0 +1,475 @@
+{
+  "entry:fmf": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0076",
+      "S-0077",
+      "S-0078"
+    ],
+    "proposals": [],
+    "note": "Members are Amazon, Anthropic, Google, Meta, Microsoft and OpenAI; Anthropic, Google, Microsoft and OpenAI are founding members and Amazon and Meta joined 20 May 2024. Industry non-profit, no lobbying (co, pow 1, active); link resolves.",
+    "missing": null,
+    "hash": "da37bfb89a0a"
+  },
+  "entry:fmf:desc": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0076",
+      "S-0077",
+      "S-0078"
+    ],
+    "proposals": [],
+    "note": "Members are Amazon, Anthropic, Google, Meta, Microsoft and OpenAI; Anthropic, Google, Microsoft and OpenAI are founding members and Amazon and Meta joined 20 May 2024. Industry non-profit, no lobbying (co, pow 1, active); link resolves.",
+    "missing": null,
+    "hash": "9feccfe40325"
+  },
+  "edge:fmf|rsp": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0076",
+      "S-0077",
+      "S-0078"
+    ],
+    "proposals": [],
+    "note": "Members are Amazon, Anthropic, Google, Meta, Microsoft and OpenAI; Anthropic, Google, Microsoft and OpenAI are founding members and Amazon and Meta joined 20 May 2024. Industry non-profit, no lobbying (co, pow 1, active); link resolves.",
+    "missing": null,
+    "hash": "f10ae3ac3107"
+  },
+  "edge:fmf|prep": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0076",
+      "S-0077",
+      "S-0078"
+    ],
+    "proposals": [],
+    "note": "Members are Amazon, Anthropic, Google, Meta, Microsoft and OpenAI; Anthropic, Google, Microsoft and OpenAI are founding members and Amazon and Meta joined 20 May 2024. Industry non-profit, no lobbying (co, pow 1, active); link resolves.",
+    "missing": null,
+    "hash": "229324004787"
+  },
+  "edge:fmf|fsf": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0076",
+      "S-0077",
+      "S-0078"
+    ],
+    "proposals": [],
+    "note": "Members are Amazon, Anthropic, Google, Meta, Microsoft and OpenAI; Anthropic, Google, Microsoft and OpenAI are founding members and Amazon and Meta joined 20 May 2024. Industry non-profit, no lobbying (co, pow 1, active); link resolves.",
+    "missing": null,
+    "hash": "b4243e957c08"
+  },
+  "edge:fmf|meta-faif": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0076",
+      "S-0077",
+      "S-0078"
+    ],
+    "proposals": [],
+    "note": "Members are Amazon, Anthropic, Google, Meta, Microsoft and OpenAI; Anthropic, Google, Microsoft and OpenAI are founding members and Amazon and Meta joined 20 May 2024. Industry non-profit, no lobbying (co, pow 1, active); link resolves.",
+    "missing": null,
+    "hash": "a75d5174a824"
+  },
+  "entry:fmf:cov": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0082",
+      "S-0081",
+      "S-0076",
+      "S-0078"
+    ],
+    "proposals": [],
+    "note": "Evaluation best-practice outputs (Early Best Practices for Frontier AI Safety Evaluations, Third-Party Assessments) and AI Safety Fund grants (11 grantees, >$5M, Dec 2025) support the eval note; members list matches. acct rests on the information-sharing agreement (checked under fmf context).",
+    "missing": null,
+    "hash": "cd02e5419308"
+  },
+  "entry:fmf:cov:eval": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0082",
+      "S-0081",
+      "S-0076",
+      "S-0078"
+    ],
+    "proposals": [],
+    "note": "Evaluation best-practice outputs (Early Best Practices for Frontier AI Safety Evaluations, Third-Party Assessments) and AI Safety Fund grants (11 grantees, >$5M, Dec 2025) support the eval note; members list matches. acct rests on the information-sharing agreement (checked under fmf context).",
+    "missing": null,
+    "hash": "de3b3c821635"
+  },
+  "entry:fmf:context": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "changed",
+    "scope": "external",
+    "sources": [
+      "S-0079",
+      "S-0080",
+      "S-0078",
+      "S-0081",
+      "S-0321",
+      "S-0082"
+    ],
+    "proposals": [
+      "P-0195"
+    ],
+    "note": "Factual core verified (grants, all members signed the Mar 2025 information-sharing agreement and have shared information, no lobbying). New since the last check: Jailbreak Rating Framework v1.0 (5 Nov 2026); drafted as a question with options. Critics' views and 'substantive contribution' sentence are analytic and unverified.",
+    "missing": null,
+    "hash": "c0e19a1a61cb"
+  },
+  "entry:pai": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0084",
+      "S-0083"
+    ],
+    "proposals": [],
+    "note": "Non-profit partnership of academic, civil society, industry and media organisations; works through guidance and recommendations, not binding commitments (co, pow 1, active). Founded 2016. Link resolves.",
+    "missing": null,
+    "hash": "42cb28c070ac"
+  },
+  "entry:pai:cov": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0084",
+      "S-0083"
+    ],
+    "proposals": [],
+    "note": "Non-profit partnership of academic, civil society, industry and media organisations; works through guidance and recommendations, not binding commitments (co, pow 1, active). Founded 2016. Link resolves.",
+    "missing": null,
+    "hash": "f2c1e9b2c10d"
+  },
+  "entry:pai:cov:acct": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0084",
+      "S-0083"
+    ],
+    "proposals": [],
+    "note": "Non-profit partnership of academic, civil society, industry and media organisations; works through guidance and recommendations, not binding commitments (co, pow 1, active). Founded 2016. Link resolves.",
+    "missing": null,
+    "hash": "4cbf370a9f2d"
+  },
+  "entry:pai:context": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0084",
+      "S-0083",
+      "S-0380",
+      "S-0086",
+      "S-0361"
+    ],
+    "proposals": [],
+    "note": "Facts verified: mixed membership; Synthetic Media Framework; newsroom AI adoption guide (Nov 2023); labour/workforce programmes; 2023 Guidance for Safe Foundation Model Deployment; Apr 2026 report tracking 13 organisations. 'Most influential as a multistakeholder venue…' is analytic.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "1e021166c52f"
+  },
+  "entry:hiroshima:cov": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0074"
+    ],
+    "proposals": [],
+    "note": "Code of Conduct has 11 actions: risk identification/evaluation (1), post-deployment misuse (2), transparency reports (3), incident information sharing (4), security incl. model weights, servers, datasets (6), content authentication (7), data input protections (11); preamble on democratic values and misuse; documents to be reviewed and updated. Supports the set and the sec/mit notes.",
+    "missing": null,
+    "hash": "92e5414cba35"
+  },
+  "entry:hiroshima:cov:sec": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0074"
+    ],
+    "proposals": [],
+    "note": "Code of Conduct has 11 actions: risk identification/evaluation (1), post-deployment misuse (2), transparency reports (3), incident information sharing (4), security incl. model weights, servers, datasets (6), content authentication (7), data input protections (11); preamble on democratic values and misuse; documents to be reviewed and updated. Supports the set and the sec/mit notes.",
+    "missing": null,
+    "hash": "6b52a1cc4cc7"
+  },
+  "entry:hiroshima:cov:mit": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0074"
+    ],
+    "proposals": [],
+    "note": "Code of Conduct has 11 actions: risk identification/evaluation (1), post-deployment misuse (2), transparency reports (3), incident information sharing (4), security incl. model weights, servers, datasets (6), content authentication (7), data input protections (11); preamble on democratic values and misuse; documents to be reviewed and updated. Supports the set and the sec/mit notes.",
+    "missing": null,
+    "hash": "59aabe46c5de"
+  },
+  "entry:hiroshima:context": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0074",
+      "S-0071"
+    ],
+    "proposals": [],
+    "note": "Facts verified: Code topics (actions 1-4, 6, 7); reports invited annually and contribute to monitoring the Code; v2.0 launched 28 May 2026 at a Tech7 event on the margins of the G7 Digital and Tech Ministerial, SME focus; 50+ organisations pledged; v2.0 reports from 31 companies published 2 Oct 2026. The Seoul/GPAI Code comparisons and 'uniquely structured' are analytic.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "3f95f5d2f102"
+  },
+  "entry:hiroshima:cov:eval": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0074",
+      "S-0071"
+    ],
+    "proposals": [],
+    "note": "Facts verified: Code topics (actions 1-4, 6, 7); reports invited annually and contribute to monitoring the Code; v2.0 launched 28 May 2026 at a Tech7 event on the margins of the G7 Digital and Tech Ministerial, SME focus; 50+ organisations pledged; v2.0 reports from 31 companies published 2 Oct 2026. The Seoul/GPAI Code comparisons and 'uniquely structured' are analytic.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "08916179ab8f"
+  },
+  "entry:hiroshima:cov:acct": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0072",
+      "S-0074",
+      "S-0071"
+    ],
+    "proposals": [],
+    "note": "Facts verified: Code topics (actions 1-4, 6, 7); reports invited annually and contribute to monitoring the Code; v2.0 launched 28 May 2026 at a Tech7 event on the margins of the G7 Digital and Tech Ministerial, SME focus; 50+ organisations pledged; v2.0 reports from 31 companies published 2 Oct 2026. The Seoul/GPAI Code comparisons and 'uniquely structured' are analytic.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "e4477f8b3df0"
+  },
+  "entry:gpai-cop:cov:eval": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Measure 3.2 requires at least state-of-the-art model evaluations as specified in Appendix 3; Objective A ties the Code to demonstrating compliance with Arts. 53 and 55.",
+    "missing": null,
+    "hash": "70805d672dd8"
+  },
+  "entry:gpai-cop:cov:elicit": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "unresolved",
+    "scope": "external",
+    "sources": [
+      "S-0044"
+    ],
+    "proposals": [],
+    "note": "Facts verified: state-of-the-art elicitation minimising under-elicitation and sandbagging (Appendix 3.2), red-teaming among evaluation methods (Measure 3.2), independent external evaluations unless two exceptions apply (Appendix 3.5). 'Among the strongest…' is a comparison.",
+    "missing": "comparative/analytic claim; not verifiable from sources",
+    "hash": "6005596bffc7"
+  },
+  "edge:gpai-cop|eu-aio": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0088",
+      "S-0092",
+      "S-0089"
+    ],
+    "proposals": [],
+    "note": "AI Office facilitated the drawing-up, chairs the Signatory Taskforce and reviews the Code at least every two years.",
+    "missing": null,
+    "hash": "27a7640ff2de"
+  },
+  "entry:eu-genai-code": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0060",
+      "S-0041",
+      "S-0003"
+    ],
+    "proposals": [],
+    "note": "Final code published 10 Jun 2026; Commission found it adequate 8 Jul, AI Board 9 Jul 2026, covering Art. 50(2), (4), (5). Section 1 examples include Anthropic, Google, Meta, Microsoft, OpenAI; Meta absent from the GPAI Code signatories (page updated 7 Oct 2026). Signed metadata, imperceptible watermarks, free detection tools; deployer labelling of deepfakes and public-interest text; drafted by independent experts facilitated by the AI Office; adherence not conclusive; others show adequacy to market-surveillance authorities. Art. 50 applies 2 Aug 2026; Omnibus sets 2 Dec 2026 for systems already on the market.",
+    "missing": null,
+    "hash": "5ca25dcc8f1e"
+  },
+  "entry:eu-genai-code:desc": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0060",
+      "S-0041",
+      "S-0003"
+    ],
+    "proposals": [],
+    "note": "Final code published 10 Jun 2026; Commission found it adequate 8 Jul, AI Board 9 Jul 2026, covering Art. 50(2), (4), (5). Section 1 examples include Anthropic, Google, Meta, Microsoft, OpenAI; Meta absent from the GPAI Code signatories (page updated 7 Oct 2026). Signed metadata, imperceptible watermarks, free detection tools; deployer labelling of deepfakes and public-interest text; drafted by independent experts facilitated by the AI Office; adherence not conclusive; others show adequacy to market-surveillance authorities. Art. 50 applies 2 Aug 2026; Omnibus sets 2 Dec 2026 for systems already on the market.",
+    "missing": null,
+    "hash": "db72960bb36a"
+  },
+  "entry:eu-genai-code:context": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0060",
+      "S-0041",
+      "S-0003"
+    ],
+    "proposals": [],
+    "note": "Final code published 10 Jun 2026; Commission found it adequate 8 Jul, AI Board 9 Jul 2026, covering Art. 50(2), (4), (5). Section 1 examples include Anthropic, Google, Meta, Microsoft, OpenAI; Meta absent from the GPAI Code signatories (page updated 7 Oct 2026). Signed metadata, imperceptible watermarks, free detection tools; deployer labelling of deepfakes and public-interest text; drafted by independent experts facilitated by the AI Office; adherence not conclusive; others show adequacy to market-surveillance authorities. Art. 50 applies 2 Aug 2026; Omnibus sets 2 Dec 2026 for systems already on the market.",
+    "missing": null,
+    "hash": "f9970666d2cd"
+  },
+  "entry:eu-genai-code:cov": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0060",
+      "S-0041",
+      "S-0003"
+    ],
+    "proposals": [],
+    "note": "Final code published 10 Jun 2026; Commission found it adequate 8 Jul, AI Board 9 Jul 2026, covering Art. 50(2), (4), (5). Section 1 examples include Anthropic, Google, Meta, Microsoft, OpenAI; Meta absent from the GPAI Code signatories (page updated 7 Oct 2026). Signed metadata, imperceptible watermarks, free detection tools; deployer labelling of deepfakes and public-interest text; drafted by independent experts facilitated by the AI Office; adherence not conclusive; others show adequacy to market-surveillance authorities. Art. 50 applies 2 Aug 2026; Omnibus sets 2 Dec 2026 for systems already on the market.",
+    "missing": null,
+    "hash": "0c2f7bd0c8b7"
+  },
+  "entry:eu-genai-code:cov:timing": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0060",
+      "S-0041",
+      "S-0003"
+    ],
+    "proposals": [],
+    "note": "Final code published 10 Jun 2026; Commission found it adequate 8 Jul, AI Board 9 Jul 2026, covering Art. 50(2), (4), (5). Section 1 examples include Anthropic, Google, Meta, Microsoft, OpenAI; Meta absent from the GPAI Code signatories (page updated 7 Oct 2026). Signed metadata, imperceptible watermarks, free detection tools; deployer labelling of deepfakes and public-interest text; drafted by independent experts facilitated by the AI Office; adherence not conclusive; others show adequacy to market-surveillance authorities. Art. 50 applies 2 Aug 2026; Omnibus sets 2 Dec 2026 for systems already on the market.",
+    "missing": null,
+    "hash": "df744d85d986"
+  },
+  "entry:eu-genai-code:cov:mit": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0060",
+      "S-0041",
+      "S-0003"
+    ],
+    "proposals": [],
+    "note": "Final code published 10 Jun 2026; Commission found it adequate 8 Jul, AI Board 9 Jul 2026, covering Art. 50(2), (4), (5). Section 1 examples include Anthropic, Google, Meta, Microsoft, OpenAI; Meta absent from the GPAI Code signatories (page updated 7 Oct 2026). Signed metadata, imperceptible watermarks, free detection tools; deployer labelling of deepfakes and public-interest text; drafted by independent experts facilitated by the AI Office; adherence not conclusive; others show adequacy to market-surveillance authorities. Art. 50 applies 2 Aug 2026; Omnibus sets 2 Dec 2026 for systems already on the market.",
+    "missing": null,
+    "hash": "1afe7d1a3b9f"
+  },
+  "entry:eu-genai-code:cov:acct": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0060",
+      "S-0041",
+      "S-0003"
+    ],
+    "proposals": [],
+    "note": "Final code published 10 Jun 2026; Commission found it adequate 8 Jul, AI Board 9 Jul 2026, covering Art. 50(2), (4), (5). Section 1 examples include Anthropic, Google, Meta, Microsoft, OpenAI; Meta absent from the GPAI Code signatories (page updated 7 Oct 2026). Signed metadata, imperceptible watermarks, free detection tools; deployer labelling of deepfakes and public-interest text; drafted by independent experts facilitated by the AI Office; adherence not conclusive; others show adequacy to market-surveillance authorities. Art. 50 applies 2 Aug 2026; Omnibus sets 2 Dec 2026 for systems already on the market.",
+    "missing": null,
+    "hash": "d4aff89423e4"
+  },
+  "edge:eu-genai-code|eu-aia": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "external",
+    "sources": [
+      "S-0045",
+      "S-0046",
+      "S-0058",
+      "S-0060",
+      "S-0041",
+      "S-0003"
+    ],
+    "proposals": [],
+    "note": "Final code published 10 Jun 2026; Commission found it adequate 8 Jul, AI Board 9 Jul 2026, covering Art. 50(2), (4), (5). Section 1 examples include Anthropic, Google, Meta, Microsoft, OpenAI; Meta absent from the GPAI Code signatories (page updated 7 Oct 2026). Signed metadata, imperceptible watermarks, free detection tools; deployer labelling of deepfakes and public-interest text; drafted by independent experts facilitated by the AI Office; adherence not conclusive; others show adequacy to market-surveillance authorities. Art. 50 applies 2 Aug 2026; Omnibus sets 2 Dec 2026 for systems already on the market.",
+    "missing": null,
+    "hash": "36fda179ae06"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "next": 195,
+  "next": 197,
   "proposals": [
     {
       "id": "P-0001",
@@ -21134,6 +21134,431 @@
           "P-0175"
         ],
         "updated": "2026-11-09"
+      }
+    },
+    {
+      "id": "P-0195",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-16T05:02:05Z",
+          "run": "2026-11-16-weekly",
+          "author": "claude",
+          "title": "FMF: mention the Jailbreak Rating Framework v1.0 (5 Nov 2026) in the context?",
+          "kind": "flag",
+          "changes": [],
+          "why": "It is the FMF's first published 'specification', a shared cross-member method for rating safeguard bypasses, and the clearest current example of the methodology coordination the entry describes.",
+          "rationale": "The FMF publications page lists the framework as its first Specification (5 Nov 2026); the framework says it draws on security experts across FMF members and offers a structured rating method across four categories. It is preliminary and expressly not operational guidance, and it creates no obligation, so it belongs in context, not as a separate entry or a coverage claim. Recommend (b): one sentence, worded as a released preliminary method, keeps the entry current without implying commitments. (a) is reasonable if the maintainer prefers to wait for the version revised after the public comment period that closes 21 Dec 2026.",
+          "evidence": [
+            {
+              "source": "S-0321",
+              "passage": "S-0321#2",
+              "stance": "supports",
+              "supports": "Released 5 Nov 2026"
+            },
+            {
+              "source": "S-0321",
+              "passage": "S-0321#3",
+              "stance": "supports",
+              "supports": "Version 1.0, open for feedback"
+            },
+            {
+              "source": "S-0321",
+              "passage": "S-0321#4",
+              "stance": "supports",
+              "supports": "Drawn up with member firms' security experts; rating method"
+            },
+            {
+              "source": "S-0321",
+              "passage": "S-0321#5",
+              "stance": "supports",
+              "supports": "Preliminary; not operational guidance"
+            },
+            {
+              "source": "S-0321",
+              "passage": "S-0321#6",
+              "stance": "supports",
+              "supports": "Rates successful jailbreaks across four categories"
+            },
+            {
+              "source": "S-0082",
+              "passage": "S-0082#14",
+              "stance": "supports",
+              "supports": "Listed as an FMF Specification"
+            },
+            {
+              "source": "S-0360",
+              "passage": "S-0360#3",
+              "stance": "supports",
+              "supports": "Public comment to 21 Dec 2026"
+            }
+          ],
+          "uncertainty": "Version 1.0 may be revised after comments; the sentence names v1.0 so it stays accurate.",
+          "confidence": "medium",
+          "question": "The FMF released v1.0 of its Jailbreak Rating Framework for Frontier Cyber Threats on 5 Nov 2026. Mention it in the fmf context now, or wait for the revised version after the public comment period?",
+          "knock_on_notes": {
+            "entry:fmf:cov:eval": "checked, still accurate",
+            "entry:fmf:desc": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "Some critics argue it is too closely held by its member labs; others that its remit is too narrow to drive policy change. The substantive contribution is in the research outputs, not the political coordination."
+          ],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Keep as is until a post-consultation version",
+              "changes": []
+            },
+            {
+              "key": "b",
+              "label": "Add one sentence on the framework to fmf context",
+              "changes": [
+                {
+                  "op": "set_field",
+                  "entity": "fmf",
+                  "field": "context",
+                  "from": "Funds safety research grants, coordinates evaluation methodology between member labs, and convenes shared technical forums. Since Mar 2025 all members have signed a voluntary agreement to share information on frontier-AI vulnerabilities, threats and capabilities of concern; beyond that it imposes no obligations and does not lobby. Some critics argue it is too closely held by its member labs; others that its remit is too narrow to drive policy change. The substantive contribution is in the research outputs, not the political coordination.",
+                  "to": "Funds safety research grants, coordinates evaluation methodology between member labs, and convenes shared technical forums. Since Mar 2025 all members have signed a voluntary agreement to share information on frontier-AI vulnerabilities, threats and capabilities of concern; beyond that it imposes no obligations and does not lobby. In Nov 2026 it released v1.0 of a Jailbreak Rating Framework for Frontier Cyber Threats, a preliminary method, drawn up with member firms' security experts, for rating how serious a successful cyber jailbreak is. Some critics argue it is too closely held by its member labs; others that its remit is too narrow to drive policy change. The substantive contribution is in the research outputs, not the political coordination."
+                }
+              ]
+            }
+          ],
+          "recommended": "b",
+          "knock_on": [
+            "entry:pai:context",
+            "entry:pai:cov:mit",
+            "edge:fmf|rsp",
+            "edge:fmf|prep",
+            "edge:fmf|fsf",
+            "edge:fmf|meta-faif",
+            "gap:acct"
+          ],
+          "hash": "b6a1331107fc"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-16"
+      }
+    },
+    {
+      "id": "P-0196",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-16T05:02:05Z",
+          "run": "2026-11-16-weekly",
+          "author": "claude",
+          "title": "New entry? Paris Declaration on AI Safety and Security (9 Nov 2026): governments and frontier developers commit to shared evaluation, fail-safe shutdown and incident early warning",
+          "kind": "flag",
+          "changes": [],
+          "why": "Anthropic, OpenAI, Microsoft and Mistral AI, with governments including France, Canada (and, per the Dutch copy, the UK and Japan), signed frontier-specific commitments on 9 Nov 2026, including a fail-safe shutdown commitment, which is rare on the map (gap:halt).",
+          "rationale": "Meets RUBRIC §1: an identifiable signed text published by two signatory governments, material (frontier-model evaluation, shutdown, incident reporting) and attributable (named governments and developers). Recommend (a): the commitments that bind frontier developers mirror the Seoul and Delhi commitments, which sit in Layer 5 as mu/pow 1; voluntary with no enforcement, so pow 1. (b) fits if the maintainer reads it mainly as an intergovernmental declaration, since governments also sign and make their own commitments. The desc names only signatories that appear in both government copies.",
+          "evidence": [
+            {
+              "source": "S-0382",
+              "passage": "S-0382#1",
+              "stance": "supports",
+              "supports": "Signed 9 Nov 2026; government signatories incl. France and Canada"
+            },
+            {
+              "source": "S-0382",
+              "passage": "S-0382#2",
+              "stance": "supports",
+              "supports": "Company signatories incl. Anthropic, OpenAI, Microsoft, Mistral AI; no Google, Meta or xAI"
+            },
+            {
+              "source": "S-0383",
+              "passage": "S-0383#1",
+              "stance": "supports",
+              "supports": "Canada's copy: same core signatories (plus Sakana AI; fewer governments)"
+            },
+            {
+              "source": "S-0383",
+              "passage": "S-0383#2",
+              "stance": "supports",
+              "supports": "Open to new endorsements"
+            },
+            {
+              "source": "S-0382",
+              "passage": "S-0382#3",
+              "stance": "supports",
+              "supports": "Common evaluation and risk-management framework"
+            },
+            {
+              "source": "S-0382",
+              "passage": "S-0382#4",
+              "stance": "supports",
+              "supports": "Publish non-sensitive evaluation findings, shared repository"
+            },
+            {
+              "source": "S-0382",
+              "passage": "S-0382#5",
+              "stance": "supports",
+              "supports": "Fail-safe shutdown commitment"
+            },
+            {
+              "source": "S-0382",
+              "passage": "S-0382#6",
+              "stance": "supports",
+              "supports": "Disclosure and independent evaluation"
+            },
+            {
+              "source": "S-0382",
+              "passage": "S-0382#7",
+              "stance": "supports",
+              "supports": "Information sharing and early warning"
+            },
+            {
+              "source": "S-0382",
+              "passage": "S-0382#8",
+              "stance": "supports",
+              "supports": "Builds on Hiroshima and Seoul"
+            },
+            {
+              "source": "S-0382",
+              "passage": "S-0382#9",
+              "stance": "supports",
+              "supports": "NAAIMES named"
+            },
+            {
+              "source": "S-0382",
+              "passage": "S-0382#10",
+              "stance": "supports",
+              "supports": "Whistleblower channels"
+            }
+          ],
+          "uncertainty": "The two official copies differ on the signatory list: Canada's (9 Nov) lists six governments and ten companies (incl. Sakana AI); the Dutch copy (10 Nov) lists nine governments (adding Japan, Sierra Leone and the UK) and nine companies (without Sakana AI). The Élysée text was not retrieved. The list is still being updated, so no count is given. It is not an AI Summit series outcome.",
+          "confidence": "medium",
+          "question": "Add the Paris Declaration on AI Safety and Security (9 Nov 2026) as a new entry, and in which layer?",
+          "knock_on_notes": {
+            "gap:halt": "not edited; a later edit could cite the fail-safe commitment",
+            "entry:seoul-commit:context": "checked, still accurate"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Add as Layer 5 cross-firm commitment (beside Seoul and Delhi)",
+              "changes": [
+                {
+                  "op": "add_entity",
+                  "after": "delhi-commit",
+                  "entity": {
+                    "id": "paris-decl",
+                    "name": "Paris AI safety declaration",
+                    "layer": 5,
+                    "jur": "mu",
+                    "pow": 1,
+                    "status": "active",
+                    "link": "https://www.government.nl/documents/2026/11/10/paris-declaration-on-ai-safety-and-security",
+                    "desc": "Paris Declaration on AI Safety and Security (9 Nov 2026), signed by governments including France and Canada and by frontier developers including Anthropic, OpenAI, Microsoft and Mistral AI; open to further endorsements.",
+                    "context": "Joint government–industry declaration that builds on the Hiroshima process and the Seoul commitments. Signatories commit to a common framework for evaluating and managing frontier-model risks, to publishing non-sensitive evaluation findings in a standardised format and shared repository, and to information sharing and early-warning systems for serious incidents; developers commit to fail-safe mechanisms to shut down model operations within their control. Voluntary, with no enforcement; Google, Meta and xAI are not among the published signatories.",
+                    "cov": {
+                      "eval": "Signatories commit to a common framework for the evaluation and risk management of frontier models, building on existing frameworks and networks such as NAAIMES, and to publish non-sensitive evaluation findings in a standardised format. Developers commit, where appropriate and proportionate, to support evaluation by qualified independent evaluators. Voluntary.",
+                      "halt": "Developers commit to implement fail-safe mechanisms to shut down model operations within their control, including during training and internal use (restrictions, pauses or shutdowns). Covers only systems the developer controls; voluntary.",
+                      "acct": "Developers commit to disclose model capabilities, limitations and known risks and to a governance structure with independent oversight; signatories commit to incident reporting and early-warning systems, and governments to whistleblower channels. No enforcement."
+                    }
+                  }
+                },
+                {
+                  "op": "add_edge",
+                  "a": "paris-decl",
+                  "b": "seoul-commit",
+                  "rel": "Paris declaration builds on the Seoul Frontier Safety Commitments"
+                },
+                {
+                  "op": "add_edge",
+                  "a": "paris-decl",
+                  "b": "hiroshima",
+                  "rel": "Paris declaration builds on the Hiroshima process"
+                },
+                {
+                  "op": "add_edge",
+                  "a": "paris-decl",
+                  "b": "aisi-net",
+                  "rel": "Paris declaration names NAAIMES as a route to comparable evaluations"
+                },
+                {
+                  "op": "add_edge",
+                  "a": "paris-decl",
+                  "b": "rsp",
+                  "rel": "Anthropic signed the Paris declaration (Nov 2026)"
+                },
+                {
+                  "op": "add_edge",
+                  "a": "paris-decl",
+                  "b": "prep",
+                  "rel": "OpenAI signed the Paris declaration (Nov 2026)"
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Add as Layer 1 multilateral declaration (beside the summit series)",
+              "changes": [
+                {
+                  "op": "add_entity",
+                  "after": "ai-summits",
+                  "entity": {
+                    "id": "paris-decl",
+                    "name": "Paris AI safety declaration",
+                    "layer": 1,
+                    "jur": "mu",
+                    "pow": 1,
+                    "status": "active",
+                    "link": "https://www.government.nl/documents/2026/11/10/paris-declaration-on-ai-safety-and-security",
+                    "desc": "Paris Declaration on AI Safety and Security (9 Nov 2026), signed by governments including France and Canada and by frontier developers including Anthropic, OpenAI, Microsoft and Mistral AI; open to further endorsements.",
+                    "context": "Joint government–industry declaration that builds on the Hiroshima process and the Seoul commitments. Signatories commit to a common framework for evaluating and managing frontier-model risks, to publishing non-sensitive evaluation findings in a standardised format and shared repository, and to information sharing and early-warning systems for serious incidents; developers commit to fail-safe mechanisms to shut down model operations within their control. Voluntary, with no enforcement; Google, Meta and xAI are not among the published signatories.",
+                    "cov": {
+                      "eval": "Signatories commit to a common framework for the evaluation and risk management of frontier models, building on existing frameworks and networks such as NAAIMES, and to publish non-sensitive evaluation findings in a standardised format. Developers commit, where appropriate and proportionate, to support evaluation by qualified independent evaluators. Voluntary.",
+                      "halt": "Developers commit to implement fail-safe mechanisms to shut down model operations within their control, including during training and internal use (restrictions, pauses or shutdowns). Covers only systems the developer controls; voluntary.",
+                      "acct": "Developers commit to disclose model capabilities, limitations and known risks and to a governance structure with independent oversight; signatories commit to incident reporting and early-warning systems, and governments to whistleblower channels. No enforcement."
+                    }
+                  }
+                },
+                {
+                  "op": "add_edge",
+                  "a": "paris-decl",
+                  "b": "seoul-commit",
+                  "rel": "Paris declaration builds on the Seoul Frontier Safety Commitments"
+                },
+                {
+                  "op": "add_edge",
+                  "a": "paris-decl",
+                  "b": "hiroshima",
+                  "rel": "Paris declaration builds on the Hiroshima process"
+                },
+                {
+                  "op": "add_edge",
+                  "a": "paris-decl",
+                  "b": "aisi-net",
+                  "rel": "Paris declaration names NAAIMES as a route to comparable evaluations"
+                },
+                {
+                  "op": "add_edge",
+                  "a": "paris-decl",
+                  "b": "rsp",
+                  "rel": "Anthropic signed the Paris declaration (Nov 2026)"
+                },
+                {
+                  "op": "add_edge",
+                  "a": "paris-decl",
+                  "b": "prep",
+                  "rel": "OpenAI signed the Paris declaration (Nov 2026)"
+                }
+              ]
+            },
+            {
+              "key": "c",
+              "label": "Do not add; log only",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "entry:ai-summits:desc",
+            "entry:ai-summits:context",
+            "entry:ai-summits:cov:thresh",
+            "entry:ai-summits:cov:update",
+            "entry:hiroshima:context",
+            "entry:hiroshima:cov:eval",
+            "entry:delhi-commit:context",
+            "entry:delhi-commit:cov:acct",
+            "edge:ai-summits|seoul-commit",
+            "edge:seoul-commit|rsp",
+            "edge:seoul-commit|prep",
+            "edge:seoul-commit|fsf",
+            "edge:seoul-commit|meta-faif",
+            "edge:seoul-commit|xai-rmf",
+            "gap:halt",
+            "entry:jp-ai:context",
+            "entry:jp-sectors:context",
+            "edge:oecd|hiroshima",
+            "edge:hiroshima|jp-ai",
+            "edge:imda|hiroshima",
+            "edge:jp-sectors|hiroshima",
+            "gap:sec",
+            "entry:aisr:cov:eval",
+            "entry:pai:context",
+            "entry:pai:cov:mit",
+            "entry:eu-aio:context",
+            "entry:other-aisis:context",
+            "entry:other-aisis:cov:elicit",
+            "entry:other-aisis:cov:timing",
+            "edge:aisr|aisi-net",
+            "edge:aisi-net|uk-aisi",
+            "edge:aisi-net|caisi",
+            "edge:aisi-net|eu-aio",
+            "edge:aisi-net|other-aisis",
+            "edge:aisi-net|ai-summits",
+            "text:layer-1:tooltip",
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:eu-genai-code:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:prep:cov:thresh",
+            "entry:fsf:context",
+            "entry:fsf:cov:thresh",
+            "entry:fsf:cov:acct",
+            "entry:meta-faif:cov:thresh",
+            "entry:meta-faif:cov:sec",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "edge:ca-sb53|rsp",
+            "edge:gpai-cop|rsp",
+            "edge:fmf|rsp",
+            "edge:metr|rsp",
+            "edge:apollo|rsp",
+            "edge:uk-aisi|rsp",
+            "edge:ny-raise|rsp",
+            "gap:mit",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety",
+            "entry:un-ai:context",
+            "entry:averi:context",
+            "edge:ca-sb53|prep",
+            "edge:gpai-cop|prep",
+            "edge:fmf|prep",
+            "edge:metr|prep",
+            "edge:uk-aisi|prep"
+          ],
+          "hash": "df992b9c6d11"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-16"
       }
     }
   ]
