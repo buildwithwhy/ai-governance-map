@@ -97,14 +97,6 @@
       },
       "fetches": [
         {
-          "date": "2026-10-08",
-          "at": "2026-10-08T17:01:01Z",
-          "run": "2026-10-08-trial1",
-          "via": "curl",
-          "status": "blocked",
-          "error": "curl: (56) CONNECT tunnel failed, response 403"
-        },
-        {
           "date": "2026-10-10",
           "at": "2026-10-10T16:29:16Z",
           "run": "2026-10-10-trial1b",
@@ -144,6 +136,16 @@
           "status": "ok",
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "0064f5d2ee3566e8",
+          "bytes": 1552656
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:28Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "91dacd59ab496949",
           "bytes": 1552656
         }
       ],
@@ -3039,14 +3041,6 @@
       "fetches": [
         {
           "date": "2026-10-10",
-          "at": "2026-10-10T16:45:54Z",
-          "run": "2026-10-10-trial1b",
-          "via": "curl (research subagent, 2026-10-10 ~16:38Z)",
-          "status": "ok",
-          "note": "HTTP 200, 352,971 bytes, sha256 e88469a1b9e4adf5; text read in full by Claude from that saved copy. Later fetches the same day got empty HTTP 202 responses from EUR-Lex."
-        },
-        {
-          "date": "2026-10-10",
           "at": "2026-10-10T18:29:11Z",
           "run": "2026-10-10-baseline",
           "via": "headless Chromium (EUR-Lex returns empty HTTP 202 to curl)",
@@ -3086,6 +3080,16 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "d7b6b67e9e603a00",
           "bytes": 353497
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:28Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "a487850d56484707",
+          "bytes": 365419
         }
       ],
       "passages": [
@@ -4275,6 +4279,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "e2cef807acb9c2b1",
           "bytes": 74095
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "b5de6036f150c5d7",
+          "bytes": 74030
         }
       ],
       "passages": [
@@ -4413,14 +4427,6 @@
       "fetches": [
         {
           "date": "2026-10-10",
-          "at": "2026-10-10T16:49:40Z",
-          "run": "2026-10-10-trial1b",
-          "via": "curl",
-          "status": "error",
-          "error": "curl: (35) Recv failure: Connection reset by peer"
-        },
-        {
-          "date": "2026-10-10",
           "at": "2026-10-10T16:51:27Z",
           "run": "2026-10-10-trial1b",
           "via": "curl (research subagent, 2026-10-10 ~16:44Z)",
@@ -4452,6 +4458,14 @@
           "note": "copy saved by a research subagent",
           "sha256": "c7ae438093170673",
           "bytes": 33561
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "error",
+          "note": "not retrieved on 2026-11-16 (bot challenge, HTTP 5xx/403, or TLS chain)"
         }
       ],
       "passages": [
@@ -8211,6 +8225,16 @@
           "via": "browser",
           "status": "error",
           "note": "not retrieved on 2026-11-09 (bot challenge, HTTP 5xx/403, or TLS chain); see run log"
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "b77382d84d5d9885",
+          "bytes": 315078
         }
       ],
       "passages": [
@@ -8264,6 +8288,14 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "aef715cc663c45b9",
           "bytes": 434649
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "error",
+          "note": "not retrieved on 2026-11-16 (bot challenge, HTTP 5xx/403, or TLS chain)"
         }
       ],
       "passages": [
@@ -8612,6 +8644,14 @@
           "via": "browser",
           "status": "error",
           "note": "not retrieved on 2026-11-09 (bot challenge, HTTP 5xx/403, or TLS chain); see run log"
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "error",
+          "note": "not retrieved on 2026-11-16 (bot challenge, HTTP 5xx/403, or TLS chain)"
         }
       ],
       "passages": [
@@ -9713,6 +9753,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "a2eb199161d65511",
           "bytes": 313823
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "33967e278e089f52",
+          "bytes": 315548
         }
       ],
       "passages": [
@@ -12123,6 +12173,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "a2a8f8795fd50395",
           "bytes": 81611
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "ebcfcd3743cbd087",
+          "bytes": 81612
         }
       ],
       "passages": [
@@ -12309,6 +12369,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "c006e410ec18d478",
           "bytes": 82296
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "58387cb28fd46450",
+          "bytes": 82195
         }
       ],
       "passages": [
@@ -12598,6 +12668,14 @@
           "via": "browser",
           "status": "error",
           "note": "not retrieved on 2026-11-09 (bot challenge, HTTP 5xx/403, or TLS chain); see run log"
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "error",
+          "note": "not retrieved on 2026-11-16 (bot challenge, HTTP 5xx/403, or TLS chain)"
         }
       ],
       "passages": [
@@ -13674,6 +13752,14 @@
           "via": "browser",
           "status": "error",
           "note": "not retrieved on 2026-11-09 (bot challenge, HTTP 5xx/403, or TLS chain); see run log"
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "error",
+          "note": "not retrieved on 2026-11-16 (bot challenge, HTTP 5xx/403, or TLS chain)"
         }
       ],
       "passages": [
@@ -13831,6 +13917,14 @@
           "via": "browser",
           "status": "error",
           "note": "not retrieved on 2026-11-09 (bot challenge, HTTP 5xx/403, or TLS chain); see run log"
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "error",
+          "note": "not retrieved on 2026-11-16 (bot challenge, HTTP 5xx/403, or TLS chain)"
         }
       ],
       "passages": [
@@ -14221,6 +14315,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "7f3b38cf3237d8a9",
           "bytes": 123412
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "5c966e327a40cc44",
+          "bytes": 123412
         }
       ],
       "passages": [
@@ -14477,6 +14581,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "95dbdc59fd34843f",
           "bytes": 131832
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "89fd72204221383a",
+          "bytes": 131832
         }
       ],
       "passages": [
@@ -14531,6 +14645,16 @@
           "status": "ok",
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "27c511504a6b6035",
+          "bytes": 116288
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "12a618f9e7e3c185",
           "bytes": 116288
         }
       ],
@@ -15133,6 +15257,14 @@
           "via": "browser",
           "status": "error",
           "note": "not retrieved on 2026-11-09 (bot challenge, HTTP 5xx/403, or TLS chain); see run log"
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "error",
+          "note": "not retrieved on 2026-11-16 (bot challenge, HTTP 5xx/403, or TLS chain)"
         }
       ],
       "passages": [
@@ -16342,6 +16474,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "e5e0d25ccbf934eb",
           "bytes": 53314
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "3c4d3685ed5cf6c2",
+          "bytes": 53313
         }
       ],
       "passages": [
@@ -16416,6 +16558,16 @@
           "status": "ok",
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "cd44913f6c8dfdb9",
+          "bytes": 1318740
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "3b182a70a8626490",
           "bytes": 1318740
         }
       ],
@@ -22388,6 +22540,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "c174668623d545f1",
           "bytes": 196281
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "7caf49f50063149b",
+          "bytes": 196281
         }
       ],
       "passages": [
@@ -22613,6 +22775,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "389baced6b8775b6",
           "bytes": 436432
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "f13eaa75b44db910",
+          "bytes": 436497
         }
       ],
       "passages": [
@@ -22768,6 +22940,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "5a29de178fa2aa5b",
           "bytes": 309187
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "43cd6c44e79e503d",
+          "bytes": 309173
         }
       ],
       "passages": [
@@ -23321,6 +23503,14 @@
           "via": "browser",
           "status": "error",
           "note": "not retrieved on 2026-11-09 (bot challenge, HTTP 5xx/403, or TLS chain); see run log"
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "error",
+          "note": "not retrieved on 2026-11-16 (bot challenge, HTTP 5xx/403, or TLS chain)"
         }
       ],
       "passages": [
@@ -23864,6 +24054,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "c277cf8699988a9c",
           "bytes": 72232
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "b488f3938908a917",
+          "bytes": 72243
         }
       ],
       "passages": [
@@ -24329,6 +24529,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "ff8d96fd06ece204",
           "bytes": 90416
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "475f22070a6dbeb0",
+          "bytes": 90338
         }
       ],
       "passages": [
@@ -25082,6 +25292,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "a4c29ac5ff44d158",
           "bytes": 32496
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "61f5da3a22b42a5f",
+          "bytes": 32572
         }
       ],
       "passages": [
@@ -25364,6 +25584,16 @@
           "note": "copy saved by a research subagent",
           "sha256": "3f7b939448a49d49",
           "bytes": 148773
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "fd63564a84836f6b",
+          "bytes": 145892
         }
       ],
       "passages": [
@@ -27193,6 +27423,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "1d56d64ebb5fa909",
           "bytes": 308612
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "22993ff35e74e550",
+          "bytes": 308045
         }
       ],
       "passages": [
@@ -27242,6 +27482,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "3c3d184ac98888ad",
           "bytes": 275761
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:29Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "d8fefc208f152f4a",
+          "bytes": 275068
         }
       ],
       "passages": [
@@ -28516,6 +28766,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "3f5505f40a8a885f",
           "bytes": 339449
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "3f5505f40a8a885f",
+          "bytes": 339449
         }
       ],
       "passages": [
@@ -28658,6 +28918,16 @@
           "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-09",
           "sha256": "ca23448ea816e3ec",
           "bytes": 43450
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "ok",
+          "note": "headless Chromium (Playwright) via session proxy, weekly re-fetch 2026-11-16",
+          "sha256": "04641d85c164b874",
+          "bytes": 43602
         }
       ],
       "passages": [
@@ -28873,6 +29143,14 @@
           "via": "browser",
           "status": "error",
           "note": "not retrieved on 2026-11-09 (bot challenge, HTTP 5xx/403, or TLS chain); see run log"
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "error",
+          "note": "not retrieved on 2026-11-16 (bot challenge, HTTP 5xx/403, or TLS chain)"
         }
       ],
       "passages": [
@@ -28922,6 +29200,14 @@
           "via": "browser",
           "status": "error",
           "note": "not retrieved on 2026-11-09 (bot challenge, HTTP 5xx/403, or TLS chain); see run log"
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "error",
+          "note": "not retrieved on 2026-11-16 (bot challenge, HTTP 5xx/403, or TLS chain)"
         }
       ],
       "passages": [
@@ -29565,6 +29851,14 @@
           "note": "copy saved by a research subagent",
           "sha256": "20c44f4865db314f",
           "bytes": 60854
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:05:30Z",
+          "run": "2026-11-16-weekly",
+          "via": "browser",
+          "status": "error",
+          "note": "not retrieved on 2026-11-16 (bot challenge, HTTP 5xx/403, or TLS chain)"
         }
       ],
       "passages": [
