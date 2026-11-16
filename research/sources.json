@@ -641,18 +641,6 @@
       },
       "fetches": [
         {
-          "date": "2026-10-08",
-          "at": "2026-10-08T17:01:02Z",
-          "run": "2026-10-08-trial1",
-          "via": "curl",
-          "status": "ok",
-          "http": 200,
-          "final_url": "https://www.anthropic.com/responsible-scaling-policy",
-          "content_type": "text/html; charset=utf-8",
-          "sha256": "6ee2872c0a4b0ba2",
-          "bytes": 181373
-        },
-        {
           "date": "2026-10-10",
           "at": "2026-10-10T16:29:15Z",
           "run": "2026-10-10-trial1b",
@@ -699,6 +687,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "f2ef6df69a7e918d",
           "bytes": 205174
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:24Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/responsible-scaling-policy",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "fdda8ca721c4180f",
+          "bytes": 204662
         }
       ],
       "passages": [
@@ -853,14 +853,6 @@
       },
       "fetches": [
         {
-          "date": "2026-10-08",
-          "at": "2026-10-08T17:01:20Z",
-          "run": "2026-10-08-trial1",
-          "via": "curl",
-          "status": "blocked",
-          "error": "curl: (56) CONNECT tunnel failed, response 403"
-        },
-        {
           "date": "2026-10-10",
           "at": "2026-10-10T16:29:13Z",
           "run": "2026-10-10-trial1b",
@@ -900,6 +892,18 @@
           "date": "2026-11-09",
           "at": "2026-11-09T04:54:42Z",
           "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf",
+          "content_type": "application/pdf",
+          "sha256": "6247b9e4001fd342",
+          "bytes": 304755
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:25Z",
+          "run": "2026-11-16-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -1198,6 +1202,18 @@
           "date": "2026-11-09",
           "at": "2026-11-09T04:54:44Z",
           "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www-cdn.anthropic.com/e670587677525f28df69b59e5fb4c22cc5461a17.pdf",
+          "content_type": "application/pdf",
+          "sha256": "a71bfa08a7fa4b75",
+          "bytes": 473604
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:27Z",
+          "run": "2026-11-16-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -1848,6 +1864,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "d05a70072ac88ef3",
           "bytes": 146755
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:27Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.anthropic.com/news/compliance-framework-SB53",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "3e72ae57b47ac2c7",
+          "bytes": 146815
         }
       ],
       "passages": [
@@ -2043,6 +2071,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "515fed8a27a1ba2d",
           "bytes": 54929
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:31Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08828&term=2025&Summary=Y&Actions=Y&Text=Y",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "4e977c596a23985f",
+          "bytes": 54927
         }
       ],
       "passages": [
@@ -2345,6 +2385,18 @@
           "final_url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
           "content_type": "text/html; charset=utf-8",
           "sha256": "3253c8d3e3f7f6aa",
+          "bytes": 81551
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:25Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024/frontier-ai-safety-commitments-ai-seoul-summit-2024",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "c50ebe2599ca3851",
           "bytes": 81551
         }
       ],
@@ -4600,6 +4652,18 @@
           "content_type": "text/html; charset=utf-8",
           "sha256": "35c0806e4be763f1",
           "bytes": 123311
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:26Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/news/historic-first-as-companies-spanning-north-america-asia-europe-and-middle-east-agree-safety-commitments-on-development-of-ai",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "1e539414d47916b9",
+          "bytes": 123323
         }
       ],
       "passages": [
@@ -7043,6 +7107,18 @@
           "content_type": "application/pdf",
           "sha256": "fae6e4cc6f7212a0",
           "bytes": 170399
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:33Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf",
+          "content_type": "application/pdf",
+          "sha256": "fae6e4cc6f7212a0",
+          "bytes": 170399
         }
       ],
       "passages": [
@@ -7886,6 +7962,18 @@
           "content_type": "application/pdf",
           "sha256": "ad10d2d240e0d557",
           "bytes": 447155
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:34Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/strengthening-our-frontier-safety-framework/frontier-safety-framework_3-1.pdf",
+          "content_type": "application/pdf",
+          "sha256": "ad10d2d240e0d557",
+          "bytes": 447155
         }
       ],
       "passages": [
@@ -8421,6 +8509,18 @@
           "content_type": "application/pdf",
           "sha256": "d87aa9bf00456ec7",
           "bytes": 668289
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:35Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://ai.meta.com/static-resource/Meta_Advanced-AI-Scaling-Framework-v2/",
+          "content_type": "application/pdf",
+          "sha256": "d87aa9bf00456ec7",
+          "bytes": 668289
         }
       ],
       "passages": [
@@ -8935,6 +9035,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "f9e871da3f0eae29",
           "bytes": 91922
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:32Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.justice.gov/opa/pr/justice-department-intervenes-xai-lawsuit-challenging-colorados-algorithmic-discrimination",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "af00dac5af6a9706",
+          "bytes": 92109
         }
       ],
       "passages": [
@@ -9074,6 +9186,18 @@
           "content_type": "application/pdf",
           "sha256": "7311c9c6bbb16d01",
           "bytes": 17795106
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:28Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://assets.claude.com/fc1b44717c85dc068bc6ba5024219938094694bd.pdf",
+          "content_type": "application/pdf",
+          "sha256": "7311c9c6bbb16d01",
+          "bytes": 17795106
         }
       ],
       "passages": [
@@ -9158,6 +9282,18 @@
           "date": "2026-11-09",
           "at": "2026-11-09T04:54:46Z",
           "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://assets.claude.com/ceaf5c7ff2783855203fde8208ec311252dced5b.pdf",
+          "content_type": "application/pdf",
+          "sha256": "0950dae1ba6b341e",
+          "bytes": 16281258
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:29Z",
+          "run": "2026-11-16-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -10117,6 +10253,18 @@
           "date": "2026-11-09",
           "at": "2026-11-09T04:55:00Z",
           "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "7a4d00fa8d9bd3b2",
+          "bytes": 27997
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:33Z",
+          "run": "2026-11-16-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -19015,6 +19163,18 @@
           "content_type": "application/pdf",
           "sha256": "5a557f9a153f1f40",
           "bytes": 204973
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:32Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2025-12-16/pdf/2025-23092.pdf",
+          "content_type": "application/pdf",
+          "sha256": "5a557f9a153f1f40",
+          "bytes": 204973
         }
       ],
       "passages": [
@@ -21380,6 +21540,18 @@
           "date": "2026-11-09",
           "at": "2026-11-09T04:54:49Z",
           "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.justice.gov/ag/media/1422986/dl",
+          "content_type": "application/pdf",
+          "sha256": "efb3455943cb6c4e",
+          "bytes": 104807
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:32Z",
+          "run": "2026-11-16-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -23924,6 +24096,18 @@
           "date": "2026-11-09",
           "at": "2026-11-09T04:55:02Z",
           "run": "2026-11-09-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://media.x.ai/v1/website/xai-frontier-artificial-intelligence-framework-30-june-2026-f1f0c916.pdf",
+          "content_type": "application/pdf",
+          "sha256": "4be128b1d79757b0",
+          "bytes": 204493
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T04:52:35Z",
+          "run": "2026-11-16-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
