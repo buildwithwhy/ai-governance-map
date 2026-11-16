@@ -371,6 +371,124 @@
           "sources": []
         }
       ]
+    },
+    {
+      "area": "B1 United States (federal), since 2026-11-09",
+      "summary": "No new AI executive order or AI-specific federal rule since 9 Nov (FR API: latest EO 14438 of 28 Oct, none on AI; AI-term documents are sectoral notices). EO 14434 (29 Sep) renamed AI 'Super Intelligence' in executive usage; its §3(b) legislative definition proposal is due about 28 Nov 2026. Still no official text of the White House Accord: whitehouse.gov search ('accord') and the 'Lead the World in SI' priority page list nothing; the WP JSON search API refuses automated clients. No Commerce §4 state-law evaluation or new DOJ Task Force suit found.",
+      "queries": [
+        "\"White House Accord on Super Intelligence\" text",
+        "whitehouse.gov/?s=accord; whitehouse.gov/issues/tech-innovation; whitehouse.gov/news pages 1-2",
+        "FR API: executive orders published since 2026-06-01",
+        "FR API: 'artificial intelligence', 'super intelligence', 'frontier model' since 2026-11-06",
+        "DOJ AI Litigation Task Force lawsuit state AI law November 2026",
+        "Commerce Department evaluation of state AI laws onerous list EO 14365 published"
+      ],
+      "limits": "whitehouse.gov WP JSON API returned 403; Truth Social not attempted; congress.gov refuses automated clients, so federal bills not re-checked.",
+      "candidates": [
+        {
+          "name": "White House Accord on Super Intelligence: official copy",
+          "result": "lead — source inaccessible",
+          "reason": "Still only the American Presidency Project archive; P-0187 unchanged.",
+          "proposal": "P-0187",
+          "sources": []
+        },
+        {
+          "name": "EO 14434 §3(b) proposed federal definition of 'Super Intelligence' (due ~28 Nov 2026)",
+          "result": "screened out",
+          "reason": "Terminology order already on the map (CAISSI relabel); no new mechanism until legislative language appears.",
+          "sources": [
+            "S-0175"
+          ]
+        },
+        {
+          "name": "Commerce §4 evaluation of state AI laws / new Task Force litigation",
+          "result": "screened out",
+          "reason": "Nothing found in official sources or search; only the Apr 2026 Colorado intervention already on the map.",
+          "sources": [
+            "S-0239"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "B1 European Union and United Kingdom, since 2026-11-09",
+      "summary": "No new AI Act instrument found: Commission digital-strategy news (6–12 Nov) has no AI Act item. The Digital Omnibus (Reg. 2026/1744) amendments are already reflected (P-0016, P-0067, P-0191). UK: no government AI bill; Alex Sobel's Artificial Superintelligence Bill (bill 4288) second reading moved to 27 Nov 2026; Dawn Butler's AI (Consent and Misuse) Bill (bill 4310, likeness deepfakes) also listed for 27 Nov.",
+      "queries": [
+        "European Commission AI Act November 2026 guidelines general-purpose AI AI Office announcement",
+        "digital-strategy.ec.europa.eu/en/news (page 1)",
+        "UK frontier AI bill November 2026 DSIT legislation AI Security Institute statutory",
+        "bills-api.parliament.uk: 'artificial intelligence', 'superintelligence'"
+      ],
+      "limits": "Filtered EC news listing returned 403; only the unfiltered first page was read.",
+      "candidates": [
+        {
+          "name": "UK Artificial Superintelligence Bill (bill 4288, Alex Sobel MP), 2R 27 Nov 2026",
+          "result": "screened out",
+          "reason": "Private member's bill already logged on 6 Nov; second reading rescheduled; little prospect.",
+          "sources": []
+        },
+        {
+          "name": "UK AI (Consent and Misuse) Bill (bill 4310, Dawn Butler MP)",
+          "result": "screened out",
+          "reason": "Private member's bill on non-consensual AI likenesses; not frontier/GPAI governance.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "area": "B2 US states (CA, CO, NY, TX; other states' frontier statutes), since 2026-11-09",
+      "summary": "New York: DIGIT opened the RAISE Portal on 10 Nov 2026 (registration by 1 Jan 2027) and the Governor launched the NY Center for AI Responsibility and Research (independent frontier testing; to help DIGIT review safety frameworks), raised as question nycairr. Colorado: AG ADMT/Chatbot rulemaking hearing held 26 Oct; rules not yet adopted (due before 1 Jan 2027). California: no amendment to SB 53's Chapter 25.1 in the Legislative Counsel tables. Texas: no TRAIGA enforcement action found. Massachusetts: frontier review provisions sit in the economic-development bill in conference; not enacted.",
+      "queries": [
+        "New York RAISE Act frontier developer registration DFS November 2026",
+        "dfs.ny.gov press release November 2026 RAISE Portal frontier developers registration open DIGIT",
+        "Colorado attorney general automated decision-making technology rules hearing October 2026",
+        "California SB 53 amendment 2026 or Office of Emergency Services critical safety incident report",
+        "Texas TRAIGA attorney general enforcement action 2026",
+        "state legislature passes frontier AI safety bill November 2026 (Michigan OR Massachusetts OR New Jersey OR Pennsylvania)",
+        "Massachusetts Senate frontier AI catastrophic risk independent review bill 120 days House vote",
+        "\"Mass Wins\" economic development bill conference committee AI safety frontier November 2026"
+      ],
+      "limits": "leginfo.legislature.ca.gov not used (refuses automated clients; Legislative Counsel bulk archive used instead). mass.gov returned 403; Massachusetts conference status from secondary reporting only.",
+      "candidates": [
+        {
+          "name": "NY DIGIT RAISE Portal opened (10 Nov 2026); registration due 1 Jan 2027",
+          "result": "update to existing entry",
+          "reason": "Implementation of ny-raise (outside group R1); the entry already names DIGIT; no change needed before Jan 2027.",
+          "sources": [
+            "S-0399",
+            "S-0398"
+          ]
+        },
+        {
+          "name": "New York Center for AI Responsibility and Research (NYCAIRR), launched 10 Nov 2026",
+          "result": "proposed",
+          "reason": "State-backed independent frontier testing with a prospective DIGIT role; outside monitored scope; question drafted, recommend waiting for a mandate or first evaluation.",
+          "proposal": "P-0200",
+          "sources": [
+            "S-0399"
+          ]
+        },
+        {
+          "name": "Colorado AG ADMT & Chatbot Safety rules (hearing 26 Oct 2026)",
+          "result": "screened out",
+          "reason": "Not yet adopted; revisit when final rules are filed (due before 1 Jan 2027).",
+          "sources": [
+            "S-0164"
+          ]
+        },
+        {
+          "name": "Massachusetts frontier-model independent review provisions (Senate economic development bill, in conference)",
+          "result": "screened out",
+          "reason": "Passed one chamber's version only; SCOPE B2 requires enactment or passage by the legislature.",
+          "sources": []
+        },
+        {
+          "name": "New Mexico Frontier AI Safety and Accountability Act (announced for 2027 session)",
+          "result": "screened out",
+          "reason": "Announced only (search result); no bill text introduced.",
+          "sources": []
+        }
+      ]
     }
   ],
   "usage": null

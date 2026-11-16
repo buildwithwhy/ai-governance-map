@@ -1,5 +1,5 @@
 {
-  "next": 198,
+  "next": 202,
   "proposals": [
     {
       "id": "P-0001",
@@ -21745,6 +21745,441 @@
       "research": {
         "status": "verified",
         "missing": [],
+        "updated": "2026-11-16"
+      }
+    },
+    {
+      "id": "P-0198",
+      "fingerprint": "07990e0a3fc6",
+      "targets": [
+        "text:index.html:b2c93420ce3f",
+        "entry:eu-aio:context"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-16T05:09:48Z",
+          "run": "2026-11-16-weekly",
+          "author": "claude",
+          "title": "EU AI Office FAQ and context: direct Commission enforcement is not unique in EU law (the DSA gives the Commission exclusive powers over very large platforms)",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "directly enforces GPAI obligations — a centralised role unique within EU regulatory architecture. It can",
+              "to": "directly enforces GPAI obligations. It can",
+              "count": 1
+            },
+            {
+              "op": "set_field",
+              "entity": "eu-aio",
+              "field": "context",
+              "from": "Coordinates AI Act implementation across member states, enforces GPAI obligations directly (a centralised role unique within EU regulatory architecture), and runs the Scientific Panel that advises on systemic risk. Can request models from providers, order recalls, and impose fines; since the Omnibus it also has market-surveillance powers over the AI systems it supervises, including on-site inspections, binding commitments and fines (new AI Act Arts 75a–75d). Effectively the EU's frontier-AI regulator; partner of the AISI Network despite being an EU body rather than a national one.",
+              "to": "Coordinates AI Act implementation across member states, enforces GPAI obligations directly, and runs the Scientific Panel that advises on systemic risk. Can request models from providers, order recalls, and impose fines; since the Omnibus it also has market-surveillance powers over the AI systems it supervises, including on-site inspections, binding commitments and fines (new AI Act Arts 75a–75d). Effectively the EU's frontier-AI regulator; partner of the AISI Network despite being an EU body rather than a national one."
+            }
+          ],
+          "why": "The FAQ and the AI Office entry tell readers that centralised enforcement by an EU-level body is unique in EU regulation. The Digital Services Act already gives the Commission exclusive powers to supervise and enforce the systemic-risk obligations of very large online platforms, so the claim is wrong as stated.",
+          "rationale": "AI Act Art. 88(1) gives the Commission exclusive powers over Chapter V, entrusted to the AI Office. DSA Art. 56(2) likewise gives the Commission exclusive powers to supervise and enforce Section 5 of Chapter III (VLOP/VLOSE systemic-risk duties), and Recital 124 explains why. Deleting the parenthetical keeps the factual core (direct enforcement of GPAI obligations) and removes the incorrect comparison; no replacement wording is needed.",
+          "evidence": [
+            {
+              "source": "S-0002",
+              "passage": "S-0002#19",
+              "stance": "supports",
+              "supports": "AI Office's exclusive Chapter V powers (the factual core kept)"
+            },
+            {
+              "source": "S-0395",
+              "passage": "S-0395#1",
+              "stance": "supports",
+              "supports": "Commission already has exclusive supervision and enforcement powers under the DSA"
+            },
+            {
+              "source": "S-0395",
+              "passage": "S-0395#2",
+              "stance": "supports",
+              "supports": "DSA centralises enforcement of VLOP/VLOSE systemic-risk duties in the Commission"
+            },
+            {
+              "source": "S-0184",
+              "passage": "S-0184#7",
+              "stance": "supports",
+              "supports": "Office sits within DG CNECT (FAQ's 'established January 2024 within DG CNECT' stays accurate)"
+            }
+          ],
+          "uncertainty": "'Unique' might have been meant narrowly (unique among AI regulators, or unique as an office inside a DG); no source supports a narrower reading, and the text as written makes the broad claim.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "faq:what-does-the-eu-ai-office-do": "needs change — this proposal",
+            "entry:eu-aio:context": "needs change — same claim, edited here",
+            "edge:eu-aia|eu-aio": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "'runs the Scientific Panel' (the Panel is established by Commission implementing act under Art. 68; the AI Office's operational role was not re-checked)",
+            "eu-aio context sentences after the first (Omnibus powers, 'Effectively the EU's frontier-AI regulator', AISI Network partner) — outside group R1, not re-checked here"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:aisi-net:desc",
+            "entry:eu-aia:cov:timing",
+            "entry:eu-aia:cov:halt",
+            "entry:eu-aia:cov:acct",
+            "entry:gpai-cop:context",
+            "entry:gpai-cop:cov:acct",
+            "entry:gpai-cop:cov:update",
+            "entry:eu-genai-code:context",
+            "entry:us-ftc:context",
+            "edge:aisi-net|eu-aio",
+            "edge:eu-aia|eu-aio",
+            "edge:gpai-cop|eu-aio",
+            "edge:eu-aio|eu-genai-code",
+            "gap:halt",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-does-the-eu-ai-act-require-for-systemic-ris",
+            "faq:what-does-the-eu-ai-office-do",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:layer-4:tooltip",
+            "text:footer-sources"
+          ],
+          "hash": "315b9d3bc01c"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-16"
+      }
+    },
+    {
+      "id": "P-0199",
+      "fingerprint": "279688e43ee7",
+      "targets": [
+        "entry:tx-raiga:cov:mit"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-16T05:09:48Z",
+          "run": "2026-11-16-weekly",
+          "author": "claude",
+          "title": "Texas TRAIGA · Mitigations: drop the comparison with Colorado's algorithmic-discrimination duties, which the reenacted Colorado law no longer contains",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "tx-raiga",
+              "cat": "mit",
+              "from": "Specific deployment prohibitions including social scoring by government, manipulative AI practices, and certain government uses (biometric identification, etc.). Narrower scope than Colorado's algorithmic-discrimination duties — targets specific harms rather than horizontal obligations.",
+              "to": "Specific deployment prohibitions including social scoring by government, manipulative AI practices, and certain government uses (biometric identification, etc.). Targets specific harms rather than imposing horizontal obligations."
+            }
+          ],
+          "why": "The note compares TRAIGA with 'Colorado's algorithmic-discrimination duties', but the map's Colorado entry now describes SB 26-189, which repeals and reenacts Part 17 as an automated decision-making disclosure law with no algorithmic-discrimination duty. Readers following the comparison find nothing matching it on the Colorado entry.",
+          "rationale": "SB 26-189 Sec. 1 repeals and reenacts Part 17; a search of the session law finds no 'algorithmic discrimination' or 'reasonable care' duty. The TRAIGA prohibitions named in the note (social scoring by governmental entities, manipulation of human behavior) are in enrolled H.B. 149 §§552.052–552.053, so the rest of the note stands. Same concern as pending P-0184 (desc), applied to the coverage note.",
+          "evidence": [
+            {
+              "source": "S-0160",
+              "passage": "S-0160#16",
+              "stance": "supports",
+              "supports": "Part 17 repealed and reenacted"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#22",
+              "stance": "supports",
+              "supports": "No algorithmic-discrimination duty in the reenacted law"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#17",
+              "stance": "supports",
+              "supports": "New law takes effect Jan 1, 2027"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#16",
+              "stance": "supports",
+              "supports": "Social scoring prohibition"
+            },
+            {
+              "source": "S-0165",
+              "passage": "S-0165#17",
+              "stance": "supports",
+              "supports": "Manipulation prohibition"
+            }
+          ],
+          "uncertainty": "Until Jan 1, 2027 SB 24-205 remains formally on the books (enforcement barred by court order, see P-0181), so the old comparison is not strictly false today; it is outdated against the law the map describes.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:tx-raiga:desc": "needs change — see P-0184",
+            "entry:co-aia:cov:timing": "needs change — see P-0181",
+            "entry:tx-raiga:cov:acct": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "'certain government uses (biometric identification, etc.)' (§552.054 heading seen; scope not re-read in full)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "faq:which-ai-laws-are-binding-with-penalties"
+          ],
+          "hash": "0862fb09363d"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0184",
+          "P-0181"
+        ],
+        "updated": "2026-11-16"
+      }
+    },
+    {
+      "id": "P-0200",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-16T05:09:48Z",
+          "run": "2026-11-16-weekly",
+          "author": "claude",
+          "title": "New entry? New York Center for AI Responsibility and Research (launched 10 Nov 2026): state-backed independent testing of frontier AI, coordinating with DIGIT (outside monitored scope)",
+          "kind": "flag",
+          "changes": [],
+          "why": "It is the first US state body set up to test frontier AI independently and is tied to RAISE oversight, but so far it exists through a launch announcement whose oversight role is prospective ('will be able to', 'will coordinate').",
+          "rationale": "Recommend (b). RUBRIC §1 asks for a citable text, charter, mandate or policy rather than an announcement; the 10 Nov release describes a mission and leadership, and its DIGIT role is prospective. State institutes are also outside SCOPE B2, which monitors state statutes and implementing rules. Option (a) is drafted from the release alone if the maintainer judges the launch sufficient; pow 2 follows the precedent of advisory institutes (uk-aisi, caisi).",
+          "evidence": [
+            {
+              "source": "S-0399",
+              "passage": "S-0399#1",
+              "stance": "supports",
+              "supports": "Launch, 10 Nov 2026, SUNY Binghamton"
+            },
+            {
+              "source": "S-0399",
+              "passage": "S-0399#2",
+              "stance": "supports",
+              "supports": "Mission: independent testing of frontier AI"
+            },
+            {
+              "source": "S-0399",
+              "passage": "S-0399#3",
+              "stance": "supports",
+              "supports": "Prospective role with DIGIT reviewing safety frameworks"
+            },
+            {
+              "source": "S-0399",
+              "passage": "S-0399#4",
+              "stance": "supports",
+              "supports": "Interim co-directors"
+            },
+            {
+              "source": "S-0399",
+              "passage": "S-0399#6",
+              "stance": "supports",
+              "supports": "Funding"
+            }
+          ],
+          "uncertainty": "No charter, statute or DIGIT agreement was found; the centre's own website (if any) was not located.",
+          "confidence": "medium",
+          "question": "New York launched a state-backed AI safety research centre at SUNY Binghamton that will independently test frontier AI systems and, at the State's request, help DIGIT review RAISE safety frameworks. Add it to Layer 4 now, or wait until it has a mandate text or published evaluations?",
+          "knock_on_notes": {
+            "entry:ny-raise": "checked, still accurate (RAISE portal now open; DIGIT already named on the entry)"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Add as a Layer 4 entry now (uss, pow 2, active) with a connection to NY RAISE",
+              "changes": [
+                {
+                  "op": "add_entity",
+                  "after": "co-doi",
+                  "entity": {
+                    "id": "ny-cairr",
+                    "name": "NY Center for AI Responsibility and Research",
+                    "layer": 4,
+                    "jur": "uss",
+                    "pow": 2,
+                    "status": "active",
+                    "link": "https://www.dfs.ny.gov/node/449846",
+                    "desc": "State-backed AI safety research centre at SUNY Binghamton, launched Nov 10, 2026 by Governor Hochul; interim co-directors Greg Morrisett (Cornell Tech) and Jeannette Wing (Columbia). Funded by a $30M philanthropic gift, $25M from SUNY and state operating capital; uses Empire AI computing.",
+                    "context": "Its mission includes independent testing of frontier AI systems for safety and security. At the State's request it can provide assessments and evidence for oversight of frontier developers, starting with reviewing safety frameworks published under the RAISE Act with DIGIT and recommending stronger requirements. A state-level counterpart to national AI safety institutes; it has no enforcement powers.",
+                    "cov": {
+                      "eval": "Mission includes independent safety and security testing of frontier AI systems and developing evaluation tools, measurements and standards; no evaluations published yet.",
+                      "acct": "Advises the State: coordinates with DIGIT to review developers' published RAISE safety frameworks and recommend ways to strengthen requirements. No enforcement powers."
+                    }
+                  }
+                },
+                {
+                  "op": "add_edge",
+                  "a": "ny-cairr",
+                  "b": "ny-raise",
+                  "rel": "Coordinates with DIGIT to review safety frameworks published under RAISE"
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Not yet: log it and revisit when a mandate text, a DIGIT arrangement or a first evaluation is published",
+              "changes": []
+            }
+          ],
+          "recommended": "b",
+          "knock_on": [
+            "entry:un-ai:cov:update",
+            "entry:eu-aia:cov:thresh",
+            "entry:us-frontier-act:context",
+            "entry:kr-ai:cov:thresh",
+            "entry:ca-sb53:cov:timing",
+            "entry:il-aisma:context",
+            "entry:il-aisma:cov:thresh",
+            "entry:seoul-commit:context",
+            "entry:co-doi:context",
+            "edge:us-preempt|ny-raise",
+            "edge:ny-raise|ca-sb53",
+            "edge:co-doi|ny-raise",
+            "edge:ny-raise|rsp",
+            "edge:il-aisma|ny-raise",
+            "edge:us-frontier-act|ny-raise",
+            "gap:timing",
+            "gap:sec",
+            "gap:acct",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:how-is-california-sb-53-different-from-the-ny-ra",
+            "text:footer-sources",
+            "text:gap-default"
+          ],
+          "hash": "47b951a0b3e3"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-16"
+      }
+    },
+    {
+      "id": "P-0201",
+      "fingerprint": "a725d705dffe",
+      "targets": [
+        "entry:co-aia:desc"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-16T05:09:48Z",
+          "run": "2026-11-16-weekly",
+          "author": "claude",
+          "title": "Colorado ADMT Act: SB 24-205 is repealed and replaced from Jan 1, 2027, not already repealed",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "co-aia",
+              "field": "desc",
+              "from": "SB 24-205 (the original Colorado AI Act) was repealed and replaced by SB 26-189, signed May 14, 2026. The new law is a narrower transparency/consumer-disclosure framework, effective Jan 1, 2027.",
+              "to": "SB 24-205 (the original Colorado AI Act) is repealed and replaced by SB 26-189, signed May 14, 2026, with effect from Jan 1, 2027. The new law is a narrower transparency/consumer-disclosure framework."
+            }
+          ],
+          "why": "\"Was repealed\" reads as though SB 24-205 is already off the books; the repeal and reenactment take effect only on Jan 1, 2027.",
+          "rationale": "SB 26-189 Sec. 1 repeals and reenacts Part 17; Sec. 5(1) says the act takes effect Jan 1, 2027; it was approved May 14, 2026. The edit moves the effective date onto the repeal itself and keeps the rest of the sentence.",
+          "evidence": [
+            {
+              "source": "S-0160",
+              "passage": "S-0160#16",
+              "stance": "supports",
+              "supports": "Repeal and reenactment of Part 17"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#17",
+              "stance": "supports",
+              "supports": "Takes effect Jan 1, 2027"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#19",
+              "stance": "supports",
+              "supports": "Approved May 14, 2026"
+            }
+          ],
+          "uncertainty": "Low. Whether SB 24-205 can be enforced in the meantime is a separate question, covered by P-0181 (court order).",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:co-aia:cov:timing": "see P-0181"
+          },
+          "unverified_carryover": [
+            "narrower transparency/consumer-disclosure framework (comparative; checked as fair in this run)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:tx-raiga:cov:mit",
+            "edge:us-preempt|co-aia",
+            "edge:co-doi|co-aia",
+            "gap:mit",
+            "faq:which-ai-laws-are-binding-with-penalties"
+          ],
+          "hash": "2f76c1be9429"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0181"
+        ],
         "updated": "2026-11-16"
       }
     }

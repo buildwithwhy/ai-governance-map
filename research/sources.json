@@ -1,5 +1,5 @@
 {
-  "next": 395,
+  "next": 402,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -389,6 +389,36 @@
           "locator": "Annex XI, Section 2, point 2",
           "text": "a detailed description of the measures put in place for the purpose of conducting internal and/or external adversarial testing (e.g. red teaming)",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0002#41",
+          "locator": "Art. 51(2)",
+          "text": "A general-purpose AI model shall be presumed to have high impact capabilities pursuant to paragraph 1, point (a), when the cumulative amount of computation used for its training measured in floating point operations is greater than 10",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0002#42",
+          "locator": "Art. 3(47)",
+          "text": "‘AI Office’ means the Commission’s function of contributing to the implementation, monitoring and supervision of AI systems and general-purpose AI models, and AI governance, provided for in Commission Decision of 24 January 2024",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0002#43",
+          "locator": "Art. 27(1)",
+          "text": "deployers that are bodies governed by public law, or are private entities providing public services, and deployers of high-risk AI systems referred to in points 5 (b) and (c) of Annex III, shall perform an assessment of the impact on fundamental rights",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0002#44",
+          "locator": "Art. 49(1)",
+          "text": "Before placing on the market or putting into service a high-risk AI system listed in Annex III, with the exception of high-risk AI systems referred to in point 2 of Annex III, the provider or, where applicable, the authorised representative shall register themselves and their system in the EU",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0002#45",
+          "locator": "Art. 68(1)",
+          "text": "The Commission shall, by means of an implementing act, make provisions on the establishment of a scientific panel of independent experts (the ‘scientific panel’) intended to support the enforcement activities under this Regulation.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -1910,6 +1940,18 @@
           "locator": "Body",
           "text": "Moving forward, the FCF will serve as our compliance framework for SB 53 and other regulatory requirements. The RSP will remain our voluntary safety policy",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0030#3",
+          "locator": "The need for a federal standard",
+          "text": "By formalizing achievable transparency practices that responsible labs already voluntarily follow, the law ensures these commitments can't be abandoned quietly later",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0030#4",
+          "locator": "What's in our Frontier Compliance Framework",
+          "text": "Since 2023, our Responsible Scaling Policy (RSP) has outlined our approach to managing extreme risks from advanced AI systems",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -2357,6 +2399,30 @@
           "locator": "Text, GBL §1420(9)(a) as amended",
           "text": "\"Frontier model\" means a foundation model that was trained using a quantity of computing power greater than",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0033#41",
+          "locator": "GBL §1420(9)(a)",
+          "text": "\"Frontier model\" means a foundation model that was trained using a quantity of computing power greater than [10^26] integer or float- ing-point operations.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0033#42",
+          "locator": "GBL §1420(9)(b)",
+          "text": "shall include computing for the original training run and for any subsequent fine-tuning, reinforcement learning, or other materi- al modifications the developer applies to a preceding foundation model.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0033#43",
+          "locator": "GBL §1420(10)",
+          "text": "\"Large frontier developer\" means a frontier developer that togeth- er with its affiliates collectively had annual gross revenues in excess of five hundred million dollars in the preceding calendar year.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0033#44",
+          "locator": "GBL §1421(3)(a)",
+          "text": "a frontier developer shall report any critical safety incident pertaining to one or more of its frontier models to the office within seventy-two hours",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -2904,6 +2970,18 @@
           "locator": "Sec. 3(b)",
           "text": "design a voluntary framework with AI developers through which developers would be able to: (i) engage the Federal Government to determine whether model(s) under development meet the designation of ‘‘covered frontier model’’;",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0038#17",
+          "locator": "Sec. 3(c)",
+          "text": "Nothing in this section shall be construed to authorize the creation of a mandatory governmental licensing, preclearance, or permitting requirement for the development, publication, release, or distribution of new AI models, including frontier models.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0038#18",
+          "locator": "Sec. 3",
+          "text": "Secure Frontier Model Deployment. Within 60 days of the date of this order",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -3236,6 +3314,18 @@
           "locator": "Art. 1, new Art. 111(4) AI Act",
           "text": "‘4. Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026.’",
           "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0041#23",
+          "locator": "Art. 1(22) amending Art. 113, point (c)",
+          "text": "Chapter III, Sections 1, 2, and 3, with the exception of Article 6(5), shall apply from: … 2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III; and … 2 August 2028 as regards AI systems classified as high-risk pursuant to Article 6(1) and Annex I;",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0041#24",
+          "locator": "Art. 1 amending Art. 111, new para. 4",
+          "text": "Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -3393,6 +3483,18 @@
           "locator": "AI Office's enforcement powers",
           "text": "In the context of AI systems , the AI office can conduct interviews of any person who might have information related to an investigation (and who consents to be interviewed), as well as conduct inspections of providers premises.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0043#10",
+          "locator": "Which authorities are responsible for enforcement?",
+          "text": "The AI Office enforces the rules for: Providers of general-purpose AI (GPAI) models, including the most advanced models which may pose systemic risks",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0043#11",
+          "locator": "AI Act's enforcement timeline",
+          "text": "The enforcement powers of the AI Office and the national competent authorities of the Member States apply from 2 August 2026, when certain provisions of the AI Act become enforceable.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -13732,11 +13834,12 @@
     "S-0150": {
       "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
       "title": "SB-53 Artificial intelligence models: large developers (Chapter 138, Statutes of 2025), chaptered text",
-      "publisher": "California Legislative Information",
+      "publisher": "California Legislative Counsel",
       "type": "primary",
       "dates": {
         "adopted": "2025-09-29",
-        "published": "2025-09-29"
+        "published": "2025-09-29",
+        "effective": "2026-01-01"
       },
       "fetches": [
         {
@@ -13772,6 +13875,16 @@
           "via": "browser",
           "status": "error",
           "note": "not retrieved on 2026-11-16 (bot challenge, HTTP 5xx/403, or TLS chain)"
+        },
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:09:40Z",
+          "run": "2026-11-16-weekly",
+          "via": "Legislative Counsel public bulk download pubinfo_2025.zip (downloads.leginfo.legislature.ca.gov), member BILL_VERSION_TBL_8965.lob read by HTTP range requests; leginfo.legislature.ca.gov refuses automated clients",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "20c44f4865db314f",
+          "bytes": 60854
         }
       ],
       "passages": [
@@ -13894,6 +14007,66 @@
           "locator": "BPC §22757.12(e)(1)(B)",
           "text": "(B) A large frontier developer shall not make a materially false or misleading statement about its implementation of, or compliance with, its frontier AI framework.",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0150#21",
+          "locator": "Version record",
+          "text": "CHAPTERED 2025-09-29 APPROVED 2025-09-29 FILED 2025-09-29",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0150#22",
+          "locator": "BPC §22757.10",
+          "text": "This chapter shall be known as the Transparency in Frontier Artificial Intelligence Act.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0150#23",
+          "locator": "BPC §22757.11(i)",
+          "text": "“Frontier model” means a foundation model that was trained using a quantity of computing power greater than 10^26 integer or floating-point operations.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0150#24",
+          "locator": "BPC §22757.11(i)(2)",
+          "text": "shall include computing for the original training run and for any subsequent fine-tuning, reinforcement learning, or other material modifications the developer applies to a preceding foundation model.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0150#25",
+          "locator": "BPC §22757.12(a)(2)–(3)",
+          "text": "Defining and assessing thresholds used by the large frontier developer to identify and assess whether a frontier model has capabilities that could pose a catastrophic risk, which may include multiple-tiered thresholds. (3) Applying mitigations to address the potential for catastrophic risks based on the results of assessments",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0150#26",
+          "locator": "BPC §22757.12(b)(1)",
+          "text": "A large frontier developer shall review and, as appropriate, update its frontier AI framework at least once per year.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0150#27",
+          "locator": "BPC §22757.12(c)(1)",
+          "text": "Before, or concurrently with, deploying a new frontier model or a substantially modified version of an existing frontier model, a frontier developer shall clearly and conspicuously publish on its internet website a transparency report",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0150#28",
+          "locator": "BPC §22757.13(c)(1)",
+          "text": "frontier developer shall report any critical safety incident pertaining to one or more of its frontier models to the Office of Emergency Services within 15 days of discovering the critical safety incident.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0150#29",
+          "locator": "BPC §22757.15",
+          "text": "A large frontier developer that fails to publish or transmit a compliant document … shall be subject to a civil penalty in an amount dependent upon the severity of the violation that does not exceed one million dollars ($1,000,000) per violation.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0150#30",
+          "locator": "Legislative Counsel's Digest",
+          "text": "This bill would, among other things related to protecting whistleblowers working with foundation models, prohibit a frontier developer from making, adopting, enforcing, or entering into a rule, regulation, policy, or contract that prevents a covered employee",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -14031,6 +14204,18 @@
           "locator": "Order ¶3(a), (c)",
           "text": "Requiring that all large frontier developers embed designated independent verification organizations onsite in their labs to conduct periodic audits and evaluations. … Requiring the creation of a “kill switch” for frontier models",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0152#5",
+          "locator": "Recitals",
+          "text": "I signed first-in-thenation legislation, Senate Bill 53, addressing frontier AI trust and safety",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0152#6",
+          "locator": "Recitals",
+          "text": "established baseline requirements for deploying safe, secure, and trustworthy artificial intelligence, which took effect this year",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -14551,6 +14736,24 @@
           "locator": "Signature",
           "text": "Approved: May 14, 2026",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0160#20",
+          "locator": "C.R.S. 6-1-1706(1)(a)",
+          "text": "THE ATTORNEY GENERAL SHALL ENFORCE THIS PART 17",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0160#21",
+          "locator": "Sec. 2, C.R.S. 6-1-105(1)(uuuu)",
+          "text": "VIOLATES PART 17 OF THIS ARTICLE 1.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0160#22",
+          "locator": "Whole text (searched)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] Searched the session law for 'algorithmic discrimination' and 'reasonable care': neither occurs. Reenacted Part 17 regulates automated decision-making technology through disclosures and consumer rights (definitions of 'adverse outcome' and 'ADMT', post-adverse-outcome disclosures, AG rules); it contains no duty to protect consumers from algorithmic discrimination.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -14850,6 +15053,18 @@
           "locator": "Rulemaking",
           "text": "On October 26, 2026, the DOL hosted a public formal rulemaking hearing.",
           "retrieved": "2026-11-06"
+        },
+        {
+          "id": "S-0164#7",
+          "locator": "Rulemaking",
+          "text": "The ADMT Act requires the Colorado Attorney General’s Office to adopt rules to clarify and implement specific provisions of the law before January 1, 2027.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0164#8",
+          "locator": "Rulemaking",
+          "text": "On October 6, 2026, the DOL released an interim draft of the rules",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -15002,6 +15217,36 @@
           "locator": "Bus. & Com. Code Sec. 552.105(b)",
           "text": "The attorney general may bring an action in the name of",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0165#16",
+          "locator": "Bus. & Com. Code §552.053",
+          "text": "SOCIAL SCORING.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0165#17",
+          "locator": "Bus. & Com. Code §552.052",
+          "text": "MANIPULATION OF HUMAN BEHAVIOR.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0165#18",
+          "locator": "Bus. & Com. Code §552.101(a)",
+          "text": "The attorney general has exclusive authority to enforce this chapter, except to the extent provided by Section 552.106.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0165#19",
+          "locator": "Bus. & Com. Code §552.103(a)",
+          "text": "If the attorney general receives a complaint through the online mechanism under Section 552.102 alleging a violation of this chapter",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0165#20",
+          "locator": "Bus. & Com. Code §552.105(a)",
+          "text": "for each violation the court determines to be curable or a breach of a statement submitted to the attorney general under Section 552.104(b)(2), not less than $10,000 and not more than $12,000",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -15868,6 +16113,12 @@
           "locator": "Sec. 2(a)",
           "text": "executive departments and agencies (agencies) shall use ‘‘Super Intelligence’’ and ‘‘SI’’ in place of ‘‘Artificial Intelligence’’ and ‘‘AI’’ in official correspondence, public communications, websites, reports, policy documents, and other nonstatutory documents within the executive branch.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0175#9",
+          "locator": "Sec. 3(b)",
+          "text": "Within 60 days of the date of this order, the Assistant to the President for Science and Technology (APST), in consultation with the heads of other agencies as the APST deems appropriate, shall submit to the President proposed legislative language to establish a Federal definition",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -16534,6 +16785,18 @@
           "locator": "Art. 3 (tasks)",
           "text": "providing the Secretariat for the AI Board and its subgroups, and providing administrative support to the advisory forum and the scientific panel",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0184#6",
+          "locator": "Art. 1",
+          "text": "The European Artificial Intelligence Office (the ‘Office’) is established.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0184#7",
+          "locator": "Art. 1",
+          "text": "The Office shall be part of the administrative structure of the Directorate-General for Communication Networks, Content and Technology (the ‘Directorate-General’).",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -21250,6 +21513,18 @@
           "locator": "Sec. 5(b)",
           "text": "determine whether agencies may condition such grants on States either not enacting an AI law that conflicts with the policy of this order",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0239#16",
+          "locator": "Sec. 1",
+          "text": "Pursuant to Executive Order 14179 of January 23, 2025 (Removing Barriers to American Leadership in Artificial Intelligence), I revoked my predecessor’s attempt to paralyze this industry",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0239#17",
+          "locator": "Sec. 5(a)",
+          "text": "States with onerous AI laws identified pursuant to section 4 of this order are ineligible for non-deployment funds, to the maximum extent allowed by Federal law.",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -23666,6 +23941,30 @@
           "locator": "Sec. 5(a)",
           "text": "all policies, directives, regulations, orders, and other actions taken pursuant to the revoked Executive Order 14110 of October 30, 2023 … suspend, revise, or rescind such actions, or propose suspending, revising, or rescinding such actions.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0270#11",
+          "locator": "Sec. 4(a)",
+          "text": "Within 180 days of this order, the Assistant to the President for Science and Technology (APST), the Special Advisor for AI and Crypto, and the Assistant to the President for National Security Affairs (APNSA)",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0270#12",
+          "locator": "Sec. 4(a)",
+          "text": "shall develop and submit to the President an action plan to achieve the policy set forth in section 2 of this order.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0270#13",
+          "locator": "Sec. 5(a)",
+          "text": "identify any actions taken pursuant to Executive Order 14110 that are or may be inconsistent with, or present obstacles to, the policy set forth in section 2 of this order. For any such agency actions identified, the heads of agencies shall, as appropriate and consistent with applicable law, suspend, revise, or rescind such actions",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0270#14",
+          "locator": "Sec. 1",
+          "text": "This order revokes certain existing AI policies and directives that act as barriers to American AI innovation",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -23752,6 +24051,12 @@
           "locator": "Sec. 2 and item (ggg)",
           "text": "The following executive actions are hereby revoked: … Executive Order 14110 of October 30, 2023 (Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence).",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0271#5",
+          "locator": "Sec. 2(ggg)",
+          "text": "Executive Order 14110 of October 30, 2023 (Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence).",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -23832,6 +24137,12 @@
           "locator": "Sec. 4.2(a)(i)(C)",
           "text": "the results of any developed dual-use foundation model’s performance in relevant AI red-team testing based on guidance developed by NIST pursuant to subsection 4.1(a)(ii) of this section",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0272#4",
+          "locator": "Sec. 4.2(a)(i)(C)",
+          "text": "the results of any developed dual-use foundation model’s performance in relevant AI red-team testing based on guidance developed by NIST",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -23906,6 +24217,18 @@
           "locator": "p. 1, para. 1",
           "text": "Consistent with that policy, I am hereby \"establish[ing] an AI Litigation Task Force (Task Force) whose sole responsibility shall be to challenge State AI laws inconsistent with the policy.\"",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0273#3",
+          "locator": "Body",
+          "text": "The Task Force shall challenge such State AI laws \"on grounds that such laws unconstitutionally regulate interstate commerce, are preempted by existing Federal regulations, or are otherwise unlawful.\"",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0273#4",
+          "locator": "Date",
+          "text": "January 9, 2026",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -24033,6 +24356,30 @@
           "locator": "Whole document (searched)",
           "text": "[Observation, not a quotation] [Observation, not a quotation] Searched the full text for 'preempt' (preempt, preemption, preempted): no occurrence.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0274#12",
+          "locator": "Pillar I, Remove Red Tape and Onerous Regulation",
+          "text": "Led by OMB, work with Federal agencies that have AI-related discretionary funding programs to ensure, consistent with applicable law, that they consider a state’s AI regulatory climate when making funding decisions and limit funding if the state’s AI regulatory regimes may hinder the effectiveness of that funding or award.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0274#13",
+          "locator": "Pillar I, procurement",
+          "text": "Update Federal procurement guidelines to ensure that the government only contracts with frontier large language model (LLM) developers",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0274#14",
+          "locator": "Pillar III",
+          "text": "Establish and operationalize a program within DOC aimed at gathering proposals from industry consortia for full-stack AI export packages.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0274#15",
+          "locator": "Table of contents",
+          "text": "Pillar I: Accelerate AI Innovation … Pillar II: Build American AI Infrastructure … Pillar III: Lead in International AI Diplomacy and Security",
+          "retrieved": "2026-11-16"
         }
       ]
     },
@@ -31164,6 +31511,273 @@
           "id": "S-0394#1",
           "locator": "Topics (latest items)",
           "text": "2026年10月26日 第７回人工知能戦略専門調査会を開催しました。 [26 Oct 2026: 7th AI Strategy Expert Panel held]",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0395": {
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj/eng",
+      "title": "Regulation (EU) 2022/2065 (Digital Services Act), Official Journal",
+      "publisher": "Publications Office of the EU / EUR-Lex",
+      "type": "primary",
+      "dates": {
+        "adopted": "2022-10-19"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:09:34Z",
+          "run": "2026-11-16-weekly",
+          "via": "headless Chromium (EUR-Lex)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "91c98e79ec40c0bc",
+          "bytes": 1113921
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0395#1",
+          "locator": "Art. 56(2)",
+          "text": "The Commission shall have exclusive powers to supervise and enforce Section 5 of Chapter III.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0395#2",
+          "locator": "Recital 124",
+          "text": "the Commission should have exclusive powers of supervision and enforcement of the additional obligations to manage systemic risks imposed on providers of very large online platforms and of very large online search engines by this Regulation.",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0396": {
+      "url": "https://www.federalregister.gov/api/v1/documents/2025-02172.json",
+      "title": "Federal Register API record for FR Doc. 2025-02172 (EO 14179)",
+      "publisher": "Office of the Federal Register",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:09:36Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.federalregister.gov/api/v1/documents/2025-02172.json",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "b3ccebc1620bbe96",
+          "bytes": 2889
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0396#1",
+          "locator": "executive_order_notes / disposition_notes",
+          "text": "See: EO 14365, December 11, 2025",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0396#2",
+          "locator": "Observation",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] The record's executive_order_notes and disposition_notes read only 'See: EO 14365, December 11, 2025'; neither records a revocation or amendment of EO 14179.",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0397": {
+      "url": "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip",
+      "title": "California Legislative Counsel bulk data pubinfo_2025.zip: BILL_VERSION_TBL and LAW_SECTION_TBL (last modified 9 Nov 2026)",
+      "publisher": "California Legislative Counsel",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:09:41Z",
+          "run": "2026-11-16-weekly",
+          "via": "HTTP range requests on the Legislative Counsel bulk archive (zip member extracted unchanged)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "2c4eebab90988ec5",
+          "bytes": 4512719
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0397#1",
+          "locator": "BILL_VERSION_TBL, SB 53 chaptered row",
+          "text": "20250SB5390CHP` `202520260SB53` 90 2025-09-29 00:00:00 `Chaptered`",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0397#2",
+          "locator": "LAW_SECTION_TBL (observation)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] In LAW_SECTION_TBL.dat from the same archive (rows updated 2026-10-03), every section of BPC Chapter 25.1 (§§22757.10–22757.16) carries only 'Added by Stats. 2025, Ch. 138, Sec. 2. (SB 53) Effective January 1, 2026.'; no 2026 amendment is recorded, unlike neighbouring §§22757.1–22757.5 amended by Stats. 2026, Ch. 861 (SB 1000).",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0398": {
+      "url": "https://www.dfs.ny.gov/digit/Frontier-Developers",
+      "title": "Information for Frontier Developers (DIGIT, NY DFS)",
+      "publisher": "New York State Department of Financial Services",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:09:44Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.dfs.ny.gov/digit/Frontier-Developers",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "4d882522cee01a4a",
+          "bytes": 54308
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0398#1",
+          "locator": "Requirements for Large Frontier Developers",
+          "text": "Registration: File a disclosure statement with DFS and maintain a current registration to develop, deploy, or operate frontier models in New York beginning January 1, 2027.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0398#2",
+          "locator": "Requirements for All Frontier Developers",
+          "text": "Report qualifying critical safety incidents to DIGIT through the RAISE Portal within 72 hours of a determination that a critical safety incident has occurred",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0399": {
+      "url": "https://www.dfs.ny.gov/node/449846",
+      "title": "Governor Hochul Declares New York Will Lead the Nation in AI Science and Safety; Launches New Research Institute (10 Nov 2026)",
+      "publisher": "New York State Department of Financial Services / Office of the Governor",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-10"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:09:45Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.dfs.ny.gov/node/449846",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "615a8820e0ef0781",
+          "bytes": 47543
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0399#1",
+          "locator": "Lead paragraph",
+          "text": "Governor Kathy Hochul today launched a first-of-its-kind statewide effort to advance artificial intelligence science and safety – the New York Center for AI Responsibility and Research based at State University of New York’s (SUNY) Binghamton University.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0399#2",
+          "locator": "Body",
+          "text": "The New York Center for AI Responsibility and Research (NYCAIRR) will address the fundamental and growing challenge of assessing the safety, security, and operation of increasingly powerful AI systems. That mission will be pursued through independent testing of frontier AI systems, foundational scientific research, and the training of a new generation of AI safety experts.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0399#3",
+          "locator": "Body",
+          "text": "At the State’s request, NYCAIRR will be able to provide expertise, assessments and evidence that can assist in informing state policy making and oversight of frontier AI Developers. For example, NYCAIRR will coordinate with DIGIT to begin reviewing AI Developers’ published safety frameworks and providing recommendations on ways to strengthen requirements.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0399#4",
+          "locator": "Body",
+          "text": "Greg Morrisett of Cornell Tech and Jeannette Wing of Columbia University, two internationally recognized leaders in computer science and cybersecurity, will lead the Center as interim co-directors.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0399#5",
+          "locator": "Body",
+          "text": "Additionally, the new Office of Digital Innovation, Governance, Integrity, and Trust (DIGIT) launched its online portal for large frontier AI developers to register with New York State by January 1, 2027.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0399#6",
+          "locator": "Body",
+          "text": "a historic $30 million philanthropic gift from a group of donors led by Binghamton alumnus and Bloomberg LP co-founder Tom Secunda, paired with an initial $25 million research investment from SUNY and operating capital from New York State.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0399#7",
+          "locator": "Date",
+          "text": "November 10, 2026",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0400": {
+      "url": "https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint/consumer-ai-rights",
+      "title": "Texas Responsible Artificial Intelligence Governance Act (consumer AI rights and complaint page)",
+      "publisher": "Office of the Texas Attorney General",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:09:47Z",
+          "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint/consumer-ai-rights",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "3030f9623e71705b",
+          "bytes": 129968
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0400#1",
+          "locator": "Enforcement",
+          "text": "The attorney general has exclusive authority to enforce TRAIGA, unless the attorney general has recommended additional enforcement by another state agency, and may issue civil investigative demands.",
+          "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0400#2",
+          "locator": "Overview",
+          "text": "TRAIGA does not provide a private right of action.",
+          "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0401": {
+      "url": "https://github.com/buildwithwhy/ai-governance-map/blob/8ea399cd979ba4543918aebfb30366e146ccd2da/index.html",
+      "title": "Map index.html at 8ea399c (current base)",
+      "publisher": "Frontier AI Governance Map repository",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-16",
+          "at": "2026-11-16T05:09:47Z",
+          "run": "2026-11-16-weekly",
+          "via": "repository checkout (read-only copy)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "9fa16a0f49bb210a",
+          "bytes": 156957
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0401#1",
+          "locator": "Entity data (observation)",
+          "text": "[Observation, not a quotation] [Observation, not a quotation] In the map's data, eu-aia, cn-genai and kr-ai are layer 2; eu-aio, uk-aisi, caisi (name 'US CAISI'), metr, apollo and averi are layer 4, matching the FAQ's Layer 2 and Layer 4 examples.",
           "retrieved": "2026-11-16"
         }
       ]
