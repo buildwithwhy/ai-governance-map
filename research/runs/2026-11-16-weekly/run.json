@@ -3,7 +3,7 @@
   "label": "Weekly audit 2026-11-16",
   "partial": true,
   "started_at": "2026-11-16T04:51:31Z",
-  "finished_at": null,
+  "finished_at": "2026-11-16T05:10:20Z",
   "scope": {
     "entries": [],
     "note": null
@@ -491,5 +491,12 @@
       ]
     }
   ],
-  "usage": null
+  "usage": "about $25",
+  "highlights": [
+    "Coverage: 75 items checked, 69 against outside sources (56 no change, 4 changed, 9 unresolved, mostly comparative wording) and 6 internally. This week's rolling eighth was the oldest items in the inventory, all last verified on 10 Oct: the EU AI Act, the US executive orders and Action Plan, SB 53, the Colorado, Texas and New York acts (39), and the EU transparency code, FMF, PAI, the Hiroshima Process and the GPAI Code (30). 262 sources behind earlier checks were re-fetched (227 by plain download, 35 in headless Chromium; 247 retrieved): every recorded quotation still matches, apart from ai.gov's old 404 text and a rotating 'featured work' line on METR's home page, neither material. 125 items are still on their 10 Oct verification and come next.",
+    "7 new proposals (P-0195 to P-0201): the AI Office FAQ and context wrongly call its direct GPAI enforcement 'unique' in EU regulatory architecture — the DSA already gives the Commission such powers over very large platforms (P-0198); Texas TRAIGA's mitigation note compares it with Colorado duties that no longer exist (P-0199); the Colorado entry says SB 24-205 'was repealed' though the repeal takes effect 1 Jan 2027 (P-0201, linked to P-0181). Questions: add the Paris Declaration on AI Safety and Security (9 Nov 2026; France, Canada, Anthropic, OpenAI, Microsoft, Mistral and others) as a Layer 5 entry (P-0196, recommended); mention the FMF Jailbreak Rating Framework (P-0195); add China's AI Safety Governance Framework 3.0 (TC260, 14 Sep 2026) as a Layer 4 entry (P-0197, recommended); add New York's new Center for AI Responsibility and Research (P-0200, recommended: wait).",
+    "Awaiting your decision in total: 52 proposals (33 corrections, 1 new entry, 18 questions with drafted options and a recommendation). P-0187 (White House Accord) is still held: no official full text. No answers have been saved on the page since 6 Nov, so nothing has been applied for three runs.",
+    "Discovery also found: New York opened RAISE registration on 10 Nov (filings due 1 Jan 2027; no map edit needed); Korea's enforcement decree amendment (in force 21 Jul 2026) leaves the 10^26 FLOP criteria unchanged; EU Implementing Regulation 2026/1755 sets how the AI Office requests model access and runs fining proceedings (consistent with pending P-0162); Singapore's IMDA launched agentic-AI testing kits, tester accreditation and a frontier-AI cyber taskforce. No new framework versions, no new BIS rule.",
+    "Nothing was applied, so the map's content date stays 11 Oct 2026. Still unreachable: coe.int, most of openai.com, ico.org.uk, California's legislature website (SB 53 read from its public bulk download), Australia's eSafety and AI Safety Institute, mass.gov."
+  ]
 }

@@ -1070,5 +1070,83 @@
     "note": "Prohibitions verified (§552.052 manipulation, §552.053 social scoring by governmental entities). The comparison with 'Colorado's algorithmic-discrimination duties' is outdated: reenacted Part 17 (SB 26-189) has no such duty.",
     "missing": null,
     "hash": "c30e27652366"
+  },
+  "derived:counts": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "882d135ce758"
+  },
+  "derived:dates": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "41e6480537ae"
+  },
+  "derived:generated": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "6bd36e09fa00"
+  },
+  "label:jur": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "14b7ec831d3f"
+  },
+  "label:pow": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "4ca978ec46c4"
+  },
+  "label:status": {
+    "run": "2026-11-16-weekly",
+    "date": "2026-11-16",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "3c867cd6f90c"
   }
 }
