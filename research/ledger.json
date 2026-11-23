@@ -1,5 +1,5 @@
 {
-  "next": 206,
+  "next": 209,
   "proposals": [
     {
       "id": "P-0001",
@@ -22984,6 +22984,344 @@
           "P-0188",
           "P-0174"
         ],
+        "updated": "2026-11-23"
+      }
+    },
+    {
+      "id": "P-0206",
+      "fingerprint": "86fe7784334d",
+      "targets": [
+        "entry:kr-ai:cov:timing"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-23T05:07:41Z",
+          "run": "2026-11-23-weekly",
+          "author": "claude",
+          "title": "Korea AI Basic Act · Timing: an MSIT public notice, not the Enforcement Decree, sets how safety-duty results are submitted",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "kr-ai",
+              "cat": "timing",
+              "from": "Lifecycle reporting to MSIT throughout development and deployment; implementing decrees specify cadence. Less burdensome in practice than the EU's pre-market conformity assessment.",
+              "to": "Lifecycle risk duties, with results submitted to MSIT (Art. 32(2)); an MSIT public notice, not the Enforcement Decree, sets how results are submitted (Art. 32(3)). Less burdensome in practice than the EU's pre-market conformity assessment."
+            }
+          ],
+          "why": "The note tells readers that implementing decrees set the reporting cadence. The Act gives that job to an MSIT public notice, and the Enforcement Decree contains no submission timetable, so a reader looking for the cadence in the decree finds nothing.",
+          "rationale": "Art. 32(2) requires operators of systems above the compute threshold to submit implementation results to MSIT; Art. 32(3) says the Minister 'shall determine and publicly notify' (고시) the implementation methods and the matters needed for submitting results. Enforcement Decree Art. 24 only defines the covered systems and delegates the compute-calculation method to another MSIT notice; no decree article sets submission timing. Minimal edit: replace the decree clause and cite the articles; the comparative sentence is kept.",
+          "evidence": [
+            {
+              "source": "S-0426",
+              "passage": "S-0426#5",
+              "stance": "supports",
+              "supports": "Results of the lifecycle risk duties are submitted to MSIT"
+            },
+            {
+              "source": "S-0426",
+              "passage": "S-0426#6",
+              "stance": "supports",
+              "supports": "MSIT public notice sets implementation and submission details"
+            },
+            {
+              "source": "S-0427",
+              "passage": "S-0427#3",
+              "stance": "supports",
+              "supports": "The decree sets no submission cadence"
+            },
+            {
+              "source": "S-0427",
+              "passage": "S-0427#2",
+              "stance": "supports",
+              "supports": "Decree delegates even compute calculation to an MSIT notice"
+            }
+          ],
+          "uncertainty": "Secondary reports (Jul–Aug 2026) describe a draft MSIT notice on implementing the Art. 32 safety duty, reportedly requiring a report within three months; whether it has been finalised could not be confirmed (msit.go.kr and law.go.kr reset every connection). The edit does not depend on it.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:kr-ai:context": "checked; 'lifecycle reporting to MSIT' remains accurate at that level of generality (Art. 32(2))",
+            "entry:kr-ai:cov:eval": "unresolved in this batch for other reasons ('fairness'; comparative clause)",
+            "gap:timing": "not in this group; names Korea's Framework Act among pre-deployment timing mechanisms, unaffected by this edit"
+          },
+          "unverified_carryover": [
+            "Less burdensome in practice than the EU's pre-market conformity assessment (comparative; not verifiable from sources)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:aisi-net:desc",
+            "entry:other-aisis:desc",
+            "gap:eval",
+            "gap:timing",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "faq:what-is-the-difference-between-layer-2-and-layer",
+            "text:footer-sources"
+          ],
+          "hash": "38d7012cc53a"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-23"
+      }
+    },
+    {
+      "id": "P-0207",
+      "fingerprint": "2b26656bc869",
+      "targets": [
+        "text:index.html:5b527936638c"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-23T05:07:41Z",
+          "run": "2026-11-23-weekly",
+          "author": "claude",
+          "title": "Mitigations gap summary: Colorado's law on the map now carries automated-decision disclosure duties, not algorithmic-discrimination duties",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "replace_text",
+              "file": "index.html",
+              "from": "to Colorado\\'s algorithmic-discrimination duties to Anthropic",
+              "to": "to Colorado\\'s automated-decision disclosure duties to Anthropic",
+              "count": 1
+            }
+          ],
+          "why": "The gap summary cites 'Colorado's algorithmic-discrimination duties' as an example of mitigation coverage, but the map's Colorado entry describes SB 26-189, which repeals and reenacts the law as an automated-decision disclosure regime with no algorithmic-discrimination duty. The example points readers to obligations the mapped law does not contain.",
+          "rationale": "SB 26-189 Sec. 1 repeals and reenacts Part 17; the session law never uses 'algorithmic discrimination', and its operative duties are developer documentation, deployer notices and post-adverse-outcome disclosures (6-1-1704). The map's co-aia mitigation note already describes these duties. The other two examples hold: the GenAI Measures require content moderation (Arts. 4(1), 14) and RSP v3.4, still the current version, keeps ASL-3 protections. The sentence's first list ('anti-discrimination duties') stays accurate through, for example, Art. 4(2) of China's Measures. Same concern as pending P-0199 (tx-raiga mit note), applied to the gap summary.",
+          "evidence": [
+            {
+              "source": "S-0160",
+              "passage": "S-0160#16",
+              "stance": "supports",
+              "supports": "Part 17 repealed and reenacted"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#24",
+              "stance": "supports",
+              "supports": "No algorithmic-discrimination duty in the reenacted law"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#23",
+              "stance": "supports",
+              "supports": "Operative duties are disclosures and notices"
+            },
+            {
+              "source": "S-0160",
+              "passage": "S-0160#17",
+              "stance": "supports",
+              "supports": "Takes effect Jan 1, 2027"
+            },
+            {
+              "source": "S-0429",
+              "passage": "S-0429#4",
+              "stance": "supports",
+              "supports": "The map's Colorado entry already describes disclosure duties"
+            },
+            {
+              "source": "S-0290",
+              "passage": "S-0290#11",
+              "stance": "supports",
+              "supports": "China content moderation clause stands"
+            },
+            {
+              "source": "S-0290",
+              "passage": "S-0290#19",
+              "stance": "supports",
+              "supports": "Anti-discrimination duties still exist in a binding regulation on the map"
+            },
+            {
+              "source": "S-0006",
+              "passage": "S-0006#22",
+              "stance": "supports",
+              "supports": "Anthropic ASL deployment safeguards clause stands"
+            },
+            {
+              "source": "S-0005",
+              "passage": "S-0005#26",
+              "stance": "supports",
+              "supports": "v3.4 is the newest RSP version"
+            }
+          ],
+          "uncertainty": "SB 24-205 formally remains on the books until the repeal takes effect on 1 Jan 2027 (enforcement barred by court order; see P-0181/P-0201), so the old phrase is outdated against the law the map describes rather than strictly false today.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "entry:tx-raiga:cov:mit": "same concern, covered by pending P-0199",
+            "entry:co-aia:desc": "covered by pending P-0201"
+          },
+          "unverified_carryover": [
+            "'Almost every binding regulation covers deployment mitigations in some form' and the closing sentence (analytic)"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [],
+          "hash": "5533670f3d1d"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0199",
+          "P-0201"
+        ],
+        "updated": "2026-11-23"
+      }
+    },
+    {
+      "id": "P-0208",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-23T05:07:41Z",
+          "run": "2026-11-23-weekly",
+          "author": "claude",
+          "title": "New L1 entry? World AI Cooperation Organization (China-initiated intergovernmental organisation; China ratified Nov 2026, not yet in force)",
+          "kind": "flag",
+          "changes": [],
+          "why": "It is the first standing intergovernmental organisation dedicated to AI, hosted by China, and could become a venue for aligning AI governance rules and standards. Readers comparing multilateral venues would not find it on the map.",
+          "rationale": "The agreement (NPC copy) establishes an independent intergovernmental organisation with Shanghai headquarters (Arts. 1, 5); its functions include coordinating governance rules and technical standards and supporting UN-framework governance, limited to civilian AI (Art. 3); it was open for signature 1 May–31 Jul 2026 and enters into force on the third ratification (Arts. 14–15). The NPCSC ratified it at its 25th session, China being the first to ratify. It meets RUBRIC §1's identifiable and attributable tests, but its material bearing on frontier AI is still prospective: no instrument, membership list or entry into force yet. Option a is recommended for that reason, matching the treatment of announced-but-not-operating bodies; option b follows the un-ai/oecd precedent for contextual multilateral entries and uses status 'proposed' because the agreement is not in force.",
+          "evidence": [
+            {
+              "source": "S-0425",
+              "passage": "S-0425#1",
+              "stance": "supports",
+              "supports": "Independent intergovernmental organisation"
+            },
+            {
+              "source": "S-0425",
+              "passage": "S-0425#2",
+              "stance": "supports",
+              "supports": "Governance-rule and standards coordination; UN support"
+            },
+            {
+              "source": "S-0425",
+              "passage": "S-0425#3",
+              "stance": "supports",
+              "supports": "Civilian AI only"
+            },
+            {
+              "source": "S-0425",
+              "passage": "S-0425#4",
+              "stance": "supports",
+              "supports": "Shanghai headquarters"
+            },
+            {
+              "source": "S-0425",
+              "passage": "S-0425#5",
+              "stance": "supports",
+              "supports": "Signature window May–Jul 2026"
+            },
+            {
+              "source": "S-0425",
+              "passage": "S-0425#6",
+              "stance": "supports",
+              "supports": "Entry into force on third ratification"
+            },
+            {
+              "source": "S-0424",
+              "passage": "S-0424#2",
+              "stance": "supports",
+              "supports": "China ratified first at the 25th NPCSC session"
+            }
+          ],
+          "uncertainty": "Signatories are not listed on the NPC copy; it is not known how many states signed or whether others have ratified. Outside monitored scope B3 (not an existing multilateral body); found through China discovery.",
+          "confidence": "medium",
+          "question": "Should the map add the World AI Cooperation Organization, a Shanghai-based intergovernmental AI organisation whose founding agreement China ratified at the NPC Standing Committee session closing 6 Nov 2026, but which is not yet in force?",
+          "knock_on_notes": {
+            "text:layer-1:tooltip": "checked, still accurate if option b is chosen (multilateral norms; no direct obligations on labs)"
+          },
+          "unverified_carryover": [],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Wait: revisit when the agreement enters into force (third ratification) or the organisation adopts a governance instrument",
+              "changes": []
+            },
+            {
+              "key": "b",
+              "label": "Add now as a Layer 1 entry (pow 1, status proposed)",
+              "changes": [
+                {
+                  "op": "add_entity",
+                  "after": "un-ai",
+                  "entity": {
+                    "id": "waico",
+                    "name": "World AI Cooperation Organization",
+                    "layer": 1,
+                    "jur": "mu",
+                    "pow": 1,
+                    "status": "proposed",
+                    "link": "http://www.npc.gov.cn/c2/c30834/202611/t20261118_458879.html",
+                    "desc": "China-initiated intergovernmental organisation headquartered in Shanghai. Its founding agreement was open for signature May–Jul 2026 and enters into force on the third ratification; China ratified first, in Nov 2026.",
+                    "context": "Mandated to coordinate AI strategies, governance rules and technical standards, build policy consensus, promote interoperability and support governance processes within the UN framework; functions are limited to civilian AI. It creates no obligations on developers, so its bearing on frontier AI is contextual: a China-hosted forum for aligning national rules.",
+                    "cov": {}
+                  }
+                },
+                {
+                  "op": "add_edge",
+                  "a": "waico",
+                  "b": "un-ai",
+                  "rel": "Agreement tasks WAICO with supporting governance processes within the UN framework"
+                }
+              ]
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "edge:un-ai|aisr",
+            "edge:un-ai|unesco",
+            "edge:ai-summits|un-ai"
+          ],
+          "hash": "1c547d96e23b"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
         "updated": "2026-11-23"
       }
     }

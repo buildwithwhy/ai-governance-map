@@ -1,5 +1,5 @@
 {
-  "next": 422,
+  "next": 433,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -1093,6 +1093,12 @@
           "locator": "§3 Risk Reports, required contents item 3",
           "text": "capability and alignment evaluations (conducted internally and by external parties as appropriate)",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0006#22",
+          "locator": "§1 table, row 1, company plan",
+          "text": "We will maintain or improve on our ASL-3 protections, which include classifier guards at least as robust as our initial Constitutional Classifiers",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -4182,6 +4188,12 @@
           "locator": "Part (三) 预备审议项目",
           "text": "治理网络暴力和人工智能健康发展等方面的立法项目,由有关方面抓紧开展调研和起草工作,视情安排审议. [legislative projects on … governing online violence and the healthy development of AI: the relevant parties are to step up research and drafting, with review arranged as circumstances warrant.]",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0049#3",
+          "locator": "Part (三) 预备审议项目 [preparatory review items]",
+          "text": "治理网络暴力和人工智能健康发展等方面的立法项目,由有关方面抓紧开展调研和起草工作,视情安排审议 [legislative projects on governing online violence and the healthy development of AI: relevant parties to step up research and drafting; review to be scheduled as circumstances permit]",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -15858,6 +15870,18 @@
           "locator": "Whole text (searched)",
           "text": "[Observation, not a quotation] [Observation, not a quotation] Searched the session law for 'algorithmic discrimination' and 'reasonable care': neither occurs. Reenacted Part 17 regulates automated decision-making technology through disclosures and consumer rights (definitions of 'adverse outcome' and 'ADMT', post-adverse-outcome disclosures, AG rules); it contains no duty to protect consumers from algorithmic discrimination.",
           "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0160#23",
+          "locator": "C.R.S. 6-1-1704 heading",
+          "text": "Deployer disclosures - point-of-interaction notice - public posting option - post-adverse outcome disclosures",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0160#24",
+          "locator": "Whole session law (searched)",
+          "text": "[Observation, not a quotation] Searched Chapter 131 for 'algorithmic discrimination': no occurrence. The reenacted Part 17 regulates automated decision-making technology through developer documentation, deployer notices and post-adverse-outcome disclosures.",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -18454,6 +18478,12 @@
           "locator": "home page lead",
           "text": "ＡＩセーフティ・インスティテュート （ＡＩＳＩ）は、 安全・安心で信頼できるＡＩの実現に向けて、 ＡＩの安全性に関する評価手法や基準の検討・推進を [The AI Safety Institute (AISI) … examines and promotes evaluation methods and standards for AI safety, toward safe, secure and trustworthy AI]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0187#2",
+          "locator": "最新のアウトプット [Latest outputs]",
+          "text": "AISI事業実証ワーキンググループ・ビジョンペーパー(第2.0版) [AISI Business Demonstration WG Vision Paper v2.0 (6 Oct 2026)]",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -28129,7 +28159,7 @@
       "publisher": "Cyberspace Administration of China",
       "type": "primary",
       "dates": {
-        "adopted": "2023-07-10",
+        "adopted": "2023-05-23",
         "published": "2023-07-13",
         "in_force": "2023-08-15"
       },
@@ -28285,6 +28315,48 @@
           "locator": "Art. 21",
           "text": "拒不改正或者情节严重的，责令暂停提供相关服务。 [where a provider refuses to correct or the case is serious, it is ordered to suspend the service.]",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0290#18",
+          "locator": "Order No. 15, promulgation clause",
+          "text": "《生成式人工智能服务管理暂行办法》已经2023年5月23日国家互联网信息办公室2023年第12次室务会会议审议通过 … 现予公布，自2023年8月15日起施行。 [The Interim Measures were adopted at the CAC's 12th office meeting of 2023 on 23 May 2023 … and are promulgated, taking effect on 15 August 2023.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0290#19",
+          "locator": "Art. 4(2)",
+          "text": "在算法设计、训练数据选择、模型生成和优化、提供服务等过程中，采取有效措施防止产生民族、信仰、国别、地域、性别、年龄、职业、健康等歧视 [in algorithm design, training-data selection, model generation and optimisation and service provision, take effective measures to prevent discrimination by ethnicity, belief, nationality, region, sex, age, occupation, health, etc.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0290#20",
+          "locator": "Art. 7(1)-(4)",
+          "text": "使用具有合法来源的数据和基础模型 … 涉及知识产权的，不得侵害他人依法享有的知识产权 … 涉及个人信息的，应当取得个人同意 … 采取有效措施提高训练数据质量 [use data and foundation models from lawful sources … not infringe others' IP … obtain consent where personal information is involved … take effective measures to improve training-data quality]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0290#21",
+          "locator": "Art. 14(1)",
+          "text": "提供者发现违法内容的，应当及时采取停止生成、停止传输、消除等处置措施 [Providers that discover illegal content shall promptly stop its generation and transmission, remove it, and take other measures]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0290#22",
+          "locator": "Art. 17",
+          "text": "提供具有舆论属性或者社会动员能力的生成式人工智能服务的，应当按照国家有关规定开展安全评估，并按照《互联网信息服务算法推荐管理规定》履行算法备案和变更、注销备案手续。 [Providers of generative AI services with public-opinion attributes or social-mobilisation capacity shall carry out a security assessment under national rules and complete algorithm filing under the Algorithmic Recommendation Provisions.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0290#23",
+          "locator": "Art. 20",
+          "text": "对来源于中华人民共和国境外向境内提供生成式人工智能服务不符合法律、行政法规和本办法规定的，国家网信部门应当通知有关机构采取技术措施和其他必要措施予以处置。 [Where generative AI services provided into China from abroad do not comply, the CAC shall notify the relevant bodies to take technical and other necessary measures.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0290#24",
+          "locator": "Art. 21(1)",
+          "text": "由有关主管部门依据职责予以警告、通报批评，责令限期改正；拒不改正或者情节严重的，责令暂停提供相关服务。 [the competent departments give warnings and public criticism and order correction within a time limit; where the provider refuses to correct or the case is serious, it is ordered to suspend the relevant services.]",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -28384,6 +28456,18 @@
           "locator": "Attachments",
           "text": "附件13： 生成式人工智能服务已备案和已登记信息（2026年8月） [Attachment 13: filed and registered generative AI services (August 2026)]",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0291#6",
+          "locator": "Announcement text",
+          "text": "已上线的生成式人工智能应用或功能，应在显著位置或产品详情页面公示所使用已备案生成式人工智能服务情况，注明模型名称及备案号。 [Generative AI applications or features already online shall display, prominently or on the product details page, the filed generative AI service they use, with model name and filing number.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0291#7",
+          "locator": "Attachments list",
+          "text": "附件14：生成式人工智能服务已备案和已登记信息（2026年10月） [Attachment 14: filed and registered generative AI services (October 2026)]",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -28787,7 +28871,7 @@
       "publisher": "e-Gov (Digital Agency, Government of Japan)",
       "type": "primary",
       "dates": {
-        "adopted": "2025-06-04",
+        "adopted": "2025-05-28",
         "published": "2025-06-04",
         "in_force": "2025-06-04",
         "applies_from": "2025-09-01"
@@ -28920,6 +29004,24 @@
           "locator": "Whole text (searched)",
           "text": "[Observation, not a quotation] [Observation, not a quotation] Searched the full statute text for 罰 (penalty, fine, punishment): no occurrence; the Act contains no penalty provisions.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0296#12",
+          "locator": "Art. 16",
+          "text": "その結果に基づいて、研究開発機関、活用事業者その他の者に対する指導、助言、情報の提供その他の必要な措置を講ずるものとする。 [Based on the results, the State shall give guidance, advice and information to research institutions, businesses and others.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0296#13",
+          "locator": "Art. 19",
+          "text": "人工知能関連技術の研究開発及び活用の推進に関する施策を総合的かつ計画的に推進するため、内閣に、人工知能戦略本部（以下「本部」という。）を置く。 [To promote AI measures comprehensively and systematically, the AI Strategic Headquarters is established in the Cabinet.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0296#14",
+          "locator": "Whole Act (searched)",
+          "text": "[Observation, not a quotation] Searched the full statute text for 罰 (penalty/fine) and for 演算 or 計算量 (compute): no occurrence. The Act contains no penalties, compute thresholds or mandatory pre-deployment testing; business duties are limited to cooperation (Art. 7).",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -29013,7 +29115,11 @@
       "title": "Cabinet Office: Overview of the AI Act (概要)",
       "publisher": "Cabinet Office, Government of Japan",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "adopted": "2025-05-28",
+        "in_force": "2025-06-04",
+        "applies_from": "2025-09-01"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
@@ -29082,6 +29188,24 @@
           "locator": "header",
           "text": "成立：令和７年５月28日 [Enacted: 28 May 2025]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0298#2",
+          "locator": "Header",
+          "text": "成立：令和７年５月28日 [Enacted: 28 May 2025]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0298#3",
+          "locator": "法律の必要性 [Need for the law]",
+          "text": "既存の刑法や個別の業法等に加え、新たな法律が必要。 [A new law is needed in addition to the existing Penal Code and individual sector business laws.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0298#4",
+          "locator": "AI戦略本部 box",
+          "text": "本部長：内閣総理大臣 構成員：全ての国務大臣 [Head: the Prime Minister; members: all Ministers of State]",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -34522,7 +34646,7 @@
     },
     "S-0394": {
       "url": "https://www8.cao.go.jp/cstp/ai/index.html",
-      "title": "AI政策 [AI policy] topics",
+      "title": "Cabinet Office AI strategy page (topics list)",
       "publisher": "Cabinet Office, Japan",
       "type": "primary",
       "dates": {},
@@ -34538,6 +34662,18 @@
           "content_type": "text/html",
           "sha256": "194e2245e2e894c2",
           "bytes": 11439
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:07:33Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www8.cao.go.jp/cstp/ai/index.html",
+          "content_type": "text/html",
+          "sha256": "194e2245e2e894c2",
+          "bytes": 11439
         }
       ],
       "passages": [
@@ -34546,6 +34682,12 @@
           "locator": "Topics (latest items)",
           "text": "2026年10月26日 第７回人工知能戦略専門調査会を開催しました。 [26 Oct 2026: 7th AI Strategy Expert Panel held]",
           "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0394#2",
+          "locator": "Topics list, newest item",
+          "text": "第７回人工知能戦略専門調査会を開催しました。 [The 7th AI Strategy Expert Panel was held (26 Oct 2026).]",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -35775,6 +35917,493 @@
           "id": "S-0421#2",
           "locator": "Project status",
           "text": "Project Status Ongoing",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0422": {
+      "url": "https://www.cac.gov.cn/2026-07/06/c_1785081384384987.htm",
+      "title": "中央网信办深入开展“清朗·整治AI应用乱象”专项行动第一阶段工作 (CAC: first phase of the 'Qinglang' campaign against AI application abuses)",
+      "publisher": "Cyberspace Administration of China",
+      "type": "primary",
+      "dates": {
+        "published": "2026-07-06"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:07:11Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.cac.gov.cn/2026-07/06/c_1785081384384987.htm",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "bf3a81dbc8153097",
+          "bytes": 14976
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0422#1",
+          "locator": "Para. 1",
+          "text": "中央网信办聚焦未按规定履行大模型备案登记义务、AI平台安全和审核过滤能力不足、AI数据投毒、生成合成内容标识落实不到位等AI应用乱象 [The CAC focused on AI abuses including failure to fulfil large-model filing and registration duties, inadequate platform security and moderation, AI data poisoning and inadequate labelling of synthetic content]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0422#2",
+          "locator": "Para. 1",
+          "text": "第一阶段累计处置违规网站、应用程序、智能体等AI产品1.4万余款 [In the first phase, more than 14,000 non-compliant AI products, including websites, apps and agents, were dealt with]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0422#3",
+          "locator": "Para. 2 (Beijing)",
+          "text": "及时下架一批违规AI应用和运营账号 [promptly took down a batch of non-compliant AI apps and operating accounts]",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0423": {
+      "url": "https://www.news.cn/legal/20260915/3f7196f558fd45cc9165cd1cafa9246b/c.html",
+      "title": "国家网信办发布近期网络安全等领域执法典型案例 (Xinhua: CAC releases recent typical enforcement cases)",
+      "publisher": "Xinhua",
+      "type": "secondary",
+      "dates": {
+        "published": "2026-09-15"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:07:13Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.news.cn/legal/20260915/3f7196f558fd45cc9165cd1cafa9246b/c.html",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "fdb58a818f39f445",
+          "bytes": 21921
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0423#1",
+          "locator": "Case 9 (Sichuan mini-program)",
+          "text": "未对人工智能生成合成内容添加显式标识 … 网信部门已依法责令下线该小程序。 [did not add explicit labels to AI-generated synthetic content … the cyberspace authorities ordered the mini-program taken offline.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0423#2",
+          "locator": "Case 10 (Jiangsu 'API relay' websites)",
+          "text": "未按规定开展安全评估工作，存在内容安全风险，违反《生成式人工智能服务管理暂行办法》 … 属地网信办已依法责令其改正、从严处理责任人，予以警告处罚。 [did not carry out the required security assessment … in breach of the Interim Measures for Generative AI Services … the local office ordered correction, strict handling of those responsible, and imposed a warning.]",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0424": {
+      "url": "http://www.npc.gov.cn/c2/c30834/202611/t20261119_458889.html",
+      "title": "赵乐际在十四届全国人大常委会第二十五次会议上的讲话 (Zhao Leji's closing speech, 25th session of the 14th NPCSC, 6 Nov 2026)",
+      "publisher": "NPC (npc.gov.cn)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-06"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:07:15Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/c2/c30834/202611/t20261119_458889.html",
+          "content_type": "text/html",
+          "sha256": "6c4cb8df8afc73d6",
+          "bytes": 17700
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0424#1",
+          "locator": "Para. 2-3",
+          "text": "会议共审议10件法律草案和决定草案，通过其中5件。 … 会议对国有资产法、金融法草案进行了二次审议，对刑事诉讼法修正草案和可再生能源法、税收征收管理法修订草案进行了初次审议。 [The session reviewed 10 draft laws and decisions and passed 5 … second readings of the State Assets Law and Financial Law drafts; first readings of the Criminal Procedure Law amendment and the Renewable Energy and Tax Collection revisions.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0424#2",
+          "locator": "Para. on treaties",
+          "text": "会议审议批准关于成立世界人工智能合作组织的协定。 … 作为合作组织的发起国和东道国，我国率先批准协定 [The session reviewed and ratified the Agreement on Establishing the World AI Cooperation Organization … as initiator and host state, China is the first to ratify]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0424#3",
+          "locator": "Whole speech (searched)",
+          "text": "[Observation, not a quotation] Searched the speech for 人工智能 (AI): its only AI item is ratification of the WAICO agreement; no AI law draft is among the drafts reviewed at the 25th session (closing 6 Nov 2026).",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0425": {
+      "url": "http://www.npc.gov.cn/c2/c30834/202611/t20261118_458879.html",
+      "title": "关于成立世界人工智能合作组织的协定 (Agreement on Establishing the World AI Cooperation Organization), NPC copy",
+      "publisher": "NPC (npc.gov.cn)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-18"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:07:17Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/c2/c30834/202611/t20261118_458879.html",
+          "content_type": "text/html",
+          "sha256": "4494d808c722cf0f",
+          "bytes": 21089
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0425#1",
+          "locator": "Art. 1",
+          "text": "兹建立世界人工智能合作组织（以下简称“组织”）。组织为独立的政府间国际组织，被授予国际法律人格。 [The World AI Cooperation Organization is hereby established. It is an independent intergovernmental international organisation with international legal personality.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0425#2",
+          "locator": "Art. 3(1)(3), (5)",
+          "text": "加强人工智能发展战略、治理规则、技术标准的对接协调，开展沟通对话，建立政策共识，促进互操作性，分享最佳实践 … 加强人工智能全球治理，为联合国框架内的治理进程提供支持并与其加强协同 [coordinate AI development strategies, governance rules and technical standards, build policy consensus, promote interoperability, share best practice … strengthen global AI governance and support governance processes within the UN framework]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0425#3",
+          "locator": "Art. 3(2)",
+          "text": "组织职能仅限于人工智能民用领域。 [The Organization's functions are limited to the civilian domain of AI.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0425#4",
+          "locator": "Art. 5(2)",
+          "text": "组织总部设在中华人民共和国上海市。 [Headquarters in Shanghai, PRC.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0425#5",
+          "locator": "Art. 14(1)",
+          "text": "本协定于二〇二六年五月一日起开放签署至二〇二六年七月三十一日。 [Open for signature from 1 May 2026 to 31 July 2026.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0425#6",
+          "locator": "Art. 15(1)",
+          "text": "本协定应自第三份批准书、接受书或核准书交存之日起生效。 [Enters into force on deposit of the third instrument of ratification, acceptance or approval.]",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0426": {
+      "url": "https://elaw.klri.re.kr/kor_service/lawViewMultiContent.do?hseq=73499",
+      "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 (Framework Act on AI), as amended by Act No. 21311 — Korean/English parallel text, Korea Legislation Research Institute",
+      "publisher": "Korea Legislation Research Institute (KLRI)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2025-01-21",
+        "in_force": "2026-01-22"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:07:19Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://elaw.klri.re.kr/kor_service/lawViewMultiContent.do?hseq=73499",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "7b607050f4304ef0",
+          "bytes": 266834
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0426#1",
+          "locator": "Header",
+          "text": "신규제정 2025. 1. 21 법률 제 20676 호 개정 2026. 1. 20 법률 제 21311 호 [Enacted 21 Jan 2025, Act No. 20676; amended 20 Jan 2026, Act No. 21311]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0426#2",
+          "locator": "Addenda (Act No. 21311)",
+          "text": "이 법은 2026년 1월 22일부터 시행한다. [This Act takes effect on 22 January 2026.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0426#3",
+          "locator": "Art. 12(1)",
+          "text": "인공지능안전연구소(이하 \"안전연구소\"라 한다)를 운영할 수 있다. [may operate an AI Safety Research Institute]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0426#4",
+          "locator": "Art. 31(1)-(2)",
+          "text": "제품 또는 서비스가 해당 인공지능에 기반하여 운용된다는 사실을 이용자에게 사전에 고지하여야 한다. ② 인공지능사업자는 생성형 인공지능 또는 이를 이용한 제품 또는 서비스를 제공하는 경우 그 결과물이 생성형 인공지능에 의하여 생성되었다는 사실을 표시하여야 한다. [shall notify users in advance that the product or service runs on that AI. (2) Operators providing generative AI shall indicate that the output was generated by generative AI.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0426#5",
+          "locator": "Art. 32(1)-(2)",
+          "text": "학습에 사용된 누적 연산량이 대통령령으로 정하는 기준 이상인 인공지능시스템의 안전성을 확보하기 위하여 다음 각 호의 사항을 이행하여야 한다. 1. 인공지능 수명주기 전반에 걸친 위험의 식별ㆍ평가 및 완화 … ② 인공지능사업자는 제1항 각 호에 따른 사항의 이행 결과를 과학기술정보통신부장관에게 제출하여야 한다. [For systems above the decree's cumulative-compute threshold: 1. identify, assess and mitigate risks across the AI lifecycle … (2) submit the results to the Minister of Science and ICT.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0426#6",
+          "locator": "Art. 32(3)",
+          "text": "과학기술정보통신부장관은 제1항 각 호에 따른 사항의 구체적인 이행 방식 및 제2항에 따른 결과 제출 등에 필요한 사항을 정하여 고시하여야 한다. [The Minister of Science and ICT shall determine and publicly notify the specific implementation methods and the matters necessary for submitting results under paragraph 2.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0426#7",
+          "locator": "Art. 34(1)",
+          "text": "고영향 인공지능의 안전성ㆍ신뢰성을 확보하기 위하여 다음 각 호의 내용을 포함하는 조치를 대통령령으로 정하는 바에 따라 이행하여야 한다. 1. 위험관리방안의 수립ㆍ운영 2. 기술적으로 가능한 범위에서의 인공지능이 도출한 최종결과 [to ensure the safety and trustworthiness of high-impact AI, implement measures including: 1. establishing and operating risk management measures; 2. explanation, to the extent technically feasible, of final results …]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0426#8",
+          "locator": "Art. 43(1)",
+          "text": "다음 각 호의 어느 하나에 해당하는 자에게는 3천만원 이하의 과태료를 부과한다. [An administrative fine of up to KRW 30 million is imposed on any of the following.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0426#9",
+          "locator": "Arts. 32 and 34 (searched)",
+          "text": "[Observation, not a quotation] Searched Arts. 32 and 34 for 공정 (fairness): neither article mentions fairness; Art. 34 measures aim at 'safety and trustworthiness' (안전성ㆍ신뢰성) and include explanation, user protection, human oversight and documentation.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0427": {
+      "url": "https://elaw.klri.re.kr/kor_service/lawViewMultiContent.do?hseq=73696",
+      "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 시행령 (Enforcement Decree, Presidential Decree No. 36053) — Korean/English parallel text, KLRI",
+      "publisher": "Korea Legislation Research Institute (KLRI)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-01-21",
+        "in_force": "2026-01-22"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:07:24Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://elaw.klri.re.kr/kor_service/lawViewMultiContent.do?hseq=73696",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "28988acd4db2dd05",
+          "bytes": 213328
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0427#1",
+          "locator": "Art. 24(1)",
+          "text": "다음 각 호의 기준을 모두 충족하는 인공지능시스템을 말한다. 1. 학습에 사용된 누적 연산량이 10의 26승 부동소수점연산 이상일 것 2. 인공지능기술의 발전 수준을 고려할 때 현재 인공지능시스템에 활용되는 인공지능기술 중 최첨단의 인공지능기술을 적용하여 구성ㆍ운영되고 있을 것 [means a system meeting all of: 1. training compute ≥10^26 FLOPs; 2. built and operated with state-of-the-art AI technology …]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0427#2",
+          "locator": "Art. 24(2)",
+          "text": "제1항제1호에 따른 학습에 사용된 누적 연산량의 구체적인 산정 방식은 과학기술정보통신부장관이 정하여 고시한다. [The method of calculating cumulative training compute is set by MSIT public notice.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0427#3",
+          "locator": "Art. 24 (whole decree searched)",
+          "text": "[Observation, not a quotation] Art. 24 ('Obligation to ensure AI safety') defines only the covered systems and the compute-calculation notice; no decree article sets when or how often Art. 32 results are submitted to MSIT.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0428": {
+      "url": "https://aibasicact.kr/",
+      "title": "Korea AI Basic Act Explorer (current map link)",
+      "publisher": "Korea AISI and Future of Life Institute",
+      "type": "secondary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:07:29Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://aibasicact.kr/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "4499cec75ed22a01",
+          "bytes": 34587
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0428#1",
+          "locator": "Home page",
+          "text": "Explore the complete text in English and the original Korean, understand its principles, and learn how it will be implemented.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0429": {
+      "url": "https://github.com/buildwithwhy/ai-governance-map/tree/1cc3fdc",
+      "title": "Map repository at 1cc3fdc: layer membership and layer text (extract via tools/lib.js)",
+      "publisher": null,
+      "type": "repo",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:07:30Z",
+          "run": "2026-11-23-weekly",
+          "via": "repo working tree (extract written by tools/lib.js loadMap/buildInventory)",
+          "status": "ok",
+          "note": "copy saved by a research subagent",
+          "sha256": "dfce52c47022abe0",
+          "bytes": 5071
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0429#1",
+          "locator": "Layer 2 entries",
+          "text": "us-action (US AI Action Plan; pow 2; active)",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0429#2",
+          "locator": "Layer 4 entries",
+          "text": "eu-aio (EU AI Office; pow 4; active), uk-aisi (UK AISI; pow 2; active), caisi (US CAISI; pow 2; active), other-aisis (Other national AISIs; pow 2; active), metr (METR; pow 1; active), apollo (Apollo Research; pow 1; active), averi (AVERI; pow 1; active), cais (Center for AI Safety; pow 1; active), fsi (Frontier Security Institute; pow 1; active)",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0429#3",
+          "locator": "Layer 6 entries",
+          "text": "rsp (Anthropic RSP; pow 1; active), prep (OpenAI Preparedness; pow 1; active), fsf (GDM Frontier Safety Framework; pow 1; active), meta-faif (Meta Advanced AI Scaling Framework; pow 1; active), xai-rmf (xAI Frontier AI Framework; pow 1; active)",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0429#4",
+          "locator": "co-aia cov.mit",
+          "text": "SB 26-189 requires developer documentation, consumer notice, post-adverse-decision explanations and human review on request when automated decision-making technology is used in consequential decisions",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0430": {
+      "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+      "title": "New Australian AI safety and security protections (media release)",
+      "publisher": "Prime Minister of Australia",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-10"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:07:31Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "2bfca16318d04495",
+          "bytes": 36566
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0430#1",
+          "locator": "Para. 8",
+          "text": "strong mandatory safety and security protections will be legislated through the AI Standards and apply to all frontier AI companies that wish to operate in Australia.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0430#2",
+          "locator": "Para. 9-11",
+          "text": "The Government will propose these protections be enforced by a new targeted regulator for AI safety, which will work with the Australian AI Safety Institute … Allow independent evaluation of their models",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0430#3",
+          "locator": "Final para. before quotes",
+          "text": "Further details of the legislation will become available in due course as the Government completes its detailed work and consultation.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0431": {
+      "url": "https://www.mddi.gov.sg/newsroom/singapore-and-china-advance-digital-cooperation-at-3rd-singapore-china-digital-policy-dialogue/",
+      "title": "Singapore and China Advance Digital Cooperation at 3rd Singapore-China Digital Policy Dialogue",
+      "publisher": "Ministry of Digital Development and Information, Singapore",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-22"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:07:31Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.mddi.gov.sg/newsroom/singapore-and-china-advance-digital-cooperation-at-3rd-singapore-china-digital-policy-dialogue/",
+          "content_type": "text/html",
+          "sha256": "172f7d847682e16d",
+          "bytes": 406977
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0431#1",
+          "locator": "AI governance paragraph",
+          "text": "Singapore's Infocomm Media Development Authority (IMDA) and the China Academy of Information and Communications Technology (CAICT) completed a joint mapping of Singapore's AI Verify Testing Framework against CAICT's AI - Safety and Governance - Capability Requirements for System Risk Management Standard.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0432": {
+      "url": "https://www.mddi.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/",
+      "title": "MDDI-METI Joint Media Statement on US Interim Final Rule on Addressing Remote Access to Advanced Semiconductors",
+      "publisher": "Ministry of Digital Development and Information, Singapore",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-16"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:07:32Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.mddi.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/",
+          "content_type": "text/html",
+          "sha256": "c7b866b1c963a6cd",
+          "bytes": 381196
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0432#1",
+          "locator": "Para. 1",
+          "text": "Under the new rule, a licence will be required to export, re-export, or transfer (in-country) advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand, or Brazil.",
           "retrieved": "2026-11-23"
         }
       ]

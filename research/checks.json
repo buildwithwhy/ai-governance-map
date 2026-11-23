@@ -1104,46 +1104,32 @@
     },
     "entry:cn-ai-law:cov": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0049",
-          "S-0050",
           "S-0051",
-          "S-0052",
-          "S-0053",
-          "S-0057",
-          "S-0054",
-          "S-0056"
+          "S-0424"
         ],
-        "proposals": [
-          "P-0019"
-        ],
-        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "proposals": [],
+        "note": "Coverage set (acct, eval, mit, thresh), each saying no official draft defines the duty. Still accurate: AI legislation remains a preparatory item in the NPCSC 2026 plan; the State Council 2026 plan calls for accelerating 'comprehensive legislation'; the 25th NPCSC session (closing 6 Nov 2026) reviewed 10 drafts, none an AI law. An NDRC official's 3 Nov 2026 remark about accelerating a comprehensive AI law (secondary reports only) does not change this.",
         "missing": null,
         "hash": "40799a4adcc2"
       },
       "last_success": {
-        "run": "2026-10-10-trial1b",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0049",
-          "S-0050",
           "S-0051",
-          "S-0052",
-          "S-0053",
-          "S-0057",
-          "S-0054",
-          "S-0056"
+          "S-0424"
         ],
-        "proposals": [
-          "P-0019"
-        ],
-        "note": "Official NPC and State Council plans: AI legislation is an NPCSC preparatory item (2025, 2026) with no draft; the State Council, not the NPC plan, dropped the named draft in 2025. Link added. Missing-link investigation closed.",
+        "proposals": [],
+        "note": "Coverage set (acct, eval, mit, thresh), each saying no official draft defines the duty. Still accurate: AI legislation remains a preparatory item in the NPCSC 2026 plan; the State Council 2026 plan calls for accelerating 'comprehensive legislation'; the 25th NPCSC session (closing 6 Nov 2026) reviewed 10 drafts, none an AI law. An NDRC official's 3 Nov 2026 remark about accelerating a comprehensive AI law (secondary reports only) does not change this.",
         "missing": null,
         "hash": "40799a4adcc2"
       }
@@ -1936,64 +1922,56 @@
     },
     "text:layer-2:subtitle": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "3afb55ac7c31"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "3afb55ac7c31"
       }
     },
     "text:layer-2:tooltip": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "6c4786521ba4"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "6c4786521ba4"
       }
@@ -2074,28 +2052,40 @@
     },
     "gap:mit": {
       "last_attempt": {
-        "run": "2026-10-10-trial1b",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0006"
+          "S-0160",
+          "S-0429",
+          "S-0290",
+          "S-0006",
+          "S-0005"
         ],
-        "proposals": [],
-        "note": "'Anthropic's ASL deployment safeguards': v3.4 keeps ASL-3 protections for current models (§1 table, row 1). Only the Anthropic clause checked; the rest of the summary was not.",
+        "proposals": [
+          "P-0207"
+        ],
+        "note": "China clause (Arts. 4, 14) and Anthropic clause (RSP v3.4, still current, keeps ASL-3 protections) hold; 'anti-discrimination duties' still holds (GenAI Measures Art. 4(2)). The Colorado example is outdated: SB 26-189 replaces the algorithmic-discrimination regime with disclosure duties. See proposal.",
         "missing": null,
         "hash": "b03b668fd14f"
       },
       "last_success": {
-        "run": "2026-10-10-trial1b",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0006"
+          "S-0160",
+          "S-0429",
+          "S-0290",
+          "S-0006",
+          "S-0005"
         ],
-        "proposals": [],
-        "note": "'Anthropic's ASL deployment safeguards': v3.4 keeps ASL-3 protections for current models (§1 table, row 1). Only the Anthropic clause checked; the rest of the summary was not.",
+        "proposals": [
+          "P-0207"
+        ],
+        "note": "China clause (Arts. 4, 14) and Anthropic clause (RSP v3.4, still current, keeps ASL-3 protections) hold; 'anti-discrimination duties' still holds (GenAI Measures Art. 4(2)). The Colorado example is outdated: SB 26-189 replaces the algorithmic-discrimination regime with disclosure duties. See proposal.",
         "missing": null,
         "hash": "b03b668fd14f"
       }
@@ -13945,45 +13935,52 @@
     },
     "entry:cn-genai:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0290"
+          "S-0290",
+          "S-0291",
+          "S-0422",
+          "S-0423"
         ],
         "proposals": [],
-        "note": "Interim Measures, Order No. 15, in force 15 Aug 2023; binding, with enforcement provisions (Art. 21: penalties under existing laws, warnings, orders to correct, suspension). Enforcement practice is not separately evidenced.",
+        "note": "Order No. 15 (adopted 23 May 2023, in force 15 Aug 2023) is binding, with Art. 21 sanctions (warnings, correction orders, suspension). Coverage set: timing (Art. 17 assessment and filing), mit (Arts. 4(1), 7, 12, 14) and acct (filing; CAC filing lists, now to Attachment 14, Oct 2026; Art. 20 blocking) each have a textual basis. 'Active enforcement … services suspended': the CAC's own Jul 2026 campaign report says over 14,000 non-compliant AI products were dealt with and Beijing took down AI apps; CAC's Sep 2026 typical cases (Xinhua reprint) include a genAI service ordered offline and a warning under the Measures for a missing security assessment.",
         "missing": null,
         "hash": "d51e1c7c00c7"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0290"
+          "S-0290",
+          "S-0291",
+          "S-0422",
+          "S-0423"
         ],
         "proposals": [],
-        "note": "Interim Measures, Order No. 15, in force 15 Aug 2023; binding, with enforcement provisions (Art. 21: penalties under existing laws, warnings, orders to correct, suspension). Enforcement practice is not separately evidenced.",
+        "note": "Order No. 15 (adopted 23 May 2023, in force 15 Aug 2023) is binding, with Art. 21 sanctions (warnings, correction orders, suspension). Coverage set: timing (Art. 17 assessment and filing), mit (Arts. 4(1), 7, 12, 14) and acct (filing; CAC filing lists, now to Attachment 14, Oct 2026; Art. 20 blocking) each have a textual basis. 'Active enforcement … services suspended': the CAC's own Jul 2026 campaign report says over 14,000 non-compliant AI products were dealt with and Beijing took down AI apps; CAC's Sep 2026 typical cases (Xinhua reprint) include a genAI service ordered offline and a warning under the Measures for a missing security assessment.",
         "missing": null,
         "hash": "d51e1c7c00c7"
       }
     },
     "entry:cn-genai:context": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
           "S-0290",
-          "S-0362"
+          "S-0422",
+          "S-0423"
         ],
         "proposals": [],
-        "note": "Rules verified: Art. 17 assessment/filing scope, Art. 7 training data, Art. 4 and 14 content rules, Art. 12 labelling, Art. 20 blocking, Art. 21 suspension power. Active enforcement is shown by the CAC's 2025 campaign (3,500+ non-compliant AI products dealt with), but no inspected official source shows firms' services suspended under the Measures; 'as much through industrial policy as through fines' is analytic.",
-        "missing": "An official CAC (or provincial CAC) notice ordering named generative-AI services suspended under the Measures; the industrial-policy comparison is a comparative/analytic claim not verifiable from sources",
+        "note": "Factual core verified: Art. 17 assessment and filing limited to services with public-opinion or mobilisation capacity; Art. 7 lawful training data; Arts. 4 and 14 content moderation; Art. 20 blocking of non-compliant offshore services; active enforcement including take-downs and an order to go offline (CAC Jul 2026 campaign; Sep 2026 cases). The closing judgement that enforcement 'operates as much through industrial policy as through fines' is analytic; the cases seen use warnings, correction and take-down orders rather than fines, which is consistent but does not test the comparison.",
+        "missing": "comparative/analytic claim; not verifiable from sources",
         "hash": "a390342495cb"
       },
       "last_success": {
@@ -14035,34 +14032,36 @@
     },
     "entry:cn-genai:cov:mit": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
-        "outcome": "unresolved",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0290",
-          "S-0362"
+          "S-0291",
+          "S-0422",
+          "S-0423"
         ],
         "proposals": [],
-        "note": "Rules verified: Art. 17 assessment/filing scope, Art. 7 training data, Art. 4 and 14 content rules, Art. 12 labelling, Art. 20 blocking, Art. 21 suspension power. Active enforcement is shown by the CAC's 2025 campaign (3,500+ non-compliant AI products dealt with), but no inspected official source shows firms' services suspended under the Measures; 'as much through industrial policy as through fines' is analytic.",
-        "missing": "An official CAC (or provincial CAC) notice ordering named generative-AI services suspended under the Measures; the industrial-policy comparison is a comparative/analytic claim not verifiable from sources",
+        "note": "Order No. 15 (adopted 23 May 2023, in force 15 Aug 2023) is binding, with Art. 21 sanctions (warnings, correction orders, suspension). Coverage set: timing (Art. 17 assessment and filing), mit (Arts. 4(1), 7, 12, 14) and acct (filing; CAC filing lists, now to Attachment 14, Oct 2026; Art. 20 blocking) each have a textual basis. 'Active enforcement … services suspended': the CAC's own Jul 2026 campaign report says over 14,000 non-compliant AI products were dealt with and Beijing took down AI apps; CAC's Sep 2026 typical cases (Xinhua reprint) include a genAI service ordered offline and a warning under the Measures for a missing security assessment.",
+        "missing": null,
         "hash": "e00f908a2107"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0290",
-          "S-0291"
+          "S-0291",
+          "S-0422",
+          "S-0423"
         ],
-        "proposals": [
-          "P-0099"
-        ],
-        "note": "Art. 17 limits the security assessment and algorithm filing to services with public-opinion or mobilisation capacity. There is no training-data 'security assessment' and no licensed-intermediary rule in the Measures. The CAC publishes filings, not approvals.",
+        "proposals": [],
+        "note": "Order No. 15 (adopted 23 May 2023, in force 15 Aug 2023) is binding, with Art. 21 sanctions (warnings, correction orders, suspension). Coverage set: timing (Art. 17 assessment and filing), mit (Arts. 4(1), 7, 12, 14) and acct (filing; CAC filing lists, now to Attachment 14, Oct 2026; Art. 20 blocking) each have a textual basis. 'Active enforcement … services suspended': the CAC's own Jul 2026 campaign report says over 14,000 non-compliant AI products were dealt with and Beijing took down AI apps; CAC's Sep 2026 typical cases (Xinhua reprint) include a genAI service ordered offline and a warning under the Measures for a missing security assessment.",
         "missing": null,
-        "hash": "fbfaf5b1efa7"
+        "hash": "e00f908a2107"
       }
     },
     "entry:cn-genai:cov:acct": {
@@ -14097,30 +14096,34 @@
     },
     "entry:cn-genai:cov": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0290",
-          "S-0291"
+          "S-0291",
+          "S-0422",
+          "S-0423"
         ],
         "proposals": [],
-        "note": "acct (filing, published lists), mit (content rules, labelling, Arts. 4, 12, 14) and timing (Art. 17 assessment and filing) each have a basis in the text.",
+        "note": "Order No. 15 (adopted 23 May 2023, in force 15 Aug 2023) is binding, with Art. 21 sanctions (warnings, correction orders, suspension). Coverage set: timing (Art. 17 assessment and filing), mit (Arts. 4(1), 7, 12, 14) and acct (filing; CAC filing lists, now to Attachment 14, Oct 2026; Art. 20 blocking) each have a textual basis. 'Active enforcement … services suspended': the CAC's own Jul 2026 campaign report says over 14,000 non-compliant AI products were dealt with and Beijing took down AI apps; CAC's Sep 2026 typical cases (Xinhua reprint) include a genAI service ordered offline and a warning under the Measures for a missing security assessment.",
         "missing": null,
         "hash": "0c2f7bd0c8b7"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0290",
-          "S-0291"
+          "S-0291",
+          "S-0422",
+          "S-0423"
         ],
         "proposals": [],
-        "note": "acct (filing, published lists), mit (content rules, labelling, Arts. 4, 12, 14) and timing (Art. 17 assessment and filing) each have a basis in the text.",
+        "note": "Order No. 15 (adopted 23 May 2023, in force 15 Aug 2023) is binding, with Art. 21 sanctions (warnings, correction orders, suspension). Coverage set: timing (Art. 17 assessment and filing), mit (Arts. 4(1), 7, 12, 14) and acct (filing; CAC filing lists, now to Attachment 14, Oct 2026; Art. 20 blocking) each have a textual basis. 'Active enforcement … services suspended': the CAC's own Jul 2026 campaign report says over 14,000 non-compliant AI products were dealt with and Beijing took down AI apps; CAC's Sep 2026 typical cases (Xinhua reprint) include a genAI service ordered offline and a warning under the Measures for a missing security assessment.",
         "missing": null,
         "hash": "0c2f7bd0c8b7"
       }
@@ -14330,30 +14333,32 @@
     },
     "entry:kr-ai": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0293",
-          "S-0295"
+          "S-0426",
+          "S-0427",
+          "S-0428"
         ],
         "proposals": [],
-        "note": "Act in force 22 Jan 2026 with obligations and fines applying in stages in practice; pow 4 (administrative fines, Art. 43) and status phasing fit. The link is an explorer site produced by Korea AISI and the Future of Life Institute, with English and Korean text; the official text is on law.go.kr.",
+        "note": "KLRI parallel Korean/English text of the Framework Act as amended by Act No. 21311 (in force 22 Jan 2026). Meta: name matches KLRI's 'Framework Act'; L2, pow 4 (Art. 43 administrative fines up to KRW 30M), status phasing (staged start: some Act 21311 provisions six months after promulgation; MSIT fine deferral, see pending P-0182 for desc). Link aibasicact.kr is live and offers the full Korean and English text (secondary explorer; official text on law.go.kr, which reset every connection today). Coverage set: thresh (Decree Art. 24), eval (Arts. 32(1), 34(1)), timing (Art. 32(2)), mit (Art. 31), acct (Arts. 40, 43). mit note: Art. 31(1)-(3) prior notice, generative-output labelling and deepfake notice; the 'most concrete at the user-facing end' remark is consistent with Art. 31 being self-executing while Art. 34 measures await decree and notice.",
         "missing": null,
         "hash": "732fb4e7ae8f"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0293",
-          "S-0295"
+          "S-0426",
+          "S-0427",
+          "S-0428"
         ],
         "proposals": [],
-        "note": "Act in force 22 Jan 2026 with obligations and fines applying in stages in practice; pow 4 (administrative fines, Art. 43) and status phasing fit. The link is an explorer site produced by Korea AISI and the Future of Life Institute, with English and Korean text; the official text is on law.go.kr.",
+        "note": "KLRI parallel Korean/English text of the Framework Act as amended by Act No. 21311 (in force 22 Jan 2026). Meta: name matches KLRI's 'Framework Act'; L2, pow 4 (Art. 43 administrative fines up to KRW 30M), status phasing (staged start: some Act 21311 provisions six months after promulgation; MSIT fine deferral, see pending P-0182 for desc). Link aibasicact.kr is live and offers the full Korean and English text (secondary explorer; official text on law.go.kr, which reset every connection today). Coverage set: thresh (Decree Art. 24), eval (Arts. 32(1), 34(1)), timing (Art. 32(2)), mit (Art. 31), acct (Arts. 40, 43). mit note: Art. 31(1)-(3) prior notice, generative-output labelling and deepfake notice; the 'most concrete at the user-facing end' remark is consistent with Art. 31 being self-executing while Art. 34 measures await decree and notice.",
         "missing": null,
         "hash": "732fb4e7ae8f"
       }
@@ -14392,16 +14397,16 @@
     },
     "entry:kr-ai:context": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0293",
-          "S-0294"
+          "S-0426",
+          "S-0427"
         ],
         "proposals": [],
-        "note": "Facts verified in the current text (Act No. 21311, in force 21 Jul 2026): Art. 32 lifecycle risk management with results to MSIT; Decree Art. 24 three cumulative criteria (≥10^26 FLOPs, state of the art, broad serious risk); Art. 31(2) generative-AI labelling; Art. 12 Institute; Art. 43 KRW 30M cap. The comparison with Japan and the EU is analytic.",
+        "note": "Factual core verified: tiered duties for high-impact AI (Art. 34) and high-compute AI (Art. 32; Decree Art. 24: ≥10^26 FLOPs plus state-of-the-art and broad-serious-risk criteria, all required), risk management measures (Art. 34(1)1), results submitted to MSIT (Art. 32(2)), generative-AI labelling (Art. 31(2)), state AI Safety Research Institute (Art. 12), fine cap KRW 30M (Art. 43). 'Penalty caps are deliberately low … mirroring Japan's approach and contrasting with the EU's prescriptive route' is a comparative judgement.",
         "missing": "comparative/analytic claim; not verifiable from sources",
         "hash": "e46b2ed960c7"
       },
@@ -14458,44 +14463,48 @@
     },
     "entry:kr-ai:cov": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0293"
+          "S-0426",
+          "S-0427",
+          "S-0428"
         ],
         "proposals": [],
-        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "note": "KLRI parallel Korean/English text of the Framework Act as amended by Act No. 21311 (in force 22 Jan 2026). Meta: name matches KLRI's 'Framework Act'; L2, pow 4 (Art. 43 administrative fines up to KRW 30M), status phasing (staged start: some Act 21311 provisions six months after promulgation; MSIT fine deferral, see pending P-0182 for desc). Link aibasicact.kr is live and offers the full Korean and English text (secondary explorer; official text on law.go.kr, which reset every connection today). Coverage set: thresh (Decree Art. 24), eval (Arts. 32(1), 34(1)), timing (Art. 32(2)), mit (Art. 31), acct (Arts. 40, 43). mit note: Art. 31(1)-(3) prior notice, generative-output labelling and deepfake notice; the 'most concrete at the user-facing end' remark is consistent with Art. 31 being self-executing while Art. 34 measures await decree and notice.",
         "missing": null,
         "hash": "b8dc66a9e1bf"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0293"
+          "S-0426",
+          "S-0427",
+          "S-0428"
         ],
         "proposals": [],
-        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "note": "KLRI parallel Korean/English text of the Framework Act as amended by Act No. 21311 (in force 22 Jan 2026). Meta: name matches KLRI's 'Framework Act'; L2, pow 4 (Art. 43 administrative fines up to KRW 30M), status phasing (staged start: some Act 21311 provisions six months after promulgation; MSIT fine deferral, see pending P-0182 for desc). Link aibasicact.kr is live and offers the full Korean and English text (secondary explorer; official text on law.go.kr, which reset every connection today). Coverage set: thresh (Decree Art. 24), eval (Arts. 32(1), 34(1)), timing (Art. 32(2)), mit (Art. 31), acct (Arts. 40, 43). mit note: Art. 31(1)-(3) prior notice, generative-output labelling and deepfake notice; the 'most concrete at the user-facing end' remark is consistent with Art. 31 being self-executing while Art. 34 measures await decree and notice.",
         "missing": null,
         "hash": "b8dc66a9e1bf"
       }
     },
     "entry:kr-ai:cov:eval": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0293"
+          "S-0426"
         ],
         "proposals": [],
-        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
-        "missing": null,
+        "note": "Risk management measures for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute AI (Art. 32(1)1) support 'provider-led evaluations'. Art. 34 measures aim at safety and trustworthiness and include explanation (transparency); neither Art. 32 nor Art. 34 mentions fairness. Strictly, Art. 32 requires a risk management system (위험관리체계), not a 'plan'. 'Less prescriptive than the EU AI Act on methodology' is comparative.",
+        "missing": "comparative/analytic claim; not verifiable from sources. Also: a source for 'fairness' as an evaluation dimension (the MSIT notice under Art. 34(2), not retrieved) or a decision to drop the word.",
         "hash": "4ed113b4c0e4"
       },
       "last_success": {
@@ -14514,56 +14523,66 @@
     },
     "entry:kr-ai:cov:timing": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0293"
+          "S-0426",
+          "S-0427"
         ],
-        "proposals": [],
-        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "proposals": [
+          "P-0206"
+        ],
+        "note": "Art. 32(3) assigns submission details to an MSIT public notice; the Enforcement Decree sets no cadence. See proposal.",
         "missing": null,
         "hash": "0d1c4d32e252"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0293"
+          "S-0426",
+          "S-0427"
         ],
-        "proposals": [],
-        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "proposals": [
+          "P-0206"
+        ],
+        "note": "Art. 32(3) assigns submission details to an MSIT public notice; the Enforcement Decree sets no cadence. See proposal.",
         "missing": null,
         "hash": "0d1c4d32e252"
       }
     },
     "entry:kr-ai:cov:mit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0293"
+          "S-0426",
+          "S-0427",
+          "S-0428"
         ],
         "proposals": [],
-        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "note": "KLRI parallel Korean/English text of the Framework Act as amended by Act No. 21311 (in force 22 Jan 2026). Meta: name matches KLRI's 'Framework Act'; L2, pow 4 (Art. 43 administrative fines up to KRW 30M), status phasing (staged start: some Act 21311 provisions six months after promulgation; MSIT fine deferral, see pending P-0182 for desc). Link aibasicact.kr is live and offers the full Korean and English text (secondary explorer; official text on law.go.kr, which reset every connection today). Coverage set: thresh (Decree Art. 24), eval (Arts. 32(1), 34(1)), timing (Art. 32(2)), mit (Art. 31), acct (Arts. 40, 43). mit note: Art. 31(1)-(3) prior notice, generative-output labelling and deepfake notice; the 'most concrete at the user-facing end' remark is consistent with Art. 31 being self-executing while Art. 34 measures await decree and notice.",
         "missing": null,
         "hash": "99d38ade80b8"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0293"
+          "S-0426",
+          "S-0427",
+          "S-0428"
         ],
         "proposals": [],
-        "note": "eval: risk management plan for high-impact AI (Art. 34(1)1) and lifecycle risk identification, assessment and mitigation for high-compute systems (Art. 32(1)). timing: lifecycle-wide duties with results submitted to MSIT (Art. 32(2)); the submission details are set by MSIT notice (Art. 32(3)) rather than decree, a minor nuance. mit: prior notice and labelling of generative AI outputs (Art. 31). 'Less prescriptive/burdensome than the EU' remarks are analytic.",
+        "note": "KLRI parallel Korean/English text of the Framework Act as amended by Act No. 21311 (in force 22 Jan 2026). Meta: name matches KLRI's 'Framework Act'; L2, pow 4 (Art. 43 administrative fines up to KRW 30M), status phasing (staged start: some Act 21311 provisions six months after promulgation; MSIT fine deferral, see pending P-0182 for desc). Link aibasicact.kr is live and offers the full Korean and English text (secondary explorer; official text on law.go.kr, which reset every connection today). Coverage set: thresh (Decree Art. 24), eval (Arts. 32(1), 34(1)), timing (Art. 32(2)), mit (Art. 31), acct (Arts. 40, 43). mit note: Art. 31(1)-(3) prior notice, generative-output labelling and deepfake notice; the 'most concrete at the user-facing end' remark is consistent with Art. 31 being self-executing while Art. 34 measures await decree and notice.",
         "missing": null,
         "hash": "99d38ade80b8"
       }
@@ -14628,96 +14647,90 @@
     },
     "entry:jp-ai:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0296",
-          "S-0298",
-          "S-0297"
+          "S-0298"
         ],
         "proposals": [],
-        "note": "Enacted 28 May 2025 (promulgated 4 Jun 2025). No compute thresholds, mandatory testing or penalties appear in the Act. The AI Strategic HQ is placed in the Cabinet, with affairs handled by the Cabinet Office (Arts. 19, 26). Business duties are limited to cooperation (Art. 7) and government guidance or advice (Art. 16), consistent with 'no central regulator' and 'light-touch'.",
+        "note": "Act No. 53 of 2025 (current e-Gov text, no amendments): enacted 28 May 2025; no penalties, compute thresholds or mandatory testing (searched); business duty limited to cooperation (Art. 7); State guidance and advice (Art. 16); the Cabinet Office overview frames it as a new law alongside the Penal Code and sector business laws (sectoral, light-touch). AI Strategic HQ in the Cabinet, headed by the PM (Art. 19; overview) coordinates; no central regulator. Coverage set acct/mit each have a basis (Arts. 13, 16, 19). HQ placement wording in context is covered by pending P-0183.",
         "missing": null,
         "hash": "606217903670"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0296",
-          "S-0298",
-          "S-0297"
+          "S-0298"
         ],
         "proposals": [],
-        "note": "Enacted 28 May 2025 (promulgated 4 Jun 2025). No compute thresholds, mandatory testing or penalties appear in the Act. The AI Strategic HQ is placed in the Cabinet, with affairs handled by the Cabinet Office (Arts. 19, 26). Business duties are limited to cooperation (Art. 7) and government guidance or advice (Art. 16), consistent with 'no central regulator' and 'light-touch'.",
+        "note": "Act No. 53 of 2025 (current e-Gov text, no amendments): enacted 28 May 2025; no penalties, compute thresholds or mandatory testing (searched); business duty limited to cooperation (Art. 7); State guidance and advice (Art. 16); the Cabinet Office overview frames it as a new law alongside the Penal Code and sector business laws (sectoral, light-touch). AI Strategic HQ in the Cabinet, headed by the PM (Art. 19; overview) coordinates; no central regulator. Coverage set acct/mit each have a basis (Arts. 13, 16, 19). HQ placement wording in context is covered by pending P-0183.",
         "missing": null,
         "hash": "606217903670"
       }
     },
     "entry:jp-ai:cov": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0296",
-          "S-0298",
-          "S-0297"
+          "S-0298"
         ],
         "proposals": [],
-        "note": "Enacted 28 May 2025 (promulgated 4 Jun 2025). No compute thresholds, mandatory testing or penalties appear in the Act. The AI Strategic HQ is placed in the Cabinet, with affairs handled by the Cabinet Office (Arts. 19, 26). Business duties are limited to cooperation (Art. 7) and government guidance or advice (Art. 16), consistent with 'no central regulator' and 'light-touch'.",
+        "note": "Act No. 53 of 2025 (current e-Gov text, no amendments): enacted 28 May 2025; no penalties, compute thresholds or mandatory testing (searched); business duty limited to cooperation (Art. 7); State guidance and advice (Art. 16); the Cabinet Office overview frames it as a new law alongside the Penal Code and sector business laws (sectoral, light-touch). AI Strategic HQ in the Cabinet, headed by the PM (Art. 19; overview) coordinates; no central regulator. Coverage set acct/mit each have a basis (Arts. 13, 16, 19). HQ placement wording in context is covered by pending P-0183.",
         "missing": null,
         "hash": "f2c1e9b2c10d"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0296",
-          "S-0298",
-          "S-0297"
+          "S-0298"
         ],
         "proposals": [],
-        "note": "Enacted 28 May 2025 (promulgated 4 Jun 2025). No compute thresholds, mandatory testing or penalties appear in the Act. The AI Strategic HQ is placed in the Cabinet, with affairs handled by the Cabinet Office (Arts. 19, 26). Business duties are limited to cooperation (Art. 7) and government guidance or advice (Art. 16), consistent with 'no central regulator' and 'light-touch'.",
+        "note": "Act No. 53 of 2025 (current e-Gov text, no amendments): enacted 28 May 2025; no penalties, compute thresholds or mandatory testing (searched); business duty limited to cooperation (Art. 7); State guidance and advice (Art. 16); the Cabinet Office overview frames it as a new law alongside the Penal Code and sector business laws (sectoral, light-touch). AI Strategic HQ in the Cabinet, headed by the PM (Art. 19; overview) coordinates; no central regulator. Coverage set acct/mit each have a basis (Arts. 13, 16, 19). HQ placement wording in context is covered by pending P-0183.",
         "missing": null,
         "hash": "f2c1e9b2c10d"
       }
     },
     "entry:jp-ai:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0296",
-          "S-0298",
-          "S-0297"
+          "S-0298"
         ],
         "proposals": [],
-        "note": "Enacted 28 May 2025 (promulgated 4 Jun 2025). No compute thresholds, mandatory testing or penalties appear in the Act. The AI Strategic HQ is placed in the Cabinet, with affairs handled by the Cabinet Office (Arts. 19, 26). Business duties are limited to cooperation (Art. 7) and government guidance or advice (Art. 16), consistent with 'no central regulator' and 'light-touch'.",
+        "note": "Act No. 53 of 2025 (current e-Gov text, no amendments): enacted 28 May 2025; no penalties, compute thresholds or mandatory testing (searched); business duty limited to cooperation (Art. 7); State guidance and advice (Art. 16); the Cabinet Office overview frames it as a new law alongside the Penal Code and sector business laws (sectoral, light-touch). AI Strategic HQ in the Cabinet, headed by the PM (Art. 19; overview) coordinates; no central regulator. Coverage set acct/mit each have a basis (Arts. 13, 16, 19). HQ placement wording in context is covered by pending P-0183.",
         "missing": null,
         "hash": "a6cf89732201"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0296",
-          "S-0298",
-          "S-0297"
+          "S-0298"
         ],
         "proposals": [],
-        "note": "Enacted 28 May 2025 (promulgated 4 Jun 2025). No compute thresholds, mandatory testing or penalties appear in the Act. The AI Strategic HQ is placed in the Cabinet, with affairs handled by the Cabinet Office (Arts. 19, 26). Business duties are limited to cooperation (Art. 7) and government guidance or advice (Art. 16), consistent with 'no central regulator' and 'light-touch'.",
+        "note": "Act No. 53 of 2025 (current e-Gov text, no amendments): enacted 28 May 2025; no penalties, compute thresholds or mandatory testing (searched); business duty limited to cooperation (Art. 7); State guidance and advice (Art. 16); the Cabinet Office overview frames it as a new law alongside the Penal Code and sector business laws (sectoral, light-touch). AI Strategic HQ in the Cabinet, headed by the PM (Art. 19; overview) coordinates; no central regulator. Coverage set acct/mit each have a basis (Arts. 13, 16, 19). HQ placement wording in context is covered by pending P-0183.",
         "missing": null,
         "hash": "a6cf89732201"
       }
@@ -15288,256 +15301,224 @@
     },
     "text:layer-1:tooltip": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "e06e77604114"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "e06e77604114"
       }
     },
     "text:layer-1:subtitle": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "ff873c63d5f8"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "ff873c63d5f8"
       }
     },
     "text:layer-3:subtitle": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "2948fe4e85cd"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "2948fe4e85cd"
       }
     },
     "text:layer-4:tooltip": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "5734dad94d01"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "5734dad94d01"
       }
     },
     "text:layer-4:subtitle": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "b3067a861e76"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "b3067a861e76"
       }
     },
     "text:layer-5:tooltip": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "31a91e418798"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "31a91e418798"
       }
     },
     "text:layer-5:subtitle": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "993395ce1d53"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "993395ce1d53"
       }
     },
     "text:layer-6:subtitle": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "8db319a5a1ee"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
-        "scope": "external",
+        "scope": "internal",
         "sources": [
-          "S-0027",
-          "S-0124",
-          "S-0139"
+          "S-0429"
         ],
         "proposals": [],
-        "note": "Internal: layer descriptions match RUBRIC §2 and the entries in each layer; L1 includes a treaty (S-0139#1) and the AISI Network of national institutes (S-0124#2; name question P-0046); L4 tooltip names only L4 entries (ICO rename P-0079 and CAISSI P-0069 do not affect it; NIST AI RMF is in L4 but unnamed, not an error). Layer subtitles are framing.",
+        "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
         "missing": null,
         "hash": "8db319a5a1ee"
       }

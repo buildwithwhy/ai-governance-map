@@ -362,6 +362,120 @@
           ]
         }
       ]
+    },
+    {
+      "area": "B1 national discovery: China, South Korea, Japan, Singapore, Australia (since 2026-11-16)",
+      "summary": "Two significant finds. Australia's PM announced on 10 Nov 2026 mandatory frontier-AI safety and security obligations (security controls, risk management, independent evaluation, incident notification, published frameworks) to be legislated in 'Australian AI Standards' legislation with a new AI-safety regulator; no bill or exposure draft yet, so it does not meet RUBRIC §1 and is logged, not drafted. China ratified the agreement establishing the World AI Cooperation Organization at the NPCSC session closing 6 Nov (missed by the 16 Nov run); raised as question waico-flag (recommended: wait until in force). No AI law draft at the NPCSC; CAC filing lists extended to Oct 2026; CAC enforcement of the GenAI Measures documented. Korea's MSIT notice implementing the Art. 32 safety duty remains unconfirmed (Korean government sites reset). Nothing new in Japan since 26 Oct (Cabinet Office) / 6 Oct (J-AISI outputs). Singapore: IMDA–CAICT framework mapping (screened out); MDDI's statement on a 16 Nov US BIS interim final rule is relevant to the bis entry.",
+      "queries": [
+        "网信办 生成式人工智能 责令暂停 服务 处置 未备案 2026",
+        "China AI law draft NPC Standing Committee November 2026",
+        "国家发展改革委 新闻发布会 11月 人工智能 基础性综合性立法 加快 2026",
+        "cac.gov.cn 国家网信办发布近期网络安全等领域执法典型案例 API中转站 安全评估 2026年9月",
+        "npc.gov.cn homepage and flcaw draft-law page (read directly)",
+        "cac.gov.cn filing announcement page (read directly)",
+        "인공지능기본법 개정안 국회 통과 11월 2026",
+        "과학기술정보통신부 고시 인공지능 안전성 확보 의무 이행 결과 제출 고시 제2026",
+        "\"인공지능 안전성 확보 의무 이행방법에 관한 고시\" 행정예고 과학기술정보통신부",
+        "과기정통부 인공지능 안전성 확보 의무 고시 확정 시행 2026년 11월",
+        "elaw.klri.re.kr Framework Act on the Development of Artificial Intelligence Establishment of Foundation for Trustworthiness",
+        "Japan AI Strategic Headquarters November 2026 AI Safety Institute frontier AI evaluation guideline",
+        "www8.cao.go.jp/cstp/ai and aisi.go.jp (read directly)",
+        "Singapore IMDA AI governance November 2026 announcement frontier model",
+        "mddi.gov.sg/newsroom (read directly, items 13–22 Nov)",
+        "Australia AI Safety Institute November 2026 legislation mandatory guardrails eSafety AI chatbot",
+        "pm.gov.au media release (read directly)"
+      ],
+      "limits": "law.go.kr, likms.assembly.go.kr, open.assembly.go.kr and msit.go.kr reset every connection (curl and headless Chromium); the Korean Act and Decree were read from KLRI's official parallel texts instead. BSA's comment on the draft MSIT notice returned 403. The NDRC transcript segment fetched does not contain the AI-law remark; that lead rests on secondary reports. Australian department, AISI and eSafety sites were not retried; pm.gov.au was reachable. Search results used only as leads.",
+      "candidates": [
+        {
+          "name": "Australia: mandatory frontier-AI safety and security protections in 'Australian AI Standards' legislation, enforced by a new AI-safety regulator (PM media release, 10 Nov 2026)",
+          "result": "screened out",
+          "reason": "Announcement of intent; the release says details of the legislation will follow after consultation, so no public text or consultation yet (RUBRIC §1). Highly significant: obligations mirror SB 53/RAISE (frameworks, incident notification, independent evaluation) and would apply to all frontier AI companies operating in Australia. Revisit at exposure draft or bill; would be a new L2 entry plus possibly an L4 regulator. The release also refers to an operating 'Australian AI Safety Institute' (other-aisis lists Australia).",
+          "sources": [
+            "S-0430"
+          ]
+        },
+        {
+          "name": "World AI Cooperation Organization: founding agreement ratified by China (NPCSC 25th session, closing 6 Nov 2026)",
+          "result": "proposed",
+          "reason": "Intergovernmental AI organisation (Shanghai HQ) coordinating governance rules and standards; not in force until the third ratification. Question drafted; recommended wait.",
+          "proposal": "P-0208",
+          "sources": [
+            "S-0425",
+            "S-0424"
+          ]
+        },
+        {
+          "name": "China AI Law: any draft submitted to the NPCSC",
+          "result": "screened out",
+          "reason": "The 25th session (closing 6 Nov 2026) reviewed 10 drafts, none an AI law; the 2026 plans still list it as preparatory / to be accelerated. Consistent with cn-ai-law.",
+          "sources": [
+            "S-0424",
+            "S-0049",
+            "S-0051"
+          ]
+        },
+        {
+          "name": "NDRC press conference, 3 Nov 2026: 'accelerate basic, comprehensive AI legislation'; AI regulatory sandboxes",
+          "result": "screened out",
+          "reason": "Statement of policy direction with no draft or timetable; known only from secondary reports (the official transcript segment retrieved does not contain it). Could later bear on cn-ai-law context (drafting lead), which is outside this group.",
+          "sources": []
+        },
+        {
+          "name": "CAC generative AI filing list, Attachment 14 (Oct 2026)",
+          "result": "update to existing entry",
+          "reason": "Routine publication confirming the filing system cited in cn-genai acct; no edit needed.",
+          "sources": [
+            "S-0291"
+          ]
+        },
+        {
+          "name": "CAC 'Qinglang' campaign on AI application abuses (phase 1 results 6 Jul 2026) and Sep 2026 typical enforcement cases",
+          "result": "update to existing entry",
+          "reason": "Evidence of enforcement of the GenAI Measures (take-downs, an order offline, a warning for a missing security assessment); supports cn-genai as written; no new mechanism.",
+          "sources": [
+            "S-0422",
+            "S-0423"
+          ]
+        },
+        {
+          "name": "Korea: MSIT notice on implementing the Art. 32 AI safety duty (administrative notice reported Jul 2026; industry comments Aug 2026)",
+          "result": "lead — source inaccessible",
+          "reason": "Would set who must submit, how compute is counted and a reported three-month reporting deadline; finalisation unconfirmed. msit.go.kr and law.go.kr reset; BSA comment 403. Related proposal kr-timing does not depend on it.",
+          "sources": []
+        },
+        {
+          "name": "Korea: AI Basic Act amendment bill No. 2219835 (Jul 2026; labelling exceptions)",
+          "result": "screened out",
+          "reason": "Referred to committee 9 Jul 2026 per search lead; no passage found; National Assembly sites unreachable.",
+          "sources": []
+        },
+        {
+          "name": "Japan: new AI Strategic HQ or J-AISI instruments since 16 Nov",
+          "result": "screened out",
+          "reason": "Cabinet Office AI page's newest item is the 26 Oct expert panel; J-AISI's newest output is the 6 Oct Vision Paper 2.0 (only news digests since). P-0178 (AI Basic Plan) pending.",
+          "sources": [
+            "S-0394",
+            "S-0187"
+          ]
+        },
+        {
+          "name": "Singapore: IMDA–CAICT mapping of AI Verify against CAICT's system-risk-management standard (21–22 Nov 2026)",
+          "result": "screened out",
+          "reason": "Interoperability crosswalk between existing voluntary frameworks; no new mechanism.",
+          "sources": [
+            "S-0431"
+          ]
+        },
+        {
+          "name": "US BIS interim final rule of 16 Nov 2026: licence requirement for advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand and Brazil (via MDDI-METI statement)",
+          "result": "update to existing entry",
+          "reason": "Bears on the bis entry (compute controls; another group's slice). Only Singapore's statement was read; the BIS rule itself was not opened. Pass to the B3 compute-controls reviewer.",
+          "sources": [
+            "S-0432"
+          ]
+        }
+      ]
     }
   ],
   "usage": null
