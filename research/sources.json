@@ -4392,6 +4392,14 @@
           "content_type": "text/html",
           "sha256": "8fd903c6a2eea148",
           "bytes": 53974
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:52:04Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "error",
+          "error": "curl: (35) Recv failure: Connection reset by peer"
         }
       ],
       "passages": [
@@ -4712,6 +4720,18 @@
           "date": "2026-11-16",
           "at": "2026-11-16T04:52:17Z",
           "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/c2/c30834/202601/W020260105533918736222.pdf",
+          "content_type": "application/pdf",
+          "sha256": "35d226b3a46fd515",
+          "bytes": 413856
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:56Z",
+          "run": "2026-11-23-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
