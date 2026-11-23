@@ -1,5 +1,5 @@
 {
-  "next": 402,
+  "next": 414,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -889,6 +889,12 @@
           "locator": "Header",
           "text": "Last updated Aug 14, 2026",
           "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0005#26",
+          "locator": "Version list",
+          "text": "Version 3.4 and redline (effective July 8, 2026)",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -29501,6 +29507,12 @@
           "locator": "Title block",
           "text": "xAI Frontier Artificial Intelligence Framework Effective Date: 30 June 2026",
           "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0307#29",
+          "locator": "Cover",
+          "text": "Effective Date: 30 June 2026",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -34361,6 +34373,520 @@
           "locator": "Entity data (observation)",
           "text": "[Observation, not a quotation] [Observation, not a quotation] In the map's data, eu-aia, cn-genai and kr-ai are layer 2; eu-aio, uk-aisi, caisi (name 'US CAISI'), metr, apollo and averi are layer 4, matching the FAQ's Layer 2 and Layer 4 examples.",
           "retrieved": "2026-11-16"
+        }
+      ]
+    },
+    "S-0402": {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf",
+      "title": "Addressing Remote Access to Advanced Semiconductors (interim final rule, 91 FR 74970)",
+      "publisher": "Bureau of Industry and Security, US Department of Commerce (Federal Register)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-19",
+        "effective": "2026-11-19"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:02:19Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf",
+          "content_type": "application/pdf",
+          "sha256": "ae455160b91d3fb2",
+          "bytes": 433941
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0402#1",
+          "locator": "SUMMARY, para. 1",
+          "text": "First, this rule establishes new restrictions which will apply for exports, reexports, or transfers (in-country) to overseas data centers that remotely supply significant volumes of compute to companies headquartered in Country Group D:5 or Macau.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0402#2",
+          "locator": "SUMMARY, final sentences",
+          "text": "Finally, the IFR formally rescinds the regulations implementing the Biden-era AI Diffusion Rule. The AI Diffusion Rule has never been enforced.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0402#3",
+          "locator": "SUMMARY (\"Second, …\")",
+          "text": "a license will be required to export, reexport, or transfer (in-country) advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand, or Brazil",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0402#4",
+          "locator": "DATES",
+          "text": "Effective date: This rule is effective November 19, 2026. Comment due date: Comments on the revisions and additions in this rule must be received by BIS no later than January 19, 2027.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0402#5",
+          "locator": "IV.A Revoking Model Weights Controls",
+          "text": "This IFR revokes the controls on model weights published in the AI Diffusion Rule. … Accordingly, ECCN 4E091 is removed from the CCL in supplement no. 1 to part 774.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0402#6",
+          "locator": "IV.B Removing Country Tiers, Data Center VEUs, and Related Regulatory Language",
+          "text": "This IFR revokes the tiers of countries created in the AI Diffusion Rule",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0402#7",
+          "locator": "Background on the data-centre end-use control",
+          "text": "Macau, the People’s Republic of China (PRC), or other Country Group D:5 headquartered entities setting up cloud servers or data centers in other countries",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0403": {
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+      "title": "Our first phase of embedded assessments",
+      "publisher": "OpenAI",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-16"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:02:22Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "f97e7a4f664d59f9",
+          "bytes": 447290
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0403#1",
+          "locator": "Introduction",
+          "text": "We have signed agreements with four independent assessors—Apollo Research, METR, Transluce, and Goodfire—for our first phase of embedded assessments.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0403#2",
+          "locator": "Introduction",
+          "text": "assessors receive access to some of the same internal resources our researchers use, including model checkpoints, source code, training and evaluation data, monitoring systems, technical documentation, and discussions with the researchers and engineers responsible for the work.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0403#3",
+          "locator": "Introduction",
+          "text": "These efforts also support our commitments under the White House Accord on Super Intelligence, where we agreed to independent assessments of our safety controls.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0403#4",
+          "locator": "Protocols — Oversight and dispute resolution",
+          "text": "They will receive unredacted reports, and both the assessors and the SSC will be able to speak with each other during the assessment, including privately.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0403#5",
+          "locator": "Protocols — Oversight and dispute resolution",
+          "text": "If a disagreement remains, the matter will be referred to the SSC for resolution.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0403#6",
+          "locator": "Protocols — Publication and responsible disclosure periods",
+          "text": "Assessors maintain independence in publishing their assessments, but we will retain the right to redact confidential information, consistent with our previous third-party engagements. We may also request responsible disclosure delays",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0404": {
+      "url": "https://www.apolloresearch.ai/blog/pilot-towards-embedded-evaluations",
+      "title": "A Pilot Towards Embedded Evaluations",
+      "publisher": "Apollo Research",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-16"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:02:22Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.apolloresearch.ai/blog/pilot-towards-embedded-evaluations",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "6115ffe1ab9db52c",
+          "bytes": 214145
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0404#1",
+          "locator": "Opening paragraph",
+          "text": "As part of this pilot, a team of six from Apollo Research will work within OpenAI for four months, assessing the alignment of models throughout training, evaluations, and internal deployment with scoped rules of access.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0404#2",
+          "locator": "Disclosure rules of this pilot",
+          "text": "Apollo Research will publish two reports setting out the findings, methods, and limitations of the assessments.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0404#3",
+          "locator": "Disclosure rules of this pilot",
+          "text": "OpenAI may not redact Apollo Research’s verdicts for each claim and OpenAI may not request redactions merely because a finding is unfavorable.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0404#4",
+          "locator": "Embedded evaluations will require Access, Disclosure and Meta-Transparency",
+          "text": "This pilot is an ambitious first step towards deeper access and disclosure rights , even if it doesn’t yet fulfill the criteria above.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0405": {
+      "url": "https://openai.com/index/managing-frontier-ai-risk/",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "publisher": "OpenAI",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-18"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:02:22Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://openai.com/index/managing-frontier-ai-risk/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "1bc65b97a6b0d096",
+          "bytes": 528306
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0405#1",
+          "locator": "Introduction",
+          "text": "We evaluate both models and safeguards at each stage, requiring a safety review to advance to the next stage.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0405#2",
+          "locator": "Defense in depth across the model lifecycle",
+          "text": "Research: We train, test, and use models in sandboxed environments. Internal deployment: OpenAI employees use models for practical work. External deployment: Models become available to people and organizations more broadly.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0405#3",
+          "locator": "Defense in depth across the model lifecycle",
+          "text": "Our determinations may be reviewed with our Safety Advisory Group (SAG) and overseen by the Safety and Security Committee (SSC) of the OpenAI Foundation’s Board of Directors.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0405#4",
+          "locator": "Closing paragraph",
+          "text": "When that evidence falls short of the bar we hold for safety, we will again pause training or withhold release until those requirements are met.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0405#5",
+          "locator": "Introduction",
+          "text": "We are pacing the development and release of our models, including pausing internal training … or holding back models like GPT‑6.1 Astra when we need more time to meet our safety standards.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0406": {
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "publisher": "OpenAI",
+      "type": "primary",
+      "dates": {
+        "published": "2026-08-18"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:02:23Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "b54746103b8bc376",
+          "bytes": 399660
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0406#1",
+          "locator": "Introduction",
+          "text": "This included a two-week pause in reinforcement learning (RL) training on our latest models intended for deployment while we further hardened and red-teamed our research environments and expanded the coverage of our monitoring systems.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0406#2",
+          "locator": "Introduction",
+          "text": "Our largest planned frontier RL run remains on hold while we conduct smaller-scale training and evaluations to assess model behavior, validate our safeguards, and establish more evidence of alignment before proceeding.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0406#3",
+          "locator": "Introduction",
+          "text": "The signals we are seeing from upcoming model progress make clear that we need a broader approach—one that builds on and extends beyond the current Preparedness Framework.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0407": {
+      "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+      "title": "Model misalignment reporting framework",
+      "publisher": "OpenAI",
+      "type": "primary",
+      "dates": {
+        "published": "2026-09-16"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:02:23Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://openai.com/index/model-misalignment-reporting-framework/",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "f0d51c5e053b18bd",
+          "bytes": 412539
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0407#1",
+          "locator": "Disclosure decisions",
+          "text": "Unresolved disagreements about disclosure or the appropriate track will be referred to OpenAI’s Safety Advisory Group (SAG), a group of senior officials from across the company that assesses frontier model capabilities and safeguards, oversees our Preparedness Framework , and advises OpenAI leadership.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0408": {
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/10/paris-call-for-ai-safety-and-security",
+      "title": "Paris Call for AI safety and security",
+      "publisher": "Élysée (Presidency of the French Republic)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-09",
+        "adopted": "2026-11-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:02:23Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/10/paris-call-for-ai-safety-and-security",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "6694a5df5971dc60",
+          "bytes": 178066
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0408#1",
+          "locator": "Signatories paragraph",
+          "text": "The declaration has been signed on Monday 9 November 2026 by the following Heads of States and Governments and CEOs: Heads of States and Governments: Austria, Bahrain, Canada, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Ireland, Kenya, Latvia, Liechtenstein, Luxembourg, Netherlands, Norway, Portugal, Spain.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0408#2",
+          "locator": "Signatories paragraph",
+          "text": "Companies: Anthropic, Black Forest Labs, Cohere, Domyn, Hugging Face, Microsoft, Mistral AI, OpenAI, Sakana AI, Synthesia, Credo AI.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0408#3",
+          "locator": "Signatories paragraph",
+          "text": "The statement remains open to new endorsements and is being updated.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0408#4",
+          "locator": "Second commitment — Developers of frontier models",
+          "text": "Developers also commit to implement fail-safe mechanisms to shut down model operations within their control, including during training and internal use (e.g. restrictions, pauses or shutdowns)",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0409": {
+      "url": "https://malegislature.gov/Bills/194/H5576",
+      "title": "Bill H.5576 (194th General Court) — bill history",
+      "publisher": "Massachusetts Legislature",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:02:24Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://malegislature.gov/Bills/194/H5576",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "35e1df18672311b1",
+          "bytes": 91069
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0409#1",
+          "locator": "Bill History, 7/30/2026 entries",
+          "text": "House NON-concurred in the Senate amendment 7/30/2026 House Committee of conference appointed - (Michlewitz-Fiola-Soter)",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0409#2",
+          "locator": "Bill History (17 actions)",
+          "text": "[Observation, not a quotation] Observation: the bill history, retrieved 23 Nov 2026, lists 17 actions ending with the Senate appointing its conference committee on 7/30/2026; no conference report, enactment or governor action is listed.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0410": {
+      "url": "https://digital-strategy.ec.europa.eu/en/news/ai-board-holds-its-tenth-meeting",
+      "title": "AI Board holds its tenth meeting",
+      "publisher": "European Commission",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-20"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:02:26Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/news/ai-board-holds-its-tenth-meeting",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "e3fcfff06a158cc3",
+          "bytes": 48885
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0410#1",
+          "locator": "Topics discussed, final paragraph",
+          "text": "New Rules of Procedure for the AI Board were endorsed during the meeting. Notable changes include the chairmanship model of the AI Board, where the appointment of the Chair of the AI Board will be decided via election with an appointment for a two-year period.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0411": {
+      "url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-joint-statement-html",
+      "title": "UK-EU Summit 2026 Joint Statement",
+      "publisher": "UK Government",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-20"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:02:27Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-joint-statement-html",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "fc58926669e0091b",
+          "bytes": 139927
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0411#1",
+          "locator": "Para. 54",
+          "text": "We intend to launch an EU-UK Digital Partnership early next year to enhance cooperation on digital and technology matters, in areas that could cover secure and resilient connectivity, artificial intelligence, including AI security and safety",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0412": {
+      "url": "https://www.itu.int/hub/2026/11/the-next-chapter-for-ai-in-geneva/",
+      "title": "The next chapter for AI in Geneva",
+      "publisher": "ITU",
+      "type": "secondary",
+      "dates": {
+        "published": "2026-11-18"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:02:27Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.itu.int/hub/2026/11/the-next-chapter-for-ai-in-geneva/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "e32100e8d959e1c3",
+          "bytes": 261465
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0412#1",
+          "locator": "Para. 2",
+          "text": "The Geneva AI Summit , on 21-22 June 2027, will build on the UK’s AI safety talks at Bletchley Park and subsequent global AI summits since 2023.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0413": {
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "title": "Quad Leaders’ Summit Joint Press Release",
+      "publisher": "The White House",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:02:28Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "2ac4dab22ad5a409",
+          "bytes": 267677
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0413#1",
+          "locator": "Body",
+          "text": "The Accelerator is intended to coordinate and fund efforts to support trusted Super Intelligence (SI)* access, deployment, and technical assistance across the Indo-Pacific.",
+          "retrieved": "2026-11-23"
         }
       ]
     }

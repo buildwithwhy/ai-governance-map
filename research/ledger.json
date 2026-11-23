@@ -1,5 +1,5 @@
 {
-  "next": 202,
+  "next": 205,
   "proposals": [
     {
       "id": "P-0001",
@@ -22181,6 +22181,406 @@
           "P-0181"
         ],
         "updated": "2026-11-16"
+      }
+    },
+    {
+      "id": "P-0202",
+      "fingerprint": "7fd3311be0b6",
+      "targets": [
+        "entry:bis:desc",
+        "entry:bis:context",
+        "entry:bis:cov:thresh"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-23T05:02:40Z",
+          "run": "2026-11-23-weekly",
+          "author": "claude",
+          "title": "BIS: the AI Diffusion Rule was formally rescinded on 19 Nov 2026 by an interim final rule that adds remote-access (data-centre) and five-country licence requirements",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "bis",
+              "field": "desc",
+              "from": "Bureau of Industry and Security chip export rules (2022, 2023, 2024). The Jan 2025 AI Diffusion Rule (country tiers, model-weight controls) has not been enforced since May 2025; a Jan 2026 rule moved licences for H200-class chips to China to case-by-case review. Most consequential single piece — shapes who can train at the frontier.",
+              "to": "Bureau of Industry and Security chip export rules (2022, 2023, 2024). The Jan 2025 AI Diffusion Rule (country tiers, model-weight controls) was never enforced and was formally rescinded by an interim final rule effective Nov 19, 2026; a Jan 2026 rule moved licences for H200-class chips to China to case-by-case review. Most consequential single piece — shapes who can train at the frontier."
+            },
+            {
+              "op": "set_field",
+              "entity": "bis",
+              "field": "context",
+              "from": "Successive rules tightened export-licence requirements for advanced compute (GPUs, fabrication tools, lithography) to China and other concerns; the Dec 2024 update added controls on high-bandwidth memory and chipmaking equipment. The Jan 2025 AI Diffusion Rule added country tiers and a licence requirement for closed model weights trained on more than 10²⁶ operations, but BIS stopped enforcing it in May 2025 and said it would rescind and replace it. May 31, 2026 guidance closed a key loophole by confirming the ultimate-parent-company test applies — any subsidiary worldwide whose ultimate parent is in the restricted countries list needs a US license. Operates outside the safety-regulation framing — its lever is who can build frontier models at all, not what they must do once built. The single most consequential piece of US AI policy by impact, even though it isn't framed as 'AI regulation.'",
+              "to": "Successive rules tightened export-licence requirements for advanced compute (GPUs, fabrication tools, lithography) to China and other concerns; the Dec 2024 update added controls on high-bandwidth memory and chipmaking equipment. The Jan 2025 AI Diffusion Rule added country tiers and a licence requirement for closed model weights trained on more than 10²⁶ operations, but BIS stopped enforcing it in May 2025 and formally rescinded it by an interim final rule effective Nov 19, 2026, which removed the model-weight control (ECCN 4E091) and the country tiers. The same rule requires licences for exports to overseas data centres that remotely supply significant compute to companies headquartered in China or other Country Group D:5 countries or Macau, and for advanced chips to Indonesia, Malaysia, Singapore, Thailand and Brazil as diversion risks. May 31, 2026 guidance closed a key loophole by confirming the ultimate-parent-company test applies — any subsidiary worldwide whose ultimate parent is in the restricted countries list needs a US license. Operates outside the safety-regulation framing — its lever is who can build frontier models at all, not what they must do once built. The single most consequential piece of US AI policy by impact, even though it isn't framed as 'AI regulation.'"
+            },
+            {
+              "op": "set_cov",
+              "entity": "bis",
+              "cat": "thresh",
+              "from": "Chip-performance thresholds (total processing performance) govern export-licence requirements for advanced GPUs; separate controls cover fabrication tools and lithography. The Jan 2025 AI Diffusion Rule's model-weight threshold (more than 10²⁶ training operations) is not being enforced.",
+              "to": "Chip-performance thresholds (total processing performance) govern export-licence requirements for advanced GPUs; separate controls cover fabrication tools and lithography. The Jan 2025 AI Diffusion Rule's model-weight threshold (more than 10²⁶ training operations) was removed when that rule was rescinded on Nov 19, 2026."
+            }
+          ],
+          "why": "The entry says the AI Diffusion Rule is merely unenforced and that BIS \"said it would rescind and replace it\"; it has now been rescinded, the model-weight export control is gone, and the replacement controls compute access through overseas data centres — the main new US lever on who can train frontier models.",
+          "rationale": "The interim final rule (91 FR 74970, govinfo PDF) states it formally rescinds the AI Diffusion Rule, removes ECCN 4E091 (model weights) and the country tiers, is effective 19 Nov 2026, and adds licence requirements for overseas data centres supplying significant compute to D:5- or Macau-headquartered companies and for advanced chips to Indonesia, Malaysia, Singapore, Thailand and Brazil. Edits are confined to the three sentences about the Diffusion Rule.",
+          "evidence": [
+            {
+              "source": "S-0402",
+              "passage": "S-0402#2",
+              "stance": "supports",
+              "supports": "formal rescission; never enforced"
+            },
+            {
+              "source": "S-0402",
+              "passage": "S-0402#5",
+              "stance": "supports",
+              "supports": "model-weight control (ECCN 4E091) removed"
+            },
+            {
+              "source": "S-0402",
+              "passage": "S-0402#6",
+              "stance": "supports",
+              "supports": "country tiers revoked"
+            },
+            {
+              "source": "S-0402",
+              "passage": "S-0402#4",
+              "stance": "supports",
+              "supports": "effective 19 Nov 2026; comments to 19 Jan 2027"
+            },
+            {
+              "source": "S-0402",
+              "passage": "S-0402#1",
+              "stance": "supports",
+              "supports": "new data-centre remote-access licence requirement"
+            },
+            {
+              "source": "S-0402",
+              "passage": "S-0402#7",
+              "stance": "supports",
+              "supports": "D:5 headquartered entities include the PRC"
+            },
+            {
+              "source": "S-0402",
+              "passage": "S-0402#3",
+              "stance": "supports",
+              "supports": "five diversion-risk destinations"
+            }
+          ],
+          "uncertainty": "Interim final rule with comments open to 19 Jan 2027, so it may be revised. \"China\" in the context paraphrases the rule's D:5/PRC wording. The Jan 2026 H200 rule and the May 2026 guidance were not re-checked against this rule.",
+          "confidence": "high",
+          "question": null,
+          "knock_on_notes": {
+            "gap:sec": "checked, still accurate (says only that BIS touches access to hardware)",
+            "faq:which-ai-laws-are-binding-with-penalties": "checked, still accurate",
+            "text:layer-4:tooltip": "checked, still accurate",
+            "entry:bis:cov:sec": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "Bureau of Industry and Security chip export rules (2022, 2023, 2024).",
+            "a Jan 2026 rule moved licences for H200-class chips to China to case-by-case review",
+            "May 31, 2026 guidance closed a key loophole by confirming the ultimate-parent-company test applies",
+            "the Dec 2024 update added controls on high-bandwidth memory and chipmaking equipment"
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "gap:sec",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "5da463b641af"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-23"
+      }
+    },
+    {
+      "id": "P-0203",
+      "fingerprint": "06a6dd24c852",
+      "targets": [
+        "entry:prep:cov:acct"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-23T05:02:40Z",
+          "run": "2026-11-23-weekly",
+          "author": "claude",
+          "title": "OpenAI Preparedness · Accountability: embedded independent assessments (Apollo, METR, Transluce, Goodfire) from Nov 2026, with SSC oversight",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_cov",
+              "entity": "prep",
+              "cat": "acct",
+              "from": "Safety Advisory Group reviews Capabilities and Safeguards Reports and recommends; OpenAI Leadership makes final decisions, overseen by the board's Safety and Security Committee, which can reverse them. Results are published with system cards; the separate Frontier Governance Framework covers incident reporting to authorities under SB 53 and the EU Code.",
+              "to": "Safety Advisory Group reviews Capabilities and Safeguards Reports and recommends; OpenAI Leadership makes final decisions, overseen by the board's Safety and Security Committee, which can reverse them. Results are published with system cards; the separate Frontier Governance Framework covers incident reporting to authorities under SB 53 and the EU Code. Since Nov 2026 OpenAI runs a first phase of embedded assessments with Apollo Research, METR, Transluce and Goodfire, giving them access to checkpoints, training data and monitoring systems; assessors publish independently, subject to OpenAI redactions and disclosure delays, and the SSC receives unredacted reports and settles unresolved disputes."
+            }
+          ],
+          "why": "Standing embedded third-party assessments with independent publication and board-committee escalation are a material new external-accountability arrangement, parallel to the Anthropic–METR arrangement in pending P-0190.",
+          "rationale": "OpenAI's 16 Nov 2026 post names the four assessors and the access they get, says assessors publish independently while OpenAI keeps the right to redact confidential information and request disclosure delays, and gives the SSC unredacted reports and final say on unresolved disagreements. Apollo's own post confirms its six-person, four-month pilot and two public reports.",
+          "evidence": [
+            {
+              "source": "S-0403",
+              "passage": "S-0403#1",
+              "stance": "supports",
+              "supports": "four assessors, first phase"
+            },
+            {
+              "source": "S-0403",
+              "passage": "S-0403#2",
+              "stance": "supports",
+              "supports": "access to checkpoints, data, monitoring"
+            },
+            {
+              "source": "S-0403",
+              "passage": "S-0403#6",
+              "stance": "supports",
+              "supports": "independent publication subject to redaction and delays"
+            },
+            {
+              "source": "S-0403",
+              "passage": "S-0403#4",
+              "stance": "supports",
+              "supports": "SSC receives unredacted reports"
+            },
+            {
+              "source": "S-0403",
+              "passage": "S-0403#5",
+              "stance": "supports",
+              "supports": "SSC resolves remaining disagreements"
+            },
+            {
+              "source": "S-0404",
+              "passage": "S-0404#1",
+              "stance": "supports",
+              "supports": "Apollo team of six, four months"
+            },
+            {
+              "source": "S-0404",
+              "passage": "S-0404#2",
+              "stance": "supports",
+              "supports": "public reports"
+            },
+            {
+              "source": "S-0404",
+              "passage": "S-0404#4",
+              "stance": "supports",
+              "supports": "pilot short of full embedded evaluation (caveat)"
+            }
+          ],
+          "uncertainty": "A company announcement of a pilot, not part of the Preparedness Framework text; access terms vary by assessor and some remain to be agreed. Apollo says the pilot does not yet meet its own criteria for full embedded evaluation. Nothing yet shows any report published.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "edge:metr|prep": "checked, still accurate (METR also assesses alignment now; capability wording not wrong)",
+            "entry:apollo:desc": "no change needed; a possible apollo|prep connection is left to the maintainer (P-0164 pending on Apollo/OpenAI wording)"
+          },
+          "unverified_carryover": [
+            "Safety Advisory Group reviews Capabilities and Safeguards Reports and recommends; OpenAI Leadership makes final decisions, overseen by the board's Safety and Security Committee, which can reverse them. Results are published with system cards; the separate Frontier Governance Framework covers incident reporting to authorities under SB 53 and the EU Code."
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:un-ai:context",
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:eu-genai-code:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:fsf:cov:thresh",
+            "entry:meta-faif:cov:thresh",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "entry:averi:context",
+            "edge:ca-sb53|prep",
+            "edge:seoul-commit|prep",
+            "edge:gpai-cop|prep",
+            "edge:fmf|prep",
+            "edge:metr|prep",
+            "edge:uk-aisi|prep",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety"
+          ],
+          "hash": "117431e00878"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0190",
+          "P-0164",
+          "P-0187"
+        ],
+        "updated": "2026-11-23"
+      }
+    },
+    {
+      "id": "P-0204",
+      "fingerprint": "02d575f7d382",
+      "targets": [
+        "entry:prep:context",
+        "entry:prep:cov:halt"
+      ],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-23T05:02:40Z",
+          "run": "2026-11-23-weekly",
+          "author": "claude",
+          "title": "OpenAI Preparedness · Context and Halting: Aug 2026 training pause and Nov 2026 stage-gated safety reviews from research to internal and external deployment",
+          "kind": "change",
+          "changes": [
+            {
+              "op": "set_field",
+              "entity": "prep",
+              "field": "context",
+              "from": "Tracks three categories (biological and chemical, cybersecurity, AI self-improvement) against High and Critical capability thresholds; Research Categories (e.g. long-range autonomy, sandbagging, nuclear and radiological) are studied but not yet tracked. High capability requires safeguards that sufficiently minimise severe risk before deployment; Critical also requires them during development. An internal Safety Advisory Group recommends, OpenAI Leadership decides, and the board's Safety and Security Committee oversees. In September 2026 OpenAI designated GPT-6 Astra its first model at the Critical cybersecurity level. May 2026 added a separate Frontier Governance Framework mapping OpenAI's safety practices to California SB 53 and the EU GPAI Code — a companion governance layer alongside the Preparedness Framework.",
+              "to": "Tracks three categories (biological and chemical, cybersecurity, AI self-improvement) against High and Critical capability thresholds; Research Categories (e.g. long-range autonomy, sandbagging, nuclear and radiological) are studied but not yet tracked. High capability requires safeguards that sufficiently minimise severe risk before deployment; Critical also requires them during development. An internal Safety Advisory Group recommends, OpenAI Leadership decides, and the board's Safety and Security Committee oversees. In September 2026 OpenAI designated GPT-6 Astra its first model at the Critical cybersecurity level. In Aug 2026 it paused RL training for two weeks, kept its largest planned frontier RL run on hold and said it needed an approach extending beyond the Preparedness Framework; a Nov 2026 post requires a safety review before a model advances from sandboxed research to internal and then external deployment. May 2026 added a separate Frontier Governance Framework mapping OpenAI's safety practices to California SB 53 and the EU GPAI Code — a companion governance layer alongside the Preparedness Framework."
+            },
+            {
+              "op": "set_cov",
+              "entity": "prep",
+              "cat": "halt",
+              "from": "Commits not to deploy High-capability models until safeguards sufficiently minimise the associated severe risk, and for Critical capability to halt further development until safeguards and security controls meeting a Critical standard are specified. May adjust safeguards if a rival ships a comparable system without them, but only with public acknowledgement and while staying more protective.",
+              "to": "Commits not to deploy High-capability models until safeguards sufficiently minimise the associated severe risk, and for Critical capability to halt further development until safeguards and security controls meeting a Critical standard are specified. May adjust safeguards if a rival ships a comparable system without them, but only with public acknowledgement and while staying more protective. Outside the framework text, OpenAI said in Nov 2026 that it will pause training or withhold release when evidence of safety falls short, as it did with GPT-6.1 Astra."
+            }
+          ],
+          "why": "The entry presents the Preparedness Framework v2 as OpenAI's whole approach and its halt note covers only deployment and Critical-level development; OpenAI has since paused training, held a frontier run and committed to safety reviews at each stage including internal deployment — commitments a reader comparing labs needs to see.",
+          "rationale": "OpenAI's 18 Aug 2026 post records a two-week RL pause, the largest planned frontier RL run on hold, and the need for an approach that 'extends beyond the current Preparedness Framework'. Its 18 Nov 2026 post requires a safety review to advance between research, internal deployment and external deployment, reviewed with SAG and overseen by the SSC, and says it will pause training or withhold release when evidence falls short, citing GPT-6.1 Astra. Written as commitments.",
+          "evidence": [
+            {
+              "source": "S-0406",
+              "passage": "S-0406#1",
+              "stance": "supports",
+              "supports": "two-week RL pause"
+            },
+            {
+              "source": "S-0406",
+              "passage": "S-0406#2",
+              "stance": "supports",
+              "supports": "largest planned frontier RL run on hold"
+            },
+            {
+              "source": "S-0406",
+              "passage": "S-0406#3",
+              "stance": "supports",
+              "supports": "approach extending beyond the PF"
+            },
+            {
+              "source": "S-0405",
+              "passage": "S-0405#1",
+              "stance": "supports",
+              "supports": "safety review to advance stages"
+            },
+            {
+              "source": "S-0405",
+              "passage": "S-0405#2",
+              "stance": "supports",
+              "supports": "research / internal / external stages"
+            },
+            {
+              "source": "S-0405",
+              "passage": "S-0405#3",
+              "stance": "supports",
+              "supports": "SAG review and SSC oversight"
+            },
+            {
+              "source": "S-0405",
+              "passage": "S-0405#4",
+              "stance": "supports",
+              "supports": "will pause training or withhold release"
+            },
+            {
+              "source": "S-0405",
+              "passage": "S-0405#5",
+              "stance": "supports",
+              "supports": "GPT-6.1 Astra held back"
+            }
+          ],
+          "uncertainty": "Both are blog posts, not a new framework version; the Preparedness Framework document itself is still v2 (Apr 2025) on its page. Whether OpenAI will fold this into a PF v3 is unknown. The Nov post does not mention the Preparedness Framework by name.",
+          "confidence": "medium",
+          "question": null,
+          "knock_on_notes": {
+            "entry:prep:desc": "checked, still accurate (PF v2 remains the framework document)",
+            "entry:prep:cov:update": "checked, still accurate",
+            "faq:which-ai-labs-have-published-frontier-safety-frameworks": "pending P-0152; not affected"
+          },
+          "unverified_carryover": [
+            "In September 2026 OpenAI designated GPT-6 Astra its first model at the Critical cybersecurity level.",
+            "Commits not to deploy High-capability models until safeguards sufficiently minimise the associated severe risk, and for Critical capability to halt further development until safeguards and security controls meeting a Critical standard are specified. May adjust safeguards if a rival ships a comparable system without them, but only with public acknowledgement and while staying more protective."
+          ],
+          "conflict_resolution": null,
+          "options": null,
+          "recommended": null,
+          "knock_on": [
+            "entry:un-ai:context",
+            "entry:ca-sb53:cov:thresh",
+            "entry:gpai-cop:desc",
+            "entry:eu-genai-code:desc",
+            "entry:fmf:desc",
+            "entry:fmf:cov:eval",
+            "entry:fsf:cov:thresh",
+            "entry:meta-faif:cov:thresh",
+            "entry:metr:context",
+            "entry:metr:cov:eval",
+            "entry:apollo:cov:elicit",
+            "entry:averi:context",
+            "edge:ca-sb53|prep",
+            "edge:seoul-commit|prep",
+            "edge:gpai-cop|prep",
+            "edge:fmf|prep",
+            "edge:metr|prep",
+            "edge:uk-aisi|prep",
+            "faq:which-ai-labs-have-published-frontier-safety-fra",
+            "faq:what-is-sandbagging-in-ai-safety"
+          ],
+          "hash": "c614254847fc"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "updated": "2026-11-23"
       }
     }
   ]
