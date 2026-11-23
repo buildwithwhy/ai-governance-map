@@ -239,6 +239,129 @@
           "sources": []
         }
       ]
+    },
+    {
+      "area": "Compute and export controls (B3)",
+      "summary": "FR API: BIS documents since 1 Oct 2026. New since 16 Nov: interim final rule \"Addressing Remote Access to Advanced Semiconductors\" (91 FR 74970, effective 19 Nov 2026) formally rescinds the AI Diffusion Rule and its model-weight ECCN 4E091, adds a data-centre remote-access licence requirement (>12,000,000 aggregate TPP for D:5/Macau-headquartered companies) and a licence requirement for advanced chips to Indonesia, Malaysia, Singapore, Thailand and Brazil. Covered by pending P-0202. Also: the affiliates-rule stay extended to 10 Jan 2027 (9 Nov 2026).",
+      "queries": [
+        "FR API agencies=industry-and-security-bureau publication_date>=2026-10-01",
+        "FR API agencies=industry-and-security-bureau term=semiconductor publication_date>=2026-07-01",
+        "FR API term=\"super intelligence\" publication_date>=2026-11-01",
+        "bis.gov homepage Special Issues"
+      ],
+      "limits": "No equivalent controls searched in other B1 jurisdictions beyond the FR; commerce.gov not used.",
+      "candidates": [
+        {
+          "name": "BIS IFR Addressing Remote Access to Advanced Semiconductors (19 Nov 2026)",
+          "result": "update to existing entry",
+          "reason": "Formally rescinds the AI Diffusion Rule and model-weight controls; new remote-access data-centre controls. Already drafted by another agent as P-0202",
+          "proposal": "P-0202",
+          "sources": [
+            "S-0402",
+            "S-0236"
+          ]
+        },
+        {
+          "name": "Extension of the Suspension of the Affiliates Rule to 10 Jan 2027",
+          "result": "screened out",
+          "reason": "The affiliates rule is not described on the map; a stay extension changes nothing the entry says",
+          "sources": [
+            "S-0420"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Sector and general regulators in B1/B2 (B3)",
+      "summary": "UK: no regulations or drafts under OSA s.216A; OSA Commencement No. 8 (11 Nov 2026) concerns deceased-child data, not AI; ICO statutory AI/ADM code duty already pending (P-0193), no draft code found. US FTC: no final accuracy statement and no AI rule in the FR since July. Australia: OSA Compilation No. 4 still current; DIS standard unamended; eSafety's AI-companion notices and codes are known only from snippets (esafety.gov.au refuses). Colorado DOI: no adopted quantitative testing rule found (doi.colorado.gov 403 today). Singapore: IMDA page (6 Nov 2026) shows the agentic framework v1.5, Agentic Testing Starter Kit and an agentic-AI liability discussion paper; MAS site down. Japan: MIC 30 Oct 2026 paper studies the next Guidelines update (agents, physical AI); v1.2 still current.",
+      "queries": [
+        "legislation.gov.uk 2026 feeds: title \"online safety\", \"artificial\", \"information commission\"; ukdsi 2026 \"online safety\", \"artificial\", \"data protection\"",
+        "FR API agencies=federal-trade-commission term \"artificial intelligence\"/\"super intelligence\"/accuracy since 2026-06-01; all FTC since 2026-11-01",
+        "legislation.gov.au API versions for C2021A00076 and F2024L00710",
+        "WebSearch: eSafety Commissioner AI companion chatbot enforcement November 2026",
+        "WebSearch: Ofcom AI chatbots Online Safety Act regulations section 216A consultation 2026",
+        "WebSearch: Information Commission code of practice AI ADM draft consultation 2026",
+        "WebSearch: FTC artificial intelligence enforcement action November 2026",
+        "WebSearch: Colorado Division of Insurance AI regulation adopted 2026 quantitative testing",
+        "WebSearch: IMDA AI governance announcement November 2026",
+        "WebSearch: soumu.go.jp AI事業者ガイドライン 第1.2版 pdf"
+      ],
+      "limits": "ofcom.org.uk, ico.org.uk, ftc.gov, esafety.gov.au, meti.go.jp and doi.colorado.gov refused automated access (ico.org.uk fetches were refused in this environment); mas.gov.sg was under maintenance. Search snippets were used only as leads.",
+      "candidates": [
+        {
+          "name": "eSafety legal notices to AI companion providers and age-restricted material codes covering AI chatbots",
+          "result": "lead — source inaccessible",
+          "reason": "esafety.gov.au refuses automated clients; snippets only. Would add AI-companion codes to au-esafety context if confirmed on the register",
+          "sources": []
+        },
+        {
+          "name": "Ofcom investigations of AI chatbot services (Grok/X, Novi) under the OSA",
+          "result": "lead — source inaccessible",
+          "reason": "ofcom.org.uk refuses automated clients; the investigations predate June 2026 per snippets",
+          "sources": []
+        },
+        {
+          "name": "Online Safety Act 2023 (Commencement No. 8) Regulations 2026",
+          "result": "screened out",
+          "reason": "Commences duties on deceased child users' data; not AI-related",
+          "sources": [
+            "S-0415"
+          ]
+        },
+        {
+          "name": "ICO statutory code of practice on AI and ADM",
+          "result": "update to existing entry",
+          "reason": "Already covered by pending P-0193; no draft code found",
+          "proposal": "P-0193",
+          "sources": [
+            "S-0371"
+          ]
+        },
+        {
+          "name": "IMDA Agentic Testing Starter Kit, agentic framework v1.5, agentic-AI liability discussion paper",
+          "result": "screened out",
+          "reason": "Voluntary guidance additions within the existing imda entry; no map edit needed beyond the cov:update note (outside this group)",
+          "sources": [
+            "S-0260"
+          ]
+        },
+        {
+          "name": "Japan AI Guidelines for Business next update (study paper 30 Oct 2026)",
+          "result": "screened out",
+          "reason": "Under study; no new version adopted",
+          "sources": [
+            "S-0419"
+          ]
+        },
+        {
+          "name": "Colorado DOI quantitative testing regulation",
+          "result": "screened out",
+          "reason": "No adoption found; still a 2023 draft per pending P-0175",
+          "sources": [
+            "S-0341"
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Standards frameworks (B3)",
+      "summary": "NIST AI RMF page unchanged: revision under the AI Action Plan, Critical Infrastructure Profile at concept-note stage (page updated 17 Jul 2026, project ongoing). No NIST AI documents in the FR since 1 Oct 2026.",
+      "queries": [
+        "nist.gov/itl/ai-risk-management-framework",
+        "nist.gov concept-note-ai-rmf-profile-trustworthy-ai-critical-infrastructure",
+        "FR API agencies=national-institute-of-standards-and-technology publication_date>=2026-10-01"
+      ],
+      "limits": "NIST CSRC/NCCoE AI profiles (e.g. Cyber AI Profile) not searched.",
+      "candidates": [
+        {
+          "name": "NIST AI RMF Critical Infrastructure Profile",
+          "result": "screened out",
+          "reason": "Still concept-note stage; already in the desc",
+          "sources": [
+            "S-0421"
+          ]
+        }
+      ]
     }
   ],
   "usage": null

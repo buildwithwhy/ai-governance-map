@@ -1,5 +1,5 @@
 {
-  "next": 205,
+  "next": 206,
   "proposals": [
     {
       "id": "P-0001",
@@ -22876,6 +22876,114 @@
       "research": {
         "status": "verified",
         "missing": [],
+        "updated": "2026-11-23"
+      }
+    },
+    {
+      "id": "P-0205",
+      "fingerprint": "4f53cda18c2b",
+      "targets": [],
+      "resolves_checks": [],
+      "versions": [
+        {
+          "v": 1,
+          "created": "2026-11-23T05:06:18Z",
+          "run": "2026-11-23-weekly",
+          "author": "claude",
+          "title": "UK Ofcom desc: the Online Safety Act gives Ofcom no AI-specific enforcement authority yet; s.216A only lets the Secretary of State extend it to AI services",
+          "kind": "flag",
+          "changes": [],
+          "why": "\"AI-specific enforcement authority\" tells readers Ofcom already holds powers aimed at AI. The statute holds only a power for the Secretary of State to create them, and the map's own Ofcom context and the pending eSafety correction (P-0174) describe the position more precisely.",
+          "rationale": "s.216A (in force; text current to 22 Nov 2026) is a regulation-making power for the Secretary of State to amend the Act in relation to AI services and confer functions on Ofcom (osa-s216A p1, p2); a search of the 2026 made and draft SI feeds found no regulations under it (p4). The penalty cap is unchanged (osa-sch13 p1). Option a matches the entry's context and is consistent with P-0174 and P-0188; recommended because it states the legal position without the overstatement.",
+          "evidence": [
+            {
+              "source": "S-0414",
+              "passage": "S-0414#1",
+              "stance": "supports",
+              "supports": "s.216A is a power for the Secretary of State"
+            },
+            {
+              "source": "S-0414",
+              "passage": "S-0414#2",
+              "stance": "supports",
+              "supports": "Ofcom functions over AI services only if conferred by regulations"
+            },
+            {
+              "source": "S-0414",
+              "passage": "S-0414#4",
+              "stance": "supports",
+              "supports": "no regulations made or in draft"
+            },
+            {
+              "source": "S-0240",
+              "passage": "S-0240#2",
+              "stance": "supports",
+              "supports": "penalty cap unchanged"
+            },
+            {
+              "source": "S-0246",
+              "passage": "S-0246#2",
+              "stance": "supports",
+              "supports": "government framed AI chatbots as a loophole to be closed"
+            }
+          ],
+          "uncertainty": "Ofcom regards some AI chatbots as already in scope where they are user-to-user or search services; that is general, not AI-specific, authority. ofcom.org.uk refuses automated clients, so Ofcom's own statements were not inspected.",
+          "confidence": "medium",
+          "question": "The desc says Ofcom has \"AI-specific enforcement authority under the Online Safety Act 2023\". The Act's only AI-specific provision, s.216A (inserted by the Crime and Policing Act 2026), lets the Secretary of State extend duties and Ofcom's functions to AI services by regulations, and none have been made. Reword the desc, or keep it?",
+          "knock_on_notes": {
+            "edge:uk-ofcom|au-esafety": "needs change — see P-0188",
+            "entry:uk-ofcom:context": "checked, still accurate"
+          },
+          "unverified_carryover": [
+            "Communications regulator"
+          ],
+          "conflict_resolution": null,
+          "options": [
+            {
+              "key": "a",
+              "label": "Reword to the s.216A power",
+              "changes": [
+                {
+                  "op": "set_field",
+                  "entity": "uk-ofcom",
+                  "field": "desc",
+                  "from": "Communications regulator with AI-specific enforcement authority under the Online Safety Act 2023. Fines up to £18M or 10% of global revenue.",
+                  "to": "Communications regulator enforcing the Online Safety Act 2023; since 2026 the Act lets the Secretary of State extend its duties and Ofcom's powers to AI services by regulations (none made yet). Fines up to £18M or 10% of global revenue."
+                }
+              ]
+            },
+            {
+              "key": "b",
+              "label": "Keep as is",
+              "changes": []
+            }
+          ],
+          "recommended": "a",
+          "knock_on": [
+            "edge:uk-ofcom|uk-aisi",
+            "edge:uk-ofcom|au-esafety",
+            "faq:which-ai-laws-are-binding-with-penalties",
+            "text:layer-4:tooltip"
+          ],
+          "hash": "64116fe3ea4e"
+        }
+      ],
+      "decision": {
+        "status": "pending",
+        "v": null,
+        "hash": null,
+        "date": null,
+        "note": null
+      },
+      "decision_log": [],
+      "applied": null,
+      "research": {
+        "status": "verified",
+        "missing": [],
+        "linked": [
+          "P-0188",
+          "P-0174"
+        ],
         "updated": "2026-11-23"
       }
     }

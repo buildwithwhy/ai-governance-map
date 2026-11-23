@@ -1,5 +1,5 @@
 {
-  "next": 414,
+  "next": 422,
   "sources": {
     "S-0001": {
       "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
@@ -12010,6 +12010,12 @@
           "locator": "Body para. 4",
           "text": "Established in November 2024, the Network brings together Australia, Canada, the European Union, France, Japan, Kenya, the Republic of Korea, Singapore, the United Kingdom and the United States",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0123#16",
+          "locator": "Body",
+          "text": "Established in November 2024, the Network brings together Australia, Canada, the European Union, France, Japan, Kenya, the Republic of Korea, Singapore, the United Kingdom and the United States",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -16003,6 +16009,12 @@
           "locator": "Bill Summary",
           "text": "Implementing a risk management policy and program for the high-risk system; Completing an impact assessment of the high-risk system;",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0162#3",
+          "locator": "Bill history",
+          "text": "APPROVED by Governor May 17, 2024",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -17806,6 +17818,18 @@
           "locator": "Overview",
           "text": "The AI RMF 1.0 is being revised as part of the White House AI Action Plan.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0182#12",
+          "locator": "Overview",
+          "text": "On July 26, 2024, NIST released NIST-AI- 600-1, Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0182#13",
+          "locator": "Overview",
+          "text": "On April 7, 2026, NIST released a concept note for an AI RMF Profile on Trustworthy AI in Critical Infrastructure",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -22367,6 +22391,12 @@
           "locator": "Para 2",
           "text": "In May 2025, BIS announced that it would not be enforcing the AI Diffusion Rule’s new compliance requirements.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0230#7",
+          "locator": "Para 1",
+          "text": "a license is required to export advanced computing items to entities headquartered in Country Group D:5",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -22734,6 +22764,12 @@
           "locator": "License conditions",
           "text": "including but not limited to the ‘total processing performance,’ ‘total DRAM bandwidth,’ ‘interconnect bandwidth,’ and ‘copackaged DRAM capacity’",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0234#7",
+          "locator": "Summary",
+          "text": "changing it from a presumption of denial to a case-by-case review. The semiconductors covered by this rule are the Nvidia H200 and its equivalents",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -22903,6 +22939,18 @@
           "locator": "Special Issues",
           "text": "Guidance Regarding Enforcement of License Requirements for Advanced Computing Items for Entities Headquartered in Country Group D:5 and Macau",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0236#2",
+          "locator": "Special Issues",
+          "text": "On November 19, 2026, BIS published an interim final rule (IFR) to address remote access to advanced super intelligence (SI) chips and servers.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0236#3",
+          "locator": "Special Issues",
+          "text": "The regulatory changes in this IFR formalize the rescission of the AI Diffusion Rule, which BIS announced in May 2025.",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -23145,6 +23193,42 @@
           "locator": "Footnote 34",
           "text": "the Commission has already taken steps to address these unnecessary burdens, for example, by setting aside the previous Commission’s order against a generative AI company. See Order Reopening and Setting Aside Order at 5, In re Rytr LLC, FTC Docket C–4806 (Dec. 22, 2025)",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0238#13",
+          "locator": "Summary",
+          "text": "The Federal Trade Commission (“Commission”) is proposing a policy statement regarding the application of the prohibition on deceptive acts or practices in section 5 of the Federal Trade Commission Act to companies that market artificial intelligence (“AI”) systems.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0238#14",
+          "locator": "n. 34",
+          "text": "setting aside the previous Commission’s order against a generative AI company. See Order Reopening and Setting Aside Order at 5, In re Rytr LLC, FTC Docket C–4806 (Dec. 22, 2025)",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0238#15",
+          "locator": "Background",
+          "text": "America’s AI Action Plan and other critical executive actions strike that balance between accelerating innovation and protecting Americans",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0238#16",
+          "locator": "Preemption",
+          "text": "Although the FTC Act does not expressly preempt State law, State law is impliedly preempted to the extent it conflicts with a Federal regulatory scheme.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0238#17",
+          "locator": "n. 32",
+          "text": "Consent Order, In re Intellivision Techs. Corp., No. C–4809 (F.T.C. Jan. 8, 2025) (deceptive claims regarding accuracy or efficacy of its AI-powered facial recognition software)",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0238#18",
+          "locator": "Whole document (search)",
+          "text": "[Observation, not a quotation] Searched the statement for \"Rite Aid\" and \"Operation AI Comply\": neither occurs. The cases it cites (Workado, TheFBAMachine, DoNotPay, IntelliVision, Evolv, Air AI, Rytr) are all Section 5 deception matters; it names no AI-specific statutory authority.",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -23321,6 +23405,12 @@
           "locator": "Sec. 5(a)",
           "text": "States with onerous AI laws identified pursuant to section 4 of this order are ineligible for non-deployment funds, to the maximum extent allowed by Federal law.",
           "retrieved": "2026-11-16"
+        },
+        {
+          "id": "S-0239#18",
+          "locator": "Sec. 7 heading",
+          "text": "Sec. 7. Preemption of State Laws Mandating Deceptive Conduct in AI Models.",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -23329,7 +23419,9 @@
       "title": "Online Safety Act 2023, Schedule 13 (Penalties imposed by OFCOM under Chapter 6 of Part 7)",
       "publisher": "legislation.gov.uk",
       "type": "primary",
-      "dates": {},
+      "dates": {
+        "adopted": "2023-10-26"
+      },
       "fetches": [
         {
           "date": "2026-10-10",
@@ -23398,6 +23490,12 @@
           "locator": "Sch. 13 para 4(1)",
           "text": "the maximum amount of the penalty for which the person is liable is whichever is the greater of— (a) £18 million, and (b) 10% of the person’s qualifying worldwide revenue",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0240#2",
+          "locator": "Sch. 13 para 4(1)",
+          "text": "(a) £18 million, and (b) 10% of the person’s qualifying worldwide revenue for the person’s most recent complete accounting period",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -23647,6 +23745,24 @@
           "locator": "Whole document",
           "text": "[Observation, not a quotation] Searched the full codes for 'artificial', 'generative' and the standalone word 'AI': none occurs; no measure addresses AI-generated content or content authentication.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0243#6",
+          "locator": "ICU C2.2",
+          "text": "The provider should, as part of its content moderation function, have systems and processes designed to swiftly take down illegal content and/or illegal content proxy of which it is aware",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0243#7",
+          "locator": "ICU C9 heading",
+          "text": "Using hash matching to detect and remove CSAM",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0243#8",
+          "locator": "Whole document (search)",
+          "text": "[Observation, not a quotation] Searched the full text for \"artificial\", \"generative\" and \" AI \": none occurs; the codes contain no AI-specific measure such as content authentication.",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -23656,7 +23772,7 @@
       "publisher": "DSIT / GOV.UK",
       "type": "primary",
       "dates": {
-        "published": "2026-06"
+        "published": "2026-05-20"
       },
       "fetches": [
         {
@@ -23756,6 +23872,12 @@
           "locator": "para 6.5",
           "text": "the Secretary of State is laying the draft amendment to the codes of practice before Parliament for scrutiny.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0244#7",
+          "locator": "para 6.2",
+          "text": "A provider which takes the measures recommended in a code of practice for the purpose of complying with a relevant duty is treated as complying with that duty.",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -24289,6 +24411,12 @@
           "locator": "s. 157(5)(a)",
           "text": "in the case of an undertaking, [£17,500,000] or 4% of the undertaking's total annual worldwide turnover in the preceding financial year, whichever is higher",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0250#3",
+          "locator": "s. 157(5)(a)",
+          "text": "in the case of an undertaking, [ F6 £17,500,000 ] or 4% of the undertaking's total annual worldwide turnover in the preceding financial year, whichever is higher",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -24551,7 +24679,9 @@
       "publisher": "Federal Register of Legislation (Australia)",
       "type": "primary",
       "dates": {
-        "in_force": "2026-09-12"
+        "in_force": "2026-09-12",
+        "adopted": "2021-07-23",
+        "published": "2026-09-12"
       },
       "fetches": [
         {
@@ -24639,6 +24769,30 @@
           "locator": "page footer",
           "text": "Compilation No. 4 Compilation date: 12/09/2026",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0254#5",
+          "locator": "s 143(2)",
+          "text": "A person must comply with a direction under subsection (1). Civil penalty: 30,000 penalty units.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0254#6",
+          "locator": "s 146(1)",
+          "text": "the person must comply with the industry standard. Civil penalty: 30,000 penalty units.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0254#7",
+          "locator": "s 80",
+          "text": "A person must comply with a requirement under a removal notice given under section 77, 78 or 79 to the extent that the person is capable of doing so. Civil penalty: 500 penalty units.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0254#8",
+          "locator": "Versions (legislation.gov.au API)",
+          "text": "[Observation, not a quotation] The register API lists Compilation No. 4 (start 12 Sep 2026) as current and latest; the only later version is an uncompiled amendment by the Interactive Gambling Amendment (Gambling Reform) Act 2026 from 1 Jan 2027. The compilation has no provision on business disruption orders as such; the Act's disruption-type powers are blocking notices (s 99), link deletion notices (s 124) and app removal notices (s 128).",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -24648,7 +24802,7 @@
       "publisher": "Federal Register of Legislation (Australia)",
       "type": "primary",
       "dates": {
-        "adopted": "2024-06-19",
+        "adopted": "2024-06-21",
         "published": "2024-06-21"
       },
       "fetches": [
@@ -24731,6 +24885,24 @@
           "locator": "s. 2",
           "text": "This industry standard commences on the day that is 6 months after the later of",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0255#4",
+          "locator": "s 22(3)",
+          "text": "the provider of a high impact generative AI DIS must, at a minimum: (a) implement systems, processes and technologies that prevent generative AI features from being used to generate outputs that contain child sexual exploitation material or pro-terror material; and (b) regularly review and test models",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0255#5",
+          "locator": "s 22(3)(d)",
+          "text": "implement systems, processes and technologies that differentiate AI outputs generated by the model",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0255#6",
+          "locator": "Versions (legislation.gov.au API)",
+          "text": "[Observation, not a quotation] The register API lists the as-made version (from 21 Jun 2024) as in force and latest, with no compilation since; the next recorded event is sunsetting on 1 Oct 2034.",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -25214,6 +25386,24 @@
           "locator": "Whole page",
           "text": "[Observation, not a quotation] Searched the rendered page for evidence that frontier labs (OpenAI, Anthropic, Google DeepMind) use AI Verify on their models, and for ASEAN adoption of it as a template: neither is stated. The page lists consultation with AWS, Google, Meta and Microsoft and a pilot with 50+ companies.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0260#20",
+          "locator": "Using AI Responsibly — Model AI Governance Framework",
+          "text": "Singapore released its first edition of the Model AI Governance Framework (“Model Framework”) for broader consultation, adoption and feedback on 23 January 2019. The framework provides detailed and readily implementable guidance to private sector organisations",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0260#21",
+          "locator": "Starter Kit for Testing LLM-based Applications",
+          "text": "consolidating emerging best practices from industry and government into practical, voluntary guidelines",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0260#22",
+          "locator": "Model AI Governance Framework for Generative AI",
+          "text": "The AI Verify Foundation (AIVF) and IMDA have published the Model AI Governance Framework for Generative AI , expanding on the second edition of the Model AI Governance Framework in 2020 covering Traditional AI.",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -25557,6 +25747,24 @@
           "locator": "membership list (as of August 2026)",
           "text": "Republic of Singapore",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0264#3",
+          "locator": "Intro",
+          "text": "The Friends Group was launched in May 2024 as a voluntary framework of countries supporting the spirit of the Hiroshima AI Process",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0264#4",
+          "locator": "Membership list",
+          "text": "Membership of the Friends Group (in alphabetical order) (as of August 2026)",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0264#5",
+          "locator": "Membership list",
+          "text": "Republic of Singapore",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -25677,6 +25885,18 @@
           "locator": "第二十六条 [Art. 26]",
           "text": "本部に関する事務は、内閣府において処理する。 [Affairs relating to the Headquarters are handled by the Cabinet Office.]",
           "retrieved": "2026-10-10"
+        },
+        {
+          "id": "S-0266#4",
+          "locator": "Art. 19",
+          "text": "内閣に、人工知能戦略本部（以下「本部」という。）を置く。[An AI Strategic Headquarters is established in the Cabinet.]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0266#5",
+          "locator": "Art. 26",
+          "text": "本部に関する事務は、内閣府において処理する。[Affairs of the Headquarters are handled by the Cabinet Office.]",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -31727,6 +31947,24 @@
           "locator": "Section 6.D (reports)",
           "text": "an officer attesting to compliance with this regulation",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0341#9",
+          "locator": "Section 5.A.9",
+          "text": "Documented up-to-date inventory, including version control, of all utilized ECDIS, as well as algorithms and predictive models that use ECDIS",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0341#10",
+          "locator": "Section 6.D",
+          "text": "These reports must be signed by an officer attesting to compliance with this regulation.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0341#11",
+          "locator": "Section 1 Authority",
+          "text": "This regulation is promulgated and adopted by the Commissioner of Insurance under the authority of §§ 10-1-109 and 10-3-1104.9, C.R.S.",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -33282,6 +33520,12 @@
           "locator": "reg. 2",
           "text": "The following provisions of the Data (Use and Access) Act 2025 come into force on 30th September 2026— … section 118 (abolition of the office of Information Commissioner);",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0370#2",
+          "locator": "reg. 2(b)",
+          "text": "The following provisions of the Data (Use and Access) Act 2025 come into force on 30th September 2026— … section 118 (abolition of the office of Information Commissioner)",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -33344,6 +33588,12 @@
           "locator": "reg. 2(1)",
           "text": "The Commissioner must prepare an appropriate code of practice giving guidance as to good practice in the processing of personal data … in relation to— (a) developing and using artificial intelligence, and (b) automated decision-making.",
           "retrieved": "2026-11-09"
+        },
+        {
+          "id": "S-0371#3",
+          "locator": "reg. 2(1)",
+          "text": "The Commissioner must prepare an appropriate code of practice giving guidance as to good practice in the processing of personal data",
+          "retrieved": "2026-11-23"
         }
       ]
     },
@@ -34627,7 +34877,8 @@
       "type": "primary",
       "dates": {
         "published": "2026-11-19",
-        "effective": "2026-11-19"
+        "effective": "2026-11-19",
+        "in_force": "2026-11-19"
       },
       "fetches": [
         {
@@ -34684,6 +34935,48 @@
           "id": "S-0402#7",
           "locator": "Background on the data-centre end-use control",
           "text": "Macau, the People’s Republic of China (PRC), or other Country Group D:5 headquartered entities setting up cloud servers or data centers in other countries",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0402#8",
+          "locator": "Summary",
+          "text": "Finally, the IFR formally rescinds the regulations implementing the Biden-era AI Diffusion Rule. The AI Diffusion Rule has never been enforced.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0402#9",
+          "locator": "Summary",
+          "text": "this rule establishes new restrictions which will apply for exports, reexports, or transfers (in-country) to overseas data centers that remotely supply significant volumes of compute to companies headquartered in Country Group D:5 or Macau.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0402#10",
+          "locator": "Summary",
+          "text": "a license will be required to export, reexport, or transfer (in-country) advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand, or Brazil",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0402#11",
+          "locator": "Dates",
+          "text": "Effective date: This rule is effective November 19, 2026.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0402#12",
+          "locator": "IV.B Removing Country Tiers",
+          "text": "This IFR revokes the tiers of countries created in the AI Diffusion Rule",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0402#13",
+          "locator": "§ 744.24(a)(1)",
+          "text": "destined to a data center to or within any destination worldwide that is providing or will provide access to more than 12,000,000 ‘‘aggregate TPP’’ either at one data center or through ‘linked data centers’ to or for companies headquartered in, or whose ultimate parent company is headquartered in, Macau or a destination specified in Country Group D:5",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0402#14",
+          "locator": "Summary",
+          "text": "These restrictions will undermine the ability of companies headquartered in countries of concern from using U.S. advanced Super Intelligence (SI) semiconductors to train advanced SI models.",
           "retrieved": "2026-11-23"
         }
       ]
@@ -35190,6 +35483,298 @@
           "id": "S-0413#1",
           "locator": "Body",
           "text": "The Accelerator is intended to coordinate and fund efforts to support trusted Super Intelligence (SI)* access, deployment, and technical assistance across the Indo-Pacific.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0414": {
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/section/216A",
+      "title": "Online Safety Act 2023, section 216A (Power to amend Act in relation to illegal AI-generated content etc)",
+      "publisher": "legislation.gov.uk (The National Archives)",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:05:44Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.uk/ukpga/2023/50/section/216A",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "b7071de3db41a05b",
+          "bytes": 57926
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0414#1",
+          "locator": "s. 216A heading and (1)",
+          "text": "216A Power to amend Act in relation to illegal AI-generated content etc … the Secretary of State may by regulations amend any provision of this Act for or in connection with the purposes of minimising or mitigating the risks of harm to individuals in the United Kingdom",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0414#2",
+          "locator": "s. 216A(8)(c)",
+          "text": "that functions conferred on OFCOM in relation to regulated services under the following provisions, or functions corresponding or similar to those functions, are conferred on OFCOM in relation to AI services",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0414#3",
+          "locator": "Status line",
+          "text": "Online Safety Act 2023, Section 216A is up to date with all changes known to be in force on or before 22 November 2026.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0414#4",
+          "locator": "legislation.gov.uk 2026 feeds (UK SIs and draft SIs)",
+          "text": "[Observation, not a quotation] Searched the legislation.gov.uk 2026 Atom feeds for made and draft UK statutory instruments with \"online safety\" or \"artificial\" in the title (23 Nov 2026): the only Online Safety Act instruments are Commencement Nos 7 and 8 and the CSEA reporting regulations; no regulations under s. 216A have been made or laid in draft.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0415": {
+      "url": "https://www.legislation.gov.uk/uksi/2026/1201/made",
+      "title": "The Online Safety Act 2023 (Commencement No. 8) Regulations 2026 (SI 2026/1201)",
+      "publisher": "legislation.gov.uk (The National Archives)",
+      "type": "primary",
+      "dates": {
+        "adopted": "2026-11-11",
+        "in_force": "2026-11-11"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:05:45Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.uk/uksi/2026/1201/made",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "420b55c9c953c232",
+          "bytes": 60238
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0415#1",
+          "locator": "reg. 2(a)",
+          "text": "The following provisions of the Online Safety Act 2023 come into force on 11th November 2026— … section 75 (disclosure of information about use of service by deceased child users)",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0416": {
+      "url": "https://www.legislation.gov.uk/eur/2016/679/article/35",
+      "title": "UK GDPR, Article 35 (Data protection impact assessment)",
+      "publisher": "legislation.gov.uk (The National Archives)",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:05:50Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.legislation.gov.uk/eur/2016/679/article/35",
+          "content_type": "text/html;charset=utf-8",
+          "sha256": "ca6db69bec1e3fb8",
+          "bytes": 54152
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0416#1",
+          "locator": "Art. 35(1)",
+          "text": "Where a type of processing in particular using new technologies, and taking into account the nature, scope, context and purposes of the processing, is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall, prior to the processing, carry out an assessment of the impact",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0417": {
+      "url": "https://www.federalregister.gov/api/v1/documents/2026-20143.json",
+      "title": "Federal Register API record for FR Doc. 2026-20143, FTC Rule on Impersonation of Government and Businesses (ANPRM)",
+      "publisher": "Office of the Federal Register",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-01"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:05:51Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.federalregister.gov/api/v1/documents/2026-20143.json",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "5470b0c19b50fbdc",
+          "bytes": 3782
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0417#1",
+          "locator": "FR API searches (23 Nov 2026)",
+          "text": "[Observation, not a quotation] FR API searches for FTC documents since 1 Jun 2026 with \"artificial intelligence\" or \"super intelligence\", and all FTC documents since 1 Nov 2026, return only the July 2026 proposed accuracy statement (still a proposal; no final statement published) and unrelated items such as this impersonation ANPRM.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0418": {
+      "url": "https://www.soumu.go.jp/main_content/001099163.pdf",
+      "title": "AI事業者ガイドライン（第1.2版） [AI Guidelines for Business, Version 1.2] (MIC copy)",
+      "publisher": "Ministry of Internal Affairs and Communications; Ministry of Economy, Trade and Industry (Japan)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-03-31"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:05:56Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.soumu.go.jp/main_content/001099163.pdf",
+          "content_type": "application/pdf",
+          "sha256": "dcd0378a38ae2c15",
+          "bytes": 2033754
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0418#1",
+          "locator": "Cover",
+          "text": "AI 事業者ガイドライン （第 1.2 版） 令和 8 年 3 月 31 日 総務省 経済産業省 [AI Guidelines for Business (Version 1.2), 31 March 2026, MIC and METI]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0418#2",
+          "locator": "はじめに",
+          "text": "事業者が AI の社会実装及びガバナンスを共に実践するためのガイドライン（非拘束的なソフトロー）として本ガイドラインを 2024 年 4 月に策定した [these Guidelines were formulated in April 2024 as guidelines (non-binding soft law) for businesses]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0418#3",
+          "locator": "はじめに, n. 2",
+          "text": "同法第 13 条に基づき、全ての AI に関連する主体における AI の研究開発・活用の適正な実施に係る自主的かつ能動的な取組を促すための [under Article 13 of the Act, to encourage voluntary and proactive efforts by all AI-related actors]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0418#4",
+          "locator": "はじめに (AISI)",
+          "text": "「AI セーフティ・インスティテュート（AISI）」 を独立行政法人情報処理推進機構(IPA)に設置 [the AI Safety Institute (AISI) was established within IPA]",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0418#5",
+          "locator": "第2部 introduction",
+          "text": "広島 AI プロセス「全ての AI 関係者向けの広島プロセス国際指針」 [Part 2 D: the Hiroshima Process International Guiding Principles for All AI Actors]",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0419": {
+      "url": "https://www.soumu.go.jp/main_content/001099499.pdf",
+      "title": "AI事業者ガイドラインの更新に向けた検討 [Study toward updating the AI Guidelines for Business] (AI Governance study group, 30 Oct 2026)",
+      "publisher": "Ministry of Internal Affairs and Communications (Japan)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-10-30"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:05:58Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.soumu.go.jp/main_content/001099499.pdf",
+          "content_type": "application/pdf",
+          "sha256": "d4c72a6f0b676973",
+          "bytes": 2342989
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0419#1",
+          "locator": "Cover",
+          "text": "AI事業者ガイドラインの更新に向けた検討 2026年10月30日 [Study toward updating the AI Guidelines for Business, 30 October 2026]",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0420": {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-09/pdf/2026-22793.pdf",
+      "title": "Extension of the Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities, final rule; stay, 91 FR 70789",
+      "publisher": "Bureau of Industry and Security (Federal Register via govinfo)",
+      "type": "primary",
+      "dates": {
+        "published": "2026-11-09",
+        "effective": "2026-11-09"
+      },
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:06:02Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2026-11-09/pdf/2026-22793.pdf",
+          "content_type": "application/pdf",
+          "sha256": "f1d032624efa8fc1",
+          "bytes": 235744
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0420#1",
+          "locator": "Dates",
+          "text": "further stayed until January 10, 2027.",
+          "retrieved": "2026-11-23"
+        }
+      ]
+    },
+    "S-0421": {
+      "url": "https://www.nist.gov/programs-projects/concept-note-ai-rmf-profile-trustworthy-ai-critical-infrastructure",
+      "title": "Concept Note: AI RMF Profile on Trustworthy AI in Critical Infrastructure",
+      "publisher": "NIST",
+      "type": "primary",
+      "dates": {},
+      "fetches": [
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T05:06:02Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.nist.gov/programs-projects/concept-note-ai-rmf-profile-trustworthy-ai-critical-infrastructure",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "718c07f559185131",
+          "bytes": 82380
+        }
+      ],
+      "passages": [
+        {
+          "id": "S-0421#1",
+          "locator": "Page footer",
+          "text": "Created April 6, 2026, Updated July 17, 2026",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0421#2",
+          "locator": "Project status",
+          "text": "Project Status Ongoing",
           "retrieved": "2026-11-23"
         }
       ]

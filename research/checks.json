@@ -10988,30 +10988,34 @@
     },
     "entry:uk-ofcom:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0240",
-          "S-0245"
+          "S-0414",
+          "S-0240"
         ],
-        "proposals": [],
-        "note": "Penalty cap of the greater of £18M or 10% of qualifying worldwide revenue matches OSA Sch. 13 para 4. \"AI-specific enforcement authority\" is a characterisation; since Apr 2026 OSA s.216A allows Ofcom's enforcement powers to be extended to AI services.",
+        "proposals": [
+          "P-0205"
+        ],
+        "note": "Penalty cap (greater of £18M or 10% of qualifying worldwide revenue) still matches Sch. 13 para 4. \"AI-specific enforcement authority\" overstates s.216A, a Secretary of State power with no regulations made; raised as a question.",
         "missing": null,
         "hash": "ec36adc394d8"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0240",
-          "S-0245"
+          "S-0414",
+          "S-0240"
         ],
-        "proposals": [],
-        "note": "Penalty cap of the greater of £18M or 10% of qualifying worldwide revenue matches OSA Sch. 13 para 4. \"AI-specific enforcement authority\" is a characterisation; since Apr 2026 OSA s.216A allows Ofcom's enforcement powers to be extended to AI services.",
+        "proposals": [
+          "P-0205"
+        ],
+        "note": "Penalty cap (greater of £18M or 10% of qualifying worldwide revenue) still matches Sch. 13 para 4. \"AI-specific enforcement authority\" overstates s.216A, a Secretary of State power with no regulations made; raised as a question.",
         "missing": null,
         "hash": "ec36adc394d8"
       }
@@ -11054,18 +11058,18 @@
     },
     "entry:uk-ofcom:cov:mit": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
-        "outcome": "unresolved",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "inaccessible",
         "scope": "external",
         "sources": [
+          "S-0243",
           "S-0244",
-          "S-0369",
-          "S-0243"
+          "S-0414"
         ],
         "proposals": [],
-        "note": "Confirmed: code measures are recommended, not mandatory, and following them counts as compliance (ofcom-em p2); CSAM hash matching (ofcom-codes p1); no AI-specific measures (ofcom-codes p2); the NCII hash-matching amendment was laid before Parliament on 1 Jun 2026 (em-no2 p1; ofcom-em p4). Not confirmed from a primary text: that the NCII measure is now in force ('was added') and that the children's codes recommend age assurance.",
-        "missing": "Ofcom's statement or the issued codes showing the NCII hash-matching amendment in force (secondary reports say 30 Sep 2026) and the Protection of Children Codes' age-assurance measures; ofcom.org.uk refuses automated clients.",
+        "note": "Verified: codes recommend (not mandate) CSAM hash matching and swift takedown; following them counts as compliance (EM para 6.2); NCII hash-matching measure added 2026; no AI-specific measure in the illegal-content codes. Not verified: the age-assurance measures of the children's codes.",
+        "missing": "Ofcom Protection of Children Codes text (ofcom.org.uk refuses automated clients) to confirm the age-assurance clause",
         "hash": "be5ad8cefb92"
       },
       "last_success": {
@@ -11090,60 +11094,60 @@
     },
     "entry:uk-ofcom:cov": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0243",
-          "S-0241"
+          "S-0244"
         ],
         "proposals": [],
-        "note": "Coverage set fits; the codes recommend swift takedown of illegal content (ICU C2.3) under the s.10 illegal-content duties, which apply to all regulated U2U services.",
+        "note": "Codes recommend swift takedown of illegal content (ICU C2.2) and CSAM hash matching (ICU C9); post-deployment takedown framing and the coverage set (acct, mit, timing) fit.",
         "missing": null,
         "hash": "0c2f7bd0c8b7"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0243",
-          "S-0241"
+          "S-0244"
         ],
         "proposals": [],
-        "note": "Coverage set fits; the codes recommend swift takedown of illegal content (ICU C2.3) under the s.10 illegal-content duties, which apply to all regulated U2U services.",
+        "note": "Codes recommend swift takedown of illegal content (ICU C2.2) and CSAM hash matching (ICU C9); post-deployment takedown framing and the coverage set (acct, mit, timing) fit.",
         "missing": null,
         "hash": "0c2f7bd0c8b7"
       }
     },
     "entry:uk-ofcom:cov:timing": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0243",
-          "S-0241"
+          "S-0244"
         ],
         "proposals": [],
-        "note": "Coverage set fits; the codes recommend swift takedown of illegal content (ICU C2.3) under the s.10 illegal-content duties, which apply to all regulated U2U services.",
+        "note": "Codes recommend swift takedown of illegal content (ICU C2.2) and CSAM hash matching (ICU C9); post-deployment takedown framing and the coverage set (acct, mit, timing) fit.",
         "missing": null,
         "hash": "ca0c20c674d9"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0243",
-          "S-0241"
+          "S-0244"
         ],
         "proposals": [],
-        "note": "Coverage set fits; the codes recommend swift takedown of illegal content (ICU C2.3) under the s.10 illegal-content duties, which apply to all regulated U2U services.",
+        "note": "Codes recommend swift takedown of illegal content (ICU C2.2) and CSAM hash matching (ICU C9); post-deployment takedown framing and the coverage set (acct, mit, timing) fit.",
         "missing": null,
         "hash": "ca0c20c674d9"
       }
@@ -11166,18 +11170,17 @@
     },
     "entry:uk-ico": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "inaccessible",
         "scope": "external",
         "sources": [
-          "S-0247",
-          "S-0249",
-          "S-0250"
+          "S-0250",
+          "S-0252"
         ],
         "proposals": [],
-        "note": "Link live and on topic; pow 4 supported by DPA 2018 s.157 fines; name \"UK ICO\" still matches the brand used on ico.org.uk after the 30 Sep 2026 transfer to the Information Commission (see ico-commission).",
-        "missing": null,
+        "note": "pow 4 supported by DPA 2018 s.157 fines; name and status consistent with the Information Commission taking over functions. The link (ico.org.uk) could not be fetched: the request was refused in this environment.",
+        "missing": "A successful fetch of https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/ to confirm the link is live and on topic",
         "hash": "0627001c794f"
       },
       "last_success": {
@@ -11198,38 +11201,38 @@
     },
     "entry:uk-ico:desc": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
-        "outcome": "inaccessible",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0251",
           "S-0252",
           "S-0370",
-          "S-0250"
+          "S-0250",
+          "S-0371"
         ],
         "proposals": [],
-        "note": "Statutory facts confirmed: office of Information Commissioner abolished and functions transferred to the Information Commission on 30 Sep 2026 (duaa-s118 p1–p2; duaa-s119 p1; si2026-1015 p1); higher maximum penalty £17.5M or 4% of worldwide turnover (dpa-s157 p1). 'Still branded ICO' and the current status of its AI guidance need ico.org.uk.",
-        "missing": "ico.org.uk (AI guidance 'About this guidance' page and homepage branding) refuses automated clients; a manual check is needed.",
+        "note": "Office abolished and functions transferred 30 Sep 2026 (DUAA ss.118-119; SI 2026/1015 reg 2(b)); fine cap £17.5M or 4% of worldwide turnover (DPA s.157(5)). AI guidance remains non-statutory: SI 2026/425 only requires a statutory AI/ADM code to be prepared (P-0193 covers adding this to context and mit). Brand \"ICO\" and the Snap/Clearview investigations not re-checked (ico.org.uk refused).",
+        "missing": null,
         "hash": "3e88e0e4821b"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "changed",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0248",
           "S-0251",
           "S-0252",
-          "S-0250"
+          "S-0370",
+          "S-0250",
+          "S-0371"
         ],
-        "proposals": [
-          "P-0079"
-        ],
-        "note": "Guidance is non-statutory; office abolished and functions transferred 30 Sep 2026.",
+        "proposals": [],
+        "note": "Office abolished and functions transferred 30 Sep 2026 (DUAA ss.118-119; SI 2026/1015 reg 2(b)); fine cap £17.5M or 4% of worldwide turnover (DPA s.157(5)). AI guidance remains non-statutory: SI 2026/425 only requires a statutory AI/ADM code to be prepared (P-0193 covers adding this to context and mit). Brand \"ICO\" and the Snap/Clearview investigations not re-checked (ico.org.uk refused).",
         "missing": null,
-        "hash": "1a8738adec79"
+        "hash": "3e88e0e4821b"
       }
     },
     "entry:uk-ico:context": {
@@ -11306,77 +11309,88 @@
     },
     "entry:uk-ico:cov": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
+          "S-0251",
+          "S-0252",
+          "S-0370",
           "S-0250",
-          "S-0253"
+          "S-0371"
         ],
         "proposals": [],
-        "note": "Fine cap £17.5M or 4% of worldwide turnover (DPA 2018 s.157(5)); Snap My AI investigation confirmed (opened June 2023, concluded May 2024).",
+        "note": "Office abolished and functions transferred 30 Sep 2026 (DUAA ss.118-119; SI 2026/1015 reg 2(b)); fine cap £17.5M or 4% of worldwide turnover (DPA s.157(5)). AI guidance remains non-statutory: SI 2026/425 only requires a statutory AI/ADM code to be prepared (P-0193 covers adding this to context and mit). Brand \"ICO\" and the Snap/Clearview investigations not re-checked (ico.org.uk refused).",
         "missing": null,
         "hash": "a19c49f710d9"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
+          "S-0251",
+          "S-0252",
+          "S-0370",
           "S-0250",
-          "S-0253"
+          "S-0371"
         ],
         "proposals": [],
-        "note": "Fine cap £17.5M or 4% of worldwide turnover (DPA 2018 s.157(5)); Snap My AI investigation confirmed (opened June 2023, concluded May 2024).",
+        "note": "Office abolished and functions transferred 30 Sep 2026 (DUAA ss.118-119; SI 2026/1015 reg 2(b)); fine cap £17.5M or 4% of worldwide turnover (DPA s.157(5)). AI guidance remains non-statutory: SI 2026/425 only requires a statutory AI/ADM code to be prepared (P-0193 covers adding this to context and mit). Brand \"ICO\" and the Snap/Clearview investigations not re-checked (ico.org.uk refused).",
         "missing": null,
         "hash": "a19c49f710d9"
       }
     },
     "entry:uk-ico:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
+          "S-0251",
+          "S-0252",
+          "S-0370",
           "S-0250",
-          "S-0253"
+          "S-0371"
         ],
         "proposals": [],
-        "note": "Fine cap £17.5M or 4% of worldwide turnover (DPA 2018 s.157(5)); Snap My AI investigation confirmed (opened June 2023, concluded May 2024).",
+        "note": "Office abolished and functions transferred 30 Sep 2026 (DUAA ss.118-119; SI 2026/1015 reg 2(b)); fine cap £17.5M or 4% of worldwide turnover (DPA s.157(5)). AI guidance remains non-statutory: SI 2026/425 only requires a statutory AI/ADM code to be prepared (P-0193 covers adding this to context and mit). Brand \"ICO\" and the Snap/Clearview investigations not re-checked (ico.org.uk refused).",
         "missing": null,
         "hash": "6a1ffcfd1efd"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
+          "S-0251",
+          "S-0252",
+          "S-0370",
           "S-0250",
-          "S-0253"
+          "S-0371"
         ],
         "proposals": [],
-        "note": "Fine cap £17.5M or 4% of worldwide turnover (DPA 2018 s.157(5)); Snap My AI investigation confirmed (opened June 2023, concluded May 2024).",
+        "note": "Office abolished and functions transferred 30 Sep 2026 (DUAA ss.118-119; SI 2026/1015 reg 2(b)); fine cap £17.5M or 4% of worldwide turnover (DPA s.157(5)). AI guidance remains non-statutory: SI 2026/425 only requires a statutory AI/ADM code to be prepared (P-0193 covers adding this to context and mit). Brand \"ICO\" and the Snap/Clearview investigations not re-checked (ico.org.uk refused).",
         "missing": null,
         "hash": "6a1ffcfd1efd"
       }
     },
     "entry:uk-ico:cov:eval": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "inaccessible",
         "scope": "external",
         "sources": [
-          "S-0248",
-          "S-0253"
+          "S-0416"
         ],
         "proposals": [],
-        "note": "The guidance gives the ICO a methodology to audit AI applications; the Snap case turned on the adequacy of a pre-launch data protection risk assessment.",
-        "missing": null,
+        "note": "DPIA duty for high-risk processing using new technologies confirmed (UK GDPR Art 35(1)). The AI Auditing Framework clause depends on ico.org.uk, which could not be fetched.",
+        "missing": "ICO Guidance on AI and data protection / AI auditing framework pages on ico.org.uk",
         "hash": "3c7f4f52b029"
       },
       "last_success": {
@@ -11422,72 +11436,77 @@
     },
     "entry:us-ftc:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0238"
+          "S-0238",
+          "S-0417"
         ],
         "proposals": [],
-        "note": "The FTC's July 2026 proposed statement grounds its AI work in Section 5 alone and cites recent AI cases (DoNotPay, IntelliVision, Evolv, Workado, Air AI) on deceptive AI claims; consistent with desc and mit.",
+        "note": "The July 2026 proposed statement grounds the FTC's AI work in Section 5 and cites only Section 5 deception cases; it invokes America's AI Action Plan. FR API shows no final statement or new AI rule since. Coverage set (acct, mit, update) fits.",
         "missing": null,
         "hash": "9908eb02b423"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0238"
+          "S-0238",
+          "S-0417"
         ],
         "proposals": [],
-        "note": "The FTC's July 2026 proposed statement grounds its AI work in Section 5 alone and cites recent AI cases (DoNotPay, IntelliVision, Evolv, Workado, Air AI) on deceptive AI claims; consistent with desc and mit.",
+        "note": "The July 2026 proposed statement grounds the FTC's AI work in Section 5 and cites only Section 5 deception cases; it invokes America's AI Action Plan. FR API shows no final statement or new AI rule since. Coverage set (acct, mit, update) fits.",
         "missing": null,
         "hash": "9908eb02b423"
       }
     },
     "entry:us-ftc:cov": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0238"
+          "S-0238",
+          "S-0417"
         ],
         "proposals": [],
-        "note": "The FTC's July 2026 proposed statement grounds its AI work in Section 5 alone and cites recent AI cases (DoNotPay, IntelliVision, Evolv, Workado, Air AI) on deceptive AI claims; consistent with desc and mit.",
+        "note": "The July 2026 proposed statement grounds the FTC's AI work in Section 5 and cites only Section 5 deception cases; it invokes America's AI Action Plan. FR API shows no final statement or new AI rule since. Coverage set (acct, mit, update) fits.",
         "missing": null,
         "hash": "404315679482"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0238"
+          "S-0238",
+          "S-0417"
         ],
         "proposals": [],
-        "note": "The FTC's July 2026 proposed statement grounds its AI work in Section 5 alone and cites recent AI cases (DoNotPay, IntelliVision, Evolv, Workado, Air AI) on deceptive AI claims; consistent with desc and mit.",
+        "note": "The July 2026 proposed statement grounds the FTC's AI work in Section 5 and cites only Section 5 deception cases; it invokes America's AI Action Plan. FR API shows no final statement or new AI rule since. Coverage set (acct, mit, update) fits.",
         "missing": null,
         "hash": "404315679482"
       }
     },
     "entry:us-ftc:cov:mit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
-        "outcome": "no_change",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "inaccessible",
         "scope": "external",
         "sources": [
-          "S-0238"
+          "S-0238",
+          "S-0239"
         ],
         "proposals": [],
-        "note": "The FTC's July 2026 proposed statement grounds its AI work in Section 5 alone and cites recent AI cases (DoNotPay, IntelliVision, Evolv, Workado, Air AI) on deceptive AI claims; consistent with desc and mit.",
-        "missing": null,
+        "note": "Verified: Rytr order set aside 22 Dec 2025; EO 14365 s.7 on preemption of state laws mandating deceptive AI outputs; the proposed statement says such state laws are impliedly preempted; AI deception cases including facial-recognition claims (IntelliVision). Not verified: Operation AI Comply (Sept 2024, five cases) and the Rite Aid five-year facial-recognition ban, which the inspected sources do not mention.",
+        "missing": "FTC press releases or orders for Operation AI Comply (Sept 2024) and Rite Aid (ftc.gov refuses automated clients)",
         "hash": "a0bedb421f5f"
       },
       "last_success": {
@@ -11506,8 +11525,8 @@
     },
     "entry:us-ftc:context": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "inaccessible",
         "scope": "external",
         "sources": [
@@ -11515,8 +11534,8 @@
           "S-0239"
         ],
         "proposals": [],
-        "note": "Confirmed from the Federal Register: Rytr order set aside 22 Dec 2025 as part of addressing 'unnecessary burdens' (ftc-ps p3); EO 14365 §7 directs the policy statement (eo14365 p1); the 7 Jul 2026 proposed policy statement says conflicting state laws requiring deception are impliedly preempted (ftc-ps p1–p2). Operation AI Comply (Sept 2024, five cases) and the Rite Aid five-year facial-recognition ban are not in these sources.",
-        "missing": "FTC press releases for Operation AI Comply (Sept 2024) and the Rite Aid stipulated order (E.D. Pa. 2:23-cv-5023); ftc.gov refuses automated clients.",
+        "note": "Verified: Rytr order set aside 22 Dec 2025; EO 14365 s.7 on preemption of state laws mandating deceptive AI outputs; the proposed statement says such state laws are impliedly preempted; AI deception cases including facial-recognition claims (IntelliVision). Not verified: Operation AI Comply (Sept 2024, five cases) and the Rite Aid five-year facial-recognition ban, which the inspected sources do not mention.",
+        "missing": "FTC press releases or orders for Operation AI Comply (Sept 2024) and Rite Aid (ftc.gov refuses automated clients)",
         "hash": "90de9186581a"
       },
       "last_success": {
@@ -11632,16 +11651,16 @@
     },
     "entry:au-esafety:context": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0338",
-          "S-0339"
+          "S-0254",
+          "S-0255"
         ],
         "proposals": [],
-        "note": "Facts confirmed: standards made by the Commissioner under s.145 (au-osa p6) and codes registered under the Act; 2024 DIS standard imposes CSAM and pro-terror detection duties on high-impact generative AI services (au-dis p1–p3); 30,000 penalty units for breaching a standard or a code direction, 500 for notice breaches (au-osa p1–p2, p5); removal notices and Federal Court cessation orders (p3–p4). Note: codes are industry-developed and registered rather than 'issued' by eSafety (cf. P-0174). 'The leading non-EU model' and its influence on Five Eyes templates are comparative.",
+        "note": "Facts confirmed in Compilation No. 4 (current): 30,000 penalty units for breaching an industry standard (s 146) or a direction to comply with a code (s 143); 500 for removal-notice breaches (s 80); DIS standard mandates safeguards for generative AI. \"Business-disruption orders\" is a loose label for blocking, link-deletion and app-removal notices. The \"leading non-EU model\" and Five Eyes/Asia-Pacific influence sentence cannot be checked.",
         "missing": "comparative/analytic claim; not verifiable from sources",
         "hash": "a5adafeac6d4"
       },
@@ -11691,84 +11710,96 @@
     },
     "entry:au-esafety:cov": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0255"
+          "S-0255",
+          "S-0254",
+          "S-0123"
         ],
         "proposals": [],
-        "note": "DIS standard s.23(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage, proactive obligations as the notes say.",
+        "note": "DIS standard (in force, unamended) s.22(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage proactive obligations as the notes say. Australia is a member of the international network.",
         "missing": null,
         "hash": "0c2f7bd0c8b7"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0255"
+          "S-0255",
+          "S-0254",
+          "S-0123"
         ],
         "proposals": [],
-        "note": "DIS standard s.23(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage, proactive obligations as the notes say.",
+        "note": "DIS standard (in force, unamended) s.22(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage proactive obligations as the notes say. Australia is a member of the international network.",
         "missing": null,
         "hash": "0c2f7bd0c8b7"
       }
     },
     "entry:au-esafety:cov:timing": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0255"
+          "S-0255",
+          "S-0254",
+          "S-0123"
         ],
         "proposals": [],
-        "note": "DIS standard s.23(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage, proactive obligations as the notes say.",
+        "note": "DIS standard (in force, unamended) s.22(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage proactive obligations as the notes say. Australia is a member of the international network.",
         "missing": null,
         "hash": "d30c9909f0f1"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0255"
+          "S-0255",
+          "S-0254",
+          "S-0123"
         ],
         "proposals": [],
-        "note": "DIS standard s.23(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage, proactive obligations as the notes say.",
+        "note": "DIS standard (in force, unamended) s.22(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage proactive obligations as the notes say. Australia is a member of the international network.",
         "missing": null,
         "hash": "d30c9909f0f1"
       }
     },
     "entry:au-esafety:cov:mit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0255"
+          "S-0255",
+          "S-0254",
+          "S-0123"
         ],
         "proposals": [],
-        "note": "DIS standard s.23(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage, proactive obligations as the notes say.",
+        "note": "DIS standard (in force, unamended) s.22(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage proactive obligations as the notes say. Australia is a member of the international network.",
         "missing": null,
         "hash": "9e2a1705bbac"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0255"
+          "S-0255",
+          "S-0254",
+          "S-0123"
         ],
         "proposals": [],
-        "note": "DIS standard s.23(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage, proactive obligations as the notes say.",
+        "note": "DIS standard (in force, unamended) s.22(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage proactive obligations as the notes say. Australia is a member of the international network.",
         "missing": null,
         "hash": "9e2a1705bbac"
       }
@@ -11854,90 +11885,84 @@
     },
     "entry:co-doi:cov": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0259",
-          "S-0258"
+          "S-0341"
         ],
         "proposals": [],
-        "note": "Governance and risk-management framework for ECDIS, algorithms and predictive models confirmed; annual attestations to the Division confirmed.",
+        "note": "Amended Reg. 10-1-1 requires inventory of ECDIS and models (5.A.9), ongoing performance and drift monitoring (5.A.12) and officer-signed attestation reports to the Division (6.D), under insurance authority (s.1). The mit note says \"underwriting\" while the rule covers any insurance practice; not material. Eval note handled by pending P-0175.",
         "missing": null,
         "hash": "838dc32c12d6"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0259",
-          "S-0258"
+          "S-0341"
         ],
         "proposals": [],
-        "note": "Governance and risk-management framework for ECDIS, algorithms and predictive models confirmed; annual attestations to the Division confirmed.",
+        "note": "Amended Reg. 10-1-1 requires inventory of ECDIS and models (5.A.9), ongoing performance and drift monitoring (5.A.12) and officer-signed attestation reports to the Division (6.D), under insurance authority (s.1). The mit note says \"underwriting\" while the rule covers any insurance practice; not material. Eval note handled by pending P-0175.",
         "missing": null,
         "hash": "838dc32c12d6"
       }
     },
     "entry:co-doi:cov:mit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0259",
-          "S-0258"
+          "S-0341"
         ],
         "proposals": [],
-        "note": "Governance and risk-management framework for ECDIS, algorithms and predictive models confirmed; annual attestations to the Division confirmed.",
+        "note": "Amended Reg. 10-1-1 requires inventory of ECDIS and models (5.A.9), ongoing performance and drift monitoring (5.A.12) and officer-signed attestation reports to the Division (6.D), under insurance authority (s.1). The mit note says \"underwriting\" while the rule covers any insurance practice; not material. Eval note handled by pending P-0175.",
         "missing": null,
         "hash": "c68c24382e98"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0259",
-          "S-0258"
+          "S-0341"
         ],
         "proposals": [],
-        "note": "Governance and risk-management framework for ECDIS, algorithms and predictive models confirmed; annual attestations to the Division confirmed.",
+        "note": "Amended Reg. 10-1-1 requires inventory of ECDIS and models (5.A.9), ongoing performance and drift monitoring (5.A.12) and officer-signed attestation reports to the Division (6.D), under insurance authority (s.1). The mit note says \"underwriting\" while the rule covers any insurance practice; not material. Eval note handled by pending P-0175.",
         "missing": null,
         "hash": "c68c24382e98"
       }
     },
     "entry:co-doi:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0259",
-          "S-0258"
+          "S-0341"
         ],
         "proposals": [],
-        "note": "Governance and risk-management framework for ECDIS, algorithms and predictive models confirmed; annual attestations to the Division confirmed.",
+        "note": "Amended Reg. 10-1-1 requires inventory of ECDIS and models (5.A.9), ongoing performance and drift monitoring (5.A.12) and officer-signed attestation reports to the Division (6.D), under insurance authority (s.1). The mit note says \"underwriting\" while the rule covers any insurance practice; not material. Eval note handled by pending P-0175.",
         "missing": null,
         "hash": "6325538da937"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0259",
-          "S-0258"
+          "S-0341"
         ],
         "proposals": [],
-        "note": "Governance and risk-management framework for ECDIS, algorithms and predictive models confirmed; annual attestations to the Division confirmed.",
+        "note": "Amended Reg. 10-1-1 requires inventory of ECDIS and models (5.A.9), ongoing performance and drift monitoring (5.A.12) and officer-signed attestation reports to the Division (6.D), under insurance authority (s.1). The mit note says \"underwriting\" while the rule covers any insurance practice; not material. Eval note handled by pending P-0175.",
         "missing": null,
         "hash": "6325538da937"
       }
@@ -12025,101 +12050,100 @@
     },
     "entry:imda:desc": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0260"
         ],
         "proposals": [],
-        "note": "IMDA's AI page confirms it publishes the Model AI Governance Framework (first edition 23 Jan 2019), developed AI Verify and set up the AI Verify Foundation; the frameworks are voluntary guidance for private-sector deployment.",
+        "note": "IMDA page (updated 6 Nov 2026) confirms the Model AI Governance Framework (first edition 23 Jan 2019) as guidance to private-sector organisations, that IMDA developed AI Verify and established the AI Verify Foundation, and that newer instruments are voluntary guidelines. \"Applied via sectoral adaptations\" not separately checked.",
         "missing": null,
         "hash": "3f1718748bca"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0260"
         ],
         "proposals": [],
-        "note": "IMDA's AI page confirms it publishes the Model AI Governance Framework (first edition 23 Jan 2019), developed AI Verify and set up the AI Verify Foundation; the frameworks are voluntary guidance for private-sector deployment.",
+        "note": "IMDA page (updated 6 Nov 2026) confirms the Model AI Governance Framework (first edition 23 Jan 2019) as guidance to private-sector organisations, that IMDA developed AI Verify and established the AI Verify Foundation, and that newer instruments are voluntary guidelines. \"Applied via sectoral adaptations\" not separately checked.",
         "missing": null,
         "hash": "3f1718748bca"
       }
     },
     "entry:imda:cov": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0260"
         ],
         "proposals": [],
-        "note": "IMDA's AI page confirms it publishes the Model AI Governance Framework (first edition 23 Jan 2019), developed AI Verify and set up the AI Verify Foundation; the frameworks are voluntary guidance for private-sector deployment.",
+        "note": "IMDA page (updated 6 Nov 2026) confirms the Model AI Governance Framework (first edition 23 Jan 2019) as guidance to private-sector organisations, that IMDA developed AI Verify and established the AI Verify Foundation, and that newer instruments are voluntary guidelines. \"Applied via sectoral adaptations\" not separately checked.",
         "missing": null,
         "hash": "838dc32c12d6"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0260"
         ],
         "proposals": [],
-        "note": "IMDA's AI page confirms it publishes the Model AI Governance Framework (first edition 23 Jan 2019), developed AI Verify and set up the AI Verify Foundation; the frameworks are voluntary guidance for private-sector deployment.",
+        "note": "IMDA page (updated 6 Nov 2026) confirms the Model AI Governance Framework (first edition 23 Jan 2019) as guidance to private-sector organisations, that IMDA developed AI Verify and established the AI Verify Foundation, and that newer instruments are voluntary guidelines. \"Applied via sectoral adaptations\" not separately checked.",
         "missing": null,
         "hash": "838dc32c12d6"
       }
     },
     "entry:imda:cov:mit": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0260"
         ],
         "proposals": [],
-        "note": "IMDA's AI page confirms it publishes the Model AI Governance Framework (first edition 23 Jan 2019), developed AI Verify and set up the AI Verify Foundation; the frameworks are voluntary guidance for private-sector deployment.",
+        "note": "IMDA page (updated 6 Nov 2026) confirms the Model AI Governance Framework (first edition 23 Jan 2019) as guidance to private-sector organisations, that IMDA developed AI Verify and established the AI Verify Foundation, and that newer instruments are voluntary guidelines. \"Applied via sectoral adaptations\" not separately checked.",
         "missing": null,
         "hash": "63a6f9a70c45"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0260"
         ],
         "proposals": [],
-        "note": "IMDA's AI page confirms it publishes the Model AI Governance Framework (first edition 23 Jan 2019), developed AI Verify and set up the AI Verify Foundation; the frameworks are voluntary guidance for private-sector deployment.",
+        "note": "IMDA page (updated 6 Nov 2026) confirms the Model AI Governance Framework (first edition 23 Jan 2019) as guidance to private-sector organisations, that IMDA developed AI Verify and established the AI Verify Foundation, and that newer instruments are voluntary guidelines. \"Applied via sectoral adaptations\" not separately checked.",
         "missing": null,
         "hash": "63a6f9a70c45"
       }
     },
     "entry:imda:context": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
-        "outcome": "unresolved",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "inaccessible",
         "scope": "external",
         "sources": [
-          "S-0260",
-          "S-0372"
+          "S-0260"
         ],
         "proposals": [],
-        "note": "Confirmed: Model AI Governance Framework (2019; GenAI version 30 May 2024), AI Verify and the AI Verify Foundation (imda-ai p3–p6; aivf-mgfgenai p1); Veritas now a plugin in AI Verify. Not confirmed: 'adopted by major labs' and 'adapted as a regional template' (imda-ai p7 observation); MAS Guidelines on AI Risk Management (Oct 2026, effective Oct 2027) could not be re-checked because mas.gov.sg served a maintenance page.",
-        "missing": "Evidence that frontier labs use AI Verify and that ASEAN states adapted it; MAS media release on the AI Risk Management Guidelines (mas.gov.sg under maintenance on 9 Nov).",
+        "note": "IMDA facts (Model Framework 2019, GenAI framework, AI Verify, Foundation) confirmed. The MAS clauses (Veritas 2019-2023; Guidelines on AI Risk Management issued Oct 2026, effective Oct 2027) could not be re-checked: mas.gov.sg returned a maintenance page. \"Adopted by major labs\", \"regional template\" and ASEAN claims are analytic.",
+        "missing": "MAS media release on the Guidelines on AI Risk Management and the Veritas page (mas.gov.sg unavailable on 23 Nov 2026)",
         "hash": "67406ae3719e"
       },
       "last_success": {
@@ -12142,16 +12166,16 @@
     },
     "entry:imda:cov:acct": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "inaccessible",
         "scope": "external",
         "sources": [
           "S-0260"
         ],
         "proposals": [],
-        "note": "AI Verify Foundation as a multistakeholder not-for-profit confirmed (imda-ai p4). MAS's Guidelines and their Oct 2027 effective date need mas.gov.sg, which returned a maintenance page on every attempt.",
-        "missing": "MAS media release 'MAS Sets Out Supervisory Expectations on Responsible AI Adoption by Financial Institutions' (mas.gov.sg unavailable 9 Nov 2026).",
+        "note": "IMDA facts (Model Framework 2019, GenAI framework, AI Verify, Foundation) confirmed. The MAS clauses (Veritas 2019-2023; Guidelines on AI Risk Management issued Oct 2026, effective Oct 2027) could not be re-checked: mas.gov.sg returned a maintenance page. \"Adopted by major labs\", \"regional template\" and ASEAN claims are analytic.",
+        "missing": "MAS media release on the Guidelines on AI Risk Management and the Veritas page (mas.gov.sg unavailable on 23 Nov 2026)",
         "hash": "223b99426f93"
       },
       "last_success": {
@@ -12219,14 +12243,16 @@
     },
     "entry:jp-sectors": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "inaccessible",
         "scope": "external",
-        "sources": [],
+        "sources": [
+          "S-0418"
+        ],
         "proposals": [],
-        "note": "meti.go.jp answered both curl and headless Chromium with HTTP 403 on 9 Nov (the map link 20260331_report.html and the v1.2 English PDF). The 6 Nov run read both successfully (S-0344, S-0267).",
-        "missing": "METI's AI Guidelines for Business v1.2 page and PDF (soft-law statement) — retry later; meti.go.jp refused automated clients on 9 Nov.",
+        "note": "name, layer, jur, pow 2 and status consistent with the MIC copy of Guidelines v1.2 (soft law). The METI link returned HTTP 403 to automated clients.",
+        "missing": "A successful fetch of https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html (meti.go.jp refuses automated clients)",
         "hash": "defd57422696"
       },
       "last_success": {
@@ -12249,87 +12275,96 @@
     },
     "entry:jp-sectors:desc": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
-        "outcome": "inaccessible",
-        "scope": "external",
-        "sources": [],
-        "proposals": [],
-        "note": "meti.go.jp answered both curl and headless Chromium with HTTP 403 on 9 Nov (the map link 20260331_report.html and the v1.2 English PDF). The 6 Nov run read both successfully (S-0344, S-0267).",
-        "missing": "METI's AI Guidelines for Business v1.2 page and PDF (soft-law statement) — retry later; meti.go.jp refused automated clients on 9 Nov.",
-        "hash": "f89fea522999"
-      },
-      "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0267",
-          "S-0266"
+          "S-0418",
+          "S-0266",
+          "S-0419"
         ],
         "proposals": [],
-        "note": "Guidelines are soft law issued alongside the AI Promotion Act; the AI Strategy HQ sits in the Cabinet with Cabinet Office secretariat (Arts 19, 26); no central AI regulator with fines.",
+        "note": "MIC copy of Guidelines v1.2 (31 Mar 2026, MIC and METI) calls itself non-binding soft law, cites Art. 13 of the AI Promotion Act, includes the Hiroshima guiding principles (Part 2 D) and notes J-AISI at IPA. Act: AI Strategic HQ in the Cabinet (Art 19), affairs handled by the Cabinet Office (Art 26). A further update is under study (30 Oct 2026) but v1.2 is current.",
         "missing": null,
-        "hash": "136b163ae552"
+        "hash": "f89fea522999"
+      },
+      "last_success": {
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "no_change",
+        "scope": "external",
+        "sources": [
+          "S-0418",
+          "S-0266",
+          "S-0419"
+        ],
+        "proposals": [],
+        "note": "MIC copy of Guidelines v1.2 (31 Mar 2026, MIC and METI) calls itself non-binding soft law, cites Art. 13 of the AI Promotion Act, includes the Hiroshima guiding principles (Part 2 D) and notes J-AISI at IPA. Act: AI Strategic HQ in the Cabinet (Art 19), affairs handled by the Cabinet Office (Art 26). A further update is under study (30 Oct 2026) but v1.2 is current.",
+        "missing": null,
+        "hash": "f89fea522999"
       }
     },
     "entry:jp-sectors:cov": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0267",
-          "S-0266"
+          "S-0418",
+          "S-0266",
+          "S-0419"
         ],
         "proposals": [],
-        "note": "Guidelines are soft law issued alongside the AI Promotion Act; the AI Strategy HQ sits in the Cabinet with Cabinet Office secretariat (Arts 19, 26); no central AI regulator with fines.",
+        "note": "MIC copy of Guidelines v1.2 (31 Mar 2026, MIC and METI) calls itself non-binding soft law, cites Art. 13 of the AI Promotion Act, includes the Hiroshima guiding principles (Part 2 D) and notes J-AISI at IPA. Act: AI Strategic HQ in the Cabinet (Art 19), affairs handled by the Cabinet Office (Art 26). A further update is under study (30 Oct 2026) but v1.2 is current.",
         "missing": null,
         "hash": "404315679482"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0267",
-          "S-0266"
+          "S-0418",
+          "S-0266",
+          "S-0419"
         ],
         "proposals": [],
-        "note": "Guidelines are soft law issued alongside the AI Promotion Act; the AI Strategy HQ sits in the Cabinet with Cabinet Office secretariat (Arts 19, 26); no central AI regulator with fines.",
+        "note": "MIC copy of Guidelines v1.2 (31 Mar 2026, MIC and METI) calls itself non-binding soft law, cites Art. 13 of the AI Promotion Act, includes the Hiroshima guiding principles (Part 2 D) and notes J-AISI at IPA. Act: AI Strategic HQ in the Cabinet (Art 19), affairs handled by the Cabinet Office (Art 26). A further update is under study (30 Oct 2026) but v1.2 is current.",
         "missing": null,
         "hash": "404315679482"
       }
     },
     "entry:jp-sectors:cov:acct": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0267",
-          "S-0266"
+          "S-0418",
+          "S-0266",
+          "S-0419"
         ],
         "proposals": [],
-        "note": "Guidelines are soft law issued alongside the AI Promotion Act; the AI Strategy HQ sits in the Cabinet with Cabinet Office secretariat (Arts 19, 26); no central AI regulator with fines.",
+        "note": "MIC copy of Guidelines v1.2 (31 Mar 2026, MIC and METI) calls itself non-binding soft law, cites Art. 13 of the AI Promotion Act, includes the Hiroshima guiding principles (Part 2 D) and notes J-AISI at IPA. Act: AI Strategic HQ in the Cabinet (Art 19), affairs handled by the Cabinet Office (Art 26). A further update is under study (30 Oct 2026) but v1.2 is current.",
         "missing": null,
         "hash": "597afcf1cb9c"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0267",
-          "S-0266"
+          "S-0418",
+          "S-0266",
+          "S-0419"
         ],
         "proposals": [],
-        "note": "Guidelines are soft law issued alongside the AI Promotion Act; the AI Strategy HQ sits in the Cabinet with Cabinet Office secretariat (Arts 19, 26); no central AI regulator with fines.",
+        "note": "MIC copy of Guidelines v1.2 (31 Mar 2026, MIC and METI) calls itself non-binding soft law, cites Art. 13 of the AI Promotion Act, includes the Hiroshima guiding principles (Part 2 D) and notes J-AISI at IPA. Act: AI Strategic HQ in the Cabinet (Art 19), affairs handled by the Cabinet Office (Art 26). A further update is under study (30 Oct 2026) but v1.2 is current.",
         "missing": null,
         "hash": "597afcf1cb9c"
       }
@@ -12402,186 +12437,174 @@
     },
     "entry:bis": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0236",
-          "S-0235",
+          "S-0402",
           "S-0230"
         ],
         "proposals": [],
-        "note": "Link live; pow 4 and active status consistent; chip controls on D:5/Macau-headquartered entities remain enforced, consistent with the sec note.",
+        "note": "Link live; pow 4 and active consistent. The new IFR aims to stop D:5-headquartered companies training advanced models with US chips, consistent with the sec note; coverage set (sec, thresh) fits.",
         "missing": null,
         "hash": "850ac0c9c912"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0236",
-          "S-0235",
+          "S-0402",
           "S-0230"
         ],
         "proposals": [],
-        "note": "Link live; pow 4 and active status consistent; chip controls on D:5/Macau-headquartered entities remain enforced, consistent with the sec note.",
+        "note": "Link live; pow 4 and active consistent. The new IFR aims to stop D:5-headquartered companies training advanced models with US chips, consistent with the sec note; coverage set (sec, thresh) fits.",
         "missing": null,
         "hash": "850ac0c9c912"
       }
     },
     "entry:bis:cov": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0236",
-          "S-0235",
+          "S-0402",
           "S-0230"
         ],
         "proposals": [],
-        "note": "Link live; pow 4 and active status consistent; chip controls on D:5/Macau-headquartered entities remain enforced, consistent with the sec note.",
+        "note": "Link live; pow 4 and active consistent. The new IFR aims to stop D:5-headquartered companies training advanced models with US chips, consistent with the sec note; coverage set (sec, thresh) fits.",
         "missing": null,
         "hash": "3bf763194ca0"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0236",
-          "S-0235",
+          "S-0402",
           "S-0230"
         ],
         "proposals": [],
-        "note": "Link live; pow 4 and active status consistent; chip controls on D:5/Macau-headquartered entities remain enforced, consistent with the sec note.",
+        "note": "Link live; pow 4 and active consistent. The new IFR aims to stop D:5-headquartered companies training advanced models with US chips, consistent with the sec note; coverage set (sec, thresh) fits.",
         "missing": null,
         "hash": "3bf763194ca0"
       }
     },
     "entry:bis:cov:sec": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0236",
-          "S-0235",
+          "S-0402",
           "S-0230"
         ],
         "proposals": [],
-        "note": "Link live; pow 4 and active status consistent; chip controls on D:5/Macau-headquartered entities remain enforced, consistent with the sec note.",
+        "note": "Link live; pow 4 and active consistent. The new IFR aims to stop D:5-headquartered companies training advanced models with US chips, consistent with the sec note; coverage set (sec, thresh) fits.",
         "missing": null,
         "hash": "e9c0aeb54808"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0236",
-          "S-0235",
+          "S-0402",
           "S-0230"
         ],
         "proposals": [],
-        "note": "Link live; pow 4 and active status consistent; chip controls on D:5/Macau-headquartered entities remain enforced, consistent with the sec note.",
+        "note": "Link live; pow 4 and active consistent. The new IFR aims to stop D:5-headquartered companies training advanced models with US chips, consistent with the sec note; coverage set (sec, thresh) fits.",
         "missing": null,
         "hash": "e9c0aeb54808"
       }
     },
     "entry:bis:desc": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
-        "outcome": "unresolved",
-        "scope": "external",
-        "sources": [
-          "S-0373",
-          "S-0230",
-          "S-0233",
-          "S-0231",
-          "S-0232",
-          "S-0229",
-          "S-0234",
-          "S-0374",
-          "S-0375"
-        ],
-        "proposals": [],
-        "note": "Facts confirmed: 2022 rule (fr-2022-21658 p1), 2023 requirement (bis-guid-may26 p2), Dec 2024 HBM and equipment controls (fr-2024-28270 p1–p2), Jan 2025 Diffusion Rule with closed-weight model control above 10^26 operations (fr-2025-00636 p1; aidiff p1), non-enforcement and planned rescission/replacement from May 2025 (bis-rescind p1–p2; bis-guid-may26 p3), Jan 2026 case-by-case review for H200-class chips (fr-2026-00789 p1–p2), 31 May 2026 ultimate-parent guidance (bis-guid-may26 p1). No new BIS advanced-computing rule in the FR since July 2026. 'Most consequential' claims are comparative.",
-        "missing": "comparative/analytic claim; not verifiable from sources",
-        "hash": "5dc35773fcc7"
-      },
-      "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0233",
-          "S-0231",
-          "S-0232",
-          "S-0229",
-          "S-0235",
+          "S-0402",
+          "S-0236",
           "S-0234",
           "S-0230"
         ],
         "proposals": [
-          "P-0075"
+          "P-0202"
         ],
-        "note": "Compute tiers came in the Jan 2025 Diffusion Rule (unenforced since May 2025), not the 2024 update; H200 rule Jan 2026. The May 31, 2026 guidance sentence is accurate.",
+        "note": "AI Diffusion Rule formally rescinded by the 19 Nov 2026 remote-access IFR (never enforced); ECCN 4E091 model-weight control and country tiers revoked; new data-centre (>12,000,000 aggregate TPP) and five-country licence requirements. Covered by pending P-0202 (desc, context, cov:thresh). H200 rule and May 31, 2026 guidance sentences still accurate.",
         "missing": null,
-        "hash": "090b972dad82"
+        "hash": "5dc35773fcc7"
+      },
+      "last_success": {
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0402",
+          "S-0236",
+          "S-0234",
+          "S-0230"
+        ],
+        "proposals": [
+          "P-0202"
+        ],
+        "note": "AI Diffusion Rule formally rescinded by the 19 Nov 2026 remote-access IFR (never enforced); ECCN 4E091 model-weight control and country tiers revoked; new data-centre (>12,000,000 aggregate TPP) and five-country licence requirements. Covered by pending P-0202 (desc, context, cov:thresh). H200 rule and May 31, 2026 guidance sentences still accurate.",
+        "missing": null,
+        "hash": "5dc35773fcc7"
       }
     },
     "entry:bis:context": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
-        "outcome": "unresolved",
-        "scope": "external",
-        "sources": [
-          "S-0373",
-          "S-0230",
-          "S-0233",
-          "S-0231",
-          "S-0232",
-          "S-0229",
-          "S-0234",
-          "S-0374",
-          "S-0375"
-        ],
-        "proposals": [],
-        "note": "Facts confirmed: 2022 rule (fr-2022-21658 p1), 2023 requirement (bis-guid-may26 p2), Dec 2024 HBM and equipment controls (fr-2024-28270 p1–p2), Jan 2025 Diffusion Rule with closed-weight model control above 10^26 operations (fr-2025-00636 p1; aidiff p1), non-enforcement and planned rescission/replacement from May 2025 (bis-rescind p1–p2; bis-guid-may26 p3), Jan 2026 case-by-case review for H200-class chips (fr-2026-00789 p1–p2), 31 May 2026 ultimate-parent guidance (bis-guid-may26 p1). No new BIS advanced-computing rule in the FR since July 2026. 'Most consequential' claims are comparative.",
-        "missing": "comparative/analytic claim; not verifiable from sources",
-        "hash": "8679cc7e0b1c"
-      },
-      "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "changed",
         "scope": "external",
         "sources": [
-          "S-0233",
-          "S-0231",
-          "S-0232",
-          "S-0229",
-          "S-0235",
+          "S-0402",
+          "S-0236",
           "S-0234",
           "S-0230"
         ],
         "proposals": [
-          "P-0075"
+          "P-0202"
         ],
-        "note": "Compute tiers came in the Jan 2025 Diffusion Rule (unenforced since May 2025), not the 2024 update; H200 rule Jan 2026. The May 31, 2026 guidance sentence is accurate.",
+        "note": "AI Diffusion Rule formally rescinded by the 19 Nov 2026 remote-access IFR (never enforced); ECCN 4E091 model-weight control and country tiers revoked; new data-centre (>12,000,000 aggregate TPP) and five-country licence requirements. Covered by pending P-0202 (desc, context, cov:thresh). H200 rule and May 31, 2026 guidance sentences still accurate.",
         "missing": null,
-        "hash": "dd80758fba49"
+        "hash": "8679cc7e0b1c"
+      },
+      "last_success": {
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
+        "outcome": "changed",
+        "scope": "external",
+        "sources": [
+          "S-0402",
+          "S-0236",
+          "S-0234",
+          "S-0230"
+        ],
+        "proposals": [
+          "P-0202"
+        ],
+        "note": "AI Diffusion Rule formally rescinded by the 19 Nov 2026 remote-access IFR (never enforced); ECCN 4E091 model-weight control and country tiers revoked; new data-centre (>12,000,000 aggregate TPP) and five-country licence requirements. Covered by pending P-0202 (desc, context, cov:thresh). H200 rule and May 31, 2026 guidance sentences still accurate.",
+        "missing": null,
+        "hash": "8679cc7e0b1c"
       }
     },
     "entry:bis:cov:thresh": {
@@ -12620,105 +12643,112 @@
     },
     "entry:nist-rmf": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0182",
-          "S-0237"
+          "S-0237",
+          "S-0421"
         ],
         "proposals": [],
-        "note": "Link live; voluntary framework (pow 2); GenAI Profile July 2024 confirmed.",
+        "note": "Link live; voluntary (pow 2); AI RMF 1.0 released 26 Jan 2023 with four functions; GenAI Profile (AI 600-1) 26 Jul 2024 as a profile of the framework.",
         "missing": null,
         "hash": "a45a25635540"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0182",
-          "S-0237"
+          "S-0237",
+          "S-0421"
         ],
         "proposals": [],
-        "note": "Link live; voluntary framework (pow 2); GenAI Profile July 2024 confirmed.",
+        "note": "Link live; voluntary (pow 2); AI RMF 1.0 released 26 Jan 2023 with four functions; GenAI Profile (AI 600-1) 26 Jul 2024 as a profile of the framework.",
         "missing": null,
         "hash": "a45a25635540"
       }
     },
     "entry:nist-rmf:cov": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0182",
-          "S-0237"
+          "S-0237",
+          "S-0421"
         ],
         "proposals": [],
-        "note": "Link live; voluntary framework (pow 2); GenAI Profile July 2024 confirmed.",
+        "note": "Link live; voluntary (pow 2); AI RMF 1.0 released 26 Jan 2023 with four functions; GenAI Profile (AI 600-1) 26 Jul 2024 as a profile of the framework.",
         "missing": null,
         "hash": "404315679482"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0182",
-          "S-0237"
+          "S-0237",
+          "S-0421"
         ],
         "proposals": [],
-        "note": "Link live; voluntary framework (pow 2); GenAI Profile July 2024 confirmed.",
+        "note": "Link live; voluntary (pow 2); AI RMF 1.0 released 26 Jan 2023 with four functions; GenAI Profile (AI 600-1) 26 Jul 2024 as a profile of the framework.",
         "missing": null,
         "hash": "404315679482"
       }
     },
     "entry:nist-rmf:cov:update": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0182",
-          "S-0237"
+          "S-0237",
+          "S-0421"
         ],
         "proposals": [],
-        "note": "Link live; voluntary framework (pow 2); GenAI Profile July 2024 confirmed.",
+        "note": "Link live; voluntary (pow 2); AI RMF 1.0 released 26 Jan 2023 with four functions; GenAI Profile (AI 600-1) 26 Jul 2024 as a profile of the framework.",
         "missing": null,
         "hash": "a475699fe1a9"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0182",
-          "S-0237"
+          "S-0237",
+          "S-0421"
         ],
         "proposals": [],
-        "note": "Link live; voluntary framework (pow 2); GenAI Profile July 2024 confirmed.",
+        "note": "Link live; voluntary (pow 2); AI RMF 1.0 released 26 Jan 2023 with four functions; GenAI Profile (AI 600-1) 26 Jul 2024 as a profile of the framework.",
         "missing": null,
         "hash": "a475699fe1a9"
       }
     },
     "entry:nist-rmf:desc": {
       "last_attempt": {
-        "run": "2026-11-09-weekly",
-        "date": "2026-11-09",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "unresolved",
         "scope": "external",
         "sources": [
-          "S-0182"
+          "S-0182",
+          "S-0421"
         ],
         "proposals": [],
-        "note": "Facts confirmed: AI RMF 2023, GenAI Profile Jul 2024, revision under the AI Action Plan, Critical Infrastructure Profile concept note 7 Apr 2026 (nist-rmf p1–p4). 'De facto global reference' is comparative.",
+        "note": "Facts confirmed: RMF 2023, GenAI Profile 2024, revision under the AI Action Plan, Critical Infrastructure Profile concept note 7 Apr 2026, project ongoing (no draft yet). \"De facto global reference\" cannot be checked.",
         "missing": "comparative/analytic claim; not verifiable from sources",
         "hash": "32abcbeaa68f"
       },
@@ -12919,84 +12949,92 @@
     },
     "edge:us-ftc|us-action": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0238"
+          "S-0238",
+          "S-0417"
         ],
         "proposals": [],
-        "note": "The FTC's 2026 AI policy statement cites the AI Action Plan and frames its Section 5 work within it.",
+        "note": "The July 2026 proposed statement grounds the FTC's AI work in Section 5 and cites only Section 5 deception cases; it invokes America's AI Action Plan. FR API shows no final statement or new AI rule since. Coverage set (acct, mit, update) fits.",
         "missing": null,
         "hash": "96be3c54a136"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0238"
+          "S-0238",
+          "S-0417"
         ],
         "proposals": [],
-        "note": "The FTC's 2026 AI policy statement cites the AI Action Plan and frames its Section 5 work within it.",
+        "note": "The July 2026 proposed statement grounds the FTC's AI work in Section 5 and cites only Section 5 deception cases; it invokes America's AI Action Plan. FR API shows no final statement or new AI rule since. Coverage set (acct, mit, update) fits.",
         "missing": null,
         "hash": "96be3c54a136"
       }
     },
     "edge:au-esafety|other-aisis": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
+          "S-0255",
+          "S-0254",
           "S-0123"
         ],
         "proposals": [],
-        "note": "Australia is listed as a member of the network (now the International Network for Advanced AI Measurement, Evaluation and Science).",
+        "note": "DIS standard (in force, unamended) s.22(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage proactive obligations as the notes say. Australia is a member of the international network.",
         "missing": null,
         "hash": "0929c4a1605e"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
+          "S-0255",
+          "S-0254",
           "S-0123"
         ],
         "proposals": [],
-        "note": "Australia is listed as a member of the network (now the International Network for Advanced AI Measurement, Evaluation and Science).",
+        "note": "DIS standard (in force, unamended) s.22(3) requires high-impact generative AI services to prevent generation of CSEM and pro-terror material, test models and differentiate AI outputs: design-stage proactive obligations as the notes say. Australia is a member of the international network.",
         "missing": null,
         "hash": "0929c4a1605e"
       }
     },
     "edge:co-doi|co-aia": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0259"
+          "S-0341",
+          "S-0162"
         ],
         "proposals": [],
-        "note": "Regulation 10-1-1 took effect 14 Nov 2023, before the Colorado AI Act (2024); same state, sectoral versus horizontal focus.",
+        "note": "Reg. 10-1-1 effective 14 Nov 2023; SB24-205 approved 17 May 2024: the DOI framework predates the state AI Act.",
         "missing": null,
         "hash": "50e05eb87788"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0259"
+          "S-0341",
+          "S-0162"
         ],
         "proposals": [],
-        "note": "Regulation 10-1-1 took effect 14 Nov 2023, before the Colorado AI Act (2024); same state, sectoral versus horizontal focus.",
+        "note": "Reg. 10-1-1 effective 14 Nov 2023; SB24-205 approved 17 May 2024: the DOI framework predates the state AI Act.",
         "missing": null,
         "hash": "50e05eb87788"
       }
@@ -13037,124 +13075,124 @@
     },
     "edge:imda|hiroshima": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0264"
         ],
         "proposals": [],
-        "note": "Singapore is a member of the Hiroshima AI Process Friends Group (as of Aug 2026), a voluntary framework of supporting countries.",
+        "note": "Singapore is listed in the Hiroshima AI Process Friends Group (as of Aug 2026), a voluntary framework of supporting countries.",
         "missing": null,
         "hash": "c0a88b2d7d95"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
           "S-0264"
         ],
         "proposals": [],
-        "note": "Singapore is a member of the Hiroshima AI Process Friends Group (as of Aug 2026), a voluntary framework of supporting countries.",
+        "note": "Singapore is listed in the Hiroshima AI Process Friends Group (as of Aug 2026), a voluntary framework of supporting countries.",
         "missing": null,
         "hash": "c0a88b2d7d95"
       }
     },
     "edge:jp-sectors|jp-ai": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0267",
+          "S-0418",
           "S-0266",
-          "S-0268"
+          "S-0419"
         ],
         "proposals": [],
-        "note": "Guidelines v1.2 reference the AI Promotion Act and its Art. 13 guideline, embed the Hiroshima guiding principles (Part 2 D), and are maintained with IPA/J-AISI as joint secretariat.",
+        "note": "MIC copy of Guidelines v1.2 (31 Mar 2026, MIC and METI) calls itself non-binding soft law, cites Art. 13 of the AI Promotion Act, includes the Hiroshima guiding principles (Part 2 D) and notes J-AISI at IPA. Act: AI Strategic HQ in the Cabinet (Art 19), affairs handled by the Cabinet Office (Art 26). A further update is under study (30 Oct 2026) but v1.2 is current.",
         "missing": null,
         "hash": "d14ee086fa27"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0267",
+          "S-0418",
           "S-0266",
-          "S-0268"
+          "S-0419"
         ],
         "proposals": [],
-        "note": "Guidelines v1.2 reference the AI Promotion Act and its Art. 13 guideline, embed the Hiroshima guiding principles (Part 2 D), and are maintained with IPA/J-AISI as joint secretariat.",
+        "note": "MIC copy of Guidelines v1.2 (31 Mar 2026, MIC and METI) calls itself non-binding soft law, cites Art. 13 of the AI Promotion Act, includes the Hiroshima guiding principles (Part 2 D) and notes J-AISI at IPA. Act: AI Strategic HQ in the Cabinet (Art 19), affairs handled by the Cabinet Office (Art 26). A further update is under study (30 Oct 2026) but v1.2 is current.",
         "missing": null,
         "hash": "d14ee086fa27"
       }
     },
     "edge:jp-sectors|hiroshima": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0267",
+          "S-0418",
           "S-0266",
-          "S-0268"
+          "S-0419"
         ],
         "proposals": [],
-        "note": "Guidelines v1.2 reference the AI Promotion Act and its Art. 13 guideline, embed the Hiroshima guiding principles (Part 2 D), and are maintained with IPA/J-AISI as joint secretariat.",
+        "note": "MIC copy of Guidelines v1.2 (31 Mar 2026, MIC and METI) calls itself non-binding soft law, cites Art. 13 of the AI Promotion Act, includes the Hiroshima guiding principles (Part 2 D) and notes J-AISI at IPA. Act: AI Strategic HQ in the Cabinet (Art 19), affairs handled by the Cabinet Office (Art 26). A further update is under study (30 Oct 2026) but v1.2 is current.",
         "missing": null,
         "hash": "a362f293de98"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0267",
+          "S-0418",
           "S-0266",
-          "S-0268"
+          "S-0419"
         ],
         "proposals": [],
-        "note": "Guidelines v1.2 reference the AI Promotion Act and its Art. 13 guideline, embed the Hiroshima guiding principles (Part 2 D), and are maintained with IPA/J-AISI as joint secretariat.",
+        "note": "MIC copy of Guidelines v1.2 (31 Mar 2026, MIC and METI) calls itself non-binding soft law, cites Art. 13 of the AI Promotion Act, includes the Hiroshima guiding principles (Part 2 D) and notes J-AISI at IPA. Act: AI Strategic HQ in the Cabinet (Art 19), affairs handled by the Cabinet Office (Art 26). A further update is under study (30 Oct 2026) but v1.2 is current.",
         "missing": null,
         "hash": "a362f293de98"
       }
     },
     "edge:jp-sectors|other-aisis": {
       "last_attempt": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0267",
+          "S-0418",
           "S-0266",
-          "S-0268"
+          "S-0419"
         ],
         "proposals": [],
-        "note": "Guidelines v1.2 reference the AI Promotion Act and its Art. 13 guideline, embed the Hiroshima guiding principles (Part 2 D), and are maintained with IPA/J-AISI as joint secretariat.",
+        "note": "MIC copy of Guidelines v1.2 (31 Mar 2026, MIC and METI) calls itself non-binding soft law, cites Art. 13 of the AI Promotion Act, includes the Hiroshima guiding principles (Part 2 D) and notes J-AISI at IPA. Act: AI Strategic HQ in the Cabinet (Art 19), affairs handled by the Cabinet Office (Art 26). A further update is under study (30 Oct 2026) but v1.2 is current.",
         "missing": null,
         "hash": "a3a9f36a443e"
       },
       "last_success": {
-        "run": "2026-10-10-baseline",
-        "date": "2026-10-10",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "external",
         "sources": [
-          "S-0267",
+          "S-0418",
           "S-0266",
-          "S-0268"
+          "S-0419"
         ],
         "proposals": [],
-        "note": "Guidelines v1.2 reference the AI Promotion Act and its Art. 13 guideline, embed the Hiroshima guiding principles (Part 2 D), and are maintained with IPA/J-AISI as joint secretariat.",
+        "note": "MIC copy of Guidelines v1.2 (31 Mar 2026, MIC and METI) calls itself non-binding soft law, cites Art. 13 of the AI Promotion Act, includes the Hiroshima guiding principles (Part 2 D) and notes J-AISI at IPA. Act: AI Strategic HQ in the Cabinet (Art 19), affairs handled by the Cabinet Office (Art 26). A further update is under study (30 Oct 2026) but v1.2 is current.",
         "missing": null,
         "hash": "a3a9f36a443e"
       }
