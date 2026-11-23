@@ -34730,6 +34730,66 @@
           "locator": "Second commitment — Developers of frontier models",
           "text": "Developers also commit to implement fail-safe mechanisms to shut down model operations within their control, including during training and internal use (e.g. restrictions, pauses or shutdowns)",
           "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0408#5",
+          "locator": "Signatories paragraph",
+          "text": "Civil society: LawZero, SaferAI, AI Safety Connect, Ifri, Geopolitical Center for the Datasphere, GPAI Policy Lab, CeSIA, Oxford Martin AI Governance Initiative, The Future Society, FAR.AI, Future of Life Institute.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0408#6",
+          "locator": "Page heading and date",
+          "text": "Paris Call for AI safety and security. Posted on 9 November 2026",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0408#7",
+          "locator": "Preamble, para. 4",
+          "text": "including through the Hiroshima process, the Frontier Safety Commitments of the Seoul AI Summit, the G7 Evian AI meeting",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0408#8",
+          "locator": "First commitment",
+          "text": "First, policy makers, researchers and developers are committed to establishing a common framework for the evaluation and risk management of frontier models, building on existing frameworks.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0408#9",
+          "locator": "First commitment",
+          "text": "recognize the role that existing networks, including International Network for Advanced AI Measurement, Evaluation and Science (NAAIMES) can play in making evaluation methods and results more comparable and accessible",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0408#10",
+          "locator": "First commitment",
+          "text": "Furthermore, we agree to publish the non-sensitive findings of our evaluations in a standardized format to ensure comparability, while also creating a publicly accessible shared repository.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0408#11",
+          "locator": "Second commitment — Developers of frontier models",
+          "text": "Commit to disclose model capabilities, limitations, and known risks and, where appropriate and proportionate to the risk, support the evaluation of models by qualified independent evaluators, as appropriate and consistent with existing practices and arrangements.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0408#12",
+          "locator": "Second commitment — Developers of frontier models",
+          "text": "Developers are committed to working on a clear governance structure with defined responsibilities, adequate resources and independent oversight.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0408#13",
+          "locator": "Third commitment",
+          "text": "Thirdly, policy makers, researchers and developers are committed to information sharing, reporting and early warning systems.",
+          "retrieved": "2026-11-23"
+        },
+        {
+          "id": "S-0408#14",
+          "locator": "Third commitment",
+          "text": "Policy makers commit to offer secure and confidential channels through which whistleblowers, including employees and other relevant stakeholders, can raise concerns about systemic risks on reasonable grounds without fear of legal or professional retaliation.",
+          "retrieved": "2026-11-23"
         }
       ]
     },
