@@ -433,18 +433,6 @@
       "fetches": [
         {
           "date": "2026-10-10",
-          "at": "2026-10-10T16:29:17Z",
-          "run": "2026-10-10-trial1b",
-          "via": "curl",
-          "status": "ok",
-          "http": 200,
-          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
-          "content_type": "text/html; charset=UTF-8",
-          "sha256": "9487c62bc44b4f63",
-          "bytes": 60306
-        },
-        {
-          "date": "2026-10-10",
           "at": "2026-10-10T18:17:51Z",
           "run": "2026-10-10-baseline",
           "via": "curl",
@@ -490,6 +478,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "188570e40776411b",
           "bytes": 60928
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:34Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "9f7622d26e296bd9",
+          "bytes": 60932
         }
       ],
       "passages": [
@@ -2100,18 +2100,6 @@
       "fetches": [
         {
           "date": "2026-10-10",
-          "at": "2026-10-10T16:33:57Z",
-          "run": "2026-10-10-trial1b",
-          "via": "curl",
-          "status": "ok",
-          "http": 200,
-          "final_url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08828&term=2025&Summary=Y&Actions=Y&Text=Y",
-          "content_type": "text/html; charset=utf-8",
-          "sha256": "fff361ca0b91342f",
-          "bytes": 54941
-        },
-        {
-          "date": "2026-10-10",
           "at": "2026-10-10T18:28:17Z",
           "run": "2026-10-10-baseline",
           "via": "curl",
@@ -2156,6 +2144,18 @@
           "final_url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08828&term=2025&Summary=Y&Actions=Y&Text=Y",
           "content_type": "text/html; charset=utf-8",
           "sha256": "4e977c596a23985f",
+          "bytes": 54927
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:30Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08828&term=2025&Summary=Y&Actions=Y&Text=Y",
+          "content_type": "text/html; charset=utf-8",
+          "sha256": "035d3dd9c1036d32",
           "bytes": 54927
         }
       ],
@@ -2815,18 +2815,6 @@
       "fetches": [
         {
           "date": "2026-10-10",
-          "at": "2026-10-10T16:42:57Z",
-          "run": "2026-10-10-trial1b",
-          "via": "curl",
-          "status": "ok",
-          "http": 200,
-          "final_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-05/pdf/2026-11415.pdf",
-          "content_type": "application/pdf",
-          "sha256": "4a25c970947e7234",
-          "bytes": 194548
-        },
-        {
-          "date": "2026-10-10",
           "at": "2026-10-10T18:29:45Z",
           "run": "2026-10-10-baseline",
           "via": "curl",
@@ -2865,6 +2853,18 @@
           "date": "2026-11-16",
           "at": "2026-11-16T04:51:59Z",
           "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.govinfo.gov/content/pkg/FR-2026-06-05/pdf/2026-11415.pdf",
+          "content_type": "application/pdf",
+          "sha256": "4a25c970947e7234",
+          "bytes": 194548
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:36Z",
+          "run": "2026-11-23-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -3041,6 +3041,18 @@
           "final_url": "https://www.federalregister.gov/api/v1/documents/2026-11415.json",
           "content_type": "application/json; charset=utf-8",
           "sha256": "adee481e518ba5c6",
+          "bytes": 2844
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:36Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.federalregister.gov/api/v1/documents/2026-11415.json",
+          "content_type": "application/json; charset=utf-8",
+          "sha256": "8d54a55c1b757389",
           "bytes": 2844
         }
       ],
@@ -3370,18 +3382,6 @@
       "fetches": [
         {
           "date": "2026-10-10",
-          "at": "2026-10-10T16:44:54Z",
-          "run": "2026-10-10-trial1b",
-          "via": "curl",
-          "status": "ok",
-          "http": 200,
-          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
-          "content_type": "text/html; charset=UTF-8",
-          "sha256": "a634e53a8e652472",
-          "bytes": 62911
-        },
-        {
-          "date": "2026-10-10",
           "at": "2026-10-10T18:29:12Z",
           "run": "2026-10-10-baseline",
           "via": "curl",
@@ -3426,6 +3426,18 @@
           "final_url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
           "content_type": "text/html; charset=UTF-8",
           "sha256": "82f94671f1a253b0",
+          "bytes": 63999
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:31Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "f7c31f549d9d501c",
           "bytes": 63999
         }
       ],
@@ -3509,18 +3521,6 @@
       "fetches": [
         {
           "date": "2026-10-10",
-          "at": "2026-10-10T16:44:54Z",
-          "run": "2026-10-10-trial1b",
-          "via": "curl",
-          "status": "ok",
-          "http": 200,
-          "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/118119",
-          "content_type": "/",
-          "sha256": "d879f9b54c6068aa",
-          "bytes": 1050925
-        },
-        {
-          "date": "2026-10-10",
           "at": "2026-10-10T18:17:56Z",
           "run": "2026-10-10-baseline",
           "via": "curl",
@@ -3559,6 +3559,18 @@
           "date": "2026-11-16",
           "at": "2026-11-16T04:51:52Z",
           "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://ec.europa.eu/newsroom/dae/redirection/document/118119",
+          "content_type": "/",
+          "sha256": "d879f9b54c6068aa",
+          "bytes": 1050925
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:32Z",
+          "run": "2026-11-23-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -3877,6 +3889,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "0fc27c462d85a419",
           "bytes": 66591
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:35Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "e02a531faf359db1",
+          "bytes": 66591
         }
       ],
       "passages": [
@@ -4112,6 +4136,18 @@
           "content_type": "application/pdf",
           "sha256": "be569073f90700e1",
           "bytes": 566088
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:36Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/npc/c2/c30834/202605/P020260511309265804880.pdf",
+          "content_type": "application/pdf",
+          "sha256": "be569073f90700e1",
+          "bytes": 566088
         }
       ],
       "passages": [
@@ -4178,6 +4214,18 @@
           "date": "2026-11-16",
           "at": "2026-11-16T04:52:08Z",
           "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "http://www.npc.gov.cn/npc/c2/c30834/202505/P020250513550316685290.pdf",
+          "content_type": "application/pdf",
+          "sha256": "d21df610ee4cc775",
+          "bytes": 537609
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:48Z",
+          "run": "2026-11-23-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -4252,6 +4300,18 @@
           "date": "2026-11-16",
           "at": "2026-11-16T04:52:16Z",
           "run": "2026-11-16-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://www.gov.cn/zhengce/content/202605/content_7068345.htm",
+          "content_type": "text/html",
+          "sha256": "65d04b38730337d3",
+          "bytes": 51825
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:54Z",
+          "run": "2026-11-23-weekly",
           "via": "curl",
           "status": "ok",
           "http": 200,
@@ -7526,6 +7586,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "94fe5dcbd4c46445",
           "bytes": 62721
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:34Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/questions-and-answers-code-practice-general-purpose-ai",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "855825c7924ba353",
+          "bytes": 62725
         }
       ],
       "passages": [
@@ -7633,6 +7705,18 @@
           "content_type": "text/html; charset=UTF-8",
           "sha256": "06d678ed6c5bccb3",
           "bytes": 57485
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:35Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/signing-general-purpose-ai-code-practice",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "a4027bc558750e7f",
+          "bytes": 57481
         }
       ],
       "passages": [
@@ -7703,6 +7787,18 @@
           "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers",
           "content_type": "text/html; charset=UTF-8",
           "sha256": "3088809f32ef03d1",
+          "bytes": 84383
+        },
+        {
+          "date": "2026-11-23",
+          "at": "2026-11-23T04:51:35Z",
+          "run": "2026-11-23-weekly",
+          "via": "curl",
+          "status": "ok",
+          "http": 200,
+          "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/general-purpose-ai-models-ai-act-questions-answers",
+          "content_type": "text/html; charset=UTF-8",
+          "sha256": "67d130b946213305",
           "bytes": 84383
         }
       ],
