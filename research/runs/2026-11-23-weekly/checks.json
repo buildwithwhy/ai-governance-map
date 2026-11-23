@@ -1010,5 +1010,83 @@
     "note": "Internal: compared each text with RUBRIC §2 and the entries the map puts in each layer at 1cc3fdc. L1 (aisr, aisi-net, ai-summits, oecd, coe-ai, unesco, un-ai): norms, a treaty, summits, the network of national bodies; no entry imposes direct duties on labs. L2: statutes, EOs, framework acts plus a CAC regulation, proposed bills and a planning item; the tooltip omits regulations, proposals and the US AI Action Plan (a policy plan, pow 2), an incompleteness rather than an error (us-action's layer is outside this group). L3: five US state laws. L4 tooltip names only bodies that are L4 entries (EU AI Office, AISIs, METR, Apollo, AVERI, CAIS, FSI, Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan ministries, BIS); NIST AI RMF is in L4 but unnamed. L5: cross-firm/multistakeholder commitments and codes incl. government-issued voluntary codes. L6: five single-lab frameworks. Subtitles are framing. Pending P-0172/P-0197 (new L4 standards entries) would not make the L4 text wrong.",
     "missing": null,
     "hash": "8db319a5a1ee"
+  },
+  "derived:counts": {
+    "run": "2026-11-23-weekly",
+    "date": "2026-11-23",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "882d135ce758"
+  },
+  "derived:dates": {
+    "run": "2026-11-23-weekly",
+    "date": "2026-11-23",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "41e6480537ae"
+  },
+  "derived:generated": {
+    "run": "2026-11-23-weekly",
+    "date": "2026-11-23",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "6bd36e09fa00"
+  },
+  "label:jur": {
+    "run": "2026-11-23-weekly",
+    "date": "2026-11-23",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "14b7ec831d3f"
+  },
+  "label:pow": {
+    "run": "2026-11-23-weekly",
+    "date": "2026-11-23",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "4ca978ec46c4"
+  },
+  "label:status": {
+    "run": "2026-11-23-weekly",
+    "date": "2026-11-23",
+    "outcome": "no_change",
+    "scope": "internal",
+    "sources": [
+      "S-0354"
+    ],
+    "proposals": [],
+    "note": "check.js: counts match the data, generated files equal a fresh build, content-date sites agree (2026-10-11); labels match RUBRIC §3–§5. Internal consistency only.",
+    "missing": null,
+    "hash": "3c867cd6f90c"
   }
 }

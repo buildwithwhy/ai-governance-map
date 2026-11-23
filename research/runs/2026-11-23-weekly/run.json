@@ -3,7 +3,7 @@
   "label": "Weekly audit 2026-11-23",
   "partial": true,
   "started_at": "2026-11-23T04:51:12Z",
-  "finished_at": null,
+  "finished_at": "2026-11-23T05:08:10Z",
   "scope": {
     "entries": [],
     "note": null
@@ -478,5 +478,12 @@
       ]
     }
   ],
-  "usage": null
+  "usage": "about $26",
+  "highlights": [
+    "Coverage: 76 items checked, 60 against outside sources (42 no change, 5 changed, 5 unresolved, 8 inaccessible) and 16 internally (layer text, counts, labels). This week's rolling eighth was the oldest items: Ofcom, ICO, FTC, eSafety, Colorado DOI, IMDA, Japan sector regulators, BIS, NIST AI RMF; China, Korea and Japan national law; and the layer tooltips and subtitles. 266 sources behind earlier checks were re-fetched (230 by plain download, 36 in headless Chromium; 247 retrieved): the BIS home page showed a new rule (below); every other recorded quotation still matches. 68 items remain on their 10 Oct verification and come next.",
+    "The main change: a BIS interim final rule effective 19 Nov 2026 (91 FR 74970) formally rescinds the AI Diffusion Rule, removing the model-weight control and country tiers, and adds licence requirements for chips going to overseas data centres serving firms headquartered in China and other D:5 countries, and for advanced chips to Indonesia, Malaysia, Singapore, Thailand and Brazil (P-0202). Also: OpenAI announced embedded assessments by Apollo, METR, Transluce and Goodfire, with unredacted reports to its board's Safety and Security Committee (P-0203), and lifecycle review gates with training pauses (P-0204); Korea's Act leaves the safety-duty reporting method to an MSIT notice (P-0206); the mitigation gap summary still cites Colorado's repealed discrimination duties (P-0207).",
+    "New questions: does Ofcom have 'AI-specific enforcement authority'? The only AI provision lets the Secretary of State extend the Act to AI services by regulations, and none exist (P-0205, recommended: reword); add the World AI Cooperation Organization, whose founding agreement China ratified on 6 Nov but which is not yet in force (P-0208, recommended: wait). P-0196 (Paris Declaration entry) is now v2, using the official Élysée text: 19 governments, 11 companies and 11 civil-society groups at signature; the entry gives no counts.",
+    "Awaiting your decision in total: 59 proposals (38 corrections, 1 new entry, 20 questions with drafted options and a recommendation); P-0187 (White House Accord) is still held — OpenAI's 16 Nov post confirms it signed, but no official text exists. No answers have been saved on the page since 6 Nov, so nothing has been applied for four runs.",
+    "Discovery also found, screened out for now: Australia announced on 10 Nov mandatory frontier-AI duties under planned 'Australian AI Standards' legislation with a new AI-safety regulator — no bill yet; revisit when a draft appears. Still unreachable: ico.org.uk, ftc.gov, meti.go.jp, coe.int, mas.gov.sg, law.go.kr (Korean texts read from the official KLRI translation), California's legislature website."
+  ]
 }

@@ -1770,8 +1770,8 @@
     },
     "derived:counts": {
       "last_attempt": {
-        "run": "2026-11-16-weekly",
-        "date": "2026-11-16",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
@@ -1783,8 +1783,8 @@
         "hash": "882d135ce758"
       },
       "last_success": {
-        "run": "2026-11-16-weekly",
-        "date": "2026-11-16",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
@@ -1798,8 +1798,8 @@
     },
     "derived:generated": {
       "last_attempt": {
-        "run": "2026-11-16-weekly",
-        "date": "2026-11-16",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
@@ -1811,8 +1811,8 @@
         "hash": "6bd36e09fa00"
       },
       "last_success": {
-        "run": "2026-11-16-weekly",
-        "date": "2026-11-16",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
@@ -1826,8 +1826,8 @@
     },
     "derived:dates": {
       "last_attempt": {
-        "run": "2026-11-16-weekly",
-        "date": "2026-11-16",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
@@ -1839,8 +1839,8 @@
         "hash": "41e6480537ae"
       },
       "last_success": {
-        "run": "2026-11-16-weekly",
-        "date": "2026-11-16",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
@@ -1894,8 +1894,8 @@
     },
     "label:jur": {
       "last_attempt": {
-        "run": "2026-11-16-weekly",
-        "date": "2026-11-16",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
@@ -1907,8 +1907,8 @@
         "hash": "14b7ec831d3f"
       },
       "last_success": {
-        "run": "2026-11-16-weekly",
-        "date": "2026-11-16",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
@@ -14801,8 +14801,8 @@
     },
     "label:pow": {
       "last_attempt": {
-        "run": "2026-11-16-weekly",
-        "date": "2026-11-16",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
@@ -14814,8 +14814,8 @@
         "hash": "4ca978ec46c4"
       },
       "last_success": {
-        "run": "2026-11-16-weekly",
-        "date": "2026-11-16",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
@@ -14829,8 +14829,8 @@
     },
     "label:status": {
       "last_attempt": {
-        "run": "2026-11-16-weekly",
-        "date": "2026-11-16",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
@@ -14842,8 +14842,8 @@
         "hash": "3c867cd6f90c"
       },
       "last_success": {
-        "run": "2026-11-16-weekly",
-        "date": "2026-11-16",
+        "run": "2026-11-23-weekly",
+        "date": "2026-11-23",
         "outcome": "no_change",
         "scope": "internal",
         "sources": [
